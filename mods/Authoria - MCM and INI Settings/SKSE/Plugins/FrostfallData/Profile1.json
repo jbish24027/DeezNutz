@@ -1,0 +1,68 @@
+{
+	"float" : 
+	{
+		"exposure_meter_height" : 25.200000762939453,
+		"exposure_meter_opacity" : 100.0,
+		"exposure_meter_width" : 292.79998779296875,
+		"exposure_meter_xpos" : 1211.0,
+		"exposure_meter_ypos" : 113.0,
+		"exposure_rate" : 0.60000002384185791,
+		"weathersense_meter_height" : -22.0,
+		"weathersense_meter_opacity" : 100.0,
+		"weathersense_meter_width" : 292.0,
+		"weathersense_meter_xpos" : 916.75,
+		"weathersense_meter_ypos" : 16.0,
+		"wetness_meter_height" : -22.0,
+		"wetness_meter_opacity" : 100.0,
+		"wetness_meter_width" : 292.0,
+		"wetness_meter_xpos" : 1486.4000244140625,
+		"wetness_meter_ypos" : 151.60000610351563
+	},
+	"int" : 
+	{
+		"animation" : 3,
+		"condition_messages" : 2,
+		"display_attribute_values_in_weathersense" : 1,
+		"display_attributes_in_weathersense" : 1,
+		"display_tutorials" : 2,
+		"exposure_meter_color" : 9687295,
+		"exposure_meter_color_warm" : 13369344,
+		"exposure_meter_fill_direction" : 0,
+		"exposure_meter_hanchor" : 1,
+		"exposure_meter_vanchor" : 0,
+		"exposure_pause_combat" : 2,
+		"exposure_pause_dialogue" : 2,
+		"follower_animation" : 2,
+		"force_feedback" : 2,
+		"frigid_water_is_lethal" : 2,
+		"frost_shader_on" : 2,
+		"full_screen_effects" : 1,
+		"hotkey_weathersense" : 70,
+		"max_exposure_mode" : 2,
+		"meter_display_mode" : 0,
+		"meter_display_time" : 4,
+		"movement_penalty" : 2,
+		"no_fast_travel" : 1,
+		"no_waiting" : 1,
+		"notification_equipmentsummary" : 1,
+		"notification_equipmentvalues" : 1,
+		"profile_version" : 1,
+		"sound_effects" : 2,
+		"vampire_mode" : 1,
+		"weather_messages" : 2,
+		"weathersense_display_mode" : 0,
+		"weathersense_meter_color" : 16630567,
+		"weathersense_meter_fill_direction" : 2,
+		"weathersense_meter_hanchor" : 2,
+		"weathersense_meter_vanchor" : 0,
+		"wet_shader_on" : 2,
+		"wetness_meter_color" : 2386420,
+		"wetness_meter_fill_direction" : 1,
+		"wetness_meter_hanchor" : 1,
+		"wetness_meter_vanchor" : 0
+	},
+	"string" : 
+	{
+		"profile_name" : "Normal"
+	}
+}

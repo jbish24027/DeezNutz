@@ -1,0 +1,9 @@
+# Save the Icerunner Papyrus Log Fix Readback
+
+- Fix type: script override only.
+- Script: `Scripts\STI_PlayerUpdateScript.pex`
+- Source: `Source\Scripts\STI_PlayerUpdateScript.psc`
+- Dynamic Boats compatibility: `UpdateDocks()` returns before direct marker toggles when `Dynamic Boats at Docks - Save The Icerunner Patch.esp` is installed.
+- Record behavior: no ESP is included; `STISolitudeDocksEnableMarker` keeps its Dynamic Boats enable parent.
+- Compile result: `STI_PlayerUpdateScript.psc` compiled successfully with 0 errors and 0 warnings.
+- MO2 note: after external file creation, refresh MO2 with F5 if the VFS still resolves the original BSA script.

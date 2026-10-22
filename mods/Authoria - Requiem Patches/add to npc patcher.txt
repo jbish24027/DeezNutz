@@ -1,0 +1,12 @@
+add to npc patcher:
+ccbgssse040-advobgobs.esl
+
+ccpewsse002-armsofchaos.esl
+
+ccbgssse067-daedinv.esm
+ccbgssse069-contest.esl
+ccvsvsse003-necroarts.esl
+ccvsvsse004-beafarmer.esl
+ccbgssse013-dawnfang.esl
+cckrtsse001_altar.esl (with bittercup  - tweaks and enhancements)
+legacyofthedragonborn.esm

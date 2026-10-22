@@ -1,0 +1,15 @@
+{
+    "name": "Lydia 00 Male Base Idle and Chairs",
+    "description": "Vanilla male standing idles and chair animations for Lydia, beating the feminine idle and sitting mods.",
+    "priority": 900100,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "A2C8E"
+            }
+        }
+    ]
+}

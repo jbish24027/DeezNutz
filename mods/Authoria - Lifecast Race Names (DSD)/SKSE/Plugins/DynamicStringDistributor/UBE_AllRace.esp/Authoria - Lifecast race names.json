@@ -1,0 +1,37 @@
+[
+  {
+    "editor_id": "00UBE_BretonRace",
+    "form_id": "00005734|UBE_AllRace.esp",
+    "type": "RACE FULL",
+    "original": "Breton",
+    "string": "Breton "
+  },
+  {
+    "editor_id": "00UBE_ImperialRace",
+    "form_id": "0005A179|UBE_AllRace.esp",
+    "type": "RACE FULL",
+    "original": "Imperial",
+    "string": "Imperial "
+  },
+  {
+    "editor_id": "00UBE_NordRace",
+    "form_id": "0005A184|UBE_AllRace.esp",
+    "type": "RACE FULL",
+    "original": "Nord",
+    "string": "Nord "
+  },
+  {
+    "editor_id": "00UBE_RedguardRace",
+    "form_id": "0005A18E|UBE_AllRace.esp",
+    "type": "RACE FULL",
+    "original": "Redguard",
+    "string": "Redguard "
+  },
+  {
+    "editor_id": "00UBE_OrcRace",
+    "form_id": "0005A1B0|UBE_AllRace.esp",
+    "type": "RACE FULL",
+    "original": "Orc",
+    "string": "Orc "
+  }
+]

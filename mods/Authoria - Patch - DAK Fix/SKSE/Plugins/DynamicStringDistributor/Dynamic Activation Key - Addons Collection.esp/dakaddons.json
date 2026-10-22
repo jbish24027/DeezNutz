@@ -1,0 +1,122 @@
+[
+{
+"form_id": "FE007800|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>m</font> "
+},
+{
+"form_id": "FE007803|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 2,
+"string": " <font face='$Iconographia'>m</font> "
+},
+{
+"form_id": "FE007803|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 3,
+"string": " <font face='$Iconographia'>m</font> "
+},
+{
+"form_id": "FE007806|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>V</font> "
+},
+{
+"form_id": "FE007808|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#dddddd'>N</font> "
+},
+{
+"form_id": "FE007808|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>Q</font> "
+},
+{
+"form_id": "FE007808|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 2,
+"string": " <font face='$Iconographia'>N</font> "
+},
+{
+"form_id": "FE007809|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>m</font> "
+},
+{
+"form_id": "FE00780A|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>V</font> "
+},
+{
+"form_id": "FE00780E|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>S</font> "
+},
+{
+"form_id": "FE007818|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>M</font> "
+},
+{
+"form_id": "FE007819|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>M</font> "
+},
+{
+"form_id": "FE00781A|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>K</font> "
+},
+{
+"form_id": "FE00781B|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>K</font> "
+},
+{
+"form_id": "FE00781C|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia'>M</font> "
+},
+{
+"form_id": "FE007818|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#ff0404'>M</font> "
+},
+{
+"form_id": "FE007819|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#ff0404'>M</font> "
+},
+{
+"form_id": "FE00781A|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#ff0404'>K</font> "
+},
+{
+"form_id": "FE00781B|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#ff0404'>K</font> "
+},
+{
+"form_id": "FE00781C|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#ff0404'>M</font> "
+}
+]

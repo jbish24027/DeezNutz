@@ -1,0 +1,611 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+#                            PPA MOD CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+#   This file controls physics behavior, collision detection, and animation
+#   settings. Most values can be overridden per-actor using override configs (/ppa-override-configs folder).
+#
+#   TIP: Use the in-game debug options to visualize bones and collision
+#        cylinders while tweaking these values.
+#
+# View the mod page for more advanced configuration tips: https://www.loverslab.com/files/file/46320-procedural-penis-animationscollision-beta/
+#
+# ⚠️ IMPORTANT NOTE: If a value has decimal places, like 1.0 - you MUST have a decimal.⚠️
+# ⚠️ No decimal means it may be read wrong. Same with non-decimal numbers              ⚠️
+#
+# ───────────────────────────────────────────────────────────────────────────────
+#                                   GENERAL
+# ───────────────────────────────────────────────────────────────────────────────
+[General]
+
+# Enable vaginal/anus opening and closing during scenes. Disable this if you want CBPC/SMP to do it
+HandleOpeningPhysics = true
+
+# Redirect futa characters to use the anus instead.
+FutasUseAnus = false
+
+# Skip physics processing for scenes with more than this many actors.
+IgnoredSceneActorCount = 6
+
+# Skip applying hole physics to male actors. Also disables animating their masturbation
+# Disable this for male support (May have slight bugs you'll need to solve with "SelectActor")
+IgnoreMaleActors = false
+
+# Global expression system toggle. You can also just manually delete the expression presets
+# To disable them
+EnableExpressionSystem = true
+
+# Fixes audio while you're in freecam mode so the listener position will actually update 
+# with the camera, rather than being in the original non-free cam position
+FreecamAudioFix = true
+
+# Try to use Skyrim's UI system for message boxes instead of the custom implementation
+UseSkyrimUI = false
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                   HOTKEYS
+# ───────────────────────────────────────────────────────────────────────────────
+[Hotkeys]
+
+# Only allow hotkeys while the console is open (Only for Reload, and Pause)
+ConsoleOnly = false
+
+# Key codes (default: F2=60, F5=63, 0=11)
+# Find codes at: https://www.nexusmods.com/skyrimspecialedition/articles/7704
+Pause       = -1    # Pauses the mod
+Reload      = -1    # Reload configuration
+SelectActor = 14    # Select actor to edit their penis target + Much more
+
+# Should we REQUIRE holding shift to use these hotkeys? So like Shift+F2 = pauses the mod. (Recommended)
+HotkeyWhileHoldingShiftOnly = true
+
+# Speed up the sex animation you're looking at
+SpeedUpAnimKey =  -5
+
+# Slow down the sex animation you're looking at
+SlowDownAnimKey = -5
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                    DEBUG
+# ───────────────────────────────────────────────────────────────────────────────
+# You WILL need to use this while trying to figure out where to put offsets/waypoints
+[Debug]
+
+# Print verbose logs to the console.
+Logging = false
+
+# Display your vagina/anus/mouth entrances and splines in-game
+Bones = false
+
+# Display collision cylinders in-game.
+Collision = false
+
+# Display penis collision bones in-game.
+Penis = false
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                    PENIS
+# ───────────────────────────────────────────────────────────────────────────────
+[Penis]
+
+# Skeleton bones to manage (in order from base to tip).
+Bones = [
+    "NPC GenitalsBase [GenBase]",
+    "NPC Genitals01 [Gen01]",
+    "NPC Genitals02 [Gen02]",
+    "NPC Genitals03 [Gen03]",
+    "NPC Genitals04 [Gen04]",
+    "NPC Genitals05 [Gen05]",
+    "NPC Genitals06 [Gen06]",
+]
+
+# Forward axis of the penis. Don't change unless you know what you're doing.
+LocalForwardAxis = [0.0, 1.0, 0.0]
+
+# Offset for curve projection casting.
+# Slightly lower than the base to reduce initial bend.
+# Use NifSkope to determine correct values for non-human actors.
+BaseOffset = [0.0, 1.206299, 1.206299]
+
+# Rotate the base bone along with the rest.
+# Enable for smoother appearance; disable for more rigid realism.
+RotateBase = true
+
+# Use exact HAVOK state for the penis.
+# Ensures length stays precise but disables some animation features.
+PreserveHavokState = false
+
+# [Requires FSMP 3.0.0+] - Automatically toggles an actor's floppy schlong physics OFF 
+# after penetration from said actor is detected. 
+TogglePenisSMPPhysics = true
+
+# Hide the penis when it exceeds HideDepthOffset inside a hole. (Shouldn't be needed)
+ClipFix = false
+HideDepthOffset = 2.0 # How deep past the hole entrance to start cutting the cock off
+
+# Global detection range multiplier for collision cylinders.
+# Example: 1.5 means 50% larger than the actual cylinder.
+ActivationRange = 3.5
+
+# Average width of the penis.
+Girth = 0.9
+
+# Length of the tip segment.
+TipExtension = 2.9
+
+# Minimum distance from penis base to hole.
+# Simulates "bottoming out" at the end of the canal.
+# 0 = no limit (full insertion allowed).
+MinProjectionDistance = 0.0
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                   VAGINA
+# ───────────────────────────────────────────────────────────────────────────────
+[Vagina]
+
+# Bone names for controlling gape.
+NodeL    = "NPC L Pussy02"
+NodeR    = "NPC R Pussy02"
+NodeBack = "VaginaB1"
+NodeTop  = "Clitoral1"
+
+# Directions the vagina moves/opens during penetration
+OpeningOffsetL = [-1.0, 0.0, 0.0]
+OpeningOffsetR = [1.0, 0.0, 0.0]
+OpeningOffsetBack = [0.0, -0.75, 0.25]
+OpeningOffsetTop = [0.0, 0.125, -0.25]
+
+# Base opening distance.
+Scale = 1.5
+
+# Max opening distance.
+ScaleMax = 3.0
+
+# How strongly the opening grips during penetration. (Animation)
+GripStrength = 5.0
+
+# Clamps how far forward (into the body) the grip animation can pull the orifice mesh.
+GripClampForward = 5.0
+
+# Clamps how far backward (out of the body) the grip animation can pull the orifice mesh.
+GripClampBackward = 5.0
+
+# Intensity of rubbing effects. (Animation)
+RubIntensity = 2.5
+
+# Should PPA disable an actor's SMP physics during collision?
+ToggleVaginaSMP = false
+
+# Position & Collision
+# ─────────────────────
+# The collision cylinder is used for detection (not actual physics collision).
+# It determines which hole the penis should target.
+[Vagina.Position]
+
+# Bone to attach the entry point to.
+Anchor = "NPC Pelvis [Pelv]"
+
+# Local offset from the anchor bone (X, Y, Z).
+Offset = [0.0736564, -1.36951, -3.33551]
+CollisionCylinderRadius = 1.2
+CollisionCylinderHeightModifier = 1.0
+
+
+# Depth Waypoints
+# ───────────────
+# Define a path (tunnel) for the penis to follow during penetration.
+# Each waypoint creates a curve point. The penis bends to follow this path.
+#               !You can define UNLIMITED of these!
+#
+#   Anchor         = Bone to attach to (optional; defaults to previous waypoint)
+#   Offset         = Position offset from anchor (X, Y, Z)
+#   CornerSmoothing = Smooths transition to next waypoint (0.0–1.9)
+#                     ⚠️  Don't exceed 1.9 on sharp angles or it will bug out!
+[[Vagina.Position.DepthWaypoints]]
+Offset = [0.0, 0.0, 6.0]
+CornerSmoothing = 1.0
+CollisionRadius = 4.0
+
+[[Vagina.Position.DepthWaypoints]]
+Anchor = "NPC Spine1 [Spn1]"
+Offset = [0.10003, 3.39997, -3.25]
+CornerSmoothing = 0.5
+CollisionRadius = 1.0
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                    ANUS
+# ───────────────────────────────────────────────────────────────────────────────
+[Anus]
+
+# Bone names for controlling gape (4 corners).
+NodeLB = "NPC LB Anus2"
+NodeRB = "NPC RB Anus2"
+NodeRT = "NPC RT Anus2"
+NodeLT = "NPC LT Anus2"
+
+# Directions the anus moves/opens during penetration
+OpeningOffsetLB = [0.0, 1.0, 0.0]
+OpeningOffsetRB = [0.0, -1.0, 0.0]
+OpeningOffsetRT = [0.8, 0.0, 0.32]
+OpeningOffsetLT = [-0.8, 0.0, -0.32]
+
+# Base opening distance.
+Scale = 2.0
+
+# Max opening distance.
+ScaleMax = 4.5
+
+# How strongly the opening grips during penetration. (Animation)
+GripStrength = 2.0
+
+# Clamps how far forward (into the body) the grip animation can pull the orifice mesh.
+GripClampForward = 4.0
+
+# Clamps how far backward (out of the body) the grip animation can pull the orifice mesh.
+GripClampBackward = 4.0
+
+# Intensity of rubbing effects. (Animation)
+RubIntensity = 1.5
+
+# Should PPA disable an actor's SMP physics during collision?
+ToggleAnusSMP = false
+
+[Anus.Position]
+Anchor                          = "NPC Pelvis [Pelv]"
+Offset = [0.0, -4.95285, -1.17131]
+CollisionCylinderRadius         = 1.2
+CollisionCylinderHeightModifier = 1.0
+
+[[Anus.Position.DepthWaypoints]]
+Offset          = [0.0, 3.0, 6.0]
+CornerSmoothing = 1.0
+
+[[Anus.Position.DepthWaypoints]]
+Anchor          = "NPC Spine1 [Spn1]"
+Offset          = [0.0, 4.0, 0.0]
+CornerSmoothing = 1.0
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                    MOUTH
+# ───────────────────────────────────────────────────────────────────────────────
+[Mouth.Position]
+Anchor                          = "NPC Head [Head]"
+Offset                          = [0.0, 1.0, -1.15]
+CollisionCylinderRadius         = 1.5
+CollisionCylinderHeightModifier = 1.2
+
+[[Mouth.Position.DepthWaypoints]]
+Offset          = [0.0, -5.0, 2.0]
+CornerSmoothing = 1.0
+
+[[Mouth.Position.DepthWaypoints]]
+Anchor          = "NPC Neck [Neck]"
+Offset          = [0.0, 1.0, 1.0]
+CornerSmoothing = 0.5
+
+[[Mouth.Position.DepthWaypoints]]
+Anchor          = "NPC Spine2 [Spn2]"
+Offset          = [0.0, 4.0, 0.0]
+CornerSmoothing = 0.0
+
+# -> [DELETE THIS TO DISABLE ORAL MOUTH OPENINGS] <-
+# ─────────────────────────
+# Mouth Opening Animation
+# ─────────────────────────
+# Controls facial expressions during blowjob scenes.
+# Presets are matched by target orifice and scene context.
+# When multiple presets match, the highest Priority wins.
+#
+# This mouth preset is optional since SexLab already handles mouth opening.
+#
+#[[FacialPreset]]
+# Activates when mouth is penetrated
+#Targets = ["Mouth"]
+# Very high priority to make sure it's selected before other presets (If you have others)..)
+#Priority = 99999
+#OverrideExpressions = false
+#OverrideModifiers = false
+# Zero out other phonemes that we aren't using
+#OverridePhonemes = true
+#Smoothing = 8.0
+
+# Phoneme/Expression/Modifier Effects
+# ────────────────────────────────────
+# Each effect controls a facial morph target.
+#
+#   Type        = Effect type ("Phoneme", "Expression", "Modifier", "MFEE")
+#   Index       = Morph index number
+#   TargetValue = Target blend value (0.0–1.0 for vanilla, higher for MFEE)
+#   MinTargetValue      = (Optional) Minimum value when using depth scaling
+#   MinPenetrationDepth = (Optional) Depth at which effect starts
+#   MaxPenetrationDepth = (Optional) Depth at which effect reaches TargetValue
+#
+# View the mod page for more advanced configuration options.
+#       !You can define UNLIMITED effects per preset!
+#[[FacialPreset.Effects]]
+#Type = "Phoneme"
+#Index = 0
+#TargetValue = 0.75
+
+#[[FacialPreset.Effects]]
+#Type = "Phoneme"
+#Index = 1
+#TargetValue = 0.75
+
+#[[FacialPreset.Effects]]
+#Type = "Phoneme"
+#Index = 5
+#TargetValue = 1.0
+
+#[[FacialPreset.Effects]]
+#Type = "Phoneme"
+#Index = 6
+#TargetValue = 1.0
+
+#[[FacialPreset.Effects]]
+#Type = "Phoneme"
+#Index = 7
+#TargetValue = 1.0
+
+#[[FacialPreset.Effects]]
+#Type = "Phoneme"
+#Index = 9
+#TargetValue = 0.68
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                    HANDS
+# ───────────────────────────────────────────────────────────────────────────────
+#
+# Configure handjob detection and grip behavior for each hand.
+[Hands.Left]
+Enabled              = true
+DetectionRadius      = 7.0             # How close the hand must be to activate
+GripLength           = 2.0              # Effective hand length
+GripOffsetAdjustment = [0.0, 0.0, 1.0]  # Fine-tune grip position (X, Y, Z)
+
+[Hands.Right]
+Enabled              = true
+DetectionRadius      = 7.0
+GripLength           = 2.0
+GripOffsetAdjustment = [0.0, 0.0, 1.0]
+
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                  ANIMATION
+# ───────────────────────────────────────────────────────────────────────────────
+[Animation]
+# How much animation speed affects physics response.
+SpeedSensitivity = 1.0
+
+# Smoothing strength for animations (higher = smoother but less responsive).
+SmoothStrength = 0.5
+
+# These will push your hips/head back if the penetrator's penis base goes too deep (Clips)
+# This is mostly just a random ass feature I added because why not, I doubt it'll look perfect. Go wild. 
+# (Head physics is very much NOT recommended. It's not natural looking at all)
+HipPhysics = false
+HeadPhysics = false
+
+# Smoother for the animations so they don't snap back and fourth. Higher = smooother
+HipPhysicsSmoothTime = 0.05
+HeadPhysicsSmoothTime = 0.07
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                                   SOLVER
+# ───────────────────────────────────────────────────────────────────────────────
+#
+# Controls bending limits for the physics solver.
+#
+# ⚠️  NOT RECOMMENDED: Changing these makes the solver less accurate.
+#     Only modify if you need to restrict extreme bending.
+[Solver]
+
+# Base limit (in degrees) for penis bending.
+BendConeBase = 999.0
+
+# Extra range per segment.
+# Each segment from base to tip gets progressively more flexibility.
+# Tip range = BendConeBase + BendConeRange
+BendConeRange = 999.01
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                               SOUND EFFECTS
+# ───────────────────────────────────────────────────────────────────────────────
+#
+# Controls the procedural sound generation during animations.
+# Sounds are triggered based on penetration depth and velocity tracking.
+#
+[SoundEffects]
+Enabled = false
+
+# Turns on controller vibration. 
+# This wont always work with the 'Auto Input Switch' mod
+# It only functions if your controller is the current main input device
+# It can help to move the camera a bit with your controller if it stops working
+Rumble = false
+
+# ─── CLAP SOUNDS ───
+# "Clap" sounds play at the moment of impact (when bodies collide at max depth)
+# Minimum seconds between clap sounds. Increase to reduce sound frequency.
+# Range: 0.05 - 0.5 | Default: 0.10
+ClapMinInterval = 0.15
+
+# Minimum thrust velocity required during a stroke to trigger a clap.
+# Higher = only fast/hard thrusts make sound. Lower = gentler motion triggers.
+# Range: 5.0 - 30.0 | Default: 10.0
+ClapThrustVelocity = 8.0
+
+# Minimum penetration depth required to play a clap sound.
+# Prevents sounds when barely inserted. Increase if getting unwanted sounds.
+# Range: 0.5 - 5.0 | Default: 2.0
+ClapMinDepth = 2.0
+
+# ─── WET SOUNDS ───
+# "Wet" sounds loop/play continuously during active motion
+# Minimum seconds between starting new wet sounds.
+# Range: 0.05 - 0.3 | Default: 0.08
+WetMinInterval = 0.08
+
+# Velocity threshold to START playing wet sounds.
+# Lower = sounds play during slower movement.
+# Range: 3.0 - 15.0 | Default: 7.0
+WetVelocityThreshold = 3.0
+
+# Velocity threshold to STOP wet sounds (with grace period).
+# Should be lower than WetVelocityThreshold to prevent start/stop flickering.
+# Range: 0.5 - 5.0 | Default: 1.0
+WetStopVelocity = 1.0
+
+# ─── VELOCITY TRACKING ───
+# Controls how motion is analyzed to trigger sounds
+# Smoothing factor for velocity calculation (0-1).
+# Lower = smoother/slower response, Higher = more reactive/jittery.
+# Range: 0.1 - 0.5 | Default: 0.3
+VelocitySmoothFactor = 0.3
+
+# ─── AUDIO PROPERTIES ───
+# Controls pitch and volume variation based on movement speed
+# Frequency (pitch) multiplier range. 1.0 = normal pitch.
+# Faster movement = higher pitch within this range.
+MinFrequency = 0.85
+MaxFrequency = 1.35
+
+# Volume range (0.0 - 1.0). Faster movement = louder within this range.
+MinVolume = 0.6
+MaxVolume = 1.2
+
+# Velocity value that maps to maximum frequency/volume.
+# Velocities above this are clamped. Lower = reaches max sooner.
+# Range: 50.0 - 200.0 | Default: 150.0
+SpeedScaleMax = 150.0
+
+# ─── SOUND FILES ──────────────────────────────────────────────────────────────
+# Paths support wildcards (*) to randomly select from matching files.
+# Paths are relative to Skyrim's Data folder.
+# You can make a LIST of these! The [] thing defines a LIST. Ok?
+[SoundEffects.Vagina]
+ClapSounds = ["Sound\\Fx\\ppa\\vagina\\clap*.wav"]
+WetSounds = ["Sound\\Fx\\ppa\\vagina\\FFFM - *.wav"]
+ClapSoundVolumeScale = 0.8
+WetSoundVolumeScale = 0.6
+
+[SoundEffects.Anus]
+ClapSounds = ["Sound\\Fx\\ppa\\anus\\plap (*.wav"]
+WetSounds = ["Sound\\Fx\\ppa\\anus\\Slime (Set E)-*.wav"]
+ClapSoundVolumeScale = 1.0
+WetSoundVolumeScale = 0.8
+
+[SoundEffects.Mouth]
+ClapSounds = ["Sound\\Fx\\ppa\\mouth\\squelch_*.wav"]
+WetSounds = ["Sound\\Fx\\ppa\\mouth\\suck_*.wav"]
+ClapSoundVolumeScale = 0.22
+WetSoundVolumeScale = 1.1
+
+# Hands only use the wet sounds.
+[SoundEffects.Hands]
+WetSounds = ["Sound\\Fx\\ppa\\hands\\Squish - Handjob Normal-*.wav"]
+WetSoundVolumeScale = 0.6
+
+# ─── CLAP IMPULSE (requires CBPC) ────────────────────────────────────────────
+# Sends physics impulses to butt bones through CBPC on each clap impact,
+# making cheeks jiggle/ripple on thrust. This does nothing without CBPC installed.
+# The impulse fires at the same moment as clap sounds, using the same velocity
+# and depth data -- so if you have sounds disabled or thresholds set very high,
+# impulses will also fire less often.
+[SoundEffects.ClapImpulse]
+Enabled = false
+
+# Master multiplier on all impulse force. Turn this up for more jiggle,
+# down for subtlety. At 0 the impulses still fire but do nothing visible.
+# Range: 0.0 - 5.0 | Default: 1.0
+OverallStrength = 1.0
+
+# Controls how much thrust speed affects impulse strength.
+# Higher values mean even slow thrusts produce noticeable bounce.
+# Lower values mean only fast/rough motion causes visible jiggle.
+# Technically this is the steepness of the exponential curve applied
+# to the normalized velocity before it becomes force.
+# Range: 0.1 - 10.0 | Default: 2.5
+SpeedSensitivity = 2.5
+
+# How much rotational wobble the cheeks get vs. just bouncing outward.
+# Higher = softer, more jiggly look. Lower = firmer, tighter bounce.
+# Range: 0.0 - 2.0 | Default: 0.35
+RotationScale = 0.35
+
+# Asymmetry between left and right cheek per impact.
+# At 0 both cheeks move identically (looks robotic/stiff).
+# At 0.2 there is a natural subtle difference each stroke.
+# Above 0.4 it starts looking unnatural. Internally this generates
+# a random multiplier between (1 - value) and (1 + value) per cheek.
+# Range: 0.0 - 0.5 | Default: 0.2
+Variation = 0.2
+
+# Stagger in seconds between the left and right cheek firing.
+# A small delay sells the ripple effect across the butt.
+# If you run CBPC at a non-default timestep you may want to adjust this.
+# Range: 0.0 - 0.1 | Default: 0.0167 (roughly one frame at 60fps)
+CheekDelay = 0.0167
+
+# ───────────────────────────────────────────────────────────────────────────────
+#                             BELLY ANIMATIONS
+# ───────────────────────────────────────────────────────────────────────────────
+#
+[BellyBulge]
+# Enable belly bulge physics. Disabled by default because body/skeleton compatibility depends on the belly node existing.
+Enabled = false
+
+# Skeleton node to move, rotate, and lightly scale for the belly bulge effect.
+# XPMSSE-style bodies usually use "NPC Belly".
+Node = "NPC Belly"
+
+# Penetration depth before the belly bulge starts.
+# Shallow insertion below this value has no belly effect.
+MinDepth = 2.0
+
+# Penetration depth where belly displacement reaches full strength.
+DepthFull = 22.0
+
+# Girth value treated as normal thickness for scale.
+# Higher values make girth-based scaling less sensitive.
+GirthReference = 1.4
+
+# Maximum normalized girth multiplier used for scale.
+# Prevents oversized members from creating unstable effects.
+GirthCap = 4.6
+
+# How far the belly node pushes outward from penetration depth.
+# This is not multiplied by girth.
+DisplacementStrength = 18.0
+
+# How strongly the belly node rotates from the vaginal/anal pressure source direction.
+RotationStrength = 0.52
+
+# Small girth-driven scale layer used to make the bulge look thicker.
+# Keep low to avoid a round balloon look.
+ScaleFactor = 0.02
+
+# Multiplier for anal belly bulge pressure.
+# Lower values make anal penetration affect the belly less.
+AnalMultiplier = 0.65
+
+# Amount of animated noise added to belly translation/rotation for livelier motion.
+NoiseStrength = 1.07
+
+# How quickly the belly noise phase advances over time.
+NoiseSpeed = 2.0
+
+# How tight or jittery the noise pattern is.
+# Higher values can mimic ripples or ribbed insertion.
+NoiseFrequency = 1.5
+
+# Small noise pulse added to scale for surface motion.
+ScaleNoiseStrength = 0.02
+
+# Smoothing speed for belly physics.
+# Higher values respond faster; lower values feel heavier.
+SmoothStrength = 19.0

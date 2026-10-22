@@ -1,0 +1,7 @@
+
+; Form-filter exclusions (always AND). Serana (-0x2B6C~Dawnguard.esm) added 2026-08-27:
+; Wet and Cold's gear scripts AddItem+EquipItem a hood whenever biped slot 31 is empty, and it is
+; always empty on her because her UBE hair is a head PART, not armor. Any hood hides/clips her hair.
+; This is the only path that grants the W&C gear spells (no AddSpell outside the SPID effect),
+; so excluding her here also stops W&C cloaks, gloves, face covers and goggles.
+Spell = 0x800~WetAndColdSPIDPatch.esp|ActorTypeNPC|-0x13BA5~Skyrim.esm,-0x2B6C~Dawnguard.esm|NONE|NONE|NONE|100

@@ -1,0 +1,47 @@
+{
+    "name": "Lydia 20 Male Jarl Sit",
+    "description": "Lydia copy of 'Male Furniture Animation Pack / Jarl Sit' (priority 888888115), so she plays what a male NPC plays.",
+    "priority": 889888115,
+    "conditions": [
+        {
+            "condition": "IsChild",
+            "requiredVersion": "1.0.0.0",
+            "negated": true
+        },
+        {
+            "condition": "IsRace",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Race": {
+                "pluginName": "Skyrim.esm",
+                "formID": "67CD8"
+            }
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.20000000298023224
+            }
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "A2C8E"
+            }
+        }
+    ]
+}

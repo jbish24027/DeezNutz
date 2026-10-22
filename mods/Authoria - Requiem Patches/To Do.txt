@@ -1,0 +1,16 @@
+To Do:
+
+- identify all magic effects, perks, and spells that increase skill xp gain using Claude API, change them.
+
+add armor with script, attach script to reference: REQ_AddItems
+property: Items
+Type: Array of Object
+Flags: Edited
+Object Unions: the armor pieces or LVLI
+
+Property: Amount
+Type: Array of Int32
+Falgs: Edited
+Element #0: number of items from LVLI
+
+textures\iimlenny\milkjug

@@ -1,0 +1,64 @@
+{
+    "name": "Lydia 02 Table Sit aMain Transitions Idles HH",
+    "description": "Lydia copy of 'Improved Table Sit Transition Animations / aMain Transitions Idles HH' (priority 809997), so she plays what a male NPC plays.",
+    "priority": 900102,
+    "interruptible": true,
+    "conditions": [
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CurrentFurnitureHasKeyword",
+                    "requiredVersion": "1.1.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "BarFurnTypeStool"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurnitureHasKeyword",
+                    "requiredVersion": "1.1.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "IsBarStool"
+                    },
+                    "Base": true
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsWornInSlotHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Slot": {
+                        "value": 7.0
+                    },
+                    "Keyword": {
+                        "editorID": "HighHeel"
+                    }
+                },
+                {
+                    "condition": "HasSpell",
+                    "requiredVersion": "1.0.0.0",
+                    "Spell": {
+                        "pluginName": "HighHeelsCondition.esp",
+                        "formID": "802"
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "A2C8E"
+            }
+        }
+    ]
+}

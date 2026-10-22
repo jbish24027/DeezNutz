@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+  "rules": [
+    {
+      "match": {
+        "formId": {
+          "anyOf": [
+            "Requiem - Food and Beverages Redone.esp|25D",
+            "Requiem - Food and Beverages Redone.esp|C53",
+            "Requiem - Food and Beverages Redone.esp|C54",
+            "Requiem - Food and Beverages Redone.esp|C55",
+            "Requiem - Food and Beverages Redone.esp|C56",
+            "Skyrim.esm|EDB2E"
+          ]
+        }
+      },
+      "assign": {
+        "subTypeDisplay": "Food",
+        "iconSource": "AIT/MoreIcons/icons.swf",
+        "iconLabel": "food_meat",
+        "iconColor": "#A93226"
+      }
+    },
+    {
+      "match": {
+        "formId": {
+          "anyOf": [
+            "Authoria - Patch - Food Recipes.esp|800",
+            "Authoria - Patch - Food Recipes.esp|801",
+            "Authoria - Patch - Food Recipes.esp|802",
+            "Authoria - Patch - Food Recipes.esp|803",
+            "Authoria - Patch - Food Recipes.esp|804",
+            "Authoria - Patch - Food Recipes.esp|805"
+          ]
+        }
+      },
+      "assign": {
+        "subTypeDisplay": "Food",
+        "iconSource": "AIT/MoreIcons/icons.swf",
+        "iconLabel": "food_meat",
+        "iconColor": "#D68910"
+      }
+    }
+  ]
+}

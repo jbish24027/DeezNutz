@@ -1,0 +1,15 @@
+{
+  "version": 15,
+  "keybinds": [
+    {
+      "keycode": 21,
+      "modName": "Helmet Toggle 2",
+      "id": "HT_ManageHelmet"
+    },
+    {
+      "keycode": 27,
+      "modName": "tent_pitcher",
+      "id": "_Pitch_PitchTent_Hotkey"
+    }
+  ]
+}

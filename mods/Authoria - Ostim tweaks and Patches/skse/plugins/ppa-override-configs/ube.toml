@@ -1,0 +1,86 @@
+Races = [
+    "UBE_AllRace.esp|005734",
+    "UBE_AllRace.esp|005735",
+    "UBE_AllRace.esp|05A179",
+    "UBE_AllRace.esp|05A17A",
+    "UBE_AllRace.esp|05A184",
+    "UBE_AllRace.esp|05A185",
+    "UBE_AllRace.esp|05A18E",
+    "UBE_AllRace.esp|05A18F",
+    "UBE_AllRace.esp|05A198",
+    "UBE_AllRace.esp|05A199",
+    "UBE_AllRace.esp|05A1A2",
+    "UBE_AllRace.esp|05A1A3",
+    "UBE_AllRace.esp|05A1AC",
+    "UBE_AllRace.esp|05A1AD",
+    "UBE_AllRace.esp|05A1B0",
+    "UBE_AllRace.esp|05A1B1",
+    "UBE_AllRace.esp|07A4D5",
+    "UBE_AllRace.esp|07A4D6"
+]
+
+[Vagina]
+Scale = 2.5
+ScaleMax = 4.0
+GripStrength = 4.0
+RubIntensity = 5.3
+
+[Vagina.Position]
+Anchor = "NPC Pelvis [Pelv]"
+Offset = [0, -1, -4.32]
+CollisionCylinderRadius = 1.2
+CollisionCylinderHeightModifier = 1
+
+[[Vagina.Position.DepthWaypoints]]
+Offset = [0, 0.7, 6]
+CornerSmoothing = 1
+
+[[Vagina.Position.DepthWaypoints]]
+Anchor = "NPC Spine1 [Spn1]"
+Offset = [0, 6, 0]
+CornerSmoothing = 1
+
+[Anus]
+Scale = 3.0
+ScaleMax = 4.5
+GripStrength = 4.0
+RubIntensity = 2.4
+
+[Anus.Position]
+Anchor = "NPC Pelvis [Pelv]"
+Offset = [0, -4.5, -3]
+CollisionCylinderRadius = 1.2
+CollisionCylinderHeightModifier = 0.7
+
+[[Anus.Position.DepthWaypoints]]
+Offset = [0, 3, 6]
+CornerSmoothing = 1
+
+[[Anus.Position.DepthWaypoints]]
+Anchor = "NPC Spine1 [Spn1]"
+Offset = [0, 6, 0]
+CornerSmoothing = 1
+
+[Penis]
+Girth = 0.8
+TipExtension = 2.5
+
+[Mouth.Position]
+Anchor                          = "NPC Head [Head]"
+Offset                          = [0.0, 2.0, -1.5]
+CollisionCylinderRadius         = 1.5
+CollisionCylinderHeightModifier = 1.2
+
+[[Mouth.Position.DepthWaypoints]]
+Offset          = [0.0, -5.0, 2.0]
+CornerSmoothing = 1.0
+
+[[Mouth.Position.DepthWaypoints]]
+Anchor          = "NPC Neck [Neck]"
+Offset          = [0.0, 1.0, 1.0]
+CornerSmoothing = 0.5
+
+[[Mouth.Position.DepthWaypoints]]
+Anchor          = "NPC Spine2 [Spn2]"
+Offset          = [0.0, 4.0, 0.0]
+CornerSmoothing = 0.0

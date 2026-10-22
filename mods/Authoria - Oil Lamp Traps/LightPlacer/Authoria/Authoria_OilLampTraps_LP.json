@@ -1,0 +1,100 @@
+[
+  {
+    "formIDs": [
+      "0x90EFC~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "blackList": [
+          "0x74029~Skyrim.esm",
+          "0x74015~Skyrim.esm",
+          "0x74654~Skyrim.esm",
+          "0x7B646~BSHeartland.esm",
+          "0x7B649~BSHeartland.esm",
+          "0x7B64B~BSHeartland.esm",
+          "0xFAC4B~BSHeartland.esm",
+          "0xFAD36~BSHeartland.esm",
+          "0x7984F7~Siege at Icemoth.esp",
+          "0x52598A~Wyrmstooth.esp",
+          "0x525987~Wyrmstooth.esp",
+          "0x525A6A~Wyrmstooth.esp",
+          "0x173C5C~3DNPC.esp",
+          "0x1C1B80~3DNPC.esp",
+          "0x1C1B55~3DNPC.esp",
+          "0x1C1B87~3DNPC.esp",
+          "0x2981F7~3DNPC.esp",
+          "0x92B32~Skyrim.esm",
+          "0x92B67~Skyrim.esm",
+          "0x93CFB~Skyrim.esm",
+          "0x94A4B~Skyrim.esm",
+          "0x94A4D~Skyrim.esm",
+          "0xBF898~Skyrim.esm",
+          "0xBF8A2~Skyrim.esm",
+          "0xBF8A9~Skyrim.esm",
+          "0xBF8AD~Skyrim.esm",
+          "0xAC7E0~Skyrim.esm",
+          "0x93C42~Skyrim.esm",
+          "0x93C47~Skyrim.esm",
+          "0x93C48~Skyrim.esm",
+          "0x93C4A~Skyrim.esm",
+          "0x94AB4~Skyrim.esm",
+          "0xA3DEE~Skyrim.esm",
+          "0x913AF~Skyrim.esm",
+          "0x913B0~Skyrim.esm",
+          "0x9AA5A~Skyrim.esm",
+          "0xA317E~Skyrim.esm",
+          "0xD297D~Skyrim.esm",
+          "0x9A6A~Dawnguard.esm",
+          "0xB7F46~Skyrim.esm",
+          "0x85E0A~Skyrim.esm",
+          "0x85E14~Skyrim.esm",
+          "0xAB1F9~Skyrim.esm",
+          "0x186BA~Dawnguard.esm",
+          "0xA3E03~Skyrim.esm",
+          "0xA60A~Dawnguard.esm",
+          "0xA60D~Dawnguard.esm",
+          "0x9D5E8~Skyrim.esm",
+          "0x34EDD~Skyrim.esm",
+          "0xD5481~Skyrim.esm",
+          "0xD5484~Skyrim.esm",
+          "0x6FCE2~Skyrim.esm",
+          "0x6FD9E~Skyrim.esm",
+          "0x9B0F4~Skyrim.esm",
+          "0x653A9~Skyrim.esm",
+          "0x8BBEB~Skyrim.esm",
+          "0x8BBEC~Skyrim.esm",
+          "0x8D2B3~Skyrim.esm",
+          "0xE40FB~Skyrim.esm",
+          "0xE40FE~Skyrim.esm",
+          "0xE4103~Skyrim.esm",
+          "0x39937~Skyrim.esm",
+          "0x39942~Skyrim.esm",
+          "0xA5001~Skyrim.esm",
+          "0xA4FFE~Skyrim.esm",
+          "0xB7D9C~Skyrim.esm",
+          "0x46E43~Skyrim.esm",
+          "0x46E45~Skyrim.esm",
+          "0x9C6~ccbgssse016-umbra.esm",
+          "0x9D7~ccbgssse016-umbra.esm",
+          "0xD14BF~SM_Astrid.esp",
+          "0xD15E2~SM_Astrid.esp",
+          "0xD1700~SM_Astrid.esp",
+          "0xD1765~SM_Astrid.esp"
+        ],
+        "data": {
+          "light": "Lux_RuinsFakeFlickerNS|Lux_FakeFlickerNS|EmbersXD_EmbersLightSmall",
+          "radius": 400.0,
+          "fade": 0.8,
+          "flags": "InverseSquare|Flicker|IgnoreScale|Linear"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            -5.0
+          ]
+        ]
+      }
+    ]
+  }
+]

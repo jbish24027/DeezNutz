@@ -1,0 +1,29 @@
+{
+  "Clutter Filter": {
+    "IsEnabled": 1
+  },
+  "Clutter Filter (extra exclusions)": {
+    "IsEnabled": 0
+  },
+  "Furniture Filter": {
+    "IsEnabled": 0
+  },
+  "Hide by Keyword": {
+    "IsEnabled": 0
+  },
+  "Hide Empty Bodies": {
+    "IsEnabled": 0
+  },
+  "Hide Empty Containers": {
+    "IsEnabled": 0
+  },
+  "No Stealing while Sitting": {
+    "IsEnabled": 1
+  },
+  "Stealing only While Sneaking": {
+    "IsEnabled": 1
+  },
+  "Stealing Only While Undetected": {
+    "IsEnabled": 1
+  }
+}

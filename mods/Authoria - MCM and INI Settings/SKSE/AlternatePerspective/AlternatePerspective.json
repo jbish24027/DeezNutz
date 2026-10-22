@@ -1,0 +1,267 @@
+[
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Regular",
+        "description": "$AltPersp_RegularDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_TheBanneredMare",
+                "id": "0x3271C8"
+            },
+            {
+                "text": "$AltPersp_TheBeeandBarb",
+                "id": "0x3457D0"
+            },
+            {
+                "text": "$AltPersp_TheWinkingSkeever",
+                "id": "0x3457D2"
+            },
+            {
+                "text": "$AltPersp_SilverBloodInn",
+                "id": "0x3457D4"
+            },
+            {
+                "text": "$AltPersp_CandlehearthHall",
+                "id": "0x3457D6"
+            },
+            {
+                "text": "$AltPersp_DeadMansDrink",
+                "id": "0x3457D9"
+            },
+            {
+                "text": "$AltPersp_MoorsideInn",
+                "id": "0x3457DD"
+            },
+            {
+                "text": "$AltPersp_TheFrozenHearth",
+                "id": "0x3457DF"
+            },
+            {
+                "text": "$AltPersp_WindpeakInn",
+                "id": "0x3457E0"
+            },
+            {
+                "text": "$AltPersp_TheRetchingNetch",
+                "id": "0x34A8E2"
+            },
+            {
+                "text": "$AltPersp_TheSleepingGiantInn",
+                "id": "0x34A8E3"
+            },
+            {
+                "text": "$AltPersp_FrostfruitInn",
+                "id": "0x34A8E4"
+            },
+            {
+                "text": "$AltPersp_VilemyrInn",
+                "id": "0x34A8E5"
+            },
+            {
+                "text": "$AltPersp_OldHroldanInn",
+                "id": "0x34A8E6"
+            },
+            {
+                "text": "$AltPersp_FourShieldsTavern",
+                "id": "0x34A8E7"
+            },
+            {
+                "text": "$AltPersp_NightgateInn",
+                "id": "0x34A8E8"
+            },
+            {
+                "text": "$AltPersp_BraidwoodInn",
+                "id": "0x34A8E9"
+            }
+        ]
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_OverSeas",
+        "description": "$AltPersp_OverSeasDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_EastEmpireTradingCompany",
+                "id": "0x34F9EC"
+            },
+            {
+                "text": "$AltPersp_WindhelmDocks",
+                "id": "0x34F9EE"
+            },
+            {
+                "text": "$AltPersp_DawnstarsShore",
+                "id": "0x34F9ED"
+            },
+            {
+                "text": "$AltPersp_RavenRockDocks",
+                "id": "0x34F9F0"
+            }
+        ]
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Criminal",
+        "description": "$AltPersp_CriminalDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_Whiterun",
+                "id": "0x34FA14"
+            },
+            {
+                "text": "$AltPersp_TheRift",
+                "id": "0x34FA15"
+            },
+            {
+                "text": "$AltPersp_ThePale",
+                "id": "0x34FA1B"
+            },
+            {
+                "text": "$AltPersp_Winterhold",
+                "id": "0x34FA25"
+            }
+        ]
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_LeftForDead",
+        "description": "$AltPersp_LeftForDeadDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_TheRift",
+                "id": "0x34FA27"
+            },
+            {
+                "text": "$AltPersp_TheReach",
+                "id": "0x34FA29"
+            },
+            {
+                "text": "$AltPersp_Winterhold",
+                "id": "0x34FA20"
+            }
+        ]
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Shipwrecked",
+        "description": "$AltPersp_ShipwreckedDescr",
+        "color": "0x31D9E9",
+        "id": "0x3877AC"
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Forsworn",
+        "description": "$AltPersp_ForswornDescr",
+        "color": "0x31D9E9",
+        "id": "0x46649F"
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Guilds",
+        "description": "$AltPersp_GuildsDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_CollegeofWinterhold",
+                "id": "0x3D36E6"
+            },
+            {
+                "text": "$AltPersp_ThievesGuild",
+                "id": "0x3CE5E5"
+            },
+            {
+                "text": "$AltPersp_DarkBrotherhood",
+                "id": "0x3D36E7"
+            },
+            {
+                "text": "$AltPersp_Companions",
+                "id": "0x3D36E8"
+            }
+        ]
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Dragonborn",
+        "description": "$AltPersp_DragonbornDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_VanillaStart",
+                "id": "0x3BF197"
+            },
+            {
+                "text": "$AltPersp_KeepStart",
+                "id": "0x47F943"
+            },
+            {
+                "text": "$AltPersp_KeepStartEnd",
+                "id": "0x484A45"
+            },
+            {
+                "text": "$AltPersp_HighHrothgar",
+                "id": "0x40B191"
+            }
+        ]
+    },
+    {
+        "mod": "AlternatePerspective.esp",
+        "text": "$AltPersp_Vampire",
+        "description": "$AltPersp_VampireDescr",
+        "color": "0x31D9E9",
+        "suboptions": [
+            {
+                "text": "$AltPersp_Random",
+                "id": "0",
+                "color": "0xD92F2F"
+            },
+            {
+                "text": "$AltPersp_PinemoonCave",
+                "id": "0x3B50DE"
+            },
+            {
+                "text": "$AltPersp_BloodletThrone",
+                "id": "0x3AAEDC"
+            },
+            {
+                "text": "$AltPersp_MovarthsLair",
+                "id": "0x3B50E0"
+            },
+            {
+                "text": "$AltPersp_HaemarsShame",
+                "id": "0x3B50DF"
+            }
+        ]
+    }
+]

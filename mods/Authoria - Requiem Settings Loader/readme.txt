@@ -1,0 +1,1 @@
+Authoria replacement for Requiem MCM Helper settings defaults and scripts, this is a complete rewrite, and does not depend on the settings loader.

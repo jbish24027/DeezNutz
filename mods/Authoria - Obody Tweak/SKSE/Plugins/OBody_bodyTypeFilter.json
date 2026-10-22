@@ -1,0 +1,7 @@
+{
+  "ubeRaceEditorIDPrefixes": ["00UBE_"],
+  "ubeRaceEditorIDs": [],
+  "ubeRacePlugins": ["UBE_AllRace.esp"],
+  "showUnclassifiedPresetsForNonUBE": false,
+  "blockUBEFromDistribution": true
+}

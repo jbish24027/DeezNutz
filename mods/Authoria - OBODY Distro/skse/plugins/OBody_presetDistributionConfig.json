@@ -1,0 +1,431 @@
+{
+    "npcFormID": {
+        "018Auri.esp": {
+            "000D63": [
+                "Fit Fantasy Body v3 - Preset"
+            ]
+        },
+        "Dawnguard.esm": {
+            "002B6C": [
+                "UBE Serana Body"
+            ]
+        },
+        "SeranaMultiformNG.esp": {
+            "000801": [
+                "UBE Serana Body"
+            ],
+            "000802": [
+                "UBE Serana Body"
+            ]
+        },
+        "Skyrim.esm": {
+            "01336B": [
+                "TheFemale 5"
+            ],
+            "01C187": [
+                "Skinny Days - Birna's Body Preset WeelBones"
+            ]
+        },
+        "HLIORemi.esp": {
+            "005900": [
+                "PERFECTION 2 (No UBE Anus)"
+            ]
+        },
+        "0Kaidan.esp": {
+            "002F9A": [
+                "NorseGod --M4ruko"
+            ]
+        }
+    },
+    "npc": {},
+    "factionFemale": {},
+    "factionMale": {
+        "JobOrcChiefFaction": [
+            "NorseGod --M4ruko"
+        ],
+        "CollegeofWinterholdFaction": [
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "HIMBO Hideo",
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Hugh",
+            "HIMBO Skinny Fat (by Miggyluv)"
+        ],
+        "CompanionsFactionMinusBrillAndVignar": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)"
+        ],
+        "ThievesGuildFaction": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Hideo"
+        ]
+    },
+    "npcPluginFemale": {},
+    "npcPluginMale": {},
+    "raceFemale": {
+        "OrcRace": [
+            "AmBeefy",
+            "AmStrong",
+            "AmCrossfit",
+            "OWBody - Athletic",
+            "Fit Fantasy Body v3 - Preset"
+        ],
+        "OrcRaceVampire": [
+            "AmBeefy",
+            "AmStrong",
+            "AmCrossfit",
+            "OWBody - Athletic",
+            "Fit Fantasy Body v3 - Preset"
+        ],
+        "NordRace": [
+            "Nordic Feel - Realistic Bodyslide",
+            "scandinavian fitness body",
+            "TheFemale 5",
+            "3BBB Beauty Body Preset",
+            "zGranhadd_3BA#093(Summer)",
+            "Fit Fantasy Body v3 - Preset"
+        ],
+        "NordRaceVampire": [
+            "Nordic Feel - Realistic Bodyslide",
+            "scandinavian fitness body",
+            "TheFemale 5",
+            "3BBB Beauty Body Preset",
+            "zGranhadd_3BA#093(Summer)",
+            "Fit Fantasy Body v3 - Preset"
+        ],
+        "ImperialRace": [
+            "Lovely Lady v6 (Nude)",
+            "Delia 3BA",
+            "Stellar Babe CBBE 3BA bodyslide preset",
+            "Office crush CBBE 3BA bodyslide preset",
+            "zGranhadd_3BA#094(Kara)",
+            "[NTZ] Apple Pie 3BA - Neckline"
+        ],
+        "ImperialRaceVampire": [
+            "Lovely Lady v6 (Nude)",
+            "Delia 3BA",
+            "Stellar Babe CBBE 3BA bodyslide preset",
+            "Office crush CBBE 3BA bodyslide preset",
+            "zGranhadd_3BA#094(Kara)",
+            "[NTZ] Apple Pie 3BA - Neckline"
+        ],
+        "RedguardRace": [
+            "(SDZ21) My Sensual Body - CBBE 3BA Preset (Nude) ",
+            "[NTZ] Apple Pie 3BA",
+            "The Female 2 - Thick",
+            "PERFECTION 2 (No UBE Anus)",
+            "Fit Fantasy Body v3 - Preset"
+        ],
+        "RedguardRaceVampire": [
+            "(SDZ21) My Sensual Body - CBBE 3BA Preset (Nude) ",
+            "[NTZ] Apple Pie 3BA",
+            "The Female 2 - Thick",
+            "PERFECTION 2 (No UBE Anus)",
+            "Fit Fantasy Body v3 - Preset"
+        ],
+        "BretonRace": [
+            "Lovely Lady v6 - Reduced (Nude)",
+            "[NTZ] Cupcake",
+            "A-petit bodyslide preset CBBE 3BA "
+        ],
+        "BretonRaceVampire": [
+            "Lovely Lady v6 - Reduced (Nude)",
+            "[NTZ] Cupcake",
+            "A-petit bodyslide preset CBBE 3BA "
+        ],
+        "DarkElfRace": [
+            "Temptations Body (Nude)",
+            "Skuh's Body Preset",
+            "Sonder's Waifu Bodyslide Kaisel RE (No Heel)",
+            "[Viper] 3BA bodyslide"
+        ],
+        "DarkElfRaceVampire": [
+            "Temptations Body (Nude)",
+            "Skuh's Body Preset",
+            "Sonder's Waifu Bodyslide Kaisel RE (No Heel)",
+            "[Viper] 3BA bodyslide"
+        ],
+        "HighElfRace": [
+            "ElvenSupremacyBody - Nude",
+            "Aetherial girl CBBE 3BA bodyslide preset",
+            "Sonder's SteadyOnSteppin Risai RE (No Heel)",
+            "[NTZ] Lollipop"
+        ],
+        "HighElfRaceVampire": [
+            "ElvenSupremacyBody - Nude",
+            "Aetherial girl CBBE 3BA bodyslide preset",
+            "Sonder's SteadyOnSteppin Risai RE (No Heel)",
+            "[NTZ] Lollipop"
+        ],
+        "WoodElfRace": [
+            "A-petit bodyslide preset CBBE 3BA ",
+            "[NTZ] Lollipop"
+        ],
+        "WoodElfRaceVampire": [
+            "A-petit bodyslide preset CBBE 3BA ",
+            "[NTZ] Lollipop"
+        ],
+        "KhajiitRace": [
+            "[Viper] 3BA bodyslide",
+            "[NTZ] Lollipop",
+            "Skuh's Body Preset",
+            "Sonder's SteadyOnSteppin Risai RE (No Heel)",
+            "AmStrong",
+            "AmCrossfit",
+            "OWBody - Athletic"
+        ],
+        "KhajiitRaceVampire": [
+            "[Viper] 3BA bodyslide",
+            "[NTZ] Lollipop",
+            "Skuh's Body Preset",
+            "Sonder's SteadyOnSteppin Risai RE (No Heel)",
+            "AmStrong",
+            "AmCrossfit",
+            "OWBody - Athletic"
+        ],
+        "ArgonianRace": [
+            "TheFemale 5",
+            "AmBeefy",
+            "AmStrong",
+            "AmCrossfit"
+        ],
+        "ArgonianRaceVampire": [
+            "TheFemale 5",
+            "AmBeefy",
+            "AmStrong",
+            "AmCrossfit"
+        ],
+        "ElderRace": [
+            "- Zeroed Sliders -",
+            "A-petit bodyslide preset CBBE 3BA ",
+            "[NTZ] Lollipop"
+        ]
+    },
+    "raceMale": {
+        "ElderRace": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Skinny Fat (by Miggyluv)"
+        ],
+        "ArgonianRace": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Gladiator (by Zombie)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Swimmer (by Miggyluv)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "HIMBO Simple"
+        ],
+        "ArgonianRaceVampire": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Gladiator (by Zombie)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Swimmer (by Miggyluv)",
+            "HIMBO Simple"
+        ],
+        "NordRace": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "NorseGod --M4ruko"
+        ],
+        "NordRaceVampire": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "NorseGod --M4ruko"
+        ],
+        "HighElfRace": [
+            "HIMBO Mike",
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "HIMBO Hideo"
+        ],
+        "HighElfRaceVampire": [
+            "HIMBO Mike",
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Hideo"
+        ],
+        "WoodElfRace": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Hideo"
+        ],
+        "WoodElfRaceVampire": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Hideo"
+        ],
+        "DarkElfRace": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "HIMBO Hideo"
+        ],
+        "DarkElfRaceVampire": [
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Runner (by Miggyluv)",
+            "HIMBO Hideo"
+        ],
+        "BretonRace": [
+            "HIMBO Hugh",
+            "HIMBO Skinny Fat (by Miggyluv)",
+            "[SERKET] The Common Guy - HIMBO Preset"
+        ],
+        "BretonRaceVampire": [
+            "HIMBO Hugh",
+            "HIMBO Skinny Fat (by Miggyluv)"
+        ],
+        "ImperialRace": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)",
+            "HIMBO Gladiator (by Zombie)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "HIMBO Urbon"
+        ],
+        "ImperialRaceVampire": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)",
+            "HIMBO Gladiator (by Zombie)",
+            "[SERKET] The Common Guy - HIMBO Preset",
+            "HIMBO Urbon"
+        ],
+        "KhajiitRace": [
+            "HIMBO Mike",
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Gladiator (by Zombie)",
+            "[SERKET] The Common Guy - HIMBO Preset"
+        ],
+        "KhajiitRaceVampire": [
+            "HIMBO Mike",
+            "HIMBO Ectomorph (by Miggyluv)",
+            "HIMBO Gladiator (by Zombie)"
+        ],
+        "RedguardRace": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)",
+            "HIMBO Swimmer (by Miggyluv)",
+            "[SERKET] The Common Guy - HIMBO Preset"
+        ],
+        "RedguardRaceVampire": [
+            "HIMBO Mike",
+            "HIMBO Bodybuilder (by Zombie)",
+            "HIMBO Swimmer (by Miggyluv)"
+        ],
+        "OrcRace": [
+            "HIMBO Bodybuilder (by Zombie)",
+            "NorseGod --M4ruko",
+            "GreekGod"
+        ],
+        "OrcRaceVampire": [
+            "HIMBO Bodybuilder (by Zombie)",
+            "NorseGod --M4ruko",
+            "GreekGod"
+        ]
+    },
+    "blacklistedNpcs": [],
+    "blacklistedNpcsFormID": {
+        "Skyrim.esm": [
+            "00000007",
+            "0004D8D1",
+            "0004D8D2",
+            "0004D8D3",
+            "0004D8D4",
+            "0004D8D5",
+            "000B0E87",
+            "000458B0",
+            "000567C8",
+            "0001364F",
+            "00013260",
+            "00013261",
+            "00013262",
+            "00013365",
+            "0003550B",
+            "0004E50A",
+            "000A2C8E"
+        ]
+    },
+    "blacklistedNpcsPluginFemale": [
+        "Project ja-Kha'jay- Khajiit Diversity.esp",
+        "Ashe - Fire and Blood.esp",
+        "SM_Astrid.esp",
+        "0Kaidan.esp",
+        "HLIORemi.esp",
+        "018Auri.esp",
+        "AX ValSerano.esp",
+        "BB02YoanaFollower.esp",
+        "SkyrimFair.esp"
+    ],
+    "blacklistedNpcsPluginMale": [
+        "Project ja-Kha'jay- Khajiit Diversity.esp",
+        "Ashe - Fire and Blood.esp",
+        "SM_Astrid.esp",
+        "0Kaidan.esp",
+        "HLIORemi.esp",
+        "018Auri.esp",
+        "AX ValSerano.esp",
+        "BB02YoanaFollower.esp",
+        "SkyrimFair.esp"
+    ],
+    "blacklistedRacesFemale": [
+        "KhajiitRace",
+        "ElderRace"
+    ],
+    "blacklistedRacesMale": [
+        "KhajiitRace",
+        "ElderRace"
+    ],
+    "blacklistedOutfitsFromORefitFormID": {},
+    "blacklistedOutfitsFromORefit": [
+        "OBody Nude 32"
+    ],
+    "blacklistedOutfitsFromORefitPlugin": [
+        "[Caenarvon] Magecore.esp",
+        "Girl's Travel Outfit.esp"
+    ],
+    "outfitsForceRefitFormID": {},
+    "outfitsForceRefit": [],
+    "blacklistedPresetsFromRandomDistribution": [
+        "- Zeroed Sliders -",
+        "-Zeroed Sliders-",
+        "zGranhadd_3BA#092(Misty)",
+        "CHIEFTAIN",
+        "HIMBO Cake (by Miggyluv)",
+        "HIMBO Comfort (by Miggyluv)",
+        "HIMBO Daddy",
+        "HIMBO Endomorph (by Miggyluv)",
+        "HIMBO Hassan",
+        "HIMBO Hunk to Hulk (by Miggyluv)",
+        "HIMBO Jack",
+        "HIMBO Joseb",
+        "HIMBO Mesomorph (by Miggyluv)",
+        "HIMBO Musculosos (by Miggyluv)",
+        "HIMBO Natural (by Miggyluv)",
+        "HIMBO Nordic Bulk (by Miggyluv)",
+        "HIMBO Perfection (by Miggyluv)",
+        "HIMBO Relaxed (by Miggyluv)",
+        "HIMBO Stocky (by Miggyluv)",
+        "HIMBO Sultry",
+        "HIMBO Urbon",
+        "AlmuAlim_McDs' Mom",
+        "AlmuAlim_Soft",
+        "Big",
+        "Chubby",
+        "Croco",
+        "Kirushi",
+        "Lewd",
+        "Liuskin_Jessica_Zaal",
+        "Miss Bo",
+        "PonzuAji_Minthara",
+        "rocner_Vanessa",
+        "stoppu",
+        "Stoppu_2",
+        "Stringy Femboi",
+        "theJadeRabbit",
+        "Thiccc",
+        "Thicc-muscular",
+        "Too Big",
+        "Xaqqtin"
+    ],
+    "blacklistedPresetsShowInOBodyMenu": false
+}

@@ -1,0 +1,50 @@
+{
+  "data/NetScriptFramework/Plugins/CustomSkill.destiny.config.txt": {
+    "CSFSKSE": 1.0,
+    "Description": "Class Menu",
+    "hidden": 0.0,
+    "icon_exists": 0.0,
+    "icon_loc": "data/interface/MetaSkillsMenu/Destiny SubclassesOfSkyrim.dds",
+    "Name": "Destiny",
+    "ShowMenuFile": "SubclassesOfSkyrim.esp",
+    "ShowMenuForm": 0.0,
+    "Skydome": "dareni\\interface\\intdestinyperkskydome.nif",
+    "test": "data/NetScriptFramework/Plugins/CustomSkill.destiny.config.txt"
+  },
+  "data/NetScriptFramework/Plugins/CustomSkill.LOTDSkillTreesAcademia.config.txt": {
+    "CSFSKSE": 1.0,
+    "Description": "The pursuit of research, education, and scholarship.",
+    "hidden": 0.0,
+    "icon_exists": 0.0,
+    "icon_loc": "data/interface/MetaSkillsMenu/Academia LOTD Skill Trees.dds",
+    "Name": "Academia",
+    "ShowMenuFile": "LOTD Skill Trees.esp",
+    "ShowMenuForm": 0.0,
+    "Skydome": "LOTD Skill Trees/academia.nif",
+    "test": "data/NetScriptFramework/Plugins/CustomSkill.LOTDSkillTreesAcademia.config.txt"
+  },
+  "data/NetScriptFramework/Plugins/CustomSkill.LOTDSkillTreesExcavation.config.txt": {
+    "CSFSKSE": 1.0,
+    "Description": "The exposure, processing and recording of archaeological remains.",
+    "hidden": 0.0,
+    "icon_exists": 0.0,
+    "icon_loc": "data/interface/MetaSkillsMenu/Excavation LOTD Skill Trees.dds",
+    "Name": "Excavation",
+    "ShowMenuFile": "LOTD Skill Trees.esp",
+    "ShowMenuForm": 0.0,
+    "Skydome": "LOTD Skill Trees/excavation.nif",
+    "test": "data/NetScriptFramework/Plugins/CustomSkill.LOTDSkillTreesExcavation.config.txt"
+  },
+  "data/NetScriptFramework/Plugins/CustomSkill.LOTDSkillTreesExpedition.config.txt": {
+    "CSFSKSE": 1.0,
+    "Description": "A journey or voyage undertaken with the purpose of exploration and research.",
+    "hidden": 0.0,
+    "icon_exists": 0.0,
+    "icon_loc": "data/interface/MetaSkillsMenu/Expedition LOTD Skill Trees.dds",
+    "Name": "Expedition",
+    "ShowMenuFile": "LOTD Skill Trees.esp",
+    "ShowMenuForm": 0.0,
+    "Skydome": "LOTD Skill Trees/expedition.nif",
+    "test": "data/NetScriptFramework/Plugins/CustomSkill.LOTDSkillTreesExpedition.config.txt"
+  }
+}

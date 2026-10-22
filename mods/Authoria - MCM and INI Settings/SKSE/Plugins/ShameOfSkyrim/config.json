@@ -1,0 +1,36 @@
+{
+	"float" : 
+	{
+		"general_globalcooldownindays" : 0.041666667908430099
+	},
+	"int" : 
+	{
+		"chance_bandit" : 25,
+		"chance_draugr" : 10,
+		"chance_dremora" : 40,
+		"chance_forsworn" : 15,
+		"chance_giant" : 40,
+		"chance_hunter" : 25,
+		"chance_imperialarmy" : 8,
+		"chance_khajiitcaravan" : 35,
+		"chance_marriagecourting" : 100,
+		"chance_marriagemarried" : 100,
+		"chance_marriagesingle" : 100,
+		"chance_necromancer" : 20,
+		"chance_silverhand" : 15,
+		"chance_skeleton" : 10,
+		"chance_stormcloakarmy" : 8,
+		"chance_thalmor" : 15,
+		"chance_vampire" : 20,
+		"chance_vigilofstendarr" : 20,
+		"chance_warlock" : 30,
+		"chance_werewolf" : 15,
+		"chance_witch" : 40,
+		"general_allowcollectathonmessages" : 1,
+		"general_allowdebugmessages" : 0,
+		"general_allowtracemessages" : 0,
+		"general_dropchance" : 30,
+		"general_usecustomskseplugin" : 0,
+		"general_usecustomsksepluginwithspid" : 1
+	}
+}

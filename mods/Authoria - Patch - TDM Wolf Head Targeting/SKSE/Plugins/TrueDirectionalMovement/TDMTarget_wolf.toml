@@ -1,0 +1,6 @@
+# Authoria - TDM Wolf and Canine Head Targeting
+
+[[TargetPoints]]
+BodyPartDataFormID = 0x04FBF5 # DogBodyPartData (shared by all canines)
+Plugin = "Skyrim.esm"
+BoneNames = ["Canine_Head", "Canine_Neck2"]

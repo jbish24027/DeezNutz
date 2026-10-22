@@ -1,0 +1,16 @@
+{
+	"float" : 
+	{
+		"speech_success_chance" : 0.20000000298023224
+	},
+	"int" : 
+	{
+		"failure_timeout_duration" : 24,
+		"friends_allow_entry" : 2,
+		"success_timeout_duration" : 12
+	},
+	"string" : 
+	{
+		"profile_name" : "Profile 1"
+	}
+}

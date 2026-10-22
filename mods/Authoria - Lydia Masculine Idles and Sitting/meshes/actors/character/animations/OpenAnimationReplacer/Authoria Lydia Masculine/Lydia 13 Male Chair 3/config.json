@@ -1,0 +1,56 @@
+{
+    "name": "Lydia 13 Male Chair 3",
+    "description": "Lydia copy of 'Male Furniture Animation Pack / Chair 3' (priority 888888131), so she plays what a male NPC plays.",
+    "priority": 889888131,
+    "conditions": [
+        {
+            "condition": "IsInFaction",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Faction": {
+                "pluginName": "Skyrim.esm",
+                "formID": "2BE3B"
+            }
+        },
+        {
+            "condition": "IsChild",
+            "requiredVersion": "1.0.0.0",
+            "negated": true
+        },
+        {
+            "condition": "IsRace",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Race": {
+                "pluginName": "Skyrim.esm",
+                "formID": "67CD8"
+            }
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.24000005424022675
+            }
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "A2C8E"
+            }
+        }
+    ]
+}

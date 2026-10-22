@@ -1,0 +1,44 @@
+[
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$Min schlong size",
+    "page": "$General Settings",
+    "slider": 5.0
+  },
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$Spells erections",
+    "page": "$General Settings",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$SOS potions",
+    "page": "$General Settings",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$Bend schlong up",
+    "page": "$General Settings",
+    "shortcut": 70
+  },
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$Bend schlong down",
+    "page": "$General Settings",
+    "shortcut": 70
+  },
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$Bend Player schlong",
+    "page": "$General Settings",
+    "shortcut": 70
+  },
+  {
+    "Mod": "Schlongs Of Skyrim",
+    "option": "$Display SOS notifications",
+    "page": "$General Settings",
+    "toggle": "off"
+  }
+]

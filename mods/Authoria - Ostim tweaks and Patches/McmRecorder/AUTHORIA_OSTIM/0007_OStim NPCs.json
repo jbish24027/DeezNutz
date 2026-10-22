@@ -1,0 +1,7 @@
+[
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_remove_spells",
+    "toggle": "On"
+  }
+]

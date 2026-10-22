@@ -1,0 +1,17 @@
+{
+	"KeybindingDisable" : -1,
+	"KeybindingDisableGamepad" : -1,
+	"KeybindingDisableModifier" : 0,
+	"KeybindingEnable" : -1,
+	"KeybindingEnableGamepad" : -1,
+	"KeybindingEnableModifier" : 0,
+	"KeybindingTake" : 18,
+	"KeybindingTakeAll" : -1,
+	"KeybindingTakeAllGamepad" : 278,
+	"KeybindingTakeAllModifier" : 0,
+	"KeybindingTakeGamepad" : 276,
+	"KeybindingTakeModifier" : 0,
+	"KeybindingTransfer" : 16,
+	"KeybindingTransferGamepad" : 271,
+	"KeybindingTransferModifier" : 0
+}

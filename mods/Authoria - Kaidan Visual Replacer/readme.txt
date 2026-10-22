@@ -1,0 +1,2 @@
+credits: Huge thanks to hanshotfirst01 (https://www.nexusmods.com/profile/hanshotfirst01/mods) for allowing to use her kaidan replacer
+Himbo for body assets: https://www.nexusmods.com/skyrimspecialedition/mods/46311

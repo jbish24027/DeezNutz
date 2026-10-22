@@ -1,0 +1,39 @@
+{
+	"int" : 
+	{
+		"advanced_placement_mode" : 2,
+		"campfire_mode" : 0,
+		"camping_gear_flammable" : 2,
+		"camping_illegal_in_towns" : 2,
+		"enable_tutorials" : 2,
+		"eo_compatibility" : 1,
+		"follower_tracking" : 2,
+		"followers_use_campsite" : 2,
+		"hotkey_build_campfire" : 43,
+		"hotkey_create_item" : 70,
+		"hotkey_harvest_wood" : 83,
+		"hotkey_instincts" : 70,
+		"instincts_find_flora" : 2,
+		"instincts_find_tinder" : 2,
+		"instincts_hear_creatures" : 2,
+		"instincts_sense_objective" : 1,
+		"instincts_sfx" : 2,
+		"instincts_smell_dead" : 2,
+		"instincts_vfx" : 2,
+		"max_placement_threads" : 20,
+		"tent_remove_follower_equipment" : 2,
+		"tent_remove_player_ammo" : 2,
+		"tent_remove_player_backpack" : 2,
+		"tent_remove_player_boots" : 2,
+		"tent_remove_player_cuirass" : 1,
+		"tent_remove_player_equipment" : 2,
+		"tent_remove_player_gauntlets" : 2,
+		"tent_remove_player_helm" : 2,
+		"tent_remove_player_shield" : 2,
+		"tent_remove_player_weapons" : 2
+	},
+	"string" : 
+	{
+		"profile_name" : "Profile 1"
+	}
+}

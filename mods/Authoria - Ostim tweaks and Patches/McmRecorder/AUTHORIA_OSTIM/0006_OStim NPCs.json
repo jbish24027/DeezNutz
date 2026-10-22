@@ -1,0 +1,27 @@
+[
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_allow_active_followers",
+    "toggle": "off"
+  },
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_min_night",
+    "slider": 9.0
+  },
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_max_night",
+    "slider": 5.0
+  },
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_min_relation",
+    "slider": 2.0
+  },
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_stop_when_found",
+    "toggle": "off"
+  }
+]

@@ -1,0 +1,28 @@
+{
+    "name": "Lydia 33 Take a Seat 3",
+    "description": "Lydia copy of 'Take a Seat - New Sitting Animations for OAR or DAR / Sitting Animation 3' (priority 60003), so she plays what a male NPC plays.",
+    "priority": 998889003,
+    "keepRandomResultsOnLoop": true,
+    "conditions": [
+        {
+            "condition": "Random",
+            "requiredVersion": "1.0.0.0",
+            "Random value": {
+                "min": 0.0,
+                "max": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.15000000596046448
+            }
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "A2C8E"
+            }
+        }
+    ]
+}

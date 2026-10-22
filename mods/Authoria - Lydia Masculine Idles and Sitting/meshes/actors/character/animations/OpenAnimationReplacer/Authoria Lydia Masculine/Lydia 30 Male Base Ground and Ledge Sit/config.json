@@ -1,0 +1,15 @@
+{
+    "name": "Lydia 30 Male Base Ground and Ledge Sit",
+    "description": "Vanilla cross-legged and ledge sitting for Lydia, beating the feminine versions.",
+    "priority": 998889000,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "A2C8E"
+            }
+        }
+    ]
+}

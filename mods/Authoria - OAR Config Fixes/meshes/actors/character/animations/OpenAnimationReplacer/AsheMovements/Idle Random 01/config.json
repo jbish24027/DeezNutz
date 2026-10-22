@@ -1,0 +1,40 @@
+{
+  "name": "Idle 01",
+  "description": "Random idle animations for Ashe Crystal Heart.",
+  "priority": 195060,
+  "interruptible": true,
+  "conditions": [
+    {
+      "condition": "AND",
+      "requiredVersion": "1.0.0.0",
+      "Conditions": [
+        {
+          "condition": "IsActorBase",
+          "requiredVersion": "1.0.0.0",
+          "Actor base": {
+            "pluginName": "Ashe - Fire and Blood.esp",
+            "formID": "5900"
+          }
+        },
+        {
+          "condition": "Random",
+          "requiredVersion": "2.3.0.0",
+          "State": {
+            "scope": "Local",
+            "shouldResetOnLoopOrEcho": false
+          },
+          "Minimum random value": {
+            "value": 0.0
+          },
+          "Maximum random value": {
+            "value": 1.0
+          },
+          "Comparison": "<",
+          "Numeric value": {
+            "value": 0.90
+          }
+        }
+      ]
+    }
+  ]
+}

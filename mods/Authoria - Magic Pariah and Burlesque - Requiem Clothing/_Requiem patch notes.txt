@@ -1,0 +1,30 @@
+Authoria - Magic Pariah and Burlesque - Requiem Clothing
+========================================================
+Built 2026-09-03 with C:\1. AUTHORIA\_tools\requiem-clothing-patch\ (build_patch.py; esp_tools.py).
+One ESL plugin: "Authoria - Burlesque Dress - Requiem Clothing.esp" (57 override records).
+Masters: Skyrim, Update, Dawnguard, Dragonborn, Burlesque.esp, Requiem.esp. Load it after both.
+
+Magic Pariah needed no patch: all four pieces already ship as Clothing, armor rating 0, with the
+clothing keywords and no armor-set keyword, so the Reqtificator leaves them alone as-is.
+
+Burlesque Dress (88 records enumerated, every one dispositioned):
+  19 ARMO  -> clothing frames per the load order's outfit convention (Armor Folder patch):
+              Clothing type, armor rating 0 (the two corsets shipped at 10),
+              REQ_ArmorSet_Iron stripped from the 15 pieces that carried it (it would have made the
+              Reqtificator hand out iron tempering + pull the plugin in as a master),
+              body 20 gold / 1.0, hands and hats 10 / 0.5, boots and accessory slots 10 / 1.0,
+              necklace + bracelet at Requiem's silver-garnet necklace tier (440 / 0.25, jewelry
+              keywords). ClothingRich kept where the author set it.
+              Mod bug fixed: the red bracelet's armature list also carried vanilla GoldAmuletAA.
+  19 COBJ  -> tempering recipes pointed at REQ_DisableRecipe (Requiem never tempers clothing; its
+              own USSEP clothing temper recipes are disabled the same way).
+  15 COBJ  -> clothing forge recipes keep the author's inputs (1 iron ingot + 2 leather strips,
+              gated on owning the recipe book) and gain HasPerk(Craftsmanship) like every Requiem
+              forge recipe.
+   4 COBJ  -> jewelry forge recipes: inputs were 2 leather strips for a 500-gold item; now
+              1 silver ingot + 2 flawless garnets with HasPerk(Advanced Blacksmithing), cloned
+              from REQ_Forge_Amulet_SilverGarnet, book gate kept.
+   1 COBJ  -> recipe book (tanning rack) left as authored.
+   1 BOOK  -> plain book, left as authored.
+  19 ARMA + 10 TXST -> cosmetic, not touched.
+No REQ_NULL references, no Reqtificator outputs (resistance tier / tempering keywords) hand-stamped.

@@ -1,0 +1,15 @@
+Alternate Perspective MQ101 Messenger Papyrus Fix
+
+Fixes a missing Messenger alias lookup during the Alternate Perspective MQ101 intro transition. The patched scripts fall back to the actual persistent MessengerREF and guard the disable call, preventing the Papyrus None-object error while preserving the intended cleanup behavior.
+
+Helgen End Dragon Attack Guards
+
+Adds a patched QF_MQ101DragonAttack_000D0593 script for the Alternate Perspective "Helgen (end)" path. Fragment_232 still enables the same Helgen destruction setup, starts DragonAttackScene1, enables the same triggers, and waits one second, but the three imperial archer StartCombat(Alduin) calls now go through a helper that only runs when the archer alias resolves to an enabled actor with loaded 3D and Alduin resolves. This prevents Papyrus errors from unloaded or missing archer refs while preserving visible archer combat when those actors are actually loaded.
+
+Adds a patched PF_dunCGStormcloakTowerASearc_00100826 package fragment script. The package still restrains and unrestrains the Helgen tower Stormcloak (dunCGStormcloakTowerAREF, 000F820E) during the vanilla escape, but both fragments now gate on a private helper IsVanillaHelgenStart() before touching the package actor. That reference is flagged InitiallyDisabled and is never enabled on the Alternate Perspective "Helgen Keep (End)" start, where the engine hands the fragment a dead/unbound actor handle: "If akActor" passes (the script object is non-None) but every native call on it -- SetRestrained, and even Is3DLoaded -- throws "no native object bound". So we cannot guard by calling anything on akActor. Instead IsVanillaHelgenStart() checks the always-valid player for the prisoner tunic (Skyrim.esm 0003C9FE, REQ_Cloth_Prisoner_Body): on a genuine prisoner start the player still carries it when this package ends (the same moment Requiem swaps the player out of prisoner gear), and on an alternate start they never carried it. The "&&" short-circuits, so akActor's native is reached only on a real start, eliminating both the native-object error and the "Assigning None to ::temp1" warning. Requiem's REQ_OutfitUpdater_MQ101 actor script is hardened separately in Authoria - Papyrus - Misc - Requiem Optimizations.
+
+MQ102 Helgen SetStage Trigger Enable-Parent Fix
+
+Adds Authoria - Papyrus - Misc - Alternate Perspective.esp to override MQ102SetStage15 (0BECD0:Skyrim.esm), the Helgen trigger that runs defaultSetStageTrigSCRIPT for MQ102 / "Before the Storm". Alternate Perspective gives this trigger an enable state parent, but the vanilla/USSEP generic trigger script defaults to Disable() after setting its quest stage, which logs "cannot disable an object with an enable state parent".
+
+The patch sets the trigger's disableWhenDone property to false while preserving myQuest = MQ102, prereqStageOPT = 5, stage = 15, and the Alternate Perspective enable parent. The trigger still advances MQ102 to stage 15 when the player crosses it, but it no longer attempts the invalid cleanup disable.
