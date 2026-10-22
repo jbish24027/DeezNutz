@@ -1,5 +1,7 @@
 # DeezNutz — Authoria custom work
 
+Authoria - Requiem Reforged Skyrim Modlist.
+
 Our own stuff for the Authoria Skyrim setup, with history. Private.
 
 ## What's where
