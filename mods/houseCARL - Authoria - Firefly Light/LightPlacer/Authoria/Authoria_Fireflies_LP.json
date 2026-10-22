@@ -1,0 +1,22 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_FireflyLight",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Critters\\Firefly\\Firefly.nif"
+    ]
+  }
+]

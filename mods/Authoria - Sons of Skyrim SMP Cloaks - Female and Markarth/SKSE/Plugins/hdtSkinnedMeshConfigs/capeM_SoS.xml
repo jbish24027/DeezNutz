@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+	
+	<per-triangle-shape name="VirtualGround">
+		<margin>5</margin>
+		<prenetration>1</prenetration>
+		<tag>VirtualGround</tag>
+		<no-collide-with-tag>BaseShape</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBody</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHead</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHands</no-collide-with-tag>
+		<no-collide-with-tag>VirtualFeet</no-collide-with-tag>
+		<no-collide-with-tag>VirtualGround</no-collide-with-tag>
+	</per-triangle-shape>
+	
+	<bone-default name="first">
+		<restitution>1</restitution>
+	</bone-default>
+	
+	<bone name="CB 01 1" template="first"/>
+	<bone name="CB 02 1" template="first"/>
+	<bone name="CB 03 1" template="first"/>
+	
+	<bone name="NPC R ForearmA [RLar]"/>
+	<bone name="NPC L ForearmA [LLar]"/>
+	<bone name="CME R Forearm [RLar]"/>
+	<bone name="CME L Forearm [LLar]"/>
+	<bone name="SkirtBBone01"/>
+	<bone name="SkirtBBone02"/>
+	<bone name="SkirtBBone03"/>
+	<bone name="NPC L RearCalf [LrClf]"/>
+	<bone name="NPC R RearCalf [RrClf]"/>
+	<bone name="NPC R Breast"/>
+	<bone name="NPC R Breast01"/>
+	<bone name="NPC L Breast"/>
+	<bone name="NPC L Breast01"/>
+	<bone name="NPC L Calf [LClf]"/>
+	<bone name="NPC R Calf [RClf]"/>
+	<bone name="NPC L Clavicle [LClv]"/>
+	<bone name="NPC R Clavicle [RClv]"/>
+	<bone name="NPC R Pauldron"/>
+	<bone name="NPC L Pauldron"/>
+	<bone name="NPC Head [Head]"/>
+	<bone name="NPC Pelvis [Pelv]"/>
+	<bone name="NPC Spine [Spn0]"/>
+	<bone name="NPC Spine1 [Spn1]"/>
+	<bone name="NPC Spine2 [Spn2]"/>
+	
+	
+	<bone-default name="noMass">
+		<mass>0.000</mass>
+		<inertia x="1" y="1" z="1"/>
+		<linearDamping>0.9</linearDamping>
+		<angularDamping>0.9</angularDamping>
+		<friction>0.9</friction>
+		<restitution>1</restitution>
+	</bone-default>
+	
+	<bone-default name="mass">
+		<mass>0.02</mass>
+		<inertia x="1" y="1" z="1"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0.55</linearDamping>
+		<angularDamping>0.55</angularDamping>
+		<friction>0.9</friction>
+		<restitution>1</restitution>
+	</bone-default>
+	
+	
+	<bone name="CB 01 2" template="mass"/>	
+	<bone name="CB 01 3" template="mass"/>
+	<bone name="CB 01 4" template="mass"/>
+	<bone name="CB 01 5" template="mass"/>
+
+	
+	<bone name="CB 02 2" template="mass"/>
+	<bone name="CB 02 3" template="mass"/>
+	<bone name="CB 02 4" template="mass"/>
+	<bone name="CB 02 5" template="mass"/>
+
+	
+	<bone name="CB 03 2" template="mass"/>
+	<bone name="CB 03 3" template="mass"/>
+	<bone name="CB 03 4" template="mass"/>
+	<bone name="CB 03 5" template="mass"/>
+
+	
+		<!-- Authoria 2026-08-27 - cape swing retune.
+	     Stock 1.1 locked joints 1-2 and 2-3 at 0 rad and allowed joints 3-4
+	     and 4-5 only +-0.1/0.2/0.1 rad, so the cloaks could not visibly move.
+	     Limits now widen down each chain; mass template damping 0.8 -> 0.55.
+	     Revert = delete this file (the Nexus patch's own copy takes over). -->
+	
+	<generic-constraint-default>
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInA>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0"/>
+		<linearUpperLimit x="0" y="0" z="0"/>
+		<angularLowerLimit x="-0.12" y="-0.18" z="-0.12"/>
+		<angularUpperLimit x="0.12" y="0.18" z="0.12"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="0" y="0" z="0"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="CB 01 2" bodyB ="CB 01 1"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 02 2" bodyB ="CB 02 1"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 03 2" bodyB ="CB 03 1"></generic-constraint>
+	</constraint-group>
+	
+	<generic-constraint-default>
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInA>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0"/>
+		<linearUpperLimit x="0" y="0" z="0"/>
+		<angularLowerLimit x="-0.22" y="-0.30" z="-0.22"/>
+		<angularUpperLimit x="0.22" y="0.30" z="0.22"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="0" y="0" z="0"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="CB 01 3" bodyB ="CB 01 2"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 02 3" bodyB ="CB 02 2"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 03 3" bodyB ="CB 03 2"></generic-constraint>
+	</constraint-group>
+	
+	<generic-constraint-default>
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInA>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0"/>
+		<linearUpperLimit x="0" y="0" z="0"/>
+		<angularLowerLimit x="-0.32" y="-0.42" z="-0.32"/>
+		<angularUpperLimit x="0.32" y="0.42" z="0.32"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="0" y="0" z="0"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="CB 01 4" bodyB ="CB 01 3"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 02 4" bodyB ="CB 02 3"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 03 4" bodyB ="CB 03 3"></generic-constraint>
+	</constraint-group>
+	
+	<generic-constraint-default>
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInA>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0"/>
+		<linearUpperLimit x="0" y="0" z="0"/>
+		<angularLowerLimit x="-0.42" y="-0.55" z="-0.42"/>
+		<angularUpperLimit x="0.42" y="0.55" z="0.42"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="0" y="0" z="0"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="CB 01 5" bodyB ="CB 01 4"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 02 5" bodyB ="CB 02 4"></generic-constraint>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="CB 03 5" bodyB ="CB 03 4"></generic-constraint>
+	</constraint-group>
+	
+	
+
+	
+ 	<per-triangle-shape name="VirtualBody">
+		<margin>0,1</margin>					
+		<penetration>0,5</penetration>
+		<tag>VirtualBody</tag>		
+		<no-collide-with-tag>VirtualButt</no-collide-with-tag>
+		<no-collide-with-tag>arms</no-collide-with-tag>
+		<no-collide-with-tag>legs</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-tag>BaseShape</no-collide-with-tag>
+		<no-collide-with-tag>belly</no-collide-with-tag>		
+		<no-collide-with-tag>butt</no-collide-with-tag>
+		<no-collide-with-tag>pussy</no-collide-with-tag>
+		<no-collide-with-tag>MaleBody</no-collide-with-tag>
+		<no-collide-with-tag>MaleHands</no-collide-with-tag>
+		<no-collide-with-tag>MaleFeet</no-collide-with-tag>
+		<no-collide-with-tag>shlong</no-collide-with-tag>
+		<no-collide-with-tag>VirtualClitoris</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBody</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHead</no-collide-with-tag>
+		<no-collide-with-tag>VirtualArms</no-collide-with-tag>
+		<no-collide-with-tag>VirtualLegs</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBreasts</no-collide-with-tag>
+		<no-collide-with-tag>VirtualGround</no-collide-with-tag>
+		<no-collide-with-tag>VirtualFeet</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHighheel</no-collide-with-tag>
+		<no-collide-with-bone>VaginaDeep1</no-collide-with-bone>
+		<no-collide-with-bone>VaginaDeep</no-collide-with-bone>
+	</per-triangle-shape>
+
+ 	<per-triangle-shape name="VirtualHead">
+		<margin>0,1</margin>					
+		<penetration>0,02</penetration>
+		<tag>VirtualHead</tag>
+		<no-collide-with-tag>BaseShape</no-collide-with-tag>
+		<no-collide-with-tag>butt</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-tag>MaleBody</no-collide-with-tag>
+        <no-collide-with-tag>Rbreast</no-collide-with-tag>		
+		<no-collide-with-tag>Belly</no-collide-with-tag>
+		<no-collide-with-tag>armscoll</no-collide-with-tag>			
+		<no-collide-with-tag>armscollisionM</no-collide-with-tag>
+		<no-collide-with-tag>collisionThigh</no-collide-with-tag>
+		<no-collide-with-tag>VirtualClitoris</no-collide-with-tag>
+		<no-collide-with-tag>VirtualButt</no-collide-with-tag>
+		<no-collide-with-tag>VirtualArms</no-collide-with-tag>
+		<no-collide-with-tag>VirtualLegs</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBreasts</no-collide-with-tag>
+		<no-collide-with-tag>VirtualGround</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBody</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHead</no-collide-with-tag>
+		<no-collide-with-tag>VirtualVagina</no-collide-with-tag>
+		<no-collide-with-tag>VirtualLegs</no-collide-with-tag>
+		<no-collide-with-tag>VirtualFeet</no-collide-with-tag>
+		<no-collide-with-tag>VirtualCreatureBody</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHighheel</no-collide-with-tag>
+	</per-triangle-shape>
+
+ 	<per-triangle-shape name="VirtualHands">
+		<margin>0,01</margin>
+		<penetration>0,05</penetration>
+		<tag>VirtualHands</tag>
+		<no-collide-with-tag>BaseShape</no-collide-with-tag>
+		<no-collide-with-tag>hands</no-collide-with-tag>
+		<no-collide-with-tag>arms</no-collide-with-tag>
+		<no-collide-with-tag>legs</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-tag>body1</no-collide-with-tag>
+		<no-collide-with-tag>belly</no-collide-with-tag>
+		<no-collide-with-tag>butt</no-collide-with-tag>
+		<no-collide-with-tag>pussy</no-collide-with-tag>
+		<no-collide-with-tag>MaleBody</no-collide-with-tag>
+		<no-collide-with-tag>MaleHands</no-collide-with-tag>
+		<no-collide-with-tag>MaleFeet</no-collide-with-tag>
+		<no-collide-with-tag>shlong</no-collide-with-tag>
+		<no-collide-with-tag>VirtualArms</no-collide-with-tag>
+		<no-collide-with-tag>VirtualLegs</no-collide-with-tag>
+		<no-collide-with-tag>VirtualGround</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBody</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHead</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHands</no-collide-with-tag>
+		<no-collide-with-bone>VaginaDeep1</no-collide-with-bone>
+		<no-collide-with-bone>VaginaDeep</no-collide-with-bone>
+		<weight-threshold bone="NPC L ForearmTwist1 [LLt1]">0,4</weight-threshold>
+		<weight-threshold bone="NPC R ForearmTwist1 [RLt1]">0,4</weight-threshold>
+		<weight-threshold bone="NPC L Hand [LHnd]">0,8</weight-threshold>
+		<weight-threshold bone="NPC R Hand [RHnd]">0,8</weight-threshold>
+		<weight-threshold bone="NPC R Finger00 [RF00]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger01 [RF01]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger02 [RF02]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger10 [RF10]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger11 [RF11]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger12 [RF12]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger20 [RF20]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger21 [RF21]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger22 [RF22]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger30 [RF30]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger31 [RF31]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger32 [RF32]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger40 [RF40]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger41 [RF41]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R Finger42 [RF42]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger00 [LF00]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger01 [LF01]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger02 [LF02]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger10 [LF10]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger11 [LF11]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger12 [LF12]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger20 [LF20]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger21 [LF21]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger22 [LF22]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger30 [LF30]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger31 [LF31]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger32 [LF32]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger40 [LF40]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger41 [LF41]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L Finger42 [LF42]">0,7</weight-threshold>
+		<weight-threshold bone="NPC R UpperArm [RUar]">0,7</weight-threshold>
+		<weight-threshold bone="NPC L UpperArm [LUar]">0,7</weight-threshold>
+	</per-triangle-shape>
+	
+	<per-triangle-shape name="VirtualFeet">
+		<margin>0,01</margin>
+		<prenetration>0,1</prenetration>
+		<tag>VirtualFeet</tag>
+		<no-collide-with-tag>arms</no-collide-with-tag>
+		<no-collide-with-tag>legs</no-collide-with-tag>
+		<no-collide-with-tag>BaseShape</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-tag>belly</no-collide-with-tag>		
+		<no-collide-with-tag>butt</no-collide-with-tag>
+		<no-collide-with-tag>pussy</no-collide-with-tag>
+		<no-collide-with-tag>MaleBody</no-collide-with-tag>
+		<no-collide-with-tag>MaleHands</no-collide-with-tag>
+		<no-collide-with-tag>MaleFeet</no-collide-with-tag>
+		<no-collide-with-tag>shlong</no-collide-with-tag>
+		<no-collide-with-tag>VirtualLegs</no-collide-with-tag>
+		<no-collide-with-tag>VirtualArms</no-collide-with-tag>
+		<no-collide-with-tag>VirtualGround</no-collide-with-tag>
+		<no-collide-with-tag>VirtualButt</no-collide-with-tag>
+		<no-collide-with-tag>VirtualBody</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHead</no-collide-with-tag>
+		<no-collide-with-tag>VirtualVagina</no-collide-with-tag>
+		<no-collide-with-tag>VirtualFeet</no-collide-with-tag>
+		<no-collide-with-tag>VirtualHighheel</no-collide-with-tag>
+		<weight-threshold bone="NPC L Foot [Lft ]">0,4</weight-threshold>
+		<weight-threshold bone="NPC R Foot [Rft ]">0,4</weight-threshold>
+		<weight-threshold bone="NPC L Calf [LClf]">0,3</weight-threshold>
+		<weight-threshold bone="NPC R Calf [RClf]">0,3</weight-threshold>
+	</per-triangle-shape>
+
+	<per-triangle-shape name="Cape">
+		<margin>1</margin>
+		<prenetration>0</prenetration>
+		<tag>cloth</tag>
+  	</per-triangle-shape>
+
+</system>

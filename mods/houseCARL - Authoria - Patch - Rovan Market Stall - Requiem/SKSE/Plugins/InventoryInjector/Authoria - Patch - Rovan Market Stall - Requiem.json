@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+  "rules": [
+    {
+      "match": {
+        "formType": "Potion",
+        "formId": "Authoria - Patch - Rovan Market Stall - Requiem.esp|801"
+      },
+      "assign": {
+        "subTypeDisplay": "Market Stall",
+        "iconSource": "I4IconAddon/icons.swf",
+        "iconLabel": "misc_camping",
+        "iconColor": "#BF8E60"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# numOriginalFrames: 40
+# duration: 1.333333
+# numAnnotationTracks: 97
+# numAnnotations: 18
+0.416666 preHitFrame
+0.500000 Collision_AttackStart
+0.500000 Collision_Add.Node(NPC R Hand [RHnd])|Scale(4)
+0.500000 Collision_Add.Node(NPC L Hand [LHnd])|Scale(4)
+0.500000 Soundplay.WPNSwingUnarmed
+0.533333 HitFrame
+0.533334 HitFrame
+0.666666 Collision_Remove.node(NPC L Hand [LHnd])
+0.666666 Collision_Remove.node(NPC R Hand [RHnd])
+0.666666 CastOKStart
+0.700000 Collision_AttackEnd
+0.000000 animmotion 0 0 0
+0.333333 animmotion 0 45.537 0
+0.500000 animmotion 0 81.233 0
+0.533333 animmotion 0 92.026 0
+1.000000 animmotion 0 92.026 0
+1.166666 animmotion 0 131.387 0
+1.333333 animmotion 0 131.387 0

@@ -1,0 +1,29 @@
+{
+    "name": "Battleaxe - Bear",
+    "priority": 7601,
+    "conditions": [
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "StancesNG.esp",
+                        "formID": "803"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 6.0
+                    },
+                    "Left hand": false
+                }
+            ]
+        }
+    ]
+}

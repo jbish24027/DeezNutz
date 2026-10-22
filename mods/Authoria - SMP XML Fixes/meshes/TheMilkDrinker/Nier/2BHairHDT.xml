@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+	
+
+	
+    <bone name="NPC Head [Head]"/>
+	<bone name="NPC Neck [Neck]"/>	
+    <bone name="NPC Spine2 [Spn2]"/>	
+	<bone name="HairA 1"/>	
+	<bone name="HairB 1"/>	
+	<bone name="HairC 1"/>	
+	<bone name="HairD 1"/>	
+	<bone name="HairE 1"/>	
+	<bone name="HairF 1"/>	
+	<bone name="HairG 1"/>	
+	<bone name="HairH 1"/>		
+	<bone name="HairJ 1"/>	
+	<bone name="HairX 1"/>	
+	<bone name="HairY 1"/>	
+	<bone name="HairZ 1"/>		
+	
+	<bone-default>
+		<mass>10</mass>
+		<inertia x="5" y="5" z="5" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.9</linearDamping>
+		<angularDamping>0.9</angularDamping>
+		<friction>0</friction>
+		<restitution>0</restitution>
+		<gravity-factor>0.9</gravity-factor>
+	</bone-default>
+
+	<bone name="HairA 2"/>	
+	<bone name="HairA 3"/>	
+	<bone name="HairB 2"/>	
+	<bone name="HairB 3"/>
+	<bone name="HairC 2"/>	
+	<bone name="HairC 3"/>
+	<bone name="HairD 2"/>	
+	<bone name="HairE 2"/>	
+	<bone name="HairE 3"/>
+	<bone name="HairF 2"/>	
+	<bone name="HairF 3"/>	
+	<bone name="HairG 2"/>	
+	<bone name="HairG 3"/>
+	<bone name="HairH 2"/>		
+	<bone name="HairJ 2"/>	
+	<bone name="HairJ 3"/>
+	<bone name="HairX 2"/>	
+	<bone name="HairX 3"/>	
+	<bone name="HairY 2"/>	
+	<bone name="HairY 3"/>	
+	<bone name="HairZ 2"/>	
+	<bone name="HairZ 3"/>
+	 
+	<per-vertex-shape name="Hair02">    
+        <margin>0</margin>
+		<penetration>0.1</penetration>		
+		<shared>private</shared>		
+		<tag>Hair</tag>
+		<can-collide-with-tag>VirtualHead</can-collide-with-tag>		
+	</per-vertex-shape>
+	
+	<per-triangle-shape name="VirtualHead">
+        <margin>0</margin>
+		<penetration>0.1</penetration>		
+		<shared>private</shared>		
+		<tag>VirtualHead</tag>	
+		<can-collide-with-tag>Hair</can-collide-with-tag>		
+    </per-triangle-shape>		
+	
+	<generic-constraint-default>
+        <frameInB>
+            <basis x="0" y="0" z="0" w="1" />
+            <origin x="0" y="0" z="0" />
+        </frameInB>
+        <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+        <linearLowerLimit x="-0" y="-0" z="-0" />
+        <linearUpperLimit x="0" y="0" z="0" />
+        <angularLowerLimit x="-0.5" y="0.1" z="-0.1" />
+        <angularUpperLimit x="0.5" y="1" z="0.1" />
+        <linearStiffness x="0" y="0" z="0" />
+        <angularStiffness x="10" y="10" z="10" />
+        <linearDamping x="1" y="1" z="1" />
+        <angularDamping x="1" y="1" z="1" />
+        <linearEquilibrium x="0" y="0" z="0" />
+        <angularEquilibrium x="0" y="0" z="0" />
+    </generic-constraint-default>
+	
+	<constraint-group>		
+        <generic-constraint bodyA="HairD 2" bodyB="HairD 1"/>	
+        <generic-constraint bodyA="HairD 3" bodyB="HairD 2"/>		
+        <generic-constraint bodyA="HairH 2" bodyB="HairH 1"/>	
+        <generic-constraint bodyA="HairH 3" bodyB="HairH 2"/>			
+    </constraint-group>
+	
+	<generic-constraint-default>
+        <frameInB>
+            <basis x="0" y="0" z="0" w="1" />
+            <origin x="0" y="0" z="0" />
+        </frameInB>
+        <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+        <linearLowerLimit x="-1" y="-1" z="-0" />
+        <linearUpperLimit x="1" y="1" z="0" />
+        <angularLowerLimit x="-0.05" y="0.1" z="-0.5" />
+        <angularUpperLimit x="0.05" y="0.5" z="0.5" />
+        <linearStiffness x="0" y="0" z="0" />
+        <angularStiffness x="10" y="10" z="10" />
+        <linearDamping x="1" y="1" z="1" />
+        <angularDamping x="1" y="1" z="1" />
+        <linearEquilibrium x="0" y="0" z="0" />
+        <angularEquilibrium x="0" y="0" z="0" />
+    </generic-constraint-default>
+	
+	<constraint-group>
+        <generic-constraint bodyA="HairA 2" bodyB="HairA 1"/>
+        <generic-constraint bodyA="HairA 3" bodyB="HairA 2"/>		
+        <generic-constraint bodyA="HairB 2" bodyB="HairB 1"/>
+        <generic-constraint bodyA="HairB 3" bodyB="HairB 2"/>		
+        <generic-constraint bodyA="HairC 2" bodyB="HairC 1"/>
+        <generic-constraint bodyA="HairC 3" bodyB="HairC 2"/>		
+        <generic-constraint bodyA="HairJ 2" bodyB="HairJ 1"/>	
+        <generic-constraint bodyA="HairJ 3" bodyB="HairJ 2"/>				
+    </constraint-group>	
+	
+	<generic-constraint-default>
+        <frameInB>
+            <basis x="0" y="0" z="0" w="1" />
+            <origin x="0" y="0" z="0" />
+        </frameInB>
+        <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+        <linearLowerLimit x="-0" y="-0" z="-0" />
+        <linearUpperLimit x="0" y="0" z="0" />
+        <angularLowerLimit x="-0.05" y="0" z="-0.05" />
+        <angularUpperLimit x="0.05" y="0.05" z="0.05" />
+        <linearStiffness x="0" y="0" z="0" />
+        <angularStiffness x="0" y="0" z="0" />
+        <linearDamping x="1" y="1" z="1" />
+        <angularDamping x="2" y="2" z="2" />
+        <linearEquilibrium x="0" y="0" z="0" />
+        <angularEquilibrium x="0" y="0" z="0" />
+    </generic-constraint-default>
+	
+	<constraint-group>			
+        <generic-constraint bodyA="HairX 2" bodyB="HairX 1"/>	
+        <generic-constraint bodyA="HairX 3" bodyB="HairX 2"/>	
+		<generic-constraint bodyA="HairX 4" bodyB="HairX 3"/>		
+        <generic-constraint bodyA="HairY 2" bodyB="HairY 1"/>
+        <generic-constraint bodyA="HairY 3" bodyB="HairY 2"/>
+		<generic-constraint bodyA="HairY 4" bodyB="HairY 3"/>		
+        <generic-constraint bodyA="HairZ 2" bodyB="HairZ 1"/>	
+        <generic-constraint bodyA="HairZ 3" bodyB="HairZ 2"/>	
+		<generic-constraint bodyA="HairZ 4" bodyB="HairZ 3"/>		
+    </constraint-group>	
+	
+	<generic-constraint-default>
+        <frameInB>
+            <basis x="0" y="0" z="0" w="1" />
+            <origin x="0" y="0" z="0" />
+        </frameInB>
+        <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+        <linearLowerLimit x="-1" y="-1" z="-0" />
+        <linearUpperLimit x="1" y="1" z="0" />
+        <angularLowerLimit x="-0.05" y="0.1" z="-0.5" />
+        <angularUpperLimit x="0.05" y="2" z="0.5" />
+        <linearStiffness x="100" y="100" z="100" />
+        <angularStiffness x="100" y="100" z="100" />
+        <linearDamping x="1" y="1" z="1" />
+        <angularDamping x="1" y="1" z="1" />
+        <linearEquilibrium x="0" y="0" z="0" />
+        <angularEquilibrium x="0" y="0" z="0" />
+    </generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="HairA 4" bodyB="HairA 3"/>		
+		<generic-constraint bodyA="HairA 4" bodyB="HairA 3"/>	
+		<generic-constraint bodyA="HairB 4" bodyB="HairB 3"/>
+		<generic-constraint bodyA="HairC 4" bodyB="HairC 3"/>
+		<generic-constraint bodyA="HairJ 4" bodyB="HairJ 3"/>			
+    </constraint-group>	
+	
+	<generic-constraint-default>
+        <frameInB>
+            <basis x="0" y="0" z="0" w="1" />
+            <origin x="0" y="0" z="0" />
+        </frameInB>
+        <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+        <linearLowerLimit x="-0.01" y="-0.01" z="-0" />
+        <linearUpperLimit x="0.01" y="0.01" z="0" />
+        <angularLowerLimit x="-0" y="0" z="-0.02" />
+        <angularUpperLimit x="0" y="0.01" z="0.02" />
+        <linearStiffness x="100" y="100" z="100" />
+        <angularStiffness x="100" y="100" z="100" />
+        <linearDamping x="1" y="1" z="1" />
+        <angularDamping x="1" y="1" z="1" />
+        <linearEquilibrium x="0" y="0" z="0" />
+        <angularEquilibrium x="0" y="0" z="0" />
+    </generic-constraint-default>
+	
+	<constraint-group>				
+        <generic-constraint bodyA="HairE 2" bodyB="HairE 1"/>	
+        <generic-constraint bodyA="HairE 3" bodyB="HairE 2"/>
+		<generic-constraint bodyA="HairE 4" bodyB="HairE 3"/>		
+        <generic-constraint bodyA="HairG 2" bodyB="HairG 1"/>	
+        <generic-constraint bodyA="HairG 3" bodyB="HairG 2"/>
+		<generic-constraint bodyA="HairG 4" bodyB="HairG 3"/>			
+    </constraint-group>		
+	
+	<generic-constraint-default>
+        <frameInB>
+            <basis x="0" y="0" z="0" w="1" />
+            <origin x="0" y="0" z="0" />
+        </frameInB>
+        <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+        <linearLowerLimit x="-0.01" y="-0.01" z="-0" />
+        <linearUpperLimit x="0.01" y="0.01" z="0" />
+        <angularLowerLimit x="-0" y="0" z="-0" />
+        <angularUpperLimit x="0" y="0.05" z="0" />
+        <linearStiffness x="100" y="100" z="100" />
+        <angularStiffness x="100" y="100" z="100" />
+        <linearDamping x="1" y="1" z="1" />
+        <angularDamping x="1" y="1" z="1" />
+        <linearEquilibrium x="0" y="0" z="0" />
+        <angularEquilibrium x="0" y="0" z="0" />
+    </generic-constraint-default>
+	
+	<constraint-group>	
+        <generic-constraint bodyA="HairF 2" bodyB="HairF 1"/>	
+        <generic-constraint bodyA="HairF 3" bodyB="HairF 2"/>
+		<generic-constraint bodyA="HairF 4" bodyB="HairF 3"/>			
+    </constraint-group>	
+	
+</system>

@@ -1,0 +1,79 @@
+# Authoria YASTM support for Requiem Soul Tomatoes.
+# Adds Requiem's tiered tomatoes as YASTM soul gem families and points
+
+[[soulGems]]
+id = "Requiem Petty Soul Tomato"
+isReusable = false
+capacity = 1
+members = [
+    [0x34f9a5, "Requiem.esp"], # Empty
+    [0xad386f, "Requiem.esp"], # Filled
+]
+
+[[soulGems]]
+id = "Requiem Lesser Soul Tomato"
+isReusable = false
+capacity = 2
+members = [
+    [0xad3875, "Requiem.esp"],                                      # Empty
+    [0x800, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Petty
+    [0xad3870, "Requiem.esp"],                                      # Filled
+]
+
+[[soulGems]]
+id = "Requiem Common Soul Tomato"
+isReusable = false
+capacity = 3
+members = [
+    [0xad3876, "Requiem.esp"],                                      # Empty
+    [0x801, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Petty
+    [0x802, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Lesser
+    [0xad3874, "Requiem.esp"],                                      # Filled
+]
+
+[[soulGems]]
+id = "Requiem Greater Soul Tomato"
+isReusable = false
+capacity = 4
+members = [
+    [0xad3877, "Requiem.esp"],                                      # Empty
+    [0x803, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Petty
+    [0x804, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Lesser
+    [0x805, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Common
+    [0xad3871, "Requiem.esp"],                                      # Filled
+]
+
+[[soulGems]]
+id = "Requiem Grand Soul Tomato"
+isReusable = false
+capacity = 5
+members = [
+    [0xad3878, "Requiem.esp"],                                      # Empty
+    [0x806, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Petty
+    [0x807, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Lesser
+    [0x808, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Common
+    [0x809, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Greater
+    [0xad3872, "Requiem.esp"],                                      # Filled
+]
+
+[[soulGems]]
+id = "Requiem Corrupted Soul Tomato"
+isReusable = false
+capacity = 6
+members = [
+    [0x34f9aa, "Requiem.esp"], # Empty
+    [0xad3873, "Requiem.esp"], # Filled black soul
+]
+
+[[soulGems]]
+id = "Requiem Corrupted Soul Tomato (white)"
+isReusable = false
+capacity = 5
+members = [
+    [0x34f9aa, "Requiem.esp"],                                      # Empty
+    [0x80a, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Petty
+    [0x80b, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Lesser
+    [0x80c, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Common
+    [0x80d, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Greater
+    [0x80e, "Authoria - Patch - Requiem - YASTM Soul Gems.esp"], # Filled white
+]

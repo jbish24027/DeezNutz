@@ -1,0 +1,35 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_MageStatueBlue",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            92.0,
+            -88.0,
+            413.0
+          ]
+        ]
+      },
+      {
+        "data": {
+          "light": "Authoria_Glow_MageStatueRed",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            -92.0,
+            -88.0,
+            413.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Architecture\\Winterhold\\MageStatue.nif"
+    ]
+  }
+]

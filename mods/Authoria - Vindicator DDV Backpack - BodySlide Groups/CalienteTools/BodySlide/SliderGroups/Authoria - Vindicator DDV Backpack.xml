@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+	<Group name="Authoria - Vindicator Armor (3BA Low Heels)">
+		<Member name="VindicatorArmor_Collar_3BA"/>
+		<Member name="VindicatorArmor_Cuirass_3BA"/>
+		<Member name="VindicatorArmor_Cuisses_3BA"/>
+		<Member name="VindicatorArmor_Vambraces_3BA"/>
+		<Member name="VindicatorArmor_Wristguards_3BA"/>
+		<Member name="VindicatorArmor_Gauntlets_3BA"/>
+		<Member name="VindicatorArmor_Apron_3BA"/>
+		<Member name="VindicatorArmor_Leotard_3BA"/>
+		<Member name="VindicatorArmor_Harness_3BA"/>
+		<Member name="VindicatorArmor_Pauldrons_3BA"/>
+		<Member name="VindicatorArmor_Sabatons_LowHeels_3BA"/>
+		<Member name="VindicatorArmor_Greaves_LowHeels_3BA"/>
+	</Group>
+	<Group name="Authoria - Vindicator Armor (UBE Low Heels)">
+		<Member name="VindicatorArmor_Collar_UBE"/>
+		<Member name="VindicatorArmor_Cuirass_UBE"/>
+		<Member name="VindicatorArmor_Cuisses_UBE"/>
+		<Member name="VindicatorArmor_Vambraces_UBE"/>
+		<Member name="VindicatorArmor_Wristguards_UBE"/>
+		<Member name="VindicatorArmor_Gauntlets_UBE"/>
+		<Member name="VindicatorArmor_Apron_UBE"/>
+		<Member name="VindicatorArmor_Leotard_UBE"/>
+		<Member name="VindicatorArmor_Harness_UBE"/>
+		<Member name="VindicatorArmor_Pauldrons_UBE"/>
+		<Member name="VindicatorArmor_Sabatons_LowHeels_UBE"/>
+		<Member name="VindicatorArmor_Greaves_LowHeels_UBE"/>
+	</Group>
+	<Group name="Authoria - Vindicator Armor (HIMBO Low Heels)">
+		<Member name="VindicatorArmor_Collar_HIMBO"/>
+		<Member name="VindicatorArmor_Cuirass_HIMBO"/>
+		<Member name="VindicatorArmor_Cuisses_HIMBO"/>
+		<Member name="VindicatorArmor_Vambraces_HIMBO"/>
+		<Member name="VindicatorArmor_Wristguards_HIMBO"/>
+		<Member name="VindicatorArmor_Gauntlets_HIMBO"/>
+		<Member name="VindicatorArmor_Apron_HIMBO"/>
+		<Member name="VindicatorArmor_Leotard_HIMBO"/>
+		<Member name="VindicatorArmor_Harness_HIMBO"/>
+		<Member name="VindicatorArmor_Pauldrons_HIMBO"/>
+		<Member name="VindicatorArmor_Sabatons_LowHeels_HIMBO"/>
+		<Member name="VindicatorArmor_Greaves_LowHeels_HIMBO"/>
+	</Group>
+	<Group name="Authoria - DDV Arcane Fencer (HIMBO)">
+		<Member name="DDV - Arcane fencer 1ST"/>
+		<Member name="DDV - Arcane fencer accesories"/>
+		<Member name="DDV - Arcane fencer accesories 2"/>
+		<Member name="DDV - Arcane fencer Boots"/>
+		<Member name="DDV - Arcane fencer Cape"/>
+		<Member name="DDV - Arcane fencer Cape 2"/>
+		<Member name="DDV - Arcane fencer Gloves"/>
+		<Member name="DDV - Arcane fencer Hat"/>
+		<Member name="DDV - Arcane fencer pants"/>
+		<Member name="DDV - Arcane fencer Top"/>
+		<Member name="DDV - Arcane fencer Top 2"/>
+	</Group>
+	<Group name="Authoria - Fuse00 Backpack (UBE)">
+		<Member name="[UBE]_Fuse00_Backpack"/>
+	</Group>
+</SliderGroups>

@@ -1,0 +1,26 @@
+# numOriginalFrames: 100
+# duration: 3.333333
+# numAnnotationTracks: 97
+# numAnnotations: 21
+0.333333 CastOKStart
+0.340000 preHitFrame
+0.783333 weaponSwing
+0.949999 HitFrame
+1.333333 weaponSwing
+1.783333 HitFrame
+1.783333 PIE.$ES_HeavyParalysis
+2.100000 PIE.@SGVI|MCO_nextattack|2
+2.300000 MCO_WinOpen
+2.499999 MCO_Recovery
+3.000000 MCO_WinClose
+0.000000 animmotion 0.0 0.0 0.0
+0.833333 animmotion 0.0 0.0 0.0
+0.916666 animmotion 0.0 20.332000732421875 0.0
+1.166666 animmotion 0.0 20.332000732421875 0.0
+1.333333 animmotion 0.0 82.24800109863281 0.0
+1.666666 animmotion 0.0 119.83599853515625 0.0
+1.783333 animmotion 0.0 169.78700256347656 0.0
+2.449999 animmotion 0.0 169.78700256347656 0.0
+2.833333 animmotion 0.0 166.18699645996094 0.0
+3.333333 animmotion 0.0 166.18699645996094 0.0
+3.333333 attackStop

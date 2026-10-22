@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+	<!-- ground -->
+		<per-triangle-shape name="VirtualGround">
+			<margin>1</margin>
+			<prenetration>4</prenetration>
+			<tag>ground</tag>
+		</per-triangle-shape>
+		
+			<!-- body -->
+		<bone-default>
+		<margin-multiplier>0.1</margin-multiplier>
+	</bone-default>
+		
+		<bone name="NPC Head [Head]"/>
+		<bone name="NPC Spine2 [Spn2]"/>
+		
+		<bone name="NPC L Hand [LHnd]"/>
+		<bone name="NPC R Hand [RHnd]"/>
+		
+		<per-triangle-shape name="head">
+		<margin>0.2</margin>
+		<priority>0</priority>
+		<prenetration>0.1</prenetration>
+		<shared>private</shared>
+		<tag>h2</tag>
+		<can-collide-with-tag>e5</can-collide-with-tag>
+		<can-collide-with-tag>e6</can-collide-with-tag>
+		<can-collide-with-tag>e7</can-collide-with-tag>
+		<can-collide-with-tag>e8</can-collide-with-tag>
+		<can-collide-with-tag>e9</can-collide-with-tag>
+		<no-collide-with-tag>h1</no-collide-with-tag>
+		<no-collide-with-tag>h2</no-collide-with-tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+		
+		<weight-threshold bone="NPC Spine2 [Spn2]">1</weight-threshold>
+		<weight-threshold bone="NPC Head [Head]">0.7</weight-threshold>
+		</per-triangle-shape>
+	
+		<per-triangle-shape name="unpb">
+		<margin>1</margin>
+		<priority>0</priority>
+		<prenetration>0.03</prenetration>
+		<shared>private</shared>
+		<tag>h1</tag>
+
+		<can-collide-with-tag>e5</can-collide-with-tag>
+		<can-collide-with-tag>e6</can-collide-with-tag>
+		<can-collide-with-tag>e7</can-collide-with-tag>
+		<can-collide-with-tag>e8</can-collide-with-tag>
+		<can-collide-with-tag>e9</can-collide-with-tag>
+		<no-collide-with-tag>h1</no-collide-with-tag>
+		<no-collide-with-tag>h2</no-collide-with-tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+		<weight-threshold bone="NPC L Clavicle [LClv]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R Clavicle [RClv]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L Forearm [LLar]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R Forearm [RLar]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L ForearmTwist1 [LLt1]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R ForearmTwist1 [RLt1]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L ForearmTwist2 [LLt2]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R ForearmTwist2 [RLt2]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L Hand [LHnd]">1</weight-threshold>
+		<weight-threshold bone="NPC R Hand [RHnd]">1</weight-threshold>
+		<weight-threshold bone="NPC L Foot [Lft ]">1</weight-threshold>
+		<weight-threshold bone="NPC R Foot [Rft ]">1</weight-threshold>
+		<weight-threshold bone="NPC L UpperArm [LUar]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R UpperArm [RUar]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L UpperarmTwist1 [LUt1]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R UpperarmTwist1 [RUt1]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L UpperarmTwist2 [LUt2]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R UpperarmTwist2 [RUt2]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L Breast">0.1</weight-threshold>
+		<weight-threshold bone="NPC R Breast">0.1</weight-threshold>
+		<weight-threshold bone="NPC L Breast01">1</weight-threshold>
+		<weight-threshold bone="NPC R Breast01">1</weight-threshold>
+		<weight-threshold bone="NPC Spine [Spn0]">0.3</weight-threshold>
+		<weight-threshold bone="NPC Spine2 [Spn2]">0.3</weight-threshold>
+		<weight-threshold bone="NPC Spine1 [Spn1]">1</weight-threshold>
+		<weight-threshold bone="NPC Belly">1</weight-threshold>
+		<weight-threshold bone="NPC Pelvis [Pelv]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L Pussy02">1</weight-threshold>
+		<weight-threshold bone="NPC R Pussy02">1</weight-threshold>
+		<weight-threshold bone="NPC R Butt">0.1</weight-threshold>
+		<weight-threshold bone="NPC R Butt">0.1</weight-threshold>
+		<weight-threshold bone="NPC L Thigh [LThg]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R Thigh [RThg]">0.3</weight-threshold>
+		<weight-threshold bone="NPC L Calf [LClf]">0.3</weight-threshold>
+		<weight-threshold bone="NPC R Calf [RClf]">0.3</weight-threshold>
+		</per-triangle-shape>
+
+	<!-- cloth -->
+	<bone-default>
+		<margin-multiplier>0.01</margin-multiplier>
+	</bone-default>
+	
+	<bone name="L1_00"/>
+	<bone name="L2_00"/>
+	<bone name="R1_00"/>
+	<bone name="R2_00"/>
+	<bone name="R3_00"/>
+	<bone name="L3_00"/>
+	<bone name="LB1_00"/>
+	<bone name="LB2_00"/>
+	<bone name="RB1_00"/>
+	<bone name="RB2_00"/>
+	<bone name="H1_00"/>
+	
+	<bone-default>
+		<mass>0.3</mass>
+		<inertia x="9" y="9" z="9" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.82</linearDamping>
+		<angularDamping>0.7</angularDamping>
+		<friction>0.2</friction>
+		<gravity-factor>0.98</gravity-factor>
+		<restitution>0</restitution>
+	</bone-default>
+	
+  <bone-default>
+		<margin-multiplier>0.4</margin-multiplier>
+	</bone-default>
+	
+	<bone name="L1_01"/>
+	<bone name="L2_01"/>
+	<bone name="L1_02"/>
+	<bone name="L2_02"/>
+	
+	<bone name="R1_01"/>
+	<bone name="R2_01"/>
+	<bone name="R1_02"/>
+	<bone name="R2_02"/>
+	
+	<bone name="R3_01"/>
+	<bone name="L3_01"/>
+	<bone name="R3_02"/>
+	<bone name="L3_02"/>
+	
+	<bone-default>
+    <mass>0.23</mass>
+	<linearDamping>0.90</linearDamping>
+		<angularDamping>0.7</angularDamping>
+		<margin-multiplier>0.8</margin-multiplier>
+	</bone-default>
+
+	<bone name="L1_03"/>
+	<bone name="R1_03"/>
+	
+	<bone name="L2_03"/>
+	<bone name="L2_04"/>
+	<bone name="R2_03"/>
+	<bone name="R2_04"/>
+	
+	<bone name="L3_03"/>
+	<bone name="L3_04"/>
+	<bone name="L3_05"/>
+	<bone name="R3_03"/>
+	<bone name="R3_04"/>
+	<bone name="R3_05"/>
+	
+	<bone-default>
+    <mass>0.17</mass>
+	<linearDamping>0.94</linearDamping>
+		<angularDamping>0.7</angularDamping>
+		<margin-multiplier>0.8</margin-multiplier>
+	</bone-default>
+
+	<bone name="L3_06"/>
+	<bone name="R3_06"/>
+	
+	<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.15" y="-0.1" z="-0.25" />
+		<angularUpperLimit x="0.15" y="0.2" z="0.25" />
+		<linearStiffness x="0" y="0" z="0" />
+		<angularStiffness x="0" y="0" z="0" />
+		<linearDamping x="0" y="0" z="0" />
+		<angularDamping x="0" y="0" z="0" />
+		<linearEquilibrium x="0" y="0" z="0" />
+		<angularEquilibrium x="0" y="0" z="0" />
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="L1_01" bodyB="L1_00"/>
+		<generic-constraint bodyA="L1_02" bodyB="L1_01"/>
+		<generic-constraint bodyA="L1_03" bodyB="L1_02"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="L2_01" bodyB="L2_00"/>
+		<generic-constraint bodyA="L2_02" bodyB="L2_01"/>
+		<generic-constraint bodyA="L2_03" bodyB="L2_02"/>
+		<generic-constraint bodyA="L2_04" bodyB="L2_03"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="L3_01" bodyB="L3_00"/>
+		<generic-constraint bodyA="L3_02" bodyB="L3_01"/>
+		<generic-constraint bodyA="L3_03" bodyB="L3_02"/>
+		<generic-constraint bodyA="L3_04" bodyB="L3_03"/>
+		<generic-constraint bodyA="L3_05" bodyB="L3_04"/>
+		<generic-constraint bodyA="L3_06" bodyB="L3_05"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="R1_01" bodyB="R1_00"/>
+		<generic-constraint bodyA="R1_02" bodyB="R1_01"/>
+		<generic-constraint bodyA="R1_03" bodyB="R1_02"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="R2_01" bodyB="R2_00"/>
+		<generic-constraint bodyA="R2_02" bodyB="R2_01"/>
+		<generic-constraint bodyA="R2_03" bodyB="R2_02"/>
+		<generic-constraint bodyA="R2_04" bodyB="R2_03"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="R3_01" bodyB="R3_00"/>
+		<generic-constraint bodyA="R3_02" bodyB="R3_01"/>
+		<generic-constraint bodyA="R3_03" bodyB="R3_02"/>
+		<generic-constraint bodyA="R3_04" bodyB="R3_03"/>
+		<generic-constraint bodyA="R3_05" bodyB="R3_04"/>
+		<generic-constraint bodyA="R3_06" bodyB="R3_05"/>
+	</constraint-group>
+	
+	<bone-default>
+		<mass>0.1</mass>
+		<inertia x="6" y="6" z="6" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.7</linearDamping>
+		<angularDamping>0.65</angularDamping>
+		<gravity-factor>0.99</gravity-factor>
+		<friction>0.2</friction>
+		<restitution>1</restitution>
+	</bone-default>
+	
+	<bone-default>
+		<margin-multiplier>0.3</margin-multiplier>
+	</bone-default>
+	
+	<bone name="RB1_01"/>
+	<bone name="RB2_01"/>
+	<bone name="LB1_01"/>
+	<bone name="LB2_01"/>
+	
+	<bone-default>
+		<mass>0.18</mass>
+		<margin-multiplier>0.7</margin-multiplier>
+	</bone-default>
+	
+	<bone name="RB1_02"/>
+	<bone name="RB2_02"/>
+	<bone name="LB1_02"/>
+	<bone name="LB2_02"/>
+	
+	<bone-default>
+	<mass>0.16</mass>
+		<margin-multiplier>0.9</margin-multiplier>
+	</bone-default>
+
+	<bone name="RB1_03"/>
+	<bone name="LB1_03"/>
+	<bone name="RB1_04"/>
+	<bone name="LB1_04"/>
+	<bone name="RB1_05"/>
+	<bone name="LB1_05"/>
+	<bone name="RB1_06"/>
+	<bone name="LB1_06"/>
+	
+	<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="0" />
+			<origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-3.5" y="0" z="0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.11" y="-0.1" z="-0.15" />
+		<angularUpperLimit x="0.11" y="0.35" z="0.15" />
+		<linearStiffness x="0" y="0" z="0" />
+		<angularStiffness x="0" y="0" z="0" />
+		<linearDamping x="0" y="0" z="0" />
+		<angularDamping x="0" y="0" z="0" />
+		<linearEquilibrium x="0" y="0" z="0" />
+		<angularEquilibrium x="0" y="0" z="0" />
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="RB1_01" bodyB="RB1_00"/>
+		<generic-constraint bodyA="RB1_02" bodyB="RB1_01"/>
+		<generic-constraint bodyA="RB1_03" bodyB="RB1_02"/>
+		<generic-constraint bodyA="RB1_04" bodyB="RB1_03"/>
+		<generic-constraint bodyA="RB1_05" bodyB="RB1_04"/>
+		<generic-constraint bodyA="RB1_06" bodyB="RB1_05"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="LB1_01" bodyB="LB1_00"/>
+		<generic-constraint bodyA="LB1_02" bodyB="LB1_01"/>
+		<generic-constraint bodyA="LB1_03" bodyB="LB1_02"/>
+		<generic-constraint bodyA="LB1_04" bodyB="LB1_03"/>
+		<generic-constraint bodyA="LB1_05" bodyB="LB1_04"/>
+		<generic-constraint bodyA="LB1_06" bodyB="LB1_05"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="RB2_01" bodyB="RB2_00"/>
+		<generic-constraint bodyA="RB2_02" bodyB="RB2_01"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="LB2_01" bodyB="LB2_00"/>
+		<generic-constraint bodyA="LB2_02" bodyB="LB2_01"/>
+	</constraint-group>
+	
+		<bone-default>
+		<mass>0.11</mass>
+		<inertia x="7" y="7" z="7" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.85</linearDamping>
+		<angularDamping>0.6</angularDamping>
+		<friction>0.1</friction>
+		<restitution>1</restitution>
+	</bone-default>
+	
+	<bone-default>
+		<margin-multiplier>0.5</margin-multiplier>
+	</bone-default>
+	
+	<bone name="H1_01"/>	
+	<bone name="H1_02"/>
+	
+	<bone-default>
+		<margin-multiplier>0.6</margin-multiplier>
+	</bone-default>
+
+	<bone name="H1_03"/>
+	<bone name="H1_04"/>
+	<bone name="H1_05"/>
+	
+	<bone-default>
+		<margin-multiplier>0.7</margin-multiplier>
+	</bone-default>
+	
+	<bone name="H1_06"/>
+	<bone name="H1_07"/>
+	<bone name="H1_08"/>
+	
+	<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.15" y="0" z="-0.3" />
+		<angularUpperLimit x="0.15" y="0.4" z="0.3" />
+		<linearStiffness x="0" y="0" z="0" />
+		<angularStiffness x="0" y="0" z="0" />
+		<linearDamping x="0" y="0" z="0" />
+		<angularDamping x="0" y="0" z="0" />
+		<linearEquilibrium x="0" y="0" z="0" />
+		<angularEquilibrium x="0" y="0" z="0" />
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="H1_01" bodyB="H1_00"/>
+		<generic-constraint bodyA="H1_02" bodyB="H1_01"/>
+		<generic-constraint bodyA="H1_03" bodyB="H1_02"/>
+		<generic-constraint bodyA="H1_04" bodyB="H1_03"/>
+		<generic-constraint bodyA="H1_05" bodyB="H1_04"/>
+		<generic-constraint bodyA="H1_06" bodyB="H1_05"/>
+		<generic-constraint bodyA="H1_07" bodyB="H1_06"/>
+		<generic-constraint bodyA="H1_08" bodyB="H1_07"/>
+	</constraint-group>
+
+	<per-vertex-shape name="Hair PonyTail">
+		<margin>0.1</margin>
+		<priority>0</priority>
+		<prenetration>0.1</prenetration>
+		<shared>private</shared>
+		<tag>e5</tag>
+		<no-collide-with-tag>e5</no-collide-with-tag>
+		<no-collide-with-tag>e6</no-collide-with-tag>
+		<no-collide-with-tag>e7</no-collide-with-tag>
+		<no-collide-with-tag>e8</no-collide-with-tag>
+		<no-collide-with-tag>e9</no-collide-with-tag>
+		<no-collide-with-tag>h2</no-collide-with-tag>
+		<can-collide-with-tag>h1</can-collide-with-tag>
+
+		<can-collide-with-tag>ground</can-collide-with-tag>
+		
+		<no-collide-with-bone>NPC L Hand [LHnd]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R Hand [RHnd]</no-collide-with-bone>
+		
+		<weight-threshold bone="H1_01">1</weight-threshold>	
+		<weight-threshold bone="H1_02">0.3</weight-threshold>	
+		<weight-threshold bone="H1_03">0.3</weight-threshold>
+		<weight-threshold bone="H1_04">0.3</weight-threshold>
+		<weight-threshold bone="H1_05">0.3</weight-threshold>
+		<weight-threshold bone="H1_06">0.3</weight-threshold>
+		<weight-threshold bone="H1_07">0.3</weight-threshold>
+		<weight-threshold bone="H1_08">0.3</weight-threshold>
+		</per-vertex-shape>
+		
+		<per-vertex-shape name="Hair Ribbon">
+		<margin>0.1</margin>
+		<priority>0</priority>
+		<prenetration>1</prenetration>
+		<shared>private</shared>
+		<tag>e6</tag>
+		<no-collide-with-tag>e5</no-collide-with-tag>
+		<no-collide-with-tag>e6</no-collide-with-tag>
+		<no-collide-with-tag>e7</no-collide-with-tag>
+		<no-collide-with-tag>e8</no-collide-with-tag>
+		<no-collide-with-tag>e9</no-collide-with-tag>
+		<can-collide-with-tag>h1</can-collide-with-tag>
+		<can-collide-with-tag>h2</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+		
+		<no-collide-with-bone>NPC L Hand [LHnd]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R Hand [RHnd]</no-collide-with-bone>
+		
+		<weight-threshold bone="RB1_01">1</weight-threshold>	
+		<weight-threshold bone="RB1_02">0.3</weight-threshold>	
+		<weight-threshold bone="RB1_03">0.3</weight-threshold>
+		<weight-threshold bone="RB1_04">0.3</weight-threshold>
+		<weight-threshold bone="RB1_05">0.3</weight-threshold>
+		<weight-threshold bone="RB1_06">0.3</weight-threshold>
+		
+		<weight-threshold bone="RB2_01">1</weight-threshold>
+		<weight-threshold bone="RB2_02">0.3</weight-threshold>
+		
+		<weight-threshold bone="LB1_01">1</weight-threshold>	
+		<weight-threshold bone="LB1_02">0.3</weight-threshold>	
+		<weight-threshold bone="LB1_03">0.3</weight-threshold>
+		<weight-threshold bone="LB1_04">0.3</weight-threshold>
+		<weight-threshold bone="LB1_05">0.3</weight-threshold>
+		<weight-threshold bone="LB1_06">0.3</weight-threshold>
+		
+		<weight-threshold bone="LB2_01">1</weight-threshold>
+		<weight-threshold bone="LB2_02">0.3</weight-threshold>
+		</per-vertex-shape>
+		
+		<per-vertex-shape name="Hair_1">
+		<margin>0.1</margin>
+		<priority>0</priority>
+		<prenetration>1</prenetration>
+		<shared>private</shared>
+		<tag>e7</tag>
+		<no-collide-with-tag>e5</no-collide-with-tag>
+		<no-collide-with-tag>e6</no-collide-with-tag>
+		<no-collide-with-tag>e7</no-collide-with-tag>
+		<no-collide-with-tag>e8</no-collide-with-tag>
+		<no-collide-with-tag>e9</no-collide-with-tag>
+		<can-collide-with-tag>h1</can-collide-with-tag>
+		<can-collide-with-tag>h2</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+		
+		<no-collide-with-bone>NPC L Hand [LHnd]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R Hand [RHnd]</no-collide-with-bone>
+		
+		<weight-threshold bone="R1_01">1</weight-threshold>	
+		<weight-threshold bone="R1_02">0.3</weight-threshold>	
+		<weight-threshold bone="R1_03">0.3</weight-threshold>
+		
+		<weight-threshold bone="L1_01">1</weight-threshold>	
+		<weight-threshold bone="L1_02">0.3</weight-threshold>	
+		<weight-threshold bone="L1_03">0.3</weight-threshold>
+		</per-vertex-shape>
+		
+		<per-vertex-shape name="Hair_2">
+		<margin>0.1</margin>
+		<priority>0</priority>
+		<prenetration>1</prenetration>
+		<shared>private</shared>
+		<tag>e8</tag>
+		<no-collide-with-tag>e5</no-collide-with-tag>
+		<no-collide-with-tag>e6</no-collide-with-tag>
+		<no-collide-with-tag>e7</no-collide-with-tag>
+		<no-collide-with-tag>e8</no-collide-with-tag>
+		<no-collide-with-tag>e9</no-collide-with-tag>
+		<can-collide-with-tag>h1</can-collide-with-tag>
+		<can-collide-with-tag>h2</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+		
+		<no-collide-with-bone>NPC L Hand [LHnd]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R Hand [RHnd]</no-collide-with-bone>
+		
+		<weight-threshold bone="R2_01">1</weight-threshold>	
+		<weight-threshold bone="R2_02">0.3</weight-threshold>	
+		<weight-threshold bone="R2_03">0.3</weight-threshold>
+		<weight-threshold bone="R2_04">0.3</weight-threshold>
+		
+		<weight-threshold bone="L2_01">1</weight-threshold>	
+		<weight-threshold bone="L2_02">0.3</weight-threshold>	
+		<weight-threshold bone="L2_03">0.3</weight-threshold>
+		<weight-threshold bone="L2_04">0.3</weight-threshold>
+		</per-vertex-shape>
+		
+		<per-vertex-shape name="Hair_3">
+		<margin>0.1</margin>
+		<priority>0</priority>
+		<prenetration>1</prenetration>
+		<shared>private</shared>
+		<tag>e9</tag>
+		<no-collide-with-tag>e5</no-collide-with-tag>
+		<no-collide-with-tag>e6</no-collide-with-tag>
+		<no-collide-with-tag>e7</no-collide-with-tag>
+		<no-collide-with-tag>e8</no-collide-with-tag>
+		<no-collide-with-tag>e9</no-collide-with-tag>
+		<can-collide-with-tag>h1</can-collide-with-tag>
+		<can-collide-with-tag>h2</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+		
+		<no-collide-with-bone>NPC L Hand [LHnd]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R Hand [RHnd]</no-collide-with-bone>
+		
+		<weight-threshold bone="R3_01">1</weight-threshold>	
+		<weight-threshold bone="R3_02">0.3</weight-threshold>	
+		<weight-threshold bone="R3_03">0.3</weight-threshold>
+		<weight-threshold bone="R3_04">0.3</weight-threshold>
+		<weight-threshold bone="R3_05">0.3</weight-threshold>
+		<weight-threshold bone="R3_06">0.3</weight-threshold>
+		
+		<weight-threshold bone="L3_01">1</weight-threshold>	
+		<weight-threshold bone="L3_02">0.3</weight-threshold>	
+		<weight-threshold bone="L3_03">0.3</weight-threshold>
+		<weight-threshold bone="L3_04">0.3</weight-threshold>
+		<weight-threshold bone="L3_05">0.3</weight-threshold>
+		<weight-threshold bone="L3_06">0.3</weight-threshold>
+		</per-vertex-shape>
+
+</system>

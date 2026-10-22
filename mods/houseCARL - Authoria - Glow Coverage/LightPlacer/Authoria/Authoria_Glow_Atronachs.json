@@ -1,0 +1,42 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_AtronachFlame",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            60.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "BSTamriel\\Actors\\atronachcoldflame\\character assets\\atronachcoldflame.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_AtronachFrost",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            70.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Actors\\DLC01\\AncientFrostAtronach\\AncientFrostAtronach.nif"
+    ]
+  }
+]

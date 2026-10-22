@@ -1,0 +1,4 @@
+# numOriginalFrames: 75
+# duration: 2.500000
+# numAnnotationTracks: 97
+# numAnnotations: 0

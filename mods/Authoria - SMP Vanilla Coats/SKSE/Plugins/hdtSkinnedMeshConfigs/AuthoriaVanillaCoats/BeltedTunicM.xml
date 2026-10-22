@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Realistic Armor - Belted Tunic (clothes/farmclothes01), men: skirt, hip flaps and belt tip physics,
+     rebuilt 2026-10-08 for this LoreRim setup (replaces the HDT patch's 8x3 panels; skirt feel after Companions Wolf Armor Redone v4).
+     Skirt: 12 chains (pinned under the belt + 5 swinging bones), every point blending two chains and two rows; one piece all round.
+     All skirt layers hang on the same chains, so they never fight each other. Where the skirt lies on the thighs it moves with
+     them; where it hangs clear it swings.
+     Collisions (hidden copies, this armour only): the skirt vs the trousers, split into front / side / back so a leg always
+     pushes the skirt back out the way it came; ground.
+     Nothing touches anything while standing. Swing limits per joint: X = out/in (negative = outward), Y = sideways, Z = twist.
+     Tuning: edit, save, "smp reset". -->
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+
+	<per-triangle-shape name="VirtualGround">
+		<margin>0.5</margin>
+		<penetration>10</penetration>
+		<shared>private</shared>
+		<tag>ground</tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+		<no-collide-with-tag>legsF</no-collide-with-tag>
+		<no-collide-with-tag>legsS</no-collide-with-tag>
+		<no-collide-with-tag>legsB</no-collide-with-tag>
+	</per-triangle-shape>
+	<!-- the trousers (hidden copies) in three one-sided pieces by facing: front, back, sides. Each part of the skirt meets only
+	     the matching piece, so a leg that goes deep into it always pushes it back out the way it came, never hooks it behind the leg -->
+	<per-triangle-shape name="AFT1 Legs Front">
+		<margin>0.4</margin>
+		<penetration>3.0</penetration>
+		<shared>private</shared>
+		<tag>legsF</tag>
+		<no-collide-with-tag>legsF</no-collide-with-tag>
+		<no-collide-with-tag>legsS</no-collide-with-tag>
+		<no-collide-with-tag>legsB</no-collide-with-tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+	</per-triangle-shape>
+	<per-triangle-shape name="AFT1 Legs Back">
+		<margin>0.4</margin>
+		<penetration>3.0</penetration>
+		<shared>private</shared>
+		<tag>legsB</tag>
+		<no-collide-with-tag>legsF</no-collide-with-tag>
+		<no-collide-with-tag>legsS</no-collide-with-tag>
+		<no-collide-with-tag>legsB</no-collide-with-tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+	</per-triangle-shape>
+	<per-triangle-shape name="AFT1 Legs Side">
+		<margin>0.4</margin>
+		<penetration>1.5</penetration>
+		<shared>private</shared>
+		<tag>legsS</tag>
+		<no-collide-with-tag>legsF</no-collide-with-tag>
+		<no-collide-with-tag>legsS</no-collide-with-tag>
+		<no-collide-with-tag>legsB</no-collide-with-tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+	</per-triangle-shape>
+
+	<!-- kinematic: skeleton bones the collision shapes are skinned to, and the pinned top bone of every chain -->
+	<bone name="NPC L Calf [LClf]"/>
+	<bone name="NPC L Thigh [LThg]"/>
+	<bone name="NPC Pelvis [Pelv]"/>
+	<bone name="NPC R Calf [RClf]"/>
+	<bone name="NPC R Thigh [RThg]"/>
+	<bone name="NPC Root [Root]"/>
+	<bone name="SkirtBBone01"/>
+	<bone name="SkirtBBone02"/>
+	<bone name="SkirtLBone01"/>
+	<bone name="SkirtRBone01"/>
+	<bone name="AFT1 Skirt00 0"/>
+	<bone name="AFT1 Skirt01 0"/>
+	<bone name="AFT1 Skirt02 0"/>
+	<bone name="AFT1 Skirt03 0"/>
+	<bone name="AFT1 Skirt04 0"/>
+	<bone name="AFT1 Skirt05 0"/>
+	<bone name="AFT1 Skirt06 0"/>
+	<bone name="AFT1 Skirt07 0"/>
+	<bone name="AFT1 Skirt08 0"/>
+	<bone name="AFT1 Skirt09 0"/>
+	<bone name="AFT1 Skirt10 0"/>
+	<bone name="AFT1 Skirt11 0"/>
+
+	<!-- skirt: heavy cloth / mail that swings in and out but settles -->
+	<bone-default>
+		<mass>0.5</mass>
+		<inertia x="38.0" y="38.0" z="38.0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0.5</linearDamping>
+		<angularDamping>0.5</angularDamping>
+		<friction>0.0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+		<gravity-factor>1</gravity-factor>
+		<wind-factor>0.25</wind-factor>
+	</bone-default>
+	<bone name="AFT1 Skirt00 1"/>
+	<bone name="AFT1 Skirt01 1"/>
+	<bone name="AFT1 Skirt02 1"/>
+	<bone name="AFT1 Skirt03 1"/>
+	<bone name="AFT1 Skirt04 1"/>
+	<bone name="AFT1 Skirt05 1"/>
+	<bone name="AFT1 Skirt06 1"/>
+	<bone name="AFT1 Skirt07 1"/>
+	<bone name="AFT1 Skirt08 1"/>
+	<bone name="AFT1 Skirt09 1"/>
+	<bone name="AFT1 Skirt10 1"/>
+	<bone name="AFT1 Skirt11 1"/>
+	<bone name="AFT1 Skirt00 2"/>
+	<bone name="AFT1 Skirt01 2"/>
+	<bone name="AFT1 Skirt02 2"/>
+	<bone name="AFT1 Skirt03 2"/>
+	<bone name="AFT1 Skirt04 2"/>
+	<bone name="AFT1 Skirt05 2"/>
+	<bone name="AFT1 Skirt06 2"/>
+	<bone name="AFT1 Skirt07 2"/>
+	<bone name="AFT1 Skirt08 2"/>
+	<bone name="AFT1 Skirt09 2"/>
+	<bone name="AFT1 Skirt10 2"/>
+	<bone name="AFT1 Skirt11 2"/>
+	<bone name="AFT1 Skirt00 3"/>
+	<bone name="AFT1 Skirt01 3"/>
+	<bone name="AFT1 Skirt02 3"/>
+	<bone name="AFT1 Skirt03 3"/>
+	<bone name="AFT1 Skirt04 3"/>
+	<bone name="AFT1 Skirt05 3"/>
+	<bone name="AFT1 Skirt06 3"/>
+	<bone name="AFT1 Skirt07 3"/>
+	<bone name="AFT1 Skirt08 3"/>
+	<bone name="AFT1 Skirt09 3"/>
+	<bone name="AFT1 Skirt10 3"/>
+	<bone name="AFT1 Skirt11 3"/>
+	<bone name="AFT1 Skirt00 4"/>
+	<bone name="AFT1 Skirt01 4"/>
+	<bone name="AFT1 Skirt02 4"/>
+	<bone name="AFT1 Skirt03 4"/>
+	<bone name="AFT1 Skirt04 4"/>
+	<bone name="AFT1 Skirt05 4"/>
+	<bone name="AFT1 Skirt06 4"/>
+	<bone name="AFT1 Skirt07 4"/>
+	<bone name="AFT1 Skirt08 4"/>
+	<bone name="AFT1 Skirt09 4"/>
+	<bone name="AFT1 Skirt10 4"/>
+	<bone name="AFT1 Skirt11 4"/>
+	<bone name="AFT1 Skirt00 5"/>
+	<bone name="AFT1 Skirt01 5"/>
+	<bone name="AFT1 Skirt02 5"/>
+	<bone name="AFT1 Skirt03 5"/>
+	<bone name="AFT1 Skirt04 5"/>
+	<bone name="AFT1 Skirt05 5"/>
+	<bone name="AFT1 Skirt06 5"/>
+	<bone name="AFT1 Skirt07 5"/>
+	<bone name="AFT1 Skirt08 5"/>
+	<bone name="AFT1 Skirt09 5"/>
+	<bone name="AFT1 Skirt10 5"/>
+	<bone name="AFT1 Skirt11 5"/>
+
+	<!-- skirt, first joint under the belt: out up to 1.1 rad, in 0.08 (onto the legs), sideways 0.3, twist 0.12; springs hold the shape and calm the sway -->
+	<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0.0" y="-0.0" z="-0.0"/>
+		<linearUpperLimit x="0.0" y="0.0" z="0.0"/>
+		<angularLowerLimit x="-1.1" y="-0.3" z="-0.12"/>
+		<angularUpperLimit x="0.08" y="0.3" z="0.12"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="24" y="6" z="6"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt00 1" bodyB="AFT1 Skirt00 0"/>
+		<generic-constraint bodyA="AFT1 Skirt01 1" bodyB="AFT1 Skirt01 0"/>
+		<generic-constraint bodyA="AFT1 Skirt02 1" bodyB="AFT1 Skirt02 0"/>
+		<generic-constraint bodyA="AFT1 Skirt03 1" bodyB="AFT1 Skirt03 0"/>
+		<generic-constraint bodyA="AFT1 Skirt04 1" bodyB="AFT1 Skirt04 0"/>
+		<generic-constraint bodyA="AFT1 Skirt05 1" bodyB="AFT1 Skirt05 0"/>
+		<generic-constraint bodyA="AFT1 Skirt06 1" bodyB="AFT1 Skirt06 0"/>
+		<generic-constraint bodyA="AFT1 Skirt07 1" bodyB="AFT1 Skirt07 0"/>
+		<generic-constraint bodyA="AFT1 Skirt08 1" bodyB="AFT1 Skirt08 0"/>
+		<generic-constraint bodyA="AFT1 Skirt09 1" bodyB="AFT1 Skirt09 0"/>
+		<generic-constraint bodyA="AFT1 Skirt10 1" bodyB="AFT1 Skirt10 0"/>
+		<generic-constraint bodyA="AFT1 Skirt11 1" bodyB="AFT1 Skirt11 0"/>
+	</constraint-group>
+
+	<!-- skirt, further down: out up to 0.7 rad per joint, in 0.08, sideways 0.3, twist 0.12; lighter springs -->
+	<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0.0" y="-0.0" z="-0.0"/>
+		<linearUpperLimit x="0.0" y="0.0" z="0.0"/>
+		<angularLowerLimit x="-0.7" y="-0.3" z="-0.12"/>
+		<angularUpperLimit x="0.08" y="0.3" z="0.12"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="12" y="4" z="4"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt00 2" bodyB="AFT1 Skirt00 1"/>
+		<generic-constraint bodyA="AFT1 Skirt00 3" bodyB="AFT1 Skirt00 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 2" bodyB="AFT1 Skirt01 1"/>
+		<generic-constraint bodyA="AFT1 Skirt01 3" bodyB="AFT1 Skirt01 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt02 2" bodyB="AFT1 Skirt02 1"/>
+		<generic-constraint bodyA="AFT1 Skirt02 3" bodyB="AFT1 Skirt02 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt03 2" bodyB="AFT1 Skirt03 1"/>
+		<generic-constraint bodyA="AFT1 Skirt03 3" bodyB="AFT1 Skirt03 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt04 2" bodyB="AFT1 Skirt04 1"/>
+		<generic-constraint bodyA="AFT1 Skirt04 3" bodyB="AFT1 Skirt04 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt05 2" bodyB="AFT1 Skirt05 1"/>
+		<generic-constraint bodyA="AFT1 Skirt05 3" bodyB="AFT1 Skirt05 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt06 2" bodyB="AFT1 Skirt06 1"/>
+		<generic-constraint bodyA="AFT1 Skirt06 3" bodyB="AFT1 Skirt06 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt07 2" bodyB="AFT1 Skirt07 1"/>
+		<generic-constraint bodyA="AFT1 Skirt07 3" bodyB="AFT1 Skirt07 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt08 2" bodyB="AFT1 Skirt08 1"/>
+		<generic-constraint bodyA="AFT1 Skirt08 3" bodyB="AFT1 Skirt08 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt09 2" bodyB="AFT1 Skirt09 1"/>
+		<generic-constraint bodyA="AFT1 Skirt09 3" bodyB="AFT1 Skirt09 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt10 2" bodyB="AFT1 Skirt10 1"/>
+		<generic-constraint bodyA="AFT1 Skirt10 3" bodyB="AFT1 Skirt10 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt11 2" bodyB="AFT1 Skirt11 1"/>
+		<generic-constraint bodyA="AFT1 Skirt11 3" bodyB="AFT1 Skirt11 2"/>
+	</constraint-group>
+
+	<!-- skirt, the hem rows: out up to 0.9 rad per joint, in 0.08, sideways 0.4, twist 0.18; almost no springs - it flows -->
+	<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0.0" y="-0.0" z="-0.0"/>
+		<linearUpperLimit x="0.0" y="0.0" z="0.0"/>
+		<angularLowerLimit x="-0.9" y="-0.4" z="-0.18"/>
+		<angularUpperLimit x="0.08" y="0.4" z="0.18"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="4" y="2" z="2"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt00 4" bodyB="AFT1 Skirt00 3"/>
+		<generic-constraint bodyA="AFT1 Skirt00 5" bodyB="AFT1 Skirt00 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 4" bodyB="AFT1 Skirt01 3"/>
+		<generic-constraint bodyA="AFT1 Skirt01 5" bodyB="AFT1 Skirt01 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt02 4" bodyB="AFT1 Skirt02 3"/>
+		<generic-constraint bodyA="AFT1 Skirt02 5" bodyB="AFT1 Skirt02 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt03 4" bodyB="AFT1 Skirt03 3"/>
+		<generic-constraint bodyA="AFT1 Skirt03 5" bodyB="AFT1 Skirt03 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt04 4" bodyB="AFT1 Skirt04 3"/>
+		<generic-constraint bodyA="AFT1 Skirt04 5" bodyB="AFT1 Skirt04 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt05 4" bodyB="AFT1 Skirt05 3"/>
+		<generic-constraint bodyA="AFT1 Skirt05 5" bodyB="AFT1 Skirt05 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt06 4" bodyB="AFT1 Skirt06 3"/>
+		<generic-constraint bodyA="AFT1 Skirt06 5" bodyB="AFT1 Skirt06 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt07 4" bodyB="AFT1 Skirt07 3"/>
+		<generic-constraint bodyA="AFT1 Skirt07 5" bodyB="AFT1 Skirt07 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt08 4" bodyB="AFT1 Skirt08 3"/>
+		<generic-constraint bodyA="AFT1 Skirt08 5" bodyB="AFT1 Skirt08 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt09 4" bodyB="AFT1 Skirt09 3"/>
+		<generic-constraint bodyA="AFT1 Skirt09 5" bodyB="AFT1 Skirt09 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt10 4" bodyB="AFT1 Skirt10 3"/>
+		<generic-constraint bodyA="AFT1 Skirt10 5" bodyB="AFT1 Skirt10 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt11 4" bodyB="AFT1 Skirt11 3"/>
+		<generic-constraint bodyA="AFT1 Skirt11 5" bodyB="AFT1 Skirt11 4"/>
+	</constraint-group>
+
+	<!-- skirt, round the body: neighbouring chains stay one piece (across a slit only above the slit) - loosely (+-0.5 / +-0.7 rad), so the panels flow on their own -->
+	<generic-constraint-default>
+		<frameInLerp>
+			<translationLerp>0.5</translationLerp>
+			<rotationLerp>0.5</rotationLerp>
+		</frameInLerp>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0.5" y="-0.5" z="-0.5"/>
+		<linearUpperLimit x="0.5" y="0.5" z="0.5"/>
+		<angularLowerLimit x="-0.7" y="-0.7" z="-0.7"/>
+		<angularUpperLimit x="0.7" y="0.7" z="0.7"/>
+		<linearStiffness x="0" y="0" z="0"/>
+		<angularStiffness x="0" y="0" z="0"/>
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint-default>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 1" bodyB="AFT1 Skirt00 1"/>
+		<generic-constraint bodyA="AFT1 Skirt02 1" bodyB="AFT1 Skirt01 1"/>
+		<generic-constraint bodyA="AFT1 Skirt03 1" bodyB="AFT1 Skirt02 1"/>
+		<generic-constraint bodyA="AFT1 Skirt04 1" bodyB="AFT1 Skirt03 1"/>
+		<generic-constraint bodyA="AFT1 Skirt05 1" bodyB="AFT1 Skirt04 1"/>
+		<generic-constraint bodyA="AFT1 Skirt06 1" bodyB="AFT1 Skirt05 1"/>
+		<generic-constraint bodyA="AFT1 Skirt07 1" bodyB="AFT1 Skirt06 1"/>
+		<generic-constraint bodyA="AFT1 Skirt08 1" bodyB="AFT1 Skirt07 1"/>
+		<generic-constraint bodyA="AFT1 Skirt09 1" bodyB="AFT1 Skirt08 1"/>
+		<generic-constraint bodyA="AFT1 Skirt10 1" bodyB="AFT1 Skirt09 1"/>
+		<generic-constraint bodyA="AFT1 Skirt11 1" bodyB="AFT1 Skirt10 1"/>
+		<generic-constraint bodyA="AFT1 Skirt00 1" bodyB="AFT1 Skirt11 1"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 2" bodyB="AFT1 Skirt00 2"/>
+		<generic-constraint bodyA="AFT1 Skirt02 2" bodyB="AFT1 Skirt01 2"/>
+		<generic-constraint bodyA="AFT1 Skirt03 2" bodyB="AFT1 Skirt02 2"/>
+		<generic-constraint bodyA="AFT1 Skirt04 2" bodyB="AFT1 Skirt03 2"/>
+		<generic-constraint bodyA="AFT1 Skirt05 2" bodyB="AFT1 Skirt04 2"/>
+		<generic-constraint bodyA="AFT1 Skirt06 2" bodyB="AFT1 Skirt05 2"/>
+		<generic-constraint bodyA="AFT1 Skirt07 2" bodyB="AFT1 Skirt06 2"/>
+		<generic-constraint bodyA="AFT1 Skirt08 2" bodyB="AFT1 Skirt07 2"/>
+		<generic-constraint bodyA="AFT1 Skirt09 2" bodyB="AFT1 Skirt08 2"/>
+		<generic-constraint bodyA="AFT1 Skirt10 2" bodyB="AFT1 Skirt09 2"/>
+		<generic-constraint bodyA="AFT1 Skirt11 2" bodyB="AFT1 Skirt10 2"/>
+		<generic-constraint bodyA="AFT1 Skirt00 2" bodyB="AFT1 Skirt11 2"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 3" bodyB="AFT1 Skirt00 3"/>
+		<generic-constraint bodyA="AFT1 Skirt02 3" bodyB="AFT1 Skirt01 3"/>
+		<generic-constraint bodyA="AFT1 Skirt03 3" bodyB="AFT1 Skirt02 3"/>
+		<generic-constraint bodyA="AFT1 Skirt04 3" bodyB="AFT1 Skirt03 3"/>
+		<generic-constraint bodyA="AFT1 Skirt05 3" bodyB="AFT1 Skirt04 3"/>
+		<generic-constraint bodyA="AFT1 Skirt06 3" bodyB="AFT1 Skirt05 3"/>
+		<generic-constraint bodyA="AFT1 Skirt07 3" bodyB="AFT1 Skirt06 3"/>
+		<generic-constraint bodyA="AFT1 Skirt08 3" bodyB="AFT1 Skirt07 3"/>
+		<generic-constraint bodyA="AFT1 Skirt09 3" bodyB="AFT1 Skirt08 3"/>
+		<generic-constraint bodyA="AFT1 Skirt10 3" bodyB="AFT1 Skirt09 3"/>
+		<generic-constraint bodyA="AFT1 Skirt11 3" bodyB="AFT1 Skirt10 3"/>
+		<generic-constraint bodyA="AFT1 Skirt00 3" bodyB="AFT1 Skirt11 3"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 4" bodyB="AFT1 Skirt00 4"/>
+		<generic-constraint bodyA="AFT1 Skirt02 4" bodyB="AFT1 Skirt01 4"/>
+		<generic-constraint bodyA="AFT1 Skirt03 4" bodyB="AFT1 Skirt02 4"/>
+		<generic-constraint bodyA="AFT1 Skirt04 4" bodyB="AFT1 Skirt03 4"/>
+		<generic-constraint bodyA="AFT1 Skirt05 4" bodyB="AFT1 Skirt04 4"/>
+		<generic-constraint bodyA="AFT1 Skirt06 4" bodyB="AFT1 Skirt05 4"/>
+		<generic-constraint bodyA="AFT1 Skirt07 4" bodyB="AFT1 Skirt06 4"/>
+		<generic-constraint bodyA="AFT1 Skirt08 4" bodyB="AFT1 Skirt07 4"/>
+		<generic-constraint bodyA="AFT1 Skirt09 4" bodyB="AFT1 Skirt08 4"/>
+		<generic-constraint bodyA="AFT1 Skirt10 4" bodyB="AFT1 Skirt09 4"/>
+		<generic-constraint bodyA="AFT1 Skirt11 4" bodyB="AFT1 Skirt10 4"/>
+		<generic-constraint bodyA="AFT1 Skirt00 4" bodyB="AFT1 Skirt11 4"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="AFT1 Skirt01 5" bodyB="AFT1 Skirt00 5"/>
+		<generic-constraint bodyA="AFT1 Skirt02 5" bodyB="AFT1 Skirt01 5"/>
+		<generic-constraint bodyA="AFT1 Skirt03 5" bodyB="AFT1 Skirt02 5"/>
+		<generic-constraint bodyA="AFT1 Skirt04 5" bodyB="AFT1 Skirt03 5"/>
+		<generic-constraint bodyA="AFT1 Skirt05 5" bodyB="AFT1 Skirt04 5"/>
+		<generic-constraint bodyA="AFT1 Skirt06 5" bodyB="AFT1 Skirt05 5"/>
+		<generic-constraint bodyA="AFT1 Skirt07 5" bodyB="AFT1 Skirt06 5"/>
+		<generic-constraint bodyA="AFT1 Skirt08 5" bodyB="AFT1 Skirt07 5"/>
+		<generic-constraint bodyA="AFT1 Skirt09 5" bodyB="AFT1 Skirt08 5"/>
+		<generic-constraint bodyA="AFT1 Skirt10 5" bodyB="AFT1 Skirt09 5"/>
+		<generic-constraint bodyA="AFT1 Skirt11 5" bodyB="AFT1 Skirt10 5"/>
+		<generic-constraint bodyA="AFT1 Skirt00 5" bodyB="AFT1 Skirt11 5"/>
+	</constraint-group>
+
+	<!-- collisions -->
+	<per-vertex-shape name="AFT1 Skirt Front">
+		<margin>0.1</margin>
+		<shared>private</shared>
+		<tag>skirtF</tag>
+		<can-collide-with-tag>legsF</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+	</per-vertex-shape>
+	<per-vertex-shape name="AFT1 Skirt Side">
+		<margin>0.1</margin>
+		<shared>private</shared>
+		<tag>skirtS</tag>
+		<can-collide-with-tag>legsS</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+	</per-vertex-shape>
+	<per-vertex-shape name="AFT1 Skirt Back">
+		<margin>0.1</margin>
+		<shared>private</shared>
+		<tag>skirtB</tag>
+		<can-collide-with-tag>legsB</can-collide-with-tag>
+		<can-collide-with-tag>ground</can-collide-with-tag>
+	</per-vertex-shape>
+	<!-- the skirt's outer surface where the hanging pieces rest (pulled in so they rest clear of it) -->
+</system>

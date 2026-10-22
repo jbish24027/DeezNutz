@@ -1,0 +1,29 @@
+{
+    "name": "Unarmed - Wolf",
+    "priority": 7002003,
+    "conditions": [
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "StancesNG.esp",
+                        "formID": "805"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 0.0
+                    },
+                    "Left hand": false
+                }
+            ]
+        }
+    ]
+}

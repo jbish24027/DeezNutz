@@ -1,0 +1,315 @@
+{
+  "round": 6,
+  "date": "2026-08-22",
+  "K": 0.1,
+  "transform": "c' = L + (c - L) * K, L = Rec.709 luminance; hue + luminance locked",
+  "records": {
+    "LAM_YellowVL": {
+      "formid": "000810:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.69411767,
+        0.56078434,
+        0.0
+      ],
+      "dimmed": [
+        0.56318991,
+        0.54985657,
+        0.49377814
+      ],
+      "luminance": 0.54864238,
+      "luminance_delta": 0.0
+    },
+    "LAM_OrangeVL": {
+      "formid": "000813:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        1.0,
+        0.4509804,
+        0.0
+      ],
+      "dimmed": [
+        0.58162706,
+        0.5267251,
+        0.48162706
+      ],
+      "luminance": 0.53514118,
+      "luminance_delta": 0.0
+    },
+    "LAM_RoseVL": {
+      "formid": "00085C:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        1.0,
+        0.23529412,
+        0.23529412
+      ],
+      "dimmed": [
+        0.45808353,
+        0.38161294,
+        0.38161294
+      ],
+      "luminance": 0.39787059,
+      "luminance_delta": 0.0
+    },
+    "LAM_NightVL": {
+      "formid": "000811:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.03529412,
+        0.05490196,
+        0.101960786
+      ],
+      "dimmed": [
+        0.05224729,
+        0.05420808,
+        0.05891396
+      ],
+      "luminance": 0.05413098,
+      "luminance_delta": 6.938893903907228e-18
+    },
+    "LAM_PinkVL": {
+      "formid": "000866:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        1.0,
+        0.36078432,
+        0.8039216
+      ],
+      "dimmed": [
+        0.57580848,
+        0.51188691,
+        0.55620064
+      ],
+      "luminance": 0.52867609,
+      "luminance_delta": 0.0
+    },
+    "LAM_StormVL_Red": {
+      "formid": "000879:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.75686276,
+        0.30588236,
+        0.30588236
+      ],
+      "dimmed": [
+        0.43727099,
+        0.39217295,
+        0.39217295
+      ],
+      "luminance": 0.40176079,
+      "luminance_delta": 0.0
+    },
+    "LAM_PeachVL": {
+      "formid": "00086F:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        1.0,
+        0.54901963,
+        0.43137255
+      ],
+      "dimmed": [
+        0.67276354,
+        0.62766551,
+        0.6159008
+      ],
+      "luminance": 0.63640394,
+      "luminance_delta": 1.1102230246251565e-16
+    },
+    "LAM_FogVLNight": {
+      "formid": "00085E:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.078431375,
+        0.1254902,
+        0.1764706
+      ],
+      "dimmed": [
+        0.11509279,
+        0.11979867,
+        0.12489671
+      ],
+      "luminance": 0.11916628,
+      "luminance_delta": 0.0
+    },
+    "LAM_FogVL_Green": {
+      "formid": "00085F:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.23529412,
+        0.2901961,
+        0.14509805
+      ],
+      "dimmed": [
+        0.26477249,
+        0.27026268,
+        0.25575288
+      ],
+      "luminance": 0.26804786,
+      "luminance_delta": 5.551115123125783e-17
+    },
+    "LAM_FogVL_Blue": {
+      "formid": "000861:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.1882353,
+        0.22745098,
+        0.3647059
+      ],
+      "dimmed": [
+        0.22494471,
+        0.22886628,
+        0.24259177
+      ],
+      "luminance": 0.22902353,
+      "luminance_delta": 0.0
+    },
+    "LAM_FogVL_Ourple": {
+      "formid": "000860:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.11372549,
+        0.09803922,
+        0.14117648
+      ],
+      "dimmed": [
+        0.10541232,
+        0.10384369,
+        0.10815742
+      ],
+      "luminance": 0.10448863,
+      "luminance_delta": 0.0
+    },
+    "LAM_OurpleVL": {
+      "formid": "000868:Astralite Weathers.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.11372549,
+        0.09803922,
+        0.14117648
+      ],
+      "dimmed": [
+        0.10541232,
+        0.10384369,
+        0.10815742
+      ],
+      "luminance": 0.10448863,
+      "luminance_delta": 0.0
+    },
+    "LAM_GoldVL": {
+      "formid": "00082D:Astralite ENB.esp",
+      "disposition": "in-place",
+      "authored": [
+        1.0,
+        0.60784316,
+        0.0
+      ],
+      "dimmed": [
+        0.68259649,
+        0.6433808,
+        0.58259649
+      ],
+      "luminance": 0.64732943,
+      "luminance_delta": 1.1102230246251565e-16
+    },
+    "LAM_FogVL_Gold": {
+      "formid": "00082A:Astralite ENB.esp",
+      "disposition": "in-place",
+      "authored": [
+        1.0,
+        0.6666667,
+        0.0
+      ],
+      "dimmed": [
+        0.72046002,
+        0.68712669,
+        0.62046002
+      ],
+      "luminance": 0.68940002,
+      "luminance_delta": 0.0
+    },
+    "LAM_FogVL_Purple": {
+      "formid": "00082B:Astralite ENB.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.22745098,
+        0.19607843,
+        0.35686275
+      ],
+      "dimmed": [
+        0.21566627,
+        0.21252902,
+        0.22860745
+      ],
+      "luminance": 0.21435686,
+      "luminance_delta": 0.0
+    },
+    "LAM_StormTealVL": {
+      "formid": "00082C:Astralite ENB.esp",
+      "disposition": "in-place",
+      "authored": [
+        0.0,
+        0.37254903,
+        0.3882353
+      ],
+      "dimmed": [
+        0.26502989,
+        0.30228479,
+        0.30385342
+      ],
+      "luminance": 0.29447765,
+      "luminance_delta": 0.0
+    },
+    "LAM_GreenVL": {
+      "formid": "000867:Astralite Weathers.esp",
+      "disposition": "duplicate",
+      "authored": [
+        0.24705882,
+        0.2784314,
+        0.14509805
+      ],
+      "dimmed": [
+        0.26062731,
+        0.26376457,
+        0.25043123
+      ],
+      "luminance": 0.26213492,
+      "luminance_delta": 0.0
+    },
+    "LAM_BloodVL": {
+      "formid": "000829:Astralite ENB.esp",
+      "disposition": "duplicate",
+      "authored": [
+        1.0,
+        0.11764706,
+        0.11764706
+      ],
+      "dimmed": [
+        0.37471177,
+        0.28647647,
+        0.28647647
+      ],
+      "luminance": 0.3052353,
+      "luminance_delta": 5.551115123125783e-17
+    }
+  },
+  "repoints": {
+    "SkyrimFogVT (10A7A7:Skyrim.esm)": [
+      "Sunrise, Sunset",
+      "AUTH_LAM_GreenVL_Dim10"
+    ],
+    "DLC02VolcanicAshTundra02_A (000840:Astralite ENB.esp)": [
+      "Sunrise, Sunset",
+      "AUTH_LAM_GreenVL_Dim10"
+    ],
+    "DLC02VolcanicAsh03 (000831:Astralite ENB.esp)": [
+      "Sunrise, Sunset",
+      "AUTH_LAM_BloodVL_Dim10"
+    ],
+    "DLC02VolcanicAsh04 (00083A:Astralite ENB.esp)": [
+      "Sunrise, Day, Sunset",
+      "AUTH_LAM_BloodVL_Dim10"
+    ]
+  },
+  "max_luminance_delta": 1.1102230246251565e-16
+}

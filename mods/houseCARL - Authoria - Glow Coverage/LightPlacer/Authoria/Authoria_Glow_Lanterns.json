@@ -1,0 +1,25 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "qwib\\SimpleWearableLanterns\\Alchemist\\HELD.nif",
+      "qwib\\SimpleWearableLanterns\\Dwemer\\HELD.nif",
+      "qwib\\SimpleWearableLanterns\\Iron\\HELD.nif",
+      "qwib\\SimpleWearableLanterns\\Magic\\HELD.nif"
+    ]
+  }
+]

@@ -1,0 +1,505 @@
+{
+    "name":  "Katana - Bear - combat",
+    "priority":  7043,
+    "ignoreDontConvertAnnotationsToTriggersFlag":  true,
+    "triggersFromAnnotationsOnly":  true,
+    "conditions":  [
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "StancesNG.esp",
+                                                "formID":  "803"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "Type":  {
+                                        "value":  1.0
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsWeaponDrawn",
+                           "requiredVersion":  "1.0.0.0"
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "negated":  true,
+                           "Type":  {
+                                        "value":  1.0
+                                    },
+                           "Left hand":  true
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "negated":  true,
+                           "Type":  {
+                                        "value":  2.0
+                                    },
+                           "Left hand":  true
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "negated":  true,
+                           "Type":  {
+                                        "value":  3.0
+                                    },
+                           "Left hand":  true
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "negated":  true,
+                           "Type":  {
+                                        "value":  4.0
+                                    },
+                           "Left hand":  true
+                       },
+                       {
+                           "condition":  "OR",
+                           "requiredVersion":  "1.0.0.0",
+                           "Conditions":  [
+                                              {
+                                                  "condition":  "IsEquippedHasKeyword",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Keyword":  {
+                                                                  "editorID":  "WeapTypeKatana"
+                                                              },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedHasKeyword",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Keyword":  {
+                                                                  "editorID":  "OCF_WeapTypeKatana1H"
+                                                              },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "3AEB9"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Lotus Katana.esp",
+                                                               "formID":  "800"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "D70"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Sugaruya Katana.esp",
+                                                               "formID":  "1D97"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Sugaruya Katana.esp",
+                                                               "formID":  "1D98"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Sugaruya Katana.esp",
+                                                               "formID":  "D62"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "SunfangKatana.esp",
+                                                               "formID":  "D63"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "747C0"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "640D63"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "8962"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "747C4"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "747C2"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "747C3"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "747C0"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Immersive Weapons.esp",
+                                                               "formID":  "1013"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "C1989"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "Dawnguard.esm",
+                                                               "formID":  "67CF"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "E9A"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "18A"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "7F"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "181"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "1A0"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "94"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "D74"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "16F"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "15F"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "8B"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "87"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "5B"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "6B"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "D7C"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "1A8"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "6F"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "67"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "83"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "A0"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "9C"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "7B"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "5F"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "73"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "3F1"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "77"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "90"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "63"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "98"
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquipped",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Form":  {
+                                                               "pluginName":  "KatanaCrafting.esp",
+                                                               "formID":  "401"
+                                                           },
+                                                  "Left hand":  false
+                                              }
+                                          ]
+                       },
+                       {
+                           "condition":  "IsAttacking",
+                           "requiredVersion":  "1.0.0.0"
+                       }
+                   ]
+}

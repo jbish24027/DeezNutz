@@ -1,0 +1,70 @@
+{
+    "name":  "Sword - Wolf - combat",
+    "description":  "A description",
+    "priority":  6995,
+    "replacementAnimDatas":  [
+                                 {
+                                     "projectName":  "FirstPerson",
+                                     "path":  "data\\meshes\\actors\\character\\_1stperson\\animations\\OpenAnimationReplacer\\SigmaBoy\\sword_mid_combat\\_variants_1hm_attackleft",
+                                     "variantMode":  0,
+                                     "variantStateScope":  1,
+                                     "blendBetweenVariants":  true,
+                                     "resetRandomOnLoopOrEcho":  true,
+                                     "sharePlayedHistory":  false,
+                                     "variants":  [
+                                                      {
+                                                          "filename":  "1hm_attackleft.hkx",
+                                                          "weight":  0.5
+                                                      }
+                                                  ]
+                                 },
+                                 {
+                                     "projectName":  "FirstPerson",
+                                     "path":  "data\\meshes\\actors\\character\\_1stperson\\animations\\OpenAnimationReplacer\\SigmaBoy\\sword_mid_combat\\_variants_1hm_attacklefttdiagonal",
+                                     "variantMode":  0,
+                                     "variantStateScope":  1,
+                                     "blendBetweenVariants":  true,
+                                     "resetRandomOnLoopOrEcho":  true,
+                                     "sharePlayedHistory":  false,
+                                     "variants":  [
+                                                      {
+                                                          "filename":  "1hm_attacklefttdiagonal_2.hkx",
+                                                          "weight":  0.5
+                                                      },
+                                                      {
+                                                          "filename":  "1hm_attacklefttdiagonal_3.hkx",
+                                                          "weight":  0.4000000059604645
+                                                      }
+                                                  ]
+                                 }
+                             ],
+    "ignoreDontConvertAnnotationsToTriggersFlag":  true,
+    "triggersFromAnnotationsOnly":  true,
+    "conditions":  [
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "StancesNG.esp",
+                                                "formID":  "805"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "Type":  {
+                                        "value":  1.0
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsAttacking",
+                           "requiredVersion":  "1.0.0.0"
+                       },
+                       {
+                           "condition":  "IsWeaponDrawn",
+                           "requiredVersion":  "1.0.0.0"
+                       }
+                   ]
+}

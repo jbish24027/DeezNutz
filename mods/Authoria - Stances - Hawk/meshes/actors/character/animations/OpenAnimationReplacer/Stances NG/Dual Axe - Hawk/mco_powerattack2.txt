@@ -1,0 +1,16 @@
+# numOriginalFrames: 50
+# duration: 1.666667
+# numAnnotationTracks: 97
+# numAnnotations: 12
+0.333333 CastOKStart
+0.500000 preHitFrame
+0.833333 weaponSwing
+0.666666 weaponLeftSwing
+0.766666 HitFrame
+0.899999 HitFrame
+0.000000 animmotion 0.0 0.0 0.0
+0.666666 animmotion 0.0 0.0 0.0
+0.916666 animmotion 0.0 104.5979995727539 0.0
+1.249999 animmotion 0.0 104.5979995727539 0.0
+1.499999 animmotion 0.0 134.96200561523438 0.0
+1.666667 animmotion 0.0 134.96200561523438 0.0

@@ -1,0 +1,36 @@
+{
+  "FractureMapping": [
+    {
+      "Filters": {
+        "Ammunitions": [
+          "Skyrim Arrow Overhaul.esp:0x116FC7"
+        ]
+      },
+      "Modifiers": {
+        "Fracture": true,
+        "AmmoID": "AUTH_GlassHammerArrow"
+      }
+    }
+  ],
+  "AmmoMapping": [
+    {
+      "ID": "AUTH_GlassHammerArrow",
+      "AmmoBase": "Skyrim Arrow Overhaul.esp:0x116FC7",
+      "AmmoBroken": "Authoria - Broken Feathers - Special Tips.esp:0x80C",
+      "Durability": 70.0,
+      "BrokenStates": [
+        {
+          "Chances": 50,
+          "ProjectileSwap": "Broken Feathers.esp:0x82D"
+        },
+        {
+          "Chances": 50,
+          "ProjectileSwap": "Broken Feathers.esp:0x82E",
+          "ExtraProjectiles": [
+            "Broken Feathers.esp:0x82F"
+          ]
+        }
+      ]
+    }
+  ]
+}

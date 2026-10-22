@@ -1,0 +1,29 @@
+{
+  "FractureMapping": [
+    {
+      "Filters": {
+        "Ammunitions": [
+          "Skyrim Arrow Overhaul.esp:0x1BE1ED"
+        ]
+      },
+      "Modifiers": {
+        "Fracture": true,
+        "AmmoID": "AUTH_SteelBodkinBolt"
+      }
+    }
+  ],
+  "AmmoMapping": [
+    {
+      "ID": "AUTH_SteelBodkinBolt",
+      "AmmoBase": "Skyrim Arrow Overhaul.esp:0x1BE1ED",
+      "AmmoBroken": "Authoria - Broken Feathers - Special Tips.esp:0x81B",
+      "Durability": 30.0,
+      "BrokenStates": [
+        {
+          "Chances": 100,
+          "ProjectileSwap": "Broken Feathers.esp:0x842"
+        }
+      ]
+    }
+  ]
+}

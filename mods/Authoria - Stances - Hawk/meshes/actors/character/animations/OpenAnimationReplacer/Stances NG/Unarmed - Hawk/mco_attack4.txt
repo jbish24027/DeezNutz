@@ -1,0 +1,40 @@
+# numOriginalFrames: 60
+# duration: 2.000000
+# numAnnotationTracks: 97
+# numAnnotations: 36
+0.249999 preHitFrame
+0.250000 Collision_AttackStart
+0.250000 Collision_Add.Node(NPC L Hand [LHnd])|Scale(4)
+0.283333 Soundplay.WPNSwingUnarmed
+0.366666 HitFrame
+0.566666 Collision_Remove.node(NPC L Hand [LHnd])
+0.600000 Collision_Add.Node(NPC R Hand [RHnd])|Scale(4)
+0.666666 Soundplay.WPNSwingUnarmed
+0.716666 HitFrame
+0.916666 Collision_Remove.node(NPC R Hand [RHnd])
+1.100000 Collision_Add.Node(NPC L Hand [LHnd])|Scale(4)
+1.216666 Soundplay.WPNSwingUnarmed
+1.299999 HitFrame
+1.383333 CastOKStart
+1.400000 PIE.@SGVI|MCO_nextpowerattack|2
+1.400000 PIE.@SGVI|MCO_nextattack|5
+1.480000 Collision_Remove.node(NPC L Hand [LHnd])
+1.480000 Collision_AttackEnd
+1.499999 MCO_WinOpen
+1.666666 MCO_WinClose
+1.499999 MCO_PowerWinOpen
+1.666666 MCO_PowerWinClose
+0.000000 animmotion 0 0 0
+0.166666 animmotion 0 0 0
+0.333333 animmotion 0 94.516 0
+0.500000 animmotion 0 94.516 0
+0.733333 animmotion 0 126.387 0
+1.083333 animmotion 0 126.387 0
+1.249999 animmotion 0 153.287 0
+1.499999 animmotion 0 153.287 0
+1.666666 animmotion 0 153.287 0
+1.833333 animmotion 0 173.825 0
+2.000000 animmotion 0 173.825 0
+1.499999 SCAR_ComboStart
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack_H2H","MinDistance":0.0,"MaxDistance":50.0,"StartAngle":-60.0,"EndAngle":60.0,"Chance":30.0,"Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack_H2H","MinDistance":0.0,"MaxDistance":70.0,"StartAngle":-60.0,"EndAngle":60.0,"Chance":100.0,"Type":"RA"}

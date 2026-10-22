@@ -1,0 +1,121 @@
+{
+    "name":  "Polearm - Wolf - pa",
+    "priority":  7804,
+    "conditions":  [
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "StancesNG.esp",
+                                                "formID":  "805"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "OR",
+                           "requiredVersion":  "1.0.0.0",
+                           "Conditions":  [
+                                              {
+                                                  "condition":  "AND",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Conditions":  [
+                                                                     {
+                                                                         "condition":  "OR",
+                                                                         "requiredVersion":  "1.0.0.0",
+                                                                         "Conditions":  [
+                                                                                            {
+                                                                                                "condition":  "IsEquippedType",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Type":  {
+                                                                                                             "value":  5.0
+                                                                                                         },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedType",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Type":  {
+                                                                                                             "value":  6.0
+                                                                                                         },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedType",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Type":  {
+                                                                                                             "value":  10.0
+                                                                                                         },
+                                                                                                "Left hand":  false
+                                                                                            }
+                                                                                        ]
+                                                                     },
+                                                                     {
+                                                                         "condition":  "OR",
+                                                                         "requiredVersion":  "1.0.0.0",
+                                                                         "Conditions":  [
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "WeapTypeSpear"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "WeapTypeHalberd"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "WeapTypeGlaive"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "WeapTypeTrident"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "WeapTypePike"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "OCF_WeapTypeSpear2H"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            },
+                                                                                            {
+                                                                                                "condition":  "IsEquippedHasKeyword",
+                                                                                                "requiredVersion":  "1.0.0.0",
+                                                                                                "Keyword":  {
+                                                                                                                "editorID":  "OCF_WeapTypePole2H_Thrust"
+                                                                                                            },
+                                                                                                "Left hand":  false
+                                                                                            }
+                                                                                        ]
+                                                                     }
+                                                                 ]
+                                              }
+                                          ]
+                       }
+                   ],
+    "ignoreDontConvertAnnotationsToTriggersFlag":  true,
+    "triggersFromAnnotationsOnly":  true
+}

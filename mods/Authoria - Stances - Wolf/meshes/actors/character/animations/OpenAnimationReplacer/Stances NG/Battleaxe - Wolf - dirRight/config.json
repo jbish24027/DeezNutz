@@ -1,0 +1,38 @@
+{
+    "name":  "Battleaxe - Wolf - dirRight",
+    "priority":  7000605,
+    "conditions":  [
+                       {
+                           "condition":  "AND",
+                           "requiredVersion":  "1.0.0.0",
+                           "Conditions":  [
+                                              {
+                                                  "condition":  "HasMagicEffect",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Magic effect":  {
+                                                                       "pluginName":  "StancesNG.esp",
+                                                                       "formID":  "805"
+                                                                   },
+                                                  "Active effects only":  false
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  6
+                                                           },
+                                                  "Left hand":  false
+                                              },
+                                              {
+                                                  "condition":  "HasMagicEffect",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Magic effect":  {
+                                                                       "pluginName":  "Keytrace.esp",
+                                                                       "formID":  "804"
+                                                                   },
+                                                  "Active effects only":  false
+                                              }
+                                          ]
+                       }
+                   ]
+}

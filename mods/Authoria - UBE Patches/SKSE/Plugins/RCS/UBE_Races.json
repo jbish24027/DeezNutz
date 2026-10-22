@@ -1,0 +1,45 @@
+{
+    "$schema": "https://raw.githubusercontent.com/shuc1/race-compatibility-skse/main/res/schema/schema",
+    "RCS": [
+        {
+            "name": "UBE Breton",
+            "race": { "form": "00UBE_BretonRace", "proxies": [ "BretonRace" ] },
+            "vampireRace": { "form": "00UBE_BretonRaceVampire", "proxies": [ "BretonRaceVampire" ] }
+        },
+        {
+            "name": "UBE Imperial",
+            "race": { "form": "00UBE_ImperialRace", "proxies": [ "ImperialRace" ] },
+            "vampireRace": { "form": "00UBE_ImperialRaceVampire", "proxies": [ "ImperialRaceVampire" ] }
+        },
+        {
+            "name": "UBE Nord",
+            "race": { "form": "00UBE_NordRace", "proxies": [ "NordRace" ] },
+            "vampireRace": { "form": "00UBE_NordRaceVampire", "proxies": [ "NordRaceVampire" ] }
+        },
+        {
+            "name": "UBE Redguard",
+            "race": { "form": "00UBE_RedguardRace", "proxies": [ "RedguardRace" ] },
+            "vampireRace": { "form": "00UBE_RedguardRaceVampire", "proxies": [ "RedguardRaceVampire" ] }
+        },
+        {
+            "name": "UBE Dark Elf",
+            "race": { "form": "00UBE_DarkElfRace", "proxies": [ "DarkElfRace" ] },
+            "vampireRace": { "form": "00UBE_DarkElfRaceVampire", "proxies": [ "DarkElfRaceVampire" ] }
+        },
+        {
+            "name": "UBE High Elf",
+            "race": { "form": "00UBE_HighElfRace", "proxies": [ "HighElfRace" ] },
+            "vampireRace": { "form": "00UBE_HighElfRaceVampire", "proxies": [ "HighElfRaceVampire" ] }
+        },
+        {
+            "name": "UBE Wood Elf",
+            "race": { "form": "00UBE_WoodElfRace", "proxies": [ "WoodElfRace" ] },
+            "vampireRace": { "form": "00UBE_WoodElfRaceVampire", "proxies": [ "WoodElfRaceVampire" ] }
+        },
+        {
+            "name": "UBE Orc",
+            "race": { "form": "00UBE_OrcRace", "proxies": [ "OrcRace" ] },
+            "vampireRace": { "form": "00UBE_OrcRaceVampire", "proxies": [ "OrcRaceVampire" ] }
+        }
+    ]
+}

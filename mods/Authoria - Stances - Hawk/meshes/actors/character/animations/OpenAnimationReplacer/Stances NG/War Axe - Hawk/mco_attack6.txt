@@ -1,0 +1,16 @@
+# numOriginalFrames: 60
+# duration: 2.000000
+# numAnnotationTracks: 97
+# numAnnotations: 12
+0.399999 weaponSwing
+0.516666 HitFrame
+1.049999 weaponSwing
+1.166666 HitFrame
+1.100000 PIE.@SGVI|MCO_nextattack|6
+1.100000 PIE.@SGVI|MCO_nextpowerattack|6
+1.216666 MCO_WinOpen
+1.333333 MCO_WinClose
+1.216666 MCO_PowerWinOpen
+1.333333 MCO_PowerWinClose
+0.000000 animmotion 0.0 0.0 0.0
+2.000000 animmotion 0.0 0.0 0.0

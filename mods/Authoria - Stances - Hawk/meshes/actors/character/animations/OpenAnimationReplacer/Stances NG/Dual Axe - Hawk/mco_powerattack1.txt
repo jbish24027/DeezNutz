@@ -1,0 +1,21 @@
+# numOriginalFrames: 50
+# duration: 1.666667
+# numAnnotationTracks: 97
+# numAnnotations: 17
+0.333333 CastOKStart
+0.500000 preHitFrame
+0.599999 weaponSwing
+0.599999 weaponLeftSwing
+0.633333 PIE.@CAMSHAKE|1|0.3
+0.633333 HitFrame
+0.633333 HitFrame
+0.900000 PIE.@SGVI|MCO_nextattack|1
+1.000000 MCO_WinOpen
+1.333333 MCO_WinClose
+0.000000 animmotion 0.0 0.0 0.0
+0.216666 animmotion 0.0 0.0 0.0
+0.583333 animmotion 0.0 222.78700256347656 0.0
+0.649999 animmotion 0.0 270.98699951171875 0.0
+1.166666 animmotion 0.0 270.98699951171875 0.0
+1.333333 animmotion 0.0 278.45001220703125 0.0
+1.666667 animmotion 0.0 278.45001220703125 0.0

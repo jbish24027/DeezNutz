@@ -1,0 +1,29 @@
+{
+  "FractureMapping": [
+    {
+      "Filters": {
+        "Ammunitions": [
+          "Skyrim Arrow Overhaul.esp:0x1DC817"
+        ]
+      },
+      "Modifiers": {
+        "Fracture": true,
+        "AmmoID": "AUTH_DwarvenCrescentBolt"
+      }
+    }
+  ],
+  "AmmoMapping": [
+    {
+      "ID": "AUTH_DwarvenCrescentBolt",
+      "AmmoBase": "Skyrim Arrow Overhaul.esp:0x1DC817",
+      "AmmoBroken": "Authoria - Broken Feathers - Special Tips.esp:0x818",
+      "Durability": 50.0,
+      "BrokenStates": [
+        {
+          "Chances": 100,
+          "ProjectileSwap": "Broken Feathers.esp:0x81D"
+        }
+      ]
+    }
+  ]
+}

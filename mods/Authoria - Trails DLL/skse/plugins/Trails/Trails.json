@@ -1,0 +1,2520 @@
+{
+	"templates":
+	{
+		"footBack":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": -10.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 10.0 }
+					}
+				}
+			}
+		},
+		"footFront":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": -10.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 10.0 }
+					}
+				}
+			}
+		},
+		"footLeft":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"footRight":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"footScuffLeft":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"footScuffRight":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"footSprintLeft":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"footSprintRight":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"jumpDown":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"jumpUp":
+		{
+			"impactDataSet": { "formID": 0, "fileName": "" },
+			"rayCast":
+			{
+				"origin":
+				{
+					"nodeName": "",
+					"offset": { "x": 0.0, "y": 0.0, "z": 32.0 }
+				},
+				"ray": { "x": 0.0, "y": 0.0, "z": -64.0 },
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": false }
+				}
+			},
+			"decal":
+			{
+				"force": false,
+				"landColor": true,
+				"rotation":
+				{
+					"nodeName": "",
+					"rotate": { "x": false, "y": false, "z": true },
+					"offset":
+					{
+						"minimum": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"maximum": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		}
+	},
+	"settings":
+	[{
+		"conditions": { "formID": 3189, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 3207, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Horker_LBackLegToe" } },
+				"decal": { "rotation": { "nodeName": "Horker_LBackLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 3208, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Horker_RBackLegToe" } },
+				"decal": { "rotation": { "nodeName": "Horker_RBackLegToe" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 3209, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Horker_LFrontLegToe" } },
+				"decal": { "rotation": { "nodeName": "Horker_LFrontLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 3210, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Horker_RFrontLegToe" } },
+				"decal": { "rotation": { "nodeName": "Horker_RFrontLegToe" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3091, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3108, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC LFootstep" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3109, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC RFootstep" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3072, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3089, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LeftAnkle" }, "ray": { "z": -10.2 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3090, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RightAnkle" }, "ray": { "z": -10.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3053, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3070, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L FootBox" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3071, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R FootBox" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3034, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 3051, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LBackLegFoot" } }
+			},
+			{
+				"impactDataSet": { "formID": 3052, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RBackLegFoot" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 3051, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LFrontLegFoot" } }
+			},
+			{
+				"impactDataSet": { "formID": 3052, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RFrontLegFoot" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3015, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3032, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Leg1Foot[Lft]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3032, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Leg2Foot[Lft]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3032, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Leg3Foot[Lft]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3033, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Leg1Foot[Rft]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3033, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Leg2Foot[Rft]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3033, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Leg3Foot[Rft]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3014, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 3012, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RabbitLLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 3013, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RabbitRLegToe" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 3010, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RabbitLPalm" } }
+			},
+			{
+				"impactDataSet": { "formID": 3011, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RabbitRPalm" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2941, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2976, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LLeg[LAnkle]" } },
+				"decal": { "rotation": { "nodeName": "LLeg[LAnkle]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2977, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "R Leg[RAnkle]" } },
+				"decal": { "rotation": { "nodeName": "R Leg[RAnkle]" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2958, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "L UpperArm[LHnd]" } },
+				"decal": { "rotation": { "nodeName": "L UpperArm[LHnd]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2959, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "R UpperArm[RHnd]" } },
+				"decal": { "rotation": { "nodeName": "R UpperArm[RHnd]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2922, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2939, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LLeg_LTip0" } },
+				"decal": { "rotation": { "nodeName": "LLeg_LTip0" } }
+			},
+			{
+				"impactDataSet": { "formID": 2939, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LLeg_Tip1" } },
+				"decal": { "rotation": { "nodeName": "LLeg_Tip1" } }
+			},
+			{
+				"impactDataSet": { "formID": 2939, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LLeg_Tip2" } },
+				"decal": { "rotation": { "nodeName": "LLeg_Tip2" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2940, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RLeg_Tip0" } },
+				"decal": { "rotation": { "nodeName": "RLeg_Tip0" } }
+			},
+			{
+				"impactDataSet": { "formID": 2940, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RLeg_Tip1" } },
+				"decal": { "rotation": { "nodeName": "RLeg_Tip1" } }
+			},
+			{
+				"impactDataSet": { "formID": 2940, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RLeg_Tip2" } },
+				"decal": { "rotation": { "nodeName": "RLeg_Tip2" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2864, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2897, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe0]" } },
+				"decal": { "rotation": { "nodeName": "[LToe0]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2897, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe1]" } },
+				"decal": { "rotation": { "nodeName": "[LToe1]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2897, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe3]" } },
+				"decal": { "rotation": { "nodeName": "[LToe3]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2897, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe2]" } },
+				"decal": { "rotation": { "nodeName": "[LToe2]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2898, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe0]" } },
+				"decal": { "rotation": { "nodeName": "[RToe0]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2898, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe1]" } },
+				"decal": { "rotation": { "nodeName": "[RToe1]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2898, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe3]" } },
+				"decal": { "rotation": { "nodeName": "[RToe3]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2898, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe2]" } },
+				"decal": { "rotation": { "nodeName": "[RToe2]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2901, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2899, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe0]" } },
+				"decal": { "rotation": { "nodeName": "[LToe0]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2899, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe1]" } },
+				"decal": { "rotation": { "nodeName": "[LToe1]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2899, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe3]" } },
+				"decal": { "rotation": { "nodeName": "[LToe3]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2899, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe2]" } },
+				"decal": { "rotation": { "nodeName": "[LToe2]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2900, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe0]" } },
+				"decal": { "rotation": { "nodeName": "[RToe0]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2900, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe1]" } },
+				"decal": { "rotation": { "nodeName": "[RToe1]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2900, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe3]" } },
+				"decal": { "rotation": { "nodeName": "[RToe3]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2900, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe2]" } },
+				"decal": { "rotation": { "nodeName": "[RToe2]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2902, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2862, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe0]" } },
+				"decal": { "rotation": { "nodeName": "[LToe0]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2862, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe1]" } },
+				"decal": { "rotation": { "nodeName": "[LToe1]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2862, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe3]" } },
+				"decal": { "rotation": { "nodeName": "[LToe3]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2862, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[LToe2]" } },
+				"decal": { "rotation": { "nodeName": "[LToe2]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2863, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe0]" } },
+				"decal": { "rotation": { "nodeName": "[RToe0]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2863, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe1]" } },
+				"decal": { "rotation": { "nodeName": "[RToe1]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2863, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe3]" } },
+				"decal": { "rotation": { "nodeName": "[RToe3]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2863, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "[RToe2]" } },
+				"decal": { "rotation": { "nodeName": "[RToe2]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2905, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2903, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "DwarvenSpider_LegLeft03" } },
+				"decal": { "rotation": { "nodeName": "DwarvenSpider_LegLeft03" } }
+			},
+			{
+				"impactDataSet": { "formID": 2903, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "DwarvenSpider_LLeg13" } },
+				"decal": { "rotation": { "nodeName": "DwarvenSpider_LLeg13" } }
+			},
+			{
+				"impactDataSet": { "formID": 2903, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "DwarvenSpiderLLeg23" } },
+				"decal": { "rotation": { "nodeName": "DwarvenSpiderLLeg23" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2904, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "DwarvenSpiderRLeg03" } },
+				"decal": { "rotation": { "nodeName": "DwarvenSpiderRLeg03" } }
+			},
+			{
+				"impactDataSet": { "formID": 2904, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "DwarvenSpiderRLeg13" } },
+				"decal": { "rotation": { "nodeName": "DwarvenSpiderRLeg13" } }
+			},
+			{
+				"impactDataSet": { "formID": 2904, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "DwarvenSpiderRLeg23" } },
+				"decal": { "rotation": { "nodeName": "DwarvenSpiderRLeg23" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2412, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2166, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2167, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2413, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2048, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC LLegBall1" } }
+			},
+			{
+				"impactDataSet": { "formID": 2049, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC RLegBall1" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 3489, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC LArmBall1" } }
+			},
+			{
+				"impactDataSet": { "formID": 3490, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC RArmBall1" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2414, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2256, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Boar_LBackLegAnkle" } }
+			},
+			{
+				"impactDataSet": { "formID": 2257, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Boar_RBackLegAnkle" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2258, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Boar_LFrontLegHoof_1" } }
+			},
+			{
+				"impactDataSet": { "formID": 2259, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Boar_RFrontLeg_Hoof_1" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2415, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2052, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LRearHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2053, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RRearHoof" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2050, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "L_FrontHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2051, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "R_FrontHoof" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2416, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2058, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "ElkLRearHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2059, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "ElkRRearHoof" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2060, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "ElkLFrontHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2061, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "ElkRFrontHoof" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2417, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2090, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_LBackLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2091, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_RBackLegToe" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2092, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_LFrontLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2093, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_RFrontLegToe" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2418, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2180, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_LBackLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2181, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_RBackLegToe" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2182, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_LFrontLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2183, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_RFrontLegToe" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2419, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2156, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [LLft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [LLft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2157, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2420, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2158, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2159, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2421, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2054, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_LBackLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2055, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_RBackLegToe" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2056, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_LFrontLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2057, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Canine_RFrontLegToe" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2422, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2191, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2190, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Toe0 [RToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2423, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2164, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Rft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2165, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3245, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3262, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Rft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3263, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2424, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2062, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Goat_LBackLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2063, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Goat_RBackLegToe" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2064, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Goat_LFrontLegToe" } }
+			},
+			{
+				"impactDataSet": { "formID": 2065, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Goat_RFrontLegToe" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2425, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2162, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Toe0 [LToe]Tip" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2163, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Toe0 [RToe]Tip" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2426, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2070, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLRearHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2071, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseRRearHoof" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2072, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLFrontHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2073, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseFrontRLegFrontHoof" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2427, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2066, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLRearHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2067, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseRRearHoof" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2068, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLFrontHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2069, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseFrontRLegFrontHoof" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2428, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2221, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLRearHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2220, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseRRearHoof" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2219, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLFrontHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2218, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseFrontRLegFrontHoof" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2429, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2227, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLRearHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2226, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseRRearHoof" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2225, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseLFrontHoof" } }
+			},
+			{
+				"impactDataSet": { "formID": 2224, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "HorseFrontRLegFrontHoof" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2430, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2251, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Rft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2250, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2431, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2078, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Back L Foot" }, "ray": { "z": -96.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2079, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Back R Foot" }, "ray": { "z": -96.0 } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2080, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Front L Foot" }, "ray": { "z": -128.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2081, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Front R Foot" }, "ray": { "z": -128.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2432, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2074, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Back L Foot" }, "ray": { "z": -96.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2075, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Back R Foot" }, "ray": { "z": -96.0 } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2076, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Front L Foot" }, "ray": { "z": -128.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2077, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Mammoth Front R Foot" }, "ray": { "z": -128.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2441, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2212, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2213, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2442, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2082, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Sabrecat_LeftToe0[LT00]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2083, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Sabrecat_RightToe0[RT00]" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2084, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Sabrecat_LeftHand[LHnd]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2085, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "Sabrecat_RightHand[RHnd]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2443, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2086, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LLegAnkle" } }
+			},
+			{
+				"impactDataSet": { "formID": 2087, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RLegAnkle" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2088, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "LArm_Palm" } }
+			},
+			{
+				"impactDataSet": { "formID": 2089, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "RArm_Palm" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2444, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2155, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [LLft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [LLft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2154, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2445, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2160, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2161, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Toe0 [RToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2446, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2094, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2095, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2096, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Hand [LHnd]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Hand [LHnd]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2097, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Hand [RHnd]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Hand [RHnd]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2447, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2174, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2175, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2174, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2175, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2174, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2175, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Rft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2740, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2241, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2240, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}],
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2245, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2244, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2243, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Hand [RHnd]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Hand [RHnd]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2242, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Hand [RHnd]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Hand [RHnd]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2741, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2100, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2101, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}],
+			"footBack":
+			[{
+				"impactDataSet": { "formID": 2102, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2103, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Lft ]" }},
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}],
+			"footFront":
+			[{
+				"impactDataSet": { "formID": 2098, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Hand [RHnd]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Hand [RHnd]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2099, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Hand [RHnd]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Hand [RHnd]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2100, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2101, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2100, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Foot [Lft ]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2101, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Toe0 [LToe]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Foot [Lft ]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2435, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2200, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2201, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2436, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2200, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2201, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2439, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2200, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2201, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2199, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2198, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2440, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2200, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2201, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2407, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2406, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2433, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2151, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2150, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2434, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2151, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2150, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2437, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2151, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2150, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2149, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2148, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2438, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2151, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2150, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2405, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2404, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2770, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2822, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2823, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2771, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2822, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2823, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2772, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2822, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2823, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2760, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2761, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 2773, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 2822, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 2823, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 2758, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L UpperArm [LUar]" }, "ray": { "z": -192.0 } }
+			},
+			{
+				"impactDataSet": { "formID": 2759, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R UpperArm [RUar]" }, "ray": { "z": -192.0 } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3188, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3183, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3184, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 3183, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 3184, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 3183, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 3184, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 3183, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3184, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 3183, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3184, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	},
+	{
+		"conditions": { "formID": 3187, "fileName": "Trails.esp" },
+		"footsteps":
+		{
+			"footLeft":
+			[{
+				"impactDataSet": { "formID": 3185, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footRight":
+			[{
+				"impactDataSet": { "formID": 3186, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footScuffLeft":
+			[{
+				"impactDataSet": { "formID": 3185, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footScuffRight":
+			[{
+				"impactDataSet": { "formID": 3186, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"footSprintLeft":
+			[{
+				"impactDataSet": { "formID": 3185, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC L Foot [Lft ]", "offset": { "x": -2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			}],
+			"footSprintRight":
+			[{
+				"impactDataSet": { "formID": 3186, "fileName": "Trails.esp" },
+				"rayCast":
+				{
+					"origin": { "nodeName": "NPC R Foot [Rft ]", "offset": { "x": 2.0, "y": 6.0 } },
+					"rotation": { "nodeName": "NPC COM [COM ]", "rotate": { "x": false, "y": false, "z": true } }
+				},
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpDown":
+			[{
+				"impactDataSet": { "formID": 3185, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3186, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}],
+			"jumpUp":
+			[{
+				"impactDataSet": { "formID": 3185, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC L Foot [Lft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC L Thigh [LThg]" } }
+			},
+			{
+				"impactDataSet": { "formID": 3186, "fileName": "Trails.esp" },
+				"rayCast": { "origin": { "nodeName": "NPC R Foot [Rft ]" } },
+				"decal": { "rotation": { "nodeName": "NPC R Thigh [RThg]" } }
+			}]
+		}
+	}]
+}

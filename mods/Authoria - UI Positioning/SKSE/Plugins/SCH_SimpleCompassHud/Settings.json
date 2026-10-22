@@ -1,0 +1,44 @@
+{
+	"form" : 
+	{
+		"compasstoggleequipform" : "0"
+	},
+	"int" : 
+	{
+		"alphamodkey" : 45,
+		"bcompasstogglekeyactive" : 1,
+		"bpointnorth" : 1,
+		"brightnessmodkey" : 29,
+		"brotateneedle" : 1,
+		"bshowcompass" : 1,
+		"busesliders" : 1,
+		"changebasemodkey" : 48,
+		"downkey" : 208,
+		"icompassalpha" : 100,
+		"icompassbrightness" : 3,
+		"icompassneedlealpha" : 100,
+		"icompassneedlebrightness" : 38,
+		"icompassneedlezoom" : 14,
+		"icompassoverlayalpha" : 100,
+		"icompassoverlaybrightness" : -2,
+		"icompassoverlayzoom" : 11,
+		"icompassposx" : 790,
+		"icompassposy" : 14,
+		"icompasstogglekey" : 56,
+		"icompasszoom" : 11,
+		"imodifierkey" : 56,
+		"ivanillacompassalpha" : 100,
+		"leftkey" : 203,
+		"posincrement" : 10,
+		"rightkey" : 205,
+		"savekey" : 28,
+		"upkey" : 200,
+		"zoommodkey" : 42
+	},
+	"string" : 
+	{
+		"compasswidgetpath" : "/Interface/exported/widgets/SimpleCompassHud/Bases/_DragonbornBase4b.dds",
+		"needlewidgetpath" : "/Interface/exported/widgets/SimpleCompassHud/Needles/_dragonbornNeedle9a.dds",
+		"overlaywidgetpath" : "/Interface/exported/widgets/SimpleCompassHud/Overlays/blank.dds"
+	}
+}

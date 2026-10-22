@@ -1,0 +1,233 @@
+[
+  {
+    "models": [
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Basket.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Butterflies.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Floral.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Flowers.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Leafy.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Mandala.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Vines.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern01Weave.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Basket.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Butterflies.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Floral.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Flowers.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Leafy.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Mandala.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Vines.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern01Weave.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [4.3, 189.1, -225.0],
+          [1.3, -0.4, -190.0],
+          [-31.5, -54.1, -279.0]
+        ],
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "radius": 425,
+          "fade": 0.8,
+          "cutoff": 0.1,
+          "size": 2.0,
+          "flags": "InverseSquare|IgnoreScale|Linear",
+          "conditions": [
+            "Self IsInInterior NONE NONE == 0 AND"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Basket.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Butterflies.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Floral.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Flowers.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Leafy.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Mandala.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Vines.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern02Weave.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Basket.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Butterflies.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Floral.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Flowers.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Leafy.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Mandala.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Vines.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern02Weave.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [0.2, -142.1, -127.5],
+          [-0.3, 0.6, -154.5]
+        ],
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "radius": 425,
+          "fade": 0.8,
+          "cutoff": 0.1,
+          "size": 2.0,
+          "flags": "InverseSquare|IgnoreScale|Linear",
+          "conditions": [
+            "Self IsInInterior NONE NONE == 0 AND"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Basket.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Butterflies.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Floral.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Flowers.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Leafy.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Mandala.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Vines.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern03Weave.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Basket.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Butterflies.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Floral.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Flowers.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Leafy.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Mandala.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Vines.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern03Weave.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [0.8, -1.0, -153.0]
+        ],
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "radius": 425,
+          "fade": 0.8,
+          "cutoff": 0.1,
+          "size": 2.0,
+          "flags": "InverseSquare|IgnoreScale|Linear",
+          "conditions": [
+            "Self IsInInterior NONE NONE == 0 AND"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Basket.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Butterflies.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Floral.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Flowers.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Leafy.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Mandala.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Vines.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern04Weave.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Basket.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Butterflies.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Floral.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Flowers.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Leafy.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Mandala.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Vines.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern04Weave.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [0.8, -1.0, -119.5]
+        ],
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "radius": 425,
+          "fade": 0.8,
+          "cutoff": 0.1,
+          "size": 2.0,
+          "flags": "InverseSquare|IgnoreScale|Linear",
+          "conditions": [
+            "Self IsInInterior NONE NONE == 0 AND"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Basket.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Butterflies.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Floral.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Flowers.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Leafy.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Mandala.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Vines.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern05Weave.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Basket.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Butterflies.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Floral.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Flowers.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Leafy.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Mandala.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Vines.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern05Weave.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [0.8, -1.0, -80.5]
+        ],
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "radius": 425,
+          "fade": 0.8,
+          "cutoff": 0.1,
+          "size": 2.0,
+          "flags": "InverseSquare|IgnoreScale|Linear",
+          "conditions": [
+            "Self IsInInterior NONE NONE == 0 AND"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Basket.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Butterflies.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Floral.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Flowers.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Leafy.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Mandala.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Vines.nif",
+      "Meshes\\0DV_BOSLanterns\\0DVDarkElfLantern06Weave.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Basket.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Butterflies.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Floral.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Flowers.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Leafy.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Mandala.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Vines.nif",
+      "0DV_BOSLanterns\\0DVDarkElfLantern06Weave.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [0.8, -1.0, -31.0]
+        ],
+        "data": {
+          "light": "Authoria_Glow_Lantern",
+          "radius": 425,
+          "fade": 0.8,
+          "cutoff": 0.1,
+          "size": 2.0,
+          "flags": "InverseSquare|IgnoreScale|Linear",
+          "conditions": [
+            "Self IsInInterior NONE NONE == 0 AND"
+          ]
+        }
+      }
+    ]
+  }
+]

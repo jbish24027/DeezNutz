@@ -1,0 +1,836 @@
+{
+ "Seasons_OvercastSnow": [
+  "FogNear.Sunrise: 81,88,102 -> 97,98,102",
+  "FogNear.Sunset: 81,88,102 -> 97,98,102",
+  "DALC.Sunrise.XPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunrise.XMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunrise.YPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunrise.YMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunrise.ZPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunrise.ZMinus: 71,89,141 -> 124,128,141",
+  "DALC.Sunset.XPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunset.XMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunset.YPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunset.YMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunset.ZPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunset.ZMinus: 71,89,141 -> 124,128,141"
+ ],
+ "SkyrimClear": [
+  "FogNear.Sunrise: 105,88,205 -> 180,176,205",
+  "FogNear.Sunset: 105,88,205 -> 180,176,205",
+  "DALC.Sunrise.XPlus: 214,142,168 -> 214,196,202",
+  "DALC.Sunrise.XMinus: 86,62,85 -> 86,80,86",
+  "DALC.Sunrise.YPlus: 137,96,124 -> 137,127,134",
+  "DALC.Sunrise.YMinus: 137,96,124 -> 137,127,134",
+  "DALC.Sunrise.ZPlus: 94,69,96 -> 96,89,96",
+  "DALC.Sunrise.ZMinus: 180,122,152 -> 180,166,173",
+  "DALC.Sunset.XPlus: 86,62,85 -> 86,80,86",
+  "DALC.Sunset.XMinus: 214,142,168 -> 214,196,202",
+  "DALC.Sunset.YPlus: 137,96,124 -> 137,127,134",
+  "DALC.Sunset.YMinus: 137,96,124 -> 137,127,134",
+  "DALC.Sunset.ZPlus: 94,69,96 -> 96,89,96",
+  "DALC.Sunset.ZMinus: 180,122,152 -> 180,166,173"
+ ],
+ "SkyrimCloudy": [
+  "FogNear.Sunrise: 31,28,104 -> 86,85,104",
+  "FogNear.Sunset: 31,28,104 -> 86,85,104",
+  "DALC.Sunrise.XMinus: 61,61,70 -> 68,68,70",
+  "DALC.Sunrise.ZPlus: 66,67,78 -> 75,75,78",
+  "DALC.Sunset.XPlus: 61,61,70 -> 68,68,70",
+  "DALC.Sunset.ZPlus: 66,67,78 -> 75,75,78"
+ ],
+ "SkyrimOvercastSnow": [
+  "FogNear.Sunrise: 35,46,77 -> 66,69,77",
+  "FogNear.Sunset: 35,46,77 -> 66,69,77",
+  "DALC.Sunrise.XPlus: 160,177,221 -> 206,210,221",
+  "DALC.Sunrise.XMinus: 81,89,107 -> 100,102,107",
+  "DALC.Sunrise.YPlus: 118,130,159 -> 149,152,159",
+  "DALC.Sunrise.YMinus: 118,130,159 -> 149,152,159",
+  "DALC.Sunrise.ZPlus: 81,89,107 -> 100,102,107",
+  "DALC.Sunrise.ZMinus: 122,136,169 -> 157,161,169",
+  "DALC.Sunset.XPlus: 81,89,107 -> 100,102,107",
+  "DALC.Sunset.XMinus: 160,177,221 -> 206,210,221",
+  "DALC.Sunset.YPlus: 118,130,159 -> 149,152,159",
+  "DALC.Sunset.YMinus: 118,130,159 -> 149,152,159",
+  "DALC.Sunset.ZPlus: 81,89,107 -> 100,102,107",
+  "DALC.Sunset.ZMinus: 122,136,169 -> 157,161,169"
+ ],
+ "SkyrimFog": [
+  "FogNear.Sunrise: 52,56,69 -> 65,66,69",
+  "FogNear.Sunset: 52,56,69 -> 65,66,69",
+  "DALC.Sunrise.XPlus: 123,133,150 -> 143,146,150",
+  "DALC.Sunrise.XMinus: 60,65,72 -> 69,70,72",
+  "DALC.Sunrise.YPlus: 88,96,108 -> 103,105,108",
+  "DALC.Sunrise.YMinus: 88,96,108 -> 103,105,108",
+  "DALC.Sunrise.ZPlus: 68,73,82 -> 78,80,82",
+  "DALC.Sunrise.ZMinus: 109,118,133 -> 127,129,133",
+  "DALC.Sunset.XPlus: 60,65,72 -> 69,70,72",
+  "DALC.Sunset.XMinus: 123,133,150 -> 143,146,150",
+  "DALC.Sunset.YPlus: 88,96,108 -> 103,105,108",
+  "DALC.Sunset.YMinus: 88,96,108 -> 103,105,108",
+  "DALC.Sunset.ZPlus: 68,73,82 -> 78,80,82",
+  "DALC.Sunset.ZMinus: 109,118,133 -> 127,129,133"
+ ],
+ "SkyrimOvercastRain": [],
+ "SkyrimStormRain": [
+  "FogNear.Sunrise: 29,35,41 -> 38,40,41",
+  "FogNear.Sunset: 29,35,41 -> 38,40,41"
+ ],
+ "SkyrimStormSnow": [
+  "FogNear.Sunrise: 81,96,125 -> 114,118,125",
+  "FogNear.Sunset: 81,96,125 -> 114,118,125",
+  "DALC.Sunrise.XPlus: 92,109,133 -> 123,127,133",
+  "DALC.Sunrise.XMinus: 45,53,63 -> 59,61,63",
+  "DALC.Sunrise.YPlus: 70,82,98 -> 91,94,98",
+  "DALC.Sunrise.YMinus: 70,82,98 -> 91,94,98",
+  "DALC.Sunrise.ZPlus: 45,53,63 -> 59,61,63",
+  "DALC.Sunrise.ZMinus: 74,88,107 -> 99,102,107",
+  "DALC.Sunset.XPlus: 45,53,63 -> 59,61,63",
+  "DALC.Sunset.XMinus: 92,109,133 -> 123,127,133",
+  "DALC.Sunset.YPlus: 70,82,98 -> 91,94,98",
+  "DALC.Sunset.YMinus: 70,82,98 -> 91,94,98",
+  "DALC.Sunset.ZPlus: 45,53,63 -> 59,61,63",
+  "DALC.Sunset.ZMinus: 74,88,107 -> 99,102,107"
+ ],
+ "SkyrimOvercastWar": [
+  "FogNear.Sunrise: 41,58,75 -> 66,71,75",
+  "FogNear.Sunset: 41,58,75 -> 66,71,75",
+  "DALC.Sunrise.XPlus: 79,103,145 -> 128,134,145",
+  "DALC.Sunrise.XMinus: 64,84,117 -> 104,109,117",
+  "DALC.Sunrise.YPlus: 79,103,145 -> 128,134,145",
+  "DALC.Sunrise.YMinus: 64,84,117 -> 104,109,117",
+  "DALC.Sunrise.ZPlus: 79,103,145 -> 128,134,145",
+  "DALC.Sunrise.ZMinus: 118,149,201 -> 180,188,201",
+  "DALC.Sunset.XPlus: 79,103,145 -> 128,134,145",
+  "DALC.Sunset.XMinus: 64,84,117 -> 104,109,117",
+  "DALC.Sunset.YPlus: 79,103,145 -> 128,134,145",
+  "DALC.Sunset.YMinus: 64,84,117 -> 104,109,117",
+  "DALC.Sunset.ZPlus: 79,103,145 -> 128,134,145",
+  "DALC.Sunset.ZMinus: 118,149,201 -> 180,188,201"
+ ],
+ "KarthspireRedoubtFog": [
+  "FogNear.Sunrise: 64,74,85 -> 80,82,85",
+  "FogNear.Sunset: 64,74,85 -> 80,82,85",
+  "DALC.Sunrise.XPlus: 163,175,187 -> 181,184,187",
+  "DALC.Sunrise.XMinus: 78,85,91 -> 88,90,91",
+  "DALC.Sunrise.YPlus: 116,126,135 -> 130,133,135",
+  "DALC.Sunrise.YMinus: 116,126,135 -> 130,133,135",
+  "DALC.Sunrise.ZPlus: 88,96,103 -> 99,101,103",
+  "DALC.Sunrise.ZMinus: 144,156,167 -> 161,164,167",
+  "DALC.Sunset.XPlus: 78,85,91 -> 88,90,91",
+  "DALC.Sunset.XMinus: 163,175,187 -> 181,184,187",
+  "DALC.Sunset.YPlus: 116,126,135 -> 130,133,135",
+  "DALC.Sunset.YMinus: 116,126,135 -> 130,133,135",
+  "DALC.Sunset.ZPlus: 88,96,103 -> 99,101,103",
+  "DALC.Sunset.ZMinus: 144,156,167 -> 161,164,167"
+ ],
+ "SkyrimClearMA": [
+  "FogNear.Sunrise: 149,76,109 -> 149,131,139",
+  "FogNear.Sunset: 149,76,109 -> 149,131,139"
+ ],
+ "SkyrimOvercastRainMA": [
+  "FogNear.Sunrise: 105,93,126 -> 121,118,126",
+  "FogNear.Sunset: 105,93,126 -> 121,118,126",
+  "DALC.Sunrise.XPlus: 143,138,153 -> 150,149,153",
+  "DALC.Sunrise.XMinus: 68,66,73 -> 72,71,73",
+  "DALC.Sunrise.YPlus: 107,103,114 -> 112,111,114",
+  "DALC.Sunrise.YMinus: 107,103,114 -> 112,111,114",
+  "DALC.Sunrise.ZPlus: 68,66,73 -> 72,71,73",
+  "DALC.Sunrise.ZMinus: 115,111,123 -> 121,120,123",
+  "DALC.Sunset.XPlus: 68,66,73 -> 72,71,73",
+  "DALC.Sunset.XMinus: 143,138,153 -> 150,149,153",
+  "DALC.Sunset.YPlus: 107,103,114 -> 112,111,114",
+  "DALC.Sunset.YMinus: 107,103,114 -> 112,111,114",
+  "DALC.Sunset.ZPlus: 68,66,73 -> 72,71,73",
+  "DALC.Sunset.ZMinus: 115,111,123 -> 121,120,123"
+ ],
+ "SkyrimCloudyMA": [
+  "FogNear.Sunrise: 88,82,135 -> 123,122,135",
+  "FogNear.Sunset: 88,82,135 -> 123,122,135"
+ ],
+ "SkyrimClearCO": [
+  "FogNear.Sunrise: 51,59,146 -> 122,124,146",
+  "FogNear.Sunset: 51,59,146 -> 122,124,146",
+  "DALC.Sunrise.XPlus: 212,142,186 -> 212,195,206",
+  "DALC.Sunrise.XMinus: 85,62,95 -> 93,87,95",
+  "DALC.Sunrise.YPlus: 136,96,138 -> 138,127,138",
+  "DALC.Sunrise.YMinus: 136,96,138 -> 138,127,138",
+  "DALC.Sunrise.ZPlus: 94,69,108 -> 105,98,108",
+  "DALC.Sunrise.ZMinus: 178,122,168 -> 178,164,176",
+  "DALC.Sunset.XPlus: 85,62,95 -> 93,87,95",
+  "DALC.Sunset.XMinus: 212,142,186 -> 212,195,206",
+  "DALC.Sunset.YPlus: 136,96,138 -> 138,127,138",
+  "DALC.Sunset.YMinus: 136,96,138 -> 138,127,138",
+  "DALC.Sunset.ZPlus: 94,69,108 -> 105,98,108",
+  "DALC.Sunset.ZMinus: 178,122,168 -> 178,164,176"
+ ],
+ "SkyrimCloudyCO": [
+  "FogNear.Sunrise: 129,134,191 -> 176,177,191",
+  "FogNear.Sunset: 129,134,191 -> 176,177,191",
+  "DALC.Sunrise.XMinus: 63,55,65 -> 64,62,65",
+  "DALC.Sunrise.YPlus: 102,85,95 -> 102,98,100",
+  "DALC.Sunrise.YMinus: 102,85,95 -> 102,98,100",
+  "DALC.Sunrise.ZPlus: 69,62,73 -> 72,70,73",
+  "DALC.Sunset.XPlus: 63,55,65 -> 64,62,65",
+  "DALC.Sunset.YPlus: 102,85,95 -> 102,98,100",
+  "DALC.Sunset.YMinus: 102,85,95 -> 102,98,100",
+  "DALC.Sunset.ZPlus: 69,62,73 -> 72,70,73"
+ ],
+ "SkyrimClearRE": [],
+ "SkyrimOvercastRainRE": [
+  "FogNear.Sunrise: 41,58,75 -> 66,71,75",
+  "FogNear.Sunset: 41,58,75 -> 66,71,75",
+  "DALC.Sunrise.XPlus: 110,121,131 -> 126,128,131",
+  "DALC.Sunrise.XMinus: 54,59,63 -> 61,62,63",
+  "DALC.Sunrise.YPlus: 84,91,98 -> 94,96,98",
+  "DALC.Sunrise.YMinus: 84,91,98 -> 94,96,98",
+  "DALC.Sunrise.ZPlus: 54,59,63 -> 61,62,63",
+  "DALC.Sunrise.ZMinus: 88,97,105 -> 101,103,105",
+  "DALC.Sunset.XPlus: 54,59,63 -> 61,62,63",
+  "DALC.Sunset.XMinus: 110,121,131 -> 126,128,131",
+  "DALC.Sunset.YPlus: 84,91,98 -> 94,96,98",
+  "DALC.Sunset.YMinus: 84,91,98 -> 94,96,98",
+  "DALC.Sunset.ZPlus: 54,59,63 -> 61,62,63",
+  "DALC.Sunset.ZMinus: 88,97,105 -> 101,103,105"
+ ],
+ "SkyrimFogRE": [],
+ "SkyrimCloudyRE": [
+  "DALC.Sunrise.XMinus: 62,51,62 -> 62,59,62",
+  "DALC.Sunrise.YPlus: 101,79,91 -> 101,96,98",
+  "DALC.Sunrise.YMinus: 101,79,91 -> 101,96,98",
+  "DALC.Sunrise.ZPlus: 68,57,70 -> 70,67,70",
+  "DALC.Sunrise.ZMinus: 133,101,112 -> 133,125,128",
+  "DALC.Sunset.XPlus: 62,51,62 -> 62,59,62",
+  "DALC.Sunset.YPlus: 101,79,91 -> 101,96,98",
+  "DALC.Sunset.YMinus: 101,79,91 -> 101,96,98",
+  "DALC.Sunset.ZPlus: 68,57,70 -> 70,67,70",
+  "DALC.Sunset.ZMinus: 133,101,112 -> 133,125,128"
+ ],
+ "SkyrimClearFF": [
+  "FogNear.Sunrise: 56,55,148 -> 125,125,148",
+  "FogNear.Sunset: 56,55,148 -> 125,125,148",
+  "DALC.Sunrise.XPlus: 200,151,186 -> 200,188,196",
+  "DALC.Sunrise.XMinus: 78,67,95 -> 91,88,95",
+  "DALC.Sunrise.YPlus: 126,103,138 -> 135,129,138",
+  "DALC.Sunrise.YMinus: 126,103,138 -> 135,129,138",
+  "DALC.Sunrise.ZPlus: 86,75,108 -> 102,100,108",
+  "DALC.Sunrise.ZMinus: 166,131,168 -> 168,159,168",
+  "DALC.Sunset.XPlus: 78,67,95 -> 91,88,95",
+  "DALC.Sunset.XMinus: 200,151,186 -> 200,188,196",
+  "DALC.Sunset.YPlus: 126,103,138 -> 135,129,138",
+  "DALC.Sunset.YMinus: 126,103,138 -> 135,129,138",
+  "DALC.Sunset.ZPlus: 86,75,108 -> 102,100,108",
+  "DALC.Sunset.ZMinus: 166,131,168 -> 168,159,168"
+ ],
+ "SkyrimStormRainFF": [
+  "FogNear.Sunrise: 39,40,54 -> 50,50,54",
+  "FogNear.Sunset: 39,40,54 -> 50,50,54"
+ ],
+ "SkyrimOvercastRainFF": [
+  "FogNear.Sunrise: 81,88,102 -> 97,98,102",
+  "FogNear.Sunset: 81,88,102 -> 97,98,102",
+  "DALC.Sunrise.XPlus: 139,147,157 -> 152,155,157",
+  "DALC.Sunrise.XMinus: 63,68,73 -> 70,72,73",
+  "DALC.Sunrise.YPlus: 100,107,115 -> 111,113,115",
+  "DALC.Sunrise.YMinus: 100,107,115 -> 111,113,115",
+  "DALC.Sunrise.ZPlus: 63,68,73 -> 70,72,73",
+  "DALC.Sunrise.ZMinus: 111,117,125 -> 122,123,125",
+  "DALC.Sunset.XPlus: 63,68,73 -> 70,72,73",
+  "DALC.Sunset.XMinus: 139,147,157 -> 152,155,157",
+  "DALC.Sunset.YPlus: 100,107,115 -> 111,113,115",
+  "DALC.Sunset.YMinus: 100,107,115 -> 111,113,115",
+  "DALC.Sunset.ZPlus: 63,68,73 -> 70,72,73",
+  "DALC.Sunset.ZMinus: 111,117,125 -> 122,123,125"
+ ],
+ "SkyrimFogFF": [],
+ "SkyrimCloudyFF": [
+  "FogNear.Sunrise: 96,67,113 -> 109,102,113",
+  "FogNear.Sunset: 96,67,113 -> 109,102,113"
+ ],
+ "SkyrimClearTU": [
+  "FogNear.Sunrise: 52,55,142 -> 120,120,142",
+  "FogNear.Sunset: 52,55,142 -> 120,120,142"
+ ],
+ "SkyrimStormRainTU": [
+  "FogNear.Sunrise: 35,38,67 -> 59,60,67",
+  "FogNear.Sunset: 35,38,67 -> 59,60,67",
+  "DALC.Sunrise.YPlus: 75,75,82 -> 80,80,82",
+  "DALC.Sunrise.YMinus: 75,75,82 -> 80,80,82",
+  "DALC.Sunset.YPlus: 75,75,82 -> 80,80,82",
+  "DALC.Sunset.YMinus: 75,75,82 -> 80,80,82"
+ ],
+ "SkyrimOvercastRainTU": [],
+ "SkyrimCloudyTU": [
+  "FogNear.Sunrise: 73,77,138 -> 122,123,138",
+  "FogNear.Sunset: 73,77,138 -> 122,123,138",
+  "DALC.Sunrise.XMinus: 64,51,57 -> 64,61,62",
+  "DALC.Sunrise.ZPlus: 70,57,64 -> 70,67,68",
+  "DALC.Sunset.XPlus: 64,51,57 -> 64,61,62",
+  "DALC.Sunset.ZPlus: 70,57,64 -> 70,67,68"
+ ],
+ "SkyrimClearSN": [
+  "FogNear.Sunrise: 77,67,153 -> 134,132,153",
+  "FogNear.Sunset: 77,67,153 -> 134,132,153",
+  "DALC.Sunrise.XPlus: 216,134,230 -> 226,206,230",
+  "DALC.Sunrise.XMinus: 87,60,112 -> 106,99,112",
+  "DALC.Sunrise.YPlus: 139,92,166 -> 159,147,166",
+  "DALC.Sunrise.YMinus: 139,92,166 -> 159,147,166",
+  "DALC.Sunrise.ZPlus: 96,68,127 -> 119,112,127",
+  "DALC.Sunrise.ZMinus: 182,116,205 -> 199,183,205",
+  "DALC.Sunset.XPlus: 87,60,112 -> 106,99,112",
+  "DALC.Sunset.XMinus: 216,134,230 -> 226,206,230",
+  "DALC.Sunset.YPlus: 139,92,166 -> 159,147,166",
+  "DALC.Sunset.YMinus: 139,92,166 -> 159,147,166",
+  "DALC.Sunset.ZPlus: 96,68,127 -> 119,112,127",
+  "DALC.Sunset.ZMinus: 182,116,205 -> 199,183,205"
+ ],
+ "SkyrimClearVT": [
+  "FogNear.Sunrise: 73,44,147 -> 128,121,147",
+  "FogNear.Sunset: 73,44,147 -> 128,121,147",
+  "DALC.Sunrise.XPlus: 188,122,165 -> 188,172,182",
+  "DALC.Sunrise.XMinus: 72,54,77 -> 76,71,77",
+  "DALC.Sunrise.YPlus: 117,83,116 -> 117,108,117",
+  "DALC.Sunrise.YMinus: 117,83,116 -> 117,108,117",
+  "DALC.Sunrise.ZPlus: 78,60,87 -> 85,80,87",
+  "DALC.Sunrise.ZMinus: 156,106,145 -> 156,144,153",
+  "DALC.Sunset.XPlus: 72,54,77 -> 76,71,77",
+  "DALC.Sunset.XMinus: 188,122,165 -> 188,172,182",
+  "DALC.Sunset.YPlus: 117,83,116 -> 117,108,117",
+  "DALC.Sunset.YMinus: 117,83,116 -> 117,108,117",
+  "DALC.Sunset.ZPlus: 78,60,87 -> 85,80,87",
+  "DALC.Sunset.ZMinus: 156,106,145 -> 156,144,153"
+ ],
+ "SkyrimOvercastRainVT": [],
+ "SkyrimFogVT": [],
+ "SkyrimCloudyVT": [
+  "FogNear.Sunrise: 72,77,119 -> 107,108,119",
+  "FogNear.Sunset: 72,77,119 -> 107,108,119",
+  "DALC.Sunrise.XPlus: 180,137,189 -> 187,176,189",
+  "DALC.Sunrise.XMinus: 74,60,84 -> 82,78,84",
+  "DALC.Sunrise.YPlus: 117,93,129 -> 126,120,129",
+  "DALC.Sunrise.YMinus: 117,93,129 -> 126,120,129",
+  "DALC.Sunrise.ZPlus: 81,67,94 -> 91,87,94",
+  "DALC.Sunrise.ZMinus: 152,119,164 -> 161,153,164",
+  "DALC.Sunset.XPlus: 74,60,84 -> 82,78,84",
+  "DALC.Sunset.XMinus: 180,137,189 -> 187,176,189",
+  "DALC.Sunset.YPlus: 117,93,129 -> 126,120,129",
+  "DALC.Sunset.YMinus: 117,93,129 -> 126,120,129",
+  "DALC.Sunset.ZPlus: 81,67,94 -> 91,87,94",
+  "DALC.Sunset.ZMinus: 152,119,164 -> 161,153,164"
+ ],
+ "SkyrimCloudyVT_A": [
+  "FogNear.Sunrise: 72,77,119 -> 107,108,119",
+  "FogNear.Sunset: 72,77,119 -> 107,108,119",
+  "DALC.Sunrise.XPlus: 173,121,145 -> 173,160,166",
+  "DALC.Sunrise.XMinus: 70,54,70 -> 70,66,70",
+  "DALC.Sunrise.YPlus: 111,83,104 -> 111,104,109",
+  "DALC.Sunrise.YMinus: 111,83,104 -> 111,104,109",
+  "DALC.Sunrise.ZPlus: 77,60,79 -> 78,74,79",
+  "DALC.Sunrise.ZMinus: 146,105,129 -> 146,136,142",
+  "DALC.Sunset.XPlus: 70,54,70 -> 70,66,70",
+  "DALC.Sunset.XMinus: 173,121,145 -> 173,160,166",
+  "DALC.Sunset.YPlus: 111,83,104 -> 111,104,109",
+  "DALC.Sunset.YMinus: 111,83,104 -> 111,104,109",
+  "DALC.Sunset.ZPlus: 77,60,79 -> 78,74,79",
+  "DALC.Sunset.ZMinus: 146,105,129 -> 146,136,142"
+ ],
+ "SkyrimClearVT_A": [
+  "FogNear.Sunrise: 198,120,161 -> 198,178,189",
+  "FogNear.Sunset: 198,120,161 -> 198,178,189"
+ ],
+ "SkyrimClearMA_A": [
+  "FogNear.Sunrise: 52,66,138 -> 116,120,138",
+  "FogNear.Sunset: 52,66,138 -> 116,120,138"
+ ],
+ "SkyrimCloudyCO_A": [
+  "FogNear.Sunrise: 129,134,191 -> 176,177,191",
+  "FogNear.Sunset: 129,134,191 -> 176,177,191",
+  "DALC.Sunrise.XMinus: 63,55,65 -> 64,62,65",
+  "DALC.Sunrise.YPlus: 102,85,95 -> 102,98,100",
+  "DALC.Sunrise.YMinus: 102,85,95 -> 102,98,100",
+  "DALC.Sunrise.ZPlus: 69,62,73 -> 72,70,73",
+  "DALC.Sunset.XPlus: 63,55,65 -> 64,62,65",
+  "DALC.Sunset.YPlus: 102,85,95 -> 102,98,100",
+  "DALC.Sunset.YMinus: 102,85,95 -> 102,98,100",
+  "DALC.Sunset.ZPlus: 69,62,73 -> 72,70,73"
+ ],
+ "SkyrimClearCO_A": [
+  "FogNear.Sunrise: 68,68,151 -> 130,130,151",
+  "FogNear.Sunset: 68,68,151 -> 130,130,151",
+  "DALC.Sunrise.XPlus: 229,139,197 -> 229,206,221",
+  "DALC.Sunrise.XMinus: 94,63,95 -> 95,87,95",
+  "DALC.Sunrise.YPlus: 149,96,141 -> 149,136,147",
+  "DALC.Sunrise.YMinus: 149,96,141 -> 149,136,147",
+  "DALC.Sunrise.ZPlus: 104,71,107 -> 106,98,107",
+  "DALC.Sunrise.ZMinus: 194,121,175 -> 194,176,189",
+  "DALC.Sunset.XPlus: 94,63,95 -> 95,87,95",
+  "DALC.Sunset.XMinus: 229,139,197 -> 229,206,221",
+  "DALC.Sunset.YPlus: 149,96,141 -> 149,136,147",
+  "DALC.Sunset.YMinus: 149,96,141 -> 149,136,147",
+  "DALC.Sunset.ZPlus: 104,71,107 -> 106,98,107",
+  "DALC.Sunset.ZMinus: 194,121,175 -> 194,176,189"
+ ],
+ "SkyrimCloudyRE_A": [
+  "DALC.Sunrise.XMinus: 67,56,64 -> 67,64,66",
+  "DALC.Sunrise.YPlus: 107,86,94 -> 107,102,104",
+  "DALC.Sunrise.YMinus: 107,86,94 -> 107,102,104",
+  "DALC.Sunrise.ZPlus: 74,63,73 -> 74,71,74",
+  "DALC.Sunset.XPlus: 67,56,64 -> 67,64,66",
+  "DALC.Sunset.YPlus: 107,86,94 -> 107,102,104",
+  "DALC.Sunset.YMinus: 107,86,94 -> 107,102,104",
+  "DALC.Sunset.ZPlus: 74,63,73 -> 74,71,74"
+ ],
+ "SkyrimClearRE_A": [
+  "FogNear.Sunrise: 34,63,98 -> 82,89,98",
+  "FogNear.Sunset: 34,63,98 -> 82,89,98",
+  "DALC.Sunrise.XMinus: 75,88,100 -> 94,97,100",
+  "DALC.Sunrise.YPlus: 122,136,145 -> 139,143,145",
+  "DALC.Sunrise.YMinus: 122,136,145 -> 139,143,145",
+  "DALC.Sunrise.ZPlus: 82,98,114 -> 106,110,114",
+  "DALC.Sunset.XPlus: 75,88,100 -> 94,97,100",
+  "DALC.Sunset.YPlus: 122,136,145 -> 139,143,145",
+  "DALC.Sunset.YMinus: 122,136,145 -> 139,143,145",
+  "DALC.Sunset.ZPlus: 82,98,114 -> 106,110,114"
+ ],
+ "SkyrimCloudyFF_A": [
+  "FogNear.Sunrise: 96,67,113 -> 109,102,113",
+  "FogNear.Sunset: 96,67,113 -> 109,102,113"
+ ],
+ "SkyrimClearFF_A": [
+  "FogNear.Sunrise: 148,55,96 -> 148,125,135",
+  "FogNear.Sunset: 148,55,96 -> 148,125,135"
+ ],
+ "SkyrimCloudyTU_A": [
+  "FogNear.Sunrise: 82,73,138 -> 124,122,138",
+  "FogNear.Sunset: 82,73,138 -> 124,122,138",
+  "DALC.Sunrise.XMinus: 64,51,57 -> 64,61,62",
+  "DALC.Sunrise.ZPlus: 70,57,64 -> 70,67,68",
+  "DALC.Sunset.XPlus: 64,51,57 -> 64,61,62",
+  "DALC.Sunset.ZPlus: 70,57,64 -> 70,67,68"
+ ],
+ "SkyrimClearTU_A": [
+  "FogNear.Sunrise: 77,67,153 -> 134,132,153",
+  "FogNear.Sunset: 77,67,153 -> 134,132,153"
+ ],
+ "SkyrimClearSN_A": [
+  "FogNear.Sunrise: 117,106,204 -> 182,180,204",
+  "FogNear.Sunset: 117,106,204 -> 182,180,204",
+  "DALC.Sunrise.XPlus: 190,148,184 -> 190,180,188",
+  "DALC.Sunrise.XMinus: 73,66,94 -> 89,87,94",
+  "DALC.Sunrise.YPlus: 119,101,137 -> 132,128,137",
+  "DALC.Sunrise.YMinus: 119,101,137 -> 132,128,137",
+  "DALC.Sunrise.ZPlus: 80,73,107 -> 100,98,107",
+  "DALC.Sunrise.ZMinus: 158,128,167 -> 165,157,167",
+  "DALC.Sunset.XPlus: 73,66,94 -> 89,87,94",
+  "DALC.Sunset.XMinus: 190,148,184 -> 190,180,188",
+  "DALC.Sunset.YPlus: 119,101,137 -> 132,128,137",
+  "DALC.Sunset.YMinus: 119,101,137 -> 132,128,137",
+  "DALC.Sunset.ZPlus: 80,73,107 -> 100,98,107",
+  "DALC.Sunset.ZMinus: 158,128,167 -> 165,157,167"
+ ],
+ "SkyrimCloudy_A": [
+  "FogNear.Sunrise: 45,40,83 -> 74,72,83",
+  "FogNear.Sunset: 45,40,83 -> 74,72,83",
+  "DALC.Sunrise.XMinus: 61,59,70 -> 68,67,70",
+  "DALC.Sunrise.YPlus: 98,90,103 -> 102,100,103",
+  "DALC.Sunrise.YMinus: 98,90,103 -> 102,100,103",
+  "DALC.Sunrise.ZPlus: 66,66,80 -> 76,76,80",
+  "DALC.Sunrise.ZMinus: 130,114,126 -> 130,126,129",
+  "DALC.Sunset.XPlus: 61,59,70 -> 68,67,70",
+  "DALC.Sunset.YPlus: 98,90,103 -> 102,100,103",
+  "DALC.Sunset.YMinus: 98,90,103 -> 102,100,103",
+  "DALC.Sunset.ZPlus: 66,66,80 -> 76,76,80",
+  "DALC.Sunset.ZMinus: 130,114,126 -> 130,126,129"
+ ],
+ "SkyrimClear_A": [
+  "FogNear.Sunrise: 24,77,160 -> 126,139,160",
+  "FogNear.Sunset: 24,77,160 -> 126,139,160",
+  "DALC.Sunrise.XMinus: 76,87,97 -> 92,94,97",
+  "DALC.Sunrise.YPlus: 123,135,141 -> 136,139,141",
+  "DALC.Sunrise.YMinus: 123,135,141 -> 136,139,141",
+  "DALC.Sunrise.ZPlus: 83,97,110 -> 103,107,110",
+  "DALC.Sunset.XPlus: 77,93,111 -> 102,106,111",
+  "DALC.Sunset.YPlus: 125,144,161 -> 152,157,161",
+  "DALC.Sunset.YMinus: 125,144,161 -> 152,157,161",
+  "DALC.Sunset.ZPlus: 85,104,126 -> 116,120,126",
+  "DALC.Sunset.ZMinus: 165,183,195 -> 187,192,195"
+ ],
+ "RiftenOvercastFog": [
+  "FogNear.Sunrise: 58,61,69 -> 66,67,69",
+  "FogNear.Sunset: 58,61,69 -> 66,67,69",
+  "DALC.Sunrise.XPlus: 134,139,148 -> 144,146,148",
+  "DALC.Sunrise.XMinus: 66,68,72 -> 70,71,72",
+  "DALC.Sunrise.YPlus: 97,100,107 -> 104,105,107",
+  "DALC.Sunrise.YMinus: 97,100,107 -> 104,105,107",
+  "DALC.Sunrise.ZMinus: 120,124,132 -> 129,130,132",
+  "DALC.Sunset.XPlus: 66,68,72 -> 70,71,72",
+  "DALC.Sunset.XMinus: 134,139,148 -> 144,146,148",
+  "DALC.Sunset.YPlus: 97,100,107 -> 104,105,107",
+  "DALC.Sunset.YMinus: 97,100,107 -> 104,105,107",
+  "DALC.Sunset.ZMinus: 120,124,132 -> 129,130,132"
+ ],
+ "Seasons_CloudyRain": [
+  "DALC.Sunrise.XPlus: 55,60,72 -> 68,69,72",
+  "DALC.Sunrise.YPlus: 55,60,72 -> 68,69,72",
+  "DALC.Sunrise.YMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunrise.ZPlus: 74,77,85 -> 82,83,85",
+  "DALC.Sunrise.ZMinus: 107,117,143 -> 134,136,143",
+  "DALC.Sunset.XMinus: 55,60,72 -> 68,69,72",
+  "DALC.Sunset.YPlus: 55,60,72 -> 68,69,72",
+  "DALC.Sunset.YMinus: 55,60,72 -> 68,69,72",
+  "DALC.Sunset.ZPlus: 74,77,85 -> 82,83,85",
+  "DALC.Sunset.ZMinus: 107,117,143 -> 134,136,143"
+ ],
+ "Seasons_Fog": [
+  "FogNear.Sunrise: 64,74,85 -> 80,82,85",
+  "FogNear.Sunset: 64,74,85 -> 80,82,85",
+  "DALC.Sunrise.XPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunrise.XMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunrise.YPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunrise.YMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunrise.ZPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunrise.ZMinus: 97,119,137 -> 127,132,137",
+  "DALC.Sunset.XPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunset.XMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunset.YPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunset.YMinus: 37,46,69 -> 61,63,69",
+  "DALC.Sunset.ZPlus: 50,60,88 -> 78,81,88",
+  "DALC.Sunset.ZMinus: 97,119,137 -> 127,132,137"
+ ],
+ "SkyrimStormRainRE": [
+  "FogNear.Sunrise: 41,58,75 -> 66,71,75",
+  "FogNear.Sunset: 41,58,75 -> 66,71,75",
+  "DALC.Sunrise.XPlus: 110,121,131 -> 126,128,131",
+  "DALC.Sunrise.XMinus: 54,59,63 -> 61,62,63",
+  "DALC.Sunrise.YPlus: 84,91,98 -> 94,96,98",
+  "DALC.Sunrise.YMinus: 84,91,98 -> 94,96,98",
+  "DALC.Sunrise.ZPlus: 54,59,63 -> 61,62,63",
+  "DALC.Sunrise.ZMinus: 88,97,105 -> 101,103,105",
+  "DALC.Sunset.XPlus: 54,59,63 -> 61,62,63",
+  "DALC.Sunset.XMinus: 110,121,131 -> 126,128,131",
+  "DALC.Sunset.YPlus: 84,91,98 -> 94,96,98",
+  "DALC.Sunset.YMinus: 84,91,98 -> 94,96,98",
+  "DALC.Sunset.ZPlus: 54,59,63 -> 61,62,63",
+  "DALC.Sunset.ZMinus: 88,97,105 -> 101,103,105"
+ ],
+ "SkyrimStormSnowBlizzard": [
+  "FogNear.Sunrise: 81,96,125 -> 114,118,125",
+  "FogNear.Sunset: 81,96,125 -> 114,118,125",
+  "DALC.Sunrise.XPlus: 92,109,133 -> 123,127,133",
+  "DALC.Sunrise.XMinus: 45,53,63 -> 59,61,63",
+  "DALC.Sunrise.YPlus: 70,82,98 -> 91,94,98",
+  "DALC.Sunrise.YMinus: 70,82,98 -> 91,94,98",
+  "DALC.Sunrise.ZPlus: 45,53,63 -> 59,61,63",
+  "DALC.Sunrise.ZMinus: 74,88,107 -> 99,102,107",
+  "DALC.Sunset.XPlus: 45,53,63 -> 59,61,63",
+  "DALC.Sunset.XMinus: 92,109,133 -> 123,127,133",
+  "DALC.Sunset.YPlus: 70,82,98 -> 91,94,98",
+  "DALC.Sunset.YMinus: 70,82,98 -> 91,94,98",
+  "DALC.Sunset.ZPlus: 45,53,63 -> 59,61,63",
+  "DALC.Sunset.ZMinus: 74,88,107 -> 99,102,107"
+ ],
+ "Seasons_CloudySnow": [
+  "FogNear.Sunrise: 97,97,180 -> 159,159,180",
+  "FogNear.Sunset: 97,97,180 -> 159,159,180",
+  "DALC.Sunrise.XPlus: 69,76,90 -> 85,86,90",
+  "DALC.Sunrise.XMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunrise.YPlus: 69,75,90 -> 85,86,90",
+  "DALC.Sunrise.YMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunrise.ZPlus: 74,77,85 -> 82,83,85",
+  "DALC.Sunrise.ZMinus: 111,120,144 -> 136,138,144",
+  "DALC.Sunset.XPlus: 69,76,90 -> 85,86,90",
+  "DALC.Sunset.XMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunset.YPlus: 69,75,90 -> 85,86,90",
+  "DALC.Sunset.YMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunset.ZPlus: 74,77,85 -> 82,83,85",
+  "DALC.Sunset.ZMinus: 111,120,144 -> 136,138,144"
+ ],
+ "JawzSkyrimStormRain": [
+  "FogNear.Sunrise: 48,50,56 -> 54,54,56",
+  "FogNear.Sunset: 48,50,56 -> 54,54,56"
+ ],
+ "Seasons_CloudySnow02": [
+  "FogNear.Sunrise: 97,97,180 -> 159,159,180",
+  "FogNear.Sunset: 97,97,180 -> 159,159,180",
+  "DALC.Sunrise.XPlus: 69,76,90 -> 85,86,90",
+  "DALC.Sunrise.XMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunrise.YPlus: 69,75,90 -> 85,86,90",
+  "DALC.Sunrise.YMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunrise.ZPlus: 74,77,85 -> 82,83,85",
+  "DALC.Sunrise.ZMinus: 111,120,144 -> 136,138,144",
+  "DALC.Sunset.XPlus: 69,76,90 -> 85,86,90",
+  "DALC.Sunset.XMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunset.YPlus: 69,75,90 -> 85,86,90",
+  "DALC.Sunset.YMinus: 56,60,72 -> 68,69,72",
+  "DALC.Sunset.ZPlus: 74,77,85 -> 82,83,85",
+  "DALC.Sunset.ZMinus: 111,120,144 -> 136,138,144"
+ ],
+ "Helios_SkyrimOvercastWar": [],
+ "Helios_SkyrimClear": [
+  "FogNear.Sunrise: 105,88,205 -> 180,176,205",
+  "FogNear.Sunset: 105,88,205 -> 180,176,205"
+ ],
+ "Helios_SkyrimCloudy": [
+  "FogNear.Sunrise: 31,28,104 -> 86,85,104",
+  "FogNear.Sunset: 31,28,104 -> 86,85,104"
+ ],
+ "Helios_SkyrimOvercastSnow": [
+  "FogNear.Sunrise: 35,46,77 -> 66,69,77",
+  "FogNear.Sunset: 35,46,77 -> 66,69,77"
+ ],
+ "Helios_SkyrimFog": [
+  "FogNear.Sunrise: 52,56,69 -> 65,66,69",
+  "FogNear.Sunset: 52,56,69 -> 65,66,69"
+ ],
+ "Helios_SkyrimOvercastRain": [],
+ "Helios_SkyrimStormRain": [
+  "FogNear.Sunrise: 29,35,41 -> 38,40,41",
+  "FogNear.Sunset: 29,35,41 -> 38,40,41"
+ ],
+ "Helios_SkyrimStormSnow": [
+  "FogNear.Sunrise: 81,96,125 -> 114,118,125",
+  "FogNear.Sunset: 81,96,125 -> 114,118,125"
+ ],
+ "Helios_SkyrimClearMA": [
+  "FogNear.Sunrise: 149,76,109 -> 149,131,139",
+  "FogNear.Sunset: 149,76,109 -> 149,131,139"
+ ],
+ "Helios_SkyrimOvercastRainMA": [
+  "FogNear.Sunrise: 105,93,126 -> 121,118,126",
+  "FogNear.Sunset: 105,93,126 -> 121,118,126"
+ ],
+ "Helios_SkyrimFogMA": [
+  "FogNear.Sunrise: 51,43,52 -> 52,50,52",
+  "FogNear.Sunset: 51,43,52 -> 52,50,52"
+ ],
+ "Helios_SkyrimCloudyMA": [
+  "FogNear.Sunrise: 88,82,135 -> 123,122,135",
+  "FogNear.Sunset: 88,82,135 -> 123,122,135"
+ ],
+ "Helios_SkyrimClearCO": [
+  "FogNear.Sunrise: 51,59,146 -> 122,124,146",
+  "FogNear.Sunset: 51,59,146 -> 122,124,146"
+ ],
+ "Helios_SkyrimFogCO": [
+  "FogNear.Sunrise: 60,77,110 -> 98,102,110",
+  "FogNear.Sunset: 60,77,110 -> 98,102,110"
+ ],
+ "Helios_SkyrimCloudyCO": [
+  "FogNear.Sunrise: 129,134,191 -> 176,177,191",
+  "FogNear.Sunset: 129,134,191 -> 176,177,191"
+ ],
+ "Helios_SkyrimClearRE": [],
+ "Helios_SkyrimOvercastRainRE": [
+  "FogNear.Sunrise: 41,58,75 -> 66,71,75",
+  "FogNear.Sunset: 41,58,75 -> 66,71,75"
+ ],
+ "Helios_SkyrimFogRE": [],
+ "Helios_SkyrimCloudyRE": [],
+ "Helios_SkyrimClearFF": [
+  "FogNear.Sunrise: 56,55,148 -> 125,125,148",
+  "FogNear.Sunset: 56,55,148 -> 125,125,148"
+ ],
+ "Helios_SkyrimStormRainFF": [
+  "FogNear.Sunrise: 39,40,54 -> 50,50,54",
+  "FogNear.Sunset: 39,40,54 -> 50,50,54"
+ ],
+ "Helios_SkyrimOvercastRainFF": [
+  "FogNear.Sunrise: 81,88,102 -> 97,98,102",
+  "FogNear.Sunset: 81,88,102 -> 97,98,102"
+ ],
+ "Helios_SkyrimFogFF": [],
+ "Helios_SkyrimCloudyFF": [
+  "FogNear.Sunrise: 96,67,113 -> 109,102,113",
+  "FogNear.Sunset: 96,67,113 -> 109,102,113"
+ ],
+ "Helios_SkyrimClearTU": [
+  "FogNear.Sunrise: 52,55,142 -> 120,120,142",
+  "FogNear.Sunset: 52,55,142 -> 120,120,142"
+ ],
+ "Helios_SkyrimStormRainTU": [
+  "FogNear.Sunrise: 35,38,67 -> 59,60,67",
+  "FogNear.Sunset: 35,38,67 -> 59,60,67"
+ ],
+ "Helios_SkyrimOvercastRainTU": [],
+ "Helios_SkyrimCloudyTU": [
+  "FogNear.Sunrise: 73,77,138 -> 122,123,138",
+  "FogNear.Sunset: 73,77,138 -> 122,123,138"
+ ],
+ "Helios_SkyrimClearSN": [
+  "FogNear.Sunrise: 77,67,153 -> 134,132,153",
+  "FogNear.Sunset: 77,67,153 -> 134,132,153"
+ ],
+ "Helios_SkyrimCloudySN": [],
+ "Helios_SkyrimClearVT": [
+  "FogNear.Sunrise: 73,44,147 -> 128,121,147",
+  "FogNear.Sunset: 73,44,147 -> 128,121,147"
+ ],
+ "Helios_SkyrimOvercastRainVT": [],
+ "Helios_SkyrimFogVT": [],
+ "Helios_SkyrimCloudyVT": [
+  "FogNear.Sunrise: 72,77,119 -> 107,108,119",
+  "FogNear.Sunset: 72,77,119 -> 107,108,119",
+  "DALC.Sunrise.XPlus: 62,52,58 -> 62,60,61",
+  "DALC.Sunrise.XMinus: 62,52,58 -> 62,60,61",
+  "DALC.Sunrise.YPlus: 62,52,58 -> 62,60,61",
+  "DALC.Sunrise.YMinus: 62,52,58 -> 62,60,61",
+  "DALC.Sunrise.ZPlus: 54,45,50 -> 54,52,53",
+  "DALC.Sunrise.ZMinus: 71,59,65 -> 71,68,70",
+  "DALC.Sunset.XPlus: 62,52,58 -> 62,60,61",
+  "DALC.Sunset.XMinus: 62,52,58 -> 62,60,61",
+  "DALC.Sunset.YPlus: 62,52,58 -> 62,60,61",
+  "DALC.Sunset.YMinus: 62,52,58 -> 62,60,61",
+  "DALC.Sunset.ZPlus: 54,45,50 -> 54,52,53",
+  "DALC.Sunset.ZMinus: 71,59,65 -> 71,68,70"
+ ],
+ "Helios_SkyrimCloudyVT_A": [
+  "FogNear.Sunrise: 72,77,119 -> 107,108,119",
+  "FogNear.Sunset: 72,77,119 -> 107,108,119"
+ ],
+ "Helios_SkyrimClearVT_A": [
+  "FogNear.Sunrise: 198,120,161 -> 198,178,189",
+  "FogNear.Sunset: 198,120,161 -> 198,178,189"
+ ],
+ "Helios_SkyrimCloudyMA_A": [
+  "FogNear.Sunrise: 88,82,135 -> 123,122,135",
+  "FogNear.Sunset: 88,82,135 -> 123,122,135"
+ ],
+ "Helios_SkyrimClearMA_A": [
+  "FogNear.Sunrise: 52,66,138 -> 116,120,138",
+  "FogNear.Sunset: 52,66,138 -> 116,120,138"
+ ],
+ "Helios_SkyrimCloudyCO_A": [
+  "FogNear.Sunrise: 129,134,191 -> 176,177,191",
+  "FogNear.Sunset: 129,134,191 -> 176,177,191"
+ ],
+ "Helios_SkyrimClearCO_A": [
+  "FogNear.Sunrise: 68,68,151 -> 130,130,151",
+  "FogNear.Sunset: 68,68,151 -> 130,130,151"
+ ],
+ "Helios_SkyrimCloudyRE_A": [],
+ "Helios_SkyrimClearRE_A": [
+  "FogNear.Sunrise: 34,63,98 -> 82,89,98",
+  "FogNear.Sunset: 34,63,98 -> 82,89,98"
+ ],
+ "Helios_SkyrimCloudyFF_A": [
+  "FogNear.Sunrise: 96,67,113 -> 109,102,113",
+  "FogNear.Sunset: 96,67,113 -> 109,102,113"
+ ],
+ "Helios_SkyrimClearFF_A": [
+  "FogNear.Sunrise: 148,55,96 -> 148,125,135",
+  "FogNear.Sunset: 148,55,96 -> 148,125,135"
+ ],
+ "Helios_SkyrimCloudyTU_A": [
+  "FogNear.Sunrise: 82,73,138 -> 124,122,138",
+  "FogNear.Sunset: 82,73,138 -> 124,122,138"
+ ],
+ "Helios_SkyrimClearTU_A": [
+  "FogNear.Sunrise: 77,67,153 -> 134,132,153",
+  "FogNear.Sunset: 77,67,153 -> 134,132,153"
+ ],
+ "Helios_SkyrimCloudySN_A": [],
+ "Helios_SkyrimClearSN_A": [
+  "FogNear.Sunrise: 117,106,204 -> 182,180,204",
+  "FogNear.Sunset: 117,106,204 -> 182,180,204"
+ ],
+ "Helios_SkyrimCloudy_A": [
+  "FogNear.Sunrise: 45,40,83 -> 74,72,83",
+  "FogNear.Sunset: 45,40,83 -> 74,72,83"
+ ],
+ "Helios_SkyrimClear_A": [
+  "FogNear.Sunrise: 24,77,160 -> 126,139,160",
+  "FogNear.Sunset: 24,77,160 -> 126,139,160"
+ ],
+ "Helios_RiftenOvercastFog": [
+  "FogNear.Sunrise: 58,61,69 -> 66,67,69",
+  "FogNear.Sunset: 58,61,69 -> 66,67,69"
+ ],
+ "Helios_DefaultWeather": [
+  "FogNear.Sunrise: 81,88,102 -> 97,98,102",
+  "FogNear.Sunset: 81,88,102 -> 97,98,102"
+ ],
+ "Helios_KarthspireRedoubtFog": [
+  "FogNear.Sunrise: 64,74,85 -> 80,82,85",
+  "FogNear.Sunset: 64,74,85 -> 80,82,85"
+ ],
+ "SkyrimFogMA": [
+  "FogNear.Sunrise: 51,43,52 -> 52,50,52",
+  "FogNear.Sunset: 51,43,52 -> 52,50,52",
+  "DALC.Sunrise.XPlus: 124,119,140 -> 136,135,140",
+  "DALC.Sunrise.XMinus: 60,58,68 -> 66,66,68",
+  "DALC.Sunrise.YPlus: 89,86,100 -> 97,96,100",
+  "DALC.Sunrise.YMinus: 89,86,100 -> 97,96,100",
+  "DALC.Sunrise.ZPlus: 68,65,76 -> 74,73,76",
+  "DALC.Sunrise.ZMinus: 111,106,124 -> 121,120,124",
+  "DALC.Sunset.XPlus: 60,58,68 -> 66,66,68",
+  "DALC.Sunset.XMinus: 124,119,140 -> 136,135,140",
+  "DALC.Sunset.YPlus: 89,86,100 -> 97,96,100",
+  "DALC.Sunset.YMinus: 89,86,100 -> 97,96,100",
+  "DALC.Sunset.ZPlus: 68,65,76 -> 74,73,76",
+  "DALC.Sunset.ZMinus: 111,106,124 -> 121,120,124"
+ ],
+ "SkyrimFogCO": [
+  "FogNear.Sunrise: 60,77,110 -> 98,102,110",
+  "FogNear.Sunset: 60,77,110 -> 98,102,110",
+  "DALC.Sunrise.XPlus: 134,143,155 -> 150,152,155",
+  "DALC.Sunrise.XMinus: 62,67,73 -> 70,72,73",
+  "DALC.Sunrise.YPlus: 94,101,110 -> 106,108,110",
+  "DALC.Sunrise.YMinus: 94,101,110 -> 106,108,110",
+  "DALC.Sunrise.ZPlus: 70,76,83 -> 80,81,83",
+  "DALC.Sunrise.ZMinus: 118,126,137 -> 132,134,137",
+  "DALC.Sunset.XPlus: 61,66,73 -> 70,71,73",
+  "DALC.Sunset.XMinus: 131,141,155 -> 149,152,155",
+  "DALC.Sunset.YPlus: 91,99,110 -> 105,107,110",
+  "DALC.Sunset.YMinus: 91,99,110 -> 105,107,110",
+  "DALC.Sunset.ZPlus: 68,74,83 -> 79,81,83",
+  "DALC.Sunset.ZMinus: 115,124,137 -> 132,134,137"
+ ],
+ "SkyrimCloudySN": [],
+ "SkyrimCloudyMA_A": [
+  "FogNear.Sunrise: 88,82,135 -> 123,122,135",
+  "FogNear.Sunset: 88,82,135 -> 123,122,135"
+ ],
+ "SkyrimCloudySN_A": [
+  "DALC.Sunrise.XMinus: 61,53,58 -> 61,59,60",
+  "DALC.Sunrise.ZPlus: 66,59,66 -> 66,64,66",
+  "DALC.Sunset.XPlus: 61,53,58 -> 61,59,60",
+  "DALC.Sunset.ZPlus: 66,59,66 -> 66,64,66"
+ ],
+ "WyrmstoothStormFog": [
+  "FogNear.Sunrise: 49,58,81 -> 73,75,81",
+  "FogNear.Sunset: 46,57,86 -> 76,79,86",
+  "DALC.Sunrise.XPlus: 105,112,117 -> 114,116,117",
+  "DALC.Sunrise.XMinus: 107,122,122 -> 118,122,122",
+  "DALC.Sunrise.YPlus: 110,122,123 -> 120,123,123",
+  "DALC.Sunrise.YMinus: 105,111,117 -> 114,116,117",
+  "DALC.Sunrise.ZPlus: 36,48,48 -> 45,48,48",
+  "DALC.Sunrise.ZMinus: 201,220,223 -> 218,222,223",
+  "DALC.Sunset.XPlus: 84,95,106 -> 100,103,106",
+  "DALC.Sunset.XMinus: 88,101,102 -> 98,102,102",
+  "DALC.Sunset.YPlus: 87,101,104 -> 100,103,104",
+  "DALC.Sunset.YMinus: 85,93,105 -> 100,102,105",
+  "DALC.Sunset.ZPlus: 81,92,98 -> 94,96,98",
+  "DALC.Sunset.ZMinus: 133,152,160 -> 153,158,160"
+ ],
+ "WyrmstoothClear": [
+  "FogNear.Sunrise: 73,73,127 -> 114,114,127",
+  "DALC.Sunrise.XPlus: 131,131,156 -> 150,150,156",
+  "DALC.Sunrise.XMinus: 128,139,159 -> 151,154,159",
+  "DALC.Sunrise.YPlus: 130,133,157 -> 150,151,157",
+  "DALC.Sunrise.YMinus: 130,129,158 -> 151,151,158",
+  "DALC.Sunrise.ZPlus: 79,77,94 -> 90,90,94",
+  "DALC.Sunrise.ZMinus: 170,174,191 -> 186,187,191",
+  "DALC.Sunset.XPlus: 128,131,149 -> 144,144,149",
+  "DALC.Sunset.XMinus: 124,135,152 -> 145,148,152",
+  "DALC.Sunset.YPlus: 128,136,149 -> 144,146,149",
+  "DALC.Sunset.YMinus: 126,126,150 -> 144,144,150",
+  "DALC.Sunset.ZPlus: 77,80,94 -> 90,90,94"
+ ],
+ "WyrmstoothFog": [
+  "DALC.Sunrise.XMinus: 117,131,132 -> 128,132,132",
+  "DALC.Sunrise.YPlus: 124,128,137 -> 134,135,137",
+  "DALC.Sunrise.ZPlus: 73,78,86 -> 83,84,86",
+  "DALC.Sunset.YPlus: 86,95,95 -> 93,95,95",
+  "DALC.Sunset.ZPlus: 61,63,67 -> 66,66,67"
+ ]
+}

@@ -1,0 +1,6 @@
+; Authoria - Lydia UBE Weight Fix
+; Her record says Weight 79 (bake weight) but the head is built at load against the
+; wrong weight; console `setnpcweight 79` fixes her live. This ability runs the same
+; thing (ActorBase.SetWeight + Actor.UpdateWeight + QueueNiNodeUpdate) on every load.
+; Target = Lydia's BASE NPC HousecarlWhiterun (0A2C8E:Skyrim.esm), 100%.
+Spell = 0x801~Authoria - Patch - Lydia Weight Runtime.esp|NONE|0xA2C8E~Skyrim.esm|NONE|NONE|100

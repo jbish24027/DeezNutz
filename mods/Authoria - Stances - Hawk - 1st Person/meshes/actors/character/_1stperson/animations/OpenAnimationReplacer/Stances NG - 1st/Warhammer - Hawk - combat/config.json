@@ -1,0 +1,53 @@
+{
+    "name":  "Warhammer - Hawk - combat",
+    "description":  "A description",
+    "priority":  7704,
+    "replacementAnimDatas":  [
+                                 {
+                                     "projectName":  "FirstPerson",
+                                     "path":  "data\\meshes\\actors\\character\\_1stperson\\animations\\OpenAnimationReplacer\\SigmaBoyGreathammer\\greathammer_low_combat\\_variants_2hw_attackleft",
+                                     "variantMode":  0,
+                                     "variantStateScope":  1,
+                                     "blendBetweenVariants":  true,
+                                     "resetRandomOnLoopOrEcho":  true,
+                                     "sharePlayedHistory":  false,
+                                     "variants":  [
+                                                      {
+                                                          "filename":  "2hm_attackleftdiagonal2.hkx",
+                                                          "disabled":  true
+                                                      }
+                                                  ]
+                                 }
+                             ],
+    "ignoreDontConvertAnnotationsToTriggersFlag":  true,
+    "triggersFromAnnotationsOnly":  true,
+    "hasCustomBlendTimeOnLoop":  true,
+    "blendTimeOnLoop":  0.5099999904632568,
+    "conditions":  [
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "StancesNG.esp",
+                                                "formID":  "806"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "Type":  {
+                                        "value":  10.0
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsAttacking",
+                           "requiredVersion":  "1.0.0.0"
+                       },
+                       {
+                           "condition":  "IsWeaponDrawn",
+                           "requiredVersion":  "1.0.0.0"
+                       }
+                   ]
+}

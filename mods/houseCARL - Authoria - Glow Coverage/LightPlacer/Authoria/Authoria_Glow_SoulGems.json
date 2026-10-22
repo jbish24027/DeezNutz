@@ -1,0 +1,68 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_SoulGem",
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            3.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\soulgem\\soulgempetty01_full.nif",
+      "clutter\\soulgem\\soulgemlesser01_full.nif",
+      "clutter\\soulgem\\soulgemcommon01_full.nif",
+      "clutter\\soulgem\\soulgemgreater01_full.nif",
+      "clutter\\soulgem\\soulgemgrand01_full.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_SoulGemBlack",
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            3.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "clutter\\soulgem\\soulgemblack01_full.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_SoulGem",
+          "radius": 220,
+          "fade": 0.8,
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            10.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "dlc01\\clutter\\dlc01soulgembowlfull.nif"
+    ]
+  }
+]

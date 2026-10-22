@@ -1,0 +1,1993 @@
+[
+  {
+    "formIDs": [
+      "0x03CDFC~Skyrim.esm",
+      "0x0510CF~Skyrim.esm",
+      "0x02FB1C~Skyrim.esm",
+      "0x044F56~Skyrim.esm",
+      "0x0061E4~Requiem - Magic Redone.esp",
+      "0x00084F~WildwakerMagic.esl",
+      "0x0061E6~Requiem - Magic Redone.esp",
+      "0x013B81~Dawnguard.esm",
+      "0x10C1BA~Skyrim.esm",
+      "0x00086D~ccbgssse045-hasedoki.esl",
+      "0x1CF05C~Everdamned.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightSummon01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x01C859~Skyrim.esm",
+      "0x056AC7~Skyrim.esm",
+      "0x00F64A~Dawnguard.esm",
+      "0x00A3BD~Dawnguard.esm",
+      "0x10CDCA~Skyrim.esm",
+      "0x10E3CE~Skyrim.esm",
+      "0x0061F3~Requiem - Magic Redone.esp",
+      "0x9B2421~DBM_RelicNotifications.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightHealHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x01B211~Skyrim.esm",
+      "0x036342~Skyrim.esm",
+      "0x027BF7~Dragonborn.esm",
+      "0x0960A3~Skyrim.esm",
+      "0x000879~KittySpellPack01.esl",
+      "0x1090FA~Skyrim.esm",
+      "0x000878~KittySpellPack01.esl",
+      "0x118D87~Olenveld.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightFireInHand",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0ABF02~Skyrim.esm",
+      "0x074794~Skyrim.esm",
+      "0x0223CA~Skyrim.esm",
+      "0x006008~Requiem - Magic Redone.esp",
+      "0x0E9E9D~FalkreathShades.esp",
+      "0x0DFC97~FalkreathShades.esp",
+      "0x602BE2~BSAssets.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightIllusionNegHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x020BF5~Skyrim.esm",
+      "0x0334B9~Skyrim.esm",
+      "0x042854~Skyrim.esm",
+      "0x027C30~Dragonborn.esm",
+      "0x000819~ccbgssse014-spellpack01.esl",
+      "0x0B92CF~Skyrim.esm",
+      "0x0061DB~Requiem - Magic Redone.esp",
+      "0x072319~BSHeartland.esm",
+      "0x0061E2~Requiem - Magic Redone.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightFrostHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x058E9B~Skyrim.esm",
+      "0x05B1BD~Skyrim.esm",
+      "0x000851~IceBloomNightmare.esl",
+      "0x602BE0~BSAssets.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightShockHand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x06DE85~Skyrim.esm",
+      "0x0061F8~Requiem - Magic Redone.esp",
+      "0x00084E~WildwakerMagic.esl",
+      "0x000861~Aqua.esl",
+      "0x031048~Skyrim.esm",
+      "0x0061F9~Requiem - Magic Redone.esp",
+      "0x024FBD~Dragonborn.esm",
+      "0x00CBC4~Dawnguard.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightParalyzeHand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x07331A~Skyrim.esm",
+      "0x0225B0~Skyrim.esm",
+      "0x024FBE~Dragonborn.esm",
+      "0x076FA9~Rite of Arcana.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightIllusionPosHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x06B10F~Skyrim.esm",
+      "0x00085C~Shockwave.esl",
+      "0x00085D~Shockwave.esl"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightNightEyeHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x05CBFF~Skyrim.esm",
+      "0x00CBD3~Dawnguard.esm",
+      "0x0CE27B~Skyrim.esm",
+      "0x000872~KittySpellPack01.esl",
+      "0x000876~KittySpellPack01.esl"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightReanimateHand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x01E012~Skyrim.esm",
+      "0x0ABF11~Skyrim.esm",
+      "0x0A8529~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightAltPosHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x02016C~Skyrim.esm",
+      "0x014B89~Dawnguard.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightTelekinesisHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0ABF0F~Skyrim.esm",
+      "0x10F7A1~Skyrim.esm",
+      "0x29743E~Lucien.esp",
+      "0x2A1C79~Lucien.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightAbsorbBlueProjectile",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x04BE33~Skyrim.esm",
+      "0x0E755B~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightTurnUndeadHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0F650C~Skyrim.esm",
+      "0x0008EC~AncientBloodII.esl",
+      "0x0008F5~AncientBloodII.esl",
+      "0x0008EE~AncientBloodII.esl",
+      "0x000913~AncientBloodII.esl"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "_AII_Crimson48Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x089F26~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightFireStormHand",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x028531~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightInvisHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x06F79A~Skyrim.esm",
+      "0x07024C~Skyrim.esm",
+      "0x000804~ccbgssse019-staffofsheogorath.esl"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightSummonBan01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1FF465~Everdamned.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "ED_Art_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x000858~Ghostlight.esl"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "_BL_LightInHands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11D1A5~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_RestorationTap_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0253F1~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightWardHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0592D7~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightShockHandBig",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x041F08~Skyrim.esm",
+      "0x000875~KittySpellPack01.esl"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightLightSpellHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x127A42~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Primal_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11D717~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_RestorationPeace_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x006A1E~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_AlterationMetamagic_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1EC538~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Glory_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1E741F~Triumvirate - Mage Archetypes.esp",
+      "0x3C89DA~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Violence_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x04E222~Skyrim.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightHealMystHand01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11C6A8~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_IllusionBlue_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x205A7B~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Holy_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x120820~Apocalypse - Magic of Skyrim.esp",
+      "0x02EB9B~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_RestorationArcane_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x00A084~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_AlterationEarth_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11D19F~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_RestorationNecro_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11F232~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_ConjurationAtronach_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x27F3BC~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Spirits_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1C3CBC~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Demon_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1CDEBF~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Auras_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11C6A9~Apocalypse - Magic of Skyrim.esp",
+      "0x071ADA~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_IllusionNightmare_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x191247~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Balefire_Light_Projectile",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11F233~Apocalypse - Magic of Skyrim.esp",
+      "0x11F239~Apocalypse - Magic of Skyrim.esp",
+      "0x047357~Apocalypse - Magic of Skyrim.esp",
+      "0x018AE9~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_ConjurationGhosts_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11CC2D~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_IllusionShadow_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x442986~Everdamned.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "ED_Art_Light_Big",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x127A42~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_IllusionEmpathy_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x13BEE6~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_IllusionPuppeteer_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11F239~Triumvirate - Mage Archetypes.esp",
+      "0x35E380~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Totem_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1D2FF9~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Ancestors_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x36D6AA~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Senua_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11F228~Apocalypse - Magic of Skyrim.esp",
+      "0x11F22B~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_ConjurationSpirit_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x19124A~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Verdant_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x21F002~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Hex_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x3DCE40~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Geist_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x00E69A~Apocalypse - Magic of Skyrim.esp",
+      "0x11D199~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_RestorationBlood_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0059B7~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_AlterationBaleful_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x007A86~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_AlterationShieldArmor_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x00ECBA~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_DestructionHellfire_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x00ECBA~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Hellfire_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0A846C~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_AlterationWater_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x387415~Everdamned.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "ED_Art_Light_ColdFlameLightFireInHand",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x01B64B~Apocalypse - Magic of Skyrim.esp",
+      "0x08B229~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_DestructionGold_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x086807~BSHeartland.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "CYRAyleidWhiteLightShadow02",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x123E61~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_ConjurationDwemer_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x3A0133~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Elemental_Light_Hand_Fire",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0xB89E85~Everdamned.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "ED_Art_Light_BloodVortex_CastingArt",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x00F226~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightFireball01",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x11EBA8~Vigilant.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "zzzCHMagicLightTenacleBallLarge",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1CDEE4~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Controller_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x2B6F48~Triumvirate - Mage Archetypes.esp",
+      "0x42DFBE~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Veil_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x02C299~Dragonborn.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "DLC2MagicSmallLightFireInHand",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x05C71C~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_DestructionWizardfire_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.7,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x0659E9~Inigo.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "InigoMagicLightSummon",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x06B88F~LegacyoftheDragonborn.esm"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightFrost01",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x08C299~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_DestructionShock_Light_Hands_FingersOfTheMountain",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x120FB6~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_DestructionAnomaly_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1212EF~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_ConjurationDetonate_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x12B05D~Apocalypse - Magic of Skyrim.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "WB_RestorationArkay_Light_Hands_BreathOfArkay",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x14F4E5~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Diviner_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x1BCA68~Olenveld.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "OlenCrystalLight",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x260D61~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Oath_Light_Hands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x2988FD~Triumvirate - Mage Archetypes.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "TVR_Teleport_Light_Hand",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x35B41C~FalkreathShades.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "MagicLightAbsorbHealthProjectile",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  },
+  {
+    "formIDs": [
+      "0x41F25F~Everdamned.esp"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "data": {
+          "light": "ED_Art_Light_IllusionShadowHands",
+          "radius": 350.0,
+          "fade": 0.6,
+          "cutoff": 0.1,
+          "flags": "InverseSquare|IgnoreScale|PortalStrict"
+        }
+      }
+    ]
+  }
+]

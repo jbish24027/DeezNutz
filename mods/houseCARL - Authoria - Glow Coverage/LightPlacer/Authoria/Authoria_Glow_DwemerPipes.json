@@ -1,0 +1,115 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerVent",
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Pipes\\DwePipe1wayVent01.nif",
+      "Dungeons\\Dwemer\\Pipes\\DwePipe1wayHub01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerVent",
+          "radius": 420,
+          "fade": 1.1,
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            200.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Pipes\\DwePipeBoiler01.nif",
+      "Dungeons\\Dwemer\\Pipes\\DwePipeBoiler02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerVent",
+          "radius": 130,
+          "fade": 0.7,
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            20.0,
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Pipes\\DwePipeEnd01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerVent",
+          "radius": 420,
+          "fade": 1.1,
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            -367.0,
+            660.0,
+            820.0
+          ],
+          [
+            367.0,
+            660.0,
+            820.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "DLC02\\Dungeons\\Dwemer\\ReadingRoom\\DLC2DweReadRmPipeGrp01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerVent",
+          "flags": "Simple|IgnoreScale|PortalStrict"
+        },
+        "points": [
+          [
+            0.0,
+            750.0,
+            230.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "DLC02\\Dungeons\\Dwemer\\ReadingRoom\\DLC2DweReadRmPipeGrp02.nif"
+    ]
+  }
+]

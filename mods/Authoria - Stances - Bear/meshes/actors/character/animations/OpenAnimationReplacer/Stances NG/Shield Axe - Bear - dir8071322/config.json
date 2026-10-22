@@ -1,0 +1,91 @@
+{
+    "name": "Shield Axe - Bear - dir8071322",
+    "priority": 7001702,
+    "keepRandomResultsOnLoop": true,
+    "conditions": [
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "StancesNG.esp",
+                "formID": "803"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 3.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 11.0
+            },
+            "Left hand": true
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "Keytrace.esp",
+                "formID": "804"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 10.0
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Value A": {
+                        "form": {
+                            "pluginName": "TrueDirectionalMovement.esp",
+                            "formID": "807"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "TrueDirectionalMovement.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                }
+            ]
+        }
+    ]
+}

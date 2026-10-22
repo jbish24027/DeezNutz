@@ -1,0 +1,201 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 700,
+          "fade": 1.1,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            250.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachEpicMushroom01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 350,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            80.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachSmallMushroom01.nif",
+      "Clutter\\Blackreach\\BlackreachSmallMushroom02.nif",
+      "Clutter\\Blackreach\\BlackreachSmallMushroom03.nif",
+      "Clutter\\Blackreach\\BlackreachSmallMushroom04.nif",
+      "Clutter\\Blackreach\\BlackreachSmallMushroom05.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 200,
+          "fade": 0.7,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            30.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachTinyMushroom01.nif",
+      "Clutter\\Blackreach\\BlackreachTinyMushroom02.nif",
+      "_pgpatcher_dups\\1\\clutter\\blackreach\\blackreachtinymushroom01.nif",
+      "_pgpatcher_dups\\1\\clutter\\blackreach\\blackreachtinymushroom02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_MushroomTree",
+          "fade": 0.85,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            300.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "DLC02\\Plants\\DLC2MushroomTree01.nif",
+      "DLC02\\Plants\\DLC2MushroomTree02.nif",
+      "DLC02\\Plants\\DLC2MushroomTree03.nif",
+      "DLC02\\Plants\\DLC2MushroomTreeGroup01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_MushroomTree",
+          "radius": 450,
+          "fade": 0.51,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            250.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTree01.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTree02.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTree03.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTree04.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTree05.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTree06.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTreeCluster01.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTreeCluster02.nif",
+      "CreationClub\\_Shared\\Landscape\\Trees\\Mania\\ThinMushroomTreeCluster03.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 700,
+          "fade": 0.4,
+          "flags": "Simple|IgnoreScale"
+        },
+        "nodes": [
+          "Bone_Top"
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachGiantMushAnim01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 420,
+          "fade": 0.4,
+          "flags": "Simple|IgnoreScale"
+        },
+        "nodes": [
+          "Bone_Top"
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachGiantMushAnim02.nif",
+      "Clutter\\Blackreach\\BlackreachGiantMushAnim04.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 400,
+          "fade": 0.4,
+          "flags": "Simple|IgnoreScale"
+        },
+        "nodes": [
+          "Bone_Top"
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachGiantMushAnim05.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachMushroom",
+          "radius": 340,
+          "fade": 0.4,
+          "flags": "Simple|IgnoreScale"
+        },
+        "nodes": [
+          "Bone_Top"
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachGiantMushAnim03.nif"
+    ]
+  }
+]

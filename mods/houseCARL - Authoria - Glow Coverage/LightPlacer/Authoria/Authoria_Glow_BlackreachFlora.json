@@ -1,0 +1,83 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachBush",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            70.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachBush01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachBush",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            80.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachBush02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachFern",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            25.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Landscape\\Plants\\BlackReachFern01.nif",
+      "Landscape\\Plants\\BlackReachFern02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_BlackreachVine",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            15.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Clutter\\Blackreach\\BlackreachVineFloor01.nif"
+    ]
+  }
+]

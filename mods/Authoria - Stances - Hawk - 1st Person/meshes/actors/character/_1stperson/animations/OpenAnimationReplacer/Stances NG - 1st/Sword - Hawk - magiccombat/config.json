@@ -1,0 +1,87 @@
+{
+    "name":  "Sword - Hawk - magiccombat",
+    "description":  "A description",
+    "priority":  6996,
+    "ignoreDontConvertAnnotationsToTriggersFlag":  true,
+    "conditions":  [
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "StancesNG.esp",
+                                                "formID":  "806"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "Type":  {
+                                        "value":  1.0
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "OR",
+                           "requiredVersion":  "1.0.0.0",
+                           "Conditions":  [
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  13.0
+                                                           },
+                                                  "Left hand":  true
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  14.0
+                                                           },
+                                                  "Left hand":  true
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  15.0
+                                                           },
+                                                  "Left hand":  true
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  16.0
+                                                           },
+                                                  "Left hand":  true
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  12.0
+                                                           },
+                                                  "Left hand":  true
+                                              },
+                                              {
+                                                  "condition":  "IsEquippedType",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Type":  {
+                                                               "value":  8.0
+                                                           },
+                                                  "Left hand":  true
+                                              }
+                                          ]
+                       },
+                       {
+                           "condition":  "IsAttacking",
+                           "requiredVersion":  "1.0.0.0"
+                       },
+                       {
+                           "condition":  "IsWeaponDrawn",
+                           "requiredVersion":  "1.0.0.0"
+                       }
+                   ]
+}

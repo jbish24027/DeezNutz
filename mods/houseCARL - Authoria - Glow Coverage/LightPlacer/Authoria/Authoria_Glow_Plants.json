@@ -1,0 +1,136 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_Nirnroot",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            20.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Plants\\FloraNirnroot01.nif",
+      "Plants\\FloraNirnroot01_Empty.nif",
+      "Plants\\Nirnroot01.nif",
+      "_BYOH\\Plants\\BYOHHouseIngrdNirnroot01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_NirnrootCrimson",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            20.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Plants\\FloraNirnroot01Red.nif",
+      "Plants\\FloraNirnroot01Red_Empty.nif",
+      "Plants\\Nirnroot01Red.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_Gleamblossom",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            40.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "bstamriel\\plants\\BSEdjefloranirnrootBlue01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_Deathbell",
+          "fade": 0.85,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            80.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "plants\\floradeathbell01.nif",
+      "plants\\floradeathbell01SUM.nif",
+      "plants\\floradeathbell01WIN.nif",
+      "plants\\floradeathbell02.nif",
+      "plants\\floradeathbell02SUM.nif",
+      "plants\\floradeathbell02WIN.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_Deathbell",
+          "radius": 90,
+          "fade": 0.85,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            18.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "plants\\deathbell01.nif",
+      "_byoh\\plants\\byohhouseingrddeathbell01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_Gleamblossom",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            45.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "DLC01\\Plants\\DLC01GlowPlant01.nif"
+    ]
+  }
+]

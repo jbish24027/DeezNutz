@@ -1,0 +1,38 @@
+# numOriginalFrames: 70
+# duration: 2.333333
+# numAnnotationTracks: 97
+# numAnnotations: 34
+0.300000 preHitFrame
+0.416665 Collision_AttackStart
+0.416666 Collision_Add.node(NPC R UpperArm [RUar])|Scale(3)
+0.416666 Collision_Add.node(NPC R Forearm [RLar])|Scale(3)
+0.416666 Collision_Add.node(NPC Spine2 [Spn2])|scale(1.5)
+0.570000 Soundplay.WPNSwingUnarmed
+0.583333 HitFrame
+0.666666 Collision_Remove.node(NPC R UpperArm [RUar])
+0.666666 Collision_Remove.node(NPC R Forearm [RLar])
+0.666666 Collision_Remove.node(NPC Spine2 [Spn2])
+0.833333 Collision_Add.Node(NPC L Hand [LHnd])|Scale(4)
+0.840000 Soundplay.WPNSwingUnarmed
+0.916666 HitFrame
+0.966666 Collision_Remove.node(NPC L Hand [LHnd])
+1.333333 Collision_Add.Node(NPC R Hand [RHnd])|Scale(4)
+1.366666 Soundplay.WPNSwingUnarmed
+1.399999 HitFrame
+1.466666 Collision_Remove.node(NPC R Hand [RHnd])
+1.500000 Collision_AttackEnd
+1.500000 CastOKStart
+1.600000 PIE.@SGVI|MCO_nextpowerattack|1
+1.666666 MCO_PowerWinOpen
+2.333333 MCO_PowerWinClose
+0.000000 animmotion 0 0 0
+0.249999 animmotion 0 0 0
+0.416666 animmotion 0 20.678 0
+0.599999 animmotion 0 20.678 0
+0.916666 animmotion 0 132.062 0
+1.066666 animmotion 0 132.062 0
+1.316666 animmotion 0 193.162 0
+1.383333 animmotion 0 218.075 0
+1.833333 animmotion 0 218.075 0
+2.166666 animmotion 0 266.775 0
+2.333333 animmotion 0 266.775 0

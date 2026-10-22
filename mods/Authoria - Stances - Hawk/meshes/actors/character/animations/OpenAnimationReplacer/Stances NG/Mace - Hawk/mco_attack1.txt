@@ -1,0 +1,24 @@
+# numOriginalFrames: 40
+# duration: 1.333333
+# numAnnotationTracks: 97
+# numAnnotations: 20
+0.300000 CastOKStart
+0.320000 preHitFrame
+0.516666 weaponSwing
+0.549999 HitFrame
+0.600000 PIE.@SGVI|MCO_nextattack|2
+0.600000 PIE.@SGVI|MCO_nextpowerattack|2
+0.666666 MCO_WinOpen
+0.666666 MCO_PowerWinOpen
+1.300000 MCO_WinClose
+1.300000 MCO_PowerWinClose
+0.000000 animmotion 0.0 0.0 0.0
+0.333333 animmotion 0.0 6.8429999351501465 0.0
+0.516664 animmotion 0.0 65.8759994506836 0.0
+0.633330 animmotion 0.0 65.8759994506836 0.0
+1.149999 animmotion 0.0 95.85299682617188 0.0
+1.333333 animmotion 0.0 95.85299682617188 0.0
+0.666666 SCAR_ComboStart
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack","MinDistance":0.0,"MaxDistance":150.0,"StartAngle":-60.0,"EndAngle":60.0,"Chance":15.0,"Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack","MinDistance":0.0,"MaxDistance":60.0,"StartAngle":-60.0,"EndAngle":60.0,"Chance":100.0,"Type":"RA"}
+1.333333 attackStop

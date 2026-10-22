@@ -1,0 +1,18 @@
+# numOriginalFrames: 115
+# duration: 3.833333
+# numAnnotationTracks: 97
+# numAnnotations: 13
+0.300000 CastOKStart
+0.666666 preHitFrame
+1.499999 weaponSwing
+1.600000 PIE.$lang
+1.649999 HitFrame
+1.649999 PIE.$ES_HeavyStrikefly
+0.000000 animmotion 0.0 0.0 0.0
+0.333333 animmotion 0.0 0.0 0.0
+0.716666 animmotion 0.0 48.78099822998047 0.0
+1.499999 animmotion 0.0 75.88200378417969 0.0
+1.749999 animmotion 0.0 184.28700256347656 0.0
+2.833333 animmotion 0.0 184.28700256347656 0.0
+3.166666 animmotion 0.0 235.96200561523438 0.0
+3.833333 animmotion 0.0 235.96200561523438 0.0

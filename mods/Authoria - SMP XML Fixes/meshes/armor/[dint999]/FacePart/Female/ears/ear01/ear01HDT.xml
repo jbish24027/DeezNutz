@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+
+
+
+
+		<bone name="NPC Head [Head]"/>	
+		
+		<bone name="_d_HDTear01_L1 00"/>
+		<bone name="_d_HDTear01_L2 00"/>
+		<bone name="_d_HDTear01_L3 00"/>
+		
+		<bone name="_d_HDTear01_R1 00"/>
+		<bone name="_d_HDTear01_R2 00"/>
+		<bone name="_d_HDTear01_R3 00"/>
+		
+		
+	<bone-default>
+		<margin-multiplier>0.01</margin-multiplier>
+	</bone-default>	
+
+
+
+																						<!-- RL -->
+
+<bone-default>
+		<mass>0.1</mass>
+		<inertia x="10" y="10" z="10" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0.03" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.1</linearDamping>
+		<angularDamping>0.95</angularDamping>
+		<friction>1</friction>
+		<restitution>1</restitution>
+</bone-default>
+		
+		<bone name="_d_HDTear01_L1 01"/>
+		<bone name="_d_HDTear01_R1 01"/>
+		<bone name="_d_HDTear01_L2 01"/>
+		<bone name="_d_HDTear01_R2 01"/>
+		<bone name="_d_HDTear01_L3 01"/>
+		<bone name="_d_HDTear01_R3 01"/>
+		
+<bone-default>
+		<mass>0.05</mass>
+		<inertia x="9" y="9" z="9" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0.08" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.35</linearDamping>
+		<angularDamping>0.80</angularDamping>
+		<friction>0.8</friction>
+		<restitution>0.8</restitution>
+</bone-default>
+		
+		<bone name="_d_HDTear01_L1 02"/>
+		<bone name="_d_HDTear01_R1 02"/>
+		<bone name="_d_HDTear01_L2 02"/>
+		<bone name="_d_HDTear01_R2 02"/>
+		<bone name="_d_HDTear01_L3 02"/>
+		<bone name="_d_HDTear01_R3 02"/>	
+
+<bone-default>
+		<mass>0.035</mass>
+		<inertia x="5" y="5" z="5" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0.12" y="0" z="0" />
+		</centerOfMassTransform>
+		<linearDamping>0.55</linearDamping>
+		<angularDamping>0.93</angularDamping>
+		<friction>0.6</friction>
+		<restitution>0.6</restitution>
+</bone-default>
+		
+		<bone name="_d_HDTear01_L1 03"/>
+		<bone name="_d_HDTear01_R1 03"/>
+		<bone name="_d_HDTear01_L2 03"/>
+		<bone name="_d_HDTear01_R2 03"/>
+		<bone name="_d_HDTear01_L3 03"/>
+		<bone name="_d_HDTear01_R3 03"/>
+
+
+<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0" y="-0" z="-0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.1" y="-0.1" z="-0.10" />
+		<angularUpperLimit x="0.1" y="0.1" z="0.10" />
+		<linearStiffness x="10" y="30" z="50" />
+		<angularStiffness x="10" y="30" z="50" />
+		<linearDamping x="0.9" y="1" z="0.9" />
+		<angularDamping x="0" y="0.8" z="0.8" />
+		<linearEquilibrium x="0" y="0" z="0" />
+		<angularEquilibrium x="0" y="0" z="0" />
+</generic-constraint-default>
+
+<constraint-group>
+		<generic-constraint bodyA="_d_HDTear01_L1 01" bodyB="_d_HDTear01_L1 00"/>
+		<generic-constraint bodyA="_d_HDTear01_L2 01" bodyB="_d_HDTear01_L2 00"/>
+		<generic-constraint bodyA="_d_HDTear01_L3 01" bodyB="_d_HDTear01_L3 00"/>
+		<generic-constraint bodyA="_d_HDTear01_R1 01" bodyB="_d_HDTear01_R1 00"/>
+		<generic-constraint bodyA="_d_HDTear01_R2 01" bodyB="_d_HDTear01_R2 00"/>
+		<generic-constraint bodyA="_d_HDTear01_R3 01" bodyB="_d_HDTear01_R3 00"/>
+</constraint-group>
+
+
+<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0" y="-0" z="-0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.1" y="-0.18" z="-0.15" />
+		<angularUpperLimit x="0.1" y="0.18" z="0.15" />
+		<linearStiffness x="10" y="30" z="50" />
+		<angularStiffness x="10" y="30" z="50" />
+		<linearDamping x="0.9" y="1" z="0.9" />
+		<angularDamping x="0" y="0" z="0" />
+		<linearEquilibrium x="0" y="0" z="0" />
+		<angularEquilibrium x="0" y="0" z="0" />
+</generic-constraint-default>
+
+<constraint-group>
+		<generic-constraint bodyA="_d_HDTear01_L1 02" bodyB="_d_HDTear01_L1 01"/>
+		<generic-constraint bodyA="_d_HDTear01_L2 02" bodyB="_d_HDTear01_L2 01"/>
+		<generic-constraint bodyA="_d_HDTear01_L3 02" bodyB="_d_HDTear01_L3 01"/>
+		<generic-constraint bodyA="_d_HDTear01_R1 02" bodyB="_d_HDTear01_R1 01"/>
+		<generic-constraint bodyA="_d_HDTear01_R2 02" bodyB="_d_HDTear01_R2 01"/>
+		<generic-constraint bodyA="_d_HDTear01_R3 02" bodyB="_d_HDTear01_R3 01"/>
+</constraint-group>
+
+
+<generic-constraint-default>
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0" y="-0" z="-0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.15" y="-0.4" z="-0.4" />
+		<angularUpperLimit x="0.15" y="0.4" z="0.4" />
+		<linearStiffness x="10" y="30" z="50" />
+		<angularStiffness x="10" y="30" z="50" />
+		<linearDamping x="0.9" y="1" z="0.9" />
+		<angularDamping x="0" y="0" z="0" />
+		<linearEquilibrium x="0" y="0" z="0" />
+		<angularEquilibrium x="0" y="0" z="0" />
+</generic-constraint-default>
+
+<constraint-group>
+		<generic-constraint bodyA="_d_HDTear01_L1 03" bodyB="_d_HDTear01_L1 02"/>
+		<generic-constraint bodyA="_d_HDTear01_L2 03" bodyB="_d_HDTear01_L2 02"/>
+		<generic-constraint bodyA="_d_HDTear01_L3 03" bodyB="_d_HDTear01_L3 02"/>
+		<generic-constraint bodyA="_d_HDTear01_R1 03" bodyB="_d_HDTear01_R1 02"/>
+		<generic-constraint bodyA="_d_HDTear01_R2 03" bodyB="_d_HDTear01_R2 02"/>
+		<generic-constraint bodyA="_d_HDTear01_R3 03" bodyB="_d_HDTear01_R3 02"/>
+</constraint-group>
+
+																						<!-- L -->
+
+
+</system>

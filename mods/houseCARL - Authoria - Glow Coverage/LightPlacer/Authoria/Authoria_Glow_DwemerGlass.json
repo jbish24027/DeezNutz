@@ -1,0 +1,134 @@
+[
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerGlass",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            -141.0,
+            0.0,
+            497.0
+          ],
+          [
+            291.0,
+            -428.0,
+            506.0
+          ],
+          [
+            728.0,
+            -9.0,
+            526.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Animated\\Astrolabe\\Hub\\DweAstrolabeHub01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerGlass",
+          "radius": 250,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            0.0,
+            1080.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Animated\\Astrolabe\\Lens\\DweAstrolabeLens01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerGlass",
+          "radius": 160,
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            0.0,
+            2.0,
+            415.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Animated\\Observatory\\Armillary\\DweObservatoryArmillary01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerGlass",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            -16.0,
+            -955.0,
+            660.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Animated\\Observatory\\Dome01\\DweObservatoryDome01.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerGlass",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            -2.0,
+            -777.0,
+            860.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Animated\\Observatory\\Dome02\\DweObservatoryDome02.nif"
+    ]
+  },
+  {
+    "lights": [
+      {
+        "data": {
+          "light": "Authoria_Glow_DwemerGlass",
+          "flags": "Simple|IgnoreScale"
+        },
+        "points": [
+          [
+            -6.0,
+            -565.0,
+            990.0
+          ]
+        ]
+      }
+    ],
+    "models": [
+      "Dungeons\\Dwemer\\Animated\\Observatory\\Dome03\\DweObservatoryDome03.nif"
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">
+
+
+
+
+
+
+<bone name="NPC L Calf [LClf]"/>
+<bone name="NPC R Calf [RClf]"/>
+<bone name="NPC L Clavicle [LClv]"/>
+<bone name="NPC R Clavicle [RClv]"/>
+<bone name="NPC L Forearm [LLar]"/>
+<bone name="NPC R Forearm [RLar]"/>
+<bone name="NPC L ForearmTwist1 [LLt1]"/>
+<bone name="NPC R ForearmTwist1 [RLt1]"/>
+<bone name="NPC L ForearmTwist2 [LLt2]"/>
+<bone name="NPC R ForearmTwist2 [RLt2]"/>
+<bone name="NPC L Hand [LHnd]"/>
+<bone name="NPC R Hand [RHnd]"/>
+<bone name="NPC Head [Head]"/>
+<bone name="NPC Pelvis [Pelv]"/>
+<bone name="NPC Spine [Spn0]"/>
+<bone name="NPC Spine1 [Spn1]"/>
+<bone name="NPC Spine2 [Spn2]"/>
+<bone name="NPC L Thigh [LThg]"/>
+<bone name="NPC R Thigh [RThg]"/>
+<bone name="NPC L UpperArm [LUar]"/>
+<bone name="NPC R UpperArm [RUar]"/>
+<bone name="NPC L UpperarmTwist1 [LUt1]"/>
+<bone name="NPC R UpperarmTwist1 [RUt1]"/>
+<bone name="NPC L UpperarmTwist2 [LUt2]"/>
+<bone name="NPC R UpperarmTwist2 [RUt2]"/>
+<bone name="NPC L Foot [Lft ]"/>
+<bone name="NPC R Foot [Rft ]"/>
+<bone name="NPC R Toe0 [RToe]"/>
+<bone name="NPC L Toe0 [LToe]"/>
+
+
+<bone name="Helga_Choker 00"/>
+
+
+	<bone-default>
+				<margin-multiplier>0.05</margin-multiplier>
+	</bone-default>
+
+
+
+
+
+<!--  !!!BONES!!! -->
+
+
+
+
+
+<!--  Medallion -->
+
+<bone-default>
+		<mass>0.3</mass>
+		<inertia x="12" y="12" z="12" />
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="2" z="0" />
+		</centerOfMassTransform>
+		<friction>0</friction>
+		<rollingFriction>0.5</rollingFriction>
+		<linearDamping>0.1</linearDamping>
+		<angularDamping>0.1</angularDamping>
+		<restitution>1</restitution>
+		<gravity-factor>0.3</gravity-factor>
+</bone-default>
+
+<bone name="Helga_Choker 01"/>
+<bone name="Helga_Choker 02"/>
+<bone name="Helga_Choker 03"/>
+<bone name="Helga_Choker 04"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  !!!CONS!!! -->
+
+
+
+
+
+
+
+
+<!--  Medallion -->
+
+<generic-constraint-default>
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1" />
+			<origin x="0" y="0" z="0" />
+		</frameInA>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0" />
+		<linearUpperLimit x="0" y="0" z="0" />
+		<angularLowerLimit x="-0.1" y="-0.1" z="-0.1" />
+		<angularUpperLimit x="0.1" y="0" z="0.1" />
+		<linearStiffness x="300" y="300" z="300" />
+		<angularStiffness x="300" y="300" z="300" />
+		<linearDamping x="0.9" y="0.9" z="0.9"/>
+		<angularDamping x="0.9" y="0.9" z="0.9"/>
+		<linearEquilibrium x="1" y="-1" z="-3"/>
+		<angularEquilibrium x="-1" y="-1" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+		<angularBounce x="1.2" y="1.2" z="1.2"/>
+</generic-constraint-default>
+
+<constraint-group>
+	<generic-constraint bodyA="Helga_Choker 01" bodyB="Helga_Choker 00"/>
+	<generic-constraint bodyA="Helga_Choker 02" bodyB="Helga_Choker 01"/>
+	<generic-constraint bodyA="Helga_Choker 03" bodyB="Helga_Choker 02"/>
+	<generic-constraint bodyA="Helga_Choker 04" bodyB="Helga_Choker 03"/>
+</constraint-group>
+
+
+
+
+
+
+
+<!--  !!!SHAPES!!! -->
+
+
+
+
+
+	</system>
