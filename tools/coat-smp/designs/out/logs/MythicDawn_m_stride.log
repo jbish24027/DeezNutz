@@ -1,0 +1,10 @@
+== MythicDawn m: mdrobe_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 114/ 1/ 97   sprint L  72/ 0/ 52   walk R  57/ 0/ 25   walk L  37/ 0/ 15
+   curled in (limit)      sprint R  54/ 0/ 63   sprint L  13/ 3/ 80   walk R 119/ 1/ 91   walk L  10/ 4/ 18
+   swung back .3/.15      sprint R  57/ 0/ 35   sprint L  19/ 4/ 10   walk R  74/ 1/ 12   walk L  28/ 4/  9
+   swung forward .3/.15   sprint R  40/ 0/ 21   sprint L  25/ 0/ 65   walk R  27/ 0/  4   walk L  41/ 0/ 10
+   swung sideways .3/.15  sprint R  30/ 0/ 68   sprint L  27/ 0/ 30   walk R  15/ 0/ 52   walk L  31/ 0/  3
+   total caught/hooked/sunk 890/18/760; lining pts Front 250, Back 178, Side 251
+
+EXIT 0

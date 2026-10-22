@@ -1,0 +1,139 @@
+[
+ {
+  "scores": [
+   {
+    "key": "faithful",
+    "user_intent": 4,
+    "e11_correctness": 8,
+    "picta_safety": 3,
+    "buildability": 5,
+    "dials_reversibility": 6,
+    "total": 5,
+    "fatal_flaws": [
+     "It replaces Picta's colours instead of mixing them in, which overrides the user's binding pick ('tones get MIXED INTO Picta's sky and light'; 'Picta's look stays'). From 06:30 to 20:00 every sky, fog, cloud and ambient hue becomes Astralite's as authored. Picta's blue IMGS frame tint is set to grey. Rain, fog and snow weathers drop to Astralite's neutral grey (sat 0.00). In daylight Picta survives only as cloud shapes, brightness and night, so the user would likely read it as 'Astralite with Picta's clouds', not as a baby of both.",
+     "Two brightness levers that the Darkened fix restored are reversed by default. fVolumetricLightingIntensity goes from 0.0 to 1.0 in a copied plugin ini; the 10-12 sweep listed this value as one of about 15 brightness sources. Fog far distances are densified by default (FOG_DENSITY 0.5: B03/C03 go from 150k to 44k, plus E05/E06), which partly undoes the Darkened revert of the misty-weather distances. Direct-light luma is also off by up to 14.4% (C04), and by up to 8% in clear weathers.",
+     "The 'summer work stays' pick is broken. The summer files get the same grey filters and the same Astralite clear records, and DirectLightingDesaturationDay goes from 0.6 to 0.0. The warm-summer versus other-seasons distinction from the 10-16 tune is erased.",
+     "Night was not offered, yet Night record bytes are rescaled (x m, 0.49-1.0) with filters divided by m. E11 output is identical, but any raw-record consumer (water reflection, LOD; still an open question) sees darker night bytes. Interior-period filters divided by m are applied to the new Astralite day records, so interior output is not truly identical either, though it is mostly inert."
+    ]
+   },
+   {
+    "key": "picta-safe",
+    "user_intent": 5,
+    "e11_correctness": 7,
+    "picta_safety": 9,
+    "buildability": 9,
+    "dials_reversibility": 5,
+    "total": 6.8,
+    "fatal_flaws": [
+     "The master STRENGTH dial is a hue lerp, not an amplitude: A01 dawn goes 251 -> 278 -> 330 deg across 0.3/0.6/0.9. Yet the design offers it as the knob for 'too strong'. That breaks the HARD RULE color-strength-not-tone: lowering it on a 'too pink' complaint would rotate the hue back to blue, which is exactly the 08-20 mistake.",
+     "Half of pick 2 is missing by default. Astralite's volumetric fog (VOLI) is deferred to an opt-in 'Stage 3' that is OFF and limited to 4 fog weathers. The user explicitly picked 'volumetric fog added to Picta's weathers'.",
+     "At the 0.6 default, the Astralite dawn/day/dusk signature is weak. The lerp in normalised RGB chroma passes through the desaturated midpoint (horizon sat 0.57 -> 0.39 lavender-violet, never coral). Dawn/Dusk sunlight, the sun disc and the sunward glow are all left Picta. The user could easily read it as 'Picta with purple dawns plus a few mist rings'."
+    ]
+   },
+   {
+    "key": "per-channel",
+    "user_intent": 8,
+    "e11_correctness": 8,
+    "picta_safety": 7,
+    "buildability": 7,
+    "dials_reversibility": 9,
+    "total": 7.8,
+    "fatal_flaws": [
+     "This is conditional, not fatal as specified. Delivery of the volumetric fog rests entirely on an engine inference: that VL is alive under fVolumetricLightingIntensity=0.0 because bVolumetricLightingUpdateWeather=1 and E11/SkySync/VL multiply renderData in place each tick. That inference is plausible from Effects11.cpp 729-735 and VolumetricLighting.cpp 314-331, but it is unproven, and there is no fallback branch. If the probe shows VL is dead, half of pick 2 silently disappears."
+    ]
+   }
+  ],
+  "winner": "per-channel",
+  "grafts": [
+   "From faithful: add the 'VL-newly-on' fallback branch, prebuilt and selected by the in-game probe. If VL is dead today, ship the baby's copy of 'Picta - Weathers of Aurbis.ini' with only fVolumetricLightingIntensity raised (amplitude dial VL_ENGINE). Then zero [GAMEVOLUMETRICRAYS] Intensity in the baby's base enbseries.ini (unrouted weathers), the 13 MQ files, the Night periods of the 24 routed files and the B01_PictaPure copy, so only the baby's daylight VOLIs gain volumetric light. If VL is alive, keep the per-channel path unchanged.",
+   "From faithful: add per-component chroma-amplitude dials (KAPPA_SKY / KAPPA_FOG / KAPPA_LIGHT / KAPPA_AMB, using c' = L + (c-L)*k on the blended target) on top of per-channel's per-time STRENGTH_DAWN/DAY/DUSK. A 'too strong' complaint scoped to one channel (e.g. 'fog too pink') can then be answered in amplitude only, with the hue and the other channels untouched.",
+   "From faithful: have the builder write a manifest with an md5 per output, and report rather than overwrite any baby file whose md5 changed since the last build (an in-game E11 Save). This pairs with per-channel's baby_user_edits.py re-apply step.",
+   "From faithful: add the verification rows 'dome pixel toward the sun at dawn/dusk' and 'naive transplant' to the solve report. Use them to show the user that the sunward horizon actually moves toward Astralite, and that the double-tint route was avoided.",
+   "From picta-safe: lock DirectLightingColorFilter luminance at every 15-minute step against the ACTUAL per-hour record sunlight colour on Picta's CLMT. This is picta-safe's fix that brought sunlight error down to 0.69%. Apply it to per-channel's DLF solve so the dawn/dusk sunlight dips (-3.9 to -5.4% at the peaks, 9-11% at single steps) fall to about 1-2%.",
+   "From picta-safe: carry over the god-ray 'product lock'. Setting GVR ColorFilter to 1,1,1 removes Picta's DLF x DLF double tint (no ungrade in 4ca678b), which changes VL luminance by about 1/Y(DLF), roughly 2x at dawn. The VL ratio solve and the Picta floor must be computed on that real baseline.",
+   "From picta-safe: dry-run staging before any install. Stage the full fork to scratch, require VERIFY PASS (only planned (file, section, key, period) lines differ, every other byte identical), and emit the houseCARL records manifest in field_path form, then md5-compare the installed tree to the stage.",
+   "From picta-safe (optional user choice, because it is a tone decision): for classes whose canonical Astralite partner is achromatic (SkyrimOvercastRain, and partly SkyrimFog), offer family-weighted donors taken in unit-luminance chroma space. Rain and fog weathers then keep a steel-blue cast instead of losing 30-45% of their colour to a grey partner.",
+   "From picta-safe (optional switch, default off): a Y-locked SkyStaticsColor re-hue toward Astralite's dawn rose, so Picta's mountain-fog statics and the newly added MoT banks pick up the rose dawn mist that faithful also identified as an Astralite dawn trait. Gate it on the in-game check that the engine applies SkyStaticsColor to these statics."
+  ],
+  "must_fix": [
+   "Volumetric fog must not hinge on an unproven inference. Prebuild the faithful-style fallback (baby plugin-ini copy with VL raised, GVR Intensity zeroed in the base ini, the MQ files, the Night periods and the B01 pure copy), select it with the E11-editor probe (IntensityDay 0 vs 20, no Save, run in the baby profile), and tell the user plainly that the coloured volumetric air depends on that check.",
+   "Sunlight brightness drifts more than the user's brightness lock allows. Today: A01 dawn -3.9%, dusk -4.5%; C01 -4.6% / -5.4%; worst 15-minute step 9-11%. Every other channel is within 1.5%. Use picta-safe's per-hour record-colour lock, or raise LUMA_WEIGHT, until sunlight is within about 1-2% at every step. DirectLightingIntensity stays untouched.",
+   "Bound the volumetric-light brightening. The dawn/dusk VL-to-key ratio goes from 0.76 to about 11, and the moon crossfades (about 06:30 and 19:45) overshoot 1.2-1.9x before Sky Sync dimming. Include the crossfade hours in the GVR Intensity solve, or clamp to the target, so there is no overshoot. Confirm the solve includes the GVR ColorFilter 1,1,1 change (removing Picta's DLF double tint). Present VOL_AMOUNT to the user as the one intentional brightness addition that comes with the fog pick.",
+   "Fix the colour claims shown to the user. With MIX_DAWN 0.5 the effective alpha at the Dawn peak is only 0.335, and the A01 dawn horizon lands at OKLCh 319 (mauve-magenta), with chroma down about 25%, not 'rose-coral' (C01 reaches 343). Either normalise alpha so the period-peak mix equals the MIX label ('Medium' = literally half), or reword the user_choices to describe the hues the user will actually see.",
+   "Whitelist audit for the E11 diff. Besides the colour filters, the design changes ColorFromSun, ScatteringColor, DirectLightingDesaturation (-0.5 to 0.05), GVR Intensity and GVR RangeFactor (0.1-10.1 to 1.0). Each must sit inside the luminance-locked solve and on an explicit allowed list. Any other Intensity, Curve, AirGlow, FogAmount, FogColorMultiplier, AmbientLighting, CG or adaptation key differing from Picta is a build failure. Night and Interior lines must be byte-identical (MIX=0 identity regression on the WRITTEN files).",
+   "Swap-carries-every-feature check before 'done': summer weathers 5AFA01-03 and 5AFB01-02 coloured and still warmer than the base season (DLDesatDay 0.6 kept), winter with no rain, the Helios exit landing on the mapped master (or its summer variant in months 5-7), the fair climate, the location-routed interior templates and the start room unchanged, and the WEATHER901 tundra IDs routed to a B01_PictaPure copy that is refreshed on every re-derive.",
+   "Keep the Picta lane byte-untouched, with proof. md5-snapshot the PICTA and HPH profile files, the Darkened E11 mod, the Picta Root twin, the Darkened and Seasonal ESLs and SettingsUser.json before the build, and re-hash after. In the baby only: the ESL's mod must be '+' before MO2 first opens the profile; plugins.txt, loadorder.txt and plugingroups.txt are edited in lockstep (one line after Picta Seasonal, nothing below 'Authoria - Outputs'); MO2 and the game are verified closed before every write; the main session asks before any batch list write; never LOOT.",
+   "The houseCARL ESL must be built as form 44 with the ESL flag. Forward the 28 WTHR from their live winners (Darkened ESL for the 23 masters, Seasonal for the 5 summer weathers) and then edit them. The VOLI, RFCT and ARTO are copied as new records with no Astralite master. Run housecarl_check (no missing masters or dangling links), read back every edited field, and ship the built ESL as-is."
+  ]
+ },
+ {
+  "scores": [
+   {
+    "key": "faithful",
+    "user_intent": 5,
+    "e11_correctness": 6,
+    "picta_safety": 6,
+    "buildability": 6,
+    "dials_reversibility": 5,
+    "total": 28,
+    "fatal_flaws": [
+     "It replaces Picta's daytime hue outright instead of mixing it. KAPPA only pulls Astralite chroma toward grey and never back toward Picta's blue, so a true Picta/Astralite mix does not exist. At KAPPA 0 the baby is grey, not Picta. Rain and fog weathers lose Picta's mood by design: D02 dawn light goes from 13 deg/1.00 to 226 deg/0.22. That conflicts with the binding picks 'Picta stays the base' and 'tones mixed into Picta's sky and light'.",
+     "By default it moves brightness levers the user fought for. It ships a baby plugin ini with fVolumetricLightingIntensity=1.0, which the 10-12 Darkened sweep had restored to 0.0. It cuts B03/C03 far fog from 150000 to 44232, which partly undoes the Darkened de-mist. It sets the IMGS tint to grey on 30 copies, a change to Picta's own grade. Direct-light luma drifts up to 14.4% (C04).",
+     "It adds weather-transition cross-terms that Picta does not have. Records and filters now both vary per weather, and Night records are scaled by a different m per weather (A01 sky top 0.624). The product lerp(R)*lerp(F) therefore no longer matches, and 'night identical' only holds when no weather transition is running: at mid-transition a clear-to-rain change at night comes out about 5% brighter. Interior identity is also not shown for daytime, when the interior reads the Astralite-hued Day record through a Picta/m filter.",
+     "VOLI amplitude ignores GAMEVOLUMETRICRAYS RangeFactor. Effects11.cpp 734 multiplies rangeFactor; Picta A01 Day is 0.1 against Soul 1.0, so the transplanted daytime air has a 10x shorter range than in the Astralite lane."
+    ]
+   },
+   {
+    "key": "picta-safe",
+    "user_intent": 6,
+    "e11_correctness": 7,
+    "picta_safety": 9,
+    "buildability": 9,
+    "dials_reversibility": 4,
+    "total": 35,
+    "fatal_flaws": [
+     "Its only strength dial, STRENGTH, is a tone mix that moves hue: the A01 dawn horizon goes 251 / 278 / 330 deg at 0.3 / 0.6 / 0.9. The design still offers it as the knob for 'too strong'. That breaks the binding rule 'too strong is fixed by amplitude only, never tone'.",
+     "As specified it under-delivers pick (2). Astralite's coloured volumetric fog (VOLI air) is off by default as Stage 3, and even when on it covers only 4 fog weathers. On the colour side, a linear chroma lerp of family-averaged donors gives desaturated lavender-violet at the default 0.6 (horizon 278 deg/0.39, fog 298 deg/0.34), not Astralite's coral.",
+     "Two double-tint paths remain. WEATHER901 is not retargeted, so the 4 vanilla tundra IDs (NAT coloured records) get the re-hued B01 filters. In Stage 3, GVR ColorFilter stays tied to Picta's DLF (blue 0 at dawn) on top of coloured Astralite VOLI."
+    ]
+   },
+   {
+    "key": "per-channel",
+    "user_intent": 8,
+    "e11_correctness": 7,
+    "picta_safety": 7,
+    "buildability": 7,
+    "dials_reversibility": 9,
+    "total": 38,
+    "fatal_flaws": []
+   }
+  ],
+  "winner": "per-channel",
+  "grafts": [
+   "From picta-safe: use build_baby_e11.py as the E11 writer. It replaces lines inside the right [SECTION], keeps CRLF, key order and comments, runs the VERIFY PASS audit (only planned lines differ, everything else byte-identical, no Night or Interior* line touched), and compares the md5 of the scratch stage against the installed tree. The 202-file stage for picta-safe already passes.",
+   "From picta-safe (baby_model.py lines 73-89) and faithful (faithful_model.py lines 654-666): use their scattering code with the hue-dependent dust term. Source: Effects11.cpp UpdateSkyScattering sets DustTint_ch = max(0, 1 - c_ch/cmax)*2*DustDensity^2, and SkyScattering.hlsli GetScatteringColor applies Pow32(1 - dustBand*DustTint). Feed it into the ColorFromSun lerp + ScatteringColor LSQ. Per-channel's baby_model.py line 303 currently assumes 'dust terms ~1'.",
+   "From picta-safe: lock DLF luma per hour against the real per-hour record sunlight, Desat(record on Picta CLMT, DLDesat(h)) x DLF x DLInt(h), with the 0.02 hue ridge (picta-safe reaches 0.69% worst). This closes per-channel's -3.9% to -5.4% steady sunlight dip at the dawn and dusk peaks and its 9-11% worst 15-minute step.",
+   "From picta-safe: round DALC to integers with a +-1 search per channel that minimises the worst per-hour Y error, plus a gamut guard at 254.4.",
+   "From picta-safe gen_records_manifest.py: houseCARL field_path ops (DirectionalAmbientLightingColors.<Slot>.<Axis>, VisualEffect/VisualEffectBegin/VisualEffectEnd, SkyStatics Add); an explicit relink of each copied RFCT EffectArt to its copied ARTO; Heavy rings at Begin/End 0.498/0.498 as on SkyrimFog; and a per-weather ring and MoT coverage table as the amplitude lever.",
+   "From picta-safe: an inputs.json md5 snapshot of the live Darkened E11 tree, the PICTA/HPH lists and the houseCARL epoch, used to catch drift before any re-derive.",
+   "From faithful: the VL-newly-on fallback branch. If the in-game probe (E11 editor GVR IntensityDay 0 vs 20, unsaved) shows VL dead under fVolumetricLightingIntensity=0.0, the baby fork ships its own 'Picta - Weathers of Aurbis.ini' with 1.0 (VL_ENGINE dial). It then sets [GAMEVOLUMETRICRAYS] Intensity to 0 in the baby base enbseries.ini, the 13 MQ files, B01_Lightly_Cloudy_PictaPure.ini, and IntensityNight of the 24 routed files. Interior GVR is already 0 in the base ini and A01.",
+   "From faithful: a luma audit of all 28 weathers every 15 minutes from 05:00 to 21:00 (luma_audit.json style). Rerun it on the BUILT files, with E11 values read from disk and WTHR values from a houseCARL source= read of the new ESL.",
+   "From faithful: manifest.json with the md5 of every baby output. On a re-derive, any file whose md5 changed since the last build (an in-game E11 Save) is reported, not overwritten. Combine this with per-channel's baby_user_edits.py capture-and-reapply.",
+   "From faithful: run a houseCARL references= check before reusing or relinking any shared record. Faithful found the 30 Picta IMGS have 40 WTHR users, 12 of them MQ or Helios_PIC. Do the same for any VOLI or RFCT the baby points at.",
+   "From picta-safe and faithful: name the ESL's mod folder 'houseCARL - Authoria - Patch - Picta x Astralite' (instance convention). Copy only linked records and assets: drop the unused Distant_Rain RFCT 00081D, ARTO 00080D and the distant_rain.nif/.dds files."
+  ],
+  "must_fix": [
+   "Add Bottled's hue-dependent dust term (Effects11.cpp UpdateSkyScattering DustTint; SkyScattering.hlsli GetScatteringColor) to the ScatteringColor/ColorFromSun solve. Picta DustDensity is 0.05 in A01, which darkens the weaker channels at the sunward horizon by up to about 15%. Picta-safe measured a 2.3% sunward error from exactly this term when the sun hue changed.",
+   "Bring direct-light luminance under the brightness lock. Today the model shows -3.9% to -5.4% at the Dawn and Dusk peaks in steady state (A01, C01, D03) and 9-11% at one 15-minute step. Make luma a hard constraint at each period peak and target 1-2% at most. DirectLightingIntensity stays untouched.",
+   "Treat the claim that VL is alive as unproven. It is inferred, and it conflicts with the 10-12 Darkened sweep, which listed the dropped fVolumetricLightingIntensity=0.0 as a brightness source. Gate every VOLI and GVR change on the in-game probe and carry faithful's VL-newly-on fallback. If VL is alive today, the new GVR RangeFactor 1.0 (Picta A01 Day is 0.1) and ColorFilter 1,1,1 change Picta's existing god rays, so put RangeFactor in the ratio model. Cap the 1.2-1.9x moon-crossfade overshoot.",
+   "Extend the solver, the identity regression (MIX=0 must be byte-identical) and the luma audits from 5 weathers to all 24 routed files and 28 records. Solve shared files jointly: A01_Clear.ini serves 19FA01 and 19FA02, and B01 serves 19FB01 and 19FB02, while their DALC/VOLI partners differ (Clear vs Clear_A).",
+   "Describe the strength choices honestly. MIX 0.5 gives an on-screen alpha of only about 0.335 at the Dawn and Dusk peaks (per-period alpha 0.335/0.353/0.300/0.319/0.335), so 'Medium = a true half-and-half' is wrong. Either rescale MIX to mean on-screen share or reword the user choices. Keep MIX (tone, set once) and STRENGTH (amplitude, hue fixed) as separate dials, and route 'too strong' only to STRENGTH and VOL_AMOUNT.",
+   "Correct the IBL reasoning. E11 manages exterior IBL whenever the base [EFFECT] EnableImageBasedLighting=true (Picta base ini line 18). IBL.cpp IsManagedByENB ignores SettingsUser EnableIBL=0 and sets SkyIBLScale = MultiplicativeAmount. UseStaticIBL=1 probably keeps weather hue out of ambient, but verify that instead of relying on EnableIBL=0.",
+   "Prove the fork is complete before setting 'Authoria - Picta 1.1.2 - Darkened to 1.0.1' to '-' in the baby. An enb_winners run on the baby modlist must show every Data/enbseries path won by the baby E11 mod: all 201 Darkened files including 'Picta - Weathers of Aurbis.ini', plus enbeffectpostpass/enblens/enbpresetoverlays .fx.ini from shipped 1.1.2 and enbdepthoffield.fx.ini from July DOF. Every Root path must be won by the baby twin, with the Picta twin '-'. Never point picta_darken_v1_lighting.py or sync_root_twin.py at the baby.",
+   "The writer must prove that no Night, InteriorDay or InteriorNight line and no 13-MQ or base-ini line is touched. The model lists a Night period alpha of 0.06. The only allowed non-routed edit is the [WEATHER901] FileName retarget to the verbatim B01_Lightly_Cloudy_PictaPure.ini.",
+   "The ESL is ESL-flagged, form 44, made with houseCARL. Its masters are Skyrim, Update, Dawnguard, Dragonborn, the Picta esm, Mists of Tamriel.esp, the Darkened ESL and Picta Seasonal. It forwards the 28 WTHR from their live winners (Darkened for 23, Seasonal for 5AFA01-03/5AFB01-02) before any edit. The copied VOLI/RFCT/ARTO need no Astralite master and no dangling link. Every copied RFCT EffectArt must be relinked to its copied ARTO. Run housecarl_check and ship the built ESL byte-for-byte.",
+   "List writes go to the baby profile only. Re-base on the live lists at write time (another session rewrote the PICTA and HPH lists at 05:02). Verify MO2 and the game are closed immediately before each write, and the target folder must be new. Set the ESL's mod '+' before MO2 first opens the baby. Edit plugins.txt (after Picta Seasonal at line 3757), loadorder.txt (after line 3817) and plugingroups.txt ('Authoria - Custom Patches', case-insensitively sorted) in lockstep. Never LOOT, and nothing below 'Authoria - Outputs'. The main session asks the user before any batch list write, including disabled lines in other profiles.",
+   "Check the SkyStaticsAlwaysVisible flag semantics for the 12 MoT statics now on 16 weathers, including clear A01/B01, for popping and stacking with Picta's PIC_STAT_Volumetric_* banks. Keep a per-weather off switch. Leave haze (fog distances) at 0 by default."
+  ]
+ }
+]

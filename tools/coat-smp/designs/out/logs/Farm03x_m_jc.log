@@ -1,0 +1,8 @@
+== Farm03x m: farmer03mextras_1.nif
+   at rest        jump R lead  53/ 1/ 23   jump L lead  98/ 0/ 68   tuck  82/ 0/ 42
+   curled in      jump R lead  62/ 1/  4   jump L lead  45/ 0/133   tuck 110/ 0/ 53
+   swung back     jump R lead  54/ 1/ 64   jump L lead  29/ 0/160   tuck  49/ 0/105
+   swung forward  jump R lead  51/ 0/ 28   jump L lead  58/ 5/ 15   tuck 116/ 1/ 48
+   total caught/hooked/sunk 807/9/743
+
+EXIT 0

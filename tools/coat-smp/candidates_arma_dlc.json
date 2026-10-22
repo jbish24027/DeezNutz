@@ -1,0 +1,95 @@
+[
+ {
+  "path": "_byoh\\clothes\\childrenclothesvariants\\m\\torso04_1.nif",
+  "mod": "Skyrim - Meshes1.bsa",
+  "src": "C:/1. AUTHORIA/_tools/coat-smp/bsa_src/meshes/_byoh/clothes/childrenclothesvariants/m/torso04_1.nif",
+  "eds": [
+   "ChildTorso04AA"
+  ],
+  "what": "SKIRT clothes06 hem 33"
+ },
+ {
+  "path": "_byoh\\clothes\\childrenclothesvariants\\m\\torso05_1.nif",
+  "mod": "Skyrim - Meshes1.bsa",
+  "src": "C:/1. AUTHORIA/_tools/coat-smp/bsa_src/meshes/_byoh/clothes/childrenclothesvariants/m/torso05_1.nif",
+  "eds": [
+   "ChildTorso05AA"
+  ],
+  "what": "SKIRT clothes09 hem 33"
+ },
+ {
+  "path": "dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc01/clothes/blindmothpriest/blindmothpriestrobesm_1.nif",
+  "eds": [
+   "BlindMothPriestRobesAA"
+  ],
+  "what": "SKIRT robes hem 6"
+ },
+ {
+  "path": "dlc01\\clothes\\prisoner\\prisonerclothesbloody_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc01/clothes/prisoner/prisonerclothesbloody_1.nif",
+  "eds": [
+   "PrisonerClothesBloodyAA"
+  ],
+  "what": "SKIRT clothes hem 42"
+ },
+ {
+  "path": "dlc01\\clothes\\prisoner\\prisonerragsbloody_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc01/clothes/prisoner/prisonerragsbloody_1.nif",
+  "eds": [
+   "PrisonerRagsBloodyAA"
+  ],
+  "what": "SKIRT rags hem 45"
+ },
+ {
+  "path": "dlc01\\clothes\\vampclothes\\vampclothesm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc01/clothes/vampclothes/vampclothesm_1.nif",
+  "eds": [
+   "DLC1VampClothesAA"
+  ],
+  "what": "SKIRT robemorph hem 43"
+ },
+ {
+  "path": "dlc02\\clothes\\cultist\\m\\cultisttorso_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc02/clothes/cultist/m/cultisttorso_1.nif",
+  "eds": [
+   "DLC2CultistRobesAA"
+  ],
+  "what": "SKIRT TorsoNew hem 12"
+ },
+ {
+  "path": "dlc02\\clothes\\darkelf\\m\\outfit_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc02/clothes/darkelf/m/outfit_1.nif",
+  "eds": [
+   "DLC2ClothesDarkElf02AA",
+   "DLC2ClothesDarkElf01AA",
+   "DLC2ClothesDarkElfAA"
+  ],
+  "what": "SKIRT Dark_Elf_Outfit_male_robe_1 hem 35"
+ },
+ {
+  "path": "dlc02\\clothes\\telvanni\\telvannibodym_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc02/clothes/telvanni/telvannibodym_1.nif",
+  "eds": [
+   "IldariRobesAA",
+   "TelvaniRobesAA"
+  ],
+  "what": "SKIRT TelvanniBody hem 11"
+ },
+ {
+  "path": "dlc02\\clothes\\temple\\templetorso_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/dlc02/clothes/temple/templetorso_1.nif",
+  "eds": [
+   "DLC2TempleRobeAA"
+  ],
+  "what": "SKIRT FinalCoat hem 12"
+ }
+]

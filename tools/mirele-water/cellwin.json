@@ -1,0 +1,4894 @@
+[
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031DF2",
+"grid": [
+0,
+-16
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031E9C",
+"grid": [
+0,
+-15
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031F42",
+"grid": [
+0,
+-14
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031DF3",
+"grid": [
+-1,
+-16
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031DF4",
+"grid": [
+-2,
+-16
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031DF5",
+"grid": [
+-3,
+-16
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031E9D",
+"grid": [
+-1,
+-15
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031E9E",
+"grid": [
+-2,
+-15
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031E9F",
+"grid": [
+-3,
+-15
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031F43",
+"grid": [
+-1,
+-14
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 0,
+"plugin": "Skyrim.esm",
+"fid": "031F44",
+"grid": [
+-2,
+-14
+],
+"xclw": 3.4028234663852886e+38,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"XCLC",
+"XCLW"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1,
+"plugin": "Update.esm",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2,
+"plugin": "Dawnguard.esm",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2,
+"plugin": "Dawnguard.esm",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2,
+"plugin": "Dawnguard.esm",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3,
+"plugin": "HearthFires.esm",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3,
+"plugin": "HearthFires.esm",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3,
+"plugin": "HearthFires.esm",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 6,
+"plugin": "ccbgssse001-fish.esm",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 6,
+"plugin": "ccbgssse001-fish.esm",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 6,
+"plugin": "ccbgssse001-fish.esm",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 6,
+"plugin": "ccbgssse001-fish.esm",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 60,
+"plugin": "unofficial skyrim special edition patch.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 88,
+"plugin": "LegacyoftheDragonborn.esm",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 92,
+"plugin": "Vigilant.esm",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 118,
+"plugin": "AX ValSerano.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 118,
+"plugin": "AX ValSerano.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 119,
+"plugin": "3DNPC.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 121,
+"plugin": "Gore - Vigilant.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 134,
+"plugin": "AnimatedShips.esl",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 134,
+"plugin": "AnimatedShips.esl",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 187,
+"plugin": "Natural Waterfalls.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 192,
+"plugin": "Lux Via.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 192,
+"plugin": "Lux Via.esp",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 192,
+"plugin": "Lux Via.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 192,
+"plugin": "Lux Via.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 202,
+"plugin": "DynDOLOD.esm",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 376,
+"plugin": "The Standing Sound Stones.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 415,
+"plugin": "CFTO.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 415,
+"plugin": "CFTO.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 533,
+"plugin": "sketchbook.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 773,
+"plugin": "BGCollectables.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 904,
+"plugin": "Mirele Bismath Reborn.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 987,
+"plugin": "0Kaidan.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 991,
+"plugin": "Kaidan - Immersive Features.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 1004,
+"plugin": "Kaidan pre Thalmor.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1004,
+"plugin": "Kaidan pre Thalmor.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 1004,
+"plugin": "Kaidan pre Thalmor.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1029,
+"plugin": "018AuriVIGILANTpatch.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1091,
+"plugin": "Ashe - Fire and Blood.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1091,
+"plugin": "Ashe - Fire and Blood.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1172,
+"plugin": "waterplants_lily.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1209,
+"plugin": "OnlyAnts.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1235,
+"plugin": "mihailhawkandtern.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1257,
+"plugin": "Mists of Tamriel.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1257,
+"plugin": "Mists of Tamriel.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1257,
+"plugin": "Mists of Tamriel.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1257,
+"plugin": "Mists of Tamriel.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1264,
+"plugin": "Nature of the Wild Lands.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1273,
+"plugin": "Kaidan pre Thalmor - NotWL patch.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1275,
+"plugin": "Nature of the Wildlands - Bismath Reborn.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1275,
+"plugin": "Nature of the Wildlands - Bismath Reborn.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1289,
+"plugin": "TOTS - Icy Waterways.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1757,
+"plugin": "Requiem.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 1757,
+"plugin": "Requiem.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 1757,
+"plugin": "Requiem.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2078,
+"plugin": "Locked Chests Have Keys.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2092,
+"plugin": "Unmarked Locations Pack - All In One.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 2100,
+"plugin": "Ryn's Standing Stones.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2106,
+"plugin": "Nature of the Wildlands - Ryn's Standing Stones.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2800,
+"plugin": "StandingSoundStones_Ryns Patch.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2827,
+"plugin": "Embers XD.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2877,
+"plugin": "Water for ENB (Shades of Skyrim).esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0501B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 2892,
+"plugin": "Water for ENB - Patch - Mirele Bismath Reborn.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0101B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2917,
+"plugin": "Lux Orbis.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2917,
+"plugin": "Lux Orbis.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 2938,
+"plugin": "Lux Orbis - Ryn's Standing Stones patch.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 3208,
+"plugin": "Lux Orbis CS.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3208,
+"plugin": "Lux Orbis CS.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3252,
+"plugin": "Northern Roads.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3252,
+"plugin": "Northern Roads.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 3252,
+"plugin": "Northern Roads.esp",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 3252,
+"plugin": "Northern Roads.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3252,
+"plugin": "Northern Roads.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3252,
+"plugin": "Northern Roads.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3258,
+"plugin": "Northern Roads - Collision and Placement Fix.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 3258,
+"plugin": "Northern Roads - Collision and Placement Fix.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3258,
+"plugin": "Northern Roads - Collision and Placement Fix.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3259,
+"plugin": "Northern Roads - Water for ENB (Shades of Skyrim) patch.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "0301B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3259,
+"plugin": "Northern Roads - Water for ENB (Shades of Skyrim) patch.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0301B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 3259,
+"plugin": "Northern Roads - Water for ENB (Shades of Skyrim) patch.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0301B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3259,
+"plugin": "Northern Roads - Water for ENB (Shades of Skyrim) patch.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0301B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3259,
+"plugin": "Northern Roads - Water for ENB (Shades of Skyrim) patch.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0301B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3268,
+"plugin": "Northern Roads - Lux Via patch.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3276,
+"plugin": "Northern Roads - Ryn's Standing Stones patch.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3276,
+"plugin": "Northern Roads - Ryn's Standing Stones patch.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 3276,
+"plugin": "Northern Roads - Ryn's Standing Stones patch.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3276,
+"plugin": "Northern Roads - Ryn's Standing Stones patch.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3277,
+"plugin": "Nature of the Wild Lands - Northern Roads Patch.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3277,
+"plugin": "Nature of the Wild Lands - Northern Roads Patch.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "01001232",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3548,
+"plugin": "Authoria - Reqtificated - Mirelle Bismath.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0601B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 3548,
+"plugin": "Authoria - Reqtificated - Mirelle Bismath.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0601B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3548,
+"plugin": "Authoria - Reqtificated - Mirelle Bismath.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0601B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3548,
+"plugin": "Authoria - Reqtificated - Mirelle Bismath.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0601B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 3559,
+"plugin": "Authoria - Reqtificated - Kaidan.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 3610,
+"plugin": "Authoria - Reqtificated - Ryn's Standing Stones.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0401B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 4030,
+"plugin": "Authoria - Master Patch - Water for ENB.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "0A01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4030,
+"plugin": "Authoria - Master Patch - Water for ENB.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "0A01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4030,
+"plugin": "Authoria - Master Patch - Water for ENB.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0A01B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4030,
+"plugin": "Authoria - Master Patch - Water for ENB.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "0A01B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "4B01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 4034,
+"plugin": "Authoria - Output - Synthesis Worldspace.esp",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 4044,
+"plugin": "DynDOLOD.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "5C01B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 4044,
+"plugin": "DynDOLOD.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "5C01B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B70",
+"grid": [
+0,
+-14
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B91",
+"grid": [
+0,
+-15
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009BB2",
+"grid": [
+0,
+-16
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B71",
+"grid": [
+-1,
+-14
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B72",
+"grid": [
+-2,
+-14
+],
+"xclw": 600.0,
+"xcwt": null,
+"data": 2,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XLCN"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B92",
+"grid": [
+-1,
+-15
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B93",
+"grid": [
+-2,
+-15
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT",
+"XLCN"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009B94",
+"grid": [
+-3,
+-15
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 2,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009BB3",
+"grid": [
+-1,
+-16
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009BB4",
+"grid": [
+-2,
+-16
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 66,
+"subs": [
+"DATA",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+},
+{
+"idx": 4045,
+"plugin": "Occlusion.esp",
+"fid": "009BB5",
+"grid": [
+-3,
+-16
+],
+"xclw": 600.0,
+"xcwt": "2401B056",
+"data": 66,
+"subs": [
+"DATA",
+"EDID",
+"LTMP",
+"MHDT",
+"TVDT",
+"XCLC",
+"XCLR",
+"XCLW",
+"XCWT"
+]
+}
+]

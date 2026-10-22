@@ -1,0 +1,17 @@
+===== DarkElf
+legs from the body (under z 78.0, no arms / upper body): malebody_1.nif 'HIMBO - Body HP' 7241 of 14597 pts; bones folded to ['NPC L Calf [LClf]', 'NPC L Foot [Lft ]', 'NPC L Thigh [LThg]', 'NPC Pelvis [Pelv]', 'NPC R Calf [RClf]', 'NPC R Foot [Rft ]', 'NPC R Thigh [RThg]', 'NPC Spine [Spn0]', 'NPC Spine1 [Spn1]']
+piece Robe <- Dark_Elf_Outfit_male_robe_1 ('islands', 0, {10085: 3125, 10174: 250}, (1,), 78.0): 3987 pts / 7417 tris (skirt:outer)
+skirt axis (0.17, 3.07); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:76.0/73.5/71.0/68.4/65.9/63.4/60.9/58.4; 30:76.0/72.1/68.3/64.4/60.6/56.7/52.9/49.0; 60:76.0/72.2/68.3/64.5/60.6/56.8/53.0/49.1; 90:76.0/69.9/63.7/57.6/51.4/45.3/39.1/33.0; 120:76.0/66.5/56.9/47.4/37.8/28.3/18.7/9.2; 150:76.0/66.5/57.0/47.5/38.0/28.5/19.0/9.5; -180:76.0/72.5/68.9/65.4/61.8/58.3/54.8/51.2; -150:76.0/67.0/57.9/48.9/39.9/30.8/21.8/12.8; -120:76.0/66.5/56.9/47.4/37.8/28.3/18.7/9.2; -90:76.0/69.9/63.7/57.6/51.4/45.3/39.1/33.0; -60:76.0/72.2/68.3/64.5/60.6/56.8/53.0/49.1; -30:76.0/73.5/71.0/68.5/66.0/63.4/60.9/58.4
+tip rows ; flap hinges 
+legs from LegsBody (13828 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.62 median 1.60; free share p10 0.05 median 0.31 (low: the skirt mostly follows the legs = very subtle; confirmed designs sit at 0.75-0.9 - a skirt resting close to the trousers needs gap=(0.0, 1.5))
+m: Robe is cut out of Dark_Elf_Outfit_male_robe_1: 72 seam points (z 76.9..78.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 3987 pts (3049 move); tip 0 pts
+m: legs collider pulled in at 930 of 7241 pts (max 1.64); lining points Robe 690/690
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 1941 pts
+m_1: wrote meshes/dlc02/clothes/darkelf/m/outfit_1.nif; shapes (pts, tris) {'Dark_Elf_Outfit_male_robe_1': (6281, 11873), 'Robe': (2135, 3861), 'Robe 2': (1941, 3556), 'ADE Legs Front': (4030, 7517), 'ADE Legs Back': (2396, 4258), 'ADE Legs Side': (3847, 6339), 'ADE Skirt Front': (134, 163), 'ADE Skirt Side': (296, 325), 'ADE Skirt Back': (260, 261), 'VirtualGround': (4, 2)}; bones per shape {'Dark_Elf_Outfit_male_robe_1': 23, 'Robe': 54, 'Robe 2': 54, 'ADE Legs Front': 9, 'ADE Legs Back': 9, 'ADE Legs Side': 9, 'ADE Skirt Front': 33, 'ADE Skirt Side': 59, 'ADE Skirt Back': 34, 'VirtualGround': 1}
+m_0: wrote meshes/dlc02/clothes/darkelf/m/outfit_0.nif; shapes (pts, tris) {'Dark_Elf_Outfit_male_robe_1': (6281, 11873), 'Robe': (2135, 3861), 'Robe 2': (1941, 3556), 'ADE Legs Front': (4030, 7517), 'ADE Legs Back': (2396, 4258), 'ADE Legs Side': (3847, 6339), 'ADE Skirt Front': (134, 163), 'ADE Skirt Side': (296, 325), 'ADE Skirt Back': (260, 259), 'VirtualGround': (4, 2)}; bones per shape {'Dark_Elf_Outfit_male_robe_1': 23, 'Robe': 54, 'Robe 2': 54, 'ADE Legs Front': 9, 'ADE Legs Back': 9, 'ADE Legs Side': 9, 'ADE Skirt Front': 33, 'ADE Skirt Side': 59, 'ADE Skirt Back': 34, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\DarkElfM.xml (494 lines); no slits: neighbouring chains linked all round

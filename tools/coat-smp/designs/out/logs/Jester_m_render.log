@@ -1,0 +1,16 @@
+C:/1. AUTHORIA/_tools/coat-smp/designs/out/renders/Jester_m_layers.png
+rays through the slits (from outside toward the body axis; shapes met in order, first = outermost):
+   slit at -177 deg (top z 54.5), z 51.5 rest  : nothing
+   slit at -177 deg (top z 54.5), z 51.5 flared: nothing
+   slit at -177 deg (top z 54.5), z 31.0 rest  : nothing
+   slit at -177 deg (top z 54.5), z 31.0 flared: nothing
+   slit at -177 deg (top z 54.5), z 9.4 rest  : nothing
+   slit at -177 deg (top z 54.5), z 9.4 flared: nothing
+   slit at -8 deg (top z 63.0), z 60.0 rest  : JesterBody > Saia
+   slit at -8 deg (top z 63.0), z 60.0 flared: JesterBody > Saia
+   slit at -8 deg (top z 63.0), z 35.2 rest  : nothing
+   slit at -8 deg (top z 63.0), z 35.2 flared: nothing
+   slit at -8 deg (top z 63.0), z 9.4 rest  : nothing
+   slit at -8 deg (top z 63.0), z 9.4 flared: nothing
+
+EXIT 0

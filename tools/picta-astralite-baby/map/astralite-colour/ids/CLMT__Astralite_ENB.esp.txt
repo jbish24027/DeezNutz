@@ -1,0 +1,7 @@
+000F91:Skyrim.esm
+0E7C4E:Skyrim.esm
+090A91:Skyrim.esm
+000812:Skyrim.esm
+00015F:Skyrim.esm
+001409:Dawnguard.esm
+000837:Astralite ENB.esp

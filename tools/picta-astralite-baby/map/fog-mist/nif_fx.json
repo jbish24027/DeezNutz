@@ -1,0 +1,6283 @@
+{
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/effects/fxcameraattachblowingfog.nif": {
+  "bsver": 100,
+  "blocks": 47,
+  "shaders": [
+   {
+    "blk": 34,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSmokeSoftSub01.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSmokeDiss.dds",
+    "lighting_influence": 127,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.3,
+     0.4,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 0.5,
+    "soft_depth": 75.0,
+    "controller": 14
+   },
+   {
+    "blk": 40,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.5,
+     0.51,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.4
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/No More Blinding Fog/meshes/effects/fxcameraattachblowingfog.nif": {
+  "bsver": 100,
+  "blocks": 47,
+  "shaders": [
+   {
+    "blk": 34,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSmokeSoftSub01.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSmokeDiss.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.5216,
+     0.5216,
+     0.5216,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 75.0,
+    "controller": 14
+   },
+   {
+    "blk": 40,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.5,
+     0.51,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.1
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Picta - Assets 4K/meshes/effects/fxcameraattachblowingfog.nif": {
+  "bsver": 100,
+  "blocks": 47,
+  "shaders": [
+   {
+    "blk": 34,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSmokeSoftSub01.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSmokeDiss.dds",
+    "lighting_influence": 127,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.5216,
+     0.5216,
+     0.5216,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 75.0,
+    "controller": 14
+   },
+   {
+    "blk": 40,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.5,
+     0.51,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.4
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/fxcameraattachfog.nif": {
+  "bsver": 100,
+  "blocks": 45,
+  "shaders": [
+   {
+    "blk": 33,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSmokeSoftSub01.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSmokeDiss.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.5216,
+     0.5216,
+     0.5216,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 75.0,
+    "controller": 14
+   },
+   {
+    "blk": 39,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.7,
+     0.0,
+     0.05,
+     0.95,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.113
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Picta - Assets 4K/meshes/effects/fxcameraattachfog.nif": {
+  "bsver": 100,
+  "blocks": 45,
+  "shaders": [
+   {
+    "blk": 33,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSmokeSoftSub01.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSmokeDiss.dds",
+    "lighting_influence": 127,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.5216,
+     0.5216,
+     0.5216,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 75.0,
+    "controller": 14
+   },
+   {
+    "blk": 39,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.7,
+     0.0,
+     0.05,
+     0.95,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.45
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/fxcameraattachgroundfog.nif": {
+  "bsver": 100,
+  "blocks": 55,
+  "shaders": [
+   {
+    "blk": 38,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000030",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSteamThinAnim.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSteamThin.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4863,
+     0.4863,
+     0.4863,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 50.0,
+    "controller": 15
+   },
+   {
+    "blk": 44,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.5,
+     0.51,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.163
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Picta - Assets 4K/meshes/effects/fxcameraattachgroundfog.nif": {
+  "bsver": 100,
+  "blocks": 55,
+  "shaders": [
+   {
+    "blk": 38,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000030",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSteamThinAnim.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSteamThin.dds",
+    "lighting_influence": 191,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4863,
+     0.4863,
+     0.4863,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 50.0,
+    "controller": 15
+   },
+   {
+    "blk": 44,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.5,
+     0.51,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.65
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/fxcameraattachturbulentfog.nif": {
+  "bsver": 100,
+  "blocks": 48,
+  "shaders": [
+   {
+    "blk": 33,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSteamThinAnim.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSteamThin.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4863,
+     0.4863,
+     0.4863,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 60.0,
+    "controller": 14
+   },
+   {
+    "blk": 39,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.188
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Picta - Assets 4K/meshes/effects/fxcameraattachturbulentfog.nif": {
+  "bsver": 100,
+  "blocks": 48,
+  "shaders": [
+   {
+    "blk": 33,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSteamThinAnim.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSteamThin.dds",
+    "lighting_influence": 127,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4863,
+     0.4863,
+     0.4863,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 60.0,
+    "controller": 14
+   },
+   {
+    "blk": 39,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/fxcameraattachwispyfog.nif": {
+  "bsver": 100,
+  "blocks": 48,
+  "shaders": [
+   {
+    "blk": 34,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSteamThinAnim.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSteamThin.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4863,
+     0.4863,
+     0.4863,
+     0.9967
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 60.0,
+    "controller": 14
+   },
+   {
+    "blk": 40,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.15
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Picta - Assets 4K/meshes/effects/fxcameraattachwispyfog.nif": {
+  "bsver": 100,
+  "blocks": 48,
+  "shaders": [
+   {
+    "blk": 34,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000010",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\FXSteamThinAnim.dds",
+    "greyscale": "textures\\effects\\gradients\\GradSteamThin.dds",
+    "lighting_influence": 127,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4863,
+     0.4863,
+     0.4863,
+     0.9967
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 60.0,
+    "controller": 14
+   },
+   {
+    "blk": 40,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.6
+     ],
+     [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/distant_mounts_heavy.nif": {
+  "bsver": 83,
+  "blocks": 154,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     0.6349
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_heavy.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/distant_mounts_heavy_up.nif": {
+  "bsver": 83,
+  "blocks": 154,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_016.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/distant_mounts_lite.nif": {
+  "bsver": 83,
+  "blocks": 154,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_lite.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/distant_mounts_lite_2.nif": {
+  "bsver": 83,
+  "blocks": 138,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 27,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 33,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 44,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 50,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 61,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 67,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 78,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 84,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 95,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 101,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 112,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 118,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 129,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\sky\\vividweathers\\vividcirrus_l0_018.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.8,
+     0.02
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 135,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/distant_mounts_rain.nif": {
+  "bsver": 83,
+  "blocks": 154,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Fogs_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.98,
+      0.98,
+      0.98,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/distant_rain.nif": {
+  "bsver": 83,
+  "blocks": 185,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.523,
+      0.523,
+      0.523,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 28,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 34,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.515,
+      0.515,
+      0.515,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 46,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 52,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.601,
+      0.601,
+      0.601,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 65,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 71,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.577,
+      0.577,
+      0.577,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 83,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 89,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.734,
+      0.734,
+      0.734,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 101,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 107,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.3
+     ],
+     [
+      0.51,
+      0.51,
+      0.51,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 119,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 125,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.532,
+      0.532,
+      0.532,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 137,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 143,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.708,
+      0.708,
+      0.708,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 155,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 161,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.523,
+      0.523,
+      0.523,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 173,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0400040",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\Distant_Rain.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.92,
+     0.94,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 179,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.7,
+     0.0,
+     0.02,
+     0.03,
+     1.0
+    ],
+    "colors": [
+     [
+      0.31,
+      0.31,
+      0.31,
+      0.0
+     ],
+     [
+      0.523,
+      0.523,
+      0.523,
+      0.3
+     ],
+     [
+      0.56,
+      0.56,
+      0.56,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/ambient/fxmistlow01long.nif": {
+  "bsver": 100,
+  "blocks": 15,
+  "shaders": [
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xc0000040",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 20,
+    "falloff": [
+     0.9063,
+     0.1736,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.6673,
+     0.6673,
+     0.6673,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 42.0,
+    "controller": 6
+   },
+   {
+    "blk": 14,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000000",
+    "flags2": "0x21",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "",
+    "greyscale": "",
+    "lighting_influence": 127,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     0.7
+    ],
+    "emissive_mult": 0.25,
+    "soft_depth": 100.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/Lux (main) - rerun/meshes/effects/ambient/fxmistlow01long.nif": {
+  "bsver": 100,
+  "blocks": 15,
+  "shaders": [
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.1736,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.8,
+     0.8,
+     0.8,
+     0.5
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 42.0,
+    "controller": 6
+   },
+   {
+    "blk": 14,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000000",
+    "flags2": "0x21",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Picta - Assets 4K/meshes/effects/ambient/fxmistlow01long.nif": {
+  "bsver": 100,
+  "blocks": 15,
+  "shaders": [
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.1736,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.9098,
+     0.9098,
+     0.9098,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 42.0,
+    "controller": 6
+   },
+   {
+    "blk": 14,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000000",
+    "flags2": "0x21",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/ambient/fxsmokewispslgvol01.nif": {
+  "bsver": 100,
+  "blocks": 52,
+  "shaders": [
+   {
+    "blk": 6,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.9098,
+     0.9098,
+     0.9098,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 7
+   },
+   {
+    "blk": 18,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.9098,
+     0.9098,
+     0.9098,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 19
+   },
+   {
+    "blk": 30,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.9098,
+     0.9098,
+     0.9098,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 31
+   },
+   {
+    "blk": 42,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.9098,
+     0.9098,
+     0.9098,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 43
+   },
+   {
+    "blk": 51,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000000",
+    "flags2": "0x21",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/Lux (main) - rerun/meshes/effects/ambient/fxsmokewispslgvol01.nif": {
+  "bsver": 100,
+  "blocks": 52,
+  "shaders": [
+   {
+    "blk": 6,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     0.7
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 7
+   },
+   {
+    "blk": 18,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     0.7
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 19
+   },
+   {
+    "blk": 30,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     0.7
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 31
+   },
+   {
+    "blk": 42,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000030",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\CloudTile.dds",
+    "greyscale": "textures\\effects\\gradients\\GradAmbFog01.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     0.9063,
+     0.2588,
+     1.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     0.7
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 64.0,
+    "controller": 43
+   },
+   {
+    "blk": 51,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000000",
+    "flags2": "0x21",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/vividsnow.nif": {
+  "bsver": 83,
+  "blocks": 173,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-med.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-small.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-med.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 162,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-med.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 168,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/vividsnow-blizzard.nif": {
+  "bsver": 83,
+  "blocks": 173,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 162,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-str.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 168,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.631,
+      0.631,
+      0.631,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/effects/NLASandStorm.nif": {
+  "bsver": 83,
+  "blocks": 192,
+  "shaders": [
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 29,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 67,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 73,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.35,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 86,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000100",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 92,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 105,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000100",
+    "flags2": "0x40000220",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 111,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 124,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000100",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 130,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.3,
+     0.08,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 143,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000100",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 149,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 162,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000100",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\INVISIBLEvividsnow.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 168,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.08,
+     0.1,
+     0.1,
+     0.2,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      1.0
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   },
+   {
+    "blk": 181,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000000",
+    "flags2": "0x40000020",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\effects\\vividsnow-blizfog.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     0.0,
+     0.0,
+     0.1,
+     1.0
+    ],
+    "emissive_rgba": [
+     0.6,
+     0.6,
+     0.6,
+     1.0
+    ],
+    "emissive_mult": 2.0,
+    "soft_depth": 100.0,
+    "controller": -1
+   },
+   {
+    "blk": 187,
+    "type": "BSPSysSimpleColorModifier",
+    "fade": [
+     0.25,
+     0.2,
+     0.1,
+     0.4,
+     0.8,
+     1.0
+    ],
+    "colors": [
+     [
+      0.669,
+      0.669,
+      0.669,
+      0.0
+     ],
+     [
+      0.45,
+      0.45,
+      0.45,
+      0.4
+     ],
+     [
+      0.638,
+      0.638,
+      0.638,
+      0.0
+     ]
+    ]
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets/meshes/sky/heavystormsky.nif": {
+  "bsver": 100,
+  "blocks": 53,
+  "shaders": [
+   {
+    "blk": 6,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.4784,
+     0.702,
+     0.7843,
+     1.0
+    ],
+    "emissive_mult": 0.5,
+    "soft_depth": 100.0,
+    "controller": 7
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 13
+   },
+   {
+    "blk": 18,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 19
+   },
+   {
+    "blk": 24,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 25
+   },
+   {
+    "blk": 30,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 31
+   },
+   {
+    "blk": 36,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 37
+   },
+   {
+    "blk": 42,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 43
+   },
+   {
+    "blk": 48,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0x80000008",
+    "flags2": "0x20",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\dlc01\\sky\\SoulCairnNebula01.dds",
+    "greyscale": "",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.0,
+    "soft_depth": 100.0,
+    "controller": 49
+   }
+  ]
+ }
+}

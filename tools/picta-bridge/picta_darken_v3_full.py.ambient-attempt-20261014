@@ -1,0 +1,231 @@
+"""Darken v3 (2026-10-12): Picta ENB 1.1.2 with ALL brightness numbers of Picta ENB 1.0.1, colours kept from 1.1.2.
+Replaces v1 (lighting means) + v2 (grade) in the override mod 'Authoria - Picta 1.1.2 - Darkened to 1.0.1'.
+
+Why: the 6-lane sweep (workflow wf_43f22efe-fcd) found the 1.1.x brightness spread over [TIMEOFDAY], [ENVIRONMENT] intensities,
+fog multipliers/curves/amounts, ColorPow, [GAMEVOLUMETRICRAYS], [VOLUMETRICRAYS], [RAYS], [SKY]/[SKYSCATTERING] cloud+gradient keys,
+[VOLUMETRICFOG], [ENBBLOOM.FX] incl. interior thresholds, [WATER], the grade. Many keys counterweight each other (ColorPow vs
+DirectLighting, FogAmount vs FogCurve), so copying ALL non-colour numbers together reproduces 1.0.1's formula exactly.
+
+Rules
+ - weather inis (every 1.1.2 enbseries\\**\\*.ini in a subfolder, not _*, not Picta - Interiors): every single-number key in every
+   section except [ENBEFFECTPOSTPASS.FX] (KiSuite colour grade) and colour-identity keys (saturation, hue, tint, vibrance, colour
+   balance, filters) gets the MEDIAN of the category-matched 1.0.1 weather files (same file name wins; else clear / lightly cloudy /
+   cloudy / overcast / storm + rain/snow/fog flags, falling back step by step).
+ - root fx inis (enbbloom/enbeffect/enbadaptation/enblens/enbsunsprite/enbunderwater/enbeffectprepass .fx.ini): non-colour numbers
+   = 1.0.1's own root value for the same key (what 1.0.1 used for any weather its list did not route).
+ - base enbseries.ini: [TIMEOFDAY] + every section that weather files carry: non-colour numbers = 1.0.1 base value. Booleans
+   (feature switches) stay 1.1.2.
+ - _weatherlist.ini: 1.1.2 list + one section routing the four vanilla tundra weathers (Olenveld) to B01 (1.0.1 routed them).
+--write rebuilds the override's enbseries content (meta.ini / README kept). MO2 and the game must be closed."""
+import os, sys, re, statistics, shutil, subprocess
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+WRITE = '--write' in sys.argv
+MODS = r'C:\1. AUTHORIA\mods'
+OLDM = os.path.join(MODS, '[NoDelete] Picta ENB 1.0.1 - Data (shipped)')
+NEWM = os.path.join(MODS, '[NoDelete] Picta ENB 1.1.2 - Data (shipped)')
+DSTM = os.path.join(MODS, 'Authoria - Picta 1.1.2 - Darkened to 1.0.1')
+OLD, NEW, DST = (os.path.join(m, 'enbseries') for m in (OLDM, NEWM, DSTM))
+SKIP_SECTIONS = {'ENBEFFECTPOSTPASS.FX'}
+COLOUR = re.compile(r'saturat|hue|tint|vibran|colou?r ?balance|filter', re.I)
+ROOT_FX = ('enbbloom.fx.ini', 'enbeffect.fx.ini', 'enbadaptation.fx.ini', 'enblens.fx.ini', 'enbsunsprite.fx.ini',
+           'enbunderwater.fx.ini', 'enbeffectprepass.fx.ini')
+TUNDRA = '[WEATHER901]\r\nFileName=Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini\r\nWeatherIDs=10A240, 10E1EE, 10A243, 10E1ED\r\n'
+
+def parse(path):
+    out = {}; sec = ''
+    for ln in open(path, encoding='utf-8', errors='replace'):
+        t = ln.strip()
+        if not t or t.startswith(';') or t.startswith('//'): continue
+        if t.startswith('[') and t.endswith(']'): sec = t[1:-1].upper(); continue
+        if '=' in t:
+            k, v = t.split('=', 1); out[(sec, k.strip())] = v.strip()
+    return out
+def fnum(v):
+    try: return float(v)
+    except (ValueError, TypeError): return None
+def routed(root):
+    wl = parse(os.path.join(root, '_weatherlist.ini'))
+    return sorted({v.replace('/', os.sep) for (s, k), v in wl.items() if k.lower() == 'filename'})
+def category(rel):
+    n = os.path.basename(rel).lower()
+    sky = ('storm' if 'storm' in n else 'overcast' if 'overcast' in n else 'light' if 'lightly_cloudy' in n else
+           'cloudy' if 'cloudy' in n else 'clear' if 'clear' in n else None)
+    pre = 'snow' if 'snow' in n else 'rain' if ('rain' in n or 'drizzle' in n) else ''
+    fog = 'fog' if ('fog' in n or 'mist' in n) else ''
+    return sky, pre, fog
+def copyable(sec, k, v):
+    return sec not in SKIP_SECTIONS and not COLOUR.search(k) and fnum(v) is not None
+
+old_files = [r for r in routed(OLD) if os.path.exists(os.path.join(OLD, r)) and not r.lower().startswith('picta - interiors')]
+old_data = {r: parse(os.path.join(OLD, r)) for r in old_files}
+old_by_base = {os.path.basename(r).lower(): r for r in old_files}
+def donors(rel):
+    b = os.path.basename(rel).lower()
+    if b in old_by_base: return [old_by_base[b]], 'same file'
+    sky, pre, fog = category(rel)
+    if sky is None: return old_files, 'all 1.0.1 exteriors'
+    pool = [f for f in old_files if category(f)[0] == sky]
+    for want in ((pre, fog), (pre, None), (None, None)):
+        c = [f for f in pool if (want[0] is None or category(f)[1] == want[0]) and (want[1] is None or category(f)[2] == want[1])]
+        if c: return c, '%s%s%s x%d' % (sky, '+' + pre if want[0] else '', '+' + fog if want[1] else '', len(c))
+    return old_files, 'all 1.0.1 exteriors'
+def median_over(files, sec, k):
+    vs = [fnum(old_data[f].get((sec, k))) for f in files]
+    vs = [v for v in vs if v is not None]
+    return statistics.median(vs) if vs else None
+def fmt(orig, val):
+    dec = len(orig.split('.')[1]) if '.' in orig else 1
+    s = ('%.' + str(min(max(dec, 3), 6)) + 'f') % val
+    return s.rstrip('0').rstrip('.') + ('.0' if '.' not in s.rstrip('0').rstrip('.') else '') if '.' in s else s
+
+def rewrite(src, plan_fn):
+    raw = open(src, 'rb').read(); eol = b'\r\n' if b'\r\n' in raw else b'\n'
+    out = []; sec = ''; ch = []
+    for ln in raw.split(eol):
+        s = ln.decode('utf-8', 'replace'); t = s.strip()
+        if t.startswith('[') and t.endswith(']'): sec = t[1:-1].upper(); out.append(ln); continue
+        if '=' in t and not t.startswith(';') and not t.startswith('//'):
+            k, v = t.split('=', 1); k = k.strip(); v = v.strip()
+            if copyable(sec, k, v):
+                nv = plan_fn(sec, k)
+                if nv is not None and abs(nv - fnum(v)) > 1e-9:
+                    i = s.index('='); sp = ' ' if s[i + 1:i + 2] == ' ' else ''
+                    out.append((s[:i + 1] + sp + fmt(v, nv)).encode('utf-8')); ch.append((sec, k, fnum(v), nv)); continue
+        out.append(ln)
+    return eol.join(out), ch
+
+if WRITE:
+    tl = subprocess.run(['tasklist'], capture_output=True, text=True).stdout.lower()
+    if 'modorganizer' in tl or 'skyrimse' in tl: sys.exit('MO2 or the game is running - aborting')
+plan = []   # (dst path, bytes, how, changes)
+weather_sections = set()
+for dp, dn, fn in os.walk(NEW):
+    for f in fn:
+        if not f.lower().endswith('.ini') or f.startswith('_'): continue
+        rel = os.path.relpath(os.path.join(dp, f), NEW)
+        if os.path.dirname(rel) == '' or rel.lower().startswith('picta - interiors'): continue
+        for (s, k) in parse(os.path.join(NEW, rel)): weather_sections.add(s)
+        d, how = donors(rel)
+        data, ch = rewrite(os.path.join(NEW, rel), lambda sec, k, d=d: median_over(d, sec, k))
+        plan.append((os.path.join(DST, rel), data, how, ch, rel))
+for name in ROOT_FX:
+    src = os.path.join(NEW, name)
+    if not os.path.exists(src) or not os.path.exists(os.path.join(OLD, name)): continue
+    oldroot = parse(os.path.join(OLD, name))
+    data, ch = rewrite(src, lambda sec, k, o=oldroot: fnum(o.get((sec, k))))
+    plan.append((os.path.join(DST, name), data, '1.0.1 root values', ch, name))
+oldbase = parse(os.path.join(OLDM, 'enbseries.ini'))
+base_secs = weather_sections | {'TIMEOFDAY'}
+data, ch = rewrite(os.path.join(NEWM, 'enbseries.ini'), lambda sec, k: fnum(oldbase.get((sec, k))) if sec in base_secs else None)
+plan.append((os.path.join(DSTM, 'enbseries.ini'), data, '1.0.1 base values', ch, 'enbseries.ini'))
+wl = open(os.path.join(NEW, '_weatherlist.ini'), 'rb').read()
+assert b'[WEATHER901]' not in wl
+wl2 = wl + (b'' if wl.endswith(b'\r\n') else b'\r\n') + b'\r\n; Authoria 2026-10-12: the four vanilla tundra weathers (Olenveld regions) were routed in 1.0.1; route them to B01.\r\n' + TUNDRA.encode()
+plan.append((os.path.join(DST, '_weatherlist.ini'), wl2, 'list + tundra', [('', 'WEATHER901', 0, 1)], '_weatherlist.ini'))
+
+# Exposure trim (2026-10-12: user "still a tiny bit too DARK"): add TRIM_EV to every Adaptation Exposure Compensation (in EVs) value
+# in the weather inis and the root enbadaptation.fx.ini. Adaptation-side exposure is not normalised away by the eye adaptation.
+TRIM_EV = 0.2
+TRIM_KEY = re.compile(r'^Adaptation\.\|- .+ - Exposure Compensation \(in EVs\)$')
+def trim(data):
+    eol = b'\r\n' if b'\r\n' in data else b'\n'; out = []; n = 0
+    for ln in data.split(eol):
+        s = ln.decode('utf-8', 'replace'); t = s.strip()
+        if '=' in t and not t.startswith(';'):
+            k, v = t.split('=', 1)
+            if TRIM_KEY.match(k.strip()) and fnum(v.strip()) is not None:
+                i = s.index('='); sp = ' ' if s[i + 1:i + 2] == ' ' else ''
+                out.append((s[:i + 1] + sp + fmt(v.strip(), fnum(v.strip()) + TRIM_EV)).encode('utf-8')); n += 1; continue
+        out.append(ln)
+    return eol.join(out), n
+trimmed = 0
+for idx, (dst, data, how, ch, rel) in enumerate(plan):
+    if rel.endswith('.ini') and rel not in ('enbseries.ini', '_weatherlist.ini'):
+        data2, n = trim(data); trimmed += n; plan[idx] = (dst, data2, how, ch, rel)
+print('exposure trim: +%.2f EV on %d Exposure Compensation values' % (TRIM_EV, trimmed))
+# [TIMEOFDAY] lines without a space before '=' (the shipped 'Key =value' form relies on key trimming)
+for idx, (dst, data, how, ch, rel) in enumerate(plan):
+    if rel == 'enbseries.ini':
+        eol = b'\r\n' if b'\r\n' in data else b'\n'; out = []; sec = b''
+        for ln in data.split(eol):
+            t = ln.strip()
+            if t.startswith(b'[') and t.endswith(b']'): sec = t.upper()
+            elif sec == b'[TIMEOFDAY]' and b'=' in ln:
+                k, v = ln.split(b'=', 1); ln = k.rstrip() + b'=' + v.strip()
+            out.append(ln)
+        plan[idx] = (dst, eol.join(out), how, ch, rel)
+# 2026-10-13 (user: the July look = Northman + the automatic DOF): ENB depth of field ON for the AMON ADOF Kitsuune shader in
+# mod 'Authoria - Picta - July Depth of Field (AMON ADOF)'; focusing/aperture times = AMON ENB REBORN's (the July profile).
+FORCE = {b'[EFFECT]': {b'EnableDepthOfField': b'true'}, b'[DEPTHOFFIELD]': {b'FocusingTime': b'0.5', b'ApertureTime': b'5.0'}}
+for idx, (dst, data, how, ch, rel) in enumerate(plan):
+    if rel == 'enbseries.ini':
+        eol = b'\r\n' if b'\r\n' in data else b'\n'; out = []; sec = b''; done = set()
+        for ln in data.split(eol):
+            t = ln.strip()
+            if t.startswith(b'[') and t.endswith(b']'): sec = t.upper()
+            elif sec in FORCE and b'=' in ln:
+                k = ln.split(b'=', 1)[0].strip()
+                if k in FORCE[sec]: ln = k + b'=' + FORCE[sec][k]; done.add((sec, k))
+            out.append(ln)
+        missing = [(s, k) for s in FORCE for k in FORCE[s] if (s, k) not in done]
+        assert not missing, missing
+        plan[idx] = (dst, eol.join(out), how, ch + [(s.decode(), k.decode(), 0, 1) for s in FORCE for k in FORCE[s]], rel)
+        print('forced: EnableDepthOfField=true, DOF FocusingTime 0.5 / ApertureTime 5.0')
+# Ambient lift (2026-10-14, user: "bump up ambient light ... to increase the brightness a bit environmentally"; picks +15%,
+# outdoors AND interiors): every AmbientLightingIntensity<time of day> value x AMBIENT_GAIN in the weather inis and the base
+# enbseries.ini, and Picta's interior inis are carried into the override with the same lift (v3 otherwise leaves them shipped).
+AMBIENT_GAIN = 1.15
+AMB_KEY = re.compile(r'^AmbientLightingIntensity(Dawn|Sunrise|Day|Sunset|Dusk|Night|InteriorDay|InteriorNight)$')
+def ambient(data):
+    eol = b'\r\n' if b'\r\n' in data else b'\n'; out = []; n = 0
+    for ln in data.split(eol):
+        s = ln.decode('utf-8', 'replace'); t = s.strip()
+        if '=' in t and not t.startswith(';') and not t.startswith('//'):
+            k, v = t.split('=', 1)
+            if AMB_KEY.match(k.strip()) and fnum(v.strip()) is not None:
+                i = s.index('='); sp = ' ' if s[i + 1:i + 2] == ' ' else ''
+                out.append((s[:i + 1] + sp + fmt(v.strip(), fnum(v.strip()) * AMBIENT_GAIN)).encode('utf-8')); n += 1; continue
+        out.append(ln)
+    return eol.join(out), n
+INTERIORS = os.path.join(NEW, 'Picta - Interiors')
+for f in sorted(os.listdir(INTERIORS)) if os.path.isdir(INTERIORS) else []:
+    if f.lower().endswith('.ini'):
+        rel = os.path.join('Picta - Interiors', f)
+        plan.append((os.path.join(DST, rel), open(os.path.join(NEW, rel), 'rb').read(), 'shipped interior', [], rel))
+lifted = 0
+if AMBIENT_GAIN != 1.0:
+    for idx, (dst, data, how, ch, rel) in enumerate(plan):
+        if rel == '_weatherlist.ini' or rel in ROOT_FX: continue
+        data2, n = ambient(data); lifted += n
+        plan[idx] = (dst, data2, how, ch + [('AMBIENT', 'lift', 0, 1)] * n, rel)
+print('ambient lift: x%.2f on %d AmbientLightingIntensity values' % (AMBIENT_GAIN, lifted))
+tot = sum(len(p[3]) for p in plan)
+for dst, data, how, ch, rel in plan:
+    if rel.lower().startswith('picta - weathers' + os.sep + '00_master') or os.sep not in rel:
+        secs = {}
+        for s, k, a, b in ch: secs[s] = secs.get(s, 0) + 1
+        print('%-52s %-24s %4d  %s' % (rel[-52:], how[:24], len(ch), ', '.join('%s:%d' % kv for kv in sorted(secs.items()))[:150]))
+print('TOTAL: %d files, %d values%s' % (len(plan), tot, '' if WRITE else ' (report only)'))
+if '--compare' in sys.argv:   # what a --write would change, file by file, against the override as it is now
+    same = new = 0; diff = {}
+    for dst, data, how, ch, rel in plan:
+        if not os.path.exists(dst): new += 1; continue
+        cur = open(dst, 'rb').read()
+        if cur == data: same += 1; continue
+        a, b = cur.split(b'\n'), data.split(b'\n')
+        diff[rel] = [(x.strip(), y.strip()) for x, y in zip(a, b) if x != y] + ([('<line count>', '%d->%d' % (len(a), len(b)))] if len(a) != len(b) else [])
+    planned = {os.path.normcase(p[0]) for p in plan}
+    gone = [os.path.relpath(os.path.join(d, f), DSTM) for d, _, fs in os.walk(os.path.join(DSTM, 'enbseries')) for f in fs
+            if os.path.normcase(os.path.join(d, f)) not in planned]
+    keys = {}
+    for rel, pairs in diff.items():
+        for x, y in pairs: keys[x.split(b'=')[0] if b'=' in x else x] = keys.get(x.split(b'=')[0] if b'=' in x else x, 0) + 1
+    print('compare: %d identical, %d changed, %d new, %d existing files not in the plan %s' % (same, len(diff), new, len(gone), gone[:5]))
+    print('changed keys:', sorted(keys.items(), key=lambda kv: -kv[1])[:20])
+if WRITE:
+    for sub in ('enbseries',):
+        p = os.path.join(DSTM, sub)
+        if os.path.isdir(p): shutil.rmtree(p)
+    for dst, data, how, ch, rel in plan:
+        os.makedirs(os.path.dirname(dst), exist_ok=True); open(dst, 'wb').write(data)
+    print('written into', DSTM)

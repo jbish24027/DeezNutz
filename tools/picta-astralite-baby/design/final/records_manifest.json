@@ -1,0 +1,7732 @@
+{
+ "plugin": "Authoria - Patch - Picta x Astralite.esp",
+ "flags": [
+  "ESL"
+ ],
+ "form_version": 44,
+ "masters": [
+  "Skyrim.esm",
+  "Update.esm",
+  "Dawnguard.esm",
+  "Dragonborn.esm",
+  "Picta - Weathers of Aurbis.esm",
+  "Mists of Tamriel.esp",
+  "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "Authoria - Patch - Picta Seasonal.esp"
+ ],
+ "new_records": [
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_DayVL",
+   "copy_of": "000814:Astralite Weathers.esp",
+   "copy_version_from": "Astralite ENB.esp",
+   "set": {
+    "Intensity": 1.176
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_FogVL",
+   "copy_of": "00085D:Astralite Weathers.esp",
+   "copy_version_from": "Astralite Weathers.esp",
+   "set": {
+    "Intensity": 1.994
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_FogVL_Blue",
+   "copy_of": "000861:Astralite Weathers.esp",
+   "copy_version_from": "Astralite ENB.esp",
+   "set": {
+    "Intensity": 2.847
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_GoldVL",
+   "copy_of": "00082D:Astralite ENB.esp",
+   "copy_version_from": "Astralite ENB.esp",
+   "set": {
+    "Intensity": 1.223
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_PeachVL",
+   "copy_of": "00086F:Astralite Weathers.esp",
+   "copy_version_from": "Astralite Weathers.esp",
+   "set": {
+    "Intensity": 2.275
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_PureVL",
+   "copy_of": "000821:Astralite ENB.esp",
+   "copy_version_from": "Astralite ENB.esp",
+   "set": {
+    "Intensity": 2.021
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_StormVL",
+   "copy_of": "00085A:Astralite Weathers.esp",
+   "copy_version_from": "Astralite Weathers.esp",
+   "set": {
+    "Intensity": 1.225
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "VOLI",
+   "editorid": "PXA_LAM_YellowVL",
+   "copy_of": "000810:Astralite Weathers.esp",
+   "copy_version_from": "Astralite ENB.esp",
+   "set": {
+    "Intensity": 1.436
+   },
+   "note": "verbatim copy except Intensity (Picta scalar regime)"
+  },
+  {
+   "type": "ARTO",
+   "editorid": "PXA_Distant_Mounts_Lite01",
+   "copy_of": "000802:Astralite ENB.esp",
+   "source_mod": "[NoDelete] Soul Core Plugin and Assets"
+  },
+  {
+   "type": "RFCT",
+   "editorid": "PXA_Distant_Mounts_Lite",
+   "copy_of": "000834:Astralite ENB.esp",
+   "source_mod": "[NoDelete] Soul Core Plugin and Assets",
+   "relink": {
+    "EffectArt": "PXA_Distant_Mounts_Lite01"
+   }
+  },
+  {
+   "type": "ARTO",
+   "editorid": "PXA_Distant_Mounts_Heavy01",
+   "copy_of": "000803:Astralite ENB.esp",
+   "source_mod": "[NoDelete] Soul Core Plugin and Assets"
+  },
+  {
+   "type": "RFCT",
+   "editorid": "PXA_Distant_Mounts_Heavy",
+   "copy_of": "000812:Astralite ENB.esp",
+   "source_mod": "[NoDelete] Soul Core Plugin and Assets",
+   "relink": {
+    "EffectArt": "PXA_Distant_Mounts_Heavy01"
+   }
+  },
+  {
+   "type": "ARTO",
+   "editorid": "PXA_Distant_Mounts_Rain01",
+   "copy_of": "00080C:Astralite ENB.esp",
+   "source_mod": "[NoDelete] Soul Core Plugin and Assets"
+  },
+  {
+   "type": "RFCT",
+   "editorid": "PXA_Distant_Mounts_Rain",
+   "copy_of": "00081C:Astralite ENB.esp",
+   "source_mod": "[NoDelete] Soul Core Plugin and Assets",
+   "relink": {
+    "EffectArt": "PXA_Distant_Mounts_Rain01"
+   }
+  }
+ ],
+ "overrides": {
+  "19FA01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_A01_Clear",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      95,
+      61,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      45,
+      48,
+      98
+     ],
+     "new": [
+      61,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      76,
+      95,
+      195
+     ],
+     "new": [
+      122,
+      86,
+      151
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      20,
+      45,
+      110
+     ],
+     "new": [
+      26,
+      44,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      40,
+      90,
+      220
+     ],
+     "new": [
+      51,
+      91,
+      195
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      82,
+      59,
+      110
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      95,
+      56,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      45,
+      45,
+      98
+     ],
+     "new": [
+      59,
+      43,
+      79
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      76,
+      89,
+      195
+     ],
+     "new": [
+      120,
+      81,
+      147
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FA02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_A02_Clear_Aurora",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      95,
+      61,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      45,
+      48,
+      98
+     ],
+     "new": [
+      61,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      76,
+      95,
+      195
+     ],
+     "new": [
+      122,
+      86,
+      151
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      20,
+      45,
+      110
+     ],
+     "new": [
+      26,
+      44,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      40,
+      90,
+      220
+     ],
+     "new": [
+      51,
+      91,
+      195
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      82,
+      59,
+      110
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      95,
+      56,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      45,
+      45,
+      98
+     ],
+     "new": [
+      59,
+      43,
+      79
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      76,
+      89,
+      195
+     ],
+     "new": [
+      120,
+      81,
+      147
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FA03:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_A03_Clear_Mist",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      94,
+      67,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      85,
+      69,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      89,
+      68,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      89,
+      68,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      50,
+      52,
+      87
+     ],
+     "new": [
+      60,
+      50,
+      78
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      100,
+      104,
+      175
+     ],
+     "new": [
+      133,
+      97,
+      148
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      42,
+      67,
+      132
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      43,
+      67,
+      130
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      43,
+      67,
+      130
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      43,
+      67,
+      130
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      28,
+      49,
+      95
+     ],
+     "new": [
+      29,
+      49,
+      93
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      56,
+      97,
+      189
+     ],
+     "new": [
+      63,
+      97,
+      176
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      83,
+      65,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      93,
+      63,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      88,
+      64,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      88,
+      64,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      48,
+      48,
+      86
+     ],
+     "new": [
+      59,
+      46,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      99,
+      98,
+      172
+     ],
+     "new": [
+      129,
+      92,
+      144
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FB01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_B01_Lightly_Cloudy",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      98,
+      64,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      88,
+      66,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      48,
+      50,
+      98
+     ],
+     "new": [
+      64,
+      47,
+      82
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      110,
+      100,
+      195
+     ],
+     "new": [
+      145,
+      94,
+      155
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      22,
+      47,
+      110
+     ],
+     "new": [
+      27,
+      46,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      45,
+      95,
+      220
+     ],
+     "new": [
+      58,
+      95,
+      196
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      98,
+      60,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      47,
+      47,
+      98
+     ],
+     "new": [
+      60,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      110,
+      94,
+      195
+     ],
+     "new": [
+      143,
+      89,
+      151
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FB02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      98,
+      64,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      88,
+      66,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      48,
+      50,
+      98
+     ],
+     "new": [
+      64,
+      47,
+      82
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      110,
+      100,
+      195
+     ],
+     "new": [
+      145,
+      94,
+      155
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      22,
+      47,
+      110
+     ],
+     "new": [
+      27,
+      46,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      45,
+      95,
+      220
+     ],
+     "new": [
+      58,
+      95,
+      196
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      98,
+      60,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      47,
+      47,
+      98
+     ],
+     "new": [
+      60,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      110,
+      94,
+      195
+     ],
+     "new": [
+      143,
+      89,
+      151
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FB03:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      74,
+      77,
+      118
+     ],
+     "new": [
+      81,
+      77,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      74,
+      77,
+      118
+     ],
+     "new": [
+      79,
+      77,
+      105
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      74,
+      77,
+      118
+     ],
+     "new": [
+      80,
+      77,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      74,
+      77,
+      118
+     ],
+     "new": [
+      80,
+      77,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      53,
+      56,
+      84
+     ],
+     "new": [
+      57,
+      56,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      106,
+      109,
+      168
+     ],
+     "new": [
+      113,
+      110,
+      143
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      45,
+      72,
+      127
+     ],
+     "new": [
+      51,
+      71,
+      121
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      45,
+      72,
+      127
+     ],
+     "new": [
+      51,
+      71,
+      121
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      45,
+      72,
+      127
+     ],
+     "new": [
+      51,
+      71,
+      121
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      45,
+      72,
+      127
+     ],
+     "new": [
+      51,
+      71,
+      121
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      32,
+      51,
+      91
+     ],
+     "new": [
+      37,
+      50,
+      87
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      64,
+      102,
+      181
+     ],
+     "new": [
+      75,
+      100,
+      172
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      74,
+      73,
+      117
+     ],
+     "new": [
+      79,
+      73,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      74,
+      73,
+      117
+     ],
+     "new": [
+      78,
+      74,
+      99
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      74,
+      73,
+      117
+     ],
+     "new": [
+      80,
+      73,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      74,
+      73,
+      117
+     ],
+     "new": [
+      80,
+      73,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      53,
+      52,
+      84
+     ],
+     "new": [
+      57,
+      52,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      105,
+      104,
+      167
+     ],
+     "new": [
+      112,
+      105,
+      141
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Heavy"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.4980392
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.4980392
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FC01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_C01_Cloudy",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      50,
+      63,
+      129
+     ],
+     "new": [
+      62,
+      63,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      50,
+      63,
+      129
+     ],
+     "new": [
+      61,
+      63,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      50,
+      63,
+      129
+     ],
+     "new": [
+      62,
+      63,
+      99
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      50,
+      63,
+      129
+     ],
+     "new": [
+      62,
+      63,
+      99
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      36,
+      45,
+      93
+     ],
+     "new": [
+      44,
+      45,
+      73
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      154,
+      90,
+      184
+     ],
+     "new": [
+      145,
+      97,
+      151
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      45,
+      76,
+      146
+     ],
+     "new": [
+      54,
+      75,
+      136
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      45,
+      76,
+      146
+     ],
+     "new": [
+      54,
+      75,
+      135
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      45,
+      76,
+      146
+     ],
+     "new": [
+      54,
+      75,
+      135
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      45,
+      76,
+      146
+     ],
+     "new": [
+      54,
+      75,
+      135
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      32,
+      54,
+      105
+     ],
+     "new": [
+      39,
+      53,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      64,
+      106,
+      208
+     ],
+     "new": [
+      76,
+      105,
+      193
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      50,
+      61,
+      129
+     ],
+     "new": [
+      61,
+      61,
+      100
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      50,
+      61,
+      129
+     ],
+     "new": [
+      60,
+      62,
+      95
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      50,
+      61,
+      129
+     ],
+     "new": [
+      62,
+      61,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      50,
+      61,
+      129
+     ],
+     "new": [
+      62,
+      61,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      36,
+      43,
+      92
+     ],
+     "new": [
+      44,
+      43,
+      71
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      153,
+      86,
+      183
+     ],
+     "new": [
+      141,
+      94,
+      149
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_YellowVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_GoldVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FC02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_C02_Cloudy_Storm",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      55,
+      66,
+      112
+     ],
+     "new": [
+      64,
+      66,
+      90
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      55,
+      66,
+      112
+     ],
+     "new": [
+      65,
+      65,
+      95
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      55,
+      66,
+      112
+     ],
+     "new": [
+      63,
+      66,
+      92
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      55,
+      66,
+      112
+     ],
+     "new": [
+      63,
+      66,
+      92
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      39,
+      47,
+      80
+     ],
+     "new": [
+      44,
+      47,
+      67
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      142,
+      94,
+      160
+     ],
+     "new": [
+      135,
+      99,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      50,
+      75,
+      128
+     ],
+     "new": [
+      56,
+      74,
+      123
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      50,
+      75,
+      128
+     ],
+     "new": [
+      56,
+      74,
+      122
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      50,
+      75,
+      128
+     ],
+     "new": [
+      56,
+      74,
+      123
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      50,
+      75,
+      128
+     ],
+     "new": [
+      56,
+      74,
+      123
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      36,
+      54,
+      92
+     ],
+     "new": [
+      39,
+      54,
+      87
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      71,
+      108,
+      182
+     ],
+     "new": [
+      79,
+      107,
+      174
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      55,
+      64,
+      112
+     ],
+     "new": [
+      62,
+      64,
+      94
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      55,
+      64,
+      112
+     ],
+     "new": [
+      64,
+      64,
+      89
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      55,
+      64,
+      112
+     ],
+     "new": [
+      63,
+      64,
+      91
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      55,
+      64,
+      112
+     ],
+     "new": [
+      63,
+      64,
+      91
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      39,
+      46,
+      80
+     ],
+     "new": [
+      44,
+      46,
+      67
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      141,
+      91,
+      159
+     ],
+     "new": [
+      134,
+      96,
+      136
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_YellowVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_GoldVL"
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FC03:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_C03_Cloudy_Light_Fog",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      61,
+      73,
+      113
+     ],
+     "new": [
+      68,
+      73,
+      96
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      61,
+      73,
+      113
+     ],
+     "new": [
+      69,
+      72,
+      100
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      61,
+      73,
+      113
+     ],
+     "new": [
+      70,
+      72,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      61,
+      73,
+      113
+     ],
+     "new": [
+      70,
+      72,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      44,
+      53,
+      81
+     ],
+     "new": [
+      51,
+      52,
+      71
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      87,
+      104,
+      161
+     ],
+     "new": [
+      99,
+      103,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      54,
+      76,
+      113
+     ],
+     "new": [
+      58,
+      75,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      54,
+      76,
+      113
+     ],
+     "new": [
+      58,
+      75,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      54,
+      76,
+      113
+     ],
+     "new": [
+      58,
+      75,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      54,
+      76,
+      113
+     ],
+     "new": [
+      58,
+      75,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      38,
+      54,
+      81
+     ],
+     "new": [
+      39,
+      54,
+      79
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      76,
+      108,
+      161
+     ],
+     "new": [
+      81,
+      107,
+      158
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      61,
+      71,
+      112
+     ],
+     "new": [
+      70,
+      70,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      61,
+      71,
+      112
+     ],
+     "new": [
+      68,
+      71,
+      94
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      61,
+      71,
+      112
+     ],
+     "new": [
+      67,
+      71,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      61,
+      71,
+      112
+     ],
+     "new": [
+      67,
+      71,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      44,
+      50,
+      80
+     ],
+     "new": [
+      48,
+      50,
+      70
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      86,
+      101,
+      160
+     ],
+     "new": [
+      98,
+      100,
+      137
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Heavy"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.4980392
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.4980392
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FC04:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      55,
+      72,
+      135
+     ],
+     "new": [
+      68,
+      72,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      55,
+      72,
+      135
+     ],
+     "new": [
+      68,
+      72,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      55,
+      72,
+      135
+     ],
+     "new": [
+      68,
+      72,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      55,
+      72,
+      135
+     ],
+     "new": [
+      68,
+      72,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      40,
+      51,
+      97
+     ],
+     "new": [
+      49,
+      51,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      151,
+      102,
+      193
+     ],
+     "new": [
+      147,
+      108,
+      156
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      54,
+      86,
+      160
+     ],
+     "new": [
+      66,
+      86,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      54,
+      86,
+      160
+     ],
+     "new": [
+      66,
+      86,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      54,
+      86,
+      160
+     ],
+     "new": [
+      66,
+      86,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      54,
+      86,
+      160
+     ],
+     "new": [
+      66,
+      86,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      39,
+      62,
+      115
+     ],
+     "new": [
+      47,
+      62,
+      100
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      77,
+      124,
+      228
+     ],
+     "new": [
+      91,
+      125,
+      198
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      55,
+      68,
+      135
+     ],
+     "new": [
+      65,
+      69,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      55,
+      68,
+      135
+     ],
+     "new": [
+      65,
+      69,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      55,
+      68,
+      135
+     ],
+     "new": [
+      65,
+      69,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      55,
+      68,
+      135
+     ],
+     "new": [
+      65,
+      69,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      40,
+      49,
+      97
+     ],
+     "new": [
+      49,
+      49,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      151,
+      98,
+      193
+     ],
+     "new": [
+      144,
+      105,
+      154
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Rain"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    }
+   ]
+  },
+  "19FC05:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      55,
+      67,
+      108
+     ],
+     "new": [
+      60,
+      67,
+      96
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      55,
+      67,
+      108
+     ],
+     "new": [
+      60,
+      67,
+      96
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      55,
+      67,
+      108
+     ],
+     "new": [
+      60,
+      67,
+      96
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      55,
+      67,
+      108
+     ],
+     "new": [
+      60,
+      67,
+      96
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      40,
+      48,
+      78
+     ],
+     "new": [
+      44,
+      48,
+      68
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      129,
+      97,
+      155
+     ],
+     "new": [
+      116,
+      102,
+      148
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      50,
+      75,
+      119
+     ],
+     "new": [
+      56,
+      74,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      50,
+      75,
+      119
+     ],
+     "new": [
+      56,
+      74,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      50,
+      75,
+      119
+     ],
+     "new": [
+      56,
+      74,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      50,
+      75,
+      119
+     ],
+     "new": [
+      56,
+      74,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      36,
+      54,
+      85
+     ],
+     "new": [
+      41,
+      53,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      71,
+      106,
+      170
+     ],
+     "new": [
+      79,
+      105,
+      161
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      54,
+      66,
+      108
+     ],
+     "new": [
+      59,
+      66,
+      95
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      54,
+      66,
+      108
+     ],
+     "new": [
+      59,
+      66,
+      95
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      54,
+      66,
+      108
+     ],
+     "new": [
+      59,
+      66,
+      95
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      54,
+      66,
+      108
+     ],
+     "new": [
+      59,
+      66,
+      95
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      40,
+      47,
+      78
+     ],
+     "new": [
+      44,
+      47,
+      68
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      129,
+      94,
+      154
+     ],
+     "new": [
+      115,
+      99,
+      148
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Rain"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    }
+   ]
+  },
+  "19FD01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_D01_Overcast",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      58,
+      72,
+      126
+     ],
+     "new": [
+      64,
+      73,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      58,
+      72,
+      126
+     ],
+     "new": [
+      64,
+      73,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      58,
+      72,
+      126
+     ],
+     "new": [
+      64,
+      73,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      58,
+      72,
+      126
+     ],
+     "new": [
+      64,
+      73,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      42,
+      52,
+      91
+     ],
+     "new": [
+      48,
+      52,
+      76
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      146,
+      104,
+      180
+     ],
+     "new": [
+      127,
+      112,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      52,
+      80,
+      138
+     ],
+     "new": [
+      60,
+      80,
+      124
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      52,
+      80,
+      138
+     ],
+     "new": [
+      60,
+      80,
+      124
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      52,
+      80,
+      138
+     ],
+     "new": [
+      60,
+      80,
+      124
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      52,
+      80,
+      138
+     ],
+     "new": [
+      60,
+      80,
+      124
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      38,
+      57,
+      99
+     ],
+     "new": [
+      43,
+      57,
+      90
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      75,
+      116,
+      198
+     ],
+     "new": [
+      86,
+      116,
+      179
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      57,
+      70,
+      125
+     ],
+     "new": [
+      63,
+      71,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      57,
+      70,
+      125
+     ],
+     "new": [
+      62,
+      71,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      57,
+      70,
+      125
+     ],
+     "new": [
+      62,
+      71,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      57,
+      70,
+      125
+     ],
+     "new": [
+      62,
+      71,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      41,
+      50,
+      90
+     ],
+     "new": [
+      44,
+      51,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      145,
+      100,
+      179
+     ],
+     "new": [
+      123,
+      109,
+      162
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Heavy"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.4980392
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.4980392
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FD02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      102,
+      122,
+      162
+     ],
+     "new": [
+      110,
+      121,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      102,
+      122,
+      162
+     ],
+     "new": [
+      110,
+      121,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      102,
+      122,
+      162
+     ],
+     "new": [
+      110,
+      121,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      102,
+      122,
+      162
+     ],
+     "new": [
+      110,
+      121,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      74,
+      88,
+      116
+     ],
+     "new": [
+      80,
+      87,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      146,
+      174,
+      232
+     ],
+     "new": [
+      156,
+      173,
+      215
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      98,
+      132,
+      170
+     ],
+     "new": [
+      104,
+      131,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      98,
+      132,
+      170
+     ],
+     "new": [
+      104,
+      131,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      98,
+      132,
+      170
+     ],
+     "new": [
+      104,
+      131,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      98,
+      132,
+      170
+     ],
+     "new": [
+      104,
+      131,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      70,
+      94,
+      122
+     ],
+     "new": [
+      75,
+      93,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      140,
+      187,
+      242
+     ],
+     "new": [
+      150,
+      185,
+      234
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      103,
+      120,
+      163
+     ],
+     "new": [
+      108,
+      120,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      103,
+      120,
+      163
+     ],
+     "new": [
+      108,
+      120,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      103,
+      120,
+      163
+     ],
+     "new": [
+      108,
+      120,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      103,
+      120,
+      163
+     ],
+     "new": [
+      108,
+      120,
+      150
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      74,
+      86,
+      117
+     ],
+     "new": [
+      78,
+      86,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      147,
+      171,
+      233
+     ],
+     "new": [
+      157,
+      170,
+      215
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Heavy"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.4980392
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.4980392
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "19FD03:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_D03_Overcast_Rain_Light",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      50,
+      63,
+      107
+     ],
+     "new": [
+      58,
+      63,
+      87
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      148,
+      125,
+      213
+     ],
+     "new": [
+      150,
+      129,
+      177
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      49,
+      71,
+      108
+     ],
+     "new": [
+      55,
+      71,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      97,
+      142,
+      215
+     ],
+     "new": [
+      110,
+      142,
+      192
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      50,
+      60,
+      107
+     ],
+     "new": [
+      58,
+      60,
+      86
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      148,
+      122,
+      213
+     ],
+     "new": [
+      150,
+      126,
+      175
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Rain"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    }
+   ]
+  },
+  "19FD04:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_D04_Overcast_Rain_Medium",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      70,
+      88,
+      148
+     ],
+     "new": [
+      82,
+      88,
+      118
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      50,
+      63,
+      107
+     ],
+     "new": [
+      58,
+      63,
+      87
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      148,
+      125,
+      213
+     ],
+     "new": [
+      150,
+      129,
+      177
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      68,
+      99,
+      150
+     ],
+     "new": [
+      77,
+      99,
+      134
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      49,
+      71,
+      108
+     ],
+     "new": [
+      55,
+      71,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      97,
+      142,
+      215
+     ],
+     "new": [
+      110,
+      142,
+      192
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      70,
+      84,
+      148
+     ],
+     "new": [
+      82,
+      84,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      50,
+      60,
+      107
+     ],
+     "new": [
+      58,
+      60,
+      86
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      148,
+      122,
+      213
+     ],
+     "new": [
+      150,
+      126,
+      175
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Rain"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    }
+   ]
+  },
+  "19FD05:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_D05_Overcast_Snow_Light",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      80,
+      89,
+      119
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      81,
+      89,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      81,
+      89,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      81,
+      89,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      97,
+      111,
+      155
+     ],
+     "new": [
+      101,
+      111,
+      145
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      129,
+      111,
+      155
+     ],
+     "new": [
+      120,
+      114,
+      154
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      74,
+      91,
+      128
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      72,
+      92,
+      127
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      72,
+      92,
+      127
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      72,
+      92,
+      127
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      88,
+      115,
+      163
+     ],
+     "new": [
+      93,
+      114,
+      159
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      88,
+      115,
+      163
+     ],
+     "new": [
+      93,
+      114,
+      159
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      116
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      116
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      116
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      96,
+      106,
+      153
+     ],
+     "new": [
+      100,
+      106,
+      143
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      128,
+      106,
+      153
+     ],
+     "new": [
+      116,
+      110,
+      151
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Rain"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    }
+   ]
+  },
+  "19FD06:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_D06_Overcast_Snow_Medium",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      80,
+      89,
+      119
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      81,
+      89,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      81,
+      89,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      78,
+      89,
+      124
+     ],
+     "new": [
+      81,
+      89,
+      117
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      97,
+      111,
+      155
+     ],
+     "new": [
+      101,
+      111,
+      145
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      129,
+      111,
+      155
+     ],
+     "new": [
+      120,
+      114,
+      154
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      74,
+      91,
+      128
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      72,
+      92,
+      127
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      72,
+      92,
+      127
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      70,
+      92,
+      131
+     ],
+     "new": [
+      72,
+      92,
+      127
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      88,
+      115,
+      163
+     ],
+     "new": [
+      93,
+      114,
+      159
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      88,
+      115,
+      163
+     ],
+     "new": [
+      93,
+      114,
+      159
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      116
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      116
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      77,
+      85,
+      123
+     ],
+     "new": [
+      80,
+      85,
+      116
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      96,
+      106,
+      153
+     ],
+     "new": [
+      100,
+      106,
+      143
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      128,
+      106,
+      153
+     ],
+     "new": [
+      116,
+      110,
+      151
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Rain"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    }
+   ]
+  },
+  "19FE01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_E01_Storm_Thunder",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      57,
+      79,
+      117
+     ],
+     "new": [
+      68,
+      78,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      57,
+      79,
+      117
+     ],
+     "new": [
+      67,
+      78,
+      99
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      57,
+      79,
+      117
+     ],
+     "new": [
+      68,
+      78,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      57,
+      79,
+      117
+     ],
+     "new": [
+      68,
+      78,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      41,
+      57,
+      84
+     ],
+     "new": [
+      49,
+      56,
+      72
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      81,
+      114,
+      168
+     ],
+     "new": [
+      98,
+      112,
+      141
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      60,
+      92,
+      135
+     ],
+     "new": [
+      70,
+      91,
+      122
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      60,
+      92,
+      135
+     ],
+     "new": [
+      70,
+      91,
+      122
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      60,
+      92,
+      135
+     ],
+     "new": [
+      70,
+      91,
+      122
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      60,
+      92,
+      135
+     ],
+     "new": [
+      70,
+      91,
+      122
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      43,
+      65,
+      97
+     ],
+     "new": [
+      50,
+      64,
+      89
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      86,
+      131,
+      193
+     ],
+     "new": [
+      99,
+      130,
+      174
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      56,
+      77,
+      117
+     ],
+     "new": [
+      67,
+      76,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      56,
+      77,
+      117
+     ],
+     "new": [
+      67,
+      76,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      56,
+      77,
+      117
+     ],
+     "new": [
+      67,
+      76,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      56,
+      77,
+      117
+     ],
+     "new": [
+      67,
+      76,
+      97
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      40,
+      56,
+      84
+     ],
+     "new": [
+      48,
+      55,
+      71
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      81,
+      112,
+      168
+     ],
+     "new": [
+      95,
+      111,
+      140
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_StormVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_StormVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_StormVL"
+    }
+   ]
+  },
+  "19FE02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_E02_Storm_Cold_Thunder",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      56,
+      78,
+      128
+     ],
+     "new": [
+      62,
+      78,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      56,
+      78,
+      128
+     ],
+     "new": [
+      62,
+      78,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      56,
+      78,
+      128
+     ],
+     "new": [
+      62,
+      78,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      56,
+      78,
+      128
+     ],
+     "new": [
+      62,
+      78,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      40,
+      56,
+      92
+     ],
+     "new": [
+      44,
+      56,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      80,
+      113,
+      183
+     ],
+     "new": [
+      88,
+      113,
+      163
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      59,
+      91,
+      147
+     ],
+     "new": [
+      64,
+      91,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      59,
+      91,
+      147
+     ],
+     "new": [
+      64,
+      91,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      59,
+      91,
+      147
+     ],
+     "new": [
+      64,
+      91,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      59,
+      91,
+      147
+     ],
+     "new": [
+      64,
+      91,
+      138
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      43,
+      65,
+      105
+     ],
+     "new": [
+      46,
+      65,
+      100
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      85,
+      130,
+      210
+     ],
+     "new": [
+      91,
+      130,
+      199
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      56,
+      77,
+      127
+     ],
+     "new": [
+      62,
+      77,
+      112
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      56,
+      77,
+      127
+     ],
+     "new": [
+      62,
+      77,
+      112
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      56,
+      77,
+      127
+     ],
+     "new": [
+      62,
+      77,
+      112
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      56,
+      77,
+      127
+     ],
+     "new": [
+      62,
+      77,
+      112
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      40,
+      56,
+      91
+     ],
+     "new": [
+      44,
+      56,
+      80
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      80,
+      110,
+      182
+     ],
+     "new": [
+      88,
+      110,
+      161
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL_Blue"
+    }
+   ]
+  },
+  "19FE03:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      56,
+      75,
+      91
+     ],
+     "new": [
+      63,
+      74,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      111,
+      148,
+      180
+     ],
+     "new": [
+      127,
+      145,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      58,
+      82,
+      100
+     ],
+     "new": [
+      64,
+      81,
+      94
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      116,
+      163,
+      201
+     ],
+     "new": [
+      128,
+      161,
+      189
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      56,
+      74,
+      91
+     ],
+     "new": [
+      63,
+      73,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      112,
+      147,
+      181
+     ],
+     "new": [
+      125,
+      145,
+      164
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_StormVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_StormVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_StormVL"
+    }
+   ]
+  },
+  "19FE04:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      56,
+      75,
+      91
+     ],
+     "new": [
+      63,
+      74,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      111,
+      148,
+      180
+     ],
+     "new": [
+      127,
+      145,
+      164
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      82,
+      115,
+      141
+     ],
+     "new": [
+      89,
+      114,
+      133
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      58,
+      82,
+      100
+     ],
+     "new": [
+      64,
+      81,
+      94
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      116,
+      163,
+      201
+     ],
+     "new": [
+      128,
+      161,
+      189
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      78,
+      104,
+      127
+     ],
+     "new": [
+      89,
+      102,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      56,
+      74,
+      91
+     ],
+     "new": [
+      63,
+      73,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      112,
+      147,
+      181
+     ],
+     "new": [
+      125,
+      145,
+      164
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_StormVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_StormVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_StormVL"
+    }
+   ]
+  },
+  "19FE05:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_E05_Storm_Snow_Heavy",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      109,
+      132,
+      162
+     ],
+     "new": [
+      108,
+      132,
+      164
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL_Blue"
+    }
+   ]
+  },
+  "19FE06:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_MASTER_E06_Storm_Snow_Extreme",
+   "forward_from": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      109,
+      132,
+      162
+     ],
+     "new": [
+      108,
+      132,
+      164
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_FogVL_Blue"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_FogVL_Blue"
+    }
+   ]
+  },
+  "5AFA01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_SUMMER_A01_Clear",
+   "forward_from": "Authoria - Patch - Picta Seasonal.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      95,
+      61,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      45,
+      48,
+      98
+     ],
+     "new": [
+      61,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      76,
+      95,
+      195
+     ],
+     "new": [
+      122,
+      86,
+      151
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      20,
+      45,
+      110
+     ],
+     "new": [
+      26,
+      44,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      40,
+      90,
+      220
+     ],
+     "new": [
+      51,
+      91,
+      195
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      82,
+      59,
+      110
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      95,
+      56,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      45,
+      45,
+      98
+     ],
+     "new": [
+      59,
+      43,
+      79
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      76,
+      89,
+      195
+     ],
+     "new": [
+      120,
+      81,
+      147
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "5AFA02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_SUMMER_A02_Clear_Aurora",
+   "forward_from": "Authoria - Patch - Picta Seasonal.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      95,
+      61,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      63,
+      67,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      109
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      45,
+      48,
+      98
+     ],
+     "new": [
+      61,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      76,
+      95,
+      195
+     ],
+     "new": [
+      122,
+      86,
+      151
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      28,
+      63,
+      154
+     ],
+     "new": [
+      36,
+      62,
+      144
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      20,
+      45,
+      110
+     ],
+     "new": [
+      26,
+      44,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      40,
+      90,
+      220
+     ],
+     "new": [
+      51,
+      91,
+      195
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      82,
+      59,
+      110
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      95,
+      56,
+      102
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      62,
+      62,
+      137
+     ],
+     "new": [
+      87,
+      58,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      45,
+      45,
+      98
+     ],
+     "new": [
+      59,
+      43,
+      79
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      76,
+      89,
+      195
+     ],
+     "new": [
+      120,
+      81,
+      147
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "5AFA03:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_SUMMER_A03_Clear_Mist",
+   "forward_from": "Authoria - Patch - Picta Seasonal.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      94,
+      67,
+      101
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      85,
+      69,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      89,
+      68,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      70,
+      72,
+      122
+     ],
+     "new": [
+      89,
+      68,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      50,
+      52,
+      87
+     ],
+     "new": [
+      60,
+      50,
+      78
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      100,
+      104,
+      175
+     ],
+     "new": [
+      133,
+      97,
+      148
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      42,
+      67,
+      132
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      43,
+      67,
+      130
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      43,
+      67,
+      130
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      39,
+      68,
+      133
+     ],
+     "new": [
+      43,
+      67,
+      130
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      28,
+      49,
+      95
+     ],
+     "new": [
+      29,
+      49,
+      93
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      56,
+      97,
+      189
+     ],
+     "new": [
+      63,
+      97,
+      176
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      83,
+      65,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      93,
+      63,
+      98
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      88,
+      64,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      68,
+      68,
+      121
+     ],
+     "new": [
+      88,
+      64,
+      103
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      48,
+      48,
+      86
+     ],
+     "new": [
+      59,
+      46,
+      74
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      99,
+      98,
+      172
+     ],
+     "new": [
+      129,
+      92,
+      144
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "5AFB01:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_SUMMER_B01_Lightly_Cloudy",
+   "forward_from": "Authoria - Patch - Picta Seasonal.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      98,
+      64,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      88,
+      66,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      48,
+      50,
+      98
+     ],
+     "new": [
+      64,
+      47,
+      82
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      110,
+      100,
+      195
+     ],
+     "new": [
+      145,
+      94,
+      155
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      22,
+      47,
+      110
+     ],
+     "new": [
+      27,
+      46,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      45,
+      95,
+      220
+     ],
+     "new": [
+      58,
+      95,
+      196
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      98,
+      60,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      47,
+      47,
+      98
+     ],
+     "new": [
+      60,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      110,
+      94,
+      195
+     ],
+     "new": [
+      143,
+      89,
+      151
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PeachVL"
+    },
+    {
+     "field": "VisualEffect",
+     "new": "PXA_Distant_Mounts_Lite"
+    },
+    {
+     "field": "VisualEffectBegin",
+     "new": 0.0
+    },
+    {
+     "field": "VisualEffectEnd",
+     "new": 0.0
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  },
+  "5AFB02:Picta - Weathers of Aurbis.esm": {
+   "editorid": "PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora",
+   "forward_from": "Authoria - Patch - Picta Seasonal.esp",
+   "ops": [
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      98,
+      64,
+      107
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalXMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      88,
+      66,
+      115
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYPlus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalYMinus",
+     "old": [
+      67,
+      70,
+      137
+     ],
+     "new": [
+      93,
+      65,
+      111
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZPlus",
+     "old": [
+      48,
+      50,
+      98
+     ],
+     "new": [
+      64,
+      47,
+      82
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunrise.DirectionalZMinus",
+     "old": [
+      110,
+      100,
+      195
+     ],
+     "new": [
+      145,
+      94,
+      155
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalXMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYPlus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalYMinus",
+     "old": [
+      31,
+      66,
+      154
+     ],
+     "new": [
+      38,
+      65,
+      146
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZPlus",
+     "old": [
+      22,
+      47,
+      110
+     ],
+     "new": [
+      27,
+      46,
+      106
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Day.DirectionalZMinus",
+     "old": [
+      45,
+      95,
+      220
+     ],
+     "new": [
+      58,
+      95,
+      196
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      85,
+      63,
+      113
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalXMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      98,
+      60,
+      104
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYPlus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalYMinus",
+     "old": [
+      66,
+      66,
+      137
+     ],
+     "new": [
+      90,
+      62,
+      108
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZPlus",
+     "old": [
+      47,
+      47,
+      98
+     ],
+     "new": [
+      60,
+      45,
+      81
+     ]
+    },
+    {
+     "field": "DirectionalAmbientLightingColors.Sunset.DirectionalZMinus",
+     "old": [
+      110,
+      94,
+      195
+     ],
+     "new": [
+      143,
+      89,
+      151
+     ]
+    },
+    {
+     "field": "VolumetricLighting.Sunrise",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "VolumetricLighting.Day",
+     "new": "PXA_LAM_DayVL"
+    },
+    {
+     "field": "VolumetricLighting.Sunset",
+     "new": "PXA_LAM_PureVL"
+    },
+    {
+     "field": "SkyStatics",
+     "op": "add",
+     "new": [
+      "00080B:Mists of Tamriel.esp",
+      "00080C:Mists of Tamriel.esp",
+      "00080D:Mists of Tamriel.esp",
+      "00080E:Mists of Tamriel.esp",
+      "00080F:Mists of Tamriel.esp",
+      "000810:Mists of Tamriel.esp",
+      "000811:Mists of Tamriel.esp",
+      "000812:Mists of Tamriel.esp",
+      "000813:Mists of Tamriel.esp",
+      "000814:Mists of Tamriel.esp",
+      "000815:Mists of Tamriel.esp",
+      "000816:Mists of Tamriel.esp"
+     ]
+    }
+   ]
+  }
+ },
+ "optional_off_by_default": {
+  "SkyStaticsColor": {
+   "19FA01": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "19FA02": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "19FA03": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "19FB01": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "19FB02": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "19FB03": {
+    "Sunrise": [
+     167,
+     176,
+     186
+    ],
+    "Day": [
+     171,
+     175,
+     184
+    ],
+    "Sunset": [
+     167,
+     176,
+     186
+    ]
+   },
+   "19FC01": {
+    "Sunrise": [
+     167,
+     176,
+     186
+    ],
+    "Day": [
+     171,
+     175,
+     184
+    ],
+    "Sunset": [
+     167,
+     176,
+     186
+    ]
+   },
+   "19FC02": {
+    "Sunrise": [
+     167,
+     176,
+     186
+    ],
+    "Day": [
+     171,
+     175,
+     184
+    ],
+    "Sunset": [
+     167,
+     176,
+     186
+    ]
+   },
+   "19FC03": {
+    "Sunrise": [
+     167,
+     176,
+     186
+    ],
+    "Day": [
+     171,
+     175,
+     184
+    ],
+    "Sunset": [
+     167,
+     176,
+     186
+    ]
+   },
+   "19FC04": {
+    "Sunrise": [
+     175,
+     175,
+     175
+    ],
+    "Day": [
+     175,
+     175,
+     175
+    ],
+    "Sunset": [
+     175,
+     175,
+     175
+    ]
+   },
+   "19FC05": {
+    "Sunrise": [
+     157,
+     178,
+     203
+    ],
+    "Day": [
+     164,
+     177,
+     192
+    ],
+    "Sunset": [
+     157,
+     178,
+     203
+    ]
+   },
+   "19FD01": {
+    "Sunrise": [
+     166,
+     176,
+     196
+    ],
+    "Day": [
+     169,
+     175,
+     187
+    ],
+    "Sunset": [
+     166,
+     176,
+     196
+    ]
+   },
+   "19FD02": {
+    "Sunrise": [
+     166,
+     176,
+     196
+    ],
+    "Day": [
+     169,
+     175,
+     187
+    ],
+    "Sunset": [
+     166,
+     176,
+     196
+    ]
+   },
+   "19FD03": {
+    "Sunrise": [
+     175,
+     175,
+     175
+    ],
+    "Day": [
+     175,
+     175,
+     175
+    ],
+    "Sunset": [
+     175,
+     175,
+     175
+    ]
+   },
+   "19FD04": {
+    "Sunrise": [
+     175,
+     175,
+     175
+    ],
+    "Day": [
+     175,
+     175,
+     175
+    ],
+    "Sunset": [
+     175,
+     175,
+     175
+    ]
+   },
+   "19FD05": {
+    "Sunrise": [
+     157,
+     178,
+     203
+    ],
+    "Day": [
+     164,
+     177,
+     192
+    ],
+    "Sunset": [
+     157,
+     178,
+     203
+    ]
+   },
+   "19FD06": {
+    "Sunrise": [
+     157,
+     178,
+     203
+    ],
+    "Day": [
+     164,
+     177,
+     192
+    ],
+    "Sunset": [
+     157,
+     178,
+     203
+    ]
+   },
+   "19FE01": {
+    "Sunrise": [
+     174,
+     174,
+     191
+    ],
+    "Day": [
+     174,
+     174,
+     184
+    ],
+    "Sunset": [
+     174,
+     174,
+     191
+    ]
+   },
+   "19FE02": {
+    "Sunrise": [
+     162,
+     177,
+     191
+    ],
+    "Day": [
+     167,
+     176,
+     185
+    ],
+    "Sunset": [
+     162,
+     177,
+     191
+    ]
+   },
+   "19FE03": {
+    "Sunrise": [
+     174,
+     174,
+     191
+    ],
+    "Day": [
+     174,
+     174,
+     184
+    ],
+    "Sunset": [
+     174,
+     174,
+     191
+    ]
+   },
+   "19FE04": {
+    "Sunrise": [
+     174,
+     174,
+     191
+    ],
+    "Day": [
+     174,
+     174,
+     184
+    ],
+    "Sunset": [
+     174,
+     174,
+     191
+    ]
+   },
+   "19FE05": {
+    "Sunrise": [
+     162,
+     177,
+     191
+    ],
+    "Day": [
+     167,
+     176,
+     185
+    ],
+    "Sunset": [
+     162,
+     177,
+     191
+    ]
+   },
+   "19FE06": {
+    "Sunrise": [
+     162,
+     177,
+     191
+    ],
+    "Day": [
+     167,
+     176,
+     185
+    ],
+    "Sunset": [
+     162,
+     177,
+     191
+    ]
+   },
+   "5AFA01": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "5AFA02": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "5AFA03": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "5AFB01": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   },
+   "5AFB02": {
+    "Sunrise": [
+     197,
+     169,
+     166
+    ],
+    "Day": [
+     176,
+     175,
+     173
+    ],
+    "Sunset": [
+     197,
+     169,
+     166
+    ]
+   }
+  }
+ }
+}

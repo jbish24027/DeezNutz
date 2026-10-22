@@ -1,0 +1,478 @@
+meshes/dlc02/effects/apocryphasky.nif
+   PICTA win=BSA:Skyrim - Meshes0.bsa loose=[] bsa=['Skyrim - Meshes0.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Skyrim - Meshes0.bsa']
+   md5={'SC': '5cb849fa'}
+meshes/dlc02/effects/apocryphaskynew.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '3703dfe5'}
+meshes/effects/ambient/fxmistlow01long.nif
+   PICTA win=LUX loose=['LUX', 'P4K', 'P111', 'MoT'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   PBR   win=LUX loose=['LUX', 'SC', 'MoT'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   md5={'MoT': 'd277fb3a', 'SC': 'd277fb3a', 'P4K': '345dd360', 'LUX': '055feafa', 'P111': '345dd360'}
+meshes/effects/ambient/fxsmokewispslgvol01.nif
+   PICTA win=LUX loose=['LUX', 'MoT'] bsa=['NAT-ENB.bsa', 'Particle Patch.bsa']
+   PBR   win=LUX loose=['LUX', 'SC', 'MoT'] bsa=['NAT-ENB.bsa', 'Particle Patch.bsa']
+   md5={'MoT': '2905d1de', 'SC': '2905d1de', 'LUX': '0cf7af35'}
+meshes/effects/distant_mounts_heavy.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '7e0ab1e0'}
+meshes/effects/distant_mounts_heavy_up.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '48f642cb'}
+meshes/effects/distant_mounts_lite.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '1ab647ca'}
+meshes/effects/distant_mounts_lite_2.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '5614bc26'}
+meshes/effects/distant_mounts_rain.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '1127be65'}
+meshes/effects/distant_rain.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '3bb9ffd2'}
+meshes/effects/fxcameraattachblowingfog.nif
+   PICTA win=NMBF loose=['NMBF', 'P4K', 'P111'] bsa=['NAT-ENB.bsa', 'Particle Patch.bsa']
+   PBR   win=NMBF loose=['NMBF', 'AW'] bsa=['NAT-ENB.bsa', 'Particle Patch.bsa']
+   md5={'NMBF': '51338bc0', 'P4K': 'd3293f54', 'AW': '527a1e4c', 'P111': 'd3293f54'}
+meshes/effects/fxcameraattachfog.nif
+   PICTA win=NMBF loose=['NMBF', 'P4K', 'P111'] bsa=['NAT-ENB.bsa', 'Particle Patch.bsa']
+   PBR   win=NMBF loose=['NMBF', 'SC'] bsa=['NAT-ENB.bsa', 'Particle Patch.bsa']
+   md5={'SC': '7b2b4720', 'NMBF': '7b2b4720', 'P4K': 'c1ab1c96', 'P111': 'c1ab1c96'}
+meshes/effects/fxcameraattachgroundfog.nif
+   PICTA win=NMBF loose=['NMBF', 'P4K', 'P111'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   PBR   win=NMBF loose=['NMBF', 'SC'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   md5={'SC': 'a19cf4ed', 'NMBF': 'a19cf4ed', 'P4K': '9343fb96', 'P111': '9343fb96'}
+meshes/effects/fxcameraattachturbulentfog.nif
+   PICTA win=NMBF loose=['NMBF', 'P4K', 'P111'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   PBR   win=NMBF loose=['NMBF', 'SC'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   md5={'SC': '4cce5ea7', 'NMBF': '4cce5ea7', 'P4K': 'e9290f87', 'P111': 'e9290f87'}
+meshes/effects/fxcameraattachwispyfog.nif
+   PICTA win=NMBF loose=['NMBF', 'P4K', 'P111'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   PBR   win=NMBF loose=['NMBF', 'SC'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes0.bsa']
+   md5={'SC': '2c08593c', 'NMBF': '2c08593c', 'P4K': '86f093a3', 'P111': '86f093a3'}
+meshes/effects/nlasandstorm.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '65e75218'}
+meshes/effects/vividashes-low.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'dfaa7ac4'}
+meshes/effects/vividashes.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '937b2232'}
+meshes/effects/vividsnow-blizzard-med.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'e63d5147'}
+meshes/effects/vividsnow-blizzard-strong.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'e39b43ee'}
+meshes/effects/vividsnow-blizzard.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '7bd2ad46'}
+meshes/effects/vividsnow-med.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '0c9ba08a'}
+meshes/effects/vividsnow-strong.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'b766e7a4'}
+meshes/effects/vividsnow.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '6b40060a'}
+meshes/mistsanimated/k747_lw_mistdistant.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '06f71345'}
+meshes/mistsanimated/k747_lw_o_mistdistant.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'cf81db41'}
+meshes/mistsanimated/k747_lw_o_mistdistantextralarge.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '80fb680f'}
+meshes/mistsanimated/k747_mistdistant.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'cef372fd'}
+meshes/mistsanimated/k747_mistdistant_lesswind.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '86241834'}
+meshes/mistsanimated/k747_mistdistantextraextralarge.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'df26ce95'}
+meshes/mistsanimated/k747_mistdistantextralarge.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '2107272c'}
+meshes/mistsanimated/k747_mistdistantextralong.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'be543cba'}
+meshes/mistsanimated/k747_mistdistantextralong2.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'eda7a7b7'}
+meshes/mistsanimated/k747_o_mistdistant.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'b623705a'}
+meshes/mistsanimated/k747_o_mistdistantextraextralarge.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '3440c8f3'}
+meshes/mistsanimated/k747_o_mistdistantextralarge.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '7feedeee'}
+meshes/mistsanimated/k747_o_mistdistantextralong.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'a277404b'}
+meshes/mistsanimated/k747_o_mistdistantextralong2.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'b79fafb2'}
+meshes/mistsanimated/mistsanimated le.7z
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '69bcfac2'}
+meshes/mistsanimated/mistsanimated sse editor marker visible in game.7z
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '80b75aa4'}
+meshes/mistsvolumetric/skyrimvolmistbalanced.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=SC loose=['SC', 'AW', 'MoT'] bsa=[]
+   md5={'MoT': 'a783d0bc', 'SC': '69051d94', 'AW': '69051d94'}
+meshes/mistsvolumetric/skyrimvolmistdense.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=SC loose=['SC', 'AW', 'MoT'] bsa=[]
+   md5={'MoT': 'ec3ad9c3', 'SC': '7c5b693f', 'AW': '7c5b693f'}
+meshes/mistsvolumetric/skyrimvolmistsubtle.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=SC loose=['SC', 'AW', 'MoT'] bsa=[]
+   md5={'MoT': 'e907f338', 'SC': '805419ef', 'AW': '805419ef'}
+meshes/mistsvolumetric/solstheimvolmista.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=SC loose=['SC', 'AW', 'MoT'] bsa=[]
+   md5={'MoT': '40501d3e', 'SC': '1ccb0277', 'AW': '1ccb0277'}
+meshes/mistsvolumetric/solstheimvolmistb.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=SC loose=['SC', 'AW', 'MoT'] bsa=[]
+   md5={'MoT': 'f68cd52b', 'SC': '056d5dac', 'AW': '056d5dac'}
+meshes/misttest_1.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=AW loose=['AW'] bsa=[]
+   md5={'AW': 'e717e91d'}
+meshes/sky/atmosphere.nif
+   PICTA win=PISM loose=['PISM'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes1.bsa']
+   PBR   win=PISM loose=['PISM', 'AW'] bsa=['NAT-ENB.bsa', 'Skyrim - Meshes1.bsa']
+   md5={'PISM': '3264637a', 'AW': 'dae22c54'}
+meshes/sky/cloudshape01_o_50_k747.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'ca202a4c'}
+meshes/sky/cloudshape03_50_k747.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '0337e155'}
+meshes/sky/dlc01soulcairnsky01.nif
+   PICTA win=PISM loose=['PISM'] bsa=['Skyrim - Meshes1.bsa']
+   PBR   win=PISM loose=['PISM', 'AW'] bsa=['Skyrim - Meshes1.bsa']
+   md5={'PISM': 'fd8ca54d', 'AW': '8f16d019'}
+meshes/sky/heavystormsky.nif
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'c2c4eab2'}
+meshes/sky/inv_cloudshape01_50_k747.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '89bd48b9'}
+meshes/sky/inv_cloudshape02_50_k747.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'f0fdd86c'}
+meshes/sky/inv_cloudshape03_50_k747.nif
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'c23fe0c5'}
+meshes/sky/skyrimaurora.nif
+   PICTA win=PRAEDYS loose=['PRAEDYS'] bsa=['Skyrim - Meshes1.bsa']
+   PBR   win=PRAEDYS loose=['PRAEDYS', 'SC'] bsa=['Skyrim - Meshes1.bsa']
+   md5={'SC': '68124d01', 'PRAEDYS': 'fd1055cc'}
+meshes/sky/skyrimaurorabv.nif
+   PICTA win=PRAEDYS loose=['PRAEDYS'] bsa=['Skyrim - Meshes1.bsa']
+   PBR   win=PRAEDYS loose=['PRAEDYS', 'SC'] bsa=['Skyrim - Meshes1.bsa']
+   md5={'SC': '98cbf9fe', 'PRAEDYS': '091dd1b3'}
+meshes/sky/skyrimauroragb.nif
+   PICTA win=PRAEDYS loose=['PRAEDYS'] bsa=['Skyrim - Meshes1.bsa']
+   PBR   win=PRAEDYS loose=['PRAEDYS', 'SC'] bsa=['Skyrim - Meshes1.bsa']
+   md5={'SC': 'b6818bf2', 'PRAEDYS': 'd165237c'}
+meshes/sky/skyrimaurorary.nif
+   PICTA win=PRAEDYS loose=['PRAEDYS'] bsa=['Skyrim - Meshes1.bsa']
+   PBR   win=PRAEDYS loose=['PRAEDYS', 'SC'] bsa=['Skyrim - Meshes1.bsa']
+   md5={'SC': 'b278108f', 'PRAEDYS': 'd3bd97a4'}
+textures/dlc01/sky/soulcairncloudsheet01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': '106730ff'}
+textures/dlc01/sky/soulcairncloudshorizon01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': 'cd5e0870'}
+textures/dlc01/sky/soulcairncloudslower01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': '66eb021f'}
+textures/dlc01/sky/soulcairncloudslower04.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': '242163fd'}
+textures/dlc01/sky/soulcairncloudsupper01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': '950497d0'}
+textures/dlc01/sky/soulcairneye01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': 'f23b60c8'}
+textures/dlc01/sky/soulcairnlightning01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': 'b50f8e30'}
+textures/dlc01/sky/soulcairnnebula01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': '16016bc7'}
+textures/dlc01/sky/soulcairnsun01.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures4.bsa']
+   md5={'SC': 'ce11d18e'}
+textures/dlc02/plume01.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '2e8fd25b'}
+textures/effects/cat_fxraindrops.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=AW loose=['AW'] bsa=[]
+   md5={'AW': '4af4b357'}
+textures/effects/cloudtile.dds
+   PICTA win=Arctic - Frost Effects Redux loose=['Arctic - Frost Effects Redux'] bsa=['Skyrim - Textures5.bsa']
+   PBR   win=Arctic - Frost Effects Redux loose=['Arctic - Frost Effects Redux', 'SC'] bsa=['Skyrim - Textures5.bsa']
+   md5={'SC': 'a6dabc0a', 'Arctic - Frost Effects Redux': 'af36d69f'}
+textures/effects/distant_fogs_heavy.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '81f1d03b'}
+textures/effects/distant_fogs_lite.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '5b9caa49'}
+textures/effects/distant_fogs_rain.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '7b27261f'}
+textures/effects/distant_rain.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '32d8489d'}
+textures/effects/fxcloudroundtile.dds
+   PICTA win=P4K loose=['P4K', 'P111', 'Less Distracting Blowing Snow Effects - ENB Particle Patch'] bsa=['Skyrim - Textures5.bsa']
+   PBR   win=Less Distracting Blowing Snow Effects - ENB Particle Patch loose=['Less Distracting Blowing Snow Effects - ENB Particle Patch', 'SC'] bsa=['Skyrim - Textures5.bsa']
+   md5={'Less Distracting Blowing Snow Effects - ENB Particle Patch': '62536240', 'SC': '200b29c4', 'P4K': '62536240', 'P111': '62536240'}
+textures/effects/fxcloudroundtilenew.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   md5={'SC': '200b29c4'}
+textures/effects/fxcloudroundtilestrip.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   PBR   win=SC loose=['SC'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   md5={'SC': '0b2cd77d'}
+textures/effects/fxfogheavy.dds
+   PICTA win=Water for ENB - rerun loose=['Water for ENB - rerun'] bsa=['Skyrim - Textures5.bsa']
+   PBR   win=Water for ENB - rerun loose=['Water for ENB - rerun', 'SC'] bsa=['Skyrim - Textures5.bsa']
+   md5={'Water for ENB - rerun': '4b508fe1', 'SC': 'f9d5f8d1'}
+textures/effects/fxraindrops-vanilla-low.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '22668d38'}
+textures/effects/fxraindrops-vanilla.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '3e3b1199'}
+textures/effects/fxraindrops.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   PBR   win=AW loose=['AW'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   md5={'AW': 'ff98e46c'}
+textures/effects/fxsnowflakesblur01.dds
+   PICTA win=P4K loose=['P4K', 'P111'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   PBR   win=AW loose=['AW'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   md5={'P4K': 'da97ed55', 'AW': 'da97ed55', 'P111': 'da97ed55'}
+textures/effects/fxsnowsoftsub.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   PBR   win=AW loose=['AW'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   md5={'AW': 'e7595609'}
+textures/effects/fxsnowsub.dds
+   PICTA win=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa loose=[] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   PBR   win=AW loose=['AW'] bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa', 'Skyrim - Textures5.bsa']
+   md5={'AW': 'a8985c79'}
+textures/effects/fxspores.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '258d9512'}
+textures/effects/fxsteamthickanim.dds
+   PICTA win=Particle Patch loose=['Particle Patch'] bsa=['Skyrim - Textures5.bsa']
+   PBR   win=Particle Patch loose=['Particle Patch', 'SC'] bsa=['Skyrim - Textures5.bsa']
+   md5={'SC': '52cab827', 'Particle Patch': '5d9b4490'}
+textures/effects/fxsteamthinanim.dds
+   PICTA win=Natural Waterfalls loose=['Natural Waterfalls'] bsa=['Skyrim - Textures5.bsa']
+   PBR   win=Natural Waterfalls loose=['Natural Waterfalls', 'SC'] bsa=['Skyrim - Textures5.bsa']
+   md5={'SC': '9f26f32e', 'Natural Waterfalls': '3da62cbf'}
+textures/effects/invisiblevividsnow.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'fa524aed'}
+textures/effects/smokeparticles01.dds
+   PICTA win=Particle Patch loose=['Particle Patch'] bsa=['Skyrim - Textures5.bsa']
+   PBR   win=Particle Patch loose=['Particle Patch', 'SC'] bsa=['Skyrim - Textures5.bsa']
+   md5={'SC': 'b62ea950', 'Particle Patch': '87fd63f0'}
+textures/effects/vividrain.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '7d346765'}
+textures/effects/vividraindrops.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '2d808b8a'}
+textures/effects/vividsnow-blizfog.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'ef8ae06e'}
+textures/effects/vividsnow-med.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '82bec6e6'}
+textures/effects/vividsnow-small.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': 'a422d306'}
+textures/effects/vividsnow-str.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '1cb45df1'}
+textures/effects/vividsnow.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC'] bsa=[]
+   md5={'SC': '37ff0e90'}
+textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistquad01.dds
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'b3a34c15'}
+textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistwide01.dds
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'e7c4feda'}
+textures/volmist/mist1.dds
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=SC loose=['SC', 'AW', 'MoT'] bsa=[]
+   md5={'MoT': '281b5af4', 'SC': 'fa14c738', 'AW': 'fa14c738'}
+textures/volmist/mist_grey.dds
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': '281b5af4'}
+textures/volmist/mist_light.dds
+   PICTA win=ABSENT loose=[] bsa=[]
+   PBR   win=SC loose=['SC', 'AW'] bsa=[]
+   md5={'SC': '5d1535b3', 'AW': '5d1535b3'}
+textures/volmist/mistlut.dds
+   PICTA win=MoT loose=['MoT'] bsa=[]
+   PBR   win=MoT loose=['MoT'] bsa=[]
+   md5={'MoT': 'eb7a9234'}
+---- sky textures (AW/SC) ----
+textures/sky/aur/skyrimauroralut.dds: PICTA=ABSENT PBR=SC md5={'SC': 'ad975c45'}
+textures/sky/aur/skyrimaurorastreak01.dds: PICTA=ABSENT PBR=SC md5={'SC': '32a984ee'}
+textures/sky/aur/skyrimaurorastreak02.dds: PICTA=ABSENT PBR=SC md5={'SC': '312f43e5'}
+textures/sky/aur/skyrimaurorastreak03.dds: PICTA=ABSENT PBR=SC md5={'SC': 'a132f234'}
+textures/sky/aur/skyrimaurorastreak04.dds: PICTA=ABSENT PBR=SC md5={'SC': '2ade9f13'}
+textures/sky/aur/skyrimaurorastreak05.dds: PICTA=ABSENT PBR=SC md5={'SC': 'dc41a8b9'}
+textures/sky/aur/skyrimaurorastreak06.dds: PICTA=ABSENT PBR=SC md5={'SC': '96f44160'}
+textures/sky/aur/skyrimauroraswirl01.dds: PICTA=ABSENT PBR=SC md5={'SC': 'da4e4fc0'}
+textures/sky/aur/skyrimcloudsheet01.dds: PICTA=ABSENT PBR=SC md5={'SC': '8893c597'}
+textures/sky/aur/sun.dds: PICTA=ABSENT PBR=SC md5={'SC': '7e72eea0'}
+textures/sky/masser_full.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '554c54e8', 'AW': 'a1027894'}
+textures/sky/masser_half_wan.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '7b16f55a', 'AW': '14cb8d49'}
+textures/sky/masser_half_wax.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '3a1de26e', 'AW': 'dffdf4b0'}
+textures/sky/masser_one_wan.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '7d483d50', 'AW': '60c27cde'}
+textures/sky/masser_one_wax.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '0863c18c', 'AW': 'e890e3e8'}
+textures/sky/masser_three_wan.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '67e33fea', 'AW': '973ce3eb'}
+textures/sky/masser_three_wax.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '1b17b36c', 'AW': '91c4811d'}
+textures/sky/moonshadow.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': 'e8d1dbb4', 'AW': '01df3ea3'}
+textures/sky/secunda_full.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': 'aed7b585', 'AW': '29cecb59'}
+textures/sky/secunda_half_wan.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '35e17ac7', 'AW': 'f0bcc5a1'}
+textures/sky/secunda_half_wax.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '3406b6dd', 'AW': '70f7bae2'}
+textures/sky/secunda_one_wan.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '29b824a7', 'AW': '8d2a14c9'}
+textures/sky/secunda_one_wax.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': 'ef9c0830', 'AW': 'fd625526'}
+textures/sky/secunda_three_wan.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '95d4f8b5', 'AW': 'b11d099b'}
+textures/sky/secunda_three_wax.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '11494dad', 'AW': 'cb0930c6'}
+textures/sky/skyrimauroralut.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW md5={'AW': 'ad725eb9'}
+textures/sky/skyrimaurorastreak01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW md5={'AW': '512d2b6c'}
+textures/sky/skyrimaurorastreak02.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW md5={'AW': '9e372146'}
+textures/sky/skyrimauroraswirl01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW md5={'AW': '1ad52b80'}
+textures/sky/skyrimcloudlut.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=SC md5={'SC': 'f69dca9d'}
+textures/sky/skyrimclouds01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': '01ee10a4', 'AW': '8103d40e'}
+textures/sky/skyrimcloudsheet01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'c68d2d58', 'AW': '75ccb22c'}
+textures/sky/skyrimcloudshorizon01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'abed02e4', 'AW': '5dad107f'}
+textures/sky/skyrimcloudslower01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'b9004807', 'AW': 'a60d66f6'}
+textures/sky/skyrimcloudslower02.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'de4caaa7', 'AW': 'a9ffc988'}
+textures/sky/skyrimcloudslower03.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'fedaea05', 'AW': '9e5e574c'}
+textures/sky/skyrimcloudslower04.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'bef39567', 'AW': 'ca27c370'}
+textures/sky/skyrimcloudsmap01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': '30dcca3b', 'AW': 'd810402c'}
+textures/sky/skyrimcloudsupper01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': 'b619ffee', 'AW': 'c1b78cc9'}
+textures/sky/skyrimcloudsupper02.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': '1d27fb64', 'AW': '95ae5c6f'}
+textures/sky/skyrimcloudsupper03.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': '0cc155e3', 'AW': 'cb476593'}
+textures/sky/skyrimcloudsupper04.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW4K md5={'AW4K': '29d47c05', 'AW': '0085cff8'}
+textures/sky/skyrimconstellations01.dds: PICTA=BSA:Skyrim - Textures5.bsa PBR=AW md5={'AW': '50655bb2'}
+textures/sky/skyrimconstellations02.dds: PICTA=BSA:Skyrim - Textures5.bsa PBR=AW md5={'AW': '50c698d6'}
+textures/sky/skyrimgalaxy.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': 'cf067ce2', 'AW': '0a097bd6'}
+textures/sky/skystars.dds: PICTA=PRAEDYS PBR=PRAEDYS md5={'PRAEDYS': '22599eee', 'AW': '3fbeb758'}
+textures/sky/sovngardeeye.dds: PICTA=P4K PBR=AW md5={'P4K': 'ad1d4948', 'AW': '1fe964f2', 'P111': 'ad1d4948'}
+textures/sky/sovngardenebula01.dds: PICTA=P4K PBR=AW md5={'P4K': '7b8f2858', 'AW': '1ef60691', 'P111': '7b8f2858'}
+textures/sky/sovngardenebula02.dds: PICTA=P4K PBR=AW md5={'P4K': '92dd3b83', 'AW': '6a250ca0', 'P111': '92dd3b83'}
+textures/sky/sovngardenebula03.dds: PICTA=P4K PBR=AW md5={'P4K': '7e5949a5', 'AW': '09e0c194', 'P111': '7e5949a5'}
+textures/sky/sovngardeswirl01.dds: PICTA=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa PBR=AW md5={'AW': '3a883fa5'}
+textures/sky/sun.dds: PICTA=P4K PBR=AW md5={'P4K': '33a5c38e', 'AW': 'eac1278c', 'P111': '33a5c38e'}
+textures/sky/sunglare.dds: PICTA=P4K PBR=AW md5={'P4K': '220f05e4', 'AW': '022de096', 'P111': '220f05e4'}
+textures/sky/sunset10.dds: PICTA=ABSENT PBR=AW md5={'AW': '4c8a02e1'}
+textures/sky/sunset100.dds: PICTA=ABSENT PBR=AW md5={'AW': 'e5ee9db9'}
+textures/sky/sunset101.dds: PICTA=ABSENT PBR=AW md5={'AW': 'ed44339c'}
+textures/sky/sunset101r.dds: PICTA=ABSENT PBR=AW md5={'AW': '3edb60b9'}
+textures/sky/sunset102.dds: PICTA=ABSENT PBR=SC md5={'SC': 'f8aab798'}
+textures/sky/sunset10e.dds: PICTA=ABSENT PBR=AW md5={'AW': 'ca0b58fb'}
+textures/sky/sunset10w.dds: PICTA=ABSENT PBR=AW md5={'AW': 'b903e5e8'}
+textures/sky/sunset2.dds: PICTA=ABSENT PBR=AW md5={'AW': 'cbda514e'}
+textures/sky/sunset3c.dds: PICTA=ABSENT PBR=AW md5={'AW': 'dba6611e'}
+textures/sky/sunset3r.dds: PICTA=ABSENT PBR=SC md5={'SC': 'f1f9e9e9'}
+textures/sky/sunset6.dds: PICTA=ABSENT PBR=AW md5={'AW': '9d5dd160'}
+textures/sky/sunset6r.dds: PICTA=ABSENT PBR=AW md5={'AW': '7f33057b'}
+textures/sky/sunset7.dds: PICTA=ABSENT PBR=AW md5={'AW': '11170de7'}
+textures/sky/sunset8.dds: PICTA=ABSENT PBR=AW md5={'AW': '346e68cc'}
+textures/sky/sunset8elethra.dds: PICTA=ABSENT PBR=AW md5={'AW': 'e75691c2'}
+textures/sky/sunset8r.dds: PICTA=ABSENT PBR=AW md5={'AW': 'f79eacdc'}

@@ -1,0 +1,218 @@
+{
+ "lens": "lane-plumbing",
+ "summary": "LANE PLUMBING: how to stand up a \"baby\" profile without touching the Picta lane. Everything was checked read-only. Nothing was written under C:\\1. AUTHORIA. MO2 and the game are not running.\n1) A profile copy in MO2 2.5.2 is a plain recursive folder copy. ProfilesDialog Copy calls Profile::createPtrFrom, which calls copyDir(src, profiles/<name>, merge=false): every file and subfolder is copied. If the target folder already exists, copyDir returns false silently and MO2 opens the existing folder anyway. MO2 then constructs the profile with initializeProfile(MODS|SAVEGAMES). That step creates plugins.txt and loadorder.txt only if they are missing. refreshModStatus then always rewrites modlist.txt; mod folders it has not seen get the highest priority, disabled, at the top of the file. So a byte copy made while MO2 is closed is equivalent. The Preset Studio HPH precedent copied the 12 list/ini files plus the CRDW folder, left out the 56 .bak files, and started with an empty saves folder.\n   The PICTA profile holds: settings.ini (LocalSaves=true, LocalSettings=true, AutomaticArchiveInvalidation=true, [custom_overwrites] that route xEdit/Synthesis/RFTI/Pandora/CK/TexGen/NPC Merge into shared output mods), modlist (4418 entries), plugins (4114: 4101 active, 13 inactive), loadorder (4174 = plugins + 60 implicit), plugingroups (4174, sorted case-insensitively), lockedorder (header only), archives.txt (560 lines, no header), initweaks.ini, Skyrim.ini, SkyrimPrefs.ini, skyrimcustom.ini, saves/ (about 30 MB), and the CRDW Automatic Mode/ cache. All files are ASCII with no BOM and CRLF line endings. The four list files carry the MO2 header line. Game inis and settings.ini are identical between the PICTA and PBR profiles.\n2) Plugin count for PICTA: 244 of 254 full slots used (232 checked + 12 implicit), so 10 are free. Light plugins: 3916 of 4096 (3869 + 47), so 180 are free. The Reverb-Astralite slot is already taken by Picta Seasonal. A new baby ESL goes directly after \"Authoria - Patch - Picta Seasonal.esp\": plugins.txt line 3757, loadorder line 3817, before \"Authoria - Patch - No Fireflies In Winter.esp\". Its plugingroups entry is \"Authoria - Custom Patches\", the same group as both neighbours, so no header split.\n3) Effects 11 reads Data\\enbseries when Data\\enbseries.ini and the Data\\enbseries folder both exist (PresetManager.cpp). Otherwise it falls back to the game-root enbseries.\n   Data winners in PICTA: the Darkened override (198 files, including enbseries.ini, the base .fx.ini files, every routed weather ini, _weatherlist and _locationweather), shipped 1.1.2 Data (27, including enbeffectpostpass.fx.ini), SH2 Data (40 encrypted .fx files plus KiSU), July DOF (3), raindrop (1).\n   The Root twin is a Root Builder mod. It holds Root/enbseries.ini, four .fx.ini mirrors, enbfxcompiler.ini ([EXTENDER] caches off) and enbcache/extexternal.sc. It sits above \"Silent Horizons 2 - Shader Core\" because the ENB Extender compiles encrypted SH2 effects only from the game-root enbseries.\n   Root Builder 5.0.5 runs in copy mode with autobuild on. Before any program starts it builds from the active profile's enabled Root mods. On exit it syncs changed files back to the mod they came from (new files go to overwrite\\Root), deletes what it deployed and restores its backup. The game folder is clean right now: only the vanilla root files and no BuildData.json. So the Root twin is safe per profile.\n   Verdict: a baby-only Effects 11 override mod placed above the Darkened override has no effect on Picta. It needs a baby twin as well: a full copy of the Picta twin, including enbcache, enabled in place of the Picta twin.\n4) A baby ESL that overrides Picta WTHR/VOLI/IMGS/CLMT needs these masters: Skyrim, Update, Dawnguard, Dragonborn, Picta - Weathers of Aurbis.esm. Add Mists of Tamriel.esp only if it touches Mists records. Picta Seasonal as a master is optional; it locks the load order after the injected 5AFA01-03 / 5AFB01-02 weathers.\n   No later plugin overrides any Picta weather-family record, and no generated output touches WTHR/REGN/CLMT/VOLI/IMGS. Both existing ESLs define zero records of their own, so they cannot collide.\n   If the baby adds new weathers, put them in an unused 4K block of the Picta esm FormID space, as Picta Seasonal did. Avoid 0x5AFxxx and the esm's own blocks, and check the 24-bit mask against all 488 weathers. Example: 0x5B0000 is free today.\n6) Hard-coded Picta names in _tools\\picta-bridge: picta_darken_v3_full.py (DSTM = Darkened override; --write deletes and rebuilds its enbseries folder; --dry-dir writes elsewhere), picta_authoria_overlay.py, sync_root_twin.py (reads PICTA's modlist; precedence overwrite > override > Data), verify_lighting_tune.py, picta_darken_records_patch.py, picta_ab_switch.py / reshade_ab_switch.py / install_july_dof.py (PICTA + HPH only), and picta_darken_v1_lighting.py (on --write it sets the Darkened override to '-' in every profile except PICTA and HPH).\n7) Preset Studio: the baby is a third profile. Nothing has to change in HPH unless the baby's new mod folders are written into HPH's modlist as disabled lines. Those lines are inert there.\nEXTRA (existing Picta-lane defect): 8 of the 19 light-plugin location entries in the live _locationweather.ini are stale because those light plugins moved one load slot (+1). They cover Fort Dunstad (3 entries), Ivy (2), DBM Fort Pale Pass and Pale Pass Cave (2), and RiverwoodBandits (1).",
+ "facts": [
+  {
+   "claim": "MO2 and the game are not running right now",
+   "evidence": "PowerShell Get-Process filter on ModOrganizer|Skyrim|skse|usvfs|loot|Synthesis|xEdit|Reqtificator|DynDOLOD|PGPatcher returned 0 of 369 processes; logs/mo_interface.log last entry 2026-10-17 08:30 UTC (04:30 local); ModOrganizer.ini mtime 04:30",
+   "confidence": "proven"
+  },
+  {
+   "claim": "MO2 has DEEZ CS NUTZ - PICTA selected (AGENTS.md 'DEEEZ NUTTZZZ' is stale)",
+   "evidence": "ModOrganizer.ini [General] selected_profile=@ByteArray(DEEZ CS NUTZ - PICTA); version=2.5.2",
+   "confidence": "proven"
+  },
+  {
+   "claim": "An MO2 2.5.2 profile copy is a recursive copy of every file and subfolder (including saves/, CRDW cache and .bak files). It fails silently if the target folder already exists. MO2 then constructs the profile with initializeProfile(MODS|SAVEGAMES), which copies plugins/loadorder only if missing, and refreshModStatus always rewrites modlist.txt",
+   "evidence": "modorganizer v2.5.2 src/profile.cpp createPtrFrom/copyFilesTo/Profile(QDir) ctor lines 118-137, 731-742; uibase v2.5.2 utility.cpp copyDir lines 82-112 (merge=false returns false if dest exists); profilesdialog.cpp on_copyProfileButton_clicked/createProfile; game_bethesda copyToProfile only copies when the file is absent",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Mod folders missing from a profile's modlist get the highest priority (written at the top of modlist.txt, i.e. below everything in the MO2 pane) and are disabled, when that profile is next loaded",
+   "evidence": "profile.cpp refreshModStatus: unreferenced non-foreign mods get m_Priority = index++ above numKnownMods, then m_ModListWriter.write(); existing parked examples: PICTA modlist line 2 '-houseCARL - Authoria - Patch - Picta Seasonal - No Fair', PBR modlist lines 3-6 '-[NoDelete] Picta ...'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "PICTA profile files are all ASCII with no BOM and CRLF line endings. modlist/plugins/loadorder/plugingroups/lockedorder start with '# This file was automatically generated by Mod Organizer.'; archives.txt has no header",
+   "evidence": "file(1) + grep -c $'\\r$' == wc -l for modlist.txt(4419), plugins.txt(4115), loadorder.txt(4175), plugingroups.txt(4175), archives.txt(560), Skyrim.ini(230), SkyrimPrefs.ini(197), skyrimcustom.ini(40), settings.ini(19), initweaks.ini(2); first bytes 23 20 54",
+   "confidence": "proven"
+  },
+  {
+   "claim": "plugingroups.txt has one entry per loadorder.txt entry (4174, including the 60 implicit plugins), sorted case-insensitively; plugins.txt (4114) is an ordered subsequence of loadorder.txt",
+   "evidence": "python check in profiles/DEEZ CS NUTZ - PICTA: sorted(key=str.lower)==True, set(groups)==set(loadorder), plugins subsequence True, 60 loadorder-only entries",
+   "confidence": "proven"
+  },
+  {
+   "claim": "PICTA settings.ini [custom_overwrites] routes generators into shared output mods (xEdit -> Authoria - xEdit Output - NSFW, Synthesis -> Authoria - Synthesis Output - NSFW, Reqtificator -> Authoria - RFTI Output, CK, TexGen, NPC Merge, Pandora - NSFW, DIP -> UI Positioning); PBR and HPH have identical settings.ini headers",
+   "evidence": "profiles/DEEZ CS NUTZ - PICTA/settings.ini lines 6-16; diff against PBR and HPH settings.ini lines 1-17 is empty",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Skyrim.ini and skyrimcustom.ini are byte-identical between PICTA and PBR; SkyrimPrefs differs only in uID7 and iScreenShotIndex, so the two lanes have no engine fog or volumetric ini difference",
+   "evidence": "diff of CR-stripped files: Skyrim.ini none, skyrimcustom.ini none, SkyrimPrefs.ini lines 18 and 98 only; skyrimcustom has bVolumetricLightingEnable=0 in both",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Plugin count for PICTA: 244/254 full slots (232 checked + 12 implicit), 3869 checked light + 47 implicit light = 3916/4096; HPH 241/254; PBR 243/254",
+   "evidence": "python -I _tools/mod-install-helpers/plugin_census.py (read-only) with MO2 closed; output in scratch census.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Reverb-Astralite slot is already occupied by Picta Seasonal; the free baby-ESL slot is directly after 'Authoria - Patch - Picta Seasonal.esp' (plugins.txt line 3757, loadorder.txt line 3817), before 'Authoria - Patch - No Fireflies In Winter.esp'; both neighbours are in plugingroup 'Authoria - Custom Patches'",
+   "evidence": "PICTA plugins.txt 3755-3758, loadorder.txt 3815-3818; plugingroups.txt entries for Picta Seasonal / No Fireflies / Reverb = 'Authoria - Custom Patches'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Effects 11 (Bottled, branch Bottle-Compendium) reads and saves the preset in Data\\enbseries when Data\\enbseries.ini AND the Data\\enbseries folder both exist; otherwise the game-root enbseries",
+   "evidence": "src/Features/Effects11/PresetManager.cpp UseDataFolder/GetENBSeriesPath/GetENBSeriesIniPath; live CommunityShaders.log line 325 'Preset loaded from ...Stock Game\\Data\\enbseries'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The live log for this Bottled build is CommunityShaders.log; BottledShaders.log holds only the 'Loaded CommunityShaders 1-9-0-0' line",
+   "evidence": "Documents/My Games/Skyrim Special Edition/SKSE: BottledShaders.log 93 bytes; CommunityShaders.log 04:24 has the EFFECTS11 load lines. This contradicts the memory note that says CommunityShaders.log is stale",
+   "confidence": "proven"
+  },
+  {
+   "claim": "An E11 editor Save writes base enbseries.ini, the .fx.ini of every compiled effect (dof, bloom, adaptation, effect, postpass; enblens is not compiled), and only the weather inis whose values changed. Writes go to whichever mod wins each file in the VFS",
+   "evidence": "SettingManager.cpp Save() -> SaveToFile(enbseries.ini) + SaveAllWeatherSettings (changed-only diff vs lastSavedWeatherData); EffectManager::Save calls each effect; Effect.cpp Save returns if !IsCompiled; log line 303 'enblens.fx not found, skipping'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "PICTA Data\\enbseries winners: Darkened override 198 files (enbseries.ini, enbeffect/enbbloom/enbadaptation .fx.ini, _weatherlist.ini, _locationweather.ini, all routed weather inis and interior templates); shipped 1.1.2 Data 27 (enbeffectpostpass.fx.ini, enblens.fx.ini, _worldspaceweatherlist.ini, notes); SH2 Data 40 (encrypted .fx + KiSU); July DOF 3 (enbdepthoffield.fx/.fx.ini, bokeh png); raindrop 1",
+   "evidence": "scratch enb_winners.py over PICTA modlist priority -> winners_picta.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Root twin holds Root/enbseries.ini, Root/enbseries/{enbadaptation,enbbloom,enbeffect,enbeffectpostpass}.fx.ini, enbfxcompiler.ini ([EXTENDER] EnableShaderGrafting/ExternalShaderCache/FallthroughShaderCaching=false) and Root/enbcache/extexternal.sc. It wins the root over SH2 Shader Core for enbfxcompiler.ini, and the twin is in sync today",
+   "evidence": "mods/Authoria - Picta ENB - Root twin tree + meta.ini; enb_winners root map; python -I sync_root_twin.py (report-only): 5 files in sync; md5 twin enbseries.ini == override enbseries.ini d9e6710a...",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Root Builder 5.0.5 runs copy mode with autobuild on: it builds from the ACTIVE profile's enabled */Root folders plus overwrite\\Root (highest priority) before any program MO2 launches. On exit it syncs changed deployed files back to their source mod (new files go to overwrite\\Root), deletes deployed files and restores the vanilla backup",
+   "evidence": "ModOrganizer.ini RootBuilder\\autobuild=true, copyfiles=**, backup=true, hash=true; plugins/rootbuilder/plugin/rootbuilder: plugins/rootbuilder_autobuild.py onAboutToRun/onFinishedRun, core/rootbuilder.py build/clear, modules/rootbuilder_builder.py _syncFile, modules/rootbuilder_paths.py enabledRootModFolders (active profile)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Stock Game is currently in the cleared state: only the 12 vanilla root files plus Data, no enbseries anywhere in Stock Game or Stock Game\\Data, and no BuildData.json",
+   "evidence": "ls Stock Game; ls Stock Game/Data enbseries -> not found; plugins/data/rootbuilder/C1__AUTHORIAStock_Game/1_6_1170_0 holds only GameData.json (12 entries), Backup/ (12 files) and BuildData.json.CORRUPT-ALLNUL-20260901",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Each game session writes the twin's enbcache/extexternal.sc back into the Root twin mod",
+   "evidence": "twin extexternal.sc mtime 2026-10-17 03:48 (session 03:47-04:29) while twin inis are 10-14/10-16; rootbuilder_builder._syncFile copies changed COPY entries back to SOURCE (HASH is '' in generated build data, so the mtime/size compare path is taken)",
+   "confidence": "likely"
+  },
+  {
+   "claim": "overwrite has no enbseries files today, but overwrite holds shared Bottled state: SKSE/Plugins/CommunityShaders/SettingsUser.json (all Bottled feature settings, global to every profile), the Bottled ShaderCache, overwrite\\Root (310 files: screenshots, imgui.ini, MMSFCache.bin) and KreatE/UserSettings.ini",
+   "evidence": "find overwrite -ipath '*enbseries*' empty; overwrite/SKSE/Plugins/CommunityShaders listing; enb_winners shows no overwrite entries in Data enbseries",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled has a per-profile settings channel: Data\\SKSE\\Plugins\\CommunityShaders\\Overrides\\<Mod>_<Feature>.json (merged after SettingsUser.json loads; _metadata optional). PICTA discovers 0 override files. Astralite ships 5 overrides whose values already equal the global SettingsUser.json, except SkySync Sunrise/Sunset offsets, which the current SkySync schema does not have",
+   "evidence": "CommunityShaders.log lines 7-8 'Discovered 0 override files (1 processed)'; src/SettingsOverrideManager.cpp; mods/[NoDelete] Astralite Weathers/SKSE/Plugins/CommunityShaders/Overrides/*.json vs SettingsUser.json values; src/Features/SkySync.cpp NLOHMANN field list",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled's global Exponential Height Fog is disabled (enabled 0, volumetricFogEnabled 0) for every profile",
+   "evidence": "overwrite/SKSE/Plugins/CommunityShaders/SettingsUser.json 'Exponential Height Fog'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Lane difference PICTA vs PBR: PBR-only mods are Soul Core KreatE Templates, E11 Core NAT (plain), Soul Core ENB - Data, KreatE, ENB Extender and Helper, Snowy Holds Seasonal, Gray Cowl - Astralite, Soul Core ECSS/Wyrmstooth patches, Soul Core Plugin and Assets, Astralite 4K Clouds, Astralite Dawn Warmth, Astralite Weathers. PBR-only active plugins are Astralite Weathers.esp, Astralite ENB.esp, SWF - Astralite Weathers.esp, Wyrmstooth-Astralite-Weather-Patch.esp, Astralite ENB - ECSS.esp, Helios_Astralite(.esp/_Seasonal), Remove Interior Fog - Lux, Gray Cowl - Astralite, Snowy Holds, Astralite Dawn Warmth. Mists of Tamriel is on in both",
+   "evidence": "scratch lane_diff.py -> lane_diff_picta_vs_pbr.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite Weathers.esp and Astralite ENB.esp are ESL-flagged (no full-slot cost); Mists of Tamriel.esp is full and already active in both lanes",
+   "evidence": "TES4 flags dword: Astralite Weathers.esp 0x200, Astralite ENB.esp 0x200, Mists of Tamriel.esp 0x0",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Existing Picta ESLs: Picta Seasonal (ESL, 13 masters, 94 records, 0 own-defined: 82 REGN + 5 WTHR injected at 5AFA01-03/5AFB01-02 in Picta esm space + WyrmstoothStormFog + SkyrimFair CLMT + Frostfall FLST); Darkened records patch (ESL, masters Skyrim/Dragonborn/Update/Dawnguard/Picta esm, 23 WTHR + 21 VOLI + 1 CLMT, 0 own-defined); Picta over NAT (ESL, no Picta master); Picta esp (ESL, 1243 own records, all PlacedObject)",
+   "evidence": "housecarl_load_order_status filters + housecarl_records plugins/defined_in/aggregate queries, epoch e2-2e8a422a1a87271e",
+   "confidence": "proven"
+  },
+  {
+   "claim": "No plugin loading after the planned baby slot wins any Picta weather-family record. Winners of records the Picta esm touches: Picta esm 173, Darkened 44, Picta over NAT 24, Picta esp 4, Lux.esp 1 (BlackreachWeather, loadorder 3113). Generated outputs (Synthesis Gameplay/Worldspace, RFTI, DynDOLOD, Occlusion, PG_1/2) touch zero WTHR/REGN/CLMT/VOLI/IMGS/LGTM/SPGD/IMAD. All 82 Seasonal REGN are won by Seasonal. FWMF wins only WorldMapWeather",
+   "evidence": "housecarl_records aggregate group_by winner on Picta esm scope; aggregate over output plugins = 0; scans of FWMF/Dragon Tweaks/Holidays/Mists",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta esm defines 424 records in the 4K blocks 0x023,0x11A,0x15A,0x19F,0x1A0,0x1A9,0x1B0,0x23A,0x23B,0x24A,0x25A,0x26A,0x29A,0x9F9,0xA10,0xF99 (x1000). The injected summer weathers sit in 0x5AF000. No 24-bit collision exists among the 488 weathers; 0x5B0000 is unused",
+   "evidence": "scratch picta_esm_defined.jsonl + wthr_all_picta.jsonl analysis",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The live E11 _weatherlist.ini routes 52 IDs in 41 sections. None points at a light-plugin weather, so weather routing does not depend on load slots. Only the 3 fake interior IDs AA001/AA004/AA007 resolve to no record (by design)",
+   "evidence": "scratch weatherlist_ids.py -> weatherlist_ids.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "8 of the 19 light-plugin location entries in the live Picta _locationweather.ini are stale: those light plugins moved one load slot (+1) since the 10-15 census, so these interiors are no longer routed (Skybound Underhang Camp, Fort Pale Pass, Pale Pass Cave, Fort Dunstad x3, Ivy's Apothecary, Enchanted Echoes)",
+   "evidence": "overlay/interior_locations.json (epoch e2-dc5bed...) runtime FE7DB8D5/FE75EB8A/FE75EB89/FE7B31AA/FE7B31A2/FE7B3351/FE9A20C7/FE9A2515 vs housecarl current runtime FE7DC8D5/FE75FB8A/FE75FB89/FE7B41AA/FE7B41A2/FE7B4351/FE9A30C7/FE9A3515; the stale lines (e.g. 9A20C7=AA001) are present in the Darkened override's _locationweather.ini",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The CRDW Automatic Mode cache copied with the profile invalidates itself in a new profile: the fingerprint hashes the resolved profile path plus enabled mods/plugins and ignores disabled lines",
+   "evidence": "plugins/crdw_auto_mode/controller.py profile_fingerprint lines 132-162",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The PICTA and HPH list files were rewritten at 05:02 today after MO2 closed at 04:30, so another session/script writes profile lists in parallel",
+   "evidence": "mtimes 2026-10-17 05:02:48 on PICTA and HPH modlist/plugins/loadorder/plugingroups; ModOrganizer.ini 04:30; mo_interface.log ends 04:30 local",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Preset Studio HPH shares the Picta E11 mods (Darkened override, shipped Data, July DOF, Root twin, SH2, raindrop) and Picta Seasonal at the same slots; it was cloned by hand from PICTA on 10-09 (12 files + CRDW folder, empty saves, no .bak copies)",
+   "evidence": "HPH modlist lines 3336-3397 + 278-279; PRESET-STUDIO-PROFILE-20261009.md line 5",
+   "confidence": "proven"
+  },
+  {
+   "claim": "picta-bridge scripts hard-code Picta names: picta_darken_v3_full.py DSTM='Authoria - Picta 1.1.2 - Darkened to 1.0.1' (--write deletes and rebuilds DSTM\\enbseries; --dry-dir=<path> writes elsewhere); picta_authoria_overlay.py DSTM in selftest and writes overlay/selftest-out; sync_root_twin.py DATA_MOD/OVERRIDE_MOD/TWIN + PICTA_MODLIST; verify_lighting_tune.py OV/TWIN; picta_darken_records_patch.py OUTDIR; picta_ab_switch.py and reshade_ab_switch.py PROFILES=[PICTA, HPH]; install_july_dof.py ON=(PICTA, HPH) and walks all profiles; picta_darken_v1_lighting.py walks all modlists and sets the override to '-' outside PICTA/HPH; nordic_patch_slot_fix.py PROF=PICTA",
+   "evidence": "grep of C:/1. AUTHORIA/_tools/picta-bridge/*.py (lines cited in session output)",
+   "confidence": "proven"
+  }
+ ],
+ "implications_for_blend": [
+  "Build the baby profile as a byte copy of the 12 PICTA profile files plus the 'CRDW Automatic Mode' folder into a NEW folder name (the target must not already exist). Leave out the *.bak-* files and start saves/ empty, or copy saves only if the user wants. Do it while MO2 and the game are closed, and re-base on the live lists right before writing, because other sessions rewrite them (05:02 today). This is equivalent to MO2's own Copy.",
+  "Deliver the Effects 11 side as a NEW mod (e.g. 'Authoria - Picta x Astralite - E11'). Enable it only in the baby, at a higher priority than 'Authoria - Picta 1.1.2 - Darkened to 1.0.1', the July DOF mod and the shipped 1.1.2 Data mod; inserting it above 'Authoria - Picta - Bottled raindrop' (PICTA modlist line 3343) works. It must carry full copies of every file an E11 editor Save can write: enbseries.ini, the enbeffect/enbbloom/enbadaptation/enbeffectpostpass/enbdepthoffield .fx.ini, every routed weather ini and interior template, and _weatherlist/_locationweather if changed. Otherwise an in-game Save made in the baby lands inside Picta's mods or in overwrite.",
+  "Generate the baby E11 files FROM Picta's build, never inside it: either read the Darkened override as input, or run picta_darken_v3_full.py with --dry-dir=<scratch> (use python -I -B so no .pyc lands in _tools), then apply the Astralite sky/fog transplant and write only to the baby mod. A Picta rebuild (--write) deletes and regenerates the Darkened enbseries folder and never touches the baby mod. Re-derive the baby after every Picta rebuild or it drifts.",
+  "Root side: create a baby Root twin (full copy of the Picta twin including Root/enbcache/extexternal.sc and enbfxcompiler.ini, with the baby's enbseries.ini and .fx.ini mirrors). Enable it in the baby IN PLACE OF 'Authoria - Picta ENB - Root twin' and keep it above 'Silent Horizons 2 - Shader Core'. Using Picta's twin in the baby means every baby session's Root Builder sync rewrites Picta's extexternal.sc. Leaving enbcache out of the baby twin pushes the regenerated cache into overwrite\\Root, which then outranks every profile's twin.",
+  "If the baby needs records (Astralite fog weathers, VOLI, region mist lists), make ONE new ESL (form 44, ESL flag at creation). Masters: Skyrim, Update, Dawnguard, Dragonborn, Picta - Weathers of Aurbis.esm; add Mists of Tamriel.esp only if it edits Mists records; optionally Authoria - Patch - Picta Seasonal.esp to lock ordering. Slot: directly after 'Authoria - Patch - Picta Seasonal.esp' in the baby's plugins.txt (3758) and loadorder.txt (3818); plugingroups 'Authoria - Custom Patches'. It costs one light slot (180 free) and no full slot (244/254 unchanged). Copy each record from the current winner (Darkened/Seasonal/Picta over NAT) before changing colours or fog.",
+  "Copy Astralite values; do not link to Astralite records. Read Astralite Weathers.esp / Astralite ENB.esp as inactive plugins through houseCARL source=<file>. Activating them in the baby is free in full slots (both light), but their own WTHR/REGN overrides would compete with Picta's region lists.",
+  "Any NEW weather the baby injects belongs in an unused 4K block of the Picta esm FormID space (e.g. 0x5B0000; not 0x5AFxxx, not the esm's own blocks). That keeps the E11 24-bit routing independent of load slots. A baby-owned FE-light weather ID would be slot-dependent the way the 19 interior locations are. Re-check 24-bit collisions against all weathers after placement.",
+  "Regenerate the baby's _locationweather.ini from a houseCARL location census taken in the BABY's final load order. The inherited Picta file already carries 8 stale light-slot entries.",
+  "Bottled global settings (SettingsUser.json in overwrite) are shared by all profiles. If the fog transplant needs Bottled feature changes (Exponential Height Fog, Volumetric Lighting, Sky Sync), deliver them as a baby-only Overrides JSON (Data\\SKSE\\Plugins\\CommunityShaders\\Overrides\\<Mod>_<Feature>.json in the baby mod), never by editing SettingsUser.json. The PBR lane's Bottled settings do not differ from Picta's today, so Astralite's look did not depend on a different global config.",
+  "Each new baby mod folder will appear in the other 8 profiles at the next MO2 load. Either write it as a DISABLED line at the same neighbours in every modlist (precedent; needs the user's OK for a batch list write), or accept MO2 parking it disabled at the top. Neither changes Picta or HPH behaviour: disabled lines are ignored by the VFS, Root Builder and the CRDW fingerprint. Do NOT add the baby ESL to PICTA/HPH plugins.txt, loadorder.txt or plugingroups.txt."
+ ],
+ "traps": [
+  "E11 editor saves follow the VFS: any file the baby mod does not carry (for example enbeffectpostpass.fx.ini from the shipped Data mod, enbdepthoffield.fx.ini from July DOF, or a routed weather ini left out) is written into the Picta mod that owns it. A brand-new file lands in overwrite, which every profile sees.",
+  "Root Builder syncs root changes back to the mod they came from: running the baby with Picta's Root twin enabled writes enbcache/extexternal.sc into Picta's twin on every exit. The same happens to ReShade.ini / Northman II.ini in 'Authoria - ReShade - Picta lane preset' if ReShade is retuned in the baby (that mod is shared with PICTA and HPH).",
+  "overwrite\\Root and overwrite\\SKSE\\Plugins\\CommunityShaders\\SettingsUser.json are instance-global. Pressing Bottled's 'Save Settings' in the baby changes Picta too. Bottled user-override tracking files probably also land in overwrite (exact path not verified).",
+  "picta_darken_v3_full.py --write deletes the Darkened override's enbseries folder and rebuilds it. Never store baby files in Picta's mods. picta_darken_v1_lighting.py --write (superseded but still present) would set the Darkened override to '-' in every profile except PICTA/HPH, including the baby. picta_ab_switch.py / reshade_ab_switch.py / install_july_dof.py only know PICTA+HPH, so the baby will not follow those switches.",
+  "sync_root_twin.py decides precedence from PICTA's modlist and mirrors into Picta's twin only. A baby twin needs its own sync script; running Picta's script does nothing for the baby.",
+  "Running generators (Synthesis, Reqtificator, xEdit, Pandora, PGPatcher, DynDOLOD) from the baby writes into the SAME output mods the Picta lane uses, because the inherited settings.ini [custom_overwrites] point there. Weather records need no generator rerun: no output touches WTHR/REGN/CLMT/VOLI/IMGS.",
+  "MO2 copyDir with merge=false returns false when the target folder exists, and MO2 then silently opens that folder as the new profile. Make sure the name is new.",
+  "MO2 drops a checked plugin from plugins.txt/loadorder.txt/plugingroups.txt when its mod is disabled and MO2 opens the profile (10-12 trap). The baby ESL's mod must be '+' in the baby modlist before MO2 first opens the baby.",
+  "Inserting a plugin into the lists without a plugingroups.txt line splits group headers in the MO2 pane (4th-file rule). plugingroups is sorted case-insensitively.",
+  "Light-plugin FormIDs masked to 24 bits include the light slot. Any light plugin added earlier in the order shifts the E11 location routing for every light plugin after it. This already broke 8 Picta interior entries. The baby ESL placed after Picta Seasonal (line 3818) loads after all 19 light location plugins (max line 2694), so it shifts none of them.",
+  "The injected Picta-space weathers (5AFA01..) share the 24-bit namespace with light-plugin weathers (XXXYYY, XXX = light slot). A future light plugin at slot 0x5AF or 0x5B0 that defines a weather would collide. Re-check after load-order changes.",
+  "Plugin counts taken while MO2 is open are unreliable. Today's 244/254 count was taken with MO2 closed; recount after any baby list write.",
+  "Picta-lane interior/exterior judgements: the inherited saves sit in the AP start forest / Solitude; unrouted weathers fall back to the base enbseries.ini (memory, not re-verified in this pass)."
+ ],
+ "files_written": [
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/mod_trees.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/mod_trees.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/enb_winners.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/winners_picta.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/lane_diff.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/lane_diff_picta_vs_pbr.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/census.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/weatherlist_ids.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/weatherlist_ids.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/picta_esm_defined.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/wthr_all_picta.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/bottled_tree.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/bsrc/ (Bottled Bottle-Compendium sources: PresetManager, WeatherManager, SettingManager, EffectManager, Effect, Effects11, Effects11Editor, ENBExtender, ENBHelper, SettingsOverrideManager, SkySync)",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/lane-plumbing/mo2src/ (MO2 v2.5.2 profile.cpp, profilesdialog.cpp, uibase utility.cpp, game_bethesda gamegamebryo.cpp master)"
+ ],
+ "open_questions": [
+  "Baby profile name, and whether its saves/ start empty (HPH precedent) or take copies of the current PICTA saves.",
+  "Should the new baby mod folders be written as DISABLED lines at matching neighbours into the other 8 modlists (PICTA and HPH included; inert but a list edit; needs the user's OK under 'ask before batch load-order writes'), or left for MO2 to park disabled at the top?",
+  "Should the baby share the Picta-lane ReShade preset mod (sync-back risk if ReShade is retuned in the baby), or get its own copy?",
+  "Does the fog/mist transplant need any Bottled-global feature (Exponential Height Fog, Volumetric Lighting)? If so, it must ship as a baby-only Overrides JSON. Not yet tested whether E11 [VOLUMETRICFOG]/[FOG] alone reproduces Astralite's mists.",
+  "Does the baby need any Astralite/Soul Core ASSETS (volmist textures, MistsVolumetric meshes, 4K clouds)? Enabling '[NoDelete] Astralite Weathers' for assets with its plugins unchecked would also activate its CS Overrides JSONs (harmless today, values match global) and add loose files the CRDW cache would rebuild for.",
+  "The 8 stale light-slot interior entries in Picta's live _locationweather.ini are a Picta-lane defect. Should the main session report it to the user? The fix (regenerate interior_locations.json + Picta rebuild) would touch the Picta lane.",
+  "Exact location of Bottled's user-override tracking files (Util::PathHelpers::GetUserOverridesPath / GetAppliedOverridesPath) was not verified. Assumed under Data\\SKSE\\Plugins\\CommunityShaders (so they would land in overwrite)."
+ ]
+}

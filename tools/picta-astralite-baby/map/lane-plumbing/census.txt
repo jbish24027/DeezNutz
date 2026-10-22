@@ -1,0 +1,3 @@
+== DEEZ CS NUTZ - PICTA: active plugins in plugins.txt=4101 | starred FULL=232, starred LIGHT=3869 | implicit FULL=12, implicit LIGHT=47 | TOTAL FULL SLOTS=244 / 254 | unresolved=0
+== Authoria - Preset Studio - HPH: active plugins in plugins.txt=4019 | starred FULL=229, starred LIGHT=3790 | implicit FULL=12, implicit LIGHT=47 | TOTAL FULL SLOTS=241 / 254 | unresolved=0
+== DEEZ CS NUTZ - PBR: active plugins in plugins.txt=4104 | starred FULL=231, starred LIGHT=3873 | implicit FULL=12, implicit LIGHT=47 | TOTAL FULL SLOTS=243 / 254 | unresolved=0

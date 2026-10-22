@@ -1,0 +1,6 @@
+10DA13:Skyrim.esm
+101910:Skyrim.esm
+0777CF:Skyrim.esm
+075DE5:Skyrim.esm
+06ED5B:Skyrim.esm
+06ED5A:Skyrim.esm

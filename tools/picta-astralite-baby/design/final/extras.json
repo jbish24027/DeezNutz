@@ -1,0 +1,276 @@
+{
+ "naive": {
+  "7.5 horizon": {
+   "picta": "h277.8 C0.081 (blue-violet)",
+   "naive": "h317.9 C0.067 (magenta-pink)",
+   "astralite_own": "h 30.8 C0.057 (soft salmon)",
+   "naive_luma_x": 0.97
+  },
+  "7.5 fog_far": {
+   "picta": "h278.3 C0.070 (blue-violet)",
+   "naive": "h337.3 C0.067 (magenta-pink)",
+   "astralite_own": "h 31.0 C0.069 (salmon)",
+   "naive_luma_x": 1.37
+  },
+  "7.5 fog_near": {
+   "picta": "h278.3 C0.070 (blue-violet)",
+   "naive": "h281.3 C0.163 (blue-violet)",
+   "astralite_own": "h291.7 C0.085 (blue-violet)",
+   "naive_luma_x": 21.52
+  },
+  "7.5 dome_hor_sun": {
+   "picta": "h301.3 C0.062 (violet-mauve)",
+   "naive": "h338.8 C0.074 (magenta-pink)",
+   "astralite_own": "h 23.8 C0.029 (greyish salmon)",
+   "naive_luma_x": 0.91
+  },
+  "13.0 horizon": {
+   "picta": "h261.5 C0.116 (blue)",
+   "naive": "h265.2 C0.173 (blue)",
+   "astralite_own": "h263.5 C0.052 (soft blue)",
+   "naive_luma_x": 1.4
+  },
+  "13.0 fog_far": {
+   "picta": "h261.1 C0.096 (blue)",
+   "naive": "h262.7 C0.156 (blue)",
+   "astralite_own": "h256.4 C0.052 (soft blue)",
+   "naive_luma_x": 1.36
+  },
+  "13.0 fog_near": {
+   "picta": "h261.1 C0.096 (blue)",
+   "naive": "h264.5 C0.173 (blue)",
+   "astralite_own": "h264.0 C0.066 (blue)",
+   "naive_luma_x": 25.87
+  },
+  "13.0 dome_hor_sun": {
+   "picta": "h262.5 C0.108 (blue)",
+   "naive": "h266.4 C0.167 (blue)",
+   "astralite_own": "h 16.7 C0.007 (grey)",
+   "naive_luma_x": 1.34
+  },
+  "18.5 horizon": {
+   "picta": "h280.1 C0.086 (blue-violet)",
+   "naive": "h318.6 C0.073 (magenta-pink)",
+   "astralite_own": "h 30.8 C0.057 (soft salmon)",
+   "naive_luma_x": 0.97
+  },
+  "18.5 fog_far": {
+   "picta": "h281.4 C0.076 (blue-violet)",
+   "naive": "h336.8 C0.074 (magenta-pink)",
+   "astralite_own": "h 31.0 C0.068 (salmon)",
+   "naive_luma_x": 1.38
+  },
+  "18.5 fog_near": {
+   "picta": "h281.4 C0.076 (blue-violet)",
+   "naive": "h282.3 C0.169 (blue-violet)",
+   "astralite_own": "h291.8 C0.084 (blue-violet)",
+   "naive_luma_x": 21.68
+  },
+  "18.5 dome_hor_sun": {
+   "picta": "h304.0 C0.071 (violet-mauve)",
+   "naive": "h338.2 C0.081 (magenta-pink)",
+   "astralite_own": "h 23.8 C0.029 (greyish salmon)",
+   "naive_luma_x": 0.93
+  }
+ },
+ "crossterm": {
+  "picta 7.25 horizon": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": -0.0
+  },
+  "picta 7.25 fog_far": {
+   "hue_gap": 1.22,
+   "Y_gap_pct": 0.97
+  },
+  "picta 7.25 sunlight": {
+   "hue_gap": 0.58,
+   "Y_gap_pct": -0.3
+  },
+  "picta 7.25 amb_XPlus": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "picta 13.0 horizon": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "picta 13.0 fog_far": {
+   "hue_gap": 0.68,
+   "Y_gap_pct": 4.09
+  },
+  "picta 13.0 sunlight": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": -0.0
+  },
+  "picta 13.0 amb_XPlus": {
+   "hue_gap": 0.51,
+   "Y_gap_pct": 5.15
+  },
+  "picta 18.75 horizon": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "picta 18.75 fog_far": {
+   "hue_gap": 1.2,
+   "Y_gap_pct": 1.15
+  },
+  "picta 18.75 sunlight": {
+   "hue_gap": 0.54,
+   "Y_gap_pct": -0.35
+  },
+  "picta 18.75 amb_XPlus": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "baby 7.25 horizon": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": -0.0
+  },
+  "baby 7.25 fog_far": {
+   "hue_gap": 4.05,
+   "Y_gap_pct": 0.97
+  },
+  "baby 7.25 sunlight": {
+   "hue_gap": 0.09,
+   "Y_gap_pct": -0.31
+  },
+  "baby 7.25 amb_XPlus": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "baby 13.0 horizon": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "baby 13.0 fog_far": {
+   "hue_gap": 0.12,
+   "Y_gap_pct": 4.09
+  },
+  "baby 13.0 sunlight": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": -0.0
+  },
+  "baby 13.0 amb_XPlus": {
+   "hue_gap": 0.82,
+   "Y_gap_pct": 5.17
+  },
+  "baby 18.75 horizon": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  },
+  "baby 18.75 fog_far": {
+   "hue_gap": 4.01,
+   "Y_gap_pct": 1.15
+  },
+  "baby 18.75 sunlight": {
+   "hue_gap": 0.04,
+   "Y_gap_pct": -0.36
+  },
+  "baby 18.75 amb_XPlus": {
+   "hue_gap": 0.0,
+   "Y_gap_pct": 0.0
+  }
+ },
+ "global_worst": {
+  "band_top": [
+   0.027,
+   17.75,
+   "19FC04"
+  ],
+  "band_hor": [
+   0.038,
+   9.0,
+   "19FC03"
+  ],
+  "dome_zenith": [
+   0.027,
+   18.0,
+   "19FC04"
+  ],
+  "dome_hor_sun": [
+   -0.481,
+   19.5,
+   "19FE04"
+  ],
+  "dome_hor_away": [
+   -0.084,
+   9.0,
+   "19FC04"
+  ],
+  "dome_mid_away": [
+   0.03,
+   18.0,
+   "19FC04"
+  ],
+  "sky_ibl": [
+   -0.089,
+   9.0,
+   "19FC04"
+  ],
+  "clouds": [
+   0.0,
+   10.5,
+   "19FA01"
+  ],
+  "fog_far": [
+   0.107,
+   17.75,
+   "5AFA01"
+  ],
+  "fog_near": [
+   -0.125,
+   9.0,
+   "5AFA01"
+  ],
+  "volfog": [
+   0.0,
+   5.0,
+   "19FA01"
+  ],
+  "sunlight": [
+   -0.443,
+   18.5,
+   "19FE01"
+  ],
+  "sun_disc": [
+   0.0,
+   5.0,
+   "19FA01"
+  ],
+  "scat_sunward": [
+   -4.826,
+   19.75,
+   "19FE04"
+  ],
+  "amb_XPlus": [
+   -0.504,
+   17.5,
+   "19FC04"
+  ],
+  "amb_XMinus": [
+   -0.58,
+   17.75,
+   "19FC01"
+  ],
+  "amb_YPlus": [
+   -0.504,
+   17.5,
+   "19FC04"
+  ],
+  "amb_YMinus": [
+   -0.504,
+   17.5,
+   "19FC04"
+  ],
+  "amb_ZPlus": [
+   -0.462,
+   17.5,
+   "19FC04"
+  ],
+  "amb_ZMinus": [
+   0.566,
+   18.75,
+   "19FC01"
+  ]
+ }
+}

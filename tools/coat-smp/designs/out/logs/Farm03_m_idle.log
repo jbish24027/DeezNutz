@@ -1,0 +1,19 @@
+== Farm03 m: farmerrobe_1.nif  side pen 1.5, front/back 3.0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 0:  outer caught/sunk   3/  2 [Side: z 54-54 ang -69..-56 depth 1.8..1.8]
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 8:  outer caught/sunk  12/  3 [Side: z 48-54 ang -67..63 depth 1.8..2.9]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 0:  outer caught/sunk   9/  2 [Side: z 48-54 ang -69..57 depth 2.5..2.8]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 8:  outer caught/sunk  40/  7 [Side: z 44-54 ang -67..79 depth 1.7..3.6]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 0:  outer caught/sunk  58/  3 [Side: z 46-48 ang 58..67 depth 1.5..1.9]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 8:  outer caught/sunk  71/ 26 [Side: z 44-48 ang -95..93 depth 1.5..3.4]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 0:  outer caught/sunk  80/ 31 [Side: z 44-48 ang -123..118 depth 1.6..2.6]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 8:  outer caught/sunk  47/ 69 [Side: z 44-48 ang -95..93 depth 1.5..4.0]
+
+EXIT 0

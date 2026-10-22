@@ -1,0 +1,41 @@
+## _byoh\clothes\childrenclothesvariants\m\torso04_1.nif  [Skyrim - Meshes1.bsa]  ChildTorso04AA
+  [clothes06] 991p: c0:624 z55-111 a180 | c1:367 z5-64 a180
+  [BodyTorso05] 77p: c0:77 z105-113 a180
+## _byoh\clothes\childrenclothesvariants\m\torso05_1.nif  [Skyrim - Meshes1.bsa]  ChildTorso05AA
+  [BodyTorso08] 77p: c0:77 z105-113 a180
+  [clothes09] 991p: c0:624 z55-111 a180 | c1:367 z5-64 a180
+## dlc01\clothes\blindmothpriest\blindmothpriestrobesm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  BlindMothPriestRobesAA
+  [robes] 4788p: c0:4074 z6-115 a-118 SKIRT | c1:345 z42-73 a-38 | c2:309 z51-73 a-23
+     c0 islands<72: 4120:2187 z6-115 a-4 x-19..19 ; 1838:801 z6-115 a179 x-17..19 ; 3206:486 z68-106 a94 x12..32 ; 3060:486 z68-107 a-94 x-32..-12 ; 1219:58 z6-16 a-178 x-18..18 ; 3051:28 z68-73 a-83 x-32..-25 ; 3211:28 z68-73 a83 x25..32
+  [HIMBO - Body] 200p: c0:140 z108-115 a180 | c1:30 z11-16 a-116 | c2:30 z11-16 a116
+## dlc01\clothes\prisoner\prisonerclothesbloody_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  PrisonerClothesBloodyAA
+  [clothes] 16537p: c0:8971 z52-115 a7 SKIRT | c1:5360 z45-77 a-1 SKIRT | c2:2206 z8-73 a176 SKIRT
+     c0 islands<72: 12082:1081 z52-76 a-0 x-17..17 ; 12055:865 z52-74 a-0 x-17..17 ; 12923:503 z53-76 a179 x-17..17 ; 3544:349 z53-74 a180 x-17..17
+     c1 islands<72: 14357:1125 z59-74 a-8 x-3..3 ; 14659:992 z45-74 a10 x-0..3 ; 8461:15 z45-46 a6 x1..2 ; 5209:15 z59-59 a-12 x-3..-2
+     c2 islands<72: 5482:757 z9-73 a108 x-0..18 ; 5671:731 z8-73 a-107 x-17..0 ; 5178:369 z9-47 a112 x4..18 ; 5064:349 z8-48 a-110 x-17..-5
+  [HIMBO - Body] 6817p: c0:4829 z75-115 a180 | c1:994 z11-45 a-106 | c2:994 z11-45 a106
+## dlc01\clothes\prisoner\prisonerragsbloody_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  PrisonerRagsBloodyAA
+  [rags] 9386p: c0:5390 z45-77 a-1 SKIRT | c1:3996 z8-79 a156 LEGS
+     c0 islands<72: 7293:1125 z59-74 a-9 x-3..3 ; 7491:992 z45-74 a11 x-0..3 ; 6935:45 z59-59 a-14 x-3..-2 ; 3945:15 z45-46 a7 x1..2
+  [HIMBO - Body HP] 10681p: c0:8817 z72-115 a0 | c1:932 z11-43 a-106 | c2:932 z11-43 a106
+## dlc01\clothes\vampclothes\vampclothesm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  DLC1VampClothesAA
+  [robemorph] 7014p: c0:4136 z43-116 a-4 SKIRT | c1:768 z75-81 a-8 | c2:650 z74-82 a-7 | c3:298 z88-107 a-103 | c4:288 z87-107 a100 | c5:169 z90-92 a-5 | c6:127 z101-102 a9 | c7:117 z103-105 a1 | c8:117 z96-102 a-2 | c9:117 z96-97 a12 | c10:81 z101-104 a20 | c11:81 z84-87 a-10 | c12:65 z92-97 a-2
+     c0 islands<72: 4063:877 z47-78 a1 x-18..17 ; 4775:302 z43-78 a-11 x-17..17 ; 1252:198 z43-62 a-6 x-17..17 ; 1234:108 z47-62 a-5 x-17..17
+  [HIMBO - Body] 6114p: c0:3742 z11-64 a180 LEGS | c1:864 z75-102 a101 | c2:864 z75-102 a-101 | c3:644 z93-115 a-0
+## dlc02\clothes\cultist\m\cultisttorso_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  DLC2CultistRobesAA
+  [TorsoNew] 11439p: c0:7750 z48-122 a92 SKIRT | c1:2198 z3-72 a-145 SKIRT | c2:695 z6-73 a-180 LEGS | c3:139 z72-80 a-65 | c4:139 z73-80 a-116 | c5:139 z73-81 a-83 | c6:139 z73-81 a-100 | c7:135 z72-79 a-47 | c8:105 z69-82 a133
+     c0 islands<72: 9880:2691 z48-74 a1 x-18..18 ; 8277:1837 z67-114 a1 x-16..14 ; 7911:1324 z67-117 a-130 x-31..15 ; 3107:99 z48-60 a180 x-18..18
+     c1 islands<72: 11234:1069 z3-72 a-145 x-29..29 ; 11341:1069 z3-72 a-145 x-29..29 ; 4681:6 z71-72 a-146 x-11..-0 ; 5450:6 z71-72 a-88 x-11..-8 ; 6541:6 z71-72 a-64 x-11..-0 ; 3633:6 z71-72 a88 x8..11 ; 7218:6 z71-71 a-29 x-8..-0 ; 6099:6 z71-71 a29 x-0..8 ; 6962:6 z71-72 a146 x-0..11 ; 2226:6 z71-72 a-122 x-11..0 ; 2934:6 z71-72 a64 x-0..11 ; 5782:6 z71-72 a122 x-0..11
+## dlc02\clothes\darkelf\m\outfit_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  DLC2ClothesDarkElf02AA, DLC2ClothesDarkElf01AA
+  [Dark_Elf_Outfit_male_robe_1] 10196p: c0:8406 z48-116 a14 SKIRT | c1:1790 z9-69 a-180 SKIRT
+     c0 islands<72: 10085:3125 z48-87 a6 x-16..16 ; 10174:250 z48-70 a23 x-15..15
+     c1 islands<72: 6582:1716 z9-69 a-180 x-17..17 ; 6570:37 z9-10 a-114 x-17..-9 ; 6442:37 z9-10 a114 x9..17
+## dlc02\clothes\telvanni\telvannibodym_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  IldariRobesAA, TelvaniRobesAA
+  [TelvanniBody] 13043p: c0:11017 z9-123 a-99 SKIRT | c1:1046 z7-69 a180 SKIRT | c2:980 z3-69 a-0 SKIRT
+     c0 islands<72: 12682:2520 z66-83 a-8 x-13..13 ; 3510:373 z71-81 a88 x23..31 ; 3005:373 z71-81 a-88 x-31..-23 ; 12581:297 z9-68 a89 x-0..24 ; 12718:294 z9-68 a-88 x-24..-0 ; 4867:232 z9-69 a97 x-0..24 ; 7719:231 z22-69 a179 x-13..12 ; 7983:227 z9-69 a-96 x-24..-0 ; 4459:220 z37-66 a-0 x-8..7 ; 4458:114 z37-66 a-0 x-7..7 ; 3780:34 z72-75 a86 x26..31 ; 3273:34 z72-75 a-86 x-31..-26 ; 12318:25 z70-71 a-11 x-2..-2 ; 4614:21 z22-31 a177 x-10..10 ; 7903:12 z53-64 a-128 x-12..-9 ; 9056:9 z22-27 a-168 x-10..-0
+     c1 islands<72: 9671:501 z7-69 a-110 x-17..1 ; 9535:501 z7-69 a110 x-1..17 ; 9536:22 z7-9 a118 x8..17 ; 9672:22 z7-9 a-118 x-17..-8
+     c2 islands<72: 8468:250 z3-69 a103 x-0..22 ; 8159:250 z3-69 a-103 x-22..0 ; 8075:228 z3-69 a-63 x-22..0 ; 8381:228 z3-69 a63 x0..23 ; 8581:6 z63-68 a7 x0..2 ; 8294:6 z63-66 a9 x0..3 ; 7984:6 z63-66 a-8 x-3..0 ; 7985:6 z63-68 a-6 x-2..0
+## dlc02\clothes\temple\templetorso_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  DLC2TempleRobeAA
+  [FinalCoat] 11855p: c0:8000 z12-120 a-1 SKIRT | c1:1320 z33-115 a-72 | c2:1296 z33-115 a70 | c3:1239 z6-77 a180 SKIRT
+     c0 islands<72: 9464:2810 z15-113 a1 x-26..27 ; 8457:1079 z70-99 a0 x-12..11 ; 10524:583 z12-70 a0 x-25..25 ; 2585:520 z65-108 a-92 x-36..-14 ; 6388:520 z65-108 a92 x14..36 ; 5388:379 z26-65 a177 x-25..25 ; 4431:373 z12-62 a175 x-25..25 ; 5031:207 z15-106 a54 x3..27 ; 5454:207 z15-106 a-53 x-26..-3 ; 6656:33 z12-53 a-166 x-7..-2 ; 7489:33 z12-53 a165 x2..7 ; 7111:29 z53-62 a-180 x-7..7 ; 2568:28 z65-76 a-85 x-35..-24 ; 4497:28 z65-76 a85 x24..35 ; 2455:12 z53-61 a-173 x-4..-0 ; 5108:12 z53-61 a173 x-0..4 ; 4384:6 z29-37 a-99 x-25..-21 ; 6835:6 z29-38 a-99 x-25..-21 ; +2 more
+     c3 islands<72: 7273:1122 z6-77 a180 x-19..19 ; 5788:31 z6-7 a115 x6..19 ; 3105:31 z6-7 a-115 x-19..-6

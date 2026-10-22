@@ -1,0 +1,22 @@
+===== VampClothes
+piece Saia <- robemorph ('islands', 0, {4063: 877, 4775: 302, 1252: 198, 1234: 108}, ()): 1485 pts / 2592 tris (skirt:outer)
+skirt axis (-0.25, 4.69); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:76.0/69.6/63.2/56.8/50.5/44.1; 30:76.0/69.6/63.2/56.8/50.5/44.1; 60:76.0/69.6/63.2/56.8/50.4/44.0; 90:76.0/69.6/63.2/56.8/50.4/44.0; 120:76.0/69.6/63.3/56.9/50.6/44.2; 150:76.0/69.5/63.0/56.5/50.0/43.5; -180:76.0/69.5/63.0/56.5/50.0/43.5; -150:76.0/69.5/63.0/56.5/50.0/43.5; -120:76.0/69.7/63.3/57.0/50.6/44.3; -90:76.0/69.6/63.2/56.8/50.4/44.0; -60:76.0/69.6/63.2/56.8/50.4/43.9; -30:76.0/69.6/63.2/56.8/50.4/44.0
+tip rows ; flap hinges 
+legs from HIMBO - Body (6956 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 -1.06 median 4.00; free share p10 0.12 median 0.85
+m: Saia is cut out of robemorph: 43 seam points (z 75.4..77.1) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 1579 of 1690 lining pts (z 43.5..77.2) take the sheet's weights at their spot; 111 project onto no sheet and keep their own
+m: skirt Saia 5558 pts (4380 move); tip 0 pts
+m: legs collider pulled in at 1208 of 3720 pts (max 3.00); lining points Saia 1771/1776
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 3 seam points pinned to the remainder's weights
+m: robemorph: 42 seam points of ['Saia'] to weld into the remainder
+m: robemorph: 42 of 42 seam points welded into the remainder (42 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/dlc01/clothes/vampclothes/vampclothesm_1.nif; shapes (pts, tris) {'robemorph': (5571, 9877), 'Saia': (5558, 10368), 'HIMBO - Body': (6114, 11408), 'AVC Legs Front': (1639, 2770), 'AVC Legs Back': (1720, 2892), 'AVC Legs Side': (2510, 3824), 'AVC Skirt Front': (659, 963), 'AVC Skirt Side': (686, 989), 'AVC Skirt Back': (426, 637), 'VirtualGround': (4, 2)}; bones per shape {'robemorph': 18, 'Saia': 73, 'HIMBO - Body': 24, 'AVC Legs Front': 8, 'AVC Legs Back': 8, 'AVC Legs Side': 8, 'AVC Skirt Front': 24, 'AVC Skirt Side': 42, 'AVC Skirt Back': 22, 'VirtualGround': 1}
+m: Saia: 3 seam points pinned to the remainder's weights
+m: robemorph: 42 seam points of ['Saia'] to weld into the remainder
+m: robemorph: 42 of 42 seam points welded into the remainder (42 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/dlc01/clothes/vampclothes/vampclothesm_0.nif; shapes (pts, tris) {'robemorph': (5571, 9877), 'Saia': (5558, 10368), 'HIMBO - Body': (6114, 11408), 'AVC Legs Front': (1639, 2770), 'AVC Legs Back': (1720, 2892), 'AVC Legs Side': (2510, 3824), 'AVC Skirt Front': (659, 963), 'AVC Skirt Side': (686, 989), 'AVC Skirt Back': (426, 637), 'VirtualGround': (4, 2)}; bones per shape {'robemorph': 18, 'Saia': 73, 'HIMBO - Body': 24, 'AVC Legs Front': 8, 'AVC Legs Back': 8, 'AVC Legs Side': 8, 'AVC Skirt Front': 24, 'AVC Skirt Side': 42, 'AVC Skirt Back': 22, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\VampClothesM.xml (436 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]

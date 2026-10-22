@@ -1,0 +1,10 @@
+== MonkRobes m: monkvariantoutfit_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 109/ 4/122   sprint L  81/ 0/ 65   walk R 114/ 3/ 26   walk L  76/ 0/ 19
+   curled in (limit)      sprint R  80/ 4/ 41   sprint L 135/ 3/137   walk R  95/ 2/ 67   walk L 103/ 3/131
+   swung back .3/.15      sprint R  52/ 4/ 26   sprint L  49/ 5/ 30   walk R  58/ 2/ 27   walk L  60/10/ 19
+   swung forward .3/.15   sprint R  84/ 3/ 82   sprint L  63/ 0/ 70   walk R  61/ 0/ 39   walk L  61/ 0/ 25
+   swung sideways .3/.15  sprint R  53/ 1/ 64   sprint L  52/ 0/ 48   walk R  52/ 0/ 27   walk L  62/ 0/ 36
+   total caught/hooked/sunk 1500/44/1101; lining pts Front 207, Back 316, Side 411
+
+EXIT 0

@@ -1,0 +1,17 @@
+== Beggar m _1: torsom_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 382, Skirt Side 1485, Skirt Back 490
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      9738    3600    1023        0    5115   worst frame unseen 354
+      Skirt Front          entered   180 hooked  113 unseen    1  unseen z p10 39.9 p50 39.9 p90 39.9
+      Skirt Side           entered  9163 hooked  891 unseen 4738  unseen z p10 50.2 p50 57.3 p90 63.2
+      Skirt Back           entered   395 hooked   19 unseen  376  unseen z p10 32.9 p50 36.0 p90 38.5
+   run          10      5728    2058     531        0    3139   worst frame unseen 477
+      Skirt Front          entered   174 hooked  136 unseen    3  unseen z p10 39.9 p50 40.0 p90 50.5
+      Skirt Side           entered  5129 hooked  382 unseen 2753  unseen z p10 52.8 p50 59.3 p90 65.4
+      Skirt Back           entered   425 hooked   13 unseen  383  unseen z p10 34.1 p50 38.2 p90 45.4
+   sprint       10      5847    2265     525        0    3057   worst frame unseen 499
+      Skirt Front          entered   236 hooked  191 unseen    4  unseen z p10 41.9 p50 47.3 p90 53.2
+      Skirt Side           entered  5075 hooked  318 unseen 2637  unseen z p10 51.5 p50 59.8 p90 66.5
+      Skirt Back           entered   536 hooked   16 unseen  416  unseen z p10 34.1 p50 39.3 p90 48.4
+SUMMARY clips worst unseen/frame: 499
+
+EXIT 0

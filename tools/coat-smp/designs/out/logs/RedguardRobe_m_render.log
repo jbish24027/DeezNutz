@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\1. AUTHORIA\_tools\coat-smp\skill\scripts\pose_render.py", line 49, in <module>
+    main(d['name'], *(sys.argv[2:3] or [None]), *(sys.argv[3:4] or [1.0]))
+  File "C:\1. AUTHORIA\_tools\coat-smp\skill\scripts\pose_render.py", line 40, in main
+    rows.append(views(cv2, T1v, [t.pos for t in T1v], 'built mesh, rest'))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\1. AUTHORIA\_tools\coat-smp\skill\scripts\pose_render.py", line 18, in views
+    im = np.hstack([K.render(Gs, v, S=6.0, W=400, Z0=z0, Z1=z1) for v in ('front', 'side')])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\1. AUTHORIA\_tools\coat-smp\skill\scripts\smpkit\checks.py", line 159, in render
+    if view == "front": X = -V[:, 0]; D = V[:, 1]
+                             ~^^^^^^
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+
+EXIT 1

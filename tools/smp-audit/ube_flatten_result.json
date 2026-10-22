@@ -1,0 +1,1958 @@
+[
+ [
+  "meshes\\!ube\\1ngarmor\\ngcuirassf_0.nif",
+  88,
+  [
+   "NPC",
+   "Belly",
+   "HDT Belly",
+   "NPCEyeBone"
+  ],
+  79
+ ],
+ [
+  "meshes\\!ube\\1ngarmor\\ngcuirassf_1.nif",
+  88,
+  [
+   "NPC",
+   "Belly",
+   "HDT Belly",
+   "NPCEyeBone"
+  ],
+  79
+ ],
+ [
+  "meshes\\!ube\\1ysmirarmor\\ysmircuirassf_0.nif",
+  19,
+  [
+   "SkirtRBone02",
+   "SkirtBBone01",
+   "SkirtBBone02",
+   "SkirtRBone01"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\1ysmirarmor\\ysmircuirassf_1.nif",
+  19,
+  [
+   "SkirtRBone02",
+   "SkirtBBone01",
+   "SkirtBBone02",
+   "SkirtRBone01"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\aries\\steelheart\\armor\\f\\cuirass2_0.nif",
+  9,
+  [
+   "SkirtFBone02",
+   "SkirtRBone01",
+   "SkirtFBone01",
+   "L Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\aries\\steelheart\\armor\\f\\cuirass2_1.nif",
+  9,
+  [
+   "SkirtFBone02",
+   "SkirtRBone01",
+   "SkirtFBone01",
+   "L Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\aries\\steelheart\\armor\\f\\cuirass_0.nif",
+  11,
+  [
+   "SkirtFBone02",
+   "SkirtRBone01",
+   "SkirtFBone01",
+   "SkirtBBone02"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\aries\\steelheart\\armor\\f\\cuirass_1.nif",
+  11,
+  [
+   "SkirtFBone02",
+   "SkirtRBone01",
+   "SkirtFBone01",
+   "SkirtBBone02"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\armor\\bandit\\body1f_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\bandit\\body1f_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\bandit\\body2f_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\bandit\\body2f_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\blades\\bladesarmorf_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\blades\\bladesarmorf_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\bloodofskyrimarmor\\bloodofskyrimcuirassf_0.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtRBone01",
+   "SkirtBBone01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\armor\\bloodofskyrimarmor\\bloodofskyrimcuirassf_1.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtRBone01",
+   "SkirtBBone01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\armor\\draugr\\draugrarmorfemale_0.nif",
+  9,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\armor\\draugr\\draugrarmorfemale_1.nif",
+  9,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\armor\\dwarven\\dwarvenarmorf_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\dwarven\\dwarvenarmorf_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\ebony\\f\\cuirass_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\ebony\\f\\cuirass_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\ebonymail\\cuirassf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\ebonymail\\cuirassf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\elven\\f\\cuirasslight_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\elven\\f\\cuirasslight_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\elven\\f\\cuirass_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\elven\\f\\cuirass_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\generaltulius\\generaltuliusf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\generaltulius\\generaltuliusf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\glass\\f\\cuirass_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\glass\\f\\cuirass_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirassheavychieftain_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirassheavychieftain_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirassheavy_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirassheavy_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirasslight_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirasslight_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirassmedium_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\hide\\f\\cuirassmedium_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\imperial\\f\\cuirassheavy_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\imperial\\f\\cuirassheavy_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\imperial\\f\\cuirasslight_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\imperial\\f\\cuirasslight_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\imperial\\f\\cuirassmedium_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\imperial\\f\\cuirassmedium_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\iron\\f\\cuirassheavy_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\iron\\f\\cuirassheavy_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\iron\\f\\cuirasslight_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\iron\\f\\cuirasslight_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\kad_khajiitmonk\\robesf_0.nif",
+  7,
+  [
+   "NPC",
+   "L Breast02",
+   "R Breast01",
+   "L Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\kad_khajiitmonk\\robesf_1.nif",
+  7,
+  [
+   "NPC",
+   "L Breast02",
+   "R Breast01",
+   "L Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\nightingale\\f\\torso_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\nightingale\\f\\torso_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\nordplate\\nordcuirassf_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\nordplate\\nordcuirassf_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\sons of talos\\outfitf_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\sons of talos\\outfitf_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\stormcloaks\\cuirassfsleeves_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\stormcloaks\\cuirassfsleeves_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\studded\\female\\body_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\studded\\female\\body_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\vigcgt\\michaelweisheim\\mwcarmorf.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\wardancer\\wdfull_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\wardancer\\wdfull_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\armor\\wolf\\bodyf_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor\\wolf\\bodyf_1.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\armor_replacer\\2_legion\\oldarmor\\armorf_0.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\armor_replacer\\2_legion\\oldarmor\\armorf_1.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\armor_replacer\\2_legion\\oldarmor\\rustarmorf_0.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\armor_replacer\\2_legion\\oldarmor\\rustarmorf_1.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\armor_replacer\\2_legion\\soldierslight\\chainmailf_0.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtFBone02",
+   "SkirtRBone01",
+   "SkirtFBone01"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\armor_replacer\\2_legion\\soldierslight\\chainmailf_1.nif",
+  10,
+  [
+   "SkirtBBone02",
+   "SkirtFBone02",
+   "SkirtRBone01",
+   "SkirtFBone01"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\caenarvon\\cosplay\\casual_bag_0.nif",
+  3,
+  [
+   "NPC",
+   "R Breast02",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\caenarvon\\cosplay\\casual_bag_1.nif",
+  3,
+  [
+   "NPC",
+   "R Breast02",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\clothes\\archmage\\f\\archmagerobesf_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\clothes\\archmage\\f\\archmagerobesf_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\clothes\\magejourneyman\\magejourneymanrobesf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\clothes\\magejourneyman\\magejourneymanrobesf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\clothes\\moe-scarves\\f\\scarf006_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "L Breast02"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\clothes\\moe-scarves\\f\\scarf006_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "L Breast02"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\armor\\ordinator\\ordinatorcuirassf_0.nif",
+  11,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  5
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\armor\\ordinator\\ordinatorcuirassf_1.nif",
+  11,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  5
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\commonrobe02\\commonrobe02f_0.nif",
+  7,
+  [
+   "CommonRobe02F_0.nif",
+   "L Breast01",
+   "L Breast02",
+   "L Breast03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\commonrobe02\\commonrobe02f_1.nif",
+  7,
+  [
+   "CommonRobe02F_1.nif",
+   "L Breast01",
+   "L Breast02",
+   "L Breast03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\extravagantrobe01b\\extravagantrobe01bf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\extravagantrobe01b\\extravagantrobe01bf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\extravagantrobe01r\\extravagantrobe01rf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\extravagantrobe01r\\extravagantrobe01rf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\robeofthelich\\robeofthelichf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\creationclub\\asvsse001\\clothes\\robeofthelich\\robeofthelichf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody1f_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody1f_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody2f_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody2f_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody3f_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody3f_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody4f_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody4f_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody5f_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\dawnguard\\dawnguardbody5f_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\falmerheavy\\falmerheavycuirassf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\falmerheavy\\falmerheavycuirassf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\ivory\\f\\cuirassivory_0.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\armor\\ivory\\f\\cuirassivory_1.nif",
+  7,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\clothes\\vampire\\vampirerobesf_0.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\clothes\\vampire\\vampirerobesf_1.nif",
+  6,
+  [
+   "L Breast02",
+   "R Breast01",
+   "L Breast03",
+   "L Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\clothes\\vampire\\vampirerobesf_alt_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc01\\clothes\\vampire\\vampirerobesf_alt_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\armor\\bonemold\\f\\bonemoldcuirasslight_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\armor\\bonemold\\f\\bonemoldcuirasslight_1.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\armor\\bonemold\\f\\bonemoldcuirassmedium_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\armor\\bonemold\\f\\bonemoldcuirassmedium_1.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\armor\\bonemold\\f\\bonemoldcuirass_0.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\armor\\bonemold\\f\\bonemoldcuirass_1.nif",
+  7,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\dlc02\\clothes\\skaal\\f\\skaaltorso_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\dlc02\\clothes\\skaal\\f\\skaaltorso_1.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\fafny stash\\master thief\\fb_master_thief_armor_f_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\fafny stash\\master thief\\fb_master_thief_armor_f_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_backpack_0.nif",
+  5,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_backpack_1.nif",
+  5,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_backpack_clean_0.nif",
+  5,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_backpack_clean_1.nif",
+  5,
+  [
+   "NPC",
+   "R Breast02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_body_0.nif",
+  3,
+  [
+   "NPC",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_body_1.nif",
+  3,
+  [
+   "NPC",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\kreis\\kco\\mct\\bodyf_0.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\kreis\\kco\\mct\\bodyf_1.nif",
+  6,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\kreis\\ksa\\ksws03\\bodyaf_0.nif",
+  36,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\kreis\\ksa\\ksws03\\bodyaf_1.nif",
+  36,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\kreis\\ksa\\ksws03\\bodybf_0.nif",
+  36,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\kreis\\ksa\\ksws03\\bodybf_1.nif",
+  36,
+  [
+   "L Breast01",
+   "L Breast02",
+   "L Breast03",
+   "R Breast01"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\kreis\\ksmc\\elmlock\\bodyf_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\kreis\\ksmc\\elmlock\\bodyf_1.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "L Breast02"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\mage's daily outfit\\shawl_0.nif",
+  10,
+  [
+   "suna MDOS L root",
+   "suna MDOS root",
+   "suna MDOS R root",
+   "suna MDOS Rib root"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\mage's daily outfit\\shawl_1.nif",
+  10,
+  [
+   "suna MDOS L root",
+   "suna MDOS root",
+   "suna MDOS R root",
+   "suna MDOS Rib root"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\ashlander seer\\armorf_0.nif",
+  13,
+  [
+   "SkirtFBone02",
+   "NPC",
+   "SkirtFBone03",
+   "SkirtFBone01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\ashlander seer\\armorf_1.nif",
+  13,
+  [
+   "SkirtFBone02",
+   "NPC",
+   "SkirtFBone03",
+   "SkirtFBone01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\bonepriest\\armorf_0.nif",
+  11,
+  [
+   "SkirtFBone02",
+   "NPC",
+   "L Breast02",
+   "R Breast03"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\bonepriest\\armorf_1.nif",
+  11,
+  [
+   "SkirtFBone02",
+   "NPC",
+   "L Breast02",
+   "R Breast03"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\bonepriest\\bluearmorf_0.nif",
+  11,
+  [
+   "SkirtFBone02",
+   "NPC",
+   "L Breast02",
+   "R Breast03"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\bonepriest\\bluearmorf_1.nif",
+  11,
+  [
+   "SkirtFBone02",
+   "NPC",
+   "L Breast02",
+   "R Breast03"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\bonesaint\\bodyf_0.nif",
+  14,
+  [
+   "NPC",
+   "SkirtFBone01",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  5
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\bonesaint\\helmetcrestm_0.nif",
+  1,
+  [
+   "NPC"
+  ],
+  null
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\camonnatong\\steelbody1f_0.nif",
+  13,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "SkirtFBone03",
+   "CharacterBumper"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\camonnatong\\steelbody2f_0.nif",
+  13,
+  [
+   "NPC",
+   "SkirtFBone03",
+   "CharacterBumper",
+   "SkirtFBone02"
+  ],
+  12
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\camonnatong\\steelbody3f_0.nif",
+  13,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "CharacterBumper",
+   "SkirtFBone03"
+  ],
+  8
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\camonnatong\\steelbody4f_0.nif",
+  13,
+  [
+   "NPC",
+   "SkirtFBone03",
+   "CharacterBumper",
+   "SkirtFBone02"
+  ],
+  12
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\camonnatong\\steelbodyf_0.nif",
+  13,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "SkirtFBone03",
+   "CharacterBumper"
+  ],
+  10
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\hearthguard\\steelbodyf_0.nif",
+  10,
+  [
+   "NPC",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\hearthguard\\steelbodynoclothf_0.nif",
+  10,
+  [
+   "NPC",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\hlaalu remnant\\armorf_0.nif",
+  11,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\hlaalu remnant\\armorf_1.nif",
+  11,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\indoril wayfarer\\armorf_0.nif",
+  13,
+  [
+   "SkirtFBone01",
+   "SkirtFBone03",
+   "SkirtFBone02",
+   "NPC"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\indoril wayfarer\\armorf_1.nif",
+  13,
+  [
+   "SkirtFBone01",
+   "SkirtFBone03",
+   "SkirtFBone02",
+   "NPC"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\mtgrandmaster\\steelbodyf_0.nif",
+  13,
+  [
+   "NPC",
+   "CharacterBumper",
+   "SkirtFBone03",
+   "SkirtFBone02"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\mtseeker\\steelbodyf_0.nif",
+  11,
+  [
+   "NPC",
+   "CharacterBumper",
+   "L Breast01",
+   "R Breast01"
+  ],
+  2
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\narsis watchman\\armorf_0.nif",
+  11,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "L Breast02",
+   "R Breast02"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\narsis watchman\\armorf_1.nif",
+  11,
+  [
+   "NPC",
+   "SkirtFBone02",
+   "L Breast02",
+   "R Breast02"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\pigiron\\f\\daedriccuirass_0.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  0
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\pigiron\\f\\daedriccuirass_1.nif",
+  6,
+  [
+   "R Breast02",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  0
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\redoran exile\\armorf_0.nif",
+  10,
+  [
+   "NPC",
+   "L Breast02",
+   "R Breast01",
+   "L Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\redoran exile\\armorf_1.nif",
+  10,
+  [
+   "NPC",
+   "L Breast02",
+   "R Breast01",
+   "L Breast01"
+  ],
+  4
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\rhino beetle\\armorf_0.nif",
+  12,
+  [
+   "NPC",
+   "SkirtFBone01",
+   "SkirtBBone03",
+   "L Breast02"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\rhino beetle\\armorf_1.nif",
+  12,
+  [
+   "NPC",
+   "SkirtFBone01",
+   "SkirtBBone03",
+   "L Breast02"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\rhino beetle\\armorloinclothf_0.nif",
+  12,
+  [
+   "NPC",
+   "SkirtFBone01",
+   "SkirtBBone03",
+   "L Breast02"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\rhino beetle\\armorloinclothf_1.nif",
+  12,
+  [
+   "NPC",
+   "SkirtFBone01",
+   "SkirtBBone03",
+   "L Breast02"
+  ],
+  7
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\sadras\\backpackf_0.nif",
+  1,
+  [
+   "NPC"
+  ],
+  null
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\sadras\\lanternf_0.nif",
+  1,
+  [
+   "NPC"
+  ],
+  null
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\sadras\\steelbodyf_0.nif",
+  13,
+  [
+   "NPC",
+   "CharacterBumper",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\saltplains\\bodymainf_0.nif",
+  10,
+  [
+   "NPC",
+   "L Breast01",
+   "R Breast01",
+   "R Breast03"
+  ],
+  1
+ ],
+ [
+  "meshes\\!ube\\pulcharmsolis\\telvannisorcerer\\bodymainf_0.nif",
+  12,
+  [
+   "NPC",
+   "InvMarker",
+   "CharacterBumper",
+   "L Breast01"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\roaming girl's attire\\torso_0.nif",
+  9,
+  [
+   "NPC",
+   "L Breast02",
+   "R Breast01",
+   "L Breast03"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\roaming girl's attire\\torso_1.nif",
+  9,
+  [
+   "NPC",
+   "L Breast02",
+   "R Breast01",
+   "L Breast03"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\scout\\armor\\rb's scout waist guard_0.nif",
+  9,
+  [
+   "NPC",
+   "Clitoral1",
+   "VaginaB1",
+   "R Breast03"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\scout\\armor\\rb's scout waist guard_1.nif",
+  9,
+  [
+   "NPC",
+   "Clitoral1",
+   "VaginaB1",
+   "R Breast03"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\tumbajamba\\armor\\snow_elves\\heavy\\armorf_0.nif",
+  12,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\tumbajamba\\armor\\snow_elves\\heavy\\armorf_1.nif",
+  12,
+  [
+   "SkirtBBone02",
+   "SkirtBBone03",
+   "SkirtFBone02",
+   "SkirtFBone03"
+  ],
+  6
+ ],
+ [
+  "meshes\\!ube\\tumbajamba\\armor\\snow_elves\\noble\\armorf_0.nif",
+  9,
+  [
+   "SkirtFBone02",
+   "SkirtFBone01",
+   "SkirtBBone01",
+   "R Breast02"
+  ],
+  3
+ ],
+ [
+  "meshes\\!ube\\tumbajamba\\armor\\snow_elves\\noble\\armorf_1.nif",
+  9,
+  [
+   "SkirtFBone02",
+   "SkirtFBone01",
+   "SkirtBBone01",
+   "R Breast02"
+  ],
+  3
+ ]
+]

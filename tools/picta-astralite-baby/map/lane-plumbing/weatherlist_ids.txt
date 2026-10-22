@@ -1,0 +1,7 @@
+sections 41 ids 52
+ids routed to a LIGHT-plugin weather (slot-dependent): 0
+ids matching >1 weather (24-bit collisions): 0
+ids matching no weather in the current order: 3
+   ('WEATHER951', 'AA001', 'Authoria - Interiors/House.ini')
+   ('WEATHER954', 'AA004', 'Authoria - Interiors/Inn.ini')
+   ('WEATHER957', 'AA007', 'Authoria - Interiors/Dungeon.ini')

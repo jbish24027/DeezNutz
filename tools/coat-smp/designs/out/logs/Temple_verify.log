@@ -1,0 +1,24 @@
+== m _1: templetorso_1.nif
+  ok   FinalCoat: 21106 triangles, kept 21106 in ['FinalCoat', 'Robe', 'Robe 2'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.9e-04, bones per shape max 62
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\TempleM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   149 constraints, bodies declared
+  ok   88 rig nodes, all declared
+  m Robe: points with physics 83%, of those on 2 chains 85%
+  ok   m _1: no rest contacts
+== m _0: templetorso_0.nif
+  ok   FinalCoat: 21106 triangles, kept 21106 in ['FinalCoat', 'Robe', 'Robe 2'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.9e-04, bones per shape max 62
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\TempleM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   149 constraints, bodies declared
+  ok   88 rig nodes, all declared
+  ok   m _0: no rest contacts
+ALL OK
+
+EXIT 0

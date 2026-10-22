@@ -1,0 +1,63 @@
+enabled mods: 3846
+walked 3847 sources in 4s; 81788 distinct nif/xml paths; missing folders: 0
+nif paths: 79485, contended (2+ loose providers): 12552
+checked 12552 contended paths in 176s
+
+=== BURIED SMP MESHES (winner static, an SMP copy exists lower): 19
+
+[Children of the Pariah - An Orc NPC Overhaul] buries 12:
+   meshes\actors\character\facegendata\facegeom\dawnguard.esm\00010ded.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\dragonborn.esm\0001959a.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\000133a9.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\00013b7f.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\0001995b.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\000199b7.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\00019e1e.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\00019e20.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\0001aa63.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\0001b075.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\000c78be.nif   <- SMP in: Men of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\000c78cc.nif   <- SMP in: Men of Skyrim Refined
+
+[Authoria - Bodyslide Output - NSFW] buries 2:
+   meshes\weapons\vergi armoury\einarbow\dd - einar backpack_0.nif   <- SMP in: Authoria - Bodyslide Output - UBE, DD - Vergi Armoury by Vergi
+   meshes\weapons\vergi armoury\einarbow\dd - einar backpack_1.nif   <- SMP in: Authoria - Bodyslide Output - UBE, DD - Vergi Armoury by Vergi
+
+[Authoria - NPC Merge] buries 2:
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\000135e7.nif   <- SMP in: True Sons of Skyrim Refined
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\000135f2.nif   <- SMP in: True Sons of Skyrim Refined
+
+[Pig Iron Set - HIMBO Refit] buries 2:
+   meshes\pulcharmsolis\pigiron\m\fp_0.nif   <- SMP in: Pig Iron Set - Complex Material
+   meshes\pulcharmsolis\pigiron\m\fp_1.nif   <- SMP in: Pig Iron Set - Complex Material
+
+[Knowledge is Power - Urag gro-Shub NPC Overhaul] buries 1:
+   meshes\actors\character\facegendata\facegeom\skyrim.esm\0001c193.nif   <- SMP in: Men of Skyrim Refined
+
+=== contended SMP winners whose xml is not provided loose: 22
+   meshes\!ube\armor\mu3b_male\3bbbcollisionarmorp_0.nif (winner Authoria - Bodyslide Output - UBE) -> SKSE\Plugins\hdtSkinnedMeshConfigs\3BBB-Amazing_Male.xml
+   meshes\!ube\armor\mu3b_male\3bbbcollisionarmorp_1.nif (winner Authoria - Bodyslide Output - UBE) -> SKSE\Plugins\hdtSkinnedMeshConfigs\3BBB-Amazing_Male.xml
+   meshes\!ube\armory\einar's wardrobe\dd - einar wardrobe idun hood d_0.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\!ube\armory\einar's wardrobe\dd - einar wardrobe idun hood d_1.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\!ube\armory\einar's wardrobe\dd - einar wardrobe idun hood_0.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\!ube\armory\einar's wardrobe\dd - einar wardrobe idun hood_1.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\!ube\armory\einar's wardrobe\dd - einar wardrobe idun scarf_0.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\!ube\armory\einar's wardrobe\dd - einar wardrobe idun scarf_1.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\armory\einar's wardrobe\dd - einar wardrobe hood d_0.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\armory\einar's wardrobe\dd - einar wardrobe hood d_1.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\armory\einar's wardrobe\dd - einar wardrobe hood_0.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\armory\einar's wardrobe\dd - einar wardrobe hood_1.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\armory\einar's wardrobe\dd - einar wardrobe scarf_0.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\armory\einar's wardrobe\dd - einar wardrobe scarf_1.nif (winner Authoria - Bodyslide Output - UBE) -> meshes\armory\Einar's wardrobe\einar.xml
+   meshes\1wr\wrcuirassf_0.nif (winner Authoria - Bodyslide Output - 3BA) -> meshes\1WR\XML\WRArmor.xml
+   meshes\1wr\wrcuirassf_1.nif (winner Authoria - Bodyslide Output - 3BA) -> meshes\1WR\XML\WRArmor.xml
+   meshes\midnight mistress\mmfeet_0.nif (winner Authoria - Bodyslide Output - 3BA) -> meshes\Midnight Huntress\_MH_Dress.xml
+   meshes\midnight mistress\mmfeet_1.nif (winner Authoria - Bodyslide Output - 3BA) -> meshes\Midnight Huntress\_MH_Dress.xml
+   meshes\midnight mistress\mmhands_0.nif (winner Authoria - Bodyslide Output - 3BA) -> meshes\Midnight Huntress\_MH_Dress.xml
+   meshes\midnight mistress\mmhands_1.nif (winner Authoria - Bodyslide Output - 3BA) -> meshes\Midnight Huntress\_MH_Dress.xml
+   meshes\armor\amuletsandrings\goldamuletf_0.nif (winner Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi) -> meshes\armor\amuletsandrings\DD - MedailonRepleceri\amulet.xml
+   meshes\armor\amuletsandrings\goldamuletf_1.nif (winner Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi) -> meshes\armor\amuletsandrings\DD - MedailonRepleceri\amulet.xml
+
+errors: 0
+
+output-like mods: ['Authoria - Dyndolod Output', 'Authoria - TexGen Output', 'Authoria - xLodGen Output', 'Authoria - PG Output', 'Authoria - Synthesis Output - NSFW', 'Authoria - Pandora Output - NSFW', 'Authoria - Bodyslide Output - NSFW', 'Authoria - xEdit Output - NSFW', 'Authoria - Bodyslide Output - UBE', 'Authoria - Bodyslide Output - HIMBO', 'Authoria - Bodyslide Output - 3BA', 'Authoria - RFTI Output', 'Authoria - UBE Converter Output', 'Authoria - xEdit Output', 'Authoria - CK Output', 'Nord Steelheart CBBE-3BA Bodyslide', 'Remiel - Default Outfit BodySlides - CBBE 3BA', 'Nirn Necessities - Bodyslide Files', "Girl's Travel Outfit - 3BA Bodyslides", 'Greek God -- HIMBO Bodyslide Preset', 'Norse God -- HIMBO Bodyslide Preset', "The Common Guy - SerketHetyt's HIMBO Bodyslide Preset", "Miggyluv's HIMBO Galore Bodyslide Presets", "Nordic Balance - Viper's 3BA Bodyslide Preset", 'Nordic Feel - A Realistic Bodyslide Preset (CBBE or 3BA)', 'OWrong Bodies - 3BA Bodyslide presets for OBody', 'Am Crossfit - Bodyslide Preset 3ba', 'Am Strong - Bodyslide Preset - 3ba', 'Am Beefy - Bodyslide Preset 3ba V2', "Wildflower - Viper's 3BA Bodyslide Preset", 'TheFemale 2 - 3BA CBBE Bodyslide Preset', 'TheFemale 5 - 3BA 3BBB CBBE Bodyslide Preset', 'Temptations - 3BA (3BBB) CBBE Bodyslide Preset', 'Sonderbains Steady On Stepping RE - 3BA (3BBB) Bodyslide Presets', 'Sonderbains Waifu Bodyslides RE', "Skuh's Pinup Body - 3BA Bodyslide Preset", 'Perfection 2 - CBBE BodySlide Preset (SMP and 3BA)', 'Office crush CBBE 3BA bodyslide preset', "NTZ's APPLE PIE - 3BA UBE BHUNP Bodyslide Preset", "NTZ's LOLLIPOP - 3BA Bodyslide Preset", "NTZ's CUPCAKE - 3BA Bodyslide Preset", 'My Sensual Body - CBBE 3BA Bodyslide Preset', 'Lovely Lady - 3BA (3BBB) CBBE Bodyslide Preset - original', 'Lovely Lady - 3BA (3BBB) CBBE Bodyslide Preset', 'Fit Fantasy Body - 3BA Bodyslide Preset', "Delia's Nightfall - Viper's 3BA Bodyslide Preset", 'Beauty Body Preset - CBBE 3BA 3BBB Bodyslide', 'A-petit CBBE 3BA bodyslide preset', 'Aetherial girl CBBE 3BA bodyslide preset', 'Stellar babe CBBE 3BA bodyslide preset', 'Lunar Guard Armor 3BA Bodyslide', 'BodySlide and Outfit Studio']

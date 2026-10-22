@@ -1,0 +1,127 @@
+{
+ "mod": "Authoria - Picta x Astralite - E11",
+ "files": 202,
+ "edits": [
+  [
+   "Picta - Weathers/00_Master/A01_Clear.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/A02_Clear_Mist.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/B02_Lightly_Cloudy_Misty_Fog.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/C01_Cloudy.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/C02_Cloudy_Stormy.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/C03_Cloudy_Light_Fog.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/C04_Cloudy_Rain_Very_Light.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/C05_Cloudy_Snow_Very_Light.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/D01_Overcast.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/D02_Overcast_Heavy_Fog.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/D03_Overcast_Rain_Light.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/D04_Overcast_Rain_Medium.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/D05_Overcast_Snow_Light.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/D06_Overcast_Snow_Medium.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/E01_Storm_Thunder.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/E02_Storm_Cold_Thunder.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/E03_Storm_Rain_Heavy_Thunder.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/E04_Storm_Rain_Extreme_Thunder.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/E05_Storm_Snow_Heavy.ini",
+   31,
+   31
+  ],
+  [
+   "Picta - Weathers/00_Master/E06_Storm_Snow_Extreme.ini",
+   31,
+   31
+  ],
+  [
+   "Authoria - Summer/A01_Clear_Summer.ini",
+   31,
+   31
+  ],
+  [
+   "Authoria - Summer/A02_Clear_Mist_Summer.ini",
+   31,
+   31
+  ],
+  [
+   "Authoria - Summer/B01_Lightly_Cloudy_Summer.ini",
+   31,
+   31
+  ]
+ ],
+ "verify_failures": []
+}

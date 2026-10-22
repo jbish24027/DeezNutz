@@ -1,0 +1,21 @@
+===== Jester
+piece Saia <- JesterBody ('islands', 0, {5807: 2042, 1797: 860}, (), 70.0): 570 pts / 945 tris (skirt:outer)
+skirt axis (0.86, 3.30); slits (centre, half-width, top): -177.5/6.2/54.5; -8.2/23.4/63.0; per-layer tops {'outer': [54.5, 63.0]}; 11 chains at -171 -136 -101 -67 -32 15 47 80 112 144 176
+no belt; no flaps; no bag
+skirt rows (anchor..hem): -171:63.0/58.6/54.3/49.9/45.6/41.2; -136:63.0/59.4/55.9/52.3/48.7/45.2; -101:63.0/62.6/62.2/61.7/61.3/60.9; -67:63.0/58.7/54.5/50.2/45.9/41.7; -32:63.0/58.4/53.8/49.2/44.7/40.1; 15:63.0/58.4/53.8/49.3/44.7/40.1; 47:63.0/58.5/54.0/49.5/44.9/40.4; 80:63.0/59.7/56.4/53.2/49.9/46.6; 112:63.0/61.1/59.2/57.4/55.5/53.6; 144:63.0/59.2/55.4/51.7/47.9/44.1; 176:63.0/58.6/54.1/49.7/45.2/40.8
+tip rows ; flap hinges 
+legs from JesterBody (1929 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.67 median 1.53; free share p10 0.55 median 0.85
+m: Saia is cut out of JesterBody: 88 seam points (z 63.3..70.0) keep its weights, physics fading in over 4.0
+m: skirt Saia 2083 pts (842 move); tip 0 pts
+m: legs collider pulled in at 112 of 1061 pts (max 0.89); lining points Saia 744/744
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 5 seam points pinned to the remainder's weights
+m: JesterBody: 81 seam points of ['Saia'] to weld into the remainder
+m: JesterBody: 81 of 81 seam points welded into the remainder (81 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/jester/jesterm_1.nif; shapes (pts, tris) {'JesterBody': (6407, 11302), 'Saia': (2083, 3780), 'AJS Legs Front': (454, 725), 'AJS Legs Back': (472, 758), 'AJS Legs Side': (773, 1106), 'AJS Skirt Front': (114, 153), 'AJS Skirt Side': (234, 353), 'AJS Skirt Back': (396, 675), 'VirtualGround': (4, 2)}; bones per shape {'JesterBody': 24, 'Saia': 56, 'AJS Legs Front': 5, 'AJS Legs Back': 5, 'AJS Legs Side': 5, 'AJS Skirt Front': 28, 'AJS Skirt Side': 35, 'AJS Skirt Back': 27, 'VirtualGround': 1}
+m: Saia: 5 seam points pinned to the remainder's weights
+m: JesterBody: 81 seam points of ['Saia'] to weld into the remainder
+m: JesterBody: 81 of 81 seam points welded into the remainder (81 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/jester/jesterm_0.nif; shapes (pts, tris) {'JesterBody': (6407, 11302), 'Saia': (2083, 3780), 'AJS Legs Front': (454, 725), 'AJS Legs Back': (472, 758), 'AJS Legs Side': (773, 1106), 'AJS Skirt Front': (114, 153), 'AJS Skirt Side': (234, 353), 'AJS Skirt Back': (396, 675), 'VirtualGround': (4, 2)}; bones per shape {'JesterBody': 24, 'Saia': 56, 'AJS Legs Front': 5, 'AJS Legs Back': 5, 'AJS Legs Side': 5, 'AJS Skirt Front': 28, 'AJS Skirt Side': 35, 'AJS Skirt Back': 27, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\JesterM.xml (404 lines); cross-slit links [(10, 0, 54.5), (4, 5, 63.0)]

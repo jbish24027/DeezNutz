@@ -1,0 +1,798 @@
+{
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/MistsVolumetric/SkyrimVolMistBalanced.nif": {
+  "bsver": 100,
+  "blocks": 14,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 9,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Mists of Tamriel/meshes/MistsVolumetric/SkyrimVolMistBalanced.nif": {
+  "bsver": 100,
+  "blocks": 14,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 5.0,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 5.0,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 9,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/MistsVolumetric/SkyrimVolMistDense.nif": {
+  "bsver": 100,
+  "blocks": 14,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 9,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Mists of Tamriel/meshes/MistsVolumetric/SkyrimVolMistDense.nif": {
+  "bsver": 100,
+  "blocks": 14,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 10.0,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 10.0,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 9,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/MistsVolumetric/SkyrimVolMistSubtle.nif": {
+  "bsver": 100,
+  "blocks": 14,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.1,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.1,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 9,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.1,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.1,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Mists of Tamriel/meshes/MistsVolumetric/SkyrimVolMistSubtle.nif": {
+  "bsver": 100,
+  "blocks": 7,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000048",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.15,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 1.0,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/misttest_1.nif": {
+  "bsver": 100,
+  "blocks": 14,
+  "shaders": [
+   {
+    "blk": 2,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 5,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 9,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 12,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000058",
+    "flags2": "0x40000038",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist1.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 255,
+    "falloff": [
+     1.0,
+     0.2,
+     0.125,
+     0.0
+    ],
+    "emissive_rgba": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ }
+}

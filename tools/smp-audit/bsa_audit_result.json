@@ -1,0 +1,5597 @@
+{
+ "bsas": 460,
+ "missing_bsas": [],
+ "buried_by_loose": [
+  {
+   "path": "meshes\\pulcharmsolis\\pigiron\\m\\fp_0.nif",
+   "loose_winner": "Pig Iron Set - HIMBO Refit",
+   "bsa": "PigIronSet.bsa",
+   "bsa_mod": "Pig Iron Set"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\pigiron\\m\\fp_1.nif",
+   "loose_winner": "Pig Iron Set - HIMBO Refit",
+   "bsa": "PigIronSet.bsa",
+   "bsa_mod": "Pig Iron Set"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\indoril wayfarer\\helmet_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\indoril wayfarer\\helmet_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\indoril wayfarer\\helmetwithscarfm_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\indoril wayfarer\\helmetwithscarfm_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\narsis watchman\\1stpersonarmorm_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\narsis watchman\\1stpersonarmorm_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\hlaalu remnant\\1stpersonarmorm_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\hlaalu remnant\\1stpersonarmorm_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlander seer\\bootsf_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - 3BA",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlander seer\\bootsf_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - 3BA",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlander seer\\bootsm_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlander seer\\bootsm_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - HIMBO",
+   "bsa": "Armors of the Velothi.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. I"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\camonnatong\\steelglovesf_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - 3BA",
+   "bsa": "Armors of the Velothi Pt2.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. II"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\camonnatong\\steelglovesf_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - 3BA",
+   "bsa": "Armors of the Velothi Pt2.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. II"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlanderwarrior\\fpm_0.nif",
+   "loose_winner": "Armors of the Velothi Pt. II - HIMBO",
+   "bsa": "Armors of the Velothi Pt2.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. II"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlanderwarrior\\fpm_1.nif",
+   "loose_winner": "Armors of the Velothi Pt. II - HIMBO",
+   "bsa": "Armors of the Velothi Pt2.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. II"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlanderwarrior\\steelbodyf_0.nif",
+   "loose_winner": "Authoria - Bodyslide Output - 3BA",
+   "bsa": "Armors of the Velothi Pt2.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. II"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\ashlanderwarrior\\steelbodyf_1.nif",
+   "loose_winner": "Authoria - Bodyslide Output - 3BA",
+   "bsa": "Armors of the Velothi Pt2.bsa",
+   "bsa_mod": "Armors of the Velothi Pt. II"
+  }
+ ],
+ "buried_bsa_vs_bsa": [],
+ "bsa_smp_paths": {
+  "meshes\\armor\\vigcgt\\michaelweisheim\\mwccloakf.nif": [
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant.bsa",
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant",
+   [
+    "meshes\\armor\\vigcgt\\michaelweisheim\\HDTPaladinMelusCloak.xml"
+   ]
+  ],
+  "meshes\\armor\\vigcgt\\michaelweisheim\\mwcarmorf.nif": [
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant.bsa",
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant",
+   [
+    "meshes\\armor\\vigcgt\\michaelweisheim\\HDTPaladinMelusSkirtF.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\f\\fp_0.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\f\\fp_1.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\f\\daedriccuirass_0.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\f\\daedriccuirass_1.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\m\\fp_0.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\m\\fp_1.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\m\\daedriccuirass_0.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\pigiron\\m\\daedriccuirass_1.nif": [
+   "PigIronSet.bsa",
+   "Pig Iron Set",
+   [
+    "meshes\\pulcharmsolis\\pigiron\\back.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\hdthair\\hdtjejhair.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "Meshes\\Actors\\Character\\HDTHair\\HDTSeaBiscuit.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\character assets\\hair\\sala hairs\\seabiscuit_smp.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\actors\\character\\character assets\\hair\\saLa Hairs\\HDTSeaBiscuit.xml"
+   ]
+  ],
+  "meshes\\cumulative armor mashup\\cloak\\ashe's traveling cloak_0.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\Cumulative Armor Mashup\\Cloak\\CloakSMP.xml"
+   ]
+  ],
+  "meshes\\cumulative armor mashup\\cloak\\ashe's traveling cloak_1.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\Cumulative Armor Mashup\\Cloak\\CloakSMP.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\ashe\\outfit\\themilkdrinker\\nier\\2bskirt_0.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\TheMilkDrinker\\Nier\\skirt.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\ashe\\outfit\\themilkdrinker\\nier\\2bskirt_1.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\TheMilkDrinker\\Nier\\skirt.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\ashe\\outfit\\themilkdrinker\\nier\\2bhair.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\TheMilkDrinker\\Nier\\2BHairHDT.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\character assets\\hair\\sala hairs\\old\\seabiscuit_smp.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "meshes\\actors\\character\\character assets\\hair\\saLa Hairs\\HDTSeaBiscuit.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\hdthair\\old\\hdtjejhair - copy (2).nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "Meshes\\Actors\\Character\\HDTHair\\HDTSeaBiscuit.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\hdthair\\old\\hdtjejhair - copy (3).nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "Meshes\\Actors\\Character\\HDTHair\\HDTSeaBiscuit.xml"
+   ]
+  ],
+  "meshes\\actors\\character\\hdthair\\old\\hdtjejhair.nif": [
+   "Ashe - Fire and Blood.bsa",
+   "Ashe - Crystal Heart",
+   [
+    "Meshes\\Actors\\Character\\HDTHair\\HDTSeaBiscuit.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\15\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\16\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\17\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\17\\17m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\18\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\19\\alt\\19hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\22\\d\\alt\\1hl22.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22D.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\20\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\21\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\22\\alt\\1hl22.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\23\\alt\\1hl23.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\24\\alt\\hl24.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\26\\alt\\hl26.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\28\\alt\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\28\\28m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\27\\alt1\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\27\\alt2\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairsb\\01\\1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\B\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\30\\alt\\1hl1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\33\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\03long\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\01\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\01\\alt\\01RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\02\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\01\\alt\\01RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\03\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\03long\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\04\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\05\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\06\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\07\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\08\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\09\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\b\\01\\01_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\B\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\b\\01\\01_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\B\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\b\\01\\01alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\B\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\b\\01\\01alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\B\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\22\\d\\1hl22.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22D.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\10\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\12\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\13\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\13\\alt\\13RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\14\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\14\\alt\\14RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\15\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\16\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\17\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\18\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\19\\alt\\010_19hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\22\\d\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22D.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\01\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\01\\01RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\02\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\01\\01RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\03\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\04\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\05\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\06\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\07\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\08\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\09\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\10\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\11\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\11\\11RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\12\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\13\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\13\\13RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\14\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\hairS\\14\\14RM.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\15\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\16\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\17\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\18\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\19\\010_19hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\20\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\21\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\22\\1hl22.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\23\\1hl23.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\24\\hl24.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\26\\hl26.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\27\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\28\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\28\\28.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\29\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\30\\1hl1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\31\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\31\\31.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\32\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\32\\32.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\33\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\34\\hl1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\34\\34.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\35\\hl2.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\35\\35.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairsb\\01\\alt\\1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\B\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\20\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\21\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\22\\alt\\1hl22.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\23\\alt\\1hl23.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\24\\alt\\hl24.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\26\\alt\\hl26.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\28\\alt\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\28\\28.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\29\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\03\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\04\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\06\\alt\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\08\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\22\\d\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22D.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\03\\03alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\03\\03alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\03\\03br2_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\03\\03br2_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\03\\03_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\03\\03_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\04\\04alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\04\\04alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\04\\04_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\04\\04_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\05\\05alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\05\\05alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\05\\05_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\05\\05_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\06\\06_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\06\\06_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\06\\06alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\06\\06alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\08\\08_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\08\\08_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\08\\08alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\08\\08alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\10\\10alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\10\\10alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\10\\10_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\10\\10_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\15\\15alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\15\\15alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\15\\15br2_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\15\\15br2_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\15\\15_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\15\\15_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\16\\16_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\16\\16_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\16\\16alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\16\\16alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\16\\16br2_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\16\\16br2_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\17\\17.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\17\\17m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\17\\17alt.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\17\\17m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18a_malt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18a_malt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18b_malt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18b_malt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18c_malt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18c_malt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18a_m_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18a_m_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18b_m_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18b_m_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18c_m_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\18\\18c_m_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\19\\19.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\19\\19alt.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\20\\20alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\20\\20alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\20\\20_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\20\\20_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\21\\21_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\21\\21_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\21\\21alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\21\\21alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\22\\22_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\22\\22_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\22\\22alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\22\\22alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\23\\23alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\23\\23alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\23\\23_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\23\\23_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\24\\24alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\24\\24alt_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\24\\24_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\24\\24_1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\25\\25alt_0.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\03\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\03\\03m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\04\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\06\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\08\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\10\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\15\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\15\\15m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\16\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\16\\16m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\17\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\17\\17m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\18\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\18\\18m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\19\\19hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\20\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\21\\1hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\22\\1hl22.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\23\\1hl23.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\24\\hl24.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\26\\hl26.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\28\\hl01.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\28\\28m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\30\\1hl1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\33\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\30\\alt\\1hl1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\31\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\31\\31.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\32\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\32\\32.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\33\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\34\\alt\\hl1.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\34\\34.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\hairs\\35\\alt\\hl2.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\35\\35.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\hairs\\10\\alt\\hl.nif": [
+   "[dint999] HairPack2.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03long\\03longalt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03long\\03longalt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03long\\03longbr2_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03long\\03longbr2_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03long\\03long_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03long\\03long_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03long\\03long.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\25\\25alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\25\\25_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\25\\25_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\26\\26_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\26\\26_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\26\\26alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\26\\26alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\28\\28_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\28\\28m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\28\\28_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\28\\28m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\28\\28alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\28\\28m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\28\\28alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\male\\wig\\28\\28m.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\30\\30alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\30\\30alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\30\\30_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\30\\30_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\33\\33alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\33\\33alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\33\\33_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\male\\wig\\33\\33_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\01\\01standart_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\01\\01standart_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\01\\01alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\01\\01alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\02\\02standart_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\02\\02standart_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\02\\02alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\02\\02alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03\\03alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03\\03alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03\\03br2_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03\\03br2_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03\\03_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\03\\03_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\04\\04alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\04\\04alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\04\\04_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\04\\04_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\05\\05alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\05\\05alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\05\\05_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\05\\05_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\06\\06_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\06\\06_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\06\\06alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\06\\06alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\07_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\07_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\boww.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07Bow.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\07alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\07alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\bowred.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07Bow.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\bowblack.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07Bow.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\bowbrown.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07Bow.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\07\\bowblue.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\07\\07Bow.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\08\\08_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\08\\08_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\08\\08alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\08\\08alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\09\\09alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\09\\09_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\10\\10alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\10\\10alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\10\\10_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\10\\10_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\10\\10.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\11\\11standartalt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\11\\11standartalt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\11\\11standart_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\11\\11standart_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12pink_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12pink_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12br2_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\12\\12br2_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\13\\13brown.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\13\\13alt.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\13\\13pink.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\13\\13standart.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\14\\14brown2.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\14\\14.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\14\\14wp.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\14\\14.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\14\\14alt.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\14\\14.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\14\\14standart.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\14\\14.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\15\\15alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\15\\15alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\15\\15br2_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\15\\15br2_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\15\\15_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\15\\15_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\15\\15.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\16\\16_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\16\\16_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\16\\16alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\16\\16alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\16\\16br2_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\16\\16br2_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\17\\17.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\17\\17alt.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "meshes\\armor\\[dint999]\\02 Hair\\wig\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18aalt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18aalt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18balt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18balt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18a_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18a_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18b_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18b_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18c_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18c_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18calt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\18\\18calt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\18\\18.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\20\\20alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\20\\20alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\20\\20_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\20\\20_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\21\\21_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\21\\21_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\21\\21alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\21\\21alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\22\\22.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\22\\22_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\22\\22_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\22\\22alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\22\\22alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\23\\23alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\23\\23alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\23\\23_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\23\\23_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\24\\24alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\24\\24alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\24\\24_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\24\\24_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\25\\25alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\25\\25alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\25\\25_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\25\\25_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\24\\24.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\26\\26_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\26\\26_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\26\\26alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\26\\26alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\26\\26.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\27\\27alt1_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\27\\27alt1_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\27\\27alt2_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\27\\27alt2_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\27\\27_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\27\\27_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\27\\27.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\28\\28_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\28\\28.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\28\\28_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\28\\28.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\28\\28alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\28\\28.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\28\\28alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\28\\28.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\29\\29alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\29\\29alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\29\\29_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\29\\29_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\29\\29hat.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\29\\29hat.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\30\\30alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\30\\30alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\30\\30_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\30\\30_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\30\\30.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\31\\31_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\31\\31.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\31\\31_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\31\\31.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\31\\31alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\31\\31.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\31\\31alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\31\\31.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\32\\32_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\32\\32.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\32\\32_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\32\\32.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\32\\32alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\32\\32.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\32\\32alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\32\\32.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\33\\33alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\33\\33alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\33\\33_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\33\\33_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\33\\33.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\34\\34.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\34\\34.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\34\\34alt.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\34\\34.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\35\\35alt_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\35\\35.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\35\\35alt_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\35\\35.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\35\\35_0.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\35\\35.xml"
+   ]
+  ],
+  "meshes\\armor\\[dint999]\\02 hair\\wig\\35\\35_1.nif": [
+   "[dint999] HairPack0.bsa",
+   "[Dint999] HairPack02 SSE 1.11 (base)",
+   [
+    "Meshes\\armor\\[dint999]\\02 Hair\\wig\\35\\35.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\03\\03alt_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\03\\03alt.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\03\\03alt_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\03\\03alt.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\03\\03_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\03\\03_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\08\\08_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\08\\08_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\11\\11_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\11\\11_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\43\\43_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\43\\43.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\43\\43_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\43\\43.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\05\\05_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\05\\05.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\05\\05_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\05\\05.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\05\\05_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\05\\05.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\05\\05_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\05\\05.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\06\\06_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\06\\06_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\12\\12_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\12\\12_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\111\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\111\\111.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\03\\03_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\03\\03_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\03\\03b_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\03\\03B.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\03\\03b_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\03\\03B.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07a_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07a_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07b_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07b_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07c_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\07c_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\09\\09_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\09\\09_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\10a_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10a.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\10a_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10a.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\10b_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\10b_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\10c_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10c.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\10c_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10c.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\11\\11_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\11\\11_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\13\\13_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\13\\13_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\16\\16_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\16\\16_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\17\\17_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\17\\17_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\19\\19_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\19\\19_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\20\\20_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\20\\20_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\21\\21_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\21\\21_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\22\\22a_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\22\\22a.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\22\\22a_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\22\\22a.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\22\\22b_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\22\\22b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\22\\22b_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\22\\22b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\23\\23_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\23\\23_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\50\\50_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\50\\50.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\50\\50_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\50\\50.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\22\\ha\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\22\\22a.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\22\\hb\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\22\\22b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\02b\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\02b\\02b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\123\\123_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\123\\123.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\123\\123_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\123\\123.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\251\\251_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\251\\251.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\251\\251_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\251\\251.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\29\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\9925\\9925_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\9925\\9925.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\9925\\9925_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\9925\\9925.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\02\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\03\\h\\hairhl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\123\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\123\\123.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\02\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pkw\\05\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PKW\\05\\05.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\111\\111_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\111\\111.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\111\\111_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\111\\111.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\29\\hair\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\haira\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10a.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\hairb\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\10\\hairc\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\10\\10c.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\1010\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\1010\\1010.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\02\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\04\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\07\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\08\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\22\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\08\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\1010\\1010_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\1010\\1010.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\1010\\1010_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\1010\\1010.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\11\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\phw\\43\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PHW\\43\\43.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\02b\\02b_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\02b\\02b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\02b\\02b_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\02b\\02b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\02\\h\\hl02.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\05\\h\\hl02.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\05\\05.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\06\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\06\\06.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\plw\\12\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PLW\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\01\\h\\hl2.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\01\\01b.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\02\\h\\b.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\03\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\03\\03.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\03\\h\\hl2.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\03\\03B rm.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\07\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\09\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\09\\09.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\11\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\13\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\13\\13.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\16\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\16\\16.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\17\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\17\\17.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\19\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\19\\19.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\20\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\21\\h\\h1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\21\\21.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\ppw\\23\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PPW\\23\\23.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pgw\\03\\halt\\hairhl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PGW\\03\\03alt.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\9925\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\9925\\9925.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\02\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\11\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\12\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\20\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\50\\hair\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\50\\50.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\251\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\251\\251.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\01\\h\\hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pqw\\02\\h\\1hl.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PQW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\29\\29_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pcw\\29\\29_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PCW\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\01\\01_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\01\\01_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\01\\01.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\04\\04_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\04\\04_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\04\\04.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\07\\07_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\07\\07_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\07\\07.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\08\\08_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\08\\08_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\08\\08.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\22\\22_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\22\\22_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\22\\22.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\29\\29_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pdw\\29\\29_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PDW\\29\\29.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\02\\02_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\02\\02_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\02\\02.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\11\\11_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\11\\11_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\11\\11.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\12\\12_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\12\\12_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\12\\12.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\20\\20_0.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\20\\20.xml"
+   ]
+  ],
+  "meshes\\armor\\[d] bdor\\hair\\pew\\20\\20_1.nif": [
+   "[Dint999] BDOr_Hairstyles.bsa",
+   "[Dint999] BDOR Hairs SSE 0.17",
+   [
+    "Meshes\\armor\\[d] BDOr\\Hair\\PEW\\20\\20.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\helmet_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\helmet_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\helmetwithscarfm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\helmetwithscarfm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\indoril wayfarer\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\indoril wayfarer\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\narsis watchman\\1stpersonarmorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\narsis watchman\\NWXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\narsis watchman\\1stpersonarmorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\narsis watchman\\NWXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\narsis watchman\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\narsis watchman\\NWXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\narsis watchman\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\narsis watchman\\NWXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\narsis watchman\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\narsis watchman\\NWXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\narsis watchman\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\narsis watchman\\NWXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hlaalu remnant\\1stpersonarmorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoranexile\\rexml.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hlaalu remnant\\1stpersonarmorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoranexile\\rexml.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hlaalu remnant\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\hlaalu remnant\\rexml.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hlaalu remnant\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\hlaalu remnant\\rexml.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hlaalu remnant\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\hlaalu remnant\\rexml.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hlaalu remnant\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\hlaalu remnant\\rexml.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran exile\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran exile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran exile\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran exile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran exile\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran exile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran exile\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran exile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\bootsf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\RedoranExile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\bootsf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\RedoranExile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\bootsm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\RedoranExile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\bootsm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\RedoranExile\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\Ashlander Seer\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\Ashlander Seer\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\Ashlander Seer\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlander seer\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\Ashlander Seer\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\cloakf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\cloakF.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\cloakf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\cloakF.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\cloakm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\cloakM.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\cloakm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\cloakM.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorloinclothf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorloinclothf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorloinclothm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\rhino beetle\\armorloinclothm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\rhino beetle\\REXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran watchman\\cloakf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran watchman\\cloakM.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran watchman\\cloakf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran watchman\\cloakM.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran watchman\\cloakm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran watchman\\cloakM.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\redoran watchman\\cloakm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\redoran watchman\\cloakM.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\bluearmorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\bluearmorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\bluearmorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\bluearmorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\armorf_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\armorf_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\armorm_0.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonepriest\\armorm_1.nif": [
+   "Armors of the Velothi.bsa",
+   "Armors of the Velothi Pt. I",
+   [
+    "meshes\\pulcharmsolis\\bonepriest\\TSXML.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodymainf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodymainf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodymainm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodymainm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyclothf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyclothf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyclothm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyclothm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyponchof_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyponchof_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyponchom_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\bodyponchom_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\steelglovesf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\telvannisorcerer\\steelglovesf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\telvannisorcerer\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody1f_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody1f_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody1m_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody1m_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody2f_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody2f_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody2m_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody2m_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody3f_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody3f_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody3m_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody3m_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody4f_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody4f_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody4m_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbody4m_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\cap_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\cap_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodyclothf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodyclothf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodyclothm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodyclothm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelglovesf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelglovesf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelglovesm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelglovesm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\steelbodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodycloth1f_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodycloth1f_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodycloth1m_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\camonnatong\\bodycloth1m_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\camonnatong\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodynoclothf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodynoclothf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodynoclothm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodynoclothm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\steelbodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\polef_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\hearthguard\\polef_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\Hearthguard\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\chestmiscf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\chestmiscf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\chestmiscm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\chestmiscm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\lanternm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\lanternm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelglovesf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelglovesf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelglovesm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelglovesm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelbodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelbodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelbodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\steelbodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data1.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\helmetm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\helmetm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\backpackm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\sadras\\backpackm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\sadras\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\gauntlets_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\gauntlets_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\gauntletsf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\gauntletsf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\bootsf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\bootsf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\MTGrandmaster\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\MTGrandmaster\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\steelbodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\MTGrandmaster\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\steelbodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\MTGrandmaster\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\steelbodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\MTGrandmaster\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\steelbodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\MTGrandmaster\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\polef_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\polef_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\boots_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtgrandmaster\\boots_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\skirt_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\skirt_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\skirtf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\skirtf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\steelbodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\steelbodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\steelbodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\ashlanderwarrior\\steelbodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\steelbodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\steelbodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\steelbodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\steelbodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\chest.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\polef_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\mtseeker\\polef_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "Data\\meshes\\pulcharmsolis\\MTSeeker\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodymainf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodymainf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodymainm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodymainm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\fpm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\fpm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyclothf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyclothf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyclothm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyclothm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyponchof_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyponchof_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyponchom_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\saltplains\\bodyponchom_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\saltplains\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyropef_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyropef_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyropem_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyropem_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyscarff_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyscarff_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyscarfm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyscarfm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\armsm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\armsm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\ashlanderwarrior\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\cloakf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\cloak.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\cloakf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\cloak.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\cloakm_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\cloak.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\cloakm_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\cloak.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyf_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodyf_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodym_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\bodym_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\data.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\polef_0.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\cloak.xml"
+   ]
+  ],
+  "meshes\\pulcharmsolis\\bonesaint\\polef_1.nif": [
+   "Armors of the Velothi Pt2.bsa",
+   "Armors of the Velothi Pt. II",
+   [
+    "meshes\\pulcharmsolis\\bonesaint\\cloak.xml"
+   ]
+  ],
+  "meshes\\r18pn\\cosplay\\shanoa\\shanoa_body_0.nif": [
+   "Shanoa Armor.bsa",
+   "Shanoa Armor - UBE",
+   [
+    "meshes\\R18pn\\Cosplay\\Shanoa\\skirt.xml"
+   ]
+  ],
+  "meshes\\r18pn\\cosplay\\shanoa\\shanoa_body_1.nif": [
+   "Shanoa Armor.bsa",
+   "Shanoa Armor - UBE",
+   [
+    "meshes\\R18pn\\Cosplay\\Shanoa\\skirt.xml"
+   ]
+  ],
+  "meshes\\armor\\vigcgt\\michaelweisheim\\mwccloakm.nif": [
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant.bsa",
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant",
+   [
+    "meshes\\armor\\vigcgt\\michaelweisheim\\HDTPaladinMelusCloak.xml"
+   ]
+  ],
+  "meshes\\armor\\vigcgt\\michaelweisheim\\mwcarmorm.nif": [
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant.bsa",
+   "HDT-SMP Paladin Melus Armor Patch from Vigilant",
+   [
+    "meshes\\armor\\vigcgt\\michaelweisheim\\HDTPaladinMelusSkirtM.xml"
+   ]
+  ]
+ },
+ "missing_xml_bsa_winners": []
+}

@@ -1,0 +1,1476 @@
+{
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/MistsVolumetric/SolstheimVolMistA.nif": {
+  "bsver": 100,
+  "blocks": 21,
+  "shaders": [
+   {
+    "blk": 7,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 13,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 19,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Mists of Tamriel/meshes/MistsVolumetric/SolstheimVolMistA.nif": {
+  "bsver": 100,
+  "blocks": 61,
+  "shaders": [
+   {
+    "blk": 3,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 6,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 8,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 11,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 15,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 18,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 20,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 23,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 27,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 30,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 32,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 39,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 42,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 44,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 47,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 51,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 56,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 59,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Astralite Weathers/meshes/MistsVolumetric/SolstheimVolMistB.nif": {
+  "bsver": 100,
+  "blocks": 21,
+  "shaders": [
+   {
+    "blk": 7,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 10,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 13,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.5,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.6,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 16,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 19,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000158",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ },
+ "C:/1. AUTHORIA/mods/[NoDelete] Mists of Tamriel/meshes/MistsVolumetric/SolstheimVolMistB.nif": {
+  "bsver": 100,
+  "blocks": 61,
+  "shaders": [
+   {
+    "blk": 3,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 6,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 8,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 11,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.9,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 15,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 18,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 20,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 23,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 27,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.5,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.6,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 30,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.5,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.6,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 32,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.5,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.6,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 35,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.5,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.6,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 39,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 42,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 44,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.2,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 47,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 51,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 54,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 56,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   },
+   {
+    "blk": 59,
+    "type": "BSEffectShaderProperty",
+    "name": null,
+    "flags1": "0xe0000148",
+    "flags2": "0x40000028",
+    "uv_scale": [
+     1.0,
+     1.0
+    ],
+    "source": "textures\\volmist\\mist_grey.dds",
+    "greyscale": "textures\\volmist\\mistlut.dds",
+    "lighting_influence": 128,
+    "falloff": [
+     1.0,
+     0.2,
+     0.4,
+     0.0
+    ],
+    "emissive_rgba": [
+     0.87,
+     0.91,
+     0.97,
+     1.0
+    ],
+    "emissive_mult": 0.7,
+    "soft_depth": 2048.0,
+    "controller": -1
+   }
+  ]
+ }
+}

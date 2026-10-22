@@ -1,0 +1,2196 @@
+{
+ "00015E:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000805:Lux - Forgotten City.esp": {
+  "pbr_winner": "Lux - Forgotten City.esp",
+  "pbr_providers": [
+   "Lux - Forgotten City.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "00081A:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000823:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000826:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000827:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "00082E:Astralite ENB.esp": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "00082F:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000830:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000831:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000838:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "00083A:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "00083C:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "00083D:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "00083F:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000840:Astralite ENB.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000954:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "00095E:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "00096A:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000A70:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A71:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A72:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A73:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A74:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A75:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A76:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A77:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A78:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A79:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A7A:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A7B:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A7C:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A7D:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A7E:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A7F:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A80:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A81:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A82:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A83:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A84:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A85:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A86:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A87:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A88:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A89:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A8A:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A8B:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A8C:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A8D:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A8E:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A8F:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A90:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A91:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A92:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A93:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A94:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A95:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A96:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A97:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A98:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A99:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A9A:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A9B:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A9C:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A9D:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A9E:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000A9F:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA0:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA1:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA2:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA3:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA4:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA5:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA6:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA7:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000AA8:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000DCB:Gray Fox Cowl.esm": {
+  "pbr_winner": "Authoria - Patch - Gray Cowl - Astralite.esp",
+  "pbr_providers": [
+   "Gray Fox Cowl.esm",
+   "Authoria - Patch - Gray Cowl - Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EE6:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000EEB:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EEC:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EED:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EEE:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EEF:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000EF0:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000EF1:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000EF2:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000EF3:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EF4:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EF5:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EF6:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EF7:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EF8:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EF9:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EFA:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EFB:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EFC:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EFD:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000EFE:Helios.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "000F18:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000F2A:Helios.esp": {
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_providers": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "from": "src"
+ },
+ "000F92:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "0011FE:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "001200:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "00133B:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "001407:Dawnguard.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "001DCB:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "001DCC:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "001F4B:Gray Fox Cowl.esm": {
+  "pbr_winner": "Gray Fox Cowl.esm",
+  "pbr_providers": [
+   "Gray Fox Cowl.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "0022E7:Moonpath Music - Sky and Lighting fix - merged.esp": {
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_providers": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "0031FD:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "0042F8:DAc0da.esm": {
+  "pbr_winner": "DAc0da.esm",
+  "pbr_providers": [
+   "DAc0da.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "0048C6:Moonpath Music - Sky and Lighting fix - merged.esp": {
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_providers": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "004E4E:Moonpath Music - Sky and Lighting fix - merged.esp": {
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_providers": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "00591E:Moonpath Music - Sky and Lighting fix - merged.esp": {
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_providers": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "0098F4:DAc0da.esm": {
+  "pbr_winner": "DAc0da.esm",
+  "pbr_providers": [
+   "DAc0da.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "00B769:DAc0da.esm": {
+  "pbr_winner": "DAc0da.esm",
+  "pbr_providers": [
+   "DAc0da.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "00DAAC:Gray Fox Cowl.esm": {
+  "pbr_winner": "Gray Fox Cowl.esm",
+  "pbr_providers": [
+   "Gray Fox Cowl.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "010E0B:Dawnguard.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "010E0E:Dawnguard.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "010E0F:Dawnguard.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "010E10:Dawnguard.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "011171:Moonpath Music - Sky and Lighting fix - merged.esp": {
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_providers": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "012F89:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "014551:Dawnguard.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "018471:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "018DBB:Dawnguard.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "018DBC:Dawnguard.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Dawnguard.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "01A3B1:Skyrim Extended Cut - Saints and Seducers.esp": {
+  "pbr_winner": "Skyrim Extended Cut - Saints and Seducers.esp",
+  "pbr_providers": [
+   "Skyrim Extended Cut - Saints and Seducers.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "01D760:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "01DFF5:Dragonborn.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "02E7AB:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "02E7C8:Skyrim Extended Cut - Saints and Seducers.esp": {
+  "pbr_winner": "Skyrim Extended Cut - Saints and Seducers.esp",
+  "pbr_providers": [
+   "Skyrim Extended Cut - Saints and Seducers.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "031AC0:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "032336:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "03416F:ccbgssse067-daedinv.esm": {
+  "pbr_winner": null,
+  "note": "no PBR provider found"
+ },
+ "034CFB:Dragonborn.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "0374B8:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "0374B9:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "0374BA:Dragonborn.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "048C14:Skyrim.esm": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "049476:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "04D7FB:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "056A0C:Vigilant.esm": {
+  "pbr_winner": "Vigilant.esm",
+  "pbr_providers": [
+   "Vigilant.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "056A0D:Vigilant.esm": {
+  "pbr_winner": "Vigilant.esm",
+  "pbr_providers": [
+   "Vigilant.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "05ED7A:Skyrim.esm": {
+  "pbr_winner": "Lux Orbis.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Lux Orbis.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "06ED5A:Skyrim.esm": {
+  "pbr_winner": "Skyrim.esm",
+  "pbr_providers": [
+   "Skyrim.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "06ED5B:Skyrim.esm": {
+  "pbr_winner": "Skyrim.esm",
+  "pbr_providers": [
+   "Skyrim.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "0701D2:Vigilant.esm": {
+  "pbr_winner": "Lux - Vigilant patch.esp",
+  "pbr_providers": [
+   "Vigilant.esm",
+   "Lux - Vigilant patch.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "07548F:Skyrim.esm": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Lux Orbis.esp",
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "075491:Skyrim.esm": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Lux Via.esp",
+   "Lux Via - Markarth Entrance and Farm Overhaul.esp",
+   "GG's Thieves Guild Headquarters.esp",
+   "Lux Via - plugin.esp",
+   "Lux Orbis.esp",
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "075DE5:Skyrim.esm": {
+  "pbr_winner": "Skyrim.esm",
+  "pbr_providers": [
+   "Skyrim.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "0777CF:Skyrim.esm": {
+  "pbr_winner": "Skyrim.esm",
+  "pbr_providers": [
+   "Skyrim.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "08277A:Skyrim.esm": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Lux Via.esp",
+   "Lux Via - Markarth Entrance and Farm Overhaul.esp",
+   "Lux Via - plugin.esp",
+   "Lux Orbis.esp",
+   "Lux Orbis - Darker windows plugin.esp",
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "08282A:Skyrim.esm": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Lux Via.esp",
+   "Lux Via - Markarth Entrance and Farm Overhaul.esp",
+   "GG's Thieves Guild Headquarters.esp",
+   "Lux Via - plugin.esp",
+   "Lux Orbis.esp",
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "0AEE84:Skyrim.esm": {
+  "pbr_winner": "Lux Orbis - Darker windows plugin.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Lux Orbis.esp",
+   "Lux Orbis - Darker windows plugin.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "0C821E:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "0C821F:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "0C8220:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "0C8221:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "0ECC96:Skyrim.esm": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Lux Via.esp",
+   "Lux Via - Markarth Entrance and Farm Overhaul.esp",
+   "GG's Thieves Guild Headquarters.esp",
+   "Lux Via - plugin.esp",
+   "Lux Orbis.esp",
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "104AB4:Skyrim.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "105942:Skyrim.esm": {
+  "pbr_winner": "Astralite Weathers.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Astralite Weathers.esp"
+  ],
+  "from": "src"
+ },
+ "105943:Skyrim.esm": {
+  "pbr_winner": "Astralite Weathers.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Astralite Weathers.esp"
+  ],
+  "from": "src"
+ },
+ "105944:Skyrim.esm": {
+  "pbr_winner": "Astralite Weathers.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Astralite Weathers.esp"
+  ],
+  "from": "src"
+ },
+ "105945:Skyrim.esm": {
+  "pbr_winner": "Astralite Weathers.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Astralite Weathers.esp"
+  ],
+  "from": "src"
+ },
+ "105F40:Skyrim.esm": {
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "from": "src"
+ },
+ "106635:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A230:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A231:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A232:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A233:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A234:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A235:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A236:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A237:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A238:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A239:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A23A:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A23B:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A23C:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A23D:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A23E:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A23F:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A240:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A241:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A242:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A243:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A244:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A245:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A7A5:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A7A6:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A7A7:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10A7A8:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10DA13:Skyrim.esm": {
+  "pbr_winner": "Skyrim.esm",
+  "pbr_providers": [
+   "Skyrim.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "10E1E3:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1E4:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1E5:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1E6:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1E7:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1E8:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1E9:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1EA:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1EB:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1EC:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1ED:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1EE:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1EF:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1F0:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1F1:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E1F2:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10E3D4:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10FE7E:Skyrim.esm": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Mists of Tamriel.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "10FEF8:Skyrim.esm": {
+  "pbr_winner": "Astralite Weathers.esp",
+  "pbr_providers": [
+   "Skyrim.esm",
+   "Update.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp"
+  ],
+  "from": "src"
+ },
+ "15BB6E:Skyrim Extended Cut - Saints and Seducers.esp": {
+  "pbr_winner": "Skyrim Extended Cut - Saints and Seducers.esp",
+  "pbr_providers": [
+   "Skyrim Extended Cut - Saints and Seducers.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "21BCF1:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "2401C8:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "2A0166:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "2D11A2:Olenveld.esp": {
+  "pbr_winner": "Olenveld.esp",
+  "pbr_providers": [
+   "Olenveld.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "30EEB1:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "30EEB4:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "408447:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "491B1C:Glenmoril.esm": {
+  "pbr_winner": "Glenmoril.esm",
+  "pbr_providers": [
+   "Glenmoril.esm"
+  ],
+  "from": "picta_winner"
+ },
+ "4BF5AA:Vigilant.esm": {
+  "pbr_winner": "Lux - Vigilant patch.esp",
+  "pbr_providers": [
+   "Vigilant.esm",
+   "Lux - Vigilant patch.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "4C07A0:Vigilant.esm": {
+  "pbr_winner": "Lux - Vigilant patch.esp",
+  "pbr_providers": [
+   "Vigilant.esm",
+   "Lux - Vigilant patch.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "53ABD3:BluePalaceTerrace.esp": {
+  "pbr_winner": "BluePalaceTerrace.esp",
+  "pbr_providers": [
+   "BluePalaceTerrace.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "53ABD3:Grand Solitude - The Walls of High King Erling.esp": {
+  "pbr_winner": "Grand Solitude - The Walls of High King Erling.esp",
+  "pbr_providers": [
+   "Grand Solitude - The Walls of High King Erling.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "54F2A0:Wyrmstooth.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "627E73:Wyrmstooth.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "677F87:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "82A018:Wyrmstooth.esp": {
+  "pbr_winner": "Authoria - Patch - Astralite Dawn Warmth.esp",
+  "pbr_providers": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp",
+   "Authoria - Patch - Astralite Dawn Warmth.esp"
+  ],
+  "from": "src"
+ },
+ "99D714:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ },
+ "FABBDB:Lux.esp": {
+  "pbr_winner": "Lux.esp",
+  "pbr_providers": [
+   "Lux.esp"
+  ],
+  "from": "picta_winner"
+ }
+}

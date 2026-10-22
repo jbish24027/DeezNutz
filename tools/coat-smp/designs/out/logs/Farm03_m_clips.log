@@ -1,0 +1,17 @@
+== Farm03 m _1: farmerrobe_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 202, Skirt Side 164, Skirt Back 111
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18       966     519       0        0     447   worst frame unseen 43
+      Skirt Front          entered   734 hooked    0 unseen  317  unseen z p10 45.4 p50 53.5 p90 61.1
+      Skirt Side           entered   224 hooked    0 unseen  122  unseen z p10 45.5 p50 46.9 p90 53.5
+      Skirt Back           entered     8 hooked    0 unseen    8  unseen z p10 47.2 p50 59.7 p90 59.7
+   run          10       364     143       0        0     221   worst frame unseen 44
+      Skirt Front          entered   276 hooked    0 unseen  146  unseen z p10 44.6 p50 53.5 p90 61.1
+      Skirt Side           entered    36 hooked    0 unseen   26  unseen z p10 43.8 p50 47.0 p90 53.6
+      Skirt Back           entered    52 hooked    0 unseen   49  unseen z p10 43.7 p50 43.8 p90 54.7
+   sprint       10       339     175       1        0     163   worst frame unseen 30
+      Skirt Front          entered   224 hooked    0 unseen   72  unseen z p10 47.1 p50 59.9 p90 61.5
+      Skirt Back           entered    60 hooked    0 unseen   60  unseen z p10 43.7 p50 46.8 p90 59.6
+      Skirt Side           entered    55 hooked    1 unseen   31  unseen z p10 43.9 p50 46.9 p90 53.5
+SUMMARY clips worst unseen/frame: 44
+
+EXIT 0

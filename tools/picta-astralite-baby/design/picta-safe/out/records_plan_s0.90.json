@@ -1,0 +1,7764 @@
+{
+ "dials": {
+  "STRENGTH": 0.9,
+  "MULT": {
+   "sky": 1.0,
+   "clouds": 0.8,
+   "fog": 1.0,
+   "volfog": 1.0,
+   "light": 0.5,
+   "ambient": 0.8,
+   "statics": 1.0
+  },
+  "DONOR_MODE": "family"
+ },
+ "records": {
+  "19FA01": {
+   "editorid": "PIC_WTHR_MASTER_A01_Clear",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimClearSN": 0.35604024748453217,
+    "DLC1_SkyrimClearFV": 0.048184488469470654,
+    "SkyrimClearTU": 0.07562027373289168,
+    "SkyrimClearRE": 0.049371914255359035,
+    "SkyrimCloudySN": 0.01131179301293669,
+    "SkyrimClearCO": 0.12042997312667957,
+    "SkyrimClear": 0.1333041684894694,
+    "SkyrimClearFF": 0.07824510968064495,
+    "SkyrimClearVT": 0.06287107055809012,
+    "SkyrimClearMA": 0.06462096118992562
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       87,
+       64,
+       101
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       81,
+       65,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       85,
+       64,
+       106
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       85,
+       64,
+       106
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       48,
+       98
+      ],
+      "new": [
+       59,
+       46,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       95,
+       195
+      ],
+      "new": [
+       116,
+       89,
+       142
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       20,
+       45,
+       110
+      ],
+      "new": [
+       34,
+       44,
+       89
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       40,
+       90,
+       220
+      ],
+      "new": [
+       75,
+       88,
+       165
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       78,
+       61,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       84,
+       60,
+       98
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       82,
+       60,
+       103
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       82,
+       60,
+       103
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       45,
+       98
+      ],
+      "new": [
+       57,
+       44,
+       76
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       89,
+       195
+      ],
+      "new": [
+       111,
+       85,
+       139
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      253,
+      153,
+      163
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      254,
+      153,
+      160
+     ]
+    }
+   }
+  },
+  "19FA02": {
+   "editorid": "PIC_WTHR_MASTER_A02_Clear_Aurora",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "DLC1_SkyrimClearFV_A": 0.06300525043753646,
+    "SkyrimClearTU_A": 0.10075839653304443,
+    "SkyrimClearRE_A": 0.065922160180015,
+    "SkyrimCloudySN_A": 0.041503458621551796,
+    "SkyrimClearSN_A": 0.17051420951745977,
+    "SkyrimClearCO_A": 0.16251354279523292,
+    "SkyrimClear_A": 0.11550962580215018,
+    "SkyrimCloudyCO_A": 0.027418951579298276,
+    "SkyrimClearVT_A": 0.08309025752146011,
+    "SkyrimClearMA_A": 0.0864238686557213,
+    "SkyrimClearFF_A": 0.08334027835652971
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       87,
+       65,
+       93
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       81,
+       66,
+       100
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       82,
+       66,
+       98
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       82,
+       66,
+       98
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       48,
+       98
+      ],
+      "new": [
+       56,
+       48,
+       71
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       95,
+       195
+      ],
+      "new": [
+       114,
+       91,
+       132
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       20,
+       45,
+       110
+      ],
+      "new": [
+       34,
+       44,
+       89
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       40,
+       90,
+       220
+      ],
+      "new": [
+       76,
+       88,
+       163
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       78,
+       62,
+       97
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       81,
+       62,
+       90
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       79,
+       62,
+       95
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       79,
+       62,
+       95
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       45,
+       98
+      ],
+      "new": [
+       56,
+       45,
+       71
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       89,
+       195
+      ],
+      "new": [
+       108,
+       87,
+       131
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      243,
+      156,
+      163
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      246,
+      155,
+      164
+     ]
+    }
+   }
+  },
+  "19FA03": {
+   "editorid": "PIC_WTHR_MASTER_A03_Clear_Mist",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "DLC1_SkyrimClearFV": 0.06424464627947671,
+    "SkyrimClearTU": 0.1008249312557287,
+    "SkyrimClearRE": 0.06582784767936006,
+    "SkyrimClearSN": 0.22473127239396717,
+    "SkyrimCloudySN": 0.015082076493625531,
+    "SkyrimClearCO": 0.160569952503958,
+    "SkyrimClear": 0.09440879926672778,
+    "SkyrimClearFF": 0.10432463961336556,
+    "SkyrimClearVT": 0.08382634780434964,
+    "SkyrimClearMA": 0.08615948670944089
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       93,
+       68,
+       96
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       87,
+       69,
+       103
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       91,
+       68,
+       101
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       91,
+       68,
+       101
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       50,
+       52,
+       87
+      ],
+      "new": [
+       61,
+       50,
+       75
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       100,
+       104,
+       175
+      ],
+      "new": [
+       132,
+       98,
+       142
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       28,
+       49,
+       95
+      ],
+      "new": [
+       36,
+       48,
+       85
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       56,
+       97,
+       189
+      ],
+      "new": [
+       79,
+       95,
+       156
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       85,
+       65,
+       102
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       89,
+       65,
+       92
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       87,
+       65,
+       97
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       87,
+       65,
+       97
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       48,
+       48,
+       86
+      ],
+      "new": [
+       60,
+       46,
+       72
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       99,
+       98,
+       172
+      ],
+      "new": [
+       126,
+       94,
+       136
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      254,
+      153,
+      160
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      253,
+      154,
+      153
+     ]
+    }
+   }
+  },
+  "19FB01": {
+   "editorid": "PIC_WTHR_MASTER_B01_Lightly_Cloudy",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "DLC1_SkyrimClearFV": 0.06424464627947671,
+    "SkyrimClearTU": 0.1008249312557287,
+    "SkyrimClearRE": 0.06582784767936006,
+    "SkyrimClearSN": 0.22473127239396717,
+    "SkyrimCloudySN": 0.015082076493625531,
+    "SkyrimClearCO": 0.160569952503958,
+    "SkyrimClear": 0.09440879926672778,
+    "SkyrimClearFF": 0.10432463961336556,
+    "SkyrimClearVT": 0.08382634780434964,
+    "SkyrimClearMA": 0.08615948670944089
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       91,
+       67,
+       101
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       85,
+       68,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       89,
+       67,
+       106
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       89,
+       67,
+       106
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       48,
+       50,
+       98
+      ],
+      "new": [
+       62,
+       48,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       100,
+       195
+      ],
+      "new": [
+       135,
+       98,
+       148
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       22,
+       47,
+       110
+      ],
+      "new": [
+       35,
+       46,
+       91
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       45,
+       95,
+       220
+      ],
+      "new": [
+       79,
+       93,
+       167
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       82,
+       65,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       88,
+       64,
+       98
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       86,
+       64,
+       103
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       86,
+       64,
+       103
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       47,
+       47,
+       98
+      ],
+      "new": [
+       59,
+       46,
+       76
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       94,
+       195
+      ],
+      "new": [
+       133,
+       93,
+       145
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      254,
+      153,
+      160
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      253,
+      154,
+      153
+     ]
+    }
+   }
+  },
+  "19FB02": {
+   "editorid": "PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimCloudySN_A": 0.16654443629575305,
+    "DLC1_SkyrimClearFV_A": 0.05040336022401493,
+    "SkyrimClearTU_A": 0.08060537369157944,
+    "SkyrimClearRE_A": 0.05273684912327488,
+    "SkyrimClearSN_A": 0.13640909393959597,
+    "SkyrimClearCO_A": 0.13000866724448296,
+    "SkyrimClear_A": 0.09240616041069405,
+    "SkyrimCloudyCO_A": 0.0886059070604707,
+    "SkyrimClearVT_A": 0.06647109807320488,
+    "SkyrimClearMA_A": 0.06913794252950196,
+    "SkyrimClearFF_A": 0.06667111140742715
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       88,
+       69,
+       93
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       82,
+       70,
+       100
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       86,
+       69,
+       98
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       86,
+       69,
+       98
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       48,
+       50,
+       98
+      ],
+      "new": [
+       58,
+       50,
+       73
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       100,
+       195
+      ],
+      "new": [
+       132,
+       100,
+       140
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       22,
+       47,
+       110
+      ],
+      "new": [
+       36,
+       46,
+       89
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       45,
+       95,
+       220
+      ],
+      "new": [
+       80,
+       93,
+       165
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       81,
+       66,
+       100
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       87,
+       65,
+       93
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       82,
+       66,
+       97
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       82,
+       66,
+       97
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       47,
+       47,
+       98
+      ],
+      "new": [
+       58,
+       47,
+       71
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       94,
+       195
+      ],
+      "new": [
+       127,
+       96,
+       137
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      240,
+      157,
+      162
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      240,
+      157,
+      162
+     ]
+    }
+   }
+  },
+  "19FB03": {
+   "editorid": "PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimCloudyTU": 0.08090234403703431,
+    "DLC1_SkyrimCloudyFV": 0.023146447204056144,
+    "SkyrimFogCO": 0.21772356528767728,
+    "KarthspireRedoubtFog": 0.025350870747299584,
+    "SkyrimCloudySN": 0.15585274450731135,
+    "SkyrimFogMA": 0.0793592475567639,
+    "SkyrimCloudyCO": 0.06708795649937542,
+    "SkyrimFog": 0.09376148137262107,
+    "RiftenOvercastFog": 0.02263208171063267,
+    "SkyrimCloudyVT": 0.002057461973693879,
+    "SkyrimFogRE": 0.03747520023513852,
+    "SkyrimFogFF": 0.09170401939892718,
+    "SkyrimFogVT": 0.10294657946946874
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       74,
+       77,
+       118
+      ],
+      "new": [
+       85,
+       77,
+       91
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       74,
+       77,
+       118
+      ],
+      "new": [
+       81,
+       78,
+       93
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       74,
+       77,
+       118
+      ],
+      "new": [
+       84,
+       77,
+       93
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       74,
+       77,
+       118
+      ],
+      "new": [
+       84,
+       77,
+       93
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       53,
+       56,
+       84
+      ],
+      "new": [
+       60,
+       56,
+       67
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       106,
+       109,
+       168
+      ],
+      "new": [
+       118,
+       110,
+       130
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       45,
+       72,
+       127
+      ],
+      "new": [
+       65,
+       70,
+       100
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       45,
+       72,
+       127
+      ],
+      "new": [
+       65,
+       70,
+       100
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       45,
+       72,
+       127
+      ],
+      "new": [
+       65,
+       70,
+       100
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       45,
+       72,
+       127
+      ],
+      "new": [
+       65,
+       70,
+       100
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       32,
+       51,
+       91
+      ],
+      "new": [
+       45,
+       50,
+       72
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       64,
+       102,
+       181
+      ],
+      "new": [
+       91,
+       100,
+       141
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       74,
+       73,
+       117
+      ],
+      "new": [
+       81,
+       74,
+       92
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       74,
+       73,
+       117
+      ],
+      "new": [
+       82,
+       74,
+       89
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       74,
+       73,
+       117
+      ],
+      "new": [
+       79,
+       75,
+       89
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       74,
+       73,
+       117
+      ],
+      "new": [
+       79,
+       75,
+       89
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       53,
+       52,
+       84
+      ],
+      "new": [
+       58,
+       53,
+       64
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       105,
+       104,
+       167
+      ],
+      "new": [
+       114,
+       106,
+       129
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      186,
+      172,
+      172
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      164,
+      177,
+      188
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      186,
+      172,
+      172
+     ]
+    }
+   }
+  },
+  "19FC01": {
+   "editorid": "PIC_WTHR_MASTER_C01_Cloudy",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "DLC1_SkyrimCloudyFV": 0.0692857142857143,
+    "SkyrimCloudyTU": 0.08742857142857142,
+    "SkyrimCloudyRE": 0.05542857142857143,
+    "SkyrimCloudySN": 0.2847857142857143,
+    "SkyrimCloudyCO": 0.12435714285714286,
+    "SkyrimCloudy": 0.13292857142857142,
+    "SkyrimCloudyFF": 0.07142857142857142,
+    "SkyrimCloudyCO_A": 0.023642857142857143,
+    "SkyrimCloudyVT": 0.07771428571428572,
+    "SkyrimCloudyMA": 0.073
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       50,
+       63,
+       129
+      ],
+      "new": [
+       75,
+       61,
+       82
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       50,
+       63,
+       129
+      ],
+      "new": [
+       70,
+       62,
+       87
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       50,
+       63,
+       129
+      ],
+      "new": [
+       71,
+       62,
+       85
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       50,
+       63,
+       129
+      ],
+      "new": [
+       71,
+       62,
+       85
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       36,
+       45,
+       93
+      ],
+      "new": [
+       51,
+       44,
+       63
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       154,
+       90,
+       184
+      ],
+      "new": [
+       146,
+       99,
+       134
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       45,
+       76,
+       146
+      ],
+      "new": [
+       66,
+       74,
+       117
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       45,
+       76,
+       146
+      ],
+      "new": [
+       66,
+       74,
+       117
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       45,
+       76,
+       146
+      ],
+      "new": [
+       66,
+       74,
+       117
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       45,
+       76,
+       146
+      ],
+      "new": [
+       66,
+       74,
+       117
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       32,
+       54,
+       105
+      ],
+      "new": [
+       45,
+       53,
+       86
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       64,
+       106,
+       208
+      ],
+      "new": [
+       95,
+       103,
+       166
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       50,
+       61,
+       129
+      ],
+      "new": [
+       70,
+       60,
+       87
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       50,
+       61,
+       129
+      ],
+      "new": [
+       72,
+       60,
+       82
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       50,
+       61,
+       129
+      ],
+      "new": [
+       71,
+       60,
+       84
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       50,
+       61,
+       129
+      ],
+      "new": [
+       71,
+       60,
+       84
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       36,
+       43,
+       92
+      ],
+      "new": [
+       48,
+       43,
+       62
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       153,
+       86,
+       183
+      ],
+      "new": [
+       143,
+       96,
+       130
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      221,
+      163,
+      158
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      167,
+      176,
+      189
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      221,
+      163,
+      158
+     ]
+    }
+   }
+  },
+  "19FC02": {
+   "editorid": "PIC_WTHR_MASTER_C02_Cloudy_Storm",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "DLC1_SkyrimCloudyFV": 0.08083333333333334,
+    "SkyrimCloudyTU": 0.102,
+    "SkyrimCloudyRE": 0.06466666666666666,
+    "SkyrimCloudySN": 0.2091666666666667,
+    "SkyrimCloudyCO": 0.14508333333333334,
+    "SkyrimCloudy": 0.1115,
+    "SkyrimCloudyFF": 0.08333333333333333,
+    "SkyrimCloudyCO_A": 0.027583333333333335,
+    "SkyrimCloudyVT": 0.09066666666666667,
+    "SkyrimCloudyMA": 0.08516666666666667
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       55,
+       66,
+       112
+      ],
+      "new": [
+       78,
+       63,
+       78
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       55,
+       66,
+       112
+      ],
+      "new": [
+       73,
+       64,
+       83
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       55,
+       66,
+       112
+      ],
+      "new": [
+       74,
+       64,
+       80
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       55,
+       66,
+       112
+      ],
+      "new": [
+       74,
+       64,
+       80
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       39,
+       47,
+       80
+      ],
+      "new": [
+       50,
+       46,
+       60
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       142,
+       94,
+       160
+      ],
+      "new": [
+       138,
+       100,
+       124
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       50,
+       75,
+       128
+      ],
+      "new": [
+       65,
+       73,
+       110
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       50,
+       75,
+       128
+      ],
+      "new": [
+       65,
+       73,
+       110
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       50,
+       75,
+       128
+      ],
+      "new": [
+       65,
+       73,
+       110
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       50,
+       75,
+       128
+      ],
+      "new": [
+       65,
+       73,
+       110
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       36,
+       54,
+       92
+      ],
+      "new": [
+       45,
+       53,
+       80
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       71,
+       108,
+       182
+      ],
+      "new": [
+       93,
+       105,
+       156
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       55,
+       64,
+       112
+      ],
+      "new": [
+       70,
+       63,
+       83
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       55,
+       64,
+       112
+      ],
+      "new": [
+       75,
+       62,
+       78
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       55,
+       64,
+       112
+      ],
+      "new": [
+       74,
+       62,
+       80
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       55,
+       64,
+       112
+      ],
+      "new": [
+       74,
+       62,
+       80
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       39,
+       46,
+       80
+      ],
+      "new": [
+       51,
+       45,
+       58
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       141,
+       91,
+       159
+      ],
+      "new": [
+       137,
+       97,
+       123
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      225,
+      162,
+      157
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      167,
+      176,
+      189
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      225,
+      162,
+      157
+     ]
+    }
+   }
+  },
+  "19FC03": {
+   "editorid": "PIC_WTHR_MASTER_C03_Cloudy_Light_Fog",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimCloudyTU": 0.08090234403703431,
+    "DLC1_SkyrimCloudyFV": 0.023146447204056144,
+    "SkyrimFogCO": 0.21772356528767728,
+    "KarthspireRedoubtFog": 0.025350870747299584,
+    "SkyrimCloudySN": 0.15585274450731135,
+    "SkyrimFogMA": 0.0793592475567639,
+    "SkyrimCloudyCO": 0.06708795649937542,
+    "SkyrimFog": 0.09376148137262107,
+    "RiftenOvercastFog": 0.02263208171063267,
+    "SkyrimCloudyVT": 0.002057461973693879,
+    "SkyrimFogRE": 0.03747520023513852,
+    "SkyrimFogFF": 0.09170401939892718,
+    "SkyrimFogVT": 0.10294657946946874
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       61,
+       73,
+       113
+      ],
+      "new": [
+       75,
+       72,
+       86
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       61,
+       73,
+       113
+      ],
+      "new": [
+       72,
+       73,
+       86
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       61,
+       73,
+       113
+      ],
+      "new": [
+       75,
+       72,
+       86
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       61,
+       73,
+       113
+      ],
+      "new": [
+       75,
+       72,
+       86
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       44,
+       53,
+       81
+      ],
+      "new": [
+       54,
+       52,
+       64
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       87,
+       104,
+       161
+      ],
+      "new": [
+       106,
+       103,
+       122
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       54,
+       76,
+       113
+      ],
+      "new": [
+       69,
+       74,
+       95
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       54,
+       76,
+       113
+      ],
+      "new": [
+       69,
+       74,
+       95
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       54,
+       76,
+       113
+      ],
+      "new": [
+       69,
+       74,
+       95
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       54,
+       76,
+       113
+      ],
+      "new": [
+       69,
+       74,
+       95
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       38,
+       54,
+       81
+      ],
+      "new": [
+       47,
+       53,
+       69
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       108,
+       161
+      ],
+      "new": [
+       97,
+       105,
+       137
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       61,
+       71,
+       112
+      ],
+      "new": [
+       71,
+       71,
+       87
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       61,
+       71,
+       112
+      ],
+      "new": [
+       75,
+       70,
+       85
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       61,
+       71,
+       112
+      ],
+      "new": [
+       72,
+       71,
+       85
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       61,
+       71,
+       112
+      ],
+      "new": [
+       72,
+       71,
+       85
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       44,
+       50,
+       80
+      ],
+      "new": [
+       52,
+       50,
+       60
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       86,
+       101,
+       160
+      ],
+      "new": [
+       105,
+       100,
+       121
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      186,
+      172,
+      172
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      164,
+      177,
+      188
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      186,
+      172,
+      172
+     ]
+    }
+   }
+  },
+  "19FC04": {
+   "editorid": "PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimOvercastRain": 0.19957142857142857,
+    "SkyrimOvercastRainFF": 0.15757142857142856,
+    "SkyrimOvercastRainTU": 0.13385714285714287,
+    "SkyrimOvercastRainRE": 0.08042857142857142,
+    "SkyrimOvercastRainVT": 0.2857142857142857,
+    "SkyrimOvercastRainMA": 0.14285714285714285
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       55,
+       72,
+       135
+      ],
+      "new": [
+       69,
+       73,
+       92
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       55,
+       72,
+       135
+      ],
+      "new": [
+       69,
+       73,
+       92
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       55,
+       72,
+       135
+      ],
+      "new": [
+       69,
+       73,
+       92
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       55,
+       72,
+       135
+      ],
+      "new": [
+       69,
+       73,
+       92
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       51,
+       97
+      ],
+      "new": [
+       49,
+       52,
+       66
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       151,
+       102,
+       193
+      ],
+      "new": [
+       130,
+       115,
+       144
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       54,
+       86,
+       160
+      ],
+      "new": [
+       80,
+       85,
+       117
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       54,
+       86,
+       160
+      ],
+      "new": [
+       80,
+       85,
+       117
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       54,
+       86,
+       160
+      ],
+      "new": [
+       80,
+       85,
+       117
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       54,
+       86,
+       160
+      ],
+      "new": [
+       80,
+       85,
+       117
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       39,
+       62,
+       115
+      ],
+      "new": [
+       59,
+       61,
+       83
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       77,
+       124,
+       228
+      ],
+      "new": [
+       116,
+       122,
+       166
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       55,
+       68,
+       135
+      ],
+      "new": [
+       66,
+       70,
+       92
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       55,
+       68,
+       135
+      ],
+      "new": [
+       66,
+       70,
+       92
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       55,
+       68,
+       135
+      ],
+      "new": [
+       66,
+       70,
+       92
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       55,
+       68,
+       135
+      ],
+      "new": [
+       66,
+       70,
+       92
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       49,
+       97
+      ],
+      "new": [
+       47,
+       51,
+       64
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       151,
+       98,
+       193
+      ],
+      "new": [
+       127,
+       112,
+       144
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      177,
+      173
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      166,
+      177,
+      182
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      177,
+      173
+     ]
+    }
+   }
+  },
+  "19FC05": {
+   "editorid": "PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimOvercastSnow": 0.9290663618829916,
+    "Seasons_CloudySnow": 0.032716622615901136,
+    "Seasons_OvercastSnow": 0.028216301164368882,
+    "SkyrimStormSnow": 0.01000071433673834
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       55,
+       67,
+       108
+      ],
+      "new": [
+       61,
+       67,
+       93
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       55,
+       67,
+       108
+      ],
+      "new": [
+       59,
+       68,
+       90
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       55,
+       67,
+       108
+      ],
+      "new": [
+       59,
+       68,
+       90
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       55,
+       67,
+       108
+      ],
+      "new": [
+       59,
+       68,
+       90
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       48,
+       78
+      ],
+      "new": [
+       45,
+       48,
+       65
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       129,
+       97,
+       155
+      ],
+      "new": [
+       109,
+       105,
+       143
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       50,
+       75,
+       119
+      ],
+      "new": [
+       65,
+       73,
+       101
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       50,
+       75,
+       119
+      ],
+      "new": [
+       65,
+       73,
+       101
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       50,
+       75,
+       119
+      ],
+      "new": [
+       65,
+       73,
+       101
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       50,
+       75,
+       119
+      ],
+      "new": [
+       65,
+       73,
+       101
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       36,
+       54,
+       85
+      ],
+      "new": [
+       45,
+       53,
+       73
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       71,
+       106,
+       170
+      ],
+      "new": [
+       90,
+       104,
+       145
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       54,
+       66,
+       108
+      ],
+      "new": [
+       59,
+       67,
+       88
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       54,
+       66,
+       108
+      ],
+      "new": [
+       58,
+       67,
+       90
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       54,
+       66,
+       108
+      ],
+      "new": [
+       58,
+       67,
+       90
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       54,
+       66,
+       108
+      ],
+      "new": [
+       58,
+       67,
+       90
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       47,
+       78
+      ],
+      "new": [
+       42,
+       48,
+       65
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       129,
+       94,
+       154
+      ],
+      "new": [
+       106,
+       103,
+       141
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    }
+   }
+  },
+  "19FD01": {
+   "editorid": "PIC_WTHR_MASTER_D01_Overcast",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimCloudyTU": 0.07495040047027703,
+    "DLC1_SkyrimCloudyFV": 0.023146447204056144,
+    "SkyrimFogCO": 0.21772356528767728,
+    "KarthspireRedoubtFog": 0.025350870747299584,
+    "SkyrimCloudySN": 0.15585274450731135,
+    "SkyrimFogMA": 0.0793592475567639,
+    "SkyrimCloudyCO": 0.06708795649937542,
+    "SkyrimFog": 0.09376148137262107,
+    "RiftenOvercastFog": 0.02263208171063267,
+    "SkyrimCloudyVT": 0.002057461973693879,
+    "SkyrimFogRE": 0.03747520023513852,
+    "SkyrimOvercastRainTU": 0.005951943566757293,
+    "SkyrimFogFF": 0.09170401939892718,
+    "SkyrimFogVT": 0.10294657946946874
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       58,
+       72,
+       126
+      ],
+      "new": [
+       73,
+       72,
+       89
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       58,
+       72,
+       126
+      ],
+      "new": [
+       72,
+       72,
+       91
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       58,
+       72,
+       126
+      ],
+      "new": [
+       72,
+       72,
+       91
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       58,
+       72,
+       126
+      ],
+      "new": [
+       72,
+       72,
+       91
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       42,
+       52,
+       91
+      ],
+      "new": [
+       52,
+       52,
+       66
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       146,
+       104,
+       180
+      ],
+      "new": [
+       134,
+       113,
+       140
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       52,
+       80,
+       138
+      ],
+      "new": [
+       73,
+       78,
+       109
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       52,
+       80,
+       138
+      ],
+      "new": [
+       73,
+       78,
+       109
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       52,
+       80,
+       138
+      ],
+      "new": [
+       73,
+       78,
+       109
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       52,
+       80,
+       138
+      ],
+      "new": [
+       73,
+       78,
+       109
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       38,
+       57,
+       99
+      ],
+      "new": [
+       52,
+       56,
+       78
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       75,
+       116,
+       198
+      ],
+      "new": [
+       105,
+       113,
+       157
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       57,
+       70,
+       125
+      ],
+      "new": [
+       71,
+       70,
+       90
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       57,
+       70,
+       125
+      ],
+      "new": [
+       72,
+       70,
+       88
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       57,
+       70,
+       125
+      ],
+      "new": [
+       71,
+       70,
+       90
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       57,
+       70,
+       125
+      ],
+      "new": [
+       71,
+       70,
+       90
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       41,
+       50,
+       90
+      ],
+      "new": [
+       51,
+       50,
+       65
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       145,
+       100,
+       179
+      ],
+      "new": [
+       134,
+       109,
+       137
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      186,
+      172,
+      172
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      164,
+      177,
+      188
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      186,
+      172,
+      172
+     ]
+    }
+   }
+  },
+  "19FD02": {
+   "editorid": "PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimFog": 0.22978128862378416,
+    "SkyrimCloudyTU": 0.05916492019990326,
+    "DLC1_SkyrimCloudyFV": 0.016927293245203937,
+    "SkyrimFogCO": 0.21296147025632756,
+    "KarthspireRedoubtFog": 0.018539416411413833,
+    "SkyrimCloudySN": 0.1139771078510398,
+    "SkyrimFogMA": 0.05803643398355634,
+    "SkyrimCloudyCO": 0.04906228169165457,
+    "RiftenOvercastFog": 0.01655113117308829,
+    "SkyrimCloudyVT": 0.0015046482884625717,
+    "SkyrimFogRE": 0.027406093825568276,
+    "SkyrimFogFF": 0.12080176258799506,
+    "SkyrimFogVT": 0.07528615186200226
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       102,
+       122,
+       162
+      ],
+      "new": [
+       120,
+       120,
+       133
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       102,
+       122,
+       162
+      ],
+      "new": [
+       119,
+       120,
+       136
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       102,
+       122,
+       162
+      ],
+      "new": [
+       119,
+       120,
+       135
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       102,
+       122,
+       162
+      ],
+      "new": [
+       119,
+       120,
+       135
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       74,
+       88,
+       116
+      ],
+      "new": [
+       84,
+       87,
+       99
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       146,
+       174,
+       232
+      ],
+      "new": [
+       172,
+       171,
+       191
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       98,
+       132,
+       170
+      ],
+      "new": [
+       114,
+       129,
+       155
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       98,
+       132,
+       170
+      ],
+      "new": [
+       114,
+       129,
+       155
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       98,
+       132,
+       170
+      ],
+      "new": [
+       114,
+       129,
+       155
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       98,
+       132,
+       170
+      ],
+      "new": [
+       114,
+       129,
+       155
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       70,
+       94,
+       122
+      ],
+      "new": [
+       82,
+       92,
+       110
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       140,
+       187,
+       242
+      ],
+      "new": [
+       163,
+       183,
+       219
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       103,
+       120,
+       163
+      ],
+      "new": [
+       117,
+       119,
+       136
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       103,
+       120,
+       163
+      ],
+      "new": [
+       121,
+       118,
+       134
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       103,
+       120,
+       163
+      ],
+      "new": [
+       118,
+       119,
+       134
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       103,
+       120,
+       163
+      ],
+      "new": [
+       118,
+       119,
+       134
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       74,
+       86,
+       117
+      ],
+      "new": [
+       85,
+       85,
+       98
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       147,
+       171,
+       233
+      ],
+      "new": [
+       170,
+       169,
+       192
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      181,
+      173,
+      177
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      165,
+      176,
+      194
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      181,
+      173,
+      177
+     ]
+    }
+   }
+  },
+  "19FD03": {
+   "editorid": "PIC_WTHR_MASTER_D03_Overcast_Rain_Light",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimOvercastRain": 0.3262727272727273,
+    "SkyrimOvercastRainFF": 0.19118181818181815,
+    "SkyrimOvercastRainTU": 0.08518181818181819,
+    "SkyrimOvercastRainRE": 0.06863636363636362,
+    "SkyrimOvercastRainVT": 0.18181818181818182,
+    "SkyrimOvercastRainMA": 0.11936363636363635,
+    "Seasons_CloudyRain": 0.027545454545454543
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       50,
+       63,
+       107
+      ],
+      "new": [
+       59,
+       64,
+       77
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       148,
+       125,
+       213
+      ],
+      "new": [
+       140,
+       134,
+       163
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       49,
+       71,
+       108
+      ],
+      "new": [
+       64,
+       70,
+       85
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       97,
+       142,
+       215
+      ],
+      "new": [
+       130,
+       139,
+       169
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       81,
+       86,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       81,
+       86,
+       105
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       83,
+       85,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       83,
+       85,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       50,
+       60,
+       107
+      ],
+      "new": [
+       59,
+       61,
+       77
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       148,
+       122,
+       213
+      ],
+      "new": [
+       140,
+       131,
+       163
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      167,
+      177,
+      179
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      166,
+      177,
+      182
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      167,
+      177,
+      179
+     ]
+    }
+   }
+  },
+  "19FD04": {
+   "editorid": "PIC_WTHR_MASTER_D04_Overcast_Rain_Medium",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimOvercastRain": 0.19957142857142857,
+    "SkyrimOvercastRainFF": 0.15757142857142856,
+    "SkyrimOvercastRainTU": 0.13385714285714287,
+    "SkyrimOvercastRainRE": 0.08042857142857142,
+    "SkyrimOvercastRainVT": 0.2857142857142857,
+    "SkyrimOvercastRainMA": 0.14285714285714285
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       88,
+       148
+      ],
+      "new": [
+       83,
+       89,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       50,
+       63,
+       107
+      ],
+      "new": [
+       59,
+       64,
+       77
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       148,
+       125,
+       213
+      ],
+      "new": [
+       140,
+       134,
+       163
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       68,
+       99,
+       150
+      ],
+      "new": [
+       90,
+       97,
+       119
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       49,
+       71,
+       108
+      ],
+      "new": [
+       64,
+       70,
+       85
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       97,
+       142,
+       215
+      ],
+      "new": [
+       130,
+       139,
+       169
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       81,
+       86,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       81,
+       86,
+       105
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       81,
+       86,
+       105
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       84,
+       148
+      ],
+      "new": [
+       81,
+       86,
+       105
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       50,
+       60,
+       107
+      ],
+      "new": [
+       59,
+       61,
+       77
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       148,
+       122,
+       213
+      ],
+      "new": [
+       141,
+       131,
+       161
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      177,
+      173
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      166,
+      177,
+      182
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      177,
+      173
+     ]
+    }
+   }
+  },
+  "19FD05": {
+   "editorid": "PIC_WTHR_MASTER_D05_Overcast_Snow_Light",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimOvercastSnow": 0.952147607380369,
+    "Seasons_CloudySnow": 0.022901145057252863,
+    "Seasons_OvercastSnow": 0.01975098754937747,
+    "SkyrimStormSnow": 0.00520026001300065
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       81,
+       89,
+       116
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       82,
+       89,
+       114
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       82,
+       89,
+       114
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       82,
+       89,
+       114
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       97,
+       111,
+       155
+      ],
+      "new": [
+       100,
+       112,
+       140
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       129,
+       111,
+       155
+      ],
+      "new": [
+       112,
+       117,
+       151
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       88,
+       115,
+       163
+      ],
+      "new": [
+       102,
+       113,
+       147
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       88,
+       115,
+       163
+      ],
+      "new": [
+       98,
+       114,
+       150
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       79,
+       86,
+       110
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       78,
+       86,
+       113
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       78,
+       86,
+       113
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       78,
+       86,
+       113
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       96,
+       106,
+       153
+      ],
+      "new": [
+       99,
+       107,
+       138
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       128,
+       106,
+       153
+      ],
+      "new": [
+       112,
+       112,
+       146
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      144,
+      179,
+      227
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    }
+   }
+  },
+  "19FD06": {
+   "editorid": "PIC_WTHR_MASTER_D06_Overcast_Snow_Medium",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimOvercastSnow": 0.9290663618829916,
+    "Seasons_CloudySnow": 0.032716622615901136,
+    "Seasons_OvercastSnow": 0.028216301164368882,
+    "SkyrimStormSnow": 0.01000071433673834
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       81,
+       89,
+       116
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       82,
+       89,
+       114
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       82,
+       89,
+       114
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       78,
+       89,
+       124
+      ],
+      "new": [
+       82,
+       89,
+       114
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       97,
+       111,
+       155
+      ],
+      "new": [
+       100,
+       112,
+       140
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       129,
+       111,
+       155
+      ],
+      "new": [
+       112,
+       117,
+       151
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       92,
+       131
+      ],
+      "new": [
+       79,
+       91,
+       119
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       88,
+       115,
+       163
+      ],
+      "new": [
+       102,
+       113,
+       147
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       88,
+       115,
+       163
+      ],
+      "new": [
+       98,
+       114,
+       150
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       79,
+       86,
+       110
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       78,
+       86,
+       113
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       78,
+       86,
+       113
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       77,
+       85,
+       123
+      ],
+      "new": [
+       78,
+       86,
+       113
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       96,
+       106,
+       153
+      ],
+      "new": [
+       99,
+       107,
+       138
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       128,
+       106,
+       153
+      ],
+      "new": [
+       111,
+       112,
+       149
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      145,
+      179,
+      224
+     ]
+    }
+   }
+  },
+  "19FE01": {
+   "editorid": "PIC_WTHR_MASTER_E01_Storm_Thunder",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimStormRain": 0.22685714285714287,
+    "SkyrimStormRainFF": 0.14914285714285716,
+    "SkyrimOvercastRain": 0.005,
+    "SkyrimStormRainTU": 0.14285714285714285,
+    "SkyrimOvercastRainRE": 0.04757142857142858,
+    "SkyrimOvercastRainVT": 0.2857142857142857,
+    "SkyrimOvercastRainMA": 0.14285714285714285
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       57,
+       79,
+       117
+      ],
+      "new": [
+       71,
+       78,
+       90
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       57,
+       79,
+       117
+      ],
+      "new": [
+       71,
+       78,
+       90
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       57,
+       79,
+       117
+      ],
+      "new": [
+       71,
+       78,
+       90
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       57,
+       79,
+       117
+      ],
+      "new": [
+       71,
+       78,
+       90
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       41,
+       57,
+       84
+      ],
+      "new": [
+       52,
+       56,
+       64
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       81,
+       114,
+       168
+      ],
+      "new": [
+       103,
+       112,
+       129
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       60,
+       92,
+       135
+      ],
+      "new": [
+       83,
+       89,
+       107
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       60,
+       92,
+       135
+      ],
+      "new": [
+       83,
+       89,
+       107
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       60,
+       92,
+       135
+      ],
+      "new": [
+       83,
+       89,
+       107
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       60,
+       92,
+       135
+      ],
+      "new": [
+       83,
+       89,
+       107
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       43,
+       65,
+       97
+      ],
+      "new": [
+       59,
+       63,
+       77
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       86,
+       131,
+       193
+      ],
+      "new": [
+       119,
+       127,
+       151
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       56,
+       77,
+       117
+      ],
+      "new": [
+       70,
+       76,
+       90
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       56,
+       77,
+       117
+      ],
+      "new": [
+       71,
+       76,
+       87
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       56,
+       77,
+       117
+      ],
+      "new": [
+       70,
+       76,
+       90
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       56,
+       77,
+       117
+      ],
+      "new": [
+       70,
+       76,
+       90
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       56,
+       84
+      ],
+      "new": [
+       51,
+       55,
+       64
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       81,
+       112,
+       168
+      ],
+      "new": [
+       100,
+       111,
+       128
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    }
+   }
+  },
+  "19FE02": {
+   "editorid": "PIC_WTHR_MASTER_E02_Storm_Cold_Thunder",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimStormSnow": 0.9711538461538461,
+    "SkyrimOvercastSnow": 0.009615384615384616,
+    "Seasons_CloudySnow": 0.009615384615384616,
+    "SkyrimStormSnowBlizzard": 0.009615384615384616
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       56,
+       78,
+       128
+      ],
+      "new": [
+       65,
+       78,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       56,
+       78,
+       128
+      ],
+      "new": [
+       66,
+       78,
+       103
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       56,
+       78,
+       128
+      ],
+      "new": [
+       66,
+       78,
+       103
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       56,
+       78,
+       128
+      ],
+      "new": [
+       66,
+       78,
+       103
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       56,
+       92
+      ],
+      "new": [
+       47,
+       56,
+       74
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       80,
+       113,
+       183
+      ],
+      "new": [
+       92,
+       113,
+       153
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       59,
+       91,
+       147
+      ],
+      "new": [
+       73,
+       90,
+       126
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       59,
+       91,
+       147
+      ],
+      "new": [
+       73,
+       90,
+       126
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       59,
+       91,
+       147
+      ],
+      "new": [
+       73,
+       90,
+       126
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       59,
+       91,
+       147
+      ],
+      "new": [
+       73,
+       90,
+       126
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       43,
+       65,
+       105
+      ],
+      "new": [
+       55,
+       64,
+       88
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       85,
+       130,
+       210
+      ],
+      "new": [
+       104,
+       129,
+       180
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       56,
+       77,
+       127
+      ],
+      "new": [
+       63,
+       78,
+       102
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       56,
+       77,
+       127
+      ],
+      "new": [
+       65,
+       77,
+       104
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       56,
+       77,
+       127
+      ],
+      "new": [
+       65,
+       77,
+       104
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       56,
+       77,
+       127
+      ],
+      "new": [
+       65,
+       77,
+       104
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       40,
+       56,
+       91
+      ],
+      "new": [
+       47,
+       56,
+       74
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       80,
+       110,
+       182
+      ],
+      "new": [
+       90,
+       111,
+       149
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      152,
+      179,
+      203
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      151,
+      179,
+      206
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      152,
+      179,
+      204
+     ]
+    }
+   }
+  },
+  "19FE03": {
+   "editorid": "PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimStormRain": 0.28755555555555556,
+    "SkyrimStormRainFF": 0.22711111111111112,
+    "SkyrimOvercastRain": 0.003888888888888889,
+    "SkyrimStormRainTU": 0.1111111111111111,
+    "SkyrimOvercastRainRE": 0.037000000000000005,
+    "SkyrimOvercastRainVT": 0.2222222222222222,
+    "SkyrimOvercastRainMA": 0.1111111111111111
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       56,
+       75,
+       91
+      ],
+      "new": [
+       67,
+       73,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       111,
+       148,
+       180
+      ],
+      "new": [
+       131,
+       145,
+       154
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       58,
+       82,
+       100
+      ],
+      "new": [
+       73,
+       79,
+       87
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       116,
+       163,
+       201
+      ],
+      "new": [
+       145,
+       158,
+       172
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       56,
+       74,
+       91
+      ],
+      "new": [
+       67,
+       72,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       112,
+       147,
+       181
+      ],
+      "new": [
+       132,
+       144,
+       155
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      171,
+      175,
+      187
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      171,
+      175,
+      187
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      171,
+      175,
+      187
+     ]
+    }
+   }
+  },
+  "19FE04": {
+   "editorid": "PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimStormRain": 0.22685714285714287,
+    "SkyrimStormRainFF": 0.14914285714285716,
+    "SkyrimOvercastRain": 0.005,
+    "SkyrimStormRainTU": 0.14285714285714285,
+    "SkyrimOvercastRainRE": 0.04757142857142858,
+    "SkyrimOvercastRainVT": 0.2857142857142857,
+    "SkyrimOvercastRainMA": 0.14285714285714285
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       56,
+       75,
+       91
+      ],
+      "new": [
+       68,
+       73,
+       77
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       111,
+       148,
+       180
+      ],
+      "new": [
+       131,
+       145,
+       154
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       82,
+       115,
+       141
+      ],
+      "new": [
+       103,
+       111,
+       122
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       58,
+       82,
+       100
+      ],
+      "new": [
+       74,
+       79,
+       85
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       116,
+       163,
+       201
+      ],
+      "new": [
+       146,
+       158,
+       170
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       78,
+       104,
+       127
+      ],
+      "new": [
+       92,
+       102,
+       108
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       56,
+       74,
+       91
+      ],
+      "new": [
+       67,
+       72,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       112,
+       147,
+       181
+      ],
+      "new": [
+       132,
+       144,
+       155
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    }
+   }
+  },
+  "19FE05": {
+   "editorid": "PIC_WTHR_MASTER_E05_Storm_Snow_Heavy",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimStormSnow": 0.98125,
+    "SkyrimOvercastSnow": 0.00625,
+    "Seasons_CloudySnow": 0.00625,
+    "SkyrimStormSnowBlizzard": 0.00625
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       53,
+       61,
+       75
+      ],
+      "new": [
+       53,
+       61,
+       75
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       106,
+       122,
+       148
+      ],
+      "new": [
+       103,
+       123,
+       148
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       55,
+       66,
+       81
+      ],
+      "new": [
+       55,
+       66,
+       81
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       109,
+       132,
+       162
+      ],
+      "new": [
+       109,
+       132,
+       162
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       73,
+       85,
+       101
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       72,
+       85,
+       104
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       73,
+       85,
+       101
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       73,
+       85,
+       101
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       53,
+       61,
+       75
+      ],
+      "new": [
+       53,
+       61,
+       75
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       107,
+       121,
+       149
+      ],
+      "new": [
+       104,
+       122,
+       149
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      152,
+      179,
+      203
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      151,
+      179,
+      206
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      152,
+      179,
+      204
+     ]
+    }
+   }
+  },
+  "19FE06": {
+   "editorid": "PIC_WTHR_MASTER_E06_Storm_Snow_Extreme",
+   "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+   "donor_mix": {
+    "SkyrimStormSnow": 0.9732142857142857,
+    "SkyrimOvercastSnow": 0.008928571428571428,
+    "Seasons_CloudySnow": 0.008928571428571428,
+    "SkyrimStormSnowBlizzard": 0.008928571428571428
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       75,
+       86,
+       104
+      ],
+      "new": [
+       75,
+       86,
+       104
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       53,
+       61,
+       75
+      ],
+      "new": [
+       53,
+       61,
+       75
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       106,
+       122,
+       148
+      ],
+      "new": [
+       103,
+       123,
+       148
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       76,
+       92,
+       114
+      ],
+      "new": [
+       76,
+       92,
+       114
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       55,
+       66,
+       81
+      ],
+      "new": [
+       55,
+       66,
+       81
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       109,
+       132,
+       162
+      ],
+      "new": [
+       109,
+       132,
+       162
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       73,
+       85,
+       101
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       72,
+       85,
+       104
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       73,
+       85,
+       101
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       75,
+       84,
+       104
+      ],
+      "new": [
+       73,
+       85,
+       101
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       53,
+       61,
+       75
+      ],
+      "new": [
+       53,
+       61,
+       75
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       107,
+       121,
+       149
+      ],
+      "new": [
+       104,
+       122,
+       149
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      152,
+      179,
+      203
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      151,
+      179,
+      206
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      152,
+      179,
+      204
+     ]
+    }
+   }
+  },
+  "5AFA01": {
+   "editorid": "PIC_WTHR_SUMMER_A01_Clear",
+   "winner": "Authoria - Patch - Picta Seasonal.esp",
+   "donor_mix": {
+    "SkyrimClearSN": 0.3071428571428571,
+    "SkyrimCloudySN": 0.02378571428571429,
+    "DLC1_SkyrimClearFV": 0.06192857142857143,
+    "SkyrimClearCO": 0.10714285714285714,
+    "SkyrimClear": 0.16071428571428573,
+    "SkyrimClearFF": 0.07142857142857142,
+    "SkyrimClearTU": 0.07142857142857142,
+    "SkyrimClearRE": 0.03571428571428571,
+    "SkyrimClearVT": 0.08928571428571429,
+    "SkyrimClearMA": 0.07142857142857142
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       88,
+       64,
+       98
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       81,
+       65,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       83,
+       65,
+       103
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       83,
+       65,
+       103
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       48,
+       98
+      ],
+      "new": [
+       59,
+       46,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       95,
+       195
+      ],
+      "new": [
+       116,
+       89,
+       142
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       50,
+       61,
+       123
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       20,
+       45,
+       110
+      ],
+      "new": [
+       34,
+       44,
+       89
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       40,
+       90,
+       220
+      ],
+      "new": [
+       76,
+       88,
+       163
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       78,
+       61,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       84,
+       60,
+       98
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       80,
+       61,
+       100
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       80,
+       61,
+       100
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       45,
+       98
+      ],
+      "new": [
+       57,
+       44,
+       76
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       89,
+       195
+      ],
+      "new": [
+       111,
+       85,
+       139
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      253,
+      153,
+      163
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      255,
+      153,
+      157
+     ]
+    }
+   }
+  },
+  "5AFA02": {
+   "editorid": "PIC_WTHR_SUMMER_A02_Clear_Aurora",
+   "winner": "Authoria - Patch - Picta Seasonal.esp",
+   "donor_mix": {
+    "SkyrimCloudySN_A": 0.04545041359876375,
+    "SkyrimClearSN_A": 0.1576220343605127,
+    "DLC1_SkyrimClearFV_A": 0.06972093446050359,
+    "DLC1_SkyrimCloudyFV_A": 0.015180438141987093,
+    "SkyrimClearCO_A": 0.13635124079629124,
+    "SkyrimClear_A": 0.11362603399690938,
+    "SkyrimClearFF_A": 0.0909008271975275,
+    "SkyrimCloudyCO_A": 0.03026997545677666,
+    "SkyrimClearTU_A": 0.0909008271975275,
+    "SkyrimClearRE_A": 0.04545041359876375,
+    "SkyrimClearVT_A": 0.11362603399690938,
+    "SkyrimClearMA_A": 0.0909008271975275
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       87,
+       65,
+       93
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       81,
+       66,
+       100
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       83,
+       66,
+       95
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       63,
+       67,
+       137
+      ],
+      "new": [
+       83,
+       66,
+       95
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       48,
+       98
+      ],
+      "new": [
+       59,
+       47,
+       71
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       95,
+       195
+      ],
+      "new": [
+       114,
+       91,
+       132
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       51,
+       61,
+       121
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       51,
+       61,
+       121
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       51,
+       61,
+       121
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       28,
+       63,
+       154
+      ],
+      "new": [
+       51,
+       61,
+       121
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       20,
+       45,
+       110
+      ],
+      "new": [
+       34,
+       44,
+       89
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       40,
+       90,
+       220
+      ],
+      "new": [
+       76,
+       88,
+       163
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       78,
+       62,
+       97
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       84,
+       61,
+       90
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       79,
+       62,
+       95
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       62,
+       62,
+       137
+      ],
+      "new": [
+       79,
+       62,
+       95
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       45,
+       45,
+       98
+      ],
+      "new": [
+       56,
+       45,
+       71
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       76,
+       89,
+       195
+      ],
+      "new": [
+       109,
+       87,
+       129
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      244,
+      156,
+      160
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      247,
+      155,
+      161
+     ]
+    }
+   }
+  },
+  "5AFA03": {
+   "editorid": "PIC_WTHR_SUMMER_A03_Clear_Mist",
+   "winner": "Authoria - Patch - Picta Seasonal.esp",
+   "donor_mix": {
+    "SkyrimClearSN": 0.20909090909090908,
+    "SkyrimCloudySN": 0.030272727272727274,
+    "DLC1_SkyrimClearFV": 0.07881818181818182,
+    "SkyrimClearCO": 0.13636363636363635,
+    "SkyrimClear": 0.11363636363636363,
+    "SkyrimClearFF": 0.09090909090909091,
+    "SkyrimClearTU": 0.09090909090909091,
+    "SkyrimClearRE": 0.045454545454545456,
+    "SkyrimClearVT": 0.11363636363636363,
+    "SkyrimClearMA": 0.09090909090909091
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       93,
+       68,
+       96
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       87,
+       69,
+       103
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       88,
+       69,
+       101
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       70,
+       72,
+       122
+      ],
+      "new": [
+       88,
+       69,
+       101
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       50,
+       52,
+       87
+      ],
+      "new": [
+       61,
+       50,
+       75
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       100,
+       104,
+       175
+      ],
+      "new": [
+       132,
+       98,
+       142
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       39,
+       68,
+       133
+      ],
+      "new": [
+       53,
+       66,
+       117
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       28,
+       49,
+       95
+      ],
+      "new": [
+       36,
+       48,
+       85
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       56,
+       97,
+       189
+      ],
+      "new": [
+       79,
+       95,
+       156
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       85,
+       65,
+       102
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       89,
+       65,
+       92
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       87,
+       65,
+       97
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       68,
+       68,
+       121
+      ],
+      "new": [
+       87,
+       65,
+       97
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       48,
+       48,
+       86
+      ],
+      "new": [
+       60,
+       46,
+       72
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       99,
+       98,
+       172
+      ],
+      "new": [
+       126,
+       94,
+       136
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      254,
+      153,
+      160
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      253,
+      154,
+      153
+     ]
+    }
+   }
+  },
+  "5AFB01": {
+   "editorid": "PIC_WTHR_SUMMER_B01_Lightly_Cloudy",
+   "winner": "Authoria - Patch - Picta Seasonal.esp",
+   "donor_mix": {
+    "SkyrimClearSN": 0.20909090909090908,
+    "SkyrimCloudySN": 0.030272727272727274,
+    "DLC1_SkyrimClearFV": 0.07881818181818182,
+    "SkyrimClearCO": 0.13636363636363635,
+    "SkyrimClear": 0.11363636363636363,
+    "SkyrimClearFF": 0.09090909090909091,
+    "SkyrimClearTU": 0.09090909090909091,
+    "SkyrimClearRE": 0.045454545454545456,
+    "SkyrimClearVT": 0.11363636363636363,
+    "SkyrimClearMA": 0.09090909090909091
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       92,
+       67,
+       98
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       85,
+       68,
+       108
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       87,
+       68,
+       103
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       87,
+       68,
+       103
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       48,
+       50,
+       98
+      ],
+      "new": [
+       62,
+       48,
+       79
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       100,
+       195
+      ],
+      "new": [
+       135,
+       98,
+       148
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       52,
+       64,
+       125
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       22,
+       47,
+       110
+      ],
+      "new": [
+       35,
+       46,
+       91
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       45,
+       95,
+       220
+      ],
+      "new": [
+       79,
+       93,
+       167
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       82,
+       65,
+       105
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       88,
+       64,
+       98
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       86,
+       64,
+       103
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       86,
+       64,
+       103
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       47,
+       47,
+       98
+      ],
+      "new": [
+       59,
+       46,
+       76
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       94,
+       195
+      ],
+      "new": [
+       133,
+       93,
+       145
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      254,
+      153,
+      160
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      170,
+      176,
+      180
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      253,
+      154,
+      153
+     ]
+    }
+   }
+  },
+  "5AFB02": {
+   "editorid": "PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora",
+   "winner": "Authoria - Patch - Picta Seasonal.esp",
+   "donor_mix": {
+    "SkyrimCloudySN_A": 0.1785586743804014,
+    "SkyrimClearSN_A": 0.12384829655024641,
+    "DLC1_SkyrimClearFV_A": 0.05478180129990715,
+    "DLC1_SkyrimCloudyFV_A": 0.011927719448610815,
+    "SkyrimClearCO_A": 0.10713520462824085,
+    "SkyrimClear_A": 0.0892793371902007,
+    "SkyrimClearFF_A": 0.07142346975216056,
+    "SkyrimCloudyCO_A": 0.09520748517963003,
+    "SkyrimClearTU_A": 0.07142346975216056,
+    "SkyrimClearRE_A": 0.03571173487608028,
+    "SkyrimClearVT_A": 0.0892793371902007,
+    "SkyrimClearMA_A": 0.07142346975216056
+   },
+   "DALC": {
+    "Sunrise": {
+     "DirectionalXPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       88,
+       69,
+       93
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       85,
+       69,
+       100
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       86,
+       69,
+       98
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       67,
+       70,
+       137
+      ],
+      "new": [
+       86,
+       69,
+       98
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       48,
+       50,
+       98
+      ],
+      "new": [
+       58,
+       50,
+       73
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       100,
+       195
+      ],
+      "new": [
+       133,
+       100,
+       138
+      ]
+     }
+    },
+    "Day": {
+     "DirectionalXPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       31,
+       66,
+       154
+      ],
+      "new": [
+       53,
+       64,
+       123
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       22,
+       47,
+       110
+      ],
+      "new": [
+       36,
+       46,
+       89
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       45,
+       95,
+       220
+      ],
+      "new": [
+       80,
+       93,
+       165
+      ]
+     }
+    },
+    "Sunset": {
+     "DirectionalXPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       81,
+       66,
+       100
+      ]
+     },
+     "DirectionalXMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       87,
+       65,
+       93
+      ]
+     },
+     "DirectionalYPlus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       83,
+       66,
+       95
+      ]
+     },
+     "DirectionalYMinus": {
+      "old": [
+       66,
+       66,
+       137
+      ],
+      "new": [
+       83,
+       66,
+       95
+      ]
+     },
+     "DirectionalZPlus": {
+      "old": [
+       47,
+       47,
+       98
+      ],
+      "new": [
+       58,
+       47,
+       71
+      ]
+     },
+     "DirectionalZMinus": {
+      "old": [
+       110,
+       94,
+       195
+      ],
+      "new": [
+       130,
+       95,
+       138
+      ]
+     }
+    }
+   },
+   "SkyStaticsColor": {
+    "Sunrise": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      238,
+      158,
+      158
+     ]
+    },
+    "Day": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      169,
+      176,
+      183
+     ]
+    },
+    "Sunset": {
+     "old": [
+      175,
+      175,
+      175
+     ],
+     "new": [
+      241,
+      157,
+      159
+     ]
+    }
+   }
+  }
+ }
+}

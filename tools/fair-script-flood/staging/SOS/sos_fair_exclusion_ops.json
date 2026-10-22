@@ -1,0 +1,22 @@
+[
+  {
+    "formid": "0012DD:Schlongs of Skyrim.esp",
+    "field_path": "Conditions",
+    "op": "InsertAtIndex",
+    "key": "0",
+    "compose": {
+      "type": "ConditionFloat",
+      "sets": [
+        {"path": "CompareOperator", "value": "EqualTo"},
+        {"path": "ComparisonValue", "value": "0"},
+        {"path": "Data", "compose": {
+          "type": "HasKeywordConditionData",
+          "sets": [
+            {"path": "Keyword", "value": "00171E:SkyrimFair.esp"},
+            {"path": "RunOnType", "value": "Subject"}
+          ]
+        }}
+      ]
+    }
+  }
+]

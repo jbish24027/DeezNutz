@@ -1,0 +1,26 @@
+[
+  {"record_type": "PlacedObject", "editorid": "AUTH_ACRoute_MarkarthHump_A", "parent": "000D74:Skyrim.esm", "collection": "Persistent",
+   "ops": [
+     {"field_path": "Base", "value": "0009E6:AnimatedCarriage.esm"},
+     {"field_path": "MajorRecordFlagsRaw", "value": "1024"},
+     {"field_path": "Placement.Position", "value": "-145374.8, 18169.1, -7262.0"},
+     {"field_path": "Placement.Rotation", "value": "6.161012, 0, 0.2886"},
+     {"field_path": "LinkedReferences", "op": "Add", "compose": {"type": "LinkedReferences", "sets": [{"path": "Reference", "value": "000ED3:Animated Carriage Additional Route.esp"}]}}
+   ]},
+  {"record_type": "PlacedObject", "editorid": "AUTH_ACRoute_MarkarthHump_B", "parent": "000D74:Skyrim.esm", "collection": "Persistent",
+   "ops": [
+     {"field_path": "Base", "value": "0009E6:AnimatedCarriage.esm"},
+     {"field_path": "MajorRecordFlagsRaw", "value": "1024"},
+     {"field_path": "Placement.Position", "value": "-145022.1, 19322.6, -7260.0"},
+     {"field_path": "Placement.Rotation", "value": "0.1072, -0.0534, 0.2979"},
+     {"field_path": "LinkedReferences", "op": "Add", "compose": {"type": "LinkedReferences", "sets": [{"path": "Reference", "value": "000ED5:Animated Carriage Additional Route.esp"}]}}
+   ]},
+  {"record_type": "PlacedObject", "editorid": "AUTH_ACRoute_RoriksteadBridge_A", "parent": "000D74:Skyrim.esm", "collection": "Persistent",
+   "ops": [
+     {"field_path": "Base", "value": "0009DD:AnimatedCarriage.esm"},
+     {"field_path": "MajorRecordFlagsRaw", "value": "1024"},
+     {"field_path": "Placement.Position", "value": "-112331.6, -14043.7, -5793.0"},
+     {"field_path": "Placement.Rotation", "value": "0.037087, 0.058, 1.3194"},
+     {"field_path": "LinkedReferences", "op": "Add", "compose": {"type": "LinkedReferences", "sets": [{"path": "Reference", "value": "0009D2:Animated Carriage Additional Route.esp"}]}}
+   ]}
+]

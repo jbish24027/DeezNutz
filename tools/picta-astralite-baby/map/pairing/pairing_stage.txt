@@ -1,0 +1,179 @@
+1B0045:Picta - Weathers of Aurbis.esm          unknown   regs=  2 share=  24.00 ini=None
+    -> 
+    ini-> {} {'none': 24}
+DLC2ApocryphaWeatherNew                        other     regs=  1 share=  12.00 ini=None
+    -> DLC2ApocryphaWeatherNew:1.0
+    ini-> {'OtherWorld.ini': 1.0} {'same_formid': 12}
+FallowstoneClearSN                             other     regs=  1 share=  12.00 ini=None
+    -> FallowstoneClearSN:1.0
+    ini-> {'(unrouted -> Soul base enbseries.ini)': 1.0} {'same_formid': 12}
+FogFF                                          other     regs=  2 share=   5.35 ini=None
+    -> SkyrimFogFF:1.0
+    ini-> {'SoulFog.ini': 1.0} {'same_formid': 24}
+FogVT                                          other     regs=  1 share=   1.75 ini=None
+    -> SkyrimFogVT:1.0
+    ini-> {'SoulFog.ini': 1.0} {'same_formid': 12}
+KarthspireRedoubtFog                           other     regs=  1 share=  12.00 ini=None
+    -> KarthspireRedoubtFog:1.0
+    ini-> {'SoulFog.ini': 1.0} {'same_formid': 12}
+PIC_WTHR_MASTER_A01_Clear                      clear     regs= 45 share=  46.09 ini=Picta - Weathers/00_Master/A01_Clear.ini
+    -> SkyrimClearSN:0.438, SkyrimClear:0.177, SkyrimClearTU:0.087, SkyrimClearFF:0.07, DLC1_SkyrimClearFV:0.063, SkyrimClearRE:0.055, SkyrimClearCO:0.035, SkyrimClearVT:0.034, SkyrimClearMA:0.033
+    ini-> {'SoulClear.ini': 0.991, 'SoulCloudy.ini': 0.009} {'slot+class': 285, 'class_only': 72, 'none': 66, 'slot_only': 3}
+PIC_WTHR_MASTER_A02_Clear_Aurora               clearA    regs= 40 share=  14.40 ini=Picta - Weathers/00_Master/A01_Clear.ini
+    -> SkyrimClearSN_A:0.209, SkyrimClearTU_A:0.15, SkyrimClearFF_A:0.11, DLC1_SkyrimClearFV_A:0.106, SkyrimClearRE_A:0.095, SkyrimClear_A:0.086, SkyrimClearCO_A:0.061, SkyrimClearVT_A:0.059, SkyrimClearMA_A:0.058
+    ini-> {'SoulClear_A.ini': 0.934, 'SoulCloudy_A.ini': 0.066} {'class_only': 48, 'none': 57, 'slot+class': 249, 'slot_only': 21}
+PIC_WTHR_MASTER_A03_Clear_Mist                 clear     regs= 40 share=  25.19 ini=Picta - Weathers/00_Master/A02_Clear_Mist.ini
+    -> SkyrimClearSN:0.272, SkyrimClearTU:0.142, SkyrimClearFF:0.139, SkyrimClear:0.082, SkyrimClearRE:0.08, SkyrimClearCO:0.07, SkyrimClearVT:0.067, DLC1_SkyrimClearFV:0.066, SkyrimClearMA:0.065
+    ini-> {'SoulClear.ini': 0.983, 'SoulCloudy.ini': 0.017} {'class_only': 48, 'none': 66, 'slot+class': 258, 'slot_only': 3}
+PIC_WTHR_MASTER_B01_Lightly_Cloudy             clear     regs= 40 share=  25.19 ini=Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini
+    -> SkyrimClearSN:0.272, SkyrimClearTU:0.142, SkyrimClearFF:0.139, SkyrimClear:0.082, SkyrimClearRE:0.08, SkyrimClearCO:0.07, SkyrimClearVT:0.067, DLC1_SkyrimClearFV:0.066, SkyrimClearMA:0.065
+    ini-> {'SoulClear.ini': 0.983, 'SoulCloudy.ini': 0.017} {'class_only': 48, 'none': 66, 'slot+class': 258, 'slot_only': 3}
+    alt-> SkyrimCloudySN:0.292, SkyrimCloudyTU:0.142, SkyrimCloudyFF:0.124, SkyrimCloudy:0.097, SkyrimCloudyRE:0.08, SkyrimCloudyVT:0.067
+PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora      clearA    regs= 43 share=  18.63 ini=Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini
+    -> SkyrimCloudySN_A:0.164, SkyrimClearSN_A:0.155, SkyrimCloudyCO_A:0.143, SkyrimClearTU_A:0.111, SkyrimClearFF_A:0.082, DLC1_SkyrimClearFV_A:0.078, SkyrimClearRE_A:0.07, SkyrimClear_A:0.064, SkyrimClearCO_A:0.046
+    ini-> {'SoulClear_A.ini': 0.693, 'SoulCloudy_A.ini': 0.307} {'slot_only': 48, 'class_only': 48, 'none': 57, 'slot+class': 249}
+    alt-> SkyrimCloudySN_A:0.334, SkyrimCloudyCO_A:0.193, SkyrimCloudyTU_A:0.115, SkyrimCloudyFF_A:0.085, SkyrimCloudyRE_A:0.073, SkyrimCloudy_A:0.066
+PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog   fog       regs= 40 share=  31.21 ini=Picta - Weathers/00_Master/B02_Lightly_Cloudy_Misty_Fog.ini
+    -> SkyrimCloudySN:0.219, SkyrimFogCO:0.168, SkyrimCloudyTU:0.111, SkyrimFogFF:0.105, SkyrimFog:0.085, SkyrimFogVT:0.075, SkyrimFogMA:0.067, SkyrimFogRE:0.053, RiftenOvercastFog:0.031
+    ini-> {'SoulFog.ini': 0.396, 'SoulCloudy.ini': 0.383, 'SoulFogOvercast.ini': 0.221} {'fallback_class': 183, 'class_only': 60, 'slot+class': 225, 'none': 12}
+PIC_WTHR_MASTER_C01_Cloudy                     cloudy    regs= 46 share=  65.58 ini=Picta - Weathers/00_Master/C01_Cloudy.ini
+    -> SkyrimCloudySN:0.387, SkyrimCloudy:0.24, SkyrimCloudyTU:0.083, SkyrimCloudyFF:0.063, DLC1_SkyrimCloudyFV:0.054, SkyrimCloudyRE:0.047, SkyrimCloudyVT:0.041, SkyrimCloudyMA:0.034, SkyrimCloudyCO:0.034
+    ini-> {'SoulCloudy.ini': 0.983, 'SoulCloudy_A.ini': 0.017} {'class_only': 108, 'none': 72, 'slot+class': 360, 'fallback_class': 12}
+PIC_WTHR_MASTER_C02_Cloudy_Storm               cloudy    regs= 40 share=  38.19 ini=Picta - Weathers/00_Master/C02_Cloudy_Stormy.ini
+    -> SkyrimCloudySN:0.3, SkyrimCloudyTU:0.133, SkyrimCloudyFF:0.116, SkyrimCloudy:0.093, SkyrimCloudyVT:0.074, SkyrimCloudyRE:0.067, SkyrimCloudyMA:0.062, SkyrimCloudyCO:0.061, DLC1_SkyrimCloudyFV:0.061
+    ini-> {'SoulCloudy.ini': 0.969, 'SoulCloudy_A.ini': 0.031} {'class_only': 48, 'none': 72, 'slot+class': 348, 'fallback_class': 12}
+    alt-> SkyrimStormRain:0.41, SkyrimStormRainFF:0.364, SkyrimStormRainTU:0.226
+PIC_WTHR_MASTER_C03_Cloudy_Light_Fog           fog       regs= 40 share=  31.21 ini=Picta - Weathers/00_Master/C03_Cloudy_Light_Fog.ini
+    -> SkyrimCloudySN:0.219, SkyrimFogCO:0.168, SkyrimCloudyTU:0.111, SkyrimFogFF:0.105, SkyrimFog:0.085, SkyrimFogVT:0.075, SkyrimFogMA:0.067, SkyrimFogRE:0.053, RiftenOvercastFog:0.031
+    ini-> {'SoulFog.ini': 0.396, 'SoulCloudy.ini': 0.383, 'SoulFogOvercast.ini': 0.221} {'fallback_class': 183, 'class_only': 60, 'slot+class': 225, 'none': 12}
+PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light     rain      regs= 21 share=   5.67 ini=Picta - Weathers/00_Master/C04_Cloudy_Rain_Very_Light.ini
+    -> SkyrimOvercastRain:0.263, SkyrimOvercastRainFF:0.219, SkyrimOvercastRainVT:0.16, SkyrimOvercastRainTU:0.149, SkyrimOvercastRainRE:0.13, SkyrimOvercastRainMA:0.08
+    ini-> {'SoulOvercast.ini': 1.0} {'class_only': 14, 'none': 73, 'slot+class': 99}
+PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light     snow      regs= 43 share=  22.00 ini=Picta - Weathers/00_Master/C05_Cloudy_Snow_Very_Light.ini
+    -> SkyrimOvercastSnow:0.846, Seasons_CloudySnow:0.079, Seasons_OvercastSnow:0.07, SkyrimStormSnow:0.006
+    ini-> {'SoulOvercastSnow.ini': 0.846, 'SoulCloudy.ini': 0.079, 'SoulSnowStorm.ini': 0.076} {'none': 82, 'class_only': 48, 'slot+class': 187, 'fallback_class': 2}
+PIC_WTHR_MASTER_D01_Overcast                   overcast  regs= 40 share=  34.21 ini=Picta - Weathers/00_Master/D01_Overcast.ini
+    -> SkyrimCloudySN:0.199, SkyrimFogCO:0.171, SkyrimCloudyTU:0.111, SkyrimFogFF:0.096, SkyrimFog:0.088, SkyrimFogVT:0.068, SkyrimFogMA:0.063, SkyrimFogRE:0.057, DLC1_SkyrimCloudyFV:0.041
+    ini-> {'SoulFog.ini': 0.387, 'SoulCloudy.ini': 0.377, 'SoulFogOvercast.ini': 0.228, 'SoulOvercast.ini': 0.007} {'fallback_class': 183, 'class_only': 60, 'slot+class': 225, 'none': 12}
+    alt-> SkyrimOvercastRain:0.26, SkyrimOvercastRainFF:0.188, SkyrimOvercastRainTU:0.161, SkyrimOvercastRainVT:0.159, SkyrimOvercastRainRE:0.136, SkyrimOvercastRainMA:0.096
+PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog         fog       regs= 46 share=  50.69 ini=Picta - Weathers/00_Master/D02_Overcast_Heavy_Fog.ini
+    -> SkyrimFog:0.224, SkyrimFogCO:0.205, SkyrimFogFF:0.18, SkyrimCloudySN:0.133, SkyrimCloudyTU:0.067, SkyrimFogVT:0.046, SkyrimFogMA:0.041, SkyrimFogRE:0.032, RiftenOvercastFog:0.019
+    ini-> {'SoulFog.ini': 0.53, 'SoulFogOvercast.ini': 0.237, 'SoulCloudy.ini': 0.233} {'slot+class': 273, 'fallback_class': 183, 'class_only': 84, 'none': 12}
+PIC_WTHR_MASTER_D03_Overcast_Rain_Light        rain      regs= 26 share=   8.97 ini=Picta - Weathers/00_Master/D03_Overcast_Rain_Light.ini
+    -> SkyrimOvercastRainFF:0.481, SkyrimOvercastRain:0.196, SkyrimOvercastRainVT:0.082, SkyrimOvercastRainRE:0.08, SkyrimOvercastRainTU:0.077, SkyrimOvercastRainMA:0.063, Seasons_CloudyRain:0.021
+    ini-> {'SoulOvercast.ini': 0.979, 'SoulCloudy.ini': 0.021} {'slot+class': 120, 'class_only': 26, 'none': 73}
+PIC_WTHR_MASTER_D04_Overcast_Rain_Medium       rain      regs= 21 share=   5.67 ini=Picta - Weathers/00_Master/D04_Overcast_Rain_Medium.ini
+    -> SkyrimOvercastRain:0.263, SkyrimOvercastRainFF:0.219, SkyrimOvercastRainVT:0.16, SkyrimOvercastRainTU:0.149, SkyrimOvercastRainRE:0.13, SkyrimOvercastRainMA:0.08
+    ini-> {'SoulOvercast.ini': 1.0} {'class_only': 14, 'none': 73, 'slot+class': 99}
+PIC_WTHR_MASTER_D05_Overcast_Snow_Light        snow      regs= 50 share=  37.65 ini=Picta - Weathers/00_Master/D05_Overcast_Snow_Light.ini
+    -> SkyrimOvercastSnow:0.92, Seasons_CloudySnow:0.041, Seasons_OvercastSnow:0.036
+    ini-> {'SoulOvercastSnow.ini': 0.92, 'SoulCloudy.ini': 0.041, 'SoulSnowStorm.ini': 0.039} {'slot+class': 257, 'none': 88, 'class_only': 48, 'fallback_class': 2}
+PIC_WTHR_MASTER_D06_Overcast_Snow_Medium       snow      regs= 43 share=  22.23 ini=Picta - Weathers/00_Master/D06_Overcast_Snow_Medium.ini
+    -> SkyrimOvercastSnow:0.848, Seasons_CloudySnow:0.078, Seasons_OvercastSnow:0.069, SkyrimStormSnow:0.006
+    ini-> {'SoulOvercastSnow.ini': 0.848, 'SoulCloudy.ini': 0.078, 'SoulSnowStorm.ini': 0.075} {'none': 82, 'class_only': 48, 'slot+class': 190, 'fallback_class': 2}
+PIC_WTHR_MASTER_E01_Storm_Thunder              rainstorm regs= 20 share=   2.07 ini=Picta - Weathers/00_Master/E01_Storm_Thunder.ini
+    -> SkyrimStormRain:0.296, SkyrimStormRainFF:0.238, SkyrimOvercastRainVT:0.154, SkyrimStormRainTU:0.154, SkyrimOvercastRainRE:0.077, SkyrimOvercastRainMA:0.077, SkyrimOvercastRain:0.005
+    ini-> {'SoulRainStorm.ini': 0.687, 'SoulOvercast.ini': 0.313} {'fallback_class': 21, 'none': 35, 'slot+class': 44}
+    alt-> SkyrimOvercastRain:0.266, SkyrimOvercastRainFF:0.234, SkyrimOvercastRainVT:0.154, SkyrimOvercastRainTU:0.151, SkyrimOvercastRainRE:0.118, SkyrimOvercastRainMA:0.077
+PIC_WTHR_MASTER_E02_Storm_Cold_Thunder         snowstorm regs= 40 share=  10.30 ini=Picta - Weathers/00_Master/E02_Storm_Cold_Thunder.ini
+    -> SkyrimStormSnow:0.88, SkyrimOvercastSnow:0.04, Seasons_CloudySnow:0.04, SkyrimStormSnowBlizzard:0.04
+    ini-> {'SoulSnowStorm.ini': 0.92, 'SoulOvercastSnow.ini': 0.04, 'SoulCloudy.ini': 0.04} {'none': 70, 'fallback_class': 12, 'class_only': 36, 'slot+class': 132}
+    alt-> SkyrimOvercastSnow:0.94, Seasons_CloudySnow:0.04, Seasons_OvercastSnow:0.02
+PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder   rainstorm regs= 22 share=   3.92 ini=Picta - Weathers/00_Master/E03_Storm_Rain_Heavy_Thunder.ini
+    -> SkyrimStormRainFF:0.441, SkyrimStormRain:0.362, SkyrimOvercastRainVT:0.065, SkyrimStormRainTU:0.065, SkyrimOvercastRainRE:0.032, SkyrimOvercastRainMA:0.032
+    ini-> {'SoulRainStorm.ini': 0.868, 'SoulOvercast.ini': 0.132} {'fallback_class': 21, 'none': 35, 'slot+class': 54}
+PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder rainstorm regs= 20 share=   2.07 ini=Picta - Weathers/00_Master/E04_Storm_Rain_Extreme_Thunder.ini
+    -> SkyrimStormRain:0.296, SkyrimStormRainFF:0.238, SkyrimOvercastRainVT:0.154, SkyrimStormRainTU:0.154, SkyrimOvercastRainRE:0.077, SkyrimOvercastRainMA:0.077, SkyrimOvercastRain:0.005
+    ini-> {'SoulRainStorm.ini': 0.687, 'SoulOvercast.ini': 0.313} {'fallback_class': 21, 'none': 35, 'slot+class': 44}
+PIC_WTHR_MASTER_E05_Storm_Snow_Heavy           snowstorm regs= 49 share=  18.71 ini=Picta - Weathers/00_Master/E05_Storm_Snow_Heavy.ini
+    -> SkyrimStormSnow:0.944, SkyrimOvercastSnow:0.019, Seasons_CloudySnow:0.019, SkyrimStormSnowBlizzard:0.019
+    ini-> {'SoulSnowStorm.ini': 0.962, 'SoulOvercastSnow.ini': 0.019, 'SoulCloudy.ini': 0.019} {'slot+class': 184, 'none': 70, 'fallback_class': 12, 'class_only': 36}
+PIC_WTHR_MASTER_E06_Storm_Snow_Extreme         snowstorm regs= 43 share=  12.38 ini=Picta - Weathers/00_Master/E06_Storm_Snow_Extreme.ini
+    -> SkyrimStormSnow:0.906, SkyrimOvercastSnow:0.031, Seasons_CloudySnow:0.031, SkyrimStormSnowBlizzard:0.031
+    ini-> {'SoulSnowStorm.ini': 0.938, 'SoulOvercastSnow.ini': 0.031, 'SoulCloudy.ini': 0.031} {'none': 70, 'fallback_class': 12, 'class_only': 36, 'slot+class': 150}
+PIC_WTHR_MQ_Throat_Of_The_World                other     regs=  1 share=  12.00 ini=Picta - Weathers/01_Skyrim/U01_Skyrim_Main_Quest/06_MQ_Throat_of_the_World.ini
+    -> 
+    ini-> {} {'none': 12}
+PIC_WTHR_SUMMER_A01_Clear                      clear     regs= 38 share=  18.06 ini=Authoria - Summer/A01_Clear_Summer.ini
+    -> SkyrimClearSN:0.364, SkyrimClear:0.216, SkyrimClearTU:0.086, SkyrimClearFF:0.076, SkyrimClearVT:0.065, DLC1_SkyrimClearFV:0.052, SkyrimClearMA:0.043, SkyrimClearCO:0.039, SkyrimClearRE:0.032
+    ini-> {'SoulClear.ini': 0.974, 'SoulCloudy.ini': 0.026} {'slot+class': 93, 'none': 18, 'slot_only': 3}
+PIC_WTHR_SUMMER_A02_Clear_Aurora               clearA    regs= 35 share=   6.26 ini=Authoria - Summer/A01_Clear_Summer.ini
+    -> SkyrimClearSN_A:0.252, SkyrimClearTU_A:0.125, SkyrimClearFF_A:0.11, SkyrimClear_A:0.094, SkyrimClearVT_A:0.094, SkyrimClearMA_A:0.063, SkyrimClearCO_A:0.054, SkyrimCloudySN_A:0.054, DLC1_SkyrimClearFV_A:0.054
+    ini-> {'SoulClear_A.ini': 0.892, 'SoulCloudy_A.ini': 0.108} {'none': 15, 'slot+class': 81, 'slot_only': 9}
+PIC_WTHR_SUMMER_A03_Clear_Mist                 clear     regs= 35 share=  13.00 ini=Authoria - Summer/A02_Clear_Mist_Summer.ini
+    -> SkyrimClearSN:0.287, SkyrimClearTU:0.127, SkyrimClearFF:0.111, SkyrimClear:0.095, SkyrimClearVT:0.095, DLC1_SkyrimClearFV:0.077, SkyrimClearMA:0.064, SkyrimClearCO:0.057, SkyrimClearRE:0.048
+    ini-> {'SoulClear.ini': 0.962, 'SoulCloudy.ini': 0.038} {'none': 18, 'slot+class': 84, 'slot_only': 3}
+PIC_WTHR_SUMMER_B01_Lightly_Cloudy             clear     regs= 35 share=  13.00 ini=Authoria - Summer/B01_Lightly_Cloudy_Summer.ini
+    -> SkyrimClearSN:0.287, SkyrimClearTU:0.127, SkyrimClearFF:0.111, SkyrimClear:0.095, SkyrimClearVT:0.095, DLC1_SkyrimClearFV:0.077, SkyrimClearMA:0.064, SkyrimClearCO:0.057, SkyrimClearRE:0.048
+    ini-> {'SoulClear.ini': 0.962, 'SoulCloudy.ini': 0.038} {'none': 18, 'slot+class': 84, 'slot_only': 3}
+    alt-> SkyrimCloudySN:0.333, SkyrimCloudyTU:0.127, SkyrimCloudyFF:0.111, SkyrimCloudy:0.095, SkyrimCloudyVT:0.095, DLC1_SkyrimCloudyFV:0.07
+PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora      clearA    regs= 38 share=   9.30 ini=Authoria - Summer/B01_Lightly_Cloudy_Summer.ini
+    -> SkyrimCloudyCO_A:0.235, SkyrimCloudySN_A:0.184, SkyrimClearSN_A:0.161, SkyrimClearTU_A:0.08, SkyrimClearFF_A:0.07, SkyrimClear_A:0.06, SkyrimClearVT_A:0.06, SkyrimClearMA_A:0.04, SkyrimClearCO_A:0.034
+    ini-> {'SoulClear_A.ini': 0.57, 'SoulCloudy_A.ini': 0.43} {'slot_only': 18, 'none': 15, 'slot+class': 81}
+    alt-> SkyrimCloudySN_A:0.34, SkyrimCloudyCO_A:0.269, SkyrimCloudyTU_A:0.08, SkyrimCloudyFF_A:0.073, SkyrimCloudy_A:0.06, SkyrimCloudyVT_A:0.057
+RainFF                                         other     regs=  2 share=   3.93 ini=None
+    -> SkyrimOvercastRainFF:1.0
+    ini-> {'SoulOvercast.ini': 1.0} {'same_formid': 21}
+SkuldafnCloudy                                 other     regs=  1 share=  12.00 ini=None
+    -> SkuldafnCloudy:1.0
+    ini-> {'SoulCloudy_A.ini': 1.0} {'same_formid': 12}
+SkyrimCloudyFF                                 other     regs=  2 share=  10.67 ini=None
+    -> SkyrimCloudyFF:1.0
+    ini-> {'SoulCloudy.ini': 1.0} {'same_formid': 24}
+SkyrimCloudyVT                                 other     regs=  1 share=   5.84 ini=None
+    -> SkyrimCloudyVT:1.0
+    ini-> {'SoulCloudy.ini': 1.0} {'same_formid': 12}
+SkyrimCloudy_A                                 other     regs=  3 share=  10.21 ini=None
+    -> SkyrimCloudy_A:1.0
+    ini-> {'SoulCloudy_A.ini': 1.0} {'same_formid': 36}
+SkyrimDA02Weather                              other     regs=  1 share=  12.00 ini=None
+    -> SkyrimDA02Weather:1.0
+    ini-> {'Ominous.ini': 1.0} {'same_formid': 12}
+SkyrimOvercastRain                             other     regs=  3 share=   6.52 ini=None
+    -> SkyrimOvercastRain:1.0
+    ini-> {'SoulOvercast.ini': 1.0} {'same_formid': 30}
+SkyrimOvercastSnow                             other     regs=  1 share=  11.88 ini=None
+    -> SkyrimOvercastSnow:1.0
+    ini-> {'SoulOvercastSnow.ini': 1.0} {'same_formid': 12}
+SovngardeDark                                  other     regs=  1 share=  12.00 ini=None
+    -> SovngardeDark:1.0
+    ini-> {'OtherWorld.ini': 1.0} {'same_formid': 12}
+StormFF                                        other     regs=  1 share=   0.54 ini=None
+    -> SkyrimStormRainFF:1.0
+    ini-> {'SoulRainStorm.ini': 1.0} {'same_formid': 5}
+StormPF                                        other     regs=  3 share=   3.98 ini=None
+    -> SkyrimStormRain:1.0
+    ini-> {'SoulRainStorm.ini': 1.0} {'same_formid': 22}
+SunnyFF                                        other     regs=  2 share=   9.51 ini=None
+    -> SkyrimClearFF:1.0
+    ini-> {'SoulClear.ini': 1.0} {'same_formid': 24}
+SunnyFF_A                                      other     regs=  1 share=   6.00 ini=None
+    -> SkyrimClearFF_A:1.0
+    ini-> {'SoulClear_A.ini': 1.0} {'same_formid': 12}
+SunnyPF                                        other     regs=  7 share=  29.20 ini=None
+    -> SkyrimClear:1.0
+    ini-> {'SoulClear.ini': 1.0} {'same_formid': 84}
+SunnyPF_A                                      other     regs=  6 share=  29.41 ini=None
+    -> SkyrimClear_A:1.0
+    ini-> {'SoulClear_A.ini': 1.0} {'same_formid': 72}
+SunnyVT                                        other     regs=  1 share=   2.34 ini=None
+    -> SkyrimClearVT:1.0
+    ini-> {'SoulClear.ini': 1.0} {'same_formid': 12}
+VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar            other     regs=  2 share=  24.00 ini=Picta - Weathers/01_Skyrim/U01_Skyrim_Main_Quest/04_MQ_Dragon_Altar.ini
+    -> SkyrimStormSnow:1.0
+    ini-> {'SoulSnowStorm.ini': 1.0} {'same_formid': 24}
+VANILLA_ID_PIC_WTHR_MQ_Intro_Cart_Scene        other     regs=  1 share=   2.29 ini=Picta - Weathers/01_Skyrim/U01_Skyrim_Main_Quest/01_MQ_Intro_Cart_Scene.ini
+    -> SkyrimFog:1.0
+    ini-> {'SoulFog.ini': 1.0} {'same_formid': 12}
+VANILLA_ID_PIC_WTHR_MQ_Intro_Helgen_Scene      other     regs=  2 share=   2.41 ini=Picta - Weathers/01_Skyrim/U01_Skyrim_Main_Quest/02_MQ_Intro_Helgen_Scene.ini
+    -> SkyrimCloudy:1.0
+    ini-> {'SoulCloudy.ini': 1.0} {'same_formid': 24}
+WyrmstoothClear                                other     regs=  3 share=  14.46 ini=None
+    -> WyrmstoothClear:1.0
+    ini-> {'SoulWyrmstoothClear.ini': 1.0} {'same_formid': 36}
+WyrmstoothFog                                  other     regs=  3 share=  11.04 ini=None
+    -> WyrmstoothFog:1.0
+    ini-> {'SoulWyrmstoothFog.ini': 1.0} {'same_formid': 36}
+WyrmstoothStormFog                             other     regs=  3 share=   8.85 ini=None
+    -> WyrmstoothStormFog:1.0
+    ini-> {'SoulWyrmstoothStorm.ini': 1.0} {'same_formid': 36}

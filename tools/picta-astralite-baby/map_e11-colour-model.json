@@ -1,0 +1,206 @@
+{
+ "lens": "e11-colour-model",
+ "summary": "BUILD: the installed Bottled DLL (1.0.11, 23,005,696 B, mtime 10-10 21:30) matches commit InTheBottle/Bottled-Shaders@4ca678b70a (2026-10-11T01:07Z). All 76 shipped shader files are byte-identical (CRLF-normalised) and Translations/en.json has the same md5. Branch head d3c38b2 (10-16) is 6 days newer and changes OverrideWeather, Settings and VL. None of the head-only keys (HDRWeighting, EnableCloudsEdge, DisableGameDithering, MoonType) are in the DLL string table. Line references below are to 4ca678b, saved in src_4ca678b/.\nMODEL: E11 never draws its own weather colours. The engine's Sky::UpdateColors interpolates the record colours (WTHR, on CLMT timing and the weather-transition %). Then Effects11::OverrideWeather (Effects11.cpp 557-737) grades sky->skyColor[] and the fog distances in place, using helper ops Curve=pow, Desat=lerp toward the mean, and ColorFilter(c,F,a)=lerp(c,1,a)*F.\n- Sky upper and horizon: multiplied by curve, filter, band intensity and GradientIntensity, then desaturated.\n- Sky dome shader (Sky.hlsl 373-384): with UseProceduralGradientWeights=true (Picta), dome = lerp(top, horizon, (1-z)^curve). The record SkyLower colour and every GradientMiddle* key are invisible.\n- Sky scattering (SkyScattering.hlsli 84-104): multiplies the dome by AirGlow, then partly REPLACES it near the horizon facing the sun with a procedural colour S. S is built from the record SUN colour (kSun) times SunColorFilter (ColorFromSun=1 in Picta). The weight is sat(Amount^2/(1+away*spread)), up to about 0.64-0.81 at dawn/dusk and about 0 at zenith.\n- DisableWrongSkyMath=true removes the vanilla grey additive skyScale.\n- Clouds: record layer colour times tex, ^CloudsCurve, desat, *CloudsIntensity*CloudsColorFilter, plus scattering light.\n- Fog: near and far colours both get Curve, ColorFilter(FogColorFilter, Amount) and *FogColorMultiplier. near and far are divided by FogAmountMultiplier, power is multiplied by FogCurveMultiplier, and max is untouched. There is no [FOG] section and no FogHeight* key.\n- Direct light: only kSunlight gets the DL* chain. Ambient (DALC) gets desaturation and intensity only; no curve or filter exists. IBL (when E11-managed) adds sky IBL times MultiplicativeAmount to exterior ambient.\n- VOLI: records are read by the engine. E11 only scales intensity and rangeFactor and tints the colour with GAMEVOLUMETRICRAYS Desat/ColorFilter. [VOLUMETRICRAYS] and [RAYS] are separate screen-space passes coloured by the graded sun disc and horizon.\n- [VOLUMETRICFOG] tints only effect-shader mist meshes. With EnableLighting=true (Picta) their colour = scene sunlight + ambient.\nBLENDING: every ini value = sum over periods p of w_p * lerp(last[p], current[p], sky->currentWeatherPct). Undefined periods fall back to the base enbseries.ini. The w_p come from [TIMEOFDAY], not CLMT. Day is bent by ^0.6 and its partner is 1-Day^0.6. Weights sum to exactly 1 at every 15-minute step for both the Picta and NAT/Astralite TIMEOFDAY sets, so the reported \">1 at dawn/dusk\" is NOT reproduced in this build.\nPRESETS (live files):\n- Picta: records are grey (sky 125,125,125; clouds 255; fog 75-125). All hue lives in strongly blue per-weather ini filters, e.g. Day GradientTopColorFilter 0.031,0.169,0.404 and FogColorFilter 0.157,0.353,0.863. DirectLightingDesaturation Day = 1.0 in 28 of 37 routed files, so the record sun hue is erased at noon.\n- Astralite/Soul Core: hue is in the records (e.g. SkyrimClearMA horizon sunset 246,139,83; fog 253,147,91) with neutral (1,1,1) filters.\nNUMERIC MODEL (colour_model.py): putting Astralite records under Picta's filters double-tints. The Astralite sunset horizon comes out blue-violet (hue 237-258 deg) instead of orange (20 deg). The same records under neutral filters reproduce orange (20 deg), but magnitudes change because Picta's filters also carry brightness.\nCONCLUSION: both levers move on-screen hue, multiplicatively per channel. The visible hue is roughly hue(R^c * F), so a strongly chromatic F (Picta) dominates. Ambient hue can only come from records. Fog near/far hue split, sky-lower and record kSun (scattering colour) are record-side levers.",
+ "facts": [
+  {
+   "claim": "The installed Bottled build corresponds to commit 4ca678b70a (2026-10-11T01:07Z), not branch head d3c38b2.",
+   "evidence": "diffshaders.py: 76/76 shader files byte-equal vs src_4ca678b (18 differ vs head). Installed Translations/en.json md5 29552241fd52bec0076214c2c91cee2c == en.json@4ca678b70a (30bd893880 differs). meta.ini version 1.0.11. DLL mtime 2026-10-10 21:30 local (EDT, i.e. 01:30Z).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Head-only Effects11 keys are absent from the installed DLL: HDRWeighting, EnableCloudsEdge, DisableGameDithering, MoonType. The ini keys FogHeight*, FogDensity*, AmbientLightingCurve, AmbientLightingColorFilter and _worldspaceweatherlist.ini are also absent.",
+   "evidence": "dllstrings.py over mods/[NoDelete] Bottled Shaders/SKSE/Plugins/CommunityShaders.dll: ascii count 0 for each; registered keys (DisableWrongSkyMath, UseProceduralGradientWeights, FogColorFilterAmount, ColorFromSun, MultiplicativeAmount, GAMEVOLUMETRICRAYS ...) count >=1 (dllstrings_out.txt).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "E11 grades engine-interpolated record colours in place after Sky::UpdateColors. Record colours are the input; ini keys are multiplicative transforms.",
+   "evidence": "src_4ca678b/src/Hooks.cpp 351-362 (Sky_UpdateColors thunk: func() then effects11.OnSkyUpdateColors then skySync.OnSkyUpdateColors). Effects11.cpp 879-885 -> OverrideWeather 557-737 writes a_sky->skyColor[] / fogNear / fogFar / fogPower.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "ColorFilter(c,F,a) = lerp(c,1,a)*F. With Amount 0 the record colour is multiplied by F. With Amount 1 the record hue is replaced by F. Sky/sun/moon/cloud filters are hard-wired to Amount 0. DirectLighting and Fog take *ColorFilterAmount.",
+   "evidence": "Effects11.cpp 538-545; calls at 584 (DLFilterAmount), 604/614 (FogColorFilterAmount), 639, 656, 690, 702, 714 (0.0f).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Sky band formula: band = Desat(Curve(rec, GradientXCurve) * GradientXColorFilter * GradientXIntensity * GradientIntensity, GradientDesaturation). Top=kSkyUpper, Middle=kSkyLower, Horizon=kHorizon. Desat uses the mean of 3 channels; negative values boost saturation.",
+   "evidence": "Effects11.cpp 682-719; Desaturation 522-531.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "With UseProceduralGradientWeights=true the dome uses only the top and horizon bands: sky = lerp(SkyBlendColor2, SkyBlendColor0, (1-sat(z))^ProceduralGradientWeightCurve). Record SkyLower and GradientMiddle* never reach the dome. Picta sets it true; the NAT/Astralite base sets it false.",
+   "evidence": "Sky.hlsl 373-380 (4ca678b == installed). Picta base enbseries.ini [SKY] UseProceduralGradientWeights=true; NAT base false (levers_picta.txt / levers_pbr.txt). Picta ships GradientMiddleColorFilter 1,1,1 in all 37 routed files.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "BlendColor[0] is the horizon colour and BlendColor[2] is the upper colour in the sky shader.",
+   "evidence": "Inferred from Sky.hlsl 379 (lerp toward SkyBlendColor0 as z->0) and 382 (SkyBlendColor2 passed as topColor to ApplySkyScattering). Engine-side mapping is not in the Bottled source.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Sky scattering: result = sky*(1+AirGlow/(1+away*AirGlowRange^-2)), then lerp toward S by sat(Amount^2/(1+away*spread)), then *(1+SunGlow*...), then lerp(sky, lerp(top*0.5, result, earthShadow), aboveHorizon). S = (1+(sunN-1)*ColorFromSun)*ScatteringColor*sqrt(sat(1+2 sunZ))*Intensity*dust, where sunN = Desat(record kSun, SunDesaturation)*SunColorFilter/max(peak,1). The record SUN colour therefore drives the procedural sky near the horizon when ColorFromSun>0.",
+   "evidence": "SkyScattering.hlsli 74-104; Effects11.cpp 164-213 (Amount->Amount^2 line 210, color line 184-189), 634-647 (scatteringSunColor).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "DisableWrongSkyMath=true multiplies IMGS hdr.skyScale by 0, removing the vanilla grey additive term on sky, clouds and celestials. When false, the additive is scaled by GradientIntensity.",
+   "evidence": "Effects11.cpp 492-511 (Prepass); Sky.hlsl 262, 384, 411, 434 add skyScale. That PParams.y is fed by hdr.skyScale is engine-side and inferred from the Sky.hlsl 260 comment.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Clouds: colour = pow(rec_layer_colour*tex, CloudsCurve), then desat by CloudsDesaturation, *CloudsIntensity*CloudsColorFilter, then ShadeCloud adds scattering-coloured sunlight (CloudsIntensity*CloudsLightingSunMultiplier+MinIntensity) and edge light. Alpha is multiplied by CloudsOpacity (C++) and by (1+alpha*CloudsVertexAlphaBoost).",
+   "evidence": "Sky.hlsl 423-436; SkyScattering.hlsli 199-258; Effects11.cpp 721-726, 226-236.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Fog: near and far colour each = Curve(rec, FogColorCurve) -> ColorFilter(FogColorFilter, FogColorFilterAmount) -> *FogColorMultiplier, with one shared filter. fogNear and fogFar are divided by FogAmountMultiplier (floor 1e-4) and fogPower is multiplied by FogCurveMultiplier. Record fog max is untouched. Vertex fog t = min(max, sat(dist*y - x)^power) and colour = lerp(near, far, t).",
+   "evidence": "Effects11.cpp 592-630; Lighting.hlsl 324-327; FogParam layout is engine-side.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The only fog keys registered are ENVIRONMENT FogColorMultiplier/FogColorCurve/FogAmountMultiplier/FogCurveMultiplier/FogColorFilter/FogColorFilterAmount. There is no [FOG] category. FogAmountMultiplier is clamped to 0..10.",
+   "evidence": "EffectManager.cpp@4ca678b registrations near 235-241 (FogColorFilterAmount at 240); no FOG category in RegisterSettings; DLL strings FogHeight=0.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Direct-light keys act only on skyColor[kSunlight]: sun = (Desat(Curve(rec*s, DLCurve), DLDesat) -> ColorFilter(DLF, DLFAmt) -> *DLInt)/s, with s = IMGS hdr.sunlightScale. Interior sun is not covered.",
+   "evidence": "Effects11.cpp 567-590. Interior part inherited from memory e11-direct-lighting-dead-indoors (10-15) and consistent with the code.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Ambient: DALC' = Desat(DALC, AmbientLightingDesaturation)*AmbientLightingIntensity. There is no ambient curve or colour filter, so ambient hue comes only from the records.",
+   "evidence": "Effects11.cpp 770-780; Hooks.cpp 365-385 (copy-then-override); DLL lacks AmbientLightingCurve/ColorFilter.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "When [EFFECT] EnableImageBasedLighting is on, IBL in exteriors is E11-managed: DALCMode 3, EnvIBL 0, SkyIBLScale = [IMAGEBASEDLIGHTING] MultiplicativeAmount, FogAmount 0. Ambient = DALC' + skyIBL*Mult*sat(-dir.z*0.65+0.35), so sky hue leaks additively into ambient.",
+   "evidence": "src/Features/IBL.cpp 220-241 (unchanged 4ca678b->head); features/IBL/Shaders/IBL/IBL.hlsli 89-128. Picta MultiplicativeAmount 0.5 (routed) / 0.7 (base). Whether skyIBL is sampled from the rendered sky is unverified.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "VOLI records are read, not replaced. E11 multiplies renderData.intensity by GAMEVOLUMETRICRAYS Intensity (unless the VL feature claims priority) and rangeFactor by RangeFactor. The shader tints colour = lerp(c, mean, GVR Desaturation)*GVR ColorFilter. In this build the VOLI sunlight share is not un-graded, so DirectLighting filters also tint god rays.",
+   "evidence": "Effects11.cpp 729-736; ISCompositeLensFlareVolumetricLighting.hlsl@4ca678b 35-41 (head adds the ungrade at 39-41). VL settings Effects11Priority=0 in overwrite SettingsUser.json.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "[VOLUMETRICFOG] affects only effect-shader mist meshes (SOFT+NORMALS+TEXTURE+FALLOFF+VC, GrayscaleToAlpha, not sky). With EnableLighting=true (Picta): rgb = pow(normTint(BaseColor)*tex, Curve)*(DirLight*shadow+Ambient)*Intensity*ColorFilter*0.5. With false (NAT): pow(meshColour)*shade*Intensity*ColorFilter. Alpha is multiplied by Opacity.",
+   "evidence": "Effect.hlsl@4ca678b 12-17, 699, 822-840; Picta base [VOLUMETRICFOG] EnableLighting=true, NAT false.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Weather blending: each ini setting = lerp(lastWeatherValue, currentWeatherValue, sky->currentWeatherPct) per period, then a weighted sum by TIMEOFDAY weights. Periods a weather file does not define read the live base ini. Bools switch at 0.5. Weather IDs are masked to the low 24 bits.",
+   "evidence": "SettingManager.cpp@4ca678b 167-195 (ResolveWeatherValue), 296-332, 874-905; EffectManager.cpp 885 (weather[2]=currentWeatherPct); WeatherManager.cpp 133-139.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "TIMEOFDAY weights sum to exactly 1 in exteriors for both lanes. Only two periods are active at once, and Day is replaced by Day^0.6 with its Sunrise/Sunset partner set to 1-Day^0.6. The '>1 at dawn/dusk' report does not hold in this build.",
+   "evidence": "EffectManager.cpp@4ca678b 840-1029 (factors 969-990). colour_model.py simulation at 15-minute steps: max sum 1.0000 for Picta (9/10/17, 3.5/3.5, night 20.5) and NAT (8/13/18, night 1.0).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Post-chain fx variables (enbeffect.fx etc.) also blend per weather and per time of day: linear by weather pct, time-of-day weights normalised.",
+   "evidence": "ExtendedEffect.cpp@4ca678b 141-186, 356-402; EffectManager.cpp 419.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta's records are near-neutral and its hue lives in the ini. A01_Clear (19FA01) has sky upper/lower/horizon 125,125,125, clouds 255, fog far 75-125 grey, and blue DALC. Its ini carries strong blue filters, e.g. Day GradientTopColorFilter 0.0314,0.169,0.404; HorizonColorFilter 0.0706,0.208,0.62; FogColorFilter 0.157,0.353,0.863; CloudsColorFilter 0.157,0.353,0.863.",
+   "evidence": "houseCARL 19FA01:Picta - Weathers of Aurbis.esm (winner Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp). mods/Authoria - Picta 1.1.2 - Darkened to 1.0.1/enbseries/Picta - Weathers/00_Master/A01_Clear.ini lines 224-229, 325-330, 379-384, 433-438.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite's hue lives in the records and its preset filters are neutral. Astralite ENB.esp SkyrimClearMA has horizon sunset 246,139,83, sky lower sunset 147,68,97, fog far sunset 253,147,91, sun sunset 255,86,38, and DALC day 119,140,236. Every Soul Core/NAT colour filter is 1,1,1 in nearly all files.",
+   "evidence": "houseCARL 10A230:Skyrim.esm source=Astralite ENB.esp (mod disabled in this profile, read off-order); levers_pbr.txt.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta routed weathers erase the record sunlight hue at noon: DirectLightingDesaturation Day = 1.0 in 28/37 files. At dawn and dusk they boost saturation (-0.5) and then multiply by DLF dawn 0.98,0.392,0, whose blue is zero.",
+   "evidence": "levers_picta.txt; A01_Clear.ini 44-67.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Picta base ini, used by weathers not on the list, has extreme curves and intensities: GradientTopCurve 5 / HorizonCurve 4.5, GradientIntensity 30-50, FogColorCurve 2.5, CloudsIntensity 40.",
+   "evidence": "levers_picta.txt base section (Authoria - Picta 1.1.2 - Darkened to 1.0.1/enbseries.ini).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Under Picta's A01 filters, Astralite records double-tint. Sunset horizon toward the sun goes from hue 232 deg (Picta records) to 257 deg (blue-violet, not orange). Day sky becomes more saturated blue (232 deg). With the filters set to 1,1,1 the same records give an orange sunset horizon (20 deg) and orange fog (21 deg), but brightness shifts because the filters carried magnitude (e.g. Day top 0.2 mean -> 1.0).",
+   "evidence": "colour_model.py -> colour_model_out.txt (pre-tonemap model of Effects11.cpp + SkyScattering.hlsli; single pure period, sun elevations 55 deg / 3 deg).",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Record colours are keyed on CLMT timing; E11 multipliers are keyed on [TIMEOFDAY]. Picta CLMT runs sunrise 06-09 and sunset 17-20, while Astralite's SkyrimClimate was authored for 04:30-09 and 16:30-21. Picta TIMEOFDAY: Sunrise 9, Day 10, Sunset 17, NightTime 20.5. So Sunset weight is already 0.29 at 13:00 in the Picta lane.",
+   "evidence": "houseCARL 000812:Skyrim.esm winner (Picta patch) vs source Astralite Weathers.esp; Picta base [TIMEOFDAY]; colour_model_out.txt ToD table.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In Picta's live config, Exponential Height Fog is disabled, Sky Sync DimSunlightUnderHorizon is on (scales graded sunlight after E11), and IgnorePresetParticles is at default false. Bottled settings live in MO2 overwrite, shared by every profile.",
+   "evidence": "overwrite/SKSE/Plugins/CommunityShaders/SettingsUser.json ('Exponential Height Fog' enabled 0; 'Sky Sync' DimSunlightUnderHorizon true; 'Effects11' null). SkySync.cpp@4ca678b 216-234.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Colour-filter ini values are clamped per channel to [0,10]; scalar keys are clamped to their registered ranges.",
+   "evidence": "SettingManager.cpp@4ca678b 929-940 (TryParseColor clamp); Setting minValue 0 / maxValue 10 defaults in SettingManager.h; registrations in EffectManager.cpp.",
+   "confidence": "proven"
+  }
+ ],
+ "implications_for_blend": [
+  "Pick one lever per channel. Record colours and ini filters multiply per channel, and visible hue is roughly hue(Record^curve * Filter). Astralite records under Picta's blue filters land as muddy blue-violet, not Astralite's tones.",
+  "Route A, Astralite records in the Picta WTHR: per routed file, set GradientTop/Horizon/Clouds/Fog/DirectLighting/Sun colour filters to grey and move their brightness into a scalar. Per period: F_new = k*(1,1,1), k = mean(R_P^c*F_P)/mean(A^c). For a partial mix alpha: F_new_ch = lerp(R_P^c*F_P, k*A^c, alpha)_ch / A^c_ch, valid where A_ch > 0 and inside the [0,10] clamp.",
+  "Route B, keep Picta's grey records and put Astralite hue into the ini: F_new = F_P * lerp(1, (A^c/R_P^c)*mean(R_P^c)/mean(A^c), alpha). This keeps a single clock (TIMEOFDAY) and no weather-transition cross-term. It cannot carry ambient hue, separate near/far fog hues, sky-lower, or effect-lighting/water colours, which exist only in records.",
+  "Ambient (DALC) has no E11 colour filter. Astralite ambient tones must come from records, rescaled with AmbientLightingIntensity: Astralite day DALC mean is about 2x Picta's (165 vs 82 on 0-255), so Picta's ambient intensities would roughly need halving.",
+  "Sunlight hue: Picta's Day DirectLightingDesaturation=1.0 (28 files) discards any record sunlight hue at noon, so set it to about 0 for Astralite's daytime light to show. At dawn and dusk Picta's DLF (blue = 0) plus desat -0.5 double-tint any record hue; neutralise those if Astralite's sunrise light goes into the records.",
+  "Dawn/dusk sky colour near the horizon is mostly procedural S = (record kSun * SunColorFilter, normalised) * Intensity, weighted Amount^2 (0.64-0.81). To get Astralite sunsets, transplant the record SunColor and grey out SunColorFilter, or set ColorFromSun 0 and author ScatteringColor per period. Changing the sky upper/horizon records alone changes little there.",
+  "Astralite's SkyLower band (e.g. the pink sunset band 147,68,97) is invisible while UseProceduralGradientWeights=true. That is a global bool; turning it off changes every Picta weather's dome shape.",
+  "Fog distances: E11 effective near/far = record/FogAmountMultiplier and power = record*FogCurveMultiplier. Picta's per-weather multipliers (1, 6, 10, curve 0.4-0.9) were tuned to Picta's own distances (0/150000/1/0.9). Astralite distances (e.g. 15000/350000/0.6/0.7) need those multipliers reset to 1 or re-derived, or misty Picta weathers get double-densified.",
+  "Fog colour: one FogColorFilter applies to both near and far. Astralite's near/far hue split (near 149,76,109 vs far 186,104,61 at sunrise) survives only through records with a grey filter.",
+  "Mists of Tamriel mesh mists in the Picta preset (VOLUMETRICFOG EnableLighting=true) are coloured by scene sunlight + ambient * ColorFilter. They automatically take on any new sunlight/ambient record hue; Picta's blue VOLUMETRICFOG ColorFilter must be greyed too, or it re-tints them.",
+  "Weather transitions: the engine lerps records and E11 lerps ini values with the same currentWeatherPct, giving the product of two lerps. The mid-transition error is -t(1-t)(R_c-R_l)*(F_c-F_l). Picta avoided it with constant grey records; varying Astralite records plus varying Picta filters adds dips or bumps unless one side is held constant.",
+  "Two clocks: record colours follow CLMT keyframes (Picta 06-09/17-20) while the ini follows TIMEOFDAY (Picta Sunrise 9 / Day 10 / Sunset 17 / Night 20.5). Astralite colours were authored for its 04:30-09/16:30-21 CLMT, so check sunrise and sunset timing in-game.",
+  "Weathers not on the list fall back to the Picta base ini (GradientTopCurve 5, GradientIntensity 30-50, FogColorCurve 2.5). pow 5 on hue-rich Astralite records would hugely exaggerate saturation; on Picta's grey records it only darkened. Every Picta weather that receives Astralite colours needs a routed file or a fixed base."
+ ],
+ "traps": [
+  "Do not reason from Bottled branch head: the installed DLL is 4ca678b. Keys added later (\u2026HDRWeighting, EnableCloudsEdge, VOLUMETRICFOG EnableShadows, DisableGameDithering, VOLUMETRICRAYS Quality, RAYS MoonType) are dead text in this build. Head also changes OverrideWeather (night weighting, effect-lighting scaling, VOLI ungrade).",
+  "Dead keys: there is no [FOG] section and no FogHeight*/FogDensity* anywhere. AmbientLightingCurve/AmbientLightingColorFilter do not exist. Writing them does nothing.",
+  "ColorFilterAmount = 1 (Fog or DirectLighting) replaces the record colour with the filter. It is the opposite of a transplant and erases Astralite record hue completely.",
+  "Picta's base ini curves (GradientTopCurve 5.0, HorizonCurve 4.5, FogColorCurve 2.5) apply to any weather without a routed file. Astralite colours through pow 5 become neon.",
+  "UseProceduralGradientWeights=true hides SkyLower and every GradientMiddle* key. Editing them looks broken but they are simply unused.",
+  "Changing the record kSun colour changes the SKY near the horizon via ColorFromSun scattering, not just the sun disc. Changing sky upper/horizon at dawn/dusk is partly overwritten by the scattering lerp (Amount squared).",
+  "AirGlowIntensity 1000 in Picta multiplies the record-times-filter sky by up to about 1000x. Hue is unaffected, but band magnitudes are coupled to Picta's tiny GradientIntensity (0.3) and Top/HorizonIntensity (0.075-0.5). Never mix Soul Core and Picta scalar regimes.",
+  "Colour filters clamp to [0,10] per channel and FogAmountMultiplier clamps to 0..10. Two Picta weathers already sit at 10, so a compensating filter that needs >10 silently saturates.",
+  "Desaturation uses the arithmetic mean, not luma. Negative values extrapolate saturation (Picta uses -0.5) and the result is clamped >= 0.",
+  "IgnoreWeatherSystemInterior=false for all colour categories in Picta's base: interiors also read weather and location files. [BLOOM]/[SUNGLARE] are ignore=true in Picta.",
+  "Bottled SettingsUser.json (EHF off, Sky Sync dim, IBL, VL priority) lives in MO2 overwrite and is shared by all profiles. A new 'baby' profile does not isolate it.",
+  "E11 weather-list IDs match on the low 24 bits only; a baby that changes WTHR FormIDs must regenerate _weatherlist.ini.",
+  "In this build the god-ray (VOLI) colour includes the E11-graded sunlight (no ungrade), so DirectLighting filters also tint god rays, alongside GAMEVOLUMETRICRAYS ColorFilter (another double-tint path)."
+ ],
+ "files_written": [
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/notes.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/colour_model.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/colour_model_out.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/preset_levers.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/levers_picta.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/levers_pbr.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/resolve_enb.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/winners_picta.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/winners_pbr.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/dllstrings.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/dllstrings_out.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/diffshaders.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/fetchsha.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/diff_Effects11cpp.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/src_4ca678b/ (installed-build source: src/Features/Effects11*, Hooks.cpp, SkySync, VolumetricLighting, IBL, State.cpp, package/Shaders/*, features/*/Shaders/*)",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/src/ (branch head d3c38b2 source, for contrast only)",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/tree.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/e11-colour-model/commits.json"
+ ],
+ "open_questions": [
+  "How the engine interpolates record colours between CLMT keyframes (exact sunrise/sunset ramps, and night colours before sunriseBegin) is engine code, not in the Bottled source. Confirm before mapping Astralite's 4-key colours onto Picta's CLMT.",
+  "The mapping of BlendColor[0]/[2] to horizon/upper and of PParams.y to IMGS skyScale is inferred from Bottled shader usage, not read from engine data.",
+  "Is record kSkyLower consumed anywhere besides the dome (e.g. water reflection sky, LOD)? If not, Astralite's sky-lower tones are lost under Picta's procedural weights.",
+  "Does GetSkyIBL sample the rendered sky dome (so sky hue leaks into ambient at MultiplicativeAmount 0.5-0.7)? DiffuseIBLCS was not read.",
+  "SH2 enbeffect.fx is encrypted. A01_Clear's per-weather post grading is near-neutral (tint 0.98 grey at 0.1, saturation 1.05-1.1, gamma 1.3/1.5), but other Picta weather files' [ENBEFFECT.FX] colour balance and tint were not surveyed.",
+  "The '>1 time-of-day weight' report may come from an older build, real ENB, or the editor display. It does not reproduce in this build's runtime code; worth asking where it was observed.",
+  "The numeric model is pre-tonemap and single-period, with no adaptation, bloom or SH2. It shows hue direction, not final screen values; an in-game A/B is needed.",
+  "Four Soul Core weather files listed in its _weatherlist.ini (ArnimaExterior/Interior, SSECClear, SSECFog) are missing on disk. Those weathers fall back to the NAT base ini in the Astralite lane, so 'Astralite look' references for them are base-ini looks."
+ ]
+}

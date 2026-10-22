@@ -1,0 +1,22 @@
+===== Beggar
+piece Saia <- BeggarModel ('below', 0, 76.0): 1061 pts / 1943 tris (skirt:outer)
+skirt axis (-0.37, 6.13); slits (centre, half-width, top): 166.5/21.6/38.2; per-layer tops {'outer': [38.2]}; 11 chains at -172 -140 -109 -77 -45 -13 18 50 82 113 145
+no belt; no flaps; no bag
+skirt rows (anchor..hem): -172:74.0/66.0/58.0/50.0/42.0/34.0; -140:74.0/65.7/57.3/49.0/40.6/32.3; -109:74.0/67.3/60.5/53.8/47.1/40.4; -77:74.0/66.6/59.2/51.7/44.3/36.9; -45:74.0/67.2/60.4/53.5/46.7/39.9; -13:74.0/67.6/61.3/54.9/48.5/42.2; 18:74.0/67.7/61.5/55.2/48.9/42.7; 50:74.0/67.2/60.4/53.6/46.8/40.0; 82:74.0/67.3/60.5/53.8/47.0/40.3; 113:74.0/66.0/57.9/49.9/41.9/33.8; 145:74.0/65.7/57.5/49.2/41.0/32.7
+tip rows ; flap hinges 
+legs from rags (3580 tris above z 15.0), winding outward 67%
+m: lining to the trousers at rest: p10 0.57 median 1.73; free share p10 0.57 median 0.85
+m: Saia is cut out of BeggarModel: 65 seam points (z 73.7..76.0) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 7 of 7 lining pts (z 32.2..75.4) take the sheet's weights at their spot; 0 project onto no sheet and keep their own
+m: skirt Saia 4064 pts (2979 move); tip 0 pts
+m: legs collider pulled in at 784 of 1967 pts (max 3.00); lining points Saia 2357/2485
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 14 seam points pinned to the remainder's weights
+m: BeggarModel: 62 seam points of ['Saia'] to weld into the remainder
+m: BeggarModel: 62 of 62 seam points welded into the remainder (62 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/beggarclothes/torsom_1.nif; shapes (pts, tris) {'BeggarModel': (2144, 3952), 'Saia': (4064, 7772), 'HIMBO - Body': (6277, 11990), 'rags': (2108, 3872), 'ABG Legs Front': (841, 1342), 'ABG Legs Back': (910, 1492), 'ABG Legs Side': (1361, 2028), 'ABG Skirt Front': (382, 651), 'ABG Skirt Side': (1485, 2597), 'ABG Skirt Back': (490, 864), 'VirtualGround': (4, 2)}; bones per shape {'BeggarModel': 12, 'Saia': 60, 'HIMBO - Body': 24, 'rags': 9, 'ABG Legs Front': 9, 'ABG Legs Back': 9, 'ABG Legs Side': 9, 'ABG Skirt Front': 33, 'ABG Skirt Side': 43, 'ABG Skirt Back': 29, 'VirtualGround': 1}
+m: Saia: 14 seam points pinned to the remainder's weights
+m: BeggarModel: 62 seam points of ['Saia'] to weld into the remainder
+m: BeggarModel: 62 of 62 seam points welded into the remainder (62 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/beggarclothes/torsom_0.nif; shapes (pts, tris) {'BeggarModel': (2144, 3952), 'Saia': (4064, 7772), 'HIMBO - Body': (6277, 11990), 'rags': (2108, 3872), 'ABG Legs Front': (841, 1342), 'ABG Legs Back': (910, 1492), 'ABG Legs Side': (1361, 2028), 'ABG Skirt Front': (382, 651), 'ABG Skirt Side': (1485, 2597), 'ABG Skirt Back': (490, 864), 'VirtualGround': (4, 2)}; bones per shape {'BeggarModel': 12, 'Saia': 60, 'HIMBO - Body': 24, 'rags': 9, 'ABG Legs Front': 9, 'ABG Legs Back': 9, 'ABG Legs Side': 9, 'ABG Skirt Front': 33, 'ABG Skirt Side': 43, 'ABG Skirt Back': 29, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\BeggarClothesM.xml (416 lines); cross-slit links [(10, 0, 38.2)]

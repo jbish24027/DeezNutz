@@ -1,0 +1,684 @@
+1B0001 MQ_Intro_Cart_Scene | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(126, 133, 224) up(38, 40, 67) down(88, 93, 157) spec(0, 0, 0) fres1
+   Day     side(126, 144, 241) up(38, 43, 72) down(88, 101, 169) spec(0, 0, 0) fres1
+   Sunset  side(126, 131, 224) up(38, 39, 67) down(88, 91, 157) spec(0, 0, 0) fres1
+   Night   side(117, 140, 245) up(35, 43, 74) down(82, 99, 172) spec(0, 0, 0) fres1
+    clouds(day): [(21, 'Cloud_Panorama_MQ_Intro_Cart_Scene.dds', [255, 255, 255], '1'), (27, 'Cloud_Fog.dds', [75, 75, 75], '0.09'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 50000 0.95 night 0 25000 voli {'Sunrise': '15A041:Picta - Weathers of Aurbis.esm', 'Day': '15A042:Picta - Weathers of Aurbis.esm', 'Sunset': '15A043:Picta - Weathers of Aurbis.esm', 'Night': '15A044:Picta - Weathers of Aurbis.esm'}
+1B0002 MQ_Intro_Helgen_Scene | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(81, 93, 199) up(24, 28, 60) down(57, 64, 139) spec(0, 0, 0) fres1
+   Day     side(58, 96, 218) up(17, 29, 65) down(41, 67, 153) spec(0, 0, 0) fres1
+   Sunset  side(81, 89, 199) up(24, 27, 60) down(57, 63, 139) spec(0, 0, 0) fres1
+   Night   side(47, 90, 220) up(14, 27, 66) down(33, 64, 154) spec(0, 0, 0) fres1
+    clouds(day): [(21, 'Cloud_Panorama_MQ_Intro_Helgen_Scene.dds', [255, 255, 255], '1'), (27, 'Cloud_Fog.dds', [100, 100, 100], '0'), (28, 'Cloud_Fog.dds', [100, 100, 100], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [100, 100, 100], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 90000 0.93 night 0 65000 voli {'Sunrise': '15A029:Picta - Weathers of Aurbis.esm', 'Day': '15A030:Picta - Weathers of Aurbis.esm', 'Sunset': '15A031:Picta - Weathers of Aurbis.esm', 'Night': '15A032:Picta - Weathers of Aurbis.esm'}
+1B0003 MQ_Intro_Dragon_Attack | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+   Day     side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+   Sunset  side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+   Night   side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+    clouds(day): [(21, 'Cloud_Panorama_MQ_Intro_Dragon_Attack.dds', [255, 255, 255], '1'), (27, 'Cloud_Fog.dds', [75, 75, 75], '0.09'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 15000 0.9 night 0 12500 voli {'Sunrise': '15A017:Picta - Weathers of Aurbis.esm', 'Day': '15A018:Picta - Weathers of Aurbis.esm', 'Sunset': '15A019:Picta - Weathers of Aurbis.esm', 'Night': '15A020:Picta - Weathers of Aurbis.esm'}
+1B0004 MQ_Dragon_Altar | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(94, 110, 201) up(28, 33, 60) down(66, 76, 141) spec(0, 0, 0) fres1
+   Day     side(94, 119, 214) up(28, 36, 64) down(66, 84, 150) spec(0, 0, 0) fres1
+   Sunset  side(94, 108, 201) up(28, 33, 60) down(66, 76, 141) spec(0, 0, 0) fres1
+   Night   side(87, 117, 220) up(26, 36, 66) down(61, 83, 154) spec(0, 0, 0) fres1
+    clouds(day): [(17, '(absent)', [255, 255, 255], '2.5'), (18, '(absent)', [255, 255, 255], '0'), (19, '(absent)', [255, 255, 255], '-1'), (20, '(absent)', [255, 255, 255], '-1'), (27, 'Cloud_Fog.dds', [75, 75, 75], '0'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 75000 0.9375 night 0 50000 voli {'Sunrise': '15A033:Picta - Weathers of Aurbis.esm', 'Day': '15A034:Picta - Weathers of Aurbis.esm', 'Sunset': '15A035:Picta - Weathers of Aurbis.esm', 'Night': '15A036:Picta - Weathers of Aurbis.esm'}
+1B0005 MQ_Karthspire_Redoubt | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(95, 100, 195) up(29, 30, 59) down(67, 70, 137) spec(0, 0, 0) fres1
+   Day     side(45, 95, 220) up(13, 28, 66) down(31, 66, 154) spec(0, 0, 0) fres1
+   Sunset  side(95, 94, 195) up(28, 28, 59) down(66, 66, 137) spec(0, 0, 0) fres1
+   Night   side(32, 87, 220) up(10, 26, 66) down(22, 60, 154) spec(0, 0, 0) fres1
+    clouds(day): [(27, 'Cloud_Fog.dds', [75, 75, 75], '0'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [125, 125, 125]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [125, 125, 125]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[255, 255, 255], [255, 255, 255], [255, 255, 255], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [150, 150, 150], [150, 150, 150], [150, 150, 150]]
+     fog day 0 150000 0.9 night 0 150000 voli {'Sunrise': '15A000:Picta - Weathers of Aurbis.esm', 'Day': '15A000:Picta - Weathers of Aurbis.esm', 'Sunset': '15A000:Picta - Weathers of Aurbis.esm', 'Night': '15A000:Picta - Weathers of Aurbis.esm'}
+1B0006 MQ_Throat_Of_The_World | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(90, 90, 195) up(27, 27, 59) down(63, 63, 137) spec(0, 0, 0) fres1
+   Day     side(40, 85, 220) up(12, 26, 66) down(28, 60, 154) spec(0, 0, 0) fres1
+   Sunset  side(90, 84, 195) up(27, 25, 59) down(63, 59, 137) spec(0, 0, 0) fres1
+   Night   side(27, 77, 220) up(8, 23, 66) down(19, 54, 154) spec(0, 0, 0) fres1
+    clouds(day): [(17, '(absent)', [255, 255, 255], '2.5'), (18, '(absent)', [255, 255, 255], '0'), (19, '(absent)', [255, 255, 255], '-1'), (20, '(absent)', [255, 255, 255], '-1'), (27, 'Cloud_Fog.dds', [125, 125, 125], '0'), (28, 'Cloud_Fog.dds', [125, 125, 125], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [125, 125, 125], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 150000 0.9 night 0 125000 voli {'Sunrise': '15A001:Picta - Weathers of Aurbis.esm', 'Day': '15A002:Picta - Weathers of Aurbis.esm', 'Sunset': '15A003:Picta - Weathers of Aurbis.esm', 'Night': '15A004:Picta - Weathers of Aurbis.esm'}
+1B0007 MQ_Blackreach | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(95, 100, 195) up(29, 30, 59) down(67, 70, 137) spec(0, 0, 0) fres1
+   Day     side(45, 95, 220) up(13, 28, 66) down(31, 66, 154) spec(0, 0, 0) fres1
+   Sunset  side(95, 94, 195) up(28, 28, 59) down(66, 66, 137) spec(0, 0, 0) fres1
+   Night   side(32, 87, 220) up(10, 26, 66) down(22, 60, 154) spec(0, 0, 0) fres1
+    clouds(day): [(27, 'Cloud_Fog.dds', [75, 75, 75], '0'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [125, 125, 125]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [125, 125, 125]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[255, 255, 255], [255, 255, 255], [255, 255, 255], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [150, 150, 150], [150, 150, 150], [150, 150, 150]]
+     fog day 0 150000 0.9 night 0 150000 voli {'Sunrise': '15A000:Picta - Weathers of Aurbis.esm', 'Day': '15A000:Picta - Weathers of Aurbis.esm', 'Sunset': '15A000:Picta - Weathers of Aurbis.esm', 'Night': '15A000:Picta - Weathers of Aurbis.esm'}
+1B0008 MQ_Dragon_War_Time_Travel_Scene | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1B0009 MQ_Alduin_Fight | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1B0010 MQ_Skuldafn | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1B0011 MQ_Sovngarde_Prelude | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1B0012 MQ_Sovngarde_Victory | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1B0013 MQ_Epilogue_Scene | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0301 Cloudy_Aurora | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0302 Cloudy | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0303 Cloudy_Rain? | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0304 Overcast | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0305 Overcast_Rain | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0306 Overcast_Ash | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0307 Overcast_Fog | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0308 Storm_Sulfur_Rain | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0309 Storm_Ash | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+1A0310 Storm_Eruption | winner Picta - Weathers of Aurbis.esm
+    Sunrise no DALC
+    Day no DALC
+    Sunset no DALC
+    Night no DALC
+    clouds(day): []
+     SkyUpperColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     HorizonColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     FogFarColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     fog day 0 0 0 night 0 0 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+A10001 Helios_SKYFPF_01_Clear | winner Picta - Weathers of Aurbis.esm
+   Sunrise side(63, 67, 137) up(27, 29, 59) down(27, 29, 59) spec(0, 0, 0) fres1
+   Day     side(28, 63, 154) up(12, 27, 66) down(12, 27, 66) spec(0, 0, 0) fres1
+   Sunset  side(62, 62, 137) up(27, 27, 59) down(27, 27, 59) spec(0, 0, 0) fres1
+   Night   side(19, 57, 154) up(8, 24, 66) down(8, 24, 66) spec(0, 0, 0) fres1
+    clouds(day): [(13, 'Cloud_Panorama_01.dds', [255, 255, 255], '2.5'), (14, 'Cloud_Panorama_02.dds', [255, 255, 255], '0'), (15, 'Cloud_Panorama_03.dds', [255, 255, 255], '-1'), (16, 'Cloud_Panorama_04.dds', [255, 255, 255], '-1'), (27, 'Cloud_Fog.dds', [125, 125, 125], '0'), (28, 'Cloud_Fog.dds', [125, 125, 125], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [125, 125, 125]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [125, 125, 125]]
+     FogFarColor [[75, 75, 75], [125, 125, 125], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 100, 0], [255, 255, 255], [250, 80, 0], [120, 170, 250]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 150000 0.9 night 0 125000 voli {'Sunrise': '15A001:Picta - Weathers of Aurbis.esm', 'Day': '15A002:Picta - Weathers of Aurbis.esm', 'Sunset': '15A003:Picta - Weathers of Aurbis.esm', 'Night': '15A004:Picta - Weathers of Aurbis.esm'}
+012F89 VANILLA_ID_MQ_Intro_Helgen_Scene | winner Picta - Weathers of Skyrim.esp
+   Sunrise side(81, 93, 199) up(24, 28, 60) down(57, 64, 139) spec(0, 0, 0) fres1
+   Day     side(58, 96, 218) up(17, 29, 65) down(41, 67, 153) spec(0, 0, 0) fres1
+   Sunset  side(81, 89, 199) up(24, 27, 60) down(57, 63, 139) spec(0, 0, 0) fres1
+   Night   side(47, 90, 220) up(14, 27, 66) down(33, 64, 154) spec(0, 0, 0) fres1
+    clouds(day): [(21, 'Cloud_Panorama_01.dds', [255, 255, 255], '1'), (27, 'Cloud_Fog.dds', [100, 100, 100], '0'), (28, 'Cloud_Fog.dds', [100, 100, 100], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [100, 100, 100], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 90000 0.93 night 0 65000 voli {'Sunrise': '15A029:Picta - Weathers of Aurbis.esm', 'Day': '15A030:Picta - Weathers of Aurbis.esm', 'Sunset': '15A031:Picta - Weathers of Aurbis.esm', 'Night': '15A032:Picta - Weathers of Aurbis.esm'}
+0C821E VANILLA_ID_MQ_Intro_Cart_Scene | winner Picta - Weathers of Skyrim.esp
+   Sunrise side(126, 133, 224) up(38, 40, 67) down(88, 93, 157) spec(0, 0, 0) fres1
+   Day     side(126, 144, 241) up(38, 43, 72) down(88, 101, 169) spec(0, 0, 0) fres1
+   Sunset  side(126, 131, 224) up(38, 39, 67) down(88, 91, 157) spec(0, 0, 0) fres1
+   Night   side(117, 140, 245) up(35, 43, 74) down(82, 99, 172) spec(0, 0, 0) fres1
+    clouds(day): [(21, 'Cloud_Panorama_01.dds', [255, 255, 255], '1'), (27, 'Cloud_Fog.dds', [75, 75, 75], '0.09'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 50000 0.95 night 0 25000 voli {'Sunrise': '15A041:Picta - Weathers of Aurbis.esm', 'Day': '15A042:Picta - Weathers of Aurbis.esm', 'Sunset': '15A043:Picta - Weathers of Aurbis.esm', 'Night': '15A044:Picta - Weathers of Aurbis.esm'}
+0C8221 VANILLA_ID_MQ_Dragon_Altar | winner Picta - Weathers of Skyrim.esp
+   Sunrise side(94, 110, 201) up(28, 33, 60) down(66, 76, 141) spec(0, 0, 0) fres1
+   Day     side(94, 119, 214) up(28, 36, 64) down(66, 84, 150) spec(0, 0, 0) fres1
+   Sunset  side(94, 108, 201) up(28, 33, 60) down(66, 76, 141) spec(0, 0, 0) fres1
+   Night   side(87, 117, 220) up(26, 36, 66) down(61, 83, 154) spec(0, 0, 0) fres1
+    clouds(day): [(17, '(absent)', [255, 255, 255], '2.5'), (18, '(absent)', [255, 255, 255], '0'), (19, '(absent)', [255, 255, 255], '-1'), (20, '(absent)', [255, 255, 255], '-1'), (27, 'Cloud_Fog.dds', [75, 75, 75], '0'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 75000 0.9375 night 0 50000 voli {'Sunrise': '15A033:Picta - Weathers of Aurbis.esm', 'Day': '15A034:Picta - Weathers of Aurbis.esm', 'Sunset': '15A035:Picta - Weathers of Aurbis.esm', 'Night': '15A036:Picta - Weathers of Aurbis.esm'}
+0D9329 VANILLA_ID_MQ_Intro_Dragon_Attack | winner Picta - Weathers of Skyrim.esp
+   Sunrise side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+   Day     side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+   Sunset  side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+   Night   side(86, 48, 7) up(35, 19, 3) down(81, 45, 6) spec(0, 0, 0) fres1
+    clouds(day): [(21, 'Cloud_Panorama_01.dds', [255, 255, 255], '1'), (27, 'Cloud_Fog.dds', [75, 75, 75], '0.09'), (28, 'Cloud_Fog.dds', [75, 75, 75], '0.9')]
+     SkyUpperColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     HorizonColor [[125, 125, 125], [125, 125, 125], [125, 125, 125], [75, 75, 75]]
+     FogFarColor [[75, 75, 75], [75, 75, 75], [75, 75, 75], [75, 75, 75]]
+     SunlightColor [[250, 150, 50], [255, 255, 255], [250, 135, 35], [255, 255, 255]]
+     AmbientColor [[150, 150, 150], [255, 255, 255], [150, 150, 150], [50, 50, 50]]
+     fog day 0 15000 0.9 night 0 12500 voli {'Sunrise': '15A017:Picta - Weathers of Aurbis.esm', 'Day': '15A018:Picta - Weathers of Aurbis.esm', 'Sunset': '15A019:Picta - Weathers of Aurbis.esm', 'Night': '15A020:Picta - Weathers of Aurbis.esm'}
+04D7FB SkyrimOvercastSnow | winner Authoria - Picta over NAT.esp
+   Sunrise side(86, 99, 105) SIDES [[86, 103, 105], [85, 104, 106], [86, 96, 105]] up(80, 90, 90) down(173, 175, 177) spec(0, 0, 0) fres1
+   Day     side(111, 114, 117) SIDES [[96, 108, 108], [103, 114, 116], [103, 107, 112]] up(63, 73, 68) down(202, 205, 206) spec(0, 0, 0) fres1
+   Sunset  side(78, 101, 109) SIDES [[78, 91, 103], [74, 88, 102], [73, 95, 99]] up(67, 71, 70) down(156, 159, 163) spec(0, 0, 0) fres1
+   Night   side(71, 72, 78) SIDES [[70, 79, 78], [71, 78, 75], [70, 73, 79]] up(60, 68, 67) down(132, 142, 145) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimClouds01.dds', [160, 167, 169], '1'), (9, 'SkyrimClouds01.dds', [160, 167, 169], '1'), (10, 'SkyrimClouds01.dds', [160, 167, 169], '1'), (11, 'SkyrimClouds01.dds', [160, 167, 169], '1'), (18, 'SkyrimCloudsHorizon01.dds', [144, 154, 154], '0.7'), (25, 'SkyrimCloudsHorizon01.dds', [144, 154, 154], '0.7'), (26, 'SkyrimCloudsHorizon01.dds', [144, 154, 154], '0.7'), (27, 'SkyrimClouds01.dds', [101, 108, 112], '0.7'), (28, 'SkyrimCloudsFill.dds', [67, 76, 79], '0.7')]
+     SkyUpperColor [[75, 82, 82], [119, 128, 132], [92, 98, 109], [92, 107, 111]]
+     HorizonColor [[66, 79, 88], [79, 85, 87], [52, 60, 70], [63, 65, 66]]
+     FogFarColor [[92, 105, 109], [106, 112, 114], [80, 86, 97], [60, 66, 66]]
+     SunlightColor [[130, 164, 176], [115, 126, 130], [122, 108, 137], [55, 69, 72]]
+     AmbientColor [[67, 75, 95], [65, 77, 95], [54, 78, 88], [75, 82, 93]]
+     fog day 1000 50000 0.9 night 1000 35000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+0C821F SkyrimOvercastRain | winner Authoria - Picta over NAT.esp
+   Sunrise side(71, 84, 88) SIDES [[71, 87, 88], [71, 86, 88], [71, 84, 88]] up(62, 74, 77) down(122, 133, 133) spec(0, 0, 0) fres1
+   Day     side(118, 148, 133) SIDES [[98, 128, 134], [106, 142, 145], [107, 139, 125]] up(77, 94, 104) down(198, 223, 223) spec(0, 0, 0) fres1
+   Sunset  side(79, 86, 91) SIDES [[80, 90, 90], [81, 89, 89], [81, 85, 89]] up(52, 65, 65) down(152, 177, 188) spec(0, 0, 0) fres1
+   Night   side(61, 72, 78) SIDES [[61, 78, 66], [61, 78, 68], [61, 66, 78]] up(49, 66, 68) down(96, 153, 168) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower03.dds', [134, 182, 185], '1'), (9, 'SkyrimCloudsLower03.dds', [134, 182, 185], '1'), (10, 'SkyrimCloudsLower03.dds', [134, 182, 185], '1'), (11, 'SkyrimCloudsLower03.dds', [134, 182, 185], '1'), (17, 'SkyrimCloudsHorizon01.dds', [95, 124, 132], '1'), (23, 'SkyrimCloudsHorizon01.dds', [95, 124, 132], '1'), (24, 'SkyrimCloudsHorizon01.dds', [95, 124, 132], '1'), (27, 'SkyrimCloudsLower03.dds', [77, 109, 117], '1'), (28, 'SkyrimCloudsFill.dds', [25, 53, 61], '0.5')]
+     SkyUpperColor [[84, 101, 101], [139, 163, 163], [95, 111, 118], [63, 86, 81]]
+     HorizonColor [[56, 49, 29], [33, 53, 61], [6, 23, 28], [21, 32, 32]]
+     FogFarColor [[60, 68, 68], [103, 131, 139], [66, 78, 83], [37, 48, 48]]
+     SunlightColor [[183, 174, 162], [192, 207, 228], [152, 185, 231], [83, 172, 215]]
+     AmbientColor [[58, 77, 92], [48, 85, 92], [34, 39, 40], [11, 0, 11]]
+     fog day 1200 15000 0.9 night 1200 15000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+0D299E SkyrimOvercastWar | winner Authoria - Picta over NAT.esp
+   Sunrise side(99, 114, 114) SIDES [[91, 102, 98], [97, 109, 100], [94, 106, 106]] up(57, 66, 61) down(113, 145, 129) spec(0, 0, 0) fres1
+   Day     side(152, 159, 167) SIDES [[152, 165, 167], [152, 166, 167], [152, 157, 167]] up(136, 151, 147) down(165, 190, 176) spec(0, 0, 0) fres1
+   Sunset  side(100, 122, 123) SIDES [[100, 123, 122], [100, 123, 121], [100, 119, 123]] up(75, 84, 83) down(165, 182, 182) spec(0, 0, 0) fres1
+   Night   side(58, 75, 80) SIDES [[58, 70, 80], [58, 66, 80], [58, 77, 80]] up(50, 63, 67) down(92, 101, 120) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower03.dds', [109, 136, 131], '1'), (9, 'SkyrimCloudsLower03.dds', [109, 136, 131], '1'), (10, 'SkyrimCloudsLower03.dds', [109, 136, 131], '1'), (11, 'SkyrimCloudsLower03.dds', [109, 136, 131], '1'), (17, 'SkyrimCloudsHorizon01.dds', [54, 79, 83], '0.7'), (23, 'SkyrimCloudsHorizon01.dds', [54, 79, 83], '0.7'), (24, 'SkyrimCloudsHorizon01.dds', [54, 79, 83], '0.7'), (27, 'SkyrimClouds01.dds', [78, 113, 122], '1'), (28, 'SkyrimCloudsFill.dds', [50, 73, 73], '0.75')]
+     SkyUpperColor [[137, 164, 159], [173, 183, 159], [93, 119, 120], [75, 118, 174]]
+     HorizonColor [[101, 62, 10], [171, 188, 170], [118, 46, 25], [50, 64, 78]]
+     FogFarColor [[72, 89, 81], [118, 137, 141], [89, 105, 110], [32, 49, 64]]
+     SunlightColor [[164, 145, 104], [201, 184, 173], [160, 111, 73], [66, 113, 147]]
+     AmbientColor [[122, 149, 135], [172, 193, 193], [129, 147, 146], [78, 101, 130]]
+     fog day 0 9000 0.925 night 0 9000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+0D4886 FXMagicStormRain | winner Authoria - Picta over NAT.esp
+   Sunrise side(102, 100, 113) SIDES [[87, 94, 100], [95, 100, 107], [95, 95, 107]] up(22, 33, 33) down(166, 176, 195) spec(0, 0, 0) fres1
+   Day     side(80, 82, 83) SIDES [[69, 78, 74], [73, 84, 80], [73, 78, 80]] up(100, 107, 115) down(230, 232, 238) spec(0, 0, 0) fres1
+   Sunset  side(72, 69, 77) SIDES [[61, 68, 69], [66, 72, 74], [66, 65, 74]] up(24, 32, 33) down(167, 172, 181) spec(0, 0, 0) fres1
+   Night   side(39, 41, 46) SIDES [[39, 43, 46], [39, 43, 46], [39, 41, 46]] up(27, 33, 37) down(81, 102, 134) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower03.dds', [53, 84, 94], '1'), (9, 'SkyrimCloudsLower03.dds', [53, 84, 94], '1'), (10, 'SkyrimCloudsLower03.dds', [53, 84, 94], '1'), (11, 'SkyrimCloudsLower03.dds', [53, 84, 94], '1'), (27, 'SkyrimCloudsLower03.dds', [53, 84, 94], '1'), (28, 'SkyrimCloudsFill.dds', [28, 46, 52], '1')]
+     SkyUpperColor [[86, 98, 106], [108, 153, 172], [128, 128, 128], [91, 122, 140]]
+     HorizonColor [[46, 45, 51], [20, 36, 41], [56, 63, 67], [4, 17, 23]]
+     FogFarColor [[62, 71, 79], [79, 97, 103], [72, 78, 85], [42, 54, 64]]
+     SunlightColor [[112, 116, 133], [87, 94, 98], [131, 123, 116], [114, 129, 141]]
+     AmbientColor [[88, 100, 108], [67, 69, 73], [32, 41, 44], [6, 6, 15]]
+     fog day 1 10000 1 night 1 10000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+10199F SkyrimMQ206weather | winner Authoria - Picta over NAT.esp
+   Sunrise side(75, 78, 84) SIDES [[84, 75, 75], [86, 82, 73], [74, 84, 85]] up(49, 61, 68) down(92, 108, 120) spec(0, 0, 0) fres1
+   Day     side(75, 78, 84) SIDES [[84, 75, 75], [86, 82, 73], [74, 84, 85]] up(49, 61, 68) down(92, 108, 120) spec(0, 0, 0) fres1
+   Sunset  side(75, 78, 84) SIDES [[84, 75, 75], [86, 82, 73], [74, 84, 85]] up(49, 61, 68) down(92, 108, 120) spec(0, 0, 0) fres1
+   Night   side(75, 78, 84) SIDES [[84, 75, 75], [86, 82, 73], [74, 84, 85]] up(49, 61, 68) down(82, 108, 120) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower01.dds', [63, 68, 76], '1'), (9, 'SkyrimCloudsLower01.dds', [63, 68, 76], '1'), (10, 'SkyrimCloudsLower01.dds', [63, 68, 76], '1'), (11, 'SkyrimCloudsLower01.dds', [63, 68, 76], '1'), (16, 'SkyrimCloudsHorizon01.dds', [45, 56, 64], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [45, 56, 64], '1'), (22, 'SkyrimCloudsHorizon01.dds', [45, 56, 64], '1'), (28, 'SkyrimCloudsFill.dds', [28, 34, 39], '1')]
+     SkyUpperColor [[102, 105, 113], [102, 105, 113], [102, 105, 113], [102, 105, 113]]
+     HorizonColor [[214, 68, 61], [214, 68, 61], [214, 68, 61], [214, 68, 61]]
+     FogFarColor [[58, 67, 73], [58, 67, 73], [58, 67, 73], [58, 67, 73]]
+     SunlightColor [[164, 96, 70], [164, 96, 70], [164, 96, 70], [164, 96, 70]]
+     AmbientColor [[95, 109, 118], [95, 109, 118], [95, 109, 118], [95, 109, 118]]
+     fog day 0 80000 0.97 night 0 80000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+104AB4 SkuldafnCloudy | winner Authoria - Picta over NAT.esp
+   Sunrise side(108, 128, 128) SIDES [[132, 128, 111], [107, 126, 113], [79, 94, 94]] up(53, 64, 58) down(153, 176, 176) spec(0, 0, 0) fres1
+   Day     side(118, 137, 118) SIDES [[120, 136, 137], [116, 133, 118], [123, 140, 140]] up(74, 85, 96) down(194, 202, 209) spec(0, 0, 0) fres1
+   Sunset  side(130, 134, 145) SIDES [[122, 112, 112], [131, 142, 146], [113, 120, 128]] up(57, 64, 66) down(118, 124, 129) spec(0, 0, 0) fres1
+   Night   side(85, 96, 100) SIDES [[66, 83, 83], [66, 83, 83], [85, 96, 100]] up(55, 62, 62) down(119, 146, 157) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower02.dds', [236, 245, 255], '1'), (9, 'SkyrimCloudsLower02.dds', [236, 245, 255], '1'), (10, 'SkyrimCloudsLower02.dds', [236, 245, 255], '1'), (11, 'SkyrimCloudsLower02.dds', [236, 245, 255], '1'), (16, 'SkyrimCloudsHorizon01.dds', [129, 150, 163], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [129, 150, 163], '1'), (22, 'SkyrimCloudsHorizon01.dds', [129, 150, 163], '1'), (27, 'SkyrimCloudsLower03.dds', [138, 182, 202], '1'), (28, 'SkyrimCloudsFill.dds', [81, 121, 142], '0.4')]
+     SkyUpperColor [[124, 111, 88], [83, 119, 138], [150, 135, 128], [0, 0, 0]]
+     HorizonColor [[65, 67, 62], [108, 139, 162], [39, 49, 53], [11, 30, 40]]
+     FogFarColor [[86, 98, 103], [134, 165, 185], [63, 78, 87], [53, 66, 74]]
+     SunlightColor [[155, 124, 94], [171, 154, 157], [90, 61, 48], [84, 98, 107]]
+     AmbientColor [[120, 136, 139], [203, 212, 220], [132, 136, 151], [65, 97, 124]]
+     fog day 0 40000 0.9 night 0 40000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+105941 BloatedMansGrottoFog | winner Authoria - Picta over NAT.esp
+   Sunrise side(90, 87, 80) SIDES [[94, 87, 77], [84, 70, 65], [88, 79, 71]] up(70, 62, 47) down(141, 98, 71) spec(0, 0, 0) fres1
+   Day     side(90, 87, 80) SIDES [[94, 87, 77], [84, 70, 65], [88, 79, 71]] up(70, 62, 47) down(141, 98, 71) spec(0, 0, 0) fres1
+   Sunset  side(90, 87, 80) SIDES [[94, 87, 77], [84, 70, 65], [88, 79, 71]] up(70, 62, 47) down(141, 98, 71) spec(0, 0, 0) fres1
+   Night   side(90, 87, 80) SIDES [[94, 87, 77], [84, 70, 65], [88, 79, 71]] up(70, 62, 47) down(141, 98, 71) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimClouds01.dds', [60, 31, 26], '1'), (9, 'SkyrimClouds01.dds', [60, 31, 26], '1'), (10, 'SkyrimClouds01.dds', [60, 31, 26], '1'), (11, 'SkyrimClouds01.dds', [60, 31, 26], '0.8'), (27, 'SkyrimClouds01.dds', [60, 31, 26], '0.2'), (28, 'SkyrimCloudsFill.dds', [60, 31, 26], '1')]
+     SkyUpperColor [[74, 96, 86], [74, 96, 86], [74, 96, 86], [74, 96, 86]]
+     HorizonColor [[10, 0, 0], [10, 0, 0], [10, 0, 0], [10, 0, 0]]
+     FogFarColor [[76, 43, 34], [76, 43, 34], [76, 43, 34], [76, 43, 34]]
+     SunlightColor [[175, 64, 16], [175, 64, 16], [175, 64, 16], [175, 64, 16]]
+     AmbientColor [[29, 66, 58], [29, 66, 58], [29, 66, 58], [29, 66, 58]]
+     fog day 0 7000 0.8 night 0 7000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+105F40 SkyrimDA02Weather | winner Authoria - Picta over NAT.esp
+   Sunrise side(69, 102, 116) SIDES [[54, 95, 95], [54, 95, 95], [69, 102, 116]] up(50, 67, 67) down(116, 153, 160) spec(0, 0, 0) fres1
+   Day     side(69, 102, 116) SIDES [[54, 95, 95], [54, 95, 95], [69, 102, 116]] up(50, 67, 67) down(116, 153, 160) spec(0, 0, 0) fres1
+   Sunset  side(69, 102, 116) SIDES [[54, 95, 95], [54, 95, 95], [69, 102, 116]] up(50, 67, 67) down(116, 153, 160) spec(0, 0, 0) fres1
+   Night   side(69, 102, 116) SIDES [[54, 95, 95], [54, 95, 95], [69, 102, 116]] up(50, 67, 67) down(116, 153, 160) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower01.dds', [33, 61, 67], '1'), (9, 'SkyrimCloudsLower01.dds', [33, 61, 67], '1'), (10, 'SkyrimCloudsLower01.dds', [33, 61, 67], '1'), (11, 'SkyrimCloudsLower01.dds', [33, 61, 67], '1'), (12, 'SkyrimCloudsLower04.dds', [39, 68, 73], '1'), (13, 'SkyrimCloudsLower04.dds', [39, 68, 73], '1'), (14, 'SkyrimCloudsLower04.dds', [39, 68, 73], '1'), (16, 'SkyrimCloudsHorizon01.dds', [36, 64, 69], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [36, 64, 69], '1'), (22, 'SkyrimCloudsHorizon01.dds', [36, 64, 69], '1'), (28, 'SkyrimCloudsFill.dds', [16, 38, 44], '0.4')]
+     SkyUpperColor [[5, 29, 35], [5, 29, 35], [5, 29, 35], [5, 29, 35]]
+     HorizonColor [[61, 103, 108], [61, 103, 108], [61, 103, 108], [61, 103, 108]]
+     FogFarColor [[14, 34, 37], [14, 34, 37], [14, 34, 37], [14, 34, 37]]
+     SunlightColor [[69, 90, 97], [69, 90, 97], [69, 90, 97], [69, 90, 97]]
+     AmbientColor [[56, 105, 136], [56, 105, 136], [56, 105, 136], [56, 105, 136]]
+     fog day 0 100000 0.9 night 0 100000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+106635 KarthspireRedoubtFog | winner Authoria - Picta over NAT.esp
+   Sunrise side(143, 138, 129) SIDES [[117, 131, 132], [124, 128, 137], [132, 128, 123]] up(39, 41, 46) down(205, 210, 218) spec(0, 0, 0) fres1
+   Day     side(87, 89, 96) SIDES [[79, 87, 85], [87, 91, 91], [83, 83, 87]] up(92, 114, 120) down(228, 231, 239) spec(0, 0, 0) fres1
+   Sunset  side(126, 129, 128) SIDES [[116, 126, 121], [125, 136, 136], [121, 125, 128]] up(46, 47, 50) down(237, 220, 223) spec(0, 0, 0) fres1
+   Night   side(74, 74, 85) SIDES [[74, 85, 85], [70, 78, 79], [70, 72, 79]] up(54, 62, 63) down(84, 102, 107) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimClouds01.dds', [168, 191, 183], '1'), (9, 'SkyrimClouds01.dds', [168, 191, 183], '1'), (10, 'SkyrimClouds01.dds', [168, 191, 183], '1'), (11, 'SkyrimClouds01.dds', [168, 191, 183], '1'), (27, 'SkyrimCloudsLower03.dds', [147, 183, 169], '0.75'), (28, 'SkyrimCloudsFill.dds', [221, 237, 213], '1')]
+     SkyUpperColor [[165, 162, 150], [236, 251, 227], [227, 162, 136], [169, 188, 188]]
+     HorizonColor [[156, 121, 86], [221, 237, 213], [227, 162, 136], [169, 188, 188]]
+     FogFarColor [[158, 195, 175], [221, 237, 213], [199, 208, 202], [169, 188, 188]]
+     SunlightColor [[220, 193, 160], [221, 237, 213], [175, 188, 192], [169, 188, 188]]
+     AmbientColor [[131, 131, 124], [65, 65, 65], [90, 101, 95], [19, 21, 23]]
+     fog day 0 50000 0.95 night 0 30000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+10C32F FXSkyrimStormBlowingGrass | winner Authoria - Picta over NAT.esp
+   Sunrise side(95, 102, 107) SIDES [[97, 112, 112], [100, 112, 113], [95, 101, 107]] up(26, 38, 38) down(191, 210, 213) spec(0, 0, 0) fres1
+   Day     side(87, 95, 104) SIDES [[89, 102, 99], [88, 102, 103], [88, 99, 103]] up(83, 97, 108) down(185, 210, 219) spec(0, 0, 0) fres1
+   Sunset  side(77, 80, 91) SIDES [[71, 79, 80], [77, 83, 85], [74, 75, 85]] up(75, 81, 88) down(135, 142, 150) spec(0, 0, 0) fres1
+   Night   side(66, 70, 83) SIDES [[66, 77, 83], [66, 77, 83], [66, 70, 83]] up(49, 60, 68) down(89, 112, 115) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimClouds01.dds', [111, 161, 196], '1'), (9, 'SkyrimClouds01.dds', [111, 161, 196], '1'), (10, 'SkyrimClouds01.dds', [111, 161, 196], '1'), (11, 'SkyrimClouds01.dds', [111, 161, 196], '1'), (18, 'SkyrimCloudsHorizon01.dds', [43, 72, 86], '1'), (25, 'SkyrimCloudsHorizon01.dds', [43, 72, 86], '1'), (26, 'SkyrimCloudsHorizon01.dds', [43, 72, 86], '1'), (27, 'SkyrimCloudsLower03.dds', [43, 66, 74], '1'), (28, 'SkyrimCloudsFill.dds', [21, 38, 46], '1')]
+     SkyUpperColor [[86, 94, 103], [124, 146, 152], [86, 89, 75], [29, 60, 78]]
+     HorizonColor [[21, 21, 21], [17, 32, 35], [99, 95, 83], [0, 21, 24]]
+     FogFarColor [[55, 64, 66], [74, 88, 94], [55, 60, 60], [34, 47, 51]]
+     SunlightColor [[120, 141, 167], [107, 133, 158], [164, 170, 191], [89, 140, 187]]
+     AmbientColor [[88, 100, 108], [67, 69, 73], [32, 41, 44], [15, 6, 5]]
+     fog day 0 25000 0.92 night 0 10000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+10D9EC SovngardeClear | winner Authoria - Picta over NAT.esp
+   Sunrise side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+   Day     side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+   Sunset  side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+   Night   side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+    clouds(day): [(15, 'SkyrimCloudsHorizon01.dds', [168, 209, 239], '1'), (19, 'SkyrimCloudsHorizon01.dds', [168, 209, 239], '1'), (20, 'SkyrimCloudsHorizon01.dds', [168, 209, 239], '1'), (28, 'SkyrimCloudsFill.dds', [87, 136, 180], '0.4')]
+     SkyUpperColor [[7, 13, 50], [7, 13, 50], [7, 13, 50], [7, 13, 50]]
+     HorizonColor [[142, 195, 240], [142, 195, 240], [142, 195, 240], [142, 195, 240]]
+     FogFarColor [[112, 165, 210], [112, 165, 210], [112, 165, 210], [112, 165, 210]]
+     SunlightColor [[250, 169, 87], [250, 169, 87], [250, 169, 87], [250, 169, 87]]
+     AmbientColor [[214, 226, 193], [214, 226, 193], [214, 226, 193], [214, 226, 193]]
+     fog day 0 30000 0.835 night 0 30000 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+10FEF8 SovngardeDark | winner Authoria - Picta over NAT.esp
+   Sunrise side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+   Day     side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+   Sunset  side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+   Night   side(109, 130, 135) SIDES [[109, 132, 135], [109, 132, 135], [109, 130, 135]] up(120, 145, 146) down(194, 203, 211) spec(0, 0, 0) fres1
+    clouds(day): [(15, 'SkyrimCloudsHorizon01.dds', [92, 136, 163], '1'), (19, 'SkyrimCloudsHorizon01.dds', [92, 136, 163], '1'), (20, 'SkyrimCloudsHorizon01.dds', [92, 136, 163], '1'), (28, 'SkyrimCloudsFill.dds', [27, 60, 81], '0.4')]
+     SkyUpperColor [[13, 13, 50], [13, 13, 50], [13, 13, 50], [13, 13, 50]]
+     HorizonColor [[82, 112, 133], [82, 112, 133], [82, 112, 133], [82, 112, 133]]
+     FogFarColor [[31, 58, 75], [31, 58, 75], [31, 58, 75], [31, 58, 75]]
+     SunlightColor [[71, 100, 141], [71, 100, 141], [71, 100, 141], [71, 100, 141]]
+     AmbientColor [[160, 214, 255], [160, 214, 255], [160, 214, 255], [160, 214, 255]]
+     fog day 0 22500 0.9 night 0 22500 voli {'Sunrise': None, 'Day': None, 'Sunset': None, 'Night': None}
+001407 SoulCairnAmb01 | winner Authoria - Picta over NAT.esp
+   Sunrise side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Day     side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Sunset  side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Night   side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+    clouds(day): [(28, 'SkyrimCloudsFill.dds', [106, 78, 120], '1')]
+     SkyUpperColor [[24, 26, 39], [24, 26, 39], [24, 26, 39], [24, 26, 39]]
+     HorizonColor [[96, 73, 112], [96, 73, 112], [96, 73, 112], [96, 73, 112]]
+     FogFarColor [[28, 30, 36], [28, 30, 36], [28, 30, 36], [28, 30, 36]]
+     SunlightColor [[50, 82, 129], [50, 82, 129], [50, 82, 129], [50, 82, 129]]
+     AmbientColor [[78, 83, 103], [78, 83, 103], [78, 83, 103], [78, 83, 103]]
+     fog day 1000 4000 0.95 night 1000 4000 voli {'Sunrise': '014CF8:Dawnguard.esm', 'Day': '014CF8:Dawnguard.esm', 'Sunset': '014CF8:Dawnguard.esm', 'Night': '014CF8:Dawnguard.esm'}
+006AEC DLC1Eclipse | winner Authoria - Picta over NAT.esp
+   Sunrise side(174, 133, 119) SIDES [[141, 133, 108], [158, 139, 114], [158, 126, 114]] up(75, 63, 51) down(240, 202, 176) spec(0, 0, 0) fres1
+   Day     side(164, 134, 67) SIDES [[133, 134, 61], [149, 140, 64], [149, 127, 64]] up(71, 63, 29) down(226, 204, 99) spec(0, 0, 0) fres1
+   Sunset  side(190, 149, 129) SIDES [[155, 149, 118], [173, 155, 124], [173, 142, 124]] up(82, 71, 56) down(128, 118, 106) spec(0, 0, 0) fres1
+   Night   side(159, 156, 173) SIDES [[130, 156, 158], [145, 163, 166], [145, 148, 166]] up(69, 74, 75) down(151, 119, 87) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower01.dds', [90, 75, 52], '1'), (9, 'SkyrimCloudsLower01.dds', [137, 73, 46], '1'), (10, 'SkyrimCloudsLower01.dds', [96, 81, 60], '0.6'), (11, 'SkyrimCloudsLower01.dds', [67, 51, 37], '0.5'), (16, 'SkyrimCloudsHorizon01.dds', [152, 119, 95], '0.7'), (21, 'SkyrimCloudsHorizon01.dds', [131, 90, 46], '1'), (22, 'SkyrimCloudsHorizon01.dds', [132, 103, 74], '0.5'), (28, 'SkyrimCloudsFill.dds', [80, 55, 29], '0.4')]
+     SkyUpperColor [[60, 30, 20], [3, 2, 1], [48, 27, 11], [36, 34, 28]]
+     HorizonColor [[150, 118, 86], [182, 136, 105], [160, 140, 86], [118, 111, 97]]
+     FogFarColor [[50, 46, 46], [49, 34, 28], [24, 47, 61], [22, 22, 20]]
+     SunlightColor [[104, 119, 130], [157, 126, 104], [158, 123, 86], [85, 121, 170]]
+     AmbientColor [[158, 133, 114], [133, 123, 80], [173, 149, 124], [145, 156, 166]]
+     fog day 0 17500 0.8 night 0 17500 voli {'Sunrise': '000D55:Update.esm', 'Day': '000D56:Update.esm', 'Sunset': '000D57:Update.esm', 'Night': '000D54:Update.esm'}
+00F89C DLC1AurielsBowClearWeather | winner Authoria - Picta over NAT.esp
+   Sunrise side(133, 136, 154) SIDES [[131, 146, 156], [134, 141, 153], [132, 134, 155]] up(80, 81, 90) down(173, 181, 188) spec(0, 0, 0) fres1
+   Day     side(108, 146, 164) SIDES [[94, 134, 142], [101, 145, 154], [100, 135, 155]] up(77, 129, 136) down(191, 214, 221) spec(0, 0, 0) fres1
+   Sunset  side(131, 135, 146) SIDES [[131, 140, 146], [131, 141, 146], [131, 133, 146]] up(80, 83, 90) down(146, 132, 131) spec(0, 0, 0) fres1
+   Night   side(61, 95, 109) SIDES [[53, 74, 96], [53, 86, 96], [56, 80, 103]] up(44, 58, 67) down(65, 103, 126) spec(0, 0, 0) fres1
+    clouds(day): [(0, 'SkyrimCloudsUpper04.dds', [237, 243, 254], '0.5'), (1, 'SkyrimCloudsUpper04.dds', [163, 192, 209], '1'), (2, 'SkyrimCloudsUpper04.dds', [255, 255, 255], '0.3'), (3, 'SkyrimCloudsUpper01.dds', [177, 202, 216], '0.8'), (4, 'SkyrimCloudsUpper01.dds', [165, 200, 218], '1'), (5, 'SkyrimCloudsUpper01.dds', [208, 222, 227], '1'), (6, 'SkyrimCloudsUpper02.dds', [230, 236, 238], '0.7'), (7, 'SkyrimCloudsUpper02.dds', [184, 213, 220], '0.8'), (15, 'SkyrimCloudsHorizon01.dds', [162, 193, 204], '1'), (19, 'SkyrimCloudsHorizon01.dds', [162, 193, 204], '0.5'), (20, 'SkyrimCloudsHorizon01.dds', [162, 193, 204], '0.5'), (28, 'SkyrimCloudsFill.dds', [20, 83, 115], '0.3')]
+     SkyUpperColor [[36, 92, 149], [20, 81, 134], [37, 55, 77], [0, 6, 12]]
+     HorizonColor [[186, 129, 103], [125, 163, 183], [91, 76, 70], [5, 43, 63]]
+     FogFarColor [[136, 138, 153], [119, 155, 176], [75, 71, 78], [8, 28, 33]]
+     SunlightColor [[196, 138, 123], [172, 160, 147], [182, 121, 95], [15, 116, 198]]
+     AmbientColor [[162, 165, 176], [180, 192, 197], [105, 105, 112], [70, 104, 134]]
+     fog day 0 80000 0.85 night 0 40000 voli {'Sunrise': '000D53:Update.esm', 'Day': '000D51:Update.esm', 'Sunset': '000D52:Update.esm', 'Night': '000D58:Update.esm'}
+00F89D DLC1MagicAurielBowCloudyWeather | winner Authoria - Picta over NAT.esp
+   Sunrise side(111, 125, 118) SIDES [[129, 126, 114], [120, 124, 109], [81, 91, 86]] up(53, 64, 53) down(157, 172, 172) spec(0, 0, 0) fres1
+   Day     side(113, 142, 113) SIDES [[115, 141, 142], [111, 138, 114], [118, 146, 146]] up(89, 104, 123) down(191, 203, 213) spec(0, 0, 0) fres1
+   Sunset  side(131, 134, 143) SIDES [[134, 121, 121], [148, 141, 129], [123, 136, 138]] up(70, 83, 89) down(124, 135, 143) spec(0, 0, 0) fres1
+   Night   side(82, 101, 109) SIDES [[67, 92, 92], [67, 92, 92], [82, 101, 109]] up(52, 65, 65) down(98, 145, 179) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (9, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (10, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (11, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (16, 'SkyrimCloudsHorizon01.dds', [152, 195, 223], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [152, 195, 223], '1'), (22, 'SkyrimCloudsHorizon01.dds', [152, 195, 223], '1'), (28, 'SkyrimCloudsFill.dds', [42, 105, 134], '0.7')]
+     SkyUpperColor [[32, 68, 104], [39, 103, 141], [107, 90, 109], [4, 24, 28]]
+     HorizonColor [[49, 72, 70], [179, 204, 219], [208, 75, 43], [6, 32, 32]]
+     FogFarColor [[69, 80, 90], [98, 151, 184], [101, 98, 106], [12, 35, 44]]
+     SunlightColor [[181, 142, 111], [190, 170, 163], [221, 101, 55], [16, 128, 175]]
+     AmbientColor [[132, 149, 157], [233, 239, 237], [161, 131, 129], [59, 107, 169]]
+     fog day 0 100000 0.8 night 0 50000 voli {'Sunrise': '000D55:Update.esm', 'Day': '000D56:Update.esm', 'Sunset': '000D57:Update.esm', 'Night': '000D54:Update.esm'}
+014551 SoulCairnAmb01_Rain | winner Authoria - Picta over NAT.esp
+   Sunrise side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Day     side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Sunset  side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Night   side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+    clouds(day): [(28, 'SkyrimCloudsFill.dds', [106, 78, 120], '1')]
+     SkyUpperColor [[24, 26, 39], [24, 26, 39], [24, 26, 39], [24, 26, 39]]
+     HorizonColor [[96, 73, 112], [96, 73, 112], [96, 73, 112], [96, 73, 112]]
+     FogFarColor [[28, 30, 36], [28, 30, 36], [28, 30, 36], [28, 30, 36]]
+     SunlightColor [[50, 82, 129], [50, 82, 129], [50, 82, 129], [50, 82, 129]]
+     AmbientColor [[78, 83, 103], [78, 83, 103], [78, 83, 103], [78, 83, 103]]
+     fog day 1000 4000 0.95 night 1000 4000 voli {'Sunrise': '014CF8:Dawnguard.esm', 'Day': '014CF8:Dawnguard.esm', 'Sunset': '014CF8:Dawnguard.esm', 'Night': '014CF8:Dawnguard.esm'}
+018DBB SoulCairnAmb02 | winner Authoria - Picta over NAT.esp
+   Sunrise side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Day     side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Sunset  side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Night   side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+    clouds(day): [(28, 'SkyrimCloudsFill.dds', [104, 116, 151], '1')]
+     SkyUpperColor [[24, 26, 39], [24, 26, 39], [24, 26, 39], [24, 26, 39]]
+     HorizonColor [[98, 109, 145], [98, 109, 145], [98, 109, 145], [98, 109, 145]]
+     FogFarColor [[27, 28, 35], [27, 28, 35], [27, 28, 35], [27, 28, 35]]
+     SunlightColor [[50, 82, 129], [50, 82, 129], [50, 82, 129], [50, 82, 129]]
+     AmbientColor [[78, 83, 103], [78, 83, 103], [78, 83, 103], [78, 83, 103]]
+     fog day 1000 4000 0.8 night 1000 4000 voli {'Sunrise': '014CF8:Dawnguard.esm', 'Day': '014CF8:Dawnguard.esm', 'Sunset': '014CF8:Dawnguard.esm', 'Night': '014CF8:Dawnguard.esm'}
+018DBC SoulCairnAmb03 | winner Authoria - Picta over NAT.esp
+   Sunrise side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Day     side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Sunset  side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Night   side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+    clouds(day): [(28, 'SkyrimCloudsFill.dds', [80, 58, 92], '1')]
+     SkyUpperColor [[35, 29, 44], [35, 29, 44], [35, 29, 44], [35, 29, 44]]
+     HorizonColor [[69, 53, 83], [69, 53, 83], [69, 53, 83], [69, 53, 83]]
+     FogFarColor [[24, 26, 33], [24, 26, 33], [24, 26, 33], [24, 26, 33]]
+     SunlightColor [[50, 82, 129], [50, 82, 129], [50, 82, 129], [50, 82, 129]]
+     AmbientColor [[78, 83, 103], [78, 83, 103], [78, 83, 103], [78, 83, 103]]
+     fog day 2000 6000 0.75 night 2000 6000 voli {'Sunrise': '014CF8:Dawnguard.esm', 'Day': '014CF8:Dawnguard.esm', 'Sunset': '014CF8:Dawnguard.esm', 'Night': '014CF8:Dawnguard.esm'}
+018DBD SoulCairnAmb04 | winner Authoria - Picta over NAT.esp
+   Sunrise side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Day     side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Sunset  side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+   Night   side(189, 198, 210) SIDES [[190, 199, 211], [90, 106, 131], [90, 106, 131]] up(90, 106, 131) down(118, 126, 159) spec(0, 0, 0) fres1
+    clouds(day): [(28, 'SkyrimCloudsFill.dds', [106, 78, 120], '1')]
+     SkyUpperColor [[24, 26, 39], [24, 26, 39], [24, 26, 39], [24, 26, 39]]
+     HorizonColor [[96, 73, 112], [96, 73, 112], [96, 73, 112], [96, 73, 112]]
+     FogFarColor [[28, 29, 36], [28, 29, 36], [28, 29, 36], [28, 29, 36]]
+     SunlightColor [[50, 82, 129], [50, 82, 129], [50, 82, 129], [50, 82, 129]]
+     AmbientColor [[78, 83, 103], [78, 83, 103], [78, 83, 103], [78, 83, 103]]
+     fog day 2500 8500 0.75 night 2000 6000 voli {'Sunrise': '014CF8:Dawnguard.esm', 'Day': '014CF8:Dawnguard.esm', 'Sunset': '014CF8:Dawnguard.esm', 'Night': '014CF8:Dawnguard.esm'}
+019599 DLC1FalmerValley_bf | winner Authoria - Picta over NAT.esp
+   Sunrise side(69, 78, 73) SIDES [[73, 71, 65], [69, 72, 64], [51, 57, 54]] up(41, 50, 41) down(80, 95, 95) spec(0, 0, 0) fres1
+   Day     side(62, 77, 62) SIDES [[65, 80, 80], [56, 69, 57], [65, 82, 82]] up(50, 58, 69) down(63, 80, 95) spec(0, 0, 0) fres1
+   Sunset  side(69, 71, 75) SIDES [[70, 68, 68], [74, 73, 72], [65, 70, 71]] up(40, 44, 45) down(66, 70, 72) spec(0, 0, 0) fres1
+   Night   side(54, 68, 73) SIDES [[43, 60, 60], [37, 52, 52], [27, 32, 35]] up(28, 34, 34) down(48, 78, 99) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (9, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (10, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (11, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (16, 'SkyrimCloudsHorizon01.dds', [154, 193, 221], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [154, 193, 221], '1'), (22, 'SkyrimCloudsHorizon01.dds', [154, 193, 221], '1'), (28, 'SkyrimCloudsFill.dds', [47, 108, 132], '0.4')]
+     SkyUpperColor [[40, 78, 116], [36, 92, 119], [40, 60, 98], [10, 33, 33]]
+     HorizonColor [[65, 67, 62], [151, 193, 225], [208, 92, 43], [6, 32, 32]]
+     FogFarColor [[86, 87, 83], [140, 184, 210], [98, 89, 96], [11, 49, 53]]
+     SunlightColor [[181, 146, 111], [196, 179, 174], [193, 120, 104], [36, 119, 155]]
+     AmbientColor [[143, 154, 158], [203, 220, 220], [197, 182, 191], [55, 91, 136]]
+     fog day 0 4000 0.875 night 0 4000 voli {'Sunrise': '000D55:Update.esm', 'Day': '000D56:Update.esm', 'Sunset': '000D57:Update.esm', 'Night': '000D54:Update.esm'}
+0195A0 DLC1FalmerValley_bfDark | winner Authoria - Picta over NAT.esp
+   Sunrise side(39, 44, 41) SIDES [[38, 37, 34], [38, 39, 35], [38, 43, 40]] up(27, 33, 27) down(32, 38, 38) spec(0, 0, 0) fres1
+   Day     side(62, 77, 62) SIDES [[65, 80, 80], [56, 69, 57], [65, 82, 82]] up(50, 58, 69) down(63, 80, 95) spec(0, 0, 0) fres1
+   Sunset  side(47, 48, 51) SIDES [[41, 39, 39], [47, 46, 45], [34, 38, 38]] up(31, 32, 33) down(35, 36, 37) spec(0, 0, 0) fres1
+   Night   side(49, 64, 68) SIDES [[50, 69, 69], [45, 64, 64], [35, 44, 48]] up(35, 44, 44) down(29, 47, 61) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (9, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (10, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (11, 'SkyrimCloudsLower01.dds', [197, 232, 255], '1'), (16, 'SkyrimCloudsHorizon01.dds', [154, 193, 221], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [154, 193, 221], '1'), (22, 'SkyrimCloudsHorizon01.dds', [154, 193, 221], '1'), (28, 'SkyrimCloudsFill.dds', [47, 108, 132], '0.4')]
+     SkyUpperColor [[40, 78, 116], [36, 92, 119], [40, 60, 98], [10, 33, 33]]
+     HorizonColor [[65, 67, 62], [151, 193, 225], [208, 92, 43], [6, 32, 32]]
+     FogFarColor [[40, 64, 77], [40, 64, 77], [40, 64, 77], [40, 64, 77]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[143, 154, 158], [203, 220, 220], [197, 182, 191], [55, 91, 136]]
+     fog day 0 6000 1 night 0 6000 voli {'Sunrise': '000D55:Update.esm', 'Day': '000D56:Update.esm', 'Sunset': '000D57:Update.esm', 'Night': '000D54:Update.esm'}
+01DFF5 DLC2ApocryphaWeather | winner Authoria - Picta over NAT.esp
+   Sunrise side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+   Day     side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+   Sunset  side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 75, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+   Night   side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+    clouds(day): [(0, 'ApocryphaEyeTile.dds', [190, 221, 128], '0.5'), (18, 'ApocryphaEyeTileTrim.dds', [190, 221, 128], '1'), (25, 'ApocryphaEyeTileTrim.dds', [190, 221, 128], '1'), (26, 'ApocryphaEyeTileTrim.dds', [190, 221, 128], '1'), (27, 'ApocryphaEyeTile.dds', [190, 221, 128], '0.7'), (28, 'White.dds', [86, 94, 57], '1')]
+     SkyUpperColor [[107, 112, 90], [39, 40, 26], [80, 83, 68], [153, 173, 185]]
+     HorizonColor [[174, 213, 94], [174, 213, 94], [174, 213, 94], [174, 213, 94]]
+     FogFarColor [[62, 63, 44], [62, 63, 44], [62, 63, 44], [62, 63, 44]]
+     SunlightColor [[153, 189, 151], [153, 189, 151], [153, 189, 151], [153, 189, 151]]
+     AmbientColor [[67, 43, 31], [82, 78, 50], [65, 40, 29], [35, 22, 16]]
+     fog day 0 30000 0.75 night 0 15000 voli {'Sunrise': '01E2D1:Dragonborn.esm', 'Day': '01E2D1:Dragonborn.esm', 'Sunset': '01E2D1:Dragonborn.esm', 'Night': '01E2D1:Dragonborn.esm'}
+034CFB DLC2ApocryphaWeatherNew | winner Authoria - Picta over NAT.esp
+   Sunrise side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+   Day     side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+   Sunset  side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+   Night   side(90, 78, 52) SIDES [[73, 78, 47], [82, 81, 50], [82, 74, 50]] up(39, 37, 22) down(124, 118, 77) spec(0, 0, 0) fres1
+    clouds(day): [(0, 'ApocryphaEyeTile.dds', [190, 221, 128], '0.5'), (18, 'ApocryphaEyeTileTrim.dds', [190, 221, 128], '1'), (25, 'ApocryphaEyeTileTrim.dds', [190, 221, 128], '1'), (26, 'ApocryphaEyeTileTrim.dds', [190, 221, 128], '1'), (27, 'ApocryphaEyeTile.dds', [190, 221, 128], '0.7')]
+     SkyUpperColor [[46, 48, 29], [46, 48, 29], [46, 48, 29], [46, 48, 29]]
+     HorizonColor [[174, 213, 94], [174, 213, 94], [174, 213, 94], [174, 213, 94]]
+     FogFarColor [[62, 63, 44], [62, 63, 44], [62, 63, 44], [62, 63, 44]]
+     SunlightColor [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+     AmbientColor [[82, 78, 50], [82, 78, 50], [82, 78, 50], [82, 78, 50]]
+     fog day 0 30000 0.9 night 0 30000 voli {'Sunrise': '01E2D1:Dragonborn.esm', 'Day': '01E2D1:Dragonborn.esm', 'Sunset': '01E2D1:Dragonborn.esm', 'Night': '01E2D1:Dragonborn.esm'}
+10A240 SunnyTU | winner NAT-ENB.esp
+   Sunrise side(83, 106, 130) SIDES [[84, 106, 129], [84, 106, 129], [101, 128, 154]] up(92, 106, 120) down(150, 159, 169) spec(0, 128, 255) fres1
+   Day     side(122, 118, 112) SIDES [[92, 106, 120], [92, 106, 120], [106, 128, 149]] up(175, 159, 143) down(150, 159, 169) spec(0, 128, 255) fres1
+   Sunset  side(83, 106, 130) SIDES [[84, 106, 129], [84, 106, 129], [101, 126, 154]] up(92, 106, 120) down(150, 159, 169) spec(0, 128, 255) fres1
+   Night   side(45, 53, 62) up(31, 37, 44) down(66, 80, 94) spec(0, 0, 160) fres1
+    clouds(day): [(0, 'SkyrimCloudsUpper04.dds', [255, 255, 255], '2'), (1, 'SkyrimCloudsUpper04.dds', [249, 250, 251], '1'), (2, 'SkyrimCloudsUpper04.dds', [255, 255, 255], '0'), (3, 'SkyrimCloudsUpper01.dds', [255, 255, 255], '0.8'), (4, 'SkyrimCloudsUpper01.dds', [255, 255, 255], '1'), (5, 'skyrimcloudsupper01.dds', [255, 255, 255], '1'), (6, 'SkyrimCloudsUpper02.dds', [255, 255, 255], '0'), (7, 'SkyrimCloudsUpper02.dds', [255, 255, 255], '0'), (14, 'l12-13-14_clearsunset.dds', [255, 232, 213], '0'), (15, 'skyrimcloudshorizon01.dds', [255, 255, 255], '0'), (19, 'skyrimcloudshorizon01.dds', [255, 255, 255], '1'), (20, 'skyrimcloudshorizon01.dds', [255, 255, 255], '1'), (28, 'skyrimcloudsfill.dds', [117, 186, 255], '1')]
+     SkyUpperColor [[29, 117, 205], [0, 48, 128], [27, 115, 186], [11, 21, 32]]
+     HorizonColor [[146, 190, 226], [112, 155, 207], [139, 164, 180], [7, 11, 14]]
+     FogFarColor [[95, 117, 139], [119, 166, 242], [98, 115, 136], [10, 16, 22]]
+     SunlightColor [[106, 40, 0], [245, 233, 211], [106, 46, 0], [48, 65, 80]]
+     AmbientColor [[64, 69, 74], [64, 69, 74], [64, 69, 74], [27, 32, 37]]
+     fog day 5000 250000 0.85 night 350 80000 voli {'Sunrise': '0CC5E9:NAT-ENB.esp', 'Day': '0CC5E9:NAT-ENB.esp', 'Sunset': '0CC5E9:NAT-ENB.esp', 'Night': '0B615E:NAT-ENB.esp'}
+10E1EE SunnyTU_A | winner NAT-ENB.esp
+   Sunrise side(83, 106, 130) SIDES [[84, 106, 129], [84, 106, 129], [101, 128, 154]] up(92, 106, 120) down(150, 159, 169) spec(0, 128, 255) fres1
+   Day     side(122, 118, 112) SIDES [[92, 106, 120], [92, 106, 120], [106, 128, 149]] up(175, 159, 143) down(150, 159, 169) spec(0, 128, 255) fres1
+   Sunset  side(83, 106, 130) SIDES [[84, 106, 129], [84, 106, 129], [101, 126, 154]] up(92, 106, 120) down(150, 159, 169) spec(0, 128, 255) fres1
+   Night   side(45, 53, 62) up(45, 53, 62) down(53, 202, 202) spec(0, 0, 160) fres1
+    clouds(day): [(0, 'nat_top03.dds', [255, 255, 255], '0.5'), (1, 'nat_top03.dds', [255, 255, 255], '0.5'), (2, 'skyrimcloudsupper04.dds', [255, 255, 255], '0'), (3, 'skyrimcloudsupper01.dds', [255, 255, 255], '0'), (4, 'skyrimcloudsupper01.dds', [255, 255, 255], '0'), (5, 'skyrimcloudsupper01.dds', [255, 255, 255], '0'), (6, 'skyrimcloudsupper01.dds', [255, 255, 255], '0'), (7, 'skyrimcloudsupper01.dds', [255, 255, 255], '0'), (12, 'l12_sidecloudsclearpf.dds', [255, 255, 255], '1'), (14, 'l13_sunrisecloud.dds', [234, 244, 255], '0'), (15, 'skyrimcloudshorizon01.dds', [255, 255, 255], '0.2'), (19, 'skyrimcloudshorizon01.dds', [255, 255, 255], '0.2'), (20, 'skyrimcloudshorizon01.dds', [255, 255, 255], '0.2'), (28, 'skyrimcloudsfill.dds', [116, 168, 203], '1')]
+     SkyUpperColor [[32, 114, 223], [0, 48, 128], [32, 114, 223], [0, 0, 0]]
+     HorizonColor [[82, 128, 173], [146, 182, 226], [82, 128, 173], [6, 11, 15]]
+     FogFarColor [[96, 128, 159], [128, 185, 255], [96, 128, 159], [3, 5, 7]]
+     SunlightColor [[106, 40, 0], [245, 233, 211], [106, 46, 0], [35, 135, 135]]
+     AmbientColor [[64, 69, 74], [64, 69, 74], [64, 69, 74], [27, 32, 37]]
+     fog day 3500 200000 0.85 night 350 80000 voli {'Sunrise': '0B615F:NAT-ENB.esp', 'Day': '0CC5FE:NAT-ENB.esp', 'Sunset': '0B615F:NAT-ENB.esp', 'Night': '0D64BA:NAT-ENB.esp'}
+10A243 SkyrimCloudyTU | winner Mists of Tamriel.esp
+   Sunrise side(90, 125, 118) SIDES [[107, 126, 114], [107, 124, 109], [67, 91, 86]] up(58, 75, 63) down(119, 172, 172) spec(0, 0, 0) fres1
+   Day     side(125, 151, 125) SIDES [[126, 151, 152], [122, 148, 124], [130, 155, 155]] up(99, 115, 135) down(182, 220, 211) spec(0, 0, 0) fres1
+   Sunset  side(126, 147, 148) SIDES [[109, 142, 148], [125, 146, 153], [116, 143, 146]] up(71, 82, 88) down(124, 135, 143) spec(0, 0, 0) fres1
+   Night   side(46, 85, 92) SIDES [[29, 99, 99], [46, 82, 82], [54, 86, 95]] up(52, 65, 65) down(75, 140, 179) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (9, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (10, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (11, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (16, 'SkyrimCloudsHorizon01.dds', [142, 169, 187], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [142, 169, 187], '1'), (22, 'SkyrimCloudsHorizon01.dds', [142, 169, 187], '1'), (28, 'SkyrimCloudsFill.dds', [52, 95, 115], '0.4')]
+     SkyUpperColor [[5, 50, 67], [14, 72, 122], [35, 61, 92], [0, 27, 37]]
+     HorizonColor [[120, 194, 199], [142, 188, 212], [230, 89, 21], [6, 32, 32]]
+     FogFarColor [[58, 88, 99], [104, 146, 179], [88, 103, 114], [11, 40, 50]]
+     SunlightColor [[187, 146, 104], [168, 136, 123], [203, 122, 73], [64, 106, 130]]
+     AmbientColor [[112, 143, 142], [159, 184, 183], [139, 140, 134], [55, 106, 136]]
+     fog day 0 100000 0.9 night 0 50000 voli {'Sunrise': '000D55:Update.esm', 'Day': '000D56:Update.esm', 'Sunset': '000D57:Update.esm', 'Night': '000D54:Update.esm'}
+10E1ED SkyrimCloudyTU_A | winner Mists of Tamriel.esp
+   Sunrise side(90, 125, 118) SIDES [[107, 126, 114], [107, 124, 109], [67, 91, 86]] up(58, 75, 63) down(119, 172, 172) spec(0, 0, 0) fres1
+   Day     side(125, 151, 125) SIDES [[126, 151, 152], [122, 148, 124], [130, 155, 155]] up(99, 115, 135) down(182, 220, 211) spec(0, 0, 0) fres1
+   Sunset  side(126, 147, 148) SIDES [[109, 142, 148], [125, 146, 153], [116, 143, 146]] up(71, 82, 88) down(124, 135, 143) spec(0, 0, 0) fres1
+   Night   side(46, 85, 92) SIDES [[29, 99, 99], [46, 82, 82], [54, 86, 95]] up(52, 65, 65) down(75, 140, 179) spec(0, 0, 0) fres1
+    clouds(day): [(8, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (9, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (10, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (11, 'SkyrimCloudsLower02.dds', [181, 211, 230], '1'), (16, 'SkyrimCloudsHorizon01.dds', [142, 169, 187], '0.75'), (21, 'SkyrimCloudsHorizon01.dds', [142, 169, 187], '1'), (22, 'SkyrimCloudsHorizon01.dds', [142, 169, 187], '1'), (28, 'SkyrimCloudsFill.dds', [52, 95, 115], '0.4')]
+     SkyUpperColor [[5, 50, 67], [14, 72, 122], [35, 61, 92], [0, 27, 37]]
+     HorizonColor [[120, 194, 199], [142, 188, 212], [230, 77, 21], [6, 32, 32]]
+     FogFarColor [[58, 88, 99], [104, 146, 179], [74, 87, 96], [11, 40, 50]]
+     SunlightColor [[202, 156, 111], [168, 136, 123], [234, 101, 21], [44, 81, 107]]
+     AmbientColor [[111, 136, 139], [145, 182, 190], [148, 140, 118], [55, 100, 136]]
+     fog day 0 100000 0.9 night 0 50000 voli {'Sunrise': '000D55:Update.esm', 'Day': '000D56:Update.esm', 'Sunset': '000D57:Update.esm', 'Night': '000D54:Update.esm'}
+00081A SunnyPF | winner NAT-ENB.esp
+   Sunrise side(84, 106, 129) SIDES [[84, 106, 129], [84, 106, 129], [101, 128, 154]] up(92, 106, 120) down(150, 159, 169) spec(0, 128, 255) fres1
+   Day     side(80, 112, 104) SIDES [[77, 90, 104], [77, 90, 104], [106, 128, 149]] up(191, 159, 128) down(150, 159, 169) spec(0, 128, 255) fres1
+   Sunset  side(84, 106, 129) SIDES [[84, 106, 129], [84, 106, 129], [101, 126, 154]] up(92, 106, 120) down(150, 159, 169) spec(0, 128, 255) fres1
+   Night   side(45, 53, 62) up(31, 37, 44) down(66, 80, 94) spec(0, 0, 160) fres1
+    clouds(day): [(0, 'skyrimcloudsupper04.dds', [255, 255, 255], '0'), (1, 'skyrimcloudsupper04.dds', [255, 255, 255], '0'), (2, 'skyrimcloudsupper04.dds', [255, 255, 255], '0'), (13, 'l13_sunrisecloud.dds', [210, 223, 236], '0'), (14, 'l12-13-14_cloudysunset02.dds', [255, 255, 255], '0'), (15, 'skyrimcloudshorizon01.dds', [255, 255, 255], '1'), (19, 'skyrimcloudshorizon01.dds', [255, 255, 255], '0.2'), (20, 'skyrimcloudshorizon01.dds', [255, 255, 255], '0.5'), (26, 'horizontest.dds', [255, 255, 255], '0'), (28, 'skyrimcloudsfill.dds', [128, 191, 255], '1')]
+     SkyUpperColor [[53, 128, 202], [0, 48, 128], [18, 106, 194], [11, 21, 32]]
+     HorizonColor [[145, 150, 153], [112, 155, 207], [143, 162, 175], [7, 11, 14]]
+     FogFarColor [[96, 128, 159], [128, 185, 255], [96, 128, 159], [3, 5, 7]]
+     SunlightColor [[117, 53, 0], [245, 234, 211], [117, 53, 0], [48, 65, 80]]
+     AmbientColor [[64, 69, 74], [78, 86, 92], [64, 69, 74], [27, 32, 37]]
+     fog day 3500 200000 0.85 night 350 80000 voli {'Sunrise': '0CC5E9:NAT-ENB.esp', 'Day': '0CC5E9:NAT-ENB.esp', 'Sunset': '0CC5E9:NAT-ENB.esp', 'Night': '0B615E:NAT-ENB.esp'}

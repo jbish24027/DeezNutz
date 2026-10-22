@@ -1,0 +1,17 @@
+== Jester m _1: jesterm_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 114, Skirt Side 234, Skirt Back 396
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      2450     642     465        0    1343   worst frame unseen 144
+      Skirt Front          entered   683 hooked  446 unseen  152  unseen z p10 40.4 p50 47.4 p90 54.0
+      Skirt Side           entered  1765 hooked   19 unseen 1189  unseen z p10 46.3 p50 51.8 p90 57.1
+      Skirt Back           entered     2 hooked    0 unseen    2  unseen z p10 57.8 p50 57.8 p90 57.8
+   run          10      1017     506      77        0     434   worst frame unseen 121
+      Skirt Front          entered   316 hooked   68 unseen   89  unseen z p10 48.4 p50 53.8 p90 57.9
+      Skirt Side           entered   608 hooked    7 unseen  256  unseen z p10 46.5 p50 54.0 p90 57.7
+      Skirt Back           entered    93 hooked    2 unseen   89  unseen z p10 41.8 p50 44.5 p90 48.8
+   sprint       10       935     437      60        0     438   worst frame unseen 244
+      Skirt Front          entered   282 hooked   53 unseen   86  unseen z p10 43.9 p50 53.7 p90 57.9
+      Skirt Side           entered   509 hooked    7 unseen  208  unseen z p10 46.8 p50 54.1 p90 58.0
+      Skirt Back           entered   144 hooked    0 unseen  144  unseen z p10 41.7 p50 44.3 p90 48.5
+SUMMARY clips worst unseen/frame: 244
+
+EXIT 0

@@ -1,0 +1,18 @@
+105F40:Skyrim.esm
+105941:Skyrim.esm
+104AB4:Skyrim.esm
+10199F:Skyrim.esm
+0D9329:Skyrim.esm
+0D4886:Skyrim.esm
+014551:Dawnguard.esm
+0195A0:Dawnguard.esm
+019599:Dawnguard.esm
+018DBC:Dawnguard.esm
+018DBB:Dawnguard.esm
+00F89D:Dawnguard.esm
+00F89C:Dawnguard.esm
+006AEC:Dawnguard.esm
+001407:Dawnguard.esm
+034CFB:Dragonborn.esm
+01DFF5:Dragonborn.esm
+00082E:Astralite ENB.esp

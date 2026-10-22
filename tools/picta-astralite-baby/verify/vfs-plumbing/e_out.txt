@@ -1,0 +1,33 @@
+modlist.txt: baby 4423 lines, PICTA 4419; baby info {'bom': False, 'crlf': 4423, 'lf': 4423, 'cr': 4423, 'trailing': True, 'nonascii': False}; picta info {'bom': False, 'crlf': 4419, 'lf': 4419, 'cr': 4419, 'trailing': True, 'nonascii': False}; header ok True
+    insert PICTA[283:282] [] -> baby[283:283] ['+houseCARL - Authoria - Patch - Picta x Astralite']
+    insert PICTA[3344:3343] [] -> baby[3345:3345] ['+Authoria - Picta x Astralite - E11']
+    replace PICTA[3354:3354] ['+Authoria - Picta ENB - Root twin'] -> baby[3356:3357] ['+Authoria - Picta x Astralite - Root twin', '-Authoria - Picta ENB - Root twin']
+    insert PICTA[3401:3400] [] -> baby[3404:3404] ['+Authoria - Picta x Astralite - Mist assets']
+plugins.txt: baby 4090 lines, PICTA 4089; baby info {'bom': False, 'crlf': 4090, 'lf': 4090, 'cr': 4090, 'trailing': True, 'nonascii': False}; picta info {'bom': False, 'crlf': 4089, 'lf': 4089, 'cr': 4089, 'trailing': True, 'nonascii': False}; header ok True
+    insert PICTA[3758:3757] [] -> baby[3758:3758] ['*Authoria - Patch - Picta x Astralite.esp']
+loadorder.txt: baby 4150 lines, PICTA 4149; baby info {'bom': False, 'crlf': 4150, 'lf': 4150, 'cr': 4150, 'trailing': True, 'nonascii': False}; picta info {'bom': False, 'crlf': 4149, 'lf': 4149, 'cr': 4149, 'trailing': True, 'nonascii': False}; header ok True
+    insert PICTA[3818:3817] [] -> baby[3818:3818] ['Authoria - Patch - Picta x Astralite.esp']
+plugingroups.txt: baby 4150 lines, PICTA 4149; baby info {'bom': False, 'crlf': 4150, 'lf': 4150, 'cr': 4150, 'trailing': True, 'nonascii': False}; picta info {'bom': False, 'crlf': 4149, 'lf': 4149, 'cr': 4149, 'trailing': True, 'nonascii': False}; header ok True
+    insert PICTA[478:477] [] -> baby[478:478] ['Authoria - Patch - Picta x Astralite.esp|Authoria - Custom Patches']
+lockedorder.txt: baby 1 lines, PICTA 1; baby info {'bom': False, 'crlf': 1, 'lf': 1, 'cr': 1, 'trailing': True, 'nonascii': False}; picta info {'bom': False, 'crlf': 1, 'lf': 1, 'cr': 1, 'trailing': True, 'nonascii': False}; header ok True
+archives.txt: baby 560 lines, PICTA 560; baby info {'bom': False, 'crlf': 560, 'lf': 560, 'cr': 560, 'trailing': True, 'nonascii': False}; picta info {'bom': False, 'crlf': 560, 'lf': 560, 'cr': 560, 'trailing': True, 'nonascii': False}; header ok n/a
+plugins.txt (all entries) is an ordered subsequence of loadorder.txt: True
+duplicates in loadorder: 0  in plugins: 0
+plugingroups covers loadorder exactly: True 4149 4149
+plugingroups sorted case-insensitively: True
+plugingroups duplicates: 0
+ESL group line: ['Authoria - Patch - Picta x Astralite.esp|Authoria - Custom Patches']
+  neighbours: Authoria - Patch - Picta Seasonal.esp|Authoria - Custom Patches | Authoria - Patch - Player Dirt Overlays.esp|Authoria - Master Patches
+plugins.txt line 3758: prev '*Authoria - Patch - Picta Seasonal.esp' next '*Authoria - Patch - No Fireflies In Winter.esp'
+loadorder.txt line 3818: prev 'Authoria - Patch - Picta Seasonal.esp' next 'Authoria - Patch - No Fireflies In Winter.esp'
+ESL header: flags=0x00000200 (ESL bit True, ESM bit False), form version 44, header size 336
+  HEDR version 1.71 records 49 next object id 0x811
+  masters: ['Skyrim.esm', 'Update.esm', 'Picta - Weathers of Aurbis.esm', 'Mists of Tamriel.esp']
+    Skyrim.esm: loadorder index 0 (< ESL 3816: True), active/implicit True
+    Update.esm: loadorder index 1 (< ESL 3816: True), active/implicit True
+    Picta - Weathers of Aurbis.esm: loadorder index 201 (< ESL 3816: True), active/implicit True
+    Mists of Tamriel.esp: loadorder index 1314 (< ESL 3816: True), active/implicit True
+first 'outputs/dyndolod' entry in loadorder at 207: 'DynDOLOD.esm'; ESL index 3817
+loadorder tail identical PICTA vs baby (last 60): True
+last 8 loadorder: ['Deepwood Vale Paper Map for FWMF.esp', 'Japhets Folly LODSettings.esp', 'Japhets Folly Paper Map for FWMF.esp', 'Blackreach Paper Map for FWMF.esp', 'Forgotten Vale Map for FWMF.esp', 'Beyond Bruma by Mirhayasu for FWMF.esp', 'Lux patch for FWMF.esp', 'Authoria - Master Patch - FWMF.esp']
+ESL below the tail? True

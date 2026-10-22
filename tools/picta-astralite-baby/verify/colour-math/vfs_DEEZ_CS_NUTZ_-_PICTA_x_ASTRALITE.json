@@ -1,0 +1,2598 @@
+{
+"skse\\plugins\\communityshaders\\editorsettings.json": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\EditorSettings.json"
+],
+"skse\\plugins\\communityshaders\\proceduralgrasstypes.json": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\ProceduralGrassTypes.json"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.bak-pre-b19rollback-20261006": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.bak-pre-b19rollback-20261006"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.bak-pre-b19trial-20261006": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.bak-pre-b19trial-20261006"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.bak-pre-peelback-20261011": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.bak-pre-peelback-20261011"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.skyrimupscaler.bak": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.skyrimupscaler.bak"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.stale-aio0824-20260924": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.stale-aio0824-20260924"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.stale-bottled100-20260930": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.stale-bottled100-20260930"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.stale-bottled104-20261006": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.stale-bottled104-20261006"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.stale-bottled107-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.stale-bottled107-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.stale-oldbuild-20260819": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.stale-oldbuild-20260819"
+],
+"skse\\plugins\\communityshaders\\settingsdefault.json.stale-oldbuild-20260824": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsDefault.json.stale-oldbuild-20260824"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-blue-20260819": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-blue-20260819"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-flicker-revert-20260927": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-flicker-revert-20260927"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-friendlook-20261017": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-friendlook-20261017"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-grassthin-20260926": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-grassthin-20260926"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-hairspec-20260814": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-hairspec-20260814"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-meshlod-20260926": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-meshlod-20260926"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-perf-20260926": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-perf-20260926"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-0824-pass": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-0824-pass"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-astralite-restore-20260827": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-astralite-restore-20260827"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-b19rollback-20261006": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-b19rollback-20261006"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-b19trial-20261006": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-b19trial-20261006"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-bottled-20260924": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-bottled-20260924"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-bottled1011-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-bottled1011-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-bottled107-20261006": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-bottled107-20261006"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-contactshadows-20260814": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-contactshadows-20260814"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-lushgrass-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-lushgrass-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-peelback-20261011": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-peelback-20261011"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-picta-bridge-20261001": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-picta-bridge-20261001"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-ppuw-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-ppuw-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-presetk-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-presetK-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-proceduralgrass-off-20260830": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-proceduralgrass-off-20260830"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-s3-20261002": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-s3-20261002"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-s7-20261007": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-s7-20261007"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-sdr-20260811": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-sdr-20260811"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-ssgi-off-20260822": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-ssgi-off-20260822"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-taa-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-taa-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-unifiedwater-off-20260822": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-unifiedwater-off-20260822"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-unifiedwater-off-20260831": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-unifiedwater-off-20260831"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-upscaling-20261001": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-upscaling-20261001"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-upscaling-off-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-upscaling-off-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-pre-vanillatonemap-20261012": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-pre-vanillatonemap-20261012"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-sskey-20260819": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-sskey-20260819"
+],
+"skse\\plugins\\communityshaders\\settingsuser.json.bak-upscaler-20260829": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SettingsUser.json.bak-upscaler-20260829"
+],
+"skse\\plugins\\communityshaders\\uwloadorder.hash": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UWLoadOrder.hash"
+],
+"skse\\plugins\\communityshaders\\uwloadorder.hash.stale-loadorder-20260822": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UWLoadOrder.hash.stale-loadorder-20260822"
+],
+"skse\\plugins\\communityshaders\\scenesettings\\interioronly\\authoria_screenspacegi.json": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\SceneSettings\\InteriorOnly\\Authoria_ScreenSpaceGI.json"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\0gorelydiasexspot_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\0GoreLydiaSexSpot_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\0icbbanditfortressworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\0ICBBanditFortressWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\3dnpcgabaniasworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\3DNPCGabaniasWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\aaalucoblivionrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\aaaLucOblivionRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\aaaritestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\aaaRITestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\alftandworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\AlftandWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\axdarkrosesailingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\AXDarkRoseSailingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\axgodsforsakenrockworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\AXGodsforsakenRockWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\axoffshoreislandworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\AXOffshoreIslandWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\axspringrainsailingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\AXSpringRainSailingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\blackreach_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\Blackreach_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\blindcliffcaveworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BlindCliffCaveWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\bloatedmansgrottoworldduplicate001_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BloatedMansGrottoWorldDUPLICATE001_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\bloatedmansgrottoworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BloatedMansGrottoWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\bluepalacewingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BluePalaceWingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\brinewatergrottoworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BrinewaterGrottoWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\bsheartland_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BSHeartland_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\bskhyorkerisle_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BSKHyorkerIsle_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\bsktestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\BSKTestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ccbgssse067deadlandsworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ccBGSSSE067DeadlandsWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cckrtsse001qnworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ccKRTSSE001QNWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cwsiegetestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CWSiegeTestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cwtesthold_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CWTestHold_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cyrbiometesting_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CYRBiomeTesting_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cyrcrowswoodworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CYRCrowsWoodWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cyrfrostfireglade_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CYRFrostfireGlade_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cyrgreenleafglade_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CYRGreenLeafGlade_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\cyrtestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\CYRTestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\darkwaterworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DarkwaterWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\deepwoodredoubtworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DeepwoodRedoubtWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dimfrost_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\Dimfrost_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc01boneyard_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC01Boneyard_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc01falmervalley_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC01FalmerValley_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc01soulcairn_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC01SoulCairn_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc1ancestorsgladeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC1AncestorsGladeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc1darkfallpassageworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC1DarkfallPassageWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc1forebearsholdout_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC1ForebearsHoldout_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc1hunterhqworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC1HunterHQWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc2apocryphaworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC2ApocryphaWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\dlc2solstheimworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\DLC2SolstheimWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\eastempirewarehouse_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\EastEmpireWarehouse_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ecssshiveringisles_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ECSSShiveringIsles_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\eldergleamsanctuaryworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\EldergleamSanctuaryWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\fallowstonecaveworldend_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\FallowstoneCaveWorldEnd_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\fallowstonecaveworldstart_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\FallowstoneCaveWorldStart_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\frostmerecryptworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\FrostmereCryptWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\fxlightworldspace_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\FXLightWorldSpace_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\grvecemeteryworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\GRVECemeteryWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\japhetsfollyworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\JaphetsFollyWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\katariahworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\KatariahWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\kr2deadlands_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\KR2Deadlands_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws03houseworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws03HouseWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws03mazeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws03MazeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws03utilityworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws03UtilityWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws07dungeon01world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws07Dungeon01World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws07dungeon02world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws07Dungeon02World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws07dungeon04world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws07Dungeon04World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws07dungeon05world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws07Dungeon05World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws07utilityworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws07UtilityWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ksws07world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ksws07World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\labyrinthianmazeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\LabyrinthianMazeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\labyrinthianworld03_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\LabyrinthianWorld03_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\labyrinthianworld04_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\LabyrinthianWorld04_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\labyrinthianworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\LabyrinthianWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\mannygfdesert_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\mannyGFDesert_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\mannygfl_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\mannyGFL_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\mannygfo_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\mannyGFO_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\markarthworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\MarkarthWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\mossmothercavernworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\MossMotherCavernWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ocrcampsitehotsprings_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OCRCampsiteHotSprings_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\ocrcampsitewhiterun_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OCRCampsiteWhiterun_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenicecapitol_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenIceCapitol_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\oleniceworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenIceWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenpalecross_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenPaleCross_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenveldancientindexerws_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenveldAncientIndexerWS_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenveldscexpansionws_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenveldSCExpansionWS_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenveldunderworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenveldUnderWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenvelduw2_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenveldUW2_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\olenveldws_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\OlenveldWS_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\palepass_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\PalePass_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\redeagleredoubtworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\RedEagleRedoubtWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\riftenworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\RiftenWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\sancretorworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\SancreTorWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\sevapstartforest_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\SEVAPstartforest_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\shadowgreencavernworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\ShadowgreenCavernWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\skuldafnworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\SkuldafnWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\southfringeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\SouthfringeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\sovngarde_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\Sovngarde_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\stormlightningholdingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\StormLightningHoldingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\tamriel_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\Tamriel_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\testmeganworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\TestMeganWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\testsnow_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\TestSnow_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\tokmountainpassworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\TOKMountainPassWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\windpassworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\WindPassWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\wyrmstoothworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\WyrmstoothWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zaomvigilantworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zAoMVigilantWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zaomwitchworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zAoMWitchWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zbmlamaeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zBMLamaeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zchcolosseumworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCHColosseumWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zchmolagworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCHMolagWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zcholdforestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCHOldForestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zchtrueendworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCHTrueEndWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zchwasteland_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCHWasteland_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zchwhalegraceyardworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCHWhaleGraceyardWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zcobruiantworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCOBruiantWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zcocursedworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zCOCursedWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zdcdblindrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zDcdBlindRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zdcddwemereth_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zDcdDwemereth_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zdcdghostsea_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zDcdGhostSea_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghcradlewoodsworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHCradleWoodsWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghdunmercampworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHDunmerCampWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghfelixrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHFelixRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghhinnomrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHHinnomRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghholywhistleworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHHolyWhistleWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghhunterrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHHunterRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghmilkysearealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHMilkySeaRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghtabooedland_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHTabooedLand_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghtemplewardworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHTempleWardWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghvaerminarealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHVaerminaRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zghwitchforestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zGHWitchForestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zlamairshipextrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zLaMAirshipExtRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zlrhlalanoarealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zLrhLalanoaRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zrevdreamsleevesworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zRevDreamsleevesWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zrevnamirarealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zRevNamiraRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zzzcrbapoworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zzzCrbApoWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zzzcrbatmoraskyworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zzzCrbAtmoraSkyWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zzzcrbnorthernsanctuary_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zzzCrbNorthernSanctuary_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zzzcrbsnowworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zzzCrbSnowWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zzzcrbullissworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zzzCrbUllissWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\zzzcrbwyrmworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\zzzCrbWyrmWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\0gorelydiasexspot_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\0GoreLydiaSexSpot_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\0icbbanditfortressworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\0ICBBanditFortressWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\3dnpcgabaniasworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\3DNPCGabaniasWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\aaalucoblivionrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\aaaLucOblivionRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\aaaritestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\aaaRITestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\alftandworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\AlftandWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\axdarkrosesailingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\AXDarkRoseSailingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\axgodsforsakenrockworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\AXGodsforsakenRockWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\axoffshoreislandworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\AXOffshoreIslandWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\axspringrainsailingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\AXSpringRainSailingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\blackreach_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\Blackreach_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\blindcliffcaveworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BlindCliffCaveWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\bloatedmansgrottoworldduplicate001_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BloatedMansGrottoWorldDUPLICATE001_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\bloatedmansgrottoworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BloatedMansGrottoWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\bluepalacewingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BluePalaceWingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\brinewatergrottoworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BrinewaterGrottoWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\bsheartland_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BSHeartland_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\bskhyorkerisle_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BSKHyorkerIsle_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\bsktestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\BSKTestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ccbgssse067deadlandsworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ccBGSSSE067DeadlandsWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cckrtsse001qnworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ccKRTSSE001QNWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cwsiegetestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CWSiegeTestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cwtesthold_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CWTestHold_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cyrbiometesting_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CYRBiomeTesting_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cyrcrowswoodworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CYRCrowsWoodWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cyrfrostfireglade_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CYRFrostfireGlade_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cyrgreenleafglade_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CYRGreenLeafGlade_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\cyrtestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\CYRTestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\darkwaterworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DarkwaterWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\deepwoodredoubtworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DeepwoodRedoubtWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dimfrost_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\Dimfrost_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc01boneyard_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC01Boneyard_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc01falmervalley_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC01FalmerValley_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc01soulcairn_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC01SoulCairn_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc1ancestorsgladeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC1AncestorsGladeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc1darkfallpassageworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC1DarkfallPassageWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc1forebearsholdout_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC1ForebearsHoldout_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc1hunterhqworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC1HunterHQWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc2apocryphaworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC2ApocryphaWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\dlc2solstheimworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\DLC2SolstheimWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\eastempirewarehouse_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\EastEmpireWarehouse_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ecssshiveringisles_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ECSSShiveringIsles_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\eldergleamsanctuaryworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\EldergleamSanctuaryWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\fallowstonecaveworldend_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\FallowstoneCaveWorldEnd_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\fallowstonecaveworldstart_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\FallowstoneCaveWorldStart_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\frostmerecryptworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\FrostmereCryptWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\fxlightworldspace_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\FXLightWorldSpace_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\grvecemeteryworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\GRVECemeteryWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\japhetsfollyworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\JaphetsFollyWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\katariahworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\KatariahWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\kr2deadlands_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\KR2Deadlands_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws03houseworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws03HouseWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws03mazeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws03MazeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws03utilityworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws03UtilityWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws07dungeon01world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws07Dungeon01World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws07dungeon02world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws07Dungeon02World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws07dungeon04world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws07Dungeon04World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws07dungeon05world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws07Dungeon05World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws07utilityworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws07UtilityWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ksws07world_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ksws07World_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\labyrinthianmazeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\LabyrinthianMazeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\labyrinthianworld03_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\LabyrinthianWorld03_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\labyrinthianworld04_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\LabyrinthianWorld04_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\labyrinthianworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\LabyrinthianWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\mannygfdesert_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\mannyGFDesert_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\mannygfl_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\mannyGFL_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\mannygfo_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\mannyGFO_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\markarthworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\MarkarthWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\mossmothercavernworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\MossMotherCavernWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ocrcampsitehotsprings_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OCRCampsiteHotSprings_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\ocrcampsitewhiterun_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OCRCampsiteWhiterun_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenicecapitol_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenIceCapitol_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\oleniceworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenIceWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenpalecross_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenPaleCross_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenveldancientindexerws_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenveldAncientIndexerWS_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenveldscexpansionws_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenveldSCExpansionWS_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenveldunderworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenveldUnderWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenvelduw2_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenveldUW2_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\olenveldws_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\OlenveldWS_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\palepass_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\PalePass_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\redeagleredoubtworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\RedEagleRedoubtWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\riftenworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\RiftenWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\sancretorworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\SancreTorWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\sevapstartforest_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\SEVAPstartforest_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\shadowgreencavernworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\ShadowgreenCavernWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\skuldafnworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\SkuldafnWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\southfringeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\SouthfringeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\sovngarde_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\Sovngarde_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\stormlightningholdingworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\StormLightningHoldingWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\tamriel_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\Tamriel_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\testmeganworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\TestMeganWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\testsnow_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\TestSnow_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\tokmountainpassworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\TOKMountainPassWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\windpassworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\WindPassWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\wyrmstoothworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\WyrmstoothWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zaomvigilantworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zAoMVigilantWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zaomwitchworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zAoMWitchWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zbmlamaeworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zBMLamaeWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zchcolosseumworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCHColosseumWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zchmolagworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCHMolagWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zcholdforestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCHOldForestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zchtrueendworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCHTrueEndWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zchwasteland_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCHWasteland_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zchwhalegraceyardworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCHWhaleGraceyardWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zcobruiantworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCOBruiantWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zcocursedworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zCOCursedWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zdcdblindrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zDcdBlindRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zdcddwemereth_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zDcdDwemereth_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zdcdghostsea_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zDcdGhostSea_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghcradlewoodsworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHCradleWoodsWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghdunmercampworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHDunmerCampWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghfelixrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHFelixRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghhinnomrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHHinnomRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghholywhistleworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHHolyWhistleWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghhunterrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHHunterRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghmilkysearealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHMilkySeaRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghtabooedland_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHTabooedLand_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghtemplewardworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHTempleWardWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghvaerminarealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHVaerminaRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zghwitchforestworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zGHWitchForestWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zlamairshipextrealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zLaMAirshipExtRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zlrhlalanoarealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zLrhLalanoaRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zrevdreamsleevesworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zRevDreamsleevesWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zrevnamirarealm_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zRevNamiraRealm_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zzzcrbapoworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zzzCrbApoWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zzzcrbatmoraskyworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zzzCrbAtmoraSkyWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zzzcrbnorthernsanctuary_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zzzCrbNorthernSanctuary_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zzzcrbsnowworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zzzCrbSnowWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zzzcrbullissworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zzzCrbUllissWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache.stale-loadorder-20260822\\zzzcrbwyrmworld_cache.wc": [
+"<overwrite>",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache.stale-loadorder-20260822\\zzzCrbWyrmWorld_cache.wc"
+],
+"skse\\plugins\\communityshaders.dll": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders.dll"
+],
+"skse\\plugins\\communityshaders.pdb": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders.pdb"
+],
+"skse\\plugins\\communityshaders\\overrides\\readme.md": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Overrides\\README.md"
+],
+"skse\\plugins\\communityshaders\\postprocessing\\default ll psky.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\PostProcessing\\default ll psky.json"
+],
+"skse\\plugins\\communityshaders\\postprocessing\\default.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\PostProcessing\\default.json"
+],
+"skse\\plugins\\communityshaders\\themes\\default.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Themes\\Default.json"
+],
+"skse\\plugins\\communityshaders\\themes\\dragonblood.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Themes\\DragonBlood.json"
+],
+"skse\\plugins\\communityshaders\\themes\\dwemerbronze.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Themes\\DwemerBronze.json"
+],
+"skse\\plugins\\communityshaders\\themes\\highcontrast.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Themes\\HighContrast.json"
+],
+"skse\\plugins\\communityshaders\\themes\\light.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Themes\\Light.json"
+],
+"skse\\plugins\\communityshaders\\themes\\nordicfrost.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Themes\\NordicFrost.json"
+],
+"skse\\plugins\\communityshaders\\translations\\de.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\de.json"
+],
+"skse\\plugins\\communityshaders\\translations\\en.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\en.json"
+],
+"skse\\plugins\\communityshaders\\translations\\es.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\es.json"
+],
+"skse\\plugins\\communityshaders\\translations\\fr.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\fr.json"
+],
+"skse\\plugins\\communityshaders\\translations\\ja.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\ja.json"
+],
+"skse\\plugins\\communityshaders\\translations\\nl.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\nl.json"
+],
+"skse\\plugins\\communityshaders\\translations\\pl.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\pl.json"
+],
+"skse\\plugins\\communityshaders\\translations\\ru.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\ru.json"
+],
+"skse\\plugins\\communityshaders\\translations\\zh_cn.json": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\Translations\\zh_CN.json"
+],
+"skse\\plugins\\communityshaders\\unifiedwatercache\\tamriel_precache.wpc": [
+"[NoDelete] Bottled Shaders",
+"SKSE\\Plugins\\CommunityShaders\\UnifiedWaterCache\\Tamriel_precache.wpc"
+],
+"skse\\plugins\\communityshaders_imgui.ini": [
+"Authoria - MCM and INI Settings",
+"SKSE\\Plugins\\CommunityShaders_ImGui.ini"
+],
+"enbseries.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries.ini"
+],
+"picta - weathers of aurbis.ini": [
+"Authoria - Picta x Astralite - E11",
+"Picta - Weathers of Aurbis.ini"
+],
+"enbseries\\enbadaptation.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbadaptation.fx.ini"
+],
+"enbseries\\enbbloom.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbbloom.fx.ini"
+],
+"enbseries\\enbdepthoffield.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbdepthoffield.fx.ini"
+],
+"enbseries\\enbeffect.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbeffect.fx.ini"
+],
+"enbseries\\enbeffectpostpass.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbeffectpostpass.fx.ini"
+],
+"enbseries\\enbeffectprepass.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbeffectprepass.fx.ini"
+],
+"enbseries\\enblens.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enblens.fx.ini"
+],
+"enbseries\\enbpresetoverlays.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbpresetoverlays.ini"
+],
+"enbseries\\enbsunsprite.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbsunsprite.fx.ini"
+],
+"enbseries\\enbunderwater.fx.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\enbunderwater.fx.ini"
+],
+"enbseries\\_locationweather.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\_locationweather.ini"
+],
+"enbseries\\_locationweather.readme.txt": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\_locationweather.readme.txt"
+],
+"enbseries\\_weatherlist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\_weatherlist.ini"
+],
+"enbseries\\authoria - interiors\\dungeon.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Interiors\\Dungeon.ini"
+],
+"enbseries\\authoria - interiors\\house.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Interiors\\House.ini"
+],
+"enbseries\\authoria - interiors\\inn.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Interiors\\Inn.ini"
+],
+"enbseries\\authoria - picta x astralite\\b01_lightly_cloudy_pictapure.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Picta x Astralite\\B01_Lightly_Cloudy_PictaPure.ini"
+],
+"enbseries\\authoria - summer\\a01_clear_summer.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Summer\\A01_Clear_Summer.ini"
+],
+"enbseries\\authoria - summer\\a02_clear_mist_summer.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Summer\\A02_Clear_Mist_Summer.ini"
+],
+"enbseries\\authoria - summer\\b01_lightly_cloudy_summer.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Authoria - Summer\\B01_Lightly_Cloudy_Summer.ini"
+],
+"enbseries\\picta - interiors\\01_house.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\01_House.ini"
+],
+"enbseries\\picta - interiors\\02_house_cold.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\02_House_Cold.ini"
+],
+"enbseries\\picta - interiors\\03_house_warm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\03_House_Warm.ini"
+],
+"enbseries\\picta - interiors\\03_inn.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\03_Inn.ini"
+],
+"enbseries\\picta - interiors\\04_inn.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\04_Inn.ini"
+],
+"enbseries\\picta - interiors\\04_inn_cold.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\04_Inn_Cold.ini"
+],
+"enbseries\\picta - interiors\\05_inn_cold.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\05_Inn_Cold.ini"
+],
+"enbseries\\picta - interiors\\06_inn_warm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\06_Inn_Warm.ini"
+],
+"enbseries\\picta - interiors\\07_dungeons.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\07_Dungeons.ini"
+],
+"enbseries\\picta - interiors\\08_dungeons_cold.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\08_Dungeons_Cold.ini"
+],
+"enbseries\\picta - interiors\\09_dungeons_warm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Interiors\\09_Dungeons_Warm.ini"
+],
+"enbseries\\picta - weatherlists\\01_skyrim.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weatherlists\\01_Skyrim.ini"
+],
+"enbseries\\picta - weathers\\base_weather.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather.ini"
+],
+"enbseries\\picta - weathers\\00_master\\a01_clear.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\A01_Clear.ini"
+],
+"enbseries\\picta - weathers\\00_master\\a02_clear_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\A02_Clear_Mist.ini"
+],
+"enbseries\\picta - weathers\\00_master\\b01_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\B01_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\00_master\\b02_lightly_cloudy_misty_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\B02_Lightly_Cloudy_Misty_Fog.ini"
+],
+"enbseries\\picta - weathers\\00_master\\c01_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\C01_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\00_master\\c02_cloudy_stormy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\C02_Cloudy_Stormy.ini"
+],
+"enbseries\\picta - weathers\\00_master\\c03_cloudy_light_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\C03_Cloudy_Light_Fog.ini"
+],
+"enbseries\\picta - weathers\\00_master\\c04_cloudy_rain_very_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\C04_Cloudy_Rain_Very_Light.ini"
+],
+"enbseries\\picta - weathers\\00_master\\c05_cloudy_snow_very_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\C05_Cloudy_Snow_Very_Light.ini"
+],
+"enbseries\\picta - weathers\\00_master\\d01_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\D01_Overcast.ini"
+],
+"enbseries\\picta - weathers\\00_master\\d02_overcast_heavy_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\D02_Overcast_Heavy_Fog.ini"
+],
+"enbseries\\picta - weathers\\00_master\\d03_overcast_rain_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\D03_Overcast_Rain_Light.ini"
+],
+"enbseries\\picta - weathers\\00_master\\d04_overcast_rain_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\D04_Overcast_Rain_Medium.ini"
+],
+"enbseries\\picta - weathers\\00_master\\d05_overcast_snow_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\D05_Overcast_Snow_Light.ini"
+],
+"enbseries\\picta - weathers\\00_master\\d06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\D06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\00_master\\e01_storm_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\E01_Storm_Thunder.ini"
+],
+"enbseries\\picta - weathers\\00_master\\e02_storm_cold_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\E02_Storm_Cold_Thunder.ini"
+],
+"enbseries\\picta - weathers\\00_master\\e03_storm_rain_heavy_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\E03_Storm_Rain_Heavy_Thunder.ini"
+],
+"enbseries\\picta - weathers\\00_master\\e04_storm_rain_extreme_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\E04_Storm_Rain_Extreme_Thunder.ini"
+],
+"enbseries\\picta - weathers\\00_master\\e05_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\E05_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\00_master\\e06_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\00_Master\\E06_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\01_clear.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\01_Clear.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\03_lightly_cloudy_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\03_Lightly_Cloudy_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\05_cloudy_storm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\05_Cloudy_Storm.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\06_cloudy_rain_drizzle.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\06_Cloudy_Rain_Drizzle.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\07_cloudy_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\07_Cloudy_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\08_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\08_Overcast.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\09_overcast_rain_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\09_Overcast_Rain_Light.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\10_overcast_rain_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\10_Overcast_Rain_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\11_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\11_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\12_storm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\12_Storm.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\13_storm_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\13_Storm_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\14_storm_rain_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\14_Storm_Rain_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest\\15_storm_rain_extreme_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest\\15_Storm_Rain_Extreme_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\01_clear.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\01_Clear.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\02_clear_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\02_Clear_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\03_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\03_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\04_lightly_cloudy_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\04_Lightly_Cloudy_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\05_lightly_cloudy_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\05_Lightly_Cloudy_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\06_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\06_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\07_cloudy_storm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\07_Cloudy_Storm.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\08_cloudy_rain_drizzle.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\08_Cloudy_Rain_Drizzle.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\09_cloudy_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\09_Cloudy_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\10_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\10_Overcast.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\11_overcast_rain_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\11_Overcast_Rain_Light.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\13_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\13_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\15_storm_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\15_Storm_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\01_falkreath_pine_forest - kopie\\17_storm_rain_extreme_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\01_Falkreath_Pine_Forest - Kopie\\17_Storm_Rain_Extreme_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\01_clear_sunrise_mist_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\01_Clear_Sunrise_Mist_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\02_lightly_cloudy_sunrise_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\02_Lightly_Cloudy_Sunrise_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\04_cloudy_sunrise_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\04_Cloudy_Sunrise_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\06_overcast_sunrise_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\06_Overcast_Sunrise_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\07_overcast_rain_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\07_Overcast_Rain_Light.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\09_storm_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\09_Storm_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\02_rift_fall_forest\\10_storm_rain_medium_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\02_Rift_Fall_Forest\\10_Storm_Rain_Medium_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\01_clear_mist_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\01_Clear_Mist_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\02_lightly_cloudy_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\02_Lightly_Cloudy_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\04_cloudy_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\04_Cloudy_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\05_cloudy_rain_drizzle.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\05_Cloudy_Rain_Drizzle.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\06_overcast_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\06_Overcast_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\07_overcast_rain_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\07_Overcast_Rain_Light.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\09_storm_rain_light_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\09_Storm_Rain_Light_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\03_hjaalmarch_marsh\\10_storm_rain_medium_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\03_Hjaalmarch_Marsh\\10_Storm_Rain_Medium_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\01_clear_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\01_Clear_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\06_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\06_Overcast.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\07_overcast_rain_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\07_Overcast_Rain_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\09_storm_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\09_Storm_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\04_whiterun_tundra\\10_storm_rain_heavy_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\04_Whiterun_Tundra\\10_Storm_Rain_Heavy_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\01_clear_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\01_Clear_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\06_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\06_Overcast.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\07_overcast_rain_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\07_Overcast_Rain_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\09_storm_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\09_Storm_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\05_reach_mountains\\10_storm_rain_heavy_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\05_Reach_Mountains\\10_Storm_Rain_Heavy_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\01_clear_mist_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\01_Clear_Mist_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\02_lightly_cloudy_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\02_Lightly_Cloudy_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\04_cloudy_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\04_Cloudy_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\05_cloudy_rain_light.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\05_Cloudy_Rain_Light.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\06_overcast_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\06_Overcast_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\07_overcast_rain_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\07_Overcast_Rain_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\09_storm_rain_medium_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\09_Storm_Rain_Medium_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\06_eastmarch_volcanic_tundra\\10_storm_rain_heavy_thunder.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\06_Eastmarch_Volcanic_Tundra\\10_Storm_Rain_Heavy_Thunder.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\01_clear_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\01_Clear_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\05_cloudy_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\05_Cloudy_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\07_overcast_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\07_Overcast_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\09_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\09_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\07_snow_tundra\\10_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\07_Snow_Tundra\\10_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\01_clear_dawn_sunrise_mist_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\01_Clear_Dawn_Sunrise_Mist_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\02_lightly_cloudy_dawn_sunrise_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\02_Lightly_Cloudy_Dawn_Sunrise_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\04_cloudy_dawn_sunrise_mist.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\04_Cloudy_Dawn_Sunrise_Mist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\05_cloudy_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\05_Cloudy_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\07_overcast_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\07_Overcast_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\09_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\09_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\08_north_coast\\10_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\08_North_Coast\\10_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\01_clear_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\01_Clear_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\05_cloudy_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\05_Cloudy_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\07_overcast_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\07_Overcast_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\09_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\09_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\09_snow_mountains\\10_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\09_Snow_Mountains\\10_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\01_clear_aurora.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\01_Clear_Aurora.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\05_cloudy_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\05_Cloudy_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\07_overcast_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\07_Overcast_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\09_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\09_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\10_forgotten_vale\\10_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\10_Forgotten_Vale\\10_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\01_clear_aurora_blue.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\01_Clear_Aurora_Blue.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\05_cloudy_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\05_Cloudy_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\07_overcast_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\07_Overcast_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\09_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\09_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\12_solstheim_snow_tundra\\10_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\12_Solstheim_Snow_Tundra\\10_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\01_clear_aurora_blue.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\01_Clear_Aurora_Blue.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\02_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\02_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\04_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\04_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\05_cloudy_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\05_Cloudy_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\06_overcast_snow_medium.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\06_Overcast_Snow_Medium.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\07_overcast_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\07_Overcast_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\08_overcast_fog.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\08_Overcast_Fog.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\09_storm_snow_heavy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\09_Storm_Snow_Heavy.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\13_solstheim_mountain_coast\\10_storm_snow_extreme.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\13_Solstheim_Mountain_Coast\\10_Storm_Snow_Extreme.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\01_mq_intro_cart_scene.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\01_MQ_Intro_Cart_Scene.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\02_mq_intro_helgen_scene.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\02_MQ_Intro_Helgen_Scene.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\03_mq_intro_dragon_attack.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\03_MQ_Intro_Dragon_Attack.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\04_mq_dragon_altar.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\04_MQ_Dragon_Altar.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\05_mq_karthspire_redoubt.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\05_MQ_Karthspire_Redoubt.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\06_mq_throat_of_the_world.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\06_MQ_Throat_of_the_World.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\07_mq_blackreach.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\07_MQ_Blackreach.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\08_mq_dragon_war_time_travel_scene.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\08_MQ_Dragon_War_Time_Travel_Scene.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\09_mq_alduin_fight.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\09_MQ_Alduin_Fight.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\10_mq_skuldafn.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\10_MQ_Skuldafn.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\11_mq_sovngarde_prelude.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\11_MQ_Sovngarde_Prelude.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\12_mq_sovngarde_victory.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\12_MQ_Sovngarde_Victory.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\u01_skyrim_main_quest\\13_mq_epilogue.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\01_Skyrim\\U01_Skyrim_Main_Quest\\13_MQ_Epilogue.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\01_sunny.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\01_Sunny.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\02_sunny.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\02_Sunny.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\03_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\03_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\04_lightly_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\04_Lightly_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\05_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\05_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\06_cloudy.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\06_Cloudy.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\07_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\07_Overcast.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\08_overcast.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\08_Overcast.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\09_storm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\09_Storm.ini"
+],
+"enbseries\\picta - weathers\\base_weather_templates\\10_storm.ini": [
+"Authoria - Picta x Astralite - E11",
+"enbseries\\Picta - Weathers\\Base_Weather_Templates\\10_Storm.ini"
+],
+"enbseries\\enbraindrops.png": [
+"Authoria - Picta - Bottled raindrop",
+"enbseries\\enbraindrops.png"
+],
+"enbseries\\enbdepthoffield.fx": [
+"Authoria - Picta - July Depth of Field (AMON ADOF)",
+"enbseries\\enbdepthoffield.fx"
+],
+"enbseries\\textures\\bokehmaskatlas.png": [
+"Authoria - Picta - July Depth of Field (AMON ADOF)",
+"enbseries\\Textures\\BokehMaskAtlas.png"
+],
+"enbseries\\notes-weatherlist.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\NOTES-weatherlist.txt"
+],
+"enbseries\\_weatherlist.ini.shipped-original": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\_weatherlist.ini.shipped-original"
+],
+"enbseries\\_worldspaceweatherlist.ini": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\_worldspaceweatherlist.ini"
+],
+"enbseries\\picta - weathers\\01_skyrim\\ash_clear.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Ash_Clear.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\direct_light_color.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Direct_Light_Color.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_clear.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Clear.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_clear_mist.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Clear_Mist.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_cloudy.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Cloudy.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_cloudy_light_fog.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Cloudy_Light_Fog.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_cloudy_rain.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Cloudy_Rain.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_cloudy_snow.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Cloudy_Snow.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_cloudy_storm.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Cloudy_Storm.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_lightly_cloudy.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Lightly_Cloudy.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_lightly_cloudy_misty_fog.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Lightly_Cloudy_Misty_Fog.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_overcast.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Overcast.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_overcast_heavy_fog.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Overcast_Heavy_Fog.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_overcast_rain.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Overcast_Rain.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_overcast_snow.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Overcast_Snow.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_storm.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Storm.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_storm_rain_thunder.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Storm_Rain_Thunder.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_storm_rain_thunder_extreme.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Storm_Rain_Thunder_Extreme.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_storm_snow.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Storm_Snow.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\polar_storm_thunder.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Polar_Storm_Thunder.txt"
+],
+"enbseries\\picta - weathers\\01_skyrim\\weather_type_color.txt": [
+"[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+"enbseries\\Picta - Weathers\\01_Skyrim\\Weather_Type_Color.txt"
+],
+"enbseries\\enbadaptation.fx": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\enbadaptation.fx"
+],
+"enbseries\\enbbloom.fx": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\enbbloom.fx"
+],
+"enbseries\\enbeffect.fx": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\enbeffect.fx"
+],
+"enbseries\\enbeffectpostpass.fx": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\enbeffectpostpass.fx"
+],
+"enbseries\\enbfxcompiler.ini": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\enbfxcompiler.ini"
+],
+"enbseries\\kiloadersatelliteenb.dllplugin": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiLoaderSatelliteENB.dllplugin"
+],
+"enbseries\\kisu\\blendmodes.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\BlendModes.fxh"
+],
+"enbseries\\kisu\\colorspaces.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\ColorSpaces.fxh"
+],
+"enbseries\\kisu\\common.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Common.fxh"
+],
+"enbseries\\kisu\\common.fxt": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Common.fxt"
+],
+"enbseries\\kisu\\debug.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Debug.fxh"
+],
+"enbseries\\kisu\\depth.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Depth.fxh"
+],
+"enbseries\\kisu\\depth.fxt": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Depth.fxt"
+],
+"enbseries\\kisu\\dither.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Dither.fxh"
+],
+"enbseries\\kisu\\lut.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\LUT.fxh"
+],
+"enbseries\\kisu\\sampling.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Sampling.fxh"
+],
+"enbseries\\kisu\\tonemap.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Tonemap.fxh"
+],
+"enbseries\\kisu\\tonemap.fxt": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Tonemap.fxt"
+],
+"enbseries\\kisu\\transforms.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Transforms.fxh"
+],
+"enbseries\\kisu\\antialiasing\\creaa.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Antialiasing\\CREAA.fxh"
+],
+"enbseries\\kisu\\antialiasing\\fxaa3_11.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Antialiasing\\FXAA3_11.fxh"
+],
+"enbseries\\kisu\\antialiasing\\kifxaa.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Antialiasing\\KiFXAA.fxh"
+],
+"enbseries\\kisu\\antialiasing\\kismaa.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Antialiasing\\KiSMAA.fxh"
+],
+"enbseries\\kisu\\antialiasing\\license.txt": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Antialiasing\\License.txt"
+],
+"enbseries\\kisu\\antialiasing\\smaa.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Antialiasing\\SMAA.fxh"
+],
+"enbseries\\kisu\\enbui\\includearchive.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\ENBUI\\IncludeArchive.fxh"
+],
+"enbseries\\kisu\\enbui\\includer.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\ENBUI\\Includer.fxh"
+],
+"enbseries\\kisu\\enbui\\join.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\ENBUI\\Join.fxh"
+],
+"enbseries\\kisu\\enbui\\primer.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\ENBUI\\Primer.fxh"
+],
+"enbseries\\kisu\\platform\\enb11.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Platform\\ENB11.fxh"
+],
+"enbseries\\kisu\\platform\\enbext11.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Platform\\ENBExt11.fxh"
+],
+"enbseries\\kisu\\textures\\agxtonemaplut.png": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Textures\\AgXTonemapLUT.png"
+],
+"enbseries\\kisu\\textures\\bluenoiseatlas.png": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Textures\\BlueNoiseAtlas.png"
+],
+"enbseries\\kisu\\textures\\fontatlas.png": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Textures\\FontAtlas.png"
+],
+"enbseries\\kisu\\textures\\license.txt": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\KiSU\\Textures\\License.txt"
+],
+"enbseries\\ui\\enbadaptationui.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\UI\\ENBAdaptationUI.fxh"
+],
+"enbseries\\ui\\enbbloomui.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\UI\\ENBBloomUI.fxh"
+],
+"enbseries\\ui\\enbeffectui.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\UI\\ENBEffectUI.fxh"
+],
+"enbseries\\ui\\enbpostpassui.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\UI\\ENBPostpassUI.fxh"
+],
+"enbseries\\ui\\enbsharedui.fxh": [
+"[NoDelete] Silent Horizons 2 - Data",
+"enbseries\\UI\\ENBSharedUI.fxh"
+],
+"root\\enbseries.ini": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbseries.ini"
+],
+"root\\enbcache\\extexternal.sc": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbcache\\extexternal.sc"
+],
+"root\\enbseries\\enbadaptation.fx.ini": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbseries\\enbadaptation.fx.ini"
+],
+"root\\enbseries\\enbbloom.fx.ini": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbseries\\enbbloom.fx.ini"
+],
+"root\\enbseries\\enbeffect.fx.ini": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbseries\\enbeffect.fx.ini"
+],
+"root\\enbseries\\enbeffectpostpass.fx.ini": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbseries\\enbeffectpostpass.fx.ini"
+],
+"root\\enbseries\\enbfxcompiler.ini": [
+"Authoria - Picta x Astralite - Root twin",
+"Root\\enbseries\\enbfxcompiler.ini"
+],
+"root\\enbseries\\enbadaptation.fx": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\enbadaptation.fx"
+],
+"root\\enbseries\\enbbloom.fx": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\enbbloom.fx"
+],
+"root\\enbseries\\enbeffect.fx": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\enbeffect.fx"
+],
+"root\\enbseries\\enbeffectpostpass.fx": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\enbeffectpostpass.fx"
+],
+"root\\enbseries\\kiloadersatelliteenb.dllplugin": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiLoaderSatelliteENB.dllplugin"
+],
+"root\\enbseries\\kisu\\blendmodes.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\BlendModes.fxh"
+],
+"root\\enbseries\\kisu\\colorspaces.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\ColorSpaces.fxh"
+],
+"root\\enbseries\\kisu\\common.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Common.fxh"
+],
+"root\\enbseries\\kisu\\common.fxt": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Common.fxt"
+],
+"root\\enbseries\\kisu\\debug.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Debug.fxh"
+],
+"root\\enbseries\\kisu\\depth.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Depth.fxh"
+],
+"root\\enbseries\\kisu\\depth.fxt": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Depth.fxt"
+],
+"root\\enbseries\\kisu\\dither.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Dither.fxh"
+],
+"root\\enbseries\\kisu\\lut.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\LUT.fxh"
+],
+"root\\enbseries\\kisu\\sampling.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Sampling.fxh"
+],
+"root\\enbseries\\kisu\\tonemap.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Tonemap.fxh"
+],
+"root\\enbseries\\kisu\\tonemap.fxt": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Tonemap.fxt"
+],
+"root\\enbseries\\kisu\\transforms.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Transforms.fxh"
+],
+"root\\enbseries\\kisu\\antialiasing\\creaa.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Antialiasing\\CREAA.fxh"
+],
+"root\\enbseries\\kisu\\antialiasing\\fxaa3_11.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Antialiasing\\FXAA3_11.fxh"
+],
+"root\\enbseries\\kisu\\antialiasing\\kifxaa.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Antialiasing\\KiFXAA.fxh"
+],
+"root\\enbseries\\kisu\\antialiasing\\kismaa.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Antialiasing\\KiSMAA.fxh"
+],
+"root\\enbseries\\kisu\\antialiasing\\license.txt": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Antialiasing\\License.txt"
+],
+"root\\enbseries\\kisu\\antialiasing\\smaa.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Antialiasing\\SMAA.fxh"
+],
+"root\\enbseries\\kisu\\enbui\\includearchive.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\ENBUI\\IncludeArchive.fxh"
+],
+"root\\enbseries\\kisu\\enbui\\includer.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\ENBUI\\Includer.fxh"
+],
+"root\\enbseries\\kisu\\enbui\\join.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\ENBUI\\Join.fxh"
+],
+"root\\enbseries\\kisu\\enbui\\primer.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\ENBUI\\Primer.fxh"
+],
+"root\\enbseries\\kisu\\platform\\enb11.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Platform\\ENB11.fxh"
+],
+"root\\enbseries\\kisu\\platform\\enbext11.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Platform\\ENBExt11.fxh"
+],
+"root\\enbseries\\kisu\\textures\\agxtonemaplut.png": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Textures\\AgXTonemapLUT.png"
+],
+"root\\enbseries\\kisu\\textures\\bluenoiseatlas.png": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Textures\\BlueNoiseAtlas.png"
+],
+"root\\enbseries\\kisu\\textures\\fontatlas.png": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Textures\\FontAtlas.png"
+],
+"root\\enbseries\\kisu\\textures\\license.txt": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\KiSU\\Textures\\License.txt"
+],
+"root\\enbseries\\ui\\enbadaptationui.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\UI\\ENBAdaptationUI.fxh"
+],
+"root\\enbseries\\ui\\enbbloomui.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\UI\\ENBBloomUI.fxh"
+],
+"root\\enbseries\\ui\\enbeffectui.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\UI\\ENBEffectUI.fxh"
+],
+"root\\enbseries\\ui\\enbpostpassui.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\UI\\ENBPostpassUI.fxh"
+],
+"root\\enbseries\\ui\\enbsharedui.fxh": [
+"Silent Horizons 2 - Shader Core",
+"ROOT\\enbseries\\UI\\ENBSharedUI.fxh"
+]
+}

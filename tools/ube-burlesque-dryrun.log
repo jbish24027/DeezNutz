@@ -1,0 +1,34 @@
+(log: C:\1. AUTHORIA\tools\CBBE to UBE\logs\Authoria-DaysTool-20260903-121639.log)
+scanning C:\1. AUTHORIA ...
+  ...loaded 500/4035 t=0.2s
+  ...loaded 1000/4035 t=0.3s
+  ...loaded 1500/4035 t=0.5s
+  ...loaded 2000/4035 t=0.6s
+  ...loaded 2500/4035 t=0.7s
+  ...loaded 3000/4035 t=0.7s
+  ...loaded 3500/4035 t=0.8s
+  ...loaded 4000/4035 t=0.9s
+loaded 4031 mods in 0.9s (0 unresolved, 0 failed, 4 own-output skipped)
+WARNING: 2 plugin(s) in loadorder.txt are UNCHECKED in plugins.txt -- excluded from the scan:
+  (inactive) Ashe - SMP_Hair.esp
+  (inactive) Authoria - Master Patch - Sacrilege.esp
+single-mod mode: Burlesque.esp
+WARNING: 21 armature(s) skipped -- BOD2 unreadable (form version < 43); resave in CK/xEdit: [yy]SYNNfeathersuit.esp
+classification: {'winning_armos': 17716, 'winning_armas': 15717, 'categories': {'needs_coverage': 7065, 'tnam_inherited': 4148, 'skip_not_nord': 291, 'skip_nonplayable': 3922, 'skip_character_asset': 151, 'already_ube': 2018, 'skip_no_armature': 100, 'skip_unreadable_bod2': 21}, 'distinct_source_armas_to_cover': 5918, 'coverage_lines_by_tier': {'feet': 470, 'body': 1037, 'keep': 2562, 'hands': 423, 'worn': 1426}, 'unresolved_plugins': 0, 'failed_plugins': 0, 'unreadable_bod2_armas': ['000829:[yy]SYNNfeathersuit.esp', '00082B:[yy]SYNNfeathersuit.esp', '00082D:[yy]SYNNfeathersuit.esp', '000830:[yy]SYNNfeathersuit.esp', '000833:[yy]SYNNfeathersuit.esp', '000835:[yy]SYNNfeathersuit.esp', '000837:[yy]SYNNfeathersuit.esp', '000839:[yy]SYNNfeathersuit.esp', '000846:[yy]SYNNfeathersuit.esp', '000847:[yy]SYNNfeathersuit.esp', '000853:[yy]SYNNfeathersuit.esp', '000854:[yy]SYNNfeathersuit.esp', '000855:[yy]SYNNfeathersuit.esp', '000856:[yy]SYNNfeathersuit.esp', '000857:[yy]SYNNfeathersuit.esp', '000858:[yy]SYNNfeathersuit.esp', '000859:[yy]SYNNfeathersuit.esp', '00085A:[yy]SYNNfeathersuit.esp', '00085C:[yy]SYNNfeathersuit.esp', '00085D:[yy]SYNNfeathersuit.esp', '000864:[yy]SYNNfeathersuit.esp'], 'unreadable_bod2_plugins': ['[yy]SYNNfeathersuit.esp']}
+membership sweep: 4455 templated/enchanted ARMOs added (4552 unit-target pairs)
+UBE template: Breton 005734:UBE_AllRace.esp + 15 additional races
+minting tiers ('keep', 'body', 'hands', 'feet', 'worn') -> C:\1. AUTHORIA\mods\Authoria - UBE Converter Output - Burlesque  (dry run)
+races-only list: 15 entries loaded from C:\1. AUTHORIA\tools\CBBE to UBE\races_only.json
+reuse: 1769 hand-made `_UBE` ARMAs available in the active order
+scanned 2 active SkyPatcher armor INIs -> 0 source AAs already given a UBE ArmorAddon (skip to avoid double-adds)
+single-mod scope: 19 units from Burlesque.esp
+slot-hygiene BurlesqueCorsetRedAA: +[53]
+slot-hygiene BurlesqueCorsetAA: +[53]
+
+=== summary ===
+tiers: ['body', 'feet', 'hands', 'keep', 'worn']  |  units in scope: 19
+minted: 19  |  hand-made ARMAs reused: 0  |  dedup-shared: 0
+skipped (already patched by an active SkyPatcher INI): 0  (from 2 INIs)
+races-only fallbacks: 0
+  Burlesque UBE patch.esp: 19 records, ESL-flagged
+done in 16.4s

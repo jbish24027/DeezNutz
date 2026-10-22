@@ -1,0 +1,312 @@
+[
+ {
+  "path": "clothes\\barkeeper\\m\\torso_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/barkeeper/m/torso_1.nif",
+  "eds": [
+   "BarKeeperVariantAA",
+   "BarKeeperTorso01AA"
+  ],
+  "what": "SKIRT BarkeepBody hem 38"
+ },
+ {
+  "path": "clothes\\beggarclothes\\torsom_0.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/beggarclothes/torsom_0.nif",
+  "eds": [
+   "BeggarTorso01AA"
+  ],
+  "what": "SKIRT BeggarModel hem 36"
+ },
+ {
+  "path": "clothes\\blacksmith\\m\\torso_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/blacksmith/m/torso_1.nif",
+  "eds": [
+   "BlackSmithVariantAA",
+   "BlackSmithTorso01AA"
+  ],
+  "what": "SKIRT TorsoRig hem 42"
+ },
+ {
+  "path": "clothes\\chef\\m\\chef_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/chef/m/chef_1.nif",
+  "eds": [
+   "ChefTorso01AA"
+  ],
+  "what": "SKIRT BarkeepBody hem 38"
+ },
+ {
+  "path": "clothes\\childrenclothes\\m\\torso01_1.nif",
+  "mod": "Skyrim - Meshes0.bsa",
+  "src": "C:/1. AUTHORIA/_tools/coat-smp/bsa_src/meshes/clothes/childrenclothes/m/torso01_1.nif",
+  "eds": [
+   "ChildrenTorsoV01AA",
+   "ChildTorso01AA"
+  ],
+  "what": "SKIRT clothes01 hem 33"
+ },
+ {
+  "path": "clothes\\childrenclothes\\m\\torso02_1.nif",
+  "mod": "Skyrim - Meshes0.bsa",
+  "src": "C:/1. AUTHORIA/_tools/coat-smp/bsa_src/meshes/clothes/childrenclothes/m/torso02_1.nif",
+  "eds": [
+   "ChildTorso02AA"
+  ],
+  "what": "SKIRT clothes02 hem 33"
+ },
+ {
+  "path": "clothes\\childrenclothes\\m\\torso03_1.nif",
+  "mod": "Skyrim - Meshes0.bsa",
+  "src": "C:/1. AUTHORIA/_tools/coat-smp/bsa_src/meshes/clothes/childrenclothes/m/torso03_1.nif",
+  "eds": [
+   "ChildTorso03AA",
+   "DLC2ChildSkaalOutfit"
+  ],
+  "what": "SKIRT clothes04 hem 33"
+ },
+ {
+  "path": "clothes\\emperor\\emperoroutfitm_1.nif",
+  "mod": "Authoria - PG Output - PBR",
+  "src": "C:/1. AUTHORIA/mods/Authoria - PG Output - PBR/meshes/clothes/emperor/emperoroutfitm_1.nif",
+  "eds": [
+   "EmperorClothesAA"
+  ],
+  "what": "SKIRT Torso hem 35"
+ },
+ {
+  "path": "clothes\\executioner\\body_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/executioner/body_1.nif",
+  "eds": [
+   "ExecutionerRobesAA",
+   "DLC01ReaperrRobesAA"
+  ],
+  "what": "SKIRT torsor hem 19"
+ },
+ {
+  "path": "clothes\\farmclothes03\\farmer03mextras_1.nif",
+  "mod": "Common Clothing Retexture SE",
+  "src": "C:/1. AUTHORIA/mods/Common Clothing Retexture SE/meshes/clothes/farmclothes03/farmer03mextras_1.nif",
+  "eds": [
+   "FarmerExtras03AA"
+  ],
+  "what": "SKIRT Pants hem 35"
+ },
+ {
+  "path": "clothes\\fineclothes01\\weddingoutfitm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/fineclothes01/weddingoutfitm_1.nif",
+  "eds": [
+   "WeddingDressTorso01AA"
+  ],
+  "what": "SKIRT Clothes hem 37"
+ },
+ {
+  "path": "clothes\\graybeardrobe\\greybeardrobe_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/graybeardrobe/greybeardrobe_1.nif",
+  "eds": [
+   "GreybeardRobe01AA"
+  ],
+  "what": "SKIRT RobeDoubled3rdPerson hem 3"
+ },
+ {
+  "path": "clothes\\jester\\jesterm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/jester/jesterm_1.nif",
+  "eds": [
+   "JesterTorso01AA"
+  ],
+  "what": "SKIRT JesterBody hem 35"
+ },
+ {
+  "path": "clothes\\minerclothes\\minerclothesm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/minerclothes/minerclothesm_1.nif",
+  "eds": [
+   "MinerClothesVariantAA",
+   "MinerClothes"
+  ],
+  "what": "SKIRT MinerClothes hem 45"
+ },
+ {
+  "path": "clothes\\monk\\monkrobes_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/monk/monkrobes_1.nif",
+  "eds": [
+   "MonkRobesColorGreenAA",
+   "MonkRobesColorRedAA",
+   "MonkRobesColorGreyAA",
+   "MonkRobesColorBrownAA",
+   "MonkRobesAA",
+   "DLC1PrelateRobesAA"
+  ],
+  "what": "SKIRT robes hem 6"
+ },
+ {
+  "path": "clothes\\monk\\vaerminarobes_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/monk/vaerminarobes_1.nif",
+  "eds": [
+   "VaerminaRobesAA"
+  ],
+  "what": "SKIRT robes hem 6"
+ },
+ {
+  "path": "clothes\\nocturnal\\outfitf_1.nif",
+  "mod": "CBBE 3BA Vanilla Outfits Redone - Prebuilt",
+  "src": "C:/1. AUTHORIA/mods/CBBE 3BA Vanilla Outfits Redone - Prebuilt/meshes/clothes/nocturnal/outfitf_1.nif",
+  "eds": [
+   "NocturnalTorsoAA"
+  ],
+  "what": "SKIRT NocturnalClothes hem 13"
+ },
+ {
+  "path": "clothes\\prisoner\\prisonerclothes_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/prisoner/prisonerclothes_1.nif",
+  "eds": [
+   "PrisonerClothesAA"
+  ],
+  "what": "SKIRT clothes hem 42"
+ },
+ {
+  "path": "clothes\\prisoner\\prisonerrags_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/prisoner/prisonerrags_1.nif",
+  "eds": [
+   "PrisonerRagsAA"
+  ],
+  "what": "SKIRT rags hem 45"
+ },
+ {
+  "path": "clothes\\psiijic\\psiijicrobesm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/psiijic/psiijicrobesm_1.nif",
+  "eds": [
+   "PsiijicRobesAA"
+  ],
+  "what": "SKIRT PsiijicRobes hem 13"
+ },
+ {
+  "path": "clothes\\redguard\\redguardoutfit_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/redguard/redguardoutfit_1.nif",
+  "eds": [
+   "RedguardClothesDBOutfitAA",
+   "RedguardClothesOutfitAA"
+  ],
+  "what": "SKIRT Redguard Fat Outfit hem 20"
+ },
+ {
+  "path": "clothes\\robedarkbrotherhood\\dbtorso_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/robedarkbrotherhood/dbtorso_1.nif",
+  "eds": [
+   "DBRobesAA"
+  ],
+  "what": "SKIRT DBbody3rdPerson hem 6"
+ },
+ {
+  "path": "clothes\\robemythicdawn\\mdrobe_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/robemythicdawn/mdrobe_1.nif",
+  "eds": [
+   "MythicDawnRobesAA",
+   "MDRobesAA"
+  ],
+  "what": "SKIRT Mythic_Dawn_Outfit_body hem 3"
+ },
+ {
+  "path": "clothes\\sheogorath\\sheogorathoutfit.nif",
+  "mod": "Skyrim - Meshes0.bsa",
+  "src": "C:/1. AUTHORIA/_tools/coat-smp/bsa_src/meshes/clothes/sheogorath/sheogorathoutfit.nif",
+  "eds": [
+   "SheogorathOutfitAA"
+  ],
+  "what": "SKIRT Outfit hem 37"
+ },
+ {
+  "path": "clothes\\thalmor\\thalmorrobesm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/thalmor/thalmorrobesm_1.nif",
+  "eds": [
+   "ThalmorRobesAA"
+  ],
+  "what": "SKIRT ThalmorRobes hem 4"
+ },
+ {
+  "path": "clothes\\wench\\wenchoutfitm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/wench/wenchoutfitm_1.nif",
+  "eds": [
+   "WenchOutfitAA"
+  ],
+  "what": "SKIRT merchanttorso_1 hem 40"
+ },
+ {
+  "path": "clothes\\yarlclothes02\\outfitm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/yarlclothes02/outfitm_1.nif",
+  "eds": [
+   "YarlTorso02AA"
+  ],
+  "what": "SKIRT Clothes hem 29"
+ },
+ {
+  "path": "clothes\\yarlclothes02\\ulfric_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/yarlclothes02/ulfric_1.nif",
+  "eds": [
+   "UlfricTorso0AA"
+  ],
+  "what": "SKIRT ClothesREVISED hem 29"
+ },
+ {
+  "path": "clothes\\yarlclothes03\\outfitm_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/yarlclothes03/outfitm_1.nif",
+  "eds": [
+   "YarlTorso03AA"
+  ],
+  "what": "SKIRT YarlClothes03_Cloth hem 32"
+ },
+ {
+  "path": "clothes\\yarlclothes03\\outfitm_var1_1.nif",
+  "mod": "Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors",
+  "src": "C:/1. AUTHORIA/mods/Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors/meshes/clothes/yarlclothes03/outfitm_var1_1.nif",
+  "eds": [
+   "YarlTorso03_var1AA"
+  ],
+  "what": "SKIRT YarlClothes03_Cloth hem 32"
+ },
+ {
+  "path": "clothes\\yarlclothes\\m\\torso_1.nif",
+  "mod": "Authoria - PG Output - PBR",
+  "src": "C:/1. AUTHORIA/mods/Authoria - PG Output - PBR/meshes/clothes/yarlclothes/m/torso_1.nif",
+  "eds": [
+   "YarlTorso01AA"
+  ],
+  "what": "SKIRT Torso hem 35"
+ },
+ {
+  "path": "clothes\\yarlclothes\\m\\torso_var1_1.nif",
+  "mod": "Authoria - PG Output - PBR",
+  "src": "C:/1. AUTHORIA/mods/Authoria - PG Output - PBR/meshes/clothes/yarlclothes/m/torso_var1_1.nif",
+  "eds": [
+   "YarlTorso01_var1AA"
+  ],
+  "what": "SKIRT Torso hem 35"
+ },
+ {
+  "path": "clothes\\yarlclothes\\m\\torso_var2_1.nif",
+  "mod": "Authoria - PG Output - PBR",
+  "src": "C:/1. AUTHORIA/mods/Authoria - PG Output - PBR/meshes/clothes/yarlclothes/m/torso_var2_1.nif",
+  "eds": [
+   "YarlTorso01_var2AA"
+  ],
+  "what": "SKIRT Torso hem 35"
+ }
+]

@@ -1,0 +1,10 @@
+== Temple m: templetorso_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 172/ 0/150   sprint L 127/ 4/167   walk R 107/ 0/ 37   walk L 115/ 4/ 32
+   curled in (limit)      sprint R 149/ 0/179   sprint L  72/ 6/130   walk R  97/ 0/127   walk L 175/ 5/ 58
+   swung back .3/.15      sprint R  51/ 5/113   sprint L  49/ 2/112   walk R 100/ 7/ 78   walk L  92/ 1/ 68
+   swung forward .3/.15   sprint R 185/ 0/104   sprint L 195/ 1/149   walk R 107/ 0/ 27   walk L  95/ 3/ 37
+   swung sideways .3/.15  sprint R 154/ 0/142   sprint L 107/ 5/ 56   walk R 116/ 0/ 59   walk L  42/ 0/ 19
+   total caught/hooked/sunk 2307/43/1844; lining pts Front 410, Back 517, Side 644
+
+EXIT 0

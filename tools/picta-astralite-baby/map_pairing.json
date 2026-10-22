@@ -1,0 +1,213 @@
+{
+ "lens": "pairing",
+ "summary": "The pairing table is built: every Picta outdoor weather now has a weighted list of Astralite partners. It comes from each lane's winning REGN/WTHR records: the Picta lane's houseCARL winners, and the PBR lane's winners rebuilt from PBR's plugins.txt order. The lanes differ by exactly 11 PBR-only and 8 PICTA-only plugins, and the 11 PBR-only plugins were read off-order.\n\nPicta outdoor rotation. Picta esm defines 23 masters, not 22: A01-03, B01-03, C01-05, D01-06, E01-06 (19FA01..19FE06, runtime 35xxxxxx). The 5 injected summer weathers are 5AFA01-03 and 5AFB01-02 (runtime 355AFA01..., record winner Picta Seasonal.esp). The Seasonal ESL wires all of them into 51 exterior REGN with SWF globals. Lists are identical in every Tamriel family. A01/A03/B01 and A02/B02 sit on per-season copies (the summer copies point at SUMMER_*). C01/C02 sit on Season_Common_Pleasant, and B03/C03/D01/D02 on Common_Overcast. C04/D03/D04 rain sits on Spring/Summer/Autumn copies only, E01/E03/E04 on Common_Rain_Storm, and snow (C05/D05/D06, E02/E05/E06) on Autumn+Winter only. The SN_ lane is used for snow tundra/mountains, coast, Winterhold, Windhelm, Solstheim snow, Labyrinthian, Bruma and the LotD worldspaces.\n\nUnique weathers rolled in winning lists:\n- Blackreach REGN rolls PIC_WTHR_MQ_Throat_Of_The_World.\n- Soul Cairn REGN and climate point at a dangling 1B0045/1B0043.\n- Karthspire, Skuldafn, DA02, Sovngarde and Apocrypha roll vanilla IDs.\n- Bruma, Frostfire Glade and Wyrmstooth mix Picta masters with vanilla-FormID weathers. Their Picta-lane records are won by NAT-ENB.esp, Mists of Tamriel or Picta over NAT, and they have no Picta E11 ini.\n- Three vanilla IDs are repurposed by Picta esp as cinematic weathers (SkyrimStormSnow, SkyrimFog, SkyrimCloudy). Bruma, Frostfire and realm climates still roll them as if they were ordinary weathers.\n\nAstralite rotation (PBR). Snowy Holds wins 34 exterior REGN, SWF-Astralite 8, Astralite ENB 9 (Solstheim ash, Forgotten Vale, Karthspire: static, no globals), BS Bruma UWC/BSHeartland 6 and the Wyrmstooth patch 1. Astralite rolls region-suffixed vanilla weathers: Clear/Cloudy (+_A) with TU/FF/MA/RE/VT/SN/CO/FV suffixes, Fog*, OvercastRain*, StormRain*, OvercastSnow and StormSnow, plus Soul additions (Seasons_*, Blizzard, Jawz, DLC02 ash).\n\nPairing method. Odds come from SWF DefaultValues, where a filled Global replaces the static Chance. For each region and month, a Picta weather's odds go to the Astralite weathers in the same region, month, SWF lane and bucket. A class filter is applied first, then slot-only, class-only and fallback matching. 75 in-scope regions, each weighted once.\n\nResults:\n- **Clear group:** A01/A03/B01 and their summer twins pair with Clear{XX} (SoulClear.ini 96-99%). A02 pairs with Clear{XX}_A. B02 splits Clear_A/Cloudy_A at 69/31.\n- **Cloudy:** C01/C02 pair with Cloudy{XX} (SoulCloudy 97-98%).\n- **Fog and overcast:** B03/C03/D01 pair with Fog{XX}, falling back to Cloudy{XX} where Snowy has no Overcast entry: SoulFog 39%, SoulCloudy 38%, SoulFogOvercast 22%. D02 pairs with Fog{XX} (SoulFog 53%).\n- **Rain:** C04/D03/D04 pair with OvercastRain{XX} (SoulOvercast ~100%). E01/E03/E04 pair with StormRain{XX}, falling back to OvercastRain in MA/VT (SoulRainStorm 69-87%).\n- **Snow:** C05/D05/D06 pair with SkyrimOvercastSnow (85-92%). E02/E05/E06 pair with SkyrimStormSnow (88-94%).\n\nFamily-level winners are in by_family; for example A01 pairs with ClearTU in the Whiterun tundra, ClearSN in snow regions, ClearFF in the Rift and DLC1_ClearFV in Forgotten Vale.\n\nInteriors. In the Picta lane Helios_Astralite(.esp/_Seasonal/_Radiant) are unticked, so all 85 twins use the default Helios.esp grade. Picta Seasonal wins 35 interior REGN as a re-timed copy of the Helios_Astralite_Seasonal wiring (9 identical, 26 re-timed). The entry lookup Helios_+<Picta EDID> always misses, so the outdoor-to-indoor match does not exist. The exit script's PictaEquivalent() is an existing reverse pairing (Astralite name to Picta master) and agrees with this table.",
+ "facts": [
+  {
+   "claim": "The selected profile is DEEZ CS NUTZ - PICTA (AGENTS.md naming DEEEZ NUTTZZZ is stale).",
+   "evidence": "C:/1. AUTHORIA/ModOrganizer.ini selected_profile=@ByteArray(DEEZ CS NUTZ - PICTA); housecarl_load_order_status header",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The two lanes differ by exactly 11 PBR-only active plugins (Astralite Weathers, Astralite ENB, SWF-Astralite, Wyrmstooth-Astralite, Astralite ENB - ECSS, Helios_Astralite, Helios_Astralite_Seasonal, Remove Interior Fog - Lux, Gray Cowl - Astralite, Snowy Holds, Dawn Warmth) and 8 PICTA-only plugins (Picta esm, Nordic Winds patch, Picta esp, Picta over NAT, Darkened patch, Wanderers Fair Picta Climate, No Reseat, Picta Seasonal).",
+   "evidence": "scratch lanediff.json from both profiles' plugins.txt (active = '*' prefix)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta esm defines 23 MASTER weathers, not 22: A01-A03, B01-B03, C01-C05, D01-D06, E01-E06 (19FA01..19FE06). Runtime is 35xxxxxx in the PICTA lane, and the record winner is the Darkened 1.1.1 patch for all 23.",
+   "evidence": "housecarl_records types=WTHR plugins Picta - Weathers of Aurbis.esm defined_in (124 WTHR)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The five summer weathers are 5AFA01 SUMMER_A01_Clear, 5AFA02 SUMMER_A02_Clear_Aurora, 5AFA03 SUMMER_A03_Clear_Mist, 5AFB01 SUMMER_B01_Lightly_Cloudy and 5AFB02 SUMMER_B02_Lightly_Cloudy_Aurora, all in the Picta esm FormID space. The record winner is Authoria - Patch - Picta Seasonal.esp. They roll only on Season_Summer_* / SN_Season_Summer_* entries.",
+   "evidence": "wthr_picta_winners.jsonl (winner field), regn_picta_winners.jsonl Global links",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta Seasonal.esp wins 86 REGN: 51 exterior and 35 Helios interior. Every Tamriel Picta region carries the same master set. A01/A03/B01/A02/B02 sit on per-season copies (Spring master, Summer -> SUMMER_*, Autumn and Winter master). C01/C02 sit on Common_Pleasant, B03/C03/D01/D02 on Common_Overcast, rain on Spring/Summer/Autumn copies, E01/E03/E04 on Common_Rain_Storm, and snow/snow-storm on Autumn+Winter copies only.",
+   "evidence": "regn_picta_winners.jsonl; region_view.txt (e.g. 0C5858 Tundra 53 entries)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta master classes:\n- A01-A03, B01-B03, C01-C03, D01 and D02 have Flags Pleasant+SkyStaticsAlwaysVisible and no precipitation.\n- C04, D03, D04, E03 and E04 are Rainy (PIC_SPGD_Rain_*).\n- C05, D05, D06, E05 and E06 are Snow (PIC_SPGD_Snow_*).\n- E01 and E02 are Cloudy with no precipitation (dry thunderstorms).\n- WindSpeed on the 0-255 scale: A 1, B 5, C01 50, C02 100, C03 10, D01 60, D02 15, rain/snow light 50-60, medium 110, E 120-240.",
+   "evidence": "wthr_attrs.json (pic lane) / attrs_pic.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta cloud cover is encoded by panorama folder, not by layer count. Each master has 6-7 layers: Picta\\Sky\\<Clear|Clear_Mist|Lightly_Cloudy|Lightly_Cloudy_Misty_Fog|Cloudy|Cloudy_Storm|Cloudy_Light_Fog|Cloudy_Precip|Overcast|Overcast_Heavy_Fog|Overcast_Precip|Storm|Storm_Precip|Storm_Precip_Extreme>\\Cloud_Panorama_01.dds. Astralite weathers use 12-29 classic layers.",
+   "evidence": "wthr_attrs.json cloud_textures",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta's 10 Solstheim ash weathers (1A0301-1A0310: Overcast_Ash, Storm_Ash, Storm_Eruption etc.) are unreferenced by any REGN, CLMT, QUST, SCEN, FLST, PACK, INFO, LCTN, WRLD or CELL. Picta's Solstheim ash regions roll the general masters.",
+   "evidence": "housecarl_records references=[1A0301..1A0310] -> 0 rows; region_view 018681/01EF70/0374BC",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Picta esp repurposes three vanilla FormIDs as cinematic weathers:\n- 0C8221 SkyrimStormSnow becomes VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar.\n- 0C821E SkyrimFog becomes MQ_Intro_Cart_Scene.\n- 012F89 SkyrimCloudy becomes MQ_Intro_Helgen_Scene.\nAll three are routed to Picta MQ E11 inis, but they are still rolled as ordinary weathers by Frostfire Glade (100% Dragon Altar), Bruma Blackwood, DLC01VampCastleStorm, LotD WWWSkyrimClimate and many realm climates.",
+   "evidence": "wthr_picta_winners.jsonl (winner Picta - Weathers of Skyrim.esp); Picta-lane _weatherlist.ini WEATHER301/302/304; clmt_picta_winners.jsonl",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite ENB.esp repurposes vanilla IDs too: 00015E DefaultWeather becomes Seasons_OvercastSnow, 10E3D4 EditorCloudPreview becomes Seasons_Fog, and 02E7AB TESTCloudyRain becomes Seasons_CloudyRain. It also defines 15 new WTHR (SkyrimStormSnowBlizzard 000826, JawzSkyrimStormRain 000838, SkyrimStormRainRE 000823, Seasons_CloudySnow/02, DLC02VolcanicAsh03-05, ...).",
+   "evidence": "wthr_src_AstraliteENB.jsonl / ids_AstraliteENB.jsonl; aggregate defined_in Astralite ENB.esp = 15",
+   "confidence": "proven"
+  },
+  {
+   "claim": "PBR lane region winners:\n- Snowy Holds wins 34 exterior REGN (SN_/Season_ globals).\n- SWF-Astralite wins 8 (the No_Precip regions, the Dragonsreach worldspace and the Solitude lighthouse).\n- Astralite ENB wins 9 static regions: Solstheim ash x3, Forgotten Vale Grove/Ice/Canyon, Karthspire and the Soul Cairn regions.\n- Helios_Astralite_Seasonal wins 35 interior REGN.\n- Helios_Astralite wins 17 more.",
+   "evidence": "regn_lanes.json pbr_winner counts (script regn_lanes.py)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Seasonal Weathers Framework writes the monthly bucket value into Season_Common_X and the current season's Season_<S>_X, and zeroes the other seasons. Dec/Jan/Feb are Winter, Mar-May Spring, Jun-Aug Summer and Sep-Nov Autumn. Defaults: July plain Pleasant 75, Rain 25, Rain_Storm 20, Snow 0; January Snow 80, Snow_Storm 50, Rain 5 plain / 0 SN.",
+   "evidence": "mods/Seasonal Weathers Framework - 1.01/source/scripts/SeasonsFrameworkMain.psc DefaultValues() and Season(); swf_defaults.json",
+   "confidence": "proven"
+  },
+  {
+   "claim": "A filled REGN Global replaces the entry's static Chance. This means Snowy Holds' differentiated chances on a shared global (e.g. SkyrimClearTU 40 / SkyrimCloudyTU 20 on Season_Common_Pleasant) roll at equal odds.",
+   "evidence": "Engine RDWT semantics plus the SWF MCM labelling the globals 'Chance'; consistent with memory note seasonal-weather-chain. Not read from engine source.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Picta E11 ini groups:\n- A01_Clear.ini serves 19FA01+19FA02.\n- B01_Lightly_Cloudy.ini serves 19FB01+19FB02 plus four vanilla tundra IDs (10A240, 10E1EE, 10A243, 10E1ED).\n- A02_Clear_Mist.ini serves A03, and B02_Lightly_Cloudy_Misty_Fog.ini serves B03.\n- Summer: A01_Clear_Summer.ini serves 5AFA01+02, A02_Clear_Mist_Summer serves 5AFA03, B01_Lightly_Cloudy_Summer serves 5AFB01+02.\n- Interior templates are fake IDs AA001/AA004/AA007.",
+   "evidence": "mods/Authoria - Picta 1.1.2 - Darkened to 1.0.1/enbseries/_weatherlist.ini",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Soul Core E11 weatherlist is class-level (23 sections): one ini covers every regional variant. SoulClear.ini covers all Clear{XX}, SoulClear_A, SoulCloudy (also Seasons_CloudySnow and Seasons_CloudyRain), SoulCloudy_A (also SkuldafnCloudy), SoulOvercast (= OvercastRain family), SoulRainStorm, SoulOvercastSnow, SoulSnowStorm (also Seasons_OvercastSnow and Blizzard), SoulFog, SoulFogOvercast (FogRE, OvercastWar, FogCO), SoulAsh/Ash2/AshStorm, OtherWorld, Ominous, Wyrmstooth x3 and JawZ.",
+   "evidence": "mods/[NoDelete] Soul Core ENB - Data/enbseries/_weatherlist.ini (copy at scratch soul_weatherlist.ini)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite regional variants of the same class differ a lot in WTHR record colours: median max deviation from the class mean is 63/255 for clear, 39 for cloudy, 83 for fog and 67 for rain. Picta A01/A02 records have identical colour slots, as do B01/B02. SUMMER_A01 differs from A01 only in Day sunlight, sun and fog-far colours.",
+   "evidence": "scripts/colour_spread.py -> astralite_class_colour_spread.json",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Weighted primary partners across all in-scope regions:\n- A01 Clear: SkyrimClearSN .44 / SkyrimClear .18 / ClearTU .09 / ClearFF .07 / DLC1_ClearFV .06.\n- A02 Clear Aurora: ClearSN_A .21 / ClearTU_A .15 / ClearFF_A .11.\n- C01 Cloudy: CloudySN .39 / SkyrimCloudy .24 / CloudyTU .08.\n- D02 Heavy Fog: SkyrimFog .22 / FogCO .21 / FogFF .18 / CloudySN .13 (fallback).\n- D03 Rain Light: OvercastRainFF .48 / OvercastRain .20.\n- D05 Snow Light: SkyrimOvercastSnow .92.\n- E05 Snow Heavy: SkyrimStormSnow .94.\n- E03 Rain Heavy: StormRainFF .44 / StormRain .36.\nSN-suffixed partners dominate because snow-lane regions are numerous (region-count weighting, no area weighting).",
+   "evidence": "pairing_table.json picta_rotation[].partners; pairing_stage.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Per-family primary partners are clean one-to-one by suffix. For example A01 pairs with ClearTU (Whiterun tundra), Clear (Falkreath pine forest), ClearFF (Rift), ClearMA (marsh), ClearRE (Reach), ClearVT (Eastmarch), ClearSN (snow families, Solstheim snow, Bruma), ClearCO (north coast) and DLC1_SkyrimClearFV (Forgotten Vale). The same suffix pattern holds for A02->Clear*_A, C01->Cloudy*, D02->Fog*, rain->OvercastRain*, E03->StormRain*.",
+   "evidence": "pairing_table.json family_partner_summary / by_family",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite has no plain-overcast weather. Its SWF Overcast slot is filled only by fog weathers (SkyrimFog*, RiftenOvercastFog, Seasons_Fog) with day fog far 10k-25k, versus Picta D01 at 150k. In the snow-lane regions and the Whiterun tundra, Snowy Holds puts no Overcast entry at all, so B03/C03/D01 fall back to Cloudy{XX} there.",
+   "evidence": "region_view.txt (0C5853, 04D7FD, 0C5858); attrs_pbr.txt fog distances",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite's mists live in Astralite ENB.esp (Soul Core) as the WTHR VisualEffect slot:\n- Distant_Mounts_Lite on most Clear/Cloudy.\n- Distant_Mounts_Heavy on SkyrimFog, FogFF, CloudySN and WyrmstoothStormFog.\n- Distant_Mounts_Rain on OvercastRain*, OvercastSnow, ClearSN and ClearCO.\n- Distant_Rain on StormRain*.\n- k747 camera-attached fog (plain, wispy, turbulent) on RiftenOvercastFog, Seasons_Fog, Karthspire, FogMA, FogVT and OvercastRainVT.\n- Vivid snow effects on StormSnow, Seasons_* and FogCO.\nAstralite Weathers.esp alone leaves the slot null. Picta uses the slot only on C02 and E01-E06 (FXCameraAttachNeedlesWindyEffect).",
+   "evidence": "pairing_table.json astralite_rotation[].visual_effect (raw links mapped through ids_AstraliteENB.jsonl); wthr_src_AstraliteWeathers.jsonl SkyrimOvercastRain/SkyrimStormSnow VisualEffect null",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In the PICTA lane, Helios_Astralite.esp (plugins.txt line 150), Helios_Astralite_Radiant and Helios_Astralite_Seasonal (line 1254) are unticked. All 85 Helios twin WTHR are won by Helios.esp, so the default grade is used, not Astralite's. Helios_Astralite.esp is ESL-flagged with 147 records and masters Astralite Weathers.esp.",
+   "evidence": "housecarl_load_order_status inactive list + filter Helios_Astralite.esp; aggregate WTHR defined_in Helios.esp -> winner Helios.esp = 85",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The 35 Helios interior REGN in the PICTA lane are won by Picta Seasonal. They use Helios twins of vanilla names with SWF globals: 9 are identical to Helios_Astralite_Seasonal and 26 are re-timed (snow on Autumn+Winter only, rain on Spring/Summer/Autumn only, some regional rain twins swapped for Helios_SkyrimOvercastRain). The other 19 Helios regions keep Helios.esp's static lists.",
+   "evidence": "scripts/add_interiors.py comparison over regn_lanes.json",
+   "confidence": "proven"
+  },
+  {
+   "claim": "No Helios twin exists for any Picta master or summer weather. The only Helios_PIC_* WTHR is A10001 Helios_PIC_WTHR_SKYFPF_01_Clear, a Picta 1.0-name stub. So Helios_Alias's entry lookup 'Helios_'+outgoing EDID always fails in the Picta lane and falls to ForceCurrentWeather().",
+   "evidence": "housecarl_records where editorid startswith Helios_PIC -> 1 row; mods/Authoria - Helios - Picta exit weather/Source/Scripts/Helios_Alias.psc ChangeWeather()",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The exit script's PictaEquivalent() maps Helios twin names back to Picta masters: Snow+Storm->E05, Snow->D05, Storm->E03, Rain->D03, Fog->D02, Cloudy_A->B02, Cloudy->C01, Clear_A->A02, Clear->A01, Overcast->D01, and War or non-Skyrim names -> none. Months 5-7 swap to the SUMMER variants. This agrees with the forward pairing.",
+   "evidence": "Helios_Alias.psc PictaEquivalent/SummerVariant",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Climate fallback pairs consistently. PICTA SkyrimClimate 000812 = PIC_CLMT_Skyrim -> C01_Cloudy 100 and DefaultClimate -> A01 100. Astralite ENB has SkyrimClimate -> SkyrimCloudy 100 and DefaultClimate -> SkyrimClear 100. The PICTA Soul Cairn climate points at 1B0043:Picta esm, and the Soul Cairn REGN at 1B0045; neither exists in Picta 1.1.1.",
+   "evidence": "clmt_picta_winners.jsonl; housecarl_records CLMT source=Astralite ENB.esp; regn_picta_winners 019218/019219",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In the Picta lane, Bruma, Wyrmstooth and Frostfire regions roll 18 vanilla-FormID weathers whose records are won by NAT-ENB.esp (SunnyPF/SunnyFF/StormPF..., NAT editorIDs), Mists of Tamriel (SkyrimCloudy*) or Authoria - Picta over NAT. These have no Picta E11 ini, so they get the base enbseries.ini. In the PBR lane the same FormIDs are Astralite/Dawn Warmth records, so their partner is identity (same FormID).",
+   "evidence": "pairing_table.json picta_identity_paired_vanilla_ids; attrs_pic.txt winners",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite weathers with no Picta partner: the 15 DLC02 ash weathers (the Astralite ENB static Solstheim ash lists, which never share a region-month slot with a Picta class match), JawzSkyrimStormRain and SkyrimStormRainRE (Wyrmstooth and Karthspire only), and the Cloudy*_A variants (Picta has no cloudy-aurora weather; B02 takes only the SN/CO ones by slot).",
+   "evidence": "final_table.py output 'astralite w/o picta partner'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Authoria - Patch - Astralite Dawn Warmth.esp is the PBR-lane record winner for 144 of the outdoor Astralite weathers referenced by PBR regions (146 WTHR total, including Helios twins). Its content is described as byte-identical to the authored values; this pass did not verify that.",
+   "evidence": "wthr_pbr_resolve.json winner counts; task statement",
+   "confidence": "likely"
+  }
+ ],
+ "implications_for_blend": [
+  "Pair at two layers. (1) The E11 ini layer: Soul Core is class-level, so each Picta ini gets exactly one Soul ini partner:\n- A01_Clear.ini (A01+A02) <- SoulClear.ini, with SoulClear_A only if night/aurora rows matter.\n- A02_Clear_Mist.ini (A03) <- SoulClear.ini.\n- B01_Lightly_Cloudy.ini (B01+B02) <- SoulClear.ini (alt SoulCloudy).\n- B02_Lightly_Cloudy_Misty_Fog.ini (B03) and C03 <- SoulFog.ini.\n- C01/C02 <- SoulCloudy.ini.\n- D01 <- SoulFogOvercast.ini or SoulOvercast.ini (see D01 note); D02 <- SoulFog.ini.\n- C04/D03/D04 <- SoulOvercast.ini; E01/E03/E04 <- SoulRainStorm.ini.\n- C05/D05/D06 <- SoulOvercastSnow.ini; E02/E05/E06 <- SoulSnowStorm.ini.\n- Summer inis <- the same partners as their masters.\n(2) The WTHR record layer: one Picta record serves every region, while Astralite has one record per region family with very different colours. Either blend Picta colours toward a weighted average of the family partners (weights in pairing_table.json by_family / partners), or pick one canonical generic per class (SkyrimClear, SkyrimClear_A, SkyrimCloudy, SkyrimFog, SkyrimOvercastRain, SkyrimStormRain, SkyrimOvercastSnow, SkyrimStormSnow). These match the climate fallback and the Helios exit map.",
+  "Only consider per-family Picta clones (new WTHR plus REGN edits) if the user wants Astralite's regional colour variety. That is far larger work, every clone needs its own E11 _weatherlist line, and the Helios exit script maps only to masters.",
+  "Use the SWF slot partner for D01 Overcast only for colours, never for fog distance. Astralite's Overcast slot is fog-only (day fog far 15k against Picta's 150k). The sky-likeness alternative is OvercastRain{XX} minus rain (SoulOvercast.ini). B03/C03/D02 are the natural fog-transplant targets.",
+  "Treat A03 and the summer A03 (Clear Mist) as Picta-only mist. Their Astralite clear partners carry no mist, so a mist donor has to come from Fog* or the Soul RFCTs.",
+  "Astralite 'mists' are WTHR VisualEffect RFCTs plus ArtObjects from Astralite ENB.esp: Distant_Mounts_Lite/Heavy/Rain, k747 camera fog and Vivid snow. Transplanting them means copying those RFCT/ARTO records and their meshes into a baby plugin and setting each Picta weather's single VisualEffect slot. This collides on C02 and E01-E06, which already use FXCameraAttachNeedlesWindyEffect.",
+  "Leave pure Picta:\n- the 13 PIC_WTHR_MQ_* weathers (Throat also rolls in Blackreach);\n- the three repurposed vanilla IDs (SkyrimStormSnow, SkyrimFog, SkyrimCloudy as MQ scenes);\n- Soul Cairn (dangling 1B0045/1B0043);\n- Apocrypha, Sovngarde, Skuldafn, DA02, Karthspire and Fallowstone.\nSolstheim ash regions (3) have no class-compatible Astralite partner (Astralite rolls the DLC02 ash set unseasonally). Leave them Picta, or deliberately borrow SoulAsh/Ash2/AshStorm, and keep them out of the global partner weights.",
+  "Bruma, Wyrmstooth and Frostfire roll vanilla-FormID weathers in the Picta lane, currently NAT-ENB / Mists of Tamriel / Picta-over-NAT records with no Picta E11 file. Their Astralite partner is the same FormID, so the baby can simply let Astralite's record win them. Bruma, Wyrmstooth and Frostfire are explicitly in scope.",
+  "Interiors: to get Astralite-graded Helios twins in the baby, tick Helios_Astralite.esp. It needs Astralite Weathers.esp active as a master. The alternative is to forward its 84 twin colour sets into a baby plugin without that master. Keep Picta Seasonal's 35 interior REGN, which are already twin-based and seasonally re-timed. Twin to Astralite pairing is identity by name. Do NOT tick Helios_Astralite_Seasonal: it would override Picta Seasonal's re-timed interior lists (no winter rain, no summer snow).",
+  "Do not activate Astralite Weathers.esp or Astralite ENB.esp as donors in the baby profile without checking load order. They override vanilla weathers globally: DefaultWeather 00015E would become snowy Seasons_OvercastSnow, and the Picta-repurposed FormIDs fight Picta esp. Prefer reading them off-order and copying values, as this pass did."
+ ],
+ "traps": [
+  "Every editorID that houseCARL resolves while PICTA is active is a Picta-lane name. Vanilla FormIDs show as NAT names (SunnyTU, RainFF, StormPF) or Picta cinematic names (VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar = SkyrimStormSnow). Always key pairing by FormID and take Astralite names from the PBR winner record.",
+  "Picta esp and Astralite ENB both repurpose vanilla weather FormIDs: Picta takes 0C8221, 0C821E and 012F89; Astralite takes 00015E, 10E3D4 and 02E7AB. Any baby load order containing both, or E11 weatherlists from both, can route one FormID to the wrong look.",
+  "The task said 22 Picta masters; the esm defines 23 (C has five, D has six).",
+  "Region-count weighting inflates the SN suffix (many small snow-lane regions) and the unique worldspaces (12 region-months each). For colour blending, prefer the per-family table or the canonical generic over the global weights.",
+  "Snowy Holds' static chances are cosmetic wherever a Global is set. The real odds within a bucket are equal across its entries, unless the user changed the SWF MCM values, which are stored in the save and cannot be read from files.",
+  "E11 FormIDs are 24-bit masked. Picta summer IDs (5AFAxx) and Astralite ENB light-ish IDs (0008xx) are listed masked. Injected records in the Picta esm space are index-free but depend on the Picta esm keeping its slot.",
+  "Soul Core lists Seasons_CloudySnow under SoulCloudy.ini and Seasons_OvercastSnow under SoulSnowStorm.ini, so their E11 class differs from their record class.",
+  "Picta lane Soul Cairn REGN/CLMT point at non-existent Picta weathers (1B0045/1B0043). Do not try to pair or blend them.",
+  "In the Picta lane, Helios_Astralite.esp sits at plugins.txt line 150 (moved near Helios.esp, unticked), not at its PBR slot 3249. Ticking it in place would load it before Astralite Weathers.esp is even present.",
+  "The Bash heredoc broke on one script (quote/backslash handling). Scripts were written with the Write tool and run with python."
+ ],
+ "files_written": [
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/pairing_table.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/pairing_stage.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/region_view.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_lanes.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/wthr_attrs.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/astralite_class_colour_spread.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/swf_defaults.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/soul_weatherlist.ini",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/lanediff.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/attrs_pic.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/attrs_pbr.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_picta_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_picta_tree.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_src_SnowyHolds.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_src_AstraliteENB.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_src_AstraliteWeathers.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_src_SWFAstralite.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_src_HeliosAstralite.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/regn_src_HeliosAstraliteSeasonal.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/wthr_picta_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/wthr_src_AstraliteENB.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/wthr_src_AstraliteWeathers.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/wthr_src_DawnWarmth.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/wthr_src_HeliosAstralite.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/ids_AstraliteENB.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/ids_AstraliteWeathers.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/clmt_picta_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/scripts/pairing.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/scripts/final_table.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/scripts/add_interiors.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/scripts/common.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/scripts/colour_spread.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/pairing/scripts/swf.py"
+ ],
+ "open_questions": [
+  "Does the user's save use SWF MCM values other than the defaults? Those values are stored in the save and would change every weight in the table.",
+  "D01 Overcast: blend toward the SWF-slot partner (Astralite Fog*, which is what Astralite shows at that moment) or toward the sky-likeness partner (OvercastRain* without rain / SoulOvercast.ini)? This is a design call for the colour lens.",
+  "B01/B02 (lightly cloudy): clear or cloudy partner? By slot and sky texture both are clear-ish; Astralite fills PleasantA with Clear_A and Cloudy_A at near-equal odds.",
+  "Should the record-colour blend use one canonical generic partner per class, a family-weighted average, or per-family Picta clones? Astralite's regional variants differ by roughly 40-80/255 per colour slot.",
+  "Solstheim ash regions (3): keep pure Picta, or give them Soul's ash colours (SoulAsh/Ash2/AshStorm) through dedicated clones?",
+  "Is Authoria - Patch - Astralite Dawn Warmth.esp really byte-identical to authored Astralite/Astralite ENB values for all 146 WTHR? The task says so; this pass read its values as the PBR winner but did not diff them.",
+  "Runtime behaviour on entering a Helios interior from a Picta weather (ForceCurrentWeather, then the interior region's roll) is inferred from script logic. The in-game debug toggle test from the Helios memory note has never been done."
+ ]
+}

@@ -1,0 +1,19 @@
+== Merchant m: outfitm_1.nif  side pen 1.5, front/back 3.0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 0:  outer caught/sunk   2/  0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 8:  outer caught/sunk  51/  1 [Back: z 60-60 ang 155..155 depth 3.0..3.0]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 0:  outer caught/sunk  10/  0
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 8:  outer caught/sunk  55/  5 [Side: z 49-51 ang -72..-70 depth 1.5..1.7]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 0:  outer caught/sunk  20/  0
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 8:  outer caught/sunk  73/ 11 [Side: z 50-51 ang -78..73 depth 1.5..1.9]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 0:  outer caught/sunk 149/  0
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 8:  outer caught/sunk  72/ 36 [Side: z 50-55 ang -93..91 depth 1.5..2.4]
+
+EXIT 0

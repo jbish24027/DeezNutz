@@ -1,0 +1,24 @@
+== m _1: outfit_1.nif
+  ok   Dark_Elf_Outfit_male_robe_1: 19290 triangles, kept 19290 in ['Dark_Elf_Outfit_male_robe_1', 'Robe', 'Robe 2'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 59
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\DarkElfM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   168 constraints, bodies declared
+  ok   96 rig nodes, all declared
+  m Robe: points with physics 72%, of those on 2 chains 63%
+  ok   m _1: no rest contacts
+== m _0: outfit_0.nif
+  ok   Dark_Elf_Outfit_male_robe_1: 19290 triangles, kept 19290 in ['Dark_Elf_Outfit_male_robe_1', 'Robe', 'Robe 2'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 59
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\DarkElfM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   168 constraints, bodies declared
+  ok   96 rig nodes, all declared
+  ok   m _0: no rest contacts
+ALL OK
+
+EXIT 0

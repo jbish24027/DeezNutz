@@ -1,0 +1,986 @@
+{
+ "00082B:Astralite ENB.esp": {
+  "formid": "00082B:Astralite ENB.esp",
+  "editorid": "LAM_FogVL_Purple",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.2275,
+   0.1961,
+   0.3569
+  ],
+  "color_rgb255": [
+   58,
+   50,
+   91
+  ],
+  "intensity": 10.0,
+  "custom_color_contribution": 1.0,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "00085B:Astralite Weathers.esp": {
+  "formid": "00085B:Astralite Weathers.esp",
+  "editorid": "LAM_StormVL_Night",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.502,
+   0.502,
+   0.502
+  ],
+  "color_rgb255": [
+   128,
+   128,
+   128
+  ],
+  "intensity": 1.25,
+  "custom_color_contribution": 0.5,
+  "density_contribution": 0.2,
+  "density_size": 30.0,
+  "density_wind_speed": 60.0,
+  "density_falling_speed": 60.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.75,
+  "sampling_range_factor": 40.0
+ },
+ "00086F:Astralite Weathers.esp": {
+  "formid": "00086F:Astralite Weathers.esp",
+  "editorid": "LAM_PeachVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.549,
+   0.4314
+  ],
+  "color_rgb255": [
+   255,
+   140,
+   110
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000814:Astralite Weathers.esp": {
+  "formid": "000814:Astralite Weathers.esp",
+  "editorid": "LAM_DayVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.498,
+   0.498,
+   0.498
+  ],
+  "color_rgb255": [
+   127,
+   127,
+   127
+  ],
+  "intensity": 11.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.85,
+  "density_size": 15.0,
+  "density_wind_speed": 5.0,
+  "density_falling_speed": 1.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.988,
+  "sampling_range_factor": 20.0
+ },
+ "000811:Astralite Weathers.esp": {
+  "formid": "000811:Astralite Weathers.esp",
+  "editorid": "LAM_NightVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.0353,
+   0.0549,
+   0.102
+  ],
+  "color_rgb255": [
+   9,
+   14,
+   26
+  ],
+  "intensity": 14.0,
+  "custom_color_contribution": 0.5,
+  "density_contribution": 0.0,
+  "density_size": 15.0,
+  "density_wind_speed": 5.0,
+  "density_falling_speed": 1.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.984,
+  "sampling_range_factor": 20.0
+ },
+ "00085A:Astralite Weathers.esp": {
+  "formid": "00085A:Astralite Weathers.esp",
+  "editorid": "LAM_StormVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.502,
+   0.502,
+   0.502
+  ],
+  "color_rgb255": [
+   128,
+   128,
+   128
+  ],
+  "intensity": 2.5,
+  "custom_color_contribution": 0.5,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 60.0,
+  "density_falling_speed": 60.0,
+  "phase_contribution": 0.75,
+  "phase_scattering": 0.75,
+  "sampling_range_factor": 40.0
+ },
+ "000824:Astralite ENB.esp": {
+  "formid": "000824:Astralite ENB.esp",
+  "editorid": "LAM_BlizzardVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.749,
+   0.749,
+   0.749
+  ],
+  "color_rgb255": [
+   191,
+   191,
+   191
+  ],
+  "intensity": 10.0,
+  "custom_color_contribution": 1.0,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000802:Astralite Weathers.esp": {
+  "formid": "000802:Astralite Weathers.esp",
+  "editorid": "LAM_NoVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.502,
+   0.502,
+   0.502
+  ],
+  "color_rgb255": [
+   128,
+   128,
+   128
+  ],
+  "intensity": 0.0,
+  "custom_color_contribution": 0.5,
+  "density_contribution": 0.1,
+  "density_size": 30.0,
+  "density_wind_speed": 40.0,
+  "density_falling_speed": -10.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.99,
+  "sampling_range_factor": 20.0
+ },
+ "00085C:Astralite Weathers.esp": {
+  "formid": "00085C:Astralite Weathers.esp",
+  "editorid": "LAM_RoseVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.2353,
+   0.2353
+  ],
+  "color_rgb255": [
+   255,
+   60,
+   60
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000821:Astralite ENB.esp": {
+  "formid": "000821:Astralite ENB.esp",
+  "editorid": "LAM_PureVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.498,
+   0.498,
+   0.498
+  ],
+  "color_rgb255": [
+   127,
+   127,
+   127
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "00085E:Astralite Weathers.esp": {
+  "formid": "00085E:Astralite Weathers.esp",
+  "editorid": "LAM_FogVLNight",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.0784,
+   0.1255,
+   0.1765
+  ],
+  "color_rgb255": [
+   20,
+   32,
+   45
+  ],
+  "intensity": 7.0,
+  "custom_color_contribution": 1.0,
+  "density_contribution": 0.0,
+  "density_size": 40.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 50.0
+ },
+ "00082D:Astralite ENB.esp": {
+  "formid": "00082D:Astralite ENB.esp",
+  "editorid": "LAM_GoldVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.6078,
+   0.0
+  ],
+  "color_rgb255": [
+   255,
+   155,
+   0
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000829:Astralite ENB.esp": {
+  "formid": "000829:Astralite ENB.esp",
+  "editorid": "LAM_BloodVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.1176,
+   0.1176
+  ],
+  "color_rgb255": [
+   255,
+   30,
+   30
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "00082C:Astralite ENB.esp": {
+  "formid": "00082C:Astralite ENB.esp",
+  "editorid": "LAM_StormTealVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.0,
+   0.3725,
+   0.3882
+  ],
+  "color_rgb255": [
+   0,
+   95,
+   99
+  ],
+  "intensity": 2.5,
+  "custom_color_contribution": 0.4,
+  "density_contribution": 0.8,
+  "density_size": 30.0,
+  "density_wind_speed": 60.0,
+  "density_falling_speed": 60.0,
+  "phase_contribution": 0.75,
+  "phase_scattering": 0.75,
+  "sampling_range_factor": 40.0
+ },
+ "000813:Astralite Weathers.esp": {
+  "formid": "000813:Astralite Weathers.esp",
+  "editorid": "LAM_OrangeVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.451,
+   0.0
+  ],
+  "color_rgb255": [
+   255,
+   115,
+   0
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000867:Astralite Weathers.esp": {
+  "formid": "000867:Astralite Weathers.esp",
+  "editorid": "LAM_GreenVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.2471,
+   0.2784,
+   0.1451
+  ],
+  "color_rgb255": [
+   63,
+   71,
+   37
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000810:Astralite Weathers.esp": {
+  "formid": "000810:Astralite Weathers.esp",
+  "editorid": "LAM_YellowVL",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.6941,
+   0.5608,
+   0.0
+  ],
+  "color_rgb255": [
+   177,
+   143,
+   0
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000D53:Update.esm": {
+  "formid": "000D53:Update.esm",
+  "editorid": "VLClearSunrise",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 4.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D51:Update.esm": {
+  "formid": "000D51:Update.esm",
+  "editorid": "VLClearDay",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 2.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D52:Update.esm": {
+  "formid": "000D52:Update.esm",
+  "editorid": "VLClearSunset",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 4.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D58:Update.esm": {
+  "formid": "000D58:Update.esm",
+  "editorid": "VLClearNight",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 3.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D63:Update.esm": {
+  "formid": "000D63:Update.esm",
+  "editorid": "VLStormRainSunrise",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 2.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.8,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D61:Update.esm": {
+  "formid": "000D61:Update.esm",
+  "editorid": "VLStormRainDay",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 1.5,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.8,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D64:Update.esm": {
+  "formid": "000D64:Update.esm",
+  "editorid": "VLStormRainSunset",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 2.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.8,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D66:Update.esm": {
+  "formid": "000D66:Update.esm",
+  "editorid": "VLStormSnowNight",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 2.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.75,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000868:Astralite Weathers.esp": {
+  "formid": "000868:Astralite Weathers.esp",
+  "editorid": "LAM_OurpleVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.1137,
+   0.098,
+   0.1412
+  ],
+  "color_rgb255": [
+   29,
+   25,
+   36
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "01FCBB:Moonpath Music - Sky and Lighting fix - merged.esp": {
+  "formid": "01FCBB:Moonpath Music - Sky and Lighting fix - merged.esp",
+  "winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "note": "winner not dumped"
+ },
+ "000861:Astralite Weathers.esp": {
+  "formid": "000861:Astralite Weathers.esp",
+  "editorid": "LAM_FogVL_Blue",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.1882,
+   0.2275,
+   0.3647
+  ],
+  "color_rgb255": [
+   48,
+   58,
+   93
+  ],
+  "intensity": 10.0,
+  "custom_color_contribution": 1.0,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "00085D:Astralite Weathers.esp": {
+  "formid": "00085D:Astralite Weathers.esp",
+  "editorid": "LAM_FogVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.2353,
+   0.2353,
+   0.2353
+  ],
+  "color_rgb255": [
+   60,
+   60,
+   60
+  ],
+  "intensity": 10.0,
+  "custom_color_contribution": 1.0,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000866:Astralite Weathers.esp": {
+  "formid": "000866:Astralite Weathers.esp",
+  "editorid": "LAM_PinkVL",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.3608,
+   0.8039
+  ],
+  "color_rgb255": [
+   255,
+   92,
+   205
+  ],
+  "intensity": 12.0,
+  "custom_color_contribution": 0.75,
+  "density_contribution": 0.9,
+  "density_size": 30.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.975,
+  "sampling_range_factor": 40.0
+ },
+ "000860:Astralite Weathers.esp": {
+  "formid": "000860:Astralite Weathers.esp",
+  "editorid": "LAM_FogVL_Ourple",
+  "winner": "Astralite Weathers.esp",
+  "stack": [
+   "Astralite Weathers.esp"
+  ],
+  "color_rgb01": [
+   0.1137,
+   0.098,
+   0.1412
+  ],
+  "color_rgb255": [
+   29,
+   25,
+   36
+  ],
+  "intensity": 10.0,
+  "custom_color_contribution": 1.0,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "00082A:Astralite ENB.esp": {
+  "formid": "00082A:Astralite ENB.esp",
+  "editorid": "LAM_FogVL_Gold",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   1.0,
+   0.6667,
+   0.0
+  ],
+  "color_rgb255": [
+   255,
+   170,
+   0
+  ],
+  "intensity": 9.0,
+  "custom_color_contribution": 0.5,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "00085F:Astralite Weathers.esp": {
+  "formid": "00085F:Astralite Weathers.esp",
+  "editorid": "LAM_FogVL_Green",
+  "winner": "Astralite ENB.esp",
+  "stack": [
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "color_rgb01": [
+   0.2353,
+   0.2902,
+   0.1451
+  ],
+  "color_rgb255": [
+   60,
+   74,
+   37
+  ],
+  "intensity": 10.0,
+  "custom_color_contribution": 0.8,
+  "density_contribution": 1.0,
+  "density_size": 1.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 3.0,
+  "phase_contribution": 1.0,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D55:Update.esm": {
+  "formid": "000D55:Update.esm",
+  "editorid": "VLCloudySunrise",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 4.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D56:Update.esm": {
+  "formid": "000D56:Update.esm",
+  "editorid": "VLCloudyDay",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 1.75,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D57:Update.esm": {
+  "formid": "000D57:Update.esm",
+  "editorid": "VLCloudySunset",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 4.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ },
+ "000D54:Update.esm": {
+  "formid": "000D54:Update.esm",
+  "editorid": "VLCloudyNight",
+  "winner": "Update.esm",
+  "stack": [
+   "Update.esm"
+  ],
+  "color_rgb01": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "color_rgb255": [
+   255,
+   255,
+   255
+  ],
+  "intensity": 3.0,
+  "custom_color_contribution": 0.0,
+  "density_contribution": 0.3,
+  "density_size": 10.0,
+  "density_wind_speed": 15.0,
+  "density_falling_speed": 0.3,
+  "phase_contribution": 0.85,
+  "phase_scattering": 0.85,
+  "sampling_range_factor": 40.0
+ }
+}

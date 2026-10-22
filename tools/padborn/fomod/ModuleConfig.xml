@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>Padborn</moduleName>
+	<requiredInstallFiles>
+		<folder source="Core" destination="" priority="0" />
+	</requiredInstallFiles>
+	<installSteps order="Explicit">
+		<installStep name="Options">
+			<optionalFileGroups order="Explicit">
+				<group name="Controller layout" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Hold B = Sprint (CCS LAYOUT 402)">
+							<description>Replaces Authoria's stock controlmaps with Complete Controller Setup's own LAYOUT 402 - identical to the list's layout except: Sprint = hold B, Sneak = L3 click, Auto-Move = B+L3.
+
+Dodge: tap B = dodge, hold B = sprint, and the six B-combos (Favorites, Wait, Quick menus) can never fire a dodge. This is the variant the fix was built and play-tested on.
+
+3.1.0: Toggle POV is taken off the gamepad in BOTH controlmap files (text and binary), so R3 is True Directional Movement's lock-on only and never the vanilla POV toggle. POV stays on keyboard F (and the DLL's first-person block swallows even that unless you allow it in Padborn.json).</description>
+							<image path="fomod\images\402.jpg" />
+							<files>
+								<folder source="Layout 402" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Keep Authoria's layout (LAYOUT 406)">
+							<description>Installs no controlmaps - Complete Controller Setup's stock files keep winning, so every button stays exactly where Authoria shipped it: Sprint = press L3, Sneak = A+L3, Auto-Move = L3+R3.
+
+Dodge stays on PRESS B, exactly as the list author configured it (iDodgeKey = 277). The only change is that the author's own setting now actually applies: the list's file starts with a UTF-8 BOM that silently breaks it, so saves were running the addon's factory default instead. A patched MCM script re-applies B on every load, so new AND existing saves work with zero setup. Authored quirk kept with it: pressing B while moving dodges - including inside B-combos.
+
+On a layout that is neither 406 nor 402 (you reinstalled CCS with your own answers), pick this one - it touches no controlmaps, so it fits any layout.</description>
+							<image path="fomod\images\406.jpg" />
+							<files>
+								<folder source="Layout 406" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Sprint rescue (experimental)" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Off (recommended)">
+							<description>Sprint rescue stays disabled. Pick this unless your sprint presses are being eaten. Everything else (Gamepad++ fixes, D-pad gestures, OStim controller layer, glyph bar, layout choice) works normally.</description>
+							<files>
+								<folder source="Config\rescue-off" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="On">
+							<description>Enables the hold-to-sprint rescue: re-sets the sprint flag when a sprint press held past 0.3 s gets eaten by another mod (seen with Classic Sprinting Redone + TK Dodge RE Addon together). Experimental - confirmed on one setup so far. You can flip it later in SKSE/Plugins/Padborn.json ("sprint": { "enabled": true }).</description>
+							<files>
+								<folder source="Config\rescue-on" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+</config>

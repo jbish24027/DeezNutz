@@ -1,0 +1,22 @@
+===== MonkRobes
+legs from the body (under z 76.0, no arms / upper body): malebody_1.nif 'HIMBO - Body HP' 6699 of 14597 pts; bones folded to ['NPC L Calf [LClf]', 'NPC L Foot [Lft ]', 'NPC L Thigh [LThg]', 'NPC Pelvis [Pelv]', 'NPC R Calf [RClf]', 'NPC R Foot [Rft ]', 'NPC R Thigh [RThg]', 'NPC Spine [Spn0]', 'NPC Spine1 [Spn1]']
+piece Robe <- robes ('islands', 0, {4120: 2187, 1838: 801, 1219: 58}, (), 76.0): 1714 pts / 3180 tris (skirt:outer)
+piece Sash <- robes ('comps', (1, 2, 3, 4, 5, 6)): 714 pts / 1216 tris (pendants)
+skirt axis (0.40, 3.33); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:74.0/64.3/54.6/44.9/35.2/25.5/15.7/6.0; 30:74.0/64.3/54.7/45.0/35.4/25.7/16.0/6.4; 60:74.0/64.4/54.8/45.2/35.6/26.0/16.4/6.9; 90:74.0/64.8/55.5/46.3/37.1/27.8/18.6/9.4; 120:74.0/64.6/55.1/45.7/36.3/26.8/17.4/7.9; 150:74.0/64.3/54.6/44.9/35.3/25.6/15.9/6.2; -180:74.0/64.3/54.6/44.9/35.3/25.6/15.9/6.2; -150:74.0/64.4/54.8/45.2/35.6/26.0/16.5/6.9; -120:74.0/64.6/55.1/45.7/36.3/26.8/17.4/7.9; -90:74.0/64.6/55.3/45.9/36.6/27.2/17.8/8.5; -60:74.0/64.3/54.6/44.9/35.2/25.5/15.8/6.1; -30:74.0/64.3/54.6/44.9/35.2/25.5/15.8/6.1
+pendants Sash: 2 hinges from 6 components (z tops 73 73)
+tip rows ; flap hinges 
+legs from LegsBody (12774 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.95 median 2.37; free share p10 0.11 median 0.66
+m: Robe is cut out of robes: 64 seam points (z 74.9..76.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 1714 pts (1151 move); tip 0 pts
+m: legs collider pulled in at 217 of 6699 pts (max 0.74); lining points Robe 934/934
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 983 pts
+m_1: wrote meshes/clothes/monk/monkvariantoutfit_1.nif; shapes (pts, tris) {'robes': (2423, 4358), 'Robe': (813, 1420), 'Sash': (714, 1216), 'HIMBO - Body': (200, 252), 'Robe 2': (983, 1760), 'AMR Legs Front': (3596, 6722), 'AMR Legs Back': (2281, 4099), 'AMR Legs Side': (3646, 6071), 'AMR Skirt Front': (207, 11), 'AMR Skirt Side': (411, 38), 'AMR Skirt Back': (316, 69), 'VirtualGround': (4, 2)}; bones per shape {'robes': 23, 'Robe': 61, 'Sash': 7, 'HIMBO - Body': 11, 'Robe 2': 57, 'AMR Legs Front': 9, 'AMR Legs Back': 9, 'AMR Legs Side': 9, 'AMR Skirt Front': 41, 'AMR Skirt Side': 70, 'AMR Skirt Back': 40, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/monk/monkvariantoutfit_0.nif; shapes (pts, tris) {'robes': (2423, 4358), 'Robe': (813, 1420), 'Sash': (714, 1216), 'HIMBO - Body': (200, 252), 'Robe 2': (983, 1760), 'AMR Legs Front': (3596, 6722), 'AMR Legs Back': (2281, 4099), 'AMR Legs Side': (3646, 6071), 'AMR Skirt Front': (207, 11), 'AMR Skirt Side': (411, 38), 'AMR Skirt Back': (316, 71), 'VirtualGround': (4, 2)}; bones per shape {'robes': 23, 'Robe': 61, 'Sash': 7, 'HIMBO - Body': 11, 'Robe 2': 57, 'AMR Legs Front': 9, 'AMR Legs Back': 9, 'AMR Legs Side': 9, 'AMR Skirt Front': 41, 'AMR Skirt Side': 70, 'AMR Skirt Back': 40, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\MonkRobesM.xml (538 lines); no slits: neighbouring chains linked all round
+report: C:/1. AUTHORIA/_tools/coat-smp/designs/out/MonkRobes_report.json
+
+EXIT 0

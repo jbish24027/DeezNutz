@@ -1,0 +1,9 @@
+== Farm02 m: torso_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R  54/ 0/ 19   sprint L  53/ 0/ 23   walk R  71/ 0/  0   walk L  29/ 0/ 40
+   curled in (limit)      sprint R  22/ 0/ 15   sprint L  43/ 0/ 23   walk R  42/ 0/  9   walk L  32/ 0/ 45
+   swung back .3/.15      sprint R  42/ 5/  3   sprint L  15/11/ 41   walk R  67/13/ 21   walk L  10/ 0/ 48
+   swung forward .3/.15   sprint R  57/ 0/ 26   sprint L  28/ 0/ 75   walk R  13/ 0/ 22   walk L  17/ 0/ 22
+   swung sideways .3/.15  sprint R  24/ 0/  4   sprint L  49/12/ 39   walk R  11/ 0/  0   walk L  35/ 1/ 57
+   total caught/hooked/sunk 714/42/532; lining pts Front 63, Back 81, Side 79
+
+EXIT 0

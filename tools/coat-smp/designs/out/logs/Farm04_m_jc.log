@@ -1,0 +1,8 @@
+== Farm04 m: robem_1.nif
+   at rest        jump R lead  42/ 0/ 29   jump L lead  59/ 9/ 29   tuck  29/ 0/ 83
+   curled in      jump R lead  74/ 0/ 50   jump L lead  75/ 0/ 19   tuck  43/ 0/ 25
+   swung back     jump R lead  39/ 0/ 66   jump L lead  24/ 0/ 94   tuck  21/ 0/ 94
+   swung forward  jump R lead  76/ 9/ 21   jump L lead  48/ 0/ 32   tuck 111/ 8/ 64
+   total caught/hooked/sunk 641/26/606
+
+EXIT 0

@@ -1,0 +1,16 @@
+== Farm02 m _1: torso_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 63, Skirt Side 79, Skirt Back 81
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18       801      57     249        0     495   worst frame unseen 49
+      Skirt Front          entered   181 hooked  113 unseen   27  unseen z p10 52.6 p50 54.6 p90 60.6
+      Skirt Side           entered   620 hooked  136 unseen  468  unseen z p10 50.9 p50 52.2 p90 55.0
+   run          10       500      52     224        0     224   worst frame unseen 55
+      Skirt Front          entered   159 hooked   89 unseen   52  unseen z p10 50.1 p50 53.9 p90 60.2
+      Skirt Side           entered   340 hooked  135 unseen  172  unseen z p10 50.9 p50 52.3 p90 56.9
+      Skirt Back           entered     1 hooked    0 unseen    0
+   sprint       10       461      76     119        0     266   worst frame unseen 86
+      Skirt Front          entered   159 hooked   68 unseen   53  unseen z p10 49.7 p50 54.3 p90 58.9
+      Skirt Side           entered   276 hooked   51 unseen  213  unseen z p10 47.7 p50 51.9 p90 55.0
+      Skirt Back           entered    26 hooked    0 unseen    0
+SUMMARY clips worst unseen/frame: 86
+
+EXIT 0

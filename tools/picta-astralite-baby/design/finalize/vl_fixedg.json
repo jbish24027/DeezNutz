@@ -1,0 +1,3430 @@
+{
+ "0.5_alive": {
+  "worst": [
+   1.099,
+   "19FD01"
+  ],
+  "leak": [
+   0,
+   "5AFB02",
+   null
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": [
+    -0.9,
+    -16.9
+   ],
+   "19FA01<->19FD03 7.5 baby": [
+    0.4,
+    -33.3
+   ],
+   "19FA01<->19FD03 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FA01<->19FD03 13 baby": [
+    1.5,
+    -38.0
+   ],
+   "19FA01<->19FD03 18.5 picta": [
+    -1.0,
+    -17.7
+   ],
+   "19FA01<->19FD03 18.5 baby": [
+    0.6,
+    -32.9
+   ],
+   "19FE03<->19FD03 7.5 picta": [
+    0.0,
+    -4.4
+   ],
+   "19FE03<->19FD03 7.5 baby": [
+    18.4,
+    17.1
+   ],
+   "19FE03<->19FD03 13 picta": [
+    0.0,
+    -3.5
+   ],
+   "19FE03<->19FD03 13 baby": [
+    28.1,
+    -19.8
+   ],
+   "19FE03<->19FD03 18.5 picta": [
+    -0.0,
+    -5.0
+   ],
+   "19FE03<->19FD03 18.5 baby": [
+    18.0,
+    16.1
+   ],
+   "19FE01<->19FD02 7.5 picta": [
+    -0.5,
+    -13.9
+   ],
+   "19FE01<->19FD02 7.5 baby": [
+    16.5,
+    12.7
+   ],
+   "19FE01<->19FD02 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FE01<->19FD02 13 baby": [
+    25.0,
+    -22.8
+   ],
+   "19FE01<->19FD02 18.5 picta": [
+    -0.5,
+    -14.2
+   ],
+   "19FE01<->19FD02 18.5 baby": [
+    16.2,
+    15.4
+   ],
+   "19FA01<->19FC01 7.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 7.5 baby": [
+    -0.2,
+    -9.2
+   ],
+   "19FA01<->19FC01 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FA01<->19FC01 13 baby": [
+    0.0,
+    -22.4
+   ],
+   "19FA01<->19FC01 18.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 18.5 baby": [
+    0.0,
+    -0.9
+   ],
+   "19FC01<->19FC04 7.5 picta": [
+    -0.5,
+    -13.7
+   ],
+   "19FC01<->19FC04 7.5 baby": [
+    1.8,
+    -28.8
+   ],
+   "19FC01<->19FC04 13 picta": [
+    0.0,
+    -3.0
+   ],
+   "19FC01<->19FC04 13 baby": [
+    -13.7,
+    -51.6
+   ],
+   "19FC01<->19FC04 18.5 picta": [
+    -0.5,
+    -14.1
+   ],
+   "19FC01<->19FC04 18.5 baby": [
+    1.7,
+    -31.9
+   ],
+   "19FA01<->19FE03 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE03 7.5 baby": [
+    -6.8,
+    -37.8
+   ],
+   "19FA01<->19FE03 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE03 13 baby": [
+    5.5,
+    -0.5
+   ],
+   "19FA01<->19FE03 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE03 18.5 baby": [
+    -7.3,
+    -38.7
+   ],
+   "19FA01<->19FE05 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE05 7.5 baby": [
+    9.6,
+    -18.2
+   ],
+   "19FA01<->19FE05 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE05 13 baby": [
+    16.7,
+    -22.1
+   ],
+   "19FA01<->19FE05 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE05 18.5 baby": [
+    9.6,
+    -17.7
+   ],
+   "19FC01<->19FD05 7.5 picta": [
+    -0.9,
+    -16.6
+   ],
+   "19FC01<->19FD05 7.5 baby": [
+    7.8,
+    -16.9
+   ],
+   "19FC01<->19FD05 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FC01<->19FD05 13 baby": [
+    -6.8,
+    -45.6
+   ],
+   "19FC01<->19FD05 18.5 picta": [
+    -1.0,
+    -17.5
+   ],
+   "19FC01<->19FD05 18.5 baby": [
+    8.6,
+    -20.7
+   ]
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 0.49,
+     "13.0": 0.77,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.091,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 0.48,
+     "13.0": 0.77,
+     "18.5": 0.49
+    },
+    "max_over": [
+     1.085,
+     17.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 0.51,
+     "13.0": 0.77,
+     "18.5": 0.53
+    },
+    "max_over": [
+     1.088,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 0.49,
+     "13.0": 0.77,
+     "18.5": 0.51
+    },
+    "max_over": [
+     1.091,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 0.48,
+     "13.0": 0.77,
+     "18.5": 0.49
+    },
+    "max_over": [
+     1.085,
+     17.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.28,
+     "13.0": 0.2,
+     "18.5": 0.29
+    },
+    "max_over": [
+     1.096,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 0.5,
+     "13.0": 0.94,
+     "18.5": 0.55
+    },
+    "max_over": [
+     1.095,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 0.51,
+     "13.0": 0.94,
+     "18.5": 0.56
+    },
+    "max_over": [
+     1.095,
+     10.0
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.29,
+     "13.0": 0.2,
+     "18.5": 0.3
+    },
+    "max_over": [
+     1.095,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.27,
+     "13.0": 0.09,
+     "18.5": 0.28
+    },
+    "max_over": [
+     1.098,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.21,
+     "13.0": 0.07,
+     "18.5": 0.21
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.27,
+     "13.0": 0.19,
+     "18.5": 0.28
+    },
+    "max_over": [
+     1.099,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.27,
+     "13.0": 0.17,
+     "18.5": 0.28
+    },
+    "max_over": [
+     1.084,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.29,
+     "13.0": 0.09,
+     "18.5": 0.3
+    },
+    "max_over": [
+     1.096,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.29,
+     "13.0": 0.09,
+     "18.5": 0.3
+    },
+    "max_over": [
+     1.096,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.07,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.07,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.84,
+     "13.0": 0.95,
+     "18.5": 0.87
+    },
+    "max_over": [
+     1.093,
+     8.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.15,
+     "18.5": 0.22
+    },
+    "max_over": [
+     1.084,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 0.77,
+     "13.0": 0.84,
+     "18.5": 0.81
+    },
+    "max_over": [
+     1.097,
+     6.75
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.81,
+     "18.5": 0.8
+    },
+    "max_over": [
+     1.097,
+     6.75
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.23,
+     "13.0": 0.14,
+     "18.5": 0.24
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.24,
+     "13.0": 0.14,
+     "18.5": 0.26
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 0.48,
+     "13.0": 0.76,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.086,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 0.49,
+     "13.0": 0.76,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.084,
+     6.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 0.51,
+     "13.0": 0.75,
+     "18.5": 0.53
+    },
+    "max_over": [
+     1.088,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 0.48,
+     "13.0": 0.76,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.086,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 0.49,
+     "13.0": 0.76,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.084,
+     6.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.85,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.077,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.408,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.863,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.073,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.852,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.076,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.408,
+    "rf": 100.0
+   },
+   "LAM_FogVL_B02": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.037,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C01": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 2.65,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 3.767,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C01": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 2.761,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C02": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 2.653,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 3.767,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C02": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 2.769,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C03": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.987,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.239,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_C05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 3.121,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D01": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.957,
+    "rf": 100.0
+   },
+   "LAM_FogVL_D02_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.558,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D03_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.236,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.244,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 3.117,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 3.126,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E01": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.602,
+    "rf": 100.0
+   },
+   "LAM_FogVL_Blue_E02": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 3.617,
+    "rf": 100.0
+   },
+   "LAM_StormVL_E03_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.397,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E04_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.326,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 3.457,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 3.469,
+    "rf": 80.0
+   },
+   "LAM_PeachVL_A01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.801,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.049,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.441,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.866,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.023,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.803,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.048,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.441,
+    "rf": 100.0
+   }
+  }
+ },
+ "0.5_newly_on": {
+  "worst": [
+   1.117,
+   "19FE01"
+  ],
+  "leak": [
+   0.2,
+   "5AFB02",
+   6.0
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": [
+    -0.9,
+    -16.9
+   ],
+   "19FA01<->19FD03 7.5 baby": [
+    4.2,
+    -27.4
+   ],
+   "19FA01<->19FD03 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FA01<->19FD03 13 baby": [
+    98.6,
+    63.7
+   ],
+   "19FA01<->19FD03 18.5 picta": [
+    -1.0,
+    -17.7
+   ],
+   "19FA01<->19FD03 18.5 baby": [
+    4.3,
+    -26.9
+   ],
+   "19FE03<->19FD03 7.5 picta": [
+    0.0,
+    -4.4
+   ],
+   "19FE03<->19FD03 7.5 baby": [
+    36.6,
+    -16.0
+   ],
+   "19FE03<->19FD03 13 picta": [
+    0.0,
+    -3.5
+   ],
+   "19FE03<->19FD03 13 baby": [
+    136.5,
+    123.7
+   ],
+   "19FE03<->19FD03 18.5 picta": [
+    -0.0,
+    -5.0
+   ],
+   "19FE03<->19FD03 18.5 baby": [
+    33.9,
+    -18.5
+   ],
+   "19FE01<->19FD02 7.5 picta": [
+    -0.5,
+    -13.9
+   ],
+   "19FE01<->19FD02 7.5 baby": [
+    48.1,
+    -25.9
+   ],
+   "19FE01<->19FD02 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FE01<->19FD02 13 baby": [
+    302.4,
+    101.2
+   ],
+   "19FE01<->19FD02 18.5 picta": [
+    -0.5,
+    -14.2
+   ],
+   "19FE01<->19FD02 18.5 baby": [
+    43.8,
+    -28.1
+   ],
+   "19FA01<->19FC01 7.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 7.5 baby": [
+    -0.3,
+    -10.2
+   ],
+   "19FA01<->19FC01 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FA01<->19FC01 13 baby": [
+    0.0,
+    -39.6
+   ],
+   "19FA01<->19FC01 18.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 18.5 baby": [
+    0.0,
+    -5.0
+   ],
+   "19FC01<->19FC04 7.5 picta": [
+    -0.5,
+    -13.7
+   ],
+   "19FC01<->19FC04 7.5 baby": [
+    6.4,
+    -19.6
+   ],
+   "19FC01<->19FC04 13 picta": [
+    0.0,
+    -3.0
+   ],
+   "19FC01<->19FC04 13 baby": [
+    18.9,
+    -20.7
+   ],
+   "19FC01<->19FC04 18.5 picta": [
+    -0.5,
+    -14.1
+   ],
+   "19FC01<->19FC04 18.5 baby": [
+    8.3,
+    -20.6
+   ],
+   "19FA01<->19FE03 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE03 7.5 baby": [
+    -13.3,
+    -52.7
+   ],
+   "19FA01<->19FE03 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE03 13 baby": [
+    2.4,
+    -11.5
+   ],
+   "19FA01<->19FE03 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE03 18.5 baby": [
+    -14.3,
+    -53.4
+   ],
+   "19FA01<->19FE05 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE05 7.5 baby": [
+    20.4,
+    5.6
+   ],
+   "19FA01<->19FE05 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE05 13 baby": [
+    131.6,
+    55.0
+   ],
+   "19FA01<->19FE05 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE05 18.5 baby": [
+    20.2,
+    6.3
+   ],
+   "19FC01<->19FD05 7.5 picta": [
+    -0.9,
+    -16.6
+   ],
+   "19FC01<->19FD05 7.5 baby": [
+    18.0,
+    10.3
+   ],
+   "19FC01<->19FD05 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FC01<->19FD05 13 baby": [
+    44.7,
+    13.3
+   ],
+   "19FC01<->19FD05 18.5 picta": [
+    -1.0,
+    -17.5
+   ],
+   "19FC01<->19FD05 18.5 baby": [
+    22.2,
+    9.4
+   ]
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 1.02,
+     "13.0": 0.94,
+     "18.5": 1.05
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 1.02,
+     "13.0": 0.94,
+     "18.5": 1.05
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.52,
+     "18.5": 0.75
+    },
+    "max_over": [
+     1.098,
+     7.25
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ]
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.5,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.095,
+     18.75
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ]
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.73,
+     "13.0": 0.24,
+     "18.5": 0.75
+    },
+    "max_over": [
+     1.085,
+     7.25
+    ],
+    "leak": [
+     0.132,
+     6.0
+    ]
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.73,
+     "13.0": 0.26,
+     "18.5": 0.75
+    },
+    "max_over": [
+     1.085,
+     7.25
+    ],
+    "leak": [
+     0.132,
+     6.0
+    ]
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.53,
+     "18.5": 0.75
+    },
+    "max_over": [
+     1.097,
+     7.25
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.76,
+     "13.0": 0.48,
+     "18.5": 0.79
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.23,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.084,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.23,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.25,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.132,
+     6.0
+    ]
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.25,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.0,
+     "13.0": 0.0,
+     "18.5": 0.0
+    },
+    "max_over": [
+     1.117,
+     19.75
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ]
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.5,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.095,
+     18.75
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ]
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 0.45,
+     "13.0": 0.95,
+     "18.5": 0.47
+    },
+    "max_over": [
+     1.088,
+     10.0
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 0.5,
+     "13.0": 0.97,
+     "18.5": 0.53
+    },
+    "max_over": [
+     1.086,
+     10.0
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ]
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.76,
+     "13.0": 0.46,
+     "18.5": 0.79
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.77,
+     "13.0": 0.45,
+     "18.5": 0.81
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ]
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 1.02,
+     "13.0": 0.94,
+     "18.5": 1.04
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 1.02,
+     "13.0": 0.94,
+     "18.5": 1.05
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 6.149,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.78,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 5.134,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.89,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.78,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 6.133,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.78,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 5.123,
+    "rf": 100.0
+   },
+   "LAM_FogVL_B02": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.917,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C01": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 5.587,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 3.758,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C01": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 5.448,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C02": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 5.541,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 3.758,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C02": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 5.389,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C03": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.583,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 6.045,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_C05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.987,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D01": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.073,
+    "rf": 100.0
+   },
+   "LAM_FogVL_D02_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.268,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D03_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 5.804,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 5.735,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.548,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.419,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E01": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.0,
+    "rf": 100.0
+   },
+   "LAM_FogVL_Blue_E02": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 12.356,
+    "rf": 100.0
+   },
+   "LAM_StormVL_E03_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.813,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E04_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.886,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.423,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.01,
+    "rf": 80.0
+   },
+   "LAM_PeachVL_A01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 6.147,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.78,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 5.131,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.886,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.78,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 6.131,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.78,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 5.12,
+    "rf": 100.0
+   }
+  }
+ },
+ "1.0_alive": {
+  "worst": [
+   1.095,
+   "19FE01"
+  ],
+  "leak": [
+   0,
+   "5AFB02",
+   null
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": [
+    -0.9,
+    -16.9
+   ],
+   "19FA01<->19FD03 7.5 baby": [
+    -0.9,
+    -35.4
+   ],
+   "19FA01<->19FD03 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FA01<->19FD03 13 baby": [
+    10.6,
+    -28.9
+   ],
+   "19FA01<->19FD03 18.5 picta": [
+    -1.0,
+    -17.7
+   ],
+   "19FA01<->19FD03 18.5 baby": [
+    -0.7,
+    -35.0
+   ],
+   "19FE03<->19FD03 7.5 picta": [
+    0.0,
+    -4.4
+   ],
+   "19FE03<->19FD03 7.5 baby": [
+    21.5,
+    10.6
+   ],
+   "19FE03<->19FD03 13 picta": [
+    0.0,
+    -3.5
+   ],
+   "19FE03<->19FD03 13 baby": [
+    40.5,
+    -7.7
+   ],
+   "19FE03<->19FD03 18.5 picta": [
+    -0.0,
+    -5.0
+   ],
+   "19FE03<->19FD03 18.5 baby": [
+    20.8,
+    7.3
+   ],
+   "19FE01<->19FD02 7.5 picta": [
+    -0.5,
+    -13.9
+   ],
+   "19FE01<->19FD02 7.5 baby": [
+    22.0,
+    6.4
+   ],
+   "19FE01<->19FD02 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FE01<->19FD02 13 baby": [
+    46.3,
+    -2.0
+   ],
+   "19FE01<->19FD02 18.5 picta": [
+    -0.5,
+    -14.2
+   ],
+   "19FE01<->19FD02 18.5 baby": [
+    21.1,
+    3.3
+   ],
+   "19FA01<->19FC01 7.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 7.5 baby": [
+    -0.5,
+    -13.3
+   ],
+   "19FA01<->19FC01 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FA01<->19FC01 13 baby": [
+    0.0,
+    -33.6
+   ],
+   "19FA01<->19FC01 18.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 18.5 baby": [
+    0.0,
+    -2.7
+   ],
+   "19FC01<->19FC04 7.5 picta": [
+    -0.5,
+    -13.7
+   ],
+   "19FC01<->19FC04 7.5 baby": [
+    2.2,
+    -28.0
+   ],
+   "19FC01<->19FC04 13 picta": [
+    0.0,
+    -3.0
+   ],
+   "19FC01<->19FC04 13 baby": [
+    -19.3,
+    -55.9
+   ],
+   "19FC01<->19FC04 18.5 picta": [
+    -0.5,
+    -14.1
+   ],
+   "19FC01<->19FC04 18.5 baby": [
+    0.9,
+    -33.1
+   ],
+   "19FA01<->19FE03 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE03 7.5 baby": [
+    -8.7,
+    -43.0
+   ],
+   "19FA01<->19FE03 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE03 13 baby": [
+    5.3,
+    0.6
+   ],
+   "19FA01<->19FE03 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE03 18.5 baby": [
+    -9.4,
+    -43.8
+   ],
+   "19FA01<->19FE05 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE05 7.5 baby": [
+    11.3,
+    -15.0
+   ],
+   "19FA01<->19FE05 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE05 13 baby": [
+    35.2,
+    1.0
+   ],
+   "19FA01<->19FE05 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE05 18.5 baby": [
+    11.3,
+    -14.4
+   ],
+   "19FC01<->19FD05 7.5 picta": [
+    -0.9,
+    -16.6
+   ],
+   "19FC01<->19FD05 7.5 baby": [
+    11.0,
+    -9.5
+   ],
+   "19FC01<->19FD05 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FC01<->19FD05 13 baby": [
+    -10.8,
+    -48.9
+   ],
+   "19FC01<->19FD05 18.5 picta": [
+    -1.0,
+    -17.5
+   ],
+   "19FC01<->19FD05 18.5 baby": [
+    10.7,
+    -16.7
+   ]
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 0.4,
+     "13.0": 0.92,
+     "18.5": 0.41
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 0.92,
+     "18.5": 0.37
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 0.42,
+     "13.0": 0.92,
+     "18.5": 0.44
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 0.4,
+     "13.0": 0.92,
+     "18.5": 0.42
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 0.92,
+     "18.5": 0.37
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.21,
+     "13.0": 0.15,
+     "18.5": 0.21
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 0.37,
+     "13.0": 0.94,
+     "18.5": 0.43
+    },
+    "max_over": [
+     1.095,
+     10.0
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 0.38,
+     "13.0": 0.94,
+     "18.5": 0.44
+    },
+    "max_over": [
+     1.095,
+     10.0
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.15,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.21,
+     "13.0": 0.07,
+     "18.5": 0.21
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.18,
+     "13.0": 0.06,
+     "18.5": 0.18
+    },
+    "max_over": [
+     1.091,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.2,
+     "13.0": 0.14,
+     "18.5": 0.2
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.14,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.07,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.22,
+     "13.0": 0.07,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.19,
+     "13.0": 0.06,
+     "18.5": 0.2
+    },
+    "max_over": [
+     1.091,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.19,
+     "13.0": 0.06,
+     "18.5": 0.2
+    },
+    "max_over": [
+     1.091,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.48,
+     "13.0": 1.09,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.095,
+     13.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.19,
+     "13.0": 0.12,
+     "18.5": 0.19
+    },
+    "max_over": [
+     1.086,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 0.47,
+     "13.0": 1.0,
+     "18.5": 0.5
+    },
+    "max_over": [
+     1.09,
+     6.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 0.48,
+     "13.0": 0.93,
+     "18.5": 0.51
+    },
+    "max_over": [
+     1.09,
+     19.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.2,
+     "13.0": 0.12,
+     "18.5": 0.21
+    },
+    "max_over": [
+     1.092,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.21,
+     "13.0": 0.12,
+     "18.5": 0.23
+    },
+    "max_over": [
+     1.092,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 0.4,
+     "13.0": 0.92,
+     "18.5": 0.41
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 0.92,
+     "18.5": 0.37
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 0.42,
+     "13.0": 0.91,
+     "18.5": 0.44
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 0.4,
+     "13.0": 0.92,
+     "18.5": 0.42
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 0.92,
+     "18.5": 0.37
+    },
+    "max_over": [
+     1.085,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ]
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 4.679,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.478,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 3.586,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 4.731,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.478,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 4.682,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.478,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 3.589,
+    "rf": 100.0
+   },
+   "LAM_FogVL_B02": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 4.442,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C01": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 3.94,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 7.534,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C01": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 4.368,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C02": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 3.952,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 7.534,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C02": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 4.381,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C03": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 4.434,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.403,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_C05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 5.387,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D01": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 4.36,
+    "rf": 100.0
+   },
+   "LAM_FogVL_D02_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 4.212,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D03_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.417,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.428,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 5.394,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 5.405,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E01": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.836,
+    "rf": 100.0
+   },
+   "LAM_FogVL_Blue_E02": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 6.164,
+    "rf": 100.0
+   },
+   "LAM_StormVL_E03_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.714,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E04_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.696,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 6.082,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 6.106,
+    "rf": 80.0
+   },
+   "LAM_PeachVL_A01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 4.679,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.469,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 3.586,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 4.731,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.464,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 4.682,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.469,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 3.589,
+    "rf": 100.0
+   }
+  }
+ },
+ "1.0_newly_on": {
+  "worst": [
+   1.1,
+   "19FC01"
+  ],
+  "leak": [
+   0.2,
+   "5AFB02",
+   6.0
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": [
+    -0.9,
+    -16.9
+   ],
+   "19FA01<->19FD03 7.5 baby": [
+    4.6,
+    -26.8
+   ],
+   "19FA01<->19FD03 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FA01<->19FD03 13 baby": [
+    99.5,
+    63.4
+   ],
+   "19FA01<->19FD03 18.5 picta": [
+    -1.0,
+    -17.7
+   ],
+   "19FA01<->19FD03 18.5 baby": [
+    4.7,
+    -26.3
+   ],
+   "19FE03<->19FD03 7.5 picta": [
+    0.0,
+    -4.4
+   ],
+   "19FE03<->19FD03 7.5 baby": [
+    36.8,
+    -16.2
+   ],
+   "19FE03<->19FD03 13 picta": [
+    0.0,
+    -3.5
+   ],
+   "19FE03<->19FD03 13 baby": [
+    137.9,
+    123.3
+   ],
+   "19FE03<->19FD03 18.5 picta": [
+    -0.0,
+    -5.0
+   ],
+   "19FE03<->19FD03 18.5 baby": [
+    34.0,
+    -18.7
+   ],
+   "19FE01<->19FD02 7.5 picta": [
+    -0.5,
+    -13.9
+   ],
+   "19FE01<->19FD02 7.5 baby": [
+    39.1,
+    -18.4
+   ],
+   "19FE01<->19FD02 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FE01<->19FD02 13 baby": [
+    162.5,
+    121.7
+   ],
+   "19FE01<->19FD02 18.5 picta": [
+    -0.5,
+    -14.2
+   ],
+   "19FE01<->19FD02 18.5 baby": [
+    36.1,
+    -20.8
+   ],
+   "19FA01<->19FC01 7.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 7.5 baby": [
+    -0.2,
+    -8.9
+   ],
+   "19FA01<->19FC01 13 picta": [
+    0.0,
+    0.0
+   ],
+   "19FA01<->19FC01 13 baby": [
+    0.0,
+    -39.6
+   ],
+   "19FA01<->19FC01 18.5 picta": [
+    0.0,
+    -0.3
+   ],
+   "19FA01<->19FC01 18.5 baby": [
+    0.0,
+    -4.3
+   ],
+   "19FC01<->19FC04 7.5 picta": [
+    -0.5,
+    -13.7
+   ],
+   "19FC01<->19FC04 7.5 baby": [
+    6.1,
+    -20.2
+   ],
+   "19FC01<->19FC04 13 picta": [
+    0.0,
+    -3.0
+   ],
+   "19FC01<->19FC04 13 baby": [
+    19.6,
+    -19.9
+   ],
+   "19FC01<->19FC04 18.5 picta": [
+    -0.5,
+    -14.1
+   ],
+   "19FC01<->19FC04 18.5 baby": [
+    8.3,
+    -20.6
+   ],
+   "19FA01<->19FE03 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE03 7.5 baby": [
+    -13.3,
+    -52.7
+   ],
+   "19FA01<->19FE03 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE03 13 baby": [
+    2.4,
+    -11.5
+   ],
+   "19FA01<->19FE03 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE03 18.5 baby": [
+    -14.3,
+    -53.4
+   ],
+   "19FA01<->19FE05 7.5 picta": [
+    -1.4,
+    -20.3
+   ],
+   "19FA01<->19FE05 7.5 baby": [
+    20.7,
+    6.3
+   ],
+   "19FA01<->19FE05 13 picta": [
+    0.0,
+    -9.2
+   ],
+   "19FA01<->19FE05 13 baby": [
+    132.0,
+    55.0
+   ],
+   "19FA01<->19FE05 18.5 picta": [
+    -1.6,
+    -21.4
+   ],
+   "19FA01<->19FE05 18.5 baby": [
+    20.5,
+    7.0
+   ],
+   "19FC01<->19FD05 7.5 picta": [
+    -0.9,
+    -16.6
+   ],
+   "19FC01<->19FD05 7.5 baby": [
+    17.6,
+    8.8
+   ],
+   "19FC01<->19FD05 13 picta": [
+    0.0,
+    -6.1
+   ],
+   "19FC01<->19FD05 13 baby": [
+    45.2,
+    14.0
+   ],
+   "19FC01<->19FD05 18.5 picta": [
+    -1.0,
+    -17.5
+   ],
+   "19FC01<->19FD05 18.5 baby": [
+    22.0,
+    8.9
+   ]
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.093,
+     18.75
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.094,
+     18.75
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.53,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.097,
+     7.25
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ]
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 1.09,
+     "13.0": 0.94,
+     "18.5": 1.1
+    },
+    "max_over": [
+     1.1,
+     18.5
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 1.09,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.76,
+     "13.0": 0.51,
+     "18.5": 0.79
+    },
+    "max_over": [
+     1.095,
+     18.75
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ]
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.24,
+     "18.5": 0.76
+    },
+    "max_over": [
+     1.085,
+     7.25
+    ],
+    "leak": [
+     0.132,
+     6.0
+    ]
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.26,
+     "18.5": 0.76
+    },
+    "max_over": [
+     1.085,
+     7.25
+    ],
+    "leak": [
+     0.132,
+     6.0
+    ]
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.54,
+     "18.5": 0.77
+    },
+    "max_over": [
+     1.097,
+     7.25
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.77,
+     "13.0": 0.48,
+     "18.5": 0.8
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.76,
+     "13.0": 0.23,
+     "18.5": 0.78
+    },
+    "max_over": [
+     1.084,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.76,
+     "13.0": 0.23,
+     "18.5": 0.79
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.25,
+     "18.5": 0.78
+    },
+    "max_over": [
+     1.084,
+     18.75
+    ],
+    "leak": [
+     0.132,
+     6.0
+    ]
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.25,
+     "18.5": 0.78
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.39,
+     "13.0": 0.93,
+     "18.5": 0.41
+    },
+    "max_over": [
+     1.089,
+     10.0
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ]
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.75,
+     "13.0": 0.51,
+     "18.5": 0.78
+    },
+    "max_over": [
+     1.095,
+     18.75
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ]
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 0.45,
+     "13.0": 0.95,
+     "18.5": 0.47
+    },
+    "max_over": [
+     1.088,
+     10.0
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 0.5,
+     "13.0": 0.97,
+     "18.5": 0.53
+    },
+    "max_over": [
+     1.087,
+     10.0
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ]
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.76,
+     "13.0": 0.47,
+     "18.5": 0.8
+    },
+    "max_over": [
+     1.085,
+     18.75
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ]
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.78,
+     "13.0": 0.45,
+     "18.5": 0.82
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ]
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.094,
+     18.75
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.199,
+     6.0
+    ]
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.09
+    },
+    "max_over": [
+     1.091,
+     10.0
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 1.06,
+     "13.0": 0.94,
+     "18.5": 1.08
+    },
+    "max_over": [
+     1.094,
+     18.75
+    ],
+    "leak": [
+     0.2,
+     6.0
+    ]
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 12.289,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.56,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 10.635,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 11.775,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.56,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 12.257,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.56,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 10.613,
+    "rf": 100.0
+   },
+   "LAM_FogVL_B02": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 16.129,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C01": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 11.512,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C01": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 7.516,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C01": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 11.066,
+    "rf": 100.0
+   },
+   "LAM_YellowVL_C02": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 11.411,
+    "rf": 100.0
+   },
+   "LAM_DayVL_C02": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 7.517,
+    "rf": 100.0
+   },
+   "LAM_GoldVL_C02": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 10.758,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C03": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 15.461,
+    "rf": 100.0
+   },
+   "LAM_FogVL_C04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 12.286,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_C05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 22.174,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D01": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 16.441,
+    "rf": 100.0
+   },
+   "LAM_FogVL_D02_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 14.735,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D03_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 11.807,
+    "rf": 80.0
+   },
+   "LAM_FogVL_D04_R80": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 11.669,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 21.295,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_D06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 21.04,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E01": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.502,
+    "rf": 100.0
+   },
+   "LAM_FogVL_Blue_E02": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 25.007,
+    "rf": 100.0
+   },
+   "LAM_StormVL_E03_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.626,
+    "rf": 80.0
+   },
+   "LAM_StormVL_E04_R80": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.771,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E05_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 23.045,
+    "rf": 80.0
+   },
+   "LAM_FogVL_Blue_E06_R80": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 22.218,
+    "rf": 80.0
+   },
+   "LAM_PeachVL_A01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 12.283,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.559,
+    "rf": 100.0
+   },
+   "LAM_PureVL_A01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 10.637,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_A02S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 11.767,
+    "rf": 100.0
+   },
+   "LAM_DayVL_A02S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.559,
+    "rf": 100.0
+   },
+   "LAM_PeachVL_B01S": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 12.251,
+    "rf": 100.0
+   },
+   "LAM_DayVL_B01S": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.559,
+    "rf": 100.0
+   },
+   "LAM_PureVL_B01S": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 10.617,
+    "rf": 100.0
+   }
+  }
+ }
+}

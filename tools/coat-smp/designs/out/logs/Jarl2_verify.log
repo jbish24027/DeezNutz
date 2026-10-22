@@ -1,0 +1,33 @@
+== men _1: outfitm_1.nif
+  ok   Clothes: welded remainder area 15985.4 vs the source minus its pieces 15985.4 (180 of 181 split triangles tiled exactly by their children; 181 weld points)
+  ok   Clothes: split into 4 per triangle, area 25289.9 vs 25289.9
+  ok   influences max 4, weight sums off by <= 4.3e-04, bones per shape max 60
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\Jarl2M.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / Clothes: 371 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 47%, of those on 2 chains 72%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: outfitm_0.nif
+  ok   Clothes: welded remainder area 15531.6 vs the source minus its pieces 15531.6 (180 of 181 split triangles tiled exactly by their children; 181 weld points)
+  ok   Clothes: split into 4 per triangle, area 24830.8 vs 24830.8
+  ok   influences max 4, weight sums off by <= 4.3e-04, bones per shape max 60
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\Jarl2M.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / Clothes: 371 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

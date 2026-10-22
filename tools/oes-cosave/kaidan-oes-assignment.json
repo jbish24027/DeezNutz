@@ -1,0 +1,35 @@
+{
+ "0x2f9c|0Kaidan.esp": {
+  "currentOutfitName": "Kaidan - base",
+  "locationBasedOutfits": {
+   "0": "Kaidan - base",
+   "100": "Kaidan - base night/dungeon",
+   "1000": "Kaidan - casual",
+   "1100": "Kaidan - casual night",
+   "1200": "Kaidan - casual cold",
+   "1300": "Kaidan - casual cold",
+   "1400": "Kaidan - casual",
+   "1500": "Kaidan - base",
+   "1700": "Kaidan - casual homeee",
+   "200": "Kaidan - base cold",
+   "2000": "Kaidan - love scene",
+   "300": "Kaidan - base cold",
+   "400": "Kaidan - casual",
+   "500": "Kaidan - casual",
+   "5500": "Kaidan - base night/dungeon",
+   "5600": "Kaidan - casual homeee",
+   "5700": "Kaidan - casual",
+   "5800": "Kaidan - casual",
+   "5900": "Kaidan - casual",
+   "600": "Kaidan - casual night",
+   "6000": "Kaidan - casual",
+   "6100": "Kaidan - casual",
+   "6200": "Kaidan - casual",
+   "6300": "Kaidan - base",
+   "6400": "Kaidan - base",
+   "700": "Kaidan - casual cold",
+   "800": "Kaidan - casual cold",
+   "900": "Kaidan - casual"
+  }
+ }
+}

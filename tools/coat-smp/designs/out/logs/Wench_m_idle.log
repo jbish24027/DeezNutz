@@ -1,0 +1,19 @@
+== Wench m: wenchoutfitm_1.nif  side pen 1.5, front/back 3.0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 0:  outer caught/sunk   5/  1 [Side: z 58-58 ang 90..90 depth 2.2..2.2]
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 8:  outer caught/sunk  53/  2 [Back: z 60-60 ang 4..4 depth 3.1..3.1; Side: z 58-58 ang 83..83 depth 2.3..2.3]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 0:  outer caught/sunk  13/  1 [Side: z 58-58 ang 90..90 depth 2.1..2.1]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 8:  outer caught/sunk  54/  7 [Back: z 60-60 ang 27..27 depth 3.0..3.0; Side: z 49-58 ang -71..83 depth 1.5..2.1]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 0:  outer caught/sunk  21/  1 [Side: z 58-58 ang 90..90 depth 1.9..1.9]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 8:  outer caught/sunk  73/ 13 [Side: z 50-59 ang -77..84 depth 1.5..2.0]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 0:  outer caught/sunk 150/  1 [Side: z 58-58 ang 90..90 depth 1.8..1.8]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 8:  outer caught/sunk  71/ 37 [Side: z 50-59 ang -92..91 depth 1.5..2.4]
+
+EXIT 0

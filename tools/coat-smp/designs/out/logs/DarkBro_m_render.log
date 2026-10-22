@@ -1,0 +1,16 @@
+C:/1. AUTHORIA/_tools/coat-smp/designs/out/renders/DarkBro_m_layers.png
+rays through the slits (from outside toward the body axis; shapes met in order, first = outermost):
+   slit at -178 deg (top z 70.7), z 67.7 rest  : DBbody3rdPerson > Saia > DBbody3rdPerson > Saia
+   slit at -178 deg (top z 70.7), z 67.7 flared: DBbody3rdPerson > Saia
+   slit at -178 deg (top z 70.7), z 35.5 rest  : nothing
+   slit at -178 deg (top z 70.7), z 35.5 flared: nothing
+   slit at -178 deg (top z 70.7), z 2.2 rest  : nothing
+   slit at -178 deg (top z 70.7), z 2.2 flared: nothing
+   slit at -128 deg (top z 48.7), z 45.7 rest  : DBbody3rdPerson > Saia
+   slit at -128 deg (top z 48.7), z 45.7 flared: DBbody3rdPerson
+   slit at -128 deg (top z 48.7), z 24.5 rest  : DBbody3rdPerson
+   slit at -128 deg (top z 48.7), z 24.5 flared: DBbody3rdPerson
+   slit at -128 deg (top z 48.7), z 2.2 rest  : DBbody3rdPerson
+   slit at -128 deg (top z 48.7), z 2.2 flared: DBbody3rdPerson
+
+EXIT 0

@@ -1,0 +1,19 @@
+===== Chef
+piece Robe <- BarkeepBody ('islands', 0, {5290: 3726, 5468: 167}, (), 62.5): 599 pts / 1028 tris (skirt:outer)
+skirt axis (0.00, 2.00); slits (centre, half-width, top): -179.8/80.7/62.5; per-layer tops {'outer': [62.5]}; 8 chains at -99 -71 -42 -14 14 43 71 99
+no belt; no flaps; no bag
+skirt rows (anchor..hem): -99:62.5/57.8/53.0/48.3/43.5; -71:62.5/57.5/52.5/47.5/42.5; -42:62.5/57.5/52.5/47.4/42.4; -14:62.5/57.5/52.4/47.4/42.4; 14:62.5/57.4/52.3/47.3/42.2; 43:62.5/57.3/52.1/47.0/41.8; 71:62.5/57.4/52.2/47.1/41.9; 99:62.5/57.5/52.6/47.6/42.7
+tip rows ; flap hinges 
+legs from BarkeepBody (3296 tris above z -10.0), winding outward 97%
+m: lining to the trousers at rest: p10 -0.11 median 1.67; free share p10 0.00 median 0.45 (low: the skirt mostly follows the legs = very subtle; confirmed designs sit at 0.75-0.9 - a skirt resting close to the trousers needs gap=(0.0, 1.5))
+m: Robe is cut out of BarkeepBody: 90 seam points (z 59.4..62.5) keep its weights, physics fading in over 4.0
+m: skirt Robe 599 pts (391 move); tip 0 pts
+m: legs collider pulled in at 96 of 1794 pts (max 1.33); lining points Robe 125/125
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+lining region Back: no points (slit) - collider skipped
+m_1: wrote meshes/clothes/chef/m/chef_1.nif; shapes (pts, tris) {'BarkeepBody': (10110, 18628), 'Robe': (599, 1028), 'HIMBO - Body': (598, 1054), 'ACF Legs Front': (867, 1415), 'ACF Legs Back': (749, 1227), 'ACF Legs Side': (1078, 1634), 'ACF Skirt Front': (69, 76), 'ACF Skirt Side': (56, 28), 'VirtualGround': (4, 2)}; bones per shape {'BarkeepBody': 30, 'Robe': 35, 'HIMBO - Body': 8, 'ACF Legs Front': 11, 'ACF Legs Back': 11, 'ACF Legs Side': 11, 'ACF Skirt Front': 23, 'ACF Skirt Side': 19, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/chef/m/chef_0.nif; shapes (pts, tris) {'BarkeepBody': (10110, 18628), 'Robe': (599, 1028), 'HIMBO - Body': (598, 1054), 'ACF Legs Front': (867, 1415), 'ACF Legs Back': (749, 1227), 'ACF Legs Side': (1078, 1634), 'ACF Skirt Front': (69, 76), 'ACF Skirt Side': (56, 28), 'VirtualGround': (4, 2)}; bones per shape {'BarkeepBody': 30, 'Robe': 35, 'HIMBO - Body': 8, 'ACF Legs Front': 11, 'ACF Legs Back': 11, 'ACF Legs Side': 11, 'ACF Skirt Front': 23, 'ACF Skirt Side': 19, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\ChefM.xml (287 lines); chains linked across slits only above the slit tops [(7, 0, 62.5)]
+report: C:/1. AUTHORIA/_tools/coat-smp/designs/out/Chef_report.json
+
+EXIT 0

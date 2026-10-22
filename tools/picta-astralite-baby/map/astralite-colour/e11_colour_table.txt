@@ -1,0 +1,1036 @@
+TOD order: ['Dawn', 'Sunrise', 'Day', 'Sunset', 'Dusk', 'Night']
+== BASE (NAT plain enbseries.ini)
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   SKY.GradientDesaturation 0 0 0 0 0 0
+   SKY.GradientIntensity 1 1 1 1 1 1
+   SKY.GradientTopIntensity 1 1 1 1 1 1
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   SKY.CloudsDesaturation 0 0 0 0 0 0
+   SKY.CloudsIntensity 1 1 1 1 1 1
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   SKY.SunDesaturation 0 0 0 0 0 0
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0
+   ENVIRONMENT.DirectLightingIntensity 1 1 1 1 1 1
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0
+   ENVIRONMENT.FogColorMultiplier 1 1 1 1 1 1
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1
+   ENVIRONMENT.FogAmountMultiplier 1 1 1 1 1 1
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.1
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   SKYSCATTERING.ColorFromSun 0 0.25 0.5 0.25 0 0
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1
+   SKYSCATTERING.HorizonRange 0 0.15 0.3 0.15 0 0
+   SKYSCATTERING.SunGlowIntensity 0 0 0.25 0 0 0
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25
+   SKYSCATTERING.CloudsLightingDesaturation -
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   VOLUMETRICFOG.Intensity 0.85 0.85 0.85 0.85 0.85 0.85
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0
+   GAMEVOLUMETRICRAYS.Intensity 0.25 1 0.5 1 0.25 0.75
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.4 0.2 0.1 0.2 0.4 0.8
+   CLOUDSHADOWS.Amount 0.35 0.35 0.35 0.35 0.35 0.35
+== Ominous.ini routes 8
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 0.95 0.9 0.95 1 1 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 1 1 1 1 1.05 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.9 0.95 0.95 0.95 0.95 0.9 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1.15 1.1 1.05 1.1 1.15 1.2 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0.1 0.25 0.35 0.25 0.1 0 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.9 0.9 0.9 0.9 0.9 0.9 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.3 0.75 0.4 0.7 0.3 0.75 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== OtherWorld.ini routes 23
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1.35 1.35 1.35 1.35 1.35 1.35 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1 1 1 1 (=base)
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.85 0.85 0.85 0.85 0.85 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0 -0.1 -0.1 -0.1 -0.1 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0.3 0.3 0.3 0.3 0.3 0.3 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0.2 0.2 0.2 0.2 0.2 0.2 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.85 0.85 0.85 0.85 0.85 0.85 (=base)
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.8 0.8 0.8 0.8 0.8 0.8 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.6 0.6 0.6 0.6 0.6 0.6 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SSECDementia.ini routes 0
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 1 0 0 0 0 
+   SKY.GradientIntensity 1.1 1 1 1 1.1 1.1 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 0.66 0.66 0.66 0.66 0.66 0.66 
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1.25 1.05 1.05 1.05 1.25 1.25 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 0.75 0.5 0.5 0.5 0.75 0.5 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 1 0.85 0.8 0.85 1 1.2 
+   ENVIRONMENT.FogColorCurve 1 1.06 1.12 1.06 1 0.9 
+   ENVIRONMENT.FogAmountMultiplier 1 0.9 0.9 0.9 1 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0 0 0 0 -0.25 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0.75 1 1 1 0.75 0.75 
+   SKYSCATTERING.Intensity 0.25 0.25 0.25 0.25 0.25 0.25 
+   SKYSCATTERING.AtmosphereThickness 1 1.15 1.2 1.15 1 1 
+   SKYSCATTERING.HorizonRange 0 0.75 0.5 0.75 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0.75 0.75 0.75 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.4 0.35 0.3 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.85 0.85 0.85 0.85 0.85 0.85 (=base)
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1.1 1.15 1.3 1.15 1.1 1.2 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.4 0.2 0.1 0.2 0.4 0.6 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SSECMania.ini routes 0
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 0.85 0.85 0.85 1 1.05 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 0.85 0.95 1 0.95 0.8 0.75 
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1.05 1 1 1 1.05 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0.15 0.15 0.15 0 0 
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 0.85 0.85 0.85 0.85 0.85 0.8 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 1 0.8 0.8 0.8 1 1.05 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0 0 0 0 -0.2 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.25 0.25 0.25 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.75 0.75 0.75 0.75 0.75 0.5 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.5 0.75 0.5 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0.75 0.75 0.75 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.35 0.4 0.5 0.4 0.35 0.3 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.75 0.8 0.85 0.8 0.75 0.75 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1 1.05 1.1 1.05 1 1.15 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.4 0.2 0.1 0.2 0.4 0.8 (=base)
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulAsh.ini routes 4
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1 1 1 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 1 1 1 1 1.05 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0.1 0.25 0.35 0.25 0.1 0 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0.25 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.5 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.5 0.35 0.3 0.3 
+   SKYSCATTERING.DustVolume 0.5 0.5 0.5 0.5 0.5 0.5 
+   SKYSCATTERING.DustDensity 0.5 0.5 0.5 0.5 0.5 0.5 
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 1 1 1 1 1 1 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0 0.95 0.45 0.9 0 0.5 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulAsh2.ini routes 4
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 0.95 0.95 0.95 1 1 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 0.9 1 1 1 0.85 0.7 
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1.05 1 0.95 1 1.05 1.15 
+   SKY.SunColorFilter (1,1,1) (1,0.259,0) (1,0.498,0) (1,0.259,0) (1,1,1) (1,1,1) 
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 1 1.1 1 1 1.05 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0.1 0.25 0.35 0.25 0.1 0 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0.25 0 0 0 
+   SKYSCATTERING.Amount 0.5 0.5 0.5 0.5 0.5 0.5 
+   SKYSCATTERING.Intensity 0.25 0.25 0.25 0.25 0.25 0.25 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.15 0.075 0.15 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.25 0 0 0 (=base)
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.5 0.35 0.3 0.3 
+   SKYSCATTERING.DustVolume 0.5 0.5 0.5 0.5 0.5 0.5 
+   SKYSCATTERING.DustDensity 0.5 0.5 0.5 0.5 0.5 0.5 
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 1 1 1 1 1 1 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0 0.95 0.5 0.9 0 0.55 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulAshStorm.ini routes 2
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1.06 1 1 1 1.05 1.04 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1 1 1 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 0.75 0.5 0.75 1 1 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.95 1 1 1 0.95 0.95 
+   ENVIRONMENT.FogColorCurve 1.09 1.05 1.05 1.05 1.09 1.1 
+   ENVIRONMENT.FogAmountMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0.1 0.25 0.35 0.25 0.1 0.1 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.DustVolume 0.5 0.5 0.5 0.5 0.5 0.5 
+   SKYSCATTERING.DustDensity 0.5 0.5 0.5 0.5 0.5 0.5 
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 1 1 1 1 1 1 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0 0.3 0.3 0.3 0 0.3 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.5 0.2 0.1 0.2 0.5 0.9 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulClear.ini routes 11
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (0.902,0.98,1) (1,1,1) (1,1,1) (1,1,1) 
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (0.902,0.98,1) (1,1,1) (1,1,1) (1,1,1) 
+   SKY.GradientDesaturation 0 0 0.05 0 0 0 
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 0.95 0.95 0.95 1 1 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0.1 0 0 0 
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 1 1.05 1 1 1.1 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.95 0.95 0.95 0.9 0.9 
+   ENVIRONMENT.FogColorCurve 1.06 1 1 1 1.04 1.02 
+   ENVIRONMENT.FogAmountMultiplier 1 1 0.7 1 1 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.25 0.55 0.25 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0.2 0.4 0.35 0.4 0.2 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.33 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.8 0.85 0.85 0.85 0.85 0.85 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.4 1.15 0.25 1.1 0.4 0.7 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0 0 0 0 0 0 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulClear_A.ini routes 9
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (0.902,0.98,1) (1,1,1) (1,1,1) (1,1,1) 
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (0.902,0.98,1) (1,1,1) (1,1,1) (1,1,1) 
+   SKY.GradientDesaturation 0 0 0.05 0 0 0 
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 0.95 0.95 0.95 1 1 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0.1 0 0 0 
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0.15 0 0 0 0.15 0.3 
+   ENVIRONMENT.DirectLightingIntensity 1 1 1.05 1 1 1.05 
+   ENVIRONMENT.AmbientLightingDesaturation 0.1 0 0 0 0.15 0.25 
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.9 0.95 0.95 0.95 0.9 0.95 
+   ENVIRONMENT.FogColorCurve 1.06 1 1 1 1.04 1.02 
+   ENVIRONMENT.FogAmountMultiplier 1 1 0.7 1 1 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.25 0.55 0.25 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0.2 0.4 0.35 0.4 0.2 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.33 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.8 0.85 0.85 0.85 0.85 0.9 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.4 1.15 0.25 1.1 0.4 0.7 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulCloudy.ini routes 13
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1.05 1.05 1.05 1 1 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0.15 0 0.15 0 0 
+   SKY.CloudsIntensity 1 0.99 0.99 0.99 1 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0.1 0 0 0 
+   ENVIRONMENT.DirectLightingIntensity 1.05 1.1 1.15 1.1 1.05 1.05 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.95 1 0.95 0.9 0.95 
+   ENVIRONMENT.FogColorCurve 1.01 1 1 1 1.01 1.01 
+   ENVIRONMENT.FogAmountMultiplier 1 1 0.8 1 1 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.25 0.5 0.25 0 0 (=base)
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.2 0.1 0.2 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.3 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.5 0.35 0.3 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.95 0.95 0.95 0.95 0.95 0.95 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.5 1.3 1.1 1.25 0.5 0.85 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulCloudy_A.ini routes 10
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1.05 1.05 1.05 1 1 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0.15 0 0.15 0 0 
+   SKY.CloudsIntensity 1 0.99 0.99 0.99 1 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0.15 0 0.1 0 0.15 0.3 
+   ENVIRONMENT.DirectLightingIntensity 1.05 1.1 1.15 1.1 1.05 1 
+   ENVIRONMENT.AmbientLightingDesaturation 0.15 0 0 0 0.1 0.25 
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.95 1 0.95 0.9 0.95 
+   ENVIRONMENT.FogColorCurve 1.01 1 1 1 1.01 1.01 
+   ENVIRONMENT.FogAmountMultiplier 1 1 0.8 1 1 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.25 0.5 0.25 0 0 (=base)
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.2 0.1 0.2 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.3 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.5 0.35 0.3 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.95 0.95 0.95 0.95 0.95 0.95 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.5 1.3 1.1 1.25 0.5 0.76 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulFog.ini routes 9
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1 1 1 1 (=base)
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0.25 0 0 0 
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.1 0.95 0.95 0.95 1.1 1.25 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.9 0.96 1 0.96 0.96 1 
+   ENVIRONMENT.FogColorCurve 1.05 1 0.99 1 1 1 
+   ENVIRONMENT.FogAmountMultiplier 1.15 1.15 1.15 1.15 1.15 1.3 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0.25 0 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.25 0.125 0.25 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.25 0 0 0 (=base)
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.85 0.9 0.9 0.9 0.85 0.85 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1 0.95 0.95 0.95 1 1.15 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulFogOvercast.ini routes 3
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 0.95 0.9 0.95 1 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0.25 0.5 0.25 0 0 
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.05 0.9 0.9 0.9 1.05 1.3 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.9 0.9 0.9 0.85 0.85 
+   ENVIRONMENT.FogColorCurve 1.1 1.05 1 1 1 0.99 
+   ENVIRONMENT.FogAmountMultiplier 1.3 1.3 1.3 1.3 1.3 1.15 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0.25 0 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.25 0.25 0.25 0.25 0.25 0.5 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.2 0.1 0.2 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.25 0 0 0 (=base)
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.85 0.85 0.85 0.85 0.85 0.85 (=base)
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1.1 1.2 1.1 1.15 1.1 1.25 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulJawZRain.ini routes 1
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1.05 
+   SKY.GradientTopIntensity 1 1 1 1 1 1.05 
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1.05 
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1.05 1 1 1.15 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.05 0.75 0.5 0.75 1.05 1.15 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (0.863,0.98,1) (0.765,0.941,1) (0.863,0.98,1) (1,1,1) (1,1,1) 
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.7 0.7 0.75 0.7 0.7 0.5 
+   ENVIRONMENT.FogColorCurve 1.02 1.01 1.01 1.01 1.03 1.04 
+   ENVIRONMENT.FogAmountMultiplier 0.6 0.65 0.7 0.65 0.6 0.4 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.4 0.35 0.25 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.9 0.85 0.85 0.95 0.9 0.9 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.9 0.65 0.55 0.6 0.85 1.1 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulOvercast.ini routes 6
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1.05 1 1 1.15 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.1 0.75 0.5 0.75 1.1 1.3 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.9 1.01 1.05 1.03 1 1 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1.2 1.2 1.25 1.2 1.2 1.25 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.25 0.5 0.25 0.5 0.5 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.2 0.1 0.2 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.95 0.9 0.9 0.9 0.95 1 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1 1 1.05 1 1 1.3 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulOvercastSnow.ini routes 4
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 0.85 0.85 0.85 0.85 0.85 1 
+   SKY.GradientTopIntensity 1 1 1 1 1 1.05 
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1.05 
+   SKY.GradientHorizonIntensity 0.95 1 1 1 0.95 0.9 
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 0.95 0.95 0.95 1 1.05 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.1 0.75 0.5 0.75 1.1 1.3 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.95 1 1 1 1 1.06 
+   ENVIRONMENT.FogColorCurve 1.05 1.05 1.04 1.04 1.04 0.98 
+   ENVIRONMENT.FogAmountMultiplier 1.5 1.25 1 1.25 1.5 2 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0.6 0.6 0.6 0.6 0.6 0.6 
+   SKYSCATTERING.Intensity 0.3 0.3 0.3 0.3 0.3 0.3 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0.2 0.1 0.2 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.85 0.85 0.85 0.85 0.85 0.95 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1.05 1 1 1 1.05 1.15 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulRainStorm.ini routes 7
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 1.05 
+   SKY.GradientTopIntensity 1 1 1 1 1 1.05 
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1.05 
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1.05 1 1 1.15 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.05 0.75 0.5 0.75 1.05 1.15 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.9 1.05 1.05 1.05 1.05 0.95 
+   ENVIRONMENT.FogColorCurve 0.99 0.99 0.99 0.99 0.99 0.99 
+   ENVIRONMENT.FogAmountMultiplier 0.75 0.8 0.8 0.8 0.7 0.6 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.95 0.9 0.9 0.9 0.95 1 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.95 0.7 0.6 0.65 0.9 1.05 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulSnowStorm.ini routes 6
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1.05 1 1 1 1.1 1.2 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 0.95 0.9 
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1 1 1 1 1 (=base)
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.1 0.75 0.75 0.75 1.1 1.2 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.95 1 1.05 1.02 0.95 1.01 
+   ENVIRONMENT.FogColorCurve 1.05 1 1 1 1.04 0.99 
+   ENVIRONMENT.FogAmountMultiplier 1.1 1.05 1 1.05 1.1 1.15 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.4 0.35 0.3 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.85 0.9 0.9 0.9 0.85 0.85 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1.1 1.1 1.1 1.1 1.1 1.1 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulWyrmstoothClear.ini routes 1
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (0.941,1,1) (1,1,1) (1,1,1) (1,1,1) 
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (0.961,1,1) (1,1,1) (1,1,1) (1,1,1) 
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 1 1 1 1 1 0.65 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 0.95 0.95 0.95 1 1 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1.05 1.05 1.1 1.05 1.05 1 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.9 1 1 1 0.95 0.9 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 1 1 0.75 1 1 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.5 0.75 0.5 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 0.5 0.5 0.5 0.5 0.5 0.5 
+   SKYSCATTERING.HorizonRange 0 0.5 0.25 0.5 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.5 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.5 0.35 0.3 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.75 0.85 0.85 0.85 0.65 0.6 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.4 1.1 0 1.05 0.4 0.55 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulWyrmstoothFog.ini routes 2
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 0.75 0.85 0.9 0.85 0.75 0.35 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 1 1 1 1 1 1 (=base)
+   SKY.CloudsColorFilter (0.686,1,1) (0.686,1,1) (0.686,1,1) (1,0.588,0.588) (1,0.784,0.784) (1,1,1) 
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1 1.05 1.1 1.05 1 0.5 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 0 0 0 1 0.5 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.95 0.9 0.8 0.7 0.6 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1.05 
+   ENVIRONMENT.FogAmountMultiplier 1.5 1.25 1.25 1.25 1.5 2 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0.5 0.75 0.5 0 0 
+   SKYSCATTERING.Amount 0.75 0.75 0.75 0.75 0.75 0.75 (=base)
+   SKYSCATTERING.Intensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   SKYSCATTERING.AtmosphereThickness 0.5 0.5 0.5 0.5 0.5 0.5 
+   SKYSCATTERING.HorizonRange 0 0.3 0.15 0.3 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0.5 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.45 0.35 0.3 0.25 (=base)
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.65 0.85 0.85 0.85 0.6 0.45 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 0.5 0.6 0.5 0.55 0.5 0.25 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 
+== SoulWyrmstoothStorm.ini routes 1
+   SKY.GradientTopColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientMiddleColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientHorizonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.GradientDesaturation 0 0 0 0 0 0 (=base)
+   SKY.GradientIntensity 0.95 0.85 0.75 0.85 0.9 0.9 
+   SKY.GradientTopIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientMiddleIntensity 1 1 1 1 1 1 (=base)
+   SKY.GradientHorizonIntensity 0.95 0.95 0.9 0.95 0.95 0.9 
+   SKY.CloudsColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.CloudsDesaturation 0 0 0 0 0 0 (=base)
+   SKY.CloudsIntensity 1.25 1.25 1.35 1.25 1.15 1.1 
+   SKY.SunColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKY.SunDesaturation 0 0 0 0 0 0 (=base)
+   SKY.MoonColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   ENVIRONMENT.DirectLightingColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.DirectLightingIntensity 1 0 0 0 1 0.5 
+   ENVIRONMENT.AmbientLightingDesaturation 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.AmbientLightingIntensity 0.5 0.5 0.5 0.5 0.5 0.5 (=base)
+   ENVIRONMENT.FogColorFilter (1,1,1) (0.843,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) 
+   ENVIRONMENT.FogColorFilterAmount 0 0 0 0 0 0 (=base)
+   ENVIRONMENT.FogColorMultiplier 0.85 0.85 0.9 0.9 0.85 0.85 
+   ENVIRONMENT.FogColorCurve 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.FogAmountMultiplier 0.5 0.5 0.25 0.5 0.5 1 
+   ENVIRONMENT.FogCurveMultiplier 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.ColorPow 1 1 1 1 1 1 (=base)
+   ENVIRONMENT.PointLightingDesaturation 0 0.15 0.3 0.15 0 -0.15 
+   SKYSCATTERING.ScatteringColor (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   SKYSCATTERING.ColorFromSun 0 0 0 0 0 0 
+   SKYSCATTERING.Amount 0 0 0 0 0 0 
+   SKYSCATTERING.Intensity 0 0 0 0 0 0 
+   SKYSCATTERING.AtmosphereThickness 1 1 1 1 1 1 (=base)
+   SKYSCATTERING.HorizonRange 0 0 0 0 0 0 
+   SKYSCATTERING.SunGlowIntensity 0 0 0 0 0 0 
+   SKYSCATTERING.AirGlowIntensity 0.3 0.35 0.4 0.35 0.3 0.25 
+   SKYSCATTERING.DustVolume 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   SKYSCATTERING.DustDensity 0.25 0.25 0.25 0.25 0.25 0.25 (=base)
+   VOLUMETRICFOG.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   VOLUMETRICFOG.Intensity 0.8 0.8 0.8 0.8 0.8 0.8 
+   VOLUMETRICFOG.Opacity 1 1 1 1 1 1 (=base)
+   GAMEVOLUMETRICRAYS.ColorFilter (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (1,1,1) (=base)
+   GAMEVOLUMETRICRAYS.Desaturation 0 0 0 0 0 0 (=base)
+   GAMEVOLUMETRICRAYS.Intensity 1 1.1 1.1 1.1 1 0.75 
+   IMAGEBASEDLIGHTING.MultiplicativeAmount 0.8 0.4 0.4 0.4 0.8 1.2 
+   CLOUDSHADOWS.Amount 0.8 0.8 0.8 0.8 0.8 0.8 

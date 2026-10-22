@@ -1,0 +1,20 @@
+D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|##########| 13/13 [00:00<00:00, 328469.59it/s]
+Loading weights:   0%|          | 0/313 [00:00<?, ?it/s]Loading weights:  54%|#####3    | 169/313 [00:00<00:00, 1689.10it/s]Loading weights: 100%|##########| 313/313 [00:00<00:00, 1835.25it/s]
+Loading weights:   0%|          | 0/527 [00:00<?, ?it/s]Loading weights:  44%|####4     | 234/527 [00:00<00:00, 2336.66it/s]Loading weights:  89%|########8 | 468/527 [00:00<00:00, 2334.17it/s]Loading weights: 100%|##########| 527/527 [00:00<00:00, 2268.72it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/587 [00:00<?, ?it/s]Loading weights: 100%|##########| 587/587 [00:00<00:00, 12865.56it/s]
+A custom logits processor of type <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> has been passed to `.generate()`, but it was also created in `.generate()`, given its parameterization. The custom <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> will take precedence. Please check the docstring of <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> to see related `.generate()` flags.
+A custom logits processor of type <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> has been passed to `.generate()`, but it was also created in `.generate()`, given its parameterization. The custom <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> will take precedence. Please check the docstring of <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> to see related `.generate()` flags.
+1 kaidan 0.0 [] Come here, little one. I've got you.
+2 kaidan 0.0 [] Hand them over, love. Go on, I'll keep them safe.
+3 kaidan 0.0 [] Look at that face. Aye, I've got them. Take a breath, lass.
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+4 kaidan 0.0 [] Here you go, back to your mama. No trouble at all.
+5 kaidan 0.0 [] Already? They like me better, you know.
+6 kaidan 0.0 [] Careful now. They only just dozed off.
+7 luna 0.0 [] Can you hold the baby for a while?
+8 luna 0.0 [] I'll take the baby back now.
+wavs ready in C:\1. AUTHORIA\Notes and Files\KAIDAN HOLDS BABY VOICE

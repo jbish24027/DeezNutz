@@ -1,0 +1,8970 @@
+{
+ "19FA01": {
+  "edid": "PIC_WTHR_MASTER_A01_Clear",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       87,
+       63,
+       108,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       78,
+       65,
+       116,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       48,
+       98,
+       0
+      ],
+      [
+       57,
+       46,
+       83,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       95,
+       195,
+       0
+      ],
+      [
+       111,
+       89,
+       156,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       20,
+       45,
+       110,
+       0
+      ],
+      [
+       23,
+       45,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       40,
+       90,
+       220,
+       0
+      ],
+      [
+       50,
+       91,
+       197,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       78,
+       60,
+       114,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       87,
+       58,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       82,
+       59,
+       111,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       82,
+       59,
+       111,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       45,
+       98,
+       0
+      ],
+      [
+       55,
+       44,
+       82,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       89,
+       195,
+       0
+      ],
+      [
+       109,
+       84,
+       154,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A001:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A002:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A003:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 144,
+    "count_baby": 156,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FA02": {
+  "edid": "PIC_WTHR_MASTER_A02_Clear_Aurora",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       87,
+       63,
+       108,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       78,
+       65,
+       116,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       48,
+       98,
+       0
+      ],
+      [
+       57,
+       46,
+       83,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       95,
+       195,
+       0
+      ],
+      [
+       111,
+       89,
+       156,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       146,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       20,
+       45,
+       110,
+       0
+      ],
+      [
+       23,
+       45,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       40,
+       90,
+       220,
+       0
+      ],
+      [
+       50,
+       91,
+       197,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       78,
+       60,
+       114,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       87,
+       58,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       82,
+       59,
+       111,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       82,
+       59,
+       111,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       45,
+       98,
+       0
+      ],
+      [
+       55,
+       44,
+       82,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       89,
+       195,
+       0
+      ],
+      [
+       109,
+       84,
+       154,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A001:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A002:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A003:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080C:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FA03": {
+  "edid": "PIC_WTHR_MASTER_A03_Clear_Mist",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       87,
+       69,
+       103,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       81,
+       70,
+       110,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       83,
+       70,
+       105,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       83,
+       70,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       50,
+       52,
+       87,
+       0
+      ],
+      [
+       57,
+       51,
+       77,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       100,
+       104,
+       175,
+       0
+      ],
+      [
+       122,
+       100,
+       150,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       43,
+       67,
+       131,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       42,
+       67,
+       132,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       43,
+       67,
+       131,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       43,
+       67,
+       131,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       56,
+       97,
+       189,
+       0
+      ],
+      [
+       63,
+       97,
+       176,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       80,
+       66,
+       106,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       85,
+       65,
+       101,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       81,
+       66,
+       104,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       81,
+       66,
+       104,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       48,
+       48,
+       86,
+       0
+      ],
+      [
+       55,
+       47,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       99,
+       98,
+       172,
+       0
+      ],
+      [
+       121,
+       94,
+       146,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A001:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A002:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A003:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 146,
+    "count_baby": 158,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FB01": {
+  "edid": "PIC_WTHR_MASTER_B01_Lightly_Cloudy",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       90,
+       66,
+       109,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       82,
+       68,
+       115,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       86,
+       67,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       86,
+       67,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       48,
+       50,
+       98,
+       0
+      ],
+      [
+       60,
+       48,
+       83,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       100,
+       195,
+       0
+      ],
+      [
+       135,
+       97,
+       156,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       22,
+       47,
+       110,
+       0
+      ],
+      [
+       24,
+       47,
+       106,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       45,
+       95,
+       220,
+       0
+      ],
+      [
+       54,
+       96,
+       199,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       81,
+       64,
+       114,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       87,
+       63,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       111,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       111,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       47,
+       47,
+       98,
+       0
+      ],
+      [
+       57,
+       46,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       94,
+       195,
+       0
+      ],
+      [
+       135,
+       91,
+       155,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A005:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A006:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A007:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 147,
+    "count_baby": 159,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FB02": {
+  "edid": "PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       91,
+       66,
+       110,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       81,
+       68,
+       118,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       85,
+       67,
+       115,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       85,
+       67,
+       115,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       48,
+       50,
+       98,
+       0
+      ],
+      [
+       60,
+       48,
+       84,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       100,
+       195,
+       0
+      ],
+      [
+       137,
+       96,
+       160,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       36,
+       66,
+       146,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       36,
+       66,
+       146,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       22,
+       47,
+       110,
+       0
+      ],
+      [
+       25,
+       47,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       45,
+       95,
+       220,
+       0
+      ],
+      [
+       55,
+       96,
+       198,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       81,
+       64,
+       116,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       88,
+       63,
+       107,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       85,
+       63,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       85,
+       63,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       47,
+       47,
+       98,
+       0
+      ],
+      [
+       59,
+       45,
+       83,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       94,
+       195,
+       0
+      ],
+      [
+       135,
+       91,
+       158,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A005:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A006:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A007:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080C:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FB03": {
+  "edid": "PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       74,
+       77,
+       118,
+       0
+      ],
+      [
+       80,
+       77,
+       102,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       74,
+       77,
+       118,
+       0
+      ],
+      [
+       79,
+       77,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       74,
+       77,
+       118,
+       0
+      ],
+      [
+       80,
+       77,
+       103,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       74,
+       77,
+       118,
+       0
+      ],
+      [
+       80,
+       77,
+       103,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       53,
+       56,
+       84,
+       0
+      ],
+      [
+       56,
+       56,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       106,
+       109,
+       168,
+       0
+      ],
+      [
+       112,
+       110,
+       145,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       45,
+       72,
+       127,
+       0
+      ],
+      [
+       49,
+       72,
+       120,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       45,
+       72,
+       127,
+       0
+      ],
+      [
+       51,
+       71,
+       121,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       45,
+       72,
+       127,
+       0
+      ],
+      [
+       49,
+       72,
+       120,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       45,
+       72,
+       127,
+       0
+      ],
+      [
+       49,
+       72,
+       120,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       32,
+       51,
+       91,
+       0
+      ],
+      [
+       34,
+       51,
+       87,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       64,
+       102,
+       181,
+       0
+      ],
+      [
+       70,
+       102,
+       170,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       74,
+       73,
+       117,
+       0
+      ],
+      [
+       79,
+       73,
+       104,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       74,
+       73,
+       117,
+       0
+      ],
+      [
+       78,
+       74,
+       99,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       74,
+       73,
+       117,
+       0
+      ],
+      [
+       79,
+       73,
+       102,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       74,
+       73,
+       117,
+       0
+      ],
+      [
+       79,
+       73,
+       102,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       53,
+       52,
+       84,
+       0
+      ],
+      [
+       56,
+       52,
+       75,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       105,
+       104,
+       167,
+       0
+      ],
+      [
+       111,
+       105,
+       144,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      127
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      127
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A005:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A006:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A007:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080E:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 146,
+    "count_baby": 158,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FC01": {
+  "edid": "PIC_WTHR_MASTER_C01_Cloudy",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       50,
+       63,
+       129,
+       0
+      ],
+      [
+       61,
+       63,
+       103,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       50,
+       63,
+       129,
+       0
+      ],
+      [
+       60,
+       63,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       50,
+       63,
+       129,
+       0
+      ],
+      [
+       60,
+       63,
+       104,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       50,
+       63,
+       129,
+       0
+      ],
+      [
+       60,
+       63,
+       104,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       36,
+       45,
+       93,
+       0
+      ],
+      [
+       43,
+       45,
+       77,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       154,
+       90,
+       184,
+       0
+      ],
+      [
+       153,
+       94,
+       158,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       45,
+       76,
+       146,
+       0
+      ],
+      [
+       51,
+       76,
+       137,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       45,
+       76,
+       146,
+       0
+      ],
+      [
+       51,
+       76,
+       137,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       45,
+       76,
+       146,
+       0
+      ],
+      [
+       51,
+       76,
+       137,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       45,
+       76,
+       146,
+       0
+      ],
+      [
+       51,
+       76,
+       137,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       32,
+       54,
+       105,
+       0
+      ],
+      [
+       36,
+       54,
+       99,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       64,
+       106,
+       208,
+       0
+      ],
+      [
+       73,
+       106,
+       194,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       50,
+       61,
+       129,
+       0
+      ],
+      [
+       60,
+       61,
+       105,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       50,
+       61,
+       129,
+       0
+      ],
+      [
+       61,
+       61,
+       102,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       50,
+       61,
+       129,
+       0
+      ],
+      [
+       60,
+       61,
+       104,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       50,
+       61,
+       129,
+       0
+      ],
+      [
+       60,
+       61,
+       104,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       36,
+       43,
+       92,
+       0
+      ],
+      [
+       42,
+       43,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       153,
+       86,
+       183,
+       0
+      ],
+      [
+       152,
+       90,
+       157,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A009:Picta - Weathers of Aurbis.esm",
+      "00080A:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A010:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A011:Picta - Weathers of Aurbis.esm",
+      "000805:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080C:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 147,
+    "count_baby": 159,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FC02": {
+  "edid": "PIC_WTHR_MASTER_C02_Cloudy_Storm",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       55,
+       66,
+       112,
+       0
+      ],
+      [
+       63,
+       66,
+       92,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       55,
+       66,
+       112,
+       0
+      ],
+      [
+       61,
+       66,
+       96,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       55,
+       66,
+       112,
+       0
+      ],
+      [
+       62,
+       66,
+       94,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       55,
+       66,
+       112,
+       0
+      ],
+      [
+       62,
+       66,
+       94,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       39,
+       47,
+       80,
+       0
+      ],
+      [
+       43,
+       47,
+       69,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       142,
+       94,
+       160,
+       0
+      ],
+      [
+       140,
+       97,
+       141,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       50,
+       75,
+       128,
+       0
+      ],
+      [
+       53,
+       75,
+       123,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       50,
+       75,
+       128,
+       0
+      ],
+      [
+       53,
+       75,
+       123,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       50,
+       75,
+       128,
+       0
+      ],
+      [
+       53,
+       75,
+       123,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       50,
+       75,
+       128,
+       0
+      ],
+      [
+       53,
+       75,
+       123,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       36,
+       54,
+       92,
+       0
+      ],
+      [
+       38,
+       54,
+       89,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       71,
+       108,
+       182,
+       0
+      ],
+      [
+       76,
+       108,
+       174,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       55,
+       64,
+       112,
+       0
+      ],
+      [
+       61,
+       64,
+       96,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       55,
+       64,
+       112,
+       0
+      ],
+      [
+       60,
+       65,
+       91,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       55,
+       64,
+       112,
+       0
+      ],
+      [
+       62,
+       64,
+       94,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       55,
+       64,
+       112,
+       0
+      ],
+      [
+       62,
+       64,
+       94,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       39,
+       46,
+       80,
+       0
+      ],
+      [
+       43,
+       46,
+       69,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       141,
+       91,
+       159,
+       0
+      ],
+      [
+       139,
+       94,
+       139,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A017:Picta - Weathers of Aurbis.esm",
+      "00080A:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A018:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A019:Picta - Weathers of Aurbis.esm",
+      "000805:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 147,
+    "count_baby": 159,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FC03": {
+  "edid": "PIC_WTHR_MASTER_C03_Cloudy_Light_Fog",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       61,
+       73,
+       113,
+       0
+      ],
+      [
+       67,
+       73,
+       98,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       61,
+       73,
+       113,
+       0
+      ],
+      [
+       69,
+       72,
+       101,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       61,
+       73,
+       113,
+       0
+      ],
+      [
+       67,
+       73,
+       98,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       61,
+       73,
+       113,
+       0
+      ],
+      [
+       67,
+       73,
+       98,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       44,
+       53,
+       81,
+       0
+      ],
+      [
+       48,
+       53,
+       71,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       87,
+       104,
+       161,
+       0
+      ],
+      [
+       95,
+       104,
+       140,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       54,
+       76,
+       113,
+       0
+      ],
+      [
+       55,
+       76,
+       112,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       54,
+       76,
+       113,
+       0
+      ],
+      [
+       55,
+       76,
+       111,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       54,
+       76,
+       113,
+       0
+      ],
+      [
+       57,
+       75,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       54,
+       76,
+       113,
+       0
+      ],
+      [
+       57,
+       75,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       38,
+       54,
+       81,
+       0
+      ],
+      [
+       39,
+       54,
+       79,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       108,
+       161,
+       0
+      ],
+      [
+       81,
+       107,
+       158,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       61,
+       71,
+       112,
+       0
+      ],
+      [
+       66,
+       71,
+       99,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       61,
+       71,
+       112,
+       0
+      ],
+      [
+       67,
+       71,
+       96,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       61,
+       71,
+       112,
+       0
+      ],
+      [
+       67,
+       71,
+       97,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       61,
+       71,
+       112,
+       0
+      ],
+      [
+       67,
+       71,
+       97,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       44,
+       50,
+       80,
+       0
+      ],
+      [
+       47,
+       50,
+       72,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       86,
+       101,
+       160,
+       0
+      ],
+      [
+       95,
+       101,
+       137,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      127
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      127
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A009:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A010:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A011:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080E:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 146,
+    "count_baby": 158,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FC04": {
+  "edid": "PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       55,
+       72,
+       135,
+       0
+      ],
+      [
+       66,
+       72,
+       106,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       55,
+       72,
+       135,
+       0
+      ],
+      [
+       66,
+       72,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       55,
+       72,
+       135,
+       0
+      ],
+      [
+       66,
+       72,
+       106,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       55,
+       72,
+       135,
+       0
+      ],
+      [
+       66,
+       72,
+       106,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       51,
+       97,
+       0
+      ],
+      [
+       48,
+       51,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       151,
+       102,
+       193,
+       0
+      ],
+      [
+       151,
+       106,
+       160,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       54,
+       86,
+       160,
+       0
+      ],
+      [
+       62,
+       87,
+       140,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       54,
+       86,
+       160,
+       0
+      ],
+      [
+       62,
+       87,
+       140,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       54,
+       86,
+       160,
+       0
+      ],
+      [
+       62,
+       87,
+       140,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       54,
+       86,
+       160,
+       0
+      ],
+      [
+       62,
+       87,
+       140,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       39,
+       62,
+       115,
+       0
+      ],
+      [
+       44,
+       63,
+       101,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       77,
+       124,
+       228,
+       0
+      ],
+      [
+       88,
+       126,
+       198,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       55,
+       68,
+       135,
+       0
+      ],
+      [
+       63,
+       69,
+       105,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       55,
+       68,
+       135,
+       0
+      ],
+      [
+       63,
+       69,
+       105,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       55,
+       68,
+       135,
+       0
+      ],
+      [
+       63,
+       69,
+       105,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       55,
+       68,
+       135,
+       0
+      ],
+      [
+       63,
+       69,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       49,
+       97,
+       0
+      ],
+      [
+       48,
+       49,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       151,
+       98,
+       193,
+       0
+      ],
+      [
+       151,
+       102,
+       159,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A025:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A025:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A025:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "000810:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FC05": {
+  "edid": "PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       55,
+       67,
+       108,
+       0
+      ],
+      [
+       59,
+       67,
+       98,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       55,
+       67,
+       108,
+       0
+      ],
+      [
+       59,
+       67,
+       97,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       55,
+       67,
+       108,
+       0
+      ],
+      [
+       59,
+       67,
+       97,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       55,
+       67,
+       108,
+       0
+      ],
+      [
+       59,
+       67,
+       97,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       48,
+       78,
+       0
+      ],
+      [
+       43,
+       48,
+       70,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       129,
+       97,
+       155,
+       0
+      ],
+      [
+       121,
+       100,
+       150,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       50,
+       75,
+       119,
+       0
+      ],
+      [
+       53,
+       75,
+       113,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       50,
+       75,
+       119,
+       0
+      ],
+      [
+       53,
+       75,
+       114,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       50,
+       75,
+       119,
+       0
+      ],
+      [
+       53,
+       75,
+       114,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       50,
+       75,
+       119,
+       0
+      ],
+      [
+       53,
+       75,
+       114,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       36,
+       54,
+       85,
+       0
+      ],
+      [
+       38,
+       54,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       71,
+       106,
+       170,
+       0
+      ],
+      [
+       76,
+       106,
+       161,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       54,
+       66,
+       108,
+       0
+      ],
+      [
+       59,
+       66,
+       95,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       54,
+       66,
+       108,
+       0
+      ],
+      [
+       58,
+       66,
+       97,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       54,
+       66,
+       108,
+       0
+      ],
+      [
+       58,
+       66,
+       97,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       54,
+       66,
+       108,
+       0
+      ],
+      [
+       58,
+       66,
+       97,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       47,
+       78,
+       0
+      ],
+      [
+       43,
+       47,
+       70,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       129,
+       94,
+       154,
+       0
+      ],
+      [
+       118,
+       98,
+       149,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A025:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A025:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A025:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "000810:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FD01": {
+  "edid": "PIC_WTHR_MASTER_D01_Overcast",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       58,
+       72,
+       126,
+       0
+      ],
+      [
+       65,
+       72,
+       107,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       58,
+       72,
+       126,
+       0
+      ],
+      [
+       63,
+       73,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       58,
+       72,
+       126,
+       0
+      ],
+      [
+       62,
+       73,
+       107,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       58,
+       72,
+       126,
+       0
+      ],
+      [
+       62,
+       73,
+       107,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       42,
+       52,
+       91,
+       0
+      ],
+      [
+       47,
+       52,
+       77,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       146,
+       104,
+       180,
+       0
+      ],
+      [
+       136,
+       109,
+       166,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       52,
+       80,
+       138,
+       0
+      ],
+      [
+       57,
+       81,
+       124,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       52,
+       80,
+       138,
+       0
+      ],
+      [
+       57,
+       81,
+       124,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       52,
+       80,
+       138,
+       0
+      ],
+      [
+       57,
+       81,
+       124,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       52,
+       80,
+       138,
+       0
+      ],
+      [
+       57,
+       81,
+       124,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       38,
+       57,
+       99,
+       0
+      ],
+      [
+       43,
+       57,
+       90,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       75,
+       116,
+       198,
+       0
+      ],
+      [
+       82,
+       117,
+       180,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       57,
+       70,
+       125,
+       0
+      ],
+      [
+       62,
+       71,
+       104,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       57,
+       70,
+       125,
+       0
+      ],
+      [
+       62,
+       71,
+       104,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       57,
+       70,
+       125,
+       0
+      ],
+      [
+       62,
+       71,
+       104,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       57,
+       70,
+       125,
+       0
+      ],
+      [
+       62,
+       71,
+       104,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       41,
+       50,
+       90,
+       0
+      ],
+      [
+       46,
+       50,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       145,
+       100,
+       179,
+       0
+      ],
+      [
+       134,
+       105,
+       165,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      127
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      127
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A013:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A014:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A015:Picta - Weathers of Aurbis.esm",
+      "000803:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080E:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 147,
+    "count_baby": 159,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FD02": {
+  "edid": "PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       102,
+       122,
+       162,
+       0
+      ],
+      [
+       106,
+       122,
+       152,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       102,
+       122,
+       162,
+       0
+      ],
+      [
+       106,
+       122,
+       151,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       102,
+       122,
+       162,
+       0
+      ],
+      [
+       106,
+       122,
+       152,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       102,
+       122,
+       162,
+       0
+      ],
+      [
+       106,
+       122,
+       152,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       74,
+       88,
+       116,
+       0
+      ],
+      [
+       77,
+       88,
+       108,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       146,
+       174,
+       232,
+       0
+      ],
+      [
+       155,
+       173,
+       216,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       98,
+       132,
+       170,
+       0
+      ],
+      [
+       104,
+       131,
+       164,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       98,
+       132,
+       170,
+       0
+      ],
+      [
+       102,
+       132,
+       163,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       98,
+       132,
+       170,
+       0
+      ],
+      [
+       104,
+       131,
+       164,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       98,
+       132,
+       170,
+       0
+      ],
+      [
+       104,
+       131,
+       164,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       70,
+       94,
+       122,
+       0
+      ],
+      [
+       72,
+       94,
+       118,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       140,
+       187,
+       242,
+       0
+      ],
+      [
+       147,
+       186,
+       234,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       103,
+       120,
+       163,
+       0
+      ],
+      [
+       108,
+       120,
+       150,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       103,
+       120,
+       163,
+       0
+      ],
+      [
+       107,
+       120,
+       152,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       103,
+       120,
+       163,
+       0
+      ],
+      [
+       107,
+       120,
+       152,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       103,
+       120,
+       163,
+       0
+      ],
+      [
+       107,
+       120,
+       152,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       74,
+       86,
+       117,
+       0
+      ],
+      [
+       77,
+       86,
+       109,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       147,
+       171,
+       233,
+       0
+      ],
+      [
+       154,
+       171,
+       215,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      127
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      127
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A024:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A024:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A024:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080E:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 146,
+    "count_baby": 158,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FD03": {
+  "edid": "PIC_WTHR_MASTER_D03_Overcast_Rain_Light",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       50,
+       63,
+       107,
+       0
+      ],
+      [
+       57,
+       63,
+       88,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       148,
+       125,
+       213,
+       0
+      ],
+      [
+       152,
+       128,
+       180,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       49,
+       71,
+       108,
+       0
+      ],
+      [
+       53,
+       72,
+       96,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       97,
+       142,
+       215,
+       0
+      ],
+      [
+       106,
+       143,
+       194,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       50,
+       60,
+       107,
+       0
+      ],
+      [
+       55,
+       61,
+       86,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       148,
+       122,
+       213,
+       0
+      ],
+      [
+       151,
+       125,
+       180,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A026:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A026:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A026:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "000810:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FD04": {
+  "edid": "PIC_WTHR_MASTER_D04_Overcast_Rain_Medium",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       88,
+       148,
+       0
+      ],
+      [
+       80,
+       88,
+       122,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       50,
+       63,
+       107,
+       0
+      ],
+      [
+       57,
+       63,
+       88,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       148,
+       125,
+       213,
+       0
+      ],
+      [
+       152,
+       128,
+       180,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       68,
+       99,
+       150,
+       0
+      ],
+      [
+       74,
+       100,
+       134,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       49,
+       71,
+       108,
+       0
+      ],
+      [
+       53,
+       72,
+       96,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       97,
+       142,
+       215,
+       0
+      ],
+      [
+       106,
+       143,
+       194,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       84,
+       148,
+       0
+      ],
+      [
+       80,
+       84,
+       121,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       50,
+       60,
+       107,
+       0
+      ],
+      [
+       55,
+       61,
+       86,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       148,
+       122,
+       213,
+       0
+      ],
+      [
+       151,
+       125,
+       180,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A027:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A027:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A027:Picta - Weathers of Aurbis.esm",
+      "000804:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "000810:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FD05": {
+  "edid": "PIC_WTHR_MASTER_D05_Overcast_Snow_Light",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       119,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       118,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       118,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       118,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       97,
+       111,
+       155,
+       0
+      ],
+      [
+       101,
+       111,
+       145,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       129,
+       111,
+       155,
+       0
+      ],
+      [
+       123,
+       113,
+       154,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       88,
+       115,
+       163,
+       0
+      ],
+      [
+       90,
+       115,
+       159,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       88,
+       115,
+       163,
+       0
+      ],
+      [
+       90,
+       115,
+       159,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       80,
+       85,
+       115,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       79,
+       85,
+       117,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       80,
+       85,
+       115,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       80,
+       85,
+       115,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       96,
+       106,
+       153,
+       0
+      ],
+      [
+       100,
+       106,
+       143,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       128,
+       106,
+       153,
+       0
+      ],
+      [
+       122,
+       108,
+       152,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A026:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A026:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A026:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "000810:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FD06": {
+  "edid": "PIC_WTHR_MASTER_D06_Overcast_Snow_Medium",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       119,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       118,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       118,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       78,
+       89,
+       124,
+       0
+      ],
+      [
+       80,
+       89,
+       118,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       97,
+       111,
+       155,
+       0
+      ],
+      [
+       101,
+       111,
+       145,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       129,
+       111,
+       155,
+       0
+      ],
+      [
+       123,
+       113,
+       154,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       92,
+       131,
+       0
+      ],
+      [
+       72,
+       92,
+       127,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       88,
+       115,
+       163,
+       0
+      ],
+      [
+       90,
+       115,
+       159,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       88,
+       115,
+       163,
+       0
+      ],
+      [
+       90,
+       115,
+       159,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       80,
+       85,
+       115,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       79,
+       85,
+       117,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       80,
+       85,
+       115,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       77,
+       85,
+       123,
+       0
+      ],
+      [
+       80,
+       85,
+       115,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       96,
+       106,
+       153,
+       0
+      ],
+      [
+       100,
+       106,
+       143,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       128,
+       106,
+       153,
+       0
+      ],
+      [
+       122,
+       108,
+       152,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A027:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A027:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A027:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "000810:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FE01": {
+  "edid": "PIC_WTHR_MASTER_E01_Storm_Thunder",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       57,
+       79,
+       117,
+       0
+      ],
+      [
+       64,
+       79,
+       99,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       57,
+       79,
+       117,
+       0
+      ],
+      [
+       64,
+       79,
+       99,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       57,
+       79,
+       117,
+       0
+      ],
+      [
+       64,
+       79,
+       99,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       57,
+       79,
+       117,
+       0
+      ],
+      [
+       64,
+       79,
+       99,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       41,
+       57,
+       84,
+       0
+      ],
+      [
+       46,
+       57,
+       71,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       81,
+       114,
+       168,
+       0
+      ],
+      [
+       93,
+       113,
+       144,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       60,
+       92,
+       135,
+       0
+      ],
+      [
+       66,
+       92,
+       124,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       60,
+       92,
+       135,
+       0
+      ],
+      [
+       66,
+       92,
+       124,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       60,
+       92,
+       135,
+       0
+      ],
+      [
+       66,
+       92,
+       124,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       60,
+       92,
+       135,
+       0
+      ],
+      [
+       66,
+       92,
+       124,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       43,
+       65,
+       97,
+       0
+      ],
+      [
+       48,
+       65,
+       88,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       86,
+       131,
+       193,
+       0
+      ],
+      [
+       95,
+       131,
+       177,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       56,
+       77,
+       117,
+       0
+      ],
+      [
+       63,
+       77,
+       99,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       56,
+       77,
+       117,
+       0
+      ],
+      [
+       63,
+       77,
+       99,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       56,
+       77,
+       117,
+       0
+      ],
+      [
+       63,
+       77,
+       99,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       56,
+       77,
+       117,
+       0
+      ],
+      [
+       63,
+       77,
+       99,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       56,
+       84,
+       0
+      ],
+      [
+       45,
+       56,
+       71,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       81,
+       112,
+       168,
+       0
+      ],
+      [
+       93,
+       111,
+       143,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A017:Picta - Weathers of Aurbis.esm",
+      "000808:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A018:Picta - Weathers of Aurbis.esm",
+      "000808:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A019:Picta - Weathers of Aurbis.esm",
+      "000808:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FE02": {
+  "edid": "PIC_WTHR_MASTER_E02_Storm_Cold_Thunder",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       56,
+       78,
+       128,
+       0
+      ],
+      [
+       61,
+       78,
+       115,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       56,
+       78,
+       128,
+       0
+      ],
+      [
+       61,
+       78,
+       114,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       56,
+       78,
+       128,
+       0
+      ],
+      [
+       61,
+       78,
+       114,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       56,
+       78,
+       128,
+       0
+      ],
+      [
+       61,
+       78,
+       114,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       56,
+       92,
+       0
+      ],
+      [
+       44,
+       56,
+       82,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       80,
+       113,
+       183,
+       0
+      ],
+      [
+       87,
+       113,
+       164,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       59,
+       91,
+       147,
+       0
+      ],
+      [
+       63,
+       91,
+       140,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       59,
+       91,
+       147,
+       0
+      ],
+      [
+       63,
+       91,
+       140,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       59,
+       91,
+       147,
+       0
+      ],
+      [
+       63,
+       91,
+       140,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       59,
+       91,
+       147,
+       0
+      ],
+      [
+       63,
+       91,
+       140,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       43,
+       65,
+       105,
+       0
+      ],
+      [
+       46,
+       65,
+       99,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       85,
+       130,
+       210,
+       0
+      ],
+      [
+       88,
+       131,
+       200,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       56,
+       77,
+       127,
+       0
+      ],
+      [
+       61,
+       77,
+       113,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       56,
+       77,
+       127,
+       0
+      ],
+      [
+       61,
+       77,
+       114,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       56,
+       77,
+       127,
+       0
+      ],
+      [
+       61,
+       77,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       56,
+       77,
+       127,
+       0
+      ],
+      [
+       61,
+       77,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       40,
+       56,
+       91,
+       0
+      ],
+      [
+       44,
+       56,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       80,
+       110,
+       182,
+       0
+      ],
+      [
+       87,
+       110,
+       163,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A017:Picta - Weathers of Aurbis.esm",
+      "000801:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A018:Picta - Weathers of Aurbis.esm",
+      "000801:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A019:Picta - Weathers of Aurbis.esm",
+      "000801:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FE03": {
+  "edid": "PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       117,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       56,
+       75,
+       91,
+       0
+      ],
+      [
+       62,
+       74,
+       84,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       111,
+       148,
+       180,
+       0
+      ],
+      [
+       123,
+       146,
+       165,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       87,
+       115,
+       132,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       89,
+       114,
+       133,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       87,
+       115,
+       132,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       87,
+       115,
+       132,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       58,
+       82,
+       100,
+       0
+      ],
+      [
+       63,
+       81,
+       96,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       116,
+       163,
+       201,
+       0
+      ],
+      [
+       125,
+       162,
+       189,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       117,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       56,
+       74,
+       91,
+       0
+      ],
+      [
+       62,
+       73,
+       84,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       112,
+       147,
+       181,
+       0
+      ],
+      [
+       122,
+       146,
+       164,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A028:Picta - Weathers of Aurbis.esm",
+      "000809:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A028:Picta - Weathers of Aurbis.esm",
+      "000809:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A028:Picta - Weathers of Aurbis.esm",
+      "000809:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FE04": {
+  "edid": "PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       117,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       56,
+       75,
+       91,
+       0
+      ],
+      [
+       62,
+       74,
+       84,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       111,
+       148,
+       180,
+       0
+      ],
+      [
+       123,
+       146,
+       165,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       87,
+       115,
+       132,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       89,
+       114,
+       133,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       87,
+       115,
+       132,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       82,
+       115,
+       141,
+       0
+      ],
+      [
+       87,
+       115,
+       132,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       58,
+       82,
+       100,
+       0
+      ],
+      [
+       63,
+       81,
+       96,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       116,
+       163,
+       201,
+       0
+      ],
+      [
+       125,
+       162,
+       189,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       117,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       78,
+       104,
+       127,
+       0
+      ],
+      [
+       85,
+       103,
+       116,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       56,
+       74,
+       91,
+       0
+      ],
+      [
+       62,
+       73,
+       84,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       112,
+       147,
+       181,
+       0
+      ],
+      [
+       122,
+       146,
+       164,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A029:Picta - Weathers of Aurbis.esm",
+      "000809:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A029:Picta - Weathers of Aurbis.esm",
+      "000809:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A029:Picta - Weathers of Aurbis.esm",
+      "000809:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FE05": {
+  "edid": "PIC_WTHR_MASTER_E05_Storm_Snow_Heavy",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "ZMinus",
+      [
+       109,
+       132,
+       162,
+       0
+      ],
+      [
+       108,
+       132,
+       164,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A028:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A028:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A028:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "19FE06": {
+  "edid": "PIC_WTHR_MASTER_E06_Storm_Snow_Extreme",
+  "src": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "src_mod": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "ZMinus",
+      [
+       109,
+       132,
+       162,
+       0
+      ],
+      [
+       108,
+       132,
+       164,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A029:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A029:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A029:Picta - Weathers of Aurbis.esm",
+      "000802:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "5AFA01": {
+  "edid": "PIC_WTHR_SUMMER_A01_Clear",
+  "src": "Authoria - Patch - Picta Seasonal.esp",
+  "src_mod": "houseCARL - Authoria - Patch - Picta Seasonal",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       85,
+       64,
+       106,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       78,
+       65,
+       114,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       80,
+       65,
+       110,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       80,
+       65,
+       110,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       48,
+       98,
+       0
+      ],
+      [
+       55,
+       47,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       95,
+       195,
+       0
+      ],
+      [
+       108,
+       90,
+       154,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       20,
+       45,
+       110,
+       0
+      ],
+      [
+       23,
+       45,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       40,
+       90,
+       220,
+       0
+      ],
+      [
+       50,
+       91,
+       197,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       78,
+       60,
+       112,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       84,
+       59,
+       104,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       79,
+       60,
+       109,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       79,
+       60,
+       109,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       45,
+       98,
+       0
+      ],
+      [
+       55,
+       44,
+       80,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       89,
+       195,
+       0
+      ],
+      [
+       109,
+       84,
+       150,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A001:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A002:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A003:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 144,
+    "count_baby": 156,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "5AFA02": {
+  "edid": "PIC_WTHR_SUMMER_A02_Clear_Aurora",
+  "src": "Authoria - Patch - Picta Seasonal.esp",
+  "src_mod": "houseCARL - Authoria - Patch - Picta Seasonal",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       85,
+       64,
+       106,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       78,
+       65,
+       114,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       80,
+       65,
+       110,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       63,
+       67,
+       137,
+       0
+      ],
+      [
+       80,
+       65,
+       110,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       48,
+       98,
+       0
+      ],
+      [
+       55,
+       47,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       95,
+       195,
+       0
+      ],
+      [
+       108,
+       90,
+       154,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       28,
+       63,
+       154,
+       0
+      ],
+      [
+       33,
+       63,
+       145,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       20,
+       45,
+       110,
+       0
+      ],
+      [
+       23,
+       45,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       40,
+       90,
+       220,
+       0
+      ],
+      [
+       50,
+       91,
+       197,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       78,
+       60,
+       112,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       84,
+       59,
+       104,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       79,
+       60,
+       109,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       62,
+       62,
+       137,
+       0
+      ],
+      [
+       79,
+       60,
+       109,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       45,
+       45,
+       98,
+       0
+      ],
+      [
+       55,
+       44,
+       80,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       76,
+       89,
+       195,
+       0
+      ],
+      [
+       109,
+       84,
+       150,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A001:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A002:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A003:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080C:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "5AFA03": {
+  "edid": "PIC_WTHR_SUMMER_A03_Clear_Mist",
+  "src": "Authoria - Patch - Picta Seasonal.esp",
+  "src_mod": "houseCARL - Authoria - Patch - Picta Seasonal",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       87,
+       69,
+       103,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       81,
+       70,
+       110,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       83,
+       70,
+       105,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       70,
+       72,
+       122,
+       0
+      ],
+      [
+       83,
+       70,
+       105,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       50,
+       52,
+       87,
+       0
+      ],
+      [
+       57,
+       51,
+       77,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       100,
+       104,
+       175,
+       0
+      ],
+      [
+       122,
+       100,
+       150,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       43,
+       67,
+       131,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       42,
+       67,
+       132,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       43,
+       67,
+       131,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       39,
+       68,
+       133,
+       0
+      ],
+      [
+       43,
+       67,
+       131,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       56,
+       97,
+       189,
+       0
+      ],
+      [
+       63,
+       97,
+       176,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       80,
+       66,
+       106,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       85,
+       65,
+       101,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       81,
+       66,
+       104,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       68,
+       68,
+       121,
+       0
+      ],
+      [
+       81,
+       66,
+       104,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       48,
+       48,
+       86,
+       0
+      ],
+      [
+       55,
+       47,
+       76,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       99,
+       98,
+       172,
+       0
+      ],
+      [
+       121,
+       94,
+       146,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A001:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A002:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A003:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 146,
+    "count_baby": 158,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "5AFB01": {
+  "edid": "PIC_WTHR_SUMMER_B01_Lightly_Cloudy",
+  "src": "Authoria - Patch - Picta Seasonal.esp",
+  "src_mod": "houseCARL - Authoria - Patch - Picta Seasonal",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       90,
+       66,
+       109,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       82,
+       68,
+       115,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       86,
+       67,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       86,
+       67,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       48,
+       50,
+       98,
+       0
+      ],
+      [
+       60,
+       48,
+       83,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       100,
+       195,
+       0
+      ],
+      [
+       135,
+       97,
+       156,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       22,
+       47,
+       110,
+       0
+      ],
+      [
+       24,
+       47,
+       106,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       45,
+       95,
+       220,
+       0
+      ],
+      [
+       54,
+       96,
+       199,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       81,
+       64,
+       114,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       87,
+       63,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       111,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       111,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       47,
+       47,
+       98,
+       0
+      ],
+      [
+       57,
+       46,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       94,
+       195,
+       0
+      ],
+      [
+       135,
+       91,
+       155,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A005:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A006:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A007:Picta - Weathers of Aurbis.esm",
+      "000806:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "TNAM",
+    "added": [
+     "00080B:Mists of Tamriel.esp",
+     "00080C:Mists of Tamriel.esp",
+     "00080D:Mists of Tamriel.esp",
+     "00080E:Mists of Tamriel.esp",
+     "00080F:Mists of Tamriel.esp",
+     "000810:Mists of Tamriel.esp",
+     "000811:Mists of Tamriel.esp",
+     "000812:Mists of Tamriel.esp",
+     "000813:Mists of Tamriel.esp",
+     "000814:Mists of Tamriel.esp",
+     "000815:Mists of Tamriel.esp",
+     "000816:Mists of Tamriel.esp"
+    ],
+    "removed": [],
+    "order_of_existing_kept": true,
+    "count_src": 147,
+    "count_baby": 159,
+    "added_at_end": true
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ },
+ "5AFB02": {
+  "edid": "PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora",
+  "src": "Authoria - Patch - Picta Seasonal.esp",
+  "src_mod": "houseCARL - Authoria - Patch - Picta Seasonal",
+  "diffs": [
+   {
+    "sub": "DALC",
+    "time": "Sunrise",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       90,
+       66,
+       109,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       82,
+       68,
+       115,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       86,
+       67,
+       113,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       67,
+       70,
+       137,
+       0
+      ],
+      [
+       86,
+       67,
+       113,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       48,
+       50,
+       98,
+       0
+      ],
+      [
+       60,
+       48,
+       83,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       100,
+       195,
+       0
+      ],
+      [
+       135,
+       97,
+       156,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Day",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       31,
+       66,
+       154,
+       0
+      ],
+      [
+       35,
+       66,
+       147,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       22,
+       47,
+       110,
+       0
+      ],
+      [
+       24,
+       47,
+       106,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       45,
+       95,
+       220,
+       0
+      ],
+      [
+       54,
+       96,
+       199,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DALC",
+    "time": "Sunset",
+    "changes(src->baby)": [
+     [
+      "XPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       81,
+       64,
+       114,
+       0
+      ]
+     ],
+     [
+      "XMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       87,
+       63,
+       106,
+       0
+      ]
+     ],
+     [
+      "YPlus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       111,
+       0
+      ]
+     ],
+     [
+      "YMinus",
+      [
+       66,
+       66,
+       137,
+       0
+      ],
+      [
+       82,
+       64,
+       111,
+       0
+      ]
+     ],
+     [
+      "ZPlus",
+      [
+       47,
+       47,
+       98,
+       0
+      ],
+      [
+       57,
+       46,
+       81,
+       0
+      ]
+     ],
+     [
+      "ZMinus",
+      [
+       110,
+       94,
+       195,
+       0
+      ],
+      [
+       135,
+       91,
+       155,
+       0
+      ]
+     ]
+    ]
+   },
+   {
+    "sub": "DATA",
+    "changes(src->baby)": [
+     [
+      "VisualEffectBegin",
+      125,
+      0
+     ],
+     [
+      "VisualEffectEnd",
+      125,
+      0
+     ]
+    ],
+    "len": [
+     19,
+     19
+    ]
+   },
+   {
+    "sub": "HNAM",
+    "changes(src->baby)": [
+     [
+      "Sunrise",
+      "15A005:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Day",
+      "15A006:Picta - Weathers of Aurbis.esm",
+      "000800:Authoria - Patch - Picta x Astralite.esp"
+     ],
+     [
+      "Sunset",
+      "15A007:Picta - Weathers of Aurbis.esm",
+      "000807:Authoria - Patch - Picta x Astralite.esp"
+     ]
+    ]
+   },
+   {
+    "sub": "NNAM",
+    "src": [
+     null
+    ],
+    "baby": [
+     "00080C:Authoria - Patch - Picta x Astralite.esp"
+    ]
+   }
+  ],
+  "subrecord_sequence_mismatch": null
+ }
+}

@@ -1,0 +1,9 @@
+== Ulfric m: ulfric_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 252/ 7/648   sprint L 278/ 0/465   walk R 296/ 0/559   walk L 296/ 0/384
+   curled in (limit)      sprint R 361/ 6/767   sprint L 418/ 9/580   walk R 306/ 0/684   walk L 418/ 6/496
+   swung back .3/.15      sprint R 182/ 9/551   sprint L 217/14/392   walk R 201/ 7/498   walk L 230/18/272
+   swung forward .3/.15   sprint R 467/ 0/692   sprint L 329/ 0/580   walk R 157/ 0/ 46   walk L 143/ 0/ 91
+   swung sideways .3/.15  sprint R 309/ 0/650   sprint L 658/ 7/235   walk R 220/ 0/398   walk L 281/ 0/201
+   total caught/hooked/sunk 6019/83/9189; lining pts Front 378, Back 888, Side 1827
+
+EXIT 0

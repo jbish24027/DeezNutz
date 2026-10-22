@@ -1,0 +1,16 @@
+== Ulfric m _1: ulfric_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 378, Skirt Side 1827, Skirt Back 888
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18     11968    3689     612        0    7667   worst frame unseen 652
+      Skirt Front          entered   271 hooked  169 unseen    0
+      Skirt Side           entered 11697 hooked  443 unseen 7667  unseen z p10 44.9 p50 56.6 p90 60.1
+   run          10      6122     803     432        0    4887   worst frame unseen 920
+      Skirt Front          entered   281 hooked  249 unseen   32  unseen z p10 57.2 p50 57.3 p90 57.4
+      Skirt Side           entered  5349 hooked  156 unseen 4533  unseen z p10 55.4 p50 57.1 p90 61.8
+      Skirt Back           entered   492 hooked   27 unseen  322  unseen z p10 36.2 p50 40.2 p90 46.6
+   sprint       10      6494    1289     481        0    4724   worst frame unseen 1091
+      Skirt Front          entered   504 hooked  288 unseen   44  unseen z p10 57.2 p50 57.3 p90 58.3
+      Skirt Side           entered  5214 hooked  153 unseen 4081  unseen z p10 55.3 p50 57.2 p90 62.1
+      Skirt Back           entered   776 hooked   40 unseen  599  unseen z p10 30.9 p50 38.9 p90 45.2
+SUMMARY clips worst unseen/frame: 1091
+
+EXIT 0

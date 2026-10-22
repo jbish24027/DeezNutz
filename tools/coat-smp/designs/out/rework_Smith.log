@@ -1,0 +1,22 @@
+===== Smith
+piece Saia <- TorsoRig ('islands', 0, {2047: 4149}, (), 76.0): 1039 pts / 1826 tris (skirt:outer)
+skirt axis (-0.45, 1.53); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:64.0/59.8/55.7/51.5/47.3/43.2; 30:64.0/59.8/55.7/51.5/47.3/43.2; 60:64.0/59.8/55.5/51.3/47.1/42.8; 90:64.0/59.8/55.7/51.5/47.4/43.2; 120:64.0/61.7/59.3/57.0/54.6/52.3; 150:64.0/61.8/59.7/57.5/55.4/53.2; -180:64.0/61.8/59.5/57.3/55.0/52.8; -150:64.0/61.8/59.6/57.4/55.2/53.0; -120:64.0/61.7/59.3/57.0/54.6/52.3; -90:64.0/59.9/55.7/51.6/47.5/43.4; -60:64.0/59.8/55.5/51.3/47.1/42.8; -30:64.0/59.8/55.7/51.5/47.4/43.2
+tip rows ; flap hinges 
+legs from TorsoRig (2112 tris above z 15.0), winding outward 94%
+m: lining to the trousers at rest: p10 0.04 median 1.46; free share p10 0.15 median 0.85
+m: Saia is cut out of TorsoRig: 68 seam points (z 74.3..76.0) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 1237 of 1238 lining pts (z 42.9..62.3) take the sheet's weights at their spot; 1 project onto no sheet and keep their own
+m: skirt Saia 3904 pts (1928 move); tip 0 pts
+m: legs collider pulled in at 248 of 1106 pts (max 1.71); lining points Saia 980/980
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 8 seam points pinned to the remainder's weights
+m: TorsoRig: 68 seam points of ['Saia'] to weld into the remainder
+m: TorsoRig: 68 of 68 seam points welded into the remainder (68 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/blacksmith/m/torso_1.nif; shapes (pts, tris) {'TorsoRig': (8406, 15114), 'Saia': (3904, 7304), 'HIMBO - Body': (793, 1362), 'ABS Legs Front': (512, 844), 'ABS Legs Back': (497, 792), 'ABS Legs Side': (690, 988), 'ABS Skirt Front': (402, 656), 'ABS Skirt Side': (354, 459), 'ABS Skirt Back': (224, 319), 'VirtualGround': (4, 2)}; bones per shape {'TorsoRig': 33, 'Saia': 71, 'HIMBO - Body': 16, 'ABS Legs Front': 7, 'ABS Legs Back': 6, 'ABS Legs Side': 8, 'ABS Skirt Front': 28, 'ABS Skirt Side': 44, 'ABS Skirt Back': 23, 'VirtualGround': 1}
+m: Saia: 8 seam points pinned to the remainder's weights
+m: TorsoRig: 68 seam points of ['Saia'] to weld into the remainder
+m: TorsoRig: 68 of 68 seam points welded into the remainder (68 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/blacksmith/m/torso_0.nif; shapes (pts, tris) {'TorsoRig': (8406, 15114), 'Saia': (3904, 7304), 'HIMBO - Body': (793, 1362), 'ABS Legs Front': (512, 844), 'ABS Legs Back': (497, 792), 'ABS Legs Side': (690, 988), 'ABS Skirt Front': (402, 656), 'ABS Skirt Side': (354, 459), 'ABS Skirt Back': (224, 319), 'VirtualGround': (4, 2)}; bones per shape {'TorsoRig': 33, 'Saia': 71, 'HIMBO - Body': 16, 'ABS Legs Front': 7, 'ABS Legs Back': 6, 'ABS Legs Side': 8, 'ABS Skirt Front': 28, 'ABS Skirt Side': 44, 'ABS Skirt Back': 23, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\BlacksmithM.xml (436 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]

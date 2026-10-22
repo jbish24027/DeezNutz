@@ -1,0 +1,52 @@
+{
+ "5AFA01 13.0 fog_far": {
+  "gap_picta": 0.004,
+  "gap_baby": 0.004,
+  "kept": 1.01
+ },
+ "5AFA01 13.0 sunlight": {
+  "gap_picta": 0.0057,
+  "gap_baby": 0.0061,
+  "kept": 1.06
+ },
+ "5AFA02 13.0 fog_far": {
+  "gap_picta": 0.004,
+  "gap_baby": 0.004,
+  "kept": 1.01
+ },
+ "5AFA02 13.0 sunlight": {
+  "gap_picta": 0.0057,
+  "gap_baby": 0.0061,
+  "kept": 1.06
+ },
+ "5AFA03 13.0 fog_far": {
+  "gap_picta": 0.0038,
+  "gap_baby": 0.0038,
+  "kept": 1.0
+ },
+ "5AFA03 13.0 sunlight": {
+  "gap_picta": 0.0053,
+  "gap_baby": 0.0052,
+  "kept": 0.99
+ },
+ "5AFB01 13.0 fog_far": {
+  "gap_picta": 0.0039,
+  "gap_baby": 0.004,
+  "kept": 1.02
+ },
+ "5AFB01 13.0 sunlight": {
+  "gap_picta": 0.0057,
+  "gap_baby": 0.006,
+  "kept": 1.05
+ },
+ "5AFB02 13.0 fog_far": {
+  "gap_picta": 0.0039,
+  "gap_baby": 0.004,
+  "kept": 1.02
+ },
+ "5AFB02 13.0 sunlight": {
+  "gap_picta": 0.0057,
+  "gap_baby": 0.006,
+  "kept": 1.05
+ }
+}

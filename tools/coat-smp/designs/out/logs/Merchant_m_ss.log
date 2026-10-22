@@ -1,0 +1,9 @@
+== Merchant m: outfitm_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 205/12/ 65   sprint L 203/ 8/ 45   walk R  98/ 1/ 45   walk L 110/ 1/ 58
+   curled in (limit)      sprint R 115/29/158   sprint L 163/16/170   walk R 178/ 1/ 91   walk L 193/ 1/ 94
+   swung back .3/.15      sprint R  41/ 3/ 18   sprint L  42/ 8/ 42   walk R  68/ 4/ 30   walk L  58/14/ 52
+   swung forward .3/.15   sprint R 108/ 1/132   sprint L 142/ 1/150   walk R  95/ 1/ 46   walk L 113/ 1/ 31
+   swung sideways .3/.15  sprint R 130/ 3/ 71   sprint L  97/13/ 95   walk R  71/ 1/ 33   walk L 129/ 2/ 33
+   total caught/hooked/sunk 2359/121/1459; lining pts Front 99, Back 294, Side 295
+
+EXIT 0

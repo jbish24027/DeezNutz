@@ -1,0 +1,245 @@
+{
+ "lens": "fog-mist",
+ "summary": "LENS fog/mist, read-only. In this instance, \"Astralite fog and mists\" breaks into 6 parts, and most of them are records or ini settings, not asset swaps:\n(1) Weather-record fog: Astralite overrides the vanilla WTHR records rather than adding new ones. Clear and cloudy fog starts 15000 out (3000 on some cloudy variants), with far 350000, power 0.6 and max 0.7. Fog weathers use near 0, far 10000-25000, power 0.5-0.7, max 0.85-1.0. Picta's 26 master and 5 summer weathers use near 0, far 150000, power 1.0, max 0.9 almost everywhere. Picta builds its fog in E11 instead: FogAmountMultiplier 1-10 divides near/far, FogCurveMultiplier 0.4-0.9 scales power, plus its own placed fog statics.\n(2) VOLI records, the biggest real difference. Astralite VOLIs have Intensity 7-14, DensityContribution 0.85-1.0 with noise (size 1-30, wind 15, fall 3) and tinted custom colours (blue/purple/gold fog, contribution 0.5-1.0). These are visible coloured volumetric fog. Picta VOLIs have Intensity 1-1.5, density 0 and custom colour 0, so they give pure god rays. Bottled's Volumetric Lighting feature forces vanilla VL on in exteriors (shared SettingsUser ExteriorEnabled=true). E11 [GAMEVOLUMETRICRAYS] Intensity multiplies the VOLI intensity (Effects11Priority 0 = Effects11).\n(3) Weather VisualEffect (RFCT) on Astralite weathers. These are camera-attached \"Distant_Mounts\" fog-ring particle meshes (Soul Core distant_mounts_lite/heavy/rain.nif + Distant_Fogs_*.dds, Distant_rain.nif). Fog weathers also use vanilla camera-attach fog/turbulent/wispy ARTOs through Astralite ENB RFCTs. Picta weathers use no fog VFX; only the storms have needles.\n(4) Mists of Tamriel animated distant mists (MistsAnimated, about 250 refs, switch on by default). Astralite ENB.esp, which masters MoT, lists MoT statics 080B-0816 in SkyStatics on 31 of its rotating weathers. In the Picta lane only MoT's own 17 vanilla weather overrides list them, and no Tamriel region rotates those weathers. Those mists are therefore dormant in the Picta lane, assuming the weather sky-static rule works as below.\n(5) Volumetric mists: a re-skin of MoT's own meshes. Astralite and Soul Core ship byte-identical copies of MoT's 5 MistsVolumetric NIFs and textures/volmist/mist1.dds. Changes vs MoT: emissive multiple 5/10 cut to 0.9, Greyscale_To_PaletteColor switched on (uses MoT's mistlut.dds), Solstheim meshes cut from 20 shapes to 5, and falloff opacity lowered. MoT wins those paths in the Picta lane and Soul Core wins in the PBR lane. All Skyrim volumetric mist refs are enable-parented to MoT MCM markers that start disabled, so they show only if the MCM toggle was switched on.\n(6) The Astralite CS override JSONs are not fog-related and are already no-ops. Their values are already in the shared overwrite SettingsUser.json, and the SkySync offset keys do not exist in Bottled.\nShared by both lanes and not transferable: No More Blinding Fog wins all camera-attach fog meshes, LUX wins fxmistlow01long and fxsmokewispslgvol01, MoT morning fog (404 refs, 4-7 AM, 100% chance) runs in both, and the interior-fog removers are the same in both.\nE11 in Bottled reads [ENVIRONMENT] FogColorMultiplier/FogColorCurve/FogColorFilter(+Amount)/FogCurveMultiplier/FogAmountMultiplier, [VOLUMETRICFOG] Intensity/Curve/Opacity/ShadowAmount/ColorFilter/EnableLighting/EnableShadows, [GAMEVOLUMETRICRAYS] Intensity/RangeFactor/Desaturation/ColorFilter and [PARTICLE]. It reads no FogHeight keys, and neither lane has any. Every fog/mist mesh involved has Effect_Lighting set, so per Bottled's Effect.hlsl macro [VOLUMETRICFOG] does not touch them. Their look is driven by E11 [PARTICLE] Lighting/Ambient influence: Picta per-weather 0.15/0.5, Astralite 0.5/0.5. Exponential Height Fog is disabled in the shared settings.",
+ "facts": [
+  {
+   "claim": "MO2 modlist.txt lists mods highest-priority first (top line wins).",
+   "evidence": "Separators sit after their members in the file (e.g. 'Visuals - Weather and Sky_separator' at line 3407, the SKSE separator at the end). houseCARL's own provider chain for meshes/effects/fxcameraattachblowingfog.nif reads 'No More Blinding Fog' > 'Picta - Assets 4K' > 'Picta 1.1.1 (shipped)', matching top = winner.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In the PBR lane, Soul Core Plugin and Assets wins MistsVolumetric/*.nif and volmist/mist1.dds (its copies are identical to Astralite's). In the Picta lane, Mists of Tamriel's originals win.",
+   "evidence": "winners_picta.json / winners_pbr.json / asset_matrix.json. md5: SkyrimVolMistBalanced AW=SC=69051d94 vs MoT a783d0bc; mist1.dds AW=SC=fa14c738 (256x256 BC7) vs MoT 281b5af4 (256x256 A16B16G16R16).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite's volumetric mist meshes re-skin MoT's: same texture paths, Greyscale_To_PaletteColor added (SLSF1 0xE0000048 -> 0xE0000058), emissive multiple 5.0/10.0 -> 0.9, falloff start opacity 0.15 -> 0.125 (Balanced) / 0.10 (Subtle), Solstheim A/B cut from 20 shapes to 5.",
+   "evidence": "nifshader.py parse -> nif_mists.json and nif_sol.json. MoT Balanced emis_mult [5,5,0.9,0.9], Dense [10,10,0.9,0.9]; AW all 0.9. AW Subtle has 4 shapes vs MoT 2.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "MoT's Skyrim volumetric mists (35 Subtle, 35 Balanced, 35 Dense, 24 Solstheim refs) are enable-parented to XMarkers k747VolMistSubtle/Medium/Dense (005B1A/1B/1C:Mists of Tamriel.esp), which are flagged InitiallyDisabled. They appear only after the MoT MCM toggles are switched on.",
+   "evidence": "housecarl_records on the markers: SkyrimMajorRecordFlags=3072 (InitiallyDisabled). mot_volrefs.jsonl enable-parent tally. volmistfogmcmmenu.psc defaults MistsValS/M/D=False.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite's mist meshes only matter if MoT volumetric mists are enabled in the save. Otherwise nothing in the PBR lane renders them.",
+   "evidence": "Follows from the two facts above. misttest_1.nif has no referencing record and textures/volmist/mist_light.dds is referenced by no AW/SC mesh.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Mists of Tamriel.esp is active in both lanes. In the Picta lane it is at plugins.txt line 1256, just before Picta - Weathers of Skyrim.esp. It wins 17 vanilla WTHR (SkyrimCloudyMA/CO/RE/FF/TU/VT and _A variants, SkyrimFogMA, RiftenOvercastFog, DefaultWeather, SkyrimCloudy_A, SkyrimCloudySN_A) that add its MistsAnimated statics to SkyStatics.",
+   "evidence": "housecarl_load_order_status filter, plus records types=WTHR where SkyStatics[*any]=00080B:Mists of Tamriel.esp (17 hits, all won by MoT).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In the Picta lane no Skyrim region rotates those 17 MoT-carrying weathers. Only Bruma (BSHeartland), Olenveld, Icemoth, ksws07 and Inigo regions, two FormLists (Shadow of Skyrim, Frostfall) and two quests reference them.",
+   "evidence": "records references=[17 weathers] types REGN/CLMT/FLST/QUST.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Because of that, MoT's animated distant mists are effectively never visible in Skyrim in the Picta lane. In the PBR lane they show during 31 Astralite rotating weathers (SkyrimClear, all Cloudy*, Clear*_A, SkyrimFog/FogMA/FogVT, RiftenOvercastFog, Seasons_CloudyRain, WyrmstoothClear...).",
+   "evidence": "Dawn Warmth winners: 31 weathers list 00080B-000816:MoT in SkyStatics. Relies on the engine rule that a STAT in any weather's TNAM is shown only while the current weather lists it.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Picta has its own weather-bound fog statics: PIC_STAT_Volumetric_Fog (29A001) and Volumetric_Mountain_Fog/_50/_25 (29A002-4), 1241 placed refs. They are listed in Picta weather SkyStatics: Clear_Mist/Misty_Fog/Light_Fog/Heavy_Fog get ground fog plus mountain fog, the other masters mountain fog only.",
+   "evidence": "records where Model.File contains picta, references to 29A001-29A004 (PlacedObject 1241, Weather 36).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite VisualEffects on weathers: Distant_Mounts_Lite (000834) on most clear/cloudy, Distant_Mounts_Rain (00081C), Distant_Mounts_Heavy (000812), Distant_Rain (00081D), and k747_FXCameraAttachFog/Turbulent/Wispy (000833/00081F/00080F -> vanilla ARTO 0B94CC/0B94D0/0B96F0). Picta masters have a null VisualEffect except storms (0B94FC needles).",
+   "evidence": "astralite_enb ARTO/RFCT dump, weather_fog_compare.json VisualEffect column.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Soul Core distant-fog assets (distant_mounts_lite/heavy/rain.nif, distant_rain.nif, Distant_Fogs_Lite/Heavy/Rain.dds, Distant_Rain.dds, vivid*/NLASandStorm) have no provider in the Picta lane, so carrying them in creates no file conflict.",
+   "evidence": "winners_picta.json: ABSENT for all of those paths.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Camera-attach fog meshes (fog, groundfog, turbulent, wispy, blowing) are won by No More Blinding Fog in both lanes. Soul Core's copies are byte-identical to NMBF's; Astralite's blowingfog and Picta 4K's versions lose.",
+   "evidence": "asset_matrix.json md5: SC == NMBF for 4 meshes; NMBF wins in both profiles.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "fxmistlow01long.nif and fxsmokewispslgvol01.nif are won by 'Lux (main) - rerun' in both lanes. The MoT, Soul Core and Picta 4K copies lose.",
+   "evidence": "asset_matrix.json.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Effective day fog after E11 (near/far, power, max). Astralite clear: 21429/500000, p0.6, m0.7. Picta clear: 0/150000, p0.9, m0.9. Astralite fog: 0/8.7k-19k, p0.5-0.6, m0.85-1.0. Picta misty: 0/150000, p0.65, plus statics and VOLUMETRICFOG opacity. Picta heavy fog: 0/5000, p0.4, m0.95. Astralite storm snow: 0/5000. Astralite overcast snow: 5000/320000. Picta snow: 0/13k-20k.",
+   "evidence": "effective_fog_after_e11.json (WTHR FogDistance divided by E11 FogAmountMultiplier, power times FogCurveMultiplier, using each lane's routed ini).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite VOLI (LAM_* in Astralite Weathers.esp / Astralite ENB.esp): Intensity 7-14 (storm 1.25-2.5), DensityContribution 0.85-1.0 (night 0), DensitySize 1-30, wind 15, fall 3, custom colour 0.5-1.0, tinted (LAM_FogVL_Blue 0.188/0.227/0.365, used for sunrise/day/sunset about 145 region-weighted times). Picta VOLI: Intensity 1.0-1.5, density 0, custom colour 0, phase scattering only.",
+   "evidence": "voli_compare.json.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled multiplies weather VOLI intensity by the E11 [GAMEVOLUMETRICRAYS] Intensity<ToD> and the sampling range by RangeFactor. In the shared SettingsUser, Effects11Priority=0 (Effects11) and Volumetric Lighting ExteriorEnabled=true, which forces bEnableVolumetricLighting in exteriors.",
+   "evidence": "Bottled src Effects11.cpp L708-713, VolumetricLighting.cpp SetupVL/ApplyGodRaySettings, overwrite SettingsUser.json 'Volumetric Lighting'.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "E11 GAMEVOLUMETRICRAYS Intensity: the Picta per-weather inis use Sunrise 2.0 / Day 4.0 / Night 8.0 (RangeFactor 0.1-10.1). The Soul Core inis use Clear Day 0.25 / Sunrise 1.15 / Night 0.7 and Cloudy Day 1.1 (RangeFactor 1.0).",
+   "evidence": "e11_table.txt / e11_fog_keys.json.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled E11 fog keys actually read: ENVIRONMENT FogColorMultiplier, FogColorCurve, FogColorFilter, FogColorFilterAmount, FogCurveMultiplier (multiplies fogPower), FogAmountMultiplier (divides fogNear/fogFar); VOLUMETRICFOG Intensity/Curve/Opacity/ShadowAmount/ColorFilter/EnableLighting/EnableShadows; GAMEVOLUMETRICRAYS Intensity/RangeFactor/Desaturation/ColorFilter/DisableGameDithering; PARTICLE Intensity/LightingInfluence/AmbientInfluence/PointLightingInfluence. No FogHeight keys exist in Bottled or in either lane's inis.",
+   "evidence": "Bottled Bottle-Compendium src/Features/Effects11.cpp L284-331, L566-603 (downloaded to scratch src/).",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled applies E11 [VOLUMETRICFOG] only to effect meshes that are soft, falloff, vertex-coloured, palette-alpha but not palette-colour, and NOT effect-lit. Every fog/mist mesh here (MoT/Astralite volumetric mists, Picta Volumetric_Fog, distant_mounts, camera fog, fxmistlow) has SLSF2 Effect_Lighting set, so their look comes from E11 [PARTICLE] Lighting/AmbientInfluence plus NIF emissive.",
+   "evidence": "Installed Bottled Shaders/Effect.hlsl L12-17 IS_VOLUMETRIC_FOG macro and L698-703 / GetLightingColor L506-510; flag classification run over the parsed NIFs. Assumes Bottled's LIGHTING permutation corresponds to SLSF2 Effect_Lighting.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "E11 PARTICLE base keys: Picta Darkened LightingInfluence 0.01 base, 0.15 per-weather, AmbientInfluence 0.5/0.35. NAT plain and Soul Core use 0.5/0.5. EnableVolumetricRays: Picta true, NAT plain false.",
+   "evidence": "e11_fog_keys.json.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Picta lane's base enbseries.ini (Darkened) has FogColorMultiplier Day 12.5 / Night 0.0, FogAmountMultiplier 0.75, FogCurveMultiplier 2.0, VOLUMETRICFOG Intensity 40, PARTICLE IntensityDay 30. These apply to any weather not routed in Picta's 41-section _weatherlist. Of the vanilla IDs, only 10A240/10E1EE/10A243/10E1ED are routed (to B01).",
+   "evidence": "Authoria - Picta 1.1.2 - Darkened to 1.0.1/enbseries.ini L550-581; _weatherlist.ini WEATHER901.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In the PBR lane, enbseries.ini comes from 'Authoria - Effects 11 Core - NAT (plain)' (above Soul Core ENB - Data). Soul Core supplies _weatherlist.ini (499 sections) and the Soul*.ini weather files.",
+   "evidence": "e11_fog.py provider resolution: NAT plain 12 paths, Soul Core 112.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite's CommunityShaders override JSONs are discovered without _metadata (it is optional in the source), but none of them is fog-related. Their values already equal the shared overwrite SettingsUser.json (CloudShadows 0.6, GrassLighting, Skylighting 1.5708/0.1/0.1, Wetness 2.1/1.15, SkySync -35/0.25/SunPath 1). The SkySync Sunrise/Sunset offset keys do not exist in Bottled's SkySync.",
+   "evidence": "Bottled src SettingsOverrideManager.cpp L464-499 (metadata 'if present'), SkySync.cpp NLOHMANN fields, overwrite SettingsUser.json. CommunityShaders.log (Picta run): 'Discovered 0 override files'.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Exponential Height Fog is disabled (enabled 0, volumetricFogEnabled 0) in the shared SettingsUser.json. When enabled with 'Follow Vanilla Fog', it derives density/near/far/colours from the active weather's fog fields.",
+   "evidence": "SettingsUser.json 'Exponential Height Fog'; Bottled src ExponentialHeightFog.cpp L186-221.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Fog fields on the PBR-lane winning weathers equal Astralite ENB.esp / Snowy Holds. Dawn Warmth changes no fog distance, fog colour, VisualEffect or SkyStatics (one VOLI link differs; Flags/Precipitation inherit from Snowy Holds for 7 weathers).",
+   "evidence": "Python diff of wthr_dawnwarmth.jsonl vs wthr_astralite_enb/aw/snowyholds dumps.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The shared late-loading plugins (Lux*, Dragon Tweaks, FWMF) override none of Astralite's rotating vanilla weathers, so PBR-lane fog = Dawn Warmth (Astralite ENB) values.",
+   "evidence": "wthr_touchers.py + Picta-lane winners tally: Lux only touches BlackreachWeather/FX*/its own, Dragon Tweaks its own 8, FWMF WorldMapWeather.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "MoT morning fog: 404 refs of manny_MistLowLong (FXMistLow01Long.nif) with the manny_DocksFog script, MorningFogChance=100, 4-7 AM. It is identical in both lanes, with the LUX mesh.",
+   "evidence": "MoT GLOB records, mot_refs.jsonl base tally, manny_docksfog.psc.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Darkened mod's root 'Picta - Weathers of Aurbis.ini' sets bVolumetricLightingEnable=1 and fVolumetricLightingIntensity=0.0, and loads as Picta's plugin INI. Soul Core's 'Astralite Weathers.ini' sets bVolumetricLightingEnable=1. The profile prefs have bVolumetricLightingEnable=0.",
+   "evidence": "File reads of those inis and of the profiles' SkyrimPrefs/skyrimcustom.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Soul Core's SKSE/Plugins/EVLaS.cfg and DVLaSS.ini do nothing: no EVLaS/DVLaSS DLL is enabled in either lane ('Enhanced Volumetric Lighting and Shadows' is disabled in both).",
+   "evidence": "Both profiles' modlist.txt plus a scan for those files across enabled mods.",
+   "confidence": "likely"
+  },
+  {
+   "claim": "distant_mounts_heavy_up.nif and distant_mounts_lite_2.nif reference textures/sky/vividweathers/vividcirrus_l0_016/018.dds, which nothing ships, but no ARTO references these two meshes (orphans).",
+   "evidence": "nif_fx.json, plus the Astralite ENB ARTO list (only lite/heavy/rain/Distant_rain).",
+   "confidence": "proven"
+  }
+ ],
+ "implications_for_blend": [
+  "Carry 'Astralite fog' mainly at record level (WTHR VisualEffect + SkyStatics + VOLI) and ini level (E11 fog/VL multipliers). Asset swaps are a minor part.",
+  "Asset level, no conflicts in the Picta lane: bring Soul Core's distant_mounts_lite/heavy/rain.nif, distant_rain.nif and textures/effects/Distant_Fogs_{Lite,Heavy,Rain}.dds + Distant_Rain.dds (optionally vivid*/NLASandStorm + their textures for blizzard/ash fog). Copy them byte-for-byte into a new-profile-only mod; never enable the whole Soul Core folder, because it also ships sky/sunset/aurora/cloud textures, Splashes of Storms TOML and EVLaS cfg.",
+  "Asset level, conflicts only with MoT: to get Astralite's look for MoT volumetric mists, place AW's 5 MistsVolumetric NIFs + textures/volmist/mist1.dds above Mists of Tamriel, keeping MoT's mistlut.dds, which the palette flag now uses. This is visible only if the MoT MCM volumetric toggles are on in the save. Solstheim meshes A/B are sky statics, tied to DefaultWeather/Seasons_CloudyRain only.",
+  "Camera fog meshes: nothing to bring. No More Blinding Fog already wins in both lanes. What Astralite adds is the RFCT link on fog weathers (k747_FXCameraAttach*FogEffect -> vanilla ARTOs).",
+  "Record level: build ONE new ESL patch for the hybrid profile that overrides Picta's rotating weathers. The current winners are 'Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp' for the 26 masters and 'Authoria - Patch - Picta Seasonal.esp' for the 5 summer weathers. Forward those, then apply edits, so it loads after both.",
+  "Record-level options per Picta class: (a) set VisualEffect, e.g. clear/cloudy -> Distant_Mounts_Lite, fog/misty -> Distant_Mounts_Heavy or k747 camera fog, rain -> Distant_Mounts_Rain, storm -> Distant_Rain. Copy the RFCT+ARTO records into the patch with housecarl_copy so Astralite ENB.esp is not mastered. (b) add MoT MistsAnimated statics 00080B-000816 to SkyStatics. This masters Mists of Tamriel.esp, which is active in both lanes. (c) optionally replace VOLI links with copies of Astralite LAM_* VOLIs. (d) optionally blend WTHR FogDistance values.",
+  "The Picta lane stays untouched only if every new mod and plugin (patch ESL, asset mod, E11 override) is enabled in the new profile alone. Never edit 'Authoria - Picta 1.1.2 - Darkened to 1.0.1' in place: it is generated by _tools/picta-bridge/picta_darken_v3_full.py and a rebuild would also overwrite the hand edit.",
+  "Ini level: put a new E11 override mod above Darkened, enabled only in the hybrid profile, carrying modified Picta per-weather inis. Key levers are ENVIRONMENT FogAmountMultiplier/FogCurveMultiplier (divide/scale WTHR distances), FogColorMultiplier (Picta 2.5 day / 0.075 night), GAMEVOLUMETRICRAYS Intensity/RangeFactor (multiply VOLI), and PARTICLE LightingInfluence/AmbientInfluence (lighting of all mist meshes).",
+  "If Astralite VOLIs are linked into Picta weathers, rescale either their Intensity or Picta's GAMEVOLUMETRICRAYS Intensity. Picta's 4.0 day / 8.0 night times Astralite's 10-14 would give about 40-112 versus Astralite-lane values of about 3-15.",
+  "If WTHR fog distances are blended, compensate for Picta's per-weather FogAmountMultiplier (1-10) and FogCurveMultiplier (0.4-0.9). Otherwise Astralite's fog far of 15000 becomes 1500 in D02 heavy fog (a wall) or stays light in clear weather.",
+  "Any Astralite vanilla weather that actually rotates in the hybrid must be routed in the hybrid's _weatherlist. Otherwise it falls to Picta's base ini (FogColorMultiplierDay 12.5, Night 0.0, VOLUMETRICFOG Intensity 40), which blows out or blackens the fog colour.",
+  "Mist meshes in the Picta lane get E11 [PARTICLE] LightingInfluence 0.15 (vs Astralite 0.5). Astralite's re-skinned mists (emissive cut to 0.9 and relying on lighting) may look dimmer or flatter there; tune PARTICLE influence for the hybrid or accept it.",
+  "Choose between Picta's own mountain/ground fog statics (PIC_STAT_Volumetric_*, 1241 refs) and MoT's ADM statics per weather. Listing both in one weather stacks two fog-bank systems.",
+  "CS overrides and the shared SettingsUser.json: there is nothing to transplant. Any SettingsUser change hits both lanes, because it lives in the instance-wide overwrite folder."
+ ],
+ "traps": [
+  "The 'Astralite mist' meshes are invisible unless MoT's MCM volumetric mist toggles are on. The parent markers are InitiallyDisabled and the state lives in the save, so a swap may show no change in game.",
+  "In the PBR lane, MoT's animated distant mists appear only because Astralite ENB.esp lists them in weather SkyStatics. Copying the meshes alone does nothing in Picta; the WTHR SkyStatics records are the carrier.",
+  "Bottled multiplies Picta's E11 GAMEVOLUMETRICRAYS Intensity (2-8) by the VOLI intensity. Astralite VOLIs (7-14) dropped into Picta weathers become extremely bright and dense coloured fog.",
+  "Picta's E11 FogAmountMultiplier divides WTHR fog distances (up to 10x) and FogColorMultiplier scales fog colour (2.5 day, 0.075 night). Moving Astralite WTHR fog values or colours without the matching ini changes gives a fog wall or overbright/black fog. By the user's rule ('too strong = amplitude only'), adjust amplitude, not tone.",
+  "Weathers missing from Picta's _weatherlist fall back to the base Darkened enbseries.ini (FogColorMultiplierDay 12.5, Night 0.0).",
+  "E11 [VOLUMETRICFOG] keys do not affect any of these mist meshes in Bottled (all effect-lit). Tuning VOLUMETRICFOG to fix mist brightness will appear to do nothing; use [PARTICLE] Lighting/AmbientInfluence or NIF emissive.",
+  "Astralite VisualEffect RFCTs and ARTOs live in Astralite ENB.esp. Referencing them directly would master a plugin that is disabled in the Picta lane; copy them into the hybrid patch with housecarl_copy, or keep the hybrid patch profile-only.",
+  "Picta's rotating weathers are already overridden by the Darkened ESL and the Picta Seasonal ESL. A hybrid WTHR patch loaded before them is silently overridden; one built off Picta's esm instead of the current winners discards the Darkened/seasonal edits.",
+  "Soul Core's mod folder also carries non-fog files that win in the PBR lane: sky/aurora/sunset/cloud LUT textures, po3_SplashesOfStorms.toml, EVLaS cfg, apocrypha sky. Enabling the whole folder in the hybrid profile pulls in sky changes, which belong to the sky-colour lens, and a different Splashes TOML.",
+  "No More Blinding Fog and LUX win the camera-fog and fxmistlow meshes in both lanes. Soul Core's copies of those paths look like Astralite content but are never live.",
+  "Unused Astralite/Soul Core files that need not be carried: misttest_1.nif and textures/volmist/mist_light.dds are unreferenced, and distant_mounts_heavy_up/lite_2 point at missing vividweathers textures but no ARTO uses them.",
+  "Dawn Warmth (PBR lane) changes no fog fields, so building the fog comparison from Astralite ENB.esp is valid. Its 7 Flags/Precipitation differences come from Snowy Holds.",
+  "The shared overwrite SettingsUser.json applies to every profile. Any CS fog or VL setting change is not lane-isolated.",
+  "The plugin cap is 254 full plugins. The hybrid needs an ESL-flagged override-only patch, not Astralite Weathers.esp + Astralite ENB.esp, which would add full plugins and the vanilla-weather overrides that conflict with MoT/NAT/Picta-over-NAT winners."
+ ],
+ "files_written": [
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/inventory.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/winners_picta.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/winners_pbr.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/asset_matrix.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/compact.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/nif_mists.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/nif_sol.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/nif_fx.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/mot_refs.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/mot_volrefs.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/weather_fog_compare.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/effective_fog_after_e11.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/voli_compare.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/e11_fog_keys.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/e11_table.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/compare_out.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_astralite_aw.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_astralite_enb.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_dawnwarmth.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_ecss.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_graycowl.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_helios_astralite.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_snowyholds.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_picta_esm.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_picta_lane_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/voli_aw.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/voli_aenb.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/voli_ecss.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/voli_picta_lane_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/regn_aenb.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/regn_swf_astralite.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/regn_snowyholds.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/astralite_records_list.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/touchers_picta.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/touchers_pbr.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/bottled_tree.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/src",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/inv.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/winners.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/compact.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/nifshader.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/grups.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/masters.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/wthr_touchers.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/compare_wthr.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/fog-mist/e11_fog.py"
+ ],
+ "open_questions": [
+  "Are MoT's MCM volumetric mist toggles (Subtle/Medium/Dense) on in the user's current saves? If not, Astralite's mist-mesh re-skin was never visible in the PBR lane either. A save read or a direct question to the user would settle it.",
+  "Does fVolumetricLightingIntensity=0.0 in the Darkened mod's 'Picta - Weathers of Aurbis.ini' suppress vanilla VL even with bVolumetricLightingUpdateWeather=1 and CS forcing bEnableVolumetricLighting? This decides whether VOLI changes in the hybrid are visible at all. It needs an in-game check, or a different plugin INI in the hybrid profile.",
+  "Confirm that Bottled's effect-shader LIGHTING permutation corresponds to SLSF2 Effect_Lighting, which would mean E11 [VOLUMETRICFOG] never touches these meshes. Strongly suspected; not proven from the C++ side.",
+  "Weather sky-static behaviour (a STAT in any WTHR TNAM list shown only while the current weather lists it) is assumed from engine knowledge, not verified in this instance.",
+  "Will the new hybrid profile get its own copy of the profile-local saves? MoT's MCM state and E11 location-weather state live there.",
+  "Which Astralite pieces does the user actually want? The distant fog rings (VisualEffect), MoT animated fog banks (SkyStatics), tinted volumetric fog (VOLI), WTHR fog distances, or the volumetric-mist re-skin. They are separable and each has different scaling work.",
+  "Weather routing: should the hybrid keep Picta's weather records and graft Astralite fog onto them (recommended), or rotate Astralite's vanilla weathers? The second requires Soul Core's E11 inis for those IDs plus a REGN/SWF rewire and collides with MoT/NAT/Picta-over-NAT winners."
+ ]
+}

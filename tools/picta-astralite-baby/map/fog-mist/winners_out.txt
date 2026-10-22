@@ -1,0 +1,1038 @@
+===== DEEZ CS NUTZ - PICTA 259
+  meshes/dlc01/effects/ambient/fxscmistlow01.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/dlc01/effects/ambient/fxscmistlow01small03.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/dlc02/effects/apocryphasky.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/dlc02/effects/apocryphaskynew.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/ambient/fxmistlow01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01adjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01fix.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01halfvisadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)', '[NoDelete] Mists of Tamriel']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01long_inverted.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longfix.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longhalfvisadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02adjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02fix.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02halfvisadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey02halfvis01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01dark.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01longdark.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls02dark.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls02halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet02halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistmillwheel01.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmiststreet01.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxsmokewispslgvol01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Mists of Tamriel']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/distant_mounts_heavy.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/distant_mounts_heavy_up.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/distant_mounts_lite.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/distant_mounts_lite_2.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/distant_mounts_rain.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/distant_rain.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/fxcameraattachblowingfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdrips.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdryneedleswindyup.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdust.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdustfalmer.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachembers.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachembersheavy.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachemberssnow.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfinedust.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfinemist.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfluffs.nif
+     WIN=Mesh Improvement Compilation  loose=['Mesh Improvement Compilation', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachgroundfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachleaves.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachleaveswindy.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachleaveswindyup.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachneedles.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachneedleswindy.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachneedleswindyup.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachsmokeheavy.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachsnowfalling.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachturbulentfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachupsnow.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Particle Patch.bsa [Particle Patch] (lo#1122)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachwispyfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/nlasandstorm.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividashes-low.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividashes.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividsnow-blizzard-med.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividsnow-blizzard-strong.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividsnow-blizzard.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividsnow-med.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividsnow-strong.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/effects/vividsnow.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/magic/clearskyfogdistantlod.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/magic/clearskyfogfx512.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/magic/clearskysovnfogfx512.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/mistsanimated/k747_lw_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_lw_o_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_lw_o_mistdistantextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistant_lesswind.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextraextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextralong.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextralong2.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextraextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextralong.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextralong2.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/mistsanimated le.7z
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/mistsanimated sse editor marker visible in game.7z
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/skyrimvolmistbalanced.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/skyrimvolmistdense.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/skyrimvolmistsubtle.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/solstheimvolmista.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/solstheimvolmistb.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/misttest_1.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/picta/effects/volumetric_fog.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=[]
+  meshes/picta/effects/volumetric_mountain_fog.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=[]
+  meshes/picta/effects/volumetric_mountain_fog_25.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=[]
+  meshes/picta/effects/volumetric_mountain_fog_50.nif
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=[]
+  meshes/sky/atmosphere.nif
+     WIN=Picta Series - Improved Sky Meshes  loose=['Picta Series - Improved Sky Meshes']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/cloudshape01_o_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/cloudshape03_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/dlc01soulcairnsky01.nif
+     WIN=Picta Series - Improved Sky Meshes  loose=['Picta Series - Improved Sky Meshes']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/heavystormsky.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/sky/inv_cloudshape01_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/inv_cloudshape02_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/inv_cloudshape03_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/skyrimaurora.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/skyrimaurorabv.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/skyrimauroragb.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/skyrimaurorary.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudsheet01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudshorizon01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudslower01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudslower04.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudsupper01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairneye01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairnlightning01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairnnebula01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairnsun01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc02/plume01.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/cat_fxraindrops.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/cloudtile.dds
+     WIN=Arctic - Frost Effects Redux  loose=['Arctic - Frost Effects Redux']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/distant_fogs_heavy.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/distant_fogs_lite.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/distant_fogs_rain.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/distant_rain.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/fxcloudroundtile.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)', 'Less Distracting Blowing Snow Effects - ENB Particle Patch']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxcloudroundtilenew.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxcloudroundtilestrip.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxfogheavy.dds
+     WIN=Water for ENB - rerun  loose=['Water for ENB - rerun']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxraindrops-vanilla-low.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/fxraindrops-vanilla.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/fxraindrops.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsnowflakesblur01.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsnowsoftsub.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsnowsub.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxspores.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/fxsteamthickanim.dds
+     WIN=Particle Patch  loose=['Particle Patch']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsteamthinanim.dds
+     WIN=Natural Waterfalls  loose=['Natural Waterfalls']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/invisiblevividsnow.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/smokeparticles01.dds
+     WIN=Particle Patch  loose=['Particle Patch']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/vividrain.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/vividraindrops.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/vividsnow-blizfog.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/vividsnow-med.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/vividsnow-small.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/vividsnow-str.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/effects/vividsnow.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistquad01.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistwide01.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/picta/effects/volumetric_fog_lut.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=[]
+  textures/picta/sky/cloud_fog.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_01.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_02.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_03.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_04.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_05.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_06.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_07.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_08.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_09.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_10.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_11.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_12.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_13.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_14.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_15.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_16.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_17.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_18.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_19.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_20.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K']  bsa=[]
+  textures/sky/aur/skyrimauroralut.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimaurorastreak01.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimaurorastreak02.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimaurorastreak03.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimaurorastreak04.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimaurorastreak05.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimaurorastreak06.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimauroraswirl01.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimcloudsheet01.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/sun.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/masser_full.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_half_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_half_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_one_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_one_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_three_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_three_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/moonshadow.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_full.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_half_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_half_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_one_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_one_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_three_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_three_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimauroralut.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimaurorastreak01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimaurorastreak02.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimauroraswirl01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudlut.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimclouds01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsheet01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudshorizon01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower02.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower03.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower04.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsmap01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper02.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper03.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper04.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimconstellations01.dds
+     WIN=BSA:Skyrim - Textures5.bsa  loose=[]  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimconstellations02.dds
+     WIN=BSA:Skyrim - Textures5.bsa  loose=[]  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimgalaxy.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skystars.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardeeye.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardenebula01.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardenebula02.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardenebula03.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardeswirl01.dds
+     WIN=BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa  loose=[]  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sun.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sunglare.dds
+     WIN=[NoDelete] Picta - Assets 4K  loose=['[NoDelete] Picta - Assets 4K', '[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)']  bsa=['NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sunset10.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset100.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset101.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset101r.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset102.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset10e.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset10w.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset2.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset3c.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset3r.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset6.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset6r.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset7.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset8.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset8elethra.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/sunset8r.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/volmist/mist1.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/volmist/mist_grey.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/volmist/mist_light.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/volmist/mistlut.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+===== DEEZ CS NUTZ - PBR 259
+  meshes/dlc01/effects/ambient/fxscmistlow01.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/dlc01/effects/ambient/fxscmistlow01small03.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/dlc02/effects/apocryphasky.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/dlc02/effects/apocryphaskynew.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/ambient/fxmistlow01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01adjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01fix.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01halfvisadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Mists of Tamriel']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01long_inverted.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longfix.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow01longhalfvisadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02adjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02fix.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlow02halfvisadjust.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowsmokey02halfvis01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01dark.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01longdark.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls02dark.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowswirls02halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01long.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet01longhalfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet02.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistlowwet02halfvis.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmistmillwheel01.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxmiststreet01.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/ambient/fxsmokewispslgvol01.nif
+     WIN=Lux (main) - rerun  loose=['Lux (main) - rerun', '[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Mists of Tamriel']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/distant_mounts_heavy.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/distant_mounts_heavy_up.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/distant_mounts_lite.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/distant_mounts_lite_2.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/distant_mounts_rain.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/distant_rain.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/fxcameraattachblowingfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Astralite Weathers']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdrips.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdryneedleswindyup.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdust.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachdustfalmer.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachembers.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachembersheavy.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachemberssnow.nif
+     WIN=BSA:Skyrim - Meshes0.bsa  loose=[]  bsa=['Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfinedust.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfinemist.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfluffs.nif
+     WIN=Mesh Improvement Compilation  loose=['Mesh Improvement Compilation']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Soul Core Plugin and Assets']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachgroundfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Soul Core Plugin and Assets']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachleaves.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachleaveswindy.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachleaveswindyup.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachneedles.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachneedleswindy.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachneedleswindyup.nif
+     WIN=Rudy HQ - Falling Leaves and Needles SE  loose=['Rudy HQ - Falling Leaves and Needles SE']  bsa=['Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachsmokeheavy.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachsnowfalling.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachturbulentfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Soul Core Plugin and Assets']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachupsnow.nif
+     WIN=BSA:NAT-ENB.bsa  loose=[]  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Particle Patch.bsa [Particle Patch] (lo#1120)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/fxcameraattachwispyfog.nif
+     WIN=No More Blinding Fog  loose=['No More Blinding Fog', '[NoDelete] Soul Core Plugin and Assets']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes0.bsa [Data] (lo#0)']
+  meshes/effects/nlasandstorm.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividashes-low.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividashes.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividsnow-blizzard-med.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividsnow-blizzard-strong.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividsnow-blizzard.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividsnow-med.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividsnow-strong.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/effects/vividsnow.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/magic/clearskyfogdistantlod.nif
+     WIN=BSA:Skyrim - Meshes1.bsa  loose=[]  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/magic/clearskyfogfx512.nif
+     WIN=BSA:Skyrim - Meshes1.bsa  loose=[]  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/magic/clearskysovnfogfx512.nif
+     WIN=BSA:Skyrim - Meshes1.bsa  loose=[]  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/mistsanimated/k747_lw_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_lw_o_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_lw_o_mistdistantextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistant_lesswind.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextraextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextralong.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_mistdistantextralong2.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistant.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextraextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextralarge.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextralong.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/k747_o_mistdistantextralong2.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/mistsanimated le.7z
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsanimated/mistsanimated sse editor marker visible in game.7z
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/skyrimvolmistbalanced.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers', '[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/skyrimvolmistdense.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers', '[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/skyrimvolmistsubtle.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers', '[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/solstheimvolmista.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers', '[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/mistsvolumetric/solstheimvolmistb.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers', '[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/misttest_1.nif
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  meshes/picta/effects/volumetric_fog.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/picta/effects/volumetric_mountain_fog.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/picta/effects/volumetric_mountain_fog_25.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/picta/effects/volumetric_mountain_fog_50.nif
+     WIN=ABSENT  loose=[]  bsa=[]
+  meshes/sky/atmosphere.nif
+     WIN=Picta Series - Improved Sky Meshes  loose=['Picta Series - Improved Sky Meshes', '[NoDelete] Astralite Weathers']  bsa=['NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/cloudshape01_o_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/cloudshape03_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/dlc01soulcairnsky01.nif
+     WIN=Picta Series - Improved Sky Meshes  loose=['Picta Series - Improved Sky Meshes', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/heavystormsky.nif
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  meshes/sky/inv_cloudshape01_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/inv_cloudshape02_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/inv_cloudshape03_50_k747.nif
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  meshes/sky/skyrimaurora.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/skyrimaurorabv.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/skyrimauroragb.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  meshes/sky/skyrimaurorary.nif
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Meshes1.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudsheet01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudshorizon01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudslower01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudslower04.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairncloudsupper01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairneye01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairnlightning01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairnnebula01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc01/sky/soulcairnsun01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures4.bsa [Data] (lo#0)']
+  textures/dlc02/plume01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/cat_fxraindrops.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/effects/cloudtile.dds
+     WIN=Arctic - Frost Effects Redux  loose=['Arctic - Frost Effects Redux', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/distant_fogs_heavy.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/distant_fogs_lite.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/distant_fogs_rain.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/distant_rain.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/fxcloudroundtile.dds
+     WIN=Less Distracting Blowing Snow Effects - ENB Particle Patch  loose=['Less Distracting Blowing Snow Effects - ENB Particle Patch', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxcloudroundtilenew.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxcloudroundtilestrip.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxfogheavy.dds
+     WIN=Water for ENB - rerun  loose=['Water for ENB - rerun', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxraindrops-vanilla-low.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/fxraindrops-vanilla.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/fxraindrops.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsnowflakesblur01.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsnowsoftsub.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsnowsub.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxspores.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/fxsteamthickanim.dds
+     WIN=Particle Patch  loose=['Particle Patch', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/fxsteamthinanim.dds
+     WIN=Natural Waterfalls  loose=['Natural Waterfalls', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/invisiblevividsnow.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/smokeparticles01.dds
+     WIN=Particle Patch  loose=['Particle Patch', '[NoDelete] Soul Core Plugin and Assets']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/effects/vividrain.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/vividraindrops.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/vividsnow-blizfog.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/vividsnow-med.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/vividsnow-small.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/vividsnow-str.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/effects/vividsnow.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistquad01.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistwide01.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/picta/effects/volumetric_fog_lut.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/cloud_fog.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_01.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_02.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_03.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_04.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_05.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_06.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_07.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_08.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_09.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_10.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_11.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_12.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_13.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_14.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_15.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_16.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_17.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_18.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_19.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/picta/sky/overcast_fog/cloud_panorama_20.dds
+     WIN=ABSENT  loose=[]  bsa=[]
+  textures/sky/aur/skyrimauroralut.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimaurorastreak01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimaurorastreak02.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimaurorastreak03.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimaurorastreak04.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimaurorastreak05.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimaurorastreak06.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimauroraswirl01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/skyrimcloudsheet01.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/aur/sun.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/masser_full.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_half_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_half_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_one_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_one_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_three_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/masser_three_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/moonshadow.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_full.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_half_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_half_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_one_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_one_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_three_wan.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/secunda_three_wax.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimauroralut.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimaurorastreak01.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimaurorastreak02.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimauroraswirl01.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudlut.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimclouds01.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsheet01.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudshorizon01.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower01.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower02.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower03.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudslower04.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsmap01.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper01.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper02.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper03.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimcloudsupper04.dds
+     WIN=[NoDelete] Astralite Weathers - 4K Clouds  loose=['[NoDelete] Astralite Weathers - 4K Clouds', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimconstellations01.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimconstellations02.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skyrimgalaxy.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/skystars.dds
+     WIN=Praedys Sky AIO  loose=['Praedys Sky AIO', '[NoDelete] Astralite Weathers']  bsa=['Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardeeye.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardenebula01.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardenebula02.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardenebula03.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sovngardeswirl01.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sun.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sunglare.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=['NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)', 'Skyrim - Textures5.bsa [Data] (lo#0)']
+  textures/sky/sunset10.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset100.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset101.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset101r.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset102.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/sunset10e.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset10w.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset2.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset3c.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset3r.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets']  bsa=[]
+  textures/sky/sunset6.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset6r.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset7.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset8.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset8elethra.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/sky/sunset8r.dds
+     WIN=[NoDelete] Astralite Weathers  loose=['[NoDelete] Astralite Weathers']  bsa=[]
+  textures/volmist/mist1.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers', '[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/volmist/mist_grey.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]
+  textures/volmist/mist_light.dds
+     WIN=[NoDelete] Soul Core Plugin and Assets  loose=['[NoDelete] Soul Core Plugin and Assets', '[NoDelete] Astralite Weathers']  bsa=[]
+  textures/volmist/mistlut.dds
+     WIN=[NoDelete] Mists of Tamriel  loose=['[NoDelete] Mists of Tamriel']  bsa=[]

@@ -1,0 +1,17 @@
+===== MythicDawn
+legs from the body (under z 76.0, no arms / upper body): malebody_1.nif 'HIMBO - Body HP' 6699 of 14597 pts; bones folded to ['NPC L Calf [LClf]', 'NPC L Foot [Lft ]', 'NPC L Thigh [LThg]', 'NPC Pelvis [Pelv]', 'NPC R Calf [RClf]', 'NPC R Foot [Rft ]', 'NPC R Thigh [RThg]', 'NPC Spine [Spn0]', 'NPC Spine1 [Spn1]']
+piece Robe <- Mythic_Dawn_Outfit_body ('islands', 0, {2409: 275, 2579: 162, 4307: 398, 5073: 850, 5354: 101, 5761: 125, 5899: 115, 6024: 105, 6054: 105}, (), 76.0): 1915 pts / 3247 tris (skirt:outer)
+skirt axis (2.55, 3.77); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:74.0/63.8/53.7/43.5/33.3/23.1/13.0/2.8; 30:74.0/63.9/53.8/43.6/33.5/23.4/13.3/3.2; 60:74.0/63.9/53.8/43.8/33.7/23.6/13.5/3.5; 90:74.0/64.1/54.1/44.2/34.2/24.3/14.4/4.4; 120:74.0/64.0/54.1/44.1/34.2/24.2/14.2/4.3; 150:74.0/64.1/54.2/44.3/34.4/24.5/14.6/4.8; -180:74.0/64.0/54.0/44.0/34.0/24.0/14.0/4.0; -150:74.0/64.0/54.0/44.0/33.9/23.9/13.9/3.9; -120:74.0/64.0/54.1/44.1/34.2/24.2/14.3/4.3; -90:74.0/64.0/54.0/44.0/33.9/23.9/13.9/3.9; -60:74.0/63.9/53.7/43.6/33.5/23.3/13.2/3.1; -30:74.0/63.8/53.7/43.5/33.3/23.1/13.0/2.8
+tip rows ; flap hinges 
+legs from LegsBody (12774 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 3.66 median 5.92; free share p10 0.80 median 0.80
+m: Robe is cut out of Mythic_Dawn_Outfit_body: 90 seam points (z 73.7..76.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 1915 pts (1620 move); tip 0 pts
+m: legs collider pulled in at 60 of 6699 pts (max 1.24); lining points Robe 679/679
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 912 pts
+m_1: wrote meshes/clothes/robemythicdawn/mdrobe_1.nif; shapes (pts, tris) {'Mythic_Dawn_Outfit_body': (4568, 8079), 'Robe': (1083, 1717), 'Robe 2': (912, 1530), 'AMD Legs Front': (3592, 6714), 'AMD Legs Back': (2283, 4095), 'AMD Legs Side': (3647, 6079), 'AMD Skirt Front': (250, 254), 'AMD Skirt Side': (251, 281), 'AMD Skirt Back': (178, 218), 'VirtualGround': (4, 2)}; bones per shape {'Mythic_Dawn_Outfit_body': 23, 'Robe': 65, 'Robe 2': 67, 'AMD Legs Front': 9, 'AMD Legs Back': 9, 'AMD Legs Side': 9, 'AMD Skirt Front': 39, 'AMD Skirt Side': 44, 'AMD Skirt Back': 29, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/robemythicdawn/mdrobe_0.nif; shapes (pts, tris) {'Mythic_Dawn_Outfit_body': (4568, 8079), 'Robe': (1083, 1717), 'Robe 2': (912, 1530), 'AMD Legs Front': (3592, 6714), 'AMD Legs Back': (2283, 4095), 'AMD Legs Side': (3647, 6079), 'AMD Skirt Front': (250, 254), 'AMD Skirt Side': (251, 283), 'AMD Skirt Back': (178, 218), 'VirtualGround': (4, 2)}; bones per shape {'Mythic_Dawn_Outfit_body': 23, 'Robe': 65, 'Robe 2': 67, 'AMD Legs Front': 9, 'AMD Legs Back': 9, 'AMD Legs Side': 9, 'AMD Skirt Front': 39, 'AMD Skirt Side': 44, 'AMD Skirt Back': 29, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\MythicDawnM.xml (494 lines); no slits: neighbouring chains linked all round

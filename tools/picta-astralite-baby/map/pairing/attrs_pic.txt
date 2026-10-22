@@ -1,0 +1,248 @@
+048C14:Skyrim.esm                        BlackreachWeather                            refs=  1 [Pleasant] P=BlackreachSnow W=0 cl=4 fogD=0/120000 fogN=0/120000 win=Lux.esp
+031AC0:Dragonborn.esm                    CloudyDLC2                                   refs=  0 [Cloudy] P=None W=25 cl=11 fogD=1500/150000 fogN=350/80000 win=NAT-ENB.esp
+0374B8:Dragonborn.esm                    CloudyDLC2_A                                 refs=  0 [Cloudy] P=None W=25 cl=10 fogD=3500/150000 fogN=350/80000 win=NAT-ENB.esp
+0374B9:Dragonborn.esm                    CloudyDLC2_A                                 refs=  0 [Cloudy] P=None W=25 cl=15 fogD=1500/150000 fogN=350/80000 win=NAT-ENB.esp
+0374BA:Dragonborn.esm                    CloudyDLC2_TU_A                              refs=  0 [Cloudy] P=None W=25 cl=19 fogD=5000/200000 fogN=350/80000 win=NAT-ENB.esp
+010E0E:Dawnguard.esm                     CloudyFV                                     refs=  0 [Pleasant] P=None W=25 cl=11 fogD=2500/150000 fogN=350/80000 win=NAT-ENB.esp
+010E0B:Dawnguard.esm                     CloudyFV_A                                   refs=  0 [Pleasant] P=None W=25 cl=15 fogD=5000/200000 fogN=350/80000 win=NAT-ENB.esp
+10A245:Skyrim.esm                        CloudySN                                     refs=  0 [Cloudy] P=None W=25 cl=12 fogD=2500/150000 fogN=350/80000 win=NAT-ENB.esp
+01DFF5:Dragonborn.esm                    DLC2ApocryphaWeather                         refs=  1 [Cloudy, SSAV] P=None W=76 cl=12 fogD=0/30000 fogN=0/15000 win=Authoria - Picta over NAT.esp
+034CFB:Dragonborn.esm                    DLC2ApocryphaWeatherNew                      refs=  1 [Cloudy, SSAV] P=None W=76 cl=12 fogD=0/30000 fogN=0/30000 win=Authoria - Picta over NAT.esp
+00015E:Skyrim.esm                        DefaultWeather                               refs=  0 [0] P=None W=0 cl=4 fogD=27853/163840 fogN=27853/163840 win=Mists of Tamriel.esp
+02E7C8:Skyrim Extended Cut - Saints and Seducers.esp EC_SS_SIDementiaFog                          refs=  1 [Cloudy, SSAV] P=DustParticles W=0 cl=9 fogD=0/25000 fogN=0/15000 win=Skyrim Extended Cut - Saints and Seducers.esp
+15BB6E:Skyrim Extended Cut - Saints and Seducers.esp EC_SS_SIDementiaRain                         refs=  1 [Rainy, SSAV] P=RainStormParticles W=50 cl=12 fogD=0/25000 fogN=0/10000 win=Skyrim Extended Cut - Saints and Seducers.esp
+01A3B1:Skyrim Extended Cut - Saints and Seducers.esp EC_SS_SIManiaClear                           refs=  1 [Pleasant] P=DustParticles W=0 cl=17 fogD=15000/30000 fogN=15000/30000 win=Skyrim Extended Cut - Saints and Seducers.esp
+10E3D4:Skyrim.esm                        EditorCloudPreview                           refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Update.esm
+075DE5:Skyrim.esm                        FXWthrCaveBluePaleLight                      refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Skyrim.esm
+06ED5B:Skyrim.esm                        FXWthrCaveBlueSkylight                       refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Skyrim.esm
+0777CF:Skyrim.esm                        FXWthrInvertDayNighWarm                      refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Skyrim.esm
+06ED5A:Skyrim.esm                        FXWthrInvertDayNight                         refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Skyrim.esm
+05ED7A:Skyrim.esm                        FXWthrInvertLightsSolitude                   refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux Orbis.esp
+08282A:Skyrim.esm                        FXWthrInvertLightsWhiterun                   refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+08277A:Skyrim.esm                        FXWthrInvertWindowsWhiterun                  refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+0AEE84:Skyrim.esm                        FXWthrInvertWindowsWindhelm                  refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux Orbis - Darker windows plugin.esp
+0ECC96:Skyrim.esm                        FXWthrInvertWindowsWindhelm2                 refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+10DA13:Skyrim.esm                        FXWthrInvertWindowsWinterhold                refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Skyrim.esm
+07548F:Skyrim.esm                        FXWthrSunlight                               refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+001DCC:Lux.esp                           FXWthrSunlightNorth                          refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+075491:Skyrim.esm                        FXWthrSunlightWhite                          refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+000805:Lux - Forgotten City.esp          FXWthrSunlightWhiteFC                        refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux - Forgotten City.esp
+001DCB:Lux.esp                           FXWthrSunlightWhiteNorth                     refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+99D714:Lux.esp                           FallowstoneClearSN                           refs=  2 [Snow] P=SnowParticlesMed W=12 cl=11 fogD=0/100000 fogN=0/50000 win=Lux.esp
+10A235:Skyrim.esm                        FogCO                                        refs=  1 [Cloudy] P=None W=15 cl=9 fogD=500/15000 fogN=100/15000 win=NAT-ENB.esp
+10A23E:Skyrim.esm                        FogFF                                        refs=  2 [Cloudy] P=None W=15 cl=9 fogD=500/20000 fogN=100/20000 win=NAT-ENB.esp
+10A239:Skyrim.esm                        FogRE                                        refs=  1 [Cloudy] P=None W=15 cl=9 fogD=1000/25000 fogN=350/80000 win=NAT-ENB.esp
+10A7A7:Skyrim.esm                        FogVT                                        refs=  1 [Cloudy] P=None W=15 cl=9 fogD=50/5000 fogN=350/80000 win=NAT-ENB.esp
+000EFB:Helios.esp                        Helios_BlackreachWeather                     refs=  2 [Pleasant] P=None W=0 cl=4 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EFC:Helios.esp                        Helios_BloatedMansGrottoFog                  refs=  1 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA2:Helios.esp                        Helios_DLC02VolcanicAsh01                    refs=  3 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA6:Helios.esp                        Helios_DLC02VolcanicAsh01_A                  refs=  3 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA4:Helios.esp                        Helios_DLC02VolcanicAsh02                    refs=  3 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA7:Helios.esp                        Helios_DLC02VolcanicAsh02_A                  refs=  3 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA5:Helios.esp                        Helios_DLC02VolcanicAshStorm01               refs=  2 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA3:Helios.esp                        Helios_DLC02VolcanicAshTundra01              refs=  2 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA8:Helios.esp                        Helios_DLC02VolcanicAshTundra01_A            refs=  2 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EEB:Helios.esp                        Helios_DLC1AurielsBowClearWeather            refs=  1 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+00096A:Helios.esp                        Helios_DLC1Eclipse                           refs=  1 [Pleasant] P=None W=0 cl=24 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EEC:Helios.esp                        Helios_DLC1FalmerValley_bf                   refs=  1 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EED:Helios.esp                        Helios_DLC1FalmerValley_bfDark               refs=  1 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EEE:Helios.esp                        Helios_DLC1MagicAurielBowCloudyWeather       refs=  1 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EEF:Helios.esp                        Helios_DLC1_SkyrimClearFV                    refs=  8 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF0:Helios.esp                        Helios_DLC1_SkyrimClearFV_A                  refs=  8 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF1:Helios.esp                        Helios_DLC1_SkyrimCloudyFV                   refs=  8 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF2:Helios.esp                        Helios_DLC1_SkyrimCloudyFV_A                 refs=  7 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF9:Helios.esp                        Helios_DLC2ApocryphaWeather                  refs=  1 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EFA:Helios.esp                        Helios_DLC2ApocryphaWeatherNew               refs=  2 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EE6:Helios.esp                        Helios_DefaultWeather                        refs=  1 [Pleasant] P=None W=0 cl=4 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EFD:Helios.esp                        Helios_HelgenAttackWeather                   refs=  1 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EFE:Helios.esp                        Helios_KarthspireRedoubtFog                  refs=  4 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA1:Helios.esp                        Helios_RiftenOvercastFog                     refs=  5 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000F2A:Helios.esp                        Helios_SkuldafnCloudy                        refs=  2 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A70:Helios.esp                        Helios_SkyrimClear                           refs=  5 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A7B:Helios.esp                        Helios_SkyrimClearCO                         refs=  6 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A96:Helios.esp                        Helios_SkyrimClearCO_A                       refs=  6 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A82:Helios.esp                        Helios_SkyrimClearFF                         refs=  6 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A9A:Helios.esp                        Helios_SkyrimClearFF_A                       refs=  6 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A77:Helios.esp                        Helios_SkyrimClearMA                         refs=  5 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A94:Helios.esp                        Helios_SkyrimClearMA_A                       refs=  5 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A7E:Helios.esp                        Helios_SkyrimClearRE                         refs=  5 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A98:Helios.esp                        Helios_SkyrimClearRE_A                       refs=  5 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A8B:Helios.esp                        Helios_SkyrimClearSN                         refs= 12 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A9E:Helios.esp                        Helios_SkyrimClearSN_A                       refs= 12 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A87:Helios.esp                        Helios_SkyrimClearTU                         refs=  6 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A9C:Helios.esp                        Helios_SkyrimClearTU_A                       refs=  6 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A8D:Helios.esp                        Helios_SkyrimClearVT                         refs=  6 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A92:Helios.esp                        Helios_SkyrimClearVT_A                       refs=  6 [Pleasant] P=None W=0 cl=15 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000AA0:Helios.esp                        Helios_SkyrimClear_A                         refs=  5 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A71:Helios.esp                        Helios_SkyrimCloudy                          refs=  5 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A7D:Helios.esp                        Helios_SkyrimCloudyCO                        refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A95:Helios.esp                        Helios_SkyrimCloudyCO_A                      refs=  8 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A86:Helios.esp                        Helios_SkyrimCloudyFF                        refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A99:Helios.esp                        Helios_SkyrimCloudyFF_A                      refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A7A:Helios.esp                        Helios_SkyrimCloudyMA                        refs=  5 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A93:Helios.esp                        Helios_SkyrimCloudyMA_A                      refs=  5 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A81:Helios.esp                        Helios_SkyrimCloudyRE                        refs=  5 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A97:Helios.esp                        Helios_SkyrimCloudyRE_A                      refs=  5 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A8C:Helios.esp                        Helios_SkyrimCloudySN                        refs= 12 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A9D:Helios.esp                        Helios_SkyrimCloudySN_A                      refs= 12 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A8A:Helios.esp                        Helios_SkyrimCloudyTU                        refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A9B:Helios.esp                        Helios_SkyrimCloudyTU_A                      refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A90:Helios.esp                        Helios_SkyrimCloudyVT                        refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A91:Helios.esp                        Helios_SkyrimCloudyVT_A                      refs=  6 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A9F:Helios.esp                        Helios_SkyrimCloudy_A                        refs=  5 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000F18:Helios.esp                        Helios_SkyrimDA02Weather                     refs=  2 [Pleasant] P=None W=0 cl=14 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A73:Helios.esp                        Helios_SkyrimFog                             refs=  7 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A7C:Helios.esp                        Helios_SkyrimFogCO                           refs= 10 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A85:Helios.esp                        Helios_SkyrimFogFF                           refs=  7 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A79:Helios.esp                        Helios_SkyrimFogMA                           refs=  7 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A80:Helios.esp                        Helios_SkyrimFogRE                           refs=  6 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A8F:Helios.esp                        Helios_SkyrimFogVT                           refs=  3 [Pleasant] P=None W=0 cl=9 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A74:Helios.esp                        Helios_SkyrimOvercastRain                    refs= 13 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A84:Helios.esp                        Helios_SkyrimOvercastRainFF                  refs= 12 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A78:Helios.esp                        Helios_SkyrimOvercastRainMA                  refs=  4 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A7F:Helios.esp                        Helios_SkyrimOvercastRainRE                  refs=  8 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A89:Helios.esp                        Helios_SkyrimOvercastRainTU                  refs=  7 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A8E:Helios.esp                        Helios_SkyrimOvercastRainVT                  refs=  4 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A72:Helios.esp                        Helios_SkyrimOvercastSnow                    refs= 57 [Pleasant] P=None W=0 cl=13 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000954:Helios.esp                        Helios_SkyrimOvercastWar                     refs=  1 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A75:Helios.esp                        Helios_SkyrimStormRain                       refs=  5 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A83:Helios.esp                        Helios_SkyrimStormRainFF                     refs=  6 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A88:Helios.esp                        Helios_SkyrimStormRainTU                     refs=  5 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000A76:Helios.esp                        Helios_SkyrimStormSnow                       refs= 57 [Pleasant] P=None W=0 cl=12 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF3:Helios.esp                        Helios_SoulCairnAmb01                        refs=  1 [Pleasant] P=None W=0 cl=22 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF4:Helios.esp                        Helios_SoulCairnAmb01_Rain                   refs=  2 [Pleasant] P=None W=0 cl=22 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF5:Helios.esp                        Helios_SoulCairnAmb02                        refs=  2 [Pleasant] P=None W=0 cl=22 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF6:Helios.esp                        Helios_SoulCairnAmb03                        refs=  2 [Pleasant] P=None W=0 cl=22 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF7:Helios.esp                        Helios_SoulCairnAmb04                        refs=  1 [Pleasant] P=None W=0 cl=22 fogD=0/300000 fogN=0/300000 win=Helios.esp
+000EF8:Helios.esp                        Helios_SoulCairnAurora                       refs=  1 [Pleasant] P=None W=0 cl=22 fogD=0/300000 fogN=0/300000 win=Helios.esp
+00095E:Helios.esp                        Helios_SovngardeDark                         refs=  2 [Pleasant] P=None W=0 cl=11 fogD=0/300000 fogN=0/300000 win=Helios.esp
+106635:Skyrim.esm                        KarthspireRedoubtFog                         refs=  1 [Cloudy] P=None W=13 cl=9 fogD=0/50000 fogN=0/30000 win=Authoria - Picta over NAT.esp
+408447:Lux.esp                           Lux_FXWthrInvertLightsDim                    refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+677F87:Lux.esp                           Lux_FXWthrInvertLightsMedium                 refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Lux.esp
+049476:Lux.esp                           Lux_SkyrimOvercastSnow                       refs=  1 [Snow] P=SnowParticlesMed W=26 cl=13 fogD=0/50000 fogN=0/35000 win=Lux.esp
+FABBDB:Lux.esp                           Lux_WeatherCloudySN                          refs=  1 [Pleasant] P=None W=10 cl=11 fogD=1200/100000 fogN=1000/50000 win=Lux.esp
+2D11A2:Olenveld.esp                      OlenAncientIndexer_A                         refs=  2 [Pleasant, SSAV] P=None W=25 cl=12 fogD=1200/80000 fogN=1200/40000 win=Olenveld.esp
+19FA01:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_A01_Clear                    refs=121 [Pleasant, SSAV] P=None W=1 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FA02:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_A02_Clear_Aurora             refs=110 [Pleasant, SSAV] P=None W=1 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FA03:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_A03_Clear_Mist               refs=110 [Pleasant, SSAV] P=None W=1 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FB01:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_B01_Lightly_Cloudy           refs=110 [Pleasant, SSAV] P=None W=5 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FB02:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora    refs=119 [Pleasant, SSAV] P=None W=5 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FB03:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog refs= 40 [Pleasant, SSAV] P=None W=5 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FC01:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_C01_Cloudy                   refs= 46 [Pleasant, SSAV] P=None W=50 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FC02:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_C02_Cloudy_Storm             refs= 40 [Pleasant, SSAV] P=None W=100 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FC03:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_C03_Cloudy_Light_Fog         refs= 40 [Pleasant, SSAV] P=None W=10 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FC04:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light   refs= 61 [Rainy, SSAV] P=PIC_SPGD_Rain_Very_Light W=50 cl=7 fogD=0/120000 fogN=0/95000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FC05:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light   refs= 98 [Snow, SSAV] P=PIC_SPGD_Snow_Very_Light W=50 cl=7 fogD=0/120000 fogN=0/95000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FD01:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_D01_Overcast                 refs= 40 [Pleasant, SSAV] P=None W=60 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FD02:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog       refs= 46 [Pleasant, SSAV] P=None W=15 cl=7 fogD=0/50000 fogN=0/25000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FD03:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_D03_Overcast_Rain_Light      refs= 68 [Rainy, SSAV] P=PIC_SPGD_Rain_Light W=60 cl=7 fogD=0/105000 fogN=0/80000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FD04:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_D04_Overcast_Rain_Medium     refs= 61 [Rainy, SSAV] P=PIC_SPGD_Rain_Medium W=110 cl=7 fogD=0/90000 fogN=0/65000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FD05:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_D05_Overcast_Snow_Light      refs=124 [Snow, SSAV] P=PIC_SPGD_Snow_Light W=60 cl=7 fogD=0/105000 fogN=0/80000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FD06:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_D06_Overcast_Snow_Medium     refs= 99 [Snow, SSAV] P=PIC_SPGD_Snow_Medium W=110 cl=7 fogD=0/90000 fogN=0/65000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FE01:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_E01_Storm_Thunder            refs= 21 [Cloudy, SSAV] P=None W=120 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FE02:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_E02_Storm_Cold_Thunder       refs= 75 [Cloudy, SSAV] P=None W=120 cl=7 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FE03:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder refs= 27 [Rainy, SSAV] P=PIC_SPGD_Rain_Heavy W=180 cl=7 fogD=0/75000 fogN=0/50000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FE04:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thund refs= 21 [Rainy, SSAV] P=PIC_SPGD_Rain_Extreme W=240 cl=7 fogD=0/60000 fogN=0/35000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FE05:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_E05_Storm_Snow_Heavy         refs= 93 [Snow, SSAV] P=PIC_SPGD_Snow_Heavy W=180 cl=7 fogD=0/75000 fogN=0/50000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+19FE06:Picta - Weathers of Aurbis.esm    PIC_WTHR_MASTER_E06_Storm_Snow_Extreme       refs= 81 [Snow, SSAV] P=PIC_SPGD_Snow_Extreme W=240 cl=7 fogD=0/60000 fogN=0/35000 win=Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp
+1B0006:Picta - Weathers of Aurbis.esm    PIC_WTHR_MQ_Throat_Of_The_World              refs=  1 [Pleasant, SSAV] P=None W=1 cl=3 fogD=0/150000 fogN=0/125000 win=Picta - Weathers of Aurbis.esm
+5AFA01:Picta - Weathers of Aurbis.esm    PIC_WTHR_SUMMER_A01_Clear                    refs= 38 [Pleasant, SSAV] P=None W=1 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta Seasonal.esp
+5AFA02:Picta - Weathers of Aurbis.esm    PIC_WTHR_SUMMER_A02_Clear_Aurora             refs= 35 [Pleasant, SSAV] P=None W=1 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta Seasonal.esp
+5AFA03:Picta - Weathers of Aurbis.esm    PIC_WTHR_SUMMER_A03_Clear_Mist               refs= 35 [Pleasant, SSAV] P=None W=1 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta Seasonal.esp
+5AFB01:Picta - Weathers of Aurbis.esm    PIC_WTHR_SUMMER_B01_Lightly_Cloudy           refs= 35 [Pleasant, SSAV] P=None W=5 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta Seasonal.esp
+5AFB02:Picta - Weathers of Aurbis.esm    PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora    refs= 38 [Pleasant, SSAV] P=None W=5 cl=6 fogD=0/150000 fogN=0/125000 win=Authoria - Patch - Picta Seasonal.esp
+01D760:Dragonborn.esm                    RainCloudy_DLC2                              refs=  0 [Cloudy] P=RainParticles W=75 cl=19 fogD=1500/100000 fogN=350/80000 win=NAT-ENB.esp
+10A23D:Skyrim.esm                        RainFF                                       refs=  4 [Rainy] P=RainParticles W=75 cl=15 fogD=3500/150000 fogN=350/80000 win=NAT-ENB.esp
+10A231:Skyrim.esm                        RainMA                                       refs=  0 [Rainy] P=RainParticles W=75 cl=19 fogD=1000/35000 fogN=350/80000 win=NAT-ENB.esp
+10A238:Skyrim.esm                        RainRE                                       refs=  1 [Rainy] P=RainParticles W=75 cl=14 fogD=1000/50000 fogN=350/80000 win=NAT-ENB.esp
+10A242:Skyrim.esm                        RainTU                                       refs=  0 [Rainy] P=RainParticles W=75 cl=17 fogD=3500/100000 fogN=350/80000 win=NAT-ENB.esp
+10A7A6:Skyrim.esm                        RainVT                                       refs=  0 [Rainy] P=RainParticles W=75 cl=13 fogD=1500/100000 fogN=350/80000 win=NAT-ENB.esp
+10FE7E:Skyrim.esm                        RiftenOvercastFog                            refs=  2 [Cloudy] P=None W=25 cl=13 fogD=0/9000 fogN=0/9000 win=Mists of Tamriel.esp
+104AB4:Skyrim.esm                        SkuldafnCloudy                               refs=  1 [Snow] P=SnowParticlesLite W=102 cl=12 fogD=0/40000 fogN=0/40000 win=Authoria - Picta over NAT.esp
+10A236:Skyrim.esm                        SkyrimCloudyCO                               refs=  1 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1E7:Skyrim.esm                        SkyrimCloudyCO_A                             refs=  1 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10A23F:Skyrim.esm                        SkyrimCloudyFF                               refs=  2 [Pleasant] P=None W=38 cl=11 fogD=0/50000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1EB:Skyrim.esm                        SkyrimCloudyFF_A                             refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/50000 fogN=0/50000 win=Mists of Tamriel.esp
+10A233:Skyrim.esm                        SkyrimCloudyMA                               refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/80000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1E5:Skyrim.esm                        SkyrimCloudyMA_A                             refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/80000 fogN=0/50000 win=Mists of Tamriel.esp
+10A23A:Skyrim.esm                        SkyrimCloudyRE                               refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/50000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1E9:Skyrim.esm                        SkyrimCloudyRE_A                             refs=  1 [Pleasant] P=None W=38 cl=11 fogD=0/50000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1EF:Skyrim.esm                        SkyrimCloudySN_A                             refs=  1 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10A243:Skyrim.esm                        SkyrimCloudyTU                               refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1ED:Skyrim.esm                        SkyrimCloudyTU_A                             refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10A7A8:Skyrim.esm                        SkyrimCloudyVT                               refs=  1 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1E3:Skyrim.esm                        SkyrimCloudyVT_A                             refs=  0 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+10E1F1:Skyrim.esm                        SkyrimCloudy_A                               refs=  3 [Pleasant] P=None W=38 cl=11 fogD=0/100000 fogN=0/50000 win=Mists of Tamriel.esp
+105F40:Skyrim.esm                        SkyrimDA02Weather                            refs=  1 [Pleasant] P=None W=51 cl=14 fogD=0/100000 fogN=0/100000 win=Authoria - Picta over NAT.esp
+10A232:Skyrim.esm                        SkyrimFogMA                                  refs=  1 [Cloudy] P=None W=13 cl=9 fogD=0/50000 fogN=0/35000 win=Mists of Tamriel.esp
+0C821F:Skyrim.esm                        SkyrimOvercastRain                           refs=  9 [Rainy] P=RainParticles W=25 cl=13 fogD=1200/15000 fogN=1200/15000 win=Authoria - Picta over NAT.esp
+04D7FB:Skyrim.esm                        SkyrimOvercastSnow                           refs= 10 [Snow] P=SnowParticlesMed W=76 cl=13 fogD=1000/50000 fogN=1000/35000 win=Authoria - Picta over NAT.esp
+105945:Skyrim.esm                        SolitudeBluePalaceFog                        refs=  1 [Cloudy] P=DustParticles W=13 cl=9 fogD=0/30000 fogN=0/30000 win=Picta - Weathers of Aurbis.esm
+105942:Skyrim.esm                        SolitudeBluePalaceFogARENA                   refs=  1 [Cloudy] P=None W=13 cl=9 fogD=0/30000 fogN=0/30000 win=Picta - Weathers of Aurbis.esm
+105943:Skyrim.esm                        SolitudeBluePalaceFogFEAR                    refs=  1 [Cloudy] P=None W=13 cl=9 fogD=0/30000 fogN=0/30000 win=Picta - Weathers of Aurbis.esm
+105944:Skyrim.esm                        SolitudeBluePalaceFogNMARE                   refs=  1 [Cloudy] P=None W=13 cl=9 fogD=0/30000 fogN=0/30000 win=Picta - Weathers of Aurbis.esm
+001407:Dawnguard.esm                     SoulCairnAmb01                               refs=  0 [Cloudy, SSAV] P=None W=25 cl=22 fogD=1000/4000 fogN=1000/4000 win=Authoria - Picta over NAT.esp
+014551:Dawnguard.esm                     SoulCairnAmb01_Rain                          refs=  0 [Rainy, SSAV] P=None W=25 cl=22 fogD=1000/4000 fogN=1000/4000 win=Authoria - Picta over NAT.esp
+018DBB:Dawnguard.esm                     SoulCairnAmb02                               refs=  0 [Cloudy, SSAV] P=None W=25 cl=22 fogD=1000/4000 fogN=1000/4000 win=Authoria - Picta over NAT.esp
+018DBC:Dawnguard.esm                     SoulCairnAmb03                               refs=  0 [Cloudy, SSAV] P=None W=25 cl=22 fogD=2000/6000 fogN=2000/6000 win=Authoria - Picta over NAT.esp
+10FEF8:Skyrim.esm                        SovngardeDark                                refs=  1 [Cloudy, SSAV] P=None W=0 cl=11 fogD=0/22500 fogN=0/22500 win=Authoria - Picta over NAT.esp
+032336:Dragonborn.esm                    StormDLC2                                    refs=  1 [Snow] P=NAT_AshParticlesSparks W=50 cl=17 fogD=500/50000 fogN=350/25000 win=NAT-ENB.esp
+10A23C:Skyrim.esm                        StormFF                                      refs=  3 [Rainy] P=RainStormParticles W=150 cl=17 fogD=750/100000 fogN=350/80000 win=NAT-ENB.esp
+0C8220:Skyrim.esm                        StormPF                                      refs=  6 [Rainy] P=RainStormParticles W=150 cl=11 fogD=500/35000 fogN=350/80000 win=NAT-ENB.esp
+10A241:Skyrim.esm                        StormTU                                      refs=  1 [Rainy] P=RainStormParticles W=150 cl=20 fogD=100/35000 fogN=350/80000 win=NAT-ENB.esp
+10A234:Skyrim.esm                        SunnyCO                                      refs=  1 [Pleasant] P=None W=10 cl=13 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1E8:Skyrim.esm                        SunnyCO_A                                    refs=  1 [Pleasant] P=None W=10 cl=17 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+018471:Dragonborn.esm                    SunnyDLC2                                    refs=  0 [Cloudy] P=None W=10 cl=10 fogD=2500/150000 fogN=350/80000 win=NAT-ENB.esp
+10A23B:Skyrim.esm                        SunnyFF                                      refs=  2 [Pleasant] P=None W=10 cl=15 fogD=3000/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1EC:Skyrim.esm                        SunnyFF_A                                    refs=  1 [Pleasant] P=None W=10 cl=16 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+010E0F:Dawnguard.esm                     SunnyFV                                      refs=  0 [Pleasant] P=None W=10 cl=15 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+010E10:Dawnguard.esm                     SunnyFV_A                                    refs=  0 [Pleasant] P=None W=10 cl=12 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10A230:Skyrim.esm                        SunnyMA                                      refs=  0 [Pleasant] P=None W=10 cl=18 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1E6:Skyrim.esm                        SunnyMA_A                                    refs=  0 [Pleasant] P=None W=10 cl=15 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+00081A:Skyrim.esm                        SunnyPF                                      refs= 11 [Pleasant] P=None W=10 cl=10 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1F2:Skyrim.esm                        SunnyPF_A                                    refs=  7 [Pleasant] P=None W=10 cl=11 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10A237:Skyrim.esm                        SunnyRE                                      refs=  0 [Pleasant] P=None W=10 cl=15 fogD=5000/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1EA:Skyrim.esm                        SunnyRE_A                                    refs=  1 [Pleasant] P=None W=10 cl=15 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10A244:Skyrim.esm                        SunnySN                                      refs=  0 [Pleasant] P=None W=10 cl=5 fogD=5000/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1F0:Skyrim.esm                        SunnySN_A                                    refs=  1 [Pleasant] P=None W=10 cl=12 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10A240:Skyrim.esm                        SunnyTU                                      refs=  2 [Pleasant] P=None W=10 cl=13 fogD=5000/250000 fogN=350/80000 win=NAT-ENB.esp
+10E1EE:Skyrim.esm                        SunnyTU_A                                    refs=  1 [Pleasant] P=None W=10 cl=14 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+10A7A5:Skyrim.esm                        SunnyVT                                      refs=  1 [Pleasant] P=None W=10 cl=15 fogD=1000/200000 fogN=350/80000 win=NAT-ENB.esp
+10E1E4:Skyrim.esm                        SunnyVT_A                                    refs=  0 [Pleasant] P=None W=10 cl=15 fogD=3500/200000 fogN=350/80000 win=NAT-ENB.esp
+02E7AB:Skyrim.esm                        TESTCloudyRain                               refs=  0 [Rainy] P=RainParticles W=0 cl=4 fogD=0/300000 fogN=0/300000 win=Update.esm
+0C8221:Skyrim.esm                        VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar          refs= 10 [Snow, SSAV] P=PIC_SPGD_Snow_Heavy W=180 cl=3 fogD=0/75000 fogN=0/50000 win=Picta - Weathers of Skyrim.esp
+0C821E:Skyrim.esm                        VANILLA_ID_PIC_WTHR_MQ_Intro_Cart_Scene      refs=  4 [Snow, SSAV] P=None W=15 cl=3 fogD=0/50000 fogN=0/25000 win=Picta - Weathers of Skyrim.esp
+012F89:Skyrim.esm                        VANILLA_ID_PIC_WTHR_MQ_Intro_Helgen_Scene    refs=  7 [Snow, SSAV] P=None W=10 cl=3 fogD=0/90000 fogN=0/65000 win=Picta - Weathers of Skyrim.esp
+53ABD3:BluePalaceTerrace.esp             WBPTFXDayNightComboLight                     refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=BluePalaceTerrace.esp
+53ABD3:Grand Solitude - The Walls of High King Erling.esp WBPTFXDayNightComboLight                     refs=  1 [0] P=None W=0 cl=0 fogD=0/0 fogN=0/0 win=Grand Solitude - The Walls of High King Erling.esp
+627E73:Wyrmstooth.esp                    WyrmstoothClear                              refs=  3 [Pleasant] P=None W=25 cl=12 fogD=1200/80000 fogN=1200/40000 win=Wyrmstooth.esp
+82A018:Wyrmstooth.esp                    WyrmstoothFog                                refs=  3 [Cloudy] P=None W=13 cl=9 fogD=0/25000 fogN=0/15000 win=Wyrmstooth.esp
+54F2A0:Wyrmstooth.esp                    WyrmstoothStormFog                           refs=  3 [Cloudy] P=None W=25 cl=14 fogD=1000/15000 fogN=1000/15000 win=Authoria - Patch - Picta Seasonal.esp
+0048C6:Moonpath Music - Sky and Lighting fix - merged.esp _MSWFAirspace                                refs=  1 [Pleasant] P=None W=255 cl=11 fogD=0/100000 fogN=0/50000 win=Moonpath Music - Sky and Lighting fix - merged.esp
+004E4E:Moonpath Music - Sky and Lighting fix - merged.esp _MSWFDesertClear                             refs=  1 [Pleasant] P=None W=31 cl=12 fogD=0/80000 fogN=0/40000 win=Moonpath Music - Sky and Lighting fix - merged.esp
+00591E:Moonpath Music - Sky and Lighting fix - merged.esp _MSWFJungleCathedral                         refs=  1 [Pleasant] P=None W=31 cl=12 fogD=0/80000 fogN=0/40000 win=Moonpath Music - Sky and Lighting fix - merged.esp
+0022E7:Moonpath Music - Sky and Lighting fix - merged.esp _MSWFJungleClear                             refs=  1 [Pleasant] P=None W=31 cl=12 fogD=0/80000 fogN=0/40000 win=Moonpath Music - Sky and Lighting fix - merged.esp
+011171:Moonpath Music - Sky and Lighting fix - merged.esp _MSWFTopalClear                              refs=  1 [Pleasant] P=None W=31 cl=12 fogD=4000/80000 fogN=0/40000 win=Moonpath Music - Sky and Lighting fix - merged.esp
+03416F:ccbgssse067-daedinv.esm           ccBGSSSE067_DeadlandsAmbWeather01            refs=  1 [Cloudy, SSAV] P=None W=24 cl=11 fogD=0/7000 fogN=0/7000 win=ccbgssse067-daedinv.esm
+00DAAC:Gray Fox Cowl.esm                 manny_GF_Weather_Akavir                      refs=  1 [Cloudy, SSAV] P=None W=255 cl=0 fogD=0/0 fogN=0/0 win=Gray Fox Cowl.esm
+001F4B:Gray Fox Cowl.esm                 manny_GF_Weather_ChampionHall                refs=  1 [Pleasant, SSAV] P=None W=0 cl=3 fogD=0/0 fogN=0/0 win=Gray Fox Cowl.esm
+000DCB:Gray Fox Cowl.esm                 manny_GF_Weather_Coldharbour                 refs=  1 [Rainy, SSAV] P=MAGBlizzardParticles W=255 cl=14 fogD=2000/8000 fogN=2000/8000 win=Gray Fox Cowl.esm
+00B769:DAc0da.esm                        zDcdBlindGodFog                              refs=  1 [Cloudy] P=SlowTimeParticles02 W=0 cl=4 fogD=0/25000 fogN=0/15000 win=DAc0da.esm
+0098F4:DAc0da.esm                        zDcdDwemerethFog                             refs=  1 [Cloudy, SSAV] P=SlowTimeParticles02 W=0 cl=4 fogD=0/25000 fogN=0/15000 win=DAc0da.esm
+0042F8:DAc0da.esm                        zDcdStormRainHeavy                           refs=  1 [Rainy] P=RainStormParticles W=50 cl=12 fogD=0/25000 fogN=0/10000 win=DAc0da.esm
+4BF5AA:Vigilant.esm                      zzzCHMolagDarkWeather                        refs=  3 [Rainy, SSAV] P=DustParticles W=25 cl=13 fogD=1200/15000 fogN=1200/15000 win=Lux - Vigilant patch.esp
+4C07A0:Vigilant.esm                      zzzCHMolagFogWeather                         refs=  3 [Cloudy, SSAV] P=None W=13 cl=9 fogD=0/25000 fogN=0/25000 win=Lux - Vigilant patch.esp
+0701D2:Vigilant.esm                      zzzCHMolagWeather                            refs=  3 [Pleasant, SSAV] P=DustParticles W=13 cl=18 fogD=0/50000 fogN=0/50000 win=Lux - Vigilant patch.esp
+056A0D:Vigilant.esm                      zzzCHMonoClearWeather                        refs=  1 [Pleasant] P=None W=25 cl=12 fogD=1200/80000 fogN=1200/40000 win=Vigilant.esm
+056A0C:Vigilant.esm                      zzzCHMonoFogWeather                          refs=  1 [Cloudy] P=None W=13 cl=9 fogD=0/25000 fogN=0/15000 win=Vigilant.esm
+2A0166:Glenmoril.esm                     zzzRevWeatherAbyss                           refs=  1 [Cloudy] P=None W=13 cl=12 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm
+2401C8:Glenmoril.esm                     zzzRevWeatherAsh                             refs=  1 [Snow, SSAV] P=DLC02AshParticlesLite W=13 cl=9 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm
+00133B:Glenmoril.esm                     zzzRevWeatherClear                           refs=  3 [Cloudy, SSAV] P=None W=13 cl=12 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm
+491B1C:Glenmoril.esm                     zzzRevWeatherDreamsleeves                    refs=  1 [Rainy, SSAV] P=zzzRevRainParticlesInvert W=25 cl=22 fogD=2000/8000 fogN=2000/8000 win=Glenmoril.esm
+0031FD:Glenmoril.esm                     zzzRevWeatherDustSnow                        refs=  3 [Snow, SSAV] P=zzzRevDustSnow W=13 cl=9 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm
+30EEB1:Glenmoril.esm                     zzzRevWeatherFishVillage                     refs=  1 [Rainy, SSAV] P=RainParticles W=13 cl=12 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm
+30EEB4:Glenmoril.esm                     zzzRevWeatherHircineSeal                     refs=  1 [Snow, SSAV] P=zzzRevDustSnow W=13 cl=9 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm
+000F92:Glenmoril.esm                     zzzRevWeatherRain                            refs=  1 [Rainy, SSAV] P=zzzRevRainParticles W=13 cl=9 fogD=0/12500 fogN=0/12500 win=Glenmoril.esm
+0011FE:Glenmoril.esm                     zzzRevWeatherRainHeavy                       refs=  1 [Rainy, SSAV] P=zzzRevRainParticlesHeavy W=115 cl=9 fogD=0/7500 fogN=0/7500 win=Glenmoril.esm
+001200:Glenmoril.esm                     zzzRevWeatherRainMiddle                      refs=  1 [Rainy, SSAV] P=zzzRevRainParticlesMiddle W=89 cl=9 fogD=0/10000 fogN=0/10000 win=Glenmoril.esm
+21BCF1:Glenmoril.esm                     zzzRevWeatherSnow                            refs=  1 [Snow, SSAV] P=SnowParticlesMed W=13 cl=9 fogD=0/15000 fogN=0/15000 win=Glenmoril.esm

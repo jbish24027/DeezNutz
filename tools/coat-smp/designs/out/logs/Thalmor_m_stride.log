@@ -1,0 +1,10 @@
+== Thalmor m: thalmorrobesm_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R  44/ 1/ 43   sprint L  44/ 0/ 52   walk R  55/ 9/ 46   walk L  68/ 1/ 38
+   curled in (limit)      sprint R  31/ 5/ 35   sprint L  24/ 0/ 68   walk R  33/ 3/ 67   walk L  42/ 1/ 45
+   swung back .3/.15      sprint R  21/ 1/ 30   sprint L  44/ 8/ 25   walk R  54/ 2/ 32   walk L  61/ 4/ 31
+   swung forward .3/.15   sprint R  43/ 0/ 45   sprint L  34/ 0/ 66   walk R  34/ 1/ 25   walk L  42/ 6/ 21
+   swung sideways .3/.15  sprint R  25/ 2/ 41   sprint L  32/ 1/ 35   walk R  22/ 1/ 30   walk L  39/13/ 16
+   total caught/hooked/sunk 792/59/791; lining pts Front 83, Back 123, Side 256
+
+EXIT 0

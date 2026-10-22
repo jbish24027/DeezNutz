@@ -1,0 +1,24 @@
+===== DarkBro
+piece Saia <- DBbody3rdPerson ('islands', 0, {4481: 43, 4692: 73, 4934: 370, 5165: 370, 5202: 269, 5260: 43, 5364: 598, 5365: 73, 5636: 490, 7213: 210, 8295: 235}, (5,), 76.0): 2555 pts / 4213 tris (skirt:outer)
+skirt axis (0.66, 6.79); slits (centre, half-width, top): -178.2/3.6/70.7; -128.0/24.5/48.7; per-layer tops {'outer': [70.7, 48.7]}; 12 chains at -175 -152 -103 -72 -41 -10 22 53 84 116 147 178
+no belt; no flaps; no bag
+skirt rows (anchor..hem): -175:77.0/70.0/63.0/56.0/49.1/42.1; -152:77.0/70.0/63.1/56.1/49.2/42.2; -103:77.0/70.3/63.7/57.0/50.4/43.7; -72:77.0/69.9/62.8/55.6/48.5/41.4; -41:77.0/70.1/63.2/56.4/49.5/42.6; -10:77.0/75.0/73.0/70.9/68.9/66.9; 22:77.0/71.2/65.5/59.7/53.9/48.1; 53:77.0/69.9/62.8/55.7/48.6/41.4; 84:77.0/69.9/62.8/55.6/48.5/41.4; 116:77.0/71.3/65.6/59.9/54.2/48.6; 147:77.0/70.6/64.2/57.8/51.4/45.0; 178:77.0/69.9/62.8/55.8/48.7/41.6
+tip rows ; flap hinges 
+legs from DBbody3rdPerson (1778 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 -0.37 median 1.32; free share p10 0.10 median 0.77
+m: Saia is cut out of DBbody3rdPerson: 112 seam points (z 74.4..76.0) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 3857 of 3909 lining pts (z 40.7..76.0) take the sheet's weights at their spot; 52 project onto no sheet and keep their own
+m: skirt Saia 9308 pts (7948 move); tip 0 pts
+m: legs collider pulled in at 475 of 959 pts (max 2.84); lining points Saia 3664/3664
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 51 seam points pinned to the remainder's weights
+m: DBbody3rdPerson: 99 seam points of ['Saia'] to weld into the remainder
+m: DBbody3rdPerson: 99 of 99 seam points welded into the remainder (99 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/robedarkbrotherhood/dbtorso_1.nif; shapes (pts, tris) {'HIMBO - Body': (254, 414), 'DBbody3rdPerson': (7003, 12158), 'Saia': (9308, 16852), 'ADB Legs Front': (566, 966), 'ADB Legs Back': (370, 593), 'ADB Legs Side': (623, 842), 'ADB Skirt Front': (1307, 1777), 'ADB Skirt Side': (1087, 1600), 'ADB Skirt Back': (1270, 1776), 'VirtualGround': (4, 2)}; bones per shape {'HIMBO - Body': 7, 'DBbody3rdPerson': 28, 'Saia': 65, 'ADB Legs Front': 7, 'ADB Legs Back': 7, 'ADB Legs Side': 7, 'ADB Skirt Front': 31, 'ADB Skirt Side': 47, 'ADB Skirt Back': 33, 'VirtualGround': 1}
+m: Saia: 51 seam points pinned to the remainder's weights
+m: DBbody3rdPerson: 99 seam points of ['Saia'] to weld into the remainder
+m: DBbody3rdPerson: 99 of 99 seam points welded into the remainder (99 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/robedarkbrotherhood/dbtorso_0.nif; shapes (pts, tris) {'HIMBO - Body': (254, 414), 'DBbody3rdPerson': (7003, 12158), 'Saia': (9308, 16852), 'ADB Legs Front': (566, 966), 'ADB Legs Back': (370, 593), 'ADB Legs Side': (623, 842), 'ADB Skirt Front': (1307, 1777), 'ADB Skirt Side': (1087, 1600), 'ADB Skirt Back': (1270, 1776), 'VirtualGround': (4, 2)}; bones per shape {'HIMBO - Body': 7, 'DBbody3rdPerson': 28, 'Saia': 65, 'ADB Legs Front': 7, 'ADB Legs Back': 7, 'ADB Legs Side': 7, 'ADB Skirt Front': 31, 'ADB Skirt Side': 47, 'ADB Skirt Back': 33, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\DarkBrotherhoodM.xml (428 lines); cross-slit links [(11, 0, 70.7), (1, 2, 48.7)]
+
+EXIT 0

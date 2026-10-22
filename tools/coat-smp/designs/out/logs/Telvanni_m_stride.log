@@ -1,0 +1,10 @@
+== Telvanni m: telvannibodym_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 172/ 2/ 99   sprint L 134/ 3/103   walk R 126/ 2/ 37   walk L 125/ 2/ 36
+   curled in (limit)      sprint R 171/ 1/ 45   sprint L 152/ 3/ 33   walk R 109/ 5/ 55   walk L  93/ 4/ 52
+   swung back .3/.15      sprint R  65/ 2/ 55   sprint L  57/ 3/ 65   walk R 101/ 4/ 36   walk L  96/ 4/ 39
+   swung forward .3/.15   sprint R 191/ 2/128   sprint L 182/ 4/140   walk R 117/ 0/ 57   walk L 109/ 0/ 56
+   swung sideways .3/.15  sprint R 137/ 0/ 99   sprint L 112/ 4/ 58   walk R 106/ 0/ 51   walk L  91/ 4/ 33
+   total caught/hooked/sunk 2446/49/1277; lining pts Front 239, Back 420, Side 515
+
+EXIT 0

@@ -1,0 +1,9 @@
+== Jester m: jesterm_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 134/15/ 76   sprint L  97/ 5/ 63   walk R  49/ 0/ 83   walk L  66/ 0/ 75
+   curled in (limit)      sprint R 148/16/107   sprint L 119/ 2/ 67   walk R 125/ 4/ 78   walk L 136/10/ 72
+   swung back .3/.15      sprint R  27/ 9/ 69   sprint L  22/ 4/ 34   walk R  87/11/ 83   walk L  71/ 5/ 71
+   swung forward .3/.15   sprint R 128/ 0/123   sprint L 163/12/ 91   walk R 121/ 0/ 40   walk L 132/ 0/ 34
+   swung sideways .3/.15  sprint R  99/10/ 57   sprint L  53/ 1/ 76   walk R  27/ 0/ 65   walk L  88/ 3/ 60
+   total caught/hooked/sunk 1892/107/1424; lining pts Front 114, Back 396, Side 234
+
+EXIT 0

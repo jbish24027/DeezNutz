@@ -1,0 +1,24 @@
+C:\1. AUTHORIA\Stock Game\Data\Skyrim.esm
+C:\1. AUTHORIA\mods\Cleaned Base Game Masters\Update.esm
+C:\1. AUTHORIA\mods\Cleaned Base Game Masters\HearthFires.esm
+C:\1. AUTHORIA\mods\Creation Club - Cleaned Masters\ccBGSSSE001-Fish.esm
+C:\1. AUTHORIA\mods\Unofficial Skyrim Special Edition Patch\unofficial skyrim special edition patch.esp
+C:\1. AUTHORIA\mods\VIGILANT - English Translation SE (Voiced)\Vigilant.esm
+C:\1. AUTHORIA\mods\Authoria - Dyndolod Output\DynDOLOD.esm
+C:\1. AUTHORIA\mods\Legacy of the Dragonborn BadGremlins Collection\BGCollectables.esp
+C:\1. AUTHORIA\mods\Mirele Bismath Reborn\Mirele Bismath Reborn.esp
+C:\1. AUTHORIA\mods\Song of the Green (Auri Follower) - Vigilant\018AuriVIGILANTpatch.esp
+C:\1. AUTHORIA\mods\Waterplants - lily only\waterplants_lily.esp
+C:\1. AUTHORIA\mods\[NoDelete] Mists of Tamriel\Mists of Tamriel.esp
+C:\1. AUTHORIA\mods\Nature of the Wild Lands - forest and trees improvement mod\Nature of the Wild Lands.esp
+C:\1. AUTHORIA\mods\Turn of the Seasons\TOTS - Icy Waterways.esp
+C:\1. AUTHORIA\mods\Locked Chests Have Keys\Locked Chests Have Keys.esp
+C:\1. AUTHORIA\mods\Embers XD 3.2.6\Embers XD.esp
+C:\1. AUTHORIA\mods\Water for ENB - rerun\Water for ENB (Shades of Skyrim).esp
+C:\1. AUTHORIA\mods\Water for ENB - rerun\Water for ENB - Patch - Mirele Bismath Reborn.esp
+C:\1. AUTHORIA\mods\Lux Orbis (main)\Lux Orbis.esp
+C:\1. AUTHORIA\mods\[NoDelete] Lux CS\Lux Orbis CS.esp
+C:\1. AUTHORIA\mods\Northern Roads Patch Collection - rerun\Northern Roads - Ryn's Standing Stones patch.esp
+C:\1. AUTHORIA\mods\Authoria - xEdit Output\Authoria - Master Patch - Water for ENB.esp
+C:\1. AUTHORIA\mods\Authoria - Synthesis Output - NSFW\Authoria - Output - Synthesis Worldspace.esp
+C:\1. AUTHORIA\mods\Authoria - Dyndolod Output\Occlusion.esp

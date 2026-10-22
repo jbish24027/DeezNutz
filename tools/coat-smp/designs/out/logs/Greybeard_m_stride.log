@@ -1,0 +1,10 @@
+== Greybeard m: greybeardrobe_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 107/ 8/ 92   sprint L 108/ 0/ 81   walk R  75/ 2/ 29   walk L  76/ 0/ 28
+   curled in (limit)      sprint R  41/10/ 39   sprint L  46/ 2/125   walk R  75/ 2/ 88   walk L  40/ 7/ 56
+   swung back .3/.15      sprint R  61/11/ 11   sprint L  58/ 4/ 23   walk R  47/ 3/ 27   walk L  58/ 5/ 31
+   swung forward .3/.15   sprint R  41/ 0/ 38   sprint L  84/ 0/ 93   walk R  42/ 0/ 10   walk L  47/ 0/ 18
+   swung sideways .3/.15  sprint R  25/ 0/ 67   sprint L  36/ 0/ 54   walk R  14/ 0/ 51   walk L  61/ 0/ 25
+   total caught/hooked/sunk 1142/54/986; lining pts Front 241, Back 227, Side 233
+
+EXIT 0

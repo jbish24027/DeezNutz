@@ -1,0 +1,10 @@
+== Vaermina m: vaerminarobes_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 109/ 4/127   sprint L  79/ 0/ 69   walk R 116/ 3/ 26   walk L  78/ 0/ 19
+   curled in (limit)      sprint R  80/ 4/ 41   sprint L 137/ 3/141   walk R  95/ 2/ 67   walk L 105/ 3/138
+   swung back .3/.15      sprint R  51/ 3/ 26   sprint L  48/ 5/ 30   walk R  58/ 2/ 27   walk L  57/10/ 19
+   swung forward .3/.15   sprint R  84/ 3/ 76   sprint L  63/ 0/ 70   walk R  62/ 0/ 38   walk L  61/ 0/ 25
+   swung sideways .3/.15  sprint R  52/ 1/ 65   sprint L  52/ 0/ 48   walk R  52/ 0/ 27   walk L  64/ 0/ 37
+   total caught/hooked/sunk 1503/43/1116; lining pts Front 212, Back 316, Side 406
+
+EXIT 0

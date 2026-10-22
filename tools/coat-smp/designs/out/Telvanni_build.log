@@ -1,0 +1,17 @@
+===== Telvanni
+legs from the body (under z 70.0, no arms / upper body): malebody_1.nif 'HIMBO - Body HP' 4871 of 14597 pts; bones folded to ['NPC L Calf [LClf]', 'NPC L Foot [Lft ]', 'NPC L Thigh [LThg]', 'NPC Pelvis [Pelv]', 'NPC R Calf [RClf]', 'NPC R Foot [Rft ]', 'NPC R Thigh [RThg]', 'NPC Spine [Spn0]', 'NPC Spine1 [Spn1]']
+piece Robe <- TelvanniBody ('islands', 0, {4458: 114, 4459: 220, 4614: 21, 4867: 232, 7719: 231, 7903: 12, 7983: 227, 9056: 9, 12581: 297, 12682: 2520, 12718: 294}, (1, 2), 69.0): 4146 pts / 7158 tris (skirt:outer)
+skirt axis (-0.00, 3.00); slits (centre, half-width, top): -101.4/11.5/8.5; 101.0/11.0/8.5; per-layer tops {'outer': [8.5, 8.5]}; 12 chains at -90 -54 -18 18 54 90 112 139 166 -167 -140 -113
+no belt; no flaps; no bag
+skirt rows (anchor..hem): -90:68.0/59.4/50.8/42.2/33.7/25.1/16.5/7.9; -54:68.0/58.8/49.6/40.3/31.1/21.9/12.7/3.5; -18:68.0/63.9/59.8/55.6/51.5/47.4/43.3/39.2; 18:68.0/63.9/59.8/55.6/51.5/47.4/43.3/39.1; 54:68.0/58.8/49.6/40.3/31.1/21.9/12.7/3.5; 90:68.0/59.4/50.8/42.2/33.7/25.1/16.5/7.9; 112:68.0/59.3/50.7/42.0/33.3/24.6/16.0/7.3; 139:68.0/59.3/50.6/41.8/33.1/24.4/15.7/6.9; 166:68.0/59.9/51.8/43.7/35.6/27.4/19.3/11.2; -167:68.0/59.9/51.8/43.7/35.6/27.4/19.3/11.2; -140:68.0/59.3/50.6/41.9/33.2/24.4/15.7/7.0; -113:68.0/59.3/50.7/42.0/33.4/24.7/16.0/7.4
+tip rows ; flap hinges 
+legs from LegsBody (9176 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.10 median 2.95; free share p10 0.02 median 0.76
+m: Robe is cut out of TelvanniBody: 112 seam points (z 66.3..69.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 4146 pts (2998 move); tip 0 pts
+m: legs collider pulled in at 1520 of 4871 pts (max 2.51); lining points Robe 1174/1174
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 2523 pts
+m_1: wrote meshes/dlc02/clothes/telvanni/telvannibodym_1.nif; shapes (pts, tris) {'TelvanniBody': (9006, 15920), 'Robe': (1874, 3038), 'Robe 2': (2523, 4120), 'ATV Legs Front': (2388, 4236), 'ATV Legs Back': (2040, 3560), 'ATV Legs Side': (2897, 4527), 'ATV Skirt Front': (239, 248), 'ATV Skirt Side': (515, 697), 'ATV Skirt Back': (420, 540), 'VirtualGround': (4, 2)}; bones per shape {'TelvanniBody': 24, 'Robe': 66, 'Robe 2': 77, 'ATV Legs Front': 9, 'ATV Legs Back': 9, 'ATV Legs Side': 9, 'ATV Skirt Front': 35, 'ATV Skirt Side': 59, 'ATV Skirt Back': 47, 'VirtualGround': 1}
+m_0: wrote meshes/dlc02/clothes/telvanni/telvannibodym_0.nif; shapes (pts, tris) {'TelvanniBody': (9006, 15920), 'Robe': (1874, 3038), 'Robe 2': (2523, 4120), 'ATV Legs Front': (2388, 4236), 'ATV Legs Back': (2040, 3560), 'ATV Legs Side': (2897, 4527), 'ATV Skirt Front': (239, 248), 'ATV Skirt Side': (515, 697), 'ATV Skirt Back': (420, 540), 'VirtualGround': (4, 2)}; bones per shape {'TelvanniBody': 24, 'Robe': 66, 'Robe 2': 77, 'ATV Legs Front': 9, 'ATV Legs Back': 9, 'ATV Legs Side': 9, 'ATV Skirt Front': 35, 'ATV Skirt Side': 59, 'ATV Skirt Back': 47, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\TelvanniM.xml (492 lines); chains linked across slits only above the slit tops [(11, 0, 8.5), (5, 6, 8.5)]

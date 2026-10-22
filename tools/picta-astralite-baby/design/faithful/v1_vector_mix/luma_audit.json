@@ -1,0 +1,3866 @@
+{
+ "19FA01": {
+  "top": {
+   "max_luma_dev": 0.0525,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     10.3
+    ],
+    [
+     1.4,
+     9.1
+    ],
+    [
+     1.3,
+     8.9
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0214,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     13.1,
+     132.7
+    ],
+    [
+     0.7,
+     2.1
+    ],
+    [
+     14.2,
+     130.5
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0054,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     62.4,
+     132.7
+    ],
+    [
+     136.7,
+     136.7
+    ],
+    [
+     24.7,
+     130.0
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0158,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     8.7,
+     132.5
+    ],
+    [
+     1.6,
+     4.9
+    ],
+    [
+     9.6,
+     129.5
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2387,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.2,
+     14.6
+    ],
+    [
+     0.3,
+     16.2
+    ],
+    [
+     5.8,
+     18.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1594,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.4
+    ],
+    [
+     0.6,
+     8.8
+    ],
+    [
+     0.3,
+     1.5
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0146,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     23.3,
+     101.6
+    ],
+    [
+     1.6,
+     5.9
+    ],
+    [
+     23.1,
+     62.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     29.0,
+     98.5
+    ],
+    [
+     0.2,
+     0.5
+    ],
+    [
+     29.0,
+     95.5
+    ]
+   ]
+  }
+ },
+ "19FA02": {
+  "top": {
+   "max_luma_dev": 0.0585,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     5.7
+    ],
+    [
+     1.4,
+     9.1
+    ],
+    [
+     0.9,
+     7.0
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0149,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     21.0,
+     151.7
+    ],
+    [
+     0.7,
+     2.1
+    ],
+    [
+     22.7,
+     149.5
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.003,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     37.5,
+     133.0
+    ],
+    [
+     5.4,
+     7.2
+    ],
+    [
+     39.7,
+     129.9
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.007,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.2,
+     156.4
+    ],
+    [
+     1.6,
+     4.9
+    ],
+    [
+     12.6,
+     153.4
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2363,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.2,
+     32.6
+    ],
+    [
+     0.3,
+     16.2
+    ],
+    [
+     14.0,
+     35.9
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1594,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     2.3
+    ],
+    [
+     0.6,
+     8.8
+    ],
+    [
+     0.8,
+     1.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0176,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     143.6,
+     155.3
+    ],
+    [
+     1.6,
+     5.9
+    ],
+    [
+     9.5,
+     28.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     44.8,
+     57.1
+    ],
+    [
+     0.2,
+     0.5
+    ],
+    [
+     18.0,
+     29.4
+    ]
+   ]
+  }
+ },
+ "19FA03": {
+  "top": {
+   "max_luma_dev": 0.0514,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     10.3
+    ],
+    [
+     1.4,
+     9.1
+    ],
+    [
+     1.3,
+     8.9
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0172,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.7,
+     133.2
+    ],
+    [
+     0.2,
+     1.2
+    ],
+    [
+     10.2,
+     130.6
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0059,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     39.3,
+     133.4
+    ],
+    [
+     138.3,
+     138.2
+    ],
+    [
+     16.1,
+     130.3
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0122,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.3,
+     133.2
+    ],
+    [
+     0.8,
+     3.4
+    ],
+    [
+     6.1,
+     129.8
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2035,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.0,
+     13.6
+    ],
+    [
+     0.3,
+     16.2
+    ],
+    [
+     5.6,
+     17.1
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1594,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.4
+    ],
+    [
+     0.6,
+     8.8
+    ],
+    [
+     0.3,
+     1.5
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0057,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     14.3,
+     100.6
+    ],
+    [
+     1.9,
+     7.7
+    ],
+    [
+     16.5,
+     62.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0154,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     15.5,
+     92.2
+    ],
+    [
+     0.8,
+     1.4
+    ],
+    [
+     17.0,
+     88.2
+    ]
+   ]
+  }
+ },
+ "19FB01": {
+  "top": {
+   "max_luma_dev": 0.0438,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     11.0
+    ],
+    [
+     1.5,
+     9.7
+    ],
+    [
+     1.4,
+     9.5
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0197,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.3,
+     133.2
+    ],
+    [
+     0.6,
+     1.6
+    ],
+    [
+     12.4,
+     130.7
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0051,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     55.6,
+     132.8
+    ],
+    [
+     136.8,
+     137.2
+    ],
+    [
+     22.8,
+     130.1
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.015,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     7.8,
+     132.6
+    ],
+    [
+     1.3,
+     4.4
+    ],
+    [
+     8.8,
+     129.6
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2353,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.2,
+     14.6
+    ],
+    [
+     0.3,
+     16.2
+    ],
+    [
+     5.8,
+     17.9
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1594,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.4
+    ],
+    [
+     0.6,
+     8.8
+    ],
+    [
+     0.3,
+     1.5
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0092,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     21.8,
+     100.9
+    ],
+    [
+     2.0,
+     6.3
+    ],
+    [
+     19.4,
+     62.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0234,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.8,
+     82.6
+    ],
+    [
+     0.7,
+     0.0
+    ],
+    [
+     20.4,
+     79.5
+    ]
+   ]
+  }
+ },
+ "19FB02": {
+  "top": {
+   "max_luma_dev": 0.0492,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.7,
+     4.9
+    ],
+    [
+     1.5,
+     9.7
+    ],
+    [
+     0.8,
+     6.5
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0128,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.2,
+     152.1
+    ],
+    [
+     0.6,
+     1.6
+    ],
+    [
+     19.8,
+     149.7
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     34.7,
+     133.1
+    ],
+    [
+     5.2,
+     6.6
+    ],
+    [
+     37.7,
+     130.0
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0063,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.6,
+     156.5
+    ],
+    [
+     1.3,
+     4.4
+    ],
+    [
+     11.2,
+     153.5
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2349,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.2,
+     32.5
+    ],
+    [
+     0.3,
+     16.2
+    ],
+    [
+     13.6,
+     35.9
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1594,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     2.3
+    ],
+    [
+     0.6,
+     8.8
+    ],
+    [
+     0.8,
+     1.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0143,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     143.6,
+     156.0
+    ],
+    [
+     2.0,
+     6.3
+    ],
+    [
+     9.5,
+     28.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0234,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     52.5,
+     73.0
+    ],
+    [
+     0.7,
+     0.0
+    ],
+    [
+     20.4,
+     45.5
+    ]
+   ]
+  }
+ },
+ "19FB03": {
+  "top": {
+   "max_luma_dev": 0.0157,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     4.0
+    ],
+    [
+     0.4,
+     0.1
+    ],
+    [
+     2.3,
+     5.5
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0096,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.4,
+     15.7
+    ],
+    [
+     3.4,
+     5.9
+    ],
+    [
+     5.8,
+     18.4
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0012,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     124.6,
+     126.9
+    ],
+    [
+     139.5,
+     139.3
+    ],
+    [
+     120.9,
+     123.0
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0039,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.1,
+     18.2
+    ],
+    [
+     1.5,
+     2.5
+    ],
+    [
+     4.5,
+     22.2
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1972,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     121.6,
+     145.4
+    ],
+    [
+     1.0,
+     166.4
+    ],
+    [
+     120.5,
+     141.8
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0901,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     7.1,
+     15.3
+    ],
+    [
+     0.3,
+     1.0
+    ],
+    [
+     9.4,
+     19.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0135,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.1,
+     18.1
+    ],
+    [
+     0.8,
+     0.2
+    ],
+    [
+     9.2,
+     26.4
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0173,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     6.5,
+     19.6
+    ],
+    [
+     0.6,
+     1.1
+    ],
+    [
+     8.0,
+     23.5
+    ]
+   ]
+  }
+ },
+ "19FC01": {
+  "top": {
+   "max_luma_dev": 0.0412,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     5.9
+    ],
+    [
+     1.8,
+     10.7
+    ],
+    [
+     0.6,
+     4.3
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0203,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     6.4,
+     151.8
+    ],
+    [
+     2.3,
+     6.2
+    ],
+    [
+     6.8,
+     149.2
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0183,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.7,
+     149.5
+    ],
+    [
+     1.5,
+     3.3
+    ],
+    [
+     6.6,
+     147.6
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0105,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     7.1,
+     156.9
+    ],
+    [
+     1.2,
+     4.7
+    ],
+    [
+     8.1,
+     155.0
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2336,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.8,
+     29.0
+    ],
+    [
+     1.8,
+     15.4
+    ],
+    [
+     13.8,
+     32.4
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1178,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.5,
+     2.2
+    ],
+    [
+     0.0,
+     2.0
+    ],
+    [
+     1.2,
+     6.2
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0115,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     107.0,
+     134.9
+    ],
+    [
+     2.7,
+     8.6
+    ],
+    [
+     5.7,
+     8.4
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0166,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     27.1,
+     36.3
+    ],
+    [
+     2.5,
+     8.0
+    ],
+    [
+     27.1,
+     35.7
+    ]
+   ]
+  }
+ },
+ "19FC02": {
+  "top": {
+   "max_luma_dev": 0.0412,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     5.9
+    ],
+    [
+     1.8,
+     10.7
+    ],
+    [
+     0.6,
+     4.3
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.019,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.6,
+     152.1
+    ],
+    [
+     1.3,
+     5.4
+    ],
+    [
+     6.1,
+     149.2
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.1172,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.0,
+     151.5
+    ],
+    [
+     0.9,
+     1.0
+    ],
+    [
+     5.5,
+     149.3
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0118,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.9,
+     158.9
+    ],
+    [
+     1.7,
+     2.3
+    ],
+    [
+     5.9,
+     156.6
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2243,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.6,
+     28.7
+    ],
+    [
+     1.8,
+     15.4
+    ],
+    [
+     13.8,
+     32.1
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1178,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.5,
+     2.2
+    ],
+    [
+     0.0,
+     2.0
+    ],
+    [
+     1.2,
+     6.2
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.012,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     99.3,
+     136.6
+    ],
+    [
+     2.5,
+     9.4
+    ],
+    [
+     3.5,
+     9.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0113,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     21.4,
+     33.5
+    ],
+    [
+     2.5,
+     10.5
+    ],
+    [
+     25.7,
+     33.0
+    ]
+   ]
+  }
+ },
+ "19FC03": {
+  "top": {
+   "max_luma_dev": 0.0152,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.0,
+     2.8
+    ],
+    [
+     0.2,
+     0.6
+    ],
+    [
+     1.4,
+     4.3
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0078,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.1,
+     12.8
+    ],
+    [
+     2.3,
+     4.9
+    ],
+    [
+     4.1,
+     15.1
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0015,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     134.1,
+     133.9
+    ],
+    [
+     144.4,
+     143.1
+    ],
+    [
+     128.8,
+     131.5
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0034,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.2,
+     11.2
+    ],
+    [
+     0.2,
+     1.2
+    ],
+    [
+     3.3,
+     13.7
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1602,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     119.7,
+     146.9
+    ],
+    [
+     1.0,
+     166.8
+    ],
+    [
+     120.0,
+     143.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0611,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     6.4,
+     14.7
+    ],
+    [
+     0.3,
+     2.5
+    ],
+    [
+     9.4,
+     19.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0076,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.2,
+     8.4
+    ],
+    [
+     0.9,
+     2.4
+    ],
+    [
+     4.0,
+     13.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0069,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.5,
+     8.7
+    ],
+    [
+     0.7,
+     2.0
+    ],
+    [
+     3.9,
+     10.3
+    ]
+   ]
+  }
+ },
+ "19FC04": {
+  "top": {
+   "max_luma_dev": 0.0043,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     142.5,
+     141.4
+    ],
+    [
+     144.0,
+     144.8
+    ],
+    [
+     140.8,
+     139.7
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0033,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     126.5,
+     129.0
+    ],
+    [
+     137.1,
+     137.5
+    ],
+    [
+     126.0,
+     126.3
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0305,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     132.4,
+     133.2
+    ],
+    [
+     137.3,
+     138.8
+    ],
+    [
+     130.0,
+     131.2
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0027,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     133.3,
+     133.2
+    ],
+    [
+     138.6,
+     138.8
+    ],
+    [
+     133.1,
+     131.2
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1949,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.5,
+     9.5
+    ],
+    [
+     20.0,
+     30.5
+    ],
+    [
+     6.3,
+     5.7
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0638,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     16.6,
+     16.3
+    ],
+    [
+     20.0,
+     28.5
+    ],
+    [
+     12.0,
+     11.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0198,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     130.0,
+     132.8
+    ],
+    [
+     138.8,
+     138.1
+    ],
+    [
+     130.0,
+     129.7
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0191,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     87.7,
+     87.7
+    ],
+    [
+     139.1,
+     138.7
+    ],
+    [
+     90.0,
+     86.5
+    ]
+   ]
+  }
+ },
+ "19FC05": {
+  "top": {
+   "max_luma_dev": 0.0112,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.9,
+     5.0
+    ],
+    [
+     2.7,
+     8.1
+    ],
+    [
+     0.4,
+     3.1
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0086,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.0,
+     6.7
+    ],
+    [
+     0.4,
+     2.6
+    ],
+    [
+     1.0,
+     10.3
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0079,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.0,
+     5.5
+    ],
+    [
+     0.3,
+     0.2
+    ],
+    [
+     1.7,
+     7.7
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0065,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.5,
+     0.3
+    ],
+    [
+     1.7,
+     5.3
+    ],
+    [
+     0.6,
+     2.5
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2065,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     35.7,
+     144.7
+    ],
+    [
+     0.5,
+     165.7
+    ],
+    [
+     45.5,
+     141.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0623,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.9,
+     18.7
+    ],
+    [
+     0.7,
+     6.5
+    ],
+    [
+     15.3,
+     23.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.009,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.2,
+     3.1
+    ],
+    [
+     1.9,
+     4.2
+    ],
+    [
+     1.7,
+     5.1
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0086,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.8,
+     51.0
+    ],
+    [
+     1.2,
+     3.2
+    ],
+    [
+     9.8,
+     52.9
+    ]
+   ]
+  }
+ },
+ "19FD01": {
+  "top": {
+   "max_luma_dev": 0.0328,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.1,
+     9.8
+    ],
+    [
+     1.7,
+     13.5
+    ],
+    [
+     0.8,
+     8.0
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0158,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.5,
+     155.8
+    ],
+    [
+     0.8,
+     3.1
+    ],
+    [
+     3.5,
+     152.7
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0143,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.0,
+     152.8
+    ],
+    [
+     0.4,
+     1.0
+    ],
+    [
+     4.5,
+     150.7
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0086,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.7,
+     160.1
+    ],
+    [
+     0.4,
+     2.3
+    ],
+    [
+     5.5,
+     158.0
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2033,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.9,
+     28.2
+    ],
+    [
+     0.8,
+     15.9
+    ],
+    [
+     13.6,
+     31.8
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0508,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.2,
+     1.6
+    ],
+    [
+     0.0,
+     0.5
+    ],
+    [
+     1.1,
+     6.6
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.01,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     102.5,
+     137.4
+    ],
+    [
+     2.7,
+     9.7
+    ],
+    [
+     6.3,
+     11.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0129,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     29.1,
+     44.0
+    ],
+    [
+     3.2,
+     10.5
+    ],
+    [
+     28.4,
+     43.0
+    ]
+   ]
+  }
+ },
+ "19FD02": {
+  "top": {
+   "max_luma_dev": 0.0107,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.0,
+     0.8
+    ],
+    [
+     1.3,
+     3.5
+    ],
+    [
+     0.4,
+     0.9
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0053,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.1,
+     7.3
+    ],
+    [
+     0.5,
+     0.6
+    ],
+    [
+     2.5,
+     10.7
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0008,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     140.4,
+     139.8
+    ],
+    [
+     151.4,
+     150.0
+    ],
+    [
+     133.8,
+     137.2
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.6,
+     5.3
+    ],
+    [
+     2.2,
+     8.2
+    ],
+    [
+     2.0,
+     7.9
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1301,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     118.8,
+     148.8
+    ],
+    [
+     1.0,
+     166.4
+    ],
+    [
+     120.2,
+     144.4
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0486,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.5,
+     13.9
+    ],
+    [
+     0.6,
+     1.0
+    ],
+    [
+     8.4,
+     18.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0033,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.9,
+     2.2
+    ],
+    [
+     2.9,
+     8.3
+    ],
+    [
+     2.2,
+     8.0
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0038,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.7,
+     3.0
+    ],
+    [
+     2.4,
+     7.0
+    ],
+    [
+     2.0,
+     5.8
+    ]
+   ]
+  }
+ },
+ "19FD03": {
+  "top": {
+   "max_luma_dev": 0.002,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     147.9,
+     147.8
+    ],
+    [
+     150.0,
+     149.9
+    ],
+    [
+     146.1,
+     145.8
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0011,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     134.9,
+     133.7
+    ],
+    [
+     144.0,
+     143.3
+    ],
+    [
+     131.7,
+     132.4
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0222,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     138.1,
+     138.4
+    ],
+    [
+     141.8,
+     143.1
+    ],
+    [
+     133.9,
+     135.3
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0012,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     135.2,
+     138.4
+    ],
+    [
+     139.8,
+     143.1
+    ],
+    [
+     134.3,
+     135.3
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1585,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.9,
+     10.9
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     7.3,
+     6.7
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0514,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.6,
+     17.1
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     12.7,
+     12.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0117,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     135.0,
+     133.8
+    ],
+    [
+     145.0,
+     142.7
+    ],
+    [
+     130.0,
+     130.8
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0142,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     102.9,
+     104.3
+    ],
+    [
+     143.3,
+     142.9
+    ],
+    [
+     102.9,
+     102.9
+    ]
+   ]
+  }
+ },
+ "19FD04": {
+  "top": {
+   "max_luma_dev": 0.002,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     147.9,
+     147.8
+    ],
+    [
+     150.0,
+     149.9
+    ],
+    [
+     146.1,
+     145.8
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0011,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     134.9,
+     133.7
+    ],
+    [
+     144.0,
+     143.3
+    ],
+    [
+     131.7,
+     132.4
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0222,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     138.1,
+     138.4
+    ],
+    [
+     141.8,
+     143.1
+    ],
+    [
+     133.9,
+     135.3
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0012,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     135.2,
+     138.4
+    ],
+    [
+     139.8,
+     143.1
+    ],
+    [
+     134.3,
+     135.3
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1488,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     12.2,
+     11.4
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     7.4,
+     7.2
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0514,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.6,
+     17.1
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     12.7,
+     12.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0117,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     135.0,
+     133.8
+    ],
+    [
+     145.0,
+     142.7
+    ],
+    [
+     130.0,
+     130.8
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0142,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     102.9,
+     104.3
+    ],
+    [
+     143.3,
+     142.9
+    ],
+    [
+     102.9,
+     102.9
+    ]
+   ]
+  }
+ },
+ "19FD05": {
+  "top": {
+   "max_luma_dev": 0.0073,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.1,
+     7.0
+    ],
+    [
+     1.6,
+     10.0
+    ],
+    [
+     0.8,
+     4.6
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0046,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     11.0
+    ],
+    [
+     0.0,
+     3.3
+    ],
+    [
+     1.2,
+     14.9
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0038,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     5.6
+    ],
+    [
+     0.1,
+     0.6
+    ],
+    [
+     1.3,
+     8.6
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0042,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     0.4
+    ],
+    [
+     0.3,
+     5.8
+    ],
+    [
+     0.7,
+     3.4
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1719,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     31.4,
+     146.1
+    ],
+    [
+     0.5,
+     165.3
+    ],
+    [
+     41.0,
+     142.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.1,
+     17.9
+    ],
+    [
+     0.7,
+     5.0
+    ],
+    [
+     14.1,
+     22.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0059,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.3,
+     2.4
+    ],
+    [
+     1.4,
+     4.1
+    ],
+    [
+     2.5,
+     8.0
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0041,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.7,
+     42.4
+    ],
+    [
+     1.2,
+     3.6
+    ],
+    [
+     5.9,
+     46.0
+    ]
+   ]
+  }
+ },
+ "19FD06": {
+  "top": {
+   "max_luma_dev": 0.0073,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.1,
+     7.0
+    ],
+    [
+     1.6,
+     10.0
+    ],
+    [
+     0.8,
+     4.6
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0046,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     11.0
+    ],
+    [
+     0.0,
+     3.3
+    ],
+    [
+     1.2,
+     14.9
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0038,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     5.6
+    ],
+    [
+     0.1,
+     0.6
+    ],
+    [
+     1.3,
+     8.6
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0042,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     0.4
+    ],
+    [
+     0.3,
+     5.8
+    ],
+    [
+     0.7,
+     3.4
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1635,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     29.9,
+     146.7
+    ],
+    [
+     0.5,
+     165.3
+    ],
+    [
+     41.0,
+     142.4
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.1,
+     17.9
+    ],
+    [
+     0.7,
+     5.0
+    ],
+    [
+     14.1,
+     22.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0059,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.3,
+     2.4
+    ],
+    [
+     1.4,
+     4.1
+    ],
+    [
+     2.5,
+     8.0
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0041,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.7,
+     42.4
+    ],
+    [
+     1.2,
+     3.6
+    ],
+    [
+     5.9,
+     46.0
+    ]
+   ]
+  }
+ },
+ "19FE01": {
+  "top": {
+   "max_luma_dev": 0.0045,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.4,
+     12.4
+    ],
+    [
+     6.0,
+     14.2
+    ],
+    [
+     3.4,
+     10.1
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0035,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.4,
+     6.6
+    ],
+    [
+     1.6,
+     3.6
+    ],
+    [
+     2.4,
+     8.2
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0318,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.3,
+     5.8
+    ],
+    [
+     3.9,
+     7.8
+    ],
+    [
+     1.8,
+     4.8
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0029,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.6,
+     6.9
+    ],
+    [
+     3.3,
+     7.6
+    ],
+    [
+     4.4,
+     7.9
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1772,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.7,
+     10.0
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     6.2,
+     6.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0514,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.6,
+     17.1
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     12.7,
+     12.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0061,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.0,
+     8.0
+    ],
+    [
+     23.1,
+     25.6
+    ],
+    [
+     16.9,
+     19.3
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0083,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.3,
+     13.2
+    ],
+    [
+     22.1,
+     25.2
+    ],
+    [
+     9.3,
+     14.6
+    ]
+   ]
+  }
+ },
+ "19FE02": {
+  "top": {
+   "max_luma_dev": 0.0108,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.1,
+     0.3
+    ],
+    [
+     0.4,
+     2.1
+    ],
+    [
+     0.4,
+     2.3
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0086,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.3,
+     7.8
+    ],
+    [
+     0.5,
+     4.8
+    ],
+    [
+     2.1,
+     9.0
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0233,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     139.0,
+     139.4
+    ],
+    [
+     140.9,
+     141.5
+    ],
+    [
+     138.3,
+     138.5
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0077,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.0,
+     6.2
+    ],
+    [
+     3.7,
+     4.4
+    ],
+    [
+     3.1,
+     7.1
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1846,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     41.6,
+     153.5
+    ],
+    [
+     0.1,
+     173.0
+    ],
+    [
+     57.4,
+     149.5
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0514,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.6,
+     17.1
+    ],
+    [
+     40.0,
+     30.0
+    ],
+    [
+     12.7,
+     12.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0091,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     6.5
+    ],
+    [
+     1.3,
+     3.2
+    ],
+    [
+     2.0,
+     8.9
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0102,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.7,
+     6.2
+    ],
+    [
+     0.9,
+     2.9
+    ],
+    [
+     2.4,
+     7.8
+    ]
+   ]
+  }
+ },
+ "19FE03": {
+  "top": {
+   "max_luma_dev": 0.0028,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.8,
+     24.1
+    ],
+    [
+     7.7,
+     23.9
+    ],
+    [
+     4.1,
+     21.2
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0019,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.8,
+     12.1
+    ],
+    [
+     2.9,
+     11.9
+    ],
+    [
+     0.9,
+     9.2
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0507,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     6.1,
+     14.9
+    ],
+    [
+     7.0,
+     16.0
+    ],
+    [
+     5.3,
+     13.5
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0021,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.0,
+     2.2
+    ],
+    [
+     1.9,
+     0.6
+    ],
+    [
+     1.0,
+     0.7
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1194,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     13.1,
+     13.2
+    ],
+    [
+     30.0,
+     29.0
+    ],
+    [
+     8.8,
+     8.5
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0427,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.7,
+     18.1
+    ],
+    [
+     30.0,
+     29.0
+    ],
+    [
+     13.2,
+     13.4
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0031,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.0,
+     1.8
+    ],
+    [
+     25.0,
+     33.6
+    ],
+    [
+     7.7,
+     8.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0026,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.2,
+     3.8
+    ],
+    [
+     26.2,
+     33.2
+    ],
+    [
+     0.7,
+     5.6
+    ]
+   ]
+  }
+ },
+ "19FE04": {
+  "top": {
+   "max_luma_dev": 0.0028,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.8,
+     24.1
+    ],
+    [
+     7.7,
+     23.9
+    ],
+    [
+     4.1,
+     21.2
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0019,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     2.8,
+     12.1
+    ],
+    [
+     2.9,
+     11.9
+    ],
+    [
+     0.9,
+     9.2
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0507,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     6.1,
+     14.9
+    ],
+    [
+     7.0,
+     16.0
+    ],
+    [
+     5.3,
+     13.5
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0021,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.0,
+     2.2
+    ],
+    [
+     1.9,
+     0.6
+    ],
+    [
+     1.0,
+     0.7
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.0919,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     15.4,
+     15.6
+    ],
+    [
+     0.0,
+     30.0
+    ],
+    [
+     9.4,
+     10.2
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0342,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     18.3,
+     19.3
+    ],
+    [
+     0.0,
+     30.0
+    ],
+    [
+     14.2,
+     14.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0031,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.0,
+     1.8
+    ],
+    [
+     25.0,
+     33.6
+    ],
+    [
+     7.7,
+     8.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0026,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.2,
+     3.8
+    ],
+    [
+     26.2,
+     33.2
+    ],
+    [
+     0.7,
+     5.6
+    ]
+   ]
+  }
+ },
+ "19FE05": {
+  "top": {
+   "max_luma_dev": 0.0049,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     10.2
+    ],
+    [
+     1.2,
+     11.6
+    ],
+    [
+     0.6,
+     6.4
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0022,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.2
+    ],
+    [
+     0.4,
+     4.1
+    ],
+    [
+     0.4,
+     8.3
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0024,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     145.3,
+     142.7
+    ],
+    [
+     144.0,
+     145.6
+    ],
+    [
+     141.9,
+     140.7
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0028,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.9,
+     2.9
+    ],
+    [
+     1.4,
+     0.3
+    ],
+    [
+     1.0,
+     4.9
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1284,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     31.2,
+     156.7
+    ],
+    [
+     0.1,
+     172.0
+    ],
+    [
+     45.7,
+     152.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0427,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.7,
+     18.1
+    ],
+    [
+     30.0,
+     29.0
+    ],
+    [
+     13.2,
+     13.4
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0032,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.2,
+     2.1
+    ],
+    [
+     0.1,
+     0.3
+    ],
+    [
+     0.7,
+     8.0
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0031,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.1,
+     2.6
+    ],
+    [
+     0.0,
+     1.5
+    ],
+    [
+     1.2,
+     5.5
+    ]
+   ]
+  }
+ },
+ "19FE06": {
+  "top": {
+   "max_luma_dev": 0.0049,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.6,
+     10.2
+    ],
+    [
+     1.2,
+     11.6
+    ],
+    [
+     0.6,
+     6.4
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0022,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.2
+    ],
+    [
+     0.4,
+     4.1
+    ],
+    [
+     0.4,
+     8.3
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0024,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     145.3,
+     142.7
+    ],
+    [
+     144.0,
+     145.6
+    ],
+    [
+     141.9,
+     140.7
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0028,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.9,
+     2.9
+    ],
+    [
+     1.4,
+     0.3
+    ],
+    [
+     1.0,
+     4.9
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.1014,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     24.5,
+     159.1
+    ],
+    [
+     0.2,
+     173.0
+    ],
+    [
+     40.6,
+     153.7
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.0342,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     18.3,
+     19.3
+    ],
+    [
+     0.0,
+     30.0
+    ],
+    [
+     14.2,
+     14.3
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0032,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.2,
+     2.1
+    ],
+    [
+     0.1,
+     0.3
+    ],
+    [
+     0.7,
+     8.0
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0031,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.1,
+     2.6
+    ],
+    [
+     0.0,
+     1.5
+    ],
+    [
+     1.2,
+     5.5
+    ]
+   ]
+  }
+ },
+ "5AFA01": {
+  "top": {
+   "max_luma_dev": 0.0526,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     10.3
+    ],
+    [
+     1.4,
+     9.1
+    ],
+    [
+     1.3,
+     8.9
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0214,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     13.1,
+     132.7
+    ],
+    [
+     0.7,
+     2.1
+    ],
+    [
+     14.2,
+     130.5
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0054,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     62.4,
+     132.7
+    ],
+    [
+     136.7,
+     136.7
+    ],
+    [
+     24.7,
+     130.0
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0158,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     8.7,
+     132.5
+    ],
+    [
+     1.2,
+     4.5
+    ],
+    [
+     9.7,
+     129.5
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2371,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.2,
+     14.6
+    ],
+    [
+     0.9,
+     18.2
+    ],
+    [
+     6.0,
+     18.0
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.4
+    ],
+    [
+     0.4,
+     15.1
+    ],
+    [
+     0.3,
+     1.5
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0146,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     23.3,
+     101.6
+    ],
+    [
+     1.6,
+     5.9
+    ],
+    [
+     23.1,
+     62.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     29.0,
+     98.5
+    ],
+    [
+     0.2,
+     0.5
+    ],
+    [
+     29.0,
+     95.5
+    ]
+   ]
+  }
+ },
+ "5AFA02": {
+  "top": {
+   "max_luma_dev": 0.0586,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.8,
+     5.7
+    ],
+    [
+     1.4,
+     9.1
+    ],
+    [
+     0.9,
+     7.0
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0147,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     21.0,
+     151.7
+    ],
+    [
+     0.7,
+     2.1
+    ],
+    [
+     22.7,
+     149.5
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.003,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     37.5,
+     133.0
+    ],
+    [
+     5.4,
+     7.2
+    ],
+    [
+     39.7,
+     129.9
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0069,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     10.3,
+     156.4
+    ],
+    [
+     1.2,
+     4.5
+    ],
+    [
+     12.8,
+     153.4
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2377,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.2,
+     32.6
+    ],
+    [
+     0.9,
+     18.2
+    ],
+    [
+     13.7,
+     35.9
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.9,
+     2.3
+    ],
+    [
+     0.4,
+     15.1
+    ],
+    [
+     0.8,
+     1.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0176,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     143.6,
+     155.3
+    ],
+    [
+     1.6,
+     5.9
+    ],
+    [
+     9.5,
+     28.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     44.8,
+     57.1
+    ],
+    [
+     0.2,
+     0.5
+    ],
+    [
+     18.0,
+     29.4
+    ]
+   ]
+  }
+ },
+ "5AFA03": {
+  "top": {
+   "max_luma_dev": 0.0514,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     10.3
+    ],
+    [
+     1.4,
+     9.1
+    ],
+    [
+     1.3,
+     8.9
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0172,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.7,
+     133.2
+    ],
+    [
+     0.2,
+     1.2
+    ],
+    [
+     10.2,
+     130.6
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0059,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     39.3,
+     133.4
+    ],
+    [
+     138.3,
+     138.2
+    ],
+    [
+     16.1,
+     130.3
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0122,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     5.3,
+     133.2
+    ],
+    [
+     0.5,
+     3.0
+    ],
+    [
+     6.2,
+     129.8
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2021,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     3.7,
+     13.6
+    ],
+    [
+     0.9,
+     18.2
+    ],
+    [
+     5.4,
+     17.1
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.4
+    ],
+    [
+     0.4,
+     15.1
+    ],
+    [
+     0.3,
+     1.5
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0057,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     14.3,
+     100.6
+    ],
+    [
+     1.9,
+     7.7
+    ],
+    [
+     16.5,
+     62.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0154,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     15.5,
+     92.2
+    ],
+    [
+     0.8,
+     1.4
+    ],
+    [
+     17.0,
+     88.2
+    ]
+   ]
+  }
+ },
+ "5AFB01": {
+  "top": {
+   "max_luma_dev": 0.0437,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     1.4,
+     11.0
+    ],
+    [
+     1.5,
+     9.7
+    ],
+    [
+     1.4,
+     9.5
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0198,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.3,
+     133.2
+    ],
+    [
+     0.6,
+     1.6
+    ],
+    [
+     12.4,
+     130.7
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0051,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     55.6,
+     132.8
+    ],
+    [
+     136.8,
+     137.2
+    ],
+    [
+     22.8,
+     130.1
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.015,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     7.9,
+     132.6
+    ],
+    [
+     0.9,
+     3.9
+    ],
+    [
+     8.8,
+     129.6
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2345,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     4.2,
+     14.6
+    ],
+    [
+     0.9,
+     18.2
+    ],
+    [
+     5.9,
+     17.9
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.4,
+     2.4
+    ],
+    [
+     0.4,
+     15.1
+    ],
+    [
+     0.3,
+     1.5
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0092,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     21.8,
+     100.9
+    ],
+    [
+     2.0,
+     6.3
+    ],
+    [
+     19.4,
+     62.5
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0234,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.8,
+     82.6
+    ],
+    [
+     0.7,
+     0.0
+    ],
+    [
+     20.4,
+     79.5
+    ]
+   ]
+  }
+ },
+ "5AFB02": {
+  "top": {
+   "max_luma_dev": 0.0492,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.7,
+     4.9
+    ],
+    [
+     1.5,
+     9.7
+    ],
+    [
+     0.8,
+     6.5
+    ]
+   ]
+  },
+  "hor": {
+   "max_luma_dev": 0.0129,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     17.2,
+     152.1
+    ],
+    [
+     0.6,
+     1.6
+    ],
+    [
+     19.8,
+     149.7
+    ]
+   ]
+  },
+  "clouds": {
+   "max_luma_dev": 0.0025,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     34.7,
+     133.1
+    ],
+    [
+     5.2,
+     6.6
+    ],
+    [
+     37.7,
+     130.0
+    ]
+   ]
+  },
+  "fog": {
+   "max_luma_dev": 0.0063,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     9.8,
+     156.5
+    ],
+    [
+     0.9,
+     3.9
+    ],
+    [
+     11.3,
+     153.5
+    ]
+   ]
+  },
+  "sunlight": {
+   "max_luma_dev": 0.2355,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     11.2,
+     32.5
+    ],
+    [
+     0.9,
+     18.2
+    ],
+    [
+     13.7,
+     35.9
+    ]
+   ]
+  },
+  "sun": {
+   "max_luma_dev": 0.1498,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     0.9,
+     2.3
+    ],
+    [
+     0.4,
+     15.1
+    ],
+    [
+     0.8,
+     1.7
+    ]
+   ]
+  },
+  "DALC.DirectionalXPlus": {
+   "max_luma_dev": 0.0143,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     143.6,
+     156.0
+    ],
+    [
+     2.0,
+     6.3
+    ],
+    [
+     9.5,
+     28.2
+    ]
+   ]
+  },
+  "DALC.DirectionalZMinus": {
+   "max_luma_dev": 0.0234,
+   "hue_gap_to_astralite_baby_vs_picta": [
+    [
+     52.5,
+     73.0
+    ],
+    [
+     0.7,
+     0.0
+    ],
+    [
+     20.4,
+     45.5
+    ]
+   ]
+  }
+ }
+}

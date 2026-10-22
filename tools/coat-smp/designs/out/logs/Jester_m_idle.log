@@ -1,0 +1,19 @@
+== Jester m: jesterm_1.nif  side pen 1.5, front/back 3.0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 0:  outer caught/sunk  26/  0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 8:  outer caught/sunk 116/ 25 [Side: z 44-57 ang -70..68 depth 1.5..2.5]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 0:  outer caught/sunk  31/  1 [Side: z 56-56 ang -68..-68 depth 1.8..1.8]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 8:  outer caught/sunk 105/ 31 [Side: z 46-56 ang -74..74 depth 1.5..2.6]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 0:  outer caught/sunk  52/  2 [Side: z 55-55 ang -80..-71 depth 1.5..1.6]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 8:  outer caught/sunk  87/ 37 [Side: z 47-57 ang -80..84 depth 1.5..2.5]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 0:  outer caught/sunk  78/  2 [Side: z 55-57 ang -82..-72 depth 1.5..1.7]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 8:  outer caught/sunk  71/ 36 [Side: z 48-57 ang -83..87 depth 1.5..2.8]
+
+EXIT 0

@@ -1,0 +1,24 @@
+===== Fine02
+piece Saia <- cloth ('islands', 0, {3598: 1150, 3858: 295, 3599: 129, 6370: 82, 6372: 80}, ()): 1736 pts / 3052 tris (skirt:outer)
+skirt axis (-0.13, 2.35); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:77.5/75.1/72.8/70.4/68.0/65.6; 30:77.5/72.7/67.9/63.0/58.2/53.4; 60:77.5/68.0/58.4/48.9/39.4/29.8; 90:77.5/67.9/58.3/48.7/39.1/29.4; 120:77.5/67.9/58.3/48.7/39.2/29.6; 150:77.5/67.9/58.2/48.6/38.9/29.3; -180:77.5/67.9/58.3/48.7/39.1/29.5; -150:77.5/67.9/58.3/48.7/39.0/29.4; -120:77.5/67.9/58.3/48.8/39.2/29.6; -90:77.5/67.9/58.3/48.7/39.1/29.4; -60:77.5/68.0/58.4/48.9/39.3/29.8; -30:77.5/72.7/67.8/63.0/58.1/53.3
+tip rows ; flap hinges 
+legs from cloth (1423 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 -1.30 median 1.07; free share p10 0.01 median 0.52
+m: Saia is cut out of cloth: 72 seam points (z 75.6..78.1) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 1909 of 1959 lining pts (z 29.3..77.4) take the sheet's weights at their spot; 50 project onto no sheet and keep their own
+m: skirt Saia 6519 pts (4917 move); tip 0 pts
+m: legs collider pulled in at 470 of 792 pts (max 2.76); lining points Saia 1662/1662
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 17 seam points pinned to the remainder's weights
+m: cloth: 68 seam points of ['Saia'] to weld into the remainder
+m: cloth: 68 of 68 seam points welded into the remainder (68 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/fineclothes02/outfitm_1.nif; shapes (pts, tris) {'cloth': (5025, 8760), 'Saia': (6519, 12208), 'AFC2 Legs Front': (431, 689), 'AFC2 Legs Back': (342, 537), 'AFC2 Legs Side': (560, 749), 'AFC2 Skirt Front': (775, 1117), 'AFC2 Skirt Side': (541, 661), 'AFC2 Skirt Back': (346, 511), 'VirtualGround': (4, 2)}; bones per shape {'cloth': 27, 'Saia': 64, 'AFC2 Legs Front': 7, 'AFC2 Legs Back': 6, 'AFC2 Legs Side': 7, 'AFC2 Skirt Front': 28, 'AFC2 Skirt Side': 36, 'AFC2 Skirt Back': 26, 'VirtualGround': 1}
+m: Saia: 17 seam points pinned to the remainder's weights
+m: cloth: 68 seam points of ['Saia'] to weld into the remainder
+m: cloth: 68 of 68 seam points welded into the remainder (68 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/fineclothes02/outfitm_0.nif; shapes (pts, tris) {'cloth': (5025, 8760), 'Saia': (6519, 12208), 'AFC2 Legs Front': (431, 689), 'AFC2 Legs Back': (342, 537), 'AFC2 Legs Side': (560, 749), 'AFC2 Skirt Front': (775, 1117), 'AFC2 Skirt Side': (541, 661), 'AFC2 Skirt Back': (346, 511), 'VirtualGround': (4, 2)}; bones per shape {'cloth': 27, 'Saia': 64, 'AFC2 Legs Front': 7, 'AFC2 Legs Back': 6, 'AFC2 Legs Side': 7, 'AFC2 Skirt Front': 28, 'AFC2 Skirt Side': 36, 'AFC2 Skirt Back': 26, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\FineClothes02M.xml (436 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]
+
+EXIT 0

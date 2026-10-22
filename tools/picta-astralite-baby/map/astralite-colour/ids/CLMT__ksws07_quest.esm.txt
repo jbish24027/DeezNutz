@@ -1,0 +1,2 @@
+000E09:ksws07_quest.esm
+001F7B:ksws07_quest.esm

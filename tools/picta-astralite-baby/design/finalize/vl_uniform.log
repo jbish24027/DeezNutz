@@ -1,0 +1,52 @@
+== uniform amount 0.5 alive: G {'Dawn': 1.93, 'Sunrise': 1.76, 'Day': 4.193, 'Sunset': 1.757, 'Dusk': 1.83} (picta {'Dawn': 0.75, 'Sunrise': 2.0, 'Day': 4.0, 'Sunset': 2.0, 'Dusk': 0.75}) worst over (np.float64(1.099), '5AFA03') leak (0, '5AFB02', None) swell above brighter end (122.9, '19FE01<->19FD02 13 baby') | worst vs ideal (191.3, '19FE03<->19FD03 13 baby')
+    19FA01 {7.5: np.float64(0.64), 13.0: np.float64(0.87), 18.5: np.float64(0.67)} x Picta (intensity only) {7.5: np.float64(3.17), 13.0: np.float64(0.87), 18.5: np.float64(3.08)}
+    19FA02 {7.5: np.float64(0.67), 13.0: np.float64(0.87), 18.5: np.float64(0.67)} x Picta (intensity only) {7.5: np.float64(2.35), 13.0: np.float64(0.87), 18.5: np.float64(2.16)}
+    19FA03 {7.5: np.float64(0.72), 13.0: np.float64(0.88), 18.5: np.float64(0.76)} x Picta (intensity only) {7.5: np.float64(3.62), 13.0: np.float64(0.88), 18.5: np.float64(3.58)}
+    19FB03 {7.5: np.float64(0.39), 13.0: np.float64(1.05), 18.5: np.float64(0.4)} x Picta (intensity only) {7.5: np.float64(1.63), 13.0: np.float64(1.23), 18.5: np.float64(1.63)}
+    19FC01 {7.5: np.float64(0.66), 13.0: np.float64(0.91), 18.5: np.float64(0.71)} x Picta (intensity only) {7.5: np.float64(2.66), 13.0: np.float64(1.35), 18.5: np.float64(2.96)}
+    19FC04 {7.5: np.float64(0.39), 13.0: np.float64(0.99), 18.5: np.float64(0.4)} x Picta (intensity only) {7.5: np.float64(1.67), 13.0: np.float64(2.04), 18.5: np.float64(1.68)}
+    19FD02 {7.5: np.float64(0.42), 13.0: np.float64(1.05), 18.5: np.float64(0.44)} x Picta (intensity only) {7.5: np.float64(2.62), 13.0: np.float64(1.39), 18.5: np.float64(2.71)}
+    19FD03 {7.5: np.float64(0.41), 13.0: np.float64(0.97), 18.5: np.float64(0.43)} x Picta (intensity only) {7.5: np.float64(1.92), 13.0: np.float64(2.14), 18.5: np.float64(1.95)}
+    19FE03 {7.5: np.float64(0.8), 13.0: np.float64(1.01), 18.5: np.float64(0.83)} x Picta (intensity only) {7.5: np.float64(1.7), 13.0: np.float64(1.01), 18.5: np.float64(1.64)}
+    19FE05 {7.5: np.float64(0.38), 13.0: np.float64(1.05), 18.5: np.float64(0.39)} x Picta (intensity only) {7.5: np.float64(3.93), 13.0: np.float64(2.37), 18.5: np.float64(4.1)}
+    5AFA01 {7.5: np.float64(0.68), 13.0: np.float64(0.87), 18.5: np.float64(0.67)} x Picta (intensity only) {7.5: np.float64(3.36), 13.0: np.float64(0.87), 18.5: np.float64(3.07)}
+    copies 80 intensity min/median/max 0.677 2.0084999999999997 42.245
+== uniform amount 0.5 newly_on: G {'Dawn': 0.742, 'Sunrise': 2.292, 'Day': 3.611, 'Sunset': 2.298, 'Dusk': 0.727} (picta {'Dawn': 0.75, 'Sunrise': 2.0, 'Day': 4.0, 'Sunset': 2.0, 'Dusk': 0.75}) worst over (np.float64(1.1), '5AFB02') leak (np.float64(0.198), '5AFA02', 6.0) swell above brighter end (113.0, '19FE01<->19FD02 13 baby') | worst vs ideal (224.0, '19FE03<->19FD03 13 baby')
+    19FA01 {7.5: np.float64(1.07), 13.0: np.float64(0.99), 18.5: np.float64(1.07)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FA02 {7.5: np.float64(1.04), 13.0: np.float64(0.99), 18.5: np.float64(1.03)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FA03 {7.5: np.float64(1.08), 13.0: np.float64(0.99), 18.5: np.float64(1.08)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FB03 {7.5: np.float64(0.77), 13.0: np.float64(0.89), 18.5: np.float64(0.8)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FC01 {7.5: np.float64(1.09), 13.0: np.float64(0.99), 18.5: np.float64(1.09)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FC04 {7.5: np.float64(0.78), 13.0: np.float64(0.83), 18.5: np.float64(0.79)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FD02 {7.5: np.float64(0.81), 13.0: np.float64(0.89), 18.5: np.float64(0.84)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FD03 {7.5: np.float64(0.79), 13.0: np.float64(0.83), 18.5: np.float64(0.81)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FE03 {7.5: np.float64(1.08), 13.0: np.float64(1.0), 18.5: np.float64(1.09)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FE05 {7.5: np.float64(0.81), 13.0: np.float64(0.88), 18.5: np.float64(0.83)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    5AFA01 {7.5: np.float64(1.07), 13.0: np.float64(0.99), 18.5: np.float64(1.07)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    copies 80 intensity min/median/max 0.0 5.942 37.899
+== uniform amount 1.0 alive: G {'Dawn': 2.112, 'Sunrise': 2.136, 'Day': 4.097, 'Sunset': 2.071, 'Dusk': 2.048} (picta {'Dawn': 0.75, 'Sunrise': 2.0, 'Day': 4.0, 'Sunset': 2.0, 'Dusk': 0.75}) worst over (np.float64(1.1), '5AFB02') leak (0, '5AFB02', None) swell above brighter end (113.2, '19FE01<->19FD02 13 baby') | worst vs ideal (221.8, '19FE03<->19FD03 13 baby')
+    19FA01 {7.5: np.float64(0.66), 13.0: np.float64(0.92), 18.5: np.float64(0.68)} x Picta (intensity only) {7.5: np.float64(6.53), 13.0: np.float64(0.92), 18.5: np.float64(6.23)}
+    19FA02 {7.5: np.float64(0.54), 13.0: np.float64(0.92), 18.5: np.float64(0.56)} x Picta (intensity only) {7.5: np.float64(3.8), 13.0: np.float64(0.92), 18.5: np.float64(3.63)}
+    19FA03 {7.5: np.float64(0.71), 13.0: np.float64(0.92), 18.5: np.float64(0.73)} x Picta (intensity only) {7.5: np.float64(7.12), 13.0: np.float64(0.92), 18.5: np.float64(6.85)}
+    19FB03 {7.5: np.float64(0.33), 13.0: np.float64(1.01), 18.5: np.float64(0.35)} x Picta (intensity only) {7.5: np.float64(2.81), 13.0: np.float64(2.36), 18.5: np.float64(2.84)}
+    19FC01 {7.5: np.float64(0.59), 13.0: np.float64(0.94), 18.5: np.float64(0.7)} x Picta (intensity only) {7.5: np.float64(4.72), 13.0: np.float64(2.78), 18.5: np.float64(5.81)}
+    19FC04 {7.5: np.float64(0.34), 13.0: np.float64(0.86), 18.5: np.float64(0.36)} x Picta (intensity only) {7.5: np.float64(2.97), 13.0: np.float64(3.57), 18.5: np.float64(3.0)}
+    19FD02 {7.5: np.float64(0.38), 13.0: np.float64(1.01), 18.5: np.float64(0.41)} x Picta (intensity only) {7.5: np.float64(4.83), 13.0: np.float64(2.68), 18.5: np.float64(5.02)}
+    19FD03 {7.5: np.float64(0.37), 13.0: np.float64(0.85), 18.5: np.float64(0.39)} x Picta (intensity only) {7.5: np.float64(3.45), 13.0: np.float64(3.75), 18.5: np.float64(3.56)}
+    19FE03 {7.5: np.float64(0.69), 13.0: np.float64(1.07), 18.5: np.float64(0.72)} x Picta (intensity only) {7.5: np.float64(2.92), 13.0: np.float64(1.1), 18.5: np.float64(2.86)}
+    19FE05 {7.5: np.float64(0.36), 13.0: np.float64(1.01), 18.5: np.float64(0.39)} x Picta (intensity only) {7.5: np.float64(7.64), 13.0: np.float64(4.55), 18.5: np.float64(8.02)}
+    5AFA01 {7.5: np.float64(0.66), 13.0: np.float64(0.92), 18.5: np.float64(0.68)} x Picta (intensity only) {7.5: np.float64(6.53), 13.0: np.float64(0.92), 18.5: np.float64(6.23)}
+    copies 80 intensity min/median/max 1.086 3.344 73.403
+== uniform amount 1.0 newly_on: G {'Dawn': 1.05, 'Sunrise': 2.207, 'Day': 3.528, 'Sunset': 2.18, 'Dusk': 1.122} (picta {'Dawn': 0.75, 'Sunrise': 2.0, 'Day': 4.0, 'Sunset': 2.0, 'Dusk': 0.75}) worst over (np.float64(1.099), '19FE06') leak (np.float64(0.291), '5AFB02', 20.0) swell above brighter end (112.6, '19FE01<->19FD02 13 baby') | worst vs ideal (223.8, '19FE03<->19FD03 13 baby')
+    19FA01 {7.5: np.float64(1.04), 13.0: np.float64(0.98), 18.5: np.float64(1.03)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FA02 {7.5: np.float64(0.98), 13.0: np.float64(0.98), 18.5: np.float64(0.96)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FA03 {7.5: np.float64(1.05), 13.0: np.float64(0.98), 18.5: np.float64(1.04)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FB03 {7.5: np.float64(0.69), 13.0: np.float64(0.91), 18.5: np.float64(0.7)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FC01 {7.5: np.float64(1.0), 13.0: np.float64(0.97), 18.5: np.float64(1.03)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FC04 {7.5: np.float64(0.69), 13.0: np.float64(0.84), 18.5: np.float64(0.69)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FD02 {7.5: np.float64(0.73), 13.0: np.float64(0.91), 18.5: np.float64(0.73)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FD03 {7.5: np.float64(0.71), 13.0: np.float64(0.82), 18.5: np.float64(0.68)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FE03 {7.5: np.float64(1.05), 13.0: np.float64(1.0), 18.5: np.float64(1.03)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    19FE05 {7.5: np.float64(0.72), 13.0: np.float64(0.91), 18.5: np.float64(0.72)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    5AFA01 {7.5: np.float64(1.04), 13.0: np.float64(0.98), 18.5: np.float64(1.03)} x Picta (intensity only) {7.5: None, 13.0: None, 18.5: None}
+    copies 80 intensity min/median/max 1.701 8.6065 78.494

@@ -1,0 +1,7781 @@
+[
+ {
+  "formid": "106631:Skyrim.esm",
+  "editorid": "WeatherKarthspireRedoubt",
+  "worldspace": "035699:Skyrim.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "82",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A231:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A238:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A242:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000823:Astralite ENB.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000838:Astralite ENB.esp",
+    "chance": "2",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "01A880:Dawnguard.esm",
+  "editorid": "DLC01WeatherCanyon",
+  "worldspace": "000BB5:Dawnguard.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dawnguard.esm",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A237:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23A:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1E9:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1EA:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "019219:Dawnguard.esm",
+  "editorid": "DLC01Weather03",
+  "worldspace": "001408:Dawnguard.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "014551:Dawnguard.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "018DBC:Dawnguard.esm",
+    "chance": "80",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00082E:Astralite ENB.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "018DBB:Dawnguard.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "001407:Dawnguard.esm",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "019218:Dawnguard.esm",
+  "editorid": "DLC01Weather02",
+  "worldspace": "001408:Dawnguard.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "001407:Dawnguard.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00082E:Astralite ENB.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "014551:Dawnguard.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "018DBC:Dawnguard.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "018DBB:Dawnguard.esm",
+    "chance": "80",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0191D3:Dawnguard.esm",
+  "editorid": "DLC01WeatherIce",
+  "worldspace": "000BB5:Dawnguard.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dawnguard.esm",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "010E0B:Dawnguard.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000826:Astralite ENB.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "005099:Dawnguard.esm",
+  "editorid": "DLC01WeatherGrove",
+  "worldspace": "000BB5:Dawnguard.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dawnguard.esm",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E3D4:Skyrim.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0374BC:Dragonborn.esm",
+  "editorid": "WeatherRavenRock01",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "018471:Dragonborn.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "031AC0:Dragonborn.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374B8:Dragonborn.esm",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374B9:Dragonborn.esm",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000831:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083C:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083D:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "01EF70:Dragonborn.esm",
+  "editorid": "WeatherVolcanicAsh02",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374BA:Dragonborn.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00082F:Astralite ENB.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000830:Astralite ENB.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000831:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083A:Astralite ENB.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083C:Astralite ENB.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083D:Astralite ENB.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083F:Astralite ENB.esp",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000840:Astralite ENB.esp",
+    "chance": "15",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "018681:Dragonborn.esm",
+  "editorid": "WeatherVolcanicAsh01",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Astralite ENB.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "WetandCold.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A7A7:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "018471:Dragonborn.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "031AC0:Dragonborn.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "032336:Dragonborn.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374B8:Dragonborn.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374B9:Dragonborn.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000831:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000830:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A7A6:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083C:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00083A:Astralite ENB.esp",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "53ABD4:BluePalaceTerrace.esp",
+  "editorid": "WBPTFXDayNightComboLightRegion",
+  "worldspace": "(null link)",
+  "pbr_winner": "BluePalaceTerrace.esp",
+  "pbr_stack": [
+   "BluePalaceTerrace.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "53ABD3:BluePalaceTerrace.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "07EA8E:BSHeartland.esm",
+  "editorid": "CYRWeatherMountains",
+  "worldspace": "(null link)",
+  "pbr_winner": "BSHeartland.esm",
+  "pbr_stack": [
+   "BSHeartland.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "45",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "07EE90:BSHeartland.esm",
+  "editorid": "CYRWeatherGreatForestNorth",
+  "worldspace": "0A764B:BSHeartland.esm",
+  "pbr_winner": "BSHeartland.esm",
+  "pbr_stack": [
+   "BSHeartland.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "40",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0C8259:BSHeartland.esm",
+  "editorid": "CYRWeatherHighlands",
+  "worldspace": "(null link)",
+  "pbr_winner": "BSHeartland.esm",
+  "pbr_stack": [
+   "BSHeartland.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A7A8:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A7A5:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A7A7:Skyrim.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0CC25D:BSHeartland.esm",
+  "editorid": "CYRdunFrostfireGladeWeatherSnow",
+  "worldspace": "06ADE1:BSHeartland.esm",
+  "pbr_winner": "BSHeartland.esm",
+  "pbr_stack": [
+   "BSHeartland.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0CC4CA:BSHeartland.esm",
+  "editorid": "CYRdunFrostfireGladeWeatherNormalDUPLICATE001",
+  "worldspace": "06ADE1:BSHeartland.esm",
+  "pbr_winner": "BSHeartland.esm",
+  "pbr_stack": [
+   "BSHeartland.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0CC4CB:BSHeartland.esm",
+  "editorid": "CYRdunFrostfireGladeWeatherSnowDUPLICATE001",
+  "worldspace": "06ADE1:BSHeartland.esm",
+  "pbr_winner": "BSHeartland.esm",
+  "pbr_stack": [
+   "BSHeartland.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "05FF97:BSHeartland.esm",
+  "editorid": "CYRWeatherBlackwood",
+  "worldspace": "(null link)",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "060D00:BSHeartland.esm",
+  "editorid": "CYRWeatherGoldCoastInland",
+  "worldspace": "(null link)",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "060F3C:BSHeartland.esm",
+  "editorid": "CYRWeatherGoldCoast",
+  "worldspace": "(null link)",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "45",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "06255D:BSHeartland.esm",
+  "editorid": "CYRWeatherBravil",
+  "worldspace": "(null link)",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10E1EC:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "062B55:BSHeartland.esm",
+  "editorid": "CYRWeatherGreatForestRedwood",
+  "worldspace": "0A764B:BSHeartland.esm",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "07EA8D:BSHeartland.esm",
+  "editorid": "CYRWeatherNibenayValley",
+  "worldspace": "(null link)",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0886E5:BSHeartland.esm",
+  "editorid": "CYRWeatherGreatForestOaks",
+  "worldspace": "0A764B:BSHeartland.esm",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "50",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0CC25C:BSHeartland.esm",
+  "editorid": "CYRdunFrostfireGladeWeatherNormal",
+  "worldspace": "06ADE1:BSHeartland.esm",
+  "pbr_winner": "Beyond Skyrim Bruma - Universal Weather Compatibility.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Beyond Skyrim Bruma - Universal Weather Compatibility.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "25",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "00082B:ClefJ's Fort Dawnguard.esp",
+  "editorid": "aaaCJDWeatherRegion",
+  "worldspace": "(null link)",
+  "pbr_winner": "ClefJ's Fort Dawnguard.esp",
+  "pbr_stack": [
+   "ClefJ's Fort Dawnguard.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "012DAD:Dawnguard.esm",
+  "editorid": "DLC01VampCastleStorm",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Dawnguard.esm",
+  "pbr_stack": [
+   "Dawnguard.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "99",
+    "global": "(null link)"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "1",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0029E5:Dawnguard.esm",
+  "editorid": "DLC01WeatherFVBoss",
+  "worldspace": "000BB5:Dawnguard.esm",
+  "pbr_winner": "Dawnguard.esm",
+  "pbr_stack": [
+   "Dawnguard.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A240:Skyrim.esm",
+    "chance": "43",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A243:Skyrim.esm",
+    "chance": "43",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1EE:Skyrim.esm",
+    "chance": "7",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1ED:Skyrim.esm",
+    "chance": "7",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0191D2:Dawnguard.esm",
+  "editorid": "DLC01WeatherPlayground",
+  "worldspace": "000BB5:Dawnguard.esm",
+  "pbr_winner": "Dawnguard.esm",
+  "pbr_stack": [
+   "Dawnguard.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "071E66:Skyrim.esm",
+  "editorid": "DLC2ApocryphaRegion",
+  "worldspace": "01C0B2:Dragonborn.esm",
+  "pbr_winner": "Dragonborn.esm",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dragonborn.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "034CFB:Dragonborn.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "024FD2:Dragonborn.esm",
+  "editorid": "Region325",
+  "worldspace": "(null link)",
+  "pbr_winner": "Dragonborn.esm",
+  "pbr_stack": [
+   "Dragonborn.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "01DFF5:Dragonborn.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "53ABD4:Grand Solitude - The Walls of High King Erling.esp",
+  "editorid": "WBPTFXDayNightComboLightRegion",
+  "worldspace": "(null link)",
+  "pbr_winner": "Grand Solitude - The Walls of High King Erling.esp",
+  "pbr_stack": [
+   "Grand Solitude - The Walls of High King Erling.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "53ABD3:Grand Solitude - The Walls of High King Erling.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000979:Helios.esp",
+  "editorid": "Helios_WeatherFx",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000954:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00095E:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00096A:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A70:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A71:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A74:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A75:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A77:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A78:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7A:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7B:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7D:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7E:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7F:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A81:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A82:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A86:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8E:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8F:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A93:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A94:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A96:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A97:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A98:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A99:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9A:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9F:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA0:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA1:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA2:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA3:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA4:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA5:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA6:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA7:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA8:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EE6:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EEB:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EEC:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EED:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EEE:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF3:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF4:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF5:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF6:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF7:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF8:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF9:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFA:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFB:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFC:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFD:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFE:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000F18:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000F2A:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000E63:Helios.esp",
+  "editorid": "Helios_WeatherVolcanicAsh01",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A8E:Helios.esp",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8F:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA2:Helios.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA4:Helios.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA5:Helios.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA6:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA7:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000E64:Helios.esp",
+  "editorid": "Helios_WeatherVolcanicAsh02",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "3",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "3",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "3",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA3:Helios.esp",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA8:Helios.esp",
+    "chance": "65",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000E68:Helios.esp",
+  "editorid": "Helios_WeatherRavenRock01",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000AA2:Helios.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA4:Helios.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA6:Helios.esp",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000AA7:Helios.esp",
+    "chance": "35",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000EFF:Helios.esp",
+  "editorid": "Helios_WeatherDA02",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000F18:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F02:Helios.esp",
+  "editorid": "Helios_DLC2ApocryphaRegion",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000EFA:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F0A:Helios.esp",
+  "editorid": "Helios_DLC01Weather02",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000EF3:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF4:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF5:Helios.esp",
+    "chance": "80",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF6:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F0B:Helios.esp",
+  "editorid": "Helios_DLC01Weather03",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000EF3:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF4:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF5:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF6:Helios.esp",
+    "chance": "80",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F0C:Helios.esp",
+  "editorid": "Helios_DLC01WeatherCanyon",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFE:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7E:Helios.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A81:Helios.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A97:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A98:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F0D:Helios.esp",
+  "editorid": "Helios_DLC01WeatherFVBoss",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "43",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "43",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "7",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "7",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F0E:Helios.esp",
+  "editorid": "Helios_DLC01WeatherGrove",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFE:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F0F:Helios.esp",
+  "editorid": "Helios_DLC01WeatherIce",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "25",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F10:Helios.esp",
+  "editorid": "Helios_DLC01WeatherPlayground",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "15",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "20",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F1D:Helios.esp",
+  "editorid": "Helios_WeatherKarthspireRedoubt",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A74:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A75:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000EFE:Helios.esp",
+    "chance": "82",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A78:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A7F:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "2",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F20:Helios.esp",
+  "editorid": "Helios_WeatherSkuldafn",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000F2A:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F25:Helios.esp",
+  "editorid": "Helios_SovngardeIntWeather",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "00095E:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000F28:Helios.esp",
+  "editorid": "Helios_BlackreachRegion",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000EFB:Helios.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000E42:Helios.esp",
+  "editorid": "Helios_WeatherFalkreath",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A70:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A71:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "2",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "15",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A74:Helios.esp",
+    "chance": "15",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A75:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9F:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA0:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E43:Helios.esp",
+  "editorid": "Helios_WeatherFallForest",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A82:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A86:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A99:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9A:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "5",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "2",
+    "global": "000828:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "2",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "5",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "4",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "3",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "4",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E4C:Helios.esp",
+  "editorid": "Helios_WeatherMarkarth",
+  "worldspace": "016D71:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7E:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7F:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A81:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A97:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A98:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EFE:Helios.esp",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E4D:Helios.esp",
+  "editorid": "Helios_WeatherMountains",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "40",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E4F:Helios.esp",
+  "editorid": "Helios_WeatherPineForest",
+  "worldspace": "(null link)",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A70:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A71:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A74:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A75:Helios.esp",
+    "chance": "5",
+    "global": "000810:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9F:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA0:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A82:Helios.esp",
+    "chance": "5",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "2",
+    "global": "000804:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "2",
+    "global": "000803:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A86:Helios.esp",
+    "chance": "4",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A99:Helios.esp",
+    "chance": "3",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9A:Helios.esp",
+    "chance": "4",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA1:Helios.esp",
+    "chance": "2",
+    "global": "000802:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E50:Helios.esp",
+  "editorid": "Helios_WeatherReach",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7E:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7F:Helios.esp",
+    "chance": "10",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "20",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A81:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A97:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A98:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A70:Helios.esp",
+    "chance": "5",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A71:Helios.esp",
+    "chance": "4",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A74:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A75:Helios.esp",
+    "chance": "2",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9F:Helios.esp",
+    "chance": "3",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA0:Helios.esp",
+    "chance": "4",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E51:Helios.esp",
+  "editorid": "Helios_WeatherRiften",
+  "worldspace": "016BB4:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A82:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A86:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA1:Helios.esp",
+    "chance": "15",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A99:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9A:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E53:Helios.esp",
+  "editorid": "Helios_WeatherSnow",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "35",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E55:Helios.esp",
+  "editorid": "Helios_WeatherSolitude",
+  "worldspace": "037EDF:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A70:Helios.esp",
+    "chance": "30",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A71:Helios.esp",
+    "chance": "15",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A74:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A75:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9F:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA0:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A77:Helios.esp",
+    "chance": "5",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A78:Helios.esp",
+    "chance": "3",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "3",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7A:Helios.esp",
+    "chance": "4",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7B:Helios.esp",
+    "chance": "5",
+    "global": "000801:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7D:Helios.esp",
+    "chance": "4",
+    "global": "000801:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A93:Helios.esp",
+    "chance": "3",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A94:Helios.esp",
+    "chance": "4",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "3",
+    "global": "014C45:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A96:Helios.esp",
+    "chance": "4",
+    "global": "014C45:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E57:Helios.esp",
+  "editorid": "Helios_WeatherTundra",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "2",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "2",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7E:Helios.esp",
+    "chance": "5",
+    "global": "000819:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7F:Helios.esp",
+    "chance": "2",
+    "global": "00081B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "2",
+    "global": "00081A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A81:Helios.esp",
+    "chance": "4",
+    "global": "000819:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A97:Helios.esp",
+    "chance": "3",
+    "global": "014C49:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A98:Helios.esp",
+    "chance": "4",
+    "global": "014C49:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E58:Helios.esp",
+  "editorid": "Helios_WeatherTundraMarsh",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A77:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A78:Helios.esp",
+    "chance": "10",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "20",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7A:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A93:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A94:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7B:Helios.esp",
+    "chance": "5",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "2",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7D:Helios.esp",
+    "chance": "4",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "3",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A96:Helios.esp",
+    "chance": "4",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E5B:Helios.esp",
+  "editorid": "Helios_WeatherVolcanicTundra",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8E:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8F:Helios.esp",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "30",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A77:Helios.esp",
+    "chance": "5",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A78:Helios.esp",
+    "chance": "3",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "2",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7A:Helios.esp",
+    "chance": "4",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "4",
+    "global": "00080E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A93:Helios.esp",
+    "chance": "3",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A94:Helios.esp",
+    "chance": "4",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E5D:Helios.esp",
+  "editorid": "Helios_WeatherWhiterun",
+  "worldspace": "01A26F:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "25",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E5E:Helios.esp",
+  "editorid": "Helios_WeatherWindhelm",
+  "worldspace": "01691D:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "25",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "4",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "5",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "3",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "4",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "3",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "4",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E5F:Helios.esp",
+  "editorid": "Helios_WeatherWinterhold",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "30",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "35",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "3",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "5",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "4",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "4",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E62:Helios.esp",
+  "editorid": "Helios_WeatherCoast",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "10",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "5",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7B:Helios.esp",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "10",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7D:Helios.esp",
+    "chance": "35",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A96:Helios.esp",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "3",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "5",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "4",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "4",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E65:Helios.esp",
+  "editorid": "Helios_WeatherDLC2SolstheimSnow",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "5",
+    "global": "00082C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E66:Helios.esp",
+  "editorid": "Helios_WeatherDLC2SolstheimMtns",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "10",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "5",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7B:Helios.esp",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7D:Helios.esp",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A96:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EEF:Helios.esp",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF0:Helios.esp",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000E69:Helios.esp",
+  "editorid": "Helios_WeatherSkaalVillage01",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "25",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "35",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7B:Helios.esp",
+    "chance": "4",
+    "global": "00082B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "5",
+    "global": "00082C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7D:Helios.esp",
+    "chance": "5",
+    "global": "00082B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "5",
+    "global": "00081F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "3",
+    "global": "014C4C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A96:Helios.esp",
+    "chance": "4",
+    "global": "014C4C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "4",
+    "global": "014C4A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F00:Helios.esp",
+  "editorid": "Helios_WeatherFFRiften",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A82:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A86:Helios.esp",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA1:Helios.esp",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A88:Helios.esp",
+    "chance": "2",
+    "global": "000828:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A89:Helios.esp",
+    "chance": "2",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "5",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "4",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "3",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "4",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A99:Helios.esp",
+    "chance": "10",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9A:Helios.esp",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F01:Helios.esp",
+  "editorid": "Helios_WeatherJaphetsFolly",
+  "worldspace": "094B35:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "35",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "15",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "50",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F05:Helios.esp",
+  "editorid": "Helios_WeatherDLC2SolstheimSnowHeavy",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "55",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "15",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "10",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "15",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "5",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF2:Helios.esp",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EF1:Helios.esp",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F11:Helios.esp",
+  "editorid": "Helios_WeatherCoastFog",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "100",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A73:Helios.esp",
+    "chance": "10",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000EFE:Helios.esp",
+    "chance": "10",
+    "global": "000820:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "10",
+    "global": "00082C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A80:Helios.esp",
+    "chance": "10",
+    "global": "000808:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000AA1:Helios.esp",
+    "chance": "10",
+    "global": "000814:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F12:Helios.esp",
+  "editorid": "Helios_WeatherFallForestNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A82:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A86:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A99:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9A:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F13:Helios.esp",
+  "editorid": "Helios_WeatherMountainsNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "50",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F14:Helios.esp",
+  "editorid": "Helios_WeatherSnowNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "50",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F15:Helios.esp",
+  "editorid": "Helios_WeatherTundraMarshNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A77:Helios.esp",
+    "chance": "18",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A79:Helios.esp",
+    "chance": "28",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7A:Helios.esp",
+    "chance": "44",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A93:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A94:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F16:Helios.esp",
+  "editorid": "Helios_WeatherTundraNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "35",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "45",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F17:Helios.esp",
+  "editorid": "Helios_WeatherVolcanicTundraNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A8D:Helios.esp",
+    "chance": "35",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8F:Helios.esp",
+    "chance": "20",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A90:Helios.esp",
+    "chance": "35",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A91:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A92:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F19:Helios.esp",
+  "editorid": "Helios_WeatherDarklightTower",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A84:Helios.esp",
+    "chance": "30",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A83:Helios.esp",
+    "chance": "25",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A85:Helios.esp",
+    "chance": "25",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "20",
+    "global": "000838:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "0",
+    "global": "000839:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F1A:Helios.esp",
+  "editorid": "Helios_WeatherDeepwoodRedoubt",
+  "worldspace": "029AB7:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "35",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "5",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F1B:Helios.esp",
+  "editorid": "Helios_WeatherFallowstone",
+  "worldspace": "0204C7:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "35",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "5",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8B:Helios.esp",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A8C:Helios.esp",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9D:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9E:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F1E:Helios.esp",
+  "editorid": "Helios_WeatherLabyrinthian",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "70",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "15",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F1F:Helios.esp",
+  "editorid": "Helios_WeatherLabyrinthianMaze",
+  "worldspace": "104217:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A72:Helios.esp",
+    "chance": "70",
+    "global": "00083E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A7C:Helios.esp",
+    "chance": "15",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A76:Helios.esp",
+    "chance": "10",
+    "global": "00083F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A95:Helios.esp",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000F31:Helios.esp",
+  "editorid": "Helios_WhiterunDragonsreachWeather",
+  "worldspace": "046033:Skyrim.esm",
+  "pbr_winner": "Helios_Astralite_Seasonal.esp",
+  "pbr_stack": [
+   "Helios.esp",
+   "Helios_Astralite.esp",
+   "Helios_Astralite_Seasonal.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000A8A:Helios.esp",
+    "chance": "50",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A87:Helios.esp",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9C:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000A9B:Helios.esp",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "13741A:Inigo.esp",
+  "editorid": "MountainSnowRegion",
+  "worldspace": "(null link)",
+  "pbr_winner": "Inigo.esp",
+  "pbr_stack": [
+   "Inigo.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "12F2E6:Inigo.esp",
+  "editorid": "IniBasinWeatherMain",
+  "worldspace": "(null link)",
+  "pbr_winner": "Inigo.esp",
+  "pbr_stack": [
+   "Inigo.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1EA:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A238:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E1E9:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "10",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "577369:LegacyoftheDragonborn.esm",
+  "editorid": "PlanetariumStorm",
+  "worldspace": "(null link)",
+  "pbr_winner": "LegacyoftheDragonborn.esm",
+  "pbr_stack": [
+   "LegacyoftheDragonborn.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "106632:Skyrim.esm",
+  "editorid": "WeatherFallowstone",
+  "worldspace": "0204C7:Skyrim.esm",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Lux.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "99D714:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "001DCA:Lux.esp",
+  "editorid": "FXWthrLuxSunlightingNorth",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "001DCC:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "001DCD:Lux.esp",
+  "editorid": "FXWthrLuxSunlightingWhiteNorth",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "001DCB:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "049475:Lux.esp",
+  "editorid": "Lux_DLC01WeatherPlayground",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "049476:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "99D715:Lux.esp",
+  "editorid": "WeatherFallowstoneCave",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "99D714:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "E76B79:Lux.esp",
+  "editorid": "FXWthrLuxInvertLightsMedium",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "677F87:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "E76B7B:Lux.esp",
+  "editorid": "FXWthrLuxInvertLightsDim",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "408447:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "FABBDC:Lux.esp",
+  "editorid": "WeatherSouthfringeCave",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux.esp",
+  "pbr_stack": [
+   "Lux.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "FABBDB:Lux.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "000804:Lux - Forgotten City.esp",
+  "editorid": "FXLightRegionSunlightWhiteFC",
+  "worldspace": "(null link)",
+  "pbr_winner": "Lux - Forgotten City.esp",
+  "pbr_stack": [
+   "Lux - Forgotten City.esp"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "000805:Lux - Forgotten City.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "001823:Moonpath Music - Sky and Lighting fix - merged.esp",
+  "editorid": "_MSWFJungle",
+  "worldspace": "(null link)",
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_stack": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0022E7:Moonpath Music - Sky and Lighting fix - merged.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "003E00:Moonpath Music - Sky and Lighting fix - merged.esp",
+  "editorid": "_MSWFSkyes",
+  "worldspace": "(null link)",
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_stack": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0048C6:Moonpath Music - Sky and Lighting fix - merged.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "004E4D:Moonpath Music - Sky and Lighting fix - merged.esp",
+  "editorid": "_MSWFDesert",
+  "worldspace": "(null link)",
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_stack": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "004E4E:Moonpath Music - Sky and Lighting fix - merged.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "00591F:Moonpath Music - Sky and Lighting fix - merged.esp",
+  "editorid": "_MSWFCathedral",
+  "worldspace": "(null link)",
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_stack": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "00591E:Moonpath Music - Sky and Lighting fix - merged.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "005E83:Moonpath Music - Sky and Lighting fix - merged.esp",
+  "editorid": "_MSWFTopalSea",
+  "worldspace": "(null link)",
+  "pbr_winner": "Moonpath Music - Sky and Lighting fix - merged.esp",
+  "pbr_stack": [
+   "Moonpath Music - Sky and Lighting fix - merged.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "011171:Moonpath Music - Sky and Lighting fix - merged.esp",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "10FE79:Skyrim.esm",
+  "editorid": "WeatherCoastFog",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "100",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "10",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "10",
+    "global": "000820:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "10",
+    "global": "00082C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "10",
+    "global": "000808:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10FE7E:Skyrim.esm",
+    "chance": "10",
+    "global": "000814:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "10AFC5:Skyrim.esm",
+  "editorid": "WhiterunDragonsreachWeather",
+  "worldspace": "046033:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A243:Skyrim.esm",
+    "chance": "50",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A240:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EE:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1ED:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "1046CC:Skyrim.esm",
+  "editorid": "WeatherFallForestNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EB:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EC:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "1046CB:Skyrim.esm",
+  "editorid": "WeatherMountainsNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "50",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "1046CA:Skyrim.esm",
+  "editorid": "WeatherSnowNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "50",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "1046C9:Skyrim.esm",
+  "editorid": "WeatherTundraNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A240:Skyrim.esm",
+    "chance": "35",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A243:Skyrim.esm",
+    "chance": "45",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1ED:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EE:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "1046C8:Skyrim.esm",
+  "editorid": "WeatherTundraMarshNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A230:Skyrim.esm",
+    "chance": "18",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "28",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A233:Skyrim.esm",
+    "chance": "44",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E5:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E6:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "1046C7:Skyrim.esm",
+  "editorid": "WeatherVolcanicTundraNoPrecip",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Seasonal Weathers Framework - Astralite Weathers.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A7A5:Skyrim.esm",
+    "chance": "35",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A7:Skyrim.esm",
+    "chance": "20",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A8:Skyrim.esm",
+    "chance": "35",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E3:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E4:Skyrim.esm",
+    "chance": "5",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "10FF20:Skyrim.esm",
+  "editorid": "SovngardeIntWeather",
+  "worldspace": "02EE41:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10FEF8:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "10DA12:Skyrim.esm",
+  "editorid": "FXLightRegionWinterholdInvert",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "10DA13:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "10C1B5:Skyrim.esm",
+  "editorid": "FXRainyRegion",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "105F3F:Skyrim.esm",
+  "editorid": "WeatherDA02",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "105F40:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "105940:Skyrim.esm",
+  "editorid": "WeatherBluePalaceWingARENA",
+  "worldspace": "034240:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "105942:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "10593F:Skyrim.esm",
+  "editorid": "WeatherBluePalaceWingNMARE",
+  "worldspace": "034240:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "105944:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "10593E:Skyrim.esm",
+  "editorid": "WeatherBluePalaceWingFEAR",
+  "worldspace": "034240:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "105943:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "104AB3:Skyrim.esm",
+  "editorid": "WeatherSkuldafn",
+  "worldspace": "0278DD:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "104AB4:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0ECC97:Skyrim.esm",
+  "editorid": "FXLightRegionInvertWindowWindhelm2",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "0ECC96:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0A9783:Skyrim.esm",
+  "editorid": "WeatherBluePalaceWing",
+  "worldspace": "034240:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "105945:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "05ED99:Skyrim.esm",
+  "editorid": "FXLightRegionInvertWindowSolitude",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "05ED7A:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "08282B:Skyrim.esm",
+  "editorid": "FXLightRegionInvertLightsWhiterun",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "08282A:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "08277B:Skyrim.esm",
+  "editorid": "FXLightRegionInvertWindowWhiterun",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "08277A:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "075492:Skyrim.esm",
+  "editorid": "FXLightRegionSunlightWhite",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "075491:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "07548E:Skyrim.esm",
+  "editorid": "FXLightRegionSunlight",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "07548F:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "048C2E:Skyrim.esm",
+  "editorid": "BlackreachRegion",
+  "worldspace": "01EE62:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "048C14:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0AEE85:Skyrim.esm",
+  "editorid": "FXLightRegionInvertWindowWindhelm",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "0AEE84:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "0777D0:Skyrim.esm",
+  "editorid": "FXlightRegioninvertWarm",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "0777CF:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "075DE6:Skyrim.esm",
+  "editorid": "FXLightRegionCaveBluePale",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "075DE5:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "06ED5C:Skyrim.esm",
+  "editorid": "FXLightRegionCaveBlueSkylight",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "06ED5B:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "06ED59:Skyrim.esm",
+  "editorid": "FXLightRegionInvertDayNight",
+  "worldspace": "06ED38:Skyrim.esm",
+  "pbr_winner": "Skyrim.esm",
+  "pbr_stack": [
+   "Skyrim.esm"
+  ],
+  "class": "interior/fx",
+  "entries": [
+   {
+    "weather": "06ED5A:Skyrim.esm",
+    "chance": "100",
+    "global": "(null link)"
+   }
+  ]
+ },
+ {
+  "formid": "10FDC6:Skyrim.esm",
+  "editorid": "WeatherWinterhold",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "unofficial skyrim special edition patch.esp",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "30",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0B:Dawnguard.esm",
+    "chance": "3",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "5",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "4",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "4",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "30",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "10FDC5:Skyrim.esm",
+  "editorid": "WeatherFFRiften",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10FE7E:Skyrim.esm",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "2",
+    "global": "000828:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A242:Skyrim.esm",
+    "chance": "2",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A5:Skyrim.esm",
+    "chance": "5",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A8:Skyrim.esm",
+    "chance": "4",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E3:Skyrim.esm",
+    "chance": "3",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E4:Skyrim.esm",
+    "chance": "4",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EB:Skyrim.esm",
+    "chance": "10",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EC:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "106668:Skyrim.esm",
+  "editorid": "WeatherLabyrinthianMaze",
+  "worldspace": "104217:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "70",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "15",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "70",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "106667:Skyrim.esm",
+  "editorid": "WeatherLabyrinthian",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "70",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "15",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "70",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "106634:Skyrim.esm",
+  "editorid": "WeatherDeepwoodRedoubt",
+  "worldspace": "029AB7:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "5",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "10474E:Skyrim.esm",
+  "editorid": "WeatherDarklightTower",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "30",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "25",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "25",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "10474D:Skyrim.esm",
+  "editorid": "WeatherFalkreath",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "2",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "15",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "15",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "2",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "07042F:Skyrim.esm",
+  "editorid": "WeatherMarkarth",
+  "worldspace": "016D71:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A237:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A238:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23A:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E9:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EA:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "07042E:Skyrim.esm",
+  "editorid": "WeatherRiften",
+  "worldspace": "016BB4:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10FE7E:Skyrim.esm",
+    "chance": "15",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EB:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EC:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "07042A:Skyrim.esm",
+  "editorid": "WeatherSolitude",
+  "worldspace": "037EDF:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "30",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "15",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A230:Skyrim.esm",
+    "chance": "5",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A231:Skyrim.esm",
+    "chance": "3",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "3",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A233:Skyrim.esm",
+    "chance": "4",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A234:Skyrim.esm",
+    "chance": "5",
+    "global": "000801:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A236:Skyrim.esm",
+    "chance": "4",
+    "global": "000801:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E5:Skyrim.esm",
+    "chance": "3",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E6:Skyrim.esm",
+    "chance": "4",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "3",
+    "global": "014C45:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E8:Skyrim.esm",
+    "chance": "4",
+    "global": "014C45:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "070408:Skyrim.esm",
+  "editorid": "WeatherWhiterun",
+  "worldspace": "01A26F:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A240:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A242:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A243:Skyrim.esm",
+    "chance": "25",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1ED:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EE:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0703C2:Skyrim.esm",
+  "editorid": "WeatherWindhelm",
+  "worldspace": "01691D:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "25",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A5:Skyrim.esm",
+    "chance": "4",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A8:Skyrim.esm",
+    "chance": "5",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E3:Skyrim.esm",
+    "chance": "3",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E4:Skyrim.esm",
+    "chance": "4",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0B:Dawnguard.esm",
+    "chance": "3",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "4",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "25",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "069E2B:Skyrim.esm",
+  "editorid": "WeatherJaphetsFolly",
+  "worldspace": "094B35:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "15",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "50",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "15",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0D2A40:Skyrim.esm",
+  "editorid": "Region206DUPLICATE000",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "LegacyoftheDragonborn.esm",
+   "Seasonal Weathers Framework - LOTD.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "70",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "30",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "0",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "0",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5858:Skyrim.esm",
+  "editorid": "WeatherTundra",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "2",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "2",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A240:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A242:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A243:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1ED:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EE:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A237:Skyrim.esm",
+    "chance": "5",
+    "global": "000819:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A238:Skyrim.esm",
+    "chance": "2",
+    "global": "00081B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "2",
+    "global": "00081A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23A:Skyrim.esm",
+    "chance": "4",
+    "global": "000819:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E9:Skyrim.esm",
+    "chance": "3",
+    "global": "014C49:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EA:Skyrim.esm",
+    "chance": "4",
+    "global": "014C49:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "2",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "2",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5857:Skyrim.esm",
+  "editorid": "WeatherFallForest",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "5",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EB:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EC:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "5",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "2",
+    "global": "000828:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A242:Skyrim.esm",
+    "chance": "2",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A5:Skyrim.esm",
+    "chance": "5",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A8:Skyrim.esm",
+    "chance": "4",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E3:Skyrim.esm",
+    "chance": "3",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E4:Skyrim.esm",
+    "chance": "4",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5856:Skyrim.esm",
+  "editorid": "WeatherReach",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A237:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A238:Skyrim.esm",
+    "chance": "10",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "20",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23A:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E9:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EA:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "5",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "4",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "5",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "2",
+    "global": "000837:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "3",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "4",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5855:Skyrim.esm",
+  "editorid": "WeatherTundraMarsh",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A230:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A231:Skyrim.esm",
+    "chance": "10",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "20",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A233:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E5:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E6:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A234:Skyrim.esm",
+    "chance": "5",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "2",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A236:Skyrim.esm",
+    "chance": "4",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "3",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E8:Skyrim.esm",
+    "chance": "4",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5854:Skyrim.esm",
+  "editorid": "WeatherVolcanicTundra",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00081D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A5:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A6:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A7:Skyrim.esm",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A7A8:Skyrim.esm",
+    "chance": "30",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E3:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E4:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A230:Skyrim.esm",
+    "chance": "5",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A231:Skyrim.esm",
+    "chance": "3",
+    "global": "000827:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "2",
+    "global": "000826:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A233:Skyrim.esm",
+    "chance": "4",
+    "global": "000825:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "4",
+    "global": "00080E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E5:Skyrim.esm",
+    "chance": "3",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E6:Skyrim.esm",
+    "chance": "4",
+    "global": "014C4B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5853:Skyrim.esm",
+  "editorid": "WeatherSnow",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "40",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "35",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0C5852:Skyrim.esm",
+  "editorid": "WeatherCoast",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A234:Skyrim.esm",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "10",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A236:Skyrim.esm",
+    "chance": "35",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E8:Skyrim.esm",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0B:Dawnguard.esm",
+    "chance": "3",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "5",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "4",
+    "global": "000807:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "4",
+    "global": "014C46:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "04D7FD:Skyrim.esm",
+  "editorid": "WeatherMountains",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "40",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "30",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "20",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "20",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "40",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "02A72D:Skyrim.esm",
+  "editorid": "WeatherPineForest",
+  "worldspace": "00003C:Skyrim.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Skyrim.esm",
+   "Dawnguard.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "00081A:Skyrim.esm",
+    "chance": "40",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "012F89:Skyrim.esm",
+    "chance": "20",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000829:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "10",
+    "global": "000835:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "5",
+    "global": "000836:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "5",
+    "global": "000810:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00081E:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F1:Skyrim.esm",
+    "chance": "10",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F2:Skyrim.esm",
+    "chance": "20",
+    "global": "014C43:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23B:Skyrim.esm",
+    "chance": "5",
+    "global": "000834:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "2",
+    "global": "000804:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "2",
+    "global": "000803:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A23F:Skyrim.esm",
+    "chance": "4",
+    "global": "00080D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EB:Skyrim.esm",
+    "chance": "3",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EC:Skyrim.esm",
+    "chance": "4",
+    "global": "014C47:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10FE7E:Skyrim.esm",
+    "chance": "2",
+    "global": "000802:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "0",
+    "global": "00082A:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "037562:Dragonborn.esm",
+  "editorid": "WeatherSkaalVillage01",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "25",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "35",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "15",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A234:Skyrim.esm",
+    "chance": "4",
+    "global": "00082B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "5",
+    "global": "00082C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A236:Skyrim.esm",
+    "chance": "5",
+    "global": "00082B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "5",
+    "global": "00081F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "3",
+    "global": "014C4C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E8:Skyrim.esm",
+    "chance": "4",
+    "global": "014C4C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "4",
+    "global": "014C4A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "25",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "35",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "02ADC6:Dragonborn.esm",
+  "editorid": "WeatherDLC2SolstheimSnowHeavy",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "55",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "15",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "10",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "15",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "5",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0B:Dawnguard.esm",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "55",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "15",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "02A201:Dragonborn.esm",
+  "editorid": "WeatherDLC2SolstheimMtns",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A234:Skyrim.esm",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A236:Skyrim.esm",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E7:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1E8:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0B:Dawnguard.esm",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0E:Dawnguard.esm",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "029F3B:Dragonborn.esm",
+  "editorid": "WeatherDLC2SolstheimSnow",
+  "worldspace": "000800:Dragonborn.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Dragonborn.esm",
+   "NAT-ENB.esp",
+   "Astralite Weathers.esp",
+   "Astralite ENB.esp",
+   "Seasonal Weathers Framework - Astralite Weathers.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "25",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1F0:Skyrim.esm",
+    "chance": "10",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "5",
+    "global": "00082C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E0F:Dawnguard.esm",
+    "chance": "5",
+    "global": "000813:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "010E10:Dawnguard.esm",
+    "chance": "4",
+    "global": "014C48:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "20",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "10",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "063102:BSHeartland.esm",
+  "editorid": "CYRWeatherBruma",
+  "worldspace": "0A764B:BSHeartland.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "45",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "15",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "15",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "06311F:BSHeartland.esm",
+  "editorid": "CYRWeatherMountainsSnow",
+  "worldspace": "0A764B:BSHeartland.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "BSHeartland.esm",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "45",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "15",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "15",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "0168ED:LegacyoftheDragonborn.esm",
+  "editorid": "PassPassBoundary",
+  "worldspace": "128880:LegacyoftheDragonborn.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "LegacyoftheDragonborn.esm",
+   "Seasonal Weathers Framework - LOTD.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "50",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "40",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "0",
+    "global": "00083D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "0",
+    "global": "00083C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "0",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A245:Skyrim.esm",
+    "chance": "0",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "0",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "50",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "57654E:Wyrmstooth.esp",
+  "editorid": "WyrmstoothMarsh",
+  "worldspace": "000D62:Wyrmstooth.esp",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "5",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A231:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "3",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10A241:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E3D4:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "54F2A0:Wyrmstooth.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "627E73:Wyrmstooth.esp",
+    "chance": "30",
+    "global": "(null link)"
+   },
+   {
+    "weather": "82A018:Wyrmstooth.esp",
+    "chance": "25",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "3",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "02E7AB:Skyrim.esm",
+    "chance": "3",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000838:Astralite ENB.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "5",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "3",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "3",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "58CB3B:Wyrmstooth.esp",
+  "editorid": "WyrmstoothForest",
+  "worldspace": "000D62:Wyrmstooth.esp",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "54F2A0:Wyrmstooth.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "627E73:Wyrmstooth.esp",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "82A018:Wyrmstooth.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A238:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "5",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "3",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000823:Astralite ENB.esp",
+    "chance": "4",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "3",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "02E7AB:Skyrim.esm",
+    "chance": "3",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000838:Astralite ENB.esp",
+    "chance": "2",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "5",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "3",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "3",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "04C563:Wyrmstooth.esp",
+  "editorid": "WyrmstoothRegion",
+  "worldspace": "000D62:Wyrmstooth.esp",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "54F2A0:Wyrmstooth.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "3",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "627E73:Wyrmstooth.esp",
+    "chance": "35",
+    "global": "(null link)"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "5",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "82A018:Wyrmstooth.esp",
+    "chance": "20",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A235:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A232:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A239:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10E3D4:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "106635:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "3",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "00015E:Skyrim.esm",
+    "chance": "3",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "5",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "5",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "000827:Astralite ENB.esp",
+    "chance": "3",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "000800:Seasonal Weathers Framework - LOTD.esp",
+  "editorid": "WeatherSancreTor",
+  "worldspace": "121747:LegacyoftheDragonborn.esm",
+  "pbr_winner": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "pbr_stack": [
+   "Seasonal Weathers Framework - LOTD.esp",
+   "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A244:Skyrim.esm",
+    "chance": "0",
+    "global": "00083A:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8220:Skyrim.esm",
+    "chance": "0",
+    "global": "00083D:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "50",
+    "global": "000824:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821F:Skyrim.esm",
+    "chance": "0",
+    "global": "00083C:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "000823:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C821E:Skyrim.esm",
+    "chance": "40",
+    "global": "00083B:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "10E1EF:Skyrim.esm",
+    "chance": "0",
+    "global": "014C44:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "04D7FB:Skyrim.esm",
+    "chance": "10",
+    "global": "00082F:Seasonal Weathers Framework.esp"
+   },
+   {
+    "weather": "0C8221:Skyrim.esm",
+    "chance": "50",
+    "global": "000830:Seasonal Weathers Framework.esp"
+   }
+  ]
+ },
+ {
+  "formid": "57654F:Wyrmstooth.esp",
+  "editorid": "WyrmstoothSteampools",
+  "worldspace": "000D62:Wyrmstooth.esp",
+  "pbr_winner": "Wyrmstooth-Astralite-Weather-Patch.esp",
+  "pbr_stack": [
+   "Wyrmstooth.esp",
+   "Wyrmstooth-Astralite-Weather-Patch.esp"
+  ],
+  "class": "exterior",
+  "entries": [
+   {
+    "weather": "10A23C:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23D:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A23E:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A7A6:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "10A7A7:Skyrim.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "627E73:Wyrmstooth.esp",
+    "chance": "50",
+    "global": "(null link)"
+   },
+   {
+    "weather": "01D760:Dragonborn.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "031AC0:Dragonborn.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374B9:Dragonborn.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "0374B8:Dragonborn.esm",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "00082F:Astralite ENB.esp",
+    "chance": "5",
+    "global": "(null link)"
+   },
+   {
+    "weather": "000838:Astralite ENB.esp",
+    "chance": "2",
+    "global": "(null link)"
+   }
+  ]
+ }
+]

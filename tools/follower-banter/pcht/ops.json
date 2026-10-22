@@ -1,0 +1,680 @@
+[
+ {
+  "formid": "008013:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\16.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\19.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\20.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\21.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\22.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\23.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\24.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\You're_on..wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\You_should_walk_away..wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Ready Weapon\\why so hostle.wav"
+  ]
+ },
+ {
+  "formid": "008014:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Fire\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Fire\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Fire\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Fire\\07.wav"
+  ]
+ },
+ {
+  "formid": "008015:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Fire Storm\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Fire Storm\\02.wav"
+  ]
+ },
+ {
+  "formid": "008016:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Frost\\04.wav"
+  ]
+ },
+ {
+  "formid": "008017:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\16.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Heal\\17.wav"
+  ]
+ },
+ {
+  "formid": "008018:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Influence\\08.wav"
+  ]
+ },
+ {
+  "formid": "008019:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Invisibility\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Invisibility\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Invisibility\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Invisibility\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Invisibility\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Invisibility\\06.wav"
+  ]
+ },
+ {
+  "formid": "00801B:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Lightning Storm\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Lightning Storm\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Lightning Storm\\05.wav"
+  ]
+ },
+ {
+  "formid": "00801E:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Shock\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Shock\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Shock\\05.wav"
+  ]
+ },
+ {
+  "formid": "00801F:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack\\08.wav"
+  ]
+ },
+ {
+  "formid": "008022:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Power Attack\\10.wav"
+  ]
+ },
+ {
+  "formid": "008023:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Sneak\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Sneak\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Sneak\\03.wav"
+  ]
+ },
+ {
+  "formid": "008025:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Chair\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Chair\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Chair\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Chair\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Chair\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Chair\\06.wav"
+  ]
+ },
+ {
+  "formid": "008026:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Dragon Riding\\07.wav"
+  ]
+ },
+ {
+  "formid": "008027:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Action\\Horse Riding\\07.wav"
+  ]
+ },
+ {
+  "formid": "008028:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove\\fool.wav"
+  ]
+ },
+ {
+  "formid": "008029:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\16.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\17.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Block\\18.wav"
+  ]
+ },
+ {
+  "formid": "00802A:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Death\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Death\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Death\\03.wav"
+  ]
+ },
+ {
+  "formid": "00802B:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Hit\\Any_last_words_before_I_kill_you.wav"
+  ]
+ },
+ {
+  "formid": "00802D:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Friendly Heal\\thank you friend.wav"
+  ]
+ },
+ {
+  "formid": "00802E:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Trap Hit\\16.wav"
+  ]
+ },
+ {
+  "formid": "00802F:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Generic\\16.wav"
+  ]
+ },
+ {
+  "formid": "008031:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Magic\\Sun Blast\\08.wav"
+  ]
+ },
+ {
+  "formid": "008032:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Clear\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Clear\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Clear\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Clear\\It's_nice_to_be_here..wav"
+  ]
+ },
+ {
+  "formid": "008033:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Cloudy\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Cloudy\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Cloudy\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Cloudy\\04.wav"
+  ]
+ },
+ {
+  "formid": "008035:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Snowy\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Snowy\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Weather Snowy\\05.wav"
+  ]
+ },
+ {
+  "formid": "008037:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\House\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\House\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\House\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\House\\04.wav"
+  ]
+ },
+ {
+  "formid": "008038:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Inn\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Inn\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Inn\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Inn\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Inn\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Inn\\06.wav"
+  ]
+ },
+ {
+  "formid": "008039:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Player House\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Player House\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Player House\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Player House\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Player House\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Player House\\06.wav"
+  ]
+ },
+ {
+  "formid": "00803A:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Store\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Store\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Store\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Store\\04.wav"
+  ]
+ },
+ {
+  "formid": "00803B:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Book\\11.wav"
+  ]
+ },
+ {
+  "formid": "008041:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Fatigued\\09.wav"
+  ]
+ },
+ {
+  "formid": "008043:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\16.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\17.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash\\18.wav"
+  ]
+ },
+ {
+  "formid": "008044:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Bash Fatigued\\07.wav"
+  ]
+ },
+ {
+  "formid": "008045:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Bleedout\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Bleedout\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Bleedout\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Bleedout\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Bleedout\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Bleedout\\06.wav"
+  ]
+ },
+ {
+  "formid": "009001:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking\\13.wav"
+  ]
+ },
+ {
+  "formid": "009003:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Hello\\16.wav"
+  ]
+ },
+ {
+  "formid": "009004:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Goodbye\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Goodbye\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Goodbye\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Goodbye\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Goodbye\\05.wav"
+  ]
+ },
+ {
+  "formid": "009005:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Greeting\\Random\\16.wav"
+  ]
+ },
+ {
+  "formid": "010000:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Very Low\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Very Low\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Very Low\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Very Low\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Very Low\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Very Low\\06.wav"
+  ]
+ },
+ {
+  "formid": "010001:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Low\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Low\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Low\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Low\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Health Low\\06.wav"
+  ]
+ },
+ {
+  "formid": "011000:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\06.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\13.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\14.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\15.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Killmove Finish\\16.wav"
+  ]
+ },
+ {
+  "formid": "011002:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Ranged Full Draw\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Ranged Full Draw\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Ranged Full Draw\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Combat\\Attack Ranged Full Draw\\05.wav"
+  ]
+ },
+ {
+  "formid": "019000:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Dungeon\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Dungeon\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Dungeon\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Dungeon\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Dungeon\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Location\\Dungeon\\06.wav"
+  ]
+ },
+ {
+  "formid": "01C000:PC Head Tracking - MCM.esp",
+  "field_path": "SoundFiles",
+  "op": "ReplaceAll",
+  "values": [
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\01.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\02.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\03.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\04.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\05.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\07.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\08.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\09.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\10.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\11.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\12.wav",
+   "data\\Sound\\FX\\PC Head Tracking\\Menu\\Lockpicking Success\\13.wav"
+  ]
+ }
+]

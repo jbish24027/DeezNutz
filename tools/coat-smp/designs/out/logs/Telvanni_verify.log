@@ -1,0 +1,24 @@
+== m _1: telvannibodym_1.nif
+  ok   TelvanniBody: 23078 triangles, kept 23078 in ['TelvanniBody', 'Robe', 'Robe 2'], duplicated 0
+  ok   influences max 4, weight sums off by <= 4.0e-04, bones per shape max 77
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\TelvanniM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   166 constraints, bodies declared
+  ok   96 rig nodes, all declared
+  m Robe: points with physics 74%, of those on 2 chains 81%
+  ok   m _1: no rest contacts
+== m _0: telvannibodym_0.nif
+  ok   TelvanniBody: 23078 triangles, kept 23078 in ['TelvanniBody', 'Robe', 'Robe 2'], duplicated 0
+  ok   influences max 4, weight sums off by <= 4.0e-04, bones per shape max 77
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\TelvanniM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   166 constraints, bodies declared
+  ok   96 rig nodes, all declared
+  ok   m _0: no rest contacts
+ALL OK
+
+EXIT 0

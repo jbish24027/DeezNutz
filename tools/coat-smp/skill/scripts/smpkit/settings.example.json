@@ -1,0 +1,19 @@
+{
+  "PYNIFLY_DIR": "C:/Tools/PyNifly/io_scene_nifly",
+  "SKELETON_NIF": "C:/Modding/MO2/mods/BodySlide and Outfit Studio/CalienteTools/BodySlide/res/skeleton_female_sse.nif",
+  "TEXCONV": "C:/Tools/texconv.exe",
+  "SKELETON_HKX_M": "C:/Modding/MO2/mods/XP32 Maximum Skeleton Special Extended/meshes/actors/character/character assets/skeleton.hkx",
+  "SKELETON_HKX_F": "C:/Modding/MO2/mods/XP32 Maximum Skeleton Special Extended/meshes/actors/character/character assets female/skeleton_female.hkx",
+  "CLIPS": {
+    "m": {
+      "walk": "C:/Modding/MO2/mods/<your animation replacer>/meshes/actors/character/animations/.../male/mt_walkforward.hkx",
+      "run": ".../male/mt_runforward.hkx",
+      "sprint": ".../male/mt_sprintforward.hkx"
+    },
+    "f": {
+      "walk": ".../female/mt_walkforward.hkx",
+      "run": ".../female/mt_runforward.hkx",
+      "sprint": ".../female/mt_sprintforward.hkx"
+    }
+  }
+}

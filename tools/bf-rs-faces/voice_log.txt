@@ -1,0 +1,72 @@
+﻿python.exe : D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:300: SyntaxWarning: invalid escape sequence '\('
+At line:1 char:373
++ ... reference"; & "D:\OmniVoice\.venv\Scripts\python.exe" "C:\1. AUTHORIA ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\OmniVoice\.v...e sequence '\(':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  m = re.match('([su]([0-9]{1,2})p?) \(([0-9]{1,2}) bit\)$', token)
+D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:301: SyntaxWarning: invalid escape sequence '\('
+  m2 = re.match('([su]([0-9]{1,2})p?)( \(default\))?$', token)
+D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:310: SyntaxWarning: invalid escape sequence '\('
+  elif re.match('(flt)p?( \(default\))?$', token):
+D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:314: SyntaxWarning: invalid escape sequence '\('
+  elif re.match('(dbl)p?( \(default\))?$', token):
+D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting 
+to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 156234.82it/s]
+
+Loading weights:   0%|          | 0/313 [00:00<?, ?it/s]
+Loading weights:   1%|▏         | 4/313 [00:00<00:20, 14.96it/s]
+Loading weights:  78%|███████▊  | 245/313 [00:00<00:00, 836.91it/s]
+Loading weights: 100%|██████████| 313/313 [00:00<00:00, 708.65it/s]
+
+Loading weights:   0%|          | 0/527 [00:00<?, ?it/s]
+Loading weights:  36%|███▌      | 191/527 [00:00<00:00, 1891.91it/s]
+Loading weights:  72%|███████▏  | 381/527 [00:00<00:00, 787.36it/s] 
+Loading weights:  93%|█████████▎| 492/527 [00:00<00:00, 726.22it/s]
+Loading weights: 100%|██████████| 527/527 [00:00<00:00, 778.62it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/587 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 587/587 [00:00<00:00, 6030.98it/s]
+A custom logits processor of type <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> has 
+been passed to `.generate()`, but it was also created in `.generate()`, given its parameterization. The custom <class 
+'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> will take precedence. Please check the 
+docstring of <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> to see related 
+`.generate()` flags.
+A custom logits processor of type <class 
+'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> has been passed to `.generate()`, but 
+it was also created in `.generate()`, given its parameterization. The custom <class 
+'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> will take precedence. Please check the 
+docstring of <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> to see related 
+`.generate()` flags.
+01 best B [] | Hey, you.
+02 best B [] | Do you want to hear something really strange?
+03 best A [] | It's about a child. Nobody likes it, everybody hates it!
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+04 best B [] | The parents don't even like him, he was an accident!
+05 best B ['rises'] | Don't worry, it isn't you.
+06 best B [] | It is you!
+07 best B [] | Climbing down from the horse!
+08 best B [] | Show me what you're carrying.
+09 best B [] | Come with me.
+10 best B [] | Go to Daddy.
+11 best B [] | Go and find Mummy.
+12 best B [] | Wait here.
+13 best A [] | No, just wait.
+14 best B [] | But don't run too far away!
+15 best B [] | You'd better go home now.
+16 best B [] | What are your skills?
+17 best B [] | Leave me!
+18 best B [] | Sorry, I didn't mean it.
+19 best A [] | I don't want to see you anymore! You are annoying!
+20 best C [] | Be serious! Just follow!
+21 best C [] | This is our new meeting place.
+22 best A [] | Run to our meeting point.
+ALL DONE 22

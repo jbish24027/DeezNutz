@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fomod>
+	<Name>Authoria - Padborn</Name>
+	<Author>Zany + Claude</Author>
+	<Version>3.2.0</Version>
+	<Description>The complete Authoria controller package: Gamepad++ menu + QuickLoot guard fixes (D-pad gestures no longer fire in dialogue, inventory or loot), D-pad stance switching and the full 16-slot gesture map, a combo-safe TK Dodge setup, plus the Padborn SKSE plugin - first-person block (the game can no longer switch you to first person), OStim controller layer, glyph bar, optional sprint-button move and experimental sprint rescue. 3.1.0 also takes the vanilla POV toggle off R3 in the Layout 402 controlmaps, so TDM lock-on no longer flips the camera. 3.2.0 lets your own zoom-in (mouse wheel) reach first person again; scripts still cannot force it. Supersedes Authoria - Controller Stances Fix.</Description>
+	<Website>https://www.nexusmods.com/skyrimspecialedition/mods/99978</Website>
+</fomod>

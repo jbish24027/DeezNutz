@@ -1,0 +1,15 @@
+0ECC96:Skyrim.esm
+08282A:Skyrim.esm
+08277A:Skyrim.esm
+075491:Skyrim.esm
+07548F:Skyrim.esm
+048C14:Skyrim.esm
+001DCB:Lux.esp
+001DCC:Lux.esp
+049476:Lux.esp
+408447:Lux.esp
+677F87:Lux.esp
+99D714:Lux.esp
+D7971B:Lux.esp
+D9CE69:Lux.esp
+FABBDB:Lux.esp

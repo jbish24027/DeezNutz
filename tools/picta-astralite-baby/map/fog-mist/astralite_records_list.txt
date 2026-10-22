@@ -1,0 +1,231 @@
+===== astralite_aw_summary.jsonl 195
+   Weat 00015E:Skyrim.esm DefaultWeather | live winner: Mists of Tamriel.esp 2
+   Weat 00081A:Skyrim.esm SkyrimClear | live winner: NAT-ENB.esp 3
+   Weat 012F89:Skyrim.esm SkyrimCloudy | live winner: Picta - Weathers of Skyrim.esp 6
+   Weat 048C14:Skyrim.esm BlackreachWeather | live winner: Lux.esp 5
+   Weat 04D7FB:Skyrim.esm SkyrimOvercastSnow | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0923FD:Skyrim.esm SovngardeFog | live winner: NAT-ENB.esp 3
+   Weat 0C821E:Skyrim.esm SkyrimFog | live winner: Picta - Weathers of Skyrim.esp 6
+   Weat 0C821F:Skyrim.esm SkyrimOvercastRain | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0C8220:Skyrim.esm SkyrimStormRain | live winner: NAT-ENB.esp 3
+   Weat 0C8221:Skyrim.esm SkyrimStormSnow | live winner: Picta - Weathers of Skyrim.esp 5
+   Weat 0D299E:Skyrim.esm SkyrimOvercastWar | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0D4886:Skyrim.esm FXMagicStormRain_Electric | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0D9329:Skyrim.esm HelgenAttackWeather | live winner: Picta - Weathers of Skyrim.esp 5
+   Weat 104AB4:Skyrim.esm SkuldafnCloudy | live winner: Authoria - Picta over NAT.esp 5
+   Weat 105941:Skyrim.esm BloatedMansGrottoFog | live winner: Authoria - Picta over NAT.esp 5
+   Weat 105942:Skyrim.esm SolitudeBluePalaceFogARENA | live winner: Picta - Weathers of Aurbis.esm 3
+   Weat 105943:Skyrim.esm SolitudeBluePalaceFogFEAR | live winner: Picta - Weathers of Aurbis.esm 3
+   Weat 105944:Skyrim.esm SolitudeBluePalaceFogNMARE | live winner: Picta - Weathers of Aurbis.esm 3
+   Weat 105945:Skyrim.esm SolitudeBluePalaceFog | live winner: Picta - Weathers of Aurbis.esm 3
+   Weat 105F40:Skyrim.esm SkyrimDA02Weather | live winner: Authoria - Picta over NAT.esp 5
+   Weat 106635:Skyrim.esm KarthspireRedoubtFog | live winner: Authoria - Picta over NAT.esp 5
+   Weat 10A230:Skyrim.esm SkyrimClearMA | live winner: NAT-ENB.esp 3
+   Weat 10A231:Skyrim.esm SkyrimOvercastRainMA | live winner: NAT-ENB.esp 3
+   Weat 10A232:Skyrim.esm SkyrimFogMA | live winner: Mists of Tamriel.esp 4
+   Weat 10A233:Skyrim.esm SkyrimCloudyMA | live winner: Mists of Tamriel.esp 4
+   Weat 10A234:Skyrim.esm SkyrimClearCO | live winner: NAT-ENB.esp 3
+   Weat 10A235:Skyrim.esm SkyrimFogCO | live winner: NAT-ENB.esp 3
+   Weat 10A236:Skyrim.esm SkyrimCloudyCO | live winner: Mists of Tamriel.esp 4
+   Weat 10A237:Skyrim.esm SkyrimClearRE | live winner: NAT-ENB.esp 3
+   Weat 10A238:Skyrim.esm SkyrimOvercastRainRE | live winner: NAT-ENB.esp 3
+   Weat 10A239:Skyrim.esm SkyrimFogRE | live winner: NAT-ENB.esp 3
+   Weat 10A23A:Skyrim.esm SkyrimCloudyRE | live winner: Mists of Tamriel.esp 4
+   Weat 10A23B:Skyrim.esm SkyrimClearFF | live winner: NAT-ENB.esp 3
+   Weat 10A23C:Skyrim.esm SkyrimStormRainFF | live winner: NAT-ENB.esp 3
+   Weat 10A23D:Skyrim.esm SkyrimOvercastRainFF | live winner: NAT-ENB.esp 3
+   Weat 10A23E:Skyrim.esm SkyrimFogFF | live winner: NAT-ENB.esp 3
+   Weat 10A23F:Skyrim.esm SkyrimCloudyFF | live winner: Mists of Tamriel.esp 4
+   Weat 10A240:Skyrim.esm SkyrimClearTU | live winner: NAT-ENB.esp 3
+   Weat 10A241:Skyrim.esm SkyrimStormRainTU | live winner: NAT-ENB.esp 3
+   Weat 10A242:Skyrim.esm SkyrimOvercastRainTU | live winner: NAT-ENB.esp 3
+   Weat 10A243:Skyrim.esm SkyrimCloudyTU | live winner: Mists of Tamriel.esp 4
+   Weat 10A244:Skyrim.esm SkyrimClearSN | live winner: NAT-ENB.esp 3
+   Weat 10A245:Skyrim.esm SkyrimCloudySN | live winner: NAT-ENB.esp 3
+   Weat 10A7A5:Skyrim.esm SkyrimClearVT | live winner: NAT-ENB.esp 3
+   Weat 10A7A6:Skyrim.esm SkyrimOvercastRainVT | live winner: NAT-ENB.esp 3
+   Weat 10A7A7:Skyrim.esm SkyrimFogVT | live winner: NAT-ENB.esp 3
+   Weat 10A7A8:Skyrim.esm SkyrimCloudyVT | live winner: Mists of Tamriel.esp 4
+   Weat 10D9EC:Skyrim.esm SovngardeClear | live winner: Authoria - Picta over NAT.esp 5
+   Weat 10E1E3:Skyrim.esm SkyrimCloudyVT_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E4:Skyrim.esm SkyrimClearVT_A | live winner: NAT-ENB.esp 3
+   Weat 10E1E5:Skyrim.esm SkyrimCloudyMA_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E6:Skyrim.esm SkyrimClearMA_A | live winner: NAT-ENB.esp 3
+   Weat 10E1E7:Skyrim.esm SkyrimCloudyCO_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E8:Skyrim.esm SkyrimClearCO_A | live winner: NAT-ENB.esp 3
+   Weat 10E1E9:Skyrim.esm SkyrimCloudyRE_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1EA:Skyrim.esm SkyrimClearRE_A | live winner: NAT-ENB.esp 3
+   Weat 10E1EB:Skyrim.esm SkyrimCloudyFF_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1EC:Skyrim.esm SkyrimClearFF_A | live winner: NAT-ENB.esp 3
+   Weat 10E1ED:Skyrim.esm SkyrimCloudyTU_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1EE:Skyrim.esm SkyrimClearTU_A | live winner: NAT-ENB.esp 3
+   Weat 10E1EF:Skyrim.esm SkyrimCloudySN_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1F0:Skyrim.esm SkyrimClearSN_A | live winner: NAT-ENB.esp 3
+   Weat 10E1F1:Skyrim.esm SkyrimCloudy_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1F2:Skyrim.esm SkyrimClear_A | live winner: NAT-ENB.esp 3
+   Weat 10FE7E:Skyrim.esm RiftenOvercastFog | live winner: Mists of Tamriel.esp 4
+   Weat 10FEF8:Skyrim.esm SovngardeDark | live winner: Authoria - Picta over NAT.esp 5
+   Weat 001407:Dawnguard.esm SoulCairnAmb01 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 006AEC:Dawnguard.esm DLC1Eclipse | live winner: Authoria - Picta over NAT.esp 5
+   Weat 00959F:Dawnguard.esm SoulCairnAurora | live winner: NAT-ENB.esp 3
+   Weat 00F89C:Dawnguard.esm DLC1AurielsBowClearWeather | live winner: Authoria - Picta over NAT.esp 4
+   Weat 00F89D:Dawnguard.esm DLC1MagicAurielBowCloudyWeather | live winner: Authoria - Picta over NAT.esp 4
+   Weat 010E0B:Dawnguard.esm DLC1_SkyrimCloudyFV_A | live winner: NAT-ENB.esp 2
+   Weat 010E0E:Dawnguard.esm DLC1_SkyrimCloudyFV | live winner: NAT-ENB.esp 2
+   Weat 010E0F:Dawnguard.esm DLC1_SkyrimClearFV | live winner: NAT-ENB.esp 2
+   Weat 010E10:Dawnguard.esm DLC1_SkyrimClearFV_A | live winner: NAT-ENB.esp 2
+   Weat 014551:Dawnguard.esm SoulCairnAmb01_Rain | live winner: Authoria - Picta over NAT.esp 5
+   Weat 018DBB:Dawnguard.esm SoulCairnAmb02 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 018DBC:Dawnguard.esm SoulCairnAmb03 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 018DBD:Dawnguard.esm SoulCairnAmb04 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 019599:Dawnguard.esm DLC1FalmerValley_bf | live winner: Authoria - Picta over NAT.esp 4
+   Weat 0195A0:Dawnguard.esm DLC1FalmerValley_bfDark | live winner: Authoria - Picta over NAT.esp 4
+   Weat 018471:Dragonborn.esm DLC02VolcanicAsh01 | live winner: NAT-ENB.esp 2
+   Weat 01D760:Dragonborn.esm DLC02VolcanicAshTundra01 | live winner: NAT-ENB.esp 2
+   Weat 01DFF5:Dragonborn.esm DLC2ApocryphaWeather | live winner: Authoria - Picta over NAT.esp 4
+   Weat 031AC0:Dragonborn.esm DLC02VolcanicAsh02 | live winner: NAT-ENB.esp 2
+   Weat 032336:Dragonborn.esm DLC02VolcanicAshStorm01 | live winner: NAT-ENB.esp 2
+   Weat 034CFB:Dragonborn.esm DLC2ApocryphaWeatherNew | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0374B8:Dragonborn.esm DLC02VolcanicAsh01_A | live winner: NAT-ENB.esp 2
+   Weat 0374B9:Dragonborn.esm DLC02VolcanicAsh02_A | live winner: NAT-ENB.esp 2
+   Weat 0374BA:Dragonborn.esm DLC02VolcanicAshTundra01_A | live winner: NAT-ENB.esp 2
+   Clim 00015F:Skyrim.esm DefaultClimate | live winner: Picta - Weathers of Skyrim.esp 2
+   Clim 000812:Skyrim.esm SkyrimClimate | live winner: Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp 4
+   Volu 000802:Astralite Weathers.esp LAM_NoVL | live winner: (not in the active order) 0
+   Volu 000810:Astralite Weathers.esp LAM_YellowVL | live winner: (not in the active order) 0
+   Volu 000811:Astralite Weathers.esp LAM_NightVL | live winner: (not in the active order) 0
+   Volu 000813:Astralite Weathers.esp LAM_OrangeVL | live winner: (not in the active order) 0
+   Volu 000814:Astralite Weathers.esp LAM_DayVL | live winner: (not in the active order) 0
+   Volu 00085A:Astralite Weathers.esp LAM_StormVL | live winner: (not in the active order) 0
+   Volu 00085B:Astralite Weathers.esp LAM_StormVL_Night | live winner: (not in the active order) 0
+   Volu 00085C:Astralite Weathers.esp LAM_RoseVL | live winner: (not in the active order) 0
+   Volu 00085D:Astralite Weathers.esp LAM_FogVL | live winner: (not in the active order) 0
+   Volu 00085E:Astralite Weathers.esp LAM_FogVLNight | live winner: (not in the active order) 0
+   Volu 00085F:Astralite Weathers.esp LAM_FogVL_Green | live winner: (not in the active order) 0
+   Volu 000860:Astralite Weathers.esp LAM_FogVL_Ourple | live winner: (not in the active order) 0
+   Volu 000861:Astralite Weathers.esp LAM_FogVL_Blue | live winner: (not in the active order) 0
+   Volu 000866:Astralite Weathers.esp LAM_PinkVL | live winner: (not in the active order) 0
+   Volu 000867:Astralite Weathers.esp LAM_GreenVL | live winner: (not in the active order) 0
+   Volu 000868:Astralite Weathers.esp LAM_OurpleVL | live winner: (not in the active order) 0
+   Volu 00086F:Astralite Weathers.esp LAM_PeachVL | live winner: (not in the active order) 0
+   Volu 000879:Astralite Weathers.esp LAM_StormVL_Red | live winner: (not in the active order) 0
+===== astralite_enb_summary.jsonl 203
+   Weat 00015E:Skyrim.esm Seasons_OvercastSnow | live winner: Mists of Tamriel.esp 2
+   Weat 00081A:Skyrim.esm SkyrimClear | live winner: NAT-ENB.esp 3
+   Weat 012F89:Skyrim.esm SkyrimCloudy | live winner: Picta - Weathers of Skyrim.esp 6
+   Weat 02E7AB:Skyrim.esm Seasons_CloudyRain | live winner: Update.esm 2
+   Weat 048C14:Skyrim.esm BlackreachWeather | live winner: Lux.esp 5
+   Weat 04D7FB:Skyrim.esm SkyrimOvercastSnow | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0C821E:Skyrim.esm SkyrimFog | live winner: Picta - Weathers of Skyrim.esp 6
+   Weat 0C821F:Skyrim.esm SkyrimOvercastRain | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0C8220:Skyrim.esm SkyrimStormRain | live winner: NAT-ENB.esp 3
+   Weat 0C8221:Skyrim.esm SkyrimStormSnow | live winner: Picta - Weathers of Skyrim.esp 5
+   Weat 0D299E:Skyrim.esm SkyrimOvercastWar | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0D4886:Skyrim.esm FXMagicStormRain_Electric | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0D9329:Skyrim.esm HelgenAttackWeather | live winner: Picta - Weathers of Skyrim.esp 5
+   Weat 10199F:Skyrim.esm SkyrimMQ206weather | live winner: Authoria - Picta over NAT.esp 5
+   Weat 104AB4:Skyrim.esm SkuldafnCloudy | live winner: Authoria - Picta over NAT.esp 5
+   Weat 105941:Skyrim.esm BloatedMansGrottoFog | live winner: Authoria - Picta over NAT.esp 5
+   Weat 105F40:Skyrim.esm SkyrimDA02Weather | live winner: Authoria - Picta over NAT.esp 5
+   Weat 106635:Skyrim.esm KarthspireRedoubtFog | live winner: Authoria - Picta over NAT.esp 5
+   Weat 10A230:Skyrim.esm SkyrimClearMA | live winner: NAT-ENB.esp 3
+   Weat 10A231:Skyrim.esm SkyrimOvercastRainMA | live winner: NAT-ENB.esp 3
+   Weat 10A232:Skyrim.esm SkyrimFogMA | live winner: Mists of Tamriel.esp 4
+   Weat 10A233:Skyrim.esm SkyrimCloudyMA | live winner: Mists of Tamriel.esp 4
+   Weat 10A234:Skyrim.esm SkyrimClearCO | live winner: NAT-ENB.esp 3
+   Weat 10A235:Skyrim.esm SkyrimFogCO | live winner: NAT-ENB.esp 3
+   Weat 10A236:Skyrim.esm SkyrimCloudyCO | live winner: Mists of Tamriel.esp 4
+   Weat 10A237:Skyrim.esm SkyrimClearRE | live winner: NAT-ENB.esp 3
+   Weat 10A238:Skyrim.esm SkyrimOvercastRainRE | live winner: NAT-ENB.esp 3
+   Weat 10A239:Skyrim.esm SkyrimFogRE | live winner: NAT-ENB.esp 3
+   Weat 10A23A:Skyrim.esm SkyrimCloudyRE | live winner: Mists of Tamriel.esp 4
+   Weat 10A23B:Skyrim.esm SkyrimClearFF | live winner: NAT-ENB.esp 3
+   Weat 10A23C:Skyrim.esm SkyrimStormRainFF | live winner: NAT-ENB.esp 3
+   Weat 10A23D:Skyrim.esm SkyrimOvercastRainFF | live winner: NAT-ENB.esp 3
+   Weat 10A23E:Skyrim.esm SkyrimFogFF | live winner: NAT-ENB.esp 3
+   Weat 10A23F:Skyrim.esm SkyrimCloudyFF | live winner: Mists of Tamriel.esp 4
+   Weat 10A240:Skyrim.esm SkyrimClearTU | live winner: NAT-ENB.esp 3
+   Weat 10A241:Skyrim.esm SkyrimStormRainTU | live winner: NAT-ENB.esp 3
+   Weat 10A242:Skyrim.esm SkyrimOvercastRainTU | live winner: NAT-ENB.esp 3
+   Weat 10A243:Skyrim.esm SkyrimCloudyTU | live winner: Mists of Tamriel.esp 4
+   Weat 10A244:Skyrim.esm SkyrimClearSN | live winner: NAT-ENB.esp 3
+   Weat 10A245:Skyrim.esm SkyrimCloudySN | live winner: NAT-ENB.esp 3
+   Weat 10A7A5:Skyrim.esm SkyrimClearVT | live winner: NAT-ENB.esp 3
+   Weat 10A7A6:Skyrim.esm SkyrimOvercastRainVT | live winner: NAT-ENB.esp 3
+   Weat 10A7A7:Skyrim.esm SkyrimFogVT | live winner: NAT-ENB.esp 3
+   Weat 10A7A8:Skyrim.esm SkyrimCloudyVT | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E3:Skyrim.esm SkyrimCloudyVT_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E4:Skyrim.esm SkyrimClearVT_A | live winner: NAT-ENB.esp 3
+   Weat 10E1E5:Skyrim.esm SkyrimCloudyMA_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E6:Skyrim.esm SkyrimClearMA_A | live winner: NAT-ENB.esp 3
+   Weat 10E1E7:Skyrim.esm SkyrimCloudyCO_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1E8:Skyrim.esm SkyrimClearCO_A | live winner: NAT-ENB.esp 3
+   Weat 10E1E9:Skyrim.esm SkyrimCloudyRE_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1EA:Skyrim.esm SkyrimClearRE_A | live winner: NAT-ENB.esp 3
+   Weat 10E1EB:Skyrim.esm SkyrimCloudyFF_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1EC:Skyrim.esm SkyrimClearFF_A | live winner: NAT-ENB.esp 3
+   Weat 10E1ED:Skyrim.esm SkyrimCloudyTU_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1EE:Skyrim.esm SkyrimClearTU_A | live winner: NAT-ENB.esp 3
+   Weat 10E1EF:Skyrim.esm SkyrimCloudySN_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1F0:Skyrim.esm SkyrimClearSN_A | live winner: NAT-ENB.esp 3
+   Weat 10E1F1:Skyrim.esm SkyrimCloudy_A | live winner: Mists of Tamriel.esp 4
+   Weat 10E1F2:Skyrim.esm SkyrimClear_A | live winner: NAT-ENB.esp 3
+   Weat 10E3D4:Skyrim.esm Seasons_Fog | live winner: Update.esm 2
+   Weat 10FE7E:Skyrim.esm RiftenOvercastFog | live winner: Mists of Tamriel.esp 4
+   Weat 001407:Dawnguard.esm SoulCairnAmb01 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 006AEC:Dawnguard.esm DLC1Eclipse | live winner: Authoria - Picta over NAT.esp 5
+   Weat 00F89C:Dawnguard.esm DLC1AurielsBowClearWeather | live winner: Authoria - Picta over NAT.esp 4
+   Weat 00F89D:Dawnguard.esm DLC1MagicAurielBowCloudyWeather | live winner: Authoria - Picta over NAT.esp 4
+   Weat 010E0B:Dawnguard.esm DLC1_SkyrimCloudyFV_A | live winner: NAT-ENB.esp 2
+   Weat 010E0E:Dawnguard.esm DLC1_SkyrimCloudyFV | live winner: NAT-ENB.esp 2
+   Weat 010E0F:Dawnguard.esm DLC1_SkyrimClearFV | live winner: NAT-ENB.esp 2
+   Weat 010E10:Dawnguard.esm DLC1_SkyrimClearFV_A | live winner: NAT-ENB.esp 2
+   Weat 014551:Dawnguard.esm SoulCairnAmb01_Rain | live winner: Authoria - Picta over NAT.esp 5
+   Weat 018DBB:Dawnguard.esm SoulCairnAmb02 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 018DBC:Dawnguard.esm SoulCairnAmb03 | live winner: Authoria - Picta over NAT.esp 5
+   Weat 019599:Dawnguard.esm DLC1FalmerValley_bf | live winner: Authoria - Picta over NAT.esp 4
+   Weat 0195A0:Dawnguard.esm DLC1FalmerValley_bfDark | live winner: Authoria - Picta over NAT.esp 4
+   Weat 018471:Dragonborn.esm DLC02VolcanicAsh01 | live winner: NAT-ENB.esp 2
+   Weat 01D760:Dragonborn.esm DLC02VolcanicAshTundra01 | live winner: NAT-ENB.esp 2
+   Weat 01DFF5:Dragonborn.esm DLC2ApocryphaWeather | live winner: Authoria - Picta over NAT.esp 4
+   Weat 031AC0:Dragonborn.esm DLC02VolcanicAsh02 | live winner: NAT-ENB.esp 2
+   Weat 032336:Dragonborn.esm DLC02VolcanicAshStorm01 | live winner: NAT-ENB.esp 2
+   Weat 034CFB:Dragonborn.esm DLC2ApocryphaWeatherNew | live winner: Authoria - Picta over NAT.esp 5
+   Weat 0374B8:Dragonborn.esm DLC02VolcanicAsh01_A | live winner: NAT-ENB.esp 2
+   Weat 0374B9:Dragonborn.esm DLC02VolcanicAsh02_A | live winner: NAT-ENB.esp 2
+   Weat 0374BA:Dragonborn.esm DLC02VolcanicAshTundra01_A | live winner: NAT-ENB.esp 2
+   Weat 000823:Astralite ENB.esp SkyrimStormRainRE | live winner: (not in the active order) 0
+   Weat 000826:Astralite ENB.esp SkyrimStormSnowBlizzard | live winner: (not in the active order) 0
+   Weat 000827:Astralite ENB.esp Seasons_CloudySnow | live winner: (not in the active order) 0
+   Weat 00082E:Astralite ENB.esp SoulCairnBlood | live winner: (not in the active order) 0
+   Weat 00082F:Astralite ENB.esp DLC02VolcanicSnow | live winner: (not in the active order) 0
+   Weat 000830:Astralite ENB.esp DLC02VolcanicAshStorm02 | live winner: (not in the active order) 0
+   Weat 000831:Astralite ENB.esp DLC02VolcanicAsh03 | live winner: (not in the active order) 0
+   Weat 000838:Astralite ENB.esp JawzSkyrimStormRain | live winner: (not in the active order) 0
+   Weat 000839:Astralite ENB.esp Seasons_CloudySnow02 | live winner: (not in the active order) 0
+   Weat 00083A:Astralite ENB.esp DLC02VolcanicAsh04 | live winner: (not in the active order) 0
+   Weat 00083C:Astralite ENB.esp DLC02VolcanicAsh05 | live winner: (not in the active order) 0
+   Weat 00083D:Astralite ENB.esp DLC02VolcanicAsh05_A | live winner: (not in the active order) 0
+   Weat 00083F:Astralite ENB.esp DLC02VolcanicAshTundra02 | live winner: (not in the active order) 0
+   Weat 000840:Astralite ENB.esp DLC02VolcanicAshTundra02_A | live winner: (not in the active order) 0
+   Clim 00015F:Skyrim.esm DefaultClimate | live winner: Picta - Weathers of Skyrim.esp 2
+   Clim 000812:Skyrim.esm SkyrimClimate | live winner: Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp 4
+   Clim 000F91:Skyrim.esm KarthspireClimate | live winner: Picta - Weathers of Skyrim.esp 3
+   Clim 090A91:Skyrim.esm SovngardeClimate | live winner: Picta - Weathers of Skyrim.esp 2
+   Clim 0E7C4E:Skyrim.esm BloatedMansClimate | live winner: Picta - Weathers of Skyrim.esp 3
+   Clim 001409:Dawnguard.esm SoulCairnClimate | live winner: Picta - Weathers of Skyrim.esp 3
+   Clim 000837:Astralite ENB.esp SkyrimDaySpring | live winner: (not in the active order) 0
+   Volu 000810:Astralite Weathers.esp LAM_YellowVL | live winner: (not in the active order) 0
+   Volu 000813:Astralite Weathers.esp LAM_OrangeVL | live winner: (not in the active order) 0
+   Volu 000814:Astralite Weathers.esp LAM_DayVL | live winner: (not in the active order) 0
+   Volu 00085B:Astralite Weathers.esp LAM_StormVL_Night | live winner: (not in the active order) 0
+   Volu 00085F:Astralite Weathers.esp LAM_FogVL_Green | live winner: (not in the active order) 0
+   Volu 000861:Astralite Weathers.esp LAM_FogVL_Blue | live winner: (not in the active order) 0
+   Volu 000867:Astralite Weathers.esp LAM_GreenVL | live winner: (not in the active order) 0
+   Volu 000821:Astralite ENB.esp LAM_PureVL | live winner: (not in the active order) 0
+   Volu 000824:Astralite ENB.esp LAM_BlizzardVL | live winner: (not in the active order) 0
+   Volu 000829:Astralite ENB.esp LAM_BloodVL | live winner: (not in the active order) 0
+   Volu 00082A:Astralite ENB.esp LAM_FogVL_Gold | live winner: (not in the active order) 0
+   Volu 00082B:Astralite ENB.esp LAM_FogVL_Purple | live winner: (not in the active order) 0
+   Volu 00082C:Astralite ENB.esp LAM_StormTealVL | live winner: (not in the active order) 0
+   Volu 00082D:Astralite ENB.esp LAM_GoldVL | live winner: (not in the active order) 0

@@ -1,0 +1,8 @@
+== Jester m: jesterm_1.nif
+   at rest        jump R lead  86/13/ 78   jump L lead  81/ 7/104   tuck  87/19/102
+   curled in      jump R lead 103/13/ 72   jump L lead  86/ 7/107   tuck  73/10/116
+   swung back     jump R lead  45/ 8/ 83   jump L lead  49/11/ 91   tuck  52/ 9/118
+   swung forward  jump R lead  94/15/106   jump L lead  91/ 6/106   tuck 138/14/119
+   total caught/hooked/sunk 985/132/1202
+
+EXIT 0

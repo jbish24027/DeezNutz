@@ -1,0 +1,1030 @@
+{
+ "00015E:Skyrim.esm": {
+  "editorid": "Seasons_OvercastSnow",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "00081A:Skyrim.esm": {
+  "editorid": "SkyrimClear",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "012F89:Skyrim.esm": {
+  "editorid": "SkyrimCloudy",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "04D7FB:Skyrim.esm": {
+  "editorid": "SkyrimOvercastSnow",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0C821E:Skyrim.esm": {
+  "editorid": "SkyrimFog",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0C821F:Skyrim.esm": {
+  "editorid": "SkyrimOvercastRain",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0C8220:Skyrim.esm": {
+  "editorid": "SkyrimStormRain",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0C8221:Skyrim.esm": {
+  "editorid": "SkyrimStormSnow",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0D299E:Skyrim.esm": {
+  "editorid": "SkyrimOvercastWar",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "106635:Skyrim.esm": {
+  "editorid": "KarthspireRedoubtFog",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A230:Skyrim.esm": {
+  "editorid": "SkyrimClearMA",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A231:Skyrim.esm": {
+  "editorid": "SkyrimOvercastRainMA",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A233:Skyrim.esm": {
+  "editorid": "SkyrimCloudyMA",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A234:Skyrim.esm": {
+  "editorid": "SkyrimClearCO",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A236:Skyrim.esm": {
+  "editorid": "SkyrimCloudyCO",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A237:Skyrim.esm": {
+  "editorid": "SkyrimClearRE",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A238:Skyrim.esm": {
+  "editorid": "SkyrimOvercastRainRE",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A239:Skyrim.esm": {
+  "editorid": "SkyrimFogRE",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A23A:Skyrim.esm": {
+  "editorid": "SkyrimCloudyRE",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A23B:Skyrim.esm": {
+  "editorid": "SkyrimClearFF",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A23C:Skyrim.esm": {
+  "editorid": "SkyrimStormRainFF",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A23D:Skyrim.esm": {
+  "editorid": "SkyrimOvercastRainFF",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A23E:Skyrim.esm": {
+  "editorid": "SkyrimFogFF",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A23F:Skyrim.esm": {
+  "editorid": "SkyrimCloudyFF",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A240:Skyrim.esm": {
+  "editorid": "SkyrimClearTU",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A241:Skyrim.esm": {
+  "editorid": "SkyrimStormRainTU",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A242:Skyrim.esm": {
+  "editorid": "SkyrimOvercastRainTU",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A243:Skyrim.esm": {
+  "editorid": "SkyrimCloudyTU",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A244:Skyrim.esm": {
+  "editorid": "SkyrimClearSN",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A7A5:Skyrim.esm": {
+  "editorid": "SkyrimClearVT",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A7A6:Skyrim.esm": {
+  "editorid": "SkyrimOvercastRainVT",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A7A7:Skyrim.esm": {
+  "editorid": "SkyrimFogVT",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A7A8:Skyrim.esm": {
+  "editorid": "SkyrimCloudyVT",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E3:Skyrim.esm": {
+  "editorid": "SkyrimCloudyVT_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E4:Skyrim.esm": {
+  "editorid": "SkyrimClearVT_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E6:Skyrim.esm": {
+  "editorid": "SkyrimClearMA_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E7:Skyrim.esm": {
+  "editorid": "SkyrimCloudyCO_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E8:Skyrim.esm": {
+  "editorid": "SkyrimClearCO_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E9:Skyrim.esm": {
+  "editorid": "SkyrimCloudyRE_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1EA:Skyrim.esm": {
+  "editorid": "SkyrimClearRE_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1EB:Skyrim.esm": {
+  "editorid": "SkyrimCloudyFF_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1EC:Skyrim.esm": {
+  "editorid": "SkyrimClearFF_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1ED:Skyrim.esm": {
+  "editorid": "SkyrimCloudyTU_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1EE:Skyrim.esm": {
+  "editorid": "SkyrimClearTU_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1F0:Skyrim.esm": {
+  "editorid": "SkyrimClearSN_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1F1:Skyrim.esm": {
+  "editorid": "SkyrimCloudy_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1F2:Skyrim.esm": {
+  "editorid": "SkyrimClear_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10FE7E:Skyrim.esm": {
+  "editorid": "RiftenOvercastFog",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "02E7AB:Skyrim.esm": {
+  "editorid": "Seasons_CloudyRain",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E3D4:Skyrim.esm": {
+  "editorid": "Seasons_Fog",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 5,
+  "diff_keys": [
+   "VolumetricLighting.Sunrise",
+   "VolumetricLighting.Night",
+   "VolumetricLighting.Sunset",
+   "VolumetricLighting.Day",
+   "VolumetricLighting"
+  ]
+ },
+ "000823:Astralite ENB.esp": {
+  "editorid": "SkyrimStormRainRE",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000826:Astralite ENB.esp": {
+  "editorid": "SkyrimStormSnowBlizzard",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000827:Astralite ENB.esp": {
+  "editorid": "Seasons_CloudySnow",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000838:Astralite ENB.esp": {
+  "editorid": "JawzSkyrimStormRain",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000839:Astralite ENB.esp": {
+  "editorid": "Seasons_CloudySnow02",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000954:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastWar",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A70:Helios.esp": {
+  "editorid": "Helios_SkyrimClear",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A71:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudy",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A72:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastSnow",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A73:Helios.esp": {
+  "editorid": "Helios_SkyrimFog",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A74:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastRain",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A75:Helios.esp": {
+  "editorid": "Helios_SkyrimStormRain",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A76:Helios.esp": {
+  "editorid": "Helios_SkyrimStormSnow",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A77:Helios.esp": {
+  "editorid": "Helios_SkyrimClearMA",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A78:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastRainMA",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A79:Helios.esp": {
+  "editorid": "Helios_SkyrimFogMA",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A7A:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyMA",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A7B:Helios.esp": {
+  "editorid": "Helios_SkyrimClearCO",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A7C:Helios.esp": {
+  "editorid": "Helios_SkyrimFogCO",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A7D:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyCO",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A7E:Helios.esp": {
+  "editorid": "Helios_SkyrimClearRE",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A7F:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastRainRE",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A80:Helios.esp": {
+  "editorid": "Helios_SkyrimFogRE",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A81:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyRE",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A82:Helios.esp": {
+  "editorid": "Helios_SkyrimClearFF",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A83:Helios.esp": {
+  "editorid": "Helios_SkyrimStormRainFF",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A84:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastRainFF",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A85:Helios.esp": {
+  "editorid": "Helios_SkyrimFogFF",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A86:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyFF",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A87:Helios.esp": {
+  "editorid": "Helios_SkyrimClearTU",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A88:Helios.esp": {
+  "editorid": "Helios_SkyrimStormRainTU",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A89:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastRainTU",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A8A:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyTU",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A8B:Helios.esp": {
+  "editorid": "Helios_SkyrimClearSN",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A8C:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudySN",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A8D:Helios.esp": {
+  "editorid": "Helios_SkyrimClearVT",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A8E:Helios.esp": {
+  "editorid": "Helios_SkyrimOvercastRainVT",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A8F:Helios.esp": {
+  "editorid": "Helios_SkyrimFogVT",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A90:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyVT",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A91:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyVT_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A92:Helios.esp": {
+  "editorid": "Helios_SkyrimClearVT_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A93:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyMA_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A94:Helios.esp": {
+  "editorid": "Helios_SkyrimClearMA_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A95:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyCO_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A96:Helios.esp": {
+  "editorid": "Helios_SkyrimClearCO_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A97:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyRE_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A98:Helios.esp": {
+  "editorid": "Helios_SkyrimClearRE_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A99:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyFF_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A9A:Helios.esp": {
+  "editorid": "Helios_SkyrimClearFF_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A9B:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudyTU_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A9C:Helios.esp": {
+  "editorid": "Helios_SkyrimClearTU_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A9D:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudySN_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A9E:Helios.esp": {
+  "editorid": "Helios_SkyrimClearSN_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000A9F:Helios.esp": {
+  "editorid": "Helios_SkyrimCloudy_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA0:Helios.esp": {
+  "editorid": "Helios_SkyrimClear_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA1:Helios.esp": {
+  "editorid": "Helios_RiftenOvercastFog",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000EE6:Helios.esp": {
+  "editorid": "Helios_DefaultWeather",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000EFE:Helios.esp": {
+  "editorid": "Helios_KarthspireRedoubtFog",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A232:Skyrim.esm": {
+  "editorid": "SkyrimFogMA",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A235:Skyrim.esm": {
+  "editorid": "SkyrimFogCO",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10A245:Skyrim.esm": {
+  "editorid": "SkyrimCloudySN",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1E5:Skyrim.esm": {
+  "editorid": "SkyrimCloudyMA_A",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "10E1EF:Skyrim.esm": {
+  "editorid": "SkyrimCloudySN_A",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "54F2A0:Wyrmstooth.esp": {
+  "editorid": "WyrmstoothStormFog",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "627E73:Wyrmstooth.esp": {
+  "editorid": "WyrmstoothClear",
+  "prev": "Wyrmstooth-Astralite-Weather-Patch.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "82A018:Wyrmstooth.esp": {
+  "editorid": "WyrmstoothFog",
+  "prev": "Wyrmstooth-Astralite-Weather-Patch.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "018471:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAsh01",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "031AC0:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAsh02",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "032336:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAshStorm01",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0374B8:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAsh01_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0374B9:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAsh02_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "0374BA:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAshTundra01_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000831:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAsh03",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "00083A:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAsh04",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "00083C:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAsh05",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "00083D:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAsh05_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "00083F:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAshTundra02",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000840:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAshTundra02_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA2:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAsh01",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA3:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAshTundra01",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA4:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAsh02",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA5:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAshStorm01",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA6:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAsh01_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA7:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAsh02_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000AA8:Helios.esp": {
+  "editorid": "Helios_DLC02VolcanicAshTundra01_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "01D760:Dragonborn.esm": {
+  "editorid": "DLC02VolcanicAshTundra01",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "00082F:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicSnow",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000830:Astralite ENB.esp": {
+  "editorid": "DLC02VolcanicAshStorm02",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "010E0F:Dawnguard.esm": {
+  "editorid": "DLC1_SkyrimClearFV",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "010E10:Dawnguard.esm": {
+  "editorid": "DLC1_SkyrimClearFV_A",
+  "prev": "Astralite ENB.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000EEF:Helios.esp": {
+  "editorid": "Helios_DLC1_SkyrimClearFV",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000EF0:Helios.esp": {
+  "editorid": "Helios_DLC1_SkyrimClearFV_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000EF1:Helios.esp": {
+  "editorid": "Helios_DLC1_SkyrimCloudyFV",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "000EF2:Helios.esp": {
+  "editorid": "Helios_DLC1_SkyrimCloudyFV_A",
+  "prev": "Helios_Astralite.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "010E0B:Dawnguard.esm": {
+  "editorid": "DLC1_SkyrimCloudyFV_A",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ },
+ "010E0E:Dawnguard.esm": {
+  "editorid": "DLC1_SkyrimCloudyFV",
+  "prev": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+  "after": [],
+  "ndiff": 0,
+  "diff_keys": []
+ }
+}

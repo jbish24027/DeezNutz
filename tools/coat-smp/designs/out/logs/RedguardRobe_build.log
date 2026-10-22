@@ -1,0 +1,22 @@
+===== RedguardRobe
+piece Robe <- Redguard Fat Outfit ('islands', 4, {6810: 415, 7020: 305}, (), 76.0): 314 pts / 528 tris (skirt:outer)
+piece Sash <- Redguard Fat Outfit ('comps', (3, 5, 6)): 1616 pts / 2926 tris (pendants)
+skirt axis (-0.50, 1.50); slits (centre, half-width, top): -0.4/121.2/72.8; per-layer tops {'outer': [72.8]}; 5 chains at 121 150 180 -151 -122
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 121:75.5/67.4/59.3/51.2/43.2/35.1/27.0/18.9; 150:75.5/67.5/59.5/51.6/43.6/35.6/27.6/19.7; 180:75.5/67.6/59.7/51.8/43.8/35.9/28.0/20.1; -151:75.5/67.5/59.5/51.6/43.6/35.6/27.6/19.7; -122:75.5/67.4/59.3/51.2/43.1/35.1/27.0/18.9
+pendants Sash: 2 hinges from 3 components (z tops 83 91)
+tip rows ; flap hinges 
+legs from Redguard Fat Outfit (4136 tris above z 6.0), winding outward 97%
+m: lining to the trousers at rest: p10 4.25 median 7.06; free share p10 0.80 median 0.80
+m: Robe is cut out of Redguard Fat Outfit: 30 seam points (z 72.7..72.8) keep its weights, physics fading in over 4.0
+m: skirt Robe 314 pts (284 move); tip 0 pts
+m: legs collider pulled in at 0 of 2251 pts (max 0.00); lining points Robe 137/137
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 0 pts
+lining region Front: no points (slit) - collider skipped
+m_1: wrote meshes/clothes/redguard/redguardoutfit_1.nif; shapes (pts, tris) {'Redguard Fat Outfit': (9824, 18230), 'Robe': (314, 528), 'Sash': (1616, 2926), 'HIMBO - Body': (357, 616), 'Robe 2': (0, 0), 'ARG Legs Front': (1088, 1812), 'ARG Legs Back': (945, 1520), 'ARG Legs Side': (1419, 2054), 'ARG Skirt Side': (9, 0), 'ARG Skirt Back': (128, 202), 'VirtualGround': (4, 2)}; bones per shape {'Redguard Fat Outfit': 23, 'Robe': 38, 'Sash': 11, 'HIMBO - Body': 7, 'Robe 2': 0, 'ARG Legs Front': 9, 'ARG Legs Back': 7, 'ARG Legs Side': 9, 'ARG Skirt Side': 15, 'ARG Skirt Back': 38, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/redguard/redguardoutfit_0.nif; shapes (pts, tris) {'Redguard Fat Outfit': (9824, 18230), 'Robe': (314, 528), 'Sash': (1616, 2926), 'HIMBO - Body': (357, 616), 'Robe 2': (0, 0), 'ARG Legs Front': (1082, 1804), 'ARG Legs Back': (945, 1525), 'ARG Legs Side': (1417, 2048), 'ARG Skirt Side': (9, 0), 'ARG Skirt Back': (128, 202), 'VirtualGround': (4, 2)}; bones per shape {'Redguard Fat Outfit': 23, 'Robe': 38, 'Sash': 11, 'HIMBO - Body': 7, 'Robe 2': 0, 'ARG Legs Front': 9, 'ARG Legs Back': 7, 'ARG Legs Side': 9, 'ARG Skirt Side': 15, 'ARG Skirt Back': 38, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\RedguardRobeM.xml (356 lines); chains linked across slits only above the slit tops [(4, 0, 72.8)]
+report: C:/1. AUTHORIA/_tools/coat-smp/designs/out/RedguardRobe_report.json
+
+EXIT 0

@@ -1,0 +1,17 @@
+== Tunic m _1: torsom_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 363, Skirt Side 864, Skirt Back 386
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      5548    2163     580        0    2805   worst frame unseen 223
+      Skirt Front          entered  1616 hooked  546 unseen  619  unseen z p10 45.8 p50 53.9 p90 67.2
+      Skirt Side           entered  3817 hooked   34 unseen 2071  unseen z p10 47.6 p50 62.2 p90 66.8
+      Skirt Back           entered   115 hooked    0 unseen  115  unseen z p10 66.7 p50 66.7 p90 66.8
+   run          10      2509    1087     238        0    1184   worst frame unseen 170
+      Skirt Front          entered   844 hooked  235 unseen  298  unseen z p10 47.0 p50 57.4 p90 67.2
+      Skirt Side           entered  1590 hooked    3 unseen  811  unseen z p10 57.1 p50 63.8 p90 66.8
+      Skirt Back           entered    75 hooked    0 unseen   75  unseen z p10 64.6 p50 66.7 p90 66.8
+   sprint       10      2784    1064     365        0    1355   worst frame unseen 273
+      Skirt Front          entered   917 hooked  363 unseen  334  unseen z p10 46.7 p50 59.7 p90 67.2
+      Skirt Side           entered  1696 hooked    2 unseen  885  unseen z p10 57.0 p50 64.1 p90 66.8
+      Skirt Back           entered   171 hooked    0 unseen  136  unseen z p10 48.8 p50 64.6 p90 66.8
+SUMMARY clips worst unseen/frame: 273
+
+EXIT 0

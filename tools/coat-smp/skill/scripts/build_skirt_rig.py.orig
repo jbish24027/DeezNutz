@@ -1,0 +1,1571 @@
+"""Build an HDT-SMP skirt rig onto an armour: skirt layers, hip flaps (rigid plates), a belt with a hanging tail and a bag.
+
+usage:  python build_skirt_rig.py <design.py> [target ...]        (targets default to all in the design)
+
+What it does, per target (a 'nif' target = the armour's own _0/_1 meshes; a 'bodyslide' target = one slider set of a
+BodySlide project, whose ShapeData nif + .osd slider data are rewritten so BodySlide builds the physics version):
+  * pieces: whole shapes, or parts cut out of one shape by welded component / texture island (DESIGN 'pieces')
+  * skirt: chains round the body in panels between the outer layer's slits (or all round), each a pinned anchor under
+    the belt + NROW swinging bones; every point blends 2 chains x 2 rows. A layer parts at a slit only below its own slit
+    top. All skirt layers hang on the same rig, so layers never fight each other.
+  * leg follow: where the skirt lies on the trousers it moves like them (it cannot be left behind a leg); where it
+    hangs clear it swings (up to free_max).
+  * hip flaps: rigid plates, each on its own bone hinged at its top edge, following the skirt under them; straps fade
+    from the belt (top) to the plate (bottom).
+  * belt: the band does not move; the hanging tail is its own 3-bone chain riding the surface under it a little; a bag
+    gets its own hinged bone.
+  * colliders: hidden copies, this armour only - the trousers split into front / side / back one-sided pieces, the
+    skirt lining split the same way (a leg always pushes the skirt back out the way it came, never hooks it behind the
+    leg); flap / bag / tail points vs the skirt's outer surface. Pulled in so nothing touches at rest.
+  * the SMP XML (+ the 'HDT Skinned Mesh Physics Object' string in each nif).
+Output: the design's 'stage' folder (an MO2 mod folder layout) + <work>/<name>_report.json and <name>_build.log, which
+verify_rig.py, stride_check.py and pose_render.py read."""
+import os, sys, shutil, json, copy
+import numpy as np
+import xml.etree.ElementTree as ET
+from collections import defaultdict, Counter
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import smpkit
+C = smpkit.init()
+load, Writer, subdivide_c, read_osd, write_osd = C.load, C.Writer, C.subdivide_c, C.read_osd, C.write_osd
+NifFile, NiStringExtraData = C.NifFile, C.NiStringExtraData
+wrap, smooth01, row_bracket, lin_bracket, frame = C.wrap, C.smooth01, C.row_bracket, C.lin_bracket, C.frame
+PELV, ROOT = 'NPC Pelvis [Pelv]', 'NPC Root [Root]'
+DESIGNS = {}                # name -> the loaded DESIGN dict (one per run)
+STAGE = WORK = None         # set by use_design()
+NROW = 5                   # swinging bones per skirt chain (below the pinned anchor); 5 rows = smooth bends on a knee skirt
+TIP_N = 3                  # bones in the belt-tail chain (1 bone looks like a stiff stick)
+TIPU_DROP = 0.3            # tip_copy='drawn': copy faces a resting tip point is within this of (or behind) are dropped
+TIP_BLEND = 4.0            # units below the belt band over which the tail blends from the band's weights to its chain
+                           # (a short blend bends the tail sharply under the buckle)
+TIP_RIDE = 0.35            # share of the tail that rides the surface under it; the rest swings on its own chain
+                           # (0.9 looks frozen; use 0.9 + tip_ride_flat only for a long tail that sinks into the skirt)
+FLAP_FOLLOW = 0.95         # a rigid flap point follows the skirt right under it by this much, its own hinge the rest:
+                           # a bigger own share swings out of step with the skirt after a stop and dips the plate into it
+GAP_NEAR, GAP_FAR = 0.5, 3.5   # skirt lying this close to the trousers moves exactly like them; this far off it swings
+                               # (up to FREE_MAX). Short skirts that hug the hips: gap=(0.0, 1.5)
+FREE_SIGMA = 3.0           # the swing share is smoothed over the cloth by this much (units)
+FREE_MAX = 0.8             # at most this much of the skirt swings freely; the rest always follows the legs - a sprint
+                           # stride outruns a fully free skirt and leaves it behind the thigh
+LEG_FACING = 0.25          # one-sided leg colliders: front = triangle normal y > this, back = y < -this,
+SIDE_FACING = 0.6          # side = |normal x| > this
+SEAM_FADE = 4.0            # a skirt cut out of a bigger shape fades its physics + leg-follow to 0 over this distance to the
+                           # cut, so the seam with the static remainder never opens
+BAG_SHARE = 0.62           # a bag without its own author bag weights: this much on its own hinged bone
+FRONT_DEG = 55.0           # skirt lining within this of straight ahead / behind collides with the leg fronts / backs, the
+                           # rest with the sides
+LEG_SIGMA = 3.0            # the trousers' weights the skirt borrows are smoothed over this much (one smooth source only)
+CHAIN_SPACING = 32.0       # degrees between chains inside a panel (aim)
+MAX_CHAINS = 12            # bone budget: 12 chains x 5 + the skeleton bones stays under 80 bones per shape
+PMIN_C = 0.2               # lining points with less physics share than this get no collider (low-share collision points
+                           # fling whole chains)
+LEG_CLEAR = 0.8            # rest clearance kept between the skirt lining and the leg colliders ...
+LEG_MAXIN = 3.0            # ... by pulling a leg collider point in by at most this much (only where the skirt rests close)
+LINING_MIN_GAP = 0.6       # lining points closer than this to the (pulled-in) legs at rest are left out (no rest contact)
+TB_CLEAR = 0.6             # rest clearance of flap / tail / bag points over the skirt's outer surface collider
+LEG_ZMIN = 15.0            # trouser triangles below this height (feet / boots) are not part of the leg colliders
+SLIT_MAX_HW = 25.0         # half-width (deg): wider gaps at the hem are hem shape, not slits
+SHEET_ON_LAYER = 1.0       # a single-sheet skirt layer's points this close to another layer lie on it (no lining there)
+LEGS_BODY = 'LegsBody'     # a dress over bare legs (target key legs_body): the legs come from the body's own mesh, never written
+# design-level overrides of the constants above (a floor-length gown needs more rows than a knee skirt):
+# nrow / max_chains / chain_spacing / leg_zmin in the DESIGN dict
+OVERRIDES = dict(nrow='NROW', max_chains='MAX_CHAINS', chain_spacing='CHAIN_SPACING', leg_zmin='LEG_ZMIN', free_sigma='FREE_SIGMA',
+                 leg_sigma='LEG_SIGMA', pmin_c='PMIN_C', lining_min_gap='LINING_MIN_GAP', leg_maxin='LEG_MAXIN', leg_clear='LEG_CLEAR',
+                 leg_facing='LEG_FACING', side_facing='SIDE_FACING')
+# other design keys (XML): links=dict(lin, ang, lstiff, astiff) round the body, lining_margin, leg_margin; per target:
+# panels=N (skirt split into N shapes by chain sector, > 80 bones in all), lining_lr=True (side lining split left / right)
+
+# ------------------------------------------------------------------ material presets (DESIGN phys='cloth' etc.)
+# Tuned in game: SK_DEF = the swinging skirt bones, SK_LIM1 = the first joint under the belt, SK_LIM = the joints further
+# down. lo/hi = angular limits (radians, X out(-)/in(+), Y sideways, Z twist); stiff = angular springs per axis.
+PRESETS = dict(
+    # light cloth (quilted / hide skirts): flowy, little weight, soft springs
+    cloth=dict(SK_DEF=dict(mass=0.7, inertia=22.0, lin=0.24, ang=0.38, friction=0.1, wind=0.14),
+               SK_LIM1=dict(lo=(-1.05, -0.18, -0.06), hi=(0.2, 0.18, 0.06), lin=0.0, stiff=(75, 26, 26)),
+               SK_LIM=dict(lo=(-0.62, -0.12, -0.06), hi=(0.2, 0.12, 0.06), lin=0.0, stiff=(44, 16, 16))),
+    # leather skirts: a little heavier and calmer than cloth
+    leather=dict(SK_DEF=dict(mass=0.8, inertia=28.0, lin=0.3, ang=0.45, friction=0.1, wind=0.12),
+                 SK_LIM1=dict(lo=(-0.95, -0.15, -0.05), hi=(0.2, 0.15, 0.05), lin=0.0, stiff=(95, 32, 32)),
+                 SK_LIM=dict(lo=(-0.58, -0.1, -0.05), hi=(0.2, 0.1, 0.05), lin=0.0, stiff=(56, 19, 19))),
+    # layered leather lamellar
+    leather_lamellar=dict(SK_DEF=dict(mass=0.85, inertia=32.0, lin=0.32, ang=0.48, friction=0.1, wind=0.1),
+                          SK_LIM1=dict(lo=(-0.92, -0.14, -0.05), hi=(0.25, 0.14, 0.05), lin=0.0, stiff=(112, 38, 38)),
+                          SK_LIM=dict(lo=(-0.55, -0.095, -0.05), hi=(0.25, 0.095, 0.05), lin=0.0, stiff=(66, 22, 22))),
+    # steel lamellar / scale: heavier still
+    lamellar=dict(SK_DEF=dict(mass=0.95, inertia=34.0, lin=0.36, ang=0.52, friction=0.1, wind=0.1),
+                  SK_LIM1=dict(lo=(-0.88, -0.12, -0.05), hi=(0.2, 0.12, 0.05), lin=0.0, stiff=(110, 38, 38)),
+                  SK_LIM=dict(lo=(-0.52, -0.08, -0.05), hi=(0.2, 0.08, 0.05), lin=0.0, stiff=(64, 22, 22))),
+    # chain mail: light and almost unsprung, but it may not fold IN past its drawn shape (in 0.08 per joint), so a flared
+    # skirt cannot sag onto the legs and stick there
+    chain=dict(SK_DEF=dict(mass=0.5, inertia=10.0, lin=0.5, ang=0.5, friction=0.3, wind=0.15),
+               SK_LIM1=dict(lo=(-1.2, -0.3, -0.1), hi=(0.08, 0.3, 0.1), lin=0.0, stiff=(22, 8, 8)),
+               SK_LIM=dict(lo=(-0.8, -0.2, -0.08), hi=(0.08, 0.2, 0.08), lin=0.0, stiff=(14, 5, 5))),
+)
+PRESET_FREE_MAX = dict(chain=0.85)      # a mail skirt never swings fully free of the legs (a sprint stride outruns it)
+
+
+class Names:
+    def __init__(self, p):
+        self.p = p
+        self.LEGC, self.SKC, self.SKO, self.FLP, self.FLO, self.TIPC = (f'{p} {x}' for x in ('Legs Collide', 'Skirt Lining', 'Skirt Outer', 'Flap Points', 'Flap Outer', 'Tip Points'))
+        self.GROUND = 'VirtualGround'
+        self.BAGC = f'{p} Bag Points'
+        self.TIPU = f'{p} Tip Under'
+        self.SIDES = ('Front', 'Side', 'Back')         # legs and skirt lining split by facing (one-sided collisions)
+        self.hidden = (self.LEGC, self.SKC, self.SKO, self.FLP, self.FLO, self.TIPC, self.BAGC, self.GROUND) + \
+            tuple(self.legc(x) for x in self.SIDES) + tuple(self.skc(x) for x in self.SIDES + ('Side L', 'Side R')) + \
+            tuple(self.xbagc(k) for k in range(8)) + (self.TIPU,)
+
+    def legc(self, side): return f'{self.p} Legs {side}'
+    def skc(self, side): return f'{self.p} Skirt {side}'
+
+    def sk(self, k, r): return f'{self.p} Skirt{k:02d} {r}'
+    def flap(self, k, r): return f'{self.p} Flap{k} {r}'
+    def tip(self, r): return f'{self.p} BeltTip {r}'
+    def bag(self, r): return f'{self.p} Bag {r}'
+    def xbag(self, k, r): return f'{self.p} Pouch{k} {r}'          # 'bag' role pieces: separate bag / pouch shapes
+    def xbagc(self, k): return f'{self.p} Pouch{k} Points'
+    def pend(self, k, r): return f'{self.p} Pendant{k:02d} {r}'     # 'pendants' role: claws, charms, a strap on a cord
+    def is_phys(self, b): return b.startswith(self.p + ' ')
+
+
+def fold(w):
+    out = defaultdict(float)
+    for b, x in w.items(): out[b if C.is_skel(b) else PELV] += x
+    return dict(out)
+
+
+def cap4(N, w, keep_body=False, keep=()):
+    out = {b: x for b, x in w.items() if x > 1e-5}
+    side = {C.LCLF: C.LTHG, C.RCLF: C.RTHG}
+    while len(out) > 4:
+        cand = [b for b in out if not (keep_body and b in (C.LTHG, C.RTHG, PELV)) and b not in keep] or list(out)
+        b = min(cand, key=lambda k: out[k]); x = out.pop(b)
+        if N.is_phys(b):
+            same = [k for k in out if N.is_phys(k) and k.rsplit(' ', 1)[0] == b.rsplit(' ', 1)[0] and k not in keep]
+            tgt = max(same or [k for k in out if N.is_phys(k) and k not in keep] or [k for k in out if k not in keep] or list(out), key=lambda k: out[k])
+        elif b in side and side[b] in out: tgt = side[b]
+        elif b in (C.LTHG, C.RTHG) and PELV in out: tgt = PELV
+        else: tgt = max([k for k in out if not N.is_phys(k)] or [k for k in out if k not in keep] or list(out), key=lambda k: out[k])
+        out[tgt] += x
+    t = sum(out.values())
+    return {b: x / t for b, x in out.items()}
+
+
+def islands(tris, n):
+    par = list(range(n))
+
+    def f(a):
+        while par[a] != a: par[a] = par[par[a]]; a = par[a]
+        return a
+    for t in tris:
+        for a, b in ((t[0], t[1]), (t[1], t[2])):
+            ra, rb = f(int(a)), f(int(b))
+            if ra != rb: par[ra] = rb
+    return np.array([f(i) for i in range(n)])
+
+
+def find_slits(P, tris, cx, cy, max_hw=None):
+    """[(centre, half-width, top)] of the gaps in the outer wall at the hem narrower than SLIT_MAX_HW"""
+    om = C.outer_mask(P, tris, cx, cy); Q = C.surface_samples(P, tris[om])
+    th = np.degrees(np.arctan2(Q[:, 0] - cx, Q[:, 1] - cy)); z = Q[:, 2]; hem = float(P[:, 2].min())
+    a = np.sort(th[z < hem + 4.0]); g = np.diff(np.r_[a, a[0] + 360.0]); out = []
+    for k in np.where(g > 6.0)[0]:
+        lo = a[k]; hi = a[(k + 1) % len(a)] + (360.0 if k == len(a) - 1 else 0.0)
+        c, hw = float(wrap((lo + hi) / 2)), float((hi - lo) / 2)
+        if hw > (max_hw or SLIT_MAX_HW): continue
+        top = None
+        for z0 in np.arange(hem, P[:, 2].max(), 0.5):
+            b = (z >= z0) & (z < z0 + 0.5)
+            if b.any() and (np.abs(wrap(th[b] - c)) < max(2.0, hw / 3)).any(): top = float(z0); break
+        out.append((c, hw, top))
+    return sorted(out)
+
+
+class Rig:
+    """skirt chains in panels between slits; per-layer slit tops"""
+
+    def __init__(self, N, cfg, layers, log):
+        self.N, self.cfg = N, cfg
+        outer = layers['outer']
+        if cfg.get('axis_z'):      # the skirt's own top is not level (a lining running up under the cuirass): centre from a band
+            z0, z1 = cfg['axis_z']; m = (outer[0][:, 2] > z0) & (outer[0][:, 2] < z1)
+            self.cx, self.cy = float(outer[0][m, 0].mean()), float(outer[0][m, 1].mean())
+        else:
+            self.cx, self.cy = C.axis_centre(outer[0], outer[1])
+        self.slits = find_slits(outer[0], outer[1], self.cx, self.cy, cfg.get('slit_max_hw')) if cfg['slits'] else []
+        self.tops = {}          # layer -> [top per slit]
+        for ln, (P, T_) in layers.items():
+            own = find_slits(P, T_, self.cx, self.cy, cfg.get('slit_max_hw')) if cfg['slits'] else []
+            tops = []
+            for c, hw, top in self.slits:
+                m = [s for s in own if abs(wrap(s[0] - c)) < 20]
+                tops.append(m[0][2] if m else -1e9)        # a layer without that slit: closed (blend) everywhere
+            self.tops[ln] = tops
+        if self.slits:
+            edges = []
+            for i, (c, hw, _) in enumerate(self.slits):
+                c2, hw2, _ = self.slits[(i + 1) % len(self.slits)]
+                lo, hi = c + hw, c2 - hw2
+                if hi <= lo: hi += 360.0
+                n = max(2, int(round((hi - lo) / CHAIN_SPACING)) + 1)
+                edges.append(list(np.linspace(lo, hi, n)))
+            tot = sum(len(e) for e in edges)
+            while tot > MAX_CHAINS:
+                j = max(range(len(edges)), key=lambda i: len(edges[i])); e = edges[j]
+                edges[j] = list(np.linspace(e[0], e[-1], len(e) - 1)); tot -= 1
+            self.panels = edges
+        else:
+            n = MAX_CHAINS; self.panels = [list(np.linspace(0.0, 360.0 - 360.0 / n, n))]
+        self.ang_k = [float(wrap(a)) for p in self.panels for a in p]
+        self.panel_of = [i for i, p in enumerate(self.panels) for _ in p]
+        log.append(f'skirt axis ({self.cx:.2f}, {self.cy:.2f}); slits (centre, half-width, top): ' +
+                   ('; '.join(f'{c:.1f}/{hw:.1f}/{t:.1f}' for c, hw, t in self.slits) or 'none (all round)') +
+                   '; per-layer tops ' + str({k: [round(x, 1) for x in v] for k, v in self.tops.items()}) +
+                   f'; {len(self.ang_k)} chains at ' + ' '.join(f'{a:.0f}' for a in self.ang_k))
+
+    def ang(self, p): return float(np.degrees(np.arctan2(p[0] - self.cx, p[1] - self.cy)))
+
+    def chains(self, p, layer):
+        a, z = self.ang(p), float(p[2])
+        if not self.slits:
+            ks = self.ang_k; n = len(ks); u = (a - ks[0]) % 360.0; step = 360.0 / n
+            i = int(u // step) % n; t = (u - i * step) / step
+            return [(i, 1 - t), ((i + 1) % n, t)]
+        base = 0
+        for pi, p_ in enumerate(self.panels):
+            lo, hi = p_[0], p_[-1]; u = (a - lo) % 360.0
+            if u <= (hi - lo) % 360.0 + 1e-9:
+                return [(base + k, w) for k, w in lin_bracket([(x - lo) % 360.0 for x in p_], u)]
+            base += len(p_)
+        # inside a slit: between the last chain of one panel and the first of the next
+        for si, (c, hw, _) in enumerate(self.slits):
+            x = float(wrap(a - c))
+            if abs(x) <= hw + 1e-6:
+                right_panel = si; left_panel = (si - 1) % len(self.panels)
+                k_hi = sum(len(q) for q in self.panels[:right_panel])                 # first chain after the slit
+                k_lo = sum(len(q) for q in self.panels[:left_panel]) + len(self.panels[left_panel]) - 1
+                t = (x + hw) / (2 * hw)
+                top = self.tops[layer][si]
+                f = float(smooth01((z - (top - 1.0)) / 2.0))
+                w_hi = f * t + (1 - f) * (1.0 if x >= 0 else 0.0)
+                return [(k_hi, w_hi), (k_lo, 1 - w_hi)]
+        raise RuntimeError(f'angle {a:.1f} in no panel and no slit')
+
+    def place(self, P, sk_v, outer_v, log):
+        N, cfg = self.N, self.cfg
+        self.G, self.parent, self.rows = {}, {}, {}
+        th = np.degrees(np.arctan2(P[:, 0] - self.cx, P[:, 1] - self.cy)); rr = np.hypot(P[:, 0] - self.cx, P[:, 1] - self.cy)
+
+        def radius(a, z):
+            for da, dz in ((8, 2), (15, 4), (30, 8), (60, 12)):
+                m = (np.abs(wrap(th[outer_v] - a)) < da) & (np.abs(P[outer_v, 2] - z) < dz)
+                if m.sum() >= 3:
+                    w = np.exp(-(wrap(th[outer_v][m] - a) / 5) ** 2 - ((P[outer_v, 2][m] - z) / 1.5) ** 2) + 1e-9
+                    return float((w * rr[outer_v][m]).sum() / w.sum())
+            raise RuntimeError(f'no skirt surface near {a:.0f} deg z {z:.1f}')
+        for k, a in enumerate(self.ang_k):
+            near = sk_v[np.abs(wrap(th[sk_v] - a)) < 8]
+            if not len(near): near = sk_v[np.abs(wrap(th[sk_v] - a)) < 20]
+            zs = list(np.linspace(cfg['sk_anchor'], float(P[near, 2].min()), NROW + 1)); self.rows[k] = zs
+            for r, z in enumerate(zs):
+                g = np.eye(4); g[:3, :3] = frame(a); rad = radius(a, z)
+                g[:3, 3] = [self.cx + rad * np.sin(np.radians(a)), self.cy + rad * np.cos(np.radians(a)), z]
+                self.G[N.sk(k, r)] = g; self.parent[N.sk(k, r)] = PELV if r == 0 else N.sk(k, r - 1)
+        log.append('skirt rows (anchor..hem): ' + '; '.join(f'{a:.0f}:' + '/'.join(f'{z:.1f}' for z in self.rows[k]) for k, a in enumerate(self.ang_k)))
+
+
+def belt_at(cfg, a):
+    """where the skirt starts to swing at angle a: sk_belt, or lower under a RIGID cover hanging over the skirt (design key
+    cover_belt=[(centre deg, half-width deg, z)]: e.g. riveted side plates the user wants rigid - the cloth under them keeps
+    the author's weights down to the plate's lower edge, else it swings out through the plate). Blended over 8 deg."""
+    bz = cfg['sk_belt']
+    for c, hw, zc in cfg.get('cover_belt', ()):
+        t = float(smooth01((hw - abs(float(wrap(a - c)))) / 8.0))
+        bz = min(bz, bz * (1 - t) + zc * t)
+    return bz
+
+
+def skirt_w(rig, cfg, p, aw, layer, free=1.0, legw=None, seam=1.0):
+    """the part physics does not move follows the trousers under the skirt (fading in from the author's weights
+    at the belt over 3 units); the physics share = the belt ramp x how freely this part of the skirt hangs"""
+    z = float(p[2]); bz = belt_at(cfg, rig.ang(p))
+    s = float(smooth01((bz - z) / cfg['ramp'])) * free * seam
+    q = float(smooth01((bz - z) / 3.0)) * seam if legw else 0.0
+    w = defaultdict(float)
+    for b, x in fold(aw).items(): w[b] += (1 - s) * (1 - q) * x
+    for b, x in (legw or {}).items(): w[b] += (1 - s) * q * x
+    if s > 1e-4:
+        for k, a in rig.chains(p, layer):
+            if a <= 0: continue
+            for r, t in row_bracket(rig.rows[k], z): w[PELV if r == 0 else rig.N.sk(k, r)] += s * a * t
+    return dict(w), s
+
+
+def leg_axes(pants, shared):
+    """hip / knee / ankle positions per side for the trousers' outward test. Trousers that stop above the boots (the
+    trousers of a brigandine) have no foot bones: take them from another shape of the mesh, else continue the shin"""
+    s2b = dict(shared.get('s2b_all', {})); s2b.update(pants.s2b)
+    g = {b: np.linalg.inv(C.tb2m(x))[:3, 3] for b, x in s2b.items()}
+    out = {}
+    for side, (th, ca, ft) in {'L': ('NPC L Thigh [LThg]', 'NPC L Calf [LClf]', 'NPC L Foot [Lft ]'),
+                               'R': ('NPC R Thigh [RThg]', 'NPC R Calf [RClf]', 'NPC R Foot [Rft ]')}.items():
+        foot = g.get(ft, g[ca] + (g[ca] - g[th]))
+        out[side] = [g[th], g[ca], foot]
+    return out
+
+
+def trousers(pants, shared, log):
+    """the trousers as a surface with outward winding + normals (orientation decided once, on _1)"""
+    fk = f'flip_{len(pants.pos)}'               # per trousers mesh (a mesh's _0 / _1 trousers can differ)
+    if fk not in shared:
+        pt = pants.tris[pants.pos[pants.tris].mean(1)[:, 2] > LEG_ZMIN]
+        frac = C.outward_fraction(pants.pos, pt, leg_axes(pants, shared)); shared[fk] = frac < 0.5
+        log.append(f'legs from {pants.name} ({len(pt)} tris above z {LEG_ZMIN}), winding outward {frac:.0%}' + (' -> flipped' if frac < 0.5 else ''))
+    shared['flip'] = shared[fk]
+    tris = pants.tris[:, [0, 2, 1]] if shared['flip'] else pants.tris
+    return type('Tr', (), dict(pos=pants.pos, tris=tris, norm=C.vertex_normals(pants.pos, tris), w=pants.w))()
+
+
+def legs_body(cfg, shared, variant, log):
+    """A dress over bare legs (target key legs_body): the legs the skirt follows and collides with come from the body's own
+    mesh - its triangles under zmax (default sk_belt + 4) without arms, hands or the upper body - and are never written.
+    bodyslide targets: dict(osp, set, shape) = the body's own BodySlide set at zero sliders; its slider data goes onto the
+    leg colliders so they follow the preset. nif targets: dict(nif, shape), '{}' in nif = the weight (the built body).
+    extra=[dict(osp, set, shape), ...] appends more parts (the 3BA body ends at the ankle: its feet are their own set -
+    a long hem needs them, or a running heel meets nothing at the back of the dress).
+    3BA helper bones fold into the core leg bones (FrontThigh -> Thigh, RearCalf -> Calf, Butt / Pussy / Belly -> Pelvis),
+    so the skirt's leg-follow weights stay within the 80-bone budget. src_idx = (part, point) per collider point."""
+    lb = cfg['legs_body']; key = ('legs_body', variant if cfg['mode'] == 'nif' else '1')
+    if key in shared: return shared[key]
+
+    def core(bn):
+        side = 'L' if ' L ' in bn else ('R' if ' R ' in bn else None)
+        if side and ('Thigh' in bn): return C.LTHG if side == 'L' else C.RTHG
+        if side and ('Calf' in bn or 'Knee' in bn): return C.LCLF if side == 'L' else C.RCLF
+        if side and ('Foot' in bn or 'Toe' in bn): return 'NPC L Foot [Lft ]' if side == 'L' else 'NPC R Foot [Rft ]'
+        return bn if bn.startswith('NPC Spine') else PELV
+    upper = ('Hand', 'Finger', 'Arm', 'Clavicle', 'Head', 'Neck', 'Breast')
+    zmax = lb.get('zmax', cfg['sk_belt'] + 4.0)
+    P, UV, NR, TT, WW, IDX, s2b, sl_parts, slider_el, msgs = [], [], [], [], [], [], {}, [], {}, []
+    off = 0
+    for pi, part in enumerate([lb] + list(lb.get('extra', []))):
+        ss = None
+        if cfg['mode'] == 'nif':
+            src = part['nif'].format(variant)
+        else:
+            ss = next(s for s in ET.parse(part['osp']).getroot().findall('SliderSet') if s.get('name') == part['set'])
+            # 'bsroot' = the BodySlide folder holding the set's ShapeData when another mod provides it (the 3BA feet set reads
+            # ShapeData/CBBE from the base CBBE mod through MO2's virtual folder)
+            src = (part.get('bsroot') or os.path.dirname(os.path.dirname(part['osp']))).rstrip('/') + \
+                f'/ShapeData/{ss.findtext("DataFolder")}/{ss.findtext("SourceFile")}'
+        _, B = load(src); C.to_world(B)
+        b = next(s for s in B if s.name == part['shape'])
+        dom = [max(w, key=w.get) if w else '' for w in b.w]
+        arm = np.array([any(x in d for x in upper) for d in dom])
+        keep = (b.pos[b.tris][:, :, 2].max(1) < zmax) & ~arm[b.tris].any(1)
+        tk = b.tris[keep]
+        if part.get('decimate'):            # vertex clustering (cell size in units): a dense body part (the CBBE feet: 8876 pts)
+            cell = float(part['decimate'])  # becomes a light collider; each cluster keeps a REAL source point (verify stays exact)
+            vv = np.unique(tk); _, inv = np.unique(np.floor(b.pos[vv] / cell).astype(np.int64), axis=0, return_inverse=True)
+            inv = inv.ravel(); rep = np.empty(inv.max() + 1, int)
+            for c in range(inv.max() + 1):
+                mem = vv[inv == c]; rep[c] = mem[np.argmin(np.linalg.norm(b.pos[mem] - b.pos[mem].mean(0), axis=1))]
+            mp = np.full(len(b.pos), -1); mp[vv] = rep[inv]; tk = mp[tk]
+            tk = tk[(tk[:, 0] != tk[:, 1]) & (tk[:, 1] != tk[:, 2]) & (tk[:, 0] != tk[:, 2])]
+            _, ui = np.unique(np.sort(tk, axis=1), axis=0, return_index=True); tk = tk[np.sort(ui)]
+        v = np.unique(tk); rm = np.full(len(b.pos), -1); rm[v] = np.arange(len(v))
+        P.append(b.pos[v]); UV.append(b.uv[v]); TT.append(rm[tk] + off)
+        NR.append(b.norm[v] if getattr(b, 'norm', None) is not None else np.zeros((len(v), 3)))
+        for i in v:
+            f = defaultdict(float)
+            for bn, x in b.w[i].items(): f[core(bn)] += x
+            WW.append(C.top4(f))
+        IDX += [(pi, int(i)) for i in v]
+        for bn, x in b.s2b.items(): s2b.setdefault(bn, x)
+        sl = {}
+        if ss is not None:
+            fdir = os.path.dirname(src) + '/'
+            osds = {}
+            for sl_ in ss.findall('Slider'):
+                if sl_.get('uv') == 'true' or sl_.get('zap') == 'true': continue
+                for d in sl_.findall('Data'):
+                    if d.get('target') != part['shape']: continue
+                    fname, ekey = d.text.split('\\', 1)
+                    if fname not in osds: osds[fname] = dict(read_osd(fdir + fname)[2])
+                    arr = np.zeros((len(b.pos), 3))
+                    for i, x in osds[fname].get(ekey, {}).items(): arr[i] += x
+                    if np.abs(arr[v]).max() < 1e-6: continue
+                    nm = sl_.get('name')
+                    sl[nm] = sl.get(nm, 0) + arr[v]
+                    el = copy.deepcopy(sl_)
+                    for dd in list(el.findall('Data')): el.remove(dd)
+                    slider_el[nm] = el
+        sl_parts.append((len(v), sl))
+        msgs.append(f'{os.path.basename(src)} {part["shape"]!r} {len(v)} of {len(b.pos)} pts' + (f', {len(sl)} sliders' if ss is not None else ''))
+        off += len(v)
+        if pi == 0: out = copy.copy(b)
+    out.name = LEGS_BODY
+    out.pos, out.uv, out.norm, out.tris, out.w = np.vstack(P), np.vstack(UV), np.vstack(NR), np.vstack(TT), WW
+    out.s2b = s2b; out.src_idx = IDX; out.slider_el = slider_el; out.sliders = {}
+    for nm in {k for _, sl in sl_parts for k in sl}:        # one array over every part (zeros where a part lacks the slider)
+        out.sliders[nm] = np.vstack([sl.get(nm, np.zeros((n, 3))) for n, sl in sl_parts])
+    log.append(f'legs from the body (under z {zmax:.1f}, no arms / upper body): ' + '; '.join(msgs) +
+               f'; bones folded to {sorted({x for w in out.w for x in w})}')
+    shared[key] = out
+    return out
+
+
+def pants_of(S, cfg):
+    """the trousers the legs follow / collide with - only their first cfg['pants_n'] points when the _1 mesh has extra
+    pieces the _0 one lacks (both weights must write leg colliders with the same points)"""
+    t = S[cfg['pants']]; n = cfg.get('pants_n')
+    if cfg.get('pants_comps') is not None or cfg.get('pants_zmax') is not None:
+        # only these welded components / only the points under pants_zmax are trousers (the shape also holds a torso)
+        pk = cfg.setdefault('_pants_keep', {})      # decided once (on _1, built first): _0 / _1 colliders keep the same points
+        if len(t.pos) not in pk:
+            keep_v = np.ones(len(t.pos), bool)
+            if cfg.get('pants_comps') is not None: keep_v &= np.isin(C.welded_components(t.pos, t.tris), cfg['pants_comps'])
+            if cfg.get('pants_zmax') is not None: keep_v &= t.pos[:, 2] < cfg['pants_zmax']
+            pk[len(t.pos)] = keep_v
+        keep_v = pk[len(t.pos)]
+        rm = np.full(len(t.pos), -1); rm[keep_v] = np.arange(keep_v.sum())
+        c = copy.copy(t); keep = keep_v[t.tris].all(1)
+        c.pos, c.tris, c.w = t.pos[keep_v], rm[t.tris[keep]], [t.w[i] for i in np.where(keep_v)[0]]
+        if getattr(t, 'norm', None) is not None: c.norm = t.norm[keep_v]
+        return c
+    if not n or len(t.pos) == n: return t
+    c = copy.copy(t); keep = (t.tris < n).all(1)
+    c.pos, c.tris, c.w = t.pos[:n], t.tris[keep], t.w[:n]
+    if getattr(t, 'norm', None) is not None: c.norm = t.norm[:n]
+    return c
+
+
+def lining_src(p, rig, every=False):
+    """the points of a skirt layer that face the legs: its inward side, or all of it when it is a single sheet.
+    every=True (design key lining_all): every point - a single visible sheet with only patches of inner lining (the Black
+    Bear / draugr skirt: lining islands at the front and back only, so the sheet over the thighs had no collision points
+    and sank into them, 2026-10-14)"""
+    if every: return np.unique(p.tris)
+    it = ~C.outer_mask(p.pos, p.tris, rig.cx, rig.cy)
+    return np.unique(p.tris[it]) if it.mean() >= 0.05 else np.unique(p.tris)
+
+
+def thighs_only(w):
+    out = defaultdict(float)
+    for b, x in w.items(): out[{C.LCLF: C.LTHG, C.RCLF: C.RTHG}.get(b, b)] += x
+    return dict(out)
+
+
+def smooth_field(P, ws, sigma):
+    out = []
+    for a0 in range(0, len(P), 400):
+        d = np.linalg.norm(P[a0:a0 + 400, None, :] - P[None, :, :], axis=2); wk = np.exp(-(d / sigma) ** 2) * (d < 3 * sigma)
+        for r in range(len(d)):
+            acc = defaultdict(float); nz = np.where(wk[r] > 1e-4)[0]; tot = wk[r, nz].sum()
+            for j in nz:
+                for b, x in ws[j].items(): acc[b] += wk[r, j] * x / tot
+            out.append(dict(acc))
+    return out
+
+
+def smooth_scalar(P, v, sigma):
+    out = np.zeros(len(P))
+    for a0 in range(0, len(P), 400):
+        d = np.linalg.norm(P[a0:a0 + 400, None, :] - P[None, :, :], axis=2); wk = np.exp(-(d / sigma) ** 2) * (d < 3 * sigma)
+        out[a0:a0 + 400] = (wk * v[None, :]).sum(1) / wk.sum(1)
+    return out
+
+
+def blend_under(surf, tris_g, W, pts):
+    """weights of the surface under each point (barycentric blend of its corners' weights)"""
+    tri, bary, dist, cp = surf.query(pts, k=10); out = []
+    for j in range(len(pts)):
+        acc = defaultdict(float)
+        for vv, bb in zip(tris_g[tri[j]], bary[j]):
+            for bn, x in W[int(vv)].items(): acc[bn] += bb * x
+        out.append(dict(acc))
+    return out, dist
+
+
+class Piece:
+    """one written visible shape: positions etc. (after any split), its source shape and source point per point"""
+    def __init__(self, name, src, role, pos, uv, nrm, ow, tris, partid, src_idx, mids=None, n0=None, col=None):
+        self.name, self.src, self.role, self.col = name, src, role, col
+        self.pos, self.uv, self.nrm, self.ow, self.tris, self.partid = pos, uv, nrm, ow, tris, partid
+        self.src_idx = src_idx            # source point index per point (-1 = new split point)
+        self.mids, self.n0 = mids or [], n0
+
+
+def cull_mask(t, band):
+    """target key cull={'shape': (z_lo, z_hi)}: the shape's triangles whose centre lies in the height band are not written.
+    For long enclosed skirts: the body drawn under the skirt is cut from the knee up (the Draft Skirt resource's rule - a
+    thigh that is not drawn cannot show through the dress; the hidden leg colliders still push it)."""
+    cz = t.pos[t.tris][:, :, 2].mean(1)
+    return (cz >= band[0]) & (cz <= band[1])
+
+
+def cull_under_mask(t, covers, cu):
+    """target key cull_under=dict(shape, cover=(names...), depth=2.0, keep_edge=1.5, edge_zmin=None): the shape's triangles
+    lying under a close-fitting cover (the body under a bodice) are not written. A body 0-0.5 units under the cloth shows
+    through it in blotches - a depth fight from a few metres away, and wherever the two follow different bones in motion
+    (DE Ballgown v9, 2026-10-13: skin through the bodice back). A point is covered when the nearest cover point lies within
+    `depth` and at least `keep_edge` from the cover's open edges (welded; edges wholly below edge_zmin are tucked under
+    another layer - a bodice hem under the skirt - and do not count), and it is not on the arms. A triangle goes when all
+    three points are covered. Decided on the source mesh, so every build (any weight, any preset) loses the same triangles."""
+    pos = np.vstack([c.pos for c in covers]); off = np.cumsum([0] + [len(c.pos) for c in covers])
+    tris = np.vstack([c.tris + o for c, o in zip(covers, off[:-1])])
+    _, wid = np.unique(np.round(pos, 3), axis=0, return_inverse=True); wid = wid.ravel()
+    wt = wid[tris]
+    E = np.sort(np.vstack([wt[:, [0, 1]], wt[:, [1, 2]], wt[:, [2, 0]]]), axis=1)
+    ue, cnt = np.unique(E, axis=0, return_counts=True); oe = ue[cnt == 1]
+    wpos = np.zeros((wid.max() + 1, 3)); wpos[wid] = pos
+    A, B = wpos[oe[:, 0]], wpos[oe[:, 1]]
+    if cu.get('edge_zmin') is not None:
+        m = np.maximum(A[:, 2], B[:, 2]) > cu['edge_zmin']; A, B = A[m], B[m]
+    _, _, dist, cp = C.Surface([('c', pos, tris)]).query(t.pos, k=8)
+    ed = np.full(len(cp), np.inf); AB = B - A; L2 = (AB * AB).sum(1) + 1e-12
+    for i in range(0, len(cp), 2000):
+        q = cp[i:i + 2000, None, :]
+        s = np.clip(((q - A[None]) * AB[None]).sum(2) / L2[None], 0, 1)
+        ed[i:i + 2000] = np.linalg.norm(q - (A[None] + s[..., None] * AB[None]), axis=2).min(1) if len(A) else np.inf
+    arm = np.array([sum(x for b, x in w.items() if any(k in b for k in ('Arm', 'Hand', 'Finger'))) > 0.3 for w in t.w])
+    cov = (dist < cu.get('depth', 2.0)) & (ed >= cu.get('keep_edge', 1.5)) & ~arm
+    return cov[t.tris].all(1)
+
+
+def kicked_back_faces(P, T, wts, clips, sex, bones=('Foot',), facing=0.5, behind=3.0):
+    """leg collider faces that face BACKWARD when the leg swings behind the body in the game's own clips (smpkit.anim): a
+    running foot kicks up into the back hem SOLE first, and the sole faces down at rest - so a rest-facing split gives the back
+    lining nothing to meet there (DE Ballgown v9: 22-32% of the backward-facing foot area at the kick was in the Back piece).
+    Only faces whose points follow `bones` most; a face counts in a frame where its centre is > `behind` units behind rest."""
+    from smpkit import anim as A_
+    sel = np.array([any(k in max(wts[t[0]], key=wts[t[0]].get) for k in bones) if wts[t[0]] else False for t in T])
+    out = np.zeros(len(T), bool)
+    if not sel.any() or not A_.configured(sex): return out, 'no clips configured' if sel.any() else 'no faces'
+    v = np.unique(T[sel]); bn = sorted({b for i in v for b in wts[i]}); bi = {b: k for k, b in enumerate(bn)}
+    Wm = np.zeros((len(P), len(bn)))
+    for i in v:
+        for b, x in wts[i].items(): Wm[i, bi[b]] = x
+    T_ = T[sel]; c0 = P[T_].mean(1); used = []
+    for nm in clips:
+        path = A_.CLIPS.get(sex, {}).get(nm)
+        if not path: continue
+        frames, _, _ = A_.load_clip(path, sex); used.append(f'{nm} {len(frames)}')
+        for D in frames:
+            Q = np.zeros_like(P)
+            for b, k in bi.items():
+                M = D.get(b, np.eye(4)); Q[v] += Wm[v, k:k + 1] * (P[v] @ M[:3, :3].T + M[:3, 3])
+            qn = np.cross(Q[T_[:, 1]] - Q[T_[:, 0]], Q[T_[:, 2]] - Q[T_[:, 0]]); qn /= np.linalg.norm(qn, axis=1, keepdims=True) + 1e-12
+            out[np.where(sel)[0][(qn[:, 1] < -facing) & (Q[T_].mean(1)[:, 1] < c0[:, 1] - behind)]] = True
+    return out, ', '.join(used) + ' frames'
+
+
+def panel_split(p, rig, n):
+    """a skirt piece cut into n shapes by chain sector (each triangle by its centre's angle; sector edges sit ON chains,
+    so a shape only carries its own chains + the edge chain and stays under 80 bones with many chains). Panel 0 keeps
+    the piece's name; the others are '<name> 2', '<name> 3' ... Points on a cut are in both shapes with the same
+    weights. Not for subdivided pieces (their midpoint slider data indexes the whole piece)."""
+    if p.mids: raise RuntimeError(f'{p.name}: panels + subdiv not supported')
+    nk = len(rig.ang_k); a0 = rig.ang_k[0]
+    cen = p.pos[p.tris].mean(1)
+    u = np.array([(rig.ang(c) - a0) % 360.0 for c in cen])
+    sec = np.minimum((u / (360.0 / n)).astype(int), n - 1)
+    out = []
+    for g_ in range(n):
+        tsel = sec == g_
+        v = np.unique(p.tris[tsel]); rm = np.full(len(p.pos), -1); rm[v] = np.arange(len(v))
+        q = Piece(p.name if g_ == 0 else f'{p.name} {g_ + 1}', p.src, p.role, p.pos[v], p.uv[v],
+                  p.nrm[v] if p.nrm is not None else None, [p.ow[i] for i in v], rm[p.tris[tsel]], np.asarray(p.partid)[tsel],
+                  np.asarray(p.src_idx)[v], col=np.asarray(p.col)[v] if p.col is not None else None)
+        q.src_local = v
+        out.append(q)
+    p.panel_map = {}                # whole-piece point -> (panel shape, its point there): collider copies are checked per panel
+    for q in out:
+        for j, i in enumerate(q.src_local): p.panel_map.setdefault(int(i), (q.name, j))
+    return out
+
+
+def cut_pieces(T, S, cfg, log):
+    """the visible pieces: whole shapes or parts of one cut out by component / texture island; returns (pieces, rest)
+    where rest = {shape: kept triangle mask} for the shapes that lose triangles to pieces"""
+    pieces, taken = [], defaultdict(lambda: None)
+    comps_cache = {}
+    exp_all = cfg.get('expect', {})
+    per_shape = bool(exp_all) and all(isinstance(k, str) for k in exp_all)     # {'Shape': {comp: size}} form
+
+    def expect_of(src):
+        # {comp: size} checked on every cut source shape, or {'Shape': {comp: size}} checked on that shape (whole pieces too)
+        return exp_all.get(src, {}) if per_shape else exp_all
+    for name, src, sel, role in cfg['pieces']:
+        if src not in S: raise RuntimeError(f'piece {name}: source shape {src!r} not in the mesh (has {sorted(S)})')
+        t = S[src]; zcut = False
+        if sel is None:
+            tm = np.ones(len(t.tris), bool)
+            if per_shape and expect_of(src):
+                lab = C.welded_components(t.pos, t.tris)
+                for k, n in expect_of(src).items():
+                    if int((lab == k).sum()) != n: raise RuntimeError(f'{src} component {k}: {(lab == k).sum()} points, expected {n} - the mesh is not the one the design was written for')
+        else:
+            if src not in comps_cache:
+                lab = C.welded_components(t.pos, t.tris); comps_cache[src] = lab
+                for k, n in expect_of(src).items():
+                    if int((lab == k).sum()) != n: raise RuntimeError(f'{src} component {k}: {(lab == k).sum()} points, expected {n} - the mesh is not the one the design was written for')
+            lab = comps_cache[src]
+            if sel[0] == 'comps':
+                vm = np.isin(lab, sel[1])
+            elif sel[0] == 'islands':  # ('islands', comp, {island id: size}, extra comps): named texture islands of one component
+                isl = islands(t.tris, len(t.pos))
+                for r, n in sel[2].items():
+                    if int(((isl == r) & (lab == sel[1])).sum()) != n: raise RuntimeError(f'{name}: island {r} of {src} comp {sel[1]} has {int(((isl == r) & (lab == sel[1])).sum())} points, expected {n}')
+                vm = (np.isin(isl, list(sel[2])) & (lab == sel[1])) | np.isin(lab, sel[3])
+                if len(sel) > 4 and sel[4] is not None:     # only the part of those islands wholly below a height
+                    tm = vm[t.tris].all(1) & (t.pos[t.tris][:, :, 2] < sel[4]).all(1)
+                    vm = np.zeros(len(t.pos), bool); vm[np.unique(t.tris[tm])] = True; zcut = True
+            elif sel[0] == 'below':     # ('below', comp, zcut): the component's triangles lying wholly below zcut
+                tm = (lab[t.tris] == sel[1]).all(1) & (t.pos[t.tris][:, :, 2] < sel[2]).all(1)
+                vm = np.zeros(len(t.pos), bool); vm[np.unique(t.tris[tm])] = True
+            else:   # ('islands_below', comp, zmax) - the texture islands of one component lying wholly below zmax
+                isl = islands(t.tris, len(t.pos)); cv = lab == sel[1]
+                want = sorted((r for r in set(isl[cv].tolist()) if t.pos[isl == r, 2].max() < sel[2]), key=lambda r: -int((isl == r).sum()))
+                sizes = tuple(int((isl == r).sum()) for r in want)
+                if 'island_sizes' in cfg and sizes != tuple(cfg['island_sizes']): raise RuntimeError(f'{src} islands {sizes}, expected {cfg["island_sizes"]}')
+                vm = np.isin(isl, want)
+            if sel[0] != 'below' and not zcut:
+                tm = vm[t.tris].all(1)
+                if (vm[t.tris].any(1) & ~tm).any(): raise RuntimeError(f'{name}: a triangle straddles the cut')
+        ck = cfg.setdefault('_cut_tm', {})          # a height cut decided once (on _1, built first): _0 cuts the same triangles
+        if (name, len(t.tris)) in ck: tm = ck[(name, len(t.tris))]
+        else: ck[(name, len(t.tris))] = tm
+        prev = taken[src]
+        if prev is not None and (prev & tm).any(): raise RuntimeError(f'{name}: triangles already taken')
+        taken[src] = tm if prev is None else (prev | tm)
+        v = np.unique(t.tris[tm]); rm = np.full(len(t.pos), -1); rm[v] = np.arange(len(v))
+        pieces.append(Piece(name, src, role, t.pos[v], t.uv[v], t.norm[v] if t.norm is not None else None, [t.w[i] for i in v],
+                            rm[t.tris[tm]], np.array(C.part_ids(t, T))[tm], v, col=(np.asarray(t.s.colors, float)[v] if t.s.colors else None)))
+        log.append(f'piece {name} <- {src}{"" if sel is None else " " + str(sel)}: {len(v)} pts / {int(tm.sum())} tris ({role})')
+    for src, comps in cfg.get('drop_comps', {}).items():       # duplicates the HDT patch left in a static shape
+        t = S[src]; lab = C.welded_components(t.pos, t.tris); tm = np.isin(lab[t.tris], comps).all(1)
+        prev = taken[src]; taken[src] = tm if prev is None else (prev | tm)
+        log.append(f'dropped {src} components {tuple(comps)}: {int(tm.sum())} tris')
+    rest = {src: ~m for src, m in taken.items() if src not in [p.name for p in pieces]}
+    return pieces, rest
+
+
+def split_piece(pc, sel_tris=None):
+    """midpoint split (x4) of the piece's triangles (all, or the selected), recording the source of new points"""
+    sel = np.ones(len(pc.tris), bool) if sel_tris is None else sel_tris
+    mids = []
+    pos, uv, nrm, ow, col, tris, par, _ = subdivide_c(pc.pos, pc.uv, pc.nrm, pc.ow, pc.col, pc.tris, sel, 1, mids=mids)
+    n0 = len(pc.pos)
+    return Piece(pc.name, pc.src, pc.role, pos, uv, nrm, ow, tris, pc.partid[par], np.r_[pc.src_idx, -np.ones(len(pos) - n0, int)], mids, n0, col=col)
+
+
+def build(design, g, variant, shared, log, rec=None):
+    Dz = DESIGNS[design]; cfg = Dz[g]; N = Names(Dz['prefix'])
+    if cfg['mode'] == 'nif':
+        src = cfg['src'].format(variant)
+    else:                       # a BodySlide project: the set's ShapeData nif (+ its .osd slider data)
+        bsroot = os.path.dirname(os.path.dirname(cfg['osp'])) + '/'
+        tree = ET.parse(cfg['osp']); ss = next((s for s in tree.getroot().findall('SliderSet') if s.get('name') == cfg['set']), None)
+        if ss is None: raise RuntimeError(f'slider set {cfg["set"]!r} not in {cfg["osp"]}')
+        src = bsroot + f'ShapeData/{ss.findtext("DataFolder")}/{ss.findtext("SourceFile")}'
+        shared['f_paths'] = dict(nif=src, osd=src[:-4] + '.osd', ss=ss, folder=ss.findtext('DataFolder'), srcfile=ss.findtext('SourceFile'))
+    nif, T = load(src); C.to_world(T)
+    if variant == '0':          # rename0={'_0 name': '_1 name'}: the author named a shape differently in _0
+        for t in T: t.name = cfg.get('rename0', {}).get(t.name, t.name)
+    S = {t.name: t for t in T}
+    shared.setdefault('s2b_all', {})
+    for t in T: shared['s2b_all'].update(t.s2b)
+    if cfg.get('legs_body'):
+        lb = legs_body(cfg, shared, variant, log if 'sig' not in shared else [])
+        S[lb.name] = lb
+        for b_, x_ in lb.s2b.items(): shared['s2b_all'].setdefault(b_, x_)
+    sig = [(t.name, len(t.pos), len(t.tris)) for t in T if not (cfg.get('pants_vary') and t.name == cfg['pants'])
+           and t.name not in cfg.get('vary', ())]   # vary: shapes whose _0 / _1 point counts differ in the author's mesh
+                                                     # (a piece cut from one must still match: checked per piece below)
+    if 'sig' in shared and shared['sig'] != sig: raise RuntimeError(f'{g}_{variant} topology differs')
+    first = 'sig' not in shared; shared['sig'] = sig
+    pieces, rest = cut_pieces(T, S, cfg, log if first else [])
+    for cn, band in cfg.get('cull', {}).items():        # body under a long skirt: not drawn from the knee up
+        cm = cull_mask(S[cn], band)
+        rest[cn] = rest.get(cn, np.ones(len(S[cn].tris), bool)) & ~cm
+        if first: log.append(f'cull {cn}: {int(cm.sum())} of {len(cm)} triangles between z {band[0]} and {band[1]} not drawn')
+    cu = cfg.get('cull_under')
+    if cu:                                              # body under a close-fitting bodice: not drawn (see cull_under_mask)
+        if ('cull_under', cu['shape']) not in shared:
+            shared[('cull_under', cu['shape'])] = cull_under_mask(S[cu['shape']], [S[c] for c in cu['cover']], cu)
+        cm = shared[('cull_under', cu['shape'])]
+        rest[cu['shape']] = rest.get(cu['shape'], np.ones(len(S[cu['shape']].tris), bool)) & ~cm
+        if first: log.append(f'cull_under {cu["shape"]}: {int(cm.sum())} of {len(cm)} triangles under {", ".join(cu["cover"])} not drawn '
+                             f'(depth {cu.get("depth", 2.0)}, kept within {cu.get("keep_edge", 1.5)} of its open edges)')
+    P_ = {p.name: p for p in pieces}
+    skirts = [p for p in pieces if p.role.startswith('skirt')]
+    flaps = next((p for p in pieces if p.role == 'flaps'), None); belt = next((p for p in pieces if p.role == 'belt'), None)
+    xbags = [p for p in pieces if p.role == 'bag']      # separate bag / pouch shapes: each on its own hinge (design bag_def /
+                                                        # bag_lim / bag_share, default the bundled bag recipe)
+    if belt is not None:
+        # belt: band piece = the component with the lowest point (the hanging tip); tip = its points below the band's edge
+        blab = C.welded_components(belt.pos, belt.tris)
+        band = min(range(blab.max() + 1), key=lambda k: belt.pos[blab == k, 2].min())
+        bv = np.where(blab == band)[0]; bp = belt.pos[bv]
+        bcx, bcy = bp[:, 0].mean(), bp[:, 1].mean(); bth = np.degrees(np.arctan2(bp[:, 0] - bcx, bp[:, 1] - bcy))
+        mins = [bp[(bth >= a) & (bth < a + 10), 2].min() for a in range(-180, 180, 10) if ((bth >= a) & (bth < a + 10)).any()]
+        med = float(np.median(mins)); edge = min(m for m in mins if m > med - 3.0); split = edge - 0.3
+        if cfg.get('tail_split') is not None:     # the piece is only the tail (its band is part of a static shape)
+            split = float(cfg['tail_split']); edge = split + 0.3
+        tip_src = bv[belt.pos[bv, 2] < split]
+    else:                                         # no hanging belt (it is part of the cuirass)
+        belt = Piece('__nobelt__', None, 'belt', np.zeros((0, 3)), np.zeros((0, 2)), None, [], np.zeros((0, 3), int), np.zeros(0, int), np.zeros(0, int))
+        blab, band, edge, split, tip_src = np.zeros(0, int), -1, 0.0, 0.0, np.zeros(0, int)
+    has_belt = belt.name != '__nobelt__'
+    # split (men): skirt layers whole, the belt tip
+    if 'tip' in cfg['subdiv'] and has_belt:
+        tsel = np.isin(belt.tris, tip_src).all(1); belt = split_piece(belt, tsel); P_[belt.name] = belt
+        blab = np.r_[blab, [blab[a] for a, b in belt.mids]]
+    for i, p in enumerate(skirts):
+        if p.name in cfg['subdiv']: skirts[i] = split_piece(p); P_[p.name] = skirts[i]
+    pieces = [P_[p.name] for p in pieces]
+    xbags = [p for p in pieces if p.role == 'bag']
+    pends = [p for p in pieces if p.role == 'pendants']   # each group of touching welded components hangs on its own hinge at
+                                                          # its top, child of the skeleton bone that carries it; no colliders
+                                                          # (small limits, never in); design pendant_share / pendant_def / pendant_lim
+    tip_v = np.unique(belt.tris[np.isin(belt.tris, np.where(blab == band)[0]).all(1)]) if has_belt else np.zeros(0, int)
+    tip_v = tip_v[belt.pos[tip_v, 2] < split] if has_belt else tip_v
+    # bag: the biggest belt piece that is not the band; its straps = the small pieces over its top
+    bag_c, bag_straps = None, []
+    if Dz.get('bag') and has_belt:
+        others = [k for k in range(blab.max() + 1) if k != band]
+        bag_c = max(others, key=lambda k: int((blab == k).sum()))
+        q = belt.pos[blab == bag_c]; lo, hi = q[:, :2].min(0) - 1.0, q[:, :2].max(0) + 1.0; btop = q[:, 2].max()
+        for k in others:
+            if k == bag_c: continue
+            c = belt.pos[blab == k].mean(0)
+            if (c[:2] >= lo).all() and (c[:2] <= hi).all() and belt.pos[blab == k, 2].max() >= btop - 3.0: bag_straps.append(k)
+    bag_v = np.where(blab == bag_c)[0] if bag_c is not None else np.zeros(0, int)
+    # flaps: plates = the two biggest pieces of the flaps piece (left first), straps = the rest
+    if flaps is not None:
+        flab = C.welded_components(flaps.pos, flaps.tris)
+        psizes = sorted(range(flab.max() + 1), key=lambda k: -int((flab == k).sum()))[:2]
+        plates = sorted(psizes, key=lambda k: flaps.pos[flab == k, 0].mean())         # left (-x) first
+    else:
+        flab, plates = None, []
+    # skirt layers -> outer / inner geometry for the rig
+    layers = {p.role.split(':')[1]: (p.pos, p.tris) for p in skirts}
+    if first:
+        rig = Rig(N, cfg, {k: v for k, v in layers.items()}, log); shared['rig'] = rig
+        rig.tip_split = split
+        log.append((f'belt: band component {band}, lower edge {edge:.2f}, tip {len(tip_v)} pts below {split:.2f}; ' if has_belt else 'no belt; ')
+                   + (f'flap plates (left, right) components {plates} of {flab.max() + 1}; ' if flaps is not None else 'no flaps; ')
+                   + (f'bag component {bag_c} ({len(bag_v)} pts), straps {bag_straps}' if bag_c is not None else 'no bag'))
+        rig.nfl, rig.has_bag = len(plates), bag_c is not None
+    rig = shared['rig']
+    if not getattr(rig, 'thigh', None) and all(THIGHS[s] in shared['s2b_all'] for s in THIGHS):    # thigh binds (leash frames)
+        rig.thigh = {s: np.linalg.inv(C.tb2m(shared['s2b_all'][THIGHS[s]])) for s in THIGHS}
+    out_p = next(p for p in skirts if p.role == 'skirt:outer')
+    o_t = C.outer_mask(out_p.pos, out_p.tris, rig.cx, rig.cy)
+    if first:
+        allP = np.vstack([p.pos for p in skirts]); off = np.cumsum([0] + [len(p.pos) for p in skirts])
+        rig.place(allP, np.arange(len(allP)), np.unique(out_p.tris[o_t]) + off[skirts.index(out_p)], log)
+        # tip chain + flap bones
+        tp = belt.pos[tip_v]; rig.tip_bottom = float(tp[:, 2].min()) if len(tp) else None
+        rig.tip_rows = list(np.linspace(split, rig.tip_bottom + 0.6, TIP_N + 1)) if len(tp) else []
+        for r, z in enumerate(rig.tip_rows):
+            w = np.exp(-((tp[:, 2] - z) / 1.0) ** 2) + 1e-12; c = (w[:, None] * tp).sum(0) / w.sum()
+            gm = np.eye(4); gm[:3, :3] = frame(rig.ang(c)); gm[:3, 3] = [c[0], c[1], z]
+            rig.G[N.tip(r)] = gm; rig.parent[N.tip(r)] = PELV if r == 0 else N.tip(r - 1)
+        for k, c_ in enumerate(plates):
+            q = flaps.pos[flab == c_]; c1 = q.mean(0); top = q[q[:, 2] > q[:, 2].max() - 1.0].mean(0)
+            for r, c in ((0, top), (1, c1)):
+                gm = np.eye(4); gm[:3, :3] = frame(rig.ang(c1)); gm[:3, 3] = c
+                rig.G[N.flap(k, r)] = gm; rig.parent[N.flap(k, r)] = PELV if r == 0 else N.flap(k, 0)
+        if bag_c is not None:
+            q = belt.pos[bag_v]; c1 = q.mean(0); top = q[q[:, 2] > q[:, 2].max() - 1.5].mean(0)
+            for r, c in ((0, top), (1, c1)):
+                gm = np.eye(4); gm[:3, :3] = frame(rig.ang(c1)); gm[:3, 3] = c
+                rig.G[N.bag(r)] = gm; rig.parent[N.bag(r)] = PELV if r == 0 else N.bag(0)
+            log.append(f'bag hinge ({top[0]:.1f}, {top[1]:.1f}, {top[2]:.1f}) body ({c1[0]:.1f}, {c1[1]:.1f}, {c1[2]:.1f})')
+        rig.xbags = [p.name for p in xbags]
+        for k, p in enumerate(xbags):
+            q = p.pos; c1 = q.mean(0); top = q[q[:, 2] > q[:, 2].max() - 1.5].mean(0)
+            for r, c in ((0, top), (1, c1)):
+                gm = np.eye(4); gm[:3, :3] = frame(rig.ang(c1)); gm[:3, 3] = c
+                rig.G[N.xbag(k, r)] = gm; rig.parent[N.xbag(k, r)] = PELV if r == 0 else N.xbag(k, 0)
+            log.append(f'bag piece {p.name} ({len(q)} pts): hinge ({top[0]:.1f}, {top[1]:.1f}, {top[2]:.1f}) body ({c1[0]:.1f}, {c1[1]:.1f}, {c1[2]:.1f})')
+        rig.pend = {}           # piece name -> (group label per point, [pendant index per group])
+        kk = 0
+        for p in pends:
+            lab = C.welded_components(p.pos, p.tris); nl = lab.max() + 1
+            par_ = list(range(nl))
+            def fnd(a):
+                while par_[a] != a: par_[a] = par_[par_[a]]; a = par_[a]
+                return a
+            for a_ in range(nl):          # touching components (a bead on a strap) hang together
+                for b_ in range(a_ + 1, nl):
+                    pa, pb = p.pos[lab == a_], p.pos[lab == b_]
+                    if np.min(np.linalg.norm(pa[:, None] - pb[None], axis=2)) < 0.5: par_[fnd(a_)] = fnd(b_)
+            roots = sorted({fnd(a_) for a_ in range(nl)}); grp = np.array([roots.index(fnd(l)) for l in lab])
+            ids = []
+            for gi in range(len(roots)):
+                q = p.pos[grp == gi]; c1 = q.mean(0); top = q[q[:, 2] > q[:, 2].max() - 1.0].mean(0)
+                sk = defaultdict(float)
+                for i in np.where(grp == gi)[0]:
+                    for b, x in p.ow[i].items():
+                        if C.is_skel(b): sk[b] += x
+                carrier = max(sk, key=sk.get) if sk else PELV
+                for r, c in ((0, top), (1, c1)):
+                    gm = np.eye(4); gm[:3, :3] = frame(rig.ang(c1)); gm[:3, 3] = c
+                    rig.G[N.pend(kk, r)] = gm; rig.parent[N.pend(kk, r)] = carrier if r == 0 else N.pend(kk, 0)
+                ids.append(kk); kk += 1
+            rig.pend[p.name] = (grp, ids)
+            log.append(f'pendants {p.name}: {len(roots)} hinges from {nl} components (z tops ' +
+                       ' '.join(f'{p.pos[grp == gi, 2].max():.0f}' for gi in range(len(roots))) + ')')
+        rig.npend = kk
+        log.append(f'tip rows ' + '/'.join(f'{z:.1f}' for z in rig.tip_rows) + '; flap hinges ' +
+                   ', '.join(f'({rig.G[N.flap(k, 0)][0, 3]:.1f},{rig.G[N.flap(k, 0)][1, 3]:.1f},{rig.G[N.flap(k, 0)][2, 3]:.1f})' for k in range(len(plates))))
+        # ---- weights
+        # how freely each part of the skirt hangs = the gap between its lining (innermost layer, inward side) and the
+        # trousers; skirt lying on the thighs moves like them (no collision needed, it cannot be left behind a leg).
+        # Both fields live on the lining and are looked up for every skirt point by angle + height, so all layers agree.
+        # the OUTER layer decides (it is what shows and what meets the legs; inner layers are covered by it and
+        # ride the same chains - the men's cloth even sits partly inside the trousers at rest, hidden under the mail)
+        tr = trousers(pants_of(S, cfg), shared, log)
+        lv_ = lining_src(out_p, rig, cfg.get('lining_all', Dz.get('lining_all', False))); LPp = out_p.pos[lv_]
+        legw_l, gap_l = C.trouser_follow(tr, LPp)
+        legw_l = smooth_field(LPp, [thighs_only(x) for x in legw_l], LEG_SIGMA)
+        gn, gf = cfg.get('gap', Dz.get('gap', (GAP_NEAR, GAP_FAR)))         # per-gender override (different skirt shapes)
+        free_l = np.minimum(cfg.get('free_max', Dz.get('free_max', FREE_MAX)), smooth_scalar(LPp, smooth01((np.asarray(gap_l) - gn) / (gf - gn)), FREE_SIGMA))
+        def cyl(P):
+            th = np.arctan2(P[:, 0] - rig.cx, P[:, 1] - rig.cy)
+            return np.c_[14.0 * np.sin(th), 14.0 * np.cos(th), P[:, 2]]
+        LC = cyl(LPp)
+        log.append(f'{g}: lining to the trousers at rest: p10 {np.percentile(gap_l, 10):.2f} median {np.median(gap_l):.2f}; '
+                   f'free share p10 {np.percentile(free_l, 10):.2f} median {np.median(free_l):.2f}' +
+                   (' (low: the skirt mostly follows the legs = very subtle; confirmed designs sit at 0.75-0.9 - a skirt resting '
+                    'close to the trousers needs gap=(0.0, 1.5))' if np.median(free_l) < 0.5 else ''))
+        W = {}; share = {}
+        # points on the cut where a skirt piece leaves its source shape keep the source's own weights, fading in
+        rest_pts = {}
+        for src_name, m in rest.items():
+            t_ = S[src_name]; rest_pts[src_name] = {tuple(x) for x in np.round(t_.pos[np.unique(t_.tris[m])], 4)}
+        for p in skirts:
+            ln = p.role.split(':')[1]; ws, sh = [], np.zeros(len(p.pos))
+            PC = cyl(p.pos)
+            seam_pts = np.array([x for x in p.pos if tuple(np.round(x, 4)) in rest_pts.get(p.src, set())]).reshape(-1, 3)
+            if len(seam_pts):
+                sd = np.array([np.linalg.norm(seam_pts - x, axis=1).min() for x in p.pos]); seam_f = smooth01(sd / SEAM_FADE)
+                log.append(f'{g}: {p.name} is cut out of {p.src}: {len(seam_pts)} seam points (z {seam_pts[:, 2].min():.1f}..{seam_pts[:, 2].max():.1f}) keep its weights, physics fading in over {SEAM_FADE}')
+            else:
+                seam_f = np.ones(len(p.pos))
+            nn = np.array([int(np.argmin(((LC - c) ** 2).sum(1))) for c in PC])
+            for i in range(len(p.pos)):
+                a = rig.ang(p.pos[i])
+                lw = C.smooth_lr(legw_l[nn[i]], a, rig)
+                fr = float(free_l[nn[i]])
+                if cfg.get('crotch_follow'):     # the skirt's front / back centre at crotch height follows both thighs
+                    a_ = rig.ang(p.pos[i]); off_ = min(abs(float(wrap(a_))), abs(float(wrap(a_ - 180.0)))); z_ = float(p.pos[i, 2]); top_ = cfg['sk_belt']
+                    cw = float(smooth01((25.0 - off_) / 10.0)) * float(smooth01((top_ - 4.0 - z_) / 3.0)) * float(smooth01((z_ - (top_ - 16.0)) / 3.0))
+                    fr *= 1.0 - cfg['crotch_follow'] * cw
+                w, s = skirt_w(rig, cfg, p.pos[i], p.ow[i], ln, free=fr, legw=lw, seam=float(seam_f[i]))
+                a = rig.ang(p.pos[i]); mid = min(abs(float(wrap(a))), abs(float(wrap(a - 180.0)))) < 20
+                ws.append(cap4(N, w, keep_body=mid)); sh[i] = s
+            W[p.name], share[p.name] = ws, sh
+        # surfaces of the skirt's outer layer (outward triangles) for riding / colliders
+        ov = np.unique(out_p.tris[o_t]); rmo = np.full(len(out_p.pos), -1); rmo[ov] = np.arange(len(ov))
+        so_surf = C.Surface([('o', out_p.pos[ov], rmo[out_p.tris[o_t]])])
+        # flaps: every plate point follows the skirt right under it by FLAP_FOLLOW and its own hinged bone by the
+        # rest; straps fade from the belt (top) to the plate point nearest them (bottom)
+        fw = [fold(x) for x in flaps.ow] if flaps is not None else []
+        for k, c_ in enumerate(plates):
+            v = np.where(flab == c_)[0]
+            under, _ = blend_under(so_surf, out_p.tris[o_t], W[out_p.name], flaps.pos[v])
+            for i, u in zip(v, under):
+                pw = defaultdict(float); pw[N.flap(k, 1)] += 1 - FLAP_FOLLOW
+                for b, x in cap4(N, u).items(): pw[b] += FLAP_FOLLOW * x
+                fw[i] = cap4(N, dict(pw), keep=(N.flap(k, 1),))      # the plate's own small share is never dropped
+        plv = np.where(np.isin(flab, plates))[0] if flaps is not None else []
+        for c_ in (range(flab.max() + 1) if flaps is not None else []):
+            if c_ in plates: continue
+            v = np.where(flab == c_)[0]; q = flaps.pos[v]
+            k = int(np.argmin([np.linalg.norm(q.mean(0)[:2] - flaps.pos[flab == pc, :2].mean(0)) for pc in plates]))
+            zt, zb = q[:, 2].max(), q[:, 2].min()
+            for i in v:
+                s = float(smooth01((zt - flaps.pos[i, 2]) / max(zt - zb, 1e-3)))
+                j = plv[int(np.argmin(np.linalg.norm(flaps.pos[plv] - flaps.pos[i], axis=1)))]
+                w = defaultdict(float)
+                for b, x in fold(flaps.ow[i]).items(): w[b] += (1 - s) * x
+                for b, x in fw[j].items(): w[b] += s * x
+                fw[i] = cap4(N, dict(w))
+        if flaps is not None: W[flaps.name] = fw
+        # belt: band folded; tip on its chain, riding the surface under it (skirt outer or a flap plate)
+        btw = [fold(x) for x in belt.ow]; own = np.zeros(len(belt.pos))
+        if len(tip_v):
+            u1, d1 = blend_under(so_surf, out_p.tris[o_t], W[out_p.name], belt.pos[tip_v])
+        else:
+            u1, d1 = [], np.zeros(0)
+        if flaps is not None and len(tip_v):
+            pl_tris = flaps.tris[np.isin(flab[flaps.tris], plates).all(1)]
+            pv = np.unique(pl_tris); rmp = np.full(len(flaps.pos), -1); rmp[pv] = np.arange(len(pv))
+            fl_surf = C.Surface([('f', flaps.pos[pv], rmp[pl_tris])])
+            u2, d2 = blend_under(fl_surf, pl_tris, fw, belt.pos[tip_v])
+        else:
+            u2, d2 = u1, np.full(len(tip_v), 1e9)
+        for j, i in enumerate(tip_v):
+            under = u2[j] if d2[j] < d1[j] else u1[j]
+            z = float(belt.pos[i, 2]); o = float(smooth01((split - z) / TIP_BLEND))
+            chain = defaultdict(float)
+            for r, t in row_bracket(rig.tip_rows, z): chain[PELV if r == 0 else N.tip(r)] += t
+            ride = cfg.get('tip_ride', Dz.get('tip_ride', TIP_RIDE)) * (1.0 if cfg.get('tip_ride_flat', Dz.get('tip_ride_flat')) else float(smooth01((split - z) / (split - rig.tip_bottom))))
+            tb = cfg.get('tip_body', Dz.get('tip_body', 0.0))   # share the strip keeps on the author's body weights below the band
+            w = defaultdict(float)                              # (the reference Whiterun light belt: .11-.13; 0 = the old rig)
+            for b, x in fold(belt.ow[i]).items(): w[b] += (1 - o) * x + o * tb * x
+            for b, x in chain.items(): w[b] += o * (1 - tb) * (1 - ride) * x
+            for b, x in under.items(): w[b] += o * (1 - tb) * ride * x
+            btw[i] = cap4(N, dict(w)); own[i] = o
+        # bag: the author's bag weights where it has them (men), else BAG_SHARE on its own bone; straps fade from the
+        # belt (top) to the bag point nearest them (bottom)
+        BAGB = Dz.get('bag_bone')          # the source author's own bag bone, if the bag already had one
+        if bag_c is not None:
+            for i in bag_v:
+                aw = belt.ow[i]
+                if BAGB and aw.get(BAGB, 0) > 0:
+                    w = defaultdict(float)
+                    for b, x in aw.items(): w[N.bag(1) if b == BAGB else (b if C.is_skel(b) else PELV)] += x
+                else:
+                    w = defaultdict(float); w[N.bag(1)] += BAG_SHARE
+                    for b, x in fold(aw).items(): w[b] += (1 - BAG_SHARE) * x
+                btw[i] = cap4(N, dict(w))
+            for k in bag_straps:
+                v = np.where(blab == k)[0]; zt, zb = belt.pos[v, 2].max(), belt.pos[v, 2].min()
+                for i in v:
+                    aw = belt.ow[i]
+                    if BAGB and aw.get(BAGB, 0) > 0:
+                        w = defaultdict(float)
+                        for b, x in aw.items(): w[N.bag(1) if b == BAGB else (b if C.is_skel(b) else PELV)] += x
+                    else:
+                        s_ = float(smooth01((zt - belt.pos[i, 2]) / max(zt - zb, 1e-3)))
+                        j = bag_v[int(np.argmin(np.linalg.norm(belt.pos[bag_v] - belt.pos[i], axis=1)))]
+                        w = defaultdict(float)
+                        for b, x in fold(aw).items(): w[b] += (1 - s_) * x
+                        for b, x in btw[j].items(): w[b] += s_ * x
+                    btw[i] = cap4(N, dict(w))
+        if has_belt: W[belt.name] = btw
+        xshare = Dz.get('bag_share', BAG_SHARE)
+        for k, p in enumerate(xbags):      # separate bag shapes: xshare on its own hinged bone, the rest its source weights
+            ww = []
+            for i in range(len(p.pos)):
+                w = defaultdict(float); w[N.xbag(k, 1)] += xshare
+                for b, x in fold(p.ow[i]).items(): w[b] += (1 - xshare) * x
+                ww.append(cap4(N, dict(w)))
+            W[p.name] = ww
+        psh = Dz.get('pendant_share', 0.8)
+        for p in pends:                    # pendants: psh on the group's own hinged bone, the rest its source weights
+            grp, ids = rig.pend[p.name]; ww = []
+            for i in range(len(p.pos)):
+                w = defaultdict(float); w[N.pend(ids[grp[i]], 1)] += psh
+                for b, x in fold(p.ow[i]).items(): w[b] += (1 - psh) * x
+                ww.append(cap4(N, dict(w)))
+            W[p.name] = ww
+        shared.update(W=W, share=share, own=own, plates=plates, flab=flab, tip_v=tip_v)
+        log.append(f'{g}: skirt ' + ', '.join(f'{p.name} {len(p.pos)} pts ({int((share[p.name] > 0.01).sum())} move)' for p in skirts) +
+                   (f'; flaps {len(flaps.pos)} pts' if flaps is not None else '') + f'; tip {len(tip_v)} pts' + (f'; bag {len(bag_v)} pts' if bag_c is not None else ''))
+    W, share, own = shared['W'], shared['share'], shared['own']
+    plates, flab, tip_v = shared['plates'], shared['flab'], shared['tip_v']
+    for p in pieces:
+        if p.name in W and len(W[p.name]) != len(p.pos): raise RuntimeError(f'{g}_{variant} {p.name}: split differs from _1')
+    # ---- colliders
+    pants = pants_of(S, cfg)
+    trousers(pants, shared, log)
+    pt = pants.tris[pants.pos[pants.tris].mean(1)[:, 2] > LEG_ZMIN]
+    if shared['flip']: pt = pt[:, [0, 2, 1]]
+    lv = np.unique(pt); rml = np.full(len(pants.pos), -1); rml[lv] = np.arange(len(lv)); LT = rml[pt]
+    # lining = inward-facing points of every skirt layer that physics moves
+    # lining: the outer layer's inward side (or all of it when it is a single sheet), where physics moves it
+    it = ~C.outer_mask(out_p.pos, out_p.tris, rig.cx, rig.cy)
+    if it.mean() < 0.05: it = np.ones(len(out_p.tris), bool)
+    v = lining_src(out_p, rig, cfg.get('lining_all', Dz.get('lining_all', False))); v = v[share[out_p.name][v] > PMIN_C]
+    lin = [(out_p, it, v)]
+    LIN = np.vstack([p.pos[v] for p, it, v in lin])
+    lk = f'loff_{len(pants.pos)}'               # per trousers mesh
+    if lk not in shared:
+        _, loff = C.pull_in(pants.pos[lv], LT, LIN, LEG_CLEAR, LEG_MAXIN); shared[lk] = loff
+    shared['loff'] = shared[lk]
+    LP = pants.pos[lv] - shared['loff'][:, None] * C.vertex_normals(pants.pos[lv], LT)
+    if first:
+        keep = {}
+        for p, it, v in lin:
+            _, _, gap, _ = C.Surface([('l', LP, LT)]).query(p.pos[v], k=8); keep[p.name] = v[gap >= LINING_MIN_GAP]
+        shared['lin_keep'] = keep
+        log.append(f'{g}: legs collider pulled in at {int((shared["loff"] > 0.01).sum())} of {len(lv)} pts (max {shared["loff"].max():.2f}); lining points ' +
+                   ', '.join(f'{p.name} {len(keep[p.name])}/{len(v)}' for p, it, v in lin))
+    keep = shared['lin_keep']
+    # flap points (inner side of the plates), bag points (inner half) and tip points
+    inner_fl = []
+    for k, c_ in enumerate(plates):
+        v = np.where(flab == c_)[0]; r_ = np.hypot(flaps.pos[v, 0] - rig.cx, flaps.pos[v, 1] - rig.cy)
+        inner_fl.append(v[r_ <= np.median(r_)])
+    FLV = np.concatenate(inner_fl) if inner_fl else np.zeros(0, int)
+    FLV = shared.setdefault('FLV', FLV)        # the inner half decided once on _1 (a median split can differ by a point in _0)
+    if cfg.get('flap_leg_clear') is not None and len(FLV):     # plate points resting on the thighs do not collide (decided on _1)
+        if 'flv_keep' not in shared:
+            d = C.Surface([('l', LP, LT)]).query(flaps.pos[FLV], k=8)[2]; shared['flv_keep'] = d >= cfg['flap_leg_clear']
+            log.append(f'{g}: {int((~shared["flv_keep"]).sum())} of {len(FLV)} hip-plate collision points rest within {cfg["flap_leg_clear"]} of the legs - left out')
+        FLV = FLV[shared['flv_keep']]
+    TIPV = tip_v[own[tip_v] > 0.2]
+    if len(bag_v):
+        br = np.hypot(belt.pos[bag_v, 0] - rig.cx, belt.pos[bag_v, 1] - rig.cy); BAGV = bag_v[br <= np.median(br)]
+    else:
+        BAGV = np.zeros(0, int)
+    FLP_ = flaps.pos[FLV] if flaps is not None else np.zeros((0, 3))
+    XBV = []                # separate bag pieces: their inner half (the side that meets the skirt / thighs) collides
+    for p in xbags:             # ... except points resting closer than bag_leg_clear to the leg colliders (a bag lying on the
+        if ('xbv', p.name) not in shared:      # seat would touch at rest = twitch); decided once on _1
+            br = np.hypot(p.pos[:, 0] - rig.cx, p.pos[:, 1] - rig.cy); v = np.where(br <= np.median(br))[0]
+            d = C.Surface([('l', LP, LT)]).query(p.pos[v], k=8)[2]; clr = Dz.get('bag_leg_clear', 0.8)
+            shared[('xbv', p.name)] = v[d >= clr]
+            log.append(f'bag piece {p.name}: {len(v[d >= clr])} of {len(v)} inner points collide ({int((d < clr).sum())} rest within {clr} of the legs)')
+        XBV.append(shared[('xbv', p.name)])
+    XBP_ = np.vstack([p.pos[v] for p, v in zip(xbags, XBV)]) if xbags else np.zeros((0, 3))
+    # skirt outer surface near the flaps and the tip; the flaps' outer surface near the tip
+    if first:
+        cc = out_p.pos[out_p.tris].mean(1)
+        near_pts = np.vstack([FLP_, belt.pos[TIPV], belt.pos[BAGV], XBP_])
+        zc = min(float(S[st].pos[:, 2].min()) for st in cfg['static'] if st in S and st not in [q.src for q in pieces]) if any(
+            st in S and st not in [q.src for q in pieces] for st in cfg['static']) else 1e9
+        if len(near_pts):
+            dxy = np.min(np.linalg.norm(cc[:, None, :2] - near_pts[None, :, :2], axis=2), axis=1)
+            shared['sko_t'] = o_t & (dxy < 6.0) & (cc[:, 2] > near_pts[:, 2].min() - 4.0) & (cc[:, 2] < min(near_pts[:, 2].max() + 1.0, zc + 1.0))
+        else:
+            shared['sko_t'] = np.zeros(len(out_p.tris), bool)
+        if flaps is not None:
+            pl_t = np.isin(flab[flaps.tris], plates).all(1)
+            out_fl = C.outer_mask(flaps.pos, flaps.tris, rig.cx, rig.cy) & pl_t
+            cf = flaps.pos[flaps.tris].mean(1)
+            if len(TIPV):
+                dxy2 = np.min(np.linalg.norm(cf[:, None, :2] - belt.pos[TIPV][None, :, :2], axis=2), axis=1)
+                shared['flo_t'] = out_fl & (dxy2 < 5.0) & (cf[:, 2] > belt.pos[TIPV, 2].min() - 3.0)
+            else:                       # no belt tail to meet the plates
+                shared['flo_t'] = np.zeros(len(flaps.tris), bool)
+    def surf_copy(p, tsel, pts, clear, key):
+        tt = p.tris[tsel]; v = np.unique(tt); rm = np.full(len(p.pos), -1); rm[v] = np.arange(len(v)); TT = rm[tt]
+        if first and len(tt):
+            _, o_ = C.pull_in(p.pos[v], TT, pts, clear, 2.0, lat=2.0); shared[key] = o_
+        if not len(tt): shared[key] = np.zeros(0)
+        return v, TT, (p.pos[v] - shared[key][:, None] * C.vertex_normals(p.pos[v], TT) if len(tt) else p.pos[v])
+    sko_v, SKOT, SKOP = surf_copy(out_p, shared['sko_t'], np.vstack([FLP_, belt.pos[TIPV], belt.pos[BAGV], XBP_]), TB_CLEAR, 'sko_off')
+    # tip_copy='drawn' (2026-10-14, the Whiterun light belt rule): the belt tip collides with its OWN copy of the skirt's outer
+    # surface, ON the drawn surface (never pulled in - a copy behind the drawn layer lets the strap sink into it), keeping only
+    # faces under the tip; faces a resting tip point is behind or within TIPU_DROP of are dropped (that is the magnet). The
+    # shared 'Skirt Outer' copy (bags / flaps) is untouched.
+    tipu = cfg.get('tip_copy', Dz.get('tip_copy')) == 'drawn' and len(TIPV) > 0
+    if tipu:
+        if 'tipu_t' not in shared:          # decided once on _1
+            TP = belt.pos[TIPV]; cc = out_p.pos[out_p.tris].mean(1)
+            dxy = np.min(np.linalg.norm(cc[:, None, :2] - TP[None, :, :2], axis=2), axis=1)
+            cand = o_t & (dxy < 6.0) & (cc[:, 2] > TP[:, 2].min() - 4.0) & (cc[:, 2] < TP[:, 2].max() + 2.0)
+            ci = np.where(cand)[0]
+            tri_, bary_, d_, cp_ = C.Surface([('s', out_p.pos, out_p.tris[ci])]).query(TP, k=8)
+            T_ = out_p.tris[ci][tri_]
+            fn_ = np.cross(out_p.pos[T_[:, 1]] - out_p.pos[T_[:, 0]], out_p.pos[T_[:, 2]] - out_p.pos[T_[:, 0]])
+            fn_ /= np.linalg.norm(fn_, axis=1, keepdims=True) + 1e-12
+            sd_ = ((TP - cp_) * fn_).sum(1)
+            drop = np.unique(ci[tri_[(sd_ < TIPU_DROP) & (bary_.min(1) > -1e-3)]])
+            keep = cand.copy(); keep[drop] = False
+            shared['tipu_t'] = keep
+            log.append(f'{g}: tip copy on the drawn skirt surface: {int(keep.sum())} faces ({len(drop)} dropped: a resting tip point within '
+                       f'{TIPU_DROP} / behind them); tip rests >= {d_.min():.2f} off the drawn surface')
+        tt = out_p.tris[shared['tipu_t']]; tipu_v = np.unique(tt); rm_ = np.full(len(out_p.pos), -1); rm_[tipu_v] = np.arange(len(tipu_v))
+        TIPUT, TIPUP = rm_[tt], out_p.pos[tipu_v]
+    if flaps is not None:
+        flo_v, FLOT, FLOP = surf_copy(flaps, shared['flo_t'], belt.pos[TIPV], TB_CLEAR, 'flo_off')
+    else:
+        flo_v, FLOT, FLOP = np.zeros(0, int), np.zeros((0, 3), int), np.zeros((0, 3))
+    if first:
+        res = {}
+        for nm, pts in (('flap', FLP_), ('tip', belt.pos[TIPV]), ('bag', belt.pos[BAGV])) + tuple((p.name, p.pos[v]) for p, v in zip(xbags, XBV)):
+            if not len(pts): continue
+            d1 = C.Surface([('o', SKOP, SKOT)]).query(pts, k=8)[2].min() if len(SKOT) else 99
+            d2 = C.Surface([('l', LP, LT)]).query(pts, k=8)[2].min()
+            d3 = C.Surface([('f', FLOP, FLOT)]).query(pts, k=8)[2].min() if (nm == 'tip' and len(FLOT)) else 99
+            res[nm] = (len(pts), float(d1), float(d2), float(d3))
+        shared['rest'] = res
+        log.append(f'{g}: skirt-outer collider {len(SKOT)} tris (pulled in max {shared["sko_off"].max() if len(shared["sko_off"]) else 0:.2f}), flap-outer {len(FLOT)} tris; ' +
+                   '; '.join(f'{nm} pts {n}: to skirt-outer {a:.2f}, legs {b:.2f}' + (f', flap-outer {c:.2f}' if c < 99 else '') for nm, (n, a, b, c) in res.items()))
+    # ---- write
+    out = STAGE + cfg['out'].format(variant) if cfg['mode'] == 'nif' else STAGE + f'CalienteTools/BodySlide/ShapeData/{shared["f_paths"]["folder"]}/{shared["f_paths"]["srcfile"]}'
+    w = Writer(nif, out); w.skel_G = {}
+    for t in T:
+        for nm, xf in t.s2b.items():
+            if not N.is_phys(nm) and C.is_skel(nm): w.skel_G.setdefault(nm, np.linalg.inv(C.tb2m(xf)))
+    w.skel_G.setdefault(ROOT, np.eye(4))
+    w.custom_G = dict(rig.G); w.parent = dict(rig.parent)
+    made = [False]
+
+    def make_nodes():
+        if made[0]: return
+        if PELV not in w.out.nodes: w.out.add_node(PELV, C.m2tb(w.skel_G[PELV]), w.out.root)
+        for nm in sorted(rig.G, key=lambda n: (int(n.split()[-1]), n)):
+            if nm in w.out.nodes: continue
+            par = rig.parent[nm]; Gp = rig.G[par] if par in rig.G else w.skel_G[par]
+            if par not in w.out.nodes: w.out.add_node(par, C.m2tb(w.skel_G[par]), w.out.root)    # a pendant's carrier (Spine2 ...)
+            w.out.add_node(nm, C.m2tb(np.linalg.inv(Gp) @ rig.G[nm]), w.out.nodes[par])
+        made[0] = True
+    nb, parts, prov = {}, {}, {}
+    seg = lambda name, idx, keys=None: (np.array([name] * len(idx), object), np.array(keys if keys is not None else [None] * len(idx), object), np.asarray(idx, int))
+    piece_of_src = defaultdict(list)
+    for p in pieces: piece_of_src[p.src].append(p)
+    emitted = set()
+    later = []              # extra skirt panels (target key panels): written after every original shape, so the original
+                            # shapes keep their positions (texture swaps) and the panels are appended
+    for t in T:
+        if t.name in cfg['drop'] or t.name == 'VirtualGround': continue
+        partid = np.array(C.part_ids(t, T))
+        # the source shape's own remainder (women: Armor003 minus the cut pieces), then its pieces
+        if (t.name in rest or not piece_of_src.get(t.name)) and rest.get(t.name, np.ones(1, bool)).any():   # never an empty remainder
+            tm = rest.get(t.name, np.ones(len(t.tris), bool))
+            v = np.unique(t.tris[tm]); rm = np.full(len(t.pos), -1); rm[v] = np.arange(len(v))
+            ww = [C.top4(fold(t.w[i])) for i in v]
+            nb[t.name] = w.emit(t.name, t.pos[v], t.uv[v], t.norm[v] if t.norm is not None else None, rm[t.tris[tm]], t.s.flags, list(partid[tm]), ww, t.s2b,
+                                shader_from=t, colors=[tuple(t.s.colors[i]) for i in v] if t.s.colors else None)
+            parts[t.name] = (len(v), int(tm.sum())); prov[t.name] = seg(t.name, v)
+        for p in piece_of_src.get(t.name, []):
+            make_nodes()
+            keys = [None if s >= 0 else 'split' for s in p.src_idx]
+            ww = [C.top4(x) for x in W[p.name]] if p.name in W else [C.top4(fold(x)) for x in p.ow]
+            if p.role.startswith('skirt') and cfg.get('panels', 1) > 1:
+                subs = panel_split(p, rig, int(cfg['panels']))
+                p, later_ = subs[0], subs[1:]
+                ww_all = ww; ww = [ww_all[i] for i in p.src_local]
+                later += [(q, [ww_all[i] for i in q.src_local], t) for q in later_]
+            nb[p.name] = w.emit(p.name, p.pos, p.uv, p.nrm, p.tris, t.s.flags, list(p.partid), ww, t.s2b, shader_from=t,
+                                colors=[tuple(c) for c in p.col] if p.col is not None else None)
+            parts[p.name] = (len(p.pos), len(p.tris)); prov[p.name] = ('piece', p)
+    for p, ww, t in later:
+        nb[p.name] = w.emit(p.name, p.pos, p.uv, p.nrm, p.tris, t.s.flags, list(p.partid), ww, t.s2b, shader_from=t,
+                            colors=[tuple(c) for c in p.col] if p.col is not None else None)
+        parts[p.name] = (len(p.pos), len(p.tris)); prov[p.name] = ('piece', p)
+    if later and first:
+        log.append(f'{g}: skirt split into {int(cfg["panels"])} panel shapes by chain sector (80-bone cap), extra panels appended: ' +
+                   ', '.join(f'{q.name} {len(q.pos)} pts' for q, _, _ in later))
+    make_nodes()
+    # hidden colliders: the legs as three one-sided pieces by facing - front, back, sides - and the skirt lining in
+    # three matching pieces by where it hangs. A front panel only ever meets the leg fronts, so however deep a fast
+    # thigh goes into it, it is pushed back out in FRONT (a closed shell could push it out the side or back = hooked).
+    sk_ = ('leg_sel', len(LP), len(LT))
+    if sk_ not in shared:               # decided once (on _1) per trousers mesh - per weight, faces near the limits switched piece
+        fnl = np.cross(LP[LT[:, 1]] - LP[LT[:, 0]], LP[LT[:, 2]] - LP[LT[:, 0]]); fnl /= np.linalg.norm(fnl, axis=1, keepdims=True) + 1e-12
+        leg_sel = {'Front': fnl[:, 1] > LEG_FACING, 'Back': fnl[:, 1] < -LEG_FACING, 'Side': np.abs(fnl[:, 0]) > SIDE_FACING}
+        if cfg.get('front_no_inner'):       # inner-thigh faces at the crotch push a front centre back between the legs
+            fc = LP[LT].mean(1); inward = -np.sign(fc[:, 0] - rig.cx) * fnl[:, 0]
+            leg_sel['Front'] = leg_sel['Front'] & (inward < 0.5)
+        if cfg.get('back_kick_clips'):      # a running foot meets the back hem SOLE first: faces facing back on a kick-up join Back
+            kb, how = kicked_back_faces(LP, LT, [pants.w[i] for i in lv], cfg['back_kick_clips'], cfg.get('clip_sex', 'f'))
+            log.append(f'Back leg piece + {int((kb & ~leg_sel["Back"]).sum())} foot faces that face backward on a kick-up ({how})')
+            leg_sel['Back'] = leg_sel['Back'] | kb
+        shared[sk_] = leg_sel
+    leg_sel = shared[sk_]
+    for side, m in leg_sel.items():
+        tt = LT[m]; vv = np.unique(tt); rm = np.full(len(LP), -1); rm[vv] = np.arange(len(vv)); nm = N.legc(side)
+        nb[nm] = w.emit(nm, LP[vv], np.zeros((len(vv), 2)), None, rm[tt], 0xe, [32] * len(tt), [C.top4(pants.w[lv[i]]) for i in vv], pants.s2b)
+        parts[nm] = (len(vv), len(tt)); prov[nm] = ('copy', pants.name, lv[vv])
+    # lining_lr: the side lining in a left and a right shape (many chains: one side shape spanning both hips would pass 80 bones)
+    rig.lining_regions = ('Front', 'Side L', 'Side R', 'Back') if cfg.get('lining_lr') else N.SIDES
+    for side in rig.lining_regions:
+        LPts, LTris, LW = [], [], []; off = 0; lin_prov = []
+        for p, it, v in lin:
+            kv = keep[p.name]
+            if ('lin_reg', p.name) not in shared:     # decided once (on _1) - per weight, points near 55 deg could switch piece
+                a_ = np.array([rig.ang(x) for x in p.pos[kv]])
+                reg_ = np.where(np.abs(wrap(a_)) < FRONT_DEG, 'Front', np.where(np.abs(wrap(a_ - 180.0)) < FRONT_DEG, 'Back', 'Side'))
+                if cfg.get('lining_lr'): reg_ = np.where(reg_ == 'Side', np.where(p.pos[kv, 0] > rig.cx, 'Side L', 'Side R'), reg_)
+                shared[('lin_reg', p.name)] = reg_
+            reg = shared[('lin_reg', p.name)]
+            kv = kv[reg == side]
+            if not len(kv): continue
+            rm = np.full(len(p.pos), -1); rm[kv] = np.arange(len(kv)); kt = p.tris[it]; kt = kt[(rm[kt] >= 0).all(1)]
+            LPts.append(p.pos[kv]); LTris.append(rm[kt] + off); LW += [C.top4(W[p.name][i]) for i in kv]; off += len(kv); lin_prov.append((p, kv))
+        nm = N.skc(side)
+        if not off:     # no lining hangs in this region (side slits under hip plates): no collider, and no XML entry
+            rig.lining_regions = tuple(r for r in rig.lining_regions if r != side)
+            if first: log.append(f'lining region {side}: no points (slit) - collider skipped')
+            continue
+        TT = np.vstack(LTris) if any(len(x) for x in LTris) else np.zeros((0, 3), int)
+        nb[nm] = w.emit(nm, np.vstack(LPts), np.zeros((off, 2)), None, TT, 0xe, [32] * max(len(TT), 1) if len(TT) else [], LW, S[skirts[0].src].s2b)
+        parts[nm] = (off, len(TT)); prov[nm] = ('multi', lin_prov)
+    if len(SKOT):
+        nb[N.SKO] = w.emit(N.SKO, SKOP, np.zeros((len(SKOP), 2)), None, SKOT, 0xe, [32] * len(SKOT), [C.top4(W[out_p.name][i]) for i in sko_v], S[out_p.src].s2b)
+        parts[N.SKO] = (len(SKOP), len(SKOT)); prov[N.SKO] = ('multi', [(out_p, sko_v)])
+    for nm, p, idx in ([(N.FLP, flaps, FLV)] if flaps is not None else []) + ([(N.TIPC, belt, TIPV)] if len(TIPV) else []) + ([(N.BAGC, belt, BAGV)] if len(BAGV) else []) + \
+            [(N.xbagc(k), p, v) for k, (p, v) in enumerate(zip(xbags, XBV))]:
+        rm = np.full(len(p.pos), -1); rm[idx] = np.arange(len(idx)); ct = p.tris[(rm[p.tris] >= 0).all(1)]
+        nb[nm] = w.emit(nm, p.pos[idx], np.zeros((len(idx), 2)), None, rm[ct], 0xe, [32] * len(ct), [C.top4(W[p.name][i]) for i in idx], S[p.src].s2b)
+        parts[nm] = (len(idx), len(ct)); prov[nm] = ('multi', [(p, idx)])
+    if flaps is not None and len(FLOT):
+        nb[N.FLO] = w.emit(N.FLO, FLOP, np.zeros((len(FLOP), 2)), None, FLOT, 0xe, [32] * len(FLOT), [C.top4(W[flaps.name][i]) for i in flo_v], S[flaps.src].s2b)
+        parts[N.FLO] = (len(FLOP), len(FLOT)); prov[N.FLO] = ('multi', [(flaps, flo_v)])
+    if 'VirtualGround' in S:
+        gr = S['VirtualGround']
+        nb['VirtualGround'] = w.emit('VirtualGround', gr.pos, gr.uv, None, gr.tris, gr.s.flags, list(C.part_ids(gr, T)), [C.top4(x) for x in gr.w], gr.s2b)
+    else:
+        gz = float(cfg.get('ground_z', 0.0))     # a floor-length hem rests at z ~0: lower the plane so nothing touches at rest
+        GV = np.array([[-80.0, 80.0, gz], [-80.0, -80.0, gz], [80.0, 80.0, gz], [80.0, -80.0, gz]]); GF = np.array([[0, 1, 2], [2, 1, 3]])
+        if np.cross(GV[GF[0, 1]] - GV[GF[0, 0]], GV[GF[0, 2]] - GV[GF[0, 0]])[2] < 0: GF = GF[:, [0, 2, 1]]
+        nb['VirtualGround'] = w.emit('VirtualGround', GV, np.zeros((4, 2)), None, GF, 0x8000e, [32, 32], [{ROOT: 1.0}] * 4, {})
+    parts['VirtualGround'] = (4, 2)
+    NiStringExtraData.New(w.out, name='HDT Skinned Mesh Physics Object', string_value=cfg['xml'], parent=w.out.root)
+    w.out.save()
+    for k_, b in nb.items():
+        if b > C.MAXB: raise RuntimeError(f'{k_}: {b} bones')
+    log.append(f'{g}_{variant}: wrote {out.replace(STAGE, "")}; shapes (pts, tris) {parts}; bones per shape {nb}')
+    if rec is not None: rec.update(prov=prov, parts=parts, T=T)
+    return out
+
+
+# ------------------------------------------------------------------ XML
+THIGHS = {'L': 'NPC L Thigh [LThg]', 'R': 'NPC R Thigh [RThg]'}
+
+
+def quat(R):
+    """(x, y, z, w) of a rotation matrix (FSMP reads <basis x y z w/> as btQuaternion(x, y, z, w))"""
+    t = float(np.trace(R))
+    if t > 0:
+        s = np.sqrt(t + 1.0) * 2; return ((R[2, 1] - R[1, 2]) / s, (R[0, 2] - R[2, 0]) / s, (R[1, 0] - R[0, 1]) / s, 0.25 * s)
+    i = int(np.argmax(np.diag(R))); j, k = (i + 1) % 3, (i + 2) % 3
+    s = np.sqrt(max(1e-12, 1.0 + R[i, i] - R[j, j] - R[k, k])) * 2; q = [0.0, 0.0, 0.0, 0.0]
+    q[i] = 0.25 * s; q[j] = (R[j, i] + R[i, j]) / s; q[k] = (R[k, i] + R[i, k]) / s; q[3] = (R[k, j] - R[j, k]) / s
+    return tuple(float(x) for x in q)
+
+
+def thigh_leashes(Dz, rig, N):
+    """design key thigh_leash=dict(slack=.5, cos=.5, both_deg=20) (ported from the New Legion v9/v10 rigs, confirmed in game
+    2026-10-10): [(chain row-1 bone, thigh, its rest frame in the thigh's bind frame, slack)] for every chain within
+    acos(cos) of straight ahead / behind, on the thigh of its side (both thighs within both_deg of the centre line).
+    The first joint's out limit must cover a seated thigh (1.45 rad) minus the slack, or the leash fights the limit."""
+    tl = Dz.get('thigh_leash')
+    if not tl or not getattr(rig, 'thigh', None): return []
+    out = []
+    for k, a in enumerate(rig.ang_k):
+        if abs(np.cos(np.radians(a))) < tl.get('cos', 0.5): continue
+        lx = float(rig.thigh['L'][0, 3]) - rig.cx            # the side whose thigh lies on the chain's side of the axis
+        mine = 'L' if np.sign(lx) == np.sign(np.sin(np.radians(a))) else 'R'
+        sides = ['L', 'R'] if min(abs(float(wrap(a))), abs(float(wrap(a - 180.0)))) < tl.get('both_deg', 20.0) else [mine]
+        for s in sides:
+            out.append((N.sk(k, 1), THIGHS[s], np.linalg.inv(rig.thigh[s]) @ rig.G[N.sk(k, 1)], tl.get('slack', 0.5)))
+    return out
+
+
+SK_DEF = dict(mass=1.0, inertia=40.0, lin=0.4, ang=0.6, friction=0.1, wind=0.15)       # default skirt when the design gives no phys preset: heavy and lively
+TIP_DEF = dict(mass=0.9, inertia=21.0, lin=0.3, ang=0.53, friction=0.0, wind=0.2, gravity=0.35)  # leather belt tail; gravity .35 = little sag at the buckle
+FLAP_DEF = dict(mass=1.2, inertia=20.0, lin=0.4, ang=0.6, friction=0.1, wind=0.0)      # riveted iron hip plate: heavy, slow, no wind
+SK_LIM1 = dict(lo=(-0.85, -0.12, -0.05), hi=(0.25, 0.12, 0.05), lin=0.0, stiff=(150, 50, 50))     # first joint under the belt
+SK_LIM = dict(lo=(-0.45, -0.08, -0.05), hi=(0.25, 0.08, 0.05), lin=0.0, stiff=(90, 30, 30))       # joints further down
+TIP_LIM = dict(lo=(-0.4, -0.15, -0.1), hi=(0.0, 0.15, 0.1), lin=0.02, astiff=130)    # springs 130 hold the strap's drawn line
+FLAP_LIM = dict(lo=(-0.9, -0.12, -0.1), hi=(0.05, 0.12, 0.1), lin=0.05, astiff=60)
+
+
+def write_xml(design, g, rig, skel, has_flo, log):
+    Dz = DESIGNS[design]; cfg = Dz[g]; N = Names(Dz['prefix']); shape = C.shape
+    nk = len(rig.ang_k); nfl = rig.nfl; has_tip = bool(rig.tip_rows)
+    ph = Dz.get('phys') or {}
+    SK_DEF_, SK_LIM1_, SK_LIM_ = ph.get('SK_DEF', SK_DEF), ph.get('SK_LIM1', SK_LIM1), ph.get('SK_LIM', SK_LIM)
+    L = ['<?xml version="1.0" encoding="UTF-8"?>',
+         f'<!-- {Dz["title"]}, target {g}' + (f' (BodySlide set "{cfg["set"]}")' if cfg['mode'] == 'bodyslide' else '') + ': ' +
+         ', '.join(['skirt'] + [x for x, on in (('hip flaps', nfl), ('bag', rig.has_bag), ('belt tip', has_tip)) if on]) + ' physics,',
+         '     generated by smpkit build_skirt_rig.py.',
+         f'     Skirt: {nk} chains (pinned under the belt + {NROW} swinging bones), every point blending two chains and two rows; ' +
+         ('the halves part at the slits below each layer\'s slit top.' if rig.slits else 'one piece all round.'),
+         '     All skirt layers hang on the same chains, so they never fight each other. Where the skirt lies on the thighs it moves with',
+         '     them; where it hangs clear it swings.' + (' Hip flaps: iron plates on their own hinged bones, following the skirt under them.' if nfl else '')
+         + (' Bag: its own bone hinged at the belt.' if rig.has_bag else '') + (' Belt tip: its own 3-bone strap.' if has_tip else ''),
+         '     Collisions (hidden copies, this armour only): the skirt vs the trousers, split into front / side / back so a leg always',
+         '     pushes the skirt back out the way it came; ' + ', '.join([x for x, on in (('flaps', nfl), ('bag', rig.has_bag), ('belt tip', has_tip and cfg.get('tip_collide', Dz.get('tip_collide', False)))) if on]) +
+         (' vs the skirt\'s outer surface and the trousers; ' if (nfl or rig.has_bag or (has_tip and cfg.get('tip_collide', Dz.get('tip_collide', False)))) else '') + 'ground.',
+         '     Nothing touches anything while standing. Swing limits per joint: X = out/in (negative = outward), Y = sideways, Z = twist.',
+         '     Tuning: edit, save, "smp reset". -->',
+         '<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="description.xsd">', '']
+    lbm = Dz.get('leg_bone_margin')     # design key {'Calf': 5, 'Foot': 10}: the leg colliders' margin x this on vertices of
+    if lbm:                             # those bones (the Draft Skirt resource: calves 2.9, feet 7 - keep a long hem off them).
+        # FSMP reads top to bottom and CREATES a bone the first time a shape uses it ('created without default values'); a
+        # later <bone> declaration is 'already exists, skipped' (seen in hdtSMP64.log 2026-10-13: the v7b margins never
+        # applied). So bones that carry settings are declared BEFORE the first shape that uses them.
+        grp = lambda b: next((k for k in lbm if k in b), None)
+        L += ['\t<!-- leg bones with a collision margin multiplier: declared before the shapes that use them -->']
+        for k, m in lbm.items():
+            L += ['\t<bone-default>', f'\t\t<margin-multiplier>{m}</margin-multiplier>', '\t</bone-default>']
+            L += [f'\t<bone name="{b}"/>' for b in skel if grp(b) == k]
+        L += ['\t<bone-default>', '\t\t<margin-multiplier>1</margin-multiplier>', '\t</bone-default>', '']
+    L += shape('per-triangle-shape', N.GROUND, 'ground', 0.5, no=('ground', 'legsF', 'legsS', 'legsB'), pen=10)
+    L += ['\t<!-- the trousers (hidden copies) in three one-sided pieces by facing: front, back, sides. Each part of the skirt meets only',
+          '\t     the matching piece, so a leg that goes deep into it always pushes it back out the way it came, never hooks it behind the leg -->']
+    legs_no = ('legsF', 'legsS', 'legsB', 'ground')
+    legm = Dz.get('leg_margin', 0.4)
+    L += shape('per-triangle-shape', N.legc('Front'), 'legsF', legm, no=legs_no, pen=3.0)
+    L += shape('per-triangle-shape', N.legc('Back'), 'legsB', legm, no=legs_no, pen=3.0)
+    L += shape('per-triangle-shape', N.legc('Side'), 'legsS', legm, no=legs_no, pen=1.5)
+    L += ['', '\t<!-- kinematic: skeleton bones the collision shapes are skinned to, and the pinned top bone of every chain -->']
+    if lbm:                             # (the margin-carrying leg bones were declared above, before the shapes)
+        L += [f'\t<bone name="{b}"/>' for b in skel if grp(b) is None]
+    else:
+        L += [f'\t<bone name="{b}"/>' for b in skel]
+    L += [f'\t<bone name="{N.sk(k, 0)}"/>' for k in range(nk)] + ([f'\t<bone name="{N.tip(0)}"/>'] if has_tip else []) + [f'\t<bone name="{N.flap(k, 0)}"/>' for k in range(nfl)]
+    if rig.has_bag: L += [f'\t<bone name="{N.bag(0)}"/>']
+    xb = getattr(rig, 'xbags', [])
+    L += [f'\t<bone name="{N.xbag(k, 0)}"/>' for k in range(len(xb))]
+    npd = getattr(rig, 'npend', 0)
+    L += [f'\t<bone name="{N.pend(k, 0)}"/>' for k in range(npd)]
+    L += [''] + C.bone_default(SK_DEF_, 'skirt: heavy cloth / mail that swings in and out but settles')
+    rm_ = Dz.get('row_margin')      # design key: collision margin multiplier per row (BWB gowns: 1 at the hips -> ~3 at the hem,
+    for r in range(1, NROW + 1):    # so the lower dress keeps a bigger gap and the legs push it before they reach it)
+        if rm_: L += ['\t<bone-default>', f'\t\t<margin-multiplier>{rm_[r - 1]}</margin-multiplier>', '\t</bone-default>']
+        L += [f'\t<bone name="{N.sk(k, r)}"/>' for k in range(nk)]
+    if rm_: L += ['\t<bone-default>', '\t\t<margin-multiplier>1</margin-multiplier>', '\t</bone-default>']   # defaults carry on
+    if nfl:
+        L += [''] + C.bone_default(FLAP_DEF, 'hip flaps: riveted iron plates - heavy, slow, no wind')
+        L += [f'\t<bone name="{N.flap(k, 1)}"/>' for k in range(nfl)]
+    if rig.has_bag:
+        L += [''] + C.bone_default(C.BAG_DEF, 'bag: light, swings on its hinge, damped so it settles when you stop')
+        L += [f'\t<bone name="{N.bag(1)}"/>']
+    if xb:
+        L += [''] + C.bone_default(Dz.get('bag_def', C.BAG_DEF), 'bags / pouches (' + ', '.join(xb) + '): each on its own hinge at its top edge')
+        L += [f'\t<bone name="{N.xbag(k, 1)}"/>' for k in range(len(xb))]
+    if npd:
+        L += [''] + C.bone_default(Dz['pendant_def'], 'pendants (claws, a strap on its cord): each on its own hinge at its top')
+        L += [f'\t<bone name="{N.pend(k, 1)}"/>' for k in range(npd)]
+    if has_tip:
+        L += [''] + C.bone_default(TIP_DEF, 'belt tip: leather strap')
+        L += [f'\t<bone name="{N.tip(r)}"/>' for r in range(1, TIP_N + 1)]
+    L += C.chain_default_xyz(SK_LIM1_, f'skirt, first joint under the belt: out up to {-SK_LIM1_["lo"][0]} rad, in {SK_LIM1_["hi"][0]} (onto the legs), sideways {SK_LIM1_["hi"][1]}, twist {SK_LIM1_["hi"][2]}; springs hold the shape and calm the sway')
+    L.append('\t<constraint-group>'); L += [f'\t\t<generic-constraint bodyA="{N.sk(k, 1)}" bodyB="{N.sk(k, 0)}"/>' for k in range(nk)]; L.append('\t</constraint-group>')
+    L += C.chain_default_xyz(SK_LIM_, f'skirt, further down: out up to {-SK_LIM_["lo"][0]} rad per joint, in {SK_LIM_["hi"][0]}, sideways {SK_LIM_["hi"][1]}, twist {SK_LIM_["hi"][2]}; lighter springs')
+    for k in range(nk):
+        L.append('\t<constraint-group>'); L += [f'\t\t<generic-constraint bodyA="{N.sk(k, r)}" bodyB="{N.sk(k, r - 1)}"/>' for r in range(2, NROW + 1)]; L.append('\t</constraint-group>')
+    lk = Dz.get('links')        # design key links=dict(lin, ang, lstiff, astiff): soft links let a dense gown fold between chains
+    if lk:
+        L += C.link_default(lk['lin'], lk['ang'], f'skirt, round the body: neighbours may part {lk["lin"]} units / turn {lk["ang"]} rad '
+                            f'(folds), springs {lk.get("lstiff", 0)} pull them back together', lstiff=lk.get('lstiff', 0), astiff=lk.get('astiff', 0))
+    else:
+        L += C.link_default(0.25, 0.3, 'skirt, round the body: neighbouring chains stay one piece (across a slit only above the slit)')
+    links = []
+    base = 0
+    for pi, p in enumerate(rig.panels):
+        for i in range(len(p) - 1): links.append((base + i, base + i + 1, None))
+        base += len(p)
+    if rig.slits:
+        for si in range(len(rig.slits)):
+            right = si; left = (si - 1) % len(rig.panels)
+            k_hi = sum(len(q) for q in rig.panels[:right]); k_lo = sum(len(q) for q in rig.panels[:left]) + len(rig.panels[left]) - 1
+            top = max(rig.tops[l][si] for l in rig.tops)           # linked only where every layer is closed
+            links.append((k_lo, k_hi, top))
+    else:
+        links.append((nk - 1, 0, None))
+    for r in range(1, NROW + 1):
+        L.append('\t<constraint-group>')
+        for a, b, top in links:
+            if top is None or min(rig.rows[a][r], rig.rows[b][r]) > top + 1.0:
+                L.append(f'\t\t<generic-constraint bodyA="{N.sk(b, r)}" bodyB="{N.sk(a, r)}"/>')
+        L.append('\t</constraint-group>')
+    if nfl:
+        L += C.chain_default(FLAP_LIM, 'hip flaps: hinge at the top edge - swing out up to 0.9 rad (a raised knee lifts them), never in past their shape, sideways 0.12, twist 0.1; springs bring them back')
+        L.append('\t<constraint-group>'); L += [f'\t\t<generic-constraint bodyA="{N.flap(k, 1)}" bodyB="{N.flap(k, 0)}"/>' for k in range(nfl)]; L.append('\t</constraint-group>')
+    if rig.has_bag:
+        L += C.chain_default(C.BAG_LIM, 'bag: swings out 0.7 rad, barely in (it hangs against the hip), sideways 0.45, twist 0.3, a little give; light springs bring it back')
+        L += ['\t<constraint-group>', f'\t\t<generic-constraint bodyA="{N.bag(1)}" bodyB="{N.bag(0)}"/>', '\t</constraint-group>']
+    if xb:
+        bl = Dz.get('bag_lim', C.BAG_LIM)
+        L += C.chain_default(bl, f'bags / pouches: swing out {-bl["lo"][0]} rad, in {bl["hi"][0]}, sideways {bl["hi"][1]}, twist {bl["hi"][2]}; spring {bl.get("astiff", 0)}')
+        L += ['\t<constraint-group>'] + [f'\t\t<generic-constraint bodyA="{N.xbag(k, 1)}" bodyB="{N.xbag(k, 0)}"/>' for k in range(len(xb))] + ['\t</constraint-group>']
+    if npd:
+        pl = Dz['pendant_lim']
+        L += C.chain_default(pl, f'pendants: swing out {-pl["lo"][0]} rad, in {pl["hi"][0]}, sideways {pl["hi"][1]}, twist {pl["hi"][2]}; spring {pl.get("astiff", 0)}')
+        L += ['\t<constraint-group>'] + [f'\t\t<generic-constraint bodyA="{N.pend(k, 1)}" bodyB="{N.pend(k, 0)}"/>' for k in range(npd)] + ['\t</constraint-group>']
+    if has_tip:
+        L += C.chain_default(TIP_LIM, 'belt tip: swings out 0.4 rad per joint, never in past its drawn shape, sideways 0.15; springs hold the drawn shape')
+        L.append('\t<constraint-group>'); L += [f'\t\t<generic-constraint bodyA="{N.tip(r)}" bodyB="{N.tip(r - 1)}"/>' for r in range(1, TIP_N + 1)]; L.append('\t</constraint-group>')
+    ls = thigh_leashes(Dz, rig, N)
+    if ls:
+        L += ['', '\t<!-- thigh leashes: the first swinging bone of every chain within 60 deg of straight ahead / behind is tied to the thigh',
+              '\t     under it (both thighs near the centre line). One-sided: it may lift ahead of the thigh freely but never hang more than the',
+              '\t     slack behind the thigh\'s swing, so a striding thigh cannot outrun the cloth; sideways, twist and all translation are free',
+              '\t     (a lower limit above the upper = free axis). frameInB = the chain bone\'s rest frame in the thigh bone. -->']
+        for bone, th, F, slack in ls:
+            q = quat(F[:3, :3]); o = F[:3, 3]
+            L += ['\t<generic-constraint-default>', '\t\t<frameInB>',
+                  f'\t\t\t<basis x="{q[0]:.6f}" y="{q[1]:.6f}" z="{q[2]:.6f}" w="{q[3]:.6f}"/>', f'\t\t\t<origin x="{o[0]:.4f}" y="{o[1]:.4f}" z="{o[2]:.4f}"/>',
+                  '\t\t</frameInB>', '\t\t<useLinearReferenceFrameA>false</useLinearReferenceFrameA>',
+                  '\t\t<linearLowerLimit x="1" y="1" z="1"/>', '\t\t<linearUpperLimit x="-1" y="-1" z="-1"/>',
+                  '\t\t<angularLowerLimit x="-3" y="1" z="1"/>', f'\t\t<angularUpperLimit x="{slack}" y="-1" z="-1"/>',
+                  '\t\t<linearStiffness x="0" y="0" z="0"/>', '\t\t<angularStiffness x="0" y="0" z="0"/>',
+                  '\t\t<linearDamping x="0" y="0" z="0"/>', '\t\t<angularDamping x="0" y="0" z="0"/>',
+                  '\t\t<linearEquilibrium x="0" y="0" z="0"/>', '\t\t<angularEquilibrium x="0" y="0" z="0"/>', '\t</generic-constraint-default>',
+                  '\t<constraint-group>', f'\t\t<generic-constraint bodyA="{bone}" bodyB="{th}"/>', '\t</constraint-group>']
+        log.append(f'{g}: {len(ls)} thigh leashes (slack {ls[0][3]}) on chains ' + ' '.join(sorted({b.split()[-2][-2:] for b, *_ in ls})))
+    L += ['', '\t<!-- collisions -->']
+    lm = Dz.get('lining_margin', 0.1)
+    for reg in getattr(rig, 'lining_regions', N.SIDES):
+        s1 = reg.split()[0][0]       # F / S / B: the matching one-sided leg piece
+        L += shape('per-vertex-shape', N.skc(reg), f'skirt{s1}', lm, can=(f'legs{s1}', 'ground'))
+    L += ['\t<!-- the skirt\'s outer surface where the hanging pieces rest (pulled in so they rest clear of it) -->']
+    tipc = cfg.get('tip_collide', Dz.get('tip_collide', False)) and has_tip      # tails never collide
+    sko_can = (('flap',) if nfl else ()) + (('tip',) if tipc else ()) + (('bag',) if (rig.has_bag or xb) else ())
+    if sko_can: L += shape('per-triangle-shape', N.SKO, 'skirtouter', 0.1, can=sko_can, pen=2.0)
+    if nfl: L += shape('per-vertex-shape', N.FLP, 'flap', 0.15, can=('skirtouter', 'legsF', 'legsS', 'legsB'))
+    if rig.has_bag: L += shape('per-vertex-shape', N.BAGC, 'bag', 0.15, can=('skirtouter', 'legsF', 'legsS', 'legsB'))
+    for k in range(len(xb)): L += shape('per-vertex-shape', N.xbagc(k), 'bag', 0.15, can=('skirtouter', 'legsF', 'legsS', 'legsB'))
+    if has_flo:
+        L += shape('per-triangle-shape', N.FLO, 'flapouter', 0.1, can=('tip',), pen=1.0)
+    if tipc: L += shape('per-vertex-shape', N.TIPC, 'tip', 0.1, can=('skirtouter',) + cfg.get('tip_legs', Dz.get('tip_legs', ('legsF', 'legsS', 'legsB'))) + (('flapouter',) if has_flo else ()))
+    L += ['</system>', '']
+    path = STAGE + cfg['xml'].replace('\\', '/'); os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w', encoding='utf-8', newline='\r\n') as f: f.write('\n'.join(L))
+    log.append(f'{g}: wrote {cfg["xml"]} ({len(L)} lines)' +
+               (f'; chains linked across slits only above the slit tops {[(a, b, round(t, 1)) for a, b, t in links if t is not None]}' if rig.slits else '; no slits: neighbouring chains linked all round'))
+
+
+# ------------------------------------------------------------------ women: slider data + osp set
+def bodyslide(design, g, rec, shared, log):
+    cfg = DESIGNS[design][g]; fp = shared['f_paths']
+    magic, ver, entries = read_osd(fp['osd'])
+    ss = copy.deepcopy(fp['ss']); osd_name = fp['srcfile'][:-4] + '.osd'
+    T = rec['T']; nverts = {t.name: len(t.pos) for t in T}
+    data = C.slider_data(ss, entries, set(nverts), nverts)
+    lb = shared.get(('legs_body', '1'))
+    added_sl = []
+    if lb is not None:          # the body's slider data goes onto the leg colliders - only sliders the set has (the visible
+        have = {sl.get('name') for sl in ss.findall('Slider')}       # dress ignores the others too, so both stay in step)
+        for sname, arr in lb.sliders.items():
+            if sname in have: data.setdefault(sname, {})[lb.name] = arr
+            else: added_sl.append(sname)
+        log.append(f'{g}: leg colliders take {len(lb.sliders) - len(added_sl)} body sliders' + (f' (not in the set, skipped: {added_sl})' if added_sl else ''))
+
+    def dense(prov_entry, per_src):
+        kind = prov_entry[0]
+        if isinstance(kind, np.ndarray):                   # (names, keys, idx) - a source shape's own subset
+            names, keys, idx = prov_entry; arr = per_src.get(names[0]) if len(names) else None
+            return None if arr is None else arr[idx]
+        if kind == 'piece':
+            p = prov_entry[1]; arr = per_src.get(p.src)
+            if arr is None: return None
+            Dd = np.zeros((len(p.pos), 3)); n0 = p.n0 or len(p.pos)
+            Dd[:n0] = arr[p.src_idx[:n0]]
+            for j, (a, b) in enumerate(p.mids): Dd[n0 + j] = (Dd[a] + Dd[b]) / 2
+            return Dd
+        if kind == 'copy':
+            arr = per_src.get(prov_entry[1]); return None if arr is None else arr[prov_entry[2]]
+        if kind == 'multi':
+            outs = [dense(('piece', p), per_src) for p, idx in prov_entry[1]]
+            if all(o is None for o in outs): return None
+            return np.vstack([(o[idx] if o is not None else np.zeros((len(idx), 3))) for o, (p, idx) in zip(outs, prov_entry[1])])
+        if isinstance(prov_entry[0], np.ndarray):       # (names, keys, idx) - a source shape's own subset
+            names, keys, idx = prov_entry; arr = per_src.get(names[0]) if len(names) else None
+            return None if arr is None else arr[idx]
+        raise RuntimeError(kind)
+    written = list(rec['parts'])
+    gone = [nm for nm in nverts if nm not in written]
+    # rebuild the set's shapes and data from scratch for every written shape
+    for el in list(ss.findall('Shape')): ss.remove(el)
+    kids = list(ss); at = next(i for i, el in enumerate(kids) if el.tag == 'Slider')
+    for i, nm in enumerate(written):
+        e = ET.Element('Shape', {'target': nm}); e.text = nm; ss.insert(at + i, e)
+    old_keys = set()
+    for sl in ss.findall('Slider'):
+        for d in list(sl.findall('Data')): old_keys.add(d.text.split('\\', 1)[1]); sl.remove(d)
+    keep_entries = [(k, d) for k, d in entries if k not in old_keys]
+    new_entries = []; n_new = 0
+    for sl in ss.findall('Slider'):
+        sname = sl.get('name'); per_src = data.get(sname, {})
+        for nm in written:
+            pe = rec['prov'].get(nm)
+            if pe is None: continue
+            Dd = dense(pe, per_src)
+            if Dd is None: continue
+            nd = {i: tuple(float(c) for c in x) for i, x in enumerate(Dd) if np.abs(x).max() > 1e-6}
+            if not nd: continue
+            key = nm + sname
+            new_entries.append((key, nd)); n_new += 1
+            ET.SubElement(sl, 'Data', {'name': key, 'target': nm, 'local': 'true'}).text = f'{osd_name}\\{key}'
+    final = keep_entries + new_entries
+    for k, d in final:
+        if len(d) > 65535: raise RuntimeError(f'{k}: too many diffs')
+    out_osd = STAGE + f'CalienteTools/BodySlide/ShapeData/{fp["folder"]}/{osd_name}'
+    write_osd(out_osd, magic, ver, final)
+    osp = STAGE + 'CalienteTools/BodySlide/SliderSets/' + os.path.basename(cfg['osp'])
+    if not os.path.exists(osp):                        # our copy of the project file (same name = it overrides the original), sets replaced one by one
+        os.makedirs(os.path.dirname(osp), exist_ok=True); shutil.copy(cfg['osp'], osp)
+    tree = ET.parse(osp); root = tree.getroot()
+    i = next(i for i, s in enumerate(list(root)) if s.tag == 'SliderSet' and s.get('name') == cfg['set'])
+    root.remove(list(root)[i]); root.insert(i, ss)
+    ET.indent(tree, '    '); tree.write(osp, encoding='UTF-8', xml_declaration=True)
+    log.append(f'{g}: osd {len(final)} entries ({n_new} written for {len(written)} shapes; removed shapes {gone}); osp set rebuilt from the original set')
+
+
+def skel_of(path, N):
+    n = NifFile(path); out = []
+    for sh in n.shapes:
+        if sh.name in N.hidden:
+            for b in sh.bone_names:
+                if not N.is_phys(b) and b not in out: out.append(b)
+    return sorted(out)
+
+
+def main(design, which):
+    Dz = DESIGNS[design]; N = Names(Dz['prefix']); log, rep = [f'===== {design}'], {}
+    for g in which:
+        cfg = Dz['targets'][g]; Dz[g] = cfg
+        shared, rec = {}, {}
+        outs = [build(design, g, v, shared, log, rec=rec if v == '1' else None) for v in (('1', '0') if cfg['mode'] == 'nif' else ('1',))]
+        if cfg['mode'] == 'bodyslide': bodyslide(design, g, rec, shared, log)
+        rig = shared['rig']
+        write_xml(design, g, rig, skel_of(outs[0], N), N.FLO in rec['parts'], log)
+        rep[g] = dict(mode=cfg['mode'], outs=outs, xml=cfg['xml'], centre=[rig.cx, rig.cy], slits=rig.slits, tops=rig.tops, ang_k=rig.ang_k,
+                      panels=rig.panels, rows={str(k): v for k, v in rig.rows.items()}, tip_rows=rig.tip_rows,
+                      bones={nm: x.tolist() for nm, x in rig.G.items()}, parent=rig.parent, rest=shared['rest'],
+                      copies={nm: (None if pe[0] == 'copy' and pe[1] == LEGS_BODY else _copy_map(pe))
+                              for nm, pe in rec['prov'].items() if nm in N.hidden and nm != N.GROUND} if cfg['mode'] == 'bodyslide' else {})
+        if cfg.get('legs_body'):        # leg colliders made from the body's own mesh: verify_rig.py checks them against it
+            lbs = shared[('legs_body', '1')]
+            parts_ = [{k: v for k, v in p_.items() if k != 'extra'} for p_ in [cfg['legs_body']] + list(cfg['legs_body'].get('extra', []))]
+            rep[g]['legs_body'] = dict(parts=parts_, copies={nm: [list(lbs.src_idx[i]) for i in pe[2]] for nm, pe in rec['prov'].items()
+                                                             if isinstance(pe[0], str) and pe[0] == 'copy' and pe[1] == LEGS_BODY})
+    rp = WORK + f'{design}_report.json'
+    old = json.load(open(rp)) if os.path.exists(rp) else {}
+    old.update(rep); json.dump(old, open(rp, 'w'), indent=1)
+    open(WORK + f'{design}_build.log', 'w', encoding='utf-8').write('\n'.join(log) + '\n')
+    print('\n'.join(log))
+    print(f'report: {rp}')
+
+
+def _copy_map(pe):
+    """hidden copy -> list of [visible shape it was made from, its point index there] per copy point"""
+    if pe[0] == 'copy': return [[pe[1], int(i)] for i in pe[2]]
+    if pe[0] == 'multi': return [list(p.panel_map[int(i)]) if hasattr(p, 'panel_map') else [p.name, int(i)] for p, idx in pe[1] for i in idx]
+    return None
+
+
+
+def use_design(path):
+    """load a design file and make it the current design (also used by the check scripts)"""
+    global STAGE, WORK
+    d = smpkit.load_design(path)
+    for k, const in OVERRIDES.items():
+        if k in d: globals()[const] = type(globals()[const])(d[k])
+    ph = d.get('phys')
+    if isinstance(ph, str):
+        if ph not in PRESETS: raise RuntimeError(f'phys {ph!r}: not one of {sorted(PRESETS)}')
+        d.setdefault('free_max', PRESET_FREE_MAX.get(ph, FREE_MAX)); d['phys'] = PRESETS[ph]
+    for g, t in d['targets'].items():
+        d[g] = t
+        t.setdefault('drop', ()); t.setdefault('subdiv', ()); t.setdefault('slits', True); t.setdefault('ramp', 6.0)
+        if t.get('legs_body'): t['pants'] = LEGS_BODY
+        if 'axis_z' not in t: t['axis_z'] = (t['sk_belt'] - 10.0, t['sk_belt'] - 2.0)   # skirt axis from the hips just under the belt
+        elif t['axis_z'] == 'top': t['axis_z'] = None                                    # ... or from the skirt's own top edge
+    DESIGNS[d['name']] = d; STAGE, WORK = d['stage'], d['work']
+    return d
+
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2: print(__doc__); sys.exit(1)
+    d = use_design(sys.argv[1])
+    which = sys.argv[2:] or list(d['targets'])
+    bad = [g for g in which if g not in d['targets']]
+    if bad: raise SystemExit(f'no target(s) {bad} in the design (has {list(d["targets"])})')
+    main(d['name'], which)

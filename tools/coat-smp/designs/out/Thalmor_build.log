@@ -1,0 +1,18 @@
+===== Thalmor
+piece Robe <- ThalmorRobes ('islands', 0, {1467: 94, 1759: 373, 1776: 75, 1826: 94, 2745: 43, 4557: 771, 4786: 85, 4908: 105, 4921: 15, 4955: 105, 4957: 15}, (), 74.0): 1469 pts / 2383 tris (skirt:outer)
+piece Sash <- ThalmorRobes ('islands', 0, {2759: 123, 2760: 51}, (), 74.0): 174 pts / 269 tris (pendants)
+skirt axis (0.06, 6.08); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:73.0/72.8/72.6/72.4/72.3/72.1/71.9/71.7; 30:73.0/72.9/72.7/72.6/72.4/72.3/72.1/72.0; 60:73.0/63.0/53.0/43.1/33.1/23.1/13.1/3.1; 90:73.0/63.1/53.2/43.3/33.5/23.6/13.7/3.8; 120:73.0/63.2/53.3/43.5/33.6/23.8/13.9/4.1; 150:73.0/63.2/53.3/43.5/33.7/23.8/14.0/4.2; -180:73.0/63.2/53.4/43.6/33.8/24.0/14.2/4.4; -150:73.0/63.2/53.3/43.5/33.7/23.8/14.0/4.1; -120:73.0/63.2/53.4/43.5/33.7/23.9/14.1/4.2; -90:73.0/63.1/53.3/43.4/33.5/23.6/13.8/3.9; -60:73.0/63.0/53.1/43.1/33.1/23.1/13.2/3.2; -30:73.0/72.8/72.7/72.5/72.3/72.2/72.0/71.8
+pendants Sash: 1 hinges from 1 components (z tops 74)
+tip rows ; flap hinges 
+legs from ThalmorRobes (1488 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.30 median 2.24; free share p10 0.05 median 0.58
+m: Robe is cut out of ThalmorRobes: 69 seam points (z 70.7..74.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 1469 pts (961 move); tip 0 pts
+m: legs collider pulled in at 223 of 826 pts (max 3.00); lining points Robe 462/462
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 762 pts
+m_1: wrote meshes/clothes/thalmor/thalmorrobesm_1.nif; shapes (pts, tris) {'ThalmorRobes': (3465, 5862), 'Robe': (754, 1184), 'Sash': (174, 269), 'Collar': (210, 336), 'Robe 2': (762, 1199), 'ATH Legs Front': (379, 595), 'ATH Legs Back': (401, 614), 'ATH Legs Side': (592, 817), 'ATH Skirt Front': (83, 60), 'ATH Skirt Side': (256, 302), 'ATH Skirt Back': (123, 162), 'VirtualGround': (4, 2)}; bones per shape {'ThalmorRobes': 23, 'Robe': 47, 'Sash': 5, 'Collar': 5, 'Robe 2': 43, 'ATH Legs Front': 8, 'ATH Legs Back': 9, 'ATH Legs Side': 9, 'ATH Skirt Front': 13, 'ATH Skirt Side': 49, 'ATH Skirt Back': 33, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/thalmor/thalmorrobesm_0.nif; shapes (pts, tris) {'ThalmorRobes': (3465, 5862), 'Robe': (754, 1184), 'Sash': (174, 269), 'Collar': (210, 336), 'Robe 2': (762, 1199), 'ATH Legs Front': (379, 595), 'ATH Legs Back': (401, 614), 'ATH Legs Side': (592, 817), 'ATH Skirt Front': (83, 60), 'ATH Skirt Side': (256, 303), 'ATH Skirt Back': (123, 162), 'VirtualGround': (4, 2)}; bones per shape {'ThalmorRobes': 23, 'Robe': 47, 'Sash': 5, 'Collar': 5, 'Robe 2': 43, 'ATH Legs Front': 8, 'ATH Legs Back': 9, 'ATH Legs Side': 9, 'ATH Skirt Front': 13, 'ATH Skirt Side': 49, 'ATH Skirt Back': 33, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\ThalmorM.xml (535 lines); no slits: neighbouring chains linked all round

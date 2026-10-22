@@ -1,0 +1,17 @@
+== VampClothes m _1: vampclothesm_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 659, Skirt Side 686, Skirt Back 426
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      3002     674    1090        0    1238   worst frame unseen 149
+      Skirt Front          entered   819 hooked  701 unseen   60  unseen z p10 44.0 p50 47.3 p90 47.5
+      Skirt Side           entered  1943 hooked  389 unseen  943  unseen z p10 46.9 p50 48.6 p90 60.4
+      Skirt Back           entered   240 hooked    0 unseen  235  unseen z p10 59.4 p50 60.7 p90 61.6
+   run          10       934     241     315        0     378   worst frame unseen 73
+      Skirt Front          entered   247 hooked  198 unseen   47  unseen z p10 47.3 p50 47.5 p90 59.8
+      Skirt Side           entered   542 hooked  117 unseen  202  unseen z p10 50.8 p50 59.6 p90 60.9
+      Skirt Back           entered   145 hooked    0 unseen  129  unseen z p10 44.8 p50 60.7 p90 61.6
+   sprint       10       979     320     270        0     389   worst frame unseen 135
+      Skirt Front          entered   300 hooked  181 unseen   38  unseen z p10 47.0 p50 47.2 p90 57.7
+      Skirt Side           entered   533 hooked   86 unseen  251  unseen z p10 47.2 p50 56.8 p90 60.9
+      Skirt Back           entered   146 hooked    3 unseen  100  unseen z p10 51.1 p50 60.7 p90 61.6
+SUMMARY clips worst unseen/frame: 149
+
+EXIT 0

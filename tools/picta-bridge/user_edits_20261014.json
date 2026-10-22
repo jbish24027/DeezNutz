@@ -1,0 +1,95 @@
+{
+ "note": "In-game Effects 11 editor saves of 2026-10-14 15:01 and 15:18 (user). Re-apply on top of any picta_darken_v3_full.py --write rebuild.",
+ "edits": {
+  "enbseries.ini": {
+   "EFFECT": {
+    "EnableLens": "true"
+   },
+   "BLOOM": {
+    "AmountDawn": "0.15",
+    "AmountSunrise": "0.15",
+    "AmountDay": "0.15",
+    "AmountSunset": "0.15",
+    "AmountDusk": "0.15",
+    "AmountNight": "0.15",
+    "AmountInteriorDay": "0.15",
+    "AmountInteriorNight": "0.15"
+   },
+   "ENVIRONMENT": {
+    "DirectLightingIntensityDawn": "1.0",
+    "DirectLightingIntensitySunrise": "1.0",
+    "DirectLightingIntensityDay": "1.0",
+    "DirectLightingIntensitySunset": "1.0",
+    "DirectLightingIntensityDusk": "1.0",
+    "DirectLightingIntensityNight": "1.0",
+    "DirectLightingCurveDawn": "1.0",
+    "DirectLightingCurveSunrise": "1.0",
+    "DirectLightingCurveDay": "1.0",
+    "DirectLightingCurveSunset": "1.0",
+    "DirectLightingCurveDusk": "1.0",
+    "DirectLightingCurveNight": "1.0",
+    "AmbientLightingIntensityInteriorDay": "0.97",
+    "AmbientLightingDesaturationSunrise": "0.0",
+    "AmbientLightingDesaturationDay": "0.0",
+    "AmbientLightingDesaturationSunset": "0.0",
+    "AmbientLightingDesaturationNight": "0.0",
+    "PointLightingIntensityDawn": "0.25",
+    "PointLightingIntensitySunrise": "0.25",
+    "PointLightingIntensityDay": "0.25",
+    "PointLightingIntensitySunset": "0.25",
+    "PointLightingIntensityDusk": "0.25",
+    "PointLightingIntensityNight": "0.25",
+    "PointLightingIntensityInteriorDay": "1.05",
+    "PointLightingIntensityInteriorNight": "0.23",
+    "PointLightingCurveDawn": "2.42",
+    "PointLightingCurveSunrise": "2.42",
+    "PointLightingCurveDay": "2.42",
+    "PointLightingCurveSunset": "2.42",
+    "PointLightingCurveDusk": "2.42",
+    "PointLightingCurveNight": "2.42",
+    "PointLightingCurveInteriorDay": "2.42",
+    "PointLightingCurveInteriorNight": "4.0",
+    "PointLightingDesaturationDawn": "0.0",
+    "PointLightingDesaturationSunrise": "0.0",
+    "PointLightingDesaturationDay": "0.0",
+    "PointLightingDesaturationSunset": "0.0",
+    "PointLightingDesaturationDusk": "0.0",
+    "PointLightingDesaturationNight": "0.0"
+   },
+   "LIGHTSPRITE": {
+    "IntensityInteriorDay": "0.42",
+    "CurveDawn": "3.37",
+    "CurveSunrise": "3.37",
+    "CurveDay": "3.37",
+    "CurveSunset": "3.37",
+    "CurveDusk": "3.37",
+    "CurveNight": "3.37",
+    "CurveInteriorDay": "3.37",
+    "CurveInteriorNight": "3.37"
+   },
+   "FIRE": {
+    "IntensityDawn": "1.19",
+    "IntensitySunrise": "1.19",
+    "IntensityDay": "1.19",
+    "IntensitySunset": "1.19",
+    "IntensityDusk": "1.19",
+    "IntensityNight": "1.19",
+    "IntensityInteriorDay": "1.19",
+    "IntensityInteriorNight": "1.19",
+    "CurveDawn": "3.51",
+    "CurveSunrise": "3.51",
+    "CurveDay": "3.51",
+    "CurveSunset": "3.51",
+    "CurveDusk": "3.51",
+    "CurveNight": "3.51",
+    "CurveInteriorDay": "3.51",
+    "CurveInteriorNight": "3.51"
+   }
+  },
+  "enbseries/Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini": {
+   "IMAGEBASEDLIGHTING": {
+    "MultiplicativeAmountDay": "0.0"
+   }
+  }
+ }
+}

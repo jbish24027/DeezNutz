@@ -1,0 +1,1381 @@
+[
+ {
+  "record_type": "GlobalShort",
+  "editorid": "AuthKBS_CanHand",
+  "ops": [
+   {
+    "field_path": "Data",
+    "value": "0"
+   }
+  ]
+ },
+ {
+  "record_type": "FormList",
+  "editorid": "AuthKBS_BabyItems",
+  "ops": [
+   {
+    "field_path": "Items",
+    "op": "ReplaceAll",
+    "values": [
+     "05D17D:BeeingFemale.esm",
+     "05D17E:BeeingFemale.esm",
+     "05D182:BeeingFemale.esm",
+     "05D183:BeeingFemale.esm",
+     "061CFF:BeeingFemale.esm",
+     "061D00:BeeingFemale.esm",
+     "061D01:BeeingFemale.esm",
+     "061D02:BeeingFemale.esm",
+     "061D03:BeeingFemale.esm",
+     "061D04:BeeingFemale.esm"
+    ]
+   }
+  ]
+ },
+ {
+  "record_type": "Message",
+  "editorid": "AuthKBS_CribMenuEmpty",
+  "ops": [
+   {
+    "field_path": "Description",
+    "value": "The crib is empty."
+   },
+   {
+    "field_path": "Flags",
+    "value": "MessageBox"
+   },
+   {
+    "field_path": "MenuButtons",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "MessageButton",
+      "sets": [
+       {
+        "path": "Text",
+        "value": "Lay the baby down"
+       }
+      ]
+     },
+     {
+      "type": "MessageButton",
+      "sets": [
+       {
+        "path": "Text",
+        "value": "Fold up the crib"
+       }
+      ]
+     },
+     {
+      "type": "MessageButton",
+      "sets": [
+       {
+        "path": "Text",
+        "value": "Leave"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "record_type": "Message",
+  "editorid": "AuthKBS_CribMenuFull",
+  "ops": [
+   {
+    "field_path": "Description",
+    "value": "The baby is asleep."
+   },
+   {
+    "field_path": "Flags",
+    "value": "MessageBox"
+   },
+   {
+    "field_path": "MenuButtons",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "MessageButton",
+      "sets": [
+       {
+        "path": "Text",
+        "value": "Pick the baby up"
+       }
+      ]
+     },
+     {
+      "type": "MessageButton",
+      "sets": [
+       {
+        "path": "Text",
+        "value": "Leave"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "record_type": "Quest",
+  "editorid": "AuthKBS_Quest",
+  "ops": [
+   {
+    "field_path": "Name",
+    "value": "Kaidan Holds the Baby"
+   },
+   {
+    "field_path": "Flags",
+    "value": "StartGameEnabled"
+   },
+   {
+    "field_path": "Priority",
+    "value": "60"
+   },
+   {
+    "field_path": "Aliases",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "QuestAlias",
+      "fields": {
+       "ID": "0",
+       "Name": "Player"
+      },
+      "sets": [
+       {
+        "path": "ForcedReference",
+        "value": "000014:Skyrim.esm"
+       }
+      ]
+     },
+     {
+      "type": "QuestAlias",
+      "fields": {
+       "ID": "1",
+       "Name": "Kaidan"
+      },
+      "sets": [
+       {
+        "path": "ForcedReference",
+        "value": "002F9C:0Kaidan.esp"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "QuestAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_QuestScript"
+        },
+        "sets": [
+         {
+          "path": "Properties",
+          "verb": "Add",
+          "compose": {
+           "type": "ScriptObjectProperty",
+           "fields": {
+            "Name": "PlayerRef",
+            "Flags": "Edited",
+            "Object": "000014:Skyrim.esm",
+            "Alias": "-1"
+           }
+          }
+         },
+         {
+          "path": "Properties",
+          "verb": "Add",
+          "compose": {
+           "type": "ScriptObjectProperty",
+           "fields": {
+            "Name": "KaidanRef",
+            "Flags": "Edited",
+            "Object": "002F9C:0Kaidan.esp",
+            "Alias": "-1"
+           }
+          }
+         },
+         {
+          "path": "Properties",
+          "verb": "Add",
+          "compose": {
+           "type": "ScriptObjectProperty",
+           "fields": {
+            "Name": "AuthKBS_BabyItems",
+            "Flags": "Edited",
+            "Object": "@AuthKBS_BabyItems",
+            "Alias": "-1"
+           }
+          }
+         },
+         {
+          "path": "Properties",
+          "verb": "Add",
+          "compose": {
+           "type": "ScriptObjectProperty",
+           "fields": {
+            "Name": "AuthKBS_CanHand",
+            "Flags": "Edited",
+            "Object": "@AuthKBS_CanHand",
+            "Alias": "-1"
+           }
+          }
+         }
+        ]
+       }
+      },
+      {
+       "path": "Aliases",
+       "verb": "Add",
+       "compose": {
+        "type": "QuestFragmentAlias",
+        "sets": [
+         {
+          "path": "Property",
+          "compose": {
+           "type": "ScriptObjectProperty",
+           "fields": {
+            "Name": "",
+            "Flags": "Edited",
+            "Object": "@AuthKBS_Quest",
+            "Alias": "0"
+           }
+          }
+         },
+         {
+          "path": "Scripts",
+          "verb": "Add",
+          "compose": {
+           "type": "ScriptEntry",
+           "fields": {
+            "Name": "AuthKBS_PlayerAlias"
+           },
+           "sets": [
+            {
+             "path": "Properties",
+             "verb": "Add",
+             "compose": {
+              "type": "ScriptObjectProperty",
+              "fields": {
+               "Name": "QuestScript",
+               "Flags": "Edited",
+               "Object": "@AuthKBS_Quest",
+               "Alias": "-1"
+              }
+             }
+            },
+            {
+             "path": "Properties",
+             "verb": "Add",
+             "compose": {
+              "type": "ScriptObjectProperty",
+              "fields": {
+               "Name": "AuthKBS_BabyItems",
+               "Flags": "Edited",
+               "Object": "@AuthKBS_BabyItems",
+               "Alias": "-1"
+              }
+             }
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "path": "Aliases",
+       "verb": "Add",
+       "compose": {
+        "type": "QuestFragmentAlias",
+        "sets": [
+         {
+          "path": "Property",
+          "compose": {
+           "type": "ScriptObjectProperty",
+           "fields": {
+            "Name": "",
+            "Flags": "Edited",
+            "Object": "@AuthKBS_Quest",
+            "Alias": "1"
+           }
+          }
+         },
+         {
+          "path": "Scripts",
+          "verb": "Add",
+          "compose": {
+           "type": "ScriptEntry",
+           "fields": {
+            "Name": "AuthKBS_KaidanAlias"
+           },
+           "sets": [
+            {
+             "path": "Properties",
+             "verb": "Add",
+             "compose": {
+              "type": "ScriptObjectProperty",
+              "fields": {
+               "Name": "QuestScript",
+               "Flags": "Edited",
+               "Object": "@AuthKBS_Quest",
+               "Alias": "-1"
+              }
+             }
+            },
+            {
+             "path": "Properties",
+             "verb": "Add",
+             "compose": {
+              "type": "ScriptObjectProperty",
+              "fields": {
+               "Name": "AuthKBS_BabyItems",
+               "Flags": "Edited",
+               "Object": "@AuthKBS_BabyItems",
+               "Alias": "-1"
+              }
+             }
+            }
+           ]
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "record_type": "MiscItem",
+  "editorid": "AuthKBS_CribFolded",
+  "ops": [
+   {
+    "field_path": "Name",
+    "value": "Folded Crib"
+   },
+   {
+    "field_path": "Model",
+    "compose": {
+     "type": "Model",
+     "fields": {
+      "File": "Authoria\\BabyCrib\\CribEmpty.nif"
+     }
+    }
+   },
+   {
+    "field_path": "Weight",
+    "value": "6"
+   },
+   {
+    "field_path": "Value",
+    "value": "40"
+   }
+  ]
+ },
+ {
+  "record_type": "Container",
+  "editorid": "AuthKBS_CribEmpty",
+  "ops": [
+   {
+    "field_path": "Name",
+    "value": "Crib"
+   },
+   {
+    "field_path": "Model",
+    "compose": {
+     "type": "Model",
+     "fields": {
+      "File": "Authoria\\BabyCrib\\CribEmpty.nif"
+     }
+    }
+   },
+   {
+    "field_path": "Weight",
+    "value": "0"
+   }
+  ]
+ },
+ {
+  "record_type": "Container",
+  "editorid": "AuthKBS_CribFull",
+  "ops": [
+   {
+    "field_path": "Name",
+    "value": "Crib"
+   },
+   {
+    "field_path": "Model",
+    "compose": {
+     "type": "Model",
+     "fields": {
+      "File": "Authoria\\BabyCrib\\CribBaby.nif"
+     }
+    }
+   },
+   {
+    "field_path": "Weight",
+    "value": "0"
+   }
+  ]
+ },
+ {
+  "record_type": "ConstructibleObject",
+  "editorid": "AuthKBS_CribRecipe",
+  "ops": [
+   {
+    "field_path": "CreatedObject",
+    "value": "@AuthKBS_CribFolded"
+   },
+   {
+    "field_path": "CreatedObjectCount",
+    "value": "1"
+   },
+   {
+    "field_path": "WorkbenchKeyword",
+    "value": "07866A:Skyrim.esm"
+   },
+   {
+    "field_path": "Items",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ContainerEntry",
+      "sets": [
+       {
+        "path": "Item",
+        "compose": {
+         "type": "ContainerItem",
+         "fields": {
+          "Item": "06F993:Skyrim.esm",
+          "Count": "4"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "type": "ContainerEntry",
+      "sets": [
+       {
+        "path": "Item",
+        "compose": {
+         "type": "ContainerItem",
+         "fields": {
+          "Item": "0800E4:Skyrim.esm",
+          "Count": "3"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "type": "ContainerEntry",
+      "sets": [
+       {
+        "path": "Item",
+        "compose": {
+         "type": "ContainerItem",
+         "fields": {
+          "Item": "0DB5D2:Skyrim.esm",
+          "Count": "1"
+         }
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "record_type": "DialogBranch",
+  "editorid": "AuthKBS_GiveBranch",
+  "ops": [
+   {
+    "field_path": "Quest",
+    "value": "@AuthKBS_Quest"
+   },
+   {
+    "field_path": "Flags",
+    "value": "TopLevel"
+   }
+  ]
+ },
+ {
+  "record_type": "DialogTopic",
+  "editorid": "AuthKBS_GiveTopic",
+  "ops": [
+   {
+    "field_path": "Name",
+    "value": "Can you hold the baby for a while?"
+   },
+   {
+    "field_path": "Quest",
+    "value": "@AuthKBS_Quest"
+   },
+   {
+    "field_path": "Branch",
+    "value": "@AuthKBS_GiveBranch"
+   },
+   {
+    "field_path": "Category",
+    "value": "Topic"
+   },
+   {
+    "field_path": "Subtype",
+    "value": "Custom"
+   },
+   {
+    "field_path": "Priority",
+    "value": "50"
+   }
+  ]
+ },
+ {
+  "record_type": "DialogBranch",
+  "editorid": "AuthKBS_TakeBranch",
+  "ops": [
+   {
+    "field_path": "Quest",
+    "value": "@AuthKBS_Quest"
+   },
+   {
+    "field_path": "Flags",
+    "value": "TopLevel"
+   }
+  ]
+ },
+ {
+  "record_type": "DialogTopic",
+  "editorid": "AuthKBS_TakeTopic",
+  "ops": [
+   {
+    "field_path": "Name",
+    "value": "I'll take the baby back now."
+   },
+   {
+    "field_path": "Quest",
+    "value": "@AuthKBS_Quest"
+   },
+   {
+    "field_path": "Branch",
+    "value": "@AuthKBS_TakeBranch"
+   },
+   {
+    "field_path": "Category",
+    "value": "Topic"
+   },
+   {
+    "field_path": "Subtype",
+    "value": "Custom"
+   },
+   {
+    "field_path": "Priority",
+    "value": "50"
+   }
+  ]
+ },
+ {
+  "record_type": "DialogResponses",
+  "editorid": "AuthKBS_Give_1",
+  "parent": "AuthKBS_GiveTopic",
+  "ops": [
+   {
+    "field_path": "Responses",
+    "op": "Add",
+    "compose": {
+     "type": "DialogResponse",
+     "fields": {
+      "Emotion": "Happy",
+      "EmotionValue": "50",
+      "ResponseNumber": "1"
+     },
+     "sets": [
+      {
+       "path": "Text",
+       "value": "Come here, little one. I've got you."
+      }
+     ]
+    }
+   },
+   {
+    "field_path": "Flags",
+    "compose": {
+     "type": "DialogResponseFlags",
+     "fields": {
+      "Flags": "Random"
+     }
+    }
+   },
+   {
+    "field_path": "Conditions",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetIsIDConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Object",
+           "value": "002F9A:0Kaidan.esp"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetGlobalValueConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Global",
+           "value": "@AuthKBS_CanHand"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "0"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetItemCountConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "ItemOrList",
+           "value": "@AuthKBS_BabyItems"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "DialogResponsesAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_TIF_Give"
+        }
+       }
+      },
+      {
+       "path": "ScriptFragments.FileName",
+       "value": "AuthKBS_TIF_Give"
+      },
+      {
+       "path": "ScriptFragments.OnEnd",
+       "compose": {
+        "type": "ScriptFragment",
+        "fields": {
+         "ScriptName": "AuthKBS_TIF_Give",
+         "FragmentName": "Fragment_0"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "record_type": "DialogResponses",
+  "editorid": "AuthKBS_Give_2",
+  "parent": "AuthKBS_GiveTopic",
+  "ops": [
+   {
+    "field_path": "Responses",
+    "op": "Add",
+    "compose": {
+     "type": "DialogResponse",
+     "fields": {
+      "Emotion": "Happy",
+      "EmotionValue": "50",
+      "ResponseNumber": "1"
+     },
+     "sets": [
+      {
+       "path": "Text",
+       "value": "Hand them over, love. Go on, I'll keep them safe."
+      }
+     ]
+    }
+   },
+   {
+    "field_path": "Flags",
+    "compose": {
+     "type": "DialogResponseFlags",
+     "fields": {
+      "Flags": "Random"
+     }
+    }
+   },
+   {
+    "field_path": "Conditions",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetIsIDConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Object",
+           "value": "002F9A:0Kaidan.esp"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetGlobalValueConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Global",
+           "value": "@AuthKBS_CanHand"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "0"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetItemCountConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "ItemOrList",
+           "value": "@AuthKBS_BabyItems"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "DialogResponsesAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_TIF_Give"
+        }
+       }
+      },
+      {
+       "path": "ScriptFragments.FileName",
+       "value": "AuthKBS_TIF_Give"
+      },
+      {
+       "path": "ScriptFragments.OnEnd",
+       "compose": {
+        "type": "ScriptFragment",
+        "fields": {
+         "ScriptName": "AuthKBS_TIF_Give",
+         "FragmentName": "Fragment_0"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "record_type": "DialogResponses",
+  "editorid": "AuthKBS_Give_3",
+  "parent": "AuthKBS_GiveTopic",
+  "ops": [
+   {
+    "field_path": "Responses",
+    "op": "Add",
+    "compose": {
+     "type": "DialogResponse",
+     "fields": {
+      "Emotion": "Happy",
+      "EmotionValue": "50",
+      "ResponseNumber": "1"
+     },
+     "sets": [
+      {
+       "path": "Text",
+       "value": "Look at that face. Aye, I've got them. Take a breath, lass."
+      }
+     ]
+    }
+   },
+   {
+    "field_path": "Flags",
+    "compose": {
+     "type": "DialogResponseFlags",
+     "fields": {
+      "Flags": "Random, RandomEnd"
+     }
+    }
+   },
+   {
+    "field_path": "Conditions",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetIsIDConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Object",
+           "value": "002F9A:0Kaidan.esp"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetGlobalValueConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Global",
+           "value": "@AuthKBS_CanHand"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "0"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetItemCountConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "ItemOrList",
+           "value": "@AuthKBS_BabyItems"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "DialogResponsesAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_TIF_Give"
+        }
+       }
+      },
+      {
+       "path": "ScriptFragments.FileName",
+       "value": "AuthKBS_TIF_Give"
+      },
+      {
+       "path": "ScriptFragments.OnEnd",
+       "compose": {
+        "type": "ScriptFragment",
+        "fields": {
+         "ScriptName": "AuthKBS_TIF_Give",
+         "FragmentName": "Fragment_0"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "record_type": "DialogResponses",
+  "editorid": "AuthKBS_Take_1",
+  "parent": "AuthKBS_TakeTopic",
+  "ops": [
+   {
+    "field_path": "Responses",
+    "op": "Add",
+    "compose": {
+     "type": "DialogResponse",
+     "fields": {
+      "Emotion": "Happy",
+      "EmotionValue": "50",
+      "ResponseNumber": "1"
+     },
+     "sets": [
+      {
+       "path": "Text",
+       "value": "Here you go, back to your mama. No trouble at all."
+      }
+     ]
+    }
+   },
+   {
+    "field_path": "Flags",
+    "compose": {
+     "type": "DialogResponseFlags",
+     "fields": {
+      "Flags": "Random"
+     }
+    }
+   },
+   {
+    "field_path": "Conditions",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetIsIDConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Object",
+           "value": "002F9A:0Kaidan.esp"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "GreaterThan",
+       "ComparisonValue": "0"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetItemCountConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "ItemOrList",
+           "value": "@AuthKBS_BabyItems"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "DialogResponsesAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_TIF_Take"
+        }
+       }
+      },
+      {
+       "path": "ScriptFragments.FileName",
+       "value": "AuthKBS_TIF_Take"
+      },
+      {
+       "path": "ScriptFragments.OnEnd",
+       "compose": {
+        "type": "ScriptFragment",
+        "fields": {
+         "ScriptName": "AuthKBS_TIF_Take",
+         "FragmentName": "Fragment_0"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "record_type": "DialogResponses",
+  "editorid": "AuthKBS_Take_2",
+  "parent": "AuthKBS_TakeTopic",
+  "ops": [
+   {
+    "field_path": "Responses",
+    "op": "Add",
+    "compose": {
+     "type": "DialogResponse",
+     "fields": {
+      "Emotion": "Happy",
+      "EmotionValue": "50",
+      "ResponseNumber": "1"
+     },
+     "sets": [
+      {
+       "path": "Text",
+       "value": "Already? They like me better, you know."
+      }
+     ]
+    }
+   },
+   {
+    "field_path": "Flags",
+    "compose": {
+     "type": "DialogResponseFlags",
+     "fields": {
+      "Flags": "Random"
+     }
+    }
+   },
+   {
+    "field_path": "Conditions",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetIsIDConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Object",
+           "value": "002F9A:0Kaidan.esp"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "GreaterThan",
+       "ComparisonValue": "0"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetItemCountConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "ItemOrList",
+           "value": "@AuthKBS_BabyItems"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "DialogResponsesAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_TIF_Take"
+        }
+       }
+      },
+      {
+       "path": "ScriptFragments.FileName",
+       "value": "AuthKBS_TIF_Take"
+      },
+      {
+       "path": "ScriptFragments.OnEnd",
+       "compose": {
+        "type": "ScriptFragment",
+        "fields": {
+         "ScriptName": "AuthKBS_TIF_Take",
+         "FragmentName": "Fragment_0"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "record_type": "DialogResponses",
+  "editorid": "AuthKBS_Take_3",
+  "parent": "AuthKBS_TakeTopic",
+  "ops": [
+   {
+    "field_path": "Responses",
+    "op": "Add",
+    "compose": {
+     "type": "DialogResponse",
+     "fields": {
+      "Emotion": "Happy",
+      "EmotionValue": "50",
+      "ResponseNumber": "1"
+     },
+     "sets": [
+      {
+       "path": "Text",
+       "value": "Careful now. They only just dozed off."
+      }
+     ]
+    }
+   },
+   {
+    "field_path": "Flags",
+    "compose": {
+     "type": "DialogResponseFlags",
+     "fields": {
+      "Flags": "Random, RandomEnd"
+     }
+    }
+   },
+   {
+    "field_path": "Conditions",
+    "op": "ReplaceAll",
+    "composes": [
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "EqualTo",
+       "ComparisonValue": "1"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetIsIDConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "Object",
+           "value": "002F9A:0Kaidan.esp"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "type": "ConditionFloat",
+      "fields": {
+       "CompareOperator": "GreaterThan",
+       "ComparisonValue": "0"
+      },
+      "sets": [
+       {
+        "path": "Data",
+        "compose": {
+         "type": "GetItemCountConditionData",
+         "fields": {
+          "RunOnType": "Subject"
+         },
+         "sets": [
+          {
+           "path": "ItemOrList",
+           "value": "@AuthKBS_BabyItems"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field_path": "VirtualMachineAdapter",
+    "compose": {
+     "type": "DialogResponsesAdapter",
+     "sets": [
+      {
+       "path": "Scripts",
+       "verb": "Add",
+       "compose": {
+        "type": "ScriptEntry",
+        "fields": {
+         "Name": "AuthKBS_TIF_Take"
+        }
+       }
+      },
+      {
+       "path": "ScriptFragments.FileName",
+       "value": "AuthKBS_TIF_Take"
+      },
+      {
+       "path": "ScriptFragments.OnEnd",
+       "compose": {
+        "type": "ScriptFragment",
+        "fields": {
+         "ScriptName": "AuthKBS_TIF_Take",
+         "FragmentName": "Fragment_0"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,24 @@
+===== Farm03
+piece Saia <- robemorph ('islands', 0, {266: 120, 934: 78, 935: 57, 855: 37}, ()): 292 pts / 414 tris (skirt:outer)
+skirt axis (-0.08, 2.93); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:76.0/69.6/63.1/56.7/50.2/43.8; 30:76.0/69.6/63.1/56.7/50.3/43.8; 60:76.0/69.6/63.1/56.7/50.3/43.9; 90:76.0/69.6/63.1/56.7/50.2/43.8; 120:76.0/69.5/63.1/56.6/50.2/43.7; 150:76.0/69.5/63.1/56.6/50.1/43.7; -180:76.0/69.5/63.1/56.6/50.1/43.6; -150:76.0/69.5/63.1/56.6/50.1/43.7; -120:76.0/69.5/63.1/56.6/50.2/43.7; -90:76.0/69.6/63.1/56.7/50.2/43.8; -60:76.0/69.6/63.2/56.7/50.3/43.9; -30:76.0/69.6/63.1/56.7/50.2/43.8
+tip rows ; flap hinges 
+legs from Pants (320 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 -0.24 median 3.21; free share p10 0.21 median 0.85
+m: Saia is cut out of robemorph: 14 seam points (z 75.4..76.8) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 408 of 441 lining pts (z 43.6..76.2) take the sheet's weights at their spot; 33 project onto no sheet and keep their own
+m: skirt Saia 994 pts (851 move); tip 0 pts
+m: legs collider pulled in at 87 of 198 pts (max 1.72); lining points Saia 477/479
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 1 seam points pinned to the remainder's weights
+m: robemorph: 13 seam points of ['Saia'] to weld into the remainder
+m: robemorph: 13 of 13 seam points welded into the remainder (13 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/farmclothes03/farmerrobe_1.nif; shapes (pts, tris) {'robemorph': (689, 963), 'Saia': (994, 1656), 'Pants': (234, 384), 'FarmerBody': (413, 674), 'AFM3 Legs Front': (87, 113), 'AFM3 Legs Back': (100, 141), 'AFM3 Legs Side': (171, 193), 'AFM3 Skirt Front': (202, 229), 'AFM3 Skirt Side': (164, 174), 'AFM3 Skirt Back': (111, 129), 'VirtualGround': (4, 2)}; bones per shape {'robemorph': 18, 'Saia': 69, 'Pants': 7, 'FarmerBody': 16, 'AFM3 Legs Front': 5, 'AFM3 Legs Back': 5, 'AFM3 Legs Side': 5, 'AFM3 Skirt Front': 22, 'AFM3 Skirt Side': 24, 'AFM3 Skirt Back': 17, 'VirtualGround': 1}
+m: Saia: 1 seam points pinned to the remainder's weights
+m: robemorph: 13 seam points of ['Saia'] to weld into the remainder
+m: robemorph: 13 of 13 seam points welded into the remainder (13 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/farmclothes03/farmerrobe_0.nif; shapes (pts, tris) {'robemorph': (689, 963), 'Saia': (994, 1656), 'Pants': (234, 384), 'FarmerBody': (413, 674), 'AFM3 Legs Front': (87, 113), 'AFM3 Legs Back': (100, 141), 'AFM3 Legs Side': (171, 193), 'AFM3 Skirt Front': (202, 229), 'AFM3 Skirt Side': (164, 174), 'AFM3 Skirt Back': (111, 129), 'VirtualGround': (4, 2)}; bones per shape {'robemorph': 18, 'Saia': 69, 'Pants': 7, 'FarmerBody': 16, 'AFM3 Legs Front': 5, 'AFM3 Legs Back': 5, 'AFM3 Legs Side': 5, 'AFM3 Skirt Front': 22, 'AFM3 Skirt Side': 24, 'AFM3 Skirt Back': 17, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\FarmClothes03M.xml (433 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]
+
+EXIT 0

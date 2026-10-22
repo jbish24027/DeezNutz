@@ -1,0 +1,22 @@
+===== Wedding
+piece Saia <- Clothes ('islands', 0, {5582: 638, 6450: 502, 6517: 499, 1785: 223, 3359: 45, 3206: 15, 5279: 6, 3623: 6}, (), 72.0): 1070 pts / 1706 tris (skirt:outer)
+skirt axis (-0.48, 4.44); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:68.5/66.9/65.4/63.8/62.2/60.6; 30:68.5/66.9/65.3/63.7/62.1/60.5; 60:68.5/62.5/56.5/50.6/44.6/38.6; 90:68.5/62.6/56.6/50.7/44.8/38.9; 120:68.5/62.7/56.9/51.1/45.3/39.5; 150:68.5/62.8/57.1/51.4/45.7/39.9; -180:68.5/62.9/57.3/51.6/46.0/40.4; -150:68.5/62.8/57.1/51.4/45.7/40.1; -120:68.5/62.7/56.9/51.0/45.2/39.4; -90:68.5/62.5/56.6/50.6/44.7/38.7; -60:68.5/62.5/56.6/50.6/44.7/38.7; -30:68.5/66.9/65.3/63.7/62.1/60.5
+tip rows ; flap hinges 
+legs from Clothes (2045 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.30 median 1.70; free share p10 0.40 median 0.85
+m: Saia is cut out of Clothes: 95 seam points (z 66.7..71.9) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 1414 of 1459 lining pts (z 38.6..71.8) take the sheet's weights at their spot; 45 project onto no sheet and keep their own
+m: skirt Saia 3838 pts (2607 move); tip 0 pts
+m: legs collider pulled in at 381 of 1126 pts (max 1.47); lining points Saia 991/991
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 24 seam points pinned to the remainder's weights
+m: Clothes: 92 seam points of ['Saia'] to weld into the remainder
+m: Clothes: 92 of 92 seam points welded into the remainder (90 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/fineclothes01/weddingoutfitm_1.nif; shapes (pts, tris) {'Clothes': (5862, 9648), 'Saia': (3838, 6824), 'AFCW Legs Front': (471, 794), 'AFCW Legs Back': (510, 845), 'AFCW Legs Side': (783, 1136), 'AFCW Skirt Front': (40, 46), 'AFCW Skirt Side': (587, 880), 'AFCW Skirt Back': (364, 571), 'VirtualGround': (4, 2)}; bones per shape {'Clothes': 26, 'Saia': 62, 'AFCW Legs Front': 9, 'AFCW Legs Back': 7, 'AFCW Legs Side': 7, 'AFCW Skirt Front': 15, 'AFCW Skirt Side': 49, 'AFCW Skirt Back': 28, 'VirtualGround': 1}
+m: Saia: 24 seam points pinned to the remainder's weights
+m: Clothes: 92 seam points of ['Saia'] to weld into the remainder
+m: Clothes: 92 of 92 seam points welded into the remainder (90 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/fineclothes01/weddingoutfitm_0.nif; shapes (pts, tris) {'Clothes': (5862, 9648), 'Saia': (3838, 6824), 'AFCW Legs Front': (471, 794), 'AFCW Legs Back': (510, 845), 'AFCW Legs Side': (783, 1136), 'AFCW Skirt Front': (40, 46), 'AFCW Skirt Side': (587, 880), 'AFCW Skirt Back': (364, 571), 'VirtualGround': (4, 2)}; bones per shape {'Clothes': 26, 'Saia': 62, 'AFCW Legs Front': 9, 'AFCW Legs Back': 7, 'AFCW Legs Side': 7, 'AFCW Skirt Front': 15, 'AFCW Skirt Side': 49, 'AFCW Skirt Back': 28, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\WeddingClothesM.xml (437 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]

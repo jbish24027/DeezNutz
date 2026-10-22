@@ -1,0 +1,10 @@
+== Psijic m: psiijicrobesm_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R  90/ 6/ 74   sprint L  93/ 0/ 62   walk R  96/ 8/ 26   walk L 100/ 0/ 24
+   curled in (limit)      sprint R  52/ 7/ 36   sprint L  54/ 4/171   walk R 115/ 6/ 53   walk L  65/ 4/137
+   swung back .3/.15      sprint R  45/ 4/ 21   sprint L  67/ 6/ 32   walk R  53/ 6/ 38   walk L  81/ 5/ 39
+   swung forward .3/.15   sprint R  71/ 3/100   sprint L 102/ 0/ 96   walk R  52/ 0/ 46   walk L  57/ 0/ 38
+   swung sideways .3/.15  sprint R  37/ 0/ 68   sprint L  47/ 0/ 44   walk R  52/ 1/ 45   walk L  48/ 0/ 16
+   total caught/hooked/sunk 1377/60/1166; lining pts Front 111, Back 280, Side 403
+
+EXIT 0

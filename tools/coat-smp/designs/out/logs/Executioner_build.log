@@ -1,0 +1,19 @@
+===== Executioner
+piece Robe <- torsor ('islands', 0, {2396: 21, 2400: 21, 2419: 228, 3718: 1963, 3920: 1106, 3969: 65, 4841: 227}, (1,), 76.0): 2265 pts / 3958 tris (skirt:outer)
+skirt axis (2.06, 3.45); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:74.0/69.6/65.3/60.9/56.5/52.2/47.8; 30:74.0/66.6/59.2/51.8/44.4/36.9/29.5; 60:74.0/66.5/58.9/51.4/43.9/36.3/28.8; 90:74.0/67.1/60.2/53.3/46.4/39.5/32.6; 120:74.0/67.5/61.0/54.5/48.0/41.6/35.1; 150:74.0/69.1/64.2/59.4/54.5/49.6/44.7; -180:74.0/64.9/55.9/46.8/37.8/28.7/19.7; -150:74.0/65.0/56.0/47.0/38.0/29.0/19.9; -120:74.0/67.3/60.7/54.0/47.3/40.7/34.0; -90:74.0/66.1/58.2/50.2/42.3/34.4/26.5; -60:74.0/66.0/58.0/50.0/41.9/33.9/25.9; -30:74.0/69.3/64.5/59.8/55.0/50.3/45.5
+tip rows ; flap hinges 
+legs from HIMBO - Body (9442 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.93 median 2.66; free share p10 0.13 median 0.70
+m: Robe is cut out of torsor: 154 seam points (z 74.1..76.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 2265 pts (1536 move); tip 0 pts
+m: legs collider pulled in at 560 of 4991 pts (max 1.22); lining points Robe 479/479
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 1183 pts
+m_1: wrote meshes/clothes/executioner/body_1.nif; shapes (pts, tris) {'torsor': (2740, 4779), 'Robe': (1192, 1983), 'HIMBO - Body': (8179, 15488), 'HIMBO - Briefs': (1264, 1976), 'Robe 2': (1183, 1975), 'AEX Legs Front': (2187, 3937), 'AEX Legs Back': (2198, 3921), 'AEX Legs Side': (3034, 4955), 'AEX Skirt Front': (112, 152), 'AEX Skirt Side': (213, 214), 'AEX Skirt Back': (154, 202), 'VirtualGround': (4, 2)}; bones per shape {'torsor': 15, 'Robe': 49, 'HIMBO - Body': 24, 'HIMBO - Briefs': 5, 'Robe 2': 51, 'AEX Legs Front': 9, 'AEX Legs Back': 9, 'AEX Legs Side': 9, 'AEX Skirt Front': 34, 'AEX Skirt Side': 55, 'AEX Skirt Back': 33, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/executioner/body_0.nif; shapes (pts, tris) {'torsor': (2740, 4779), 'Robe': (1192, 1983), 'HIMBO - Body': (8179, 15488), 'HIMBO - Briefs': (1264, 1976), 'Robe 2': (1183, 1975), 'AEX Legs Front': (2187, 3937), 'AEX Legs Back': (2198, 3921), 'AEX Legs Side': (3034, 4955), 'AEX Skirt Front': (112, 152), 'AEX Skirt Side': (213, 214), 'AEX Skirt Back': (154, 202), 'VirtualGround': (4, 2)}; bones per shape {'torsor': 15, 'Robe': 49, 'HIMBO - Body': 24, 'HIMBO - Briefs': 5, 'Robe 2': 51, 'AEX Legs Front': 9, 'AEX Legs Back': 9, 'AEX Legs Side': 9, 'AEX Skirt Front': 34, 'AEX Skirt Side': 55, 'AEX Skirt Back': 33, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\ExecutionerM.xml (453 lines); no slits: neighbouring chains linked all round
+report: C:/1. AUTHORIA/_tools/coat-smp/designs/out/Executioner_report.json
+
+EXIT 0

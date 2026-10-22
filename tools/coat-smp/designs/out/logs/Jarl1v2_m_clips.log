@@ -1,0 +1,17 @@
+== Jarl1v2 m _1: torso_var2_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 209, Skirt Side 238, Skirt Back 276
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18       663     248      70        0     345   worst frame unseen 88
+      Skirt Front          entered   512 hooked   68 unseen  292  unseen z p10 35.4 p50 39.4 p90 43.2
+      Skirt Side           entered    82 hooked    2 unseen   51  unseen z p10 35.4 p50 38.8 p90 46.1
+      Skirt Back           entered    69 hooked    0 unseen    2  unseen z p10 46.0 p50 46.0 p90 46.0
+   run          10       734     259      64        0     411   worst frame unseen 217
+      Skirt Front          entered   345 hooked   62 unseen  127  unseen z p10 37.1 p50 39.5 p90 46.1
+      Skirt Side           entered    68 hooked    2 unseen   51  unseen z p10 35.5 p50 37.2 p90 43.1
+      Skirt Back           entered   321 hooked    0 unseen  233  unseen z p10 35.4 p50 35.7 p90 39.0
+   sprint       10       545     274      91        0     180   worst frame unseen 59
+      Skirt Front          entered   306 hooked   80 unseen   71  unseen z p10 35.4 p50 38.8 p90 43.2
+      Skirt Side           entered   195 hooked    6 unseen   98  unseen z p10 35.4 p50 38.8 p90 41.6
+      Skirt Back           entered    44 hooked    5 unseen   11  unseen z p10 35.6 p50 35.7 p90 37.2
+SUMMARY clips worst unseen/frame: 217
+
+EXIT 0

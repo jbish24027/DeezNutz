@@ -1,0 +1,24 @@
+===== Wench
+piece Saia <- merchanttorso_1 ('islands', 0, {2330: 1460, 2325: 519}, (), 72.0): 700 pts / 1286 tris (skirt:outer)
+skirt axis (0.07, 3.93); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:69.0/65.1/61.1/57.2/53.3/49.3; 30:69.0/65.1/61.1/57.2/53.3/49.3; 60:69.0/65.1/61.2/57.3/53.4/49.5; 90:69.0/65.0/61.0/57.0/53.0/49.1; 120:69.0/65.1/61.2/57.2/53.3/49.4; 150:69.0/65.2/61.3/57.5/53.7/49.9; -180:69.0/65.1/61.3/57.4/53.6/49.7; -150:69.0/65.2/61.4/57.6/53.8/50.0; -120:69.0/65.0/61.1/57.1/53.1/49.2; -90:69.0/65.0/61.1/57.1/53.1/49.1; -60:69.0/65.0/61.1/57.1/53.1/49.2; -30:69.0/65.0/61.1/57.1/53.2/49.2
+tip rows ; flap hinges 
+legs from merchanttorso_1 (1304 tris above z 15.0), winding outward 96%
+m: lining to the trousers at rest: p10 -0.77 median 1.70; free share p10 0.14 median 0.85
+m: Saia is cut out of merchanttorso_1: 56 seam points (z 69.7..71.6) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 553 of 608 lining pts (z 49.1..61.9) take the sheet's weights at their spot; 55 project onto no sheet and keep their own
+m: skirt Saia 2684 pts (2030 move); tip 0 pts
+m: legs collider pulled in at 271 of 690 pts (max 3.00); lining points Saia 688/689
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 6 seam points pinned to the remainder's weights
+m: merchanttorso_1: 54 seam points of ['Saia'] to weld into the remainder
+m: merchanttorso_1: 54 of 54 seam points welded into the remainder (54 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/wench/wenchoutfitm_1.nif; shapes (pts, tris) {'merchanttorso_1': (3580, 6238), 'Saia': (2684, 5144), 'HIMBO - Body': (1154, 1986), 'AWN Legs Front': (337, 530), 'AWN Legs Back': (313, 490), 'AWN Legs Side': (484, 687), 'AWN Skirt Front': (103, 163), 'AWN Skirt Side': (295, 431), 'AWN Skirt Back': (290, 494), 'VirtualGround': (4, 2)}; bones per shape {'merchanttorso_1': 22, 'Saia': 65, 'HIMBO - Body': 20, 'AWN Legs Front': 5, 'AWN Legs Back': 5, 'AWN Legs Side': 5, 'AWN Skirt Front': 19, 'AWN Skirt Side': 37, 'AWN Skirt Back': 21, 'VirtualGround': 1}
+m: Saia: 6 seam points pinned to the remainder's weights
+m: merchanttorso_1: 54 seam points of ['Saia'] to weld into the remainder
+m: merchanttorso_1: 54 of 54 seam points welded into the remainder (54 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/wench/wenchoutfitm_0.nif; shapes (pts, tris) {'merchanttorso_1': (3580, 6238), 'Saia': (2684, 5144), 'HIMBO - Body': (1154, 1986), 'AWN Legs Front': (337, 530), 'AWN Legs Back': (313, 490), 'AWN Legs Side': (484, 687), 'AWN Skirt Front': (103, 163), 'AWN Skirt Side': (295, 431), 'AWN Skirt Back': (290, 494), 'VirtualGround': (4, 2)}; bones per shape {'merchanttorso_1': 22, 'Saia': 65, 'HIMBO - Body': 20, 'AWN Legs Front': 5, 'AWN Legs Back': 5, 'AWN Legs Side': 5, 'AWN Skirt Front': 19, 'AWN Skirt Side': 37, 'AWN Skirt Back': 21, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\WenchOutfitM.xml (433 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]
+
+EXIT 0

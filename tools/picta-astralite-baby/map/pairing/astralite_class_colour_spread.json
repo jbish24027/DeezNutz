@@ -1,0 +1,2148 @@
+{
+ "snow": {
+  "n": 5,
+  "members": [
+   "Lux_SkyrimOvercastSnow",
+   "Seasons_CloudySnow",
+   "Seasons_CloudySnow02",
+   "Seasons_OvercastSnow",
+   "SkyrimOvercastSnow"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    48.6,
+    [
+     62,
+     72,
+     98
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    34.0,
+    [
+     67,
+     86,
+     113
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    50.4,
+    [
+     59,
+     69,
+     97
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    75.2,
+    [
+     27,
+     32,
+     41
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    73.2,
+    [
+     124,
+     103,
+     112
+    ]
+   ],
+   "HorizonColor.Day": [
+    67.2,
+    [
+     119,
+     132,
+     154
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    76.0,
+    [
+     121,
+     99,
+     108
+    ]
+   ],
+   "HorizonColor.Night": [
+    30.0,
+    [
+     35,
+     35,
+     44
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    51.6,
+    [
+     75,
+     83,
+     128
+    ]
+   ],
+   "FogNearColor.Day": [
+    103.2,
+    [
+     92,
+     118,
+     152
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    52.0,
+    [
+     79,
+     84,
+     128
+    ]
+   ],
+   "FogNearColor.Night": [
+    68.8,
+    [
+     39,
+     42,
+     51
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    58.4,
+    [
+     114,
+     98,
+     106
+    ]
+   ],
+   "FogFarColor.Day": [
+    43.8,
+    [
+     92,
+     107,
+     125
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    62.8,
+    [
+     109,
+     92,
+     101
+    ]
+   ],
+   "FogFarColor.Night": [
+    35.2,
+    [
+     30,
+     31,
+     37
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    118.4,
+    [
+     163,
+     122,
+     102
+    ]
+   ],
+   "SunlightColor.Day": [
+    63.2,
+    [
+     108,
+     113,
+     123
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    115.6,
+    [
+     161,
+     111,
+     94
+    ]
+   ],
+   "SunlightColor.Night": [
+    43.6,
+    [
+     40,
+     48,
+     71
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    166.2,
+    [
+     88,
+     115,
+     138
+    ]
+   ],
+   "AmbientColor.Day": [
+    121.0,
+    [
+     133,
+     138,
+     148
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    168.8,
+    [
+     85,
+     115,
+     136
+    ]
+   ],
+   "AmbientColor.Night": [
+    49.6,
+    [
+     53,
+     61,
+     73
+    ]
+   ],
+   "SunColor.Sunrise": [
+    104.8,
+    [
+     86,
+     32,
+     7
+    ]
+   ],
+   "SunColor.Day": [
+    68.8,
+    [
+     61,
+     60,
+     58
+    ]
+   ],
+   "SunColor.Sunset": [
+    104.8,
+    [
+     86,
+     32,
+     7
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "clear": {
+  "n": 10,
+  "members": [
+   "DLC1_SkyrimClearFV",
+   "SkyrimClear",
+   "SkyrimClearCO",
+   "SkyrimClearFF",
+   "SkyrimClearMA",
+   "SkyrimClearRE",
+   "SkyrimClearSN",
+   "SkyrimClearTU",
+   "SkyrimClearVT",
+   "WyrmstoothClear"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    56.5,
+    [
+     25,
+     34,
+     78
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    63.7,
+    [
+     39,
+     77,
+     200
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    40.6,
+    [
+     23,
+     32,
+     74
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    10.8,
+    [
+     0,
+     1,
+     1
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    40.6,
+    [
+     227,
+     118,
+     92
+    ]
+   ],
+   "HorizonColor.Day": [
+    63.0,
+    [
+     119,
+     152,
+     248
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    108.1,
+    [
+     219,
+     113,
+     88
+    ]
+   ],
+   "HorizonColor.Night": [
+    35.2,
+    [
+     8,
+     11,
+     28
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    76.1,
+    [
+     90,
+     70,
+     146
+    ]
+   ],
+   "FogNearColor.Day": [
+    62.8,
+    [
+     80,
+     104,
+     200
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    105.0,
+    [
+     90,
+     66,
+     137
+    ]
+   ],
+   "FogNearColor.Night": [
+    56.2,
+    [
+     9,
+     11,
+     29
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    53.6,
+    [
+     182,
+     96,
+     76
+    ]
+   ],
+   "FogFarColor.Day": [
+    59.4,
+    [
+     113,
+     158,
+     244
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    71.4,
+    [
+     182,
+     95,
+     75
+    ]
+   ],
+   "FogFarColor.Night": [
+    38.1,
+    [
+     7,
+     10,
+     25
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    65.7,
+    [
+     248,
+     118,
+     61
+    ]
+   ],
+   "SunlightColor.Day": [
+    53.8,
+    [
+     206,
+     192,
+     189
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    85.5,
+    [
+     246,
+     117,
+     59
+    ]
+   ],
+   "SunlightColor.Night": [
+    110.7,
+    [
+     18,
+     32,
+     54
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    89.3,
+    [
+     192,
+     124,
+     120
+    ]
+   ],
+   "AmbientColor.Day": [
+    32.2,
+    [
+     168,
+     180,
+     231
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    87.5,
+    [
+     192,
+     125,
+     119
+    ]
+   ],
+   "AmbientColor.Night": [
+    50.2,
+    [
+     119,
+     124,
+     145
+    ]
+   ],
+   "SunColor.Sunrise": [
+    199.8,
+    [
+     233,
+     87,
+     50
+    ]
+   ],
+   "SunColor.Day": [
+    158.4,
+    [
+     237,
+     169,
+     132
+    ]
+   ],
+   "SunColor.Sunset": [
+    168.3,
+    [
+     236,
+     88,
+     50
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "rainstorm": {
+  "n": 5,
+  "members": [
+   "JawzSkyrimStormRain",
+   "SkyrimStormRain",
+   "SkyrimStormRainFF",
+   "SkyrimStormRainRE",
+   "SkyrimStormRainTU"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    47.2,
+    [
+     64,
+     71,
+     84
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    47.2,
+    [
+     64,
+     71,
+     84
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    47.2,
+    [
+     64,
+     71,
+     84
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    35.4,
+    [
+     28,
+     28,
+     40
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    17.0,
+    [
+     46,
+     53,
+     64
+    ]
+   ],
+   "HorizonColor.Day": [
+    17.0,
+    [
+     46,
+     53,
+     64
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    17.0,
+    [
+     46,
+     53,
+     64
+    ]
+   ],
+   "HorizonColor.Night": [
+    18.4,
+    [
+     24,
+     24,
+     33
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    17.6,
+    [
+     38,
+     44,
+     59
+    ]
+   ],
+   "FogNearColor.Day": [
+    35.4,
+    [
+     42,
+     52,
+     67
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    17.6,
+    [
+     38,
+     44,
+     59
+    ]
+   ],
+   "FogNearColor.Night": [
+    18.4,
+    [
+     23,
+     24,
+     32
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    18.0,
+    [
+     43,
+     48,
+     55
+    ]
+   ],
+   "FogFarColor.Day": [
+    35.0,
+    [
+     46,
+     53,
+     60
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    15.0,
+    [
+     42,
+     47,
+     53
+    ]
+   ],
+   "FogFarColor.Night": [
+    23.0,
+    [
+     21,
+     24,
+     29
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    0.0,
+    [
+     106,
+     106,
+     106
+    ]
+   ],
+   "SunlightColor.Day": [
+    0.0,
+    [
+     106,
+     106,
+     106
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    0.0,
+    [
+     106,
+     106,
+     106
+    ]
+   ],
+   "SunlightColor.Night": [
+    3.6,
+    [
+     39,
+     41,
+     54
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    39.0,
+    [
+     77,
+     80,
+     88
+    ]
+   ],
+   "AmbientColor.Day": [
+    64.0,
+    [
+     84,
+     87,
+     95
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    39.0,
+    [
+     77,
+     80,
+     88
+    ]
+   ],
+   "AmbientColor.Night": [
+    44.6,
+    [
+     66,
+     66,
+     74
+    ]
+   ],
+   "SunColor.Sunrise": [
+    32.4,
+    [
+     48,
+     45,
+     41
+    ]
+   ],
+   "SunColor.Day": [
+    13.8,
+    [
+     35,
+     33,
+     30
+    ]
+   ],
+   "SunColor.Sunset": [
+    32.4,
+    [
+     48,
+     45,
+     41
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "snowstorm": {
+  "n": 2,
+  "members": [
+   "SkyrimStormSnow",
+   "SkyrimStormSnowBlizzard"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    0.0,
+    [
+     58,
+     76,
+     100
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    0.0,
+    [
+     72,
+     94,
+     123
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    0.0,
+    [
+     58,
+     76,
+     100
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    0.0,
+    [
+     17,
+     19,
+     26
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    0.0,
+    [
+     58,
+     76,
+     100
+    ]
+   ],
+   "HorizonColor.Day": [
+    0.0,
+    [
+     72,
+     94,
+     123
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    0.0,
+    [
+     58,
+     76,
+     100
+    ]
+   ],
+   "HorizonColor.Night": [
+    0.0,
+    [
+     17,
+     19,
+     26
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    0.0,
+    [
+     81,
+     96,
+     125
+    ]
+   ],
+   "FogNearColor.Day": [
+    0.0,
+    [
+     96,
+     114,
+     149
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    0.0,
+    [
+     81,
+     96,
+     125
+    ]
+   ],
+   "FogNearColor.Night": [
+    0.0,
+    [
+     22,
+     26,
+     37
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    0.0,
+    [
+     58,
+     76,
+     100
+    ]
+   ],
+   "FogFarColor.Day": [
+    0.0,
+    [
+     72,
+     94,
+     123
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    0.0,
+    [
+     58,
+     76,
+     100
+    ]
+   ],
+   "FogFarColor.Night": [
+    0.0,
+    [
+     16,
+     18,
+     24
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    0.0,
+    [
+     40,
+     58,
+     86
+    ]
+   ],
+   "SunlightColor.Day": [
+    0.0,
+    [
+     55,
+     78,
+     115
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    0.0,
+    [
+     40,
+     58,
+     86
+    ]
+   ],
+   "SunlightColor.Night": [
+    0.0,
+    [
+     26,
+     26,
+     34
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    0.0,
+    [
+     85,
+     104,
+     131
+    ]
+   ],
+   "AmbientColor.Day": [
+    0.0,
+    [
+     85,
+     104,
+     131
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    0.0,
+    [
+     85,
+     104,
+     131
+    ]
+   ],
+   "AmbientColor.Night": [
+    0.0,
+    [
+     79,
+     79,
+     91
+    ]
+   ],
+   "SunColor.Sunrise": [
+    0.0,
+    [
+     26,
+     26,
+     26
+    ]
+   ],
+   "SunColor.Day": [
+    0.0,
+    [
+     26,
+     26,
+     26
+    ]
+   ],
+   "SunColor.Sunset": [
+    0.0,
+    [
+     26,
+     26,
+     26
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "cloudyA": {
+  "n": 9,
+  "members": [
+   "DLC1_SkyrimCloudyFV_A",
+   "SkyrimCloudyCO_A",
+   "SkyrimCloudyFF_A",
+   "SkyrimCloudyMA_A",
+   "SkyrimCloudyRE_A",
+   "SkyrimCloudySN_A",
+   "SkyrimCloudyTU_A",
+   "SkyrimCloudyVT_A",
+   "SkyrimCloudy_A"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    17.1,
+    [
+     25,
+     28,
+     62
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    33.1,
+    [
+     29,
+     47,
+     110
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    17.1,
+    [
+     25,
+     28,
+     62
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    13.2,
+    [
+     0,
+     1,
+     4
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    61.4,
+    [
+     214,
+     128,
+     103
+    ]
+   ],
+   "HorizonColor.Day": [
+    43.6,
+    [
+     140,
+     168,
+     227
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    61.4,
+    [
+     214,
+     128,
+     103
+    ]
+   ],
+   "HorizonColor.Night": [
+    24.7,
+    [
+     19,
+     18,
+     30
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    69.8,
+    [
+     94,
+     81,
+     121
+    ]
+   ],
+   "FogNearColor.Day": [
+    54.0,
+    [
+     99,
+     121,
+     196
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    69.8,
+    [
+     94,
+     81,
+     121
+    ]
+   ],
+   "FogNearColor.Night": [
+    13.1,
+    [
+     17,
+     14,
+     19
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    73.3,
+    [
+     182,
+     112,
+     93
+    ]
+   ],
+   "FogFarColor.Day": [
+    62.6,
+    [
+     130,
+     160,
+     216
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    73.3,
+    [
+     182,
+     112,
+     93
+    ]
+   ],
+   "FogFarColor.Night": [
+    11.3,
+    [
+     16,
+     18,
+     25
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    60.6,
+    [
+     255,
+     123,
+     65
+    ]
+   ],
+   "SunlightColor.Day": [
+    38.4,
+    [
+     183,
+     168,
+     169
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    60.6,
+    [
+     255,
+     123,
+     65
+    ]
+   ],
+   "SunlightColor.Night": [
+    9.9,
+    [
+     44,
+     49,
+     51
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    37.6,
+    [
+     181,
+     116,
+     106
+    ]
+   ],
+   "AmbientColor.Day": [
+    18.8,
+    [
+     147,
+     145,
+     174
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    37.6,
+    [
+     181,
+     116,
+     106
+    ]
+   ],
+   "AmbientColor.Night": [
+    30.1,
+    [
+     97,
+     109,
+     114
+    ]
+   ],
+   "SunColor.Sunrise": [
+    36.4,
+    [
+     255,
+     90,
+     43
+    ]
+   ],
+   "SunColor.Day": [
+    0.0,
+    [
+     255,
+     180,
+     139
+    ]
+   ],
+   "SunColor.Sunset": [
+    56.9,
+    [
+     248,
+     86,
+     38
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "cloudy": {
+  "n": 9,
+  "members": [
+   "DLC1_SkyrimCloudyFV",
+   "SkyrimCloudy",
+   "SkyrimCloudyCO",
+   "SkyrimCloudyFF",
+   "SkyrimCloudyMA",
+   "SkyrimCloudyRE",
+   "SkyrimCloudySN",
+   "SkyrimCloudyTU",
+   "SkyrimCloudyVT"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    38.1,
+    [
+     25,
+     27,
+     60
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    76.6,
+    [
+     30,
+     50,
+     119
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    38.1,
+    [
+     25,
+     27,
+     60
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    15.1,
+    [
+     0,
+     0,
+     2
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    50.2,
+    [
+     205,
+     124,
+     102
+    ]
+   ],
+   "HorizonColor.Day": [
+    43.3,
+    [
+     139,
+     169,
+     229
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    50.2,
+    [
+     205,
+     124,
+     102
+    ]
+   ],
+   "HorizonColor.Night": [
+    7.1,
+    [
+     8,
+     8,
+     23
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    70.3,
+    [
+     96,
+     81,
+     121
+    ]
+   ],
+   "FogNearColor.Day": [
+    50.7,
+    [
+     96,
+     117,
+     192
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    70.3,
+    [
+     96,
+     81,
+     121
+    ]
+   ],
+   "FogNearColor.Night": [
+    6.1,
+    [
+     12,
+     12,
+     27
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    38.7,
+    [
+     183,
+     112,
+     95
+    ]
+   ],
+   "FogFarColor.Day": [
+    30.8,
+    [
+     137,
+     169,
+     233
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    38.7,
+    [
+     183,
+     112,
+     95
+    ]
+   ],
+   "FogFarColor.Night": [
+    5.0,
+    [
+     7,
+     7,
+     21
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    113.8,
+    [
+     255,
+     132,
+     81
+    ]
+   ],
+   "SunlightColor.Day": [
+    38.4,
+    [
+     183,
+     168,
+     169
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    113.8,
+    [
+     255,
+     132,
+     81
+    ]
+   ],
+   "SunlightColor.Night": [
+    4.4,
+    [
+     24,
+     31,
+     51
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    69.4,
+    [
+     185,
+     122,
+     114
+    ]
+   ],
+   "AmbientColor.Day": [
+    30.3,
+    [
+     145,
+     144,
+     176
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    69.4,
+    [
+     185,
+     122,
+     114
+    ]
+   ],
+   "AmbientColor.Night": [
+    10.2,
+    [
+     106,
+     109,
+     125
+    ]
+   ],
+   "SunColor.Sunrise": [
+    56.9,
+    [
+     248,
+     86,
+     38
+    ]
+   ],
+   "SunColor.Day": [
+    17.8,
+    [
+     255,
+     182,
+     140
+    ]
+   ],
+   "SunColor.Sunset": [
+    56.9,
+    [
+     248,
+     86,
+     38
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "clearA": {
+  "n": 9,
+  "members": [
+   "DLC1_SkyrimClearFV_A",
+   "SkyrimClearCO_A",
+   "SkyrimClearFF_A",
+   "SkyrimClearMA_A",
+   "SkyrimClearRE_A",
+   "SkyrimClearSN_A",
+   "SkyrimClearTU_A",
+   "SkyrimClearVT_A",
+   "SkyrimClear_A"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    29.3,
+    [
+     21,
+     34,
+     84
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    57.8,
+    [
+     39,
+     77,
+     207
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    29.3,
+    [
+     21,
+     34,
+     84
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    69.0,
+    [
+     220,
+     123,
+     105
+    ]
+   ],
+   "HorizonColor.Day": [
+    22.2,
+    [
+     118,
+     150,
+     252
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    69.8,
+    [
+     224,
+     122,
+     103
+    ]
+   ],
+   "HorizonColor.Night": [
+    7.1,
+    [
+     9,
+     9,
+     25
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    105.4,
+    [
+     93,
+     77,
+     151
+    ]
+   ],
+   "FogNearColor.Day": [
+    50.6,
+    [
+     80,
+     105,
+     204
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    105.4,
+    [
+     93,
+     77,
+     151
+    ]
+   ],
+   "FogNearColor.Night": [
+    9.7,
+    [
+     7,
+     8,
+     24
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    61.8,
+    [
+     189,
+     102,
+     87
+    ]
+   ],
+   "FogFarColor.Day": [
+    29.8,
+    [
+     109,
+     159,
+     251
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    61.8,
+    [
+     190,
+     102,
+     87
+    ]
+   ],
+   "FogFarColor.Night": [
+    9.2,
+    [
+     8,
+     10,
+     23
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    57.2,
+    [
+     255,
+     133,
+     65
+    ]
+   ],
+   "SunlightColor.Day": [
+    58.2,
+    [
+     211,
+     194,
+     192
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    57.2,
+    [
+     255,
+     133,
+     65
+    ]
+   ],
+   "SunlightColor.Night": [
+    20.4,
+    [
+     29,
+     32,
+     35
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    48.7,
+    [
+     212,
+     139,
+     130
+    ]
+   ],
+   "AmbientColor.Day": [
+    24.3,
+    [
+     165,
+     175,
+     234
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    55.3,
+    [
+     213,
+     140,
+     132
+    ]
+   ],
+   "AmbientColor.Night": [
+    57.2,
+    [
+     112,
+     133,
+     149
+    ]
+   ],
+   "SunColor.Sunrise": [
+    54.3,
+    [
+     255,
+     107,
+     71
+    ]
+   ],
+   "SunColor.Day": [
+    0.9,
+    [
+     255,
+     180,
+     139
+    ]
+   ],
+   "SunColor.Sunset": [
+    51.9,
+    [
+     255,
+     109,
+     73
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "rain": {
+  "n": 7,
+  "members": [
+   "Seasons_CloudyRain",
+   "SkyrimOvercastRain",
+   "SkyrimOvercastRainFF",
+   "SkyrimOvercastRainMA",
+   "SkyrimOvercastRainRE",
+   "SkyrimOvercastRainTU",
+   "SkyrimOvercastRainVT"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    72.1,
+    [
+     84,
+     88,
+     94
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    87.7,
+    [
+     89,
+     98,
+     114
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    72.1,
+    [
+     84,
+     88,
+     94
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    16.4,
+    [
+     5,
+     6,
+     9
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    94.1,
+    [
+     87,
+     95,
+     102
+    ]
+   ],
+   "HorizonColor.Day": [
+    72.6,
+    [
+     85,
+     93,
+     107
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    94.1,
+    [
+     87,
+     95,
+     102
+    ]
+   ],
+   "HorizonColor.Night": [
+    8.9,
+    [
+     13,
+     13,
+     19
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    39.1,
+    [
+     79,
+     81,
+     87
+    ]
+   ],
+   "FogNearColor.Day": [
+    69.1,
+    [
+     81,
+     88,
+     106
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    39.1,
+    [
+     79,
+     81,
+     87
+    ]
+   ],
+   "FogNearColor.Night": [
+    6.7,
+    [
+     16,
+     16,
+     21
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    66.7,
+    [
+     81,
+     88,
+     94
+    ]
+   ],
+   "FogFarColor.Day": [
+    71.7,
+    [
+     87,
+     95,
+     108
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    66.7,
+    [
+     81,
+     88,
+     94
+    ]
+   ],
+   "FogFarColor.Night": [
+    9.4,
+    [
+     11,
+     12,
+     17
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    42.7,
+    [
+     92,
+     94,
+     94
+    ]
+   ],
+   "SunlightColor.Day": [
+    96.4,
+    [
+     103,
+     101,
+     99
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    42.7,
+    [
+     92,
+     94,
+     94
+    ]
+   ],
+   "SunlightColor.Night": [
+    12.9,
+    [
+     41,
+     43,
+     54
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    41.1,
+    [
+     86,
+     95,
+     100
+    ]
+   ],
+   "AmbientColor.Day": [
+    69.7,
+    [
+     86,
+     94,
+     103
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    41.1,
+    [
+     86,
+     95,
+     100
+    ]
+   ],
+   "AmbientColor.Night": [
+    51.9,
+    [
+     80,
+     83,
+     96
+    ]
+   ],
+   "SunColor.Sunrise": [
+    106.4,
+    [
+     85,
+     61,
+     48
+    ]
+   ],
+   "SunColor.Day": [
+    183.4,
+    [
+     72,
+     61,
+     50
+    ]
+   ],
+   "SunColor.Sunset": [
+    106.4,
+    [
+     85,
+     61,
+     48
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "fog": {
+  "n": 11,
+  "members": [
+   "KarthspireRedoubtFog",
+   "RiftenOvercastFog",
+   "Seasons_Fog",
+   "SkyrimFog",
+   "SkyrimFogCO",
+   "SkyrimFogFF",
+   "SkyrimFogMA",
+   "SkyrimFogRE",
+   "SkyrimFogVT",
+   "WyrmstoothFog",
+   "WyrmstoothStormFog"
+  ],
+  "max_dev_from_mean": {
+   "SkyUpperColor.Sunrise": [
+    83.4,
+    [
+     107,
+     113,
+     118
+    ]
+   ],
+   "SkyUpperColor.Day": [
+    56.7,
+    [
+     119,
+     131,
+     144
+    ]
+   ],
+   "SkyUpperColor.Sunset": [
+    89.7,
+    [
+     111,
+     115,
+     118
+    ]
+   ],
+   "SkyUpperColor.Night": [
+    150.4,
+    [
+     28,
+     32,
+     35
+    ]
+   ],
+   "HorizonColor.Sunrise": [
+    88.6,
+    [
+     102,
+     108,
+     112
+    ]
+   ],
+   "HorizonColor.Day": [
+    54.6,
+    [
+     117,
+     131,
+     146
+    ]
+   ],
+   "HorizonColor.Sunset": [
+    90.6,
+    [
+     107,
+     107,
+     110
+    ]
+   ],
+   "HorizonColor.Night": [
+    62.7,
+    [
+     18,
+     19,
+     27
+    ]
+   ],
+   "FogNearColor.Sunrise": [
+    68.2,
+    [
+     71,
+     74,
+     77
+    ]
+   ],
+   "FogNearColor.Day": [
+    72.5,
+    [
+     73,
+     84,
+     97
+    ]
+   ],
+   "FogNearColor.Sunset": [
+    64.8,
+    [
+     76,
+     75,
+     78
+    ]
+   ],
+   "FogNearColor.Night": [
+    58.5,
+    [
+     23,
+     23,
+     33
+    ]
+   ],
+   "FogFarColor.Sunrise": [
+    87.3,
+    [
+     103,
+     110,
+     114
+    ]
+   ],
+   "FogFarColor.Day": [
+    53.5,
+    [
+     119,
+     134,
+     150
+    ]
+   ],
+   "FogFarColor.Sunset": [
+    90.2,
+    [
+     108,
+     108,
+     111
+    ]
+   ],
+   "FogFarColor.Night": [
+    64.0,
+    [
+     17,
+     18,
+     26
+    ]
+   ],
+   "SunlightColor.Sunrise": [
+    104.5,
+    [
+     115,
+     112,
+     107
+    ]
+   ],
+   "SunlightColor.Day": [
+    134.5,
+    [
+     121,
+     124,
+     126
+    ]
+   ],
+   "SunlightColor.Sunset": [
+    83.6,
+    [
+     111,
+     111,
+     110
+    ]
+   ],
+   "SunlightColor.Night": [
+    98.6,
+    [
+     43,
+     53,
+     67
+    ]
+   ],
+   "AmbientColor.Sunrise": [
+    65.6,
+    [
+     105,
+     111,
+     120
+    ]
+   ],
+   "AmbientColor.Day": [
+    80.5,
+    [
+     106,
+     112,
+     122
+    ]
+   ],
+   "AmbientColor.Sunset": [
+    73.8,
+    [
+     97,
+     102,
+     110
+    ]
+   ],
+   "AmbientColor.Night": [
+    72.0,
+    [
+     67,
+     73,
+     83
+    ]
+   ],
+   "SunColor.Sunrise": [
+    148.9,
+    [
+     131,
+     106,
+     84
+    ]
+   ],
+   "SunColor.Day": [
+    151.4,
+    [
+     151,
+     122,
+     97
+    ]
+   ],
+   "SunColor.Sunset": [
+    148.3,
+    [
+     134,
+     107,
+     85
+    ]
+   ],
+   "SunColor.Night": [
+    0.0,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ }
+}

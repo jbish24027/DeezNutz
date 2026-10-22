@@ -1,0 +1,138 @@
+## clothes\barkeeper\m\torso_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  BarKeeperVariantAA, BarKeeperTorso01AA
+  [BarkeepBody] 10632p: c0:7837 z42-119 a-27 SKIRT | c1:1794 z5-75 a180 LEGS | c2:165 z106-108 a5 | c3:155 z106-108 a-2 | c4:85 z103-108 a6 | c5:67 z108-108 a0 | c6:67 z105-108 a-1 | c7:67 z100-103 a-1 | c8:67 z105-107 a5 | c9:67 z103-105 a6 | c10:67 z100-103 a2 | c11:67 z104-108 a-1 | c12:63 z107-108 a1 | c13:39 z103-105 a-8 | c14:25 z100-101 a0
+     c0 islands<72: 5290:3726 z42-114 a-13 x-16..16 ; 9139:1235 z62-116 a-180 x-16..16 ; 5090:883 z71-109 a-98 x-31..-11 ; 3805:801 z71-109 a98 x11..31 ; 10573:316 z62-74 a32 x-13..13 ; 5468:167 z42-63 a7 x-15..15
+  [HIMBO - Body] 520p: c0:520 z94-115 a-0
+## clothes\beggarclothes\torsom_0.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  BeggarTorso01AA
+  [BeggarModel] 3080p: c0:3080 z32-114 a-16 SKIRT
+     c0 islands<72: 2097:3080 z32-114 a-16 x-16..16
+  [HIMBO - Body] 6277p: c0:4427 z76-114 a-180 | c1:925 z11-43 a-106 | c2:925 z11-43 a106
+  [rags] 2108p: c0:2108 z8-70 a175 LEGS
+## clothes\blacksmith\m\torso_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  BlackSmithVariantAA, BlackSmithTorso01AA
+  [TorsoRig] 9309p: c0:5036 z43-118 a-134 SKIRT | c1:1170 z21-66 a180 LEGS | c2:825 z75-81 a-8 | c3:561 z62-78 a-30 | c4:346 z73-78 a-30 | c5:315 z4-25 a115 | c6:315 z4-25 a-115 | c7:251 z71-81 a-89 | c8:251 z71-81 a89 | c9:53 z25-27 a-111 | c10:53 z24-27 a-117 | c11:53 z25-27 a111 | c12:53 z24-27 a117 | c13:27 z75-77 a-24
+     c0 islands<72: 2047:4149 z43-118 a-8 x-17..17
+  [HIMBO - Body] 793p: c0:337 z102-115 a-0 | c1:228 z75-87 a95 | c2:228 z75-87 a-95
+## clothes\chef\m\chef_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  ChefTorso01AA
+  [BarkeepBody] 10632p: c0:7837 z42-119 a-27 SKIRT | c1:1794 z5-75 a180 LEGS | c2:165 z106-108 a5 | c3:155 z106-108 a-2 | c4:85 z103-108 a6 | c5:67 z108-108 a0 | c6:67 z105-108 a-1 | c7:67 z100-103 a-1 | c8:67 z105-108 a6 | c9:67 z103-105 a6 | c10:67 z100-103 a3 | c11:67 z104-108 a-1 | c12:63 z107-109 a1 | c13:39 z103-105 a-7 | c14:25 z100-101 a0
+     c0 islands<72: 5290:3726 z42-114 a-13 x-16..16 ; 9139:1235 z62-116 a-179 x-16..16 ; 5090:883 z71-109 a-98 x-31..-10 ; 3805:801 z71-109 a98 x10..31 ; 10573:316 z62-74 a32 x-13..13 ; 5468:167 z42-63 a7 x-15..15
+  [HIMBO - Body] 599p: c0:598 z96-115 a-0
+## clothes\childrenclothes\m\torso01_1.nif  [Skyrim - Meshes0.bsa]  ChildrenTorsoV01AA, ChildTorso01AA
+  [BodyTorso] 77p: c0:77 z105-113 a180
+  [clothes01] 991p: c0:624 z55-111 a180 | c1:367 z5-64 a180
+## clothes\childrenclothes\m\torso02_1.nif  [Skyrim - Meshes0.bsa]  ChildTorso02AA
+  [clothes02] 991p: c0:624 z55-111 a180 | c1:367 z5-64 a180
+  [BodyTorso02] 77p: c0:77 z105-113 a180
+## clothes\childrenclothes\m\torso03_1.nif  [Skyrim - Meshes0.bsa]  ChildTorso03AA, DLC2ChildSkaalOutfit
+  [BodyTorso03] 77p: c0:77 z105-113 a180
+  [clothes04] 991p: c0:624 z55-111 a180 | c1:367 z5-64 a180
+## clothes\emperor\emperoroutfitm_1.nif  [Authoria - PG Output - PBR]  EmperorClothesAA
+  [Torso] 1847p: c0:1077 z35-116 a-164 SKIRT | c1:179 z105-115 a110 | c2:148 z91-120 a177 | c3:88 z7-51 a-106 | c4:88 z7-51 a106 | c5:45 z102-109 a-0 | c6:38 z74-80 a48 | c7:34 z72-82 a-46 | c8:28 z89-107 a63 | c9:26 z89-107 a50 | c10:24 z105-110 a-63 | c11:24 z106-112 a57
+     c0 islands<72: 1498:291 z35-80 a-137 x-17..17 ; 615:3 z35-36 a-140 x-12..-8 ; 618:3 z35-36 a-135 x-12..-8 ; 621:3 z35-36 a-125 x-15..-12 ; 624:3 z35-36 a-119 x-16..-12 ; 627:3 z35-36 a-109 x-16..-15 ; 630:3 z35-36 a-104 x-17..-16 ; 633:3 z35-36 a-175 x-3..0 ; 636:3 z35-36 a-170 x-4..0 ; 639:3 z35-35 a-158 x-8..-3 ; 642:3 z35-35 a-151 x-8..-4 ; 645:3 z35-36 a-93 x-17..-15 ; 648:3 z35-36 a-87 x-17..-15 ; 651:3 z35-35 a-78 x-15..-13 ; 654:3 z35-35 a-75 x-15..-13 ; 657:3 z35-36 a136 x8..12 ; 660:3 z35-36 a141 x8..12 ; 663:3 z36-36 a119 x12..16 ; +136 more
+  [Sleeves] 468p: c0:197 z61-110 a-95 | c1:197 z61-110 a95 | c2:37 z61-79 a-87 | c3:37 z61-79 a87
+## clothes\executioner\body_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  ExecutionerRobesAA, DLC01ReaperrRobesAA
+  [torsor] 4852p: c0:4634 z19-116 a3 SKIRT | c1:182 z56-74 a95
+     c0 islands<72: 3718:1963 z19-85 a-19 x-16..16 ; 3920:1106 z20-86 a134 x-15..15 ; 2419:228 z19-71 a-2 x-16..15 ; 4841:227 z20-73 a-179 x-14..14 ; 2400:21 z27-64 a-57 x-14..-8 ; 2396:21 z27-64 a57 x8..14
+  [HIMBO - Body] 8181p: c0:5335 z11-79 a180 LEGS | c1:1422 z75-110 a102 | c2:1422 z75-110 a-102
+  [HIMBO - Briefs] 1264p: c0:1264 z59-74 a180
+## clothes\farmclothes03\farmer03mextras_1.nif  [Common Clothing Retexture SE]  FarmerExtras03AA
+  [robemorph] 968p: c0:651 z44-116 a-7 SKIRT | c1:66 z88-108 a-105 | c2:62 z87-108 a103 | c3:50 z74-82 a-7 | c4:48 z75-81 a-8
+     c0 islands<72: 266:120 z47-78 a0 x-18..17 ; 934:78 z44-78 a-12 x-17..17 ; 935:57 z44-62 a-14 x-17..16 ; 855:37 z47-61 a-9 x-18..17
+  [extras] 477p: c0:94 z88-113 a-138 | c1:68 z71-84 a61 | c2:55 z64-77 a74 | c3:47 z69-88 a117 | c4:42 z72-88 a43 | c5:42 z88-109 a-27 | c6:30 z68-70 a96 | c7:30 z85-88 a1 | c8:25 z87-90 a13 | c9:24 z87-90 a151 | c10:20 z86-89 a160
+  [Pants] 234p: c0:117 z6-61 a-110 | c1:117 z6-61 a110
+  [FarmerBody] 413p: c0:158 z75-102 a99 | c1:155 z75-102 a-99 | c2:100 z93-112 a3
+## clothes\fineclothes01\weddingoutfitm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  WeddingDressTorso01AA
+  [Clothes] 6770p: c0:4616 z39-117 a-26 SKIRT | c1:1203 z10-71 a173 LEGS | c2:184 z95-98 a0 | c3:139 z82-86 a0 | c4:104 z90-91 a0 | c5:85 z97-104 a14 | c6:71 z98-99 a-0 | c7:69 z92-94 a0 | c8:65 z94-103 a-17 | c9:65 z97-103 a-11 | c10:65 z94-104 a18 | c11:54 z99-99 a-0 | c12:25 z85-90 a0 | c13:25 z91-93 a0
+     c0 islands<72: 5582:638 z39-104 a-0 x-17..17 ; 6450:502 z39-100 a-86 x-17..0 ; 6517:499 z39-104 a85 x-1..17 ; 1814:293 z67-97 a91 x11..32 ; 4748:260 z67-97 a-90 x-32..-11 ; 1785:223 z39-67 a-179 x-17..17 ; 5877:117 z67-77 a3 x-6..6 ; 2838:99 z66-72 a-81 x-32..-25 ; 2842:99 z67-72 a-82 x-32..-25 ; 1858:99 z66-72 a81 x25..32 ; 1863:99 z67-72 a82 x25..32 ; 3084:45 z66-71 a-81 x-32..-26 ; 3359:45 z66-67 a179 x-12..12 ; 3691:45 z66-71 a81 x26..32 ; 3206:15 z60-61 a-0 x-7..7 ; 5900:15 z67-69 a-24 x-6..-3 ; 5905:15 z72-73 a31 x4..6 ; 5907:15 z70-72 a16 x0..4 ; +9 more
+## clothes\graybeardrobe\greybeardrobe_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  GreybeardRobe01AA
+  [RobeDoubled3rdPerson] 12265p: c0:12265 z3-117 a-26 SKIRT
+     c0 islands<72: 2445:4634 z8-109 a-14 x-21..21 ; 3983:815 z60-110 a-100 x-36..-11 ; 6179:815 z60-110 a100 x11..36 ; 6255:662 z3-77 a0 x-19..19 ; 7997:239 z3-60 a-180 x-19..19 ; 2562:87 z54-76 a-84 x-36..-23 ; 4455:85 z54-76 a84 x22..36 ; 3682:51 z3-9 a-141 x-19..3 ; 4803:50 z54-76 a84 x27..36 ; 5476:39 z3-9 a131 x2..19 ; 4275:36 z60-79 a-85 x-35..-23 ; 5119:36 z60-79 a85 x23..36 ; 5406:27 z3-9 a-1 x-7..7 ; 4699:21 z4-9 a-73 x-19..-12 ; 5625:21 z4-9 a73 x11..19 ; 6731:18 z54-69 a-89 x-28..-22 ; 6325:15 z58-69 a-86 x-36..-33 ; 6590:15 z70-76 a-74 x-35..-29 ; +35 more
+## clothes\jester\jesterm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  JesterTorso01AA
+  [JesterBody] 6829p: c0:4882 z40-117 a-116 SKIRT | c1:1234 z7-68 a-180 LEGS | c2:294 z59-73 a55 | c3:282 z71-77 a-2 | c4:137 z74-75 a-9
+     c0 islands<72: 5807:2042 z40-111 a-1 x-19..19 ; 1797:860 z41-111 a-179 x-19..19 ; 3731:448 z70-102 a-99 x-31..-13 ; 1632:444 z70-102 a98 x11..31 ; 5737:63 z63-74 a29 x-14..14 ; 3660:25 z70-74 a-85 x-31..-25 ; 1457:25 z70-74 a85 x26..31
+## clothes\minerclothes\minerclothesm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  MinerClothesVariantAA, MinerClothes
+  [HIMBO - Body] 747p: c0:261 z79-88 a97 | c1:261 z79-88 a-97 | c2:225 z102-115 a0
+  [MinerClothes] 9226p: c0:4640 z52-117 a5 SKIRT | c1:1706 z10-77 a179 SKIRT | c2:1206 z71-81 a-4 | c3:720 z71-78 a10 | c4:578 z58-78 a7 | c5:167 z73-84 a90 | c6:167 z73-84 a-90 | c7:21 z106-108 a3 | c8:21 z106-108 a-1
+     c0 islands<72: 2275:2435 z52-117 a4 x-17..17 ; 7364:936 z52-80 a1 x-16..15 ; 3472:9 z58-63 a-102 x-15..-14 ; 1697:9 z58-63 a102 x14..15 ; 2595:9 z58-62 a-74 x-15..-14 ; 4008:9 z72-73 a-86 x-13..-12 ; 3956:9 z58-62 a75 x13..15 ; 3970:8 z72-73 a85 x12..13 ; 3993:8 z72-73 a-87 x-12..-12 ; 6114:8 z72-73 a86 x12..13 ; 3968:6 z67-71 a97 x13..13 ; 3969:6 z67-71 a96 x12..13 ; 3971:6 z67-72 a81 x12..13 ; 3076:6 z72-73 a-91 x-12..-12 ; 3586:6 z67-72 a-96 x-13..-12 ; 3975:6 z62-67 a77 x13..13 ; 3336:6 z71-73 a91 x12..12 ; 3978:6 z62-67 a76 x13..14 ; +12 more
+     c1 islands<72: 5720:1586 z10-77 a179 x-16..16 ; 5637:6 z11-12 a-123 x-14..-12 ; 5641:6 z11-12 a-128 x-12..-10 ; 5643:6 z11-12 a-126 x-12..-8 ; 5646:6 z10-12 a-117 x-12..-8 ; 5711:6 z11-12 a105 x12..14 ; 5713:6 z11-12 a108 x9..12 ; 5717:6 z11-12 a123 x12..14 ; 5721:6 z10-12 a117 x8..12 ; 5723:6 z11-12 a125 x8..12 ; 5725:6 z11-12 a129 x8..12 ; 5727:6 z11-12 a127 x10..12 ; 5734:6 z11-12 a107 x12..15 ; 5738:6 z11-12 a118 x12..16 ; 5611:6 z11-12 a-105 x-14..-12 ; 5739:6 z11-12 a112 x12..16 ; 5613:6 z11-12 a-112 x-15..-12 ; 5623:6 z11-12 a-129 x-12..-8 ; +3 more
+## clothes\monk\monkrobes_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  MonkRobesColorGreenAA, MonkRobesColorRedAA
+  [robes] 4788p: c0:4074 z6-116 a-126 SKIRT | c1:345 z42-73 a-38 | c2:309 z51-73 a-23
+     c0 islands<72: 4120:2187 z6-115 a-4 x-19..20 ; 1838:801 z6-116 a179 x-17..19 ; 3206:486 z68-106 a94 x12..32 ; 3060:486 z68-106 a-94 x-32..-12 ; 1219:58 z6-17 a-178 x-18..18 ; 3051:28 z68-73 a-83 x-32..-25 ; 3211:28 z68-73 a83 x25..32
+  [HIMBO - Body] 200p: c0:140 z108-115 a180 | c1:30 z11-16 a-116 | c2:30 z11-16 a116
+## clothes\monk\vaerminarobes_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  VaerminaRobesAA
+  [robes] 4788p: c0:4074 z6-115 a-125 SKIRT | c1:345 z42-73 a-38 | c2:309 z51-73 a-23
+     c0 islands<72: 4120:2187 z6-115 a-4 x-19..19 ; 1838:801 z6-115 a179 x-17..19 ; 3206:486 z68-106 a94 x12..32 ; 3060:486 z68-106 a-94 x-32..-12 ; 1219:58 z6-16 a-178 x-18..18 ; 3051:28 z68-73 a-83 x-32..-25 ; 3211:28 z68-73 a83 x25..32
+  [HIMBO - Body] 200p: c0:140 z108-115 a180 | c1:30 z11-16 a-116 | c2:30 z11-16 a116
+## clothes\nocturnal\outfitf_1.nif  [CBBE 3BA Vanilla Outfits Redone - Prebuilt]  NocturnalTorsoAA
+  [3BA] 16277p: c0:16277 z11-114 a180 LEGS
+  [NocturnalClothes] 2538p: c0:2538 z13-112 a-178 SKIRT
+     c0 islands<72: 1422:926 z21-112 a-10 x-17..17 ; 2320:795 z13-112 a-180 x-17..17 ; 1959:300 z66-102 a107 x10..34 ; 2159:300 z66-102 a-107 x-34..-10 ; 2458:106 z66-93 a-105 x-33..-17 ; 2334:106 z66-93 a105 x17..33
+  [FemaleUnderwearSH1] 807p: c0:807 z64-78 a-180
+## clothes\prisoner\prisonerclothes_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  PrisonerClothesAA
+  [clothes] 16537p: c0:8971 z52-115 a5 SKIRT | c1:5360 z45-77 a-1 SKIRT | c2:2206 z8-73 a176 SKIRT
+     c0 islands<72: 12082:1081 z52-76 a-0 x-17..17 ; 12055:865 z52-74 a-0 x-17..17 ; 12923:503 z53-76 a179 x-17..17 ; 3544:349 z53-74 a180 x-17..17
+     c1 islands<72: 14357:1125 z59-74 a-8 x-3..3 ; 14659:992 z45-74 a10 x-0..3 ; 8461:15 z45-46 a6 x1..2 ; 5209:15 z59-59 a-12 x-3..-2
+     c2 islands<72: 5482:757 z10-73 a108 x-0..17 ; 5671:731 z8-73 a-107 x-17..0 ; 5178:369 z10-47 a112 x4..17 ; 5064:349 z8-48 a-110 x-17..-5
+  [HIMBO - Body] 6817p: c0:4829 z75-115 a180 | c1:994 z11-45 a-106 | c2:994 z11-45 a106
+## clothes\prisoner\prisonerrags_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  PrisonerRagsAA
+  [rags] 9386p: c0:5390 z45-77 a-1 SKIRT | c1:3996 z8-79 a156 LEGS
+     c0 islands<72: 7293:1125 z59-74 a-9 x-3..3 ; 7491:992 z45-74 a11 x-0..3 ; 6935:45 z59-59 a-14 x-3..-2 ; 3945:15 z45-46 a7 x1..2
+  [HIMBO - Body HP] 10681p: c0:8817 z72-115 a0 | c1:932 z11-43 a-106 | c2:932 z11-43 a106
+## clothes\psiijic\psiijicrobesm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  PsiijicRobesAA
+  [HIMBO - Body] 340p: c0:340 z99-115 a-0
+  [PsiijicRobes] 7984p: c0:5662 z12-119 a-4 SKIRT | c1:1088 z7-73 a180 SKIRT | c2:721 z70-83 a-1 | c3:221 z59-77 a0 | c4:102 z90-112 a178 | c5:85 z105-108 a-0 | c6:21 z102-102 a-0 | c7:21 z102-104 a0 | c8:21 z102-104 a-0 | c9:21 z103-105 a1 | c10:21 z103-105 a-0
+     c0 islands<72: 5626:781 z64-104 a-89 x-34..-11 ; 3441:766 z64-104 a89 x11..34 ; 2245:569 z12-79 a26 x-24..24 ; 5412:515 z12-76 a6 x-24..24 ; 2795:273 z12-74 a-0 x-24..24 ; 4279:87 z64-70 a78 x25..33 ; 3795:87 z64-70 a-78 x-33..-25 ; 4237:66 z64-74 a80 x25..33 ; 3783:66 z64-74 a-80 x-33..-25 ; 4238:24 z67-79 a85 x25..33 ; 3791:24 z67-79 a-85 x-33..-25
+     c1 islands<72: 4788:1088 z7-73 a180 x-17..17
+## clothes\redguard\redguardoutfit_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  RedguardClothesDBOutfitAA, RedguardClothesOutfitAA
+  [Redguard Fat Outfit] 11724p: c0:6358 z5-115 a169 SKIRT | c1:1508 z74-83 a10 | c2:1029 z73-81 a-6 | c3:904 z61-83 a-71 | c4:720 z19-113 a-180 SKIRT | c5:402 z54-75 a-54 | c6:310 z71-91 a-91 | c7:310 z71-91 a90 | c8:109 z109-113 a-111 | c9:74 z109-113 a111
+     c0 islands<72: 7161:3829 z7-86 a13 x-19..19 ; 7154:27 z5-7 a-116 x-17..-8 ; 7062:27 z5-7 a116 x8..17
+     c4 islands<72: 6810:415 z19-113 a-180 x-23..23 ; 7020:305 z19-112 a-180 x-23..23
+  [HIMBO - Body] 357p: c0:357 z107-115 a-180
+## clothes\robedarkbrotherhood\dbtorso_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  DBRobesAA
+  [HIMBO - Body] 254p: c0:254 z107-115 a-180
+  [DBbody3rdPerson] 9355p: c0:5215 z41-114 a-0 SKIRT | c1:1304 z0-81 a-180 LEGS | c2:1186 z76-114 a0 | c3:649 z77-83 a7 | c4:519 z78-83 a40 | c5:482 z55-82 a27
+     c0 islands<72: 5364:598 z43-82 a2 x-11..11 ; 5636:490 z41-81 a1 x-18..18 ; 5165:370 z41-83 a92 x0..18 ; 4934:370 z41-83 a-92 x-18..-0 ; 5202:269 z43-83 a-180 x-10..10 ; 8295:235 z68-80 a0 x-1..1 ; 6161:221 z68-88 a88 x19..37 ; 6062:221 z68-88 a-88 x-37..-19 ; 7213:210 z61-80 a-7 x-6..0 ; 4692:73 z43-68 a-29 x-11..-0 ; 5365:73 z43-68 a29 x0..11 ; 4481:43 z43-68 a-161 x-10..-1 ; 5260:43 z43-68 a161 x1..10 ; 6029:25 z68-74 a-82 x-35..-23 ; 6140:25 z68-74 a82 x23..35
+## clothes\robemythicdawn\mdrobe_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  MythicDawnRobesAA, MDRobesAA
+  [Mythic_Dawn_Outfit_body] 6395p: c0:5841 z3-116 a51 SKIRT | c1:554 z94-113 a179
+     c0 islands<72: 5073:850 z3-79 a167 x-22..24 ; 4307:398 z30-78 a1 x-12..12 ; 3221:362 z66-106 a99 x12..32 ; 3519:362 z66-106 a-99 x-32..-12 ; 2409:275 z3-30 a178 x-21..22 ; 2579:162 z51-79 a-166 x-11..11 ; 5761:125 z58-78 a31 x5..7 ; 5899:115 z58-78 a34 x4..7 ; 6054:105 z58-78 a37 x6..7 ; 6024:105 z58-78 a34 x5..7 ; 5354:101 z51-79 a180 x-11..11 ; 3444:45 z66-76 a92 x22..32 ; 3742:45 z66-76 a-92 x-32..-22
+## clothes\sheogorath\sheogorathoutfit.nif  [Skyrim - Meshes0.bsa]  SheogorathOutfitAA
+  [Outfit] 2467p: c0:1279 z64-119 a180 | c1:551 z7-76 a-180 SKIRT | c2:291 z64-82 a-110 | c3:265 z96-117 a-1 | c4:81 z75-82 a0
+     c1 islands<72: 550:529 z7-76 a-180 x-17..17 ; 217:11 z7-8 a116 x10..15 ; 485:11 z7-8 a-116 x-15..-10
+## clothes\thalmor\thalmorrobesm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  ThalmorRobesAA
+  [ThalmorRobes] 5047p: c0:4188 z3-115 a-3 SKIRT | c1:859 z6-76 a-180 LEGS
+     c0 islands<72: 4557:771 z3-83 a2 x-20..20 ; 1759:373 z3-72 a175 x-19..20 ; 2759:123 z41-74 a-5 x-10..9 ; 4908:105 z71-75 a0 x-4..4 ; 4955:105 z72-74 a-0 x-4..4 ; 1826:94 z3-74 a-29 x-9..-4 ; 1467:94 z3-74 a29 x4..9 ; 1776:75 z3-5 a179 x-20..20 ; 2760:51 z41-58 a-15 x-10..9 ; 2745:43 z57-65 a-78 x-13..13 ; 4921:15 z71-73 a-15 x-4..-1 ; 4957:15 z71-73 a15 x1..4
+  [Collar] 210p: c0:210 z105-118 a179
+## clothes\wench\wenchoutfitm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  WenchOutfitAA
+  [merchanttorso_1] 4170p: c0:2848 z49-115 a-77 SKIRT | c1:356 z25-62 a107 SKIRT | c2:356 z25-62 a-107 SKIRT | c3:242 z71-83 a-155 | c4:184 z67-78 a65 | c5:184 z68-79 a36
+     c0 islands<72: 2330:1460 z49-115 a-4 x-17..16 ; 2325:519 z49-115 a-180 x-17..15
+     c1 islands<72: 3288:356 z25-62 a107 x1..16
+     c2 islands<72: 3335:356 z25-62 a-107 x-16..-1
+  [HIMBO - Body] 1154p: c0:400 z98-115 a-0 | c1:299 z11-30 a-117 | c2:299 z11-30 a117 | c3:78 z75-83 a93 | c4:78 z75-83 a-93
+## clothes\yarlclothes02\outfitm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  YarlTorso02AA
+  [Clothes] 12230p: c0:6191 z33-118 a-8 SKIRT | c1:3922 z29-118 a-44 SKIRT | c2:1209 z8-75 a179 SKIRT | c3:908 z66-79 a-35
+     c0 islands<72: 11093:4004 z33-118 a-7 x-22..22 ; 7812:399 z71-108 a-99 x-31..-12 ; 7857:399 z71-108 a99 x11..31 ; 7397:369 z35-78 a-177 x-21..21 ; 11115:321 z62-75 a-6 x-3..1 ; 10627:134 z56-73 a-29 x-9..-1 ; 7389:134 z56-73 a27 x1..9 ; 11393:125 z63-75 a-8 x-4..1 ; 10867:63 z70-78 a-0 x-13..13 ; 7813:25 z71-75 a-85 x-31..-26 ; 7858:25 z71-75 a86 x26..31 ; 5510:12 z33-35 a-53 x-14..-10 ; 6291:12 z33-35 a53 x11..14 ; 6301:12 z35-38 a143 x10..13 ; 5226:12 z35-38 a-144 x-12..-9 ; 7018:12 z34-36 a-100 x-22..-21 ; 7030:12 z35-36 a101 x21..22
+     c1 islands<72: 8291:1144 z55-117 a-62 x-21..-5 ; 4300:989 z56-117 a61 x5..21 ; 3825:804 z29-118 a-180 x-21..21 ; 4521:290 z55-101 a-56 x-13..-6 ; 4564:252 z56-105 a55 x5..13 ; 3826:212 z29-107 a180 x-16..16
+     c2 islands<72: 7664:552 z8-75 a-105 x-17..0 ; 7772:552 z8-75 a105 x-0..17 ; 7663:31 z8-9 a-117 x-16..-9 ; 7771:31 z8-9 a117 x9..16
+## clothes\yarlclothes02\ulfric_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  UlfricTorso0AA
+  [ClothesREVISED] 13675p: c0:7241 z33-118 a-5 SKIRT | c1:3937 z29-118 a-37 SKIRT | c2:1156 z7-75 a173 SKIRT | c3:878 z66-79 a-33 | c4:216 z99-108 a-105 | c5:216 z99-108 a105 | c6:31 z7-8 a-117
+     c0 islands<72: 9661:4912 z33-118 a-5 x-20..20 ; 3972:439 z71-108 a99 x12..31 ; 5583:439 z71-108 a-98 x-31..-12 ; 5300:369 z35-77 a-177 x-19..19 ; 12722:321 z62-74 a-6 x-4..1 ; 13481:215 z57-72 a-22 x-8..-1 ; 13517:215 z57-72 a21 x1..8 ; 8494:49 z70-77 a-2 x-12..12 ; 8192:39 z62-74 a-7 x-4..0 ; 4299:25 z71-75 a85 x26..31 ; 4345:25 z71-75 a-85 x-31..-26 ; 6156:12 z36-38 a-145 x-12..-9 ; 4254:12 z34-36 a-105 x-20..-19 ; 4260:12 z34-36 a105 x18..19 ; 7218:12 z33-35 a-53 x-13..-10 ; 7626:12 z35-38 a144 x10..12 ; 3408:12 z33-35 a53 x10..13
+     c1 islands<72: 11757:1303 z55-117 a-60 x-22..-5 ; 11781:1171 z56-118 a59 x5..21 ; 3705:804 z29-118 a-180 x-22..21 ; 6713:212 z29-108 a-180 x-16..16 ; 8187:112 z55-101 a-56 x-13..-5 ; 5143:104 z56-106 a54 x5..13
+     c2 islands<72: 4884:1082 z8-75 a-180 x-16..16 ; 5332:31 z7-8 a117 x8..16
+## clothes\yarlclothes03\outfitm_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  YarlTorso03AA
+  [YarlClothes03_Cloth] 8657p: c0:7463 z24-117 a2 SKIRT | c1:332 z89-93 a-49 | c2:332 z89-93 a49 | c3:100 z63-66 a53 | c4:93 z31-35 a59 | c5:93 z31-35 a-59 | c6:93 z63-66 a-52 | c7:81 z98-104 a-1 | c8:35 z103-109 a0 | c9:35 z103-109 a-1
+     c0 islands<72: 4497:1297 z31-103 a179 x-21..21 ; 6285:1251 z61-101 a1 x-13..13 ; 3328:434 z24-71 a-180 x-20..19 ; 2371:317 z71-84 a-91 x-31..-21 ; 6114:317 z71-84 a91 x21..31 ; 8643:271 z24-71 a86 x0..21 ; 6985:271 z24-71 a-86 x-21..0 ; 7084:234 z31-92 a65 x7..20 ; 7915:234 z31-92 a-65 x-20..-7 ; 8642:193 z61-71 a0 x-12..12 ; 2245:72 z72-77 a87 x26..31 ; 2008:72 z72-77 a-87 x-31..-26 ; 3329:43 z70-73 a-178 x-9..9 ; 5040:27 z32-39 a-121 x-20..-6 ; 5572:27 z32-39 a122 x6..20 ; 5534:19 z32-45 a180 x-7..7 ; 3465:15 z39-52 a179 x-0..1 ; 3171:15 z39-52 a-179 x-1..0
+  [YarlPants] 410p: c0:410 z8-72 a180 LEGS
+## clothes\yarlclothes03\outfitm_var1_1.nif  [Highly Improved Male Body Overhaul -HIMBO- Vanilla Armors]  YarlTorso03_var1AA
+  [YarlClothes03_Cloth] 8657p: c0:7463 z24-117 a1 SKIRT | c1:332 z89-93 a-50 | c2:332 z89-93 a50 | c3:100 z63-66 a53 | c4:93 z31-35 a59 | c5:93 z31-35 a-59 | c6:93 z63-66 a-52 | c7:81 z98-104 a-1 | c8:35 z103-110 a0 | c9:35 z103-110 a-1
+     c0 islands<72: 4497:1297 z31-103 a180 x-21..21 ; 6285:1251 z61-101 a1 x-13..13 ; 3328:434 z24-71 a-180 x-20..19 ; 2371:317 z71-84 a-91 x-31..-21 ; 6114:317 z71-84 a91 x21..31 ; 8643:271 z24-71 a87 x0..21 ; 6985:271 z24-71 a-87 x-21..0 ; 7084:234 z31-92 a66 x7..20 ; 7915:234 z31-92 a-66 x-20..-7 ; 8642:193 z61-71 a0 x-12..12 ; 2245:72 z72-77 a87 x26..31 ; 2008:72 z72-77 a-87 x-31..-26 ; 3329:43 z70-73 a-178 x-9..9 ; 5040:27 z32-39 a-121 x-20..-6 ; 5572:27 z32-39 a122 x6..20 ; 5534:19 z32-45 a180 x-7..7 ; 3465:15 z39-52 a179 x-0..1 ; 3171:15 z39-52 a-179 x-1..0
+  [YarlPants] 410p: c0:410 z8-72 a-180 LEGS
+## clothes\yarlclothes\m\torso_1.nif  [Authoria - PG Output - PBR]  YarlTorso01AA
+  [Torso] 1847p: c0:1077 z35-116 a-164 SKIRT | c1:179 z105-115 a110 | c2:148 z91-120 a177 | c3:88 z7-51 a-106 | c4:88 z7-51 a106 | c5:45 z102-109 a-0 | c6:38 z74-80 a48 | c7:34 z72-82 a-46 | c8:28 z89-107 a63 | c9:26 z89-107 a50 | c10:24 z105-110 a-63 | c11:24 z106-112 a57
+     c0 islands<72: 1498:291 z35-80 a-137 x-17..17 ; 615:3 z35-36 a-140 x-12..-8 ; 618:3 z35-36 a-135 x-12..-8 ; 621:3 z35-36 a-125 x-15..-12 ; 624:3 z35-36 a-119 x-16..-12 ; 627:3 z35-36 a-109 x-16..-15 ; 630:3 z35-36 a-104 x-17..-16 ; 633:3 z35-36 a-175 x-3..0 ; 636:3 z35-36 a-170 x-4..0 ; 639:3 z35-35 a-158 x-8..-3 ; 642:3 z35-35 a-151 x-8..-4 ; 645:3 z35-36 a-93 x-17..-15 ; 648:3 z35-36 a-87 x-17..-15 ; 651:3 z35-35 a-78 x-15..-13 ; 654:3 z35-35 a-75 x-15..-13 ; 657:3 z35-36 a136 x8..12 ; 660:3 z35-36 a141 x8..12 ; 663:3 z36-36 a119 x12..16 ; +136 more
+  [Sleeves] 468p: c0:197 z61-110 a-95 | c1:197 z61-110 a95 | c2:37 z61-79 a-87 | c3:37 z61-79 a87
+## clothes\yarlclothes\m\torso_var1_1.nif  [Authoria - PG Output - PBR]  YarlTorso01_var1AA
+  [Torso] 1847p: c0:1077 z35-116 a-164 SKIRT | c1:179 z105-115 a110 | c2:148 z91-120 a177 | c3:88 z7-51 a-106 | c4:88 z7-51 a106 | c5:45 z102-109 a-0 | c6:38 z74-80 a48 | c7:34 z72-82 a-46 | c8:28 z89-107 a63 | c9:26 z89-107 a50 | c10:24 z105-110 a-63 | c11:24 z106-112 a57
+     c0 islands<72: 1498:291 z35-80 a-137 x-17..17 ; 615:3 z35-36 a-140 x-12..-8 ; 618:3 z35-36 a-135 x-12..-8 ; 621:3 z35-36 a-125 x-15..-12 ; 624:3 z35-36 a-119 x-16..-12 ; 627:3 z35-36 a-109 x-16..-15 ; 630:3 z35-36 a-104 x-17..-16 ; 633:3 z35-36 a-175 x-3..0 ; 636:3 z35-36 a-170 x-4..0 ; 639:3 z35-35 a-158 x-8..-3 ; 642:3 z35-35 a-151 x-8..-4 ; 645:3 z35-36 a-93 x-17..-15 ; 648:3 z35-36 a-87 x-17..-15 ; 651:3 z35-35 a-78 x-15..-13 ; 654:3 z35-35 a-75 x-15..-13 ; 657:3 z35-36 a136 x8..12 ; 660:3 z35-36 a141 x8..12 ; 663:3 z36-36 a119 x12..16 ; +136 more
+  [Sleeves] 468p: c0:197 z61-110 a-95 | c1:197 z61-110 a95 | c2:37 z61-79 a-87 | c3:37 z61-79 a87
+## clothes\yarlclothes\m\torso_var2_1.nif  [Authoria - PG Output - PBR]  YarlTorso01_var2AA
+  [Torso] 1847p: c0:1077 z35-116 a-164 SKIRT | c1:179 z105-115 a110 | c2:148 z91-120 a177 | c3:88 z7-51 a-106 | c4:88 z7-51 a106 | c5:45 z102-109 a-0 | c6:38 z74-80 a48 | c7:34 z72-82 a-46 | c8:28 z89-107 a63 | c9:26 z89-107 a50 | c10:24 z105-110 a-63 | c11:24 z106-112 a57
+     c0 islands<72: 1498:291 z35-80 a-137 x-17..17 ; 615:3 z35-36 a-140 x-12..-8 ; 618:3 z35-36 a-135 x-12..-8 ; 621:3 z35-36 a-125 x-15..-12 ; 624:3 z35-36 a-119 x-16..-12 ; 627:3 z35-36 a-109 x-16..-15 ; 630:3 z35-36 a-104 x-17..-16 ; 633:3 z35-36 a-175 x-3..0 ; 636:3 z35-36 a-170 x-4..0 ; 639:3 z35-35 a-158 x-8..-3 ; 642:3 z35-35 a-151 x-8..-4 ; 645:3 z35-36 a-93 x-17..-15 ; 648:3 z35-36 a-87 x-17..-15 ; 651:3 z35-35 a-78 x-15..-13 ; 654:3 z35-35 a-75 x-15..-13 ; 657:3 z35-36 a136 x8..12 ; 660:3 z35-36 a141 x8..12 ; 663:3 z36-36 a119 x12..16 ; +136 more
+  [Sleeves] 468p: c0:197 z61-110 a-95 | c1:197 z61-110 a95 | c2:37 z61-79 a-87 | c3:37 z61-79 a87

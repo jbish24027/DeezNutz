@@ -1,0 +1,17 @@
+===== Greybeard
+legs from the body (under z 76.0, no arms / upper body): malebody_1.nif 'HIMBO - Body HP' 6699 of 14597 pts; bones folded to ['NPC L Calf [LClf]', 'NPC L Foot [Lft ]', 'NPC L Thigh [LThg]', 'NPC Pelvis [Pelv]', 'NPC R Calf [RClf]', 'NPC R Foot [Rft ]', 'NPC R Thigh [RThg]', 'NPC Spine [Spn0]', 'NPC Spine1 [Spn1]']
+piece Robe <- RobeDoubled3rdPerson ('islands', 0, {2445: 4634, 2530: 6, 2544: 6, 2604: 9, 2912: 6, 3265: 6, 3610: 6, 3623: 6, 3682: 51, 4056: 6, 4066: 6, 4425: 6, 4440: 6, 4699: 21, 4786: 6, 5118: 6, 5211: 6, 5281: 9, 5353: 6, 5406: 27, 5476: 39, 5547: 6, 5562: 6, 5625: 21, 5904: 6, 5916: 6, 6255: 662, 6715: 6, 6721: 6, 7089: 6, 7449: 6, 7781: 6, 7791: 6, 7997: 239, 11482: 1329}, (), 76.0): 3533 pts / 6141 tris (skirt:outer)
+skirt axis (-0.39, 3.55); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:74.0/63.9/53.8/43.7/33.6/23.5/13.3/3.2; 30:74.0/63.9/53.8/43.7/33.6/23.5/13.4/3.3; 60:74.0/64.0/53.9/43.9/33.8/23.8/13.7/3.7; 90:74.0/64.0/54.0/44.1/34.1/24.1/14.1/4.1; 120:74.0/64.0/54.0/44.0/34.0/24.0/14.0/4.1; 150:74.0/63.9/53.9/43.8/33.8/23.7/13.7/3.6; -180:74.0/63.9/53.8/43.7/33.6/23.6/13.5/3.4; -150:74.0/64.0/54.0/43.9/33.9/23.9/13.9/3.9; -120:74.0/64.0/54.0/44.1/34.1/24.1/14.1/4.2; -90:74.0/64.0/54.0/44.0/34.1/24.1/14.1/4.1; -60:74.0/64.0/54.0/43.9/33.9/23.9/13.9/3.8; -30:74.0/63.9/53.9/43.8/33.7/23.6/13.6/3.5
+tip rows ; flap hinges 
+legs from LegsBody (12774 tris above z 6.0), winding outward 100%
+m: lining to the trousers at rest: p10 1.77 median 4.68; free share p10 0.46 median 0.80
+m: Robe is cut out of RobeDoubled3rdPerson: 119 seam points (z 74.9..76.0) keep its weights, physics fading in over 4.0
+m: skirt Robe 3533 pts (2811 move); tip 0 pts
+m: legs collider pulled in at 54 of 6699 pts (max 0.11); lining points Robe 701/701
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 1817 pts
+m_1: wrote meshes/clothes/graybeardrobe/greybeardrobe_1.nif; shapes (pts, tris) {'RobeDoubled3rdPerson': (8844, 15883), 'Robe': (1822, 3064), 'Robe 2': (1817, 3077), 'AGB Legs Front': (3596, 6722), 'AGB Legs Back': (2280, 4094), 'AGB Legs Side': (3645, 6074), 'AGB Skirt Front': (241, 313), 'AGB Skirt Side': (233, 211), 'AGB Skirt Back': (227, 252), 'VirtualGround': (4, 2)}; bones per shape {'RobeDoubled3rdPerson': 29, 'Robe': 59, 'Robe 2': 59, 'AGB Legs Front': 9, 'AGB Legs Back': 9, 'AGB Legs Side': 9, 'AGB Skirt Front': 40, 'AGB Skirt Side': 43, 'AGB Skirt Back': 28, 'VirtualGround': 1}
+m_0: wrote meshes/clothes/graybeardrobe/greybeardrobe_0.nif; shapes (pts, tris) {'RobeDoubled3rdPerson': (8844, 15883), 'Robe': (1822, 3064), 'Robe 2': (1817, 3077), 'AGB Legs Front': (3596, 6722), 'AGB Legs Back': (2280, 4094), 'AGB Legs Side': (3645, 6074), 'AGB Skirt Front': (241, 313), 'AGB Skirt Side': (233, 211), 'AGB Skirt Back': (227, 252), 'VirtualGround': (4, 2)}; bones per shape {'RobeDoubled3rdPerson': 29, 'Robe': 59, 'Robe 2': 59, 'AGB Legs Front': 9, 'AGB Legs Back': 9, 'AGB Legs Side': 9, 'AGB Skirt Front': 40, 'AGB Skirt Side': 43, 'AGB Skirt Back': 28, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\GreybeardM.xml (494 lines); no slits: neighbouring chains linked all round

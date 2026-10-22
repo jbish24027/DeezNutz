@@ -1,0 +1,362 @@
+{
+ "Light 19FA01": {
+  "worst_visible": [
+   0.32,
+   "amb_ZMinus"
+  ],
+  "worst_surface": [
+   3.38,
+   "surf_skin_XMinus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "281/0.076 -> 317/0.069 magenta-pink",
+   "fog_far@7.5": "278/0.070 -> 317/0.068 magenta-pink",
+   "clouds@7.5": "278/0.070 -> 315/0.056 soft violet-mauve",
+   "amb_XPlus@7.5": "281/0.066 -> 300/0.054 soft violet-mauve",
+   "amb_ZMinus@7.5": "273/0.068 -> 293/0.056 soft violet-mauve",
+   "sunlight@7.5": "43/0.171 -> 44/0.171 coral",
+   "dome_hor_away@13.0": "262/0.111 -> 263/0.099 blue",
+   "fog_far@13.0": "261/0.096 -> 260/0.088 blue",
+   "clouds@13.0": "261/0.096 -> 267/0.077 blue",
+   "amb_XPlus@13.0": "261/0.081 -> 263/0.077 blue",
+   "amb_ZMinus@13.0": "261/0.081 -> 262/0.072 blue",
+   "sunlight@13.0": "63/0.011 -> 54/0.011 grey",
+   "dome_hor_away@18.5": "284/0.082 -> 319/0.074 magenta-pink",
+   "fog_far@18.5": "281/0.076 -> 319/0.072 magenta-pink",
+   "clouds@18.5": "281/0.076 -> 318/0.069 magenta-pink",
+   "amb_XPlus@18.5": "284/0.073 -> 297/0.063 violet-mauve",
+   "amb_ZMinus@18.5": "277/0.074 -> 294/0.060 violet-mauve",
+   "sunlight@18.5": "37/0.195 -> 37/0.195 coral"
+  }
+ },
+ "Light 19FC01": {
+  "worst_visible": [
+   0.44,
+   "amb_ZMinus"
+  ],
+  "worst_surface": [
+   2.0,
+   "surf_skin_XMinus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "282/0.061 -> 325/0.042 soft magenta-pink",
+   "fog_far@7.5": "271/0.072 -> 306/0.039 soft violet-mauve",
+   "clouds@7.5": "271/0.072 -> 320/0.057 soft magenta-pink",
+   "amb_XPlus@7.5": "273/0.068 -> 278/0.051 soft blue-violet",
+   "amb_ZMinus@7.5": "316/0.069 -> 322/0.059 soft magenta-pink",
+   "sunlight@7.5": "44/0.170 -> 44/0.170 coral",
+   "dome_hor_away@13.0": "263/0.083 -> 262/0.073 blue",
+   "fog_far@13.0": "262/0.073 -> 261/0.065 blue",
+   "clouds@13.0": "262/0.073 -> 266/0.063 blue",
+   "amb_XPlus@13.0": "261/0.057 -> 263/0.052 soft blue",
+   "amb_ZMinus@13.0": "262/0.059 -> 264/0.053 soft blue",
+   "sunlight@13.0": "63/0.011 -> 54/0.011 grey",
+   "dome_hor_away@18.5": "285/0.066 -> 326/0.049 soft magenta-pink",
+   "fog_far@18.5": "273/0.075 -> 309/0.044 soft violet-mauve",
+   "clouds@18.5": "273/0.075 -> 322/0.062 magenta-pink",
+   "amb_XPlus@18.5": "275/0.071 -> 280/0.055 soft blue-violet",
+   "amb_ZMinus@18.5": "317/0.073 -> 322/0.061 magenta-pink",
+   "sunlight@18.5": "37/0.194 -> 38/0.194 coral"
+  }
+ },
+ "Light 19FD03": {
+  "worst_visible": [
+   0.29,
+   "sunlight"
+  ],
+  "worst_surface": [
+   1.58,
+   "surf_foliage_sun"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "273/0.032 -> 276/0.020 greyish blue-violet",
+   "fog_far@7.5": "263/0.041 -> 264/0.027 greyish blue",
+   "clouds@7.5": "263/0.041 -> 274/0.027 greyish blue-violet",
+   "amb_XPlus@7.5": "269/0.049 -> 272/0.035 soft blue",
+   "amb_ZMinus@7.5": "298/0.047 -> 304/0.035 soft violet-mauve",
+   "sunlight@7.5": "49/0.155 -> 51/0.152 orange-peach",
+   "dome_hor_away@13.0": "255/0.041 -> 255/0.033 soft blue",
+   "fog_far@13.0": "257/0.046 -> 257/0.037 soft blue",
+   "clouds@13.0": "257/0.046 -> 262/0.037 soft blue",
+   "amb_XPlus@13.0": "256/0.037 -> 257/0.031 soft blue",
+   "amb_ZMinus@13.0": "256/0.037 -> 256/0.031 soft blue",
+   "sunlight@13.0": "52/0.005 -> 52/0.004 grey",
+   "dome_hor_away@18.5": "277/0.030 -> 281/0.019 greyish blue-violet",
+   "fog_far@18.5": "267/0.044 -> 268/0.029 greyish blue",
+   "clouds@18.5": "267/0.044 -> 279/0.029 greyish blue-violet",
+   "amb_XPlus@18.5": "273/0.053 -> 277/0.038 soft blue-violet",
+   "amb_ZMinus@18.5": "299/0.049 -> 305/0.037 soft violet-mauve",
+   "sunlight@18.5": "41/0.179 -> 42/0.176 coral"
+  }
+ },
+ "Medium 19FA01": {
+  "worst_visible": [
+   0.47,
+   "scat_horizon_sunward"
+  ],
+  "worst_surface": [
+   4.68,
+   "surf_skin_ZMinus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "281/0.076 -> 333/0.066 magenta-pink",
+   "fog_far@7.5": "278/0.070 -> 335/0.067 magenta-pink",
+   "clouds@7.5": "278/0.070 -> 332/0.051 soft magenta-pink",
+   "amb_XPlus@7.5": "281/0.066 -> 310/0.050 soft violet-mauve",
+   "amb_ZMinus@7.5": "273/0.068 -> 301/0.050 soft violet-mauve",
+   "sunlight@7.5": "43/0.171 -> 44/0.171 coral",
+   "dome_hor_away@13.0": "262/0.111 -> 263/0.093 blue",
+   "fog_far@13.0": "261/0.096 -> 260/0.083 blue",
+   "clouds@13.0": "261/0.096 -> 271/0.068 blue",
+   "amb_XPlus@13.0": "261/0.081 -> 263/0.074 blue",
+   "amb_ZMinus@13.0": "261/0.081 -> 263/0.068 blue",
+   "sunlight@13.0": "63/0.011 -> 52/0.011 grey",
+   "dome_hor_away@18.5": "284/0.082 -> 335/0.070 magenta-pink",
+   "fog_far@18.5": "281/0.076 -> 336/0.070 magenta-pink",
+   "clouds@18.5": "281/0.076 -> 335/0.068 magenta-pink",
+   "amb_XPlus@18.5": "284/0.073 -> 302/0.058 soft violet-mauve",
+   "amb_ZMinus@18.5": "277/0.074 -> 303/0.054 soft violet-mauve",
+   "sunlight@18.5": "37/0.195 -> 37/0.195 coral"
+  }
+ },
+ "Medium 19FC01": {
+  "worst_visible": [
+   0.61,
+   "amb_ZMinus"
+  ],
+  "worst_surface": [
+   2.71,
+   "surf_skin_XPlus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "282/0.061 -> 348/0.039 soft rose-pink",
+   "fog_far@7.5": "271/0.072 -> 333/0.031 soft magenta-pink",
+   "clouds@7.5": "271/0.072 -> 341/0.058 soft rose-pink",
+   "amb_XPlus@7.5": "273/0.068 -> 282/0.043 soft blue-violet",
+   "amb_ZMinus@7.5": "316/0.069 -> 324/0.053 soft magenta-pink",
+   "sunlight@7.5": "44/0.170 -> 44/0.170 coral",
+   "dome_hor_away@13.0": "263/0.083 -> 262/0.068 blue",
+   "fog_far@13.0": "262/0.073 -> 261/0.061 blue",
+   "clouds@13.0": "262/0.073 -> 268/0.058 soft blue",
+   "amb_XPlus@13.0": "261/0.057 -> 263/0.050 soft blue",
+   "amb_ZMinus@13.0": "262/0.059 -> 265/0.051 soft blue",
+   "sunlight@13.0": "63/0.011 -> 53/0.011 grey",
+   "dome_hor_away@18.5": "285/0.066 -> 348/0.045 soft rose-pink",
+   "fog_far@18.5": "273/0.075 -> 334/0.036 soft magenta-pink",
+   "clouds@18.5": "273/0.075 -> 342/0.063 rose-pink",
+   "amb_XPlus@18.5": "275/0.071 -> 284/0.048 soft blue-violet",
+   "amb_ZMinus@18.5": "317/0.073 -> 324/0.057 soft magenta-pink",
+   "sunlight@18.5": "37/0.194 -> 38/0.194 coral"
+  }
+ },
+ "Medium 19FD03": {
+  "worst_visible": [
+   0.4,
+   "sunlight"
+  ],
+  "worst_surface": [
+   2.22,
+   "surf_foliage_sun"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "273/0.032 -> 279/0.015 greyish blue-violet",
+   "fog_far@7.5": "263/0.041 -> 265/0.021 greyish blue",
+   "clouds@7.5": "263/0.041 -> 282/0.022 greyish blue-violet",
+   "amb_XPlus@7.5": "269/0.049 -> 274/0.029 greyish blue-violet",
+   "amb_ZMinus@7.5": "298/0.047 -> 307/0.030 soft violet-mauve",
+   "sunlight@7.5": "49/0.155 -> 51/0.150 orange-peach",
+   "dome_hor_away@13.0": "255/0.041 -> 255/0.029 greyish blue",
+   "fog_far@13.0": "257/0.046 -> 257/0.032 soft blue",
+   "clouds@13.0": "257/0.046 -> 266/0.033 soft blue",
+   "amb_XPlus@13.0": "256/0.037 -> 252/0.026 greyish blue",
+   "amb_ZMinus@13.0": "256/0.037 -> 253/0.027 greyish blue",
+   "sunlight@13.0": "52/0.005 -> 52/0.004 grey",
+   "dome_hor_away@18.5": "277/0.030 -> 284/0.014 greyish blue-violet",
+   "fog_far@18.5": "267/0.044 -> 269/0.022 greyish blue",
+   "clouds@18.5": "267/0.044 -> 289/0.023 greyish blue-violet",
+   "amb_XPlus@18.5": "273/0.053 -> 280/0.032 soft blue-violet",
+   "amb_ZMinus@18.5": "299/0.049 -> 308/0.033 soft violet-mauve",
+   "sunlight@18.5": "41/0.179 -> 42/0.175 coral"
+  }
+ },
+ "Strong 19FA01": {
+  "worst_visible": [
+   0.82,
+   "amb_ZMinus"
+  ],
+  "worst_surface": [
+   6.53,
+   "surf_skin_ZMinus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "281/0.076 -> 0/0.059 soft rose-pink",
+   "fog_far@7.5": "278/0.070 -> 1/0.065 rose-pink",
+   "clouds@7.5": "278/0.070 -> 347/0.044 soft rose-pink",
+   "amb_XPlus@7.5": "281/0.066 -> 329/0.045 soft magenta-pink",
+   "amb_ZMinus@7.5": "273/0.068 -> 318/0.041 soft magenta-pink",
+   "sunlight@7.5": "43/0.171 -> 44/0.170 coral",
+   "dome_hor_away@13.0": "262/0.111 -> 264/0.083 blue",
+   "fog_far@13.0": "261/0.096 -> 259/0.076 blue",
+   "clouds@13.0": "261/0.096 -> 278/0.056 soft blue-violet",
+   "amb_XPlus@13.0": "261/0.081 -> 265/0.070 blue",
+   "amb_ZMinus@13.0": "261/0.081 -> 262/0.061 blue",
+   "sunlight@13.0": "63/0.011 -> 50/0.011 grey",
+   "dome_hor_away@18.5": "284/0.082 -> 1/0.062 rose-pink",
+   "fog_far@18.5": "281/0.076 -> 3/0.066 rose-pink",
+   "clouds@18.5": "281/0.076 -> 359/0.066 rose-pink",
+   "amb_XPlus@18.5": "284/0.073 -> 311/0.049 soft violet-mauve",
+   "amb_ZMinus@18.5": "277/0.074 -> 319/0.046 soft magenta-pink",
+   "sunlight@18.5": "37/0.195 -> 37/0.195 coral"
+  }
+ },
+ "Strong 19FC01": {
+  "worst_visible": [
+   1.12,
+   "amb_XPlus"
+  ],
+  "worst_surface": [
+   3.91,
+   "surf_skin_XMinus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "282/0.061 -> 27/0.041 soft salmon",
+   "fog_far@7.5": "271/0.072 -> 29/0.034 soft salmon",
+   "clouds@7.5": "271/0.072 -> 9/0.064 rose-pink",
+   "amb_XPlus@7.5": "273/0.068 -> 285/0.029 greyish blue-violet",
+   "amb_ZMinus@7.5": "316/0.069 -> 330/0.045 soft magenta-pink",
+   "sunlight@7.5": "44/0.170 -> 44/0.169 coral",
+   "dome_hor_away@13.0": "263/0.083 -> 261/0.060 blue",
+   "fog_far@13.0": "262/0.073 -> 260/0.055 soft blue",
+   "clouds@13.0": "262/0.073 -> 272/0.051 soft blue",
+   "amb_XPlus@13.0": "261/0.057 -> 265/0.046 soft blue",
+   "amb_ZMinus@13.0": "262/0.059 -> 267/0.046 soft blue",
+   "sunlight@13.0": "63/0.011 -> 51/0.011 grey",
+   "dome_hor_away@18.5": "285/0.066 -> 24/0.045 soft salmon",
+   "fog_far@18.5": "273/0.075 -> 27/0.036 soft salmon",
+   "clouds@18.5": "273/0.075 -> 9/0.067 rose-pink",
+   "amb_XPlus@18.5": "275/0.071 -> 290/0.037 soft blue-violet",
+   "amb_ZMinus@18.5": "317/0.073 -> 330/0.049 soft magenta-pink",
+   "sunlight@18.5": "37/0.194 -> 38/0.193 coral"
+  }
+ },
+ "Strong 19FD03": {
+  "worst_visible": [
+   0.56,
+   "amb_YPlus"
+  ],
+  "worst_surface": [
+   2.61,
+   "surf_skin_ZPlus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "273/0.032 -> 293/0.007 grey",
+   "fog_far@7.5": "263/0.041 -> 268/0.010 grey",
+   "clouds@7.5": "263/0.041 -> 297/0.017 greyish violet-mauve",
+   "amb_XPlus@7.5": "269/0.049 -> 271/0.017 greyish blue",
+   "amb_ZMinus@7.5": "298/0.047 -> 318/0.023 greyish magenta-pink",
+   "sunlight@7.5": "49/0.155 -> 49/0.154 coral",
+   "dome_hor_away@13.0": "255/0.041 -> 255/0.023 greyish blue",
+   "fog_far@13.0": "257/0.046 -> 257/0.025 greyish blue",
+   "clouds@13.0": "257/0.046 -> 272/0.026 greyish blue-violet",
+   "amb_XPlus@13.0": "256/0.037 -> 251/0.022 greyish blue",
+   "amb_ZMinus@13.0": "256/0.037 -> 252/0.022 greyish blue",
+   "sunlight@13.0": "52/0.005 -> 51/0.003 grey",
+   "dome_hor_away@18.5": "277/0.030 -> 301/0.007 grey",
+   "fog_far@18.5": "267/0.044 -> 273/0.011 grey",
+   "clouds@18.5": "267/0.044 -> 301/0.019 greyish violet-mauve",
+   "amb_XPlus@18.5": "273/0.053 -> 279/0.020 greyish blue-violet",
+   "amb_ZMinus@18.5": "299/0.049 -> 318/0.025 greyish magenta-pink",
+   "sunlight@18.5": "41/0.179 -> 41/0.178 coral"
+  }
+ },
+ "Medium_kappa0.6 19FA01": {
+  "worst_visible": [
+   0.47,
+   "scat_horizon_sunward"
+  ],
+  "worst_surface": [
+   4.68,
+   "surf_skin_ZMinus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "281/0.076 -> 337/0.034 soft magenta-pink",
+   "fog_far@7.5": "278/0.070 -> 334/0.033 soft magenta-pink",
+   "clouds@7.5": "278/0.070 -> 339/0.040 soft magenta-pink",
+   "amb_XPlus@7.5": "281/0.066 -> 310/0.050 soft violet-mauve",
+   "amb_ZMinus@7.5": "273/0.068 -> 301/0.050 soft violet-mauve",
+   "sunlight@7.5": "43/0.171 -> 44/0.171 coral",
+   "dome_hor_away@13.0": "262/0.111 -> 263/0.055 soft blue",
+   "fog_far@13.0": "261/0.096 -> 260/0.050 soft blue",
+   "clouds@13.0": "261/0.096 -> 287/0.046 soft blue-violet",
+   "amb_XPlus@13.0": "261/0.081 -> 263/0.074 blue",
+   "amb_ZMinus@13.0": "261/0.081 -> 263/0.068 blue",
+   "sunlight@13.0": "63/0.011 -> 52/0.011 grey",
+   "dome_hor_away@18.5": "284/0.082 -> 338/0.038 soft magenta-pink",
+   "fog_far@18.5": "281/0.076 -> 335/0.036 soft magenta-pink",
+   "clouds@18.5": "281/0.076 -> 338/0.050 soft magenta-pink",
+   "amb_XPlus@18.5": "284/0.073 -> 302/0.058 soft violet-mauve",
+   "amb_ZMinus@18.5": "277/0.074 -> 303/0.054 soft violet-mauve",
+   "sunlight@18.5": "37/0.195 -> 37/0.195 coral"
+  }
+ },
+ "Medium_kappa0.6 19FC01": {
+  "worst_visible": [
+   0.61,
+   "amb_ZMinus"
+  ],
+  "worst_surface": [
+   2.71,
+   "surf_skin_XPlus"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "282/0.061 -> 352/0.022 greyish rose-pink",
+   "fog_far@7.5": "271/0.072 -> 332/0.016 greyish magenta-pink",
+   "clouds@7.5": "271/0.072 -> 342/0.044 soft rose-pink",
+   "amb_XPlus@7.5": "273/0.068 -> 282/0.043 soft blue-violet",
+   "amb_ZMinus@7.5": "316/0.069 -> 324/0.053 soft magenta-pink",
+   "sunlight@7.5": "44/0.170 -> 44/0.170 coral",
+   "dome_hor_away@13.0": "263/0.083 -> 262/0.041 soft blue",
+   "fog_far@13.0": "262/0.073 -> 261/0.037 soft blue",
+   "clouds@13.0": "262/0.073 -> 284/0.037 soft blue-violet",
+   "amb_XPlus@13.0": "261/0.057 -> 263/0.050 soft blue",
+   "amb_ZMinus@13.0": "262/0.059 -> 265/0.051 soft blue",
+   "sunlight@13.0": "63/0.011 -> 53/0.011 grey",
+   "dome_hor_away@18.5": "285/0.066 -> 352/0.026 greyish rose-pink",
+   "fog_far@18.5": "273/0.075 -> 333/0.019 greyish magenta-pink",
+   "clouds@18.5": "273/0.075 -> 343/0.047 soft rose-pink",
+   "amb_XPlus@18.5": "275/0.071 -> 284/0.048 soft blue-violet",
+   "amb_ZMinus@18.5": "317/0.073 -> 324/0.057 soft magenta-pink",
+   "sunlight@18.5": "37/0.194 -> 38/0.194 coral"
+  }
+ },
+ "Medium_kappa0.6 19FD03": {
+  "worst_visible": [
+   0.4,
+   "sunlight"
+  ],
+  "worst_surface": [
+   2.22,
+   "surf_foliage_sun"
+  ],
+  "hues": {
+   "dome_hor_away@7.5": "273/0.032 -> 290/0.008 grey",
+   "fog_far@7.5": "263/0.041 -> 262/0.012 grey",
+   "clouds@7.5": "263/0.041 -> 300/0.016 greyish violet-mauve",
+   "amb_XPlus@7.5": "269/0.049 -> 274/0.029 greyish blue-violet",
+   "amb_ZMinus@7.5": "298/0.047 -> 307/0.030 soft violet-mauve",
+   "sunlight@7.5": "49/0.155 -> 51/0.150 orange-peach",
+   "dome_hor_away@13.0": "255/0.041 -> 255/0.017 greyish blue",
+   "fog_far@13.0": "257/0.046 -> 257/0.019 greyish blue",
+   "clouds@13.0": "257/0.046 -> 281/0.022 greyish blue-violet",
+   "amb_XPlus@13.0": "256/0.037 -> 252/0.026 greyish blue",
+   "amb_ZMinus@13.0": "256/0.037 -> 253/0.027 greyish blue",
+   "sunlight@13.0": "52/0.005 -> 52/0.004 grey",
+   "dome_hor_away@18.5": "277/0.030 -> 298/0.008 grey",
+   "fog_far@18.5": "267/0.044 -> 269/0.012 greyish blue",
+   "clouds@18.5": "267/0.044 -> 308/0.017 greyish violet-mauve",
+   "amb_XPlus@18.5": "273/0.053 -> 280/0.032 soft blue-violet",
+   "amb_ZMinus@18.5": "299/0.049 -> 308/0.033 soft violet-mauve",
+   "sunlight@18.5": "41/0.179 -> 42/0.175 coral"
+  }
+ }
+}

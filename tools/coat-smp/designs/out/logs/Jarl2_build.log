@@ -1,0 +1,24 @@
+===== Jarl2
+piece Saia <- Clothes ('islands', 0, {5226: 12, 5510: 12, 6291: 12, 6301: 12, 7018: 12, 7030: 12, 7389: 134, 7397: 369, 10627: 134, 10867: 63, 11093: 4004, 11115: 321, 11393: 125}, (1,), 76.0): 4171 pts / 7171 tris (skirt:outer)
+skirt axis (-0.54, 7.17); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:68.0/66.9/65.8/64.7/63.6/62.5; 30:68.0/66.9/65.9/64.8/63.7/62.7; 60:68.0/65.7/63.4/61.1/58.8/56.6; 90:68.0/61.1/54.2/47.3/40.4/33.4; 120:68.0/61.3/54.6/47.9/41.2/34.5; 150:68.0/61.3/54.6/47.9/41.2/34.5; -180:68.0/60.1/52.2/44.3/36.4/28.5; -150:68.0/61.4/54.8/48.2/41.6/35.0; -120:68.0/61.3/54.5/47.8/41.0/34.3; -90:68.0/61.2/54.3/47.5/40.6/33.8; -60:68.0/65.7/63.5/61.2/58.9/56.7; -30:68.0/66.1/64.3/62.4/60.6/58.7
+tip rows ; flap hinges 
+legs from Clothes (1890 tris above z 15.0), winding outward 99%
+m: lining to the trousers at rest: p10 2.43 median 4.14; free share p10 0.85 median 0.85
+m: Saia is cut out of Clothes: 190 seam points (z 71.3..76.0) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 4842 of 4968 lining pts (z 28.5..76.0) take the sheet's weights at their spot; 126 project onto no sheet and keep their own
+m: skirt Saia 15495 pts (7395 move); tip 0 pts
+m: legs collider pulled in at 0 of 1024 pts (max 0.00); lining points Saia 2847/2847
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 45 seam points pinned to the remainder's weights
+m: Clothes: 181 seam points of ['Saia'] to weld into the remainder
+m: Clothes: 181 of 181 seam points welded into the remainder (181 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/yarlclothes02/outfitm_1.nif; shapes (pts, tris) {'Clothes': (8430, 14866), 'Saia': (15495, 28684), 'AJ2 Legs Front': (482, 770), 'AJ2 Legs Back': (442, 722), 'AJ2 Legs Side': (698, 1039), 'AJ2 Skirt Front': (200, 230), 'AJ2 Skirt Side': (1538, 2242), 'AJ2 Skirt Back': (1109, 1674), 'VirtualGround': (4, 2)}; bones per shape {'Clothes': 26, 'Saia': 60, 'AJ2 Legs Front': 7, 'AJ2 Legs Back': 7, 'AJ2 Legs Side': 7, 'AJ2 Skirt Front': 17, 'AJ2 Skirt Side': 45, 'AJ2 Skirt Back': 28, 'VirtualGround': 1}
+m: Saia: 45 seam points pinned to the remainder's weights
+m: Clothes: 181 seam points of ['Saia'] to weld into the remainder
+m: Clothes: 181 of 181 seam points welded into the remainder (181 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/yarlclothes02/outfitm_0.nif; shapes (pts, tris) {'Clothes': (8430, 14866), 'Saia': (15495, 28684), 'AJ2 Legs Front': (482, 770), 'AJ2 Legs Back': (442, 722), 'AJ2 Legs Side': (698, 1039), 'AJ2 Skirt Front': (200, 230), 'AJ2 Skirt Side': (1538, 2242), 'AJ2 Skirt Back': (1109, 1674), 'VirtualGround': (4, 2)}; bones per shape {'Clothes': 26, 'Saia': 60, 'AJ2 Legs Front': 7, 'AJ2 Legs Back': 7, 'AJ2 Legs Side': 7, 'AJ2 Skirt Front': 17, 'AJ2 Skirt Side': 45, 'AJ2 Skirt Back': 28, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\Jarl2M.xml (435 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]
+
+EXIT 0

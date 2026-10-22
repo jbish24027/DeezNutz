@@ -1,0 +1,16 @@
+== Wedding m _1: weddingoutfitm_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 40, Skirt Side 587, Skirt Back 364
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      3607     718     413        0    2476   worst frame unseen 245
+      Skirt Front          entered   119 hooked   84 unseen   10  unseen z p10 60.5 p50 60.6 p90 63.8
+      Skirt Side           entered  3488 hooked  329 unseen 2466  unseen z p10 49.2 p50 60.3 p90 62.6
+   run          10      2040     582     201        0    1257   worst frame unseen 192
+      Skirt Front          entered    94 hooked   85 unseen    8  unseen z p10 60.5 p50 60.5 p90 61.0
+      Skirt Side           entered  1789 hooked   99 unseen 1166  unseen z p10 52.0 p50 60.4 p90 63.4
+      Skirt Back           entered   157 hooked   17 unseen   83  unseen z p10 39.7 p50 40.1 p90 47.2
+   sprint       10      2070     618     137        0    1315   worst frame unseen 318
+      Skirt Front          entered   104 hooked   91 unseen    9  unseen z p10 60.5 p50 60.5 p90 63.7
+      Skirt Side           entered  1786 hooked   44 unseen 1192  unseen z p10 49.6 p50 60.4 p90 63.4
+      Skirt Back           entered   180 hooked    2 unseen  114  unseen z p10 40.0 p50 40.5 p90 46.0
+SUMMARY clips worst unseen/frame: 318
+
+EXIT 0

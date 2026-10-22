@@ -1,0 +1,207 @@
+{
+ "pairs": 1071,
+ "bad": 0,
+ "bytes": 701197544,
+ "report": [
+  [
+   "mods",
+   "Authoria - ENB Extender 1.6.0 - KiENBExtender only",
+   1
+  ],
+  [
+   "mods",
+   "Authoria - Picta ENB - Root twin",
+   7
+  ],
+  [
+   "mods",
+   "Authoria - Picta 1.1.2 - Darkened to 1.0.1",
+   200
+  ],
+  [
+   "mods",
+   "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1",
+   1
+  ],
+  [
+   "mods",
+   "Authoria - Picta - Bottled raindrop",
+   1
+  ],
+  [
+   "mods",
+   "Authoria - ReShade - Picta lane preset",
+   8
+  ],
+  [
+   "mods",
+   "Authoria - Helios - Picta exit weather",
+   2
+  ],
+  [
+   "mods",
+   "houseCARL - Authoria - Patch - Picta Seasonal",
+   1
+  ],
+  [
+   "mods",
+   "houseCARL - Authoria - Patch - Picta Seasonal - No Fair",
+   1
+  ],
+  [
+   "mods",
+   "houseCARL - Authoria - Patch - Wanderers Fair - Picta Climate",
+   3
+  ],
+  [
+   "mods",
+   "houseCARL - Authoria - Picta over NAT",
+   3
+  ],
+  [
+   "mods",
+   "[NoDelete] Picta - Cloudy Windy panoramas 11-15 (2K originals)",
+   5
+  ],
+  [
+   "mods",
+   "[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+   220
+  ],
+  [
+   "mods",
+   "[NoDelete] Silent Horizons 2 - Data",
+   40
+  ],
+  [
+   "mods",
+   "Silent Horizons 2 - Shader Core",
+   40
+  ],
+  [
+   "mods",
+   "[NoDelete] Picta Aurbis - Nordic Winds - Patch 1.1.1 (shipped)",
+   2
+  ],
+  [
+   "mods",
+   "[NoDelete] Bottled Shaders",
+   426
+  ],
+  [
+   "mods",
+   "KiLoader for Skyrim",
+   6
+  ],
+  [
+   "mods",
+   "Authoria - CS Light - Interior Windows",
+   9
+  ],
+  [
+   "mods",
+   "houseCARL - Authoria - Patch - Picta Clear Skies x Requiem",
+   2
+  ],
+  [
+   "optional",
+   "Bottled - Upscaling runtime 1.0.4",
+   20
+  ],
+  [
+   "optional",
+   "Authoria - ReShade Before UI",
+   1
+  ],
+  [
+   "downloads",
+   "Bottled Shaders 192816 1.0.11 2026-10-11T01-45Z 587RqTpcR.7z",
+   1
+  ],
+  [
+   "downloads",
+   "Picta Aurbis - ENB 178136 1.1.2 2026-10-08T19-08Z MWx0rvXxk.zip",
+   1
+  ],
+  [
+   "downloads",
+   "Picta Aurbis - Weather Mod 178136 1.1.1 2026-10-06T22-13Z 587RqTp64.zip",
+   1
+  ],
+  [
+   "downloads",
+   "Picta Aurbis - Nordic Winds - Patch 178136 1.1.1 2026-10-06T22-15Z kATsMWUR4.zip",
+   1
+  ],
+  [
+   "downloads",
+   "ENB Extender and Helper Legacy (1.6.629-1.6.1179) 99406 1.6.0 2026-09-20T13-01Z n0oTCmVdt.7z",
+   1
+  ],
+  [
+   "downloads",
+   "Northman II Reshade-159125-1-0-1758577859.7z",
+   1
+  ],
+  [
+   "downloads",
+   "KiLoader for Skyrim-99404-1-2-1713391803.7z",
+   1
+  ],
+  [
+   "downloads",
+   "Silent Horizons 2 - Shader Core-101696-1-10-1756049324.7z",
+   1
+  ],
+  [
+   "downloads",
+   "Picta Series - Improved Sky Meshes-58263-1-0-2-1636718744.zip",
+   1
+  ],
+  [
+   "downloads",
+   "Nordic Winds-112370-1-21-1740767230.7z",
+   1
+  ],
+  [
+   "downloads",
+   "ISL Helper SKSE 179132 1.0.5 2026-07-11T01-51Z HZCMOyGHy.zip",
+   1
+  ],
+  [
+   "reference",
+   "profile-snapshot",
+   7
+  ],
+  [
+   "reference/tools",
+   "picta-bridge",
+   37
+  ],
+  [
+   "reference/tools",
+   "reshade-before-ui",
+   13
+  ],
+  [
+   "reference",
+   "PICTA-DLSS5NR-PLAN-20260930.md",
+   1
+  ],
+  [
+   "overwrite-seed",
+   "SettingsUser.json",
+   1
+  ],
+  [
+   "overwrite-seed",
+   "Authoria_ScreenSpaceGI.json",
+   1
+  ],
+  [
+   "overwrite-seed",
+   "SKSE_ISL.ini",
+   1
+  ]
+ ]
+}

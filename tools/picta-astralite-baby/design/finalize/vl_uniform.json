@@ -1,0 +1,6322 @@
+{
+ "0.5_alive": {
+  "G": {
+   "Dawn": 1.93,
+   "Sunrise": 1.76,
+   "Day": 4.193,
+   "Sunset": 1.757,
+   "Dusk": 1.83
+  },
+  "worst": [
+   1.099,
+   "5AFA03"
+  ],
+  "leak": [
+   0,
+   "5AFB02",
+   null
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.9
+   },
+   "19FA01<->19FD03 7.5 baby": {
+    "vs_ideal": 2.2,
+    "vs_brighter_end": -30.7
+   },
+   "19FA01<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FA01<->19FD03 13 baby": {
+    "vs_ideal": 116.0,
+    "vs_brighter_end": 58.2
+   },
+   "19FA01<->19FD03 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.7
+   },
+   "19FA01<->19FD03 18.5 baby": {
+    "vs_ideal": 2.0,
+    "vs_brighter_end": -30.7
+   },
+   "19FE03<->19FD03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -4.4
+   },
+   "19FE03<->19FD03 7.5 baby": {
+    "vs_ideal": 22.8,
+    "vs_brighter_end": 7.3
+   },
+   "19FE03<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.5
+   },
+   "19FE03<->19FD03 13 baby": {
+    "vs_ideal": 191.3,
+    "vs_brighter_end": 109.8
+   },
+   "19FE03<->19FD03 18.5 picta": {
+    "vs_ideal": -0.0,
+    "vs_brighter_end": -5.0
+   },
+   "19FE03<->19FD03 18.5 baby": {
+    "vs_ideal": 22.2,
+    "vs_brighter_end": 3.4
+   },
+   "19FE01<->19FD02 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.9
+   },
+   "19FE01<->19FD02 7.5 baby": {
+    "vs_ideal": 25.2,
+    "vs_brighter_end": -0.1
+   },
+   "19FE01<->19FD02 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FE01<->19FD02 13 baby": {
+    "vs_ideal": 157.9,
+    "vs_brighter_end": 122.9
+   },
+   "19FE01<->19FD02 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.2
+   },
+   "19FE01<->19FD02 18.5 baby": {
+    "vs_ideal": 24.1,
+    "vs_brighter_end": -3.1
+   },
+   "19FA01<->19FC01 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 7.5 baby": {
+    "vs_ideal": -0.2,
+    "vs_brighter_end": -8.5
+   },
+   "19FA01<->19FC01 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FA01<->19FC01 13 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -17.8
+   },
+   "19FA01<->19FC01 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 18.5 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -2.3
+   },
+   "19FC01<->19FC04 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.7
+   },
+   "19FC01<->19FC04 7.5 baby": {
+    "vs_ideal": 3.1,
+    "vs_brighter_end": -26.3
+   },
+   "19FC01<->19FC04 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.0
+   },
+   "19FC01<->19FC04 13 baby": {
+    "vs_ideal": 97.2,
+    "vs_brighter_end": 68.3
+   },
+   "19FC01<->19FC04 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.1
+   },
+   "19FC01<->19FC04 18.5 baby": {
+    "vs_ideal": 4.1,
+    "vs_brighter_end": -28.1
+   },
+   "19FA01<->19FE03 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE03 7.5 baby": {
+    "vs_ideal": -8.3,
+    "vs_brighter_end": -41.9
+   },
+   "19FA01<->19FE03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE03 13 baby": {
+    "vs_ideal": 5.0,
+    "vs_brighter_end": 2.3
+   },
+   "19FA01<->19FE03 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE03 18.5 baby": {
+    "vs_ideal": -9.2,
+    "vs_brighter_end": -43.3
+   },
+   "19FA01<->19FE05 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE05 7.5 baby": {
+    "vs_ideal": 15.2,
+    "vs_brighter_end": -6.8
+   },
+   "19FA01<->19FE05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE05 13 baby": {
+    "vs_ideal": 118.2,
+    "vs_brighter_end": 58.3
+   },
+   "19FA01<->19FE05 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE05 18.5 baby": {
+    "vs_ideal": 14.8,
+    "vs_brighter_end": -7.0
+   },
+   "19FC01<->19FD05 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.6
+   },
+   "19FC01<->19FD05 7.5 baby": {
+    "vs_ideal": 11.9,
+    "vs_brighter_end": -7.2
+   },
+   "19FC01<->19FD05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FC01<->19FD05 13 baby": {
+    "vs_ideal": 124.8,
+    "vs_brighter_end": 60.4
+   },
+   "19FC01<->19FD05 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.5
+   },
+   "19FC01<->19FD05 18.5 baby": {
+    "vs_ideal": 14.1,
+    "vs_brighter_end": -9.9
+   },
+   "19FB01<->19FB03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.4
+   },
+   "19FB01<->19FB03 7.5 baby": {
+    "vs_ideal": 8.3,
+    "vs_brighter_end": -20.6
+   },
+   "19FB01<->19FB03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FB01<->19FB03 13 baby": {
+    "vs_ideal": 100.5,
+    "vs_brighter_end": 71.2
+   },
+   "19FB01<->19FB03 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.7
+   },
+   "19FB01<->19FB03 18.5 baby": {
+    "vs_ideal": 8.2,
+    "vs_brighter_end": -20.5
+   }
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 0.64,
+     "13.0": 0.87,
+     "18.5": 0.67
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.17,
+     "13.0": 0.87,
+     "18.5": 3.08
+    },
+    "max_over": [
+     1.085,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PeachVL_A01_Ss"
+    }
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 0.67,
+     "13.0": 0.87,
+     "18.5": 0.67
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.35,
+     "13.0": 0.87,
+     "18.5": 2.16
+    },
+    "max_over": [
+     1.088,
+     6.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PureVL_A01_Ss"
+    }
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 0.72,
+     "13.0": 0.88,
+     "18.5": 0.76
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.62,
+     "13.0": 0.88,
+     "18.5": 3.58
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02_Sr",
+     "Day": "LAM_DayVL_A02_Dy",
+     "Sunset": "LAM_PeachVL_A02_Ss"
+    }
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 0.64,
+     "13.0": 0.87,
+     "18.5": 0.68
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.19,
+     "13.0": 0.87,
+     "18.5": 3.1
+    },
+    "max_over": [
+     1.085,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PeachVL_B01_Ss"
+    }
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 0.67,
+     "13.0": 0.87,
+     "18.5": 0.67
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.35,
+     "13.0": 0.87,
+     "18.5": 2.17
+    },
+    "max_over": [
+     1.088,
+     6.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PureVL_B01_Ss"
+    }
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.39,
+     "13.0": 1.05,
+     "18.5": 0.4
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.63,
+     "13.0": 1.23,
+     "18.5": 1.63
+    },
+    "max_over": [
+     1.096,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_B02_Sr",
+     "Day": "LAM_FogVL_B02_Dy",
+     "Sunset": "LAM_FogVL_B02_Ss"
+    }
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 0.66,
+     "13.0": 0.91,
+     "18.5": 0.71
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.66,
+     "13.0": 1.35,
+     "18.5": 2.96
+    },
+    "max_over": [
+     1.093,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C01_Sr",
+     "Day": "LAM_DayVL_C01_Dy",
+     "Sunset": "LAM_GoldVL_C01_Ss"
+    }
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 0.67,
+     "13.0": 0.91,
+     "18.5": 0.72
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.71,
+     "13.0": 1.35,
+     "18.5": 3.03
+    },
+    "max_over": [
+     1.092,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C02_Sr",
+     "Day": "LAM_DayVL_C02_Dy",
+     "Sunset": "LAM_GoldVL_C02_Ss"
+    }
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.4,
+     "13.0": 1.05,
+     "18.5": 0.42
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.86,
+     "13.0": 1.3,
+     "18.5": 1.87
+    },
+    "max_over": [
+     1.095,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C03_Sr",
+     "Day": "LAM_FogVL_C03_Dy",
+     "Sunset": "LAM_FogVL_C03_Ss"
+    }
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.39,
+     "13.0": 0.99,
+     "18.5": 0.4
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.67,
+     "13.0": 2.04,
+     "18.5": 1.68
+    },
+    "max_over": [
+     1.097,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C04_Sr",
+     "Day": "LAM_FogVL_C04_Dy",
+     "Sunset": "LAM_FogVL_C04_Ss"
+    }
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.34,
+     "13.0": 1.01,
+     "18.5": 0.35
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.56,
+     "13.0": 3.43,
+     "18.5": 2.56
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_C05_Sr",
+     "Day": "LAM_FogVL_Blue_C05_Dy",
+     "Sunset": "LAM_FogVL_Blue_C05_Ss"
+    }
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 1.05,
+     "18.5": 0.38
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.62,
+     "13.0": 1.31,
+     "18.5": 1.61
+    },
+    "max_over": [
+     1.098,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D01_Sr",
+     "Day": "LAM_FogVL_D01_Dy",
+     "Sunset": "LAM_FogVL_D01_Ss"
+    }
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.42,
+     "13.0": 1.05,
+     "18.5": 0.44
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.62,
+     "13.0": 1.39,
+     "18.5": 2.71
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D02_Sr",
+     "Day": "LAM_FogVL_D02_Dy",
+     "Sunset": "LAM_FogVL_D02_Ss"
+    }
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.41,
+     "13.0": 0.97,
+     "18.5": 0.43
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.92,
+     "13.0": 2.14,
+     "18.5": 1.95
+    },
+    "max_over": [
+     1.095,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D03_Sr",
+     "Day": "LAM_FogVL_D03_Dy",
+     "Sunset": "LAM_FogVL_D03_Ss"
+    }
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.41,
+     "13.0": 0.96,
+     "18.5": 0.43
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.95,
+     "13.0": 2.13,
+     "18.5": 2.01
+    },
+    "max_over": [
+     1.093,
+     18.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D04_Sr",
+     "Day": "LAM_FogVL_D04_Dy",
+     "Sunset": "LAM_FogVL_D04_Ss"
+    }
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.35,
+     "13.0": 1.0,
+     "18.5": 0.37
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.94,
+     "13.0": 3.62,
+     "18.5": 2.99
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D05_Sr",
+     "Day": "LAM_FogVL_Blue_D05_Dy",
+     "Sunset": "LAM_FogVL_Blue_D05_Ss"
+    }
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 1.0,
+     "18.5": 0.38
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.02,
+     "13.0": 3.61,
+     "18.5": 3.08
+    },
+    "max_over": [
+     1.098,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D06_Sr",
+     "Day": "LAM_FogVL_Blue_D06_Dy",
+     "Sunset": "LAM_FogVL_Blue_D06_Ss"
+    }
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.73,
+     "13.0": 1.01,
+     "18.5": 0.76
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.1,
+     "13.0": 1.01,
+     "18.5": 1.06
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E01_Sr",
+     "Day": "LAM_StormVL_E01_Dy",
+     "Sunset": "LAM_StormVL_E01_Ss"
+    }
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.32,
+     "13.0": 1.05,
+     "18.5": 0.33
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.38,
+     "13.0": 2.21,
+     "18.5": 2.42
+    },
+    "max_over": [
+     1.083,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E02_Sr",
+     "Day": "LAM_FogVL_Blue_E02_Dy",
+     "Sunset": "LAM_FogVL_Blue_E02_Ss"
+    }
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 0.8,
+     "13.0": 1.01,
+     "18.5": 0.83
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.7,
+     "13.0": 1.01,
+     "18.5": 1.64
+    },
+    "max_over": [
+     1.093,
+     18.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E03_Sr",
+     "Day": "LAM_StormVL_E03_Dy",
+     "Sunset": "LAM_StormVL_E03_Ss"
+    }
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 0.8,
+     "13.0": 1.02,
+     "18.5": 0.82
+    },
+    "intensity_only_x_picta": {
+     "7.5": 1.85,
+     "13.0": 1.02,
+     "18.5": 1.82
+    },
+    "max_over": [
+     1.093,
+     18.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E04_Sr",
+     "Day": "LAM_StormVL_E04_Dy",
+     "Sunset": "LAM_StormVL_E04_Ss"
+    }
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.38,
+     "13.0": 1.05,
+     "18.5": 0.39
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.93,
+     "13.0": 2.37,
+     "18.5": 4.1
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E05_Sr",
+     "Day": "LAM_FogVL_Blue_E05_Dy",
+     "Sunset": "LAM_FogVL_Blue_E05_Ss"
+    }
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.4,
+     "13.0": 1.04,
+     "18.5": 0.42
+    },
+    "intensity_only_x_picta": {
+     "7.5": 4.57,
+     "13.0": 2.56,
+     "18.5": 4.89
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E06_Sr",
+     "Day": "LAM_FogVL_Blue_E06_Dy",
+     "Sunset": "LAM_FogVL_Blue_E06_Ss"
+    }
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 0.68,
+     "13.0": 0.87,
+     "18.5": 0.67
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.36,
+     "13.0": 0.87,
+     "18.5": 3.07
+    },
+    "max_over": [
+     1.096,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PeachVL_A01S_Ss"
+    }
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 0.67,
+     "13.0": 0.87,
+     "18.5": 0.69
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.34,
+     "13.0": 0.87,
+     "18.5": 2.24
+    },
+    "max_over": [
+     1.096,
+     17.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PureVL_A01S_Ss"
+    }
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 0.72,
+     "13.0": 0.86,
+     "18.5": 0.76
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.61,
+     "13.0": 0.86,
+     "18.5": 3.58
+    },
+    "max_over": [
+     1.099,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02S_Sr",
+     "Day": "LAM_DayVL_A02S_Dy",
+     "Sunset": "LAM_PeachVL_A02S_Ss"
+    }
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 0.68,
+     "13.0": 0.87,
+     "18.5": 0.67
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.38,
+     "13.0": 0.87,
+     "18.5": 3.08
+    },
+    "max_over": [
+     1.096,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PeachVL_B01S_Ss"
+    }
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 0.67,
+     "13.0": 0.87,
+     "18.5": 0.69
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.35,
+     "13.0": 0.87,
+     "18.5": 2.25
+    },
+    "max_over": [
+     1.096,
+     17.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PureVL_B01S_Ss"
+    }
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.813,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.3,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.939,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.645,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.671,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.954,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.328,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.106,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.816,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.299,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.942,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.645,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.67,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_B02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.026,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 15.701,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.148,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_YellowVL_C01_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 1.711,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 3.574,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C01_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 1.822,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_YellowVL_C02_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 1.716,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 3.574,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C02_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 1.829,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_C03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.991,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 15.613,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.103,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.556,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 24.443,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.661,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.45,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 42.245,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.596,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.948,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 15.652,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.056,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.939,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 15.59,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.057,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.552,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 23.907,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.636,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.54,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 23.811,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 1.642,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.445,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 41.557,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.585,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.451,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 41.469,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.592,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E01_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.677,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.678,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.714,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E02_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.555,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 25.42,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.726,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E03_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.709,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.653,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.731,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.685,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.64,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.699,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.758,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 25.32,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.91,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.767,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 25.269,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 2.914,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_PeachVL_A01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.922,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.3,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.929,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.643,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.733,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.948,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.281,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 2.108,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.923,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.299,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 1.931,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.643,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 1.733,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   }
+  }
+ },
+ "0.5_newly_on": {
+  "G": {
+   "Dawn": 0.742,
+   "Sunrise": 2.292,
+   "Day": 3.611,
+   "Sunset": 2.298,
+   "Dusk": 0.727
+  },
+  "worst": [
+   1.1,
+   "5AFB02"
+  ],
+  "leak": [
+   0.198,
+   "5AFA02",
+   6.0
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.9
+   },
+   "19FA01<->19FD03 7.5 baby": {
+    "vs_ideal": 5.2,
+    "vs_brighter_end": -25.6
+   },
+   "19FA01<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FA01<->19FD03 13 baby": {
+    "vs_ideal": 152.3,
+    "vs_brighter_end": 50.0
+   },
+   "19FA01<->19FD03 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.7
+   },
+   "19FA01<->19FD03 18.5 baby": {
+    "vs_ideal": 5.6,
+    "vs_brighter_end": -24.6
+   },
+   "19FE03<->19FD03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -4.4
+   },
+   "19FE03<->19FD03 7.5 baby": {
+    "vs_ideal": 27.7,
+    "vs_brighter_end": -2.9
+   },
+   "19FE03<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.5
+   },
+   "19FE03<->19FD03 13 baby": {
+    "vs_ideal": 224.0,
+    "vs_brighter_end": 104.3
+   },
+   "19FE03<->19FD03 18.5 picta": {
+    "vs_ideal": -0.0,
+    "vs_brighter_end": -5.0
+   },
+   "19FE03<->19FD03 18.5 baby": {
+    "vs_ideal": 26.6,
+    "vs_brighter_end": -6.5
+   },
+   "19FE01<->19FD02 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.9
+   },
+   "19FE01<->19FD02 7.5 baby": {
+    "vs_ideal": 48.1,
+    "vs_brighter_end": -25.9
+   },
+   "19FE01<->19FD02 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FE01<->19FD02 13 baby": {
+    "vs_ideal": 205.2,
+    "vs_brighter_end": 113.0
+   },
+   "19FE01<->19FD02 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.2
+   },
+   "19FE01<->19FD02 18.5 baby": {
+    "vs_ideal": 43.8,
+    "vs_brighter_end": -28.1
+   },
+   "19FA01<->19FC01 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 7.5 baby": {
+    "vs_ideal": -0.2,
+    "vs_brighter_end": -9.3
+   },
+   "19FA01<->19FC01 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FA01<->19FC01 13 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -39.7
+   },
+   "19FA01<->19FC01 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 18.5 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -4.1
+   },
+   "19FC01<->19FC04 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.7
+   },
+   "19FC01<->19FC04 7.5 baby": {
+    "vs_ideal": 6.8,
+    "vs_brighter_end": -18.6
+   },
+   "19FC01<->19FC04 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.0
+   },
+   "19FC01<->19FC04 13 baby": {
+    "vs_ideal": 82.9,
+    "vs_brighter_end": 74.4
+   },
+   "19FC01<->19FC04 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.1
+   },
+   "19FC01<->19FC04 18.5 baby": {
+    "vs_ideal": 9.5,
+    "vs_brighter_end": -18.4
+   },
+   "19FA01<->19FE03 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE03 7.5 baby": {
+    "vs_ideal": -9.6,
+    "vs_brighter_end": -45.1
+   },
+   "19FA01<->19FE03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE03 13 baby": {
+    "vs_ideal": 2.3,
+    "vs_brighter_end": -11.8
+   },
+   "19FA01<->19FE03 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE03 18.5 baby": {
+    "vs_ideal": -10.5,
+    "vs_brighter_end": -46.1
+   },
+   "19FA01<->19FE05 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE05 7.5 baby": {
+    "vs_ideal": 21.8,
+    "vs_brighter_end": 9.3
+   },
+   "19FA01<->19FE05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE05 13 baby": {
+    "vs_ideal": 153.9,
+    "vs_brighter_end": 50.6
+   },
+   "19FA01<->19FE05 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE05 18.5 baby": {
+    "vs_ideal": 22.1,
+    "vs_brighter_end": 11.4
+   },
+   "19FC01<->19FD05 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.6
+   },
+   "19FC01<->19FD05 7.5 baby": {
+    "vs_ideal": 18.7,
+    "vs_brighter_end": 12.4
+   },
+   "19FC01<->19FD05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FC01<->19FD05 13 baby": {
+    "vs_ideal": 111.4,
+    "vs_brighter_end": 64.1
+   },
+   "19FC01<->19FD05 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.5
+   },
+   "19FC01<->19FD05 18.5 baby": {
+    "vs_ideal": 23.4,
+    "vs_brighter_end": 12.8
+   },
+   "19FB01<->19FB03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.4
+   },
+   "19FB01<->19FB03 7.5 baby": {
+    "vs_ideal": 12.4,
+    "vs_brighter_end": -12.6
+   },
+   "19FB01<->19FB03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FB01<->19FB03 13 baby": {
+    "vs_ideal": 144.8,
+    "vs_brighter_end": 58.4
+   },
+   "19FB01<->19FB03 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.7
+   },
+   "19FB01<->19FB03 18.5 baby": {
+    "vs_ideal": 13.5,
+    "vs_brighter_end": -9.7
+   }
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 1.07,
+     "13.0": 0.99,
+     "18.5": 1.07
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.095,
+     10.0
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PeachVL_A01_Ss"
+    }
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 1.04,
+     "13.0": 0.99,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     8.0
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PureVL_A01_Ss"
+    }
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 1.08,
+     "13.0": 0.99,
+     "18.5": 1.08
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     10.0
+    ],
+    "leak": [
+     0.196,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02_Sr",
+     "Day": "LAM_DayVL_A02_Dy",
+     "Sunset": "LAM_PeachVL_A02_Ss"
+    }
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 1.07,
+     "13.0": 0.99,
+     "18.5": 1.07
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.095,
+     10.0
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PeachVL_B01_Ss"
+    }
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 1.04,
+     "13.0": 0.99,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     8.0
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PureVL_B01_Ss"
+    }
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.77,
+     "13.0": 0.89,
+     "18.5": 0.8
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.196,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_B02_Sr",
+     "Day": "LAM_FogVL_B02_Dy",
+     "Sunset": "LAM_FogVL_B02_Ss"
+    }
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 1.09,
+     "13.0": 0.99,
+     "18.5": 1.09
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.1,
+     10.0
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C01_Sr",
+     "Day": "LAM_DayVL_C01_Dy",
+     "Sunset": "LAM_GoldVL_C01_Ss"
+    }
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 1.09,
+     "13.0": 0.98,
+     "18.5": 1.09
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.095,
+     7.5
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C02_Sr",
+     "Day": "LAM_DayVL_C02_Dy",
+     "Sunset": "LAM_GoldVL_C02_Ss"
+    }
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.78,
+     "13.0": 0.89,
+     "18.5": 0.81
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.195,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C03_Sr",
+     "Day": "LAM_FogVL_C03_Dy",
+     "Sunset": "LAM_FogVL_C03_Ss"
+    }
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.78,
+     "13.0": 0.83,
+     "18.5": 0.79
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.096,
+     7.25
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C04_Sr",
+     "Day": "LAM_FogVL_C04_Dy",
+     "Sunset": "LAM_FogVL_C04_Ss"
+    }
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.78,
+     "13.0": 0.84,
+     "18.5": 0.8
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     7.25
+    ],
+    "leak": [
+     0.131,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_C05_Sr",
+     "Day": "LAM_FogVL_Blue_C05_Dy",
+     "Sunset": "LAM_FogVL_Blue_C05_Ss"
+    }
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.77,
+     "13.0": 0.89,
+     "18.5": 0.8
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D01_Sr",
+     "Day": "LAM_FogVL_D01_Dy",
+     "Sunset": "LAM_FogVL_D01_Ss"
+    }
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.81,
+     "13.0": 0.89,
+     "18.5": 0.84
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.094,
+     18.75
+    ],
+    "leak": [
+     0.129,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D02_Sr",
+     "Day": "LAM_FogVL_D02_Dy",
+     "Sunset": "LAM_FogVL_D02_Ss"
+    }
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.79,
+     "13.0": 0.83,
+     "18.5": 0.81
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.095,
+     7.25
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D03_Sr",
+     "Day": "LAM_FogVL_D03_Dy",
+     "Sunset": "LAM_FogVL_D03_Ss"
+    }
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.79,
+     "13.0": 0.83,
+     "18.5": 0.81
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.089,
+     17.75
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D04_Sr",
+     "Day": "LAM_FogVL_D04_Dy",
+     "Sunset": "LAM_FogVL_D04_Ss"
+    }
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.79,
+     "13.0": 0.84,
+     "18.5": 0.81
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     7.25
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D05_Sr",
+     "Day": "LAM_FogVL_Blue_D05_Dy",
+     "Sunset": "LAM_FogVL_Blue_D05_Ss"
+    }
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.8,
+     "13.0": 0.84,
+     "18.5": 0.81
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     7.25
+    ],
+    "leak": [
+     0.13,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D06_Sr",
+     "Day": "LAM_FogVL_Blue_D06_Dy",
+     "Sunset": "LAM_FogVL_Blue_D06_Ss"
+    }
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.0,
+     "13.0": 0.98,
+     "18.5": 0.0
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.196,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E01_Sr",
+     "Day": "LAM_StormVL_E01_Dy",
+     "Sunset": "LAM_StormVL_E01_Ss"
+    }
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.78,
+     "13.0": 0.89,
+     "18.5": 0.81
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.094,
+     18.75
+    ],
+    "leak": [
+     0.196,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E02_Sr",
+     "Day": "LAM_FogVL_Blue_E02_Dy",
+     "Sunset": "LAM_FogVL_Blue_E02_Ss"
+    }
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 1.08,
+     "13.0": 1.0,
+     "18.5": 1.09
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.129,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E03_Sr",
+     "Day": "LAM_StormVL_E03_Dy",
+     "Sunset": "LAM_StormVL_E03_Ss"
+    }
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 1.08,
+     "13.0": 1.02,
+     "18.5": 1.09
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     10.0
+    ],
+    "leak": [
+     0.129,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E04_Sr",
+     "Day": "LAM_StormVL_E04_Dy",
+     "Sunset": "LAM_StormVL_E04_Ss"
+    }
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.81,
+     "13.0": 0.88,
+     "18.5": 0.83
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     7.25
+    ],
+    "leak": [
+     0.129,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E05_Sr",
+     "Day": "LAM_FogVL_Blue_E05_Dy",
+     "Sunset": "LAM_FogVL_Blue_E05_Ss"
+    }
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.82,
+     "13.0": 0.88,
+     "18.5": 0.85
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.091,
+     7.25
+    ],
+    "leak": [
+     0.129,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E06_Sr",
+     "Day": "LAM_FogVL_Blue_E06_Dy",
+     "Sunset": "LAM_FogVL_Blue_E06_Ss"
+    }
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 1.07,
+     "13.0": 0.99,
+     "18.5": 1.07
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.094,
+     10.0
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PeachVL_A01S_Ss"
+    }
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 1.03,
+     "13.0": 0.99,
+     "18.5": 1.01
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.1,
+     8.25
+    ],
+    "leak": [
+     0.198,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PureVL_A01S_Ss"
+    }
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 1.08,
+     "13.0": 0.99,
+     "18.5": 1.08
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.096,
+     10.0
+    ],
+    "leak": [
+     0.196,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02S_Sr",
+     "Day": "LAM_DayVL_A02S_Dy",
+     "Sunset": "LAM_PeachVL_A02S_Ss"
+    }
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 1.07,
+     "13.0": 0.99,
+     "18.5": 1.07
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.094,
+     10.0
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PeachVL_B01S_Ss"
+    }
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 1.03,
+     "13.0": 0.99,
+     "18.5": 1.01
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.1,
+     8.25
+    ],
+    "leak": [
+     0.197,
+     6.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PureVL_B01S_Ss"
+    }
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 6.007,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.867,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.898,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 5.032,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 4.952,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.825,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.869,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.7,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.997,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.867,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.886,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 5.026,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 4.943,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_B02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.962,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 14.259,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.181,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_YellowVL_C01_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 5.577,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 4.191,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C01_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 5.335,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_YellowVL_C02_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 5.527,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 4.15,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C02_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 5.277,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_C03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.65,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 14.259,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.809,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 6.182,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 22.339,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 6.231,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.255,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 37.899,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.363,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.119,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 14.259,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.338,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.459,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 14.265,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.572,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 5.952,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 22.17,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 5.932,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 5.813,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 22.224,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 5.835,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.831,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 37.625,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.816,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.704,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 37.622,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 10.675,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E01_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.0,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.834,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.0,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E02_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 12.472,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 23.151,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 12.74,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E03_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.898,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.908,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.83,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.845,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 0.986,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.764,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.762,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 23.108,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.759,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.339,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 23.105,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 11.253,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_PeachVL_A01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.987,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.866,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.879,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 4.997,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 4.856,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.823,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.867,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.685,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.976,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 0.866,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 5.867,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 4.991,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 4.85,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   }
+  }
+ },
+ "1.0_alive": {
+  "G": {
+   "Dawn": 2.112,
+   "Sunrise": 2.136,
+   "Day": 4.097,
+   "Sunset": 2.071,
+   "Dusk": 2.048
+  },
+  "worst": [
+   1.1,
+   "5AFB02"
+  ],
+  "leak": [
+   0,
+   "5AFB02",
+   null
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.9
+   },
+   "19FA01<->19FD03 7.5 baby": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -34.8
+   },
+   "19FA01<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FA01<->19FD03 13 baby": {
+    "vs_ideal": 138.8,
+    "vs_brighter_end": 52.7
+   },
+   "19FA01<->19FD03 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.7
+   },
+   "19FA01<->19FD03 18.5 baby": {
+    "vs_ideal": 0.1,
+    "vs_brighter_end": -33.8
+   },
+   "19FE03<->19FD03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -4.4
+   },
+   "19FE03<->19FD03 7.5 baby": {
+    "vs_ideal": 23.4,
+    "vs_brighter_end": 5.8
+   },
+   "19FE03<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.5
+   },
+   "19FE03<->19FD03 13 baby": {
+    "vs_ideal": 221.8,
+    "vs_brighter_end": 104.6
+   },
+   "19FE03<->19FD03 18.5 picta": {
+    "vs_ideal": -0.0,
+    "vs_brighter_end": -5.0
+   },
+   "19FE03<->19FD03 18.5 baby": {
+    "vs_ideal": 22.8,
+    "vs_brighter_end": 2.0
+   },
+   "19FE01<->19FD02 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.9
+   },
+   "19FE01<->19FD02 7.5 baby": {
+    "vs_ideal": 24.6,
+    "vs_brighter_end": 1.2
+   },
+   "19FE01<->19FD02 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FE01<->19FD02 13 baby": {
+    "vs_ideal": 204.1,
+    "vs_brighter_end": 113.2
+   },
+   "19FE01<->19FD02 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.2
+   },
+   "19FE01<->19FD02 18.5 baby": {
+    "vs_ideal": 23.4,
+    "vs_brighter_end": -1.8
+   },
+   "19FA01<->19FC01 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 7.5 baby": {
+    "vs_ideal": -0.6,
+    "vs_brighter_end": -14.7
+   },
+   "19FA01<->19FC01 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FA01<->19FC01 13 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -33.5
+   },
+   "19FA01<->19FC01 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 18.5 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.8
+   },
+   "19FC01<->19FC04 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.7
+   },
+   "19FC01<->19FC04 7.5 baby": {
+    "vs_ideal": 3.2,
+    "vs_brighter_end": -26.1
+   },
+   "19FC01<->19FC04 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.0
+   },
+   "19FC01<->19FC04 13 baby": {
+    "vs_ideal": 88.0,
+    "vs_brighter_end": 72.0
+   },
+   "19FC01<->19FC04 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.1
+   },
+   "19FC01<->19FC04 18.5 baby": {
+    "vs_ideal": 2.2,
+    "vs_brighter_end": -31.1
+   },
+   "19FA01<->19FE03 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE03 7.5 baby": {
+    "vs_ideal": -9.4,
+    "vs_brighter_end": -44.6
+   },
+   "19FA01<->19FE03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE03 13 baby": {
+    "vs_ideal": 4.8,
+    "vs_brighter_end": 3.5
+   },
+   "19FA01<->19FE03 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE03 18.5 baby": {
+    "vs_ideal": -10.2,
+    "vs_brighter_end": -45.5
+   },
+   "19FA01<->19FE05 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE05 7.5 baby": {
+    "vs_ideal": 13.8,
+    "vs_brighter_end": -10.0
+   },
+   "19FA01<->19FE05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE05 13 baby": {
+    "vs_ideal": 144.4,
+    "vs_brighter_end": 52.4
+   },
+   "19FA01<->19FE05 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE05 18.5 baby": {
+    "vs_ideal": 14.0,
+    "vs_brighter_end": -8.8
+   },
+   "19FC01<->19FD05 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.6
+   },
+   "19FC01<->19FD05 7.5 baby": {
+    "vs_ideal": 13.6,
+    "vs_brighter_end": -2.8
+   },
+   "19FC01<->19FD05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FC01<->19FD05 13 baby": {
+    "vs_ideal": 116.5,
+    "vs_brighter_end": 62.6
+   },
+   "19FC01<->19FD05 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.5
+   },
+   "19FC01<->19FD05 18.5 baby": {
+    "vs_ideal": 13.7,
+    "vs_brighter_end": -10.7
+   },
+   "19FB01<->19FB03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.4
+   },
+   "19FB01<->19FB03 7.5 baby": {
+    "vs_ideal": 4.4,
+    "vs_brighter_end": -27.5
+   },
+   "19FB01<->19FB03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FB01<->19FB03 13 baby": {
+    "vs_ideal": 132.4,
+    "vs_brighter_end": 61.3
+   },
+   "19FB01<->19FB03 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.7
+   },
+   "19FB01<->19FB03 18.5 baby": {
+    "vs_ideal": 5.0,
+    "vs_brighter_end": -26.1
+   }
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 0.66,
+     "13.0": 0.92,
+     "18.5": 0.68
+    },
+    "intensity_only_x_picta": {
+     "7.5": 6.53,
+     "13.0": 0.92,
+     "18.5": 6.23
+    },
+    "max_over": [
+     1.092,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PeachVL_A01_Ss"
+    }
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 0.54,
+     "13.0": 0.92,
+     "18.5": 0.56
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.8,
+     "13.0": 0.92,
+     "18.5": 3.63
+    },
+    "max_over": [
+     1.092,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PureVL_A01_Ss"
+    }
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 0.71,
+     "13.0": 0.92,
+     "18.5": 0.73
+    },
+    "intensity_only_x_picta": {
+     "7.5": 7.12,
+     "13.0": 0.92,
+     "18.5": 6.85
+    },
+    "max_over": [
+     1.088,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02_Sr",
+     "Day": "LAM_DayVL_A02_Dy",
+     "Sunset": "LAM_PeachVL_A02_Ss"
+    }
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 0.66,
+     "13.0": 0.92,
+     "18.5": 0.68
+    },
+    "intensity_only_x_picta": {
+     "7.5": 6.56,
+     "13.0": 0.92,
+     "18.5": 6.26
+    },
+    "max_over": [
+     1.091,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PeachVL_B01_Ss"
+    }
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 0.54,
+     "13.0": 0.92,
+     "18.5": 0.56
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.81,
+     "13.0": 0.92,
+     "18.5": 3.65
+    },
+    "max_over": [
+     1.091,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PureVL_B01_Ss"
+    }
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.33,
+     "13.0": 1.01,
+     "18.5": 0.35
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.81,
+     "13.0": 2.36,
+     "18.5": 2.84
+    },
+    "max_over": [
+     1.083,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_B02_Sr",
+     "Day": "LAM_FogVL_B02_Dy",
+     "Sunset": "LAM_FogVL_B02_Ss"
+    }
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 0.59,
+     "13.0": 0.94,
+     "18.5": 0.7
+    },
+    "intensity_only_x_picta": {
+     "7.5": 4.72,
+     "13.0": 2.78,
+     "18.5": 5.81
+    },
+    "max_over": [
+     1.091,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C01_Sr",
+     "Day": "LAM_DayVL_C01_Dy",
+     "Sunset": "LAM_GoldVL_C01_Ss"
+    }
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 0.6,
+     "13.0": 0.94,
+     "18.5": 0.71
+    },
+    "intensity_only_x_picta": {
+     "7.5": 4.81,
+     "13.0": 2.78,
+     "18.5": 5.93
+    },
+    "max_over": [
+     1.09,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C02_Sr",
+     "Day": "LAM_DayVL_C02_Dy",
+     "Sunset": "LAM_GoldVL_C02_Ss"
+    }
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.35,
+     "13.0": 1.01,
+     "18.5": 0.37
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.24,
+     "13.0": 2.51,
+     "18.5": 3.32
+    },
+    "max_over": [
+     1.082,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C03_Sr",
+     "Day": "LAM_FogVL_C03_Dy",
+     "Sunset": "LAM_FogVL_C03_Ss"
+    }
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.34,
+     "13.0": 0.86,
+     "18.5": 0.36
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.97,
+     "13.0": 3.57,
+     "18.5": 3.0
+    },
+    "max_over": [
+     1.092,
+     8.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C04_Sr",
+     "Day": "LAM_FogVL_C04_Dy",
+     "Sunset": "LAM_FogVL_C04_Ss"
+    }
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.32,
+     "13.0": 0.89,
+     "18.5": 0.33
+    },
+    "intensity_only_x_picta": {
+     "7.5": 4.89,
+     "13.0": 6.0,
+     "18.5": 4.92
+    },
+    "max_over": [
+     1.092,
+     8.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_C05_Sr",
+     "Day": "LAM_FogVL_Blue_C05_Dy",
+     "Sunset": "LAM_FogVL_Blue_C05_Ss"
+    }
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.32,
+     "13.0": 1.01,
+     "18.5": 0.33
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.84,
+     "13.0": 2.52,
+     "18.5": 2.86
+    },
+    "max_over": [
+     1.087,
+     6.0
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D01_Sr",
+     "Day": "LAM_FogVL_D01_Dy",
+     "Sunset": "LAM_FogVL_D01_Ss"
+    }
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.38,
+     "13.0": 1.01,
+     "18.5": 0.41
+    },
+    "intensity_only_x_picta": {
+     "7.5": 4.83,
+     "13.0": 2.68,
+     "18.5": 5.02
+    },
+    "max_over": [
+     1.085,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D02_Sr",
+     "Day": "LAM_FogVL_D02_Dy",
+     "Sunset": "LAM_FogVL_D02_Ss"
+    }
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.37,
+     "13.0": 0.85,
+     "18.5": 0.39
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.45,
+     "13.0": 3.75,
+     "18.5": 3.56
+    },
+    "max_over": [
+     1.092,
+     8.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D03_Sr",
+     "Day": "LAM_FogVL_D03_Dy",
+     "Sunset": "LAM_FogVL_D03_Ss"
+    }
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.37,
+     "13.0": 0.84,
+     "18.5": 0.4
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.55,
+     "13.0": 3.73,
+     "18.5": 3.67
+    },
+    "max_over": [
+     1.09,
+     8.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D04_Sr",
+     "Day": "LAM_FogVL_D04_Dy",
+     "Sunset": "LAM_FogVL_D04_Ss"
+    }
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.34,
+     "13.0": 0.87,
+     "18.5": 0.36
+    },
+    "intensity_only_x_picta": {
+     "7.5": 5.65,
+     "13.0": 6.31,
+     "18.5": 5.77
+    },
+    "max_over": [
+     1.091,
+     8.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D05_Sr",
+     "Day": "LAM_FogVL_Blue_D05_Dy",
+     "Sunset": "LAM_FogVL_Blue_D05_Ss"
+    }
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.35,
+     "13.0": 0.87,
+     "18.5": 0.36
+    },
+    "intensity_only_x_picta": {
+     "7.5": 5.79,
+     "13.0": 6.28,
+     "18.5": 5.94
+    },
+    "max_over": [
+     1.091,
+     8.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D06_Sr",
+     "Day": "LAM_FogVL_Blue_D06_Dy",
+     "Sunset": "LAM_FogVL_Blue_D06_Ss"
+    }
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 0.7,
+     "13.0": 1.08,
+     "18.5": 0.74
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.13,
+     "13.0": 1.08,
+     "18.5": 2.06
+    },
+    "max_over": [
+     1.088,
+     9.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E01_Sr",
+     "Day": "LAM_StormVL_E01_Dy",
+     "Sunset": "LAM_StormVL_E01_Ss"
+    }
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.32,
+     "13.0": 1.01,
+     "18.5": 0.34
+    },
+    "intensity_only_x_picta": {
+     "7.5": 4.85,
+     "13.0": 4.25,
+     "18.5": 4.94
+    },
+    "max_over": [
+     1.085,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E02_Sr",
+     "Day": "LAM_FogVL_Blue_E02_Dy",
+     "Sunset": "LAM_FogVL_Blue_E02_Ss"
+    }
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 0.69,
+     "13.0": 1.07,
+     "18.5": 0.72
+    },
+    "intensity_only_x_picta": {
+     "7.5": 2.92,
+     "13.0": 1.1,
+     "18.5": 2.86
+    },
+    "max_over": [
+     1.095,
+     6.25
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E03_Sr",
+     "Day": "LAM_StormVL_E03_Dy",
+     "Sunset": "LAM_StormVL_E03_Ss"
+    }
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 0.7,
+     "13.0": 1.01,
+     "18.5": 0.74
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.26,
+     "13.0": 1.12,
+     "18.5": 3.26
+    },
+    "max_over": [
+     1.094,
+     19.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E04_Sr",
+     "Day": "LAM_StormVL_E04_Dy",
+     "Sunset": "LAM_StormVL_E04_Ss"
+    }
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.36,
+     "13.0": 1.01,
+     "18.5": 0.39
+    },
+    "intensity_only_x_picta": {
+     "7.5": 7.64,
+     "13.0": 4.55,
+     "18.5": 8.02
+    },
+    "max_over": [
+     1.084,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E05_Sr",
+     "Day": "LAM_FogVL_Blue_E05_Dy",
+     "Sunset": "LAM_FogVL_Blue_E05_Ss"
+    }
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.39,
+     "13.0": 1.0,
+     "18.5": 0.41
+    },
+    "intensity_only_x_picta": {
+     "7.5": 8.89,
+     "13.0": 4.91,
+     "18.5": 9.59
+    },
+    "max_over": [
+     1.084,
+     19.75
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E06_Sr",
+     "Day": "LAM_FogVL_Blue_E06_Dy",
+     "Sunset": "LAM_FogVL_Blue_E06_Ss"
+    }
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 0.66,
+     "13.0": 0.92,
+     "18.5": 0.68
+    },
+    "intensity_only_x_picta": {
+     "7.5": 6.53,
+     "13.0": 0.92,
+     "18.5": 6.23
+    },
+    "max_over": [
+     1.1,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PeachVL_A01S_Ss"
+    }
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 0.54,
+     "13.0": 0.92,
+     "18.5": 0.56
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.8,
+     "13.0": 0.92,
+     "18.5": 3.63
+    },
+    "max_over": [
+     1.1,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PureVL_A01S_Ss"
+    }
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 0.71,
+     "13.0": 0.92,
+     "18.5": 0.73
+    },
+    "intensity_only_x_picta": {
+     "7.5": 7.12,
+     "13.0": 0.92,
+     "18.5": 6.85
+    },
+    "max_over": [
+     1.1,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02S_Sr",
+     "Day": "LAM_DayVL_A02S_Dy",
+     "Sunset": "LAM_PeachVL_A02S_Ss"
+    }
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 0.66,
+     "13.0": 0.92,
+     "18.5": 0.68
+    },
+    "intensity_only_x_picta": {
+     "7.5": 6.56,
+     "13.0": 0.92,
+     "18.5": 6.26
+    },
+    "max_over": [
+     1.1,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PeachVL_B01S_Ss"
+    }
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 0.54,
+     "13.0": 0.92,
+     "18.5": 0.56
+    },
+    "intensity_only_x_picta": {
+     "7.5": 3.81,
+     "13.0": 0.92,
+     "18.5": 3.65
+    },
+    "max_over": [
+     1.1,
+     16.5
+    ],
+    "leak": [
+     0,
+     null
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PureVL_B01S_Ss"
+    }
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.364,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.404,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.476,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.397,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.495,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.46,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.404,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.573,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.367,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.404,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.479,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.399,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.498,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_B02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.141,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 29.969,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.324,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_YellowVL_C01_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 2.733,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 7.288,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C01_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 3.168,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_YellowVL_C02_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 2.744,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 7.288,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C02_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 3.18,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_C03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.129,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 29.896,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.312,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.498,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 42.438,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.635,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.218,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 73.403,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.424,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.068,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 29.985,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.244,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.223,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 29.808,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 3.379,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.509,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 41.668,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.647,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.52,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 41.433,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 2.656,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.225,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 72.011,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.425,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.234,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 71.746,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.434,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E01_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.179,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.771,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.235,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E02_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.695,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 48.541,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.931,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E03_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.097,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.778,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.129,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.086,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.786,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.112,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.828,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 48.337,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 5.047,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 4.85,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 48.208,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 5.066,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_PeachVL_A01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.364,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.426,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.476,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.397,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.495,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.46,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.421,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.573,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.367,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 2.425,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 3.479,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.399,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 2.498,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   }
+  }
+ },
+ "1.0_newly_on": {
+  "G": {
+   "Dawn": 1.05,
+   "Sunrise": 2.207,
+   "Day": 3.528,
+   "Sunset": 2.18,
+   "Dusk": 1.122
+  },
+  "worst": [
+   1.099,
+   "19FE06"
+  ],
+  "leak": [
+   0.291,
+   "5AFB02",
+   20.0
+  ],
+  "swell": {
+   "19FA01<->19FD03 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.9
+   },
+   "19FA01<->19FD03 7.5 baby": {
+    "vs_ideal": 3.4,
+    "vs_brighter_end": -28.8
+   },
+   "19FA01<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FA01<->19FD03 13 baby": {
+    "vs_ideal": 152.1,
+    "vs_brighter_end": 50.0
+   },
+   "19FA01<->19FD03 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.7
+   },
+   "19FA01<->19FD03 18.5 baby": {
+    "vs_ideal": 2.9,
+    "vs_brighter_end": -29.3
+   },
+   "19FE03<->19FD03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -4.4
+   },
+   "19FE03<->19FD03 7.5 baby": {
+    "vs_ideal": 26.6,
+    "vs_brighter_end": -0.9
+   },
+   "19FE03<->19FD03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.5
+   },
+   "19FE03<->19FD03 13 baby": {
+    "vs_ideal": 223.8,
+    "vs_brighter_end": 104.3
+   },
+   "19FE03<->19FD03 18.5 picta": {
+    "vs_ideal": -0.0,
+    "vs_brighter_end": -5.0
+   },
+   "19FE03<->19FD03 18.5 baby": {
+    "vs_ideal": 25.3,
+    "vs_brighter_end": -3.8
+   },
+   "19FE01<->19FD02 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.9
+   },
+   "19FE01<->19FD02 7.5 baby": {
+    "vs_ideal": 28.3,
+    "vs_brighter_end": -5.2
+   },
+   "19FE01<->19FD02 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FE01<->19FD02 13 baby": {
+    "vs_ideal": 207.4,
+    "vs_brighter_end": 112.6
+   },
+   "19FE01<->19FD02 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.2
+   },
+   "19FE01<->19FD02 18.5 baby": {
+    "vs_ideal": 29.1,
+    "vs_brighter_end": -11.9
+   },
+   "19FA01<->19FC01 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 7.5 baby": {
+    "vs_ideal": -0.4,
+    "vs_brighter_end": -11.8
+   },
+   "19FA01<->19FC01 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FA01<->19FC01 13 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -39.5
+   },
+   "19FA01<->19FC01 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -0.3
+   },
+   "19FA01<->19FC01 18.5 baby": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -4.8
+   },
+   "19FC01<->19FC04 7.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -13.7
+   },
+   "19FC01<->19FC04 7.5 baby": {
+    "vs_ideal": 6.2,
+    "vs_brighter_end": -19.9
+   },
+   "19FC01<->19FC04 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.0
+   },
+   "19FC01<->19FC04 13 baby": {
+    "vs_ideal": 84.3,
+    "vs_brighter_end": 73.7
+   },
+   "19FC01<->19FC04 18.5 picta": {
+    "vs_ideal": -0.5,
+    "vs_brighter_end": -14.1
+   },
+   "19FC01<->19FC04 18.5 baby": {
+    "vs_ideal": 7.3,
+    "vs_brighter_end": -22.5
+   },
+   "19FA01<->19FE03 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE03 7.5 baby": {
+    "vs_ideal": -9.6,
+    "vs_brighter_end": -45.2
+   },
+   "19FA01<->19FE03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE03 13 baby": {
+    "vs_ideal": 2.4,
+    "vs_brighter_end": -11.6
+   },
+   "19FA01<->19FE03 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE03 18.5 baby": {
+    "vs_ideal": -10.6,
+    "vs_brighter_end": -46.3
+   },
+   "19FA01<->19FE05 7.5 picta": {
+    "vs_ideal": -1.4,
+    "vs_brighter_end": -20.3
+   },
+   "19FA01<->19FE05 7.5 baby": {
+    "vs_ideal": 19.7,
+    "vs_brighter_end": 3.6
+   },
+   "19FA01<->19FE05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -9.2
+   },
+   "19FA01<->19FE05 13 baby": {
+    "vs_ideal": 154.8,
+    "vs_brighter_end": 50.4
+   },
+   "19FA01<->19FE05 18.5 picta": {
+    "vs_ideal": -1.6,
+    "vs_brighter_end": -21.4
+   },
+   "19FA01<->19FE05 18.5 baby": {
+    "vs_ideal": 19.2,
+    "vs_brighter_end": 3.7
+   },
+   "19FC01<->19FD05 7.5 picta": {
+    "vs_ideal": -0.9,
+    "vs_brighter_end": -16.6
+   },
+   "19FC01<->19FD05 7.5 baby": {
+    "vs_ideal": 17.9,
+    "vs_brighter_end": 9.8
+   },
+   "19FC01<->19FD05 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -6.1
+   },
+   "19FC01<->19FD05 13 baby": {
+    "vs_ideal": 112.8,
+    "vs_brighter_end": 63.7
+   },
+   "19FC01<->19FD05 18.5 picta": {
+    "vs_ideal": -1.0,
+    "vs_brighter_end": -17.5
+   },
+   "19FC01<->19FD05 18.5 baby": {
+    "vs_ideal": 20.7,
+    "vs_brighter_end": 5.5
+   },
+   "19FB01<->19FB03 7.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.4
+   },
+   "19FB01<->19FB03 7.5 baby": {
+    "vs_ideal": 10.6,
+    "vs_brighter_end": -16.3
+   },
+   "19FB01<->19FB03 13 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": 0.0
+   },
+   "19FB01<->19FB03 13 baby": {
+    "vs_ideal": 145.9,
+    "vs_brighter_end": 58.1
+   },
+   "19FB01<->19FB03 18.5 picta": {
+    "vs_ideal": 0.0,
+    "vs_brighter_end": -3.7
+   },
+   "19FB01<->19FB03 18.5 baby": {
+    "vs_ideal": 11.1,
+    "vs_brighter_end": -14.7
+   }
+  },
+  "per_weather": {
+   "19FA01": {
+    "reached": {
+     "7.5": 1.04,
+     "13.0": 0.98,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PeachVL_A01_Ss"
+    }
+   },
+   "19FA02": {
+    "reached": {
+     "7.5": 0.98,
+     "13.0": 0.98,
+     "18.5": 0.96
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01_Sr",
+     "Day": "LAM_DayVL_A01_Dy",
+     "Sunset": "LAM_PureVL_A01_Ss"
+    }
+   },
+   "19FA03": {
+    "reached": {
+     "7.5": 1.05,
+     "13.0": 0.98,
+     "18.5": 1.04
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     10.0
+    ],
+    "leak": [
+     0.289,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02_Sr",
+     "Day": "LAM_DayVL_A02_Dy",
+     "Sunset": "LAM_PeachVL_A02_Ss"
+    }
+   },
+   "19FB01": {
+    "reached": {
+     "7.5": 1.04,
+     "13.0": 0.98,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PeachVL_B01_Ss"
+    }
+   },
+   "19FB02": {
+    "reached": {
+     "7.5": 0.98,
+     "13.0": 0.98,
+     "18.5": 0.97
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01_Sr",
+     "Day": "LAM_DayVL_B01_Dy",
+     "Sunset": "LAM_PureVL_B01_Ss"
+    }
+   },
+   "19FB03": {
+    "reached": {
+     "7.5": 0.69,
+     "13.0": 0.91,
+     "18.5": 0.7
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.093,
+     18.75
+    ],
+    "leak": [
+     0.289,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_B02_Sr",
+     "Day": "LAM_FogVL_B02_Dy",
+     "Sunset": "LAM_FogVL_B02_Ss"
+    }
+   },
+   "19FC01": {
+    "reached": {
+     "7.5": 1.0,
+     "13.0": 0.97,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.088,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C01_Sr",
+     "Day": "LAM_DayVL_C01_Dy",
+     "Sunset": "LAM_GoldVL_C01_Ss"
+    }
+   },
+   "19FC02": {
+    "reached": {
+     "7.5": 1.0,
+     "13.0": 0.97,
+     "18.5": 1.04
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.088,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_YellowVL_C02_Sr",
+     "Day": "LAM_DayVL_C02_Dy",
+     "Sunset": "LAM_GoldVL_C02_Ss"
+    }
+   },
+   "19FC03": {
+    "reached": {
+     "7.5": 0.71,
+     "13.0": 0.91,
+     "18.5": 0.71
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.287,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C03_Sr",
+     "Day": "LAM_FogVL_C03_Dy",
+     "Sunset": "LAM_FogVL_C03_Ss"
+    }
+   },
+   "19FC04": {
+    "reached": {
+     "7.5": 0.69,
+     "13.0": 0.84,
+     "18.5": 0.69
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     17.75
+    ],
+    "leak": [
+     0.193,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_C04_Sr",
+     "Day": "LAM_FogVL_C04_Dy",
+     "Sunset": "LAM_FogVL_C04_Ss"
+    }
+   },
+   "19FC05": {
+    "reached": {
+     "7.5": 0.7,
+     "13.0": 0.85,
+     "18.5": 0.69
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.095,
+     7.25
+    ],
+    "leak": [
+     0.193,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_C05_Sr",
+     "Day": "LAM_FogVL_Blue_C05_Dy",
+     "Sunset": "LAM_FogVL_Blue_C05_Ss"
+    }
+   },
+   "19FD01": {
+    "reached": {
+     "7.5": 0.69,
+     "13.0": 0.91,
+     "18.5": 0.7
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.29,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D01_Sr",
+     "Day": "LAM_FogVL_D01_Dy",
+     "Sunset": "LAM_FogVL_D01_Ss"
+    }
+   },
+   "19FD02": {
+    "reached": {
+     "7.5": 0.73,
+     "13.0": 0.91,
+     "18.5": 0.73
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     18.75
+    ],
+    "leak": [
+     0.19,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D02_Sr",
+     "Day": "LAM_FogVL_D02_Dy",
+     "Sunset": "LAM_FogVL_D02_Ss"
+    }
+   },
+   "19FD03": {
+    "reached": {
+     "7.5": 0.71,
+     "13.0": 0.82,
+     "18.5": 0.68
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.084,
+     17.75
+    ],
+    "leak": [
+     0.191,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D03_Sr",
+     "Day": "LAM_FogVL_D03_Dy",
+     "Sunset": "LAM_FogVL_D03_Ss"
+    }
+   },
+   "19FD04": {
+    "reached": {
+     "7.5": 0.71,
+     "13.0": 0.82,
+     "18.5": 0.69
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.084,
+     17.75
+    ],
+    "leak": [
+     0.191,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_D04_Sr",
+     "Day": "LAM_FogVL_D04_Dy",
+     "Sunset": "LAM_FogVL_D04_Ss"
+    }
+   },
+   "19FD05": {
+    "reached": {
+     "7.5": 0.7,
+     "13.0": 0.84,
+     "18.5": 0.7
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     17.75
+    ],
+    "leak": [
+     0.192,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D05_Sr",
+     "Day": "LAM_FogVL_Blue_D05_Dy",
+     "Sunset": "LAM_FogVL_Blue_D05_Ss"
+    }
+   },
+   "19FD06": {
+    "reached": {
+     "7.5": 0.7,
+     "13.0": 0.84,
+     "18.5": 0.7
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.098,
+     17.75
+    ],
+    "leak": [
+     0.192,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_D06_Sr",
+     "Day": "LAM_FogVL_Blue_D06_Dy",
+     "Sunset": "LAM_FogVL_Blue_D06_Ss"
+    }
+   },
+   "19FE01": {
+    "reached": {
+     "7.5": 1.01,
+     "13.0": 0.97,
+     "18.5": 0.83
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.094,
+     7.25
+    ],
+    "leak": [
+     0.288,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E01_Sr",
+     "Day": "LAM_StormVL_E01_Dy",
+     "Sunset": "LAM_StormVL_E01_Ss"
+    }
+   },
+   "19FE02": {
+    "reached": {
+     "7.5": 0.7,
+     "13.0": 0.91,
+     "18.5": 0.71
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     7.25
+    ],
+    "leak": [
+     0.289,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E02_Sr",
+     "Day": "LAM_FogVL_Blue_E02_Dy",
+     "Sunset": "LAM_FogVL_Blue_E02_Ss"
+    }
+   },
+   "19FE03": {
+    "reached": {
+     "7.5": 1.05,
+     "13.0": 1.0,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.19,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E03_Sr",
+     "Day": "LAM_StormVL_E03_Dy",
+     "Sunset": "LAM_StormVL_E03_Ss"
+    }
+   },
+   "19FE04": {
+    "reached": {
+     "7.5": 1.05,
+     "13.0": 1.01,
+     "18.5": 1.04
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.089,
+     10.0
+    ],
+    "leak": [
+     0.189,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_StormVL_E04_Sr",
+     "Day": "LAM_StormVL_E04_Dy",
+     "Sunset": "LAM_StormVL_E04_Ss"
+    }
+   },
+   "19FE05": {
+    "reached": {
+     "7.5": 0.72,
+     "13.0": 0.91,
+     "18.5": 0.72
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.092,
+     7.25
+    ],
+    "leak": [
+     0.19,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E05_Sr",
+     "Day": "LAM_FogVL_Blue_E05_Dy",
+     "Sunset": "LAM_FogVL_Blue_E05_Ss"
+    }
+   },
+   "19FE06": {
+    "reached": {
+     "7.5": 0.74,
+     "13.0": 0.91,
+     "18.5": 0.75
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.099,
+     18.75
+    ],
+    "leak": [
+     0.19,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_FogVL_Blue_E06_Sr",
+     "Day": "LAM_FogVL_Blue_E06_Dy",
+     "Sunset": "LAM_FogVL_Blue_E06_Ss"
+    }
+   },
+   "5AFA01": {
+    "reached": {
+     "7.5": 1.04,
+     "13.0": 0.98,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PeachVL_A01S_Ss"
+    }
+   },
+   "5AFA02": {
+    "reached": {
+     "7.5": 0.97,
+     "13.0": 0.98,
+     "18.5": 0.96
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_A01S_Sr",
+     "Day": "LAM_DayVL_A01S_Dy",
+     "Sunset": "LAM_PureVL_A01S_Ss"
+    }
+   },
+   "5AFA03": {
+    "reached": {
+     "7.5": 1.05,
+     "13.0": 0.98,
+     "18.5": 1.04
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.289,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_A02S_Sr",
+     "Day": "LAM_DayVL_A02S_Dy",
+     "Sunset": "LAM_PeachVL_A02S_Ss"
+    }
+   },
+   "5AFB01": {
+    "reached": {
+     "7.5": 1.04,
+     "13.0": 0.98,
+     "18.5": 1.03
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PeachVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PeachVL_B01S_Ss"
+    }
+   },
+   "5AFB02": {
+    "reached": {
+     "7.5": 0.98,
+     "13.0": 0.98,
+     "18.5": 0.97
+    },
+    "intensity_only_x_picta": {
+     "7.5": null,
+     "13.0": null,
+     "18.5": null
+    },
+    "max_over": [
+     1.097,
+     10.0
+    ],
+    "leak": [
+     0.291,
+     20.0
+    ],
+    "voli": {
+     "Sunrise": "LAM_PureVL_B01S_Sr",
+     "Day": "LAM_DayVL_B01S_Dy",
+     "Sunset": "LAM_PureVL_B01S_Ss"
+    }
+   }
+  },
+  "copies": {
+   "LAM_PeachVL_A01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 9.254,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.78,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.521,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 7.492,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 6.915,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.95,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.78,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.205,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 9.236,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.78,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.501,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 7.478,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 6.899,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_B02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 11.368,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 30.043,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_B02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 10.696,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_YellowVL_C01_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 8.093,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C01_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 8.487,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C01_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 7.594,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_YellowVL_C02_Sr": {
+    "source": "000810:Astralite Weathers.esp",
+    "src": "LAM_YellowVL",
+    "intensity": 8.029,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_C02_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 8.487,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_GoldVL_C02_Ss": {
+    "source": "00082D:Astralite ENB.esp",
+    "src": "LAM_GoldVL",
+    "intensity": 7.523,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_FogVL_C03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 10.928,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 30.039,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 10.209,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.692,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 46.317,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_C04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.041,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 15.929,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 78.494,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_C05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 14.771,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 11.591,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 30.044,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D01_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 10.901,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 10.616,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 30.045,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D02_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 9.851,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.395,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 45.19,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D03_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.503,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Sr": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 8.3,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Dy": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 45.146,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_D04_Ss": {
+    "source": "00085D:Astralite Weathers.esp",
+    "src": "LAM_FogVL",
+    "intensity": 7.412,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 15.17,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 78.217,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 13.924,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 14.996,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 78.126,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_D06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 13.745,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E01_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.968,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.701,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E01_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.221,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E02_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 17.736,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 48.764,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E02_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 16.572,
+    "rf": 100.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_StormVL_E03_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.904,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 1.859,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E03_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.594,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Sr": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.837,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Dy": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.013,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_StormVL_E04_Ss": {
+    "source": "00085A:Astralite Weathers.esp",
+    "src": "LAM_StormVL",
+    "intensity": 2.532,
+    "rf": 80.0,
+    "dens": 0.9,
+    "cc": 0.5
+   },
+   "LAM_FogVL_Blue_E05_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 16.689,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 48.85,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E05_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 15.237,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Sr": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 16.092,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Dy": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 48.826,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_FogVL_Blue_E06_Ss": {
+    "source": "000861:Astralite Weathers.esp",
+    "src": "LAM_FogVL_Blue",
+    "intensity": 14.87,
+    "rf": 80.0,
+    "dens": 1.0,
+    "cc": 1.0
+   },
+   "LAM_PeachVL_A01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 9.254,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.777,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.52,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 7.492,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_A01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 6.914,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.949,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_A02S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.777,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_A02S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.205,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Sr": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 9.235,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_DayVL_B01S_Dy": {
+    "source": "000814:Astralite Weathers.esp",
+    "src": "LAM_DayVL",
+    "intensity": 1.777,
+    "rf": 100.0,
+    "dens": 0.85,
+    "cc": 0.75
+   },
+   "LAM_PeachVL_B01S_Ss": {
+    "source": "00086F:Astralite Weathers.esp",
+    "src": "LAM_PeachVL",
+    "intensity": 8.5,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Sr": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 7.478,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   },
+   "LAM_PureVL_B01S_Ss": {
+    "source": "000821:Astralite ENB.esp",
+    "src": "LAM_PureVL",
+    "intensity": 6.899,
+    "rf": 100.0,
+    "dens": 0.9,
+    "cc": 0.75
+   }
+  }
+ }
+}

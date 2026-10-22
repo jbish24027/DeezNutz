@@ -1,0 +1,9 @@
+== Tunic m: torsom_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 225/ 0/148   sprint L 255/ 6/109   walk R 189/ 0/ 85   walk L 206/ 0/ 80
+   curled in (limit)      sprint R 240/ 0/178   sprint L 281/ 0/181   walk R 332/ 0/229   walk L 319/ 4/217
+   swung back .3/.15      sprint R 200/ 7/ 14   sprint L 167/ 2/152   walk R 148/ 5/ 75   walk L 170/ 2/146
+   swung forward .3/.15   sprint R 161/ 0/122   sprint L 220/ 0/194   walk R  63/ 0/ 73   walk L  66/ 0/ 77
+   swung sideways .3/.15  sprint R 127/ 0/122   sprint L 199/ 0/160   walk R 143/ 0/ 97   walk L 121/ 0/ 95
+   total caught/hooked/sunk 3832/26/2554; lining pts Front 363, Back 386, Side 864
+
+EXIT 0

@@ -1,0 +1,33 @@
+# Reconstructed choices for Vel'dun UI 1.0.5 main FOMOD (installed folder "Vel'dun UI")
+S0 Welcome / Proceed / Select this to proceed with installation
+S1 Base Files and Necessary Patches / Main Files / Main Bulk
+S1 Base Files and Necessary Patches / Main Menu / 1. Skip - Default
+S1 Base Files and Necessary Patches / General Patches / 1. BTPS Patch
+S1 Base Files and Necessary Patches / General Patches / 2. CoMAP
+S1 Base Files and Necessary Patches / General Patches / 3. Experience Patch
+S1 Base Files and Necessary Patches / General Patches / 4. ImGUI Icons Patch
+S1 Base Files and Necessary Patches / General Patches / 5. Oblivion Interaction Icons Patch
+S1 Base Files and Necessary Patches / General Patches / 7. STB Active Effects
+S1 Base Files and Necessary Patches / General Patches / 8. STB Widgets
+S1 Base Files and Necessary Patches / General Patches / 9. TrueHUD Patch
+S1 Base Files and Necessary Patches / Dialogue / 2. DBVO
+S2 Patches Page 1 / COCKS / 1. Skip - Default
+S2 Patches Page 1 / Compass Navigation Overhaul / 3. CNO Knotwork Patch
+S2 Patches Page 1 / Favorites Menu / 1. Skip - Default
+S2 Patches Page 1 / Local Map Ugrade / 1. Skip - Default
+S2 Patches Page 1 / MoreHUD Inventory Edition / 2. MoreHUD Inv Edition Patch
+S2 Patches Page 1 / MoreHUD / 2. MoreHUD Patch
+S2 Patches Page 1 / QuickLoot / 1. Skip - Default
+S3 Patches Page 2 / Quest Journal System Page / 1. Skip - Deafult/Vanilla
+S3 Patches Page 2 / Detection Meter / 2. Detection Meter Patch
+S3 Patches Page 2 / Floating Subtitles / 1. Skip - Default
+S3 Patches Page 2 / Sorting Mod / 2. Aura's Inventory Tweaks
+S3 Patches Page 2 / Static Skill Leveling Rewritten / 1. Skip - Default/Vanilla
+S3 Patches Page 2 / True Directional Movement - Target Lock / 2. Vel'dun Themed
+S3 Patches Page 2 / Tween Menu / 2. Tween Menu Custom Skills
+S3 Patches Page 2 / Weapon Stats / 1. Skip - Default/Vanilla
+S4 What's your monitor resolution? / Choose wisely / 16 by 9
+S5 Configs and Stuff / Inventory placement / 2. Slimventory
+S5 Configs and Stuff / UI placement preset / 1. BOTTOM - UI's Default
+S5 Configs and Stuff / SkyUI 3D Item / 1. UI Default (side of itemcard)
+S8 You're finished. / Great Job! / Enjoy and maybe Endorse if you like it?

@@ -1,0 +1,10 @@
+VampClothes m: Saia 5558 pts, sheet 3868, lining 1690 (1307 project onto the sheet); at rest the lining sits 0.11 behind it (median), nearest -1.24; 12 chains
+   A alternate chains +-12: 1427 lining pts over the sheet, through by more than 0.1: 158, deepest 1.08
+      z 45.0..66.3, angles -165, -135, -120, -105, -90, -75, -60, -45, -30, -15, 0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180
+   B every chain out 15: 1407 lining pts over the sheet, through by more than 0.1: 188, deepest 0.93
+      z 45.0..66.9, angles -165, -150, -135, -120, -105, -90, -75, -60, -45, -30, -15, 0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180
+   C left thigh raised 35: 1330 lining pts over the sheet, through by more than 0.1: 172, deepest 1.26
+      z 45.3..70.3, angles -165, -150, -135, -120, -105, -90, -75, -60, -45, -30, -15, 0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180
+SUMMARY lining through/deepest worst: 188/1.26
+
+EXIT 0

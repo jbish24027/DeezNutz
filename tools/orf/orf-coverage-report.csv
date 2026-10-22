@@ -1,0 +1,234 @@
+tier,plugin,mod_in_game,kind,wearable_pieces,already_covered,still_needs_keywords,notes
+"A - big, do first",[SunJeong] Ninirim Collection.esp,"Ninirim Collection (Bless, Dragon Rises, Kitsune Miko, Cat Maid, Succubus outfits)",outfit_mod,195,41,154,"Largest slice by far. Every record named, mostly paired base/Slutty/Damaged variants of skimpy female outfits."
+"A - big, do first",[Caenarvon] Cosplay Pack Gala.esp,"Cosplay Gala Gowns (Thorn Princess, Saturnalia, Rosalina, Magnolia, Patricia, Meeresbrise, Signora, Belladona, Buckingham, Manhattan, Mandarin, Hellene) + Gala Tuxedo Dress Shirt",outfit_mod,126,6,120,"Twelve gown families plus tuxedo shirt, many colorways; 48 are (Lewd) revealing variants. All named, player-wearable."
+"A - big, do first",Glenmoril.esm,"Glenmoril quest armors and robes (Snow Prince's, Nerevarine's, Plague Doctor Coat, Knight of Radiance, Dwemer Robes)",quest_or_land_mod,112,0,112,371 slot-32 records; 249 unnamed creature skins. Wearables are the armor/robe sets; NP-prefixed entries are NPC duplicates sharing display names.
+"A - big, do first",BSHeartland.esm,"Beyond Skyrim: Bruma - Cyrodiilic armor and clothing (Colovian, Nibenese, guard, mage, enchanted variants)",quest_or_land_mod,180,72,108,"84 unnamed creature skins (goblins, trolls, dogs) plus 5 named animal skins excluded from the playable count."
+"A - big, do first",[Imp] Modular Mage.esp,"Modular Mage (Novice/Apprentice/Adept/Expert/Master/Archmage/Telvanni tops, corsets, bikinis, harnesses, dresses)",outfit_mod,102,0,102,"Large skimpy modular mage wardrobe, every record named and tiered by mage rank. Prime ORF target."
+"A - big, do first",Skyrim Extended Cut - Saints and Seducers.esp,"Dark Seducer, Golden Saint, Madness and Amber Armor (enchanted cuirasses); Theodor's Apron",quest_or_land_mod,98,1,97,"Quest mod. 22 records are unnamed creature skins (Grummite, Scalon, Elytra, Corgi). Two named cuirasses flagged Unplayable."
+"A - big, do first",Vigilant.esm,"Vigilant knightly orders, Alessian/Ayleid sets, Vigilant of Stendarr gear, Daedric armors",quest_or_land_mod,178,95,83,Huge named armor library the player loots and wears. 154 blank records are creature/naked skins.
+"A - big, do first",KW_SerasArmor.esp,"Red Jenny's Tunic, Sundress, Sweater and Breeches",outfit_mod,81,0,81,"Dragon Age Sera outfit port. Large colourway matrix: tunic/sundress/sweater across 11 palettes, plus duplicate ARMOR-suffixed clothing twins."
+"A - big, do first",[Caenarvon] Cosplay Pack Casual.esp,"Cosplay Casual Wear (Dongtan Dress, Turtlenecks, Ao Dai, Minidress, Virgin Killer/Destroyer Sweater, Offshoulder Sweater, Comfy Turtleneck, Comfy Hoodie)",outfit_mod,69,0,69,"Modern casual outfit pack in many colorways; 33 are (Lewd) revealing variants. All named, player-wearable."
+"A - big, do first",Unslaad.esm,"Unslaad armors: Hoarfrost Knight/Guardian/Royal Guard, Dragonslayer, Akaviri, Blades Spy, Half-Dragon Dresses, Atmoran/Kyne sets",quest_or_land_mod,61,3,58,Big quest mod. 92 records are creature/boss skins. Named set includes 4 dreugh carapaces that are creature armor.
+"A - big, do first",LegacyoftheDragonborn.esm,Legacy of the Dragonborn museum replicas and Explorer's Guild gear,quest_or_land_mod,55,2,53,"Mix of wearable replicas and guild armor plus 6 DUMMY display records, a mannequin, and creature skins."
+"A - big, do first",Requiem.esp,"Requiem cuirasses (guard, Dwarven, Daedric, Dragonplate, Dawnguard, unique NPC)",framework_or_patch,51,0,51,Overhaul-defined new cuirass variants worn by guards and named NPCs; all lootable and wearable.
+"A - big, do first",AX ValSerano.esp,"Val Serano quest gear (Val's Clothes/Armor sets, pirate clothing, Xivkyn and Coldharbour armor)",quest_or_land_mod,45,5,40,"Quest mod with follower gear. 16 blank naked-body skins plus 4 named creature bodies (Watcher, Crow Wraith, Plushie Chaurus) excluded."
+"A - big, do first",DDV - Hal's casual outfit.esp,Hal's Casual Outfit (tops and pants),outfit_mod,35,0,35,"Five colour tops with four alternate male variants each, plus five pants. Names carry the DDV prefix in game."
+"A - big, do first",Adventurer's Tunic - Vanilla HIMBO CBBE.esp,"Adventurer's Tunic (plain, sleeved, sleeveless; cloth and light-armored; five colors)",outfit_mod,30,0,30,"Clean color and sleeve matrix, all named. Straightforward ORF coverage."
+"A - big, do first",DAc0da.esm,"Tsaesci, Atmoran, Necromancer, Psijic, Dwemer and Kagrenac armors and robes",quest_or_land_mod,29,0,29,"Mixed: 49 unnamed creature skins (Yaghra, Dreugh, Goldbone) plus real wearables like Psijic and Dwemer robes."
+"A - big, do first",Twilight Princess Armor - Alt Textures and Cloth Addon.esp,"Twilight Princess Cuirass (Red/Black, City/Home, Armored, Black Belt, No Bronze)",outfit_mod,28,0,28,"Pure texture and cloth-variant addon. All 28 are the same cuirass in colour and trim permutations, so one outfit identity."
+"A - big, do first",NW_Sons_of_Skyrim.esp,Sons of Skyrim - hold guard and Stormcloak armors,outfit_mod,24,1,23,"All named per hold plus Stormcloak lamellar, hide, chainmail, officer. Seen on guards constantly."
+"A - big, do first",[Caenarvon] Cosplay Pack.esp,"Cosplay Pack (sailor blouses, blazers, bunny leotards, swimsuits, cheerleader, maid, bikinis)",outfit_mod,134,113,21,Largest slice by far. Every record named and player-wearable. Heavy variant families with Lewd/Translucent/Unbuttoned suffixes.
+B - medium,Towels.esp,"Towel Body and Towel Waist, nine colours each",outfit_mod,18,0,18,"Clean player-wearable set, every record named. Bath towels, so reaction comments land distinctly."
+B - medium,Apex_Khajiit.esp,"Khajiiti Cuirass: Cherim's Heart, Bloodmoon, Dro'Zira, Firefrost, Mane, Royal, Silver, Warm Sands (light and heavy)",outfit_mod,16,0,16,Eight designs in light and heavy variants. All named and player-wearable.
+B - medium,Sonders_CosplayCasualAddon.esp,Cosplay Casual - offshoulder sweaters and minidress,outfit_mod,16,0,16,Fifteen striped or wool sweater colorways plus one hot pink minidress. All named.
+B - medium,el_gildeddoubletsetcolor.esp,"Gilded Doublet (Sage, Ash, Dark Grey, Dark Blue, Wine, Brown)",outfit_mod,14,0,14,"Seven colours, each in an armor and a clothing variant."
+B - medium,Olenveld.esp,"Black Watch Armor, Black Worm Order Robes, Mara's Tear Cuirass, Mithril Cuirass",quest_or_land_mod,14,1,13,"Mostly skeleton, spider, imp and spriggan creature skins. Only fourteen humanoid cuirasses and robes are wearable."
+B - medium,3DNPC.esp,"Interesting NPCs unique outfits (Griffith's, Elenthil's, Rothvine, Anum-La's Robe, Blood of Skyrim)",quest_or_land_mod,11,3,8,"Named NPC gear on frequently-seen quest characters. Three blanks are duplicated draugr, wolf and dwarven spider skins."
+B - medium,DD - Einar Wardrobe.esp,"Einar WardRobe (tunics, hip towel, pants, underwear) and Idun WardRobe tunics",outfit_mod,8,0,8,Casual home-wear tunic set with male and female variants.
+B - medium,MrissiTailOfTroubles.esp,"M'rissi's Cosy Armor, Leather Jerkin, Wedding Dress, Exotic Armor, Warm Coat, Black Dress, Doublet",follower_mod,8,0,8,"Two records are sabrecat mount skins, one is M'rissi's naked skin. M'rissi is a constantly-visible follower."
+B - medium,Requiem - More Unique Enemies.esp,"Unique enemy armor (Forsworn Cuirasses of Eminent x, Vipjorg's Cuirass, Mirithil's Cuirass, Hooded Blue Robes)",framework_or_patch,8,0,8,Requiem addon giving named enemies bespoke enchanted cuirasses. All lootable and wearable by the player.
+B - medium,SM_Astrid.esp,"Astrid Wedding Dress, Astrid Underwear, Astrid Light/Heavy Armor, Astrid Clothing",npc_replacer,8,0,8,Astrid overhaul with bespoke outfits. One record is her naked skin (name equals EditorID placeholder).
+B - medium,BIMDOSeparated.esp,Mage's Daily Outfit - Separated,outfit_mod,7,0,7,Six colorways plus one record EditorID-tagged DUPLICATE001 sharing the base name.
+B - medium,Ferrymen - New Outfits by Xtudo.esp,"Ferrymen Outfit (White, Green, Black, Brown, plus White/Black/Brown Fur)",outfit_mod,7,0,7,NPC outfit replacer for the Ferrymen; seven named color and fur variants.
+B - medium,H2135PirateSeries2 [SE].esp,"H2135 Pirate Series 2 tops (black, blue, red, striped, W&R)",outfit_mod,7,0,7,Seven colour variants of one pirate top.
+B - medium,0Kaidan.esp,"Kaidan's Armor, Wedding Finery, Stormlord Finery, Blooded Dawn Robes, Ragged and Worn Trousers",follower_mod,6,0,6,"Kaidan 2 follower. Six wearables the follower and player use constantly; Rosalind record is an NPC body skin, not gear."
+B - medium,BIMDOArmorVersion.esp,Mage's Daily Outfit,outfit_mod,6,0,6,"Six colourways: Athena, Burgundy, Serano Teal, Forest Green, Dijon, College Blue. Armor-class version of the outfit."
+B - medium,Girl's Travel Outfit Recolors.esp,"Girl's Travel Outfit (black, brown, green)",outfit_mod,6,0,6,Three colors in two sets (GTO and GTOC); names duplicate across the pairs.
+B - medium,NibeneanArmorsAndOutfit.esp,Nibenean Leather and Dark Steel Cuirass and Outfit,outfit_mod,6,0,6,"Standalone Xtudo armour set. Six variants split by pauldrons and material, plus armour and clothing versions."
+B - medium,Riften Expansion.esp,"Bearheart Armor, Bearheart Patriarch Armor, Fine Outlander Clothes, Fine Doublet, Tailor's Vest",quest_or_land_mod,6,0,6,City expansion adding named citizen clothing and two Bearheart steel-plate armors.
+B - medium,Sons of Skyrim - Requiem Patch.esp,"Stormcloak lamellar, chainmail and gambeson cuirasses; Eastmarch Guard Cuirass",framework_or_patch,6,0,6,Patch defines new Requiem armor tiers worn by guards and Stormcloaks everywhere.
+B - medium,Threads of the North.esp,Dunmer Outfit,outfit_mod,6,0,6,"Clothing overhaul. Six Solstheim Dark Elf outfit variants (base, blue, red) each with a hooded and hoodless version."
+B - medium,kco_stw.esp,"Steward's Regalia, plus Solitude, Whiterun, Windhelm, Riften and Markarth hold variants",outfit_mod,6,0,6,"Uniform set worn by hold stewards, regularly-seen NPCs. Every record named, none blank."
+B - medium,1daem_NoviceWitch.esp,"Novice Witch Dress (Blue, Green, Pink, Red, Black)",outfit_mod,5,0,5,One dress in five colours. Clean single-outfit identity for reaction dialogue.
+B - medium,Ashe - Fire and Blood.esp,"Cumulative Vest (Adventuring, Home, City), Child's Clothes",follower_mod,5,0,5,Eight naked-skin records. Three vests are Ashe's own daily wear; two Child's Clothes entries are child NPC gear.
+B - medium,BSAssets.esm,"Synod Robes, Colovian Fine Clothes, Colovian Merchant Clothes",creature_or_system,5,0,5,"Beyond Skyrim asset master. 34 of 40 are creature/naked skins (goblin, ogre, imp, minotaur, rhino). Only 5 real Bruma clothes."
+B - medium,DIS_Heavy_Legion.esp,"Emperor's Cuirass, Imperial General's Armor, Imperial Legate Armor, Rust Armor, Old Armor",outfit_mod,5,0,5,Heavy Imperial Legion armor set; all five named and worn by Legion officers.
+B - medium,RoamingGirl'sAttire_Modularized.esp,"Roaming Girl's Inner (Ryza, Mottled, Fur, Patchwork)",outfit_mod,5,0,5,Modularized set; only the inner-layer body pieces sit on slot 32. Five texture variants of one garment.
+B - medium,Wyrmstooth.esp,"Elmera's Armor, Daenlit's Armor, Athir's Armor, Lurius' Clothes, Lorumend's Clothes",quest_or_land_mod,5,0,5,Quest mod. 8 records are creature/dragon/shade skins; one is a Phantom Form ghost body. Five unique quest-NPC outfits.
+B - medium,[Ashtoreth] Corsican Raider.esp,Corsican Raider Crop Top,outfit_mod,5,0,5,"Five crop top variants, numbered rather than named by colour. Skimpy player-facing outfit set."
+B - medium,kco_mct.esp,"Merchantress' Garb (blue, ochre, green, black, red)",outfit_mod,5,0,5,Five colorways of one outfit. All named.
+B - medium,kco_pub.esp,"Publican's Tunic (green, blue, red, ochre, grey)",outfit_mod,5,0,5,Innkeeper tunic color set worn by commonly-seen publican NPCs.
+C - small,Common Clothing Expanded.esp,Belted Tunic,outfit_mod,4,0,4,Four colour or style variants all sharing the single display name Belted Tunic. Common townsfolk clothing.
+C - small,DBM_3DNPC_Patch.esp,"Legacy of the Dragonborn replicas of 3DNPC armors (Gabania, Blood of Skyrim, Rothvine, Giant's)",framework_or_patch,4,0,4,"Museum replica copies of 3DNPC cuirasses. Player-craftable and wearable, but duplicate identities of the 3DNPC originals."
+C - small,ForgottenCity.esp,"Immaculate Dwarven Armor, Witch's Robes, Shrouded Robes, Worn Shrouded Armor, Ragged Trousers",quest_or_land_mod,6,2,4,"Quest mod gear; the seventh record is a zombie Burnt Skin, not wearable."
+C - small,QwibTravelerOutfit.esp,"Traveler's Outfit, Vest, Gambeson and Armor",outfit_mod,4,0,4,Four escalating layers from plain outfit to full light armor. Common early-game player and NPC wear.
+C - small,Roaming Girl's Attire.esp,"Roaming Girl's Outfit (base, patchwork, fur, mottled)",outfit_mod,4,0,4,Four named variants of one outfit.
+C - small,SnowElvenArsenal.esp,"Ancient Falmer Scout, Noble and Heavy Armor, Ancient Falmer Mage Robes",outfit_mod,4,0,4,Four wearable Falmer sets; two remaining records are Ancient One and sabrecat skins.
+C - small,Twilight Princess Armor.esp,"Twilight Princess Cuirass (base, City, Home, Armored)",outfit_mod,4,0,4,Four cuirass variants of one Zelda-themed set.
+C - small,ksa_bhpirate.esp,"Blood Horker Pirate outfit (Longshirt, Shirt, Tanks, Trousers)",outfit_mod,4,0,4,"Small standalone pirate wardrobe, all four body pieces named and wearable."
+C - small,_Fuse00_ArmorThalmor.esp,"Thalmor Investigator Armor (full, no coat, no coat and skirt)",outfit_mod,3,0,3,"Standalone Thalmor armor with three coverage variants, all named."
+C - small,evgSIRENROOT.esm,"Peletius' Outfit, Tilael's Outfit, Cayrice's Robes",quest_or_land_mod,3,0,3,Three named quest NPC outfits plus two skin bases and one camera system record.
+C - small,018Auri.esp,"Auri's Cuirass, Auri's Graht Climber's Wear",follower_mod,2,0,2,Other two records are thistlefoot (mount skin) and Auri Body (naked skin). Auri is a constant-companion follower.
+C - small,Authoria - Haberdashery.esp,"Thalmor Investigator Armor, Camilla's Dress",outfit_mod,2,0,2,Fuse00-sourced wearable outfits added to the load order.
+C - small,BPUFXelzazFollower.esp,Xelzaz's Telvanni Spellsword Cuirass (plus tempered variant),follower_mod,2,0,2,"Xelzaz follower. Third record is his Argonian guar skin, not clothing."
+C - small,Bone Cultist Armor.esp,Bone Cultist Armor and Bone Cultist Pauldron Armor,outfit_mod,2,0,2,Two named chest variants.
+C - small,CJ03Elroy.esp,"Death Knight Breastplate, Adabelle Dress, Blacksmith's Apron",quest_or_land_mod,3,1,2,"Mostly undead/creature skins. Six more names are EditorID placeholders like ElroySkin, RBSkin. Only 3 real dungeon-bound wearables."
+C - small,DBM_CC_CivilWarChampionsHOWPatch.esp,Storm-Bear Armor (replica) and Imperial Dragon Armor (replica),framework_or_patch,2,0,2,"Legacy of the Dragonborn museum replicas, playable and wearable."
+C - small,DD FVO Cloth.esp,FVO TOP and FVO TOP V2,outfit_mod,2,0,2,"Wearable body tops, but display names are author shorthand rather than proper in-game item names."
+C - small,DDV - Ruby flower armor.esp,DDV Ruby Flower Top (standard and Gold),outfit_mod,2,0,2,Small standalone top in two finishes.
+C - small,DK_Thogra.esp,"Ice Mage's Robe, Peragorn's Armor",follower_mod,2,0,2,Thogra follower mod adding two named wearable bodies for her and an associated NPC.
+C - small,Dragon Age Isabella Outfit.esp,Dragon Age Isabella Cuirass (standard and Slutty),outfit_mod,2,0,2,Two-variant revealing outfit port. Both are player-wearable body pieces.
+C - small,FalkreathShades.esp,"Arkayn Armor, Noble's Armor",quest_or_land_mod,2,0,2,"Six creature/draugr/statue skins. Only two humanoid armors, both dungeon-bound pyromancer gear."
+C - small,FalmerSlayer.esp,Falmer Slayer Armor,outfit_mod,2,0,2,"21-record standalone armor set, two cuirass variants."
+C - small,Flint9.esp,"Flint's Trousers, Forsworn Armor",follower_mod,2,0,2,Follower mod. Two records are minotaur creature skins for Flint and Kiev; two are wearable bodies.
+C - small,Glenmoril - Khajiit Overhaul.esp,"Champion of Hircine Armor, Ragged Robes",quest_or_land_mod,2,0,2,Quest mod Khajiit patch adding two wearable pieces.
+C - small,Gray Fox Cowl.esm,"Gray Cowl of Nocturnal gear (Ancient Redguard Clothes, Blades Armor, Ragged Trousers)",quest_or_land_mod,3,1,2,Alik'r quest mod. Five blank creature skins plus a named Duneripper body excluded; only three humanoid wearables.
+C - small,HLIORemi.esp,Remi's Outfit and Morvic's Outfit,follower_mod,2,0,2,Other three records are naked skin and two dwarven centurion skins.
+C - small,Hunt for the Spectre.esp,Knight Cuirass and Spectre's Robes,quest_or_land_mod,2,0,2,"Quest mod adding two humanoid body pieces, both properly named and wearable."
+C - small,KR2_Deadlands.esp,Blooded Dawn Robes and Blooded Dawn Armored Robes,quest_or_land_mod,2,0,2,"Deadlands worldspace content for the Kaidan line. Same robe name also defined in 0Kaidan.esp, so expect a duplicate pair."
+C - small,Morskom.esp,Bath Robes and Old Miner's Clothes,quest_or_land_mod,2,0,2,"Morskom Estate quest clothing, playable on Default Race."
+C - small,RB's Scout CBBE 3BA Bodyslide ESPFE.esp,"RB's Scout top, RB's Scout reinforced top",outfit_mod,2,0,2,Standalone scout outfit; display names match EditorIDs but are genuine in-game names.
+C - small,Remnants - WeelBones' Birna And Ranmir Overhauls.esp,Birna Belted Tunic and Ranmir's farm clothes,npc_replacer,2,0,2,Two naked skins unnamed; two named outfits worn by regularly-seen Winterhold NPCs.
+C - small,SexLab-AmorousAdventures.esp,Purified and Desecrated Wedding Dress,quest_or_land_mod,2,0,2,"Quest mod, but both body records are named player-wearable wedding dresses."
+C - small,SteelheartArmors.esp,Steelheart Mail and Steelheart Insulated Mail,outfit_mod,2,0,2,Two named heavy chest pieces.
+C - small,Walks-Distant-Sands Quest Mod.esp,Heavy Furs (courier outfit),quest_or_land_mod,2,0,2,"Two records share the name Heavy Furs, split into heavy-armor and light-armor versions for the quest courier."
+C - small,[Caenarvon] Magecore.esp,"Mage Core Robes (Researcher / Librarian / Student, Novice to Master)",outfit_mod,120,118,2,Every record named. Tier x school matrix plus paired (Lewd) variants. Largest slice by far.
+C - small,[NINI] Open Waist.esp,Open Waist Upper (standard and Slutty),outfit_mod,2,0,2,"Ninirim outfit. Two upper-body variants, both player-wearable."
+C - small,[yy]SYNNfeathersuit.esp,"Light-tracing Feather-Clothes, Emberless Feather-Clothes",outfit_mod,2,0,2,"Full 21-record standalone outfit set, two body variants."
+C - small,1FlutedArmor.esp,Fluted Cuirass,outfit_mod,1,0,1,Single standalone heavy cuirass.
+C - small,Authoria - Initialization - Starting Choices Tweaks.esp,Traveling Mage Outfit,framework_or_patch,1,0,1,User's own starting-choices patch. Defines one enchanted Fuse00 mage outfit body piece the player can start in.
+C - small,Authoria - Master Patch - Armor_Chest_LVLI_Distro.esp,Mage's Daily Outfit (enchanted),framework_or_patch,1,0,1,User's own distribution patch; defines one enchanted wearable torso record.
+C - small,BB02YoanaFollower.esp,Yoana's chest armor,follower_mod,1,0,1,One naked skin plus one chest piece whose name is still the raw internal string YoanaArmorChest.
+C - small,DBM_BSHeartlandPatch - Main.esp,Champion's Kvatch Cuirass (replica),framework_or_patch,1,0,1,Legacy of the Dragonborn Bruma patch. Adds one museum replica cuirass the player can wear.
+C - small,DBM_CC_ForgottenSeasonsHOWPatch.esp,Ward of the Seasons (replica),framework_or_patch,1,0,1,Legacy of the Dragonborn museum replica of a Creation Club item. Wearable but a single display-oriented piece.
+C - small,DBM_CC_GhostsoftheTribunalHOWPatch.esp,Robe of the Lich (replica),framework_or_patch,1,0,1,Legacy museum replica patch; the single record is a wearable named robe.
+C - small,DBM_Kaidan_Patch.esp,Kaidan's Armor (replica),framework_or_patch,1,0,1,LOTD museum replica of Kaidan's armor; wearable by the player.
+C - small,Dungeon Delver Mod.esp,Pike's Armour,quest_or_land_mod,1,0,1,"NonPlayable, worn by one dungeon NPC; marginal ORF value."
+C - small,Far-Shield - WeelBones' Svana Replacer.esp,Dirty BarKeeper Clothes (Svana),npc_replacer,1,0,1,"One unnamed naked skin plus Svana's named barkeeper clothes, seen daily in Windhelm."
+C - small,Inigo.esp,Langley's Robes,follower_mod,1,0,1,"Other record is a giant skin. Inigo himself wears vanilla armor, so only Langley's Robes is new wearable gear."
+C - small,It Came from Akavir.esp,Akaviri Robes,quest_or_land_mod,1,0,1,Akaviri content mod. Only one wearable robe; the second record is an unnamed Oni creature body.
+C - small,JK's Fort Dawnguard.esp,Dawnguard Heavy Armor SPR,quest_or_land_mod,1,0,1,"Playable duplicate of the Dawnguard cuirass, likely for an interior display."
+C - small,Kaidan pre Thalmor.esp,Worn Trousers,follower_mod,1,0,1,"Single named piece occupying the body slot, tied to Kaidan's pre-Thalmor look."
+C - small,Lass Armor.esp,Lass Armor,outfit_mod,1,0,1,"Single body armor record, player-wearable."
+C - small,Leoni_Faleen_replacer.esp,"Faleen's Forsworn Armor, Faleen's Ebony Armor",npc_replacer,2,1,1,"Faleen stands in Understone Keep, so both named bodies are regularly seen."
+C - small,Mage's Daily Outfit - Separated Parts Addon.esp,Mage's Daily Outfit - Separated,outfit_mod,1,0,1,Torso-only split of the Mage's Daily Outfit.
+C - small,Mage's Daily Outfit.esp,Mage's Daily Outfit,outfit_mod,1,0,1,"Single named torso outfit, standalone clothing mod."
+C - small,Midnight Mistress.esp,Midnight Mistress Armor,outfit_mod,1,0,1,"Standalone single-piece player outfit, properly named."
+C - small,NibeneanStriderbyXtudo.esp,Nibenean Strider Armor,outfit_mod,1,0,1,Single named standalone armor body.
+C - small,Obi's Hedge Knight Armor.esp,Obi's Hedge Knight Armor Suit,outfit_mod,1,0,1,Standalone three-piece armor set.
+C - small,OriSeranaUBE.esp,Serana Armored Corset,npc_replacer,1,0,1,Serana UBE replacer. One real outfit worn by a constantly-seen companion; the other record is her skin.
+C - small,RB's Sand Snake CBBE 3BA Bodyslide ESPFE.esp,RB's Sand Snake carapace,outfit_mod,1,0,1,Single-piece standalone armour. Currently won by Authoria - Rectificated - Sandsnake Armor.esp.
+C - small,Requiem-betterForgottenVale.esp,Volaruusum's Armor,framework_or_patch,1,0,1,Requiem patch adding one named Falmer heavy body armor for a Forgotten Vale boss.
+C - small,Requiem_VampireCollection.esp,Harkon's Armor,framework_or_patch,1,0,1,Requiem patch defining a light-armor enchanted Harkon body piece. Boss-worn and lootable by the player.
+C - small,Rogue Nord Armor.esp,Rogue Nord Cuirass,outfit_mod,1,0,1,Single named cuirass.
+C - small,Sanguine's Trade - Brenna Outfit.esp,Roaming Girl's Inner Mottled,outfit_mod,1,0,1,Single inner-layer body piece of the Brenna outfit.
+C - small,SaviorsHideReplacer2.esp,Savior's Cuirass,outfit_mod,1,0,1,"Replacer mesh and record for the Savior's Hide reward, worn by the player after Ill Met by Moonlight."
+C - small,Scorch - WeelBones' Rayya Overhaul.esp,Armor of Steel Sands,npc_replacer,1,0,1,"Rayya is a housecarl follower. Second record is her naked skin, not wearable."
+C - small,Shanoa Armor.esp,Shanoa Armor,outfit_mod,1,0,1,Single named player outfit. Already carries a Reqtificated override in the load order.
+C - small,Tools of Kagrenac.esp,Aetherial Armor,quest_or_land_mod,1,0,1,"Quest mod. Four records are skeleton, lich, and Imperfect Centurion creature skins; only Aetherial Armor is wearable."
+C - small,Unbound Unbent Unbroken - SerketHetyt's Uthgerd Overhaul.esp,Uthgerd's Wind Ruler Cuirass,npc_replacer,1,0,1,Cuirass is NonPlayable but worn by Uthgerd; second record is her body skin.
+C - small,Unmarked Locations Pack - All In One.esp,Mantle of Woe,quest_or_land_mod,1,0,1,Worldspace content mod defining one named wearable robe as unique loot.
+C - small,Wardancerarmor.esp,Wardancer Complete Base Outfit,outfit_mod,1,0,1,Single named full-body outfit record.
+C - small,[LM] LunarGuard - Standalone.esp,Lunar Guard Armor,outfit_mod,1,0,1,Single named cuirass. Worn by Lunar Guard NPCs and craftable by the player.
+C - small,_Fuse00_ArmorHelga.esp,Helga Armor and Helga Unarmored Dress,outfit_mod,3,2,1,Fuse00 standalone set: armoured version plus unarmored dress and pants variants.
+C - small,ksssl_dbgc.esp,Dibella's Grace Robe,outfit_mod,1,0,1,Single robe body piece.
+C - small,wilderness_witch.esp,Wilderness Witch Outfit,outfit_mod,1,0,1,Single-piece standalone outfit. Winner is Authoria - Reqtificated - Wilderness Witch.esp.
+DONE - fully covered,(SmolSaltLemon) Dark Apprentice.esp,Dark Apprentice Robe (armor and cloth versions),outfit_mod,2,2,0,"Two named robe records, one armor-class and one cloth-class."
+DONE - fully covered,(SmolSaltLemon) Rogue Stalker.esp,Rogue Stalker Cuirass (armor and cloth),outfit_mod,2,2,0,Two named chest variants of one set.
+DONE - fully covered,(SmolSaltLemon) Wine Duchess.esp,Wine Duchess - Corset,outfit_mod,2,2,0,One corset in an armor and a clothing copy.
+DONE - fully covered,1AncArgArm.esp,Ancient Argonian Cuirass,outfit_mod,1,1,0,Single named cuirass.
+DONE - fully covered,1FS.esp,Infantry Jacket and Infantry Cuirass,outfit_mod,2,2,0,"Two-piece set, light and heavy variants, both named and player-wearable."
+DONE - fully covered,1YsmirArmorSE.esp,Ysmir Cuirass,outfit_mod,1,1,0,"Single named cuirass, standalone armor mod."
+DONE - fully covered,AlvaReplacer.esp,Alva's outfit (record name is the placeholder 0AlvaArmor),npc_replacer,0,0,0,"Real humanoid body outfit worn by Alva, but its display name is the EditorID, so comments would read oddly."
+DONE - fully covered,Armors of the Velothi Pt2.esp,"Saltplains, Morag Tong, Camonna Tong, Ashlander Warrior, Hearthguard, Bonesaint armors",outfit_mod,22,22,0,"Morrowind-style armor sets. Several deliberate DUPLICATE records share names, so distinct visual sets number about eight."
+DONE - fully covered,Armors of the Velothi.esp,"Armors of the Velothi (Indoril Wayfarer, Bonepriest Robes, Rhino Beetle, Redoran Exile/Watchman, Narsis Watchman, Remnant Hlaalu, Ashlander Seer)",outfit_mod,11,11,0,"Dunmer-themed armor and robe set, all named and player-wearable."
+DONE - fully covered,AshThorn - WeelBones' Irileth Overhaul.esp,Ashes Leather Armor,npc_replacer,1,1,0,Irileth's bespoke armor plus her naked skin. Irileth is a regularly-seen Whiterun NPC.
+DONE - fully covered,Asuras Guard [Armor].esp,Asura's Guard,outfit_mod,1,1,0,"Single combined standalone armor body, player-wearable."
+DONE - fully covered,Campfire.esm,Fur Armor,framework_or_patch,4,4,0,"Four identical playable Fur Armor cuirasses on Default Race, craftable survival gear."
+DONE - fully covered,Cute Adventurer Outfit.esp,"Cute Adventurer Dress, Confident Adventurer Dress, Rich Adventurer Dress",outfit_mod,3,3,0,"Three dress tiers. Installed 2026-08-18 alongside Ninirim; boots are light armour, dresses sit on the body slot."
+DONE - fully covered,DD  - Sigrin Silver Fox armor by Vergi.esp,Sigrin Silver Fox top,outfit_mod,2,2,0,"Two top variants, full and top-only. Names still carry the modder's DD prefix in game."
+DONE - fully covered,GVLT_Gryphonknight.esp,Gryphonknight Armor,outfit_mod,1,1,0,"Standalone heavy armor cuirass, named and player-wearable."
+DONE - fully covered,Girl's Travel Outfit.esp,Girl's Travel Outfit,outfit_mod,1,1,0,Single torso record. Straightforward player-wearable travel outfit.
+DONE - fully covered,Kad_MoonMonkRobes.esp,Moon Monk's Robes,outfit_mod,25,25,0,Thirteen armor variants plus eleven clothing-class twins. Khajiit-flavoured robes; player and Khajiit NPCs wear them.
+DONE - fully covered,LunarGuardArmor.esp,Lunar Guard Armor,outfit_mod,1,1,0,Standalone four-piece armor set.
+DONE - fully covered,New Leather Armor.esp,Noble Leather Armor and Noble Dark Leather Armor,outfit_mod,2,2,0,Single cuirass in two colorways.
+DONE - fully covered,Obi's Abyss Armor.esp,Abyss Top [OBI],outfit_mod,1,1,0,Single named body piece of the Abyss armor set.
+DONE - fully covered,Obi's Cimmerian.esp,Cimmerian Top,outfit_mod,1,1,0,One named top; the name is unpolished camel-case in game.
+DONE - fully covered,Obi's Zamorian Thief 3BA.esp,"Zamorian Thief Top, Zamorian Thief Top White",outfit_mod,2,2,0,"Standalone player outfit, both records properly named and wearable."
+DONE - fully covered,PigIronSet.esl,Pig Iron Armor,outfit_mod,1,1,0,Single named cuirass in an ESL-flagged armor set.
+DONE - fully covered,TG Alternative Endings.esp,Nightingale Armor,quest_or_land_mod,1,1,0,Thieves Guild quest variant defining its own Nightingale cuirass. Player-worn through the guild questline.
+DONE - fully covered,Traveler's Romper Outfit 3BA.esp,"Traveler's Romper (Bra, Top, Top Black)",outfit_mod,3,3,0,"Skimpy 3BA romper set, layered bra plus top."
+DONE - fully covered,Warmaiden - Adrianne Avenicci SHWB's Replacer.esp,Blacksmith's Apron,npc_replacer,1,1,0,Adrianne Avenicci replacer. One record is her naked skin; the apron is worn daily in Whiterun.
+DONE - fully covered,[ELLE] Lastriem.esp,Lastriem Top,outfit_mod,1,1,0,Seven-record standalone outfit; body slot is the top.
+DONE - fully covered,[ELLE] Sparrows Mage.esp,[E] Sparrows Mage Top,outfit_mod,1,1,0,Single mage top body piece.
+DONE - fully covered,[FB] Arcane Mage Armor.esp,Arcane Mage Armor,outfit_mod,6,6,0,Base piece plus one variant per magic school. All named.
+DONE - fully covered,_Fuse00_AdventurerArmor.esp,Adventurer Armor,outfit_mod,1,1,0,Fuse00 standalone body armour. Winner is Requiem for the Indifferent.esp.
+DONE - fully covered,_Fuse00_ArmorHelga - LOTD Millie SPID patch by Xtudo.esp,Millie's Dress,framework_or_patch,1,1,0,"SPID patch distributing a Helga-outfit dress to Millie, a regularly-seen Legacy of the Dragonborn NPC."
+DONE - fully covered,_Fuse00_ArmorHelga - Ysolda SPID patch by Xtudo.esp,Ysolda's Dress,framework_or_patch,1,1,0,"SPID patch defining a Helga-based dress for Ysolda, a frequently-seen Whiterun NPC."
+DONE - fully covered,_Fuse00_ArmorScout.esp,Scout Armor,outfit_mod,1,1,0,Single named body piece from the Fuse00 Scout set.
+DONE - fully covered,_Fuse00_ArmorTravelingMageCloth.esp,Traveling Mage Outfit,outfit_mod,1,1,0,Single named mage outfit torso.
+DONE - fully covered,ksmc_Elmlock.esp,Elmlock Armor,outfit_mod,1,1,0,"Small standalone armor set, one body piece."
+DONE - fully covered,ksmc_Elmlock_ColorVariants.esp,Elmlock Armor color variants,outfit_mod,11,11,0,"Eleven recolors: Brotherhood white/black, Void Black, Legion Red, Psijic Amber and similar."
+DONE - fully covered,ksws03.esp,Witch Gown and Witch Robe,outfit_mod,2,2,0,Two named body pieces of one witch outfit set.
+DONE - fully covered,ksws07_quest.esm,Rimeweld Cuirass,quest_or_land_mod,1,1,0,"Quest master. One playable cuirass, one Unplayable duplicate, and one unnamed boss naked skin."
+DONE - fully covered,moonpath.esp,"Siligonder Chitin Armor (normal, Hardened, Ancient)",quest_or_land_mod,3,3,0,Eight records are Elsweyr creature skins. Only the three Siligonder chitin cuirasses are worn by humanoids.
+DONE - fully covered,s6o6tStormholdWarriorArmor.esp,Saxhleel Leather Armor,outfit_mod,5,5,0,"One armor set with pauldron variants (none, left, right) plus pants. Fully named and playable."
+SKIP - not wearable,KiNRefined.esp,"Unique child outfits: Sofie's Dress, Lucia's Tundra Peasant Garments, Dagny's Ornate Dress, Kinlock Dress",npc_replacer,48,0,0,"All 48 named pieces are child-scaled NPC outfits, not playable. Outfit commentary on children would not land."
+SKIP - not wearable,NyrFollowerAssets.esp,(none - naked body skins only),follower_mod,0,0,0,All 38 are NYRSkinNaked race/bodytype skin records with no name. Nothing wearable.
+SKIP - not wearable,Authoria - Output - NPC Appearances.esp,(none - NPC skin records),tool_output,0,0,0,"Generated appearance output. All 31 are NPC WNAM skin ARMOs (BnP/Khiim/FSC skin variants), not wearable clothing."
+SKIP - not wearable,FA01RedcapFollower.esp,"Redcap's armors (Ebony, Daedric, Glass, Sweet Roll, Mudcrab...) and Lon's Skaal Coat",follower_mod,19,7,0,"Bespoke gear for one small creature follower. 15 mount-composite records named just 'Redcap', plus boar and wereboar skins."
+SKIP - not wearable,Karura's Wyrmstooth Refined.esp,none (naked body skin records only),npc_replacer,0,0,0,All sixteen are unnamed KWA_SkinNaked body-skin variants for Wyrmstooth NPC appearances. Nothing wearable.
+SKIP - not wearable,TSOSRefined.esp,none - naked body skin records,creature_or_system,0,0,0,"Male body diversity skins keyed to Ulfric, Farkas, Vilkas, Skjor, Argis and build types. All unnamed skins, never worn as gear."
+SKIP - not wearable,Lucien.esp,Emperor Dumzbthar's New Clothes (invisible); rest are Dwemer and Mihail creature skins,follower_mod,1,0,0,Six records misnamed Daedric Helmet are Mihail imp skins. Only wearable is invisible joke armor.
+SKIP - not wearable,Humanoid Dragon Priest.esp,none (dragon priest skin records only),npc_replacer,0,0,0,"Thirteen unnamed Skin_ records, one per named dragon priest. Appearance skins, not equippable outfits."
+SKIP - not wearable,Project ja-Kha'jay- Khajiit Diversity.esp,none - naked body skin records,creature_or_system,0,0,0,"Per-furstyle Khajiit naked skins (Ohmes, Pahmar, Tojay, Cathay-raht, Dagi, Lion). All unnamed; race skin records, not clothing."
+SKIP - not wearable,RSkyrimChildren.esm,"RS Children clothing (Inn, Smith, Tucked, Wander, Wild, Aventus, Skaal Coat)",npc_replacer,11,0,0,"Child-only clothing on a child body. No player or adult NPC wears these, so outfit reactions would not land."
+SKIP - not wearable,ImmersiveHunting.esp,"Skinned animal carcasses (deer, elk, wolf, troll, werewolf)",creature_or_system,12,0,0,"Named but they are skinned carcass bodies on animals, not humanoid wearables."
+SKIP - not wearable,Simple Hunting Overhaul.esp,"Skinned animal carcasses (sabre cat, troll, wolf, elk, cow)",creature_or_system,0,0,0,"Carcass body swaps for skinned animals, not humanoid wearables."
+SKIP - not wearable,JKJ - Moonpath.esp,Alfiq and Pahmar cat-race skins and Alfiq clothes,creature_or_system,0,0,0,"All records bound to Alfiq or Pahmar Guardian cat races, not humanoid."
+SKIP - not wearable,AncientBloodII.esl,none - creature and undead skins,quest_or_land_mod,0,0,0,"All ten are creature skins: five Draugr Skin, gargoyle, dragon priest boss, familiar, plus an Eternal Legion ArtFX shell."
+SKIP - not wearable,UniqueDragonPriests_XB.esp,Xavbio unique dragon priest skins,npc_replacer,0,0,0,All unnamed SkinNaked records for dragon priests; appearance only.
+SKIP - not wearable,Children of the Hist.esp,none (Argonian naked skin records only),creature_or_system,0,0,0,"Seven unnamed Argonian body-skin variants (chameleon, lizard, draconic, tails). Race body records, never equipped clothing."
+SKIP - not wearable,Siege at Icemoth.esp,none (skeleton armor skins only),creature_or_system,0,0,0,"All seven are skeleton enemy body skins, no names, nothing wearable by a humanoid."
+SKIP - not wearable,MOSRefined.esp,none (naked body skin records only),creature_or_system,0,0,0,"Six unnamed body-type skins (default, muscle, fitness, chubby, hairy, old). Body replacer plumbing, not outfits."
+SKIP - not wearable,DurnehviirResurrected.esp,Durnehviir dragon skins,creature_or_system,0,0,0,Five unnamed dragon skin stages; no humanoid gear.
+SKIP - not wearable,milfactory asset hub.esp,none (body-shape skin records),framework_or_patch,0,0,0,"Four unnamed naked-skin records for smooth, athletic, strong and chubby body shapes. Asset framework, not clothing."
+SKIP - not wearable,UNSLAAD - Anreme Add-On.esp,none (skin records only),npc_replacer,0,0,0,"IceDragon, Ysgrim and Jazel skin records. Appearance add-on for Unslaad characters, nothing equippable."
+SKIP - not wearable,Authoria - 3DNPC Merge .esp,(none - Khajiit naked body skins only),framework_or_patch,0,0,0,"User merge patch. All three records are unnamed Khajiit skin ARMOs, not clothing."
+SKIP - not wearable,Headhunter - Bounties Redone.esp,(none - headless giant gore records),creature_or_system,0,0,0,"All three are No_Head_Giant decapitation placeholders, not wearable gear."
+SKIP - not wearable,JKJ - 3DNPC.esp,Khajiit naked skins for 3DNPC characters,npc_replacer,0,0,0,Unnamed body skins for Jsharr and other 3DNPC Khajiit; appearance only.
+SKIP - not wearable,HSFVorstag.esp,Vorstag and Kaidan naked body skins,npc_replacer,0,0,0,"Both are unnamed SkinNaked body records, no wearable garment."
+SKIP - not wearable,VIGILANT - Anreme Add-On.esp,Morihaus' Cuirass (non-playable),npc_replacer,1,0,0,"One hound skin plus a boss cuirass flagged NonPlayer. Seen once in a VIGILANT fight, never worn by the player."
+SKIP - not wearable,Vigilant NPCs Refined.esp,none (naked skin records),npc_replacer,0,0,0,Both records are unnamed naked skins for Vigilant NPC appearances. No clothing added.
+SKIP - not wearable,JK's Palace of the Kings.esp,"Steel Armor (mannequin display), Manakin",quest_or_land_mod,1,0,0,"Interior overhaul. Both records are mannequin display props in the Palace, never worn by an actor."
+SKIP - not wearable,Sanguine's Trade - Brenna and Vesyra Replacer.esp,none - NPC naked skins,npc_replacer,0,0,0,"Two unnamed naked skin records for Brenna and Vesyra. Appearance replacer only, no wearable gear added."
+SKIP - not wearable,MissivesExpansion.esp,(none - goat and dog creature skins),quest_or_land_mod,2,0,0,"Both records are animal skin bodies named Goat and Dog, not humanoid wearables."
+SKIP - not wearable,MorihausRefugeStandalone.esp,Minotaur and Minotaur Lord skins,creature_or_system,0,0,0,Unnamed creature body skins only.
+SKIP - not wearable,Authoria - Reqtificated - Vigilant.esp,Vigilant Cuirass (Requiem non-playable variant),framework_or_patch,0,0,0,Requiem balance duplicate flagged non-playable. Vigilant.esm already covers the wearable version.
+SKIP - not wearable,DaC0da - Anreme Add-On.esp,none (Kanra clockwork skin record),follower_mod,0,0,0,"Only ARMO in the plugin is an unnamed body skin, not clothing."
+SKIP - not wearable,Iz'sUlfric.esp,none (Ulfric naked skin record),npc_replacer,0,0,0,Single unnamed naked-skin ARMO for the replacer. Nothing wearable.
+SKIP - not wearable,SaadiaDF.esp,none (Saadia skin record),npc_replacer,0,0,0,Single unnamed body skin ARMO. No clothing records defined.
+SKIP - not wearable,The Heart Of Dibella - Quest Expansion.esp,Fjotra's Robes,quest_or_land_mod,1,0,0,Single child-NPC robe tied to one quest character. Not player-wearable content.
+SKIP - not wearable,CamillaDF.esp,Camilla Valerius body skin,npc_replacer,0,0,0,"Unnamed skin record only, no garment."
+SKIP - not wearable,Penitus_Oculatus.esp,Babette's clothes (unnamed),outfit_mod,0,0,0,Only slot-32 record is an unnamed outfit bound to a custom Babette race.
+SKIP - not wearable,UBE Lydia.esp,Lydia UBE naked body skin,npc_replacer,0,0,0,Unnamed skin record only.
+SKIP - not wearable,College Of Winterhold - Quest Expansion.esp,Adara's Robes,quest_or_land_mod,1,0,0,"Child-clothing record for one quest NPC. Not player-wearable, so outfit commentary would never trigger."
+SKIP - not wearable,Frostfall.esp,none (dummy record),framework_or_patch,0,0,0,Single record literally named DO NOT USE Dummy Cuirass. Internal survival-system placeholder.
+SKIP - not wearable,Jimothy.esp,none (skin record only),follower_mod,0,0,0,"One unnamed JimothySkin body record. Follower appearance skin, nothing equippable."
+SKIP - not wearable,UBE_AllRace.esp,none (UBE naked skin record),framework_or_patch,0,0,0,"Single unnamed UBE naked-skin record. Body framework race patch, not clothing."
+SKIP - not wearable,ksws03_quest.esp,none (unnamed skin record),quest_or_land_mod,0,0,0,"One unnamed ksws03_house_skin record. Quest-internal skin, nothing a player or NPC equips as clothing."
+SKIP - not wearable,Contundris - WeelBones' Ria Overhaul.esp,none (naked skin record),npc_replacer,0,0,0,Single unnamed naked skin for Ria. Adds no clothing at all.
+SKIP - not wearable,FuraBDF.esp,none (naked skin record),npc_replacer,0,0,0,"Single unnamed skin record. Appearance change only, no wearable gear defined."
+SKIP - not wearable,Pure Wintercaller Replacer.esp,none (naked skin record),npc_replacer,0,0,0,One unnamed 0_SkinALL record. Appearance replacer only.
+SKIP - not wearable,[Llewellyn] Kaidan NPC Overhaul.esp,none (naked skin record),npc_replacer,0,0,0,Single unnamed 00NakedSkin record for Kaidan's appearance. No clothing defined.
+SKIP - not wearable,leyrur daelkhun Luaffyn WeelBones Replacer.esp,none (naked skin record),npc_replacer,0,0,0,One unnamed dark elf naked skin for Luaffyn. Appearance only.
+SKIP - not wearable,Argis of Markarth - SerketHetyt's Housecarls.esp,(none - Argis' Body skin),npc_replacer,0,0,0,"Single body-skin ARMO for the Argis replacer, not a garment."
+SKIP - not wearable,DAC0DA - Rolls-On-Roads Visual Overhaul.esp,(none - unnamed body skin),npc_replacer,0,0,0,Visual replacer for one Argonian NPC. Single unnamed skin record.
+SKIP - not wearable,GAB_Brynjolf Replacer.esp,(none - Brynjolf naked skin),npc_replacer,0,0,0,Appearance replacer only. One unnamed skin ARMO.
+SKIP - not wearable,Karliah D7.esp,(none - Karliah athletic naked skin),npc_replacer,0,0,0,Appearance replacer only. One unnamed skin ARMO.
+SKIP - not wearable,Mrissi_D7.esp,(none - Chie Body F skin),npc_replacer,0,0,0,"Mrissi follower replacer. The named record is a female body skin, not clothing."
+SKIP - not wearable,Snowfall - A Othriel Visual Replacer.esp,(none - Othriel naked skin),npc_replacer,0,0,0,Appearance replacer only. One unnamed skin ARMO.
+SKIP - not wearable,UragReplacer.esp,(none - Urag skin),npc_replacer,0,0,0,Appearance replacer only. One unnamed skin ARMO.
+SKIP - not wearable,LKNenya.esp,(none - unnamed custom body skin),follower_mod,0,0,0,"Nenya follower. Sole record is an unnamed custom naked body skin ARMO, not wearable clothing."
+SKIP - not wearable,Stendarrs Wisdom - WeelBones' Carcette Overhaul.esp,(none - unnamed naked skin),npc_replacer,0,0,0,Carcette appearance overhaul. Sole record is her unnamed naked skin ARMO.
+SKIP - not wearable,Vehlhira - WeelBones' Illia Overhaul.esp,(none - unnamed naked skin),npc_replacer,0,0,0,Illia appearance overhaul. Sole record is her unnamed naked skin ARMO.
+SKIP - not wearable,NightToRememberReplacer.esp,none - Sanguine naked skin,npc_replacer,0,0,0,"One unnamed skin record giving Sanguine a new body. Appearance replacer, no gear."
+SKIP - not wearable,Volkiharbor - All in One Replacer.esp,none - NPC naked skin,npc_replacer,0,0,0,One unnamed Volkiharbor skin record. Appearance replacer only.
+SKIP - not wearable,HLIORemiReplacer.esp,(none - naked skin only),npc_replacer,0,0,0,Single unnamed RemiSkinNaked body skin record.
+SKIP - not wearable,LegacyoftheDragonborn - NPC Overhaul.esp,(none - unnamed high elf body record),npc_replacer,0,0,0,One unnamed LOTD_HighElfMaleBodyArmor record; no player-facing outfit.
+SKIP - not wearable,TGFemale.esp,(none - unnamed Maven body record),npc_replacer,0,0,0,"Single unnamed MavenBody record; a body skin, not a named outfit."
+SKIP - not wearable,HalfKhajiit.esp,Half-Khajiit naked skin,creature_or_system,0,0,0,Unnamed race body skin record.
+SKIP - not wearable,LucienReplacer.esp,Lucien naked skin,npc_replacer,0,0,0,Single unnamed body skin for the follower's appearance replacer.
+SKIP - not wearable,Ryn's Saarthal.esp,Arctic fox skin,quest_or_land_mod,0,0,0,Landscape mod's only slot-32 record is an unnamed creature skin.
+SKIP - not wearable,TSOSRefinedDragonborn.esp,Miraak naked skin,npc_replacer,0,0,0,Unnamed body skin for Miraak's appearance.
+SKIP - not wearable,YsoldaDF.esp,Ysolda skin,npc_replacer,0,0,0,Unnamed body skin for a single NPC replacer.

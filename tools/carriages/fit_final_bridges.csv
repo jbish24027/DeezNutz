@@ -1,0 +1,134 @@
+formid,source,decision,z_now,z_new,dz
+000801:ACLine_Whiterun.esp,anr,deck-same,-4458.5,-4458.5,0.0
+000845:ACLine_Whiterun.esp,anr,deck-same,-4250.0,-4250.0,0.0
+000834:ACLine_Whiterun.esp,anr,deck-same,-4335.4,-4335.4,0.0
+000822:ACLine_Whiterun.esp,anr,deck-same,-4205.9,-4205.9,0.0
+000811:ACLine_Whiterun.esp,anr,deck-same,-4391.6,-4391.6,0.0
+000807:ACLine_Whiterun.esp,anr,deck-same,-4204.6,-4204.6,0.0
+000806:ACLine_Whiterun.esp,anr,deck-same,-4460.2,-4460.2,0.0
+00081A:ACLine_Whiterun.esp,anr,deck-same,-4406.6,-4406.6,0.0
+0009B1:Animated Carriage Additional Route.esp,nr,deck-moved,-7955.4,-8246.7,-291.3
+000F91:Animated Carriage Additional Route.esp,acar,no-deck-keep,-3658.3,-3658.3,0.0
+000F56:Animated Carriage Additional Route.esp,nr,deck-same,11089.6,11106.8,17.1
+000A5E:Animated Carriage Additional Route.esp,nr,deck-same,-12189.8,-12189.2,0.6
+000F0E:Animated Carriage Additional Route.esp,nr,no-deck-keep,-7699.1,-7914.5,-215.4
+000E47:Animated Carriage Additional Route.esp,nr,no-deck-keep,-12271.7,-12251.3,20.4
+000A40:Animated Carriage Additional Route.esp,acar,no-deck-keep,-12385.0,-12385.0,0.0
+000A76:Animated Carriage Additional Route.esp,nr,deck-same,-12209.8,-12267.1,-57.3
+000F0F:Animated Carriage Additional Route.esp,nr,deck-same,-7794.3,-7919.6,-125.3
+000C57:Animated Carriage Additional Route.esp,nr,no-deck-keep,-11394.7,-11394.7,0.0
+000F10:Animated Carriage Additional Route.esp,nr,no-deck-keep,-7866.7,-7930.9,-64.2
+00080F:Animated Carriage Additional Route.esp,nr,deck-moved+OVERHEAD,-106.4,-137.4,-31.0
+00097D:Animated Carriage Additional Route.esp,nr,deck-moved,-13254.6,-13299.4,-44.8
+000ED3:Animated Carriage Additional Route.esp,nr,deck-moved+OVERHEAD,-7366.5,-7367.5,-1.0
+000A1C:Animated Carriage Additional Route.esp,nr,no-deck-keep,-13498.7,-13574.3,-75.6
+000A77:Animated Carriage Additional Route.esp,nr,deck-same,-12188.0,-12260.7,-72.6
+00080D:Animated Carriage Additional Route.esp,nr,raised-onto-deck,14.7,-38.0,-52.6
+000A19:Animated Carriage Additional Route.esp,nr,deck-same,-13560.2,-13580.2,-20.0
+000E48:Animated Carriage Additional Route.esp,nr,no-deck-keep,-12358.4,-12331.0,27.4
+0009D2:Animated Carriage Additional Route.esp,nr,deck-moved,-5860.8,-5872.5,-11.6
+0009D1:Animated Carriage Additional Route.esp,nr,deck-moved+OVERHEAD,-5823.2,-5916.6,-93.3
+000968:Animated Carriage Additional Route.esp,nr,rests-on-new-deck+OVERHEAD,-12655.7,-12744.7,-89.0
+0009B2:Animated Carriage Additional Route.esp,nr,no-deck-keep,-7982.2,-8096.5,-114.3
+000E44:Animated Carriage Additional Route.esp,nr,no-deck-keep,-12155.1,-12155.1,0.0
+00080C:Animated Carriage Additional Route.esp,nr,raised-onto-deck,-20.6,-13.9,6.7
+000EFD:Animated Carriage Additional Route.esp,nr,no-deck-keep,-9783.3,-9807.3,-24.0
+000ED4:Animated Carriage Additional Route.esp,nr,deck-moved+OVERHEAD,-7372.9,-7352.7,20.2
+00097C:Animated Carriage Additional Route.esp,acar,rests-on-new-deck,-13220.1,-13220.1,0.0
+000E5D:Animated Carriage Additional Route.esp,acar,no-deck-keep,-12587.1,-12587.1,0.0
+000B59:Animated Carriage Additional Route.esp,nr,no-deck-keep,10885.5,10764.9,-120.7
+000AF4:Animated Carriage Additional Route.esp,nr,deck-same,10945.5,10805.0,-140.5
+000A1B:Animated Carriage Additional Route.esp,nr,no-deck-keep,-13457.6,-13578.0,-120.5
+0008DF:Animated Carriage Additional Route.esp,acar,no-deck-keep,-11906.6,-11906.6,0.0
+000A4A:Animated Carriage Additional Route.esp,acar,raised-onto-deck,-12846.9,-12785.7,61.3
+000E46:Animated Carriage Additional Route.esp,nr,no-deck-keep,-12260.3,-12253.4,6.9
+00080E:Animated Carriage Additional Route.esp,nr,raised-onto-deck,-49.0,-36.4,12.6
+000A78:Animated Carriage Additional Route.esp,nr,deck-same,-12269.7,-12280.8,-11.1
+000F57:Animated Carriage Additional Route.esp,nr,deck-moved+OVERHEAD,10998.6,11047.5,49.0
+000967:Animated Carriage Additional Route.esp,nr,rests-on-new-deck+OVERHEAD,-12625.9,-12743.9,-118.0
+000AD9:Animated Carriage Additional Route.esp,nr,no-deck-keep,8371.2,8345.7,-25.5
+000F01:Animated Carriage Additional Route.esp,nr,no-deck-keep,-9785.0,-9798.0,-13.1
+000CA9:Animated Carriage Additional Route.esp,nr,deck-same,-7073.0,-7130.3,-57.3
+000A48:Animated Carriage Additional Route.esp,nr,no-deck-keep,-12770.9,-12722.5,48.5
+000B81:Animated Carriage Additional Route.esp,jk,no-deck-keep,-12556.2,-12556.2,0.0
+0009B0:Animated Carriage Additional Route.esp,nr,deck-moved,-8014.9,-8229.1,-214.2
+000F55:Animated Carriage Additional Route.esp,nr,deck-moved,11096.1,11169.1,73.0
+000A60:Animated Carriage Additional Route.esp,nr,deck-same,-12368.3,-12373.0,-4.7
+000A5D:Animated Carriage Additional Route.esp,nr,deck-same,-12217.0,-12215.7,1.2
+000F0D:Animated Carriage Additional Route.esp,nr,deck-same,-7690.7,-7916.5,-225.9
+000A5F:Animated Carriage Additional Route.esp,nr,deck-same,-12233.4,-12241.5,-8.1
+000C62:Animated Carriage Additional Route.esp,acar,no-deck-keep,-12536.6,-12536.6,0.0
+000E9E:Animated Carriage Additional Route.esp,nr,no-deck-keep,0.0,0.0,0.0
+000997:Animated Carriage Additional Route.esp,gg,deck-same,-5148.8,-5148.8,0.0
+000B83:Animated Carriage Additional Route.esp,jk,no-deck-keep,-12432.7,-12432.7,0.0
+000EFE:Animated Carriage Additional Route.esp,nr,deck-same,-9704.4,-9800.7,-96.3
+000B82:Animated Carriage Additional Route.esp,jk,no-deck-keep,-12762.6,-12762.6,0.0
+000F0C:Animated Carriage Additional Route.esp,nr,no-deck-keep,-7754.8,-7923.9,-169.1
+000F0B:Animated Carriage Additional Route.esp,nr,no-deck-keep,-7842.7,-7923.7,-81.0
+000A5B:Animated Carriage Additional Route.esp,nr,deck-same,-12500.9,-12509.6,-8.6
+000D72:Animated Carriage Additional Route.esp,nr,no-deck-keep,-10070.6,-10070.6,0.0
+000AD8:Animated Carriage Additional Route.esp,nr,no-deck-keep,8295.6,8344.5,48.8
+000CC2:Animated Carriage Additional Route.esp,acar,no-deck-keep,-8250.0,-8250.0,0.0
+000CAC:Animated Carriage Additional Route.esp,nr,deck-same,-7168.0,-7102.1,65.8
+000CAB:Animated Carriage Additional Route.esp,nr,raised-onto-deck,-7047.9,-6954.2,93.7
+00097B:Animated Carriage Additional Route.esp,acar,deck-moved,-13288.7,-13281.9,6.8
+000C45:Animated Carriage Additional Route.esp,acar,no-deck-keep,-11190.4,-11190.4,0.0
+000BED:Animated Carriage Additional Route.esp,nr,no-deck-keep,674.5,674.5,0.0
+000B89:Animated Carriage Additional Route.esp,jk,no-deck-keep,-12673.5,-12673.5,0.0
+000B86:Animated Carriage Additional Route.esp,jk,no-deck-keep,-12414.2,-12414.2,0.0
+000B85:Animated Carriage Additional Route.esp,jk,no-deck-keep,-12520.9,-12520.9,0.0
+000B84:Animated Carriage Additional Route.esp,jk,raised-onto-deck,-12378.1,-12294.7,83.5
+000A5C:Animated Carriage Additional Route.esp,nr,deck-same,-12322.0,-12329.3,-7.4
+0009D0:Animated Carriage Additional Route.esp,nr,deck-moved,-5882.9,-5885.0,-2.1
+000F54:Animated Carriage Additional Route.esp,nr,deck-same,11008.2,11090.0,81.9
+000CAA:Animated Carriage Additional Route.esp,nr,deck-same,-6997.9,-7026.9,-29.0
+000F00:Animated Carriage Additional Route.esp,nr,deck-same,-9690.6,-9804.4,-113.8
+000995:Animated Carriage Additional Route.esp,gg,deck-same,-5090.8,-5090.8,0.0
+000B5C:Animated Carriage Additional Route.esp,nr,no-deck-keep,10874.2,10767.1,-107.1
+000A49:Animated Carriage Additional Route.esp,acar,raised-onto-deck,-12760.0,-12618.3,141.7
+000A1A:Animated Carriage Additional Route.esp,nr,no-deck-keep,-13489.0,-13578.0,-89.1
+000996:Animated Carriage Additional Route.esp,gg,deck-same,-5068.1,-5068.1,0.0
+000AF5:Animated Carriage Additional Route.esp,nr,deck-moved,10986.4,10799.5,-186.9
+000ADA:Animated Carriage Additional Route.esp,acar,no-deck-keep,8364.9,8364.9,0.0
+000966:Animated Carriage Additional Route.esp,nr,rests-on-new-deck,-12690.4,-12744.7,-54.3
+00080B:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,-4334.9,-4297.0,37.9
+00080C:Animated Carriage Additional Route 0.esp,nr,rests-on-new-deck,-4272.3,-4256.5,15.8
+00080D:Animated Carriage Additional Route 0.esp,acar,raised-onto-deck,-4278.7,-4234.0,44.6
+00080E:Animated Carriage Additional Route 0.esp,nr,raised-onto-deck,-4227.1,-4229.3,-2.2
+00085D:Animated Carriage Additional Route 0.esp,nr,deck-moved,-9552.7,-9532.5,20.2
+000860:Animated Carriage Additional Route 0.esp,nr,deck-moved+OVERHEAD,-9546.7,-9530.2,16.5
+000868:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,0.0,0.0,0.0
+000869:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,0.0,0.0,0.0
+000879:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,-11562.4,-11645.5,-83.1
+00087A:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,-11525.1,-11649.8,-124.6
+00087B:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,-11580.6,-11649.6,-68.9
+000889:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,105.7,105.7,0.0
+00088A:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,105.7,105.7,0.0
+00088B:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,105.7,105.7,0.0
+00088C:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,105.7,105.7,0.0
+00088D:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,105.7,105.7,0.0
+000896:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-9660.6,-9660.6,0.0
+0008A0:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-9445.5,-9445.5,0.0
+0008A1:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-9381.0,-9381.0,0.0
+0008A2:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-9427.8,-9427.8,0.0
+0008A3:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-9523.9,-9523.9,0.0
+000B12:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-9680.8,-9680.8,0.0
+000AF5:Animated Carriage Additional Route 0.esp,acar,no-deck-keep,-8974.7,-8974.7,0.0
+000943:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,3304.4,3304.4,0.0
+000A33:Animated Carriage Additional Route 0.esp,nr,deck-same,6646.0,6646.0,0.0
+000A96:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,3307.3,3307.3,0.0
+000A3A:Animated Carriage Additional Route 0.esp,nr,deck-same,6530.8,6530.8,0.0
+000A90:Animated Carriage Additional Route 0.esp,nr,deck-same,8166.7,8166.7,0.0
+000A10:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,3295.6,3295.6,0.0
+00092B:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,8342.3,8342.3,0.0
+000928:Animated Carriage Additional Route 0.esp,nr,deck-same,7264.5,7264.5,0.0
+000944:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,3293.6,3293.6,0.0
+000A7C:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,832.8,828.2,-4.6
+000A11:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,3380.7,3380.7,0.0
+000A82:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,651.5,651.5,0.0
+000A37:Animated Carriage Additional Route 0.esp,nr,deck-same,7288.2,7288.2,0.0
+000A2F:Animated Carriage Additional Route 0.esp,nr,deck-same,8103.1,8103.1,0.0
+000A30:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,8344.0,8344.0,0.0
+000942:Animated Carriage Additional Route 0.esp,nr,no-deck-keep,3396.8,3396.8,0.0
+000001:ACAR_GG Markarth Outskirts_Northern Roads compatibility patch.esp,gg,no-deck-keep,-4102.5,-4102.5,0.0
+000004:ACAR_JKs Solitude Outskirts compatibility patch.esp,jk,no-deck-keep,-13104.8,-13104.8,0.0

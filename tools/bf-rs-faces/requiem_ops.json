@@ -1,0 +1,798 @@
+[
+ {
+  "formid": "0038C9:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "50"
+ },
+ {
+  "formid": "0038C9:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "0038C9:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc, Medicine"
+ },
+ {
+  "formid": "0038C9:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm",
+   "00BA3A:BeeingFemale.esm"
+  ]
+ },
+ {
+  "formid": "0038CB:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "100"
+ },
+ {
+  "formid": "0038CB:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "0038CB:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc, Medicine"
+ },
+ {
+  "formid": "0038CB:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm",
+   "00BA3A:BeeingFemale.esm"
+  ]
+ },
+ {
+  "formid": "006E86:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Value",
+  "value": "150"
+ },
+ {
+  "formid": "006E86:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "006E86:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Flags",
+  "value": "NoAutoCalc, Medicine"
+ },
+ {
+  "formid": "006E86:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm",
+   "00BA3A:BeeingFemale.esm"
+  ]
+ },
+ {
+  "formid": "00E55D:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "50"
+ },
+ {
+  "formid": "00E55D:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "00E55D:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc"
+ },
+ {
+  "formid": "00E55D:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm"
+  ]
+ },
+ {
+  "formid": "00B4D5:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "75"
+ },
+ {
+  "formid": "00B4D5:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "00B4D5:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc"
+ },
+ {
+  "formid": "00B4D5:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm"
+  ]
+ },
+ {
+  "formid": "00E55B:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "100"
+ },
+ {
+  "formid": "00E55B:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "00E55B:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc"
+ },
+ {
+  "formid": "00E55B:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm"
+  ]
+ },
+ {
+  "formid": "06D54F:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "50"
+ },
+ {
+  "formid": "06D54F:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "06D54F:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc, Medicine"
+ },
+ {
+  "formid": "06D54F:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm",
+   "06D54C:BeeingFemale.esm"
+  ]
+ },
+ {
+  "formid": "06D551:BeeingFemale.esm",
+  "field_path": "Value",
+  "value": "100"
+ },
+ {
+  "formid": "06D551:BeeingFemale.esm",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "06D551:BeeingFemale.esm",
+  "field_path": "Flags",
+  "value": "NoAutoCalc, Medicine"
+ },
+ {
+  "formid": "06D551:BeeingFemale.esm",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm",
+   "06D54C:BeeingFemale.esm"
+  ]
+ },
+ {
+  "formid": "000D72:BeeingFemaleSE_Opt.esp",
+  "field_path": "Value",
+  "value": "100"
+ },
+ {
+  "formid": "000D72:BeeingFemaleSE_Opt.esp",
+  "field_path": "Weight",
+  "value": "0.5"
+ },
+ {
+  "formid": "000D72:BeeingFemaleSE_Opt.esp",
+  "field_path": "Flags",
+  "value": "NoAutoCalc, Medicine"
+ },
+ {
+  "formid": "000D72:BeeingFemaleSE_Opt.esp",
+  "field_path": "Keywords",
+  "op": "ReplaceAll",
+  "values": [
+   "08CDEC:Skyrim.esm",
+   "000D6F:BeeingFemaleSE_Opt.esp"
+  ]
+ },
+ {
+  "formid": "00B4D4:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "00B4D4:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00B4D4:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "00B4D4:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00BF9E:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "00BF9E:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00BF9E:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "00BF9E:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00D52C:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "00D52C:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00D52C:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "00D52C:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00EAC1:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "00EAC1:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00EAC1:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "00EAC1:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00EAC2:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "00EAC2:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00EAC2:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "00EAC2:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00EAC3:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "00EAC3:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "00EAC3:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "00EAC3:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "010051:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "010051:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "010051:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "010051:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "06D550:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "06D550:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "06D550:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "06D550:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "06D552:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "06D552:BeeingFemale.esm",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "06D552:BeeingFemale.esm",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "06D552:BeeingFemale.esm",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "006E88:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "006E88:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "006E88:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "006E88:BeeingFemaleBasicAddOn.esp",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "000D73:BeeingFemaleSE_Opt.esp",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1",
+    "Flags": "OR"
+   }
+  }
+ },
+ {
+  "formid": "000D73:BeeingFemaleSE_Opt.esp",
+  "field_path": "Conditions[0].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasPerkConditionData",
+   "sets": [
+    {
+     "path": "Perk",
+     "value": "0BE127:Skyrim.esm"
+    }
+   ]
+  }
+ },
+ {
+  "formid": "000D73:BeeingFemaleSE_Opt.esp",
+  "field_path": "Conditions",
+  "op": "Add",
+  "compose": {
+   "type": "ConditionFloat",
+   "fields": {
+    "CompareOperator": "EqualTo",
+    "ComparisonValue": "1"
+   }
+  }
+ },
+ {
+  "formid": "000D73:BeeingFemaleSE_Opt.esp",
+  "field_path": "Conditions[1].Data",
+  "op": "Set",
+  "compose": {
+   "type": "HasKeywordConditionData",
+   "sets": [
+    {
+     "path": "Keyword",
+     "value": "AD3A3B:Requiem.esp"
+    }
+   ]
+  }
+ }
+]

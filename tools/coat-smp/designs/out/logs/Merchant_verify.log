@@ -1,0 +1,35 @@
+== men _1: outfitm_1.nif
+  ok   merchanttorso_1: welded remainder area 8404.6 vs the source minus its pieces 8404.6 (54 of 54 split triangles tiled exactly by their children; 54 weld points)
+  ok   merchanttorso_1: split into 4 per triangle, area 11146.2 vs 11146.2
+  ok   HIMBO - Body: 1972 triangles, kept 1972 in ['HIMBO - Body'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 65
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\MerchantClothesM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / merchanttorso_1: 110 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 77%, of those on 2 chains 68%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: outfitm_0.nif
+  ok   merchanttorso_1: welded remainder area 8195.6 vs the source minus its pieces 8195.6 (54 of 54 split triangles tiled exactly by their children; 54 weld points)
+  ok   merchanttorso_1: split into 4 per triangle, area 10932.3 vs 10932.3
+  ok   HIMBO - Body: 1972 triangles, kept 1972 in ['HIMBO - Body'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 65
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\MerchantClothesM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / merchanttorso_1: 110 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

@@ -1,0 +1,17 @@
+== DarkBro m _1: dbtorso_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 1307, Skirt Side 1087, Skirt Back 1270
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      8695    1363    2186        0    5146   worst frame unseen 369
+      Skirt Front          entered  1468 hooked  370 unseen 1074  unseen z p10 50.7 p50 69.2 p90 70.8
+      Skirt Side           entered  6788 hooked 1816 unseen 3633  unseen z p10 48.2 p50 59.6 p90 69.2
+      Skirt Back           entered   439 hooked    0 unseen  439  unseen z p10 64.9 p50 68.0 p90 69.9
+   run          10      5711     966    1505        0    3240   worst frame unseen 694
+      Skirt Front          entered   995 hooked  358 unseen  501  unseen z p10 43.3 p50 68.4 p90 70.8
+      Skirt Side           entered  3888 hooked 1043 unseen 2054  unseen z p10 49.1 p50 60.6 p90 69.2
+      Skirt Back           entered   828 hooked  104 unseen  685  unseen z p10 42.1 p50 46.9 p90 68.3
+   sprint       10      5694    1122     984        0    3588   worst frame unseen 825
+      Skirt Front          entered  1101 hooked  264 unseen  609  unseen z p10 43.9 p50 58.4 p90 70.8
+      Skirt Side           entered  3656 hooked  658 unseen 2161  unseen z p10 49.2 p50 61.4 p90 68.5
+      Skirt Back           entered   937 hooked   62 unseen  818  unseen z p10 42.1 p50 46.6 p90 66.8
+SUMMARY clips worst unseen/frame: 825
+
+EXIT 0

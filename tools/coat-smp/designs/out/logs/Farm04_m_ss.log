@@ -1,0 +1,9 @@
+== Farm04 m: robem_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 164/ 0/ 65   sprint L 104/ 2/ 32   walk R  81/ 1/ 53   walk L  67/ 0/ 34
+   curled in (limit)      sprint R  74/ 0/ 68   sprint L 110/ 0/ 57   walk R 185/ 0/ 66   walk L 124/ 0/ 73
+   swung back .3/.15      sprint R  24/ 0/ 39   sprint L  69/ 0/ 31   walk R  68/ 0/ 40   walk L  66/ 0/ 65
+   swung forward .3/.15   sprint R 117/ 1/ 84   sprint L 118/ 0/ 87   walk R  87/ 0/ 44   walk L  75/ 0/ 35
+   swung sideways .3/.15  sprint R  95/ 0/ 26   sprint L  79/ 0/ 86   walk R  75/ 0/ 19   walk L  73/ 1/ 72
+   total caught/hooked/sunk 1855/5/1076; lining pts Front 120, Back 289, Side 341
+
+EXIT 0

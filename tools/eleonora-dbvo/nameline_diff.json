@@ -1,0 +1,1077 @@
+{
+ "exact": [
+  {
+   "text": "My name is <Alias=Player>. Pleased to meet you.",
+   "plugin": "Skyrim.esm",
+   "mod": "<Stock Game>",
+   "edid": "MQ201PartyElenwenIntroA1",
+   "fid": "04C4B0",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna. Pleased to meet you."
+  },
+  {
+   "text": "Hello, I'm <Alias=Player>. My friend here wanted to see how you were faring.",
+   "plugin": "Ashe - Fire and Blood.esp",
+   "mod": "Ashe - Crystal Heart",
+   "edid": "MQ06_Lynelle_01",
+   "fid": "00093F",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Hello, I'm Luna. My friend here wanted to see how you were faring."
+  },
+  {
+   "text": "The name's <Alias=Player> and I'd like to take your offer, but I don't have enough gold.",
+   "plugin": "Ashe - Fire and Blood.esp",
+   "mod": "Ashe - Crystal Heart",
+   "edid": "",
+   "fid": "0A794E",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "The name's Luna and I'd like to take your offer, but I don't have enough gold."
+  },
+  {
+   "text": "The name's <Alias=Player>. I'll take that offer. (Pay)",
+   "plugin": "Ashe - Fire and Blood.esp",
+   "mod": "Ashe - Crystal Heart",
+   "edid": "AsheIntroBranch01FollowUpA",
+   "fid": "0A794C",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "The name's Luna. I'll take that offer. (Pay)"
+  },
+  {
+   "text": "I'm <Alias=Player>. And no, I'm not with the Thalmor.",
+   "plugin": "BSHeartland.esm",
+   "mod": "Beyond Skyrim - Bruma SE - Main",
+   "edid": "CYRDialogueDragonclawRockAFGIntro",
+   "fid": "08BED3",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. And no, I'm not with the Thalmor."
+  },
+  {
+   "text": "I'm <Alias=Player>. Nice to meet you.",
+   "plugin": "BSHeartland.esm",
+   "mod": "Beyond Skyrim - Bruma SE - Main",
+   "edid": "CYRDialogueAleswellLavinaA1",
+   "fid": "0D24F6",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. Nice to meet you."
+  },
+  {
+   "text": "My name is <Alias=Player>.",
+   "plugin": "BSHeartland.esm",
+   "mod": "Beyond Skyrim - Bruma SE - Main",
+   "edid": "CYRFortPalePassMS01JailbreakPrisonerOutroDialogueFGNameIsJCDenton",
+   "fid": "0CE018",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna."
+  },
+  {
+   "text": "<Alias=Player>.",
+   "plugin": "HearthFires.esm",
+   "mod": "Cleaned Base Game Masters",
+   "edid": "",
+   "fid": "003D89",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Luna."
+  },
+  {
+   "text": "Greetings. My name's <Alias=Player>, I've recently joined the College.",
+   "plugin": "College Of Winterhold - Quest Expansion.esp",
+   "mod": "College of Winterhold - Quest Expansion",
+   "edid": "COW_CentralQuest_EnchantingTopic",
+   "fid": "0008FC",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Greetings. My name's Luna, I've recently joined the College."
+  },
+  {
+   "text": "Greetings. My name's <Alias=Player>, I've recently joined the College.",
+   "plugin": "College Of Winterhold - Quest Expansion.esp",
+   "mod": "College of Winterhold - Quest Expansion",
+   "edid": "COW_CentralQuest_ConjurationTopic",
+   "fid": "0009AA",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Greetings. My name's Luna, I've recently joined the College."
+  },
+  {
+   "text": "I'm not who you think I am. My name is <Alias=Player>. Prepare to die.",
+   "plugin": "ccasvsse001-almsivi.esm",
+   "mod": "Creation Club - Cleaned Masters",
+   "edid": "ccASVSSE001_BR03Topic",
+   "fid": "000DFD",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm not who you think I am. My name is Luna. Prepare to die."
+  },
+  {
+   "text": "<Alias=Player> also called Dovahkiin.",
+   "plugin": "DBVO Fix - Unslaad SE.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "zzzCrbMq05LizzV01B01T02",
+   "fid": "17ADB3",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Luna also called Dovahkiin."
+  },
+  {
+   "text": "<Alias=Player>. First meeting.",
+   "plugin": "DBVO Fix - DaCoda.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "zDcdSqYngol01B01T01",
+   "fid": "004B94",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Luna. First meeting."
+  },
+  {
+   "text": "<Alias=Player>. Your lover.",
+   "plugin": "DBVO Fix - DaCoda.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "zDcdSqYngol01B02T01",
+   "fid": "004B97",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Luna. Your lover."
+  },
+  {
+   "text": "Greetings. I'm <Alias=Player>.",
+   "plugin": "DBVO Fix - Gore.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "HD1GorePriedLOL",
+   "fid": "DB7162",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Greetings. I'm Luna."
+  },
+  {
+   "text": "I am <Alias=Player>. My apologies.",
+   "plugin": "DBVO Fix - DaCoda.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "zDcdMq01SamonB03T01",
+   "fid": "004488",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. My apologies."
+  },
+  {
+   "text": "I'm <Alias=Player>. I got your letter.",
+   "plugin": "DBVO Fix - Skyrim Vanilla Game.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "",
+   "fid": "01612D",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. I got your letter."
+  },
+  {
+   "text": "I'm <Alias=Player>. Nice to meet you.",
+   "plugin": "DBVO Fix - Unslaad SE.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "zzzCrbMq01UlB01T02",
+   "fid": "02297E",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. Nice to meet you."
+  },
+  {
+   "text": "My name is <Alias=Player>.",
+   "plugin": "DBVO Fix - Glenmoril SE.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "zzzRevBq03ChapB01T05",
+   "fid": "37225A",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna."
+  },
+  {
+   "text": "I'm <Alias=Player>. I'm honored to stand among the Companions.",
+   "plugin": "FDE Aela.esp",
+   "mod": "Follower Dialogue Expansion - Aela the Huntress",
+   "edid": "aaAela7C001",
+   "fid": "000DD2",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. I'm honored to stand among the Companions."
+  },
+  {
+   "text": "I'm <Alias=Player>. Just figured I'd get this formality nonsense over with.",
+   "plugin": "FDE Aela.esp",
+   "mod": "Follower Dialogue Expansion - Aela the Huntress",
+   "edid": "aaAela7C002",
+   "fid": "000DD4",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. Just figured I'd get this formality nonsense over with."
+  },
+  {
+   "text": "I am <Alias=player>.",
+   "plugin": "Glenmoril.esm",
+   "mod": "Glenmoril - English Translation SE",
+   "edid": "zzzLrhMq01LalaB08T03",
+   "fid": "007802",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=player>"
+   ],
+   "exp": "I am Luna."
+  },
+  {
+   "text": "It's no trouble. I'm <Alias=Player>. What kind of name is \"Gore?\"",
+   "plugin": "GORE.esp",
+   "mod": "Gore",
+   "edid": "HD1GorePried3",
+   "fid": "09405E",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "It's no trouble. I'm Luna. What kind of name is \"Gore?\""
+  },
+  {
+   "text": "I am <Alias=Player>, a great warrior of Skyrim.",
+   "plugin": "SM_Astrid.esp",
+   "mod": "Heart of Ice - Astrid. Custom Voiced Follower",
+   "edid": "SM_AstridStart10",
+   "fid": "09892C",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna, a great warrior of Skyrim."
+  },
+  {
+   "text": "My name is <Alias=Player>. I just stumbled upon this cave. And who are you?",
+   "plugin": "SM_Astrid.esp",
+   "mod": "Heart of Ice - Astrid. Custom Voiced Follower",
+   "edid": "SM_AstridStart14alt",
+   "fid": "555525",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna. I just stumbled upon this cave. And who are you?"
+  },
+  {
+   "text": "My name is <Alias=Player>. I want to have my possessions back, left here for safekeeping by Astrid of Haraldson. Here is the letter.",
+   "plugin": "SM_Astrid.esp",
+   "mod": "Heart of Ice - Astrid. Custom Voiced Follower",
+   "edid": "SM_WorstEndingBranch1Topic1",
+   "fid": "476629",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna. I want to have my possessions back, left here for safekeeping by Astrid of Haraldson. Here is the letter."
+  },
+  {
+   "text": "My name is <Alias=Player>. I've just stumbled upon this cave. And who are you?",
+   "plugin": "SM_Astrid.esp",
+   "mod": "Heart of Ice - Astrid. Custom Voiced Follower",
+   "edid": "SM_AstridStartNotDone",
+   "fid": "555523",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna. I've just stumbled upon this cave. And who are you?"
+  },
+  {
+   "text": "My name is <Alias=Player>.",
+   "plugin": "IDE Dawnguard Vigilants.esp",
+   "mod": "Immersive Dialogue Expansion - Dawnguard and Vigilants",
+   "edid": "aaDVPreVolk1",
+   "fid": "0000A2",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna."
+  },
+  {
+   "text": "I am <Alias=Player>.",
+   "plugin": "Immersive Encounters.esp",
+   "mod": "Immersive World Encounters SE",
+   "edid": "WE_SetteQuestIntAdventurer03Cont01Topic02",
+   "fid": "692B8A",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna."
+  },
+  {
+   "text": "I am <Alias=Player>. A traveler.",
+   "plugin": "Immersive Encounters.esp",
+   "mod": "Immersive World Encounters SE",
+   "edid": "WE_SetteQuestIntBard01FGTopic02",
+   "fid": "A8CE99",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. A traveler."
+  },
+  {
+   "text": "I am <Alias=Player>. Dragonborn.",
+   "plugin": "Immersive Encounters.esp",
+   "mod": "Immersive World Encounters SE",
+   "edid": "WE_SetteQuestIntBard01FGTopic03",
+   "fid": "A8CE9B",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. Dragonborn."
+  },
+  {
+   "text": "I am <Alias=Player>. Dragonborn.",
+   "plugin": "Immersive Encounters.esp",
+   "mod": "Immersive World Encounters SE",
+   "edid": "WE_SetteQuestIntBard03FGTopic02",
+   "fid": "B9EA59",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. Dragonborn."
+  },
+  {
+   "text": "I am <Alias=Player>. I like killing things.",
+   "plugin": "Immersive Encounters.esp",
+   "mod": "Immersive World Encounters SE",
+   "edid": "WE_SetteQuestIntBard01FGTopic05",
+   "fid": "A8CE9F",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. I like killing things."
+  },
+  {
+   "text": "I am <Alias=Player>. I'm a bard from Bards College.",
+   "plugin": "Immersive Encounters.esp",
+   "mod": "Immersive World Encounters SE",
+   "edid": "WE_SetteQuestIntBard01FGTopic04",
+   "fid": "A8CE9D",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. I'm a bard from Bards College."
+  },
+  {
+   "text": "Actually, my name is <Alias=Player>.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "DialogueSkjel0aTopic",
+   "fid": "0D54BC",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Actually, my name is Luna."
+  },
+  {
+   "text": "Dear dragon, I'm coming back for you.  <Alias=Player>, dictated but not signed.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "",
+   "fid": "0E1579",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Dear dragon, I'm coming back for you.  Luna, dictated but not signed."
+  },
+  {
+   "text": "How about \"<Alias=Player> and Slaves?\"",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "TUD_5TopicD",
+   "fid": "24D48D",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "How about \"Luna and Slaves?\""
+  },
+  {
+   "text": "My name is <Alias=Player> and I'm here to rescue you.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "OrtheimC",
+   "fid": "1F6F38",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna and I'm here to rescue you."
+  },
+  {
+   "text": "My name is <Alias=Player>.  I wanted to meet you.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "DialogueValla0dTopic",
+   "fid": "108E1D",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna.  I wanted to meet you."
+  },
+  {
+   "text": "My name is <Alias=Player>. Tell the child to wear it proud.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "Shuril0TopicE",
+   "fid": "2C35B8",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna. Tell the child to wear it proud."
+  },
+  {
+   "text": "My name's <Alias=Player>. And I need some answers.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "DialogueMorndas0eTopicA",
+   "fid": "19960C",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name's Luna. And I need some answers."
+  },
+  {
+   "text": "Name the character after me. <Alias=Player>.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "DialogueFlinHorstad1TopicJ",
+   "fid": "13FDA4",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Name the character after me. Luna."
+  },
+  {
+   "text": "We also need to change the protagonist's name to <Alias=Player>.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "",
+   "fid": "140326",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "We also need to change the protagonist's name to Luna."
+  },
+  {
+   "text": "We also need to change the protagonist's name to <Alias=Player>.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "",
+   "fid": "14033B",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "We also need to change the protagonist's name to Luna."
+  },
+  {
+   "text": "Well met. I am <Alias=Player>. I come in peace and wish to speak.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "Glathriel0penC",
+   "fid": "27A335",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Well met. I am Luna. I come in peace and wish to speak."
+  },
+  {
+   "text": "You have no idea. I am <Alias=Player>. I am the Dragonborn. I...am a legend.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "",
+   "fid": "0DD394",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "You have no idea. I am Luna. I am the Dragonborn. I...am a legend."
+  },
+  {
+   "text": "You have no idea. I am <Alias=Player>. In time, my name will be legend.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "",
+   "fid": "0DD395",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "You have no idea. I am Luna. In time, my name will be legend."
+  },
+  {
+   "text": "I'm <Alias=Player>, by the way.",
+   "plugin": "Lucien.esp",
+   "mod": "Lucien - Immersive Fully Voiced Male Follower",
+   "edid": "JRLucienIntroMyWay",
+   "fid": "00591C",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna, by the way."
+  },
+  {
+   "text": "Alright. I'm <Alias=Player>. Who are you, and why are you here?",
+   "plugin": "Skyrim Extended Cut - Saints and Seducers.esp",
+   "mod": "Skyrim Extended Cut - Saints and Seducers",
+   "edid": "EC_SS_MQ100IntConversationA05",
+   "fid": "0BD58E",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Alright. I'm Luna. Who are you, and why are you here?"
+  },
+  {
+   "text": "You must be Dylora. I'm <Alias=Player>.",
+   "plugin": "Skyrim Extended Cut - Saints and Seducers.esp",
+   "mod": "Skyrim Extended Cut - Saints and Seducers",
+   "edid": "EC_SS_MQ101ConversationE02",
+   "fid": "0E0CEB",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "You must be Dylora. I'm Luna."
+  },
+  {
+   "text": "My name is <Alias=Player>.",
+   "plugin": "SRC - All In One.esp",
+   "mod": "Skyrim Realistic Conquering - All In One",
+   "edid": "SRC_VHTBorderOfficerQuestDialogue1BranchTopic4",
+   "fid": "001F08",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna."
+  },
+  {
+   "text": "I'm <alias=player>. I got your letter.",
+   "plugin": "ForgottenCity.esp",
+   "mod": "The Forgotten City",
+   "edid": "000FCTreasureHunterViewBranch01Topic",
+   "fid": "037862",
+   "kind": "FULL",
+   "tokens": [
+    "<alias=player>"
+   ],
+   "exp": "I'm Luna. I got your letter."
+  },
+  {
+   "text": "My apologies, I'm <Alias=Player>. I'm new here.",
+   "plugin": "ForgottenCity.esp",
+   "mod": "The Forgotten City",
+   "edid": "000FCQuestDomitusB01T02",
+   "fid": "0C1241",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My apologies, I'm Luna. I'm new here."
+  },
+  {
+   "text": "I'm <Alias=Player>. I'm looking for a treasure chest.",
+   "plugin": "ForgottenCity - Good Ending Tweaks.esp",
+   "mod": "The Forgotten City - Good Ending Tweaks",
+   "edid": "000FCQuestHermitB01T01",
+   "fid": "0BD00D",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. I'm looking for a treasure chest."
+  },
+  {
+   "text": "My name is <alias=player>.",
+   "plugin": "ksws07_quest.esm",
+   "mod": "The Frozen Heart - Quest Mod",
+   "edid": "ksws07MainQuest310WaifuTopic02A",
+   "fid": "0020F0",
+   "kind": "FULL",
+   "tokens": [
+    "<alias=player>"
+   ],
+   "exp": "My name is Luna."
+  },
+  {
+   "text": "I'm <Alias=Player>, who are you?",
+   "plugin": "Hunt for the Spectre.esp",
+   "mod": "The Hunt for the Spectre - Elden Ring Inspired Quest",
+   "edid": "HSHuntForSpectreQuest1VampireConvo1",
+   "fid": "00080F",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna, who are you?"
+  },
+  {
+   "text": "I got your letter. I'm <Alias=Player>.",
+   "plugin": "unofficial skyrim special edition patch.esp",
+   "mod": "Unofficial Skyrim Special Edition Patch",
+   "edid": "",
+   "fid": "01612E",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I got your letter. I'm Luna."
+  },
+  {
+   "text": "Hello, Ravani. I'm <alias=player>.",
+   "plugin": "AX ValSerano.esp",
+   "mod": "Val Serano - Pirate Follower and Quest Adventure",
+   "edid": "Val00DAdopt01",
+   "fid": "B06B71",
+   "kind": "FULL",
+   "tokens": [
+    "<alias=player>"
+   ],
+   "exp": "Hello, Ravani. I'm Luna."
+  },
+  {
+   "text": "My name is <Alias=player>.",
+   "plugin": "AX ValSerano.esp",
+   "mod": "Val Serano - Pirate Follower and Quest Adventure",
+   "edid": "",
+   "fid": "717DAB",
+   "kind": "RNAM",
+   "tokens": [
+    "<Alias=player>"
+   ],
+   "exp": "My name is Luna."
+  },
+  {
+   "text": "My name's <Alias=player>. No one sent me.",
+   "plugin": "AX ValSerano.esp",
+   "mod": "Val Serano - Pirate Follower and Quest Adventure",
+   "edid": "Val001Lost03",
+   "fid": "321529",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=player>"
+   ],
+   "exp": "My name's Luna. No one sent me."
+  },
+  {
+   "text": "<Alias=Player>. Remember this name, for it's the one who will defeat you in the end.",
+   "plugin": "Vigilant.esm",
+   "mod": "VIGILANT - English Translation SE (Voiced)",
+   "edid": "zzzCHMeQ08MolagBB01T04",
+   "fid": "087601",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Luna. Remember this name, for it's the one who will defeat you in the end."
+  },
+  {
+   "text": "<Alias=Player>. That's the name she gave me.",
+   "plugin": "Vigilant.esm",
+   "mod": "VIGILANT - English Translation SE (Voiced)",
+   "edid": "zzzCHMeQ08MolagTB02T02",
+   "fid": "082202",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Luna. That's the name she gave me."
+  },
+  {
+   "text": "Fine. I, <Alias=Player>, swear this by the multiples of three. I shall henceforth renounce this name.",
+   "plugin": "Vigilant.esm",
+   "mod": "VIGILANT - English Translation SE (Voiced)",
+   "edid": "zzzAoMgdSA02B02T03",
+   "fid": "4EC7F1",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Fine. I, Luna, swear this by the multiples of three. I shall henceforth renounce this name."
+  },
+  {
+   "text": "Greetings. I'm <Alias=Player>, the Keeper of the Vigil.",
+   "plugin": "Vigilant.esm",
+   "mod": "VIGILANT - English Translation SE (Voiced)",
+   "edid": "zzzBMMq01B01stMissionStart",
+   "fid": "038AC0",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Greetings. I'm Luna, the Keeper of the Vigil."
+  },
+  {
+   "text": "Nice to meet you. I'm <Alias=Player>, the new Vigilant.",
+   "plugin": "Vigilant.esm",
+   "mod": "VIGILANT - English Translation SE (Voiced)",
+   "edid": "zzzAoMMq00B3NiceToMeet",
+   "fid": "027A41",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Nice to meet you. I'm Luna, the new Vigilant."
+  },
+  {
+   "text": "I'm <Alias=Player>, who are you?",
+   "plugin": "Slays-Many-Beasts Quest Mod.esp",
+   "mod": "Whispers of the Depths - Quest Mod",
+   "edid": "SMBMainQuest1Convo1",
+   "fid": "000006",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna, who are you?"
+  },
+  {
+   "text": "I am <Alias=Player>.",
+   "plugin": "BPUFXelzazFollower.esp",
+   "mod": "Xelzaz - Custom Fully Voiced Argonian Telvanni Follower",
+   "edid": "BPUFXelzazArmorQuestEvesaForceGreet1Name",
+   "fid": "430BED",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna."
+  }
+ ],
+ "mangled": [
+  {
+   "text": "I'm <Alias=Player>.",
+   "plugin": "BSHeartland.esm",
+   "mod": "Beyond Skyrim - Bruma SE - Main",
+   "edid": "CYRDialogueBathhousesBMWIntroduce",
+   "fid": "07CA2F",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna.",
+   "near": [
+    "I'm Luna"
+   ]
+  },
+  {
+   "text": "I'm <Alias=Player>.",
+   "plugin": "BSHeartland.esm",
+   "mod": "Beyond Skyrim - Bruma SE - Main",
+   "edid": "CYRDialogueMountainWatchGraciusWho03",
+   "fid": "07E328",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna.",
+   "near": [
+    "I'm Luna"
+   ]
+  },
+  {
+   "text": "I'm <Alias=Player>. Who are you?",
+   "plugin": "Dawnguard.esm",
+   "mod": "Cleaned Base Game Masters",
+   "edid": "DLC1VQ02HarkonBranchTopic1Reply1",
+   "fid": "003B9F",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. Who are you?",
+   "near": [
+    "I'm Luna, Who are you?",
+    "I'm Luna. Who are you"
+   ]
+  },
+  {
+   "text": "I'm <Alias=Player>.",
+   "plugin": "Kaidan - Immersive Features.esp",
+   "mod": "Immersive Kaidan AIO - rerun",
+   "edid": "Meet02a",
+   "fid": "D5D805",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna.",
+   "near": [
+    "I'm Luna"
+   ]
+  },
+  {
+   "text": "\"<Alias=Player> and the Amazing Argonians\" has a nice ring to it.",
+   "plugin": "3DNPC.esp",
+   "mod": "Interesting NPCs 3DNPC - 4.54 Update",
+   "edid": "TUD_5TopicC",
+   "fid": "24D48C",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "\"Luna and the Amazing Argonians\" has a nice ring to it.",
+   "near": [
+    "Luna and the Amazing Argonians has a nice ring to it.",
+    "Luna and the Amazing Argonians  has a nice ring to it."
+   ]
+  },
+  {
+   "text": "My name is <Alias=Player>",
+   "plugin": "SRC - All In One.esp",
+   "mod": "Skyrim Realistic Conquering - All In One",
+   "edid": "SRC_LKHBurner01DialogueHelloYou",
+   "fid": "0EED90",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna",
+   "near": [
+    "My name is Luna."
+   ]
+  },
+  {
+   "text": "I'm <Alias=Player>.",
+   "plugin": "ForgottenCity.esp",
+   "mod": "The Forgotten City",
+   "edid": "000FCQuestMetellusNameTopic",
+   "fid": "070793",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna.",
+   "near": [
+    "I'm Luna"
+   ]
+  },
+  {
+   "text": "I'm <Alias=Player>.",
+   "plugin": "ForgottenCity.esp",
+   "mod": "The Forgotten City",
+   "edid": "000FCQuestAltriusDialogueB02T07",
+   "fid": "0A85D2",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna.",
+   "near": [
+    "I'm Luna"
+   ]
+  },
+  {
+   "text": "I'm <Alias=Player>. Who are you?",
+   "plugin": "ForgottenCity.esp",
+   "mod": "The Forgotten City",
+   "edid": "000FCTreasureHunterBranch03Topic",
+   "fid": "0388AD",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna. Who are you?",
+   "near": [
+    "I'm Luna, Who are you?",
+    "I'm Luna. Who are you"
+   ]
+  }
+ ],
+ "missing": [
+  {
+   "text": "Uh... My name is <Alias=Player>?",
+   "plugin": "Sithis Mod - Lovecraftian Inspired Quest.esp",
+   "mod": "Calling the Watchmaker - Lovecraftian Inspired Quest",
+   "edid": "SMQuest1Convo1",
+   "fid": "000897",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Uh... My name is Luna?",
+   "near": [
+    "My name is Luna."
+   ]
+  },
+  {
+   "text": "May I come in? (Tell <Alias.ShortName=Friend> it's <Alias=Player>.)",
+   "plugin": "DBVO Fix - Simply Knock.esp",
+   "mod": "Eleonora Female Nord Dbvo Pack With Patches",
+   "edid": "_SK_Diag_Friend",
+   "fid": "003356",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias.ShortName=Friend>",
+    "<Alias=Player>"
+   ],
+   "exp": "May I come in? (Tell <Alias.ShortName=Friend> it's Luna.)",
+   "near": null
+  },
+  {
+   "text": "And I, <Alias=Player>, pledge my loyalty to you for eternity. May we share in love, until we walk the planes of Aetherius and beyond.",
+   "plugin": "Flint9.esp",
+   "mod": "Flint the Minotaur",
+   "edid": "EGG1FlintFriendshipCONFESS42",
+   "fid": "87D7ED",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "And I, Luna, pledge my loyalty to you for eternity. May we share in love, until we walk the planes of Aetherius and beyond.",
+   "near": null
+  },
+  {
+   "text": "I'm <Alias=Player>, by the way. Nice to have met you.",
+   "plugin": "Flint9.esp",
+   "mod": "Flint the Minotaur",
+   "edid": "EGG1FlintRumorsPLAYERJAILED03B",
+   "fid": "CDF979",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I'm Luna, by the way. Nice to have met you.",
+   "near": null
+  },
+  {
+   "text": "I am <Alias=Player>. Nice to meet you.",
+   "plugin": "Glenmoril.esm",
+   "mod": "Glenmoril - English Translation SE",
+   "edid": "zzzLrhSqRRMonk01B02T01",
+   "fid": "61455B",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. Nice to meet you.",
+   "near": [
+    "I'm Luna. Nice to meet you.",
+    "I'm Luna. Nice to meet you."
+   ]
+  },
+  {
+   "text": "Calm down! My name is <Alias=Player>. I'm looking for a woman - an outlander - with a fancy pattern on her face and it seems like I've found her. What is your name?",
+   "plugin": "SM_Astrid.esp",
+   "mod": "Heart of Ice - Astrid. Custom Voiced Follower",
+   "edid": "SM_AstridStart12",
+   "fid": "098930",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Calm down! My name is Luna. I'm looking for a woman - an outlander - with a fancy pattern on her face and it seems like I've found her. What is your name?",
+   "near": [
+    "My name is Luna, I'm looking for a woman with a fancy pattern on the face. Seems like I've found her. What is your name?"
+   ]
+  },
+  {
+   "text": "My name is <Alias=Player>. I'm looking for a woman - an outlander - with a fancy pattern on her face and it seems like I've found her. What is your name?",
+   "plugin": "SM_Astrid.esp",
+   "mod": "Heart of Ice - Astrid. Custom Voiced Follower",
+   "edid": "SM_AstridStart14",
+   "fid": "09DA34",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "My name is Luna. I'm looking for a woman - an outlander - with a fancy pattern on her face and it seems like I've found her. What is your name?",
+   "near": [
+    "My name is Luna, I'm looking for a woman with a fancy pattern on the face. Seems like I've found her. What is your name?"
+   ]
+  },
+  {
+   "text": "I am <Alias=Player>. I recently arrived at the island by boat.",
+   "plugin": "Olenveld Fixes.esp",
+   "mod": "Olenveld - Tweaks and Fixes",
+   "edid": "OlenveldWarmWelcomeg2",
+   "fid": "51C8F0",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "I am Luna. I recently arrived at the island by boat.",
+   "near": null
+  },
+  {
+   "text": "Santus and <Alias=Player> on an epic journey to Whiterun!",
+   "plugin": "TheGiftofSaturalia.esp",
+   "mod": "The Gift of Saturalia - A Quest for the Holidays",
+   "edid": "Sat_Dog_2Topic",
+   "fid": "0009AA",
+   "kind": "FULL",
+   "tokens": [
+    "<Alias=Player>"
+   ],
+   "exp": "Santus and Luna on an epic journey to Whiterun!",
+   "near": null
+  }
+ ]
+}

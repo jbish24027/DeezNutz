@@ -1,0 +1,262 @@
+00015E:Skyrim.esm
+000805:Lux - Forgotten City.esp
+00081A:Skyrim.esm
+000823:Astralite ENB.esp
+000826:Astralite ENB.esp
+000827:Astralite ENB.esp
+00082E:Astralite ENB.esp
+00082F:Astralite ENB.esp
+000830:Astralite ENB.esp
+000831:Astralite ENB.esp
+000838:Astralite ENB.esp
+00083A:Astralite ENB.esp
+00083C:Astralite ENB.esp
+00083D:Astralite ENB.esp
+00083F:Astralite ENB.esp
+000840:Astralite ENB.esp
+000954:Helios.esp
+00095E:Helios.esp
+00096A:Helios.esp
+000A70:Helios.esp
+000A71:Helios.esp
+000A72:Helios.esp
+000A73:Helios.esp
+000A74:Helios.esp
+000A75:Helios.esp
+000A76:Helios.esp
+000A77:Helios.esp
+000A78:Helios.esp
+000A79:Helios.esp
+000A7A:Helios.esp
+000A7B:Helios.esp
+000A7C:Helios.esp
+000A7D:Helios.esp
+000A7E:Helios.esp
+000A7F:Helios.esp
+000A80:Helios.esp
+000A81:Helios.esp
+000A82:Helios.esp
+000A83:Helios.esp
+000A84:Helios.esp
+000A85:Helios.esp
+000A86:Helios.esp
+000A87:Helios.esp
+000A88:Helios.esp
+000A89:Helios.esp
+000A8A:Helios.esp
+000A8B:Helios.esp
+000A8C:Helios.esp
+000A8D:Helios.esp
+000A8E:Helios.esp
+000A8F:Helios.esp
+000A90:Helios.esp
+000A91:Helios.esp
+000A92:Helios.esp
+000A93:Helios.esp
+000A94:Helios.esp
+000A95:Helios.esp
+000A96:Helios.esp
+000A97:Helios.esp
+000A98:Helios.esp
+000A99:Helios.esp
+000A9A:Helios.esp
+000A9B:Helios.esp
+000A9C:Helios.esp
+000A9D:Helios.esp
+000A9E:Helios.esp
+000A9F:Helios.esp
+000AA0:Helios.esp
+000AA1:Helios.esp
+000AA2:Helios.esp
+000AA3:Helios.esp
+000AA4:Helios.esp
+000AA5:Helios.esp
+000AA6:Helios.esp
+000AA7:Helios.esp
+000AA8:Helios.esp
+000DCB:Gray Fox Cowl.esm
+000EE6:Helios.esp
+000EEB:Helios.esp
+000EEC:Helios.esp
+000EED:Helios.esp
+000EEE:Helios.esp
+000EEF:Helios.esp
+000EF0:Helios.esp
+000EF1:Helios.esp
+000EF2:Helios.esp
+000EF3:Helios.esp
+000EF4:Helios.esp
+000EF5:Helios.esp
+000EF6:Helios.esp
+000EF7:Helios.esp
+000EF8:Helios.esp
+000EF9:Helios.esp
+000EFA:Helios.esp
+000EFB:Helios.esp
+000EFC:Helios.esp
+000EFD:Helios.esp
+000EFE:Helios.esp
+000F18:Helios.esp
+000F2A:Helios.esp
+000F92:Glenmoril.esm
+0011FE:Glenmoril.esm
+001200:Glenmoril.esm
+00133B:Glenmoril.esm
+001407:Dawnguard.esm
+001DCB:Lux.esp
+001DCC:Lux.esp
+001F4B:Gray Fox Cowl.esm
+0022E7:Moonpath Music - Sky and Lighting fix - merged.esp
+0031FD:Glenmoril.esm
+0042F8:DAc0da.esm
+0048C6:Moonpath Music - Sky and Lighting fix - merged.esp
+004E4E:Moonpath Music - Sky and Lighting fix - merged.esp
+00591E:Moonpath Music - Sky and Lighting fix - merged.esp
+0098F4:DAc0da.esm
+00B769:DAc0da.esm
+00DAAC:Gray Fox Cowl.esm
+010E0B:Dawnguard.esm
+010E0E:Dawnguard.esm
+010E0F:Dawnguard.esm
+010E10:Dawnguard.esm
+011171:Moonpath Music - Sky and Lighting fix - merged.esp
+012F89:Skyrim.esm
+014551:Dawnguard.esm
+018471:Dragonborn.esm
+018DBB:Dawnguard.esm
+018DBC:Dawnguard.esm
+01A3B1:Skyrim Extended Cut - Saints and Seducers.esp
+01D760:Dragonborn.esm
+01DFF5:Dragonborn.esm
+02E7AB:Skyrim.esm
+02E7C8:Skyrim Extended Cut - Saints and Seducers.esp
+031AC0:Dragonborn.esm
+032336:Dragonborn.esm
+03416F:ccbgssse067-daedinv.esm
+034CFB:Dragonborn.esm
+0374B8:Dragonborn.esm
+0374B9:Dragonborn.esm
+0374BA:Dragonborn.esm
+048C14:Skyrim.esm
+049476:Lux.esp
+04D7FB:Skyrim.esm
+056A0C:Vigilant.esm
+056A0D:Vigilant.esm
+05ED7A:Skyrim.esm
+06ED5A:Skyrim.esm
+06ED5B:Skyrim.esm
+0701D2:Vigilant.esm
+07548F:Skyrim.esm
+075491:Skyrim.esm
+075DE5:Skyrim.esm
+0777CF:Skyrim.esm
+08277A:Skyrim.esm
+08282A:Skyrim.esm
+0AEE84:Skyrim.esm
+0C821E:Skyrim.esm
+0C821F:Skyrim.esm
+0C8220:Skyrim.esm
+0C8221:Skyrim.esm
+0ECC96:Skyrim.esm
+104AB4:Skyrim.esm
+105942:Skyrim.esm
+105943:Skyrim.esm
+105944:Skyrim.esm
+105945:Skyrim.esm
+105F40:Skyrim.esm
+106635:Skyrim.esm
+10A230:Skyrim.esm
+10A231:Skyrim.esm
+10A232:Skyrim.esm
+10A233:Skyrim.esm
+10A234:Skyrim.esm
+10A235:Skyrim.esm
+10A236:Skyrim.esm
+10A237:Skyrim.esm
+10A238:Skyrim.esm
+10A239:Skyrim.esm
+10A23A:Skyrim.esm
+10A23B:Skyrim.esm
+10A23C:Skyrim.esm
+10A23D:Skyrim.esm
+10A23E:Skyrim.esm
+10A23F:Skyrim.esm
+10A240:Skyrim.esm
+10A241:Skyrim.esm
+10A242:Skyrim.esm
+10A243:Skyrim.esm
+10A244:Skyrim.esm
+10A245:Skyrim.esm
+10A7A5:Skyrim.esm
+10A7A6:Skyrim.esm
+10A7A7:Skyrim.esm
+10A7A8:Skyrim.esm
+10DA13:Skyrim.esm
+10E1E3:Skyrim.esm
+10E1E4:Skyrim.esm
+10E1E5:Skyrim.esm
+10E1E6:Skyrim.esm
+10E1E7:Skyrim.esm
+10E1E8:Skyrim.esm
+10E1E9:Skyrim.esm
+10E1EA:Skyrim.esm
+10E1EB:Skyrim.esm
+10E1EC:Skyrim.esm
+10E1ED:Skyrim.esm
+10E1EE:Skyrim.esm
+10E1EF:Skyrim.esm
+10E1F0:Skyrim.esm
+10E1F1:Skyrim.esm
+10E1F2:Skyrim.esm
+10E3D4:Skyrim.esm
+10FE7E:Skyrim.esm
+10FEF8:Skyrim.esm
+15BB6E:Skyrim Extended Cut - Saints and Seducers.esp
+19FA01:Picta - Weathers of Aurbis.esm
+19FA02:Picta - Weathers of Aurbis.esm
+19FA03:Picta - Weathers of Aurbis.esm
+19FB01:Picta - Weathers of Aurbis.esm
+19FB02:Picta - Weathers of Aurbis.esm
+19FB03:Picta - Weathers of Aurbis.esm
+19FC01:Picta - Weathers of Aurbis.esm
+19FC02:Picta - Weathers of Aurbis.esm
+19FC03:Picta - Weathers of Aurbis.esm
+19FC04:Picta - Weathers of Aurbis.esm
+19FC05:Picta - Weathers of Aurbis.esm
+19FD01:Picta - Weathers of Aurbis.esm
+19FD02:Picta - Weathers of Aurbis.esm
+19FD03:Picta - Weathers of Aurbis.esm
+19FD04:Picta - Weathers of Aurbis.esm
+19FD05:Picta - Weathers of Aurbis.esm
+19FD06:Picta - Weathers of Aurbis.esm
+19FE01:Picta - Weathers of Aurbis.esm
+19FE02:Picta - Weathers of Aurbis.esm
+19FE03:Picta - Weathers of Aurbis.esm
+19FE04:Picta - Weathers of Aurbis.esm
+19FE05:Picta - Weathers of Aurbis.esm
+19FE06:Picta - Weathers of Aurbis.esm
+1B0006:Picta - Weathers of Aurbis.esm
+1B0045:Picta - Weathers of Aurbis.esm
+21BCF1:Glenmoril.esm
+2401C8:Glenmoril.esm
+2A0166:Glenmoril.esm
+2D11A2:Olenveld.esp
+30EEB1:Glenmoril.esm
+30EEB4:Glenmoril.esm
+408447:Lux.esp
+491B1C:Glenmoril.esm
+4BF5AA:Vigilant.esm
+4C07A0:Vigilant.esm
+53ABD3:BluePalaceTerrace.esp
+53ABD3:Grand Solitude - The Walls of High King Erling.esp
+54F2A0:Wyrmstooth.esp
+5AFA01:Picta - Weathers of Aurbis.esm
+5AFA02:Picta - Weathers of Aurbis.esm
+5AFA03:Picta - Weathers of Aurbis.esm
+5AFB01:Picta - Weathers of Aurbis.esm
+5AFB02:Picta - Weathers of Aurbis.esm
+627E73:Wyrmstooth.esp
+677F87:Lux.esp
+82A018:Wyrmstooth.esp
+99D714:Lux.esp
+FABBDB:Lux.esp

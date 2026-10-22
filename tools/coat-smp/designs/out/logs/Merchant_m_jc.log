@@ -1,0 +1,8 @@
+== Merchant m: outfitm_1.nif
+   at rest        jump R lead  58/ 4/ 75   jump L lead  76/13/ 71   tuck  62/15/ 65
+   curled in      jump R lead  73/12/ 82   jump L lead  98/32/ 66   tuck  97/31/ 68
+   swung back     jump R lead  68/13/ 59   jump L lead  58/17/ 69   tuck  57/16/ 60
+   swung forward  jump R lead  87/ 4/ 51   jump L lead  96/ 7/ 75   tuck  92/ 0/111
+   total caught/hooked/sunk 922/164/852
+
+EXIT 0

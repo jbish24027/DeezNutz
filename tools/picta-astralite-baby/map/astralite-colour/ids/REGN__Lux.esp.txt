@@ -1,0 +1,8 @@
+106632:Skyrim.esm
+001DCA:Lux.esp
+001DCD:Lux.esp
+049475:Lux.esp
+99D715:Lux.esp
+E76B79:Lux.esp
+E76B7B:Lux.esp
+FABBDC:Lux.esp

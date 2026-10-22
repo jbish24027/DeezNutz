@@ -1,0 +1,286 @@
+{
+ "values": {
+  "January": {
+   "plain": {
+    "Pleasant": 35,
+    "PleasantA": 22,
+    "Overcast": 65,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 80,
+    "Snow_Storm": 50
+   },
+   "SN": {
+    "Pleasant": 35,
+    "PleasantA": 22,
+    "Overcast": 65,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 80,
+    "Snow_Storm": 50
+   }
+  },
+  "February": {
+   "plain": {
+    "Pleasant": 45,
+    "PleasantA": 22,
+    "Overcast": 65,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 80,
+    "Snow_Storm": 50
+   },
+   "SN": {
+    "Pleasant": 45,
+    "PleasantA": 22,
+    "Overcast": 65,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 80,
+    "Snow_Storm": 50
+   }
+  },
+  "March": {
+   "plain": {
+    "Pleasant": 50,
+    "PleasantA": 25,
+    "Overcast": 40,
+    "Rain": 10,
+    "Rain_Storm": 0,
+    "Snow": 50,
+    "Snow_Storm": 10
+   },
+   "SN": {
+    "Pleasant": 50,
+    "PleasantA": 22,
+    "Overcast": 40,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 50,
+    "Snow_Storm": 45
+   }
+  },
+  "April": {
+   "plain": {
+    "Pleasant": 55,
+    "PleasantA": 27,
+    "Overcast": 35,
+    "Rain": 40,
+    "Rain_Storm": 0,
+    "Snow": 25,
+    "Snow_Storm": 0
+   },
+   "SN": {
+    "Pleasant": 50,
+    "PleasantA": 25,
+    "Overcast": 35,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 40,
+    "Snow_Storm": 35
+   }
+  },
+  "May": {
+   "plain": {
+    "Pleasant": 65,
+    "PleasantA": 32,
+    "Overcast": 25,
+    "Rain": 15,
+    "Rain_Storm": 5,
+    "Snow": 10,
+    "Snow_Storm": 0
+   },
+   "SN": {
+    "Pleasant": 65,
+    "PleasantA": 32,
+    "Overcast": 30,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 30,
+    "Snow_Storm": 25
+   }
+  },
+  "June": {
+   "plain": {
+    "Pleasant": 70,
+    "PleasantA": 37,
+    "Overcast": 15,
+    "Rain": 20,
+    "Rain_Storm": 20,
+    "Snow": 0,
+    "Snow_Storm": 0
+   },
+   "SN": {
+    "Pleasant": 70,
+    "PleasantA": 32,
+    "Overcast": 30,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 25,
+    "Snow_Storm": 20
+   }
+  },
+  "July": {
+   "plain": {
+    "Pleasant": 75,
+    "PleasantA": 37,
+    "Overcast": 25,
+    "Rain": 25,
+    "Rain_Storm": 20,
+    "Snow": 0,
+    "Snow_Storm": 0
+   },
+   "SN": {
+    "Pleasant": 65,
+    "PleasantA": 32,
+    "Overcast": 30,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 20,
+    "Snow_Storm": 20
+   }
+  },
+  "August": {
+   "plain": {
+    "Pleasant": 70,
+    "PleasantA": 32,
+    "Overcast": 25,
+    "Rain": 15,
+    "Rain_Storm": 15,
+    "Snow": 0,
+    "Snow_Storm": 0
+   },
+   "SN": {
+    "Pleasant": 65,
+    "PleasantA": 30,
+    "Overcast": 10,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 25,
+    "Snow_Storm": 25
+   }
+  },
+  "September": {
+   "plain": {
+    "Pleasant": 60,
+    "PleasantA": 30,
+    "Overcast": 65,
+    "Rain": 20,
+    "Rain_Storm": 5,
+    "Snow": 0,
+    "Snow_Storm": 0
+   },
+   "SN": {
+    "Pleasant": 60,
+    "PleasantA": 30,
+    "Overcast": 65,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 30,
+    "Snow_Storm": 25
+   }
+  },
+  "October": {
+   "plain": {
+    "Pleasant": 45,
+    "PleasantA": 22,
+    "Overcast": 75,
+    "Rain": 15,
+    "Rain_Storm": 0,
+    "Snow": 15,
+    "Snow_Storm": 5
+   },
+   "SN": {
+    "Pleasant": 45,
+    "PleasantA": 22,
+    "Overcast": 75,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 35,
+    "Snow_Storm": 30
+   }
+  },
+  "November": {
+   "plain": {
+    "Pleasant": 35,
+    "PleasantA": 22,
+    "Overcast": 75,
+    "Rain": 15,
+    "Rain_Storm": 0,
+    "Snow": 60,
+    "Snow_Storm": 5
+   },
+   "SN": {
+    "Pleasant": 35,
+    "PleasantA": 22,
+    "Overcast": 75,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 60,
+    "Snow_Storm": 40
+   }
+  },
+  "December": {
+   "plain": {
+    "Pleasant": 35,
+    "PleasantA": 22,
+    "Overcast": 65,
+    "Rain": 5,
+    "Rain_Storm": 0,
+    "Snow": 80,
+    "Snow_Storm": 50
+   },
+   "SN": {
+    "Pleasant": 35,
+    "PleasantA": 20,
+    "Overcast": 65,
+    "Rain": 0,
+    "Rain_Storm": 0,
+    "Snow": 80,
+    "Snow_Storm": 50
+   }
+  }
+ },
+ "season_of_month": {
+  "January": [
+   "Winter"
+  ],
+  "February": [
+   "Winter"
+  ],
+  "March": [
+   "Spring"
+  ],
+  "April": [
+   "Spring"
+  ],
+  "May": [
+   "Spring"
+  ],
+  "June": [
+   "Summer"
+  ],
+  "July": [
+   "Summer"
+  ],
+  "August": [
+   "Summer"
+  ],
+  "September": [
+   "Autumn"
+  ],
+  "October": [
+   "Autumn"
+  ],
+  "November": [
+   "Autumn"
+  ],
+  "December": [
+   "Autumn",
+   "Spring",
+   "Summer",
+   "Winter"
+  ]
+ },
+ "source": "C:/1. AUTHORIA/mods/Seasonal Weathers Framework - 1.01/source/scripts/SeasonsFrameworkMain.psc"
+}

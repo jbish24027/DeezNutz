@@ -1,0 +1,19 @@
+== VampClothes m: vampclothesm_1.nif  side pen 1.5, front/back 3.0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 0:  outer caught/sunk  14/  7 [Side: z 60-61 ang -123..-70 depth 1.7..2.4]
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 8:  outer caught/sunk  61/  4 [Side: z 47-61 ang -113..82 depth 1.7..2.0]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 0:  outer caught/sunk  27/  2 [Side: z 60-61 ang -120..-89 depth 1.6..1.8]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 8:  outer caught/sunk  73/  5 [Side: z 47-61 ang -111..83 depth 1.5..2.0]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 0:  outer caught/sunk  82/  3 [Side: z 47-60 ang -107..-89 depth 1.6..1.7]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 8:  outer caught/sunk 143/  4 [Side: z 48-60 ang -82..85 depth 1.5..1.8]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 0:  outer caught/sunk 169/ 40 [Side: z 45-60 ang -122..119 depth 1.5..3.2]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 8:  outer caught/sunk 278/ 43 [Side: z 45-60 ang -109..108 depth 1.5..2.6]
+
+EXIT 0

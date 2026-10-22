@@ -1,0 +1,35 @@
+== men _1: torso_1.nif
+  ok   Torso: welded remainder area 10177.5 vs the source minus its pieces 10177.5 (26 of 26 split triangles tiled exactly by their children; 26 weld points)
+  ok   Torso: split into 4 per triangle, area 14703.5 vs 14703.5
+  ok   Sleeves: 740 triangles, kept 740 in ['Sleeves'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 65
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\Jarl1M.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / Torso: 53 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 85%, of those on 2 chains 90%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: torso_0.nif
+  ok   Torso: welded remainder area 9788.9 vs the source minus its pieces 9788.9 (26 of 26 split triangles tiled exactly by their children; 26 weld points)
+  ok   Torso: split into 4 per triangle, area 14056.7 vs 14056.7
+  ok   Sleeves: 740 triangles, kept 740 in ['Sleeves'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 65
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\Jarl1M.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / Torso: 53 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

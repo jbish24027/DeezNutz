@@ -1,0 +1,9 @@
+== Fine01 m: outfitm_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R  96/ 6/173   sprint L 160/ 7/131   walk R 100/ 0/152   walk L 181/ 5/125
+   curled in (limit)      sprint R 101/ 6/210   sprint L 205/ 0/145   walk R 130/ 5/183   walk L 202/ 3/149
+   swung back .3/.15      sprint R  31/ 7/101   sprint L 141/ 7/ 96   walk R  76/ 6/135   walk L 186/ 7/110
+   swung forward .3/.15   sprint R  75/ 0/270   sprint L 139/19/187   walk R 115/ 0/126   walk L 164/ 0/ 76
+   swung sideways .3/.15  sprint R  93/ 5/146   sprint L 144/ 7/120   walk R  70/ 0/109   walk L 187/ 4/ 60
+   total caught/hooked/sunk 2596/94/2804; lining pts Front 40, Back 364, Side 587
+
+EXIT 0

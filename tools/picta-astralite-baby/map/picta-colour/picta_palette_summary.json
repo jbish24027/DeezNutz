@@ -1,0 +1,497 @@
+{
+ "weights": "Tamriel REGN weather-list membership counts (picta weathers only)",
+ "periods": {
+  "Dawn": {
+   "sky_zenith": {
+    "rgb_linear_weighted": [
+     6.887,
+     10.062,
+     16.159
+    ],
+    "hue_deg": 219,
+    "sat": 0.57,
+    "peak": 16.159
+   },
+   "sky_horizon_side": {
+    "rgb_linear_weighted": [
+     6.792,
+     5.843,
+     8.879
+    ],
+    "hue_deg": 259,
+    "sat": 0.34,
+    "peak": 8.879
+   },
+   "sky_horizon_sunward": {
+    "rgb_linear_weighted": [
+     13.389,
+     11.09,
+     16.565
+    ],
+    "hue_deg": 265,
+    "sat": 0.33,
+    "peak": 16.565
+   },
+   "sunlight": {
+    "rgb_linear_weighted": [
+     0.779,
+     0.112,
+     0.0
+    ],
+    "hue_deg": 9,
+    "sat": 1.0,
+    "peak": 0.779
+   },
+   "fog_far": {
+    "rgb_linear_weighted": [
+     0.027,
+     0.031,
+     0.051
+    ],
+    "hue_deg": 230,
+    "sat": 0.47,
+    "peak": 0.051
+   },
+   "cloud_base": {
+    "rgb_linear_weighted": [
+     0.103,
+     0.118,
+     0.195
+    ],
+    "hue_deg": 230,
+    "sat": 0.47,
+    "peak": 0.195
+   },
+   "volumetric_fog_mesh_tint": {
+    "rgb_linear_weighted": [
+     0.407,
+     0.453,
+     0.644
+    ],
+    "hue_deg": 228,
+    "sat": 0.37,
+    "peak": 0.644
+   },
+   "ambient_side": {
+    "rgb_linear_weighted": [
+     0.076,
+     0.087,
+     0.145
+    ],
+    "hue_deg": 231,
+    "sat": 0.48,
+    "peak": 0.145
+   }
+  },
+  "Sunrise": {
+   "sky_zenith": {
+    "rgb_linear_weighted": [
+     2.998,
+     6.158,
+     10.81
+    ],
+    "hue_deg": 216,
+    "sat": 0.72,
+    "peak": 10.81
+   },
+   "sky_horizon_side": {
+    "rgb_linear_weighted": [
+     6.37,
+     8.722,
+     15.331
+    ],
+    "hue_deg": 224,
+    "sat": 0.58,
+    "peak": 15.331
+   },
+   "sky_horizon_sunward": {
+    "rgb_linear_weighted": [
+     14.445,
+     19.799,
+     34.817
+    ],
+    "hue_deg": 224,
+    "sat": 0.59,
+    "peak": 34.817
+   },
+   "sunlight": {
+    "rgb_linear_weighted": [
+     2.072,
+     0.592,
+     0.0
+    ],
+    "hue_deg": 17,
+    "sat": 1.0,
+    "peak": 2.072
+   },
+   "fog_far": {
+    "rgb_linear_weighted": [
+     0.153,
+     0.22,
+     0.373
+    ],
+    "hue_deg": 222,
+    "sat": 0.59,
+    "peak": 0.373
+   },
+   "cloud_base": {
+    "rgb_linear_weighted": [
+     0.553,
+     0.794,
+     1.347
+    ],
+    "hue_deg": 222,
+    "sat": 0.59,
+    "peak": 1.347
+   },
+   "volumetric_fog_mesh_tint": {
+    "rgb_linear_weighted": [
+     0.495,
+     0.657,
+     0.964
+    ],
+    "hue_deg": 219,
+    "sat": 0.49,
+    "peak": 0.964
+   },
+   "ambient_side": {
+    "rgb_linear_weighted": [
+     0.259,
+     0.282,
+     0.408
+    ],
+    "hue_deg": 231,
+    "sat": 0.37,
+    "peak": 0.408
+   }
+  },
+  "Day": {
+   "sky_zenith": {
+    "rgb_linear_weighted": [
+     0.819,
+     1.841,
+     3.291
+    ],
+    "hue_deg": 215,
+    "sat": 0.75,
+    "peak": 3.291
+   },
+   "sky_horizon_side": {
+    "rgb_linear_weighted": [
+     9.083,
+     14.316,
+     27.085
+    ],
+    "hue_deg": 223,
+    "sat": 0.66,
+    "peak": 27.085
+   },
+   "sky_horizon_sunward": {
+    "rgb_linear_weighted": [
+     24.68,
+     38.971,
+     73.839
+    ],
+    "hue_deg": 223,
+    "sat": 0.67,
+    "peak": 73.839
+   },
+   "sunlight": {
+    "rgb_linear_weighted": [
+     3.588,
+     3.459,
+     3.326
+    ],
+    "hue_deg": 30,
+    "sat": 0.07,
+    "peak": 3.588
+   },
+   "fog_far": {
+    "rgb_linear_weighted": [
+     0.229,
+     0.367,
+     0.656
+    ],
+    "hue_deg": 221,
+    "sat": 0.65,
+    "peak": 0.656
+   },
+   "cloud_base": {
+    "rgb_linear_weighted": [
+     0.587,
+     0.939,
+     1.685
+    ],
+    "hue_deg": 221,
+    "sat": 0.65,
+    "peak": 1.685
+   },
+   "volumetric_fog_mesh_tint": {
+    "rgb_linear_weighted": [
+     0.559,
+     0.796,
+     1.208
+    ],
+    "hue_deg": 218,
+    "sat": 0.54,
+    "peak": 1.208
+   },
+   "ambient_side": {
+    "rgb_linear_weighted": [
+     0.237,
+     0.346,
+     0.576
+    ],
+    "hue_deg": 221,
+    "sat": 0.59,
+    "peak": 0.576
+   }
+  },
+  "Sunset": {
+   "sky_zenith": {
+    "rgb_linear_weighted": [
+     2.994,
+     6.046,
+     10.69
+    ],
+    "hue_deg": 216,
+    "sat": 0.72,
+    "peak": 10.69
+   },
+   "sky_horizon_side": {
+    "rgb_linear_weighted": [
+     6.364,
+     8.482,
+     15.144
+    ],
+    "hue_deg": 226,
+    "sat": 0.58,
+    "peak": 15.144
+   },
+   "sky_horizon_sunward": {
+    "rgb_linear_weighted": [
+     14.431,
+     19.256,
+     34.395
+    ],
+    "hue_deg": 225,
+    "sat": 0.58,
+    "peak": 34.395
+   },
+   "sunlight": {
+    "rgb_linear_weighted": [
+     2.089,
+     0.398,
+     0.0
+    ],
+    "hue_deg": 11,
+    "sat": 1.0,
+    "peak": 2.089
+   },
+   "fog_far": {
+    "rgb_linear_weighted": [
+     0.153,
+     0.212,
+     0.367
+    ],
+    "hue_deg": 223,
+    "sat": 0.58,
+    "peak": 0.367
+   },
+   "cloud_base": {
+    "rgb_linear_weighted": [
+     0.552,
+     0.767,
+     1.326
+    ],
+    "hue_deg": 223,
+    "sat": 0.58,
+    "peak": 1.326
+   },
+   "volumetric_fog_mesh_tint": {
+    "rgb_linear_weighted": [
+     0.495,
+     0.643,
+     0.953
+    ],
+    "hue_deg": 221,
+    "sat": 0.48,
+    "peak": 0.953
+   },
+   "ambient_side": {
+    "rgb_linear_weighted": [
+     0.255,
+     0.272,
+     0.406
+    ],
+    "hue_deg": 233,
+    "sat": 0.37,
+    "peak": 0.406
+   }
+  },
+  "Dusk": {
+   "sky_zenith": {
+    "rgb_linear_weighted": [
+     6.876,
+     9.746,
+     16.154
+    ],
+    "hue_deg": 221,
+    "sat": 0.57,
+    "peak": 16.154
+   },
+   "sky_horizon_side": {
+    "rgb_linear_weighted": [
+     6.8,
+     5.499,
+     8.758
+    ],
+    "hue_deg": 264,
+    "sat": 0.37,
+    "peak": 8.758
+   },
+   "sky_horizon_sunward": {
+    "rgb_linear_weighted": [
+     13.411,
+     10.396,
+     16.336
+    ],
+    "hue_deg": 270,
+    "sat": 0.36,
+    "peak": 16.336
+   },
+   "sunlight": {
+    "rgb_linear_weighted": [
+     0.785,
+     0.067,
+     0.0
+    ],
+    "hue_deg": 5,
+    "sat": 1.0,
+    "peak": 0.785
+   },
+   "fog_far": {
+    "rgb_linear_weighted": [
+     0.027,
+     0.03,
+     0.051
+    ],
+    "hue_deg": 233,
+    "sat": 0.47,
+    "peak": 0.051
+   },
+   "cloud_base": {
+    "rgb_linear_weighted": [
+     0.103,
+     0.114,
+     0.196
+    ],
+    "hue_deg": 233,
+    "sat": 0.47,
+    "peak": 0.196
+   },
+   "volumetric_fog_mesh_tint": {
+    "rgb_linear_weighted": [
+     0.407,
+     0.44,
+     0.644
+    ],
+    "hue_deg": 232,
+    "sat": 0.37,
+    "peak": 0.644
+   },
+   "ambient_side": {
+    "rgb_linear_weighted": [
+     0.075,
+     0.083,
+     0.145
+    ],
+    "hue_deg": 233,
+    "sat": 0.48,
+    "peak": 0.145
+   }
+  },
+  "Night": {
+   "sky_zenith": {
+    "rgb_linear_weighted": [
+     0.024,
+     0.058,
+     0.105
+    ],
+    "hue_deg": 215,
+    "sat": 0.77,
+    "peak": 0.105
+   },
+   "sky_horizon_side": {
+    "rgb_linear_weighted": [
+     0.204,
+     0.32,
+     0.572
+    ],
+    "hue_deg": 221,
+    "sat": 0.64,
+    "peak": 0.572
+   },
+   "sky_horizon_sunward": {
+    "rgb_linear_weighted": [
+     2.015,
+     3.276,
+     6.215
+    ],
+    "hue_deg": 222,
+    "sat": 0.68,
+    "peak": 6.215
+   },
+   "sunlight": {
+    "rgb_linear_weighted": [
+     2.142,
+     3.645,
+     6.792
+    ],
+    "hue_deg": 221,
+    "sat": 0.68,
+    "peak": 6.792
+   },
+   "fog_far": {
+    "rgb_linear_weighted": [
+     0.005,
+     0.01,
+     0.019
+    ],
+    "hue_deg": 221,
+    "sat": 0.72,
+    "peak": 0.019
+   },
+   "cloud_base": {
+    "rgb_linear_weighted": [
+     0.02,
+     0.038,
+     0.074
+    ],
+    "hue_deg": 220,
+    "sat": 0.72,
+    "peak": 0.074
+   },
+   "volumetric_fog_mesh_tint": {
+    "rgb_linear_weighted": [
+     0.193,
+     0.302,
+     0.485
+    ],
+    "hue_deg": 218,
+    "sat": 0.6,
+    "peak": 0.485
+   },
+   "ambient_side": {
+    "rgb_linear_weighted": [
+     0.038,
+     0.054,
+     0.088
+    ],
+    "hue_deg": 221,
+    "sat": 0.57,
+    "peak": 0.088
+   }
+  }
+ }
+}

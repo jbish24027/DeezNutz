@@ -1,0 +1,572 @@
+{
+ "15A000:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_None",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "0",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.9",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A001:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Clear_Sunrise",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.9",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A002:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Clear_Day",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.999",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A003:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Clear_Sunset",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.95",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A004:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Clear_Night",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.5",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.975",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A005:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Lightly_Cloudy_Sunrise",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.8975",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A006:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Lightly_Cloudy_Day",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.9975",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A007:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Lightly_Cloudy_Sunset",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.9475",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A008:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Lightly_Cloudy_Night",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.5",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.9725",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A009:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Cloudy_Sunrise",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.895",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A010:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Cloudy_Day",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.995",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A011:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Cloudy_Sunset",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.945",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A012:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Cloudy_Night",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.5",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.97",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A013:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Overcast_Sunrise",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.89",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A014:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Overcast_Day",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.99",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A015:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Overcast_Sunset",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.94",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A016:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Overcast_Night",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.5",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.965",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A017:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Storm_Sunrise",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.895",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A018:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Storm_Day",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.985",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A019:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Storm_Sunset",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.25",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.935",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A020:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Storm_Night",
+  "winner": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "source": "Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1.5",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.96",
+   "SamplingRepartitionRangeFactor": "100"
+  }
+ },
+ "15A021:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Mist",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0.75",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.9",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A022:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Misty_Fog",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0.5",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.8",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A023:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Light_Fog",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0.25",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.6",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A024:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Heavy_Fog",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.3",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A025:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Precip_Very_Light",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.85",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A026:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Precip_Light",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.775",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A027:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Precip_Medium",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.7",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A028:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Precip_Heavy",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.625",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ },
+ "15A029:Picta - Weathers of Aurbis.esm": {
+  "editorid": "PIC_VOLI_Precip_Extreme",
+  "winner": "Picta - Weathers of Aurbis.esm",
+  "source": "Picta - Weathers of Aurbis.esm",
+  "fields": {
+   "ColorB": "1",
+   "ColorG": "1",
+   "ColorR": "1",
+   "CustomColorContribution": "0",
+   "DensityContribution": "0",
+   "DensityFallingSpeed": "0",
+   "DensitySize": "0",
+   "DensityWindSpeed": "0",
+   "Intensity": "1",
+   "PhaseFunctionContribution": "1",
+   "PhaseFunctionScattering": "0.55",
+   "SamplingRepartitionRangeFactor": "80"
+  }
+ }
+}

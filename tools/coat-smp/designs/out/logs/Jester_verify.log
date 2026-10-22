@@ -1,0 +1,33 @@
+== men _1: jesterm_1.nif
+  ok   JesterBody: welded remainder area 11304.9 vs the source minus its pieces 11304.9 (81 of 81 split triangles tiled exactly by their children; 81 weld points)
+  ok   JesterBody: split into 4 per triangle, area 12999.1 vs 12999.1
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 56
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\JesterM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   101 constraints, bodies declared
+  ok   66 rig nodes, all declared
+  ok   seam Saia / JesterBody: 169 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 42%, of those on 2 chains 78%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: jesterm_0.nif
+  ok   JesterBody: welded remainder area 10958.2 vs the source minus its pieces 10958.2 (81 of 81 split triangles tiled exactly by their children; 81 weld points)
+  ok   JesterBody: split into 4 per triangle, area 12648.3 vs 12648.3
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 56
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\JesterM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   101 constraints, bodies declared
+  ok   66 rig nodes, all declared
+  ok   seam Saia / JesterBody: 169 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

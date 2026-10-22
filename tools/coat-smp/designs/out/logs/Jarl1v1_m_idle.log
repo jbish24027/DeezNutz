@@ -1,0 +1,19 @@
+== Jarl1v1 m: torso_var1_1.nif  side pen 1.5, front/back 3.0
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 0:  outer caught/sunk  39/ 11 [Side: z 41-46 ang -120..124 depth 1.7..3.3]
+   (check: R knee 20 below the hip moves x +0.00 for 0 deg; hip x +6.6 vs centre -0.0)
+   knees out  0 deg, fwd 8:  outer caught/sunk  88/  9 [Side: z 43-46 ang -102..119 depth 1.6..3.5]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 0:  outer caught/sunk  66/ 17 [Side: z 41-46 ang -119..121 depth 1.7..3.5]
+   (check: R knee 20 below the hip moves x +1.40 for 4 deg; hip x +6.6 vs centre -0.0)
+   knees out  4 deg, fwd 8:  outer caught/sunk  69/ 27 [Side: z 36-46 ang -115..118 depth 1.5..3.0]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 0:  outer caught/sunk  83/ 17 [Side: z 36-46 ang -117..120 depth 1.6..3.3]
+   (check: R knee 20 below the hip moves x +2.78 for 8 deg; hip x +6.6 vs centre -0.0)
+   knees out  8 deg, fwd 8:  outer caught/sunk  91/ 29 [Side: z 36-46 ang -113..118 depth 1.5..3.3]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 0:  outer caught/sunk  83/ 39 [Side: z 36-46 ang -116..113 depth 1.5..3.7]
+   (check: R knee 20 below the hip moves x +4.16 for 12 deg; hip x +6.6 vs centre -0.0)
+   knees out 12 deg, fwd 8:  outer caught/sunk  93/ 58 [Side: z 36-46 ang -112..117 depth 1.6..3.9]
+
+EXIT 0

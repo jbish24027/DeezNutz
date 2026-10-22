@@ -1,0 +1,367 @@
+====================================================================================================
+Authoria - Picta ENB - Root twin exists
+files: 8
+       1  ./
+       1  Root/
+       1  Root/enbcache/
+       5  Root/enbseries/
+          842524 2026-10-17 03:48 Root/enbcache/extexternal.sc
+           55163 2026-10-16 04:33 Root/enbseries.ini
+            3251 2026-10-16 04:33 Root/enbseries/enbadaptation.fx.ini
+           16072 2026-10-16 04:33 Root/enbseries/enbbloom.fx.ini
+           21396 2026-10-16 04:33 Root/enbseries/enbeffect.fx.ini
+           47638 2026-10-14 15:18 Root/enbseries/enbeffectpostpass.fx.ini
+             216 2026-10-01 07:25 Root/enbseries/enbfxcompiler.ini
+             571 2026-10-01 07:25 meta.ini
+====================================================================================================
+Authoria - Picta 1.1.2 - Darkened to 1.0.1 exists
+files: 201
+       4  ./
+       9  enbseries/
+       3  enbseries/Authoria - Interiors/
+       3  enbseries/Authoria - Summer/
+      11  enbseries/Picta - Interiors/
+       1  enbseries/Picta - Weatherlists/
+       1  enbseries/Picta - Weathers/
+      21  enbseries/Picta - Weathers/00_Master/
+      15  enbseries/Picta - Weathers/01_Skyrim/01_Falkreath_Pine_Forest/
+      14  enbseries/Picta - Weathers/01_Skyrim/01_Falkreath_Pine_Forest - Kopie/
+       8  enbseries/Picta - Weathers/01_Skyrim/02_Rift_Fall_Forest/
+       9  enbseries/Picta - Weathers/01_Skyrim/03_Hjaalmarch_Marsh/
+       8  enbseries/Picta - Weathers/01_Skyrim/04_Whiterun_Tundra/
+       8  enbseries/Picta - Weathers/01_Skyrim/05_Reach_Mountains/
+       9  enbseries/Picta - Weathers/01_Skyrim/06_Eastmarch_Volcanic_Tundra/
+       9  enbseries/Picta - Weathers/01_Skyrim/07_Snow_Tundra/
+       9  enbseries/Picta - Weathers/01_Skyrim/08_North_Coast/
+       9  enbseries/Picta - Weathers/01_Skyrim/09_Snow_Mountains/
+       9  enbseries/Picta - Weathers/01_Skyrim/10_Forgotten_Vale/
+       9  enbseries/Picta - Weathers/01_Skyrim/12_Solstheim_Snow_Tundra/
+       9  enbseries/Picta - Weathers/01_Skyrim/13_Solstheim_Mountain_Coast/
+      13  enbseries/Picta - Weathers/01_Skyrim/U01_Skyrim_Main_Quest/
+      10  enbseries/Picta - Weathers/Base_Weather_Templates/
+====================================================================================================
+[NoDelete] Picta ENB 1.1.2 - Data (shipped) exists
+files: 221
+       2  ./
+      16  enbseries/
+      11  enbseries/Picta - Interiors/
+       1  enbseries/Picta - Weatherlists/
+       1  enbseries/Picta - Weathers/
+      21  enbseries/Picta - Weathers/00_Master/
+      21  enbseries/Picta - Weathers/01_Skyrim/
+      15  enbseries/Picta - Weathers/01_Skyrim/01_Falkreath_Pine_Forest/
+      14  enbseries/Picta - Weathers/01_Skyrim/01_Falkreath_Pine_Forest - Kopie/
+       8  enbseries/Picta - Weathers/01_Skyrim/02_Rift_Fall_Forest/
+       9  enbseries/Picta - Weathers/01_Skyrim/03_Hjaalmarch_Marsh/
+       8  enbseries/Picta - Weathers/01_Skyrim/04_Whiterun_Tundra/
+       8  enbseries/Picta - Weathers/01_Skyrim/05_Reach_Mountains/
+       9  enbseries/Picta - Weathers/01_Skyrim/06_Eastmarch_Volcanic_Tundra/
+       9  enbseries/Picta - Weathers/01_Skyrim/07_Snow_Tundra/
+       9  enbseries/Picta - Weathers/01_Skyrim/08_North_Coast/
+       9  enbseries/Picta - Weathers/01_Skyrim/09_Snow_Mountains/
+       9  enbseries/Picta - Weathers/01_Skyrim/10_Forgotten_Vale/
+       9  enbseries/Picta - Weathers/01_Skyrim/12_Solstheim_Snow_Tundra/
+       9  enbseries/Picta - Weathers/01_Skyrim/13_Solstheim_Mountain_Coast/
+      13  enbseries/Picta - Weathers/01_Skyrim/U01_Skyrim_Main_Quest/
+      10  enbseries/Picta - Weathers/Base_Weather_Templates/
+====================================================================================================
+Authoria - Picta - July Depth of Field (AMON ADOF) exists
+files: 4
+       1  ./
+       2  enbseries/
+       1  enbseries/Textures/
+             902 2026-10-13 05:27 enbseries/Textures/BokehMaskAtlas.png
+          158174 2026-10-13 05:27 enbseries/enbdepthoffield.fx
+            3599 2026-10-15 07:18 enbseries/enbdepthoffield.fx.ini
+             678 2026-10-13 05:27 meta.ini
+====================================================================================================
+Authoria - Picta - Bottled raindrop exists
+files: 2
+       1  ./
+       1  enbseries/
+            2776 2026-10-01 08:53 enbseries/enbraindrops.png
+             541 2026-10-01 10:11 meta.ini
+====================================================================================================
+[NoDelete] Silent Horizons 2 - Data exists
+files: 41
+       1  ./
+       6  enbseries/
+      13  enbseries/KiSU/
+       6  enbseries/KiSU/Antialiasing/
+       4  enbseries/KiSU/ENBUI/
+       2  enbseries/KiSU/Platform/
+       4  enbseries/KiSU/Textures/
+       5  enbseries/UI/
+          282624 2026-08-25 06:52 enbseries/KiLoaderSatelliteENB.dllplugin
+             427 2026-08-25 06:52 enbseries/KiSU/Antialiasing/CREAA.fxh
+           33348 2026-08-25 06:52 enbseries/KiSU/Antialiasing/FXAA3_11.fxh
+            1379 2026-08-25 06:52 enbseries/KiSU/Antialiasing/KiFXAA.fxh
+            4093 2026-08-25 06:52 enbseries/KiSU/Antialiasing/KiSMAA.fxh
+            3617 2026-08-25 06:52 enbseries/KiSU/Antialiasing/License.txt
+           23097 2026-08-25 06:52 enbseries/KiSU/Antialiasing/SMAA.fxh
+            5915 2026-08-25 06:52 enbseries/KiSU/BlendModes.fxh
+           12189 2026-08-25 06:52 enbseries/KiSU/ColorSpaces.fxh
+           14664 2026-08-25 06:52 enbseries/KiSU/Common.fxh
+            4321 2026-08-25 06:52 enbseries/KiSU/Common.fxt
+           11937 2026-08-25 06:52 enbseries/KiSU/Debug.fxh
+            2541 2026-08-25 06:52 enbseries/KiSU/Depth.fxh
+            1223 2026-08-25 06:52 enbseries/KiSU/Depth.fxt
+            2022 2026-08-25 06:52 enbseries/KiSU/Dither.fxh
+             992 2026-08-25 06:52 enbseries/KiSU/ENBUI/IncludeArchive.fxh
+            2472 2026-08-25 06:52 enbseries/KiSU/ENBUI/Includer.fxh
+            1382 2026-08-25 06:52 enbseries/KiSU/ENBUI/Join.fxh
+           14701 2026-08-25 06:52 enbseries/KiSU/ENBUI/Primer.fxh
+            9443 2026-08-25 06:52 enbseries/KiSU/LUT.fxh
+            1200 2026-08-25 06:52 enbseries/KiSU/Platform/ENB11.fxh
+            1720 2026-08-25 06:52 enbseries/KiSU/Platform/ENBExt11.fxh
+            3289 2026-08-25 06:52 enbseries/KiSU/Sampling.fxh
+          295450 2026-08-25 06:52 enbseries/KiSU/Textures/AgXTonemapLUT.png
+         1901947 2026-08-25 06:52 enbseries/KiSU/Textures/BlueNoiseAtlas.png
+           44454 2026-08-25 06:52 enbseries/KiSU/Textures/FontAtlas.png
+             796 2026-08-25 06:52 enbseries/KiSU/Textures/License.txt
+            4426 2026-08-25 06:52 enbseries/KiSU/Tonemap.fxh
+            1442 2026-08-25 06:52 enbseries/KiSU/Tonemap.fxt
+            3345 2026-08-25 06:52 enbseries/KiSU/Transforms.fxh
+            1818 2026-08-25 06:52 enbseries/UI/ENBAdaptationUI.fxh
+            3899 2026-08-25 06:52 enbseries/UI/ENBBloomUI.fxh
+            9581 2026-08-25 06:52 enbseries/UI/ENBEffectUI.fxh
+           23847 2026-08-25 06:52 enbseries/UI/ENBPostpassUI.fxh
+            1460 2026-08-25 06:52 enbseries/UI/ENBSharedUI.fxh
+            4344 2026-08-25 06:52 enbseries/enbadaptation.fx
+           13033 2026-08-25 06:52 enbseries/enbbloom.fx
+           14568 2026-08-25 06:52 enbseries/enbeffect.fx
+           53620 2026-08-25 06:52 enbseries/enbeffectpostpass.fx
+             111 2026-08-25 06:52 enbseries/enbfxcompiler.ini
+             199 2026-08-25 06:52 meta.ini
+====================================================================================================
+Silent Horizons 2 - Shader Core exists
+files: 41
+       1  ./
+       6  ROOT/enbseries/
+      13  ROOT/enbseries/KiSU/
+       6  ROOT/enbseries/KiSU/Antialiasing/
+       4  ROOT/enbseries/KiSU/ENBUI/
+       2  ROOT/enbseries/KiSU/Platform/
+       4  ROOT/enbseries/KiSU/Textures/
+       5  ROOT/enbseries/UI/
+          282624 2026-08-25 06:52 ROOT/enbseries/KiLoaderSatelliteENB.dllplugin
+             427 2026-08-25 06:52 ROOT/enbseries/KiSU/Antialiasing/CREAA.fxh
+           33348 2026-08-25 06:52 ROOT/enbseries/KiSU/Antialiasing/FXAA3_11.fxh
+            1379 2026-08-25 06:52 ROOT/enbseries/KiSU/Antialiasing/KiFXAA.fxh
+            4093 2026-08-25 06:52 ROOT/enbseries/KiSU/Antialiasing/KiSMAA.fxh
+            3617 2026-08-25 06:52 ROOT/enbseries/KiSU/Antialiasing/License.txt
+           23097 2026-08-25 06:52 ROOT/enbseries/KiSU/Antialiasing/SMAA.fxh
+            5915 2026-08-25 06:52 ROOT/enbseries/KiSU/BlendModes.fxh
+           12189 2026-08-25 06:52 ROOT/enbseries/KiSU/ColorSpaces.fxh
+           14664 2026-08-25 06:52 ROOT/enbseries/KiSU/Common.fxh
+            4321 2026-08-25 06:52 ROOT/enbseries/KiSU/Common.fxt
+           11937 2026-08-25 06:52 ROOT/enbseries/KiSU/Debug.fxh
+            2541 2026-08-25 06:52 ROOT/enbseries/KiSU/Depth.fxh
+            1223 2026-08-25 06:52 ROOT/enbseries/KiSU/Depth.fxt
+            2022 2026-08-25 06:52 ROOT/enbseries/KiSU/Dither.fxh
+             992 2026-08-25 06:52 ROOT/enbseries/KiSU/ENBUI/IncludeArchive.fxh
+            2472 2026-08-25 06:52 ROOT/enbseries/KiSU/ENBUI/Includer.fxh
+            1382 2026-08-25 06:52 ROOT/enbseries/KiSU/ENBUI/Join.fxh
+           14701 2026-08-25 06:52 ROOT/enbseries/KiSU/ENBUI/Primer.fxh
+            9443 2026-08-25 06:52 ROOT/enbseries/KiSU/LUT.fxh
+            1200 2026-08-25 06:52 ROOT/enbseries/KiSU/Platform/ENB11.fxh
+            1720 2026-08-25 06:52 ROOT/enbseries/KiSU/Platform/ENBExt11.fxh
+            3289 2026-08-25 06:52 ROOT/enbseries/KiSU/Sampling.fxh
+          295450 2026-08-25 06:52 ROOT/enbseries/KiSU/Textures/AgXTonemapLUT.png
+         1901947 2026-08-25 06:52 ROOT/enbseries/KiSU/Textures/BlueNoiseAtlas.png
+           44454 2026-08-25 06:52 ROOT/enbseries/KiSU/Textures/FontAtlas.png
+             796 2026-08-25 06:52 ROOT/enbseries/KiSU/Textures/License.txt
+            4426 2026-08-25 06:52 ROOT/enbseries/KiSU/Tonemap.fxh
+            1442 2026-08-25 06:52 ROOT/enbseries/KiSU/Tonemap.fxt
+            3345 2026-08-25 06:52 ROOT/enbseries/KiSU/Transforms.fxh
+            1818 2026-08-25 06:52 ROOT/enbseries/UI/ENBAdaptationUI.fxh
+            3899 2026-08-25 06:52 ROOT/enbseries/UI/ENBBloomUI.fxh
+            9581 2026-08-25 06:52 ROOT/enbseries/UI/ENBEffectUI.fxh
+           23847 2026-08-25 06:52 ROOT/enbseries/UI/ENBPostpassUI.fxh
+            1460 2026-08-25 06:52 ROOT/enbseries/UI/ENBSharedUI.fxh
+            4344 2026-08-25 06:52 ROOT/enbseries/enbadaptation.fx
+           13033 2026-08-25 06:52 ROOT/enbseries/enbbloom.fx
+           14568 2026-08-25 06:52 ROOT/enbseries/enbeffect.fx
+           53620 2026-08-25 06:52 ROOT/enbseries/enbeffectpostpass.fx
+             111 2026-08-25 06:52 ROOT/enbseries/enbfxcompiler.ini
+            3785 2026-08-25 06:52 meta.ini
+====================================================================================================
+Authoria - ENB Extender 1.6.0 - KiENBExtender only exists
+files: 2
+       1  ./
+       1  KiLoader/Plugins/
+         1196032 2026-10-01 07:25 KiLoader/Plugins/KiENBExtender.dll
+             554 2026-10-01 07:25 meta.ini
+====================================================================================================
+KiLoader for Skyrim exists
+files: 7
+       1  ./
+       2  KiLoader/
+       1  KiLoader/Dependencies/
+       2  KiLoader/SatelliteOriginals/
+       1  SKSE/Plugins/
+           25088 2023-08-29 18:34 KiLoader/Dependencies/KiHalloc.dll
+          626688 2024-04-15 07:53 KiLoader/KiLoader.dll
+             297 2024-03-25 12:37 KiLoader/KiLoader.kfg
+          282624 2026-07-27 13:34 KiLoader/SatelliteOriginals/KiLoaderSatelliteENB.dllplugin
+          421376 2026-07-27 13:34 KiLoader/SatelliteOriginals/KiLoaderSatelliteSKSE.dll
+          421376 2026-07-27 13:34 SKSE/Plugins/KiLoaderSatelliteSKSE.dll
+            2052 2026-07-27 14:31 meta.ini
+====================================================================================================
+[NoDelete] Bottled Shaders exists
+files: 427
+       3  ./
+       3  Interface/CommunityShaders/Fonts/CrimsonPro/
+       4  Interface/CommunityShaders/Fonts/IBMPlexMono/
+       7  Interface/CommunityShaders/Fonts/IBMPlexSans/
+       4  Interface/CommunityShaders/Fonts/IBMPlexSerif/
+       4  Interface/CommunityShaders/Fonts/Inter/
+       4  Interface/CommunityShaders/Fonts/Jost/
+       3  Interface/CommunityShaders/Fonts/OpenDyslexic/
+       8  Interface/CommunityShaders/Fonts/Roboto/
+       3  Interface/CommunityShaders/Fonts/RobotoSlab/
+       4  Interface/CommunityShaders/Fonts/Rubik/
+       2  Interface/CommunityShaders/Fonts/Sanguis/
+       3  Interface/CommunityShaders/Fonts/Sovngarde/
+       5  ParticleLights/
+       3  Renderdoc/
+       2  SKSE/Plugins/
+       1  SKSE/Plugins/CommunityShaders/Overrides/
+       2  SKSE/Plugins/CommunityShaders/PostProcessing/
+       6  SKSE/Plugins/CommunityShaders/Themes/
+       9  SKSE/Plugins/CommunityShaders/Translations/
+       1  SKSE/Plugins/CommunityShaders/UnifiedWaterCache/
+      51  Shaders/
+       1  Shaders/CloudShadows/
+      26  Shaders/Common/
+       2  Shaders/Common/Glints/
+       2  Shaders/Common/Spherical Harmonics/
+       8  Shaders/DynamicCubemaps/
+      14  Shaders/Effects11/
+       7  Shaders/ExponentialHeightFog/
+       3  Shaders/ExtendedMaterials/
+       1  Shaders/ExtendedTranslucency/
+      49  Shaders/Features/
+       5  Shaders/FootstepParticles/
+       1  Shaders/FurShells/
+       2  Shaders/GrassCollision/
+       1  Shaders/GrassLighting/
+       3  Shaders/GrassOptimizations/
+       1  Shaders/GrassOptimizations/SPD/
+       3  Shaders/HDRDisplay/
+       2  Shaders/Hair/
+       1  Shaders/HairBacklighting/
+       3  Shaders/HiZOcclusion/
+       4  Shaders/IBL/
+       1  Shaders/LandscapeSeams/
+       6  Shaders/LightLimitFix/
+       3  Shaders/Menu/
+       3  Shaders/PostProcessing/
+       2  Shaders/PostProcessing/Border/
+       2  Shaders/PostProcessing/CODBloom/
+       1  Shaders/PostProcessing/Camera/
+       1  Shaders/PostProcessing/ColorGrading/
+       5  Shaders/PostProcessing/ColorGrading/Include/
+       3  Shaders/PostProcessing/ColorGrading/Include/renodx/
+      19  Shaders/PostProcessing/ColorGrading/Include/renodx/color/
+       4  Shaders/PostProcessing/ColorGrading/Include/renodx/math/
+       5  Shaders/PostProcessing/ColorGrading/Include/renodx/tonemap/
+       1  Shaders/PostProcessing/Composite/
+       3  Shaders/PostProcessing/DoF/
+       6  Shaders/PostProcessing/DoF/bokehshapes/
+       2  Shaders/PostProcessing/HistogramAutoExposure/
+       1  Shaders/PostProcessing/LUT/
+       2  Shaders/PostProcessing/LensFlare/
+       1  Shaders/PostProcessing/LocalExposure/
+       4  Shaders/PostProcessing/MotionBlur/
+       8  Shaders/PostProcessing/PhysicalGlare/
+       1  Shaders/PostProcessing/Vignette/
+       2  Shaders/ProceduralSun/
+       9  Shaders/ScreenSpaceGI/
+       3  Shaders/ScreenSpaceShadows/
+       2  Shaders/Skin/
+       2  Shaders/Skylighting/
+      17  Shaders/SnowCover/
+       3  Shaders/SnowCover/default/
+       5  Shaders/SubsurfaceScattering/
+       2  Shaders/TerrainBlending/
+       2  Shaders/TerrainShadows/
+       1  Shaders/TerrainVariation/
+       3  Shaders/VolumetricShadows/
+       3  Shaders/WaterEffects/
+       2  Shaders/WetnessEffects/
+       1  meshes/water/
+       1  textures/heightmaps/
+      14  textures/terrain/HeightMaps/
+====================================================================================================
+Authoria - ReShade - Picta lane preset exists
+files: 10
+       2  ./
+       8  Root/
+           15992 2026-10-14 09:12 Root/Northman II.ini
+            3678 2026-10-12 12:38 Root/Northman II.ini.bak-beforeui-20261013
+            3891 2026-10-12 12:05 Root/Northman II.ini.bak-noblur-20261012
+            3892 2026-10-13 04:43 Root/Northman II.ini.bak-useredits-20261013-0443
+           15992 2026-10-13 04:47 Root/Northman II.ini.original-159125-1.0
+            2795 2026-10-13 04:47 Root/ReShade.ini
+            2797 2026-10-13 04:38 Root/ReShade.ini.bak-northmanorig-20261013
+            2788 2026-10-12 07:29 Root/ReShade.ini.bak-toggle-20261012
+            1168 2026-10-13 04:47 meta.ini
+             868 2026-10-06 05:43 meta.ini.bak-northmanorig-20261013
+====================================================================================================
+[NoDelete] Soul Core ENB - Data exists
+files: 177
+       2  ./
+       1  _backups/2026-08-24 - E11 interior ambient 0.5 to 0.75/
+      30  _backups/2026-08-24 - E11 interior ambient 0.5 to 0.75/enbseries/
+       1  _backups/2026-08-28 - E11 ambient lighting intensity 0.75 to 0.5/
+      21  _backups/2026-08-28 - E11 ambient lighting intensity 0.75 to 0.5/enbseries/
+       1  _backups/2026-08-28 - E11 water muddiness 0.88 to 0.75/
+       6  _pre-reset-drift-backup-20260811/
+      35  enbseries/
+       2  enbseries/Include/Shared/
+       2  enbseries/KiSU/Textures/
+       1  enbseries/KreatE/
+       1  enbseries/KreatE/Soul Core/
+      71  enbseries/KreatE/Soul Core/LightingTemplates/
+       3  enbseries/Textures/
+====================================================================================================
+Authoria - Effects 11 Core - NAT (plain) exists
+files: 13
+       2  ./
+      11  enbseries/
+           52038 2026-09-25 18:20 enbseries.ini
+          237768 2026-09-25 17:42 enbseries/NATENB_BadInstall.png
+          583427 2026-09-25 17:42 enbseries/NATENB_NightEye.png
+          545416 2026-09-25 17:42 enbseries/NATENB_atmospheric.png
+          599184 2026-09-25 17:42 enbseries/NATENB_nat.png
+          469801 2026-09-25 17:42 enbseries/NATENB_natural.png
+           14494 2026-09-25 17:41 enbseries/enbadaptation.fx
+            1135 2026-09-25 17:41 enbseries/enbadaptation.fx.ini
+           10298 2026-09-25 17:41 enbseries/enbbloom.fx
+              47 2026-09-25 17:41 enbseries/enbbloom.fx.ini
+           42333 2026-09-25 17:41 enbseries/enbeffect.fx
+             177 2026-09-25 17:41 enbseries/enbeffect.fx.ini
+             658 2026-09-25 17:52 meta.ini
+====================================================================================================
+houseCARL - Authoria - Patch - Astralite Dawn Warmth exists
+files: 18
+      18  ./
+          546893 2026-08-22 09:37 Authoria - Patch - Astralite Dawn Warmth.esp
+          546893 2026-08-20 16:46 Authoria - Patch - Astralite Dawn Warmth.esp.bak-authored-reset-20260820
+          518320 2026-08-20 16:43 Authoria - Patch - Astralite Dawn Warmth.esp.bak-pre-blanket-20260820
+          546893 2026-08-22 07:50 Authoria - Patch - Astralite Dawn Warmth.esp.bak-pre-voli-20260822
+          549886 2026-08-22 09:37 Authoria - Patch - Astralite Dawn Warmth.esp.bak-round6-20260822
+           14707 2026-08-22 07:55 README.md
+           57724 2026-08-20 10:34 TONE-LEDGER-round1.json
+           33884 2026-08-20 10:57 TONE-LEDGER-round2.json
+           23531 2026-08-20 13:46 TONE-LEDGER-round3-solstheim.json
+           75161 2026-08-20 14:54 TONE-LEDGER-round4-solstheim.json
+          849659 2026-08-20 16:48 TONE-LEDGER-round5-blanket.json
+            7207 2026-08-22 07:55 TONE-LEDGER-round6-volumetric.json
+           11086 2026-08-20 16:48 blanket_coverage.json
+             952 2026-08-20 10:35 meta.ini
+            7052 2026-08-20 13:46 tone_round3_solstheim.py
+            7033 2026-08-20 14:54 tone_round4_solstheim.py
+           10044 2026-08-20 16:48 tone_round5_blanket.py
+            6804 2026-08-22 07:55 tone_round6_volumetric.py

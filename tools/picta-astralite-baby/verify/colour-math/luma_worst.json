@@ -1,0 +1,514 @@
+{
+ "mid+A_mid": {
+  "band_top": [
+   0.0332,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "band_hor": [
+   0.0428,
+   9.0,
+   "19FA01",
+   "picta"
+  ],
+  "dome_zenith": [
+   0.0331,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_hor_sun": [
+   -0.0554,
+   7.5,
+   "19FB01",
+   "picta"
+  ],
+  "sunglow_hor": [
+   -0.5871,
+   10.0,
+   "19FA03",
+   "picta"
+  ],
+  "dome_hor_away": [
+   0.0405,
+   18.0,
+   "19FC03",
+   "picta"
+  ],
+  "dome_mid_away": [
+   0.0323,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_mid_sun": [
+   0.0672,
+   9.25,
+   "19FA01",
+   "fair"
+  ],
+  "scat_at_sun": [
+   0.4346,
+   9.5,
+   "19FB02",
+   "fair"
+  ],
+  "cloud_base": [
+   0.32,
+   7.25,
+   "19FD01",
+   "picta"
+  ],
+  "cloud_sunlit": [
+   0.4103,
+   9.5,
+   "19FB02",
+   "fair"
+  ],
+  "cloud_rim": [
+   -7.4187,
+   18.75,
+   "19FC04",
+   "picta"
+  ],
+  "fog_far": [
+   0.105,
+   17.75,
+   "5AFA01",
+   "picta"
+  ],
+  "fog_near": [
+   -0.1369,
+   9.0,
+   "5AFA01",
+   "picta"
+  ],
+  "sunlight": [
+   -0.4452,
+   18.5,
+   "19FE01",
+   "picta"
+  ],
+  "amb_XPlus": [
+   -0.5971,
+   9.0,
+   "19FC01",
+   "fair"
+  ],
+  "amb_XMinus": [
+   -0.7028,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YPlus": [
+   -0.6759,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YMinus": [
+   -0.6759,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZPlus": [
+   -0.7085,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZMinus": [
+   -0.6414,
+   17.0,
+   "19FA01",
+   "fair"
+  ]
+ },
+ "mid+B_edge": {
+  "band_top": [
+   0.0332,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "band_hor": [
+   0.0428,
+   9.0,
+   "19FA01",
+   "picta"
+  ],
+  "dome_zenith": [
+   0.033,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_hor_sun": [
+   0.2771,
+   20.0,
+   "19FA01",
+   "picta"
+  ],
+  "sunglow_hor": [
+   0.726,
+   20.0,
+   "19FC01",
+   "picta"
+  ],
+  "dome_hor_away": [
+   0.1099,
+   6.0,
+   "19FA01",
+   "picta"
+  ],
+  "dome_mid_away": [
+   0.0323,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_mid_sun": [
+   0.0603,
+   6.75,
+   "5AFA01",
+   "picta"
+  ],
+  "scat_at_sun": [
+   1.3212,
+   20.0,
+   "19FC01",
+   "picta"
+  ],
+  "cloud_base": [
+   0.32,
+   7.25,
+   "19FD01",
+   "picta"
+  ],
+  "cloud_sunlit": [
+   1.1208,
+   20.0,
+   "19FC01",
+   "picta"
+  ],
+  "cloud_rim": [
+   -7.3442,
+   18.75,
+   "19FC04",
+   "picta"
+  ],
+  "fog_far": [
+   0.105,
+   17.75,
+   "5AFA01",
+   "picta"
+  ],
+  "fog_near": [
+   -0.1369,
+   9.0,
+   "5AFA01",
+   "picta"
+  ],
+  "sunlight": [
+   -0.4452,
+   18.5,
+   "19FE01",
+   "picta"
+  ],
+  "amb_XPlus": [
+   -0.5971,
+   9.0,
+   "19FC01",
+   "fair"
+  ],
+  "amb_XMinus": [
+   -0.7028,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YPlus": [
+   -0.6759,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YMinus": [
+   -0.6759,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZPlus": [
+   -0.7085,
+   17.25,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZMinus": [
+   -0.6414,
+   17.0,
+   "19FA01",
+   "fair"
+  ]
+ },
+ "plateau+A_mid": {
+  "band_top": [
+   0.0332,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "band_hor": [
+   0.0428,
+   9.0,
+   "19FA01",
+   "picta"
+  ],
+  "dome_zenith": [
+   0.033,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_hor_sun": [
+   -0.0928,
+   18.75,
+   "19FC01",
+   "picta"
+  ],
+  "sunglow_hor": [
+   -0.5871,
+   10.0,
+   "19FA03",
+   "picta"
+  ],
+  "dome_hor_away": [
+   0.0379,
+   17.75,
+   "19FC03",
+   "picta"
+  ],
+  "dome_mid_away": [
+   0.0321,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_mid_sun": [
+   0.0743,
+   9.25,
+   "19FA01",
+   "fair"
+  ],
+  "scat_at_sun": [
+   0.5133,
+   9.5,
+   "19FB02",
+   "fair"
+  ],
+  "cloud_base": [
+   0.32,
+   7.25,
+   "19FD01",
+   "picta"
+  ],
+  "cloud_sunlit": [
+   0.48,
+   9.5,
+   "19FB02",
+   "fair"
+  ],
+  "cloud_rim": [
+   -7.5995,
+   18.75,
+   "19FC04",
+   "picta"
+  ],
+  "fog_far": [
+   -0.0839,
+   9.0,
+   "5AFA01",
+   "picta"
+  ],
+  "fog_near": [
+   -0.1369,
+   9.0,
+   "5AFA01",
+   "picta"
+  ],
+  "sunlight": [
+   -0.5452,
+   18.0,
+   "19FD03",
+   "picta"
+  ],
+  "amb_XPlus": [
+   -1.0646,
+   8.75,
+   "19FC01",
+   "fair"
+  ],
+  "amb_XMinus": [
+   -1.2476,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YPlus": [
+   -1.221,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YMinus": [
+   -1.221,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZPlus": [
+   -1.3016,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZMinus": [
+   -0.981,
+   17.0,
+   "19FC01",
+   "fair"
+  ]
+ },
+ "plateau+B_edge": {
+  "band_top": [
+   0.0332,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "band_hor": [
+   0.0428,
+   9.0,
+   "19FA01",
+   "picta"
+  ],
+  "dome_zenith": [
+   0.0329,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_hor_sun": [
+   0.2771,
+   20.0,
+   "19FA01",
+   "picta"
+  ],
+  "sunglow_hor": [
+   0.726,
+   20.0,
+   "19FC01",
+   "picta"
+  ],
+  "dome_hor_away": [
+   0.1099,
+   6.0,
+   "19FA01",
+   "picta"
+  ],
+  "dome_mid_away": [
+   0.0321,
+   17.75,
+   "19FC04",
+   "picta"
+  ],
+  "dome_mid_sun": [
+   -0.0872,
+   18.75,
+   "19FC01",
+   "picta"
+  ],
+  "scat_at_sun": [
+   1.3212,
+   20.0,
+   "19FC01",
+   "picta"
+  ],
+  "cloud_base": [
+   0.32,
+   7.25,
+   "19FD01",
+   "picta"
+  ],
+  "cloud_sunlit": [
+   1.1208,
+   20.0,
+   "19FC01",
+   "picta"
+  ],
+  "cloud_rim": [
+   -7.5085,
+   18.75,
+   "19FC04",
+   "picta"
+  ],
+  "fog_far": [
+   -0.0839,
+   9.0,
+   "5AFA01",
+   "picta"
+  ],
+  "fog_near": [
+   -0.1369,
+   9.0,
+   "5AFA01",
+   "picta"
+  ],
+  "sunlight": [
+   -0.5452,
+   18.0,
+   "19FD03",
+   "picta"
+  ],
+  "amb_XPlus": [
+   -1.0646,
+   8.75,
+   "19FC01",
+   "fair"
+  ],
+  "amb_XMinus": [
+   -1.2476,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YPlus": [
+   -1.221,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_YMinus": [
+   -1.221,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZPlus": [
+   -1.3016,
+   17.5,
+   "19FC01",
+   "fair"
+  ],
+  "amb_ZMinus": [
+   -0.981,
+   17.0,
+   "19FC01",
+   "fair"
+  ]
+ }
+}

@@ -1,0 +1,2062 @@
+### 02299D:Unslaad.esm zzzCrbMq02 (QF_zzzCrbMq02_0302299D)
+  STAGE 0 Fragment_0
+    SetObjectiveDisplayed(0)
+    SetActive(TRUE)
+  STAGE 10 Fragment_2
+    SetObjectiveCompleted(0)
+    SetObjectiveDisplayed(10)
+  STAGE 20 Fragment_4
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(20)
+    CastleDoorRef.BlockActivation(FALSE)
+  STAGE 30 Fragment_6
+    SetObjectiveCompleted(20)
+    BossSafe.Disable()
+    CU02Door.Lock()
+  STAGE 40 Fragment_10
+    SetObjectiveDisplayed(40)
+    Alias_Austera.GetActorRef().SetAV("Aggression", 2)
+    Alias_Austera.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+    Alias_Austera.GetActorRef().StartCombat(game.GetPlayer())
+    MusAustera.Add()
+  STAGE 50 Fragment_8
+    CU02Door.Lock(False)
+    SetObjectiveCompleted(40)
+    SetObjectiveDisplayed(50)
+    Utility.wait(6.0)
+    MusAustera.Remove()
+  STAGE 60 Fragment_14
+    SetObjectiveCompleted(50)
+  STAGE 100 Fragment_16
+    ;Good End
+    Game.GetPlayer().Additem(Alias_Doll.GetRef())
+    SetObjectiveDisplayed(100)
+  STAGE 110 Fragment_22
+    Alias_Ulliss.GetActorRef().Additem(Alias_Doll.GetRef())
+    Alias_Ulliss.GetActorRef().SetRelationshipRank(game.getPlayer(),3)
+    ;Alias_Ulliss.TryToAddToFaction(MarriableFaction)
+    SetObjectiveCompleted(100)
+  STAGE 120 Fragment_25
+    Utility.Wait(1.0)
+    Stop()
+  STAGE 200 Fragment_18
+    ;Man End
+    SetObjectiveDisplayed(200)
+    SnowSpiritsMarker.Disable()
+    Alias_Ulliss.TryToDisable()
+    Alias_UllissHuman.TryToEnable()
+    Alias_UllissHuman.TryToEvaluatePackage()
+    Alias_Cat.TryToEvaluatePackage()
+    UllissDeadSc.ForceStart()
+  STAGE 210 Fragment_27
+    Alias_UllissHuman.TryToKill()
+    SetObjectiveCompleted(200)
+  STAGE 220 Fragment_29
+    Alias_UllissHuman.TryToDisable()
+    DollNoTail.Disable()
+    UllissGrave.Enable()
+    Utility.Wait(1.0)
+    Stop()
+  STAGE 300 Fragment_20
+    ;Dragon End
+    SetObjectiveDisplayed(300)
+    Alias_Ulliss.TryToDisable()
+    Alias_Cat.TryToDisable()
+    SnowSpiritsMarker.Disable()
+    AishaDeadMarker.Enable()
+    Alias_UllissDragon.TryToEnable()
+    Alias_UllissDragon.TryToEvaluatePackage()
+    DragonFightTRG.Enable()
+  STAGE 310 Fragment_31
+    SetObjectiveCompleted(300)
+    SetObjectiveDisplayed(310)
+    UnslaadExit.Disable()
+    CastleDoorRef.BlockActivation(TRUE)
+    Alias_UllissDragon.GetActorRef().SetAV("Aggression", 2)
+    Alias_UllissDragon.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+    Alias_UllissDragon.GetActorRef().StartCombat(game.GetPlayer())
+    MusUlliss.Add()
+  STAGE 320 Fragment_32
+    SetObjectiveCompleted(310)
+    UnslaadExit.Enable()
+    CastleDoorRef.BlockActivation(FALSE)
+    Utility.wait(6.0)
+    MusUlliss.Remove()
+    Utility.wait(3)
+    Stop()
+  STAGE 999 Fragment_35
+    Alias_Austera.TryToDisable()
+  STAGE 9999 Fragment_37
+    ;9999 Debug Skip
+    if Game.GetPlayer().GetItemCount(UnslaadCastleKey) == 0
+    Game.GetPlayer().AddItem(UnslaadCastleKey,1)
+    endif
+    BossSafe.Disable()
+    CU02Door.Lock(False)
+    Alias_Cat.TryToEnable()
+    Alias_Ulliss.TryToEnable()
+    Alias_Ulliss.GetActorRef().Additem(Alias_Doll.GetRef())
+    Alias_Ulliss.GetActorRef().SetRelationshipRank(game.getPlayer(),3)
+    ;In case of Bad Ends
+    Alias_UllissHuman.TryToDisable()
+    SnowSpiritsMarker.Enable()
+    DragonFightTRG.Disable()
+    UnslaadExit.Enable()
+    CastleDoorRef.BlockActivation(FALSE)
+    AishaDeadMarker.Disable()
+    if Alias_UllissDragon.GetRef().IsDisabled() == False
+    Alias_UllissDragon.TryToDisable()
+    MusUlliss.Remove()
+    endif
+    SetStage(120)
+### 112A83:Unslaad.esm zzzCrbMq03 (QF_zzzCrbMq03_03112A83)
+  STAGE 0 Fragment_0
+    ;;0
+    ;;2.0 Update
+    Game.GetPlayer().AddtoFaction(UnslaadFaction)
+  STAGE 10 Fragment_2
+    ;;10
+    SetObjectiveDisplayed(10)
+    SetActive(TRUE)
+  STAGE 20 Fragment_4
+    ;20
+    Game.GetPlayer().RemoveItem(Gold001, 100)
+    Game.GetPlayer().AddItem(KeyBellTower, 1)
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(20)
+  STAGE 23 Fragment_15
+    ;;Sc01 Start
+    Alias_AusteraGhost.TryToEnable()
+    Alias_OwlGhost.TryToEnable()
+    Sc01.ForceStart()
+    Alias_AusteraGhost.TryToEvaluatePackage()
+    Alias_OwlGhost.TryToEvaluatePackage()
+  STAGE 25 Fragment_12
+    ;;Scene End
+    Alias_AusteraGhost.TryToDisable()
+    Alias_OwlGhost.TryToDisable()
+  STAGE 30 Fragment_5
+    ;30
+    ;;Force Scene End
+    Sc01.Stop()
+    Alias_AusteraGhost.TryToDisable()
+    Alias_OwlGhost.TryToDisable()
+    ;Get Ring
+    Game.GetPlayer().AddItem(DragonRing, 1)
+    Game.GetPlayer().ModActorValue("DragonSouls", 1)
+    ShortCut01.Enable()
+    SetObjectiveCompleted(20)
+    SetObjectiveDisplayed(30)
+    ;Enable Star Trigger
+    StarTRG.Enable()
+    ;Finish SubQuest
+    Sq02.SetStage(100)
+  STAGE 40 Fragment_6
+    ;40
+    SetObjectiveCompleted(30)
+    DoorLU.Enable()
+    Mq04.Start()
+    Mq04.Setstage(0)
+    SetStage(50)
+  STAGE 50 Fragment_8
+    ;;50
+    Stop()
+  STAGE 9999 Fragment_19
+    ;9999 Debug Skip
+    Sq02.SetStage(9999)
+    Game.GetPlayer().AddtoFaction(UnslaadFaction)
+    if Game.GetPlayer().GetItemCount(KeyBellTower) == 0
+    Game.GetPlayer().AddItem(KeyBellTower, 1)
+    endif
+    if Game.GetPlayer().GetItemCount(DragonRing) == 0
+    Game.GetPlayer().AddItem(DragonRing, 1)
+    endif
+    Alias_AusteraGhost.TryToDisable()
+    Alias_OwlGhost.TryToDisable()
+    ShortCut01.Enable()
+    DoorLU.Enable()
+    StarObj.Disable()
+    StarTRG.Disable()
+    Utility.wait(0.01)
+    Stop()
+### 117B3E:Unslaad.esm zzzCrbMq04 (QF_zzzCrbMq04_03117B3E)
+  STAGE 0 Fragment_0
+    ;0
+    SetObjectiveDisplayed(0)
+    SetActive(TRUE)
+  STAGE 10 Fragment_2
+    ;10
+    SetObjectiveCompleted(0)
+    SetObjectiveDisplayed(10)
+  STAGE 15 Fragment_4
+    ;15
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(15)
+    SetObjectiveDisplayed(16)
+  STAGE 20 Fragment_5
+    ;20 Meet Aisya
+    Alias_Aisya.TryToEnable()
+  STAGE 25 Fragment_7
+    ;25 Aisya down
+    SetObjectiveCompleted(15)
+  STAGE 30 Fragment_9
+    ;30 Aisya Die
+    If IsObjectiveCompleted(15) == False
+    SetObjectiveCompleted(15)
+    endif
+    Alias_Aisya.GetActorRef().GetActorBase().SetEssential(FALSE)
+    Alias_Aisya.TryToKill()
+  STAGE 35 Fragment_21
+    ;;35 Find Boss
+    if IsObjectiveDisplayed(40) == False
+    SetObjectiveDisplayed(40)
+    endif
+    if IsObjectiveDisplayed(45) == False
+    SetObjectiveDisplayed(45)
+    endif
+    Alias_Boss01.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+    Alias_Boss02.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+  STAGE 40 Fragment_15
+    ;40 Dragon Slayer Die
+    SetObjectiveCompleted(40)
+    If GetStageDone(45)
+    SetStage(50)
+    Endif
+  STAGE 45 Fragment_17
+    ;45 Three Mask Die
+    SetObjectiveCompleted(45)
+    If GetStageDone(40)
+    SetStage(50)
+    Endif
+  STAGE 50 Fragment_19
+    ;50 Ready Pus of Alduin
+    PusTrigger.Enable()
+  STAGE 55 Fragment_23
+    ;;55 Pus of Alduin Appear
+    BossBarrier.Enable()
+    EvilFog.playAnimation("playAnim01")
+    Utility.Wait(4.00)
+    MusPus.Add()
+    Utility.Wait(4.00)
+    Alias_Boss03.TryToEnable()
+    Alias_Boss03.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+    Alias_Boss03.GetRef().PlaceAtMe(PusExp)
+    SetObjectiveDisplayed(55)
+    Utility.Wait(8.60)
+    EvilFog.Disable()
+  STAGE 60 Fragment_25
+    ;;60 Pus of Alduin Die
+    BossBarrier.Disable()
+    SoulCollision.Disable()
+    SetObjectiveCompleted(55)
+    Utility.wait(5.0)
+    MusPus.Remove()
+  STAGE 70 Fragment_26
+    ;;70 Owl Appear
+    Alias_Owl.TryToEnable()
+    Alias_Owl.TryToEvaluatePackage()
+    ScOwl.ForceStart()
+    SetObjectiveCompleted(16)
+    SetObjectiveDisplayed(70)
+  STAGE 80 Fragment_28
+    ; 80 Dragon Souls
+    DSTrigger.Enable()
+    SetObjectiveCompleted(70)
+    SetObjectiveDisplayed(80)
+  STAGE 90 Fragment_29
+    ; 90 Kedama Appear
+    Alias_Owl.TryToDisable()
+    Alias_Kedama.TryToMoveTo(KedamaWarpMarker)
+    Alias_Kedama.TryToEnable()
+    Alias_Kedama.TryToEvaluatePackage()
+    Sc01.ForceStart()
+    SetObjectiveCompleted(80)
+    SetObjectiveDisplayed(90)
+  STAGE 100 Fragment_31
+    SetObjectiveCompleted(100)
+    MapMarker.Enable()
+    MapMarker2.Enable()
+    DoorToNS.Enable()
+    Mq05.Start()
+    Mq05.SetStage(0)
+    Utility.wait(1.0)
+    Stop()
+  STAGE 9999 Fragment_34
+    ;9999 Debug Skip
+    MapMarker.Enable()
+    MapMarker2.Enable()
+    Alias_Boss01.TryToDisable()
+    Alias_Boss02.TryToDisable()
+    Alias_Aisya.TryToDisable()
+    BossBarrier.Disable()
+    SoulCollision.Disable()
+    EvilFog.Disable()
+    Alias_Owl.TryToDisable()
+    Alias_Kedama.TryToMoveTo(KedamaWarpMarker)
+    DoorToNS.Enable()
+    Utility.wait(0.01)
+    Stop()
+### 117B3F:Unslaad.esm zzzCrbMq05 (QF_zzzCrbMq05_03117B3F)
+  STAGE 0 Fragment_0
+    ;Quest Start
+    ALias_Lizz.TryToMoveTo(GraveMarker)
+    Alias_Lizz.TryToEvaluatePackage()
+    utility.wait(0.1)
+    SetObjectiveDisplayed(0)
+    SetActive()
+  STAGE 5 Fragment_2
+    ;Lizz grave scene
+    ScGrave.ForceStart()
+  STAGE 10 Fragment_4
+    ;Talk with Lizz
+    SetObjectiveCompleted(0)
+    SetObjectiveDisplayed(10)
+  STAGE 15 Fragment_6
+    ;After introduction
+  STAGE 20 Fragment_8
+    ;Lizz Guide Start
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(20)
+    ScGuide.ForceStart()
+  STAGE 30 Fragment_10
+    ;Scene of Jacobee and Lizz
+    If Alias_Lizz.GetRef().GetDistance(Alias_Kedama.GetRef())>2500
+    Alias_Lizz.TryToMoveTo(Alias_Kedama.GetRef())
+    if Game.GetPlayer().GetDistance(Alias_Kedama.GetRef()) > 5000
+    Game.GetPlayer().MoveTo(Alias_Kedama.GetRef())
+    endif
+    endif
+    ScJacobee.ForceStart()
+  STAGE 40 Fragment_12
+    ;Talk with Jacobee
+    SetObjectiveCompleted(20)
+    SetObjectiveDisplayed(40)
+  STAGE 50 Fragment_14
+    ;Accept explore northern area
+    SetObjectiveCompleted(40)
+    SetObjectiveDisplayed(50)
+  STAGE 60 Fragment_16
+    ;;Find Owl
+    SetObjectiveCompleted(50)
+    SetObjectiveDisplayed(60)
+  STAGE 70 Fragment_18
+    ;;Owl Explain
+    BossRush.Start() ;Prepare Rush
+  STAGE 80 Fragment_20
+    ;;Battle
+    Blizzard.SetActive(True)
+    Game.EnableFastTravel(FALSE)
+    BarrierMarker.Enable()
+    SetObjectiveCompleted(60)
+    SetObjectiveDisplayed(80)
+    Alias_Owl.GetRef().PlaceAtMe(SummonIN)
+    Utility.wait(0.1)
+    Alias_Owl.TryToDisable()
+    BossRush.Setstage(1)
+  STAGE 90 Fragment_21
+    ;;VS Jhunal
+    MusOwl.Add()
+    OwlSpawn.PlaceAtMe(SummonOut)
+    Alias_Owl.TryToMoveTo(OwlSpawn)
+    Alias_Owl.TryToEnable()
+    Utility.wait(0.01)
+    Alias_Owl.GetActorRef().AllowBleedoutDialogue(true)
+    Alias_Owl.GetActorRef().AddSpell(OwlAbility)
+    Alias_Owl.GetActorRef().AddSpell(AbBossDifficulty)
+    Utility.wait(0.01)
+    Alias_Owl.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_Owl.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_Owl.GetActorRef().StartCombat(Game.GetPlayer())
+    SetObjectiveCompleted(80)
+    SetObjectiveDisplayed(90)
+  STAGE 100 Fragment_24
+    ;Owl Beggin life
+    MusOwl.Remove()
+    SetObjectiveCompleted(90)
+    If Alias_Owl.GetActorRef().IsDead()
+    Alias_Owl.TryToReset()
+    Utility.wait(0.1)
+    Endif
+    if Alias_Owl.GetActorRef().GetNoBleedoutRecovery()
+    Alias_Owl.GetActorRef().SetNoBleedoutRecovery(False)
+    endif
+    Utility.wait(2.5)
+    Alias_Owl.GetActorRef().SetActorValue("Aggression", 0)
+    Alias_Owl.GetActorRef().SetRelationshipRank(Game.GetPlayer(), 1)
+    Alias_Owl.GetActorRef().StopCombat()
+    Alias_Owl.GetActorRef().RemoveSpell(OwlAbility)
+    Alias_Owl.GetActorRef().RemoveSpell(AbBossDifficulty)
+    Alias_Owl.GetActorRef().RestoreAV("Health", 2000)
+    Utility.wait(1.0)
+    Alias_Owl.GetRef().PlaceAtMe(SummonIN)
+    Alias_Owl.TryToDisable()
+    Utility.wait(0.1)
+    SucidePostion.PlaceAtMe(SummonOut)
+    Alias_Owl.TryToMoveTo(SucidePostion)
+    Alias_Owl.TryToEnable()
+    Alias_Owl.TryToEvaluatePackage()
+    SetObjectiveDisplayed(100)
+  STAGE 101 Fragment_26
+    SetObjectiveCompleted(100)
+    MagnusBeacon.Enable()
+    ScBomb01.ForceStart()
+  STAGE 102 Fragment_28
+    SetObjectiveCompleted(100)
+    MagnusBeacon.Enable()
+    ScBomb02.ForceStart()
+  STAGE 103 Fragment_30
+    SetObjectiveCompleted(100)
+    MagnusBeacon.Enable()
+    ScBomb03.ForceStart()
+  STAGE 105 Fragment_32
+    ;;BOOOM!!
+    MagnusFireLit.Play(Alias_Owl.GetRef())
+    Game.ShakeCamera(game.GetPlayer(), 1.0, 8.0)
+    Game.ShakeController(0.5, 0.5, 8.0)
+    MagnusFire.PlayAnimation("PlayAnim02")
+    MagnusFireLit.Play(Game.GetPlayer())
+    Utility.wait(1.6)
+    Game.DisablePlayerControls(True,True,True, True, True)
+    Game.ForceFirstPerson()
+    Game.GetPlayer().PlayIdle(iKnockDown)
+    MagnusFireBoom.Play(Game.GetPlayer())
+    Utility.wait(1.0)
+    FadeIn.Apply()
+    Utility.wait(2.5)
+    MagnusBeacon.Disable()
+    AfterBombMarker.Disable()
+    BarrierMarker.Disable()
+    MagnusFire.Disable()
+    Alias_Owl.TryToDisable()
+    Alias_UllissGhost.TryToEnable()
+    Alias_AishaGhost.TryToEnable()
+    Alias_UllissGhost.TryToEvaluatePackage()
+    Alias_AishaGhost.TryToEvaluatePackage()
+    Game.GetPlayer().MoveTo(SurviveMarker)
+    MusCradleNoRepeat.Add()
+    Utility.wait(0.01)
+    ScGhostWalk.ForceStart()
+  STAGE 110 Fragment_34
+    ;After Boom
+    Weather.ReleaseOverride()
+    Alias_UllissGhost.GetRef().Disable(TRUE)
+    Alias_AishaGhost.GetRef().Disable(TRUE)
+    Alias_OwlWound.TryToEnable()
+    Alias_OwlWound.TryToEvaluatePackage()
+    Game.EnableFastTravel()
+    Game.EnablePlayerControls()
+    SetObjectiveDisplayed(110)
+    Alias_OwlWound.GetActorRef().SetGhost(True)
+  STAGE 120 Fragment_36
+    ;Find Dragon Slayer, Owl killing Option
+    SetObjectiveCompleted(110)
+    SetObjectiveDisplayed(120)
+    SetObjectiveDisplayed(130)
+    Alias_OwlWound.GetActorRef().GetActorBase().SetEssential(FALSE)
+    Alias_OwlWound.GetActorRef().GetActorBase().SetProtected(FALSE)
+    Alias_OwlWound.GetActorRef().SetGhost(FALSE)
+    Alias_OwlWound.GetActorRef().SetActorValue("Health", 50)
+  STAGE 130 Fragment_37
+    ;;Owl Death, if not force kill
+    If Alias_OwlWound.GetActorRef().IsDead() == FALSE
+    Alias_OwlWound.GetActorRef().GetActorBase().SetEssential(FALSE)
+    Alias_OwlWound.GetActorRef().GetActorBase().SetProtected(FALSE)
+    Alias_OwlWound.GetActorRef().SetGhost(FALSE)
+    Alias_OwlWound.TryToKill()
+    Endif
+    If IsObjectiveCompleted(110) == False
+    SetObjectiveCompleted(110)
+    endif
+    SetObjectiveCompleted(120)
+    If IsObjectiveDisplayed(130) == False
+    SetObjectiveDisplayed(130)
+    Endif
+    MusCradleNoRepeat.Remove()
+  STAGE 140 Fragment_42
+    ;Start Companions Battle
+    SetObjectiveCompleted(130)
+    DovahBarrier.Enable()
+    WordTrg.Activate(WordTrg)
+    utility.wait(1.0)
+    FireShader.play(DovahkiinBody,5)
+    utility.wait(4.5)
+    DovahkiinBody.PlaceAtMe(ResurrectExp)
+    Game.ShakeCamera(game.GetPlayer(), 1.0, 3.0)
+    Game.ShakeController(0.5, 0.5, 3.0)
+    if Game.GetPlayer().GetDistance(DovahkiinBody) < 512
+    Game.GetPlayer().MoveTo(PlayerRelocate)
+    endif
+    utility.wait(0.1)
+    DovahkiinBody.Disable()
+    Alias_DragonSlayer.TryToEnable()
+    Alias_DragonSlayer.GetActorRef().StartCombat(Game.GetPlayer())
+    MusDovahkiin.Add()
+    SetObjectiveDisplayed(140)
+  STAGE 150 Fragment_39
+    ;Defeated Dov-Ah-Kiin, Open portal to present age
+    SetObjectiveCompleted(140)
+    SetObjectiveDisplayed(150)
+    DovahBarrier.Disable()
+    MusDovahkiin.Remove()
+    DoorPresent.Enable(TRUE)
+    DoorPresent.BlockActivation()
+    DoorLU.Disable()
+  STAGE 160 Fragment_43
+    ;;Talk with Jacobee
+    SetObjectiveCompleted(150)
+    ScPrepare.ForceStart()
+  STAGE 170 Fragment_40
+    ;;Lizz Prepare
+    SetObjectivedisplayed(170)
+    ScPrepare2.ForceStart()
+  STAGE 175 Fragment_49
+    ;Lizz Equip Bag
+    KnapSack.Disable()
+    Alias_Lizz.GetActorRef().EquipItem(KnapSackChild,True)
+    Alias_Lizz.TryToEvaluatePackage()
+  STAGE 180 Fragment_45
+    ;;Goodbye jacobee scene
+    SetObjectiveCompleted(170)
+    SetObjectivedisplayed(180)
+    ScFarewell.ForceStart()
+  STAGE 190 Fragment_47
+    ;;Go to Present age with Lizz
+    Alias_Lizz.TryToEvaluatePackage()
+    Alias_DragonSlayer.TryToDisable()
+    Alias_OwlWound.TryToDisable()
+  STAGE 200 Fragment_51
+    ;;Talk with lizz near portal
+    If Game.GetPlayer().GetDistance(Alias_Lizz.GetRef())> 1024
+    Alias_Lizz.TryToMoveTo(Game.GetPlayer())
+    endif
+    SetObjectivedisplayed(200)
+  STAGE 210 Fragment_53
+    ;Go to present age
+    SetObjectiveCompleted(200)
+    DoorPresent.BlockActivation(FALSE)
+  STAGE 220 Fragment_55
+    ;Moved to Present age
+    SetObjectiveCompleted(180)
+    SetObjectivedisplayed(220)
+    Alias_Lizz.TryToMoveTo(LizzTimeWarpMarker)
+    Alias_Lizz.TryToEvaluatePackage()
+    DoorLU.Enable()
+    Alias_Ulliss.TryToMoveTo(FamilyMarker)
+    Alias_Aisha.TryToMoveTo(FamilyMarker)
+    Alias_KedamaPre.TryToMoveTo(FamilyMarker)
+    Alias_Ulliss.TryToEvaluatePackage()
+    Alias_Aisha.TryToEvaluatePackage()
+    Alias_KedamaPre.TryToEvaluatePackage()
+  STAGE 230 Fragment_57
+    ;;Introduce lizz to ulliss
+    SetObjectiveCompleted(220)
+    SetObjectiveDisplayed(230)
+  STAGE 240 Fragment_59
+    ;Happy End
+    Alias_Ulliss.TryToEvaluatePackage()
+    Alias_Lizz.TryToEvaluatePackage()
+    Alias_Aisha.TryToEvaluatePackage()
+    Alias_KedamaPre.TryToEvaluatePackage()
+    ScHappyEnd.ForceStart()
+  STAGE 250 Fragment_62
+    ;Gather Family
+    Alias_Ulliss.TryToEvaluatePackage()
+    Alias_Lizz.TryToEvaluatePackage()
+    Alias_Aisha.TryToEvaluatePackage()
+    Alias_KedamaPre.TryToEvaluatePackage()
+    CrbMq06.Start()
+    CrbMq06.Setstage(0)
+    CrbMq07.Start()
+    CrbMq07.Setstage(0)
+  STAGE 260 Fragment_60
+    EpilogueObject.Enable()
+    Alias_Lizz.GetActorRef().RemoveItem(KnapSackChild)
+    Stop()
+  STAGE 9999 Fragment_64
+    ;9999 Debug Skip
+    BossRush.SetStage(9999)
+    MagnusBeacon.Disable()
+    AfterBombMarker.Disable()
+    BarrierMarker.Disable()
+    MagnusFire.Disable()
+    DoorLU.Enable()
+    DoorPresent.Enable()
+    EpilogueObject.Enable()
+    DovahkiinBody.Disable()
+    Alias_Owl.TryToDisable()
+    Alias_DragonSlayer.TryToDisable()
+    KnapSack.Disable()
+    Alias_Lizz.GetActorRef().RemoveItem(KnapSackChild)
+    Alias_Lizz.TryToMoveTo(Alias_Ulliss.GetRef())
+    utility.wait(0.01)
+    Stop()
+### 18F113:Unslaad.esm zzzCrbMq05Rush (QF_zzzCrbMq05_Rush_0318F113)
+  STAGE 0 Fragment_0
+    (no body found)
+  STAGE 1 Fragment_20
+    ;;Monologue01 Start
+    Sc01.ForceStart()
+  STAGE 10 Fragment_2
+    (no body found)
+  STAGE 20 Fragment_4
+    ;Monologue 2
+    SpawnPoint01.PlaceAtme(BreakExp)
+    Utility.wait(0.1)
+    SpawnPoint01.Disable()
+    Utility.wait(1.5)
+    Alias_P01Boss01.TryToDisable()
+    Alias_P01Boss02.TryToDisable()
+    Alias_P01Mob01.TryToDisable()
+    Alias_P01Mob02.TryToDisable()
+    Alias_P01Mob03.TryToDisable()
+    Alias_P01Mob04.TryToDisable()
+    Alias_P01Mob05.TryToDisable()
+    Alias_P01Mob06.TryToDisable()
+    Sc02.ForceStart()
+  STAGE 30 Fragment_6
+    (no body found)
+  STAGE 40 Fragment_8
+    ;Monologue 3
+    SpawnPoint02.PlaceAtme(BreakExp)
+    Utility.wait(0.1)
+    SpawnPoint02.Disable()
+    Utility.wait(1.5)
+    Alias_P02Boss01.TryToDisable()
+    Alias_P02Boss02.TryToDisable()
+    Alias_P02Mob01.TryToDisable()
+    Alias_P02Mob02.TryToDisable()
+    Alias_P02Mob03.TryToDisable()
+    Sc03.ForceStart()
+  STAGE 50 Fragment_10
+    (no body found)
+  STAGE 60 Fragment_12
+    ;Monologue 4
+    SpawnPoint03.PlaceAtme(BreakExp)
+    Utility.wait(0.1)
+    SpawnPoint03.Disable()
+    Utility.wait(1.5)
+    Alias_P03Boss01.TryToDisable()
+    Alias_P03Boss02.TryToDisable()
+    Alias_P03Boss03.TryToDisable()
+    Alias_P03Mob01.TryToDisable()
+    Alias_P03Mob02.TryToDisable()
+    Alias_P03Mob03.TryToDisable()
+    Sc04.ForceStart()
+  STAGE 70 Fragment_14
+    ; phase 4
+    SpawnPoint04.PlaceAtme(ExptentacleEpic)
+    Utility.wait(0.1)
+    MusPus.Remove()
+    MusPus2.Add()
+    Alias_Boss.TryToEnable()
+    SpawnPoint04.Disable()
+  STAGE 80 Fragment_16
+    ; Last monologue
+    Sc05.ForceStart()
+  STAGE 90 Fragment_18
+    ;To Jhunal Boss
+    MusPus2.Remove()
+    Alias_Boss.TryToDisable()
+    SpawnPoint05.PlaceAtMe(BreakExp)
+    Utility.wait(0.1)
+    SpawnPoint05.Disable()
+    Mq05.SetStage(90)
+    Alias_OwlTA.TryToDisable()
+    Utility.wait(0.1)
+    Stop()
+  STAGE 9999 Fragment_21
+    ;Debug Skip
+    Alias_Boss.TryToDisable()
+    Alias_OwlTA.TryToDisable()
+    SpawnPoint01.Disable()
+    SpawnPoint02.Disable()
+    SpawnPoint03.Disable()
+    SpawnPoint04.Disable()
+    SpawnPoint05.Disable()
+    Utility.wait(0.01)
+    Stop()
+### 1DFDFA:Unslaad.esm zzzCrbMq06 (QF_zzzCrbMq06_031DFDFA)
+  STAGE 0 Fragment_0
+    ;Start
+    Utility.wait(1.0)
+    SetObjectiveDisplayed(0)
+    SetActive()
+  STAGE 5 Fragment_17
+    MusEnding.Add()
+  STAGE 10 Fragment_2
+    ;Farewell
+    SetObjectiveCompleted(0)
+    ScHeaven.ForceStart()
+  STAGE 20 Fragment_4
+    DragonAbsorbFXS.Play(Alias_Kedama.GetRef(),8.0)
+    DragonAbsorbManEffect.Play(Alias_Kedama.GetRef(), 8)
+    NPCDragonDeathSequenceWind.play(Game.GetPlayer())
+    NPCDragonDeathSequenceExplosion.play(Game.GetPlayer())
+    utility.wait(7.7)
+    Alias_Kedama.GetActorRef().SetAlpha (0.1,True)
+    Utility.Wait(0.3)
+    Alias_Kedama.TryToDisable()
+    SetStage(30)
+  STAGE 30 Fragment_11
+    ;Remain of  Kedama
+    ScHeaven.Stop()
+    Alias_RemainMarker.TryToEnable()
+    RemainTrg.Enable()
+    Utility.wait(0.01)
+    SetObjectiveDisplayed(30)
+  STAGE 40 Fragment_12
+    ;Get Happy Coin Ability
+    Game.GetPlayer().AddSpell(LuckyAbility)
+    DeadTRG.Enable()
+    SetObjectiveCompleted(30)
+  STAGE 255 Fragment_19
+    MusEnding.Remove()
+  STAGE 999 Fragment_15
+    Alias_RemainMarker.TryToDisable()
+    Stop()
+  STAGE 9999 Fragment_21
+    ;9999 Debug Skip
+    Alias_Kedama.TryToDisable()
+    RemainTrg.Disable()
+    Game.GetPlayer().AddSpell(LuckyAbility)
+    DeadTRG.Enable()
+    Utility.wait(0.01)
+    Stop()
+### 1DFDFB:Unslaad.esm zzzCrbMq07 (QF_zzzCrbMq07_031DFDFB)
+  STAGE 0 Fragment_0
+    ;Start
+    Utility.wait(1.0)
+    SetObjectiveDisplayed(0)
+    SetActive()
+    MuralTrg.Enable()
+  STAGE 10 Fragment_2
+    ;Get Key to Cradle
+    SetObjectiveCompleted(0)
+    Game.GetPlayer().AddItem(CradleKey)
+    Alias_BlackOwl.TryToEnable()
+    If Mq06.IsCompleted()
+    Mq06.SetStage(255) ;; Stop Ending
+    endif
+    SetObjectiveDisplayed(10)
+  STAGE 20 Fragment_4
+    ;Go to cradle
+    SetObjectiveCompleted(10)
+    TeleportOut.Play(Alias_BlackOwl.GetRef(), 8.0)
+    Utility.wait(4.0)
+    Alias_BlackOwl.TryToDisable()
+    SetObjectiveDisplayed(20)
+  STAGE 30 Fragment_5
+    SetObjectiveCompleted(20)
+    SetObjectiveDisplayed(30)
+  STAGE 40 Fragment_7
+    If Mq06.IsCompleted() == FALSE ;; BAD END
+    SetStage(600)
+    else ;Jacobee Prevent Player
+    SetObjectiveFailed(30)
+    ScHelp01.Start()
+    endif
+  STAGE 50 Fragment_9
+    ;Go to Brazier
+    FireLitTRG.Enable()
+    SetObjectiveDisplayed(50)
+  STAGE 60 Fragment_11
+    ;;Fire Lit
+    Game.GetPlayer().RemoveSpell(GreatDragonSoul)
+    BrazierFire.Enable()
+    SetObjectiveCompleted(50)
+    ScHelp02.ForceStart()
+  STAGE 70 Fragment_14
+    ;Start VS Gray OWL
+    Alias_DollMarker.GetRef().PlaceAtMe(IceBreakExp)
+    Alias_DollMarker.TryToDisable()
+    MusInfect.Add()
+    Utility.wait(10.0)
+    Game.GetPlayer().AddSpell(CallOwl,False)
+    Game.ShakeCamera()
+    OwlSpawn01.PlaceAtMe(KinExp)
+    Alias_GrayOwl.TryToEnable()
+    While !(Alias_GrayOwl.GetRef(). Is3DLoaded())
+    Utility.wait(0.1)
+    EndWhile
+    Alias_GrayOwl.TryToMoveTo(OwlSpawn01)
+    ScInfection.Start()
+    Infect01.Enable()
+    SetObjectiveDisplayed(70)
+    Alias_GrayOwl.TryToEvaluatePackage()
+  STAGE 71 Fragment_36
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+    OwlSigh.play(Alias_GrayOwl.GetRef())
+    DisguiseTarget.Play(Alias_GrayOwl.GetRef(), 6)
+  STAGE 75 Fragment_24
+    Alias_GrayOwl.GetActorRef().AddSpell(RevealOwl)
+    gAllowHit.SetValue(1)
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+  STAGE 80 Fragment_16
+    ;Phase 2
+    Alias_GrayOwl.GetActorRef().RemoveSpell(RevealOwl)
+    gAllowHit.SetValue(0)
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Game.ShakeCamera()
+    Alias_GrayOwl.GetRef().PlaceAtMe(KinExp)
+    Alias_GrayOwl.TryToDisable()
+    Alias_GrayOwl.TryToMoveTo(OwlSpawn02)
+    Alias_GrayOwl.TryToEnable()
+    Infect02.Enable()
+    Utility.wait(0.01)
+    Alias_GrayOwl.GetRef().SetScale(1.1)
+    Alias_GrayOwl.TryToEvaluatePackage()
+  STAGE 81 Fragment_38
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+    OwlSigh.play(Alias_GrayOwl.GetRef())
+    DisguiseTarget.Play(Alias_GrayOwl.GetRef(), 6)
+  STAGE 85 Fragment_28
+    Alias_GrayOwl.GetActorRef().AddSpell(RevealOwl)
+    gAllowHit.SetValue(1)
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+  STAGE 90 Fragment_17
+    ;Phase 3
+    Alias_GrayOwl.GetActorRef().RemoveSpell(RevealOwl)
+    gAllowHit.SetValue(0)
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Game.ShakeCamera()
+    Alias_GrayOwl.GetRef().PlaceAtMe(KinExp)
+    Alias_GrayOwl.TryToDisable()
+    Alias_GrayOwl.TryToMoveTo(OwlSpawn03)
+    Alias_GrayOwl.TryToEnable()
+    Infect03.Enable()
+    Utility.wait(0.01)
+    Alias_GrayOwl.GetRef().SetScale(1.2)
+    Alias_GrayOwl.TryToEvaluatePackage()
+  STAGE 91 Fragment_40
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+    OwlSigh.play(Alias_GrayOwl.GetRef())
+    DisguiseTarget.Play(Alias_GrayOwl.GetRef(), 6)
+  STAGE 95 Fragment_30
+    Alias_GrayOwl.GetActorRef().AddSpell(RevealOwl)
+    gAllowHit.SetValue(1)
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+  STAGE 100 Fragment_19
+    ;Phase 4
+    Alias_GrayOwl.GetActorRef().RemoveSpell(RevealOwl)
+    gAllowHit.SetValue(0)
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Game.ShakeCamera()
+    Alias_GrayOwl.GetRef().PlaceAtMe(KinExp)
+    Infect04.Enable()
+    Utility.wait(0.1)
+    Alias_GrayOwl.TryToDisable()
+    Alias_GrayOwl.TryToMoveTo(OwlSpawn04)
+    Alias_GrayOwl.TryToEnable()
+    Utility.wait(0.01)
+    Alias_GrayOwl.GetRef().SetScale(2.0)
+    Alias_GrayOwl.TryToEvaluatePackage()
+    MusInfect.Remove()
+    MusInfect02.Add()
+  STAGE 101 Fragment_42
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+    OwlSigh.play(Alias_GrayOwl.GetRef())
+    DisguiseTarget.Play(Alias_GrayOwl.GetRef(), 6)
+  STAGE 105 Fragment_32
+    Alias_GrayOwl.GetActorRef().StopCombat()
+    Alias_GrayOwl.TryToEvaluatePackage()
+    Alias_GrayOwl.GetActorRef().AddSpell(RevealOwl)
+    gAllowHit.SetValue(1)
+  STAGE 110 Fragment_22
+    ;Defeated Owl
+    Alias_GrayOwl.GetActorRef().RemoveSpell(RevealOwl)
+    gAllowHit.SetValue(0)
+    Alias_GrayOwl.GetRef().PlaceAtMe(DeathExp)
+    Utility.wait(0.01)
+    Alias_GrayOwl.TryToDisable()
+    Infect01.Disable()
+    Infect02.Disable()
+    Infect03.Disable()
+    Infect04.Disable()
+    BrazierFire.Disable()
+    Game.GetPlayer().RemoveSpell(CallOwl)
+    Game.GetPlayer().RemoveSpell(DisEroiso)
+    SetObjectiveCompleted(70)
+    ScInfection.Stop()
+    MusInfect02.Remove()
+    DoorFuture.Disable()
+    ScFarewell.ForceStart()
+  STAGE 120 Fragment_44
+    Mq06.SetStage(999)
+    Stop()
+  STAGE 600 Fragment_46
+    ;Bad End Start
+    SetObjectiveCompleted(30)
+    MusBadEnd.Add()
+    Alias_DollMarker.GetRef().PlaceAtMe(IceBreakExp)
+    Alias_DollMarker.TryToDisable()
+    Game.ShakeCamera(game.getPlayer(), 1.0, 8.0)
+    Game.ShakeController(0.5, 0.5, 8.0)
+    DisguiseEffect.Play(Game.GetPlayer(), 4)
+    Game.GetPlayer().EquipItem(Metamorphosis,True,True)
+    utility.wait(4.0)
+    Game.ForceFirstPerson()
+    Game.DisablePlayerControls(True, True, True, True, True)
+    Game.GetPlayer().PlayIdle(pKnockOut)
+    utility.wait(5.0)
+    Game.FadeOutGame(false, true, 4.0, 2.0)
+    BadEndMarker.Enable()
+    utility.wait(2.0)
+    Game.GetPlayer().MoveTo(BadEndMarker)
+    SetStage(610)
+  STAGE 610 Fragment_51
+    ;Bad End Knock Down
+    Game.FadeOutGame(True, true, 2.0, 1.0)
+    Infect01.Enable()
+    Alias_GrayOwl.TryToEnable()
+    Alias_GrayOwl.TryToEvaluatePackage()
+    ScNightmare.ForceStart()
+  STAGE 620 Fragment_52
+    Alias_GrayOwl.GetRef().PlaceAtMe(KinExp)
+    Alias_GrayOwl.GetActorRef().UnEquipItem(OwlShadow)
+  STAGE 666 Fragment_34
+    ;BAD END
+    Game.EnablePlayerControls()
+    BadEndMsg.Show()
+    Game.FadeOutGame(false, true, 4.0, 2.0)
+    Utility.wait(2.0)
+    Game.QuitToMainMenu()
+  STAGE 9999 Fragment_54
+    ;Debug Skip
+    MapToNS.Disable()
+    Game.GetPlayer().RemoveSpell(GreatDragonSoul)
+    Alias_DollMarker.TryToDisable()
+    Alias_BlackOwl.TryToDisable()
+    Alias_GrayOwl.TryToDisable()
+    if Game.GetPlayer().GetItemCount(CradleKey)==0
+    Game.GetPlayer().AddItem(CradleKey,1)
+    endif
+    DoorFuture.Disable()
+    Utility.wait(0.01)
+    Stop()
+### 465EBF:Unslaad.esm zzzCrbMq08 (QF_zzzCrbMq08_03465EBF)
+  STAGE 0 Fragment_0
+    ;0 Start Up
+    Alias_Arkved.TryToDisable()
+    Alias_Cleverman.TryToEnable()
+    Alias_Cleverman.TryToEvaluatePackage()
+  STAGE 10 Fragment_2
+    ;10 Talk with Cleverman
+    SetObjectiveDisplayed(10)
+    SetActive()
+  STAGE 20 Fragment_4
+    ;20 Blow away clouds
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(20)
+  STAGE 30 Fragment_5
+    ;30 clouds away
+    Alias_CloudMarker.TryToDisable()
+    SetObjectiveCompleted(20)
+    SetObjectiveDisplayed(30)
+    SetObjectiveDisplayed(31)
+  STAGE 30 Fragment_9
+    (no body found)
+  STAGE 30 Fragment_7
+    (no body found)
+  STAGE 40 Fragment_11
+    ;40 Get In Tomb of Ice
+    SetObjectiveCompleted(30)
+    SetObjectiveCompleted(31)
+    SetObjectiveDisplayed(40)
+  STAGE 50 Fragment_13
+    ;50 Find seal of Ice
+    SealTrg.EnableNoWait()
+    SetObjectiveCompleted(40)
+    SetObjectiveDisplayed(50)
+  STAGE 60 Fragment_15
+    ;60 -1
+    SetObjectiveCompleted(50)
+    Alias_Cleverman.TryToMoveTo(HerkelMarkerIceTomb)
+    Alias_Cleverman.TryToEnable()
+    Alias_Cleverman.TryToEvaluatePackage()
+    SetObjectiveDisplayed(60)
+  STAGE 60 Fragment_69
+    ;60-2
+    ;Do Nothing
+  STAGE 70 Fragment_17
+    ;70 Break the ice by shout
+    SetObjectiveCompleted(60)
+    SetObjectiveDisplayed(70)
+  STAGE 80 Fragment_19
+    ;80 Broke Ice, Talk Herkel
+    Alias_IceMirrorMarker.GetRef().PlaceAtMe(ExpFrost)
+    Utility.wait(0.01)
+    Alias_IceMirrorMarker.GetRef().PlaceAtMe(ExpFrozenLake)
+    Alias_IceMirrorMarker.TryToDisable()
+    DoorLyg.Enable()
+    DoorLyg.BlockActivation(True)
+    SetObjectiveCompleted(70)
+    SetObjectiveDisplayed(80)
+  STAGE 90 Fragment_21
+    ;90 Go to Lyg
+    DoorLyg.BlockActivation(False)
+    SetObjectiveCompleted(80)
+    SetObjectiveDisplayed(90)
+  STAGE 100 Fragment_23
+    ;100 After Lyg, Talk with Cleverman
+    Alias_Cleverman.TryToMoveTo(HerkelMarkerYsgrim)
+    Alias_Cleverman.TryToEnable()
+    Alias_Cleverman.TryToEvaluatePackage()
+    SetObjectiveCompleted(90)
+    SetObjectiveDisplayed(100)
+  STAGE 105 Fragment_25
+    ;105 Explore seal of Ysgrim
+    SetObjectiveCompleted(100)
+    SetObjectiveDisplayed(105)
+    HerkelBarrier.playanimation("playanim01")
+    utility.wait(5.0)
+    HerkelBarrier.Disable()
+  STAGE 110 Fragment_27
+    ;110 Go to Frozen Abyss
+    Alias_Cleverman.TryToMoveTo(HerkelMarkerFAb)
+    Alias_Cleverman.TryToEnable()
+    Alias_Cleverman.TryToEvaluatePackage()
+    SetObjectiveCompleted(105)
+    SetObjectiveDisplayed(110)
+  STAGE 120 Fragment_29
+    ;120 Reach Second Rest Point
+    Alias_Cleverman.TryToMoveTo(HerkelMarkerRR)
+    Alias_Cleverman.TryToEnable()
+    Alias_Cleverman.TryToEvaluatePackage()
+  STAGE 125 Fragment_31
+    ;125 Reach Third Rest Point
+  STAGE 130 Fragment_33
+    ;130 Reached Pipe of Coma
+    WESEnt.Disable()
+    Alias_Cleverman.TryToMoveTo(HerkelMarkerShip)
+    Alias_Cleverman.TryToEnable()
+    Alias_Cleverman.TryToEvaluatePackage()
+    ScWES.ForceStart()
+    SetObjectiveDisplayed(130)
+  STAGE 130 Fragment_73
+    ;130-2 Dragon
+    ;Alias_Boss.GetActorRef().GetActorBase().SetEssential(True)
+    ;Alias_Boss.GetActorRef().GetActorBase().SetInvulnerable(True)
+  STAGE 131 Fragment_75
+    ;131 Enable Dragon
+    Alias_Boss.TryToEnable()
+    Alias_Boss.GetActorRef().GetActorBase().SetEssential(True)
+    Alias_Boss.GetActorRef().GetActorBase().SetInvulnerable(True)
+    Utility.wait(1.0)
+    Alias_Boss.TryToEvaluatePackage()
+  STAGE 132 Fragment_35
+    ;132 update Objectives VS Pelinal
+    Alias_Boss.TryToEnable()
+    Alias_Boss.TryToEvaluatePackage()
+    SetObjectiveCompleted(110)
+    SetObjectiveCompleted(130)
+    SetObjectiveDisplayed(135)
+  STAGE 135 Fragment_37
+    ;135 VS Pelinal
+    MusBoss.Add()
+    if !IsObjectiveCompleted(110)
+    SetObjectiveCompleted(110)
+    endif
+    if !IsObjectiveCompleted(130)
+    SetObjectiveCompleted(130)
+    endif
+    if !IsObjectiveDisplayed(135)
+    SetObjectiveDisplayed(135)
+    endif
+    BossBarrier.Enable()
+    Game.EnableFastTravel(false)
+    Alias_Cleverman.TryToDisable()
+    Alias_Boss.TryToEnable()
+    Alias_Boss.GetActorRef().GetActorBase().SetEssential(False)
+    Alias_Boss.GetActorRef().GetActorBase().SetInvulnerable(False)
+    Alias_Boss.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_Boss.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_Boss.GetActorRef().StartCombat(Game.GetPlayer())
+  STAGE 140 Fragment_39
+    ;140 Defeated Pelinal
+    Game.EnableFastTravel(True)
+    SetObjectiveCompleted(135)
+    BossBarrier.Disable()
+    ScDragonDisable.ForceStart()
+  STAGE 140 Fragment_71
+    ;140-2 Mus End
+    Utility.wait(7.0)
+    MusBoss.Remove()
+  STAGE 150 Fragment_41
+    ;150  Call Herk
+    Alias_Cleverman.TryToMoveTo(HerkelMarkerWES01)
+    Alias_Cleverman.GetRef().Enable(True)
+    Alias_Cleverman.TryToEvaluatePackage()
+    SetObjectiveDisplayed(150)
+  STAGE 150 Fragment_42
+    ;150-1 Disable Corpse
+    Alias_Boss.GetRef().Disable(True)
+  STAGE 155 Fragment_44
+    ;155 talking herkel
+  STAGE 160 Fragment_46
+    ;160 Activate Ship entrance
+    SetObjectiveCompleted(150)
+    SetObjectiveDisplayed(160)
+  STAGE 170 Fragment_48
+    ;170 open gate to ship
+    WESEnt.PlaceAtme(ExpShipEnt)
+    WESEnt.Enable()
+    WESEnt.BlockActivation(True)
+    ScHerkel01.ForceStart()
+    Alias_Cleverman.TryToEvaluatePackage()
+    SetObjectiveCompleted(160)
+    SetObjectiveDisplayed(170)
+  STAGE 180 Fragment_50
+    ;180 Get in Ship, meet hoholaugh
+    WESEnt.BlockActivation(False)
+    SetObjectiveCompleted(170)
+    SetObjectiveDisplayed(180)
+  STAGE 185 Fragment_64
+    ;185 Deal with Hoholaugh
+    SetObjectiveCompleted(180)
+    SetObjectiveDisplayed(185)
+  STAGE 190 Fragment_52
+    ;190 Unrelenting Route
+    SetObjectiveCompleted(185)
+    SetObjectiveDisplayed(190)
+  STAGE 195 Fragment_53
+    ;195 hoholaugh banished
+    Game.ShakeCamera(Game.GetPlayer(), 1.0, 1.0)
+    Game.ShakeController(0.5, 0.5, 1.0)
+    HHPosition.PlaceAtMe(ExpBloody)
+    HHPosition.PlaceAtMe(ExpHHDeath)
+    WordSealRef.Disable()
+    Alias_Woody.TryToDisable()
+    Game.GetPlayer().AddItem(HHMask,1)
+    SetObjectiveCompleted(190)
+    Utility.wait(1.0)
+    Mq09.Start()
+    Mq09.SetStage(0)
+    Utility.wait(1.0)
+    Stop()
+  STAGE 200 Fragment_55
+    ;200 Alduin Route
+    SetObjectiveCompleted(185)
+    sdOpenAlduin.Play(Game.GetPlayer())
+    WordSealRef.Disable()
+    AlduinMouth.Enable()
+    AlduinPortal.Enable(True)
+    FXSAlduin.Play(Alias_Woody.GetRef(), 20)
+    SdAlduinSummon.PlayAndWait(Alias_Woody.GetRef())
+    While AlduinMouth.Is3DLoaded() == False
+    Utility.wait(0.5)
+    endwhile
+    AlduinMouth.Activate(AlduinMouth)
+    SdRumble.Play(Game.GetPlayer())
+    Game.ShakeCamera(Game.GetPlayer(), 1.0, 4.0)
+    Game.ShakeController(0.5, 0.5, 4.0)
+    Game.DisablePlayerControls(false,True,True, false, True)
+    Game.ForceFirstPerson()
+    Game.GetPlayer().PlayIdle(iKnockOut)
+    Utility.wait(2.0)
+    Alias_Woody.TryToDisable()
+    SdAlduinReturn.PlayAndWait(Game.GetPlayer())
+    AlduinMouth.Activate(AlduinMouth)
+    SdRumble.Play(Game.GetPlayer())
+    FXSAlduin.Play(AlduinMouth, 3.0)
+    AlduinPortal.Disable()
+    Utility.wait(0.5)
+    AlduinMouth.Disable(True)
+    SetStage(210)
+  STAGE 210 Fragment_57
+    ;210 Alduin Back
+    Game.EnablePlayerControls()
+    Game.GetPlayer().AddItem(HHMask,1)
+    Utility.wait(1.0)
+    Mq09.Start()
+    Mq09.SetStage(0)
+    Utility.wait(1.0)
+    Stop()
+  STAGE 300 Fragment_61
+    ;300 Good Ending
+    SetObjectiveCompleted(185)
+    HHPosition.PlaceAtMe(ExpHHRelease)
+    Alias_Woody.GetActorRef().SetOutfit(HHOutfit)
+    ;Alias_Woody.GetActorRef().RemoveItem(HHSpear,1)
+    Game.GetPlayer().AddItem(FoxSpear,1)
+    WordSealRef.Disable()
+    ScHHGood.ForceStart()
+    Alias_Woody.TryToEvaluatePackage()
+  STAGE 310 Fragment_66
+    ;310
+    Alias_Woody.GetRef().PlaceAtMe(FXBanish)
+    Utility.wait(0.33)
+    Alias_Woody.TryToDisable()
+    Utility.wait(1.0)
+    Mq09.Start()
+    Mq09.SetStage(0)
+    Utility.wait(1.0)
+    Stop()
+  STAGE 999 Fragment_59
+    ;999 Shut Down
+    MusBoss.Remove()
+### 47A32B:Unslaad.esm zzzCrbMq09 (QF_zzzCrbMq09_0347A32B)
+  STAGE 0 Fragment_0
+    ;0 Start Up
+    SetObjectiveDisplayed(0)
+    SetActive()
+    Alias_Herkel.TryToMoveTo(HerkelMarker)
+    Alias_Herkel.TryToEnable()
+    Alias_Herkel.TryToEvaluatePackage()
+  STAGE 10 Fragment_2
+    ;10 Open Portal
+    DoorCave.Enable()
+    SetObjectiveCompleted(0)
+    SetObjectiveDisplayed(10)
+  STAGE 20 Fragment_3
+    ;20 Listen Herkel
+    FogBarrier.Enable()
+    ScHerkel.ForceStart()
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(20)
+  STAGE 30 Fragment_5
+    ;30 Fill Shadow
+    Alias_Herkel.TryToEvaluatePackage()
+    ShorTrigger.Enable()
+    SetObjectiveCompleted(20)
+    SetObjectiveDisplayed(30)
+  STAGE 40 Fragment_7
+    ;40 Lost Souls
+    SetObjectiveDisplayed(40)
+  STAGE 50 Fragment_9
+    ;50 Herkel Banished
+    SetObjectiveCompleted(40)
+    if Mq08.GetStageDone(310)
+    Mq10.Start()
+    Mq10.SetStage(0)
+    endif
+  STAGE 50 Fragment_17
+    ;50-2 Cairn
+    CairnRef.Enable(True)
+  STAGE 50 Fragment_11
+    ;50-1
+    Alias_Herkel.GetRef().Disable(True)
+    Utility.wait(0.1)
+    SetStage(60)
+  STAGE 60 Fragment_15
+    ;60 Back to Skyrim
+    CaveExit.Enable()
+    SetObjectiveDisplayed(60)
+  STAGE 140 Fragment_19
+    ;140 Lost Hearts
+    MusShorBody.Add()
+    MaskRef.Disable()
+    Game.GetPlayer().AddItem(ShorMask,1)
+    Utility.wait(0.01)
+    Game.ForceFirstPerson()
+    Game.DisablePlayerControls(True, True, True, False, True)
+    SetObjectiveCompleted(30)
+    HeartAct.EnableNoWait()
+    While HeartAct.Is3DLoaded() == False
+    utility.wait(0.5)
+    endwhile
+    sdExtract.Play(Game.GetPlayer())
+    HeartAct.Activate(HeartAct)
+    ImodHeart.Apply(1.0)
+    Utility.wait(6.0)
+    Game.DisablePlayerControls(True, True, True, True, True)
+    Game.GetPlayer().MoveTo(KnockOutMarker)
+    utility.wait(0.01)
+    ImodHeart.Apply(1.0)
+    Game.GetPlayer().PlayIdle(iKnockOut)
+    Utility.wait(8.0)
+    Game.FadeOutGame(false, true, 1.0, 1.0)
+    Game.GetPlayer().AddSpell(AbShorbody)
+    HeartAct.Disable()
+    utility.wait(0.8)
+    Game.GetPlayer().PlayIdle(iGetUp)
+    ImodExtract.Apply(1.0)
+    sdAwake.Play(Game.GetPlayer())
+    HeartRef.Enable()
+    Utility.wait(8.0)
+    Game.EnablePlayerControls()
+    SetObjectiveDisplayed(40)
+  STAGE 150 Fragment_21
+    ;150 Herkel Banished
+    SetObjectiveCompleted(40)
+    if Mq08.GetStageDone(310)
+    Mq10.Start()
+    Mq10.SetStage(0)
+    endif
+  STAGE 150 Fragment_25
+    ;150-2 Cairn
+    CairnRef.Enable(True)
+  STAGE 150 Fragment_23
+    ;150-1
+    Alias_Herkel.GetRef().Disable(True)
+    Utility.wait(0.1)
+    SetStage(160)
+  STAGE 160 Fragment_27
+    ;160 Back to Skyrim
+    CaveExit.Enable()
+    SetObjectiveDisplayed(60)
+  STAGE 900 Fragment_29
+    ; 900 Backed To Skyrim
+    CompleteAllObjectives()
+    Utility.wait(0.1)
+    SetStage(901)
+  STAGE 901 Fragment_31
+    ;901 END
+    MusShorSoul.Remove()
+    MusShorBody.Remove()
+    Stop()
+  STAGE 999 Fragment_13
+    ;999
+    FogBarrier.Disable()
+    MusShorSoul.Remove()
+    MusShorBody.Remove()
+### 47A38C:Unslaad.esm zzzCrbMq10 (QF_zzzCrbMq10_0347A38C)
+  STAGE 0 Fragment_0
+    ;0 Start Up
+    Alias_Woody.TryToMoveTo(HHMarker)
+    Alias_Woody.TryToEnable()
+    Alias_Woody.TryToEvaluatePackage()
+    CairnRef.Enable()
+    Alias_Woody.GetActorRef().AddItem(Alias_Book.GetRef())
+  STAGE 10 Fragment_2
+    ;10 Hoholaugh Scene
+    MusEnd.Add()
+    ClearSky.SetActive(True,True)
+    SetObjectiveDisplayed(10)
+  STAGE 20 Fragment_4
+    ;20 Monologue End
+  STAGE 30 Fragment_6
+    ;30 GetBook
+    Game.GetPlayer().AddItem(Alias_Book.GetRef())
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(30)
+  STAGE 40 Fragment_9
+    ;40 Talk with Hoholaugh
+    SetObjectiveCompleted(30)
+    SetObjectiveDisplayed(40)
+  STAGE 50 Fragment_11
+    ;50 Hoholaugh
+    SetObjectiveCompleted(40)
+    Utility.wait(7.0)
+    Weather.ReleaseOverride()
+  STAGE 60 Fragment_13
+    ;60
+    Stop()
+  STAGE 999 Fragment_15
+    ;999 Shut Down
+    Alias_Woody.TryToDisable()
+    Alias_Woody.GetRef().MoveToMyEditorLocation()
+    CorpseRef.Enable()
+    MusEnd.Remove()
+    Weather.ReleaseOverride()
+### 1EC845:Unslaad.esm zzzCrbEpilogue (QF_zzzCrbEpilogue_031EC845)
+  STAGE 0 Fragment_0
+    (no body found)
+  STAGE 100 Fragment_2
+    (no body found)
+  STAGE 999 Fragment_4
+    Stop()
+### 2D6C97:Unslaad.esm zzzCrbSkip (QF_zzzCrbSkip_032D6C97)
+  STAGE 0 Fragment_0
+    ;Init
+  STAGE 1 Fragment_2
+    ;Skip Act 1 : Release Ulliss
+    If Mq01.IsCompleted() == False
+    Mq01.SetStage(9999)
+    endif
+    Mq02.SetStage(9999)
+    Utility.wait(0.1)
+    MsgSkip01.Show()
+  STAGE 2 Fragment_3
+    ;Skip Act 2: Bell Tower
+    if  Mq02.GetStageDone(220) || Mq02.GetStageDone(320) ;;Bad End
+    SqResurrect.Setstage(0)
+    endif
+    Mq03.SetStage(9999)
+    Utility.wait(0.1)
+    Mq04.SetStage(0)
+    Utility.wait(0.1)
+    MsgSkip02.Show()
+  STAGE 3 Fragment_5
+    ;Act 3 : blades invasion
+    Mq04.SetStage(9999)
+    Utility.wait(0.1)
+    Mq05.SetStage(0)
+    Utility.wait(0.1)
+    MsgSkip03.Show()
+  STAGE 4 Fragment_7
+    ;Act 4 : Lizz
+    Mq05.SetStage(9999)
+    Utility.wait(0.1)
+    Mq06.SetStage(0)
+    Mq07.SetStage(0)
+    Utility.wait(0.1)
+    MsgSkip04.Show()
+  STAGE 5 Fragment_9
+    ;Act 5 : Owl Slay
+    Mq06.SetStage(9999)
+    Mq07.SetStage(9999)
+    Utility.wait(0.1)
+    MsgSkip05.Show()
+  STAGE 6 Fragment_11
+    ;Act 6 : LoveLetter
+    Sq04.SetStage(9999)
+    Sq05.SetStage(9999)
+    Utility.wait(0.1)
+    MsgSkip06.Show()
+### 33F0E0:Unslaad.esm zzzCrbSq03 (QF_zzzCrbSq03_0333F0E0)
+  STAGE 0 Fragment_0
+    Barrier.Disable()
+    Alias_Arkved01.TryToDisable()
+    Alias_Arkved02.TryToEnable()
+  STAGE 10 Fragment_2
+    ;Clear Sky
+    Game.GetPlayer().AddItem(DragonStaff,1)
+    Alias_Dragon01.TryToEnable()
+    Alias_Dragon02.TryToEnable()
+    zCrbgWeatherSnow.SetValueInt(0)
+    zCrbgWeatherClear.SetValueInt(100)
+    SkyrimClear.SetActive(False, True)
+    Utility.wait(0.1)
+    Stop()
+### 364E2B:Unslaad.esm zzzCrbSq04 (QF_zzzCrbSq04_03364E2B)
+  STAGE 0 Fragment_0
+    ;0
+    Alias_Jokul.TryToEnable()
+  STAGE 10 Fragment_2
+    ;10
+    IceMarker.PlaceAtMe(ExpIce)
+    Utility.wait(0.01)
+    IceMarker.Disable()
+  STAGE 20 Fragment_4
+    ;20
+    Alias_Jokul.TryToEvaluatePackage()
+    Alias_Jokul.GetActorRef().SetGhost(False)
+    sc01.ForceStart()
+  STAGE 30 Fragment_6
+    ;30
+    Stop()
+  STAGE 255 Fragment_8
+    ;255 Shut Down
+  STAGE 9999 Fragment_9
+    ;9999 Debug Skip
+    IceMarker.Disable()
+    Alias_Jokul.TryToEnable()
+    Alias_Jokul.GetActorRef().SetGhost(False)
+    Utility.wait(0.1)
+    Stop()
+### 376B99:Unslaad.esm zzzCrbSq05 (QF_zzzCrbSq05_03376B99)
+  STAGE 0 Fragment_0
+    ;0
+    Alias_Naghu.TryToEnable()
+    Alias_Kedama.TryToEnable()
+    Alias_Kanra.TryToEnable()
+    Alias_Jokul.TryToEnable()
+    Alias_Rat.TryToEnable()
+    Alias_Lizz.TryToEnable()
+  STAGE 10 Fragment_2
+    ;Get Fragment 1
+    Game.GetPlayer().AddItem(Alias_Fragment01.GetRef())
+    SetObjectiveDisplayed(10)
+  STAGE 20 Fragment_3
+    ;Get Fragment 2 : Naghu
+    Game.GetPlayer().AddItem(Alias_Fragment02.GetRef())
+    if ModObjectiveGlobal(1, zcrbgFragmentCount, 10, 7)
+    Setstage(100)
+    endif
+  STAGE 30 Fragment_5
+    ;Get Fragment 3 : Kedama
+    Game.GetPlayer().AddItem(Alias_Fragment03.GetRef())
+    if ModObjectiveGlobal(1, zcrbgFragmentCount, 10, 7)
+    Setstage(100)
+    endif
+  STAGE 40 Fragment_7
+    ;Get Fragment 4 : Kanra
+    Game.GetPlayer().AddItem(Alias_Fragment04.GetRef())
+    if ModObjectiveGlobal(1, zcrbgFragmentCount, 10, 7)
+    Setstage(100)
+    endif
+  STAGE 50 Fragment_9
+    ;Get Fragment 5 : Jokul
+    Game.GetPlayer().AddItem(Alias_Fragment05.GetRef())
+    if ModObjectiveGlobal(1, zcrbgFragmentCount, 10, 7)
+    Setstage(100)
+    endif
+  STAGE 60 Fragment_11
+    ;Get Fragment 6 : Rat
+    Game.GetPlayer().AddItem(Alias_Fragment06.GetRef())
+    if ModObjectiveGlobal(1, zcrbgFragmentCount, 10, 7)
+    Setstage(100)
+    endif
+  STAGE 70 Fragment_13
+    ;Get Fragment 7 : Lizz
+    Game.GetPlayer().AddItem(Alias_Fragment07.GetRef())
+    if ModObjectiveGlobal(1, zcrbgFragmentCount, 10, 7)
+    Setstage(100)
+    endif
+  STAGE 100 Fragment_15
+    ;100
+    if !IsObjectiveCompleted(10)
+    SetObjectiveCompleted(10)
+    endif
+    SetObjectiveDisplayed(100)
+  STAGE 110 Fragment_17
+    ;110 Rewriting Scene
+    SetObjectiveCompleted(100)
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment01.GetRef())
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment02.GetRef())
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment03.GetRef())
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment04.GetRef())
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment05.GetRef())
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment06.GetRef())
+    Alias_Prophet.GetActorRef().AddItem(Alias_Fragment07.GetRef())
+    ScRepair.ForceStart()
+  STAGE 120 Fragment_19
+    ;120 Talk to prophet
+    SetObjectiveDisplayed(120)
+    Alias_Prophet.TryToEvaluatePackage()
+  STAGE 130 Fragment_21
+    ;130 Get LoveLetter
+    SetObjectiveCompleted(120)
+    Game.GetPlayer().AddItem(Alias_LoveLetter.GetRef())
+    SetObjectiveDisplayed(130)
+  STAGE 140 Fragment_23
+    ;140 After Read Loveletter
+    SetObjectiveCompleted(130)
+    SetObjectiveDisplayed(140)
+  STAGE 150 Fragment_25
+    ;150
+    SetObjectiveCompleted(140)
+    SetObjectiveDisplayed(150)
+    Alias_BO.TryToMoveTo(BOMarker)
+    Alias_BO.TryToEnable()
+  STAGE 160 Fragment_27
+    ;160
+    SetObjectiveCompleted(150)
+    TeleportOut.Play(Alias_BO.GetRef(), 8.0)
+    Utility.wait(4.0)
+    Alias_BO.TryToDisable()
+    utility.wait(0.1)
+    SetStage(170)
+  STAGE 170 Fragment_29
+    ;170
+    Stop()
+  STAGE 255 Fragment_31
+    ;255 Shut Down
+  STAGE 9999 Fragment_33
+    ;9999 Debug Skip
+    Game.GetPlayer().AddItem(Alias_LoveLetter.GetRef())
+    Alias_BO.TryToDisable()
+    Utility.wait(0.1)
+    Stop()
+### 05268B:Unslaad.esm zzzCrbSq02 (QF_zzzCrbSq02_0305268B)
+  STAGE 0 Fragment_4
+    ;0
+  STAGE 5 Fragment_11
+    ;5
+  STAGE 10 Fragment_5
+    ;10
+  STAGE 20 Fragment_9
+    Mq03.Start()
+    Mq03.SetStage(0)
+  STAGE 100 Fragment_7
+    Alias_Kedama.TryToDisable()
+    Stop()
+  STAGE 9999 Fragment_13
+    ;9999 Debug Skip
+    Alias_Kedama.TryToDisable()
+    Utility.wait(0.01)
+    Stop()
+### 11023D:Unslaad.esm zzzCrbSqResurrection (QF_zzzCrbSqResurrection_0311023D)
+  STAGE 0 Fragment_0
+    ;0
+    Alias_Ulliss.TryToEnable()
+    Alias_Cat.TryToEnable()
+    ;;Remove Bad End
+    Alias_UllissHuman.TryToDisable()
+    Alias_UllissDragon.TryToDisable()
+    AisyaDead.Disable()
+    UllissGrave.Disable()
+    Utility.wait(0.1)
+    SetStage(10)
+  STAGE 10 Fragment_2
+    ;10
+    Stop()
+### 3C0D01:Unslaad.esm zzzCrbSqRoadAtmora (QF_zzzCrbSqRoadAtmora_033C0D01)
+  STAGE 0 Fragment_0
+    ;0
+  STAGE 10 Fragment_2
+    ;10 Open
+    MapDraonPeak.Enable()
+    MapUnslaad.Enable()
+    SDFire.Play(Game.GetPlayer())
+    RoadMarker.Enable()
+    Utility.wait(0.1)
+    Stop()
+### 2904BE:Unslaad.esm zzzCrbSqReopen (QF_zzzCrbSqReopen_032904BE)
+  STAGE 0 Fragment_0
+    ;Reopen the gate after Mq07
+    WarpIn.Play(game.GetPlayer())
+    WarpISM.Apply()
+    Utility.wait(0.5)
+    DoorLU.Enable(True)
+    DoorNS01.Enable()
+    DoorNS02.Enable()
+    DoorPresent.Enable()
+    MapToNS.Enable()
+    Alias_Orland.TryToEnable()
+    Alias_Orland.TryToEvaluatePackage()
+    Utility.wait(1.0)
+    SetStage(10)
+  STAGE 10 Fragment_2
+    stop()
+### 411777:Unslaad.esm zzzCrbSqMankar (QF_zzzCrbSqMankar_03411777)
+  STAGE 0 Fragment_0
+    ;0
+    Alias_Mankar.TryToEnable()
+    Alias_Mankar.GetActorRef().AllowPCDialogue(True)
+    Alias_Mankar.TryToEvaluatePackage()
+  STAGE 10 Fragment_2
+    ;10
+    TeleportSound.Play(Alias_Mankar.GetRef())
+    VFXTeleport.Play(Alias_Mankar.GetRef(), 3.0)
+    Utility.wait(3.0)
+    Alias_Mankar.GetRef().Disable()
+    Utility.wait(0.1)
+    Stop()
+### 453AFA:Unslaad.esm zzzCrbSqApoSafeRoom (QF_zzzCrbSqApoSafeRoom_03453AFA)
+  STAGE 0 Fragment_0
+    ;0 Start Up
+    MapDPToFB.Enable()
+  STAGE 10 Fragment_2
+    ;10
+  STAGE 20 Fragment_4
+    ;20
+    Mq08.SetStage(120)
+    DoorRef02.Disable()
+  STAGE 30 Fragment_6
+    ;30
+    Mq08.SetStage(125)
+    DoorRef02.Disable()
+    DoorRef03.Disable()
+    Stop()
+  STAGE 40 Fragment_8
+    ;40
+    Stop()
+### 01D8FF:Unslaad.esm zzzCrbMq01 (QF_zzzCrbMq01_0301D8FF)
+  STAGE 0 Fragment_16
+    (no body found)
+  STAGE 10 Fragment_0
+    Alias_Cat.TryToMoveTo(CatMarker01)
+    Alias_Cat.TryToEvaluatePackage()
+    SetObjectiveDisplayed(10)
+    SetActive(TRUE)
+  STAGE 15 Fragment_2
+    EntranceMarker.Enable()
+    SetObjectiveCompleted(10)
+    SetObjectiveDisplayed(15)
+  STAGE 20 Fragment_4
+    setObjectiveCompleted(15)
+    setObjectiveDisplayed(20)
+    MapMarker.Enable()
+    if CatMarker02
+    Alias_Cat.TryToMoveTo(CatMarker02)
+    else
+    Alias_Cat.TryToMoveTo(Game.GetPlayer())
+    endif
+    Alias_Cat.TryToEvaluatePackage()
+  STAGE 30 Fragment_6
+    SetObjectiveCompleted(20)
+    SetObjectiveDisplayed(30)
+    Sc01.ForceStart()
+    Alias_Cat.TryToEvaluatePackage()
+  STAGE 40 Fragment_8
+    setObjectiveCompleted(30)
+    setObjectiveDisplayed(40)
+  STAGE 50 Fragment_10
+    SetObjectiveCompleted(40)
+    Game.GetPlayer().AddItem(FrostRing,1)
+    Alias_Ulliss.GetActorRef().SetRelationshipRank(game.getPlayer(),1)
+    Game.GetPlayer().AddToFaction(UnslaadFaction)
+    Mq02.Start()
+    Mq02.setStage(0)
+    if Mq02.IsRunning() == False
+    Debug.MessageBox("ERROR:zzzCrbMq02 Failed to Start")
+    Endif
+    Sq01.Start()
+    Sq01.SetStage(0)
+    if Sq01.IsRunning() == False
+    Debug.MessageBox("ERROR:zzzCrbaq01 Failed to Start")
+    Endif
+    SetStage(60)
+  STAGE 60 Fragment_12
+    stop()
+  STAGE 9999 Fragment_14
+    ;9999 Debug Skip
+    ;;Dragon Souls
+    Sq01.Start()
+    Sq01.SetStage(0)
+    MapMarker.Enable()
+    EntranceMarker.Enable()
+    Alias_Cat.TryToMoveTo(Alias_UnslaadMarker.GetRef())
+    Game.GetPlayer().AddItem(FrostRing,1)
+    Alias_Ulliss.GetActorRef().SetRelationshipRank(game.getPlayer(),1)
+    Game.GetPlayer().AddToFaction(UnslaadFaction)
+    Utility.wait(0.01)
+    Stop()
+### 419232:Unslaad.esm zzzCrbBqYsgramor (QF_zzzCrbBqYsgramor_03419232)
+  STAGE 0 Fragment_0
+    ;0 Start Up
+    Alias_Ys01.TryToEnable()
+    Alias_YsBear.TryToEnable()
+    Alias_Ys01.TryToEvaluatePackage()
+    Alias_YsBear.TryToEvaluatePackage()
+  STAGE 1 Fragment_23
+    ;1 Enable Barrier
+    BarrierREf.Enable()
+    MusYs01.Add()
+    Game.EnableFastTravel(false)
+  STAGE 5 Fragment_18
+    ;5 Ysgramor shout
+    Game.ShakeCamera(afStrength = 0.25, afDuration = 0.5)
+    Game.ShakeController(0.25, 0.25, 0.5)
+    sdFus.PlayandWait(Alias_Ys01.GetRef())
+    Game.ShakeCamera(afStrength = 0.25, afDuration = 1.0)
+    Game.ShakeController(0.5, 0.5, 1.0)
+    sdRoDah.Play(Alias_Ys01.GetRef())
+    SpForce.Cast(Alias_Ys01.GetRef(), Game.GetPlayer())
+    Alias_Ys01.GetRef().KnockAreaEffect(1, 3000)
+    Alias_Ys01.GetRef().PlaceAtMe(ExpShout)
+    ImodShout.Apply(1.0)
+    utility.wait(0.5)
+    SetStage(10)
+  STAGE 10 Fragment_2
+    ;10 VS Ysgramor and bear
+    SetObjectiveDisplayed(0)
+    Alias_Ys01.TryToEvaluatePackage()
+    Alias_Ys01.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_Ys01.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_Ys01.GetActorRef().StartCombat(Game.GetPlayer())
+    Alias_Ys01.GetActorRef().SetNoBleedoutRecovery(True)
+  STAGE 10 Fragment_33
+    ;10 VS Bear
+    Alias_YsBear.GetActorRef().GetActorBase().SetEssential(False)
+    Alias_YsBear.TryToEvaluatePackage()
+    Alias_YsBear.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_YsBear.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_YsBear.GetActorRef().StartCombat(Game.GetPlayer())
+    Alias_YsBear.GetActorRef().SetNoBleedoutRecovery(True)
+  STAGE 15 Fragment_4
+    ;15 Defeat Ys01
+    if GetStageDone(16) || Alias_YsBear.GetActorRef().IsDead()
+    SetStage(20)
+    endif
+  STAGE 16 Fragment_6
+    ;16 Defeat Bear
+    if GetStageDone(15) || Alias_Ys01.GetActorRef().IsBleedingOut()
+    SetStage(20)
+    endif
+  STAGE 20 Fragment_8
+    ;20 VS Ysgramor 2nd
+    SetObjectiveCompleted(0)
+    MusYS01.Remove()
+    MusYs02.Add()
+    Utility.wait(3.0)
+    sdStormAbsorb.play(Game.GetPlayer())
+    NPCDragonDeathSequenceExplosion.play(Alias_YsBear.GetActorRef())
+    StormPowerAbsorbFXS.Play(Alias_Ys01.GetActorRef(), 8.0)
+    VFXAbsorbStorm.Play(Alias_Ys01.GetActorRef(), 8.0, Alias_YsBear.GetActorRef())
+    Game.ShakeCamera(afStrength = 0.1, afDuration = 8.0)
+    Game.ShakeController(0.1, 0.1, 8.0)
+    Utility.wait(8.0)
+    SetStage(25)
+  STAGE 25 Fragment_25
+    ;21-1 Call Ysgramor 2nd phase
+    SetObjectiveDisplayed(10)
+    ImodShock.Apply(1.0)
+    Alias_Ys01.GetActorRef().PlaceAtMe(ExpStorm)
+    Alias_Ys02.TryToMoveTo(Alias_Ys01.GetRef())
+    Alias_Ys01.TryToDisable()
+    Alias_Ys02.TryToEnable()
+    Alias_Ys02.TryToEvaluatePackage()
+    Alias_Ys02.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_Ys02.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_Ys02.GetActorRef().StartCombat(Game.GetPlayer())
+    Alias_Ys02.GetActorRef().SetNoBleedoutRecovery(True)
+  STAGE 25 Fragment_27
+    ;21 Fade out Bear
+    CompainionRef.Disable()
+    Alias_YsBear.GetRef().Disable(True)
+  STAGE 30 Fragment_10
+    ;30 Defeat Ysgramor 2nd
+    SetObjectiveCompleted(10)
+    ;Alias_Ys02.GetActorRef().PlaceAtMe(ExpDragonAbsorb)
+    NPCDragonDeathSequenceWind.play(Game.GetPlayer())
+    NPCDragonDeathSequenceExplosion.play(Alias_Ys02.GetActorRef())
+    DragonAbsorbEffect.Play(Alias_Ys01.GetActorRef(), 8.0, DgMarker)
+    DragonAbsorbEffect.Play(Game.GetPlayer(), 8.0, DgMarker)
+    Game.ShakeCamera(afStrength = 0.5, afDuration = 8.0)
+    Game.ShakeController(0.5, 0.5, 8.0)
+    Utility.wait(8.0)
+    SetStage(35)
+  STAGE 35 Fragment_29
+    ;35 End battle
+    MusYS02.Remove()
+    TrgMenuRef.Enable()
+  STAGE 35 Fragment_31
+    ;31-2
+    BarrierRef.Disable()
+    Game.EnableFastTravel(true)
+  STAGE 40 Fragment_12
+    ;40 Break the seal
+    IModDragon.Apply(1.0)
+    Game.GetPlayer().ModAV("DragonSouls", 3)
+    SealRef.Disable()
+    WordFlowRef.Disable()
+    Mq08.SetStage(110)
+    qApoSR.Start()
+    qApoSR.SetStage(0)
+  STAGE 255 Fragment_14
+    ;255 Stop Quest
+    Stop()
+  STAGE 999 Fragment_16
+    ;999 Shut Down
+    CompleteAllObjectives()
+    Alias_Ys01.TryToDisable()
+    Alias_Ys02.TryToDisable()
+    Alias_YsBear.TryToDisable()
+    DragonboneRef.Disable()
+    CompainionRef.Disable()
+    WordFlowRef.Disable()
+    BarrierRef.Disable()
+    SealRef.Disable()
+    MusYs01.Remove()
+    MusYs02.Remove()
+    MusYs03.Remove()
+    TrgMenuRef.Disable()
+### 3C8752:Unslaad.esm zzzCrbBqStuhnTsun (QF_zzzCrbBqStuhnTsun_033C8752)
+  STAGE 0 Fragment_0
+    ;0 Start
+    BarrierRef.Enable()
+    SdCall.Play(RumbleMarker)
+    Game.ShakeCamera(afStrength = 0.25,afDuration = 8.9)
+    Game.ShakeController(0.25, 0.25, 8.9)
+    Utility.wait(9.0)
+    SdRumble.Play(RumbleMarker)
+    Game.ShakeCamera(afStrength = 0.5,afDuration =1.9)
+    Game.ShakeController(0.5, 0.5, 1.9)
+    Utility.wait(2.0)
+    Alias_Boss01.TryToEnable()
+    Alias_Boss02.TryToEnable()
+    MusBoss.Add()
+    TrgBearFall.Activate(TrgBearFall)
+    SetStage(5)
+  STAGE 5 Fragment_2
+    ;5
+  STAGE 10 Fragment_4
+    ;10 Vs God Avator 01
+    Alias_Boss01.TryToEnable()
+    Alias_Boss01.TryToMoveTo(Alias_Boss01.GetRef().GetLinkedRef(LinkCustom01))
+    Alias_Boss01.TryToEvaluatePackage()
+    Alias_Boss01.GetActorRef().StartCombat(Game.GetPlayer())
+    SetObjectiveDisplayed(0)
+    SetActive()
+  STAGE 10 Fragment_6
+    ;10-2Vs God Avator 02
+    Alias_Boss02.TryToEnable()
+    Alias_Boss02.TryToMoveTo(Alias_Boss02.GetRef().GetLinkedRef(LinkCustom01))
+    Alias_Boss02.TryToEvaluatePackage()
+    Alias_Boss02.GetActorRef().StartCombat(Game.GetPlayer())
+  STAGE 15 Fragment_8
+    ;15 Defeated Boss01
+    if GetStageDone(16)
+    SetStage(20)
+    endif
+  STAGE 16 Fragment_10
+    ;15 Defeated Boss02
+    if GetStageDone(15)
+    SetStage(20)
+    endif
+  STAGE 20 Fragment_12
+    ;20 Defeated Boss
+    SetObjectiveCompleted(0)
+    BarrierRef.Disable()
+    Utility.wait(6.0)
+    MusBoss.Remove()
+  STAGE 30 Fragment_15
+    ;30 End
+    Stop()
+  STAGE 999 Fragment_17
+    ;999 Shut Down
+    CompleteAllObjectives()
+    MusBoss.Remove()
+    BarrierRef.Disable()
+    TrgBearFall.Disable()
+    Alias_Boss01.TryToDisable()
+    Alias_Boss02.TryToDisable()
+### 407436:Unslaad.esm zzzCrbBqDreughKing (QF_zzzCrbBqDreughKing_03407436)
+  STAGE 0 Fragment_0
+    ;0
+    Alias_Boss01.TryToEnable()
+    Alias_Boss01.TryToEvaluatePackage()
+  STAGE 5 Fragment_2
+    ;5
+    BarrierRef.Enable()
+    Sc01.ForceStart()
+    MusBoss01.Add()
+  STAGE 10 Fragment_5
+    ;10 vs Khev 01
+    Alias_Boss01.GetActorRef().SetNoBleedoutRecovery(true)
+    Alias_Boss01.GetActorRef().AllowBleedoutDialogue(true)
+    Alias_Boss01.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_Boss01.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_Boss01.GetActorRef().StartCombat(Game.GetPlayer())
+  STAGE 15 Fragment_8
+    ;15 Khev Corrupt Scene
+    Sc02.ForceStart()
+  STAGE 17 Fragment_11
+    ;17 Call FX Shield
+    FXShield.EnableNoWait(False)
+    FXShield.MoveTo(Alias_Boss01.GetRef())
+    While FXShield.Is3dLoaded() == False
+    utility.wait(0.1)
+    endwhile
+    FXShield.PlayAnimation("StartEffectAnim")
+    Alias_Boss02.TryToEnable()
+  STAGE 20 Fragment_10
+    ;20 VS Morag
+    MusBoss01.Remove()
+    MusBoss02.Add()
+    FireRef.Enable()
+    Alias_Boss02.TryToMoveTo(Alias_Boss01.GetRef())
+    Alias_Boss01.TryToDisable()
+    Alias_Boss02.TryToEnable()
+    Alias_Boss02.TryToEvaluatePackage()
+    Alias_Boss02.GetActorRef().SetActorValue("Aggression", 2)
+    Alias_Boss02.GetActorRef().SetRelationshipRank(Game.GetPlayer(), -4)
+    Alias_Boss02.GetActorRef().StartCombat(Game.GetPlayer())
+  STAGE 20 Fragment_13
+    ;20 FX SHield END
+    FXShield.PlaceAtMe(ExpMorag2nd)
+    FXShield.PlayAnimationAndWait("DestroyShieldAnim", "End")
+    ImodBurst.Apply(1.0)
+    Game.ShakeCamera(Game.GetPlayer(), 1.0, 2.2)
+    Game.ShakeController(0.5, 0.5, 2.2)
+    Utility.wait(2.2)
+    FXShield.Disable(False)
+  STAGE 30 Fragment_15
+    Alias_Boss02.GetRef().PlaceAtMe(ExpDeath)
+    FireRef.Disable()
+    BarrierRef.Disable()
+    Utility.wait(1.0)
+    qLesson.SetStage(255)
+    utility.wait(6.0)
+    MusBoss02.Remove()
+  STAGE 30 Fragment_21
+    ;30 Open Short cut
+    ;ShortCut01.Enable()
+    ;ShortCut02.Enable()
+  STAGE 255 Fragment_17
+    ;255 Stop Quest
+    Stop()
+  STAGE 999 Fragment_19
+    ;999 Shut Down
+    ;ShortCut01.Enable()
+    ;ShortCut02.Enable()
+    Alias_Boss01.TryToDisable()
+    Alias_Boss02.TryToDisable()
+    FireRef.Disable()
+    BarrierRef.Disable()
+    MusBoss01.Remove()
+    MusBoss02.Remove()
+### 47F4A9:Unslaad.esm zzzCrbBqJhunalPriest (QF_zzzCrbBqJhunalPriest_0347F4A9)
+  STAGE 0 Fragment_0
+    ;0 Start Up
+    ShorCut01.Disable()
+    ShortCut02.Disable()
+  STAGE 10 Fragment_2
+    ;10 VS Jhunal Priest
+    MusBoss.Add()
+    BarrierRef.Enable()
+    Alias_Boss.TryToEnable()
+    Alias_Boss.TryToEvaluatePackage()
+    ShorCut01.Disable()
+    ShortCut02.Disable()
+    Alias_Enemy01.TryToEnable()
+    Alias_Enemy02.TryToEnable()
+    Alias_Enemy03.TryToEnable()
+    Alias_Enemy04.TryToEnable()
+    Alias_Enemy05.TryToEnable()
+  STAGE 12 Fragment_14
+    ;12 defeat 1st decoy
+    ImodEnd.Apply(1.0)
+    Alias_Enemy06.TryToEnable()
+    Alias_Priest02.TryToEnable()
+    Alias_Priest02.TryToEvaluatePackage()
+  STAGE 15 Fragment_16
+    ;15 defeat 2nd decoy
+    ImodEnd.Apply(1.0)
+    Alias_Enemy07.TryToEnable()
+    Alias_Priest03.TryToEnable()
+    Alias_Priest03.TryToEvaluatePackage()
+  STAGE 18 Fragment_12
+    ;18 defeat 3rd decoy
+    ImodEnd.Apply(1.0)
+    BossSafeRef.Disable()
+    Alias_Enemy08.TryToEnable()
+    Alias_Enemy09.TryToEnable()
+    Alias_Boss.GetActorRef().GetActorBase().SetEssential(False)
+    Alias_Boss.GetActorRef().GetActorBase().SetProtected(true)
+    Alias_Boss.GetActorRef().GetActorBase().SetInvulnerable(False)
+    Alias_Boss.GetActorRef().SetGhost(False)
+  STAGE 20 Fragment_4
+    ;20 Defeated Jhunal Priest
+    ImodEnd.Apply(1.0)
+    Alias_Boss.GetRef().PlaceAtMe(ExpDeath)
+    Game.ShakeCamera(Game.GetPlayer(), 1.0, 1.0)
+    Game.ShakeController(0.5, 0.5, 1.0)
+    Utility.wait(3.0)
+    FogRef.Disable()
+    BarrierRef.Disable()
+    ShorCut01.Enable()
+    ShortCut02.Enable()
+    Utility.wait(8.0)
+    MusBoss.Remove()
+  STAGE 20 Fragment_21
+    ;20-3
+    Utility.wait(0.5)
+    Alias_Enemy01.TryToKill()
+    Alias_Enemy02.TryToKill()
+    Alias_Enemy03.TryToKill()
+    Alias_Enemy04.TryToKill()
+    Alias_Enemy05.TryToKill()
+    Alias_Enemy06.TryToKill()
+    Alias_Enemy07.TryToKill()
+    Alias_Enemy08.TryToKill()
+    Alias_Enemy09.TryToKill()
+  STAGE 20 Fragment_18
+    ;20-2
+    Utility.wait(2.5)
+    Alias_Boss.GetRef().Disable(True)
+    Alias_Enemy01.TryToKill()
+    Alias_Enemy02.TryToKill()
+    Alias_Enemy03.TryToKill()
+    Alias_Enemy04.TryToKill()
+    Alias_Enemy05.TryToKill()
+    Alias_Enemy06.TryToKill()
+    Alias_Enemy07.TryToKill()
+    Alias_Enemy08.TryToKill()
+    Alias_Enemy09.TryToKill()
+  STAGE 30 Fragment_8
+    ;30 stop
+    Stop()
+  STAGE 255 Fragment_10
+    ;255 Shut Down
+    Alias_Boss.TryToDisable()
+    MusBoss.Remove()

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pdb
+*.mohidden
+*.bak
+*.bak-*
+*.backup*
+bin/
+obj/
+.vs/

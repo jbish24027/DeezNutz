@@ -1,0 +1,2410 @@
+{
+ "19FA01": {
+  "file": "Picta - Weathers/00_Master/A01_Clear.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    9.0
+   ],
+   "band_hor": [
+    -0.014,
+    8.0
+   ],
+   "dome_zenith": [
+    0.01,
+    12.0
+   ],
+   "dome_hor_sun": [
+    0.304,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.064,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.016,
+    20.0
+   ],
+   "sky_ibl": [
+    0.048,
+    11.0
+   ],
+   "clouds": [
+    0.0,
+    10.5
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.162,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.541,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.296,
+    17.5
+   ],
+   "amb_XMinus": [
+    0.251,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.275,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.275,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.307,
+    18.75
+   ],
+   "amb_ZMinus": [
+    0.443,
+    10.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FA02": {
+  "file": "Picta - Weathers/00_Master/A01_Clear.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    9.0
+   ],
+   "band_hor": [
+    -0.014,
+    8.0
+   ],
+   "dome_zenith": [
+    0.01,
+    12.0
+   ],
+   "dome_hor_sun": [
+    0.304,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.064,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.016,
+    20.0
+   ],
+   "sky_ibl": [
+    0.048,
+    11.0
+   ],
+   "clouds": [
+    0.0,
+    10.5
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.162,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.541,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.296,
+    17.5
+   ],
+   "amb_XMinus": [
+    0.251,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.275,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.275,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.307,
+    18.75
+   ],
+   "amb_ZMinus": [
+    0.443,
+    10.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FA03": {
+  "file": "Picta - Weathers/00_Master/A02_Clear_Mist.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    9.0
+   ],
+   "band_hor": [
+    0.02,
+    9.0
+   ],
+   "dome_zenith": [
+    0.01,
+    12.0
+   ],
+   "dome_hor_sun": [
+    0.259,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.051,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.016,
+    8.25
+   ],
+   "sky_ibl": [
+    0.041,
+    11.0
+   ],
+   "clouds": [
+    0.0,
+    10.0
+   ],
+   "fog_far": [
+    -0.0,
+    9.5
+   ],
+   "fog_near": [
+    -0.0,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.266,
+    19.25
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.541,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.118,
+    8.25
+   ],
+   "amb_XMinus": [
+    -0.131,
+    17.5
+   ],
+   "amb_YPlus": [
+    0.109,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.109,
+    18.75
+   ],
+   "amb_ZPlus": [
+    -0.142,
+    17.5
+   ],
+   "amb_ZMinus": [
+    -0.214,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FB01": {
+  "file": "Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini",
+  "worst": {
+   "band_top": [
+    -0.014,
+    17.75
+   ],
+   "band_hor": [
+    -0.02,
+    8.0
+   ],
+   "dome_zenith": [
+    -0.014,
+    17.75
+   ],
+   "dome_hor_sun": [
+    0.287,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.059,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.018,
+    8.25
+   ],
+   "sky_ibl": [
+    0.044,
+    11.0
+   ],
+   "clouds": [
+    -0.0,
+    9.0
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.166,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.541,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.199,
+    17.5
+   ],
+   "amb_XMinus": [
+    -0.177,
+    17.5
+   ],
+   "amb_YPlus": [
+    -0.242,
+    17.75
+   ],
+   "amb_YMinus": [
+    -0.242,
+    17.75
+   ],
+   "amb_ZPlus": [
+    -0.203,
+    17.75
+   ],
+   "amb_ZMinus": [
+    -0.373,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FB02": {
+  "file": "Picta - Weathers/00_Master/B01_Lightly_Cloudy.ini",
+  "worst": {
+   "band_top": [
+    -0.014,
+    17.75
+   ],
+   "band_hor": [
+    -0.02,
+    8.0
+   ],
+   "dome_zenith": [
+    -0.014,
+    17.75
+   ],
+   "dome_hor_sun": [
+    0.287,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.059,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.018,
+    8.25
+   ],
+   "sky_ibl": [
+    0.044,
+    11.0
+   ],
+   "clouds": [
+    -0.0,
+    9.0
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.166,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.541,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.199,
+    17.5
+   ],
+   "amb_XMinus": [
+    -0.177,
+    17.5
+   ],
+   "amb_YPlus": [
+    -0.242,
+    17.75
+   ],
+   "amb_YMinus": [
+    -0.242,
+    17.75
+   ],
+   "amb_ZPlus": [
+    -0.203,
+    17.75
+   ],
+   "amb_ZMinus": [
+    -0.373,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FB03": {
+  "file": "Picta - Weathers/00_Master/B02_Lightly_Cloudy_Misty_Fog.ini",
+  "worst": {
+   "band_top": [
+    0.011,
+    9.0
+   ],
+   "band_hor": [
+    0.03,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.011,
+    8.25
+   ],
+   "dome_hor_sun": [
+    0.234,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.044,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.023,
+    8.25
+   ],
+   "sky_ibl": [
+    -0.033,
+    8.5
+   ],
+   "clouds": [
+    -0.0,
+    16.75
+   ],
+   "fog_far": [
+    -0.0,
+    10.75
+   ],
+   "fog_near": [
+    -0.0,
+    10.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.162,
+    19.25
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.529,
+    7.5
+   ],
+   "amb_XPlus": [
+    0.284,
+    7.25
+   ],
+   "amb_XMinus": [
+    -0.315,
+    17.75
+   ],
+   "amb_YPlus": [
+    -0.281,
+    17.75
+   ],
+   "amb_YMinus": [
+    -0.281,
+    17.75
+   ],
+   "amb_ZPlus": [
+    0.202,
+    18.75
+   ],
+   "amb_ZMinus": [
+    0.305,
+    7.25
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FC01": {
+  "file": "Picta - Weathers/00_Master/C01_Cloudy.ini",
+  "worst": {
+   "band_top": [
+    0.015,
+    9.0
+   ],
+   "band_hor": [
+    0.024,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.013,
+    8.25
+   ],
+   "dome_hor_sun": [
+    0.27,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.054,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.021,
+    8.25
+   ],
+   "sky_ibl": [
+    -0.036,
+    17.0
+   ],
+   "clouds": [
+    -0.0,
+    10.75
+   ],
+   "fog_far": [
+    -0.0,
+    10.25
+   ],
+   "fog_near": [
+    -0.0,
+    10.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.207,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.529,
+    7.5
+   ],
+   "amb_XPlus": [
+    0.399,
+    7.25
+   ],
+   "amb_XMinus": [
+    -0.58,
+    17.75
+   ],
+   "amb_YPlus": [
+    0.491,
+    7.25
+   ],
+   "amb_YMinus": [
+    0.491,
+    7.25
+   ],
+   "amb_ZPlus": [
+    0.456,
+    7.25
+   ],
+   "amb_ZMinus": [
+    0.566,
+    18.75
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FC02": {
+  "file": "Picta - Weathers/00_Master/C02_Cloudy_Stormy.ini",
+  "worst": {
+   "band_top": [
+    0.015,
+    9.0
+   ],
+   "band_hor": [
+    0.028,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.013,
+    8.25
+   ],
+   "dome_hor_sun": [
+    0.258,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.051,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.023,
+    8.25
+   ],
+   "sky_ibl": [
+    -0.034,
+    17.0
+   ],
+   "clouds": [
+    0.0,
+    8.75
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.235,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.529,
+    7.5
+   ],
+   "amb_XPlus": [
+    0.405,
+    7.25
+   ],
+   "amb_XMinus": [
+    -0.38,
+    17.75
+   ],
+   "amb_YPlus": [
+    0.32,
+    7.25
+   ],
+   "amb_YMinus": [
+    0.32,
+    7.25
+   ],
+   "amb_ZPlus": [
+    0.25,
+    10.0
+   ],
+   "amb_ZMinus": [
+    0.39,
+    7.25
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FC03": {
+  "file": "Picta - Weathers/00_Master/C03_Cloudy_Light_Fog.ini",
+  "worst": {
+   "band_top": [
+    0.014,
+    9.0
+   ],
+   "band_hor": [
+    0.038,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.013,
+    8.25
+   ],
+   "dome_hor_sun": [
+    0.226,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.041,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.028,
+    8.25
+   ],
+   "sky_ibl": [
+    -0.036,
+    8.5
+   ],
+   "clouds": [
+    0.0,
+    9.0
+   ],
+   "fog_far": [
+    0.0,
+    9.0
+   ],
+   "fog_near": [
+    0.0,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.021,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.66,
+    7.5
+   ],
+   "amb_XPlus": [
+    0.3,
+    7.25
+   ],
+   "amb_XMinus": [
+    -0.284,
+    17.75
+   ],
+   "amb_YPlus": [
+    0.226,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.226,
+    18.75
+   ],
+   "amb_ZPlus": [
+    -0.228,
+    17.5
+   ],
+   "amb_ZMinus": [
+    -0.18,
+    18.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FC04": {
+  "file": "Picta - Weathers/00_Master/C04_Cloudy_Rain_Very_Light.ini",
+  "worst": {
+   "band_top": [
+    0.027,
+    17.75
+   ],
+   "band_hor": [
+    0.033,
+    17.75
+   ],
+   "dome_zenith": [
+    0.027,
+    18.0
+   ],
+   "dome_hor_sun": [
+    0.275,
+    7.5
+   ],
+   "dome_hor_away": [
+    -0.084,
+    9.0
+   ],
+   "dome_mid_away": [
+    0.03,
+    18.0
+   ],
+   "sky_ibl": [
+    -0.089,
+    9.0
+   ],
+   "clouds": [
+    0.0,
+    9.0
+   ],
+   "fog_far": [
+    0.0,
+    7.25
+   ],
+   "fog_near": [
+    0.0,
+    7.5
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.047,
+    7.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.716,
+    18.5
+   ],
+   "amb_XPlus": [
+    -0.504,
+    17.5
+   ],
+   "amb_XMinus": [
+    -0.504,
+    17.5
+   ],
+   "amb_YPlus": [
+    -0.504,
+    17.5
+   ],
+   "amb_YMinus": [
+    -0.504,
+    17.5
+   ],
+   "amb_ZPlus": [
+    -0.462,
+    17.5
+   ],
+   "amb_ZMinus": [
+    0.546,
+    7.25
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FC05": {
+  "file": "Picta - Weathers/00_Master/C05_Cloudy_Snow_Very_Light.ini",
+  "worst": {
+   "band_top": [
+    0.003,
+    17.75
+   ],
+   "band_hor": [
+    0.003,
+    17.75
+   ],
+   "dome_zenith": [
+    -0.007,
+    20.0
+   ],
+   "dome_hor_sun": [
+    0.231,
+    7.5
+   ],
+   "dome_hor_away": [
+    -0.053,
+    9.0
+   ],
+   "dome_mid_away": [
+    -0.012,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.061,
+    17.0
+   ],
+   "clouds": [
+    -0.0,
+    7.25
+   ],
+   "fog_far": [
+    -0.0,
+    10.0
+   ],
+   "fog_near": [
+    -0.0,
+    10.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.178,
+    18.75
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.716,
+    18.5
+   ],
+   "amb_XPlus": [
+    0.243,
+    7.25
+   ],
+   "amb_XMinus": [
+    0.243,
+    7.25
+   ],
+   "amb_YPlus": [
+    0.243,
+    7.25
+   ],
+   "amb_YMinus": [
+    0.243,
+    7.25
+   ],
+   "amb_ZPlus": [
+    0.224,
+    18.75
+   ],
+   "amb_ZMinus": [
+    -0.259,
+    17.75
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FD01": {
+  "file": "Picta - Weathers/00_Master/D01_Overcast.ini",
+  "worst": {
+   "band_top": [
+    0.018,
+    17.75
+   ],
+   "band_hor": [
+    0.013,
+    17.75
+   ],
+   "dome_zenith": [
+    0.018,
+    18.0
+   ],
+   "dome_hor_sun": [
+    0.25,
+    7.5
+   ],
+   "dome_hor_away": [
+    -0.061,
+    9.0
+   ],
+   "dome_mid_away": [
+    0.015,
+    18.0
+   ],
+   "sky_ibl": [
+    -0.071,
+    17.0
+   ],
+   "clouds": [
+    -0.0,
+    7.25
+   ],
+   "fog_far": [
+    0.0,
+    9.0
+   ],
+   "fog_near": [
+    0.0,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.253,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.716,
+    7.5
+   ],
+   "amb_XPlus": [
+    0.377,
+    7.25
+   ],
+   "amb_XMinus": [
+    0.377,
+    7.25
+   ],
+   "amb_YPlus": [
+    0.377,
+    7.25
+   ],
+   "amb_YMinus": [
+    0.377,
+    7.25
+   ],
+   "amb_ZPlus": [
+    -0.371,
+    17.75
+   ],
+   "amb_ZMinus": [
+    -0.394,
+    17.75
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FD02": {
+  "file": "Picta - Weathers/00_Master/D02_Overcast_Heavy_Fog.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    17.75
+   ],
+   "band_hor": [
+    0.008,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.01,
+    20.0
+   ],
+   "dome_hor_sun": [
+    -0.242,
+    19.5
+   ],
+   "dome_hor_away": [
+    -0.042,
+    9.0
+   ],
+   "dome_mid_away": [
+    -0.012,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.051,
+    17.0
+   ],
+   "clouds": [
+    0.0,
+    9.0
+   ],
+   "fog_far": [
+    0.0,
+    9.0
+   ],
+   "fog_near": [
+    0.0,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.204,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -2.083,
+    19.75
+   ],
+   "amb_XPlus": [
+    -0.123,
+    17.75
+   ],
+   "amb_XMinus": [
+    -0.123,
+    17.75
+   ],
+   "amb_YPlus": [
+    -0.123,
+    17.75
+   ],
+   "amb_YMinus": [
+    -0.123,
+    17.75
+   ],
+   "amb_ZPlus": [
+    0.124,
+    18.75
+   ],
+   "amb_ZMinus": [
+    -0.091,
+    17.75
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FD03": {
+  "file": "Picta - Weathers/00_Master/D03_Overcast_Rain_Light.ini",
+  "worst": {
+   "band_top": [
+    0.014,
+    17.75
+   ],
+   "band_hor": [
+    -0.017,
+    9.0
+   ],
+   "dome_zenith": [
+    0.014,
+    18.0
+   ],
+   "dome_hor_sun": [
+    -0.268,
+    19.5
+   ],
+   "dome_hor_away": [
+    -0.069,
+    9.0
+   ],
+   "dome_mid_away": [
+    -0.018,
+    9.0
+   ],
+   "sky_ibl": [
+    -0.055,
+    17.0
+   ],
+   "clouds": [
+    0.0,
+    9.75
+   ],
+   "fog_far": [
+    0.0,
+    12.25
+   ],
+   "fog_near": [
+    0.0,
+    10.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.4,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -2.088,
+    19.75
+   ],
+   "amb_XPlus": [
+    0.362,
+    7.25
+   ],
+   "amb_XMinus": [
+    0.362,
+    7.25
+   ],
+   "amb_YPlus": [
+    0.362,
+    7.25
+   ],
+   "amb_YMinus": [
+    0.362,
+    7.25
+   ],
+   "amb_ZPlus": [
+    -0.362,
+    17.5
+   ],
+   "amb_ZMinus": [
+    0.426,
+    7.25
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FD04": {
+  "file": "Picta - Weathers/00_Master/D04_Overcast_Rain_Medium.ini",
+  "worst": {
+   "band_top": [
+    0.014,
+    17.75
+   ],
+   "band_hor": [
+    -0.017,
+    9.0
+   ],
+   "dome_zenith": [
+    0.014,
+    18.0
+   ],
+   "dome_hor_sun": [
+    -0.268,
+    19.5
+   ],
+   "dome_hor_away": [
+    -0.069,
+    9.0
+   ],
+   "dome_mid_away": [
+    -0.018,
+    9.0
+   ],
+   "sky_ibl": [
+    -0.055,
+    17.0
+   ],
+   "clouds": [
+    0.0,
+    9.75
+   ],
+   "fog_far": [
+    0.0,
+    12.25
+   ],
+   "fog_near": [
+    0.0,
+    10.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.354,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -2.088,
+    19.75
+   ],
+   "amb_XPlus": [
+    0.362,
+    7.25
+   ],
+   "amb_XMinus": [
+    0.362,
+    7.25
+   ],
+   "amb_YPlus": [
+    0.362,
+    7.25
+   ],
+   "amb_YMinus": [
+    0.362,
+    7.25
+   ],
+   "amb_ZPlus": [
+    -0.362,
+    17.5
+   ],
+   "amb_ZMinus": [
+    0.426,
+    7.25
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FD05": {
+  "file": "Picta - Weathers/00_Master/D05_Overcast_Snow_Light.ini",
+  "worst": {
+   "band_top": [
+    0.002,
+    9.0
+   ],
+   "band_hor": [
+    -0.003,
+    17.75
+   ],
+   "dome_zenith": [
+    -0.008,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.24,
+    19.5
+   ],
+   "dome_hor_away": [
+    -0.048,
+    9.0
+   ],
+   "dome_mid_away": [
+    -0.011,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.044,
+    17.0
+   ],
+   "clouds": [
+    -0.0,
+    7.5
+   ],
+   "fog_far": [
+    0.0,
+    7.25
+   ],
+   "fog_near": [
+    0.0,
+    7.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.137,
+    18.25
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -2.088,
+    19.75
+   ],
+   "amb_XPlus": [
+    -0.169,
+    17.75
+   ],
+   "amb_XMinus": [
+    0.128,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.128,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.128,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.1,
+    18.75
+   ],
+   "amb_ZMinus": [
+    -0.167,
+    17.75
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FD06": {
+  "file": "Picta - Weathers/00_Master/D06_Overcast_Snow_Medium.ini",
+  "worst": {
+   "band_top": [
+    0.002,
+    9.0
+   ],
+   "band_hor": [
+    -0.003,
+    17.75
+   ],
+   "dome_zenith": [
+    -0.008,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.24,
+    19.5
+   ],
+   "dome_hor_away": [
+    -0.048,
+    9.0
+   ],
+   "dome_mid_away": [
+    -0.011,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.044,
+    17.0
+   ],
+   "clouds": [
+    -0.0,
+    7.5
+   ],
+   "fog_far": [
+    0.0,
+    7.25
+   ],
+   "fog_near": [
+    0.0,
+    7.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.146,
+    18.25
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -2.088,
+    19.75
+   ],
+   "amb_XPlus": [
+    -0.169,
+    17.75
+   ],
+   "amb_XMinus": [
+    0.128,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.128,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.128,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.1,
+    18.75
+   ],
+   "amb_ZMinus": [
+    -0.167,
+    17.75
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FE01": {
+  "file": "Picta - Weathers/00_Master/E01_Storm_Thunder.ini",
+  "worst": {
+   "band_top": [
+    0.005,
+    17.75
+   ],
+   "band_hor": [
+    0.005,
+    17.75
+   ],
+   "dome_zenith": [
+    -0.014,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.461,
+    19.5
+   ],
+   "dome_hor_away": [
+    0.084,
+    18.5
+   ],
+   "dome_mid_away": [
+    -0.023,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.041,
+    20.0
+   ],
+   "clouds": [
+    0.0,
+    10.0
+   ],
+   "fog_far": [
+    -0.0,
+    18.75
+   ],
+   "fog_near": [
+    -0.0,
+    18.5
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.443,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    3.862,
+    18.5
+   ],
+   "amb_XPlus": [
+    0.225,
+    10.0
+   ],
+   "amb_XMinus": [
+    0.225,
+    10.0
+   ],
+   "amb_YPlus": [
+    0.225,
+    10.0
+   ],
+   "amb_YMinus": [
+    0.225,
+    10.0
+   ],
+   "amb_ZPlus": [
+    -0.215,
+    17.75
+   ],
+   "amb_ZMinus": [
+    -0.223,
+    17.5
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FE02": {
+  "file": "Picta - Weathers/00_Master/E02_Storm_Cold_Thunder.ini",
+  "worst": {
+   "band_top": [
+    0.004,
+    17.75
+   ],
+   "band_hor": [
+    0.004,
+    17.75
+   ],
+   "dome_zenith": [
+    -0.014,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.454,
+    19.5
+   ],
+   "dome_hor_away": [
+    0.082,
+    18.5
+   ],
+   "dome_mid_away": [
+    -0.022,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.041,
+    20.0
+   ],
+   "clouds": [
+    0.0,
+    10.0
+   ],
+   "fog_far": [
+    -0.0,
+    7.5
+   ],
+   "fog_near": [
+    -0.0,
+    7.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.182,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    3.862,
+    18.5
+   ],
+   "amb_XPlus": [
+    0.208,
+    18.75
+   ],
+   "amb_XMinus": [
+    0.208,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.208,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.208,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.21,
+    10.0
+   ],
+   "amb_ZMinus": [
+    -0.2,
+    17.5
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FE03": {
+  "file": "Picta - Weathers/00_Master/E03_Storm_Rain_Heavy_Thunder.ini",
+  "worst": {
+   "band_top": [
+    0.001,
+    17.75
+   ],
+   "band_hor": [
+    0.001,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.013,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.431,
+    19.5
+   ],
+   "dome_hor_away": [
+    0.069,
+    18.5
+   ],
+   "dome_mid_away": [
+    -0.02,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.037,
+    20.0
+   ],
+   "clouds": [
+    0.0,
+    9.75
+   ],
+   "fog_far": [
+    0.0,
+    8.75
+   ],
+   "fog_near": [
+    0.0,
+    8.75
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.282,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -4.322,
+    19.75
+   ],
+   "amb_XPlus": [
+    0.06,
+    10.0
+   ],
+   "amb_XMinus": [
+    0.06,
+    10.0
+   ],
+   "amb_YPlus": [
+    0.06,
+    10.0
+   ],
+   "amb_YMinus": [
+    0.06,
+    10.0
+   ],
+   "amb_ZPlus": [
+    -0.092,
+    17.75
+   ],
+   "amb_ZMinus": [
+    0.074,
+    10.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FE04": {
+  "file": "Picta - Weathers/00_Master/E04_Storm_Rain_Extreme_Thunder.ini",
+  "worst": {
+   "band_top": [
+    0.001,
+    17.75
+   ],
+   "band_hor": [
+    0.001,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.014,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.481,
+    19.5
+   ],
+   "dome_hor_away": [
+    0.073,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.021,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.04,
+    20.0
+   ],
+   "clouds": [
+    0.0,
+    9.75
+   ],
+   "fog_far": [
+    0.0,
+    8.75
+   ],
+   "fog_near": [
+    0.0,
+    8.75
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.185,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -4.826,
+    19.75
+   ],
+   "amb_XPlus": [
+    0.06,
+    10.0
+   ],
+   "amb_XMinus": [
+    0.06,
+    10.0
+   ],
+   "amb_YPlus": [
+    0.06,
+    10.0
+   ],
+   "amb_YMinus": [
+    0.06,
+    10.0
+   ],
+   "amb_ZPlus": [
+    -0.092,
+    17.75
+   ],
+   "amb_ZMinus": [
+    0.074,
+    10.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FE05": {
+  "file": "Picta - Weathers/00_Master/E05_Storm_Snow_Heavy.ini",
+  "worst": {
+   "band_top": [
+    0.006,
+    9.0
+   ],
+   "band_hor": [
+    0.007,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.012,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.418,
+    19.5
+   ],
+   "dome_hor_away": [
+    0.066,
+    18.5
+   ],
+   "dome_mid_away": [
+    -0.018,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.035,
+    20.0
+   ],
+   "clouds": [
+    -0.0,
+    18.25
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.142,
+    18.25
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -4.322,
+    19.75
+   ],
+   "amb_XPlus": [
+    0.0,
+    5.0
+   ],
+   "amb_XMinus": [
+    0.0,
+    5.0
+   ],
+   "amb_YPlus": [
+    0.0,
+    5.0
+   ],
+   "amb_YMinus": [
+    0.0,
+    5.0
+   ],
+   "amb_ZPlus": [
+    0.0,
+    5.0
+   ],
+   "amb_ZMinus": [
+    0.04,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "19FE06": {
+  "file": "Picta - Weathers/00_Master/E06_Storm_Snow_Extreme.ini",
+  "worst": {
+   "band_top": [
+    0.006,
+    9.0
+   ],
+   "band_hor": [
+    0.007,
+    9.0
+   ],
+   "dome_zenith": [
+    -0.013,
+    20.25
+   ],
+   "dome_hor_sun": [
+    -0.466,
+    19.5
+   ],
+   "dome_hor_away": [
+    0.069,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.02,
+    20.0
+   ],
+   "sky_ibl": [
+    -0.038,
+    20.0
+   ],
+   "clouds": [
+    -0.0,
+    18.25
+   ],
+   "fog_far": [
+    -0.0,
+    7.25
+   ],
+   "fog_near": [
+    -0.0,
+    7.25
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    -0.143,
+    18.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    -4.826,
+    19.75
+   ],
+   "amb_XPlus": [
+    0.0,
+    5.0
+   ],
+   "amb_XMinus": [
+    0.0,
+    5.0
+   ],
+   "amb_YPlus": [
+    0.0,
+    5.0
+   ],
+   "amb_YMinus": [
+    0.0,
+    5.0
+   ],
+   "amb_ZPlus": [
+    0.0,
+    5.0
+   ],
+   "amb_ZMinus": [
+    0.04,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "5AFA01": {
+  "file": "Authoria - Summer/A01_Clear_Summer.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    9.0
+   ],
+   "band_hor": [
+    -0.014,
+    8.0
+   ],
+   "dome_zenith": [
+    0.008,
+    12.0
+   ],
+   "dome_hor_sun": [
+    0.3,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.063,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.016,
+    20.0
+   ],
+   "sky_ibl": [
+    0.04,
+    11.0
+   ],
+   "clouds": [
+    0.0,
+    10.5
+   ],
+   "fog_far": [
+    0.107,
+    17.75
+   ],
+   "fog_near": [
+    -0.125,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.186,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.52,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.296,
+    17.5
+   ],
+   "amb_XMinus": [
+    0.251,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.275,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.275,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.307,
+    18.75
+   ],
+   "amb_ZMinus": [
+    0.443,
+    10.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "5AFA02": {
+  "file": "Authoria - Summer/A01_Clear_Summer.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    9.0
+   ],
+   "band_hor": [
+    -0.014,
+    8.0
+   ],
+   "dome_zenith": [
+    0.008,
+    12.0
+   ],
+   "dome_hor_sun": [
+    0.3,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.063,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.016,
+    20.0
+   ],
+   "sky_ibl": [
+    0.04,
+    11.0
+   ],
+   "clouds": [
+    0.0,
+    10.5
+   ],
+   "fog_far": [
+    0.107,
+    17.75
+   ],
+   "fog_near": [
+    -0.125,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.186,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.52,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.296,
+    17.5
+   ],
+   "amb_XMinus": [
+    0.251,
+    18.75
+   ],
+   "amb_YPlus": [
+    0.275,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.275,
+    18.75
+   ],
+   "amb_ZPlus": [
+    0.307,
+    18.75
+   ],
+   "amb_ZMinus": [
+    0.443,
+    10.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "5AFA03": {
+  "file": "Authoria - Summer/A02_Clear_Mist_Summer.ini",
+  "worst": {
+   "band_top": [
+    0.008,
+    9.0
+   ],
+   "band_hor": [
+    0.02,
+    9.0
+   ],
+   "dome_zenith": [
+    0.008,
+    12.0
+   ],
+   "dome_hor_sun": [
+    0.256,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.051,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.016,
+    8.25
+   ],
+   "sky_ibl": [
+    0.034,
+    11.0
+   ],
+   "clouds": [
+    0.0,
+    10.0
+   ],
+   "fog_far": [
+    0.086,
+    17.75
+   ],
+   "fog_near": [
+    -0.067,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.284,
+    19.25
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.52,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.118,
+    8.25
+   ],
+   "amb_XMinus": [
+    -0.131,
+    17.5
+   ],
+   "amb_YPlus": [
+    0.109,
+    18.75
+   ],
+   "amb_YMinus": [
+    0.109,
+    18.75
+   ],
+   "amb_ZPlus": [
+    -0.142,
+    17.5
+   ],
+   "amb_ZMinus": [
+    -0.214,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "5AFB01": {
+  "file": "Authoria - Summer/B01_Lightly_Cloudy_Summer.ini",
+  "worst": {
+   "band_top": [
+    -0.014,
+    17.75
+   ],
+   "band_hor": [
+    -0.02,
+    8.0
+   ],
+   "dome_zenith": [
+    -0.014,
+    17.75
+   ],
+   "dome_hor_sun": [
+    0.283,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.058,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.017,
+    8.25
+   ],
+   "sky_ibl": [
+    0.037,
+    11.0
+   ],
+   "clouds": [
+    -0.0,
+    9.0
+   ],
+   "fog_far": [
+    0.101,
+    17.75
+   ],
+   "fog_near": [
+    -0.111,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.189,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.52,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.199,
+    17.5
+   ],
+   "amb_XMinus": [
+    -0.177,
+    17.5
+   ],
+   "amb_YPlus": [
+    -0.242,
+    17.75
+   ],
+   "amb_YMinus": [
+    -0.242,
+    17.75
+   ],
+   "amb_ZPlus": [
+    -0.203,
+    17.75
+   ],
+   "amb_ZMinus": [
+    -0.373,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ },
+ "5AFB02": {
+  "file": "Authoria - Summer/B01_Lightly_Cloudy_Summer.ini",
+  "worst": {
+   "band_top": [
+    -0.014,
+    17.75
+   ],
+   "band_hor": [
+    -0.02,
+    8.0
+   ],
+   "dome_zenith": [
+    -0.014,
+    17.75
+   ],
+   "dome_hor_sun": [
+    0.283,
+    7.5
+   ],
+   "dome_hor_away": [
+    0.058,
+    7.5
+   ],
+   "dome_mid_away": [
+    -0.017,
+    8.25
+   ],
+   "sky_ibl": [
+    0.037,
+    11.0
+   ],
+   "clouds": [
+    -0.0,
+    9.0
+   ],
+   "fog_far": [
+    0.101,
+    17.75
+   ],
+   "fog_near": [
+    -0.111,
+    9.0
+   ],
+   "volfog": [
+    0.0,
+    5.0
+   ],
+   "sunlight": [
+    0.189,
+    19.5
+   ],
+   "sun_disc": [
+    0.0,
+    5.0
+   ],
+   "scat_sunward": [
+    1.52,
+    7.5
+   ],
+   "amb_XPlus": [
+    -0.199,
+    17.5
+   ],
+   "amb_XMinus": [
+    -0.177,
+    17.5
+   ],
+   "amb_YPlus": [
+    -0.242,
+    17.75
+   ],
+   "amb_YMinus": [
+    -0.242,
+    17.75
+   ],
+   "amb_ZPlus": [
+    -0.203,
+    17.75
+   ],
+   "amb_ZMinus": [
+    -0.373,
+    9.0
+   ]
+  },
+  "night_max_abs": 0.0
+ }
+}

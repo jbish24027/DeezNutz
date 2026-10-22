@@ -1,0 +1,19 @@
+{
+ "PYNIFLY_DIR": "C:/1. AUTHORIA/_tools/coat-smp/pynifly-dl/io_scene_nifly",
+ "SKELETON_NIF": "C:/1. AUTHORIA/mods/BodySlide and Outfit Studio/CalienteTools/BodySlide/res/skeleton_female_sse.nif",
+ "TEXCONV": "C:/1. AUTHORIA/tools/xEdit/Edit Scripts/Texconv.exe",
+ "SKELETON_HKX_M": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/character assets/skeleton.hkx",
+ "SKELETON_HKX_F": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/character assets female/skeleton_female.hkx",
+ "CLIPS": {
+  "m": {
+   "walk": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/animations/male/mt_walkforward.hkx",
+   "run": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/animations/male/mt_runforward.hkx",
+   "sprint": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/animations/male/mt_sprintforward.hkx"
+  },
+  "f": {
+   "walk": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/animations/female/mt_walkforward.hkx",
+   "run": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/animations/female/mt_runforward.hkx",
+   "sprint": "C:/1. AUTHORIA/_tools/coat-smp/anims/meshes/actors/character/animations/female/mt_sprintforward.hkx"
+  }
+ }
+}

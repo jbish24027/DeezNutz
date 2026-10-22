@@ -1,0 +1,1665 @@
+######## 005CE2:Vigilant.esm zzzAoMMq00
+  STAGE 0 (Fragment_6):
+    utility.wait(3.0)
+    Alias_Altano.TryToMoveTo(DawnstarMarker)
+    Alias_Altano.TryToEvaluatePackage()
+    qOwl.Start()
+    qOwl.Setstage(0)
+  STAGE 5 (Fragment_9):
+    setObjectiveDisplayed(5, true, false)
+    SetActive(true)
+  STAGE 5 (Fragment_23):
+    qOwl.Setstage(5)
+  STAGE 10 (Fragment_3):
+    if IsObjectiveDisplayed(5)
+    SetObjectiveCompleted(5, true)
+    endif
+    setObjectiveDisplayed(10, true, false)
+    qGateWR.Setstage(10)
+    qGateRif.Setstage(200)
+    qRifss01.Setstage(10)
+    game.getPlayer().AddSpell(ProtectAb, true)
+    game.getPlayer().AddToFaction(VigilantFaction)
+    game.getPlayer().AddItem(StendarrAmulet, 1, false)
+    game.getPlayer().AddItem(HistBin, 1, false)
+    MapMarker.AddToMap(true)
+    Alias_Altano.TryToEvaluatePackage()
+  STAGE 15 (Fragment_16):
+    SetObjectiveCompleted(10, true)
+    setObjectiveDisplayed(15, true, false)
+    Alias_Altano.TryToMoveTo(AltanoMarkerRef)
+    utility.wait(0.1)
+    Alias_Altano.TryToEvaluatePackage()
+  STAGE 15 (Fragment_25):
+    qOwl.Setstage(999)
+  STAGE 20 (Fragment_11):
+    SetObjectiveCompleted(15, true)
+    setObjectiveDisplayed(20, true, false)
+  STAGE 30 (Fragment_13):
+    SetObjectiveCompleted(20, true)
+    setObjectiveDisplayed(30, true, false)
+  STAGE 40 (Fragment_15):
+    SetObjectiveCompleted(30, true)
+    kmyQuest.ModPious(3.0)
+    ThiefHouse.Enable(false)
+    gCurrentAct.SetValue(1)
+    AoMMq01.Start()
+    AoMMq01.Setstage(0)
+    if AoMMq01.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzAoMmq01")
+    endif
+    Stop()
+  STAGE 999 (Fragment_21):
+    Alias_Altano.TryToDisable()
+    game.getPlayer().AddToFaction(VigilantFaction)
+    ThiefHouse.Disable(false)
+    Stop()
+  STAGE 9999 (Fragment_19):
+    ThiefHouse.Disable(false)
+    game.getPlayer().AddToFaction(VigilantFaction)
+    if qOwl.IsRunning()
+    qOwl.Setstage(999)
+    endif
+    Stop()
+######## 00EFF7:Vigilant.esm zzzAoMMq09
+  STAGE 0 (Fragment_0):
+    MobVigilantEnabler.Disable(false)
+    TempleCollapseEnabler.Enable(false)
+    game.getPlayer().AddSpell(StendarrCurse, true)
+    Alias_Keeper.TryToDisable()
+    Alias_Altano.TryToRemoveFromFaction(StendarrVigilant)
+    Alias_Altano.TryToMoveTo(BetrayerMarkerRef)
+    Alias_Daedra.TryToMoveTo(BetrayerMarkerRef)
+    SubQ01.Setstage(10)
+    utility.Wait(0.5)
+    SetObjectiveDisplayed(0, true, false)
+    SetActive(true)
+    AltanoBase.SetInvulnerable(true)
+    AltanoBase.SetEssential(true)
+  STAGE 10 (Fragment_2):
+    SetObjectiveCompleted(0, true)
+    SetObjectiveDisplayed(10, true, false)
+    HallDoorRef.Lock(true, false)
+    Alias_Daedra.TryToAddToFaction(StendarrEnemy)
+    Alias_Daedra.GetActorRef().StartCombat(game.getPlayer())
+    TeleportEffect.Play(Alias_Altano.GetRef(), 6)
+    utility.Wait(3)
+    Alias_Altano.TryToMoveTo(AltanoRitualMarkerRef)
+  STAGE 15 (Fragment_34):
+    SetObjectiveCompleted(10, true)
+    SetObjectiveDisplayed(15, true, false)
+  STAGE 20 (Fragment_4):
+    SetObjectiveCompleted(15, true)
+    SetObjectiveDisplayed(20, true, false)
+    Alias_gJacob.TryToEnable()
+    if !qMq06BE.IsCompleted()
+    Alias_gJovanni.TryToEnable()
+    Alias_gMarso.TryToEnable()
+    endif
+    Alias_gMom.TryToEnable()
+    Alias_gBalor.TryToEnable()
+    Alias_gUmbra.TryToEnable()
+    Alias_gDaughter.TryToEnable()
+    Alias_MolagBal.TryToEnable()
+  STAGE 21 (Fragment_22):
+    if game.getPlayer().HasLos(Alias_gDaughter.GetRef())
+    TeleportEffect.Play(Alias_gDaughter.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gDaughter.TryToDisable()
+  STAGE 22 (Fragment_24):
+    if game.getPlayer().HasLos(Alias_gUmbra.GetRef())
+    TeleportEffect.Play(Alias_gUmbra.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gUmbra.TryToDisable()
+  STAGE 23 (Fragment_26):
+    if game.getPlayer().HasLos(Alias_gBalor.GetRef())
+    TeleportEffect.Play(Alias_gBalor.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gBalor.TryToDisable()
+  STAGE 24 (Fragment_28):
+    if game.getPlayer().HasLos(Alias_gMom.GetRef())
+    TeleportEffect.Play(Alias_gMom.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gMom.TryToDisable()
+  STAGE 25 (Fragment_30):
+    if game.getPlayer().HasLos(Alias_gMarso.GetRef())
+    TeleportEffect.Play(Alias_gMarso.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gMarso.TryToDisable()
+  STAGE 26 (Fragment_32):
+    if game.getPlayer().HasLos(Alias_gJovanni.GetRef())
+    TeleportEffect.Play(Alias_gJovanni.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gJovanni.TryToDisable()
+  STAGE 30 (Fragment_10):
+    Alias_gJovanni.TryToDisable()
+    Alias_gMarso.TryToDisable()
+    Alias_gMom.TryToDisable()
+    Alias_gBalor.TryToDisable()
+    Alias_gUmbra.TryToDisable()
+    Alias_gDaughter.TryToDisable()
+    game.getPlayer().RemoveSpell(StendarrCurse)
+    HallDoorRef.Lock(false, false)
+    Alias_Altano.TryToAddToFaction(StendarrVigilant)
+    Alias_Altano.GetActorRef().Removeitem(MaceOfMolagBal, 1, false)
+    MaceObject.Enable(false)
+    AoMMq09Scene01.Forcestart()
+    if game.getPlayer().HasLos(Alias_gJacob.GetRef())
+    TeleportEffect.Play(Alias_gJacob.GetRef(), 6)
+    utility.Wait(3)
+    endif
+    Alias_gJacob.TryToDisable()
+  STAGE 32 (Fragment_12):
+    SetObjectiveCompleted(20, true)
+    game.DisablePlayerControls(false, true, false, false, false, false, false, false, 0)
+    HallDoorRef.Lock(true, false)
+    FireSummonSwitchMarker.Enable(false)
+    utility.Wait(3)
+    FireSwitchMarker.Enable(false)
+    utility.Wait(3)
+    SummonEffect.Play(Alias_MolagBal.GetRef(), 12)
+  STAGE 33 (Fragment_42):
+    vigscenemanagerquestscript q = (qSafety as vigscenemanagerquestscript)
+    q.RegisterSceneSkip((Self as Quest), AoMMq09Scene01, 35, true)
+  STAGE 34 (Fragment_16):
+    AltanoBase.SetInvulnerable(false)
+    AltanoBase.SetProtected(false)
+    AltanoBase.SetEssential(false)
+    if Alias_Altano.GetActorRef().IsEssential()
+    AltanoBase.SetEssential(false)
+    endif
+    Alias_Altano.GetActorRef().SetAV("health", 1)
+  STAGE 35 (Fragment_39):
+    Alias_MolagBal.GetActorRef().AllowPCDialogue(true)
+    if Alias_Altano.GetActorRef().IsDead()
+    Alias_MolagBal.TryToEvaluatePackage()
+    else
+    AltanoBase.SetInvulnerable(false)
+    AltanoBase.SetProtected(false)
+    AltanoBase.SetEssential(false)
+    Alias_Altano.TryToKill()
+    endif
+  STAGE 40 (Fragment_6):
+    SetObjectiveDisplayed(40, true, false)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    Alias_MolagBal.TryToAddToFaction(StendarrEnemy)
+    Alias_MolagBal.GetActorRef().StartCombat(game.getPlayer())
+    MusMolag.Add()
+  STAGE 50 (Fragment_8):
+    SetObjectiveCompleted(40, true)
+    kmyQuest.ModPious(3.0)
+    kARMA.Mod(3.0)
+    KarmaUP.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    SummonEffect.Play(Alias_MolagBal.GetRef(), 22)
+    utility.Wait(4)
+    MusMolag.Remove()
+    utility.Wait(18)
+    UnsummonEffect.Play(Alias_MolagBal.GetRef(), 6)
+    utility.Wait(2)
+    Alias_MolagBal.TryToDisable()
+    game.getPlayer().Additem(PieceOfBal, 1, false)
+    utility.Wait(1)
+    AoMMq10.Start()
+    AoMMq10.Setstage(0)
+    if AoMMq10.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzAoMmq10")
+    endif
+    Stop()
+  STAGE 255 (Fragment_35):
+    TempleCollapseEnabler.Disable(false)
+    BeaconDeadMarker.Disable(false)
+    Alias_Daedra.TryToDisable()
+  STAGE 999 (Fragment_20):
+    BadEndMarker.Enable(false)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    kmyQuest.ModRadiance(5.0)
+    kARMA.Mod(-3.0)
+    KarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    AoMMq10.Setstage(999)
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct1Count)
+    CHMq00.Start()
+    CHMq00.Setstage(0)
+    if CHMq00.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzCHMq00")
+    endif
+    Stop()
+  STAGE 9999 (Fragment_37):
+    MobVigilantEnabler.Disable(false)
+    Alias_Keeper.TryToDisable()
+    Alias_gJovanni.TryToDisable()
+    Alias_gMarso.TryToDisable()
+    Alias_gMom.TryToDisable()
+    Alias_gBalor.TryToDisable()
+    Alias_gUmbra.TryToDisable()
+    Alias_gDaughter.TryToDisable()
+    game.getPlayer().RemoveSpell(StendarrCurse)
+    HallDoorRef.Lock(false, false)
+    FireSummonSwitchMarker.Disable(false)
+    FireSwitchMarker.Disable(false)
+    Alias_MolagBal.TryToDisable()
+    MusMolag.Remove()
+    AltanoBase.SetInvulnerable(false)
+    AltanoBase.SetProtected(false)
+    AltanoBase.SetEssential(false)
+    SubQ01.Setstage(10)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    Stop()
+######## 011B75:Vigilant.esm zzzAoMMq10
+  STAGE 0 (Fragment_0):
+    SetObjectiveDisplayed(0, true, false)
+    SetActive(true)
+    Alias_Altano.TryToReset()
+    Alias_Altano.TryToMoveTo(WoundMarkerRef)
+  STAGE 5 (Fragment_6):
+    Alias_Altano.TryToKill()
+  STAGE 10 (Fragment_7):
+    SetObjectiveCompleted(0, true)
+    SetObjectiveDisplayed(10, true, false)
+  STAGE 20 (Fragment_2):
+    if GetStageDone(10) == 0
+    Alias_Altano.TryToKill()
+    endif
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    BreakEffect.Play(Alias_Mace.GetRef(), 4)
+    HitEffect.Play(game.getPlayer(), 6)
+    utility.wait(2)
+    Alias_Mace.TryToDisable()
+    SetObjectiveCompleted(10, true)
+    utility.wait(0.5)
+    AoMMq10Scene01.ForceStart()
+    vigscenemanagerquestscript q = (qSafety as vigscenemanagerquestscript)
+    q.RegisterSceneSkip((Self as Quest), AoMMq10Scene01, 30, true)
+  STAGE 30 (Fragment_9):
+    CurseEffect.Play(game.getPlayer(), 10)
+    CurseSound.Play(game.getPlayer())
+    game.getPlayer().addSpell(MolagBalCurse, true)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    HallDoorRef.Lock(false, false)
+    HallDoorRef.BlockActivation(false)
+    utility.wait(1)
+    FireSummmonSwitchMarker.Disable(false)
+    FireSwitchMarker.Disable(false)
+    utility.wait(0.5)
+    SetObjectiveDisplayed(30, true, false)
+    Alias_librarian.TryToEvaluatePackage()
+  STAGE 39 (Fragment_16):
+    game.getPlayer().AddItem(StendarrHorn, 1, false)
+  STAGE 40 (Fragment_12):
+    SetObjectiveCompleted(30, true)
+    kmyQuest.ModPious(3.0)
+    ScWaitAct2.ForceStart()
+  STAGE 50 (Fragment_11):
+    Alias_Altano.TryToDisable()
+    qBM.Start()
+    qBM.SetStage(0)
+    utility.wait(0.1)
+    Stop()
+  STAGE 50 (Fragment_22):
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct1Count)
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+  STAGE 255 (Fragment_20):
+    Alias_Altano.TryToDisable()
+    Alias_Altano.GetRef().MoveToMyEditorLocation()
+  STAGE 999 (Fragment_15):
+    Alias_Altano.TryToDisable()
+    BadEndMarker.Enable(false)
+    CurseSound.Play(game.getPlayer())
+    game.getPlayer().addSpell(MolagBalCurse, true)
+    Stop()
+  STAGE 9999 (Fragment_18):
+    HallDoorRef.Lock(false, false)
+    HallDoorRef.BlockActivation(false)
+    FireSummmonSwitchMarker.Disable(false)
+    FireSwitchMarker.Disable(false)
+    Alias_Mace.TryToDisable()
+    Alias_Altano.TryToDisable()
+    game.getPlayer().addSpell(MolagBalCurse, true)
+    if game.getPlayer().GetItemCount(StendarrHorn) == 0
+    game.getPlayer().AddItem(StendarrHorn, 1, false)
+    endif
+    Stop()
+######## 4D0376:Vigilant.esm zzzAoMMqGoodEnd
+  STAGE 0 (Fragment_0):
+    SetObjectiveDisplayed(0, true, false)
+    SetActive(true)
+    HallDoor.Lock(false, false)
+    HallDoor.BlockActivation(true)
+    Alias_Daughter.TryToDisable()
+    Alias_Mother.TryToMoveTo(HallEntMarker)
+    Alias_Mother.TryToEnable()
+    Alias_Mother.GetActorRef().GetActorBase().SetEssential(true)
+    Alias_Mother.GetActorRef().GetActorBase().SetInvulnerable(true)
+  STAGE 10 (Fragment_2):
+    SetObjectiveCompleted(0, true)
+    SetObjectiveDisplayed(10, true, false)
+    actor MotherRef = Alias_Mother.GetActorRef()
+    MotherRef.SetActorValue("Health", 100)
+    MotherRef.SetActorValue("Magicka", 1000)
+    MotherRef.GetActorBase().SetInvulnerable(false)
+    MotherRef.SetNoBleedoutRecovery(true)
+    MotherRef.AllowBleedoutDialogue(true)
+    MotherRef.SetRelationshipRank(game.GetPlayer(), -4)
+    MotherRef.StartCombat(game.GetPlayer())
+  STAGE 20 (Fragment_4):
+    SetObjectiveCompleted(10, true)
+    actor MotherRef = Alias_Mother.GetActorRef()
+    MotherRef.SetRelationshipRank(game.GetPlayer(), 2)
+    MotherRef.StopCombat()
+    utility.wait(2.5)
+    if MotherRef.IsInCombat()
+    MotherRef.StopCombat()
+    endif
+    MotherRef.AllowBleedoutDialogue(true)
+    MotherRef.RestoreActorValue("Health", 100)
+    MotherRef.EvaluatePackage()
+    SetObjectiveDisplayed(20, true, false)
+  STAGE 29 (Fragment_6):
+    Alias_Mother.GetActorRef().SetActorValue("Health", 10)
+    Alias_Mother.GetActorRef().RestoreActorValue("Health", 10)
+    Alias_Mother.GetActorRef().GetActorBase().SetInvulnerable(false)
+    Alias_Mother.GetActorRef().GetActorBase().SetEssential(false)
+    Alias_Mother.GetActorRef().GetActorBase().SetProtected(true)
+    SetObjectiveCompleted(20, true)
+    SetObjectiveDisplayed(29, true, false)
+    SetStage(30)
+  STAGE 30 (Fragment_8):
+    if !IsObjectiveCompleted(20)
+    SetObjectiveCompleted(20, true)
+    endif
+    SetObjectiveDisplayed(30, true, false)
+    TrgLeave.Enable(false)
+  STAGE 35 (Fragment_11):
+    SetObjectiveCompleted(29, true)
+    SetStage(50)
+  STAGE 40 (Fragment_13):
+    if GetStageDone(35)
+    SetStage(50)
+    else
+    if SetObjectiveDisplayed(29, true, false)
+    SetObjectiveFailed(29, true)
+    endif
+    Alias_Mother.GetActorRef().GetActorBase().SetEssential(true)
+    Alias_Mother.GetActorRef().GetActorBase().SetInvulnerable(true)
+    SetStage(100)
+    endif
+  STAGE 50 (Fragment_14):
+    SetObjectiveCompleted(29, true)
+    SetObjectiveFailed(30, true)
+    game.GetPlayer().AddSpell(AbMolagCurse, true)
+    BackStabSound.Play(game.GetPlayer())
+    Alias_Daughter.TryToMoveTo(game.GetPlayer())
+    Alias_Daughter.GetRef().Enable(false)
+    Alias_Daughter.GetActorRef().SetAlpha(0, false)
+    Alias_Daughter.TryToEvaluatePackage()
+    game.ForceFirstPerson()
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    game.GetPlayer().PlayIdle(pKnockOut)
+    utility.wait(5.0)
+    Alias_Daughter.GetActorRef().SetAlpha(1.0, true)
+    ScBad.ForceStart()
+  STAGE 60 (Fragment_16):
+    Alias_Owl.TryToDisable()
+    game.FadeOutGame(true, true, 5, 10)
+    utility.wait(7)
+    game.GetPlayer().MoveTo(DreamMarker, 0.0, 0.0, 0.0, true)
+    game.GetPlayer().PlayIdle(pGetUp)
+    utility.wait(7)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    SetStage(65)
+  STAGE 65 (Fragment_21):
+    BadEndMarker.Enable(false)
+    AltarDestoryed.Enable(false)
+    VigilIntMarker.Disable(false)
+    Alias_Keeper.TryToDisable()
+  STAGE 70 (Fragment_23):
+    game.GetPlayer().AddSpell(AbLamaeCurse, true)
+    kmyQuest.ModPious(3.0)
+    kmyQuest.ModRadiance(5.0)
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct1Count)
+    qCH.Start()
+    qCH.SetStage(0)
+    utility.wait(1.0)
+    stop()
+  STAGE 100 (Fragment_18):
+    HallDoor.Lock(false, false)
+    HallDoor.BlockActivation(false)
+  STAGE 110 (Fragment_20):
+    SetObjectiveFailed(29, true)
+    SetObjectiveCompleted(30, true)
+    SetObjectiveDisplayed(110, true, false)
+    Alias_Keeper.TryToEnable()
+    Alias_Mother.TryToDisable()
+    Alias_Daughter.TryToDisable()
+  STAGE 120 (Fragment_25):
+    SetObjectiveCompleted(110, true)
+    kmyQuest.ModPious(3.0)
+    kmyQuest.ModKarma(3.0)
+    game.GetPlayer().Additem(StendarrHorn, 1, false)
+    if qWitch.IsRunning() && !qWitch.IsCompleted()
+    qWitch.SetStage(300)
+    endif
+    ScLeave.ForceStart()
+  STAGE 130 (Fragment_26):
+    VigilIntMarker.Disable(false)
+    AltarDestoryed.Enable(false)
+    Alias_Keeper.TryToDisable()
+    qAct2.Start()
+    qAct2.SetStage(0)
+    utility.wait(3.0)
+    stop()
+  STAGE 130 (Fragment_32):
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct1Count)
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gGoodEnd)
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+  STAGE 255 (Fragment_30):
+    Alias_Mother.TryToDisable()
+    Alias_Daughter.TryToDisable()
+    Alias_Mother.GetRef().MoveToMyEditorLocation()
+    Alias_Daughter.GetRef().MoveToMyEditorLocation()
+  STAGE 9999 (Fragment_28):
+    AltarDestoryed.Enable(false)
+    HallDoor.Lock(false, false)
+    HallDoor.BlockActivation(false)
+    Alias_Mother.TryToDisable()
+    Alias_Daughter.TryToDisable()
+    Alias_Keeper.TryToDisable()
+    utility.wait(0.1)
+    stop()
+######## 038524:Vigilant.esm zzzBMMq01
+  STAGE 0 (Fragment_0):
+    gCurrentAct.SetValue(2)
+    SetObjectiveDisplayed(0, true, false)
+    SetActive(true)
+    Alias_Steward.TryToMoveTo(WindHelmMarker)
+    Alias_Steward.TryToEnable()
+    Alias_Libra.GetRef().MoveToMyEditorLocation()
+    Alias_Libra.TryToEnable()
+  STAGE 10 (Fragment_2):
+    setObjectiveCompleted(0, true)
+    SetObjectiveDisplayed(10, true, false)
+  STAGE 20 (Fragment_5):
+    setObjectiveCompleted(10, true)
+    SetObjectiveDisplayed(20, true, false)
+    game.GetPlayer().AddItem(DugeonKey, 1, false)
+  STAGE 30 (Fragment_7):
+    setObjectiveCompleted(20, true)
+    if !GetStageDone(50)
+    SetObjectiveDisplayed(30, true, false)
+    endif
+  STAGE 40 (Fragment_9):
+    setObjectiveCompleted(30, true)
+    SetObjectiveDisplayed(40, true, false)
+    Alias_BookCase.GetRef().SetLockLevel(0)
+    Alias_BookCase.GetRef().Lock(false, false)
+  STAGE 50 (Fragment_11):
+    if IsObjectiveDisplayed(0)
+    setObjectiveCompleted(0, true)
+    endif
+    if IsObjectiveDisplayed(10)
+    setObjectiveCompleted(10, true)
+    endif
+    if IsObjectiveDisplayed(20)
+    setObjectiveCompleted(20, true)
+    endif
+    if IsObjectiveDisplayed(30)
+    setObjectiveCompleted(30, true)
+    endif
+    setObjectiveCompleted(40, true)
+    SetObjectiveDisplayed(50, true, false)
+    if game.GetPlayer().GetItemCount(DugeonKey) == 0
+    game.GetPlayer().AddItem(DugeonKey, 1, false)
+    endif
+    game.GetPlayer().AddItem(JacobNote, 1, false)
+    game.GetPlayer().AddItem(StoneFaceKey, 1, false)
+  STAGE 60 (Fragment_13):
+    setObjectiveCompleted(50, true)
+    SetObjectiveDisplayed(60, true, false)
+    BMq02.Start()
+    BMq02.SetStage(0)
+    if BMq02.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzBMmq02")
+    endif
+  STAGE 100 (Fragment_15):
+    if IsObjectiveDisplayed(60) == true
+    setObjectiveCompleted(60, true)
+    endif
+    SetObjectiveDisplayed(100, true, false)
+  STAGE 110 (Fragment_17):
+    setObjectiveCompleted(100, true)
+    kmyQuest.ModPious(4.0)
+    game.GetPlayer().AddItem(Gold, 2000, false)
+    VigilantEnabler.Enable(false)
+    Alias_Merchant.TryToEnable()
+    Alias_Courier.TryToDisable()
+    qAct3.Start()
+    qAct3.SetStage(0)
+    utility.wait(0.1)
+    Stop()
+  STAGE 110 (Fragment_29):
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct2Count)
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+  STAGE 255 (Fragment_25):
+    Alias_Libra.TryToDisable()
+    Stop()
+  STAGE 999 (Fragment_19):
+    Alias_Courier.GetRef().DeleteWhenAble()
+  STAGE 9999 (Fragment_27):
+    Alias_BookCase.GetRef().SetLockLevel(0)
+    Alias_BookCase.GetRef().Lock(false, false)
+    Alias_Steward.TryToDisable()
+    Alias_Courier.TryToDisable()
+    VigilantEnabler.Enable(false)
+    Alias_Merchant.TryToEnable()
+    Stop()
+######## 038526:Vigilant.esm zzzBMMq03
+  STAGE 10 (Fragment_0):
+    VanishEffect.Play(Alias_MolagBal.getRef(), 3)
+    utility.Wait(0.3)
+    Alias_MolagBal.GetActorRef().SetAlpha(0.8, false)
+    utility.Wait(0.3)
+    Alias_MolagBal.GetActorRef().SetAlpha(0.6, false)
+    utility.Wait(0.3)
+    Alias_MolagBal.GetActorRef().SetAlpha(0.4, false)
+    utility.Wait(0.3)
+    Alias_MolagBal.GetActorRef().SetAlpha(0.2, false)
+    utility.Wait(0.3)
+    Alias_MolagBal.GetActorRef().SetAlpha(0, false)
+    utility.Wait(0.3)
+    Alias_MolagBal.TryToMoveTo(CastleMarker)
+  STAGE 20 (Fragment_2):
+    if qGuide.IsRunning()
+    qGuide.SetStage(20)
+    endif
+    game.ForceFirstPerson()
+    game.DisablePlayerControls(true, true, true, false, true, true, true, false, 0)
+    BoundEffect.Play(Alias_LamaeHum.getRef(), 5, game.GetPlayer())
+    BoundEffect.Play(game.GetPlayer(), 5, Alias_LamaeHum.getRef())
+    game.GetPlayer().TranslateToRef(BoundMarker, 100, 200)
+    utility.Wait(2.5)
+    LamaeTrap.Enable(false)
+    utility.Wait(1.5)
+    game.ShakeCamera(Alias_LamaeHum.getRef(), 1.0, 1.0)
+    game.GetPlayer().DamageAV("Health", 25)
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    AbsorbEffect.Play(Alias_LamaeHum.getRef(), 7, game.GetPlayer())
+    utility.Wait(0.1)
+    game.GetPlayer().PlayIdle(KnockDown)
+    pcBloodMarker.Enable(false)
+    game.GetPlayer().StopTranslation()
+    game.GetPlayer().TranslateToRef(LandingMarker, 10, 10)
+    utility.Wait(0.2)
+    game.FadeOutGame(true, true, 7, 28)
+    utility.Wait(17)
+    LamaeTrap.Activate(game.GetPlayer(), false)
+    game.GetPlayer().StopTranslation()
+    game.GetPlayer().MoveTo(DreamMarker, 0.0, 0.0, 0.0, true)
+    utility.Wait(0.1)
+    game.GetPlayer().PlayIdle(StandUP)
+    utility.Wait(7)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    SetStage(30)
+  STAGE 30 (Fragment_14):
+    Alias_LamaeHum.TryToMoveTo(DreamLamaeMarker)
+    Alias_LamaeHum.TryToEvaluatePackage()
+    Alias_LamaeHum.GetActorRef().SetOutfit(LamaeOutfit, false)
+    Alias_MolagBal.TryToEvaluatePackage()
+    pcBloodMarker.Disable(false)
+    LamaeTrap.Disable(false)
+  STAGE 40 (Fragment_5):
+    Alias_LamaeHum.TryToDisable()
+  STAGE 50 (Fragment_7):
+    Alias_LamaeBal.TryToMoveTo(game.GetPlayer())
+    Alias_LamaeBal.TryToEnable()
+  STAGE 60 (Fragment_11):
+    SetObjectiveDisplayed(60, true, false)
+    if game.GetPlayer().GetItemCount(SlaugterRoomKey) > 0
+    game.GetPlayer().RemoveItem(SlaugterRoomKey, 1, false)
+    endif
+    Alias_LamaeBal.GetActorRef().SetAV("Aggression", 2)
+    Alias_LamaeBal.TryToAddToFaction(MolagBalFaction)
+    Alias_LamaeBal.GetActorRef().StartCombat(game.GetPlayer())
+    Alias_MolagBal.TryToDisable()
+    MusLamae.Add()
+  STAGE 70 (Fragment_18):
+    SetObjectiveCompleted(60, true)
+    game.FadeOutGame(true, false, 3, 5)
+    game.GetPlayer().AddSpell(AbBloodofLamae, true)
+    utility.Wait(3)
+    MusLamae.Remove()
+    Alias_LamaeZombie.TryToEnable()
+    Alias_LamaeZombie.GetActorRef().Kill()
+    game.GetPlayer().MoveTo(LandingMarker, 0.0, 0.0, 0.0, true)
+  STAGE 80 (Fragment_20):
+    FireEnabler.Enable(false)
+    Alias_Curse.TryToEnable()
+    Alias_Curse.TryToEvaluatePackage()
+    MusMolag.Add()
+    Scene01.Start()
+  STAGE 90 (Fragment_26):
+    ResurrectEffect.Play(Alias_LamaeZombie.getRef(), 6, Alias_Curse.getRef())
+    ResurrectEffect2.Play(Alias_Curse.getRef(), 6, Alias_LamaeZombie.getRef())
+    utility.Wait(5)
+    Alias_LamaeZombie.GetActorRef().Resurrect()
+    StandUpSpell.Cast(Alias_LamaeZombie.getRef(), game.GetPlayer())
+    SetObjectiveDisplayed(90, true, false)
+  STAGE 100 (Fragment_28):
+    SetObjectiveCompleted(90, true)
+    kmyQuest.ModPious(6.0)
+    kARMA.Mod(3.0)
+    KarmaUP.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    Alias_LamaeZombie.GetActorRef().Kill()
+    DisenchantEffect.Play(game.GetPlayer(), 10)
+    DisenchantSound.Play(game.GetPlayer())
+    FireEnabler.Disable(false)
+    Mq01.SetStage(100)
+    utility.Wait(4)
+    MusMolag.Remove()
+    utility.Wait(6)
+    Stop()
+  STAGE 200 (Fragment_16):
+    Alias_LamaeBal.TryToEvaluatePackage()
+  STAGE 210 (Fragment_9):
+    game.GetPlayer().Additem(SlaugterRoomKey, 1, false)
+  STAGE 220 (Fragment_30):
+    game.GetPlayer().AddSpell(AbBloodofLamae, true)
+    kmyQuest.ModRadiance(6.0)
+    kARMA.Mod(-3.0)
+    KarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    CurseSound.Play(game.GetPlayer())
+    Mq01.SetStage(255)
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct2Count)
+    CHMq00.Start()
+    CHMq00.SetStage(0)
+    if CHMq00.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzCHMq00")
+    endif
+    Stop()
+  STAGE 9999 (Fragment_32):
+    pcBloodMarker.Disable(false)
+    LamaeTrap.Disable(false)
+    Alias_MolagBal.TryToDisable()
+    Alias_LamaeHum.TryToDisable()
+    Alias_LamaeBal.TryToDisable()
+    Alias_LamaeZombie.TryToDisable()
+    Alias_Curse.TryToDisable()
+    FireEnabler.Disable(false)
+    game.GetPlayer().AddSpell(AbBloodofLamae, true)
+    MusLamae.Remove()
+    MusMolag.Remove()
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    Stop()
+######## 065932:Vigilant.esm zzzCOMq01
+  STAGE 0 (Fragment_16):
+    gCurrentAct.SetValue(3)
+    SetObjectiveDisplayed(0, true, false)
+    Alias_librarian.GetRef().MoveToMyEditorLocation()
+    Alias_librarian.TrytoEnable()
+    SetActive(true)
+  STAGE 20 (Fragment_0):
+    SetObjectiveCompleted(0, true)
+    SetObjectiveDisplayed(20, true, false)
+    CartEnabler.Enable(false)
+    Alias_Khajiit01.TrytoEnable()
+  STAGE 20 (Fragment_26):
+    qOwl.Start()
+    qOwl.SetStage(0)
+  STAGE 30 (Fragment_2):
+    SetObjectiveCompleted(20, true)
+    SetObjectiveDisplayed(30, true, false)
+    Alias_Bal.TryToDisable()
+    Alias_Khajiit01.TryToDisable()
+    Mansion01IntDoor.Disable(false)
+  STAGE 30 (Fragment_28):
+    qOwl.SetStage(999)
+  STAGE 40 (Fragment_6):
+    Alias_BalKillable.TrytoEnable()
+    BalScene.Start()
+    GhostMarker.Enable(false)
+    GhostMarker2.Disable(false)
+  STAGE 45 (Fragment_24):
+    Alias_BalKillable.TryToAddToFaction(MolagBalFaction)
+    Alias_BalKillable.GetActorRef().SetRelationshipRank(game.getplayer(), -4)
+    Alias_BalKillable.GetActorRef().StartCombat(game.getplayer())
+  STAGE 50 (Fragment_22):
+    Alias_Julia.TryToDisable()
+  STAGE 60 (Fragment_13):
+    Alias_BalKillable.TryToDisable()
+    qGuide.SetStage(70)
+    SetObjectiveDisplayed(60, true, false)
+    MusJulius.Add()
+  STAGE 70 (Fragment_8):
+    SetObjectiveCompleted(30, true)
+    SetObjectiveCompleted(60, true)
+    SetObjectiveDisplayed(70, true, false)
+    game.getplayer().Additem(PieceOfBal, 1, false)
+    utility.wait(4.0)
+    MusJulius.Remove()
+    Alias_MolagBal.TrytoEnable()
+    utility.wait(0.1)
+    Alias_MolagBal.GetRef().PlaceAtMe(SummonFX, 1, false, false)
+    SummonEffect.Play(Alias_MolagBal.GetRef(), 5)
+  STAGE 80 (Fragment_10):
+    MartyrTRG.Enable(false)
+    SetObjectiveDisplayed(80, true, false)
+  STAGE 90 (Fragment_11):
+    MolagScene.ForceStart()
+    utility.wait(0.5)
+    Alias_MolagBal.GetRef().KnockAreaEffect(1, 3000)
+    GateOpenSound.Play(game.getplayer())
+    OblivionGateMarker.Enable(false)
+  STAGE 100 (Fragment_5):
+    SetObjectiveCompleted(70, true)
+    SetObjectiveFailed(80, true)
+    kmyQuest.ModPious(9.0)
+    MartyrTRG.Disable(false)
+    VigilantMarker.Enable(false)
+    ImperialMarker.Enable(false)
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct3Count)
+    CHMq00.Start()
+    CHMq00.SetStage(0)
+    if CHMq00.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzCHMq00")
+    endif
+    Stop()
+  STAGE 200 (Fragment_14):
+    SetObjectiveFailed(70, true)
+    SetObjectiveCompleted(80, true)
+    kmyQuest.ModPious(3.0)
+    kmyQuest.ModRadiance(6.0)
+    Alias_MolagBal.TryToDisable()
+    MartyrFire.Enable(false)
+    MartyrFireSound.Play(game.getplayer())
+    game.getplayer().RemoveItem(StendarrHorn, 1, false)
+    MansionDoor.Disable(false)
+    MartyrQuest.Start()
+    MartyrQuest.SetStage(0)
+    if MartyrQuest.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzCOSubQ01")
+    endif
+    utility.wait(3.0)
+    Stop()
+  STAGE 200 (Fragment_30):
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct3Count)
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gAct3Martyrdom)
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+  STAGE 999 (Fragment_20):
+    Alias_Khajiit01.TryToDisable()
+    Alias_Bal.TryToDisable()
+    Alias_MolagBal.TryToDisable()
+    MartyrTRG.Disable(false)
+    VigilantMarker.Enable(false)
+    ImperialMarker.Enable(false)
+    utility.wait(0.1)
+    Stop()
+  STAGE 9999 (Fragment_18):
+    CartEnabler.Enable(false)
+    Alias_Khajiit01.TryToDisable()
+    Alias_Bal.TryToDisable()
+    Alias_MolagBal.TryToDisable()
+    OblivionGateMarker.Disable(false)
+    MartyrTRG.Disable(false)
+    MusJulius.Remove()
+    if qOwl.IsRunning()
+    qOwl.SetStage(999)
+    endif
+    VigilantMarker.Enable(false)
+    ImperialMarker.Enable(false)
+    Stop()
+######## 324E7E:Vigilant.esm zzzCOSubQ01
+  STAGE 0 (Fragment_0):
+    if AoMSubQ01.IsRunning() && !AoMSubQ01.IsCompleted()
+    AoMSubQ01.SetStage(300)
+    endif
+    Alias_Libra.TryToMoveTo(LibraMarker)
+    Alias_Libra.TryToEnable()
+    game.ForceFirstPerson()
+    game.DisablePlayerControls(true, true, false, false, false, true, true, false, 0)
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(2.5)
+    game.GetPlayer().RemoveItem(StendarrHorn, 1, false)
+    game.GetPlayer().RemoveSpell(MolagCurse)
+    game.GetPlayer().RemoveSpell(LamaeBlood)
+    utility.wait(0.5)
+    game.GetPlayer().MoveTo(NewLifeMarker, 0.0, 0.0, 0.0, true)
+    SetStage(10)
+  STAGE 10 (Fragment_2):
+    game.FadeOutGame(false, true, 3, 5)
+    game.GetPlayer().EquipItem(VigilantRobe, false, true)
+    game.GetPlayer().EquipItem(VigilantBoot, false, true)
+    game.GetPlayer().EquipItem(VigilantGlove, false, true)
+    game.GetPlayer().AddItem(VigilantHood, 1, true)
+    game.GetPlayer().AddItem(Sword, 1, true)
+    game.GetPlayer().AddItem(HistBin, 1, true)
+    utility.wait(2.9)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    utility.wait(0.1)
+    game.ShowRaceMenu()
+    utility.wait(1.0)
+    SetStage(20)
+  STAGE 20 (Fragment_4):
+    SetObjectiveDisplayed(20, true, false)
+    SetActive(true)
+  STAGE 30 (Fragment_6):
+    SetObjectiveCompleted(20, true)
+    SetObjectiveDisplayed(30, true, false)
+  STAGE 40 (Fragment_9):
+    SetObjectiveCompleted(30, true)
+    SetObjectiveDisplayed(40, true, false)
+    if game.GetPlayer().GetItemCount(StendarrHorn) == 0
+    game.GetPlayer().AddItem(StendarrHorn, 1, false)
+    endif
+    MolagMouthTRG.Enable(false)
+    if !game.GetPlayer().HasSpell(MolagCurse)
+    game.GetPlayer().AddSpell(MolagCurse, true)
+    endif
+  STAGE 50 (Fragment_11):
+    Alias_Mque01.TryToEnable()
+    Alias_Mque02.TryToDisable()
+    ImperialRescueMarker.Enable(false)
+    MolagMouthTRG.Disable(false)
+    if !game.GetPlayer().HasSpell(LamaeBlood)
+    game.GetPlayer().AddSpell(LamaeBlood, true)
+    endif
+    CurseSound.Play(game.GetPlayer())
+    CHMq00.Start()
+    CHMq00.SetStage(0)
+    if CHMq00.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzCHMq00")
+    endif
+  STAGE 60 (Fragment_12):
+    SetObjectiveCompleted(40, true)
+    kmyQuest.ModPious(3.0)
+    kmyQuest.ModRadiance(6.0)
+    stop()
+  STAGE 9999 (Fragment_13):
+    game.GetPlayer().AddSpell(MolagCurse, true)
+    game.GetPlayer().AddSpell(LamaeBlood, true)
+    Alias_Mque01.TryToEnable()
+    Alias_Mque02.TryToDisable()
+    ImperialRescueMarker.Enable(false)
+    MolagMouthTRG.Disable(false)
+    stop()
+######## 12F24E:Vigilant.esm zzzCHMQ00
+  STAGE 0 (Fragment_0):
+    gCurrentAct.SetValue(4)
+    if game.getPlayer().GetItemCount(StendarrHorn) > 0
+    game.getPlayer().RemoveItem(StendarrHorn, 1, false)
+    game.getPlayer().AddItem(StendarrHornRust, 1, false)
+    endif
+    Alias_Pepe.GetRef().MoveToMyEditorLocation()
+    LazaMeltDownRef.Enable(false)
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.0)
+    game.getPlayer().MoveTo(Alias_TravelMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    game.getPlayer().AddItem(MoraEye, 1, false)
+    game.FadeOutGame(false, true, 3, 5)
+  STAGE 0 (Fragment_35):
+    (qJson as vigjsonmanagerquestscript).UpdateStartAct4Flag()
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+  STAGE 0 (Fragment_32):
+    zzzchquestmanagerquestscript QuestManager = (QM as zzzchquestmanagerquestscript)
+    QuestManager.ActivateAct4Quests()
+  STAGE 20 (Fragment_2):
+    Alias_Pepe.TryToMoveTo(Alias_MarkerGate.GetRef())
+    utility.wait(0.5)
+    TeleportEffect.Play(Alias_Pepe.GetRef(), 8)
+    Alias_Pepe.TryToEvaluatePackage()
+  STAGE 40 (Fragment_5):
+    Alias_Pepe.TryToMoveTo(Alias_MarkerSlumn.GetRef())
+    utility.wait(0.5)
+    Alias_Pepe.TryToEvaluatePackage()
+  STAGE 50 (Fragment_9):
+    Alias_Pepe.TryToMoveTo(Alias_MarkerCourt.GetRef())
+    utility.wait(0.5)
+    Alias_Pepe.TryToEvaluatePackage()
+  STAGE 55 (Fragment_22):
+    EndFunction
+    Function Fragment_27()
+  STAGE 57 (Fragment_27):
+
+  STAGE 58 (Fragment_25):
+    Alias_Abbot.GetActorRef().SetAV("Aggression", 3)
+    Alias_Abbot.GetActorRef().StartCombat(game.getPlayer())
+  STAGE 60 (Fragment_11):
+    Alias_Pepe.TryToMoveTo(Alias_MarkerPortal.GetRef())
+    utility.wait(0.5)
+    TeleportEffect.Play(Alias_Pepe.GetRef(), 8)
+    Alias_Pepe.TryToEvaluatePackage()
+  STAGE 70 (Fragment_13):
+    Alias_Pepe.TryToMoveTo(Alias_MarkerMalada.GetRef())
+    utility.wait(0.5)
+    TeleportEffect.Play(Alias_Pepe.GetRef(), 8)
+    Alias_Pepe.TryToEvaluatePackage()
+  STAGE 90 (Fragment_15):
+    Scene90.Start()
+    Collision.Enable(false)
+    extBarrier.Disable(false)
+    LazaMeltDownRef.Disable(false)
+    Greymarch.SetStage(10)
+  STAGE 110 (Fragment_18):
+    LazaAirStrike.Enable(false)
+    int i = 0
+    while !LazaAirStrike.Is3Dloaded() && i < 10
+    utility.wait(0.5)
+    i = i + 1
+    endwhile
+    LazaAirStrike.Activate(Alias_Pepe.GetRef(), false)
+  STAGE 115 (Fragment_24):
+    if game.getPlayer().GetDistance(ExpTrg) < 256
+    Alias_Pepe.GetRef().PushActorAway(game.getPlayer(), 8)
+    endif
+    Alias_Pepe.TryToDisable()
+    Alias_Imga.TryToDisable()
+    ExpTrg.PlaceatMe(OrderExp, 1, false, false)
+    Obelisk.Enable(false)
+    Alias_Order.TryToMoveTo(Alias_OrderMarker.GetRef())
+    Alias_Order.TryToEnable()
+    Alias_Order.GetRef().PlaceatMe(LazaExp, 1, false, false)
+    LazaCloak.Cast(Alias_Order.GetRef())
+  STAGE 120 (Fragment_21):
+    Collision.Disable(false)
+    Stop()
+  STAGE 999 (Fragment_29):
+    Alias_Pepe.TryToDisable()
+    Alias_Imga.TryToDisable()
+    Alias_Mentana.TryToDisable()
+    Alias_Abbot.TryToDisable()
+######## 1363DB:Vigilant.esm zzzCHMQ01
+  STAGE 3 (Fragment_38):
+    Alias_Pepe01.TrytoDisable()
+  STAGE 4 (Fragment_40):
+    Alias_Pepe02.TrytoDisable()
+  STAGE 5 (Fragment_28):
+    Alias_Deathbringer.TryToAddToFaction(MolagFaction)
+    Alias_Deathbringer.GetActorRef().StartCombat(game.GetPlayer())
+  STAGE 6 (Fragment_42):
+
+  STAGE 7 (Fragment_31):
+    LazaAirStrike.Enable(false)
+    int i = 0
+    while !LazaAirStrike.Is3Dloaded() && i < 10
+    utility.wait(0.5)
+    i = i + 1
+    endwhile
+    LazaAirStrike.Activate(Alias_Alessia.GetRef(), false)
+  STAGE 8 (Fragment_35):
+    Alias_Alessia.GetActorRef().GetActorBase().SetProtected(false)
+    Alias_Alessia.GetActorRef().GetActorBase().SetEssential(false)
+    Alias_Alessia.GetActorRef().KillEssential()
+  STAGE 10 (Fragment_2):
+    Alias_Pepe.TryToEvaluatePackage()
+  STAGE 20 (Fragment_4):
+    if game.GetPlayer().HasLos(Alias_Pepe.GetRef())
+    TeleportEffect.Play(Alias_Pepe.GetRef(), 3)
+    utility.wait(3.0)
+    endif
+    Alias_Pepe.TrytoDisable()
+  STAGE 30 (Fragment_0):
+    Alias_Pepe.TrytoDisable()
+  STAGE 40 (Fragment_6):
+    float ReqPlus = gCycle.GetValue() * 25.0
+    if ReqPlus > 50.0
+    ReqPlus = 50.0
+    endif
+    if kARMA.GetValue() >= 75.0 + ReqPlus
+    SetStage(50)
+    else
+    SetStage(150)
+    endif
+  STAGE 50 (Fragment_8):
+    EndFunction
+    Function Fragment_42()
+  STAGE 60 (Fragment_12):
+    Alias_Stendarr.TrytoDisable()
+  STAGE 70 (Fragment_14):
+    EpiQuest01.Start()
+    EpiQuest01.SetStage(10)
+    kmyQuest.ModRadiance(3.0)
+    game.ForceFirstPerson()
+    utility.wait(0.1)
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    game.GetPlayer().PlayIdle(pKnockdown)
+    game.FadeOutGame(true, false, 5, 10)
+    utility.wait(7)
+    game.GetPlayer().MoveTo(Alias_ReturnMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    ClearWeather.ForceActive(false)
+    game.GetPlayer().PlayIdle(GetUp)
+    utility.wait(7)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    SetStage(255)
+  STAGE 150 (Fragment_10):
+    game.DisablePlayerControls(true, true, false, false, false, true, true, false, 0)
+    Alias_MolagTrue.TryToEnable()
+    utility.wait(0.4)
+    EmberEffect.Play(Alias_MolagTrue.GetRef(), 3)
+    EmberShader.Play(Alias_MolagTrue.GetRef(), 3)
+    AppearSound.Play(Alias_MolagTrue.GetRef())
+    BadScene.ForceStart()
+    vigscenemanagerquestscript q = (qSafety as vigscenemanagerquestscript)
+    q.RegisterSceneSkip((Self as Quest), BadScene, 160, true)
+  STAGE 160 (Fragment_16):
+    Alias_MolagTrue.TryToEvaluatePackage()
+    Alias_Anchor.TryToEnable()
+    int i = 0
+    while !Alias_Anchor.GetRef().Is3Dloaded() && i < 10
+    utility.wait(0.5)
+    i = i + 1
+    endwhile
+    Alias_Anchor.GetRef().Activate(Alias_MolagTrue.GetRef(), false)
+  STAGE 170 (Fragment_19):
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(Alias_BadEndMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    SetStage(175)
+  STAGE 175 (Fragment_24):
+    Alias_Anchor.TrytoDisable()
+    Alias_GateBreakMarker.TryToEnable()
+    Alias_MolagTrue.TryToMoveTo(Alias_MolagWarpMarker.GetRef())
+    utility.wait(0.1)
+    Alias_MolagTrue.TryToEvaluatePackage()
+  STAGE 180 (Fragment_21):
+    kmyQuest.ModRadiance(6.0)
+    game.ForceFirstPerson()
+    utility.wait(0.1)
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    game.GetPlayer().PlayIdle(pKnockdown)
+    game.FadeOutGame(true, true, 5, 10)
+    utility.wait(7)
+    game.GetPlayer().MoveTo(Alias_ReturnMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    BadWeather.ForceActive(false)
+    game.GetPlayer().PlayIdle(GetUp)
+    utility.wait(7)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    SetStage(255)
+  STAGE 255 (Fragment_26):
+    gCurrentAct.SetValue(5)
+    Alias_AfterEp4Marker.TryToEnable()
+    utility.wait(5.0)
+    Stop()
+  STAGE 255 (Fragment_44):
+    (qJson as vigjsonmanagerquestscript).UpdateGameClearFlag()
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+######## 08F2F4:Vigilant.esm zzzCHMQ02
+  STAGE 10 (Fragment_0):
+    HeartBeat.Play(game.GetPlayer())
+    DissyISM.Apply(1.0)
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(Alias_AbyssMarker.GetRef(), 0.0, 0.0, 0.0, true)
+  STAGE 20 (Fragment_2):
+    MistWall.Enable(false)
+    SafeZone.Disable(false)
+    Sc01.Start()
+  STAGE 30 (Fragment_4):
+    SafeZone.Disable(false)
+    Alias_Molag.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+    Alias_Molag.GetActorRef().StartCombat(game.GetPlayer())
+    MusMolag.Add()
+  STAGE 40 (Fragment_6):
+    kmyQuest.ModRadiance(3.0)
+    MistWall.Disable(false)
+    game.GetPlayer().RemoveSpell(SignMolag)
+    utility.wait(4.0)
+    MusMolag.Remove()
+  STAGE 50 (Fragment_8):
+    stop()
+######## 2D35CE:Vigilant.esm zzzCHEpilogueQuest01
+  STAGE 0 (Fragment_8):
+
+  STAGE 10 (Fragment_3):
+    if Alias_Jovanni.GetRef()
+    Alias_Jovanni.TryToDisable()
+    endif
+    Alias_Jazhan.TryToMoveTo(CatMarker)
+    Alias_Cat01.TryToMoveTo(CatMarker)
+    Alias_Cat02.TryToMoveTo(CatMarker)
+    utility.wait(0.1)
+    Alias_Jazhan.TryToEnable()
+    Alias_Cat01.TryToEnable()
+    Alias_Cat02.TryToEnable()
+    SetStage(20)
+  STAGE 20 (Fragment_5):
+    utility.wait(1)
+    Stop()
+######## 4419E5:Vigilant.esm zzzAoMqOwl
+  STAGE 0 (Fragment_0):
+    Alias_Owl.TryToMoveTo(DawnstarMarker)
+    Alias_Owl.TryToEnable()
+    Alias_Owl.TryToEvaluatePackage()
+  STAGE 5 (Fragment_1):
+    SetObjectiveDisplayed(5, true, false)
+    SetActive(true)
+  STAGE 7 (Fragment_5):
+    if game.GetPlayer().GetItemCount(Needle) == 0
+    game.GetPlayer().Additem(Needle, 1, false)
+    endif
+  STAGE 10 (Fragment_3):
+    SetObjectiveCompleted(5, true)
+    SetObjectiveDisplayed(10, true, false)
+  STAGE 20 (Fragment_7):
+    SetObjectiveCompleted(10, true)
+    Alias_Owl.TryToMoveTo(DarkHoleMarker)
+    Alias_Owl.TryToEvaluatePackage()
+    Alias_Altano.GetRef().PlaceAtMe(DreamExp, 1, false, false)
+    qAoM00.SetStage(999)
+    game.GetPlayer().AddSpell(AbMolagCurse, true)
+    game.GetPlayer().UnequipItem(Needle, false, false)
+    game.GetPlayer().RemoveItem(Needle, 1, false)
+    game.FadeOutGame(true, true, 3, 6)
+    utility.wait(3)
+    game.GetPlayer().MoveTo(DarkHoleMarker, 0.0, 0.0, 0.0, true)
+    SetObjectiveDisplayed(20, true, false)
+  STAGE 30 (Fragment_14):
+    SetObjectiveCompleted(20, true)
+    SetObjectiveDisplayed(30, true, false)
+  STAGE 40 (Fragment_16):
+    SetObjectiveCompleted(30, true)
+    game.GetPlayer().AddSpell(AbLamaeCurse, true)
+    kmyQuest.ModRadiance(5.0)
+    qCH.Start()
+    qCH.SetStage(0)
+    utility.wait(0.1)
+    SetStage(255)
+  STAGE 255 (Fragment_18):
+    CompleteAllObjectives()
+    Alias_Owl.TryToDisable()
+    Alias_Owl.GetRef().MoveToMyEditorLocation()
+  STAGE 999 (Fragment_20):
+    if IsObjectiveDisplayed(5)
+    SetObjectiveFailed(5, true)
+    endif
+    if IsObjectiveDisplayed(10)
+    SetObjectiveFailed(10, true)
+    endif
+    game.GetPlayer().RemoveItem(Needle, 1, false)
+    Alias_Owl.TryToDisable()
+    Alias_Owl.GetRef().MoveToMyEditorLocation()
+    Stop()
+######## 444115:Vigilant.esm zzzCOqOwl
+  STAGE 0 (Fragment_0):
+    Alias_Owl.TryToMoveTo(MansionMarker)
+    Alias_Owl.TryToEnable()
+    Alias_Owl.TryToEvaluatePackage()
+  STAGE 5 (Fragment_4):
+    SetObjectiveDisplayed(5, true, false)
+    SetActive(true)
+  STAGE 10 (Fragment_2):
+    SetObjectiveCompleted(5, true)
+    SetObjectiveDisplayed(10, true, false)
+    if game.GetPlayer().GetItemCount(Needle) == 0
+    game.GetPlayer().Additem(Needle, 1, false)
+    endif
+    Alias_Bal.GetActorRef().SetGhost(false)
+    Alias_Bal.GetActorRef().GetActorBase().SetInvulnerable(false)
+  STAGE 20 (Fragment_6):
+    SetObjectiveCompleted(10, true)
+    Alias_Owl.TryToMoveTo(DarkHoleMarker)
+    Alias_Owl.TryToEvaluatePackage()
+    Alias_Bal.GetRef().PlaceAtMe(DreamExp, 1, false, false)
+    Alias_Bal.TryToDisable()
+    game.GetPlayer().UnequipItem(Needle, false, false)
+    game.GetPlayer().RemoveItem(Needle, 1, false)
+    game.FadeOutGame(true, true, 3, 6)
+    utility.Wait(3)
+    game.GetPlayer().MoveTo(DarkHoleMarker, 0.0, 0.0, 0.0, true)
+    utility.Wait(0.1)
+    qCO.SetStage(999)
+    SetObjectiveDisplayed(20, true, false)
+  STAGE 30 (Fragment_8):
+    SetObjectiveCompleted(20, true)
+    SetObjectiveDisplayed(30, true, false)
+  STAGE 40 (Fragment_10):
+    SetObjectiveCompleted(30, true)
+    kmyQuest.ModRadiance(6.0)
+    qCH.Start()
+    qCH.SetStage(0)
+    utility.Wait(0.1)
+    SetStage(255)
+  STAGE 255 (Fragment_12):
+    CompleteAllObjectives()
+    Alias_Owl.TryToDisable()
+    Alias_Owl.GetRef().MoveToMyEditorLocation()
+  STAGE 999 (Fragment_13):
+    if IsObjectiveDisplayed(5)
+    SetObjectiveFailed(5, true)
+    endif
+    if IsObjectiveDisplayed(10)
+    SetObjectiveFailed(10, true)
+    endif
+    game.GetPlayer().RemoveItem(Needle, 1, false)
+    Alias_Owl.TryToDisable()
+    Alias_Owl.GetRef().MoveToMyEditorLocation()
+    Stop()
+######## 140225:Vigilant.esm zzzCHMemoryQuest04
+  STAGE 0 (Fragment_27):
+    SetObjectiveDisplayed(0, true, false)
+  STAGE 10 (Fragment_0):
+    game.FadeOutGame(true, false, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(Alias_MemoryMarker01.GetRef(), 0.0, 0.0, 0.0, true)
+  STAGE 20 (Fragment_2):
+    FuneralScene.ForceStart()
+    vigscenemanagerquestscript q = (qSafety as vigscenemanagerquestscript)
+    q.RegisterSceneSkip((Self as Quest), FuneralScene, 30, true)
+  STAGE 30 (Fragment_4):
+    Alias_Simon.TryToEvaluatePackage()
+    Alias_Tlass.TryToEvaluatePackage()
+    Alias_Priest.TryToEvaluatePackage()
+    Alias_Attendant01.TryToEvaluatePackage()
+    Alias_Attendant02.TryToEvaluatePackage()
+    Alias_Attendant03.TryToEvaluatePackage()
+    Alias_Attendant04.TryToEvaluatePackage()
+    Alias_Attendant05.TryToEvaluatePackage()
+    Alias_Attendant06.TryToEvaluatePackage()
+  STAGE 40 (Fragment_6):
+    Alias_Simon.TryToEvaluatePackage()
+  STAGE 50 (Fragment_8):
+    Alias_Bard.TryToEnable()
+    utility.wait(0.5)
+    TeleportIn.Play(Alias_Bard.GetRef(), 3.0)
+  STAGE 60 (Fragment_10):
+    kARMA.Mod(3.0)
+    KarmaUP.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    TeleportOut.Play(Alias_Bard.GetRef(), 3.0)
+    utility.wait(3.0)
+    Alias_Bard.TryToDisable()
+    SetStage(70)
+  STAGE 70 (Fragment_12):
+    game.FadeOutGame(true, false, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(Alias_ReturnMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    utility.wait(5.0)
+    stop()
+  STAGE 95 (Fragment_14):
+    kARMA.Mod(-3.0)
+    KarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+  STAGE 100 (Fragment_16):
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(Alias_BadEndMarker.GetRef(), 0.0, 0.0, 0.0, true)
+  STAGE 110 (Fragment_18):
+    Alias_Simon.TryToMoveTo(Alias_BrotherMarker.GetRef())
+    Alias_Tlass.TryToMoveTo(Alias_BrotherMarker.GetRef())
+    game.GetPlayer().MoveTo(Alias_BadEndMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    HeartBeat.Play(game.GetPlayer())
+    game.ForceFirstPerson()
+    utility.wait(0.1)
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    game.GetPlayer().PlayIdle(KnockDown)
+    Alias_Martha.TryToDisable()
+    BadScene.ForceStart()
+    vigscenemanagerquestscript q = (qSafety as vigscenemanagerquestscript)
+    q.RegisterSceneSkip((Self as Quest), BadScene, 120, true)
+  STAGE 120 (Fragment_20):
+    Alias_Simon.TryToDisable()
+    Alias_Tlass.TryToDisable()
+    Alias_FireMarker.TryToEnable()
+    utility.wait(1.0)
+    Alias_Molag.TryToEnable()
+    MolagScene.ForceStart()
+  STAGE 121 (Fragment_29):
+    vigscenemanagerquestscript q = (qSafety as vigscenemanagerquestscript)
+    q.RegisterSceneSkip((Self as Quest), MolagScene, 130, true)
+  STAGE 130 (Fragment_22):
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(Alias_ReturnMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    game.GetPlayer().PlayIdle(GetUp)
+    utility.wait(7.0)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    SetStage(140)
+  STAGE 140 (Fragment_23):
+    stop()
+  STAGE 999 (Fragment_25):
+    if IsObjectiveDisplayed(0)
+    SetObjectiveCompleted(0, true)
+    endif
+    if qGuide.IsRunning()
+    qGuide.SetStage(40)
+    endif
+    kmyQuest.ModRadiance(3.0)
+######## 4EC7F3:Vigilant.esm zzzCHqSAExile
+  STAGE 0 (Fragment_0):
+    Alias_SACH.GetRef().Disable(true)
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(ExileMarker, 0.0, 0.0, 0.0, true)
+    SetStage(10)
+  STAGE 10 (Fragment_3):
+    kmyQuest.ChangePlayerName()
+    Alias_Owner.GetActorRef().AddItem(Alias_Identity.GetRef(), 1, false)
+    kmyQuest.TransformMaggot(Alias_Victim01, 1)
+    kmyQuest.TransformMaggot(Alias_Victim02, 2)
+    kmyQuest.TransformMaggot(Alias_Victim03, 3)
+    SetObjectiveDisplayed(0, true, false)
+    if Alias_Victim01.GetRef()
+    SetObjectiveDisplayed(1, true, false)
+    endif
+    if Alias_Victim02.GetRef()
+    SetObjectiveDisplayed(2, true, false)
+    endif
+    if Alias_Victim03.GetRef()
+    SetObjectiveDisplayed(3, true, false)
+    endif
+    SetActive(true)
+    utility.wait(0.1)
+    Alias_SACH.TryToEnable()
+    Alias_SATam.TryToEnable()
+  STAGE 999 (Fragment_1):
+    if utility.IsInMenuMode()
+    game.DisablePlayerControls(true, true, false, false, false, true, true, false, 0)
+    utility.wait(0.1)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    endif
+    CompleteAllObjectives()
+    kmyQuest.RestoreRace(Alias_Victim01, 1)
+    kmyQuest.RestoreRace(Alias_Victim02, 2)
+    kmyQuest.RestoreRace(Alias_Victim03, 3)
+    kmyQuest.RestorePlayerName()
+    game.FadeOutGame(true, true, 3, 5)
+    utility.wait(3.5)
+    game.GetPlayer().MoveTo(ReturnMarker, 0.0, 0.0, 0.0, true)
+    utility.wait(1.0)
+    Stop()
+  STAGE 1000 (Fragment_6):
+    if Alias_Owner.GetActorRef().GetItemCount(Alias_Identity.GetRef())
+    Alias_Owner.GetActorRef().RemoveItem(Alias_Identity.GetRef(), 1, false)
+    endif
+    if game.GetPlayer().GetItemCount(Alias_Identity.GetRef())
+    game.GetPlayer().RemoveItem(Alias_Identity.GetRef(), 1, true)
+    endif
+  STAGE 9999 (Fragment_7):
+    CompleteAllObjectives()
+    kmyQuest.RestoreRace(Alias_Victim01, 1)
+    kmyQuest.RestoreRace(Alias_Victim02, 2)
+    kmyQuest.RestoreRace(Alias_Victim03, 3)
+    kmyQuest.RestorePlayerName()
+    utility.wait(0.1)
+    Stop()
+######## 4D4C3D:Vigilant.esm zzzAoMSubQ02
+  STAGE 0 (Fragment_0):
+    SetObjectiveDisplayed(0, true, false)
+    SetActive(true)
+  STAGE 1 (Fragment_2):
+    if IsObjectiveDisplayed(0)
+    SetObjectiveCompleted(0, true)
+    endif
+    SetObjectiveDisplayed(1, true, false)
+    SetActive(true)
+  STAGE 10 (Fragment_4):
+    SetObjectiveCompleted(1, true)
+    SetObjectiveDisplayed(10, true, false)
+    DoorRef.BlockActivation(false)
+    DoorRef.SetOpen(true)
+    Alias_TA01.TryToDisable()
+    Alias_Anatomancer.TryToEnable()
+  STAGE 20 (Fragment_5):
+    SetObjectiveCompleted(10, true)
+    SetObjectiveDisplayed(20, true, false)
+    SetObjectiveDisplayed(200, true, false)
+  STAGE 30 (Fragment_6):
+    SetObjectiveFailed(200, true)
+    SetObjectiveCompleted(20, true)
+    game.GetPlayer().AddItem(PiperStaff, 1, false)
+    Alias_Victim.TryToMoveTo(Alias_MapMarker.GetRef())
+    Alias_Victim.TryToEnable()
+    MsgKarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    kARMA.Mod(-1.0)
+    SetObjectiveDisplayed(30, true, false)
+  STAGE 40 (Fragment_8):
+    Alias_Victim.TryToDisable()
+    game.GetPlayer().AddItem(Alias_SackV.GetRef(), 1, false)
+    SetObjectiveCompleted(30, true)
+    SetObjectiveDisplayed(40, true, false)
+    MsgKarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    kARMA.Mod(-1.0)
+  STAGE 50 (Fragment_9):
+    SetObjectiveCompleted(40, true)
+    SetObjectiveDisplayed(50, true, false)
+  STAGE 55 (Fragment_10):
+    SetObjectiveCompleted(50, true)
+    SetObjectiveDisplayed(55, true, false)
+    game.GetPlayer().RemoveItem(Alias_SackV.GetRef(), 1, false)
+    MsgKarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    kARMA.Mod(-1.0)
+  STAGE 60 (Fragment_12):
+    SetObjectiveCompleted(55, true)
+    MsgKarmaDown.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    kARMA.Mod(-1.0)
+    CrushSound.Play(game.GetPlayer())
+    ScreamSound.Play(game.GetPlayer())
+    game.ShakeCamera(game.GetPlayer(), 1.0, 5.0)
+    utility.wait(2.5)
+    VictimGutRef.Enable(true)
+    SetObjectiveDisplayed(60, true, false)
+  STAGE 70 (Fragment_14):
+    SetObjectiveCompleted(60, true)
+    SetObjectiveDisplayed(70, true, false)
+    SongTrg.Enable(false)
+  STAGE 80 (Fragment_16):
+    SongTrg.Disable(false)
+    SetStage(100)
+  STAGE 100 (Fragment_18):
+    game.FadeOutGame(true, true, 5, 10)
+    utility.wait(7)
+    game.GetPlayer().MoveTo(PiperMarker, 0.0, 0.0, 0.0, true)
+  STAGE 110 (Fragment_20):
+    game.DisablePlayerControls(true, true, false, false, false, true, true, false, 0)
+    ScBadEnd.ForceStart()
+  STAGE 120 (Fragment_22):
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    MsgBadEnd.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+    game.FadeOutGame(true, true, 5, 10)
+    utility.wait(7)
+    SetStage(130)
+  STAGE 120 (Fragment_38):
+    (qJson as vigjsonmanagerquestscript).UpdateEventFlag(gEndRadiance)
+    (qJson as vigjsonmanagerquestscript).SaveEventFlag()
+  STAGE 130 (Fragment_40):
+    game.QuitToMainMenu()
+  STAGE 200 (Fragment_23):
+    SetObjectiveFailed(20, true)
+    Alias_Anatomancer.GetActorRef().SetRelationshipRank(game.GetPlayer(), -4)
+    Alias_Anatomancer.GetActorRef().StartCombat(game.GetPlayer())
+  STAGE 210 (Fragment_25):
+    Alias_Victim.TryToDisable()
+    SetObjectiveCompleted(200, true)
+    SetObjectiveDisplayed(210, true, false)
+  STAGE 220 (Fragment_27):
+    SetObjectiveFailed(210, true)
+    kmyQuest.ModPious(10.0)
+    BurnEffect.Play(Alias_Anatomancer.GetActorRef(), 5)
+    utility.wait(2.5)
+    Alias_Anatomancer.GetRef().Disable(true)
+    utility.wait(1.0)
+    Stop()
+  STAGE 300 (Fragment_29):
+    SetObjectiveCompleted(210, true)
+    SetObjectiveDisplayed(300, true, false)
+    game.GetPlayer().AddItem(Alias_SackP.GetRef(), 1, false)
+    AnatomanceTrg.Enable(false)
+  STAGE 310 (Fragment_31):
+    kmyQuest.ModPious(3.0)
+    kmyQuest.ModRadiance(9.0)
+    AnatomanceTrg.Disable(false)
+    game.GetPlayer().RemoveItem(Alias_SackP.GetRef(), 1, false)
+    AnatomanceMarker.Enable(false)
+    SetObjectiveCompleted(300, true)
+    utility.wait(1.0)
+    Stop()
+  STAGE 999 (Fragment_33):
+    Alias_Victim.GetRef().MoveToMyEditorLocation()
+    Alias_Victim.TryToDisable()
+  STAGE 9999 (Fragment_36):
+    Alias_Anatomancer.TryToDisable()
+    utility.wait(0.1)
+    Stop()
+######## 009E68:Vigilant.esm zzzAoMMq06
+  STAGE 0 (Fragment_0):
+    SetObjectiveDisplayed(0, true, false)
+    SetActive(true)
+    if Alias_BalMarker.GetRef()
+    Alias_Bal.TryToMoveTo(Alias_BalMarker.GetRef())
+    Alias_Umbra.TryToMoveTo(Alias_BalMarker.GetRef())
+    else
+    debug.Trace("zzzAoMMq06:Failed to fill Map Marker Alias of Ivarsted", 0)
+    Alias_Bal.GetRef().MoveToMyEditorLocation()
+    Alias_Umbra.GetRef().MoveToMyEditorLocation()
+    endif
+    if Alias_Cultist.GetRef()
+    Alias_Cultist.TryToMoveTo(RFMarker)
+    Alias_Cultist.TryToEnable()
+    endif
+  STAGE 10 (Fragment_2):
+    SetObjectiveCompleted(0, true)
+    SetObjectiveDisplayed(10, true, false)
+    Sc01.ForceStart()
+    Alias_Altano.TryToEvaluatePackage()
+  STAGE 11 (Fragment_31):
+    if Alias_Altano.GetRef().GetDistance(RFMarker) > 5000
+    Alias_Altano.TryToMoveTo(RFMarker)
+    endif
+  STAGE 20 (Fragment_4):
+    SetObjectiveCompleted(10, true)
+    SetObjectiveDisplayed(20, true, false)
+    Alias_Jovanni.TryToMoveTo(Alias_CatMarker.GetRef())
+  STAGE 21 (Fragment_33):
+    game.getPlayer().AddItem(StaffMeridia, 1, false)
+    SetObjectiveCompleted(21, true)
+  STAGE 22 (Fragment_39):
+    if !GetStageDone(21)
+    SetObjectiveFailed(21, true)
+    endif
+  STAGE 25 (Fragment_6):
+    if IsObjectiveDisplayed(21)
+    SetObjectiveFailed(21, true)
+    endif
+    SetObjectiveCompleted(20, true)
+    SetObjectiveDisplayed(25, true, false)
+    Alias_Jovanni.TryToAddToFaction(StendarrEnemy)
+    Alias_Jovanni.GetActorRef().StartCombat(game.getPlayer())
+  STAGE 30 (Fragment_25):
+    if IsObjectiveDisplayed(21)
+    SetObjectiveFailed(21, true)
+    endif
+    Alias_Cultist.TryToDisable()
+    SetObjectiveCompleted(25, true)
+    game.getPlayer().AddPerk(NoPickPocket)
+    utility.wait(3)
+    game.ForceFirstPerson()
+    utility.wait(0.1)
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    game.getPlayer().PlayIdle(pKnockdown)
+    game.FadeOutGame(true, true, 5, 10)
+    utility.wait(7)
+    game.getPlayer().MoveTo(Alias_DreamMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    game.getPlayer().PlayIdle(GetUp)
+    utility.wait(7)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+  STAGE 35 (Fragment_27):
+    Alias_Wife.TryToEvaluatePackage()
+  STAGE 40 (Fragment_8):
+    Alias_Wife.TryToDisable()
+    Alias_Marso.TryToEnable()
+    Marso.SetEssential(true)
+  STAGE 50 (Fragment_10):
+    SetObjectiveDisplayed(50, true, false)
+    Alias_Marso.TryToDisable()
+    Alias_Daedra.TryToEnable()
+    Alias_Daedra.GetActorRef().StartCombat(game.getPlayer())
+    game.getPlayer().RemovePerk(NoPickPocket)
+  STAGE 60 (Fragment_12):
+    SetObjectiveCompleted(50, true)
+    SetObjectiveDisplayed(60, true, false)
+    Alias_Marso.TryToMoveTo(RFMarker)
+    Alias_Marso.TryToEnable()
+    utility.wait(3)
+    game.ForceFirstPerson()
+    utility.wait(0.1)
+    game.DisablePlayerControls(true, true, true, true, true, true, true, false, 0)
+    game.getPlayer().PlayIdle(pKnockdown)
+    game.FadeOutGame(true, false, 5, 10)
+    utility.wait(7)
+    game.getPlayer().MoveTo(Alias_CatMarker.GetRef(), 0.0, 0.0, 0.0, true)
+    game.getPlayer().PlayIdle(GetUp)
+    utility.wait(7)
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    Marso.SetEssential(false)
+  STAGE 65 (Fragment_20):
+    Alias_Marso.TryToAddToFaction(StendarrEnemy)
+    Alias_Marso.GetActorRef().StartCombat(game.getPlayer())
+  STAGE 70 (Fragment_14):
+    if !GetStageDone(79)
+    SetObjectiveCompleted(60, true)
+    SetObjectiveDisplayed(70, true, false)
+    Alias_Jovanni.TryToEnable()
+    endif
+  STAGE 79 (Fragment_37):
+    if IsObjectiveDisplayed(20)
+    SetObjectiveCompleted(20, true)
+    endif
+    if IsObjectiveDisplayed(25)
+    SetObjectiveCompleted(25, true)
+    endif
+    Alias_Jovanni.GetRef().PlaceAtMe(ExpThunder, 1, false, false)
+    Alias_Jovanni.TryToDisable()
+    Alias_Marso.TryToMoveTo(RFMarker)
+    Alias_Marso.TryToEnable()
+    Marso.SetEssential(false)
+    BadEnd.Start()
+    BadEnd.Setstage(0)
+    Setstage(80)
+  STAGE 80 (Fragment_16):
+    if IsObjectiveDisplayed(70)
+    SetObjectiveCompleted(70, true)
+    endif
+    SetObjectiveDisplayed(80, true, false)
+  STAGE 90 (Fragment_18):
+    SetObjectiveCompleted(80, true)
+    kmyQuest.ModPious(3.0)
+    Alias_Daedra.TryToDisable()
+    Alias_Jovanni.TryToRemoveFromFaction(StendarrEnemy)
+    Alias_Jovanni.TryToDisable()
+    Alias_Marso.TryToRemoveFromFaction(StendarrEnemy)
+    Alias_Marso.TryToDisable()
+    AoMMq07.Start()
+    AoMMq07.Setstage(0)
+    if AoMMq07.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzAoMmq07")
+    endif
+    Stop()
+  STAGE 90 (Fragment_41):
+    SetObjectiveCompleted(80, true)
+    kmyQuest.ModPious(3.0)
+    Alias_Daedra.TryToDisable()
+    Alias_Jovanni.TryToRemoveFromFaction(StendarrEnemy)
+    Alias_Jovanni.TryToDisable()
+    AoMMq07.Start()
+    AoMMq07.Setstage(0)
+    if AoMMq07.IsRunning() == false
+    debug.MessageBox("ERROR:Failed to start zzzAoMmq07")
+    endif
+    Stop()
+  STAGE 255 (Fragment_43):
+    game.EnablePlayerControls(true, true, true, true, true, true, true, true, 0)
+    Alias_Jovanni.TryToRemoveFromFaction(StendarrEnemy)
+    Alias_Marso.TryToRemoveFromFaction(StendarrEnemy)
+    Alias_Wife.TryToDisable()
+    Alias_Daedra.TryToDisable()
+    Alias_Jovanni.TryToDisable()
+    Alias_Marso.TryToDisable()
+    Alias_Cultist.TryToDisable()
+    Alias_Jovanni.GetRef().MoveToMyEditorLocation()
+    Alias_Marso.GetRef().MoveToMyEditorLocation()
+    Alias_Cultist.GetRef().MoveToMyEditorLocation()
+  STAGE 999 (Fragment_22):
+    game.getPlayer().kill()
+  STAGE 9999 (Fragment_29):
+    Stop()

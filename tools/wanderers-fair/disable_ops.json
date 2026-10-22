@@ -1,0 +1,296 @@
+[
+{
+"formid": "0C00C5:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00C6:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00C7:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00C8:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00C9:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00CA:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00CB:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D1:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D2:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D3:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D4:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D5:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D6:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D7:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D8:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00D9:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00DA:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00DB:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00DC:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00DD:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00DE:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00DF:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E0:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E1:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E2:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E3:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E4:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E5:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E6:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E7:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E8:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00E9:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00EA:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00EB:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00EC:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00ED:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00EE:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0C00EF:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0014C9:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "0016B9:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "001619:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "00161B:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "00161D:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "00161F:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "001621:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "001623:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "001625:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "001627:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+},
+{
+"formid": "001629:SkyrimFair.esp",
+"field_path": "MajorFlags",
+"op": "Add",
+"value": "InitiallyDisabled"
+}
+]

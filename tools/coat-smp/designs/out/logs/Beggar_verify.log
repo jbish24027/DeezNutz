@@ -1,0 +1,37 @@
+== men _1: torsom_1.nif
+  ok   BeggarModel: welded remainder area 2535.1 vs the source minus its pieces 2535.1 (62 of 62 split triangles tiled exactly by their children; 62 weld points)
+  ok   BeggarModel: split into 4 per triangle, area 5464.2 vs 5464.2
+  ok   HIMBO - Body: 11990 triangles, kept 11990 in ['HIMBO - Body'], duplicated 0
+  ok   rags: 3872 triangles, kept 3872 in ['rags'], duplicated 0
+  ok   influences max 4, weight sums off by <= 4.0e-04, bones per shape max 60
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\BeggarClothesM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   109 constraints, bodies declared
+  ok   66 rig nodes, all declared
+  ok   seam Saia / BeggarModel: 127 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 71%, of those on 2 chains 76%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: torsom_0.nif
+  ok   BeggarModel: welded remainder area 2457.2 vs the source minus its pieces 2457.2 (62 of 62 split triangles tiled exactly by their children; 62 weld points)
+  ok   BeggarModel: split into 4 per triangle, area 5381.1 vs 5381.1
+  ok   HIMBO - Body: 11990 triangles, kept 11990 in ['HIMBO - Body'], duplicated 0
+  ok   rags: 3872 triangles, kept 3872 in ['rags'], duplicated 0
+  ok   influences max 4, weight sums off by <= 4.0e-04, bones per shape max 60
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\BeggarClothesM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   109 constraints, bodies declared
+  ok   66 rig nodes, all declared
+  ok   seam Saia / BeggarModel: 127 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Undoes disable-overlay-planes.reg - puts hardware overlay planes
+; back to Windows default. Double-click to merge (needs admin), then REBOOT.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm]
+"OverlayTestMode"=-

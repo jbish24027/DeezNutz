@@ -1,0 +1,891 @@
+{
+ "loose_smp_winners": 9510,
+ "missing_xml": [
+  {
+   "path": "meshes\\skimped\\modular\\clothes\\mageapprentice\\panties\\panties_7_0.nif",
+   "winner": "Authoria - Bodyslide Output - NSFW",
+   "xml": "meshes\\dlc02\\clothes\\telvanni\\robes.xml"
+  },
+  {
+   "path": "meshes\\skimped\\modular\\clothes\\mageapprentice\\panties\\panties_7_1.nif",
+   "winner": "Authoria - Bodyslide Output - NSFW",
+   "xml": "meshes\\dlc02\\clothes\\telvanni\\robes.xml"
+  },
+  {
+   "path": "meshes\\skimped\\modular\\clothes\\magejourneyman\\panties\\panties_9_0.nif",
+   "winner": "Authoria - Bodyslide Output - NSFW",
+   "xml": "meshes\\dlc02\\clothes\\telvanni\\robes.xml"
+  },
+  {
+   "path": "meshes\\skimped\\modular\\clothes\\magejourneyman\\panties\\panties_9_1.nif",
+   "winner": "Authoria - Bodyslide Output - NSFW",
+   "xml": "meshes\\dlc02\\clothes\\telvanni\\robes.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armor\\mu3b_male\\3bbbcollisionarmorp_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "SKSE\\Plugins\\hdtSkinnedMeshConfigs\\3BBB-Amazing_Male.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armor\\mu3b_male\\3bbbcollisionarmorp_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "SKSE\\Plugins\\hdtSkinnedMeshConfigs\\3BBB-Amazing_Male.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood d_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood d_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun scarf_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun scarf_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armor\\dd - vergi\\dd - vergi shieldmaiden collar_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armor\\DD - Vergi\\Shieldmaiden.xml"
+  },
+  {
+   "path": "meshes\\armor\\dd - vergi\\dd - vergi shieldmaiden collar_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armor\\DD - Vergi\\Shieldmaiden.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood d_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood d_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood d_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood d_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe idun scarf_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe idun scarf_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe scarf_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe scarf_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\smp wig6\\532_doa tsukushi_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "ata\\meshes\\00XML\\SweetEscapeWig.xml"
+  },
+  {
+   "path": "meshes\\smp wig6\\532_doa tsukushi_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "ata\\meshes\\00XML\\SweetEscapeWig.xml"
+  },
+  {
+   "path": "meshes\\1wr\\wrcuirassf_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\1WR\\XML\\WRArmor.xml"
+  },
+  {
+   "path": "meshes\\1wr\\wrcuirassf_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\1WR\\XML\\WRArmor.xml"
+  },
+  {
+   "path": "meshes\\armor\\hlioremi\\practical_pirate_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\armor\\practical_pirate\\practical_pirate.xml"
+  },
+  {
+   "path": "meshes\\armor\\hlioremi\\practical_pirate_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\armor\\practical_pirate\\practical_pirate.xml"
+  },
+  {
+   "path": "meshes\\armor\\saltlemon\\wine duchess\\1stperson\\corset1st_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\armor\\SaltLemon\\Wine Duchess\\_WiDu_Hand.xml"
+  },
+  {
+   "path": "meshes\\armor\\saltlemon\\wine duchess\\1stperson\\corset1st_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\armor\\SaltLemon\\Wine Duchess\\_WiDu_Hand.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmfeet_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmfeet_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmhands_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmhands_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\bootsf_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\bootsf_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\gauntletsf_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\gauntletsf_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\lddnpcsysolda\\outfit\\choker_0.nif",
+   "winner": "Authoria - NPC Merge",
+   "xml": "Meshes\\LDDNPCsYsolda\\Outfit\\Choker.xml"
+  },
+  {
+   "path": "meshes\\lddnpcsysolda\\outfit\\choker_1.nif",
+   "winner": "Authoria - NPC Merge",
+   "xml": "Meshes\\LDDNPCsYsolda\\Outfit\\Choker.xml"
+  },
+  {
+   "path": "meshes\\!ube\\pulcharmsolis\\mtgrandmaster\\bootsf_0.nif",
+   "winner": "Authoria - UBE Converter Output",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\!ube\\pulcharmsolis\\mtgrandmaster\\gauntletsf_0.nif",
+   "winner": "Authoria - UBE Converter Output",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\armor\\amuletsandrings\\goldamuletf_0.nif",
+   "winner": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+   "xml": "meshes\\armor\\amuletsandrings\\DD - MedailonRepleceri\\amulet.xml"
+  },
+  {
+   "path": "meshes\\armor\\amuletsandrings\\goldamuletf_1.nif",
+   "winner": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+   "xml": "meshes\\armor\\amuletsandrings\\DD - MedailonRepleceri\\amulet.xml"
+  },
+  {
+   "path": "meshes\\armor\\amuletsandrings\\dd - medailonreplecer\\goldamuletf_0.nif",
+   "winner": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+   "xml": "meshes\\armor\\amuletsandrings\\DD - MedailonRepleceri\\amulet.xml"
+  },
+  {
+   "path": "meshes\\armor\\amuletsandrings\\dd - medailonreplecer\\goldamuletf_1.nif",
+   "winner": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+   "xml": "meshes\\armor\\amuletsandrings\\DD - MedailonRepleceri\\amulet.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - vergi shieldmaiden collar\\dd - vergi shieldmaiden collar.nif",
+   "winner": "DD - Vergi jewelry 5.5.5",
+   "xml": "meshes\\armor\\DD - Vergi\\Shieldmaiden.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\midnight mistress\\mmfeet.nif",
+   "winner": "Midnight Mistress Armor Mashup - SMP 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\midnight mistress\\mmhands.nif",
+   "winner": "Midnight Mistress Armor Mashup - SMP 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mm1stpersonbody_0.nif",
+   "winner": "Midnight Mistress Armor Mashup - SMP 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mm1stpersonbody_1.nif",
+   "winner": "Midnight Mistress Armor Mashup - SMP 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxfb] arcane mage - armor smp\\[ube] [totoxfb] arcane mage - armor smp.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageArmor.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxfb] arcane mage - belts smp\\[ube] [totoxfb] arcane mage - belts smp.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageBelt.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxfb] arcane mage - boots smp\\[ube] [totoxfb] arcane mage - boots smp.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageBoots.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxfb] arcane mage - earrings (gold) smp\\[ube] [totoxfb] arcane mage - earrings (gold) smp.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageEarrings.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxfb] arcane mage - earrings (silver) smp\\[ube] [totoxfb] arcane mage - earrings (silver) smp.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageEarrings.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_armor_0.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageArmor.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_armor_1.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageArmor.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_belt_0.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageBelt.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_belt_1.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageBelt.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_boots_0.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageBoots.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_boots_1.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageBoots.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_earrings_gold.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageEarrings.xml"
+  },
+  {
+   "path": "meshes\\!ube\\fafny stash\\arcane mage armor\\arcane_mage_earrings_silver.nif",
+   "winner": "Arcane Mage Armor UBE",
+   "xml": "meshes\\Fafny stash\\Arcane Mage Armor\\HDTArcaneMageEarrings.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [toto] wine duchess - heels\\[ube] [toto] wine duchess - heels.nif",
+   "winner": "SmolSaltLemon - Wine Duchess UBE",
+   "xml": "meshes\\armor\\SaltLemon\\Wine Duchess\\_WiDu_Hand.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armor\\saltlemon\\wine duchess\\heels_0.nif",
+   "winner": "SmolSaltLemon - Wine Duchess UBE",
+   "xml": "meshes\\armor\\SaltLemon\\Wine Duchess\\_WiDu_Hand.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armor\\saltlemon\\wine duchess\\heels_1.nif",
+   "winner": "SmolSaltLemon - Wine Duchess UBE",
+   "xml": "meshes\\armor\\SaltLemon\\Wine Duchess\\_WiDu_Hand.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\wine duchess\\1st\\corset1st.nif",
+   "winner": "Wine Duchess (3BA SMP)",
+   "xml": "meshes\\armor\\SaltLemon\\Wine Duchess\\_WiDu_Hand.xml"
+  },
+  {
+   "path": "meshes\\twilight princess armor\\f\\hood_runaway_1.nif",
+   "winner": "Twilight Princess Armor Mashup",
+   "xml": "Data\\meshes\\Runaway with Hood\\Runaway.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\mtgrandmaster_boots - himbo\\boots_0.nif",
+   "winner": "Armors of the Velothi Pt. II - HIMBO",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\mtgrandmaster_gauntlets - himbo\\gauntlets_0.nif",
+   "winner": "Armors of the Velothi Pt. II - HIMBO",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\boots_0.nif",
+   "winner": "Armors of the Velothi Pt. II - HIMBO",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\boots_1.nif",
+   "winner": "Armors of the Velothi Pt. II - HIMBO",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\gauntlets_0.nif",
+   "winner": "Armors of the Velothi Pt. II - HIMBO",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\mtgrandmaster\\gauntlets_1.nif",
+   "winner": "Armors of the Velothi Pt. II - HIMBO",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\3ba - armors of the velothi 2 - grandmaster\\3ba - armors of the velothi 2 - grandmaster - boots.nif",
+   "winner": "Armors of the Velothi Pt. II - 3BA",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\3ba - armors of the velothi 2 - grandmaster\\3ba - armors of the velothi 2 - grandmaster - gloves.nif",
+   "winner": "Armors of the Velothi Pt. II - 3BA",
+   "xml": "Data\\meshes\\Armor\\N7R\\FAAC\\FAAC_R1_Cloth\\DressA.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[remiel] outfit - cbbe 3bbb\\[remiel] outfit - cbbe 3bbb.nif",
+   "winner": "Remiel - Default Outfit BodySlides - CBBE 3BA",
+   "xml": "meshes\\armor\\practical_pirate\\practical_pirate.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[imp] modular mage\\[imp] modular mage - apprentice panties 7.nif",
+   "winner": "Modular Mage - CBBE 3BA",
+   "xml": "meshes\\dlc02\\clothes\\telvanni\\robes.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[imp] modular mage\\[imp] modular mage - journeyman panties 9.nif",
+   "winner": "Modular Mage - CBBE 3BA",
+   "xml": "meshes\\dlc02\\clothes\\telvanni\\robes.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - einar wardrobe hood\\dd - einar wardrobe hood.nif",
+   "winner": "DD - Einar Wardrobe v5.5",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - einar wardrobe hood d\\dd - einar wardrobe hood d.nif",
+   "winner": "DD - Einar Wardrobe v5.5",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - einar wardrobe idun hood\\dd - einar wardrobe idun hood.nif",
+   "winner": "DD - Einar Wardrobe v5.5",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - einar wardrobe idun hood d\\dd - einar wardrobe idun hood d.nif",
+   "winner": "DD - Einar Wardrobe v5.5",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - einar wardrobe idun scarf\\dd - einar wardrobe idun scarf.nif",
+   "winner": "DD - Einar Wardrobe v5.5",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd - einar wardrobe scarf\\dd - einar wardrobe scarf.nif",
+   "winner": "DD - Einar Wardrobe v5.5",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd_einar_hood - himbo\\dd - einar wardrobe hood_0.nif",
+   "winner": "DD Einar Wardrobe II - HIMBO",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd_einar_hooddown - himbo\\dd - einar wardrobe hood d_0.nif",
+   "winner": "DD Einar Wardrobe II - HIMBO",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\dd_einar_scarf - himbo\\dd - einar wardrobe scarf_0.nif",
+   "winner": "DD Einar Wardrobe II - HIMBO",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxdd] dd - einar wardrobe, idun hood\\[ube] [totoxdd] dd - einar wardrobe, idun hood.nif",
+   "winner": "[TOTOxDD] DD - Einar Wardrobe by Vergi UBE SMP",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxdd] dd - einar wardrobe, idun hood (down)\\[ube] [totoxdd] dd - einar wardrobe, idun hood (down).nif",
+   "winner": "[TOTOxDD] DD - Einar Wardrobe by Vergi UBE SMP",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\[ube] [totoxdd] dd - einar wardrobe, idun scarf\\[ube] [totoxdd] dd - einar wardrobe, idun scarf.nif",
+   "winner": "[TOTOxDD] DD - Einar Wardrobe by Vergi UBE SMP",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun belt_0.nif",
+   "winner": "[TOTOxDD] DD - Einar Wardrobe by Vergi UBE SMP",
+   "xml": "meshes\\armory\\Einar's wardrobe\\belt.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun belt_1.nif",
+   "winner": "[TOTOxDD] DD - Einar Wardrobe by Vergi UBE SMP",
+   "xml": "meshes\\armory\\Einar's wardrobe\\belt.xml"
+  },
+  {
+   "path": "meshes\\actors\\character\\scorch rayya weelbones' overhaul meshes\\clothes and armors\\rihad armor\\daedriccuirass_0.nif",
+   "winner": "Scorch - WeelBones' Rayya Overhaul",
+   "xml": "meshes\\pulcharmsolis\\frbrset\\back.xml"
+  },
+  {
+   "path": "meshes\\actors\\character\\scorch rayya weelbones' overhaul meshes\\clothes and armors\\rihad armor\\daedriccuirass_1.nif",
+   "winner": "Scorch - WeelBones' Rayya Overhaul",
+   "xml": "meshes\\pulcharmsolis\\frbrset\\back.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\wind ruler armor cuirass 3bav2\\wind ruler armor cuirass 3bav2.nif",
+   "winner": "Windruler smp - SMP - 3BA",
+   "xml": "meshes\\1WR\\XML\\WRArmor.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\ube se 2.0 release smp object for 3ba configs - player male\\ube se 2.0 release smp object for 3ba configs - player male.nif",
+   "winner": "Ultimate Body Enhancer",
+   "xml": "SKSE\\Plugins\\hdtSkinnedMeshConfigs\\3BBB-Amazing_Male.xml"
+  },
+  {
+   "path": "meshes\\chooeydintearsedit\\ear\\ear1.nif",
+   "winner": "Chooey's Dint Ears Edit",
+   "xml": "Meshes\\armor\\[dint999]\\FacePart\\Female\\ears\\ear01\\ear01HDT.xml"
+  },
+  {
+   "path": "meshes\\chooeydintearsedit\\earangry\\ear1.nif",
+   "winner": "Chooey's Dint Ears Edit",
+   "xml": "Meshes\\armor\\[dint999]\\FacePart\\Female\\ears\\ear01\\ear01HDT.xml"
+  },
+  {
+   "path": "meshes\\chooeydintearsedit\\earblushing\\ear1.nif",
+   "winner": "Chooey's Dint Ears Edit",
+   "xml": "Meshes\\armor\\[dint999]\\FacePart\\Female\\ears\\ear01\\ear01HDT.xml"
+  },
+  {
+   "path": "meshes\\chooeydintearsedit\\earpuzzled\\ear1.nif",
+   "winner": "Chooey's Dint Ears Edit",
+   "xml": "Meshes\\armor\\[dint999]\\FacePart\\Female\\ears\\ear01\\ear01HDT.xml"
+  },
+  {
+   "path": "meshes\\chooeydintearsedit\\eartroubled\\ear1.nif",
+   "winner": "Chooey's Dint Ears Edit",
+   "xml": "Meshes\\armor\\[dint999]\\FacePart\\Female\\ears\\ear01\\ear01HDT.xml"
+  },
+  {
+   "path": "calientetools\\bodyslide\\shapedata\\tullius smp wig 3\\tullius smp wig 3 - 532_doa tsukushi.nif",
+   "winner": "Tullius SMP Wig 3 - 1004 Default Head",
+   "xml": "ata\\meshes\\00XML\\SweetEscapeWig.xml"
+  },
+  {
+   "path": "meshes\\353_vin pure regina\\hair.nif",
+   "winner": "Tullius SMP Hair 3 - 1004 Default Head",
+   "xml": "meshes\\355_Vin Pure Regina\\hdtPR.xml"
+  },
+  {
+   "path": "meshes\\491_dark elf blader\\hair ponytail.nif",
+   "winner": "Tullius SMP Hair 3 - 1004 Default Head",
+   "xml": "meshes\\527_Dark Elf Blader\\BladerHair.xml"
+  },
+  {
+   "path": "meshes\\875_nikki 16d\\nikki 16d.nif",
+   "winner": "Tullius SMP Hair 3 - 1004 Default Head",
+   "xml": "Data\\meshes\\00XML\\Nikki 16D.xml"
+  },
+  {
+   "path": "meshes\\actors\\character\\ashe\\outfit\\themilkdrinker\\nier\\2bhair.nif",
+   "winner": "Ashe - Crystal Heart",
+   "xml": "meshes\\TheMilkDrinker\\Nier\\2BHairHDT.xml"
+  },
+  {
+   "path": "meshes\\actors\\character\\ashe\\outfit\\themilkdrinker\\nier\\2bskirt_0.nif",
+   "winner": "Ashe - Crystal Heart",
+   "xml": "meshes\\TheMilkDrinker\\Nier\\skirt.xml"
+  },
+  {
+   "path": "meshes\\actors\\character\\ashe\\outfit\\themilkdrinker\\nier\\2bskirt_1.nif",
+   "winner": "Ashe - Crystal Heart",
+   "xml": "meshes\\TheMilkDrinker\\Nier\\skirt.xml"
+  },
+  {
+   "path": "meshes\\morihausbull\\minotaur\\minoscuirassmnecktrim.nif",
+   "winner": "VIGILANT - Anreme Add-On",
+   "xml": "meshes\\armor\\aom\\minos\\minoscuirass_SMP.xml"
+  }
+ ],
+ "ube_twins_lost_smp": [
+  {
+   "ube_path": "meshes\\!ube\\falmerslayer\\falmerslayerfaceguard.nif",
+   "ube_winner": "Authoria - Bodyslide Output - UBE",
+   "source": "meshes\\falmerslayer\\falmerslayerfaceguard.nif",
+   "source_where": "Falmer Slayer - 3BA"
+  },
+  {
+   "ube_path": "meshes\\!ube\\falmerslayer\\falmerslayerhelmet.nif",
+   "ube_winner": "Authoria - Bodyslide Output - UBE",
+   "source": "meshes\\falmerslayer\\falmerslayerhelmet.nif",
+   "source_where": "Falmer Slayer - 3BA"
+  },
+  {
+   "ube_path": "meshes\\!ube\\armor\\amuletsandrings\\dd - medailonreplecer\\goldamuletf_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\armor\\amuletsandrings\\dd - medailonreplecer\\goldamuletf_0.nif",
+   "source_where": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi"
+  },
+  {
+   "ube_path": "meshes\\!ube\\armor\\amuletsandrings\\dd - medailonreplecer\\goldamuletf_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\armor\\amuletsandrings\\dd - medailonreplecer\\goldamuletf_1.nif",
+   "source_where": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi"
+  },
+  {
+   "ube_path": "meshes\\!ube\\clothes\\volscloaks\\fluffycloak_f.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\clothes\\volscloaks\\fluffycloak_f.nif",
+   "source_where": "HDT-SMP for Cloaks and Capes"
+  },
+  {
+   "ube_path": "meshes\\!ube\\clothes\\volscloaks\\hoodedf_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\clothes\\volscloaks\\hoodedf_0.nif",
+   "source_where": "HDT-SMP for Cloaks and Capes"
+  },
+  {
+   "ube_path": "meshes\\!ube\\clothes\\volscloaks\\hoodedf_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\clothes\\volscloaks\\hoodedf_1.nif",
+   "source_where": "HDT-SMP for Cloaks and Capes"
+  },
+  {
+   "ube_path": "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_boots_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\fuse00\\armor\\adventurer\\adv_female_boots_0.nif",
+   "source_where": "Adventurer Armor"
+  },
+  {
+   "ube_path": "meshes\\!ube\\fuse00\\armor\\adventurer\\adv_female_boots_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\fuse00\\armor\\adventurer\\adv_female_boots_1.nif",
+   "source_where": "Adventurer Armor"
+  },
+  {
+   "ube_path": "meshes\\!ube\\midnight mistress\\mmfeet_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\midnight mistress\\mmfeet_0.nif",
+   "source_where": "Authoria - Bodyslide Output - 3BA"
+  },
+  {
+   "ube_path": "meshes\\!ube\\midnight mistress\\mmfeet_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\midnight mistress\\mmfeet_1.nif",
+   "source_where": "Authoria - Bodyslide Output - 3BA"
+  },
+  {
+   "ube_path": "meshes\\!ube\\midnight mistress\\mmhands_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\midnight mistress\\mmhands_0.nif",
+   "source_where": "Authoria - Bodyslide Output - 3BA"
+  },
+  {
+   "ube_path": "meshes\\!ube\\midnight mistress\\mmhands_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\midnight mistress\\mmhands_1.nif",
+   "source_where": "Authoria - Bodyslide Output - 3BA"
+  },
+  {
+   "ube_path": "meshes\\!ube\\skimped\\modular\\clothes\\mageapprentice\\panties\\panties_7_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\skimped\\modular\\clothes\\mageapprentice\\panties\\panties_7_0.nif",
+   "source_where": "Authoria - Bodyslide Output - NSFW"
+  },
+  {
+   "ube_path": "meshes\\!ube\\skimped\\modular\\clothes\\mageapprentice\\panties\\panties_7_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\skimped\\modular\\clothes\\mageapprentice\\panties\\panties_7_1.nif",
+   "source_where": "Authoria - Bodyslide Output - NSFW"
+  },
+  {
+   "ube_path": "meshes\\!ube\\skimped\\modular\\clothes\\magejourneyman\\panties\\panties_9_0.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\skimped\\modular\\clothes\\magejourneyman\\panties\\panties_9_0.nif",
+   "source_where": "Authoria - Bodyslide Output - NSFW"
+  },
+  {
+   "ube_path": "meshes\\!ube\\skimped\\modular\\clothes\\magejourneyman\\panties\\panties_9_1.nif",
+   "ube_winner": "Authoria - UBE Converter Output",
+   "source": "meshes\\skimped\\modular\\clothes\\magejourneyman\\panties\\panties_9_1.nif",
+   "source_where": "Authoria - Bodyslide Output - NSFW"
+  }
+ ],
+ "smp_winner_mods": [
+  "Adventurer Armor",
+  "Adventurers Magical Bag - 4K HDT-SMP",
+  "Aquatic Elegance - Argonian Koi Whisker Addons",
+  "Arcane Mage Armor UBE",
+  "Argis of Markarth - SerketHetyt's Housecarls",
+  "Armors of the Velothi Pt. I - 3BA",
+  "Armors of the Velothi Pt. I - HIMBO Refit",
+  "Armors of the Velothi Pt. II - 3BA",
+  "Armors of the Velothi Pt. II - HIMBO",
+  "Ashe - Crystal Heart",
+  "Authoria - Bodyslide Output - 3BA",
+  "Authoria - Bodyslide Output - HIMBO",
+  "Authoria - Bodyslide Output - NSFW",
+  "Authoria - Bodyslide Output - UBE",
+  "Authoria - Kaidan Visual Replacer",
+  "Authoria - NPC Merge",
+  "Authoria - Slider Conversions and Patches",
+  "Authoria - Sons of Skyrim SMP Cloaks - Female and Markarth",
+  "Authoria - UBE Converter Output",
+  "Beards of Power HDT-SMP",
+  "Beasthhbb - Argonian Hdt-SMP Feathers",
+  "Blood Horker Pirates Outfit",
+  "Blood Horker Pirates Outfit - 3BA",
+  "Blood Horker Pirates Outfit - HIMBO",
+  "CBBE 3BA (3BBB) - Config",
+  "Caenarvon's Cosplay Basics - CBBE 3BA",
+  "Caenarvon's Cosplay Basics - UBE",
+  "Caenarvon's Cosplay Pack - CBBE 3BA",
+  "Caenarvon's Cosplay Pack - UBE",
+  "Camilla Valerius DF Edit",
+  "Chie Half-Khajiit 3BA - M'rissi Repalcer",
+  "Chooey's Dint Ears Edit",
+  "Cosplay Pack Casual - Winter CBBE 3BA",
+  "Cosplay Pack Gala - CBBE 3BA",
+  "Cosplay Pack Gala - UBE",
+  "DD - Einar Wardrobe v5.5",
+  "DD - FVO Cloth II",
+  "DD - Sigrin Silver Fox armor by Vergi CBBE 3BA SMP",
+  "DD - Sigrin Silver Fox armor by Vergi UBE",
+  "DD - Vergi Armoury by Vergi",
+  "DD - Vergi jewelry 5.5.5",
+  "DD - Vergi jewelry II v2.1",
+  "DD - Vergi jewelry III v5.3",
+  "DD Einar Wardrobe II - HIMBO",
+  "DDV - Hal's casual outfit",
+  "DDV - Hal's casual outfit - UBE",
+  "DDV - Ruby Flower Armor",
+  "Dark Apprentice (3BA SMP)",
+  "Dark Apprentice - UBE SMP",
+  "Dibella's Grace (HDT-SMP)",
+  "Dibella's Grace (HDT-SMP) - CBBE",
+  "Dragon Age Isabella Outfit - 3BA",
+  "Dwemer Backpack - SE by Xtudo - Remi HDT-SMP",
+  "Dwemer Specialist - Remiel COtR Replacer",
+  "ELLE - Lastriem",
+  "ELLE - Lastriem - UBE",
+  "ELLE - Lastriem HIMBO",
+  "Elmlock Armor - HDT-SMP Patch",
+  "Falmer Slayer - 3BA",
+  "Falmer Slayer - HIMBO",
+  "Falmer Slayer - UBE Conversion",
+  "Fearless Lass - Female Armor 3BA HDT",
+  "Flint the Minotaur",
+  "Fluted Armor - Weighted Sliders - 3BA",
+  "Foxglove - Auri Replacer - Visual Overhaul - deStandalone",
+  "Fura DF - HDT Hair - No SkyPatcher",
+  "Fuse00 - Hairpack Patreon - ESP-FE",
+  "Fuse00 - Scout Armor 3BA",
+  "Fuse00 - Scout Armor UBE",
+  "Fuse00 - Thalmor Investigator 3BA",
+  "Fuse00 - Thalmor Investigator UBE",
+  "Girl's Travel Outfit - HDT SMP",
+  "Girl's Travel Outfit - UBE - SMP",
+  "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+  "Gryphonknight Regalia - 3BA",
+  "Gryphonknight Regalia - HIMBO",
+  "Gryphonknight Regalia - SMP patch",
+  "H2135 Pirate Series2 - 3BA",
+  "HDT Orc Helm - Males",
+  "HDT SMP Fluffy Beast Race Tail Replacer Tweaks",
+  "HDT SMP Vanilla Armors",
+  "HDT-SMP 13 Hair Patch",
+  "HDT-SMP College Mage Robes - 3BA",
+  "HDT-SMP College Mage Robes - HIMBO",
+  "HDT-SMP Fluted Armor HIMBO",
+  "HDT-SMP Frankly HD Miraak Patch",
+  "HDT-SMP Frankly HD Miraak Patch for CBBE 3BA",
+  "HDT-SMP Hair +1",
+  "HDT-SMP Hair +2 New",
+  "HDT-SMP Hair +4",
+  "HDT-SMP Hairs and Wigs - Male and Female",
+  "HDT-SMP Infantry Armor - 3BA",
+  "HDT-SMP Master Thief Armor Patch for 3BA-CBBE",
+  "HDT-SMP Master Thief Armor Patch for HIMBO",
+  "HDT-SMP Moon Monk's Robes Patch - 3BA",
+  "HDT-SMP Moon Monk's Robes Patch - HIMBO",
+  "HDT-SMP Nord Steelheart Armor Patch for HIMBO",
+  "HDT-SMP PaladinMelus Armor for CBBE 3BA",
+  "HDT-SMP Spell Knight Armor Patch",
+  "HDT-SMP Vanilla - CBBE 3BA Conversions",
+  "HDT-SMP Vanilla Armors - HIMBO",
+  "HDT-SMP Ysmir Armor Patch",
+  "HDT-SMP for Cloaks and Capes",
+  "Handheld Lanterns - HDT-SMP",
+  "Heart of Ice - Astrid. Custom Voiced Follower",
+  "Helga - SE by Xtudo - My fixes CBBE",
+  "Helga Armor 3BA",
+  "Helga Armor UBE",
+  "Helmet Toggle 2",
+  "Highpolyfication - Nimwraith's Quests",
+  "Humanoid DP - Xavbio Unique DP SMP version",
+  "Humanoid Dragon Priests",
+  "Infantry Armor SMP - HIMBO",
+  "KS Hairdos SMP",
+  "Khajiit Lion Mane Wigs n Hair Expansion n Addons",
+  "Lilyrim Hair Pack SE",
+  "Lion's Mane - SMP",
+  "MAGECORE - hdt SMP (CBBE 3BA)",
+  "Mage's Daily Outfit - SMP Patch",
+  "Men of Skyrim Refined",
+  "Merchantress Outfits - 3BA",
+  "Merchantress Outfits - HIMBO",
+  "Midnight Mistress Armor Mashup - SMP 3BA",
+  "Modular Mage - CBBE 3BA",
+  "Modular SMP Hairstyles",
+  "Modular SMP Wigs",
+  "More Scarves - CBBE 3BA",
+  "Nibenean Strider Armor CBBE 3BA",
+  "Nibenean Strider Armor SE-AE - HDT-SMP Capes patch",
+  "Nirn Necessities - Bodyslide Files",
+  "Nirn Necessities - SMP Accessories",
+  "Nirn Necessities - UBE patch",
+  "Nord Steelheart Armor - HDT-SMP",
+  "Nord Steelheart Armor - HDT-SMP 3BA",
+  "Northern God Armor SE - hdt-SMP Patch",
+  "Northern God Armor SMP - CBBE 3BA",
+  "Northern God Armor SMP for HIMBO",
+  "Novice Witch - CBBE 3BA - SMP Hat",
+  "OStim Standalone - Advanced Adult Animation Framework",
+  "Obi's Cimmerian 3BA - SMP",
+  "Obi's Cimmerian SMP for HIMBO",
+  "Obi's Hedge Knight Armor SMP",
+  "Obi's Zamorian Thief - UBE",
+  "Obi's Zamorian Thief 3BA",
+  "Penetrator MCO SCAR Boss MOD",
+  "Pig Iron Set - Complex Material",
+  "Pig Iron Set - HIMBO Refit",
+  "RB's Sand Snake Armor and Weapon",
+  "RB's Scout - CBBE 3BA",
+  "Racemenu Presets - UBE",
+  "Remiel - Default Outfit BodySlides - CBBE 3BA",
+  "Roaming Girl's Attire - 3BA",
+  "Roaming Girl's Attire - 3BA Modularized",
+  "Rogue Stalker (3BA SMP)",
+  "Rogue Stalker - UBE",
+  "Russian Bear - Sand Snake Armor - UBE",
+  "Sanguine's Trade - An Economy Mod",
+  "Savior's Hide Replacer - UBE",
+  "Savior's Hide Replacer 2 - 3BA",
+  "Savior's Hide Replacer 2 - HIMBO",
+  "Scorch - WeelBones' Rayya Overhaul",
+  "Scout HDT-SMP Armor",
+  "Sera's Armor - 3BA",
+  "Shanoa Armor - 3BA",
+  "Shanoa Armor - UBE",
+  "Shining Nikki - Feathers of Light and Eternity - CBBE 3BA",
+  "SmolSaltLemon - Wine Duchess UBE",
+  "Somewhere in Between - Farmclothes 03 SMP",
+  "Somewhere in Between - Farmclothes 04 SMP",
+  "Sons of Skyrim - GDPR",
+  "Sons of Skyrim - HDT Physics for Cloaks Patch",
+  "Stewards of Skyrim - New Clothing for Stewards - Skypatched",
+  "Thalmor Investigator HDT-SMP HIMBO",
+  "Thor HDT Hair and Beard",
+  "Towels",
+  "Traveling Mage - CBBE 3BA",
+  "Traveling Mage - HIMBO",
+  "True Sons of Skyrim Refined",
+  "Tullius SMP Hair 3 - 1004 Default Head",
+  "Tullius SMP Wig 3 - 1004 Default Head",
+  "Twilight Princess Armor Mashup",
+  "UBE Serana - NPC Replacer",
+  "Ultimate Body Enhancer",
+  "Ultimate Body Enhancer - Hotfix",
+  "VIGILANT - Anreme Add-On",
+  "Val Serano - Pirate Follower and Quest Adventure",
+  "Valkyr HDT-SMP Hairstyles",
+  "Valkyr HDT-SMP Hairstyles - For Khajiit",
+  "Vanilla hair remake SMP",
+  "Wardancer Armor set - 3BA - HDT SMP",
+  "Wild Witch Outfit - CBBE 3BA - HDT-SMP",
+  "Wilderness Witch Outfit - 3BA - SMP",
+  "Windruler smp - SMP - 3BA",
+  "Wine Duchess (3BA SMP)",
+  "Yoana - Custom Voiced Follower",
+  "Ysmir Armor SE HIMBO",
+  "Zoldyg's Inigo - SMP Hair Addon",
+  "[Ashtoreth] Corsican Raider",
+  "[Dint999] BDOR Hairs SSE 0.24",
+  "[Dint999] HairPack02 SSE 1.13",
+  "[NINI] Open Waist - 3BA",
+  "[Nyym] Obi's Cimmerian UBE",
+  "[TOTOxDD] DD - Einar Wardrobe by Vergi UBE SMP",
+  "[TOTOxDD] DD - Vergi Jewelry III UBE SMP v1.2",
+  "zzjay Skyrim Attire - Peasant Dress Short SMP"
+ ]
+}

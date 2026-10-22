@@ -1,0 +1,4879 @@
+{
+ "wthr": {
+  "00015E:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DefaultWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "Seasons_OvercastSnow",
+    "NNAM": "000816:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Seasons_OvercastSnow",
+    "NNAM": "000816:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00081A:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "012F89:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudy",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudy",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudy",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "048C14:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "BlackreachWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "BlackreachWeather",
+    "NNAM": "0B96CA:Skyrim.esm",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "04D7FB:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastSnow",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastSnow",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastSnow",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0923FD:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SovngardeFog",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0C821E:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimFog",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimFog",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "0C821F:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastRain",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastRain",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0C8220:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimStormRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimStormRain",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimStormRain",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0C8221:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimStormSnow",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimStormSnow",
+    "NNAM": "000816:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimStormSnow",
+    "NNAM": "000816:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0D299E:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastWar",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastWar",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastWar",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "0D4886:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "FXMagicStormRain_Electric",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "FXMagicStormRain_Electric",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0D9329:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "HelgenAttackWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "HelgenAttackWeather",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "104AB4:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkuldafnCloudy",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkuldafnCloudy",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "105941:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "BloatedMansGrottoFog",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "BloatedMansGrottoFog",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "105942:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SolitudeBluePalaceFogARENA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "105943:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SolitudeBluePalaceFogFEAR",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "105944:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SolitudeBluePalaceFogNMARE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "105945:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SolitudeBluePalaceFog",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "105F40:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimDA02Weather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimDA02Weather",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "106635:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "KarthspireRedoubtFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "KarthspireRedoubtFog",
+    "NNAM": "000833:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "KarthspireRedoubtFog",
+    "NNAM": "000833:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "10A230:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearMA",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearMA",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A231:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastRainMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastRainMA",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastRainMA",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A232:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimFogMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimFogMA",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "SkyrimFogMA",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimFogMA",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A233:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyMA",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyMA",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A234:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearCO",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearCO",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearCO",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A235:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimFogCO",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimFogCO",
+    "NNAM": "000817:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "SkyrimFogCO",
+    "NNAM": "000817:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimFogCO",
+    "NNAM": "000817:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "10A236:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyCO",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyCO",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyCO",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A237:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearRE",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearRE",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A238:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastRainRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastRainRE",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastRainRE",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A239:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimFogRE",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimFogRE",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimFogRE",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "10A23A:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyRE",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyRE",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A23B:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearFF",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearFF",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A23C:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimStormRainFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimStormRainFF",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimStormRainFF",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A23D:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastRainFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastRainFF",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastRainFF",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A23E:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimFogFF",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimFogFF",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimFogFF",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "10A23F:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyFF",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyFF",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A240:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearTU",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearTU",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A241:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimStormRainTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimStormRainTU",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimStormRainTU",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A242:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastRainTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastRainTU",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastRainTU",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A243:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyTU",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyTU",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A244:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearSN",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearSN",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearSN",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A245:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudySN",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudySN",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "SkyrimCloudySN",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudySN",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A7A5:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearVT",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearVT",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A7A6:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimOvercastRainVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimOvercastRainVT",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimOvercastRainVT",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A7A7:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimFogVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimFogVT",
+    "NNAM": "00081F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimFogVT",
+    "NNAM": "00081F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10A7A8:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyVT",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyVT",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10D9EC:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SovngardeClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E3:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyVT_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyVT_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E4:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E5:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyMA_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "SkyrimCloudyMA_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyMA_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E6:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E7:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyCO_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyCO_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E8:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1E9:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyRE_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyRE_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1EA:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1EB:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyFF_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyFF_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1EC:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1ED:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudyTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudyTU_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudyTU_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1EE:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1EF:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudySN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudySN_A",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "SkyrimCloudySN_A",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudySN_A",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1F0:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClearSN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClearSN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClearSN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1F1:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimCloudy_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimCloudy_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimCloudy_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E1F2:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SkyrimClear_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimClear_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimClear_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10FE7E:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "RiftenOvercastFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "RiftenOvercastFog",
+    "NNAM": "000833:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "RiftenOvercastFog",
+    "NNAM": "000833:Astralite ENB.esp",
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "10FEF8:Skyrim.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SovngardeDark",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "001407:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SoulCairnAmb01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SoulCairnAmb01",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "006AEC:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1Eclipse",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1Eclipse",
+    "NNAM": "101CFA:Skyrim.esm",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00959F:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SoulCairnAurora",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00F89C:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1AurielsBowClearWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1AurielsBowClearWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00F89D:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1MagicAurielBowCloudyWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1MagicAurielBowCloudyWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "010E0B:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1_SkyrimCloudyFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1_SkyrimCloudyFV_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "DLC1_SkyrimCloudyFV_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC1_SkyrimCloudyFV_A",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "010E0E:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1_SkyrimCloudyFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1_SkyrimCloudyFV",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "DLC1_SkyrimCloudyFV",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC1_SkyrimCloudyFV",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "010E0F:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1_SkyrimClearFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1_SkyrimClearFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC1_SkyrimClearFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "010E10:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1_SkyrimClearFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1_SkyrimClearFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC1_SkyrimClearFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "014551:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SoulCairnAmb01_Rain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SoulCairnAmb01_Rain",
+    "NNAM": "000819:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "018DBB:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SoulCairnAmb02",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SoulCairnAmb02",
+    "NNAM": "00081F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "018DBC:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SoulCairnAmb03",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SoulCairnAmb03",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "018DBD:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "SoulCairnAmb04",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "019599:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1FalmerValley_bf",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1FalmerValley_bf",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0195A0:Dawnguard.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC1FalmerValley_bfDark",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC1FalmerValley_bfDark",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "018471:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAsh01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh01",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh01",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "01D760:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAshTundra01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAshTundra01",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAshTundra01",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "01DFF5:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC2ApocryphaWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC2ApocryphaWeather",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "031AC0:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAsh02",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh02",
+    "NNAM": "00081F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh02",
+    "NNAM": "00081F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "032336:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAshStorm01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAshStorm01",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAshStorm01",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "034CFB:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC2ApocryphaWeatherNew",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC2ApocryphaWeatherNew",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0374B8:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAsh01_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh01_A",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh01_A",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0374B9:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAsh02_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh02_A",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh02_A",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "0374BA:Dragonborn.esm": [
+   {
+    "plugin": "Astralite Weathers.esp",
+    "edid": "DLC02VolcanicAshTundra01_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAshTundra01_A",
+    "NNAM": "000819:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAshTundra01_A",
+    "NNAM": "000819:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "02E7AB:Skyrim.esm": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "Seasons_CloudyRain",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Seasons_CloudyRain",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10199F:Skyrim.esm": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimMQ206weather",
+    "NNAM": "101CFA:Skyrim.esm",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "10E3D4:Skyrim.esm": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "Seasons_Fog",
+    "NNAM": "000833:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Seasons_Fog",
+    "NNAM": "000833:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000823:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimStormRainRE",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimStormRainRE",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000826:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SkyrimStormSnowBlizzard",
+    "NNAM": "000835:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "SkyrimStormSnowBlizzard",
+    "NNAM": "000835:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000827:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "Seasons_CloudySnow",
+    "NNAM": "00081B:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Seasons_CloudySnow",
+    "NNAM": "00081B:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00082E:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "SoulCairnBlood",
+    "NNAM": "00080F:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00082F:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicSnow",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicSnow",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000830:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAshStorm02",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAshStorm02",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000831:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh03",
+    "NNAM": "101CFA:Skyrim.esm",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh03",
+    "NNAM": "101CFA:Skyrim.esm",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000838:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "JawzSkyrimStormRain",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "JawzSkyrimStormRain",
+    "NNAM": "00081D:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000839:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "Seasons_CloudySnow02",
+    "NNAM": "000815:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Seasons_CloudySnow02",
+    "NNAM": "000815:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00083A:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh04",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh04",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00083C:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh05",
+    "NNAM": "000819:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh05",
+    "NNAM": "000819:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00083D:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAsh05_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAsh05_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00083F:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAshTundra02",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAshTundra02",
+    "NNAM": "000818:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000840:Astralite ENB.esp": [
+   {
+    "plugin": "Astralite ENB.esp",
+    "edid": "DLC02VolcanicAshTundra02_A",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "DLC02VolcanicAshTundra02_A",
+    "NNAM": "00080E:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "54F2A0:Wyrmstooth.esp": [
+   {
+    "plugin": "Wyrmstooth-Astralite-Weather-Patch.esp",
+    "edid": "WyrmstoothStormFog",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Snowy Holds Seasonal Snowfall.esp",
+    "edid": "WyrmstoothStormFog",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "WyrmstoothStormFog",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "627E73:Wyrmstooth.esp": [
+   {
+    "plugin": "Wyrmstooth-Astralite-Weather-Patch.esp",
+    "edid": "WyrmstoothClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "WyrmstoothClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "82A018:Wyrmstooth.esp": [
+   {
+    "plugin": "Wyrmstooth-Astralite-Weather-Patch.esp",
+    "edid": "WyrmstoothFog",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "WyrmstoothFog",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "01A3B1:Skyrim Extended Cut - Saints and Seducers.esp": [
+   {
+    "plugin": "Astralite ENB - ECSS.esp",
+    "edid": "EC_SS_SIClear",
+    "NNAM": "000834:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "02E7C8:Skyrim Extended Cut - Saints and Seducers.esp": [
+   {
+    "plugin": "Astralite ENB - ECSS.esp",
+    "edid": "EC_SS_SIFog",
+    "NNAM": "000812:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "15BB6D:Skyrim Extended Cut - Saints and Seducers.esp": [
+   {
+    "plugin": "Astralite ENB - ECSS.esp",
+    "edid": "EC_SS_SIManiaRain",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "15BB6E:Skyrim Extended Cut - Saints and Seducers.esp": [
+   {
+    "plugin": "Astralite ENB - ECSS.esp",
+    "edid": "EC_SS_SIDementiaRain",
+    "NNAM": "00081C:Astralite ENB.esp",
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000954:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastWar",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastWar",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "00095E:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SovngardeDark",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "00096A:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1Eclipse",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A70:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClear",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A71:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudy",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudy",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A72:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastSnow",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastSnow",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A73:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "000A74:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A75:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimStormRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimStormRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A76:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimStormSnow",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimStormSnow",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A77:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A78:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastRainMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastRainMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A79:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimFogMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimFogMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A7A:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyMA",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A7B:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearCO",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearCO",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A7C:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimFogCO",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimFogCO",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "000A7D:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyCO",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyCO",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A7E:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A7F:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastRainRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastRainRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A80:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimFogRE",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimFogRE",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "000A81:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyRE",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A82:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A83:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimStormRainFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimStormRainFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A84:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastRainFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastRainFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A85:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimFogFF",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimFogFF",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "000A86:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyFF",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A87:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A88:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimStormRainTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimStormRainTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A89:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastRainTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastRainTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A8A:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyTU",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A8B:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearSN",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearSN",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A8C:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudySN",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudySN",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A8D:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A8E:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimOvercastRainVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimOvercastRainVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A8F:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimFogVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimFogVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A90:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyVT",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A91:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A92:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearVT_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A93:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A94:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearMA_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A95:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A96:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearCO_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A97:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A98:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearRE_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A99:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A9A:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearFF_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A9B:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudyTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudyTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A9C:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearTU_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A9D:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudySN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudySN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A9E:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClearSN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClearSN_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000A9F:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimCloudy_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimCloudy_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA0:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimClear_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_SkyrimClear_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA1:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_RiftenOvercastFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_RiftenOvercastFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "000AA2:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAsh01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAsh01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA3:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAshTundra01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAshTundra01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA4:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAsh02",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAsh02",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA5:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAshStorm01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAshStorm01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA6:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAsh01_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAsh01_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA7:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAsh02_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAsh02_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000AA8:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC02VolcanicAshTundra01_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC02VolcanicAshTundra01_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EE6:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DefaultWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DefaultWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EEB:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1AurielsBowClearWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EEC:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1FalmerValley_bf",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EED:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1FalmerValley_bfDark",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EEE:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1MagicAurielBowCloudyWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EEF:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1_SkyrimClearFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC1_SkyrimClearFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF0:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1_SkyrimClearFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC1_SkyrimClearFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF1:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1_SkyrimCloudyFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC1_SkyrimCloudyFV",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF2:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC1_SkyrimCloudyFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_DLC1_SkyrimCloudyFV_A",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF3:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SoulCairnAmb01",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF4:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SoulCairnAmb01_Rain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF5:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SoulCairnAmb02",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF6:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SoulCairnAmb03",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF7:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SoulCairnAmb04",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF8:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SoulCairnAurora",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EF9:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC2ApocryphaWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EFA:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_DLC2ApocryphaWeatherNew",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EFB:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_BlackreachWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EFC:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_BloatedMansGrottoFog",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EFD:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_HelgenAttackWeather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000EFE:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_KarthspireRedoubtFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   },
+   {
+    "plugin": "Authoria - Patch - Astralite Dawn Warmth.esp",
+    "edid": "Helios_KarthspireRedoubtFog",
+    "NNAM": null,
+    "VE": [
+     127,
+     127
+    ]
+   }
+  ],
+  "000F18:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkyrimDA02Weather",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000F2A:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_SkuldafnCloudy",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000F32:Helios.esp": [
+   {
+    "plugin": "Helios_Astralite.esp",
+    "edid": "Helios_FXMagicStormRain",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000D73:Gray Fox Cowl.esm": [
+   {
+    "plugin": "Authoria - Patch - Gray Cowl - Astralite.esp",
+    "edid": "manny_GF_Weather_DesertClean",
+    "NNAM": null,
+    "VE": [
+     0,
+     0
+    ]
+   }
+  ],
+  "000DCB:Gray Fox Cowl.esm": [
+   {
+    "plugin": "Authoria - Patch - Gray Cowl - Astralite.esp",
+    "edid": "manny_GF_Weather_Coldharbour",
+    "NNAM": null,
+    "VE": [
+     205,
+     255
+    ]
+   }
+  ]
+ },
+ "enb_rfct_arto": {
+  "00080E:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividAshes",
+   "subs": [
+    [
+     "EDID",
+     "5669766964417368657300"
+    ],
+    [
+     "DATA",
+     "000800060000000002000000"
+    ]
+   ]
+  },
+  "00080F:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "k747_FXCameraAttachFogWispyEffect",
+   "subs": [
+    [
+     "EDID",
+     "6b3734375f465843616d657261417474616368466f67576973707945666665637400"
+    ],
+    [
+     "DATA",
+     "f0960b000000000006000000"
+    ]
+   ]
+  },
+  "000812:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "Distant_Mounts_Heavy",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f4d6f756e74735f486561767900"
+    ],
+    [
+     "DATA",
+     "030800060000000002000000"
+    ]
+   ]
+  },
+  "000815:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividMedSnoweffect",
+   "subs": [
+    [
+     "EDID",
+     "56697669644d6564536e6f7765666665637400"
+    ],
+    [
+     "DATA",
+     "060800060000000002000000"
+    ]
+   ]
+  },
+  "000816:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividStrongSnoweffect",
+   "subs": [
+    [
+     "EDID",
+     "56697669645374726f6e67536e6f7765666665637400"
+    ],
+    [
+     "DATA",
+     "070800060000000002000000"
+    ]
+   ]
+  },
+  "000817:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividBlizzardMediumSnoweffect",
+   "subs": [
+    [
+     "EDID",
+     "5669766964426c697a7a6172644d656469756d536e6f7765666665637400"
+    ],
+    [
+     "DATA",
+     "040800060000000002000000"
+    ]
+   ]
+  },
+  "000818:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "K747Sandstorm",
+   "subs": [
+    [
+     "EDID",
+     "4b37343753616e6473746f726d00"
+    ],
+    [
+     "DATA",
+     "080800060000000002000000"
+    ]
+   ]
+  },
+  "000819:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividAshesLOW",
+   "subs": [
+    [
+     "EDID",
+     "566976696441736865734c4f5700"
+    ],
+    [
+     "DATA",
+     "090800060000000002000000"
+    ]
+   ]
+  },
+  "00081A:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividBlizzardSnoweffect",
+   "subs": [
+    [
+     "EDID",
+     "5669766964426c697a7a617264536e6f7765666665637400"
+    ],
+    [
+     "DATA",
+     "0a0800060000000002000000"
+    ]
+   ]
+  },
+  "00081B:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividSnoweffect",
+   "subs": [
+    [
+     "EDID",
+     "5669766964536e6f7765666665637400"
+    ],
+    [
+     "DATA",
+     "0b0800060000000002000000"
+    ]
+   ]
+  },
+  "00081C:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "Distant_Mounts_Rain",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f4d6f756e74735f5261696e00"
+    ],
+    [
+     "DATA",
+     "0c0800060000000002000000"
+    ]
+   ]
+  },
+  "00081D:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "Distant_Rain",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f5261696e00"
+    ],
+    [
+     "DATA",
+     "0d0800060000000002000000"
+    ]
+   ]
+  },
+  "00081F:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "k747_FXCameraAttachTurbulentFogEffect",
+   "subs": [
+    [
+     "EDID",
+     "6b3734375f465843616d65726141747461636854757262756c656e74466f6745666665637400"
+    ],
+    [
+     "DATA",
+     "d0940b000000000006000000"
+    ]
+   ]
+  },
+  "000833:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "k747_FXCameraAttachFogEffect",
+   "subs": [
+    [
+     "EDID",
+     "6b3734375f465843616d657261417474616368466f6745666665637400"
+    ],
+    [
+     "DATA",
+     "cc940b000000000006000000"
+    ]
+   ]
+  },
+  "000834:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "Distant_Mounts_Lite",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f4d6f756e74735f4c69746500"
+    ],
+    [
+     "DATA",
+     "020800060000000002000000"
+    ]
+   ]
+  },
+  "000835:Astralite ENB.esp": {
+   "sig": "RFCT",
+   "edid": "VividBlizzardStrongSnoweffect",
+   "subs": [
+    [
+     "EDID",
+     "5669766964426c697a7a6172645374726f6e67536e6f7765666665637400"
+    ],
+    [
+     "DATA",
+     "050800060000000002000000"
+    ]
+   ]
+  },
+  "000800:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividAshes02",
+   "subs": [
+    [
+     "EDID",
+     "56697669644173686573303200"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c766976696441736865732e6e696600"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000802:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "Distant_Mounts_Lite01",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f4d6f756e74735f4c697465303100"
+    ],
+    [
+     "OBND",
+     "000000000000000000000000"
+    ],
+    [
+     "MODL",
+     "456666656374735c44697374616e745f4d6f756e74735f6c6974652e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000000000000000000"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000803:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "Distant_Mounts_Heavy01",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f4d6f756e74735f4865617679303100"
+    ],
+    [
+     "OBND",
+     "000000000000000000000000"
+    ],
+    [
+     "MODL",
+     "456666656374735c44697374616e745f4d6f756e74735f68656176792e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000000000000000000"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000804:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividBlizzardMediumSnowObject",
+   "subs": [
+    [
+     "EDID",
+     "5669766964426c697a7a6172644d656469756d536e6f774f626a65637400"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c7669766964736e6f772d626c697a7a6172642d6d65642e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000805:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividBlizzardStrongSnowObject",
+   "subs": [
+    [
+     "EDID",
+     "5669766964426c697a7a6172645374726f6e67536e6f774f626a65637400"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c7669766964736e6f772d626c697a7a6172642d7374726f6e672e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000806:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividMedSnowObject",
+   "subs": [
+    [
+     "EDID",
+     "56697669644d6564536e6f774f626a65637400"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c7669766964736e6f772d6d65642e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000807:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividstormSnowObject",
+   "subs": [
+    [
+     "EDID",
+     "566976696473746f726d536e6f774f626a65637400"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c7669766964736e6f772d7374726f6e672e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000808:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "K747Sandstorm",
+   "subs": [
+    [
+     "EDID",
+     "4b37343753616e6473746f726d00"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c4e4c4153616e6453746f726d2e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "000809:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividAshesLow01",
+   "subs": [
+    [
+     "EDID",
+     "566976696441736865734c6f77303100"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c766976696441736865732d6c6f772e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "00080A:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividBlizzardSnowObject",
+   "subs": [
+    [
+     "EDID",
+     "5669766964426c697a7a617264536e6f774f626a65637400"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c7669766964736e6f772d626c697a7a6172642e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "00080B:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "VividSnowObject",
+   "subs": [
+    [
+     "EDID",
+     "5669766964536e6f774f626a65637400"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c7669766964736e6f772e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "00080C:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "Distant_Mounts_Rain01",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f4d6f756e74735f5261696e303100"
+    ],
+    [
+     "OBND",
+     "000000000000000000000000"
+    ],
+    [
+     "MODL",
+     "456666656374735c44697374616e745f4d6f756e74735f5261696e2e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000000000000000000"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  },
+  "00080D:Astralite ENB.esp": {
+   "sig": "ARTO",
+   "edid": "Distant_Rain01",
+   "subs": [
+    [
+     "EDID",
+     "44697374616e745f5261696e303100"
+    ],
+    [
+     "OBND",
+     "008000800080ff7fff7fff7f"
+    ],
+    [
+     "MODL",
+     "456666656374735c44697374616e745f7261696e2e6e696600"
+    ],
+    [
+     "MODT",
+     "020000000200000000000000e0f57bf56464730038973cea4bd9f58b6464730038973cea"
+    ],
+    [
+     "DNAM",
+     "01000000"
+    ]
+   ]
+  }
+ }
+}

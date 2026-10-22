@@ -1,0 +1,41 @@
+== men _1: farmer03mextras_1.nif
+  ok   Saia: tail lift recorded for 254 pts (max 2.25)
+  ok   robemorph: welded remainder area 4342.7 vs the source minus its pieces 4342.7 (13 of 13 split triangles tiled exactly by their children; 13 weld points)
+  ok   robemorph: split into 4 per triangle, area 8978.5 vs 8978.5
+  ok   extras: 636 triangles, kept 636 in ['robemorph', 'Saia', 'extras'], duplicated 0
+  ok   Pants: 384 triangles, kept 384 in ['Pants'], duplicated 0
+  ok   FarmerBody: 674 triangles, kept 674 in ['FarmerBody'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 69
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\FarmClothes03xM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / robemorph: 27 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 89%, of those on 2 chains 69%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: farmer03mextras_0.nif
+  ok   Saia: tail lift recorded for 285 pts (max 2.70)
+  ok   robemorph: welded remainder area 3817.6 vs the source minus its pieces 3817.6 (13 of 13 split triangles tiled exactly by their children; 13 weld points)
+  ok   robemorph: split into 4 per triangle, area 7960.4 vs 7960.4
+  ok   extras: 636 triangles, kept 636 in ['robemorph', 'Saia', 'extras'], duplicated 0
+  ok   Pants: 384 triangles, kept 384 in ['Pants'], duplicated 0
+  ok   FarmerBody: 674 triangles, kept 674 in ['FarmerBody'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 69
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\FarmClothes03xM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / robemorph: 27 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

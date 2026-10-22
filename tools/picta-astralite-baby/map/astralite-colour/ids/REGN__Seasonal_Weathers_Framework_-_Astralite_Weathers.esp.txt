@@ -1,0 +1,8 @@
+10FE79:Skyrim.esm
+10AFC5:Skyrim.esm
+1046CC:Skyrim.esm
+1046CB:Skyrim.esm
+1046CA:Skyrim.esm
+1046C9:Skyrim.esm
+1046C8:Skyrim.esm
+1046C7:Skyrim.esm

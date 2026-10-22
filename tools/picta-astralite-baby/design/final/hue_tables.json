@@ -1,0 +1,3201 @@
+{
+ "19FA01": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "282.8/0.074 blue-violet",
+    "baby": "340.9/0.065 rose-pink",
+    "astralite": " 13.3/0.048 soft salmon",
+    "dY_pct": 0.0,
+    "share": 0.62
+   },
+   "dome_hor_sun": {
+    "picta": "310.1/0.058 soft violet-mauve",
+    "baby": "352.7/0.058 soft rose-pink",
+    "astralite": " 20.0/0.023 greyish salmon",
+    "dY_pct": -0.03,
+    "share": 0.46
+   },
+   "dome_zenith": {
+    "picta": "261.7/0.074 blue",
+    "baby": "270.2/0.080 blue",
+    "astralite": "275.1/0.081 blue-violet",
+    "dY_pct": 0.0,
+    "share": 0.68
+   },
+   "fog_far": {
+    "picta": "281.1/0.069 blue-violet",
+    "baby": "343.5/0.070 rose-pink",
+    "astralite": " 28.8/0.068 salmon",
+    "dY_pct": -0.0,
+    "share": 0.58
+   },
+   "clouds": {
+    "picta": "281.1/0.069 blue-violet",
+    "baby": "339.8/0.042 soft magenta-pink",
+    "astralite": " 26.3/0.018 greyish salmon",
+    "dY_pct": 0.0,
+    "share": 0.55
+   },
+   "sunlight": {
+    "picta": " 45.3/0.165 coral",
+    "baby": " 45.6/0.164 coral",
+    "astralite": " 61.9/0.073 orange-peach",
+    "dY_pct": 0.01,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "276.2/0.075 blue-violet",
+    "baby": "305.9/0.059 soft violet-mauve",
+    "astralite": "351.6/0.030 soft rose-pink",
+    "dY_pct": 0.16,
+    "share": 0.39
+   },
+   "amb_ZMinus": {
+    "picta": "269.9/0.078 blue",
+    "baby": "298.7/0.060 violet-mauve",
+    "astralite": "342.5/0.030 soft rose-pink",
+    "dY_pct": 0.15,
+    "share": 0.39
+   },
+   "sky_ibl": {
+    "picta": "269.4/0.073 blue",
+    "baby": "292.9/0.065 violet-mauve",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.0,
+    "share": null
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "281.4/0.076 blue-violet",
+    "baby": "332.1/0.061 magenta-pink",
+    "astralite": " 16.1/0.049 soft salmon",
+    "dY_pct": 0.06,
+    "share": 0.54
+   },
+   "dome_hor_sun": {
+    "picta": "301.3/0.062 violet-mauve",
+    "baby": "342.4/0.056 soft rose-pink",
+    "astralite": " 23.8/0.029 greyish salmon",
+    "dY_pct": 0.3,
+    "share": 0.45
+   },
+   "dome_zenith": {
+    "picta": "260.1/0.077 blue",
+    "baby": "268.0/0.084 blue",
+    "astralite": "275.1/0.081 blue-violet",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "fog_far": {
+    "picta": "278.3/0.070 blue-violet",
+    "baby": "334.1/0.063 magenta-pink",
+    "astralite": " 31.0/0.069 salmon",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "278.3/0.070 blue-violet",
+    "baby": "328.1/0.039 soft magenta-pink",
+    "astralite": " 28.1/0.020 greyish salmon",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 43.4/0.171 coral",
+    "baby": " 43.5/0.171 coral",
+    "astralite": " 64.5/0.080 orange-peach",
+    "dY_pct": -0.03,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "280.9/0.066 blue-violet",
+    "baby": "319.9/0.052 soft magenta-pink",
+    "astralite": "352.8/0.032 soft rose-pink",
+    "dY_pct": 0.03,
+    "share": 0.51
+   },
+   "amb_ZMinus": {
+    "picta": "273.2/0.068 blue-violet",
+    "baby": "311.3/0.052 soft violet-mauve",
+    "astralite": "344.2/0.033 soft rose-pink",
+    "dY_pct": 0.06,
+    "share": 0.52
+   },
+   "sky_ibl": {
+    "picta": "267.7/0.076 blue",
+    "baby": "287.8/0.068 blue-violet",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.01,
+    "share": null
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "264.6/0.097 blue",
+    "baby": "264.2/0.079 blue",
+    "astralite": "266.8/0.059 soft blue",
+    "dY_pct": -0.01,
+    "share": 0.46
+   },
+   "dome_hor_sun": {
+    "picta": "267.2/0.083 blue",
+    "baby": "265.8/0.068 blue",
+    "astralite": " 70.9/0.017 greyish orange-peach",
+    "dY_pct": -0.06,
+    "share": 0.01
+   },
+   "dome_zenith": {
+    "picta": "251.5/0.098 blue",
+    "baby": "255.4/0.106 blue",
+    "astralite": "264.6/0.110 blue",
+    "dY_pct": 0.0,
+    "share": 0.37
+   },
+   "fog_far": {
+    "picta": "264.1/0.082 blue",
+    "baby": "259.7/0.069 blue",
+    "astralite": "256.4/0.052 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.44
+   },
+   "clouds": {
+    "picta": "264.1/0.082 blue",
+    "baby": "261.8/0.054 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.34
+   },
+   "sunlight": {
+    "picta": " 71.3/0.027 greyish orange-peach",
+    "baby": " 57.6/0.023 greyish orange-peach",
+    "astralite": " 38.5/0.013 greyish coral",
+    "dY_pct": 0.0,
+    "share": 0.35
+   },
+   "amb_XPlus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "266.8/0.063 blue",
+    "astralite": "273.0/0.050 soft blue-violet",
+    "dY_pct": -0.17,
+    "share": 0.38
+   },
+   "amb_ZMinus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "263.8/0.058 soft blue",
+    "astralite": "266.0/0.028 greyish blue",
+    "dY_pct": -0.44,
+    "share": 0.29
+   },
+   "sky_ibl": {
+    "picta": "258.2/0.096 blue",
+    "baby": "259.5/0.092 blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.04,
+    "share": null
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "262.0/0.111 blue",
+    "baby": "262.8/0.093 blue",
+    "astralite": "262.8/0.034 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.24
+   },
+   "dome_hor_sun": {
+    "picta": "262.5/0.108 blue",
+    "baby": "263.4/0.090 blue",
+    "astralite": " 16.7/0.007 grey",
+    "dY_pct": 0.0,
+    "share": 0.18
+   },
+   "dome_zenith": {
+    "picta": "249.7/0.104 sky-blue",
+    "baby": "254.3/0.106 blue",
+    "astralite": "266.2/0.099 blue",
+    "dY_pct": 0.01,
+    "share": 0.26
+   },
+   "fog_far": {
+    "picta": "261.1/0.096 blue",
+    "baby": "259.7/0.083 blue",
+    "astralite": "256.4/0.052 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "261.1/0.096 blue",
+    "baby": "261.4/0.067 blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "sunlight": {
+    "picta": " 62.7/0.011 grey",
+    "baby": " 49.1/0.012 grey",
+    "astralite": " 38.5/0.013 greyish coral",
+    "dY_pct": -0.0,
+    "share": 0.54
+   },
+   "amb_XPlus": {
+    "picta": "261.4/0.081 blue",
+    "baby": "265.8/0.073 blue",
+    "astralite": "273.0/0.050 soft blue-violet",
+    "dY_pct": 0.03,
+    "share": 0.29
+   },
+   "amb_ZMinus": {
+    "picta": "261.4/0.081 blue",
+    "baby": "262.9/0.067 blue",
+    "astralite": "266.0/0.028 greyish blue",
+    "dY_pct": 0.18,
+    "share": 0.27
+   },
+   "sky_ibl": {
+    "picta": "257.1/0.109 blue",
+    "baby": "259.0/0.099 blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.01,
+    "share": null
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "265.9/0.099 blue",
+    "baby": "265.4/0.083 blue",
+    "astralite": "266.8/0.059 soft blue",
+    "dY_pct": -0.02,
+    "share": 0.41
+   },
+   "dome_hor_sun": {
+    "picta": "269.2/0.085 blue",
+    "baby": "267.6/0.071 blue",
+    "astralite": " 70.9/0.017 greyish orange-peach",
+    "dY_pct": -0.05,
+    "share": 0.01
+   },
+   "dome_zenith": {
+    "picta": "251.9/0.099 blue",
+    "baby": "255.6/0.105 blue",
+    "astralite": "264.6/0.110 blue",
+    "dY_pct": 0.0,
+    "share": 0.34
+   },
+   "fog_far": {
+    "picta": "265.9/0.083 blue",
+    "baby": "261.9/0.072 blue",
+    "astralite": "256.4/0.052 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.36
+   },
+   "clouds": {
+    "picta": "265.9/0.083 blue",
+    "baby": "270.3/0.054 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.35
+   },
+   "sunlight": {
+    "picta": " 62.9/0.034 soft orange-peach",
+    "baby": " 52.0/0.030 soft orange-peach",
+    "astralite": " 38.5/0.013 greyish coral",
+    "dY_pct": 0.0,
+    "share": 0.25
+   },
+   "amb_XPlus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "266.8/0.063 blue",
+    "astralite": "273.0/0.050 soft blue-violet",
+    "dY_pct": -0.17,
+    "share": 0.38
+   },
+   "amb_ZMinus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "263.8/0.058 soft blue",
+    "astralite": "266.0/0.028 greyish blue",
+    "dY_pct": -0.44,
+    "share": 0.29
+   },
+   "sky_ibl": {
+    "picta": "259.1/0.097 blue",
+    "baby": "260.2/0.092 blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.04,
+    "share": null
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "284.0/0.082 blue-violet",
+    "baby": "333.1/0.064 magenta-pink",
+    "astralite": " 16.1/0.049 soft salmon",
+    "dY_pct": 0.06,
+    "share": 0.53
+   },
+   "dome_hor_sun": {
+    "picta": "304.0/0.071 violet-mauve",
+    "baby": "342.7/0.061 rose-pink",
+    "astralite": " 23.8/0.029 greyish salmon",
+    "dY_pct": 0.28,
+    "share": 0.43
+   },
+   "dome_zenith": {
+    "picta": "262.0/0.080 blue",
+    "baby": "268.9/0.085 blue",
+    "astralite": "275.1/0.081 blue-violet",
+    "dY_pct": 0.0,
+    "share": 0.54
+   },
+   "fog_far": {
+    "picta": "281.4/0.076 blue-violet",
+    "baby": "335.5/0.066 magenta-pink",
+    "astralite": " 31.0/0.068 salmon",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "281.4/0.076 blue-violet",
+    "baby": "335.0/0.061 magenta-pink",
+    "astralite": " 30.7/0.050 soft salmon",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 37.3/0.195 coral",
+    "baby": " 37.3/0.195 coral",
+    "astralite": " 64.5/0.080 orange-peach",
+    "dY_pct": -0.03,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "283.8/0.073 blue-violet",
+    "baby": "307.1/0.057 soft violet-mauve",
+    "astralite": "327.2/0.035 soft magenta-pink",
+    "dY_pct": 0.01,
+    "share": 0.49
+   },
+   "amb_ZMinus": {
+    "picta": "276.7/0.074 blue-violet",
+    "baby": "312.8/0.056 soft violet-mauve",
+    "astralite": "344.2/0.033 soft rose-pink",
+    "dY_pct": -0.01,
+    "share": 0.51
+   },
+   "sky_ibl": {
+    "picta": "270.0/0.080 blue",
+    "baby": "289.0/0.069 blue-violet",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.02,
+    "share": null
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "285.4/0.080 blue-violet",
+    "baby": "342.1/0.068 rose-pink",
+    "astralite": " 13.3/0.048 soft salmon",
+    "dY_pct": -0.01,
+    "share": 0.62
+   },
+   "dome_hor_sun": {
+    "picta": "312.1/0.069 violet-mauve",
+    "baby": "352.5/0.064 rose-pink",
+    "astralite": " 20.0/0.023 greyish salmon",
+    "dY_pct": -0.04,
+    "share": 0.44
+   },
+   "dome_zenith": {
+    "picta": "263.9/0.077 blue",
+    "baby": "271.3/0.082 blue",
+    "astralite": "275.1/0.080 blue-violet",
+    "dY_pct": 0.0,
+    "share": 0.7
+   },
+   "fog_far": {
+    "picta": "284.3/0.075 blue-violet",
+    "baby": "345.1/0.073 rose-pink",
+    "astralite": " 28.8/0.067 salmon",
+    "dY_pct": -0.0,
+    "share": 0.58
+   },
+   "clouds": {
+    "picta": "284.3/0.075 blue-violet",
+    "baby": "342.3/0.067 rose-pink",
+    "astralite": " 29.7/0.046 soft salmon",
+    "dY_pct": -0.0,
+    "share": 0.54
+   },
+   "sunlight": {
+    "picta": " 39.0/0.187 coral",
+    "baby": " 39.2/0.187 coral",
+    "astralite": " 61.9/0.073 orange-peach",
+    "dY_pct": 0.02,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "278.7/0.081 blue-violet",
+    "baby": "296.0/0.065 violet-mauve",
+    "astralite": "325.5/0.031 soft magenta-pink",
+    "dY_pct": 0.2,
+    "share": 0.35
+   },
+   "amb_ZMinus": {
+    "picta": "272.7/0.083 blue-violet",
+    "baby": "300.1/0.063 violet-mauve",
+    "astralite": "342.5/0.030 soft rose-pink",
+    "dY_pct": 0.15,
+    "share": 0.39
+   },
+   "sky_ibl": {
+    "picta": "271.9/0.077 blue",
+    "baby": "294.2/0.067 violet-mauve",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.0,
+    "share": null
+   }
+  }
+ },
+ "19FC01": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "283.1/0.060 soft blue-violet",
+    "baby": "359.6/0.060 rose-pink",
+    "astralite": " 57.8/0.043 soft orange-peach",
+    "dY_pct": 0.01,
+    "share": 0.56
+   },
+   "dome_hor_sun": {
+    "picta": "313.3/0.048 soft violet-mauve",
+    "baby": "  9.2/0.057 soft rose-pink",
+    "astralite": " 58.7/0.023 greyish orange-peach",
+    "dY_pct": -0.02,
+    "share": 0.46
+   },
+   "dome_zenith": {
+    "picta": "260.7/0.063 blue",
+    "baby": "265.3/0.072 blue",
+    "astralite": "267.6/0.075 blue",
+    "dY_pct": 0.01,
+    "share": 0.7
+   },
+   "fog_far": {
+    "picta": "272.3/0.072 blue-violet",
+    "baby": "357.9/0.065 rose-pink",
+    "astralite": " 65.1/0.051 soft orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "clouds": {
+    "picta": "272.3/0.072 blue-violet",
+    "baby": "350.5/0.072 rose-pink",
+    "astralite": " 52.4/0.065 orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "sunlight": {
+    "picta": " 45.5/0.165 coral",
+    "baby": " 45.8/0.164 coral",
+    "astralite": " 85.2/0.053 soft gold",
+    "dY_pct": 0.02,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "269.5/0.075 blue",
+    "baby": "275.9/0.049 soft blue-violet",
+    "astralite": " 18.6/0.005 grey",
+    "dY_pct": 0.4,
+    "share": 0.37
+   },
+   "amb_ZMinus": {
+    "picta": "307.1/0.071 violet-mauve",
+    "baby": "307.9/0.049 soft violet-mauve",
+    "astralite": "329.1/0.005 grey",
+    "dY_pct": 0.55,
+    "share": 0.33
+   },
+   "sky_ibl": {
+    "picta": "268.7/0.061 blue",
+    "baby": "295.4/0.052 soft violet-mauve",
+    "astralite": "267.8/0.079 blue",
+    "dY_pct": 0.01,
+    "share": 0.0
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "281.6/0.061 blue-violet",
+    "baby": "350.9/0.054 soft rose-pink",
+    "astralite": " 60.2/0.045 soft orange-peach",
+    "dY_pct": 0.05,
+    "share": 0.5
+   },
+   "dome_hor_sun": {
+    "picta": "303.4/0.051 soft violet-mauve",
+    "baby": "360.0/0.052 soft rose-pink",
+    "astralite": " 59.7/0.028 greyish orange-peach",
+    "dY_pct": 0.27,
+    "share": 0.46
+   },
+   "dome_zenith": {
+    "picta": "259.1/0.066 blue",
+    "baby": "264.0/0.074 blue",
+    "astralite": "267.6/0.076 blue",
+    "dY_pct": -0.0,
+    "share": 0.66
+   },
+   "fog_far": {
+    "picta": "270.9/0.072 blue",
+    "baby": "347.7/0.055 soft rose-pink",
+    "astralite": " 67.1/0.054 soft orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "270.9/0.072 blue",
+    "baby": "342.7/0.062 rose-pink",
+    "astralite": " 54.5/0.069 orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 43.7/0.170 coral",
+    "baby": " 43.8/0.170 coral",
+    "astralite": " 86.0/0.057 soft gold",
+    "dY_pct": -0.05,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "272.8/0.068 blue-violet",
+    "baby": "283.6/0.038 soft blue-violet",
+    "astralite": " 23.8/0.005 grey",
+    "dY_pct": 0.04,
+    "share": 0.48
+   },
+   "amb_ZMinus": {
+    "picta": "316.4/0.069 magenta-pink",
+    "baby": "322.9/0.044 soft magenta-pink",
+    "astralite": "335.3/0.005 grey",
+    "dY_pct": 0.16,
+    "share": 0.38
+   },
+   "sky_ibl": {
+    "picta": "267.0/0.064 blue",
+    "baby": "289.9/0.054 soft blue-violet",
+    "astralite": "267.9/0.078 blue",
+    "dY_pct": 0.01,
+    "share": 0.0
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "264.2/0.080 blue",
+    "baby": "261.0/0.061 blue",
+    "astralite": "259.8/0.039 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.48
+   },
+   "dome_hor_sun": {
+    "picta": "266.5/0.069 blue",
+    "baby": "261.8/0.052 soft blue",
+    "astralite": "101.7/0.004 grey",
+    "dY_pct": -0.04,
+    "share": 0.27
+   },
+   "dome_zenith": {
+    "picta": "250.7/0.085 blue",
+    "baby": "256.4/0.086 blue",
+    "astralite": "267.8/0.083 blue",
+    "dY_pct": 0.01,
+    "share": 0.33
+   },
+   "fog_far": {
+    "picta": "263.5/0.071 blue",
+    "baby": "254.7/0.057 soft blue",
+    "astralite": "257.2/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.43
+   },
+   "clouds": {
+    "picta": "263.5/0.071 blue",
+    "baby": "262.2/0.050 soft blue",
+    "astralite": "261.0/0.019 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.41
+   },
+   "sunlight": {
+    "picta": " 71.3/0.027 greyish orange-peach",
+    "baby": " 62.5/0.024 greyish orange-peach",
+    "astralite": " 39.9/0.012 greyish coral",
+    "dY_pct": -0.0,
+    "share": 0.24
+   },
+   "amb_XPlus": {
+    "picta": "261.9/0.049 soft blue",
+    "baby": "267.3/0.042 soft blue",
+    "astralite": "275.7/0.028 greyish blue-violet",
+    "dY_pct": 0.17,
+    "share": 0.34
+   },
+   "amb_ZMinus": {
+    "picta": "263.2/0.051 soft blue",
+    "baby": "267.9/0.043 soft blue",
+    "astralite": "276.1/0.027 greyish blue-violet",
+    "dY_pct": 0.11,
+    "share": 0.32
+   },
+   "sky_ibl": {
+    "picta": "257.5/0.081 blue",
+    "baby": "258.6/0.073 blue",
+    "astralite": "268.5/0.076 blue",
+    "dY_pct": -0.03,
+    "share": 0.25
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "263.0/0.083 blue",
+    "baby": "261.5/0.068 blue",
+    "astralite": "252.4/0.027 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.26
+   },
+   "dome_hor_sun": {
+    "picta": "263.3/0.081 blue",
+    "baby": "261.9/0.066 blue",
+    "astralite": "254.0/0.025 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.26
+   },
+   "dome_zenith": {
+    "picta": "250.0/0.085 sky-blue",
+    "baby": "255.2/0.085 blue",
+    "astralite": "269.0/0.075 blue",
+    "dY_pct": 0.0,
+    "share": 0.24
+   },
+   "fog_far": {
+    "picta": "261.9/0.073 blue",
+    "baby": "260.6/0.061 blue",
+    "astralite": "257.2/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "261.9/0.073 blue",
+    "baby": "261.6/0.058 soft blue",
+    "astralite": "260.8/0.022 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "sunlight": {
+    "picta": " 62.7/0.011 grey",
+    "baby": " 49.8/0.011 grey",
+    "astralite": " 39.9/0.011 grey",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "amb_XPlus": {
+    "picta": "261.1/0.057 soft blue",
+    "baby": "266.7/0.049 soft blue",
+    "astralite": "275.7/0.028 greyish blue-violet",
+    "dY_pct": 0.33,
+    "share": 0.3
+   },
+   "amb_ZMinus": {
+    "picta": "262.4/0.059 soft blue",
+    "baby": "267.3/0.050 soft blue",
+    "astralite": "276.1/0.027 greyish blue-violet",
+    "dY_pct": 0.32,
+    "share": 0.28
+   },
+   "sky_ibl": {
+    "picta": "257.8/0.084 blue",
+    "baby": "258.7/0.075 blue",
+    "astralite": "270.5/0.065 blue",
+    "dY_pct": 0.01,
+    "share": 0.28
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "265.6/0.082 blue",
+    "baby": "262.5/0.064 blue",
+    "astralite": "259.8/0.039 soft blue",
+    "dY_pct": -0.01,
+    "share": 0.41
+   },
+   "dome_hor_sun": {
+    "picta": "268.7/0.071 blue",
+    "baby": "264.0/0.055 soft blue",
+    "astralite": "101.7/0.004 grey",
+    "dY_pct": -0.04,
+    "share": 0.23
+   },
+   "dome_zenith": {
+    "picta": "251.5/0.086 blue",
+    "baby": "256.5/0.086 blue",
+    "astralite": "267.8/0.083 blue",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "fog_far": {
+    "picta": "265.4/0.072 blue",
+    "baby": "259.3/0.059 soft blue",
+    "astralite": "257.2/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.37
+   },
+   "clouds": {
+    "picta": "265.4/0.072 blue",
+    "baby": "263.7/0.053 soft blue",
+    "astralite": "261.0/0.019 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.35
+   },
+   "sunlight": {
+    "picta": " 62.9/0.034 soft orange-peach",
+    "baby": " 53.9/0.031 soft orange-peach",
+    "astralite": " 39.9/0.012 greyish coral",
+    "dY_pct": -0.0,
+    "share": 0.21
+   },
+   "amb_XPlus": {
+    "picta": "261.9/0.049 soft blue",
+    "baby": "267.3/0.042 soft blue",
+    "astralite": "275.7/0.028 greyish blue-violet",
+    "dY_pct": 0.17,
+    "share": 0.34
+   },
+   "amb_ZMinus": {
+    "picta": "263.2/0.051 soft blue",
+    "baby": "267.9/0.043 soft blue",
+    "astralite": "276.1/0.027 greyish blue-violet",
+    "dY_pct": 0.11,
+    "share": 0.32
+   },
+   "sky_ibl": {
+    "picta": "258.6/0.082 blue",
+    "baby": "259.4/0.074 blue",
+    "astralite": "268.5/0.076 blue",
+    "dY_pct": -0.04,
+    "share": 0.25
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "284.6/0.066 blue-violet",
+    "baby": "352.0/0.056 soft rose-pink",
+    "astralite": " 60.1/0.045 soft orange-peach",
+    "dY_pct": 0.05,
+    "share": 0.5
+   },
+   "dome_hor_sun": {
+    "picta": "306.3/0.059 soft violet-mauve",
+    "baby": "359.9/0.056 soft rose-pink",
+    "astralite": " 59.7/0.028 greyish orange-peach",
+    "dY_pct": 0.25,
+    "share": 0.44
+   },
+   "dome_zenith": {
+    "picta": "261.6/0.068 blue",
+    "baby": "265.3/0.075 blue",
+    "astralite": "267.6/0.076 blue",
+    "dY_pct": -0.0,
+    "share": 0.74
+   },
+   "fog_far": {
+    "picta": "273.3/0.075 blue-violet",
+    "baby": "348.8/0.057 soft rose-pink",
+    "astralite": " 67.1/0.054 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "273.3/0.075 blue-violet",
+    "baby": "343.9/0.064 rose-pink",
+    "astralite": " 54.5/0.069 orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 37.4/0.194 coral",
+    "baby": " 37.5/0.194 coral",
+    "astralite": " 86.0/0.057 soft gold",
+    "dY_pct": -0.05,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "274.6/0.071 blue-violet",
+    "baby": "284.9/0.043 soft blue-violet",
+    "astralite": "286.0/0.012 grey",
+    "dY_pct": -0.04,
+    "share": 0.48
+   },
+   "amb_ZMinus": {
+    "picta": "316.8/0.073 magenta-pink",
+    "baby": "321.9/0.046 soft magenta-pink",
+    "astralite": "335.3/0.005 grey",
+    "dY_pct": 0.13,
+    "share": 0.4
+   },
+   "sky_ibl": {
+    "picta": "269.7/0.067 blue",
+    "baby": "291.5/0.055 soft blue-violet",
+    "astralite": "267.9/0.078 blue",
+    "dY_pct": 0.02,
+    "share": 0.0
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "286.2/0.065 blue-violet",
+    "baby": "  1.1/0.063 rose-pink",
+    "astralite": " 57.8/0.043 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "dome_hor_sun": {
+    "picta": "315.1/0.057 soft magenta-pink",
+    "baby": "  8.9/0.062 rose-pink",
+    "astralite": " 58.7/0.023 greyish orange-peach",
+    "dY_pct": -0.03,
+    "share": 0.44
+   },
+   "dome_zenith": {
+    "picta": "263.4/0.066 blue",
+    "baby": "266.8/0.073 blue",
+    "astralite": "267.6/0.075 blue",
+    "dY_pct": 0.01,
+    "share": 0.8
+   },
+   "fog_far": {
+    "picta": "274.7/0.076 blue-violet",
+    "baby": "359.4/0.067 rose-pink",
+    "astralite": " 65.1/0.051 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "clouds": {
+    "picta": "274.7/0.076 blue-violet",
+    "baby": "352.0/0.074 rose-pink",
+    "astralite": " 52.4/0.065 orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "sunlight": {
+    "picta": " 39.2/0.187 coral",
+    "baby": " 39.4/0.186 coral",
+    "astralite": " 85.2/0.053 soft gold",
+    "dY_pct": 0.03,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "270.9/0.077 blue",
+    "baby": "277.2/0.053 soft blue-violet",
+    "astralite": "286.0/0.011 grey",
+    "dY_pct": 0.32,
+    "share": 0.37
+   },
+   "amb_ZMinus": {
+    "picta": "307.7/0.074 violet-mauve",
+    "baby": "307.1/0.050 soft violet-mauve",
+    "astralite": "329.1/0.005 grey",
+    "dY_pct": 0.57,
+    "share": 0.35
+   },
+   "sky_ibl": {
+    "picta": "271.8/0.065 blue",
+    "baby": "297.2/0.054 soft violet-mauve",
+    "astralite": "267.8/0.079 blue",
+    "dY_pct": 0.0,
+    "share": 0.0
+   }
+  }
+ },
+ "19FD02": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "274.4/0.027 greyish blue-violet",
+    "baby": "271.0/0.025 greyish blue",
+    "astralite": "261.3/0.021 greyish blue",
+    "dY_pct": 0.01,
+    "share": 0.36
+   },
+   "dome_hor_sun": {
+    "picta": "309.8/0.021 greyish violet-mauve",
+    "baby": "289.2/0.018 greyish blue-violet",
+    "astralite": "263.2/0.008 grey",
+    "dY_pct": 0.01,
+    "share": 0.29
+   },
+   "dome_zenith": {
+    "picta": "254.3/0.051 soft blue",
+    "baby": "257.0/0.037 soft blue",
+    "astralite": "258.5/0.019 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.44
+   },
+   "fog_far": {
+    "picta": "262.4/0.028 greyish blue",
+    "baby": "261.8/0.026 greyish blue",
+    "astralite": "257.5/0.022 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.33
+   },
+   "clouds": {
+    "picta": "262.4/0.028 greyish blue",
+    "baby": "357.3/0.023 greyish rose-pink",
+    "astralite": " 71.7/0.033 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.55
+   },
+   "sunlight": {
+    "picta": " 49.7/0.135 coral",
+    "baby": " 46.4/0.134 coral",
+    "astralite": "271.0/0.017 greyish blue",
+    "dY_pct": -0.05,
+    "share": 0.02
+   },
+   "amb_XPlus": {
+    "picta": "258.6/0.029 greyish blue",
+    "baby": "262.3/0.023 greyish blue",
+    "astralite": "260.9/0.011 grey",
+    "dY_pct": 0.08,
+    "share": 0.38
+   },
+   "amb_ZMinus": {
+    "picta": "258.9/0.029 greyish blue",
+    "baby": "261.1/0.023 greyish blue",
+    "astralite": "260.9/0.011 grey",
+    "dY_pct": 0.09,
+    "share": 0.36
+   },
+   "sky_ibl": {
+    "picta": "260.6/0.040 soft blue",
+    "baby": "261.9/0.031 soft blue",
+    "astralite": "258.5/0.020 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.43
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "272.8/0.028 greyish blue-violet",
+    "baby": "269.2/0.025 greyish blue",
+    "astralite": "259.1/0.020 greyish blue",
+    "dY_pct": 0.04,
+    "share": 0.35
+   },
+   "dome_hor_sun": {
+    "picta": "297.3/0.022 greyish violet-mauve",
+    "baby": "280.6/0.019 greyish blue-violet",
+    "astralite": "260.4/0.008 grey",
+    "dY_pct": 0.2,
+    "share": 0.24
+   },
+   "dome_zenith": {
+    "picta": "253.2/0.053 soft blue",
+    "baby": "256.0/0.039 soft blue",
+    "astralite": "258.5/0.020 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.43
+   },
+   "fog_far": {
+    "picta": "261.9/0.029 greyish blue",
+    "baby": "261.3/0.026 greyish blue",
+    "astralite": "254.1/0.020 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.28
+   },
+   "clouds": {
+    "picta": "261.9/0.029 greyish blue",
+    "baby": "347.7/0.023 greyish rose-pink",
+    "astralite": " 70.8/0.038 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.49
+   },
+   "sunlight": {
+    "picta": " 53.2/0.146 orange-peach",
+    "baby": " 52.0/0.149 orange-peach",
+    "astralite": "269.0/0.016 greyish blue",
+    "dY_pct": -0.15,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "261.8/0.027 greyish blue",
+    "baby": "267.8/0.019 greyish blue",
+    "astralite": "259.9/0.012 grey",
+    "dY_pct": 0.04,
+    "share": 0.51
+   },
+   "amb_ZMinus": {
+    "picta": "262.5/0.027 greyish blue",
+    "baby": "266.6/0.020 greyish blue",
+    "astralite": "259.4/0.012 grey",
+    "dY_pct": 0.04,
+    "share": 0.49
+   },
+   "sky_ibl": {
+    "picta": "259.3/0.042 soft blue",
+    "baby": "260.5/0.033 soft blue",
+    "astralite": "258.5/0.020 greyish blue",
+    "dY_pct": 0.01,
+    "share": 0.42
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "256.8/0.040 soft blue",
+    "baby": "254.7/0.031 soft blue",
+    "astralite": "258.8/0.015 greyish blue",
+    "dY_pct": -0.04,
+    "share": 0.33
+   },
+   "dome_hor_sun": {
+    "picta": "257.4/0.036 soft blue",
+    "baby": "250.5/0.030 soft blue",
+    "astralite": "260.2/0.002 grey",
+    "dY_pct": -0.17,
+    "share": 0.19
+   },
+   "dome_zenith": {
+    "picta": "247.0/0.067 sky-blue",
+    "baby": "250.6/0.050 soft blue",
+    "astralite": "258.8/0.014 greyish blue",
+    "dY_pct": -0.01,
+    "share": 0.33
+   },
+   "fog_far": {
+    "picta": "259.4/0.033 soft blue",
+    "baby": "258.5/0.027 greyish blue",
+    "astralite": "259.9/0.017 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.37
+   },
+   "clouds": {
+    "picta": "259.4/0.033 soft blue",
+    "baby": "305.6/0.032 soft violet-mauve",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "sunlight": {
+    "picta": " 67.8/0.005 grey",
+    "baby": "311.2/0.023 greyish violet-mauve",
+    "astralite": "268.2/0.016 greyish blue",
+    "dY_pct": 0.04,
+    "share": 1.09
+   },
+   "amb_XPlus": {
+    "picta": "248.2/0.021 greyish sky-blue",
+    "baby": "251.0/0.017 greyish blue",
+    "astralite": "263.5/0.010 grey",
+    "dY_pct": -0.01,
+    "share": 0.29
+   },
+   "amb_ZMinus": {
+    "picta": "249.4/0.021 greyish sky-blue",
+    "baby": "254.5/0.017 greyish blue",
+    "astralite": "262.6/0.010 grey",
+    "dY_pct": 0.04,
+    "share": 0.32
+   },
+   "sky_ibl": {
+    "picta": "251.8/0.051 soft blue",
+    "baby": "252.4/0.039 soft blue",
+    "astralite": "258.9/0.014 greyish blue",
+    "dY_pct": -0.04,
+    "share": 0.32
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "255.8/0.040 soft blue",
+    "baby": "256.7/0.032 soft blue",
+    "astralite": "258.8/0.015 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "dome_hor_sun": {
+    "picta": "255.9/0.039 soft blue",
+    "baby": "256.9/0.032 soft blue",
+    "astralite": "261.3/0.011 grey",
+    "dY_pct": 0.0,
+    "share": 0.26
+   },
+   "dome_zenith": {
+    "picta": "246.8/0.067 sky-blue",
+    "baby": "250.4/0.051 soft blue",
+    "astralite": "259.1/0.013 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.29
+   },
+   "fog_far": {
+    "picta": "249.7/0.030 soft sky-blue",
+    "baby": "252.7/0.026 greyish blue",
+    "astralite": "259.9/0.017 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "249.7/0.030 soft sky-blue",
+    "baby": "249.2/0.030 soft sky-blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.0,
+    "share": null
+   },
+   "sunlight": {
+    "picta": " 52.2/0.005 grey",
+    "baby": "270.8/0.009 grey",
+    "astralite": "268.2/0.016 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "amb_XPlus": {
+    "picta": "247.8/0.024 greyish sky-blue",
+    "baby": "250.7/0.020 greyish blue",
+    "astralite": "263.5/0.010 grey",
+    "dY_pct": 0.03,
+    "share": 0.26
+   },
+   "amb_ZMinus": {
+    "picta": "249.0/0.024 greyish sky-blue",
+    "baby": "254.2/0.020 greyish blue",
+    "astralite": "262.6/0.010 grey",
+    "dY_pct": 0.05,
+    "share": 0.28
+   },
+   "sky_ibl": {
+    "picta": "252.2/0.049 soft blue",
+    "baby": "254.2/0.038 soft blue",
+    "astralite": "259.4/0.012 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.28
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "258.6/0.040 soft blue",
+    "baby": "256.8/0.032 soft blue",
+    "astralite": "258.8/0.015 greyish blue",
+    "dY_pct": -0.04,
+    "share": 0.32
+   },
+   "dome_hor_sun": {
+    "picta": "260.0/0.036 soft blue",
+    "baby": "254.4/0.030 greyish blue",
+    "astralite": "260.2/0.002 grey",
+    "dY_pct": -0.13,
+    "share": 0.19
+   },
+   "dome_zenith": {
+    "picta": "247.8/0.068 sky-blue",
+    "baby": "251.1/0.051 soft blue",
+    "astralite": "258.8/0.014 greyish blue",
+    "dY_pct": -0.01,
+    "share": 0.31
+   },
+   "fog_far": {
+    "picta": "262.6/0.034 soft blue",
+    "baby": "261.3/0.028 greyish blue",
+    "astralite": "259.9/0.017 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.34
+   },
+   "clouds": {
+    "picta": "262.6/0.034 soft blue",
+    "baby": "280.1/0.032 soft blue-violet",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.0,
+    "share": null
+   },
+   "sunlight": {
+    "picta": " 40.5/0.012 grey",
+    "baby": "326.8/0.023 greyish magenta-pink",
+    "astralite": "268.2/0.016 greyish blue",
+    "dY_pct": 0.03,
+    "share": 0.58
+   },
+   "amb_XPlus": {
+    "picta": "248.2/0.021 greyish sky-blue",
+    "baby": "251.0/0.017 greyish blue",
+    "astralite": "263.5/0.010 grey",
+    "dY_pct": -0.01,
+    "share": 0.29
+   },
+   "amb_ZMinus": {
+    "picta": "249.4/0.021 greyish sky-blue",
+    "baby": "254.5/0.017 greyish blue",
+    "astralite": "262.6/0.010 grey",
+    "dY_pct": 0.04,
+    "share": 0.32
+   },
+   "sky_ibl": {
+    "picta": "253.1/0.051 soft blue",
+    "baby": "253.8/0.040 soft blue",
+    "astralite": "258.9/0.014 greyish blue",
+    "dY_pct": -0.05,
+    "share": 0.3
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "277.7/0.031 soft blue-violet",
+    "baby": "272.4/0.026 greyish blue-violet",
+    "astralite": "259.1/0.020 greyish blue",
+    "dY_pct": 0.04,
+    "share": 0.36
+   },
+   "dome_hor_sun": {
+    "picta": "302.7/0.026 greyish violet-mauve",
+    "baby": "285.5/0.022 greyish blue-violet",
+    "astralite": "260.4/0.008 grey",
+    "dY_pct": 0.2,
+    "share": 0.31
+   },
+   "dome_zenith": {
+    "picta": "256.0/0.055 soft blue",
+    "baby": "257.9/0.040 soft blue",
+    "astralite": "258.5/0.020 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.43
+   },
+   "fog_far": {
+    "picta": "265.7/0.030 soft blue",
+    "baby": "263.7/0.027 greyish blue",
+    "astralite": "254.0/0.019 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "265.7/0.030 soft blue",
+    "baby": "332.9/0.035 soft magenta-pink",
+    "astralite": " 40.8/0.043 soft coral",
+    "dY_pct": -0.0,
+    "share": 0.49
+   },
+   "sunlight": {
+    "picta": " 44.7/0.167 coral",
+    "baby": " 44.1/0.169 coral",
+    "astralite": "269.0/0.016 greyish blue",
+    "dY_pct": -0.2,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "266.2/0.028 greyish blue",
+    "baby": "266.8/0.020 greyish blue",
+    "astralite": "255.4/0.010 grey",
+    "dY_pct": 0.0,
+    "share": 0.44
+   },
+   "amb_ZMinus": {
+    "picta": "266.6/0.028 greyish blue",
+    "baby": "271.8/0.021 greyish blue",
+    "astralite": "259.4/0.012 grey",
+    "dY_pct": -0.01,
+    "share": 0.45
+   },
+   "sky_ibl": {
+    "picta": "262.8/0.044 soft blue",
+    "baby": "262.9/0.034 soft blue",
+    "astralite": "258.5/0.020 greyish blue",
+    "dY_pct": 0.01,
+    "share": 0.42
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "279.5/0.030 soft blue-violet",
+    "baby": "274.1/0.026 greyish blue-violet",
+    "astralite": "261.3/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.38
+   },
+   "dome_hor_sun": {
+    "picta": "313.4/0.026 greyish violet-mauve",
+    "baby": "292.6/0.021 greyish violet-mauve",
+    "astralite": "263.2/0.008 grey",
+    "dY_pct": -0.01,
+    "share": 0.36
+   },
+   "dome_zenith": {
+    "picta": "257.5/0.053 soft blue",
+    "baby": "259.2/0.038 soft blue",
+    "astralite": "258.5/0.019 greyish blue",
+    "dY_pct": -0.01,
+    "share": 0.44
+   },
+   "fog_far": {
+    "picta": "266.3/0.030 greyish blue",
+    "baby": "264.1/0.026 greyish blue",
+    "astralite": "257.4/0.021 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.36
+   },
+   "clouds": {
+    "picta": "266.3/0.030 greyish blue",
+    "baby": "339.7/0.038 soft magenta-pink",
+    "astralite": " 39.8/0.038 soft coral",
+    "dY_pct": -0.0,
+    "share": 0.55
+   },
+   "sunlight": {
+    "picta": " 40.7/0.155 coral",
+    "baby": " 37.9/0.155 coral",
+    "astralite": "271.0/0.017 greyish blue",
+    "dY_pct": -0.06,
+    "share": 0.02
+   },
+   "amb_XPlus": {
+    "picta": "262.3/0.030 soft blue",
+    "baby": "261.7/0.023 greyish blue",
+    "astralite": "258.1/0.010 grey",
+    "dY_pct": 0.09,
+    "share": 0.34
+   },
+   "amb_ZMinus": {
+    "picta": "262.3/0.030 soft blue",
+    "baby": "265.2/0.024 greyish blue",
+    "astralite": "260.9/0.011 grey",
+    "dY_pct": 0.05,
+    "share": 0.36
+   },
+   "sky_ibl": {
+    "picta": "264.6/0.042 soft blue",
+    "baby": "264.5/0.033 soft blue",
+    "astralite": "258.5/0.020 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.43
+   }
+  }
+ },
+ "19FD03": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "275.2/0.032 soft blue-violet",
+    "baby": "279.1/0.015 greyish blue-violet",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": -0.01,
+    "share": 0.55
+   },
+   "dome_hor_sun": {
+    "picta": "307.2/0.024 greyish violet-mauve",
+    "baby": "314.6/0.011 grey",
+    "astralite": "286.4/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.55
+   },
+   "dome_zenith": {
+    "picta": "247.9/0.037 soft sky-blue",
+    "baby": "248.5/0.015 greyish sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.58
+   },
+   "fog_far": {
+    "picta": "264.4/0.041 soft blue",
+    "baby": "267.4/0.019 greyish blue",
+    "astralite": "286.3/0.002 grey",
+    "dY_pct": -0.0,
+    "share": 0.55
+   },
+   "clouds": {
+    "picta": "264.4/0.041 soft blue",
+    "baby": "265.8/0.019 greyish blue",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": 0.0,
+    "share": 0.54
+   },
+   "sunlight": {
+    "picta": " 49.0/0.147 coral",
+    "baby": " 54.3/0.144 orange-peach",
+    "astralite": "286.3/0.002 grey",
+    "dY_pct": 0.12,
+    "share": 0.03
+   },
+   "amb_XPlus": {
+    "picta": "266.8/0.053 soft blue",
+    "baby": "270.8/0.032 soft blue",
+    "astralite": "286.4/0.000 grey",
+    "dY_pct": 0.36,
+    "share": 0.39
+   },
+   "amb_ZMinus": {
+    "picta": "291.5/0.049 soft blue-violet",
+    "baby": "294.1/0.032 soft violet-mauve",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": 0.43,
+    "share": 0.35
+   },
+   "sky_ibl": {
+    "picta": "257.6/0.034 soft blue",
+    "baby": "260.2/0.015 greyish blue",
+    "astralite": "286.5/0.000 grey",
+    "dY_pct": -0.01,
+    "share": 0.57
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "273.4/0.032 soft blue-violet",
+    "baby": "275.1/0.016 greyish blue-violet",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.05,
+    "share": 0.51
+   },
+   "dome_hor_sun": {
+    "picta": "296.3/0.025 greyish violet-mauve",
+    "baby": "297.2/0.011 grey",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.22,
+    "share": 0.54
+   },
+   "dome_zenith": {
+    "picta": "246.9/0.039 soft sky-blue",
+    "baby": "247.1/0.018 greyish sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.54
+   },
+   "fog_far": {
+    "picta": "262.8/0.041 soft blue",
+    "baby": "264.7/0.021 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "262.8/0.041 soft blue",
+    "baby": "263.5/0.021 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 49.0/0.155 coral",
+    "baby": " 51.3/0.150 orange-peach",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.36,
+    "share": 0.03
+   },
+   "amb_XPlus": {
+    "picta": "268.9/0.049 soft blue",
+    "baby": "275.6/0.025 greyish blue-violet",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.13,
+    "share": 0.48
+   },
+   "amb_ZMinus": {
+    "picta": "298.3/0.047 soft violet-mauve",
+    "baby": "306.2/0.028 greyish violet-mauve",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.17,
+    "share": 0.41
+   },
+   "sky_ibl": {
+    "picta": "256.1/0.036 soft blue",
+    "baby": "257.2/0.017 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.01,
+    "share": 0.53
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "254.7/0.040 soft blue",
+    "baby": "251.9/0.026 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.07,
+    "share": 0.35
+   },
+   "dome_hor_sun": {
+    "picta": "255.3/0.037 soft blue",
+    "baby": "246.6/0.025 greyish sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.2,
+    "share": 0.31
+   },
+   "dome_zenith": {
+    "picta": "241.8/0.051 soft sky-blue",
+    "baby": "241.8/0.033 soft sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.01,
+    "share": 0.35
+   },
+   "fog_far": {
+    "picta": "255.0/0.045 soft blue",
+    "baby": "254.5/0.028 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.36
+   },
+   "clouds": {
+    "picta": "255.0/0.045 soft blue",
+    "baby": "254.9/0.029 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.36
+   },
+   "sunlight": {
+    "picta": " 67.8/0.005 grey",
+    "baby": " 20.3/0.003 grey",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.01,
+    "share": 0.64
+   },
+   "amb_XPlus": {
+    "picta": "256.8/0.032 soft blue",
+    "baby": "257.1/0.022 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.17,
+    "share": 0.3
+   },
+   "amb_ZMinus": {
+    "picta": "256.5/0.032 soft blue",
+    "baby": "256.7/0.022 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.16,
+    "share": 0.3
+   },
+   "sky_ibl": {
+    "picta": "247.8/0.045 soft sky-blue",
+    "baby": "246.0/0.029 greyish sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.05,
+    "share": 0.34
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "255.0/0.041 soft blue",
+    "baby": "254.9/0.029 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "dome_hor_sun": {
+    "picta": "255.1/0.040 soft blue",
+    "baby": "255.0/0.028 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.01,
+    "share": 0.3
+   },
+   "dome_zenith": {
+    "picta": "241.8/0.051 soft sky-blue",
+    "baby": "241.8/0.036 soft sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "fog_far": {
+    "picta": "257.4/0.046 soft blue",
+    "baby": "257.4/0.032 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "257.4/0.046 soft blue",
+    "baby": "257.4/0.032 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "sunlight": {
+    "picta": " 52.2/0.005 grey",
+    "baby": " 51.8/0.004 grey",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.29
+   },
+   "amb_XPlus": {
+    "picta": "256.3/0.037 soft blue",
+    "baby": "256.7/0.026 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.17,
+    "share": 0.3
+   },
+   "amb_ZMinus": {
+    "picta": "255.9/0.037 soft blue",
+    "baby": "256.3/0.026 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.18,
+    "share": 0.3
+   },
+   "sky_ibl": {
+    "picta": "249.5/0.045 soft sky-blue",
+    "baby": "249.4/0.031 soft sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "256.2/0.040 soft blue",
+    "baby": "254.3/0.027 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.05,
+    "share": 0.32
+   },
+   "dome_hor_sun": {
+    "picta": "257.8/0.036 soft blue",
+    "baby": "251.2/0.026 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.15,
+    "share": 0.3
+   },
+   "dome_zenith": {
+    "picta": "242.7/0.051 soft sky-blue",
+    "baby": "242.6/0.034 soft sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.01,
+    "share": 0.32
+   },
+   "fog_far": {
+    "picta": "264.7/0.049 soft blue",
+    "baby": "264.4/0.033 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.33
+   },
+   "clouds": {
+    "picta": "264.7/0.049 soft blue",
+    "baby": "264.6/0.033 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.33
+   },
+   "sunlight": {
+    "picta": " 40.5/0.012 grey",
+    "baby": " 26.1/0.010 grey",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.01,
+    "share": 0.19
+   },
+   "amb_XPlus": {
+    "picta": "256.8/0.032 soft blue",
+    "baby": "257.1/0.022 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.17,
+    "share": 0.3
+   },
+   "amb_ZMinus": {
+    "picta": "256.5/0.032 soft blue",
+    "baby": "256.7/0.022 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.16,
+    "share": 0.3
+   },
+   "sky_ibl": {
+    "picta": "249.0/0.045 soft sky-blue",
+    "baby": "247.7/0.030 soft sky-blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.06,
+    "share": 0.32
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "276.6/0.030 greyish blue-violet",
+    "baby": "278.6/0.015 greyish blue-violet",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.05,
+    "share": 0.51
+   },
+   "dome_hor_sun": {
+    "picta": "304.6/0.025 greyish violet-mauve",
+    "baby": "305.8/0.012 grey",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.22,
+    "share": 0.53
+   },
+   "dome_zenith": {
+    "picta": "250.4/0.040 soft blue",
+    "baby": "251.2/0.019 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.53
+   },
+   "fog_far": {
+    "picta": "267.3/0.044 soft blue",
+    "baby": "269.1/0.022 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "267.3/0.044 soft blue",
+    "baby": "268.1/0.022 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 41.1/0.179 coral",
+    "baby": " 42.4/0.175 coral",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.4,
+    "share": 0.03
+   },
+   "amb_XPlus": {
+    "picta": "272.8/0.053 soft blue-violet",
+    "baby": "282.4/0.028 greyish blue-violet",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.03,
+    "share": 0.47
+   },
+   "amb_ZMinus": {
+    "picta": "299.4/0.049 soft violet-mauve",
+    "baby": "308.4/0.029 greyish violet-mauve",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.05,
+    "share": 0.41
+   },
+   "sky_ibl": {
+    "picta": "258.7/0.035 soft blue",
+    "baby": "260.1/0.017 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.01,
+    "share": 0.52
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "278.5/0.029 greyish blue-violet",
+    "baby": "283.3/0.014 greyish blue-violet",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": -0.01,
+    "share": 0.55
+   },
+   "dome_hor_sun": {
+    "picta": "316.4/0.026 greyish magenta-pink",
+    "baby": "321.8/0.012 greyish magenta-pink",
+    "astralite": "286.4/0.000 grey",
+    "dY_pct": -0.02,
+    "share": 0.54
+   },
+   "dome_zenith": {
+    "picta": "251.9/0.038 soft blue",
+    "baby": "253.6/0.016 greyish blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.01,
+    "share": 0.57
+   },
+   "fog_far": {
+    "picta": "267.8/0.043 soft blue",
+    "baby": "270.4/0.020 greyish blue",
+    "astralite": "286.3/0.002 grey",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "clouds": {
+    "picta": "267.8/0.043 soft blue",
+    "baby": "269.0/0.020 greyish blue",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": 0.0,
+    "share": 0.55
+   },
+   "sunlight": {
+    "picta": " 40.7/0.169 coral",
+    "baby": " 45.0/0.166 coral",
+    "astralite": "286.3/0.002 grey",
+    "dY_pct": 0.12,
+    "share": 0.02
+   },
+   "amb_XPlus": {
+    "picta": "270.1/0.056 soft blue",
+    "baby": "275.8/0.035 soft blue-violet",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": 0.3,
+    "share": 0.39
+   },
+   "amb_ZMinus": {
+    "picta": "292.7/0.051 soft violet-mauve",
+    "baby": "296.1/0.033 soft violet-mauve",
+    "astralite": "286.4/0.001 grey",
+    "dY_pct": 0.34,
+    "share": 0.35
+   },
+   "sky_ibl": {
+    "picta": "260.6/0.034 soft blue",
+    "baby": "263.7/0.015 greyish blue",
+    "astralite": "286.5/0.000 grey",
+    "dY_pct": -0.01,
+    "share": 0.56
+   }
+  }
+ },
+ "5AFA01": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "282.8/0.074 blue-violet",
+    "baby": "340.9/0.065 rose-pink",
+    "astralite": " 13.3/0.048 soft salmon",
+    "dY_pct": 0.0,
+    "share": 0.62
+   },
+   "dome_hor_sun": {
+    "picta": "310.1/0.058 soft violet-mauve",
+    "baby": "352.7/0.058 soft rose-pink",
+    "astralite": " 20.0/0.023 greyish salmon",
+    "dY_pct": -0.03,
+    "share": 0.46
+   },
+   "dome_zenith": {
+    "picta": "261.7/0.074 blue",
+    "baby": "270.2/0.080 blue",
+    "astralite": "275.1/0.081 blue-violet",
+    "dY_pct": 0.0,
+    "share": 0.68
+   },
+   "fog_far": {
+    "picta": "281.1/0.069 blue-violet",
+    "baby": "344.5/0.070 rose-pink",
+    "astralite": " 28.8/0.068 salmon",
+    "dY_pct": -0.03,
+    "share": 0.59
+   },
+   "clouds": {
+    "picta": "281.1/0.069 blue-violet",
+    "baby": "339.8/0.042 soft magenta-pink",
+    "astralite": " 26.3/0.018 greyish salmon",
+    "dY_pct": 0.0,
+    "share": 0.55
+   },
+   "sunlight": {
+    "picta": " 45.3/0.165 coral",
+    "baby": " 45.6/0.164 coral",
+    "astralite": " 61.9/0.073 orange-peach",
+    "dY_pct": 0.01,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "276.2/0.075 blue-violet",
+    "baby": "305.9/0.059 soft violet-mauve",
+    "astralite": "351.6/0.030 soft rose-pink",
+    "dY_pct": 0.16,
+    "share": 0.39
+   },
+   "amb_ZMinus": {
+    "picta": "269.9/0.078 blue",
+    "baby": "298.7/0.060 violet-mauve",
+    "astralite": "342.5/0.030 soft rose-pink",
+    "dY_pct": 0.15,
+    "share": 0.39
+   },
+   "sky_ibl": {
+    "picta": "269.4/0.073 blue",
+    "baby": "292.9/0.065 violet-mauve",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.0,
+    "share": null
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "281.4/0.076 blue-violet",
+    "baby": "332.1/0.061 magenta-pink",
+    "astralite": " 16.1/0.049 soft salmon",
+    "dY_pct": 0.06,
+    "share": 0.54
+   },
+   "dome_hor_sun": {
+    "picta": "301.3/0.062 violet-mauve",
+    "baby": "342.4/0.056 soft rose-pink",
+    "astralite": " 23.8/0.029 greyish salmon",
+    "dY_pct": 0.3,
+    "share": 0.45
+   },
+   "dome_zenith": {
+    "picta": "260.1/0.077 blue",
+    "baby": "268.0/0.084 blue",
+    "astralite": "275.1/0.081 blue-violet",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "fog_far": {
+    "picta": "278.3/0.070 blue-violet",
+    "baby": "334.8/0.063 magenta-pink",
+    "astralite": " 31.0/0.069 salmon",
+    "dY_pct": -0.04,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "278.3/0.070 blue-violet",
+    "baby": "328.1/0.039 soft magenta-pink",
+    "astralite": " 28.1/0.020 greyish salmon",
+    "dY_pct": 0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 43.4/0.171 coral",
+    "baby": " 43.5/0.171 coral",
+    "astralite": " 64.5/0.080 orange-peach",
+    "dY_pct": -0.03,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "280.9/0.066 blue-violet",
+    "baby": "319.9/0.052 soft magenta-pink",
+    "astralite": "352.8/0.032 soft rose-pink",
+    "dY_pct": 0.03,
+    "share": 0.51
+   },
+   "amb_ZMinus": {
+    "picta": "273.2/0.068 blue-violet",
+    "baby": "311.3/0.052 soft violet-mauve",
+    "astralite": "344.2/0.033 soft rose-pink",
+    "dY_pct": 0.06,
+    "share": 0.52
+   },
+   "sky_ibl": {
+    "picta": "267.7/0.076 blue",
+    "baby": "287.8/0.068 blue-violet",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.01,
+    "share": null
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "264.7/0.097 blue",
+    "baby": "264.3/0.079 blue",
+    "astralite": "266.8/0.059 soft blue",
+    "dY_pct": -0.01,
+    "share": 0.46
+   },
+   "dome_hor_sun": {
+    "picta": "267.3/0.083 blue",
+    "baby": "266.0/0.068 blue",
+    "astralite": " 70.9/0.017 greyish orange-peach",
+    "dY_pct": -0.06,
+    "share": 0.01
+   },
+   "dome_zenith": {
+    "picta": "251.5/0.098 blue",
+    "baby": "255.4/0.106 blue",
+    "astralite": "264.6/0.110 blue",
+    "dY_pct": 0.0,
+    "share": 0.37
+   },
+   "fog_far": {
+    "picta": "264.1/0.078 blue",
+    "baby": "258.9/0.067 blue",
+    "astralite": "256.4/0.052 soft blue",
+    "dY_pct": -0.08,
+    "share": 0.45
+   },
+   "clouds": {
+    "picta": "264.1/0.082 blue",
+    "baby": "261.8/0.054 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.34
+   },
+   "sunlight": {
+    "picta": " 72.0/0.038 soft orange-peach",
+    "baby": " 60.9/0.033 soft orange-peach",
+    "astralite": " 38.5/0.013 greyish coral",
+    "dY_pct": -0.0,
+    "share": 0.25
+   },
+   "amb_XPlus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "266.8/0.063 blue",
+    "astralite": "273.0/0.050 soft blue-violet",
+    "dY_pct": -0.17,
+    "share": 0.38
+   },
+   "amb_ZMinus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "263.8/0.058 soft blue",
+    "astralite": "266.0/0.028 greyish blue",
+    "dY_pct": -0.44,
+    "share": 0.29
+   },
+   "sky_ibl": {
+    "picta": "258.2/0.095 blue",
+    "baby": "259.5/0.092 blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.03,
+    "share": null
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "262.0/0.111 blue",
+    "baby": "262.8/0.093 blue",
+    "astralite": "262.8/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.24
+   },
+   "dome_hor_sun": {
+    "picta": "262.5/0.108 blue",
+    "baby": "263.4/0.090 blue",
+    "astralite": " 16.7/0.007 grey",
+    "dY_pct": 0.0,
+    "share": 0.18
+   },
+   "dome_zenith": {
+    "picta": "249.7/0.104 sky-blue",
+    "baby": "254.3/0.106 blue",
+    "astralite": "266.2/0.099 blue",
+    "dY_pct": 0.01,
+    "share": 0.26
+   },
+   "fog_far": {
+    "picta": "260.9/0.093 blue",
+    "baby": "259.5/0.080 blue",
+    "astralite": "256.4/0.052 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "261.1/0.096 blue",
+    "baby": "261.4/0.067 blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "sunlight": {
+    "picta": " 67.3/0.017 greyish orange-peach",
+    "baby": " 57.0/0.015 greyish orange-peach",
+    "astralite": " 38.5/0.013 greyish coral",
+    "dY_pct": 0.0,
+    "share": 0.38
+   },
+   "amb_XPlus": {
+    "picta": "261.4/0.081 blue",
+    "baby": "265.8/0.073 blue",
+    "astralite": "273.0/0.050 soft blue-violet",
+    "dY_pct": 0.03,
+    "share": 0.29
+   },
+   "amb_ZMinus": {
+    "picta": "261.4/0.081 blue",
+    "baby": "262.9/0.067 blue",
+    "astralite": "266.0/0.028 greyish blue",
+    "dY_pct": 0.18,
+    "share": 0.27
+   },
+   "sky_ibl": {
+    "picta": "257.1/0.109 blue",
+    "baby": "258.9/0.099 blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.01,
+    "share": null
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "266.0/0.099 blue",
+    "baby": "265.5/0.083 blue",
+    "astralite": "266.8/0.059 soft blue",
+    "dY_pct": -0.02,
+    "share": 0.4
+   },
+   "dome_hor_sun": {
+    "picta": "269.4/0.085 blue",
+    "baby": "267.8/0.071 blue",
+    "astralite": " 70.9/0.017 greyish orange-peach",
+    "dY_pct": -0.05,
+    "share": 0.01
+   },
+   "dome_zenith": {
+    "picta": "251.9/0.099 blue",
+    "baby": "255.6/0.105 blue",
+    "astralite": "264.6/0.110 blue",
+    "dY_pct": 0.0,
+    "share": 0.34
+   },
+   "fog_far": {
+    "picta": "265.9/0.079 blue",
+    "baby": "261.6/0.069 blue",
+    "astralite": "256.4/0.052 soft blue",
+    "dY_pct": -0.04,
+    "share": 0.37
+   },
+   "clouds": {
+    "picta": "265.9/0.083 blue",
+    "baby": "270.3/0.054 soft blue",
+    "astralite": " 89.9/0.000 grey",
+    "dY_pct": -0.0,
+    "share": 0.35
+   },
+   "sunlight": {
+    "picta": " 65.0/0.045 soft orange-peach",
+    "baby": " 54.8/0.040 soft orange-peach",
+    "astralite": " 38.5/0.013 greyish coral",
+    "dY_pct": -0.01,
+    "share": 0.21
+   },
+   "amb_XPlus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "266.8/0.063 blue",
+    "astralite": "273.0/0.050 soft blue-violet",
+    "dY_pct": -0.17,
+    "share": 0.38
+   },
+   "amb_ZMinus": {
+    "picta": "262.6/0.070 blue",
+    "baby": "263.8/0.058 soft blue",
+    "astralite": "266.0/0.028 greyish blue",
+    "dY_pct": -0.44,
+    "share": 0.29
+   },
+   "sky_ibl": {
+    "picta": "259.1/0.096 blue",
+    "baby": "260.2/0.092 blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.03,
+    "share": null
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "284.0/0.082 blue-violet",
+    "baby": "333.1/0.064 magenta-pink",
+    "astralite": " 16.1/0.049 soft salmon",
+    "dY_pct": 0.06,
+    "share": 0.53
+   },
+   "dome_hor_sun": {
+    "picta": "304.0/0.071 violet-mauve",
+    "baby": "342.7/0.061 rose-pink",
+    "astralite": " 23.8/0.029 greyish salmon",
+    "dY_pct": 0.28,
+    "share": 0.43
+   },
+   "dome_zenith": {
+    "picta": "262.0/0.080 blue",
+    "baby": "268.9/0.085 blue",
+    "astralite": "275.1/0.081 blue-violet",
+    "dY_pct": 0.0,
+    "share": 0.54
+   },
+   "fog_far": {
+    "picta": "281.4/0.076 blue-violet",
+    "baby": "336.1/0.065 magenta-pink",
+    "astralite": " 31.0/0.068 salmon",
+    "dY_pct": -0.05,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "281.4/0.076 blue-violet",
+    "baby": "335.0/0.061 magenta-pink",
+    "astralite": " 30.7/0.050 soft salmon",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 37.3/0.195 coral",
+    "baby": " 37.3/0.195 coral",
+    "astralite": " 64.5/0.080 orange-peach",
+    "dY_pct": -0.04,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "283.8/0.073 blue-violet",
+    "baby": "307.1/0.057 soft violet-mauve",
+    "astralite": "327.2/0.035 soft magenta-pink",
+    "dY_pct": 0.01,
+    "share": 0.49
+   },
+   "amb_ZMinus": {
+    "picta": "276.7/0.074 blue-violet",
+    "baby": "312.8/0.056 soft violet-mauve",
+    "astralite": "344.2/0.033 soft rose-pink",
+    "dY_pct": -0.01,
+    "share": 0.51
+   },
+   "sky_ibl": {
+    "picta": "270.0/0.080 blue",
+    "baby": "289.0/0.070 blue-violet",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.02,
+    "share": null
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "285.4/0.080 blue-violet",
+    "baby": "342.1/0.068 rose-pink",
+    "astralite": " 13.3/0.048 soft salmon",
+    "dY_pct": -0.01,
+    "share": 0.62
+   },
+   "dome_hor_sun": {
+    "picta": "312.1/0.069 violet-mauve",
+    "baby": "352.5/0.064 rose-pink",
+    "astralite": " 20.0/0.023 greyish salmon",
+    "dY_pct": -0.04,
+    "share": 0.44
+   },
+   "dome_zenith": {
+    "picta": "263.9/0.077 blue",
+    "baby": "271.3/0.082 blue",
+    "astralite": "275.1/0.080 blue-violet",
+    "dY_pct": 0.0,
+    "share": 0.7
+   },
+   "fog_far": {
+    "picta": "284.3/0.075 blue-violet",
+    "baby": "346.1/0.072 rose-pink",
+    "astralite": " 28.8/0.067 salmon",
+    "dY_pct": -0.04,
+    "share": 0.59
+   },
+   "clouds": {
+    "picta": "284.3/0.075 blue-violet",
+    "baby": "342.3/0.067 rose-pink",
+    "astralite": " 29.7/0.046 soft salmon",
+    "dY_pct": -0.0,
+    "share": 0.54
+   },
+   "sunlight": {
+    "picta": " 39.0/0.187 coral",
+    "baby": " 39.2/0.187 coral",
+    "astralite": " 61.9/0.073 orange-peach",
+    "dY_pct": 0.02,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "278.7/0.081 blue-violet",
+    "baby": "296.0/0.065 violet-mauve",
+    "astralite": "325.5/0.031 soft magenta-pink",
+    "dY_pct": 0.2,
+    "share": 0.35
+   },
+   "amb_ZMinus": {
+    "picta": "272.7/0.083 blue-violet",
+    "baby": "300.1/0.063 violet-mauve",
+    "astralite": "342.5/0.030 soft rose-pink",
+    "dY_pct": 0.15,
+    "share": 0.39
+   },
+   "sky_ibl": {
+    "picta": "271.9/0.077 blue",
+    "baby": "294.2/0.067 violet-mauve",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.0,
+    "share": null
+   }
+  }
+ },
+ "19FE05": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "268.9/0.006 grey",
+    "baby": "255.5/0.018 greyish blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.02,
+    "share": 0.51
+   },
+   "dome_hor_sun": {
+    "picta": " 14.3/0.008 grey",
+    "baby": "271.0/0.013 greyish blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.12,
+    "share": 0.17
+   },
+   "dome_zenith": {
+    "picta": "235.3/0.014 greyish sky-blue",
+    "baby": "245.8/0.022 greyish sky-blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.52
+   },
+   "fog_far": {
+    "picta": "259.2/0.020 greyish blue",
+    "baby": "256.9/0.024 greyish blue",
+    "astralite": "252.6/0.032 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.38
+   },
+   "clouds": {
+    "picta": "259.2/0.020 greyish blue",
+    "baby": "357.1/0.021 greyish rose-pink",
+    "astralite": " 71.7/0.033 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.55
+   },
+   "sunlight": {
+    "picta": " 49.6/0.132 coral",
+    "baby": " 46.3/0.132 coral",
+    "astralite": "255.7/0.041 soft blue",
+    "dY_pct": -0.11,
+    "share": 0.02
+   },
+   "amb_XPlus": {
+    "picta": "256.8/0.020 greyish blue",
+    "baby": "256.8/0.020 greyish blue",
+    "astralite": "255.1/0.020 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "amb_ZMinus": {
+    "picta": "256.9/0.021 greyish blue",
+    "baby": "256.9/0.021 greyish blue",
+    "astralite": "254.8/0.020 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "sky_ibl": {
+    "picta": "241.6/0.011 grey",
+    "baby": "249.0/0.021 greyish sky-blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.01,
+    "share": 0.52
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "267.5/0.006 grey",
+    "baby": "254.7/0.018 greyish blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.06,
+    "share": 0.49
+   },
+   "dome_hor_sun": {
+    "picta": "  3.3/0.006 grey",
+    "baby": "263.7/0.013 greyish blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.33,
+    "share": 0.28
+   },
+   "dome_zenith": {
+    "picta": "234.6/0.016 greyish sky-blue",
+    "baby": "244.6/0.023 greyish sky-blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "fog_far": {
+    "picta": "258.1/0.020 greyish blue",
+    "baby": "256.1/0.024 greyish blue",
+    "astralite": "251.9/0.032 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.37
+   },
+   "clouds": {
+    "picta": "258.1/0.020 greyish blue",
+    "baby": "348.7/0.020 greyish rose-pink",
+    "astralite": " 70.8/0.038 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.49
+   },
+   "sunlight": {
+    "picta": " 53.6/0.145 orange-peach",
+    "baby": " 52.1/0.148 orange-peach",
+    "astralite": "254.1/0.043 soft blue",
+    "dY_pct": -0.05,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "258.3/0.018 greyish blue",
+    "baby": "258.3/0.018 greyish blue",
+    "astralite": "254.4/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "amb_ZMinus": {
+    "picta": "258.1/0.019 greyish blue",
+    "baby": "258.1/0.019 greyish blue",
+    "astralite": "253.4/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "sky_ibl": {
+    "picta": "240.4/0.012 grey",
+    "baby": "247.9/0.021 greyish sky-blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.01,
+    "share": 0.5
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "245.7/0.011 grey",
+    "baby": "246.2/0.018 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.02,
+    "share": 0.37
+   },
+   "dome_hor_sun": {
+    "picta": "245.8/0.011 grey",
+    "baby": "241.4/0.018 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.09,
+    "share": 0.37
+   },
+   "dome_zenith": {
+    "picta": "231.6/0.022 greyish sky-blue",
+    "baby": "238.4/0.025 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.36
+   },
+   "fog_far": {
+    "picta": "252.6/0.023 greyish blue",
+    "baby": "252.0/0.025 greyish blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.37
+   },
+   "clouds": {
+    "picta": "252.6/0.023 greyish blue",
+    "baby": "305.0/0.024 greyish violet-mauve",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "sunlight": {
+    "picta": "247.8/0.005 grey",
+    "baby": "292.8/0.027 greyish violet-mauve",
+    "astralite": "255.0/0.042 soft blue",
+    "dY_pct": 0.02,
+    "share": 0.44
+   },
+   "amb_XPlus": {
+    "picta": "254.3/0.016 greyish blue",
+    "baby": "254.3/0.016 greyish blue",
+    "astralite": "254.1/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.0
+   },
+   "amb_ZMinus": {
+    "picta": "253.0/0.015 greyish blue",
+    "baby": "253.4/0.016 greyish blue",
+    "astralite": "254.8/0.022 greyish blue",
+    "dY_pct": 0.04,
+    "share": 0.13
+   },
+   "sky_ibl": {
+    "picta": "236.5/0.016 greyish sky-blue",
+    "baby": "241.3/0.021 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.01,
+    "share": 0.37
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "247.3/0.010 grey",
+    "baby": "248.6/0.016 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.29
+   },
+   "dome_hor_sun": {
+    "picta": "247.4/0.010 grey",
+    "baby": "248.7/0.016 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.29
+   },
+   "dome_zenith": {
+    "picta": "231.9/0.021 greyish sky-blue",
+    "baby": "237.8/0.023 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "fog_far": {
+    "picta": "253.3/0.022 greyish blue",
+    "baby": "252.8/0.024 greyish blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "253.3/0.022 greyish blue",
+    "baby": "252.9/0.022 greyish blue",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.0,
+    "share": null
+   },
+   "sunlight": {
+    "picta": " 15.9/0.002 grey",
+    "baby": "256.6/0.014 greyish blue",
+    "astralite": "255.0/0.042 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.3
+   },
+   "amb_XPlus": {
+    "picta": "254.0/0.018 greyish blue",
+    "baby": "254.0/0.018 greyish blue",
+    "astralite": "254.1/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "amb_ZMinus": {
+    "picta": "252.7/0.018 greyish blue",
+    "baby": "253.1/0.019 greyish blue",
+    "astralite": "254.8/0.022 greyish blue",
+    "dY_pct": 0.01,
+    "share": 0.23
+   },
+   "sky_ibl": {
+    "picta": "238.9/0.014 greyish sky-blue",
+    "baby": "243.5/0.019 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.3
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "250.1/0.011 grey",
+    "baby": "249.0/0.017 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.02,
+    "share": 0.33
+   },
+   "dome_hor_sun": {
+    "picta": "252.3/0.010 grey",
+    "baby": "246.3/0.017 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.09,
+    "share": 0.33
+   },
+   "dome_zenith": {
+    "picta": "233.9/0.021 greyish sky-blue",
+    "baby": "239.5/0.024 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.33
+   },
+   "fog_far": {
+    "picta": "254.4/0.022 greyish blue",
+    "baby": "253.3/0.025 greyish blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.34
+   },
+   "clouds": {
+    "picta": "254.4/0.022 greyish blue",
+    "baby": "275.7/0.022 greyish blue-violet",
+    "astralite": "  0.0/0.000 grey",
+    "dY_pct": -0.0,
+    "share": null
+   },
+   "sunlight": {
+    "picta": "325.7/0.006 grey",
+    "baby": "304.0/0.024 greyish violet-mauve",
+    "astralite": "255.0/0.042 soft blue",
+    "dY_pct": 0.02,
+    "share": 0.27
+   },
+   "amb_XPlus": {
+    "picta": "254.3/0.016 greyish blue",
+    "baby": "254.3/0.016 greyish blue",
+    "astralite": "254.1/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.0
+   },
+   "amb_ZMinus": {
+    "picta": "253.0/0.015 greyish blue",
+    "baby": "253.4/0.016 greyish blue",
+    "astralite": "254.8/0.022 greyish blue",
+    "dY_pct": 0.04,
+    "share": 0.13
+   },
+   "sky_ibl": {
+    "picta": "239.6/0.016 greyish sky-blue",
+    "baby": "243.3/0.020 greyish sky-blue",
+    "astralite": "251.5/0.030 greyish blue",
+    "dY_pct": -0.02,
+    "share": 0.33
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "280.1/0.007 grey",
+    "baby": "255.5/0.018 greyish blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.07,
+    "share": 0.48
+   },
+   "dome_hor_sun": {
+    "picta": "353.6/0.009 grey",
+    "baby": "266.9/0.014 greyish blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.34,
+    "share": 0.22
+   },
+   "dome_zenith": {
+    "picta": "242.0/0.016 greyish sky-blue",
+    "baby": "248.1/0.023 greyish sky-blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.49
+   },
+   "fog_far": {
+    "picta": "261.3/0.021 greyish blue",
+    "baby": "258.0/0.025 greyish blue",
+    "astralite": "251.8/0.031 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.37
+   },
+   "clouds": {
+    "picta": "261.3/0.021 greyish blue",
+    "baby": "332.4/0.030 greyish magenta-pink",
+    "astralite": " 40.8/0.043 soft coral",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 44.5/0.168 coral",
+    "baby": " 43.9/0.170 coral",
+    "astralite": "254.1/0.043 soft blue",
+    "dY_pct": -0.11,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "264.7/0.019 greyish blue",
+    "baby": "264.7/0.019 greyish blue",
+    "astralite": "251.5/0.019 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.0
+   },
+   "amb_ZMinus": {
+    "picta": "262.6/0.019 greyish blue",
+    "baby": "262.6/0.019 greyish blue",
+    "astralite": "253.4/0.021 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "sky_ibl": {
+    "picta": "249.2/0.012 grey",
+    "baby": "250.4/0.021 greyish blue",
+    "astralite": "251.7/0.030 soft blue",
+    "dY_pct": 0.02,
+    "share": 0.49
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "281.2/0.007 grey",
+    "baby": "255.7/0.019 greyish blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.02,
+    "share": 0.51
+   },
+   "dome_hor_sun": {
+    "picta": "  1.6/0.011 grey",
+    "baby": "272.0/0.014 greyish blue-violet",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.12,
+    "share": 0.66
+   },
+   "dome_zenith": {
+    "picta": "243.9/0.015 greyish sky-blue",
+    "baby": "249.7/0.022 greyish sky-blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.51
+   },
+   "fog_far": {
+    "picta": "262.6/0.020 greyish blue",
+    "baby": "258.9/0.024 greyish blue",
+    "astralite": "252.6/0.031 soft blue",
+    "dY_pct": 0.0,
+    "share": 0.38
+   },
+   "clouds": {
+    "picta": "262.6/0.020 greyish blue",
+    "baby": "337.9/0.033 soft magenta-pink",
+    "astralite": " 39.8/0.038 soft coral",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "sunlight": {
+    "picta": " 39.8/0.154 coral",
+    "baby": " 37.4/0.154 coral",
+    "astralite": "255.7/0.041 soft blue",
+    "dY_pct": -0.1,
+    "share": 0.02
+   },
+   "amb_XPlus": {
+    "picta": "261.9/0.021 greyish blue",
+    "baby": "261.9/0.021 greyish blue",
+    "astralite": "253.1/0.017 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.0
+   },
+   "amb_ZMinus": {
+    "picta": "260.5/0.021 greyish blue",
+    "baby": "260.5/0.021 greyish blue",
+    "astralite": "254.8/0.020 greyish blue",
+    "dY_pct": 0.0,
+    "share": null
+   },
+   "sky_ibl": {
+    "picta": "251.6/0.011 grey",
+    "baby": "251.6/0.021 greyish blue",
+    "astralite": "252.6/0.030 soft blue",
+    "dY_pct": 0.01,
+    "share": 0.51
+   }
+  }
+ },
+ "19FB03": {
+  "7.25": {
+   "dome_hor_away": {
+    "picta": "283.6/0.049 soft blue-violet",
+    "baby": "359.3/0.054 soft rose-pink",
+    "astralite": " 57.8/0.043 soft orange-peach",
+    "dY_pct": 0.01,
+    "share": 0.56
+   },
+   "dome_hor_sun": {
+    "picta": "315.1/0.040 soft magenta-pink",
+    "baby": "  8.6/0.052 soft rose-pink",
+    "astralite": " 58.7/0.023 greyish orange-peach",
+    "dY_pct": -0.01,
+    "share": 0.45
+   },
+   "dome_zenith": {
+    "picta": "261.1/0.067 blue",
+    "baby": "265.6/0.074 blue",
+    "astralite": "267.6/0.075 blue",
+    "dY_pct": 0.01,
+    "share": 0.73
+   },
+   "fog_far": {
+    "picta": "281.5/0.039 soft blue-violet",
+    "baby": "  3.2/0.048 soft rose-pink",
+    "astralite": " 65.1/0.051 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.57
+   },
+   "clouds": {
+    "picta": "281.5/0.039 soft blue-violet",
+    "baby": "355.5/0.053 soft rose-pink",
+    "astralite": " 52.4/0.065 orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "sunlight": {
+    "picta": " 48.3/0.157 coral",
+    "baby": " 48.5/0.156 coral",
+    "astralite": " 85.2/0.053 soft gold",
+    "dY_pct": 0.05,
+    "share": 0.01
+   },
+   "amb_XPlus": {
+    "picta": "276.3/0.043 soft blue-violet",
+    "baby": "283.1/0.030 greyish blue-violet",
+    "astralite": " 18.6/0.005 grey",
+    "dY_pct": 0.28,
+    "share": 0.35
+   },
+   "amb_ZMinus": {
+    "picta": "277.2/0.043 soft blue-violet",
+    "baby": "280.3/0.029 greyish blue-violet",
+    "astralite": "329.1/0.005 grey",
+    "dY_pct": 0.3,
+    "share": 0.37
+   },
+   "sky_ibl": {
+    "picta": "269.0/0.059 soft blue",
+    "baby": "296.9/0.051 soft violet-mauve",
+    "astralite": "267.8/0.079 blue",
+    "dY_pct": 0.01,
+    "share": 0.0
+   }
+  },
+  "7.5": {
+   "dome_hor_away": {
+    "picta": "282.1/0.051 soft blue-violet",
+    "baby": "351.1/0.048 soft rose-pink",
+    "astralite": " 60.2/0.045 soft orange-peach",
+    "dY_pct": 0.04,
+    "share": 0.5
+   },
+   "dome_hor_sun": {
+    "picta": "304.7/0.042 soft violet-mauve",
+    "baby": "359.8/0.047 soft rose-pink",
+    "astralite": " 59.7/0.028 greyish orange-peach",
+    "dY_pct": 0.23,
+    "share": 0.46
+   },
+   "dome_zenith": {
+    "picta": "259.5/0.070 blue",
+    "baby": "264.2/0.076 blue",
+    "astralite": "267.6/0.076 blue",
+    "dY_pct": -0.0,
+    "share": 0.67
+   },
+   "fog_far": {
+    "picta": "278.3/0.041 soft blue-violet",
+    "baby": "353.7/0.040 soft rose-pink",
+    "astralite": " 67.1/0.054 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "278.3/0.041 soft blue-violet",
+    "baby": "348.4/0.046 soft rose-pink",
+    "astralite": " 54.5/0.069 orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 46.5/0.162 coral",
+    "baby": " 46.7/0.161 coral",
+    "astralite": " 86.0/0.057 soft gold",
+    "dY_pct": -0.01,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "281.4/0.037 soft blue-violet",
+    "baby": "293.8/0.023 greyish violet-mauve",
+    "astralite": " 23.8/0.005 grey",
+    "dY_pct": 0.13,
+    "share": 0.46
+   },
+   "amb_ZMinus": {
+    "picta": "282.5/0.038 soft blue-violet",
+    "baby": "290.1/0.022 greyish blue-violet",
+    "astralite": "335.3/0.005 grey",
+    "dY_pct": 0.12,
+    "share": 0.49
+   },
+   "sky_ibl": {
+    "picta": "267.3/0.061 blue",
+    "baby": "291.3/0.052 soft blue-violet",
+    "astralite": "267.9/0.078 blue",
+    "dY_pct": 0.01,
+    "share": 0.0
+   }
+  },
+  "9.0": {
+   "dome_hor_away": {
+    "picta": "264.8/0.067 blue",
+    "baby": "261.2/0.052 soft blue",
+    "astralite": "259.8/0.039 soft blue",
+    "dY_pct": 0.01,
+    "share": 0.55
+   },
+   "dome_hor_sun": {
+    "picta": "266.9/0.058 soft blue",
+    "baby": "261.7/0.045 soft blue",
+    "astralite": "101.7/0.004 grey",
+    "dY_pct": -0.03,
+    "share": 0.25
+   },
+   "dome_zenith": {
+    "picta": "251.0/0.090 blue",
+    "baby": "256.6/0.090 blue",
+    "astralite": "267.8/0.083 blue",
+    "dY_pct": 0.01,
+    "share": 0.31
+   },
+   "fog_far": {
+    "picta": "262.8/0.051 soft blue",
+    "baby": "254.4/0.043 soft blue",
+    "astralite": "257.2/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.52
+   },
+   "clouds": {
+    "picta": "262.8/0.051 soft blue",
+    "baby": "260.0/0.038 soft blue",
+    "astralite": "261.0/0.019 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.42
+   },
+   "sunlight": {
+    "picta": " 71.3/0.027 greyish orange-peach",
+    "baby": " 61.3/0.024 greyish orange-peach",
+    "astralite": " 39.9/0.012 greyish coral",
+    "dY_pct": -0.0,
+    "share": 0.26
+   },
+   "amb_XPlus": {
+    "picta": "260.4/0.043 soft blue",
+    "baby": "265.0/0.038 soft blue",
+    "astralite": "275.7/0.028 greyish blue-violet",
+    "dY_pct": -0.01,
+    "share": 0.31
+   },
+   "amb_ZMinus": {
+    "picta": "260.8/0.043 soft blue",
+    "baby": "267.5/0.038 soft blue",
+    "astralite": "276.1/0.027 greyish blue-violet",
+    "dY_pct": 0.17,
+    "share": 0.35
+   },
+   "sky_ibl": {
+    "picta": "258.0/0.076 blue",
+    "baby": "259.1/0.068 blue",
+    "astralite": "268.5/0.076 blue",
+    "dY_pct": -0.02,
+    "share": 0.08
+   }
+  },
+  "13.0": {
+   "dome_hor_away": {
+    "picta": "262.8/0.075 blue",
+    "baby": "261.4/0.062 blue",
+    "astralite": "252.4/0.027 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.26
+   },
+   "dome_hor_sun": {
+    "picta": "263.1/0.073 blue",
+    "baby": "261.8/0.061 blue",
+    "astralite": "254.0/0.025 greyish blue",
+    "dY_pct": 0.0,
+    "share": 0.26
+   },
+   "dome_zenith": {
+    "picta": "249.6/0.096 sky-blue",
+    "baby": "255.0/0.093 blue",
+    "astralite": "269.0/0.075 blue",
+    "dY_pct": 0.01,
+    "share": 0.24
+   },
+   "fog_far": {
+    "picta": "260.5/0.059 soft blue",
+    "baby": "259.5/0.051 soft blue",
+    "astralite": "257.2/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "clouds": {
+    "picta": "260.5/0.059 soft blue",
+    "baby": "260.6/0.048 soft blue",
+    "astralite": "260.8/0.022 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.3
+   },
+   "sunlight": {
+    "picta": " 62.7/0.011 grey",
+    "baby": " 49.9/0.011 grey",
+    "astralite": " 39.9/0.011 grey",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "amb_XPlus": {
+    "picta": "259.7/0.050 soft blue",
+    "baby": "264.4/0.044 soft blue",
+    "astralite": "275.7/0.028 greyish blue-violet",
+    "dY_pct": 0.05,
+    "share": 0.27
+   },
+   "amb_ZMinus": {
+    "picta": "260.1/0.050 soft blue",
+    "baby": "267.0/0.044 soft blue",
+    "astralite": "276.1/0.027 greyish blue-violet",
+    "dY_pct": 0.2,
+    "share": 0.3
+   },
+   "sky_ibl": {
+    "picta": "257.6/0.082 blue",
+    "baby": "258.8/0.074 blue",
+    "astralite": "270.5/0.065 blue",
+    "dY_pct": 0.01,
+    "share": 0.3
+   }
+  },
+  "17.0": {
+   "dome_hor_away": {
+    "picta": "266.2/0.067 blue",
+    "baby": "262.8/0.055 soft blue",
+    "astralite": "259.8/0.039 soft blue",
+    "dY_pct": -0.01,
+    "share": 0.44
+   },
+   "dome_hor_sun": {
+    "picta": "269.1/0.059 soft blue",
+    "baby": "264.1/0.048 soft blue",
+    "astralite": "101.7/0.004 grey",
+    "dY_pct": -0.03,
+    "share": 0.21
+   },
+   "dome_zenith": {
+    "picta": "251.8/0.091 blue",
+    "baby": "256.7/0.090 blue",
+    "astralite": "267.8/0.083 blue",
+    "dY_pct": 0.0,
+    "share": 0.29
+   },
+   "fog_far": {
+    "picta": "264.7/0.051 soft blue",
+    "baby": "259.1/0.045 soft blue",
+    "astralite": "257.2/0.034 soft blue",
+    "dY_pct": -0.0,
+    "share": 0.41
+   },
+   "clouds": {
+    "picta": "264.7/0.051 soft blue",
+    "baby": "262.4/0.040 soft blue",
+    "astralite": "261.0/0.019 greyish blue",
+    "dY_pct": -0.0,
+    "share": 0.36
+   },
+   "sunlight": {
+    "picta": " 62.9/0.034 soft orange-peach",
+    "baby": " 53.7/0.031 soft orange-peach",
+    "astralite": " 39.9/0.012 greyish coral",
+    "dY_pct": -0.0,
+    "share": 0.21
+   },
+   "amb_XPlus": {
+    "picta": "260.4/0.043 soft blue",
+    "baby": "265.0/0.038 soft blue",
+    "astralite": "275.7/0.028 greyish blue-violet",
+    "dY_pct": -0.01,
+    "share": 0.31
+   },
+   "amb_ZMinus": {
+    "picta": "260.8/0.043 soft blue",
+    "baby": "267.5/0.038 soft blue",
+    "astralite": "276.1/0.027 greyish blue-violet",
+    "dY_pct": 0.17,
+    "share": 0.35
+   },
+   "sky_ibl": {
+    "picta": "259.1/0.076 blue",
+    "baby": "259.9/0.070 blue",
+    "astralite": "268.5/0.076 blue",
+    "dY_pct": -0.03,
+    "share": 0.08
+   }
+  },
+  "18.5": {
+   "dome_hor_away": {
+    "picta": "285.0/0.055 soft blue-violet",
+    "baby": "352.2/0.050 soft rose-pink",
+    "astralite": " 60.1/0.045 soft orange-peach",
+    "dY_pct": 0.04,
+    "share": 0.5
+   },
+   "dome_hor_sun": {
+    "picta": "307.5/0.049 soft violet-mauve",
+    "baby": "359.7/0.050 soft rose-pink",
+    "astralite": " 59.7/0.028 greyish orange-peach",
+    "dY_pct": 0.22,
+    "share": 0.44
+   },
+   "dome_zenith": {
+    "picta": "261.9/0.073 blue",
+    "baby": "265.5/0.077 blue",
+    "astralite": "267.6/0.076 blue",
+    "dY_pct": 0.0,
+    "share": 0.74
+   },
+   "fog_far": {
+    "picta": "282.2/0.044 soft blue-violet",
+    "baby": "355.2/0.042 soft rose-pink",
+    "astralite": " 67.1/0.054 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "clouds": {
+    "picta": "282.2/0.044 soft blue-violet",
+    "baby": "350.0/0.048 soft rose-pink",
+    "astralite": " 54.5/0.069 orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.5
+   },
+   "sunlight": {
+    "picta": " 39.9/0.184 coral",
+    "baby": " 39.9/0.184 coral",
+    "astralite": " 86.0/0.057 soft gold",
+    "dY_pct": -0.01,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "286.2/0.041 soft blue-violet",
+    "baby": "295.4/0.029 greyish violet-mauve",
+    "astralite": "286.0/0.012 grey",
+    "dY_pct": -0.1,
+    "share": 0.41
+   },
+   "amb_ZMinus": {
+    "picta": "285.8/0.041 soft blue-violet",
+    "baby": "295.1/0.025 greyish violet-mauve",
+    "astralite": "335.3/0.005 grey",
+    "dY_pct": 0.05,
+    "share": 0.46
+   },
+   "sky_ibl": {
+    "picta": "270.0/0.064 blue",
+    "baby": "292.9/0.053 soft violet-mauve",
+    "astralite": "267.9/0.078 blue",
+    "dY_pct": 0.01,
+    "share": 0.0
+   }
+  },
+  "18.75": {
+   "dome_hor_away": {
+    "picta": "286.7/0.053 soft blue-violet",
+    "baby": "  0.8/0.056 soft rose-pink",
+    "astralite": " 57.8/0.043 soft orange-peach",
+    "dY_pct": 0.0,
+    "share": 0.56
+   },
+   "dome_hor_sun": {
+    "picta": "316.8/0.048 soft magenta-pink",
+    "baby": "  8.3/0.056 soft rose-pink",
+    "astralite": " 58.7/0.023 greyish orange-peach",
+    "dY_pct": -0.02,
+    "share": 0.43
+   },
+   "dome_zenith": {
+    "picta": "263.8/0.070 blue",
+    "baby": "267.0/0.075 blue",
+    "astralite": "267.6/0.075 blue",
+    "dY_pct": 0.01,
+    "share": 0.92
+   },
+   "fog_far": {
+    "picta": "285.6/0.043 soft blue-violet",
+    "baby": "  4.9/0.049 soft rose-pink",
+    "astralite": " 65.1/0.051 soft orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.57
+   },
+   "clouds": {
+    "picta": "285.6/0.043 soft blue-violet",
+    "baby": "357.3/0.056 soft rose-pink",
+    "astralite": " 52.4/0.065 orange-peach",
+    "dY_pct": -0.0,
+    "share": 0.56
+   },
+   "sunlight": {
+    "picta": " 41.5/0.178 coral",
+    "baby": " 41.7/0.177 coral",
+    "astralite": " 85.2/0.053 soft gold",
+    "dY_pct": 0.06,
+    "share": 0.0
+   },
+   "amb_XPlus": {
+    "picta": "280.4/0.046 soft blue-violet",
+    "baby": "285.7/0.036 soft blue-violet",
+    "astralite": "286.0/0.011 grey",
+    "dY_pct": 0.06,
+    "share": 0.31
+   },
+   "amb_ZMinus": {
+    "picta": "280.1/0.046 soft blue-violet",
+    "baby": "284.4/0.032 soft blue-violet",
+    "astralite": "329.1/0.005 grey",
+    "dY_pct": 0.26,
+    "share": 0.36
+   },
+   "sky_ibl": {
+    "picta": "272.0/0.062 blue",
+    "baby": "298.7/0.052 soft violet-mauve",
+    "astralite": "267.8/0.079 blue",
+    "dY_pct": 0.01,
+    "share": 0.0
+   }
+  }
+ }
+}

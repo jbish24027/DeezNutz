@@ -1,0 +1,10 @@
+== RedguardRobe m: redguardoutfit_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R  18/ 0/  7   sprint L  15/ 0/  4   walk R   9/ 0/  4   walk L   9/ 0/  4
+   curled in (limit)      sprint R  12/ 0/ 13   sprint L  11/ 0/ 20   walk R  12/ 0/  8   walk L  11/ 0/ 14
+   swung back .3/.15      sprint R   0/ 0/  0   sprint L   0/ 0/  0   walk R   0/ 0/  0   walk L   0/ 0/  0
+   swung forward .3/.15   sprint R  13/ 0/ 23   sprint L  10/ 0/ 26   walk R  13/ 0/ 19   walk L  14/ 0/ 18
+   swung sideways .3/.15  sprint R  12/ 0/ 18   sprint L   5/ 0/  1   walk R   6/ 0/ 10   walk L   2/ 0/  0
+   total caught/hooked/sunk 172/0/189; lining pts Back 128, Side 9
+
+EXIT 0

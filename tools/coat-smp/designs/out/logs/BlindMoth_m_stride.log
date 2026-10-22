@@ -1,0 +1,10 @@
+== BlindMoth m: blindmothpriestrobesm_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 104/ 4/128   sprint L  76/ 0/ 70   walk R 113/ 3/ 27   walk L  75/ 0/ 20
+   curled in (limit)      sprint R  77/ 4/ 43   sprint L 124/ 2/159   walk R  97/ 3/ 64   walk L 108/ 3/136
+   swung back .3/.15      sprint R  51/ 3/ 26   sprint L  52/ 6/ 28   walk R  57/ 2/ 27   walk L  54/10/ 20
+   swung forward .3/.15   sprint R  83/ 3/ 77   sprint L  62/ 0/ 67   walk R  65/ 0/ 35   walk L  59/ 0/ 24
+   swung sideways .3/.15  sprint R  50/ 1/ 64   sprint L  55/ 0/ 47   walk R  54/ 0/ 26   walk L  63/ 0/ 40
+   total caught/hooked/sunk 1479/44/1128; lining pts Front 211, Back 316, Side 408
+
+EXIT 0

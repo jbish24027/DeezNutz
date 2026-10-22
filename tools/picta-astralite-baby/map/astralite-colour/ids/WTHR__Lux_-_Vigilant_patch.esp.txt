@@ -1,0 +1,4 @@
+067BB2:Vigilant.esm
+4C07A0:Vigilant.esm
+0701D2:Vigilant.esm
+4BF5AA:Vigilant.esm

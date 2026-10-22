@@ -1,0 +1,206 @@
+﻿functions: 5641  rip-refs: 13420  calls: 27240
+heal fmt string RVAs: ['180358']
+lambda body function(s): ['9CC30-9CF8D']
+  direct call to lambda at 9F57F in 9F340-9F5C8
+HealExcludedWeapon candidate(s): ['9F340-9F5C8']
+ServiceFollower candidate(s): ['A0440-A32B9']
+CALL SITE: A0547  call 0x9f340   -> HealExcludedWeapon 9F340   (file off 9F947)
+   bytes: e8f4edffff
+
+===== HealExcludedWeapon 9F340-9F5C8 (648 bytes, file off 9E740) =====
+9F340  48895c2408             mov    qword ptr [rsp + 8], rbx
+9F345  48896c2418             mov    qword ptr [rsp + 0x18], rbp
+9F34A  56                     push   rsi
+9F34B  57                     push   rdi
+9F34C  4154                   push   r12
+9F34E  4156                   push   r14
+9F350  4157                   push   r15
+9F352  4883ec70               sub    rsp, 0x70
+9F356  4c8bf9                 mov    r15, rcx
+9F359  e812e30400             call   0xed670    ; -> ED670 [fn ED670-ED69D]
+9F35E  4885c0                 test   rax, rax
+9F361  0f841d020000           je     0x9f584
+9F367  33db                   xor    ebx, ebx
+9F369  0f1f8000000000         nop    dword ptr [rax]
+9F370  83fb01                 cmp    ebx, 1
+9F373  0f94c2                 sete   dl
+9F376  498bcf                 mov    rcx, r15
+9F379  e8929d0400             call   0xe9110    ; -> E9110 [fn E9110-E9147]
+9F37E  488bf0                 mov    rsi, rax
+9F381  4885c0                 test   rax, rax
+9F384  7427                   je     0x9f3ad
+9F386  33c0                   xor    eax, eax
+9F388  807e1a29               cmp    byte ptr [rsi + 0x1a], 0x29
+9F38C  480f45f0               cmovne rsi, rax
+9F390  4885f6                 test   rsi, rsi
+9F393  7418                   je     0x9f3ad
+9F395  8b4e14                 mov    ecx, dword ptr [rsi + 0x14]
+9F398  e8e3ac0300             call   0xda080    ; -> DA080
+9F39D  84c0                   test   al, al
+9F39F  7518                   jne    0x9f3b9
+9F3A1  488bce                 mov    rcx, rsi
+9F3A4  e877390100             call   0xb2d20    ; -> B2D20 [fn B2D20-B2D49]
+9F3A9  84c0                   test   al, al
+9F3AB  750c                   jne    0x9f3b9
+9F3AD  ffc3                   inc    ebx
+9F3AF  83fb02                 cmp    ebx, 2
+9F3B2  7cbc                   jl     0x9f370
+9F3B4  e9cb010000             jmp    0x9f584    ; -> 9F584 [fn 9F340-9F5C8]
+9F3B9  4533f6                 xor    r14d, r14d
+9F3BC  33ed                   xor    ebp, ebp
+9F3BE  488d542420             lea    rdx, [rsp + 0x20]
+9F3C3  498bcf                 mov    rcx, r15
+9F3C6  e8e58e0400             call   0xe82b0    ; -> E82B0 [fn E82B0-E82E5]
+9F3CB  90                     nop    
+9F3CC  488b18                 mov    rbx, qword ptr [rax]
+9F3CF  488b1b                 mov    rbx, qword ptr [rbx]
+9F3D2  40386b19               cmp    byte ptr [rbx + 0x19], bpl
+9F3D6  0f85ce000000           jne    0x9f4aa
+9F3DC  4c8d251d0cf6ff         lea    r12, [rip - 0x9f3e3]
+9F3E3  488b7b20               mov    rdi, qword ptr [rbx + 0x20]
+9F3E7  4885ff                 test   rdi, rdi
+9F3EA  746e                   je     0x9f45a
+9F3EC  837b2800               cmp    dword ptr [rbx + 0x28], 0
+9F3F0  7e68                   jle    0x9f45a
+9F3F2  807f1a29               cmp    byte ptr [rdi + 0x1a], 0x29
+9F3F6  7562                   jne    0x9f45a
+9F3F8  8b4f14                 mov    ecx, dword ptr [rdi + 0x14]
+9F3FB  e880ac0300             call   0xda080    ; -> DA080
+9F400  84c0                   test   al, al
+9F402  7556                   jne    0x9f45a
+9F404  488bcf                 mov    rcx, rdi
+9F407  e814390100             call   0xb2d20    ; -> B2D20 [fn B2D20-B2D49]
+9F40C  84c0                   test   al, al
+9F40E  754a                   jne    0x9f45a
+9F410  488bcf                 mov    rcx, rdi
+9F413  e8d8dc0400             call   0xed0f0    ; -> ED0F0
+9F418  83f809                 cmp    eax, 9
+9F41B  770f                   ja     0x9f42c
+9F41D  8bc0                   mov    eax, eax
+9F41F  418b8c84a0f50900       mov    ecx, dword ptr [r12 + rax*4 + 0x9f5a0]
+9F427  4903cc                 add    rcx, r12
+9F42A  ffe1                   jmp    rcx
+9F42C  488b87c0000000         mov    rax, qword ptr [rdi + 0xc0]
+9F433  488d8fc0000000         lea    rcx, [rdi + 0xc0]
+9F43A  ff5020                 call   qword ptr [rax + 0x20]
+9F43D  663bc5                 cmp    ax, bp
+9F440  7618                   jbe    0x9f45a
+9F442  488b87c0000000         mov    rax, qword ptr [rdi + 0xc0]
+9F449  488d8fc0000000         lea    rcx, [rdi + 0xc0]
+9F450  ff5020                 call   qword ptr [rax + 0x20]
+9F453  0fb7e8                 movzx  ebp, ax
+9F456  4c8b7320               mov    r14, qword ptr [rbx + 0x20]
+9F45A  488b4b10               mov    rcx, qword ptr [rbx + 0x10]
+9F45E  80791900               cmp    byte ptr [rcx + 0x19], 0
+9F462  7424                   je     0x9f488
+9F464  488b4b08               mov    rcx, qword ptr [rbx + 8]
+9F468  80791900               cmp    byte ptr [rcx + 0x19], 0
+9F46C  7515                   jne    0x9f483
+9F46E  6690                   nop    
+9F470  483b5910               cmp    rbx, qword ptr [rcx + 0x10]
+9F474  750d                   jne    0x9f483
+9F476  488bd9                 mov    rbx, rcx
+9F479  488b4908               mov    rcx, qword ptr [rcx + 8]
+9F47D  80791900               cmp    byte ptr [rcx + 0x19], 0
+9F481  74ed                   je     0x9f470
+9F483  488bd9                 mov    rbx, rcx
+9F486  eb18                   jmp    0x9f4a0    ; -> 9F4A0 [fn 9F340-9F5C8]
+9F488  488bd9                 mov    rbx, rcx
+9F48B  488b01                 mov    rax, qword ptr [rcx]
+9F48E  80781900               cmp    byte ptr [rax + 0x19], 0
+9F492  750c                   jne    0x9f4a0
+9F494  488b1b                 mov    rbx, qword ptr [rbx]
+9F497  488b03                 mov    rax, qword ptr [rbx]
+9F49A  80781900               cmp    byte ptr [rax + 0x19], 0
+9F49E  74f4                   je     0x9f494
+9F4A0  807b1900               cmp    byte ptr [rbx + 0x19], 0
+9F4A4  0f8439ffffff           je     0x9f3e3
+9F4AA  488b4c2420             mov    rcx, qword ptr [rsp + 0x20]
+9F4AF  488b5908               mov    rbx, qword ptr [rcx + 8]
+9F4B3  807b1900               cmp    byte ptr [rbx + 0x19], 0
+9F4B7  7553                   jne    0x9f50c
+9F4B9  0f1f8000000000         nop    dword ptr [rax]
+9F4C0  4c8b4310               mov    r8, qword ptr [rbx + 0x10]
+9F4C4  488d542420             lea    rdx, [rsp + 0x20]
+9F4C9  488d4c2420             lea    rcx, [rsp + 0x20]
+9F4CE  e84de8faff             call   0x4dd20    ; -> 4DD20 [fn 4DD20-4DE3D]
+9F4D3  488beb                 mov    rbp, rbx
+9F4D6  488b7b30               mov    rdi, qword ptr [rbx + 0x30]
+9F4DA  488b1b                 mov    rbx, qword ptr [rbx]
+9F4DD  4885ff                 test   rdi, rdi
+9F4E0  7412                   je     0x9f4f4
+9F4E2  488bcf                 mov    rcx, rdi
+9F4E5  e826cd0400             call   0xec210    ; -> EC210 [fn EC210-EC25E]
+9F4EA  90                     nop    
+9F4EB  488bcf                 mov    rcx, rdi
+9F4EE  e85d70faff             call   0x46550    ; -> 46550 [fn 46550-4660D]
+9F4F3  90                     nop    
+9F4F4  ba38000000             mov    edx, 0x38
+9F4F9  488bcd                 mov    rcx, rbp
+9F4FC  e8cfaa0b00             call   0x159fd0    ; -> 159FD0
+9F501  807b1900               cmp    byte ptr [rbx + 0x19], 0
+9F505  74b9                   je     0x9f4c0
+9F507  488b4c2420             mov    rcx, qword ptr [rsp + 0x20]
+9F50C  ba38000000             mov    edx, 0x38
+9F511  e8baaa0b00             call   0x159fd0    ; -> 159FD0
+9F516  488bce                 mov    rcx, rsi
+9F519  e802380100             call   0xb2d20    ; -> B2D20 [fn B2D20-B2D49]
+9F51E  0fb6d0                 movzx  edx, al
+9F521  418b4714               mov    eax, dword ptr [r15 + 0x14]
+9F525  4d85f6                 test   r14, r14
+9F528  7406                   je     0x9f530
+9F52A  418b4e14               mov    ecx, dword ptr [r14 + 0x14]
+9F52E  eb02                   jmp    0x9f532    ; -> 9F532 [fn 9F340-9F5C8]
+9F530  33c9                   xor    ecx, ecx
+9F532  89442420               mov    dword ptr [rsp + 0x20], eax
+9F536  894c2424               mov    dword ptr [rsp + 0x24], ecx
+9F53A  8b4614                 mov    eax, dword ptr [rsi + 0x14]
+9F53D  89442428               mov    dword ptr [rsp + 0x28], eax
+9F541  8854242c               mov    byte ptr [rsp + 0x2c], dl
+9F545  e816430200             call   0xc3860    ; -> C3860
+9F54A  84c0                   test   al, al
+9F54C  742c                   je     0x9f57a
+9F54E  488d059b170e00         lea    rax, [rip + 0xe179b]    ; [180CF0]
+9F555  4889442430             mov    qword ptr [rsp + 0x30], rax
+9F55A  0f10442420             movups xmm0, xmmword ptr [rsp + 0x20]
+9F55F  0f11442438             movups xmmword ptr [rsp + 0x38], xmm0
+9F564  488d442430             lea    rax, [rsp + 0x30]
+9F569  4889442468             mov    qword ptr [rsp + 0x68], rax
+9F56E  488d4c2430             lea    rcx, [rsp + 0x30]
+9F573  e808430200             call   0xc3880    ; -> C3880 [fn C3880-C39D0]
+9F578  eb0a                   jmp    0x9f584    ; -> 9F584 [fn 9F340-9F5C8]
+9F57A  488d4c2420             lea    rcx, [rsp + 0x20]
+9F57F  e8acd6ffff             call   0x9cc30    ; -> 9CC30 [fn 9CC30-9CF8D]
+9F584  4c8d5c2470             lea    r11, [rsp + 0x70]
+9F589  498b5b30               mov    rbx, qword ptr [r11 + 0x30]
+9F58D  498b6b40               mov    rbp, qword ptr [r11 + 0x40]
+9F591  498be3                 mov    rsp, r11
+9F594  415f                   pop    r15
+9F596  415e                   pop    r14
+9F598  415c                   pop    r12
+9F59A  5f                     pop    rdi
+9F59B  5e                     pop    rsi
+9F59C  c3                     ret    
+9F59D  0f1f00                 nop    dword ptr [rax]
+9F5A0  5a                     pop    rdx
+9F5A1  f4                     hlt    
+9F5A2  0900                   or     dword ptr [rax], eax
+9F5A4  2cf4                   sub    al, 0xf4
+9F5A6  0900                   or     dword ptr [rax], eax
+9F5A8  2cf4                   sub    al, 0xf4
+9F5AA  0900                   or     dword ptr [rax], eax
+9F5AC  2cf4                   sub    al, 0xf4
+9F5AE  0900                   or     dword ptr [rax], eax
+9F5B0  2cf4                   sub    al, 0xf4
+9F5B2  0900                   or     dword ptr [rax], eax
+9F5B4  2cf4                   sub    al, 0xf4
+9F5B6  0900                   or     dword ptr [rax], eax
+9F5B8  2cf4                   sub    al, 0xf4
+9F5BA  0900                   or     dword ptr [rax], eax
+9F5BC  2cf4                   sub    al, 0xf4
+9F5BE  0900                   or     dword ptr [rax], eax
+9F5C0  5a                     pop    rdx
+9F5C1  f4                     hlt    
+9F5C2  0900                   or     dword ptr [rax], eax
+9F5C4  2cf4                   sub    al, 0xf4
+9F5C6  0900                   or     dword ptr [rax], eax

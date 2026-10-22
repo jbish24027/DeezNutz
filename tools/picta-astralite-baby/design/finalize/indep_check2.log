@@ -1,0 +1,103 @@
+== mid+sunA: night max abs diff 0
+   vl_keylight_x_filter   +2183.21%  @10.00  19FD06
+   amb_ZMinus               +0.61%  @18.75  19FC01
+   amb_XMinus               +0.59%  @ 7.25  19FC01
+   amb_ZPlus                +0.59%  @ 7.25  19FC01
+   amb_XPlus                +0.59%  @ 7.25  19FC01
+   scat_sunward             -0.59%  @10.00  19FA03
+   amb_YPlus                -0.54%  @17.50  19FC04
+   amb_YMinus               -0.54%  @17.50  19FC04
+   sunlight                 -0.45%  @18.50  19FE01
+   cloud_base               +0.32%  @ 7.25  19FD01
+   cloud_sunlit             +0.31%  @ 9.50  19FA03
+   fog_near                 -0.14%  @ 9.00  5AFA01
+   fog_far                  +0.10%  @17.75  5AFA01
+   dome_hor_sun             -0.06%  @ 7.50  19FB01
+   dome_mid_sun             -0.05%  @17.00  5AFA01
+   band_hor                 +0.04%  @ 9.00  19FA01
+   dome_hor_away            +0.04%  @18.00  19FC03
+   band_top                 +0.03%  @17.75  19FC04
+   dome_zenith              +0.03%  @17.75  19FC04
+   dome_mid_away            +0.03%  @17.75  19FC04
+   19FA01  5.50 cloudlit share P 0.580 B 0.580 | GVR range P 1.000 B 1.000 | VLkey x filter Y ratio 1.000
+   19FA01  6.00 cloudlit share P 0.690 B 0.690 | GVR range P 1.000 B 1.000 | VLkey x filter Y ratio 1.051
+   19FA01  6.50 cloudlit share P 0.717 B 0.717 | GVR range P 1.000 B 1.000 | VLkey x filter Y ratio 1.009
+   19FA01  7.00 cloudlit share P 0.723 B 0.722 | GVR range P 1.000 B 1.000 | VLkey x filter Y ratio 0.901
+   19FA01  7.50 cloudlit share P 0.718 B 0.717 | GVR range P 1.143 B 1.143 | VLkey x filter Y ratio 1.068
+   19FA01 13.00 cloudlit share P 0.792 B 0.792 | GVR range P 0.357 B 0.357 | VLkey x filter Y ratio 2.152
+   19FA01 18.50 cloudlit share P 0.700 B 0.699 | GVR range P 0.571 B 0.571 | VLkey x filter Y ratio 0.922
+   19FA01 19.50 cloudlit share P 0.708 B 0.708 | GVR range P 0.714 B 0.714 | VLkey x filter Y ratio 0.983
+   19FA01 20.00 cloudlit share P 0.688 B 0.688 | GVR range P 0.857 B 0.857 | VLkey x filter Y ratio 1.052
+   19FA01 20.25 cloudlit share P 0.647 B 0.647 | GVR range P 0.929 B 0.929 | VLkey x filter Y ratio 1.027
+   19FC01  5.50 cloudlit share P 0.512 B 0.512 | GVR range P 1.500 B 1.500 | VLkey x filter Y ratio 1.000
+   19FC01  6.00 cloudlit share P 0.650 B 0.650 | GVR range P 1.500 B 1.500 | VLkey x filter Y ratio 1.100
+   19FC01  6.50 cloudlit share P 0.698 B 0.698 | GVR range P 1.500 B 1.500 | VLkey x filter Y ratio 1.153
+   19FC01  7.00 cloudlit share P 0.721 B 0.721 | GVR range P 1.500 B 1.500 | VLkey x filter Y ratio 1.265
+   19FC01  7.50 cloudlit share P 0.721 B 0.720 | GVR range P 1.643 B 1.643 | VLkey x filter Y ratio 2.347
+   19FC01 13.00 cloudlit share P 0.746 B 0.746 | GVR range P 0.857 B 0.857 | VLkey x filter Y ratio 3.161
+   19FC01 18.50 cloudlit share P 0.700 B 0.699 | GVR range P 1.071 B 1.071 | VLkey x filter Y ratio 1.870
+   19FC01 19.50 cloudlit share P 0.685 B 0.686 | GVR range P 1.214 B 1.214 | VLkey x filter Y ratio 1.062
+   19FC01 20.00 cloudlit share P 0.646 B 0.646 | GVR range P 1.357 B 1.357 | VLkey x filter Y ratio 1.078
+   19FC01 20.25 cloudlit share P 0.592 B 0.592 | GVR range P 1.429 B 1.429 | VLkey x filter Y ratio 1.038
+   19FD03  5.50 cloudlit share P 0.473 B 0.473 | GVR range P 6.250 B 6.250 | VLkey x filter Y ratio 1.000
+   19FD03  6.00 cloudlit share P 0.607 B 0.607 | GVR range P 6.250 B 6.250 | VLkey x filter Y ratio 1.026
+   19FD03  6.50 cloudlit share P 0.645 B 0.645 | GVR range P 6.250 B 6.250 | VLkey x filter Y ratio 1.028
+   19FD03  7.00 cloudlit share P 0.654 B 0.654 | GVR range P 6.250 B 6.250 | VLkey x filter Y ratio 1.028
+   19FD03  7.50 cloudlit share P 0.644 B 0.643 | GVR range P 6.393 B 6.393 | VLkey x filter Y ratio 3.471
+   19FD03 13.00 cloudlit share P 0.676 B 0.676 | GVR range P 5.607 B 5.607 | VLkey x filter Y ratio 15.293
+   19FD03 18.50 cloudlit share P 0.617 B 0.616 | GVR range P 5.821 B 5.821 | VLkey x filter Y ratio 3.332
+   19FD03 19.50 cloudlit share P 0.630 B 0.630 | GVR range P 5.964 B 5.964 | VLkey x filter Y ratio 1.091
+   19FD03 20.00 cloudlit share P 0.602 B 0.602 | GVR range P 6.107 B 6.107 | VLkey x filter Y ratio 1.053
+   19FD03 20.25 cloudlit share P 0.550 B 0.550 | GVR range P 6.179 B 6.179 | VLkey x filter Y ratio 1.024
+   19FE05  5.50 cloudlit share P 0.398 B 0.398 | GVR range P 9.250 B 9.250 | VLkey x filter Y ratio 1.000
+   19FE05  6.00 cloudlit share P 0.532 B 0.532 | GVR range P 9.250 B 9.250 | VLkey x filter Y ratio 1.063
+   19FE05  6.50 cloudlit share P 0.576 B 0.576 | GVR range P 9.250 B 9.250 | VLkey x filter Y ratio 1.167
+   19FE05  7.00 cloudlit share P 0.589 B 0.588 | GVR range P 9.250 B 9.250 | VLkey x filter Y ratio 1.475
+   19FE05  7.50 cloudlit share P 0.582 B 0.581 | GVR range P 9.393 B 9.393 | VLkey x filter Y ratio 4.952
+   19FE05 13.00 cloudlit share P 0.628 B 0.628 | GVR range P 8.607 B 8.607 | VLkey x filter Y ratio 12.905
+   19FE05 18.50 cloudlit share P 0.546 B 0.546 | GVR range P 8.821 B 8.821 | VLkey x filter Y ratio 4.620
+   19FE05 19.50 cloudlit share P 0.558 B 0.558 | GVR range P 8.964 B 8.964 | VLkey x filter Y ratio 1.168
+   19FE05 20.00 cloudlit share P 0.525 B 0.526 | GVR range P 9.107 B 9.107 | VLkey x filter Y ratio 1.069
+   19FE05 20.25 cloudlit share P 0.473 B 0.473 | GVR range P 9.179 B 9.179 | VLkey x filter Y ratio 1.030
+== plateau+sunA: night max abs diff 0
+   vl_keylight_x_filter   +2183.21%  @10.00  19FD06
+   amb_XPlus                -0.95%  @18.00  19FC04
+   amb_XMinus               -0.95%  @18.00  19FC04
+   amb_YPlus                -0.95%  @18.00  19FC04
+   amb_YMinus               -0.95%  @18.00  19FC04
+   amb_ZMinus               -0.78%  @18.00  19FC04
+   amb_ZPlus                -0.76%  @18.00  19FC04
+   scat_sunward             -0.59%  @10.00  19FA03
+   sunlight                 -0.55%  @18.00  19FD03
+   cloud_sunlit             -0.32%  @18.75  19FA01
+   cloud_base               +0.32%  @ 7.25  19FD01
+   fog_near                 -0.14%  @ 9.00  5AFA01
+   dome_hor_sun             -0.09%  @18.75  19FC01
+   fog_far                  -0.08%  @ 9.00  5AFA01
+   dome_mid_sun             -0.05%  @17.00  5AFA01
+   band_hor                 +0.04%  @ 9.00  19FA01
+   dome_hor_away            +0.04%  @17.75  19FC03
+   band_top                 +0.03%  @17.75  19FC04
+   dome_zenith              +0.03%  @17.75  19FC04
+   dome_mid_away            +0.03%  @17.75  19FC04
+== mid+sunB: night max abs diff 0
+   vl_keylight_x_filter   +2183.21%  @10.00  19FD06
+   cloud_sunlit             +0.95%  @20.00  19FA01
+   scat_sunward             +0.73%  @20.00  19FC01
+   amb_ZMinus               +0.61%  @18.75  19FC01
+   amb_XMinus               +0.59%  @ 7.25  19FC01
+   amb_ZPlus                +0.59%  @ 7.25  19FC01
+   amb_XPlus                +0.59%  @ 7.25  19FC01
+   amb_YPlus                -0.54%  @17.50  19FC04
+   amb_YMinus               -0.54%  @17.50  19FC04
+   sunlight                 -0.45%  @18.50  19FE01
+   cloud_base               +0.32%  @ 7.25  19FD01
+   dome_hor_sun             +0.28%  @20.00  19FA01
+   fog_near                 -0.14%  @ 9.00  5AFA01
+   dome_hor_away            +0.11%  @ 6.00  19FA01
+   fog_far                  +0.10%  @17.75  5AFA01
+   dome_mid_sun             +0.06%  @ 6.75  5AFA01
+   band_hor                 +0.04%  @ 9.00  19FA01
+   band_top                 +0.03%  @17.75  19FC04
+   dome_zenith              +0.03%  @17.75  19FC04
+   dome_mid_away            +0.03%  @17.75  19FC04

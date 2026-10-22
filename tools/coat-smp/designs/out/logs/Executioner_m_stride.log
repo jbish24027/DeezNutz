@@ -1,0 +1,10 @@
+== Executioner m: body_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R  71/ 2/ 29   sprint L  50/ 0/ 34   walk R  44/ 4/  7   walk L  33/ 0/ 15
+   curled in (limit)      sprint R  59/ 2/ 67   sprint L  53/ 2/ 84   walk R  76/ 1/ 75   walk L  57/ 1/ 69
+   swung back .3/.15      sprint R  18/ 2/ 32   sprint L  42/ 1/ 33   walk R  55/ 3/ 17   walk L  49/ 6/ 27
+   swung forward .3/.15   sprint R  52/ 0/ 30   sprint L  39/ 0/ 39   walk R  49/ 0/ 11   walk L  23/ 0/  5
+   swung sideways .3/.15  sprint R  27/ 0/ 28   sprint L  63/ 1/ 25   walk R  23/ 0/  9   walk L  31/ 0/  3
+   total caught/hooked/sunk 914/25/639; lining pts Front 112, Back 154, Side 213
+
+EXIT 0

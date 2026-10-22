@@ -1,0 +1,17 @@
+== Wench m _1: wenchoutfitm_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 103, Skirt Side 295, Skirt Back 290
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      1011     420       0        0     591   worst frame unseen 55
+      Skirt Side           entered   763 hooked    0 unseen  493  unseen z p10 49.5 p50 51.4 p90 57.8
+      Skirt Back           entered    56 hooked    0 unseen   56  unseen z p10 60.0 p50 60.8 p90 61.0
+      Skirt Front          entered   192 hooked    0 unseen   42  unseen z p10 49.5 p50 49.8 p90 55.6
+   run          10       381     146       0        0     235   worst frame unseen 50
+      Skirt Side           entered   259 hooked    0 unseen  147  unseen z p10 49.8 p50 54.2 p90 58.7
+      Skirt Back           entered    37 hooked    0 unseen   37  unseen z p10 53.9 p50 60.0 p90 61.0
+      Skirt Front          entered    85 hooked    0 unseen   51  unseen z p10 49.5 p50 49.7 p90 54.1
+   sprint       10       425     101      11        0     313   worst frame unseen 71
+      Skirt Side           entered   178 hooked    8 unseen  107  unseen z p10 50.7 p50 54.3 p90 58.0
+      Skirt Back           entered   170 hooked    3 unseen  143  unseen z p10 49.8 p50 52.5 p90 60.2
+      Skirt Front          entered    77 hooked    0 unseen   63  unseen z p10 49.4 p50 49.7 p90 54.1
+SUMMARY clips worst unseen/frame: 71
+
+EXIT 0

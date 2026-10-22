@@ -1,0 +1,506 @@
+{
+ "winner": {
+  "enbseries/enbadaptation.fx.ini": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/enbantialiasing.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbbloom.fx.ini": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/enbdepthoffield.fx.disabled-20260819": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbdepthoffield.fx.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbeffect.fx.ini": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/enbeffect.fx.ini.bak-flora-pullback-20260817": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbeffectpostpass.fx.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbfxcompiler.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enblut.fxh": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbpresetoverlays.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbraindrops.dds": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/enbunderwaternoise.bmp": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/ominous.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/otherworld.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulash.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulash2.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulashstorm.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulclear.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulclear_a.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulcloudy.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulcloudy_a.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulfog.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulfogovercast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/souljawzrain.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulovercast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulovercastsnow.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulrainstorm.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulsnowstorm.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulwyrmstoothclear.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulwyrmstoothfog.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/soulwyrmstoothstorm.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/ssecdementia.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/ssecmania.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/_weatherlist.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/include/shared/globals.fxh": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/include/shared/reforgedui.fxh": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kisu/textures/smaaareatexdx10.dds": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kisu/textures/smaasearchtex.dds": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/preset.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/presetinfo.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ccbgs_ayleid.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_coldstone.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_dream.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ether.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_glacial.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_heat.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_hellish.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltapocrypha.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltapocryphadark.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltazura.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltblackreach.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltbright.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltclear.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcold.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldclear.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldobscure.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldobscure_icecaves.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldobscure_mines.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcold_icecaves.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcold_mines.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdefault.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterloweast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterlownorth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterlowsouth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterlowwest.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdunmernaturaldark.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemercolddark.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemercoldlight.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemercoldobscure.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemernaturalbright.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemernaturaldark.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltfoggy.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterloweast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterlownorth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterlowsouth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterlowwest.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightloweast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightlownorth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightlowsouth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightlowwest.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarkloweast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarklownorth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarklowsouth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarklowwest.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthouselownaturaldim.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthouselownaturalsouth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinseast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinshigh.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinshighcold.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinslow.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinslownatural.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinslowwestnatural.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinsnorthnatural.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_dwemer.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_forts.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_icecaves.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_mines.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_ruins.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarkloweast.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarklownorth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarklowsouth.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarklowwest.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltspooky.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltwarm.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltwarmclear.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltwarmobscure.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_nature.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_root.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_submerged.ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/kreate/soul core/lightingtemplates/lux_sulfur .ini": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/textures/enbraindrops.dds": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/textures/firelut.png": "[NoDelete] Soul Core ENB - Data",
+  "enbseries/textures/underwaternoise.png": "[NoDelete] Soul Core ENB - Data",
+  "enbseries.ini": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/enbadaptation.fx": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/enbbloom.fx": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/enbeffect.fx": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/natenb_atmospheric.png": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/natenb_badinstall.png": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/natenb_nat.png": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/natenb_natural.png": "Authoria - Effects 11 Core - NAT (plain)",
+  "enbseries/natenb_nighteye.png": "Authoria - Effects 11 Core - NAT (plain)"
+ },
+ "providers": {
+  "enbseries/enbadaptation.fx.ini": [
+   "[NoDelete] Soul Core ENB - Data",
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/enbantialiasing.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbbloom.fx.ini": [
+   "[NoDelete] Soul Core ENB - Data",
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/enbdepthoffield.fx.disabled-20260819": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbdepthoffield.fx.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbeffect.fx.ini": [
+   "[NoDelete] Soul Core ENB - Data",
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/enbeffect.fx.ini.bak-flora-pullback-20260817": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbeffectpostpass.fx.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbfxcompiler.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enblut.fxh": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbpresetoverlays.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbraindrops.dds": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/enbunderwaternoise.bmp": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/ominous.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/otherworld.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulash.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulash2.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulashstorm.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulclear.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulclear_a.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulcloudy.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulcloudy_a.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulfog.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulfogovercast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/souljawzrain.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulovercast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulovercastsnow.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulrainstorm.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulsnowstorm.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulwyrmstoothclear.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulwyrmstoothfog.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/soulwyrmstoothstorm.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/ssecdementia.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/ssecmania.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/_weatherlist.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/include/shared/globals.fxh": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/include/shared/reforgedui.fxh": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kisu/textures/smaaareatexdx10.dds": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kisu/textures/smaasearchtex.dds": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/preset.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/presetinfo.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ccbgs_ayleid.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_coldstone.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_dream.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ether.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_glacial.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_heat.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_hellish.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltapocrypha.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltapocryphadark.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltazura.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltblackreach.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltbright.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltclear.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcold.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldclear.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldobscure.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldobscure_icecaves.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcoldobscure_mines.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcold_icecaves.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltcold_mines.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdefault.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterloweast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterlownorth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterlowsouth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdungeonbrighterlowwest.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdunmernaturaldark.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemercolddark.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemercoldlight.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemercoldobscure.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemernaturalbright.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltdwemernaturaldark.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltfoggy.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterloweast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterlownorth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterlowsouth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrighterlowwest.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightloweast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightlownorth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightlowsouth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousebrightlowwest.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarkloweast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarklownorth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarklowsouth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthousedarklowwest.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthouselownaturaldim.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_lthouselownaturalsouth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinseast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinshigh.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinshighcold.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinslow.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinslownatural.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinslowwestnatural.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltnordicruinsnorthnatural.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_dwemer.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_forts.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_icecaves.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_mines.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltobscure_ruins.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarkloweast.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarklownorth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarklowsouth.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltruinsdarklowwest.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltspooky.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltwarm.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltwarmclear.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_ltwarmobscure.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_nature.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_root.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_submerged.ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/kreate/soul core/lightingtemplates/lux_sulfur .ini": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/textures/enbraindrops.dds": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/textures/firelut.png": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries/textures/underwaternoise.png": [
+   "[NoDelete] Soul Core ENB - Data"
+  ],
+  "enbseries.ini": [
+   "[NoDelete] Soul Core ENB - Data",
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/enbadaptation.fx": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/enbbloom.fx": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/enbeffect.fx": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/natenb_atmospheric.png": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/natenb_badinstall.png": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/natenb_nat.png": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/natenb_natural.png": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ],
+  "enbseries/natenb_nighteye.png": [
+   "Authoria - Effects 11 Core - NAT (plain)"
+  ]
+ }
+}

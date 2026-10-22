@@ -1,0 +1,164 @@
+{
+ "lens": "astralite-colour",
+ "summary": "ASTRALITE COLOUR ANATOMY, PBR lane (profile DEEZ CS NUTZ - PBR, read from its plugins.txt/loadorder.txt/modlist.txt. Records come from houseCARL with source pinned per plugin. Winners were resolved by my own structural scan of record headers in PBR order.)\n1) Chain of plugins that set colour. Line numbers are plugins.txt lines (header = line 1).\n NAT-ENB.esp L1120 (its 24 own weathers are dead).\n Mists of Tamriel.esp L1251 (19 cloudy/fog overrides, all overridden later).\n Astralite Weathers.esp L1252 (ESL FE47B, base authoring: 90 WTHR, 18 VOLI, 17 IMGS).\n Astralite ENB.esp L1253 (Soul Core, ESL FE47C, 98 WTHR of which 14 are new; masters Astralite Weathers + Mists of Tamriel).\n SWF-Astralite L1254 (35 REGN). Wyrmstooth-Astralite L1255. Astralite ENB - ECSS L1256 (ECSS realms only).\n Helios_Astralite L3250 / _Seasonal L3252 (interior twins and regions only).\n Gray Cowl-Astralite L3763. Snowy Holds L3765 (wins 34 REGN; 8 WTHR where it only strips snow precipitation and flags).\n Dawn Warmth L3766 (146 WTHR, the last provider). Nothing after it touches rotating weathers.\n2) What rotates outdoors: 91 exterior regions, 103 weathers.\n - The main Tamriel/cities/Solstheim set is 70 weathers: 31 pleasant, 16 cloudy (10 of them Solstheim ash), 11 rainy, 5 snow, 7 unclassified (Snowy Holds stripped their snow).\n - Chances are driven by SWF globals.\n - 80 of the 103 are won by Dawn Warmth. 145 of its 146 records are field-identical to the provider below them (mostly Astralite ENB). The one difference: it drops VolumetricLighting on Seasons_Fog.\n - So what appears on screen is Astralite ENB's (Soul Core's) record values.\n3) Where the colour comes from.\n - The signature palette is authored in base Astralite Weathers.esp: indigo zenith, violet lower sky, salmon horizon, blue-violet near fog, coral far fog, rose-mauve DALC, orange sunlight.\n - Soul Core mostly rewrote DALC (180/288 period slots, about 50 RGB per axis). It also deepened the day sky (zenith 42,66,146 to 36,68,173), warmed day sunlight, brightened night DALC to neutral (34 to 52), and repointed 33 VOLI and 19 IMGS.\n - Climate SkyrimClimate runs 04:30-09:30 sunrise and 16:30-21:30 sunset (5-hour windows). 73/103 weathers have identical sunrise and sunset colours.\n4) Effects 11 side, confirmed from Bottled source on branch Bottle-Compendium.\n - Data\\enbseries.ini is the NAT-plain copy of Soul's file (16 keys differ: post/adaptation/brightness/bloom). The weather files come from Soul Core ENB - Data.\n - E11 matches weather IDs masked to 24 bits. Because Astralite ENB.esp is ESL, its 8 new weathers miss their Soul files and fall back to the base ini.\n - E11 regrades the record colours at runtime: band filters multiply sky colours; fog filter/multiplier; direct-light curve/desaturation/filter; ambient desaturation x intensity on DALC.\n - Soul's weather files are almost colour-neutral. All filters are 1,1,1 except: Clear/Clear_A day middle/horizon (0.902,0.98,1); SoulAsh2 orange sun filter; Wyrmstooth files. Desaturations are small.\n - What Soul's files do change is amplitude: AmbientLightingIntensity 0.5 everywhere, FogAmount, ray intensity, IBL MultiplicativeAmount, and SKYSCATTERING Amount 0.75 (squared = 0.56). Scattering only produces a sun-side glow, tinted by ColorFromSun 0.25-0.55.\n - Verdict: the tones come from the records (WTHR colours plus coloured VOLI air). The inis only scale them.\n5) Palette, mainland pleasant weathers (n=29; mean RGB, hue H, saturation S).\n DAWN = DUSK:\n - zenith indigo (24,30,73 H233 S.67); lower sky violet-plum (109,74,124 H282 S.40); horizon salmon-coral (219,121,97 H12 S.56)\n - near fog blue-violet (90,76,141 H253 S.46); far fog coral-brick (181,100,82 H11 S.55)\n - ambient dusty rose (199,129,120); DALC rose-mauve on the sun side (X+ 199,140,154 H346) and plum on the shadow side (X- 80,62,76 H313)\n - sunlight orange (255,128,66 S.74); sun 253,94,52; clouds coral (209,123,109)\n - god rays: Orange/Rose/Peach/Pink VOLI at intensity 12, contribution 0.75.\n DAY:\n - zenith royal blue (36,67,174 S.79); lower sky cobalt (54,93,206); horizon cornflower (124,157,245)\n - near fog blue (80,106,196 S.59); far fog sky blue (117,161,243)\n - ambient lavender-periwinkle (158,164,212); DALC periwinkle (110,127,197; top 151,172,234)\n - sunlight near-neutral pink-beige (202,184,181 S.10); sun peach (255,181,140); clouds blue-white (215,228,250)\n - grey DayVL (127, intensity 11).\n NIGHT:\n - zenith pure black; horizon/fog navy (11,10,25 / 10,9,22 S.6)\n - ambient blue-grey (114,121,135); DALC dim neutral (52,52,57); moonlight slate (29,33,42)\n - NightVL navy (9,14,26, intensity 14).\n Other weather types: cloudy is neutral grey at dawn and steel blue-grey by day; rainy is muted mauve-grey at dawn and steel blue by day; snow is cold azure-grey (84,102,131 S.36); the Solstheim ash family is rust-orange by day with a red sun (176,51,13).",
+ "facts": [
+  {
+   "claim": "In PBR, the active weather-colour chain and order is: NAT-ENB.esp (L1120) < Seasonal Weathers Framework.esp (L1249) < Mists of Tamriel.esp (L1251) < Astralite Weathers.esp (L1252) < Astralite ENB.esp (L1253) < SWF - Astralite Weathers.esp (L1254) < Wyrmstooth-Astralite-Weather-Patch.esp (L1255) < Astralite ENB - ECSS.esp (L1256) < Helios_Astralite.esp (L3250; _Radiant L3251 is unticked) < Helios_Astralite_Seasonal.esp (L3252) < Authoria - Patch - Gray Cowl - Astralite.esp (L3763) < Authoria - Patch - Snowy Holds Seasonal Snowfall.esp (L3765) < Authoria - Patch - Astralite Dawn Warmth.esp (L3766). No later plugin touches any rotating weather. Dragon Tweaks' 8 WTHR are its own new dragon FX weathers.",
+   "evidence": "profiles/DEEZ CS NUTZ - PBR/plugins.txt line numbers via grep; header-scan presence_DEEZ_CS_NUTZ_-_PBR.json + winners_DEEZ_CS_NUTZ_-_PBR.json (scan_presence.py/winners.py)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Runtime slots in PBR: Astralite Weathers.esp = ESL FE47B; Astralite ENB.esp = ESL FE47C; Wyrmstooth.esp = 1C; Mists of Tamriel = A0. Astralite ENB.esp masters Astralite Weathers.esp and Mists of Tamriel.esp.",
+   "evidence": "esl_slots.py -> runtime_slots_DEEZ_CS_NUTZ_-_PBR.json (TES4 flag 0x200). Wyrmstooth 1C cross-checked against the houseCARL runtime ID 1C04C563 for WyrmstoothRegion. Masters come from the TES4 MAST subrecords in presence json.",
+   "confidence": "proven"
+  },
+  {
+   "claim": "PBR has 91 exterior regions with weather lists and 103 rotating weathers. Winners: Dawn Warmth 80, Astralite ENB 9, Astralite Weathers 5, Moonpath 5, Lux 2, BPT/Grand Solitude FX 1 each. The 34 main exterior REGN (Tamriel holds, the 5 cities, Solstheim snow/Skaal, Wyrmstooth, Bruma, Sancre Tor) are won by Snowy Holds. The *NoPrecip / CoastFog / Dragonsreach REGN are won by SWF-Astralite. RavenRock01, VolcanicAsh01/02, Karthspire and FV Grove/Ice/Canyon are won by Astralite ENB. Entry chances are replaced by SWF globals.",
+   "evidence": "regions_pbr.json, astralite_region_weather_lists.json, region_lists_readable.txt (houseCARL REGN dumps per winning plugin)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Dawn Warmth is NOT a perfect no-op. Of its 146 WTHR, 145 are field-identical to the provider below them (Astralite ENB 72, Helios_Astralite 64, Snowy Holds 8, Wyrmstooth-Astralite 2). Seasons_Fog (10E3D4) is the exception: VolumetricLighting is absent, where Astralite ENB has 000861/00085D/000861/00085E.",
+   "evidence": "noop_check.py -> noop_check_dawnwarmth.json (full-field diff of houseCARL form=everything dumps)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Snowy Holds' 8 WTHR change only Flags and Precipitation. SkyrimCloudySN/_A, SkyrimFogMA, SkyrimFogCO, SkyrimCloudyMA_A and DLC1_SkyrimCloudyFV/_A go from Snow to Flags 0 with null precipitation. WyrmstoothStormFog goes from Rainy+Snow to Rainy with precipitation removed. No colours change.",
+   "evidence": "Diff of WTHR__SnowyHolds.jsonl against each record's previous provider",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite's signature dawn/dusk tones are already in base Astralite Weathers.esp. Example, SkyrimClear sunrise, identical in AW and AENB: SkyLower 111,61,147; FogNear 105,88,205; FogFar 194,85,70; Horizon 218,105,89; Sunlight 255,124,45. Sunrise DALC X+ is AW 206,130,166 vs AENB 214,142,168. Vanilla for comparison: SkyLower 133,138,163; FogNear 47,78,91.",
+   "evidence": "WTHR__AstraliteWeathers/AstraliteENB/Skyrim/Update dumps, side-by-side script output",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Soul Core (Astralite ENB.esp) changes compared with base Astralite on 72 rotating weathers:\n- DALC axes changed in 180/288 period slots (mean ~50 RGB per axis); SkyStatics colour 145/288; SkyLower 84; SkyUpper 81; Horizon 58; Sunlight 49.\n- Non-colour changes: VOLI repointed on 33 weathers, IMGS on 19, cloud textures on 36, fog distances on 5.\n- Mainland pleasant means, AW to SC: Day zenith 42,66,146 to 36,68,173; Day lower sky 69,109,190 to 55,93,204; Day sunlight 201,198,202 to 201,183,180; Night DALC X+ 34,34,41 to 52,52,57.\n- Sunrise values are almost unchanged.",
+   "evidence": "diff_AstraliteWeathers_vs_AstraliteENB.json + per-class mean script",
+   "confidence": "proven"
+  },
+  {
+   "claim": "All 103 rotating weathers carry only the 4 standard time slots (NAM0DataTypeState 0; no early/late slots). 73/103 have identical sunrise and sunset colours for sky, fog, ambient, sun, sunlight, cloud LOD, statics and effect lighting. In 73, the DALC sunset is the sunrise with X+ and X- swapped.",
+   "evidence": "astralite_rotating_weathers_colour.json (nam0_state) + mirror-count script",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Astralite ENB climates in PBR: SkyrimClimate 000812 and DefaultClimate 00015F run sunrise 04:30-09:30 and sunset 16:30-21:30, SunGlare black.dds. Base Astralite was 04:30-09:00 / 16:30-21:00. Vanilla is 05:30-10:00 / 16:00-20:30.",
+   "evidence": "dumps/CLMT__AstraliteENB.jsonl, CLMT__AstraliteWeathers.jsonl, CLMT__Skyrim.jsonl",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Coloured VOLI used by the main weathers (usage counts are over the main-set weathers per slot):\n- Dawn/dusk: LAM_OrangeVL 255,115,0 (14-15 weathers); LAM_RoseVL 255,60,60 (9-10); LAM_PeachVL 255,140,110 (7); LAM_PureVL grey (5); LAM_GoldVL 255,155,0 (4-5); LAM_PinkVL 255,92,205 (4); LAM_OurpleVL 29,25,36 (3). All at Intensity 12, CustomColorContribution 0.75, Density 0.9.\n- Day: LAM_DayVL 127 grey (39 weathers), I=11.\n- Night: LAM_NightVL 9,14,26 (50 weathers), I=14, cc 0.5.\n- Fog/storm sets: FogVL 60 grey, FogVLNight 20,32,45, FogVL_Blue 48,58,93, StormVL grey I=2.5.",
+   "evidence": "astralite_voli_referenced.json (VOLI dumps resolved to PBR winners) + usage tally",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The main imagespaces (LAM_Day/Twilight/Cloudy/Cloudy_Twilight/Night/Grim/Snowy, Cloudy_Somber) have Tint.Amount 0 and Cinematic Saturation/Brightness/Contrast 1. Hdr.SunlightScale is 2.45-2.6 for day/twilight. Only realm/FX imagespaces are tinted.",
+   "evidence": "dumps/IMGS__AstraliteWeathers.jsonl, IMGS__AstraliteENB.jsonl",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In PBR the Effects 11 base is Data\\enbseries.ini from 'Authoria - Effects 11 Core - NAT (plain)'. It differs from Soul's copy in exactly 16 keys: EnablePostPassShader false; EnableAdaptation true; Brightness 0.333; 5 ADAPTATION keys; 8 BLOOM Amount keys. All weather files and _weatherlist.ini come from '[NoDelete] Soul Core ENB - Data'. Nothing in overwrite. Bottled uses Data\\enbseries.ini + Data\\enbseries\\ whenever both exist.",
+   "evidence": "enb_files.py -> enb_vfs_DEEZ_CS_NUTZ_-_PBR.json; diff of the two enbseries.ini files; Bottled PresetManager.cpp",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled E11 masks both _weatherlist WeatherIDs and the live weather FormID with 0x00FFFFFF. Per-weather values are read with GetPrivateProfileString semantics. A bare key fills all 8 periods; suffixed keys override single periods. Periods a weather file does not define fall back to enbseries.ini. IgnoreWeatherSystem/Interior flags are read from the base ini only.",
+   "evidence": "bottled_src: WeatherManager.cpp/.h (LocalFormIDMask), SettingManager.cpp LoadSettingFromFile/ResolveWeatherValue, EffectManager.cpp:884-889",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Because Astralite ENB.esp is an ESL (FE47C), its 8 new rotating weathers do NOT match their _weatherlist entries. SkyrimStormRainRE 000823, SkyrimStormSnowBlizzard 000826, Seasons_CloudySnow 000827, SoulCairnBlood 00082E, DLC02VolcanicSnow 00082F, AshStorm02 000830, Ash03 000831 and JawzSkyrimStormRain 000838 mask to 47Cxxx and get base enbseries.ini values. Effective routing over the 103 weathers: base ini 25; SoulClear 10; SoulCloudy 10; SoulCloudy_A 10; SoulClear_A 9; OtherWorld 8; SoulFog 7; SoulOvercast 6; and the rest. Four listed files are missing on disk: SSECClear, SSECFog, ArnimaExterior, ArnimaInterior.",
+   "evidence": "astralite_rotating_weathers_colour.json fields e11_weather_file/e11_note; soulcore_e11_colour_keys.json routed_files_missing_on_disk",
+   "confidence": "likely"
+  },
+  {
+   "claim": "E11 regrades the weather's runtime colours (Effects11::OverrideWeather):\n- Sky bands: Horizon/SkyLower/SkyUpper = Desat(ColorFilter(Curve(c))*BandIntensity*GradientIntensity). ColorFilter(c,f,amt) = lerp(c,1,amt)*f, so filters multiply.\n- Fog near/far = Curve, then filter, then FogColorMultiplier. Sunlight = Curve, Desat, filter, then DirectLightingIntensity.\n- DALC: every axis is Desat x AmbientLightingIntensity. Sun gets SunDesaturation/filter; effect lighting is rescaled.\n- Sky scattering = lerp(sky, ScatteringColor*Intensity, Amount^2/(1+away*spread)), gated by [EFFECT] EnableCloudsScattering=true. It mainly adds a glow on the sun side.",
+   "evidence": "bottled_src/src_Features_Effects11.cpp lines ~436-468, 500-720, 160-210, 745-756; features SkyScattering.hlsli; package/Shaders/Sky.hlsl 373-384",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Soul's routed weather inis are close to colour-neutral:\n- Every Sky band, cloud, sun, moon, direct-light, fog, volumetric-fog and game-ray ColorFilter is 1,1,1, and DirectLighting/Fog ColorFilterAmount is 0 everywhere. Exceptions: SoulClear/_A Day GradientMiddle/Horizon filter (0.902,0.98,1.0); SoulWyrmstoothClear Day; SoulAsh2 SunColorFilter (1,0.259,0) at sunrise/sunset and (1,0.498,0) by day; JawZRain/WyrmstoothStorm FogColorFilter; WyrmstoothFog CloudsColorFilter.\n- Desaturation: small (GradientDesat 0.05 Clear day; SunDesat 0.1-0.5; CloudsDesat 0.15 Cloudy dawn; DirectLighting/Ambient desat up to 0.3 at night on the _A files).\n- Intensities: AmbientLightingIntensity 0.5 in every file and the base. SKYSCATTERING Amount 0.75 on Clear/Cloudy/Fog/Overcast, 0 on storms/ash/otherworld. ColorFromSun 0.25/0.55/0.25 on Clear. IBL MultiplicativeAmount 0.4-1.2 (0 on SoulClear).",
+   "evidence": "e11_extract.py -> soulcore_e11_colour_keys.json, e11_colour_table.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled registers only MultiplicativeAmount under [IMAGEBASEDLIGHTING], so other IBL colour keys in the Soul inis are ignored. There are 170 registered settings in total.",
+   "evidence": "bottled_src/src_Features_Effects11_EffectManager.cpp Register* calls -> registered_settings.txt",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The 124 weathers defined in 'Picta - Weathers of Aurbis.esm' (full plugin, Picta-lane slot 35) have 0 masked-ID collisions with Soul's _weatherlist IDs.",
+   "evidence": "houseCARL defined_in scan -> dumps/WTHR__Picta_defined_summary.jsonl, collision script",
+   "confidence": "proven"
+  },
+  {
+   "claim": "In PBR the plugin-named 'Astralite Weathers.ini' comes from Soul Core Plugin and Assets. It sets bVolumetricLightingEnable=1, global contrast/saturation boost 0, SAO and IBLF off; the engine loads it only while Astralite Weathers.esp is active. Astralite also ships CS override JSONs (SkySync alternate sun path, Skylighting, CloudShadows 0.6, Wetness), and Soul Core ships DVLaSS.ini and EVLaS.cfg (time-of-day/VL timing).",
+   "evidence": "mods/[NoDelete] Soul Core Plugin and Assets/Astralite Weathers.ini; [NoDelete] Astralite Weathers/SKSE/Plugins/CommunityShaders/Overrides/*.json; Soul Core SKSE/Plugins/DVLaSS.ini, EVLaS.cfg",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Base E11 [TIMEOFDAY] in PBR: DawnDuration 3.5, SunriseTime 8.0, DayTime 13.0, SunsetTime 18.0, DuskDuration 3.5, NightTime 1.0. [WEATHER] EnableMultipleWeathers=true, EnableLocationWeather=false.",
+   "evidence": "Authoria - Effects 11 Core - NAT (plain)/enbseries.ini",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The 08-20/08-22 dimming rounds (10% chroma on every weather colour plus the VOLI recolour) reportedly produced no visible change. The exterior wash was Screen Space GI, which has been pinned off since 08-22.",
+   "evidence": "memory astralite-dawn-dusk-tone-down.md, screenspace-gi-exterior-colour-cast.md (not re-verified here)",
+   "confidence": "unverified"
+  }
+ ],
+ "implications_for_blend": [
+  "Astralite's look lives in the WTHR record colours plus the coloured VOLI. Transplant record values (sky upper/lower/horizon, fog near/far, DALC 6 axes, ambient, sunlight, sun, cloud layer colours, sky statics colour, effect lighting) and VOLI colour/intensity. Soul's E11 inis carry almost no hue, so copying them brings no palette. Their only real effect is amplitude (ambient x0.5, fog amount, ray/IBL/scattering amounts).",
+  "Picta's regions roll Picta-defined weathers, so Astralite's vanilla-ID weathers cannot simply win. Map by role instead: hold or region plus class, e.g. Astralite SkyrimClearTU for Picta's Whiterun-plains clear, SkyrimCloudyRE for the Reach cloudy, and so on. Then write blended colours into Picta's own records in a new override plugin. Seasons, region wiring and Picta's FormIDs stay untouched, and so does Helios twin naming.",
+  "Blend in a luminance-preserving way: keep Picta's per-slot luminance and lerp hue/chroma toward Astralite, with a strength dial (house rule: color strength, not tone). Reason: Picta's E11 ini applies strong multipliers (gradient intensities, AirGlow, scattering) tuned for Picta's record amplitudes. Raw Astralite values would be rescaled by Picta's ini, so the hue carries over but brightness would be wrong.",
+  "Astralite authors only 4 time slots, with sunrise equal to sunset in about 70% of weathers. Picta has its own climate clock (inherited: 06:00-09:00 / 17:00-20:00) against Astralite's 04:30-09:30 / 16:30-21:30. Astralite's dawn colours will play inside Picta's shorter window, so expect a faster, more compressed rose-violet dawn. Do not import Astralite's CLMT unless the user wants the long dawn; it would also replace Picta's climate weather list.",
+  "Dawn: the recognisable signature is violet lower sky, blue-violet near fog, coral horizon/far fog, rose-mauve sun-side DALC, saturated orange sunlight and Orange/Rose/Peach/Pink VOLI. Day: deep royal-blue zenith and periwinkle DALC/ambient. Night: black zenith with navy fog. Weight the blend toward pleasant weathers, which carry the largest chances (Clear 40 / Clear_A 20 / Cloudy 20).",
+  "God rays: Astralite's VOLI are ESL records in Astralite Weathers.esp (FE47B) and Astralite ENB.esp (FE47C). Two options. (a) Mint new VOLI copies in the baby patch, with no Astralite master needed, and repoint Picta weathers to them. (b) Recolour Picta's own VOLI, but those are shared across many weathers. Option (a) is cleaner.",
+  "Do NOT enable the Astralite plugins in the baby profile to get the colours. Astralite Weathers + Astralite ENB override 35 REGN, 7 CLMT and 98 WTHR. SWF-Astralite, Snowy Holds and Helios_Astralite_Seasonal would also fight Picta's seasonal REGN wiring, which would repeat the past failure where a Picta swap killed the seasons. Read values from the inactive plugins (houseCARL source= file+mod) and write a Picta-mastered patch.",
+  "If any Soul E11 per-weather values were ever reused, they would have to be re-keyed to the masked runtime IDs of Picta's weathers. Masks are 24-bit and ESL plugins mask to their FExxx slot bits. Picta's own _weatherlist routes Picta IDs, so Soul's routing table is irrelevant to the baby.",
+  "Take sources from Astralite ENB.esp (equal to the Dawn Warmth forwards), not base Astralite Weathers.esp, if the target is 'the PBR look the user saw'. Soul Core's day sky is bluer and deeper, and its night ambient is brighter and more neutral. For the 8 Snowy-Holds-stripped weathers, colours are identical either way; only precipitation and flags differ."
+ ],
+ "traps": [
+  "houseCARL's default 'winner' view is the Picta profile (NAT-ENB / Picta / 'Picta over NAT' win there). Always pin source={file,mod} to the Astralite plugins and resolve PBR winners yourself. resolve_names also shows Picta editorIDs, e.g. 0C8221 shows as 'VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar'.",
+  "Dawn Warmth is not byte-for-byte a no-op: Seasons_Fog lost its VolumetricLighting there. Copy from Astralite ENB.esp when the full HNAM is wanted.",
+  "Snowy Holds sets Flags=0 (no weather class) on 8 Astralite weathers. Cloning the 'winning' versions brings that unclassified state, plus no snow, into whatever receives them.",
+  "ESL masking: E11 matches only the low 24 bits. Weathers defined in ESL plugins (Astralite ENB FE47C, Picta - Weathers of Skyrim.esp also FE47C, the Picta Seasonal ESL) mask to the slot bits, and their _weatherlist entries must be written that way. A list entry like 00000823 silently never matches.",
+  "E11 ColorFilter multiplies, after a lerp toward white by its Amount; sky band filters use amount 0. A weather-file key overrides only the periods it defines; other periods fall back to enbseries.ini. Category IgnoreWeatherSystem flags come only from the base ini.",
+  "Soul's routed list names 4 files that do not exist (SSECClear, SSECFog, ArnimaExterior/Interior). Its WEATHER007 entry '002125E' is a malformed 7-digit ID.",
+  "Mists of Tamriel's 19 cloudy/fog weather edits are fully overridden by Astralite ENB in PBR. But 31 rotating Astralite weathers list Mists of Tamriel sky statics (mist billboards) coloured by SkyStaticsColor, so part of Astralite's mist colour depends on Mists of Tamriel's statics being present. MoT is enabled in both lanes.",
+  "The PBR 'look' also includes the NAT plain post shader (TECHNIQUE=3, fixed tonemap) and E11 AmbientLightingIntensity 0.5. The Picta lane runs a different core/ini. Even a perfect record transplant will not reproduce PBR pixels 1:1.",
+  "Prior history (inherited, not re-verified): 10% chroma cuts on all Astralite record colours plus VOLI reportedly made 'zero visible change', and SSGI was the actual cast. Renderer features can swamp record colours, so A/B in game before trusting any data-only tuning.",
+  "Helios_Astralite twin weathers are interior-only. They are won by Dawn Warmth forwards (64) or Helios_Astralite (20), and the interior REGN are in Helios_Astralite_Seasonal. Do not mix them into the outdoor palette."
+ ],
+ "files_written": [
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/astralite_rotating_weathers_colour.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/astralite_region_weather_lists.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/region_lists_readable.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/rotating_table.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/astralite_voli_referenced.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/astralite_palette_split.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/astralite_palette_summary.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/diff_AstraliteWeathers_vs_AstraliteENB.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/noop_check_dawnwarmth.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/soulcore_e11_colour_keys.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/e11_colour_table.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/rotating_weather_e11_routes.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/enb_vfs_DEEZ_CS_NUTZ_-_PBR.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/winners_DEEZ_CS_NUTZ_-_PBR.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/presence_DEEZ_CS_NUTZ_-_PBR.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/runtime_slots_DEEZ_CS_NUTZ_-_PBR.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/runtime_slots_DEEZ_CS_NUTZ_-_PICTA.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/registered_settings.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/dumps/ (WTHR__*.jsonl full-record dumps for DawnWarmth, AstraliteENB, AstraliteWeathers, HeliosAstralite, SnowyHolds, WyrmAstralite, MistsOfTamriel, ECSS, DragonTweaks, GrayCowlAstralite, Skyrim, Update, Dawnguard, Dragonborn, Lux, GrandSolitude, BPT, Moonpath, Picta_defined_summary; REGN__*, VOLI__*, CLMT__*, IMGS__*)",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/bottled_src/ (downloaded Bottled Effects11 source used for mechanism proofs)",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/astralite-colour/ (scripts: scan_groups.py, scan_presence.py, winners.py, parse_regions.py, wlib.py, build_colour.py, palette.py, noop_check.py, e11_extract.py, enb_files.py, esl_slots.py)"
+ ],
+ "open_questions": [
+  "Does Bottled honour the CommunityShaders/Overrides/*.json shipped in [NoDelete] Astralite Weathers (SkySync alternate sun path, Skylighting, CloudShadows, Wetness)? If it does, part of the PBR look (sun path, shadow elevation) is renderer-side and would not transfer through records.",
+  "How much of the on-screen PBR palette comes from the NAT plain enbeffect tonemap (TECHNIQUE=3, fixed) compared with Picta's core? Comparing pixels needs an in-game A/B with the same weather and time.",
+  "Is the engine's volumetric lighting (VOLI god-ray air) actually visible under the current Bottled VL feature? GAMEVOLUMETRICRAYS Intensity is honoured only when the VL feature 'claims' E11 intensity. If it is barely visible, VOLI transplant is low priority.",
+  "Inherited from memory, not re-checked: E11 dawn/dusk time-of-day weights summing above 1.0 ('DLL bug'). Picta's exact climate and [TIMEOFDAY] values, needed to judge how a 5-hour Astralite dawn compresses. Both belong to the Picta lens.",
+  "For blending: should hue come from Astralite ENB (Soul Core, what the PBR lane showed) or from base Astralite Weathers? They differ mainly in day sky depth and night ambient brightness."
+ ]
+}

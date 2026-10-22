@@ -1,0 +1,367 @@
+{
+ "Kaidan": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Kaidan\\ref1.wav",
+   "text": "I suppose you're right. And a more forgiving person than I am. Perhaps I could learn a thing or two from you.",
+   "dur": 7.62,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\kaidan\\sound\\voice\\0kaidan.esp\\kaivoice\\k03_tmaybryn03_0006d8d5_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Kaidan\\ref2.wav",
+   "text": "Fair enough. That wildness has a charm of its own.",
+   "dur": 4.04,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\kaidan\\sound\\voice\\0kaidan.esp\\kaivoice\\kcom_ccure03_000a1a79_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Kaidan\\ref3.wav",
+   "text": "There's only one person that I'll promise my life to, and I'm looking right at her.",
+   "dur": 4.88,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\kaidan\\sound\\voice\\0kaidan.esp\\kaivoice\\kcom_cjoin_000a1a5f_2.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Gore": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Gore\\ref1.wav",
+   "text": "Think about it. They can't just be regular bandits. They're too organized.",
+   "dur": 4.64,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Gore\\sound\\voice\\gore.esp\\hd1gorevoice\\hd1factionscenes_hd1kddc_00207944_2.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Gore\\ref2.wav",
+   "text": "Hmm. Sorry to hear that. It's been weighing on you then. You look rough.",
+   "dur": 5.85,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Gore\\sound\\voice\\gore.esp\\hd1gorevoice\\hd1gorefol_hd1wwidontlikei_001da006_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Gore\\ref3.wav",
+   "text": "Just don't forget about me, alright? I want to see this through with you. I love you. You're my blood.",
+   "dur": 6.97,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Gore\\sound\\voice\\gore.esp\\hd1gorevoice\\hd1goremai_hd1goreep1_00ecddde_2.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Gore\\ref4.wav",
+   "text": "Don't let me dampen the mood, though. I could use some mead and some warmth in my belly. That's what we're here for.",
+   "dur": 6.87,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Gore\\sound\\voice\\gore.esp\\hd1gorevoice\\hd1gorefol_hd1gorefollowss_001aca24_4.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Gore\\ref5.wav",
+   "text": "No, I could really care less. We get attacked all the time. Whatever you say, blood, I warned you about these people.",
+   "dur": 7.71,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Gore\\sound\\voice\\gore.esp\\hd1gorevoice\\hd1goremai_hd1ms01i1_0001c09a_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Val Serano": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Val Serano\\ref1.wav",
+   "text": "It's a shame about those students. Hopefully their families will have some peace from knowing what happened.",
+   "dur": 6.55,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\val\\sound\\voice\\ax valserano.esp\\ax_valvoice\\valcolgrad_valcolgsad01_0075c7db_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Val Serano\\ref2.wav",
+   "text": "Right. There's always a choice, even if it's not easy.",
+   "dur": 5.06,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\val\\sound\\voice\\ax valserano.esp\\ax_valvoice\\val000_val000bargain05a_00d7342f_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Val Serano\\ref3.wav",
+   "text": "I should have seen it coming years before. I held the sword, and its death is my fault.",
+   "dur": 6.36,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\val\\sound\\voice\\ax valserano.esp\\ax_valvoice\\val004_val004fathis07a_007f7c96_2.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Remiel": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Remiel\\ref1.wav",
+   "text": "I agree. You know, if we have some coin left over, I was thinking of something fun for us to do.",
+   "dur": 5.76,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Remiel - Cleaned Audio\\sound\\voice\\hlioremi.esp\\hlioremivoice\\hlioremifollower__0027ee64_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Remiel\\ref2.wav",
+   "text": "No, no, no. That stuff is itchy. I don't like how it feels on my skin.",
+   "dur": 4.64,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Remiel - Cleaned Audio\\sound\\voice\\hlioremi.esp\\hlioremivoice\\hliozorarumarinbanter__00586fbc_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Remiel\\ref3.wav",
+   "text": "Here it is. I... I can barely believe we're here.",
+   "dur": 4.97,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Remiel - Cleaned Audio\\sound\\voice\\hlioremi.esp\\hlioremivoice\\hlioremifo_hlioremifollowe_001af308_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Xelzaz": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Xelzaz\\ref1.wav",
+   "text": "This is a deeply personal story. One that I haven't told anyone else.",
+   "dur": 5.62,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\xelzaz\\sound\\voice\\bpufxelzazfollower.esp\\bpufxelzazvoice\\bpufxelzaz_bpufxelzazdb05p_0036ad89_2.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Xelzaz\\ref2.wav",
+   "text": "I'd love to know who is requesting these contracts. Imagine the gossip potential.",
+   "dur": 5.67,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\xelzaz\\sound\\voice\\bpufxelzazfollower.esp\\bpufxelzazvoice\\bpufxelzaz_bpufxelzazdbidl_003cd252_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Xelzaz\\ref3.wav",
+   "text": "I'd prefer not to, but we have come this far.",
+   "dur": 4.46,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\xelzaz\\sound\\voice\\bpufxelzazfollower.esp\\bpufxelzazvoice\\bpufxelzaz_bpufxelzazdbsul_003987f6_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Inigo": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Inigo\\ref1.wav",
+   "text": "Usually I do not stay ill for very long. I will be okay. Probably.",
+   "dur": 5.71,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\inigo\\sound\\voice\\inigo.esp\\inigofollowervoice\\inigoplaye_inigoperyite5_000e7e33_1.xwm",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Inigo\\ref2.wav",
+   "text": "Okay, I will leave you to it. Good luck, my friend.",
+   "dur": 4.5,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\inigo\\sound\\voice\\inigo.esp\\inigofollowervoice\\inigofollo_inigodialoguefo_00034f82_1.xwm",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Inigo\\ref3.wav",
+   "text": "Yes, it is horrible. When I said goodbye to my parents, I did not think it would be forever.",
+   "dur": 6.69,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\inigo\\sound\\voice\\inigo.esp\\inigofollowervoice\\inigoplaye_inigopgrief1d_000c32c7_1.xwm",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Lucien": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Lucien\\ref1.wav",
+   "text": "I just find the world a fascinating place. The people in it even more so. Don't you?",
+   "dur": 5.8,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\lucien\\sound\\voice\\lucien.esp\\jrlucienvoice\\jrlucienfollower__0042e431_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Lucien\\ref2.wav",
+   "text": "Watch your footing. Ice is slippery. Science facts for you there.",
+   "dur": 4.92,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\lucien\\sound\\voice\\lucien.esp\\jrlucienvoice\\jrlucienfo_jrlucienfollowe_003083a0_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Lucien\\ref3.wav",
+   "text": "By the gods, Inigo, you nearly gave me a heart attack. Control yourself. And that tale of yours.",
+   "dur": 6.87,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\lucien\\sound\\voice\\lucien.esp\\jrlucienvoice\\jrlucieninigo__00768adf_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Redcap": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Redcap\\ref1.wav",
+   "text": "Is it safe to wear jelly on head? Meh, probably fine.",
+   "dur": 6.18,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Redcap\\sound\\voice\\fa01redcapfollower.esp\\fa01redcapvoice\\fa01redcap_fa01redcaparmor_005e6562_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Redcap\\ref2.wav",
+   "text": "These not kin you choose, but Redcap would fight.",
+   "dur": 5.25,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Redcap\\sound\\voice\\fa01redcapfollower.esp\\fa01redcapvoice\\fa01redcap_fa01redcapchief_0004c78b_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Redcap\\ref3.wav",
+   "text": "How much wood, wood, wood cap, wood, if, never mind.",
+   "dur": 6.36,
+   "source_file": "C:\\1. AUTHORIA\\mods\\Redcap\\sound\\voice\\fa01redcapfollower.esp\\fa01redcapvoice\\fa01redcap_fa01redcaparmor_005cd028_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Serana": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Serana\\ref1.wav",
+   "text": "Me? I smell like nightshade and snowberries.",
+   "dur": 4.27,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\serana\\sound\\voice\\seranadialogaddon.esp\\dlc1seranavoice\\sda_serana_sda_seranaroman_00fb72b9_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Serana\\ref2.wav",
+   "text": "Now you've got me thinking about the future. Maybe one day, we'll need that name.",
+   "dur": 6.22,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\serana\\sound\\voice\\seranadialogaddon.esp\\dlc1seranavoice\\sda_moredi_sda_cc568ariel0_0000095e_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Serana\\ref3.wav",
+   "text": "You mean the world to me, and I couldn't have gone through all this without you, my love.",
+   "dur": 5.8,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\serana\\sound\\voice\\seranadialogaddon.esp\\dlc1seranavoice\\sda_moredi_sda_customconvo_007c0727_2.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Ashe": [
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Ashe\\ref1.wav",
+   "text": "I get that my past, my origins aren't what you'd expect. But that doesn't change who I am now, or the journey I'm on.",
+   "dur": 7.01,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\ashe\\sound\\voice\\ashe - fire and blood.esp\\mm_ashevoice\\mm_friends_mm_friendshippd_002143bc_3.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Ashe\\ref2.wav",
+   "text": "Fine. But if something drags me into the shadows, you'd best come running.",
+   "dur": 4.18,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\ashe\\sound\\voice\\ashe - fire and blood.esp\\mm_ashevoice\\mm_ashemen_mm_ashementalmo_00348721_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  },
+  {
+   "wav": "C:\\1. AUTHORIA\\_tools\\follower-banter\\voice-refs\\Ashe\\ref3.wav",
+   "text": "Yes, the tomes are essential. They contain the knowledge I need to analyze and incorporate.",
+   "dur": 4.92,
+   "source_file": "C:\\Users\\User\\AppData\\Local\\Temp\\claude\\C--1--AUTHORIA\\f4941a5e-f3b7-4567-9232-2db3d3adf5f4\\scratchpad\\x\\ashe\\sound\\voice\\ashe - fire and blood.esp\\mm_ashevoice\\mm_spellte_mm_spellteachin_00f2d683_1.fuz",
+   "transcript_from": "Whisper large-v3-turbo"
+  }
+ ],
+ "Luna": [
+  {
+   "wav": "C:/1. AUTHORIA/_staging/omnivoice-test-20261017/reference/eleonora-ref1 - And, it sounds to me like you need a.wav",
+   "text": "And, it sounds to me like you need a friend. You said you're an outcast, so it seems like a new face is the best thing for you.",
+   "source_file": "Eleonora setup 10-17"
+  },
+  {
+   "wav": "C:/1. AUTHORIA/_staging/omnivoice-test-20261017/reference/eleonora-ref3 - I've seen firsthand how much death a.wav",
+   "text": "I've seen firsthand how much death and destruction vampires can cause. I joined the Dawnguard to stop them.",
+   "source_file": "Eleonora setup 10-17"
+  }
+ ],
+ "_settings": {
+  "Ashe": {
+   "prefer_refs": [
+    1
+   ],
+   "seed": 7,
+   "speed": 1.0,
+   "status": "settled",
+   "user": "take 1 is closest on each"
+  },
+  "Gore": {
+   "prefer_refs": [
+    4,
+    3
+   ],
+   "seed": 77,
+   "speed": 1.0,
+   "status": "settled 22 Oct: new clip 4 + clip 3 seed 77",
+   "user": "01 new clip 4 is good. 02 new clip 4 is the only time he says bow correctly but I liked seed 77",
+   "note": "clip 4 tends to end rising - keep the QA reroll; 'bow' (weapon) is misread by clip 3, consider a respelling"
+  },
+  "Inigo": {
+   "prefer_refs": [
+    1,
+    3
+   ],
+   "seed": 7,
+   "speed": 1.0,
+   "status": "settled",
+   "user": "02 take 1 and take 3 are good, 04 take 1 is great"
+  },
+  "Kaidan": {
+   "prefer_refs": [
+    3
+   ],
+   "seed": 42,
+   "speed": 0.82,
+   "status": "settled 22 Oct: clip 3 at speed 0.82",
+   "user": "01 feels like he lost his accent a little. 02 .82 is best",
+   "note": "slowing can thin his accent on some lines - check accent in the first full-run batch"
+  },
+  "Lucien": {
+   "prefer_refs": [
+    3,
+    2,
+    1
+   ],
+   "seed": 42,
+   "speed": 1.0,
+   "status": "settled; mixed picks, make takes from clips 3 and 2",
+   "user": "01 take 3 is great 02 take 1 is best 03 take 3, 04 take 2, and 05 take 2 are best"
+  },
+  "Redcap": {
+   "prefer_refs": [
+    1
+   ],
+   "seed": 7,
+   "speed": 1.0,
+   "status": "settled",
+   "user": "take ones are best"
+  },
+  "Remiel": {
+   "prefer_refs": [
+    1,
+    2
+   ],
+   "seed": 42,
+   "speed": 1.0,
+   "status": "settled; best takes were clip 1 (3) and clip 2 (2)",
+   "user": "take 1, 02 take 3, 03 take 2, 04 take 3, 05 take 1 best"
+  },
+  "Serana": {
+   "prefer_refs": [
+    1
+   ],
+   "seed": 7,
+   "speed": 1.0,
+   "status": "settled",
+   "user": "take 1 is best"
+  },
+  "Val Serano": {
+   "prefer_refs": [
+    1
+   ],
+   "seed": 7,
+   "speed": 0.92,
+   "status": "settled 22 Oct: clip 1 at speed 0.92",
+   "user": "take 1 is best but needs a tiny bit more time between words / .92 is good"
+  },
+  "Xelzaz": {
+   "prefer_refs": [
+    2
+   ],
+   "seed": 31,
+   "speed": 1.0,
+   "status": "settled",
+   "user": "take 2 is closest"
+  },
+  "Luna": {
+   "prefer_refs": [
+    1,
+    2
+   ],
+   "seed": 7,
+   "speed": 1.0,
+   "status": "settled 22 Oct: all takes good, keep as is",
+   "user": "Lunas lines were all so good"
+  }
+ }
+}

@@ -1,0 +1,118 @@
+
+== PICTA A01_Clear ini | records: Picta 19FA01 A01_Clear (Darkened patch) | period Day
+  sky zenith                       out=(0.5213, 2.13, 4.879) chroma=(0.07,0.28,0.65) hue=217.8deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.07,0.28,0.65) hue=217.8deg sat=1.00
+  sky horizon-toward-sun (z=0.05)  out=(5.163, 12.09, 32.83) chroma=(0.10,0.24,0.66) hue=225.0deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.09,0.24,0.67) hue=224.9deg sat=1.00
+  sky horizon-away (z=0.05)        out=(3.348, 8.197, 22.68) chroma=(0.10,0.24,0.66) hue=224.9deg sat=1.00 | scatter-weight=0.07 gradient-only=chroma=(0.09,0.24,0.67) hue=224.9deg sat=1.00
+  sky mid-away (z=0.4)             out=(1.788, 4.882, 13.44) chroma=(0.09,0.24,0.67) hue=224.1deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.09,0.24,0.67) hue=224.1deg sat=1.00
+  fog far colour  (0.1924, 0.4326, 1.058) chroma=(0.11,0.26,0.63) hue=223.3deg sat=1.00
+  sunlight colour (3.92, 3.764, 3.608) chroma=(0.35,0.33,0.32) hue= 30.0deg sat=1.00
+
+== PICTA A01_Clear ini | records: Picta 19FA01 A01_Clear (Darkened patch) | period Sunset
+  sky zenith                       out=(1.552, 4.576, 10.21) chroma=(0.09,0.28,0.62) hue=219.1deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.09,0.28,0.63) hue=219.0deg sat=1.00
+  sky horizon-toward-sun (z=0.05)  out=(10.22, 13.07, 30.56) chroma=(0.19,0.24,0.57) hue=231.6deg sat=1.00 | scatter-weight=0.64 gradient-only=chroma=(0.13,0.24,0.63) hue=226.7deg sat=1.00
+  sky horizon-away (z=0.05)        out=(4.303, 7.139, 18.11) chroma=(0.15,0.24,0.61) hue=227.7deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.13,0.24,0.63) hue=226.7deg sat=1.00
+  sky mid-away (z=0.4)             out=(2.8, 5.762, 14.28) chroma=(0.12,0.25,0.63) hue=224.5deg sat=1.00 | scatter-weight=0.01 gradient-only=chroma=(0.12,0.25,0.63) hue=224.4deg sat=1.00
+  fog far colour  (0.15, 0.2329, 0.51) chroma=(0.17,0.26,0.57) hue=226.2deg sat=1.00
+  sunlight colour (2.46, 0.3599, 0) chroma=(0.87,0.13,0.00) hue=  8.8deg sat=1.00
+
+== PICTA A01_Clear ini | records: Astralite ENB.esp 10A230 SkyrimClearMA | period Day
+  sky zenith                       out=(0.3127, 1.423, 8.428) chroma=(0.03,0.14,0.83) hue=231.8deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.03,0.14,0.83) hue=231.7deg sat=1.00
+  sky horizon-toward-sun (z=0.05)  out=(5.607, 12.71, 65.5) chroma=(0.07,0.15,0.78) hue=232.9deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.06,0.15,0.79) hue=232.7deg sat=1.00
+  sky horizon-away (z=0.05)        out=(3.658, 8.703, 45.59) chroma=(0.06,0.15,0.79) hue=232.8deg sat=1.00 | scatter-weight=0.07 gradient-only=chroma=(0.06,0.15,0.79) hue=232.7deg sat=1.00
+  sky mid-away (z=0.4)             out=(1.884, 4.966, 26.78) chroma=(0.06,0.15,0.80) hue=232.6deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.06,0.15,0.80) hue=232.6deg sat=1.00
+  fog far colour  (0.1955, 0.5087, 2.157) chroma=(0.07,0.18,0.75) hue=230.4deg sat=1.00
+  sunlight colour (3.49, 3.351, 3.212) chroma=(0.35,0.33,0.32) hue= 30.0deg sat=1.00
+
+== PICTA A01_Clear ini | records: Astralite ENB.esp 10A230 SkyrimClearMA | period Sunset
+  sky zenith                       out=(0.2991, 0.9218, 4.388) chroma=(0.05,0.16,0.78) hue=230.9deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.05,0.16,0.78) hue=230.7deg sat=1.00
+  sky horizon-toward-sun (z=0.05)  out=(15.43, 13.37, 20.41) chroma=(0.31,0.27,0.41) hue=257.5deg sat=1.00 | scatter-weight=0.64 gradient-only=chroma=(0.26,0.28,0.46) hue=233.1deg sat=1.00
+  sky horizon-away (z=0.05)        out=(7.37, 7.56, 12.04) chroma=(0.27,0.28,0.45) hue=237.6deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.26,0.28,0.46) hue=233.1deg sat=1.00
+  sky mid-away (z=0.4)             out=(4.04, 4.594, 8.544) chroma=(0.24,0.27,0.50) hue=232.6deg sat=1.00 | scatter-weight=0.01 gradient-only=chroma=(0.23,0.27,0.50) hue=232.3deg sat=1.00
+  fog far colour  (0.506, 0.4566, 0.6188) chroma=(0.32,0.29,0.39) hue=258.3deg sat=1.00
+  sunlight colour (2.397, 0.6386, 0) chroma=(0.79,0.21,0.00) hue= 16.0deg sat=1.00
+
+== PICTA ini with hue filters set to 1,1,1 and DL desat 0 | records: Picta 19FA01 A01_Clear (Darkened patch) | period Day
+  sky zenith                       out=(12.35, 12.35, 12.35) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00 | scatter-weight=0.00 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sky horizon-toward-sun (z=0.05)  out=(54.21, 54.21, 54.21) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00 | scatter-weight=0.16 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sky horizon-away (z=0.05)        out=(37.57, 37.57, 37.57) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00 | scatter-weight=0.07 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sky mid-away (z=0.4)             out=(23.73, 23.73, 23.73) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00 | scatter-weight=0.00 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  fog far colour  (1.225, 1.225, 1.225) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sunlight colour (4, 4, 4) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+
+== PICTA ini with hue filters set to 1,1,1 and DL desat 0 | records: Picta 19FA01 A01_Clear (Darkened patch) | period Sunset
+  sky zenith                       out=(26.17, 26.17, 26.16) chroma=(0.33,0.33,0.33) hue= 27.9deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sky horizon-toward-sun (z=0.05)  out=(54.78, 52.88, 51.35) chroma=(0.34,0.33,0.32) hue= 26.7deg sat=1.00 | scatter-weight=0.64 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sky horizon-away (z=0.05)        out=(30.84, 30.59, 30.39) chroma=(0.34,0.33,0.33) hue= 26.7deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sky mid-away (z=0.4)             out=(27.56, 27.54, 27.52) chroma=(0.33,0.33,0.33) hue= 27.9deg sat=1.00 | scatter-weight=0.01 gradient-only=chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  fog far colour  (0.5882, 0.5882, 0.5882) chroma=(0.33,0.33,0.33) hue=  0.0deg sat=0.00
+  sunlight colour (1.961, 0.6275, 0) chroma=(0.76,0.24,0.00) hue= 19.2deg sat=1.00
+
+== PICTA ini with hue filters set to 1,1,1 and DL desat 0 | records: Astralite ENB.esp 10A230 SkyrimClearMA | period Day
+  sky zenith                       out=(4.232, 7.874, 20.98) chroma=(0.13,0.24,0.63) hue=226.9deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.13,0.24,0.63) hue=226.9deg sat=1.00
+  sky horizon-toward-sun (z=0.05)  out=(53.03, 56.19, 107.2) chroma=(0.24,0.26,0.50) hue=236.5deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.24,0.26,0.50) hue=236.2deg sat=1.00
+  sky horizon-away (z=0.05)        out=(36.75, 39.04, 74.71) chroma=(0.24,0.26,0.50) hue=236.4deg sat=1.00 | scatter-weight=0.07 gradient-only=chroma=(0.24,0.26,0.50) hue=236.2deg sat=1.00
+  sky mid-away (z=0.4)             out=(20.66, 23.1, 46.25) chroma=(0.23,0.26,0.51) hue=234.3deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.23,0.26,0.51) hue=234.3deg sat=1.00
+  fog far colour  (1.245, 1.441, 2.5) chroma=(0.24,0.28,0.48) hue=230.6deg sat=1.00
+  sunlight colour (3.435, 3.514, 3.733) chroma=(0.32,0.33,0.35) hue=224.2deg sat=1.00
+
+== PICTA ini with hue filters set to 1,1,1 and DL desat 0 | records: Astralite ENB.esp 10A230 SkyrimClearMA | period Sunset
+  sky zenith                       out=(4.129, 5.114, 11.08) chroma=(0.20,0.25,0.55) hue=231.5deg sat=1.00 | scatter-weight=0.00 gradient-only=chroma=(0.20,0.25,0.55) hue=231.4deg sat=1.00
+  sky horizon-toward-sun (z=0.05)  out=(98.43, 56.17, 35.22) chroma=(0.52,0.30,0.19) hue= 19.9deg sat=1.00 | scatter-weight=0.64 gradient-only=chroma=(0.51,0.30,0.19) hue= 20.3deg sat=1.00
+  sky horizon-away (z=0.05)        out=(56.84, 32.91, 20.75) chroma=(0.51,0.30,0.19) hue= 20.2deg sat=1.00 | scatter-weight=0.16 gradient-only=chroma=(0.51,0.30,0.19) hue= 20.3deg sat=1.00
+  sky mid-away (z=0.4)             out=(33.61, 20.6, 16.1) chroma=(0.48,0.29,0.23) hue= 15.4deg sat=1.00 | scatter-weight=0.01 gradient-only=chroma=(0.48,0.29,0.23) hue= 15.4deg sat=1.00
+  fog far colour  (1.984, 1.153, 0.7137) chroma=(0.52,0.30,0.19) hue= 20.7deg sat=1.00
+  sunlight colour (2, 0.9725, 0.3529) chroma=(0.60,0.29,0.11) hue= 22.6deg sat=1.00
+
+== time-of-day weights, Picta base {'DawnDuration': 3.5, 'SunriseTime': 9.0, 'DayTime': 10.0, 'SunsetTime': 17.0, 'DuskDuration': 3.5, 'NightTime': 20.5}
+   0.00h Night=1.00  sum=1.000
+   1.00h Night=1.00  sum=1.000
+   2.00h Night=1.00  sum=1.000
+   3.00h Night=1.00  sum=1.000
+   4.00h Night=1.00  sum=1.000
+   5.00h Night=1.00  sum=1.000
+   6.00h Dawn=0.29 Night=0.71  sum=1.000
+   7.00h Dawn=0.86 Night=0.14  sum=1.000
+   8.00h Dawn=0.57 Sunrise=0.43  sum=1.000
+   9.00h Sunrise=1.00  sum=1.000
+  10.00h Day=1.00  sum=1.000
+  11.00h Day=0.91 Sunset=0.09  sum=1.000
+  12.00h Day=0.82 Sunset=0.18  sum=1.000
+  13.00h Day=0.71 Sunset=0.29  sum=1.000
+  14.00h Day=0.60 Sunset=0.40  sum=1.000
+  15.00h Day=0.47 Sunset=0.53  sum=1.000
+  16.00h Day=0.31 Sunset=0.69  sum=1.000
+  17.00h Sunset=1.00  sum=1.000
+  18.00h Sunset=0.43 Dusk=0.57  sum=1.000
+  19.00h Dusk=0.86 Night=0.14  sum=1.000
+  20.00h Dusk=0.29 Night=0.71  sum=1.000
+  21.00h Night=1.00  sum=1.000
+  22.00h Night=1.00  sum=1.000
+  23.00h Night=1.00  sum=1.000
+  max sum over the day = 1.0000
+
+== time-of-day weights, NAT/Astralite lane base {'DawnDuration': 3.5, 'SunriseTime': 8.0, 'DayTime': 13.0, 'SunsetTime': 18.0, 'DuskDuration': 3.5, 'NightTime': 1.0}
+   0.00h Night=1.00  sum=1.000
+   1.00h Night=1.00  sum=1.000
+   2.00h Night=1.00  sum=1.000
+   3.00h Night=1.00  sum=1.000
+   4.00h Night=1.00  sum=1.000
+   5.00h Dawn=0.29 Night=0.71  sum=1.000
+   6.00h Dawn=0.86 Night=0.14  sum=1.000
+   7.00h Dawn=0.57 Sunrise=0.43  sum=1.000
+   8.00h Sunrise=1.00  sum=1.000
+   9.00h Sunrise=0.62 Day=0.38  sum=1.000
+  10.00h Sunrise=0.42 Day=0.58  sum=1.000
+  11.00h Sunrise=0.26 Day=0.74  sum=1.000
+  12.00h Sunrise=0.13 Day=0.87  sum=1.000
+  13.00h Day=1.00  sum=1.000
+  14.00h Day=0.87 Sunset=0.13  sum=1.000
+  15.00h Day=0.74 Sunset=0.26  sum=1.000
+  16.00h Day=0.58 Sunset=0.42  sum=1.000
+  17.00h Day=0.38 Sunset=0.62  sum=1.000
+  18.00h Sunset=1.00  sum=1.000
+  19.00h Sunset=0.43 Dusk=0.57  sum=1.000
+  20.00h Dusk=0.86 Night=0.14  sum=1.000
+  21.00h Dusk=0.29 Night=0.71  sum=1.000
+  22.00h Night=1.00  sum=1.000
+  23.00h Night=1.00  sum=1.000
+  max sum over the day = 1.0000

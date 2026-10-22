@@ -1,0 +1,8 @@
+== Farm02 m: torso_1.nif
+   at rest        jump R lead  14/ 0/ 47   jump L lead  51/ 8/ 24   tuck  65/ 0/ 19
+   curled in      jump R lead  39/ 7/ 22   jump L lead  29/ 0/  9   tuck  57/ 0/ 13
+   swung back     jump R lead  14/ 0/ 50   jump L lead  84/20/ 25   tuck  41/11/ 59
+   swung forward  jump R lead  22/ 0/ 34   jump L lead  41/33/ 17   tuck  18/ 0/ 59
+   total caught/hooked/sunk 475/79/378
+
+EXIT 0

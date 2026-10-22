@@ -1,0 +1,1436 @@
+[
+ {
+  "formid": "000805:Authoria - Kaidan Holds Baby.esp",
+  "field_path": "VirtualMachineAdapter",
+  "compose": {
+   "type": "VirtualMachineAdapter",
+   "sets": [
+    {
+     "path": "Scripts",
+     "verb": "Add",
+     "compose": {
+      "type": "ScriptEntry",
+      "fields": {
+       "Name": "AuthKBS_CribItem"
+      },
+      "sets": [
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "PlayerRef",
+          "Flags": "Edited",
+          "Object": "000014:Skyrim.esm",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribEmpty",
+          "Flags": "Edited",
+          "Object": "000806:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "QuestScript",
+          "Flags": "Edited",
+          "Object": "000804:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "formid": "000806:Authoria - Kaidan Holds Baby.esp",
+  "field_path": "VirtualMachineAdapter",
+  "compose": {
+   "type": "VirtualMachineAdapter",
+   "sets": [
+    {
+     "path": "Scripts",
+     "verb": "Add",
+     "compose": {
+      "type": "ScriptEntry",
+      "fields": {
+       "Name": "AuthKBS_Crib"
+      },
+      "sets": [
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "PlayerRef",
+          "Flags": "Edited",
+          "Object": "000014:Skyrim.esm",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "QuestScript",
+          "Flags": "Edited",
+          "Object": "000804:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribEmpty",
+          "Flags": "Edited",
+          "Object": "000806:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribFull",
+          "Flags": "Edited",
+          "Object": "000807:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "CribFolded",
+          "Flags": "Edited",
+          "Object": "000805:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribMenuEmpty",
+          "Flags": "Edited",
+          "Object": "000802:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribMenuFull",
+          "Flags": "Edited",
+          "Object": "000803:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "formid": "000807:Authoria - Kaidan Holds Baby.esp",
+  "field_path": "VirtualMachineAdapter",
+  "compose": {
+   "type": "VirtualMachineAdapter",
+   "sets": [
+    {
+     "path": "Scripts",
+     "verb": "Add",
+     "compose": {
+      "type": "ScriptEntry",
+      "fields": {
+       "Name": "AuthKBS_Crib"
+      },
+      "sets": [
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "PlayerRef",
+          "Flags": "Edited",
+          "Object": "000014:Skyrim.esm",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "QuestScript",
+          "Flags": "Edited",
+          "Object": "000804:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribEmpty",
+          "Flags": "Edited",
+          "Object": "000806:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribFull",
+          "Flags": "Edited",
+          "Object": "000807:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "CribFolded",
+          "Flags": "Edited",
+          "Object": "000805:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribMenuEmpty",
+          "Flags": "Edited",
+          "Object": "000802:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       },
+       {
+        "path": "Properties",
+        "verb": "Add",
+        "compose": {
+         "type": "ScriptObjectProperty",
+         "fields": {
+          "Name": "AuthKBS_CribMenuFull",
+          "Flags": "Edited",
+          "Object": "000803:Authoria - Kaidan Holds Baby.esp",
+          "Alias": "-1"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "formid": "000809:Authoria - Kaidan Holds Baby.esp",
+  "field_path": "StartingTopic",
+  "value": "00080A:Authoria - Kaidan Holds Baby.esp"
+ },
+ {
+  "formid": "00080B:Authoria - Kaidan Holds Baby.esp",
+  "field_path": "StartingTopic",
+  "value": "00080C:Authoria - Kaidan Holds Baby.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17B:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17C:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D17F:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "05D180:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CF9:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFA:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFB:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFC:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFD:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005734:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "005735:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A179:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A17A:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A184:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A185:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18E:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A18F:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A198:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A199:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A2:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1A3:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AC:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1AD:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B0:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "05A1B1:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D5:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "07A4D6:UBE_AllRace.esp"
+ },
+ {
+  "formid": "061CFE:BeeingFemale.esm",
+  "field_path": "AdditionalRaces",
+  "op": "Add",
+  "value": "000FA1:HSFVorstag.esp"
+ }
+]

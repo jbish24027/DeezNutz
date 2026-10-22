@@ -1,0 +1,26 @@
+== m _1: redguardoutfit_1.nif
+  ok   Redguard Fat Outfit: 21684 triangles, kept 21684 in ['Redguard Fat Outfit', 'Robe', 'Sash', 'Robe 2'], duplicated 0
+  ok   HIMBO - Body: 616 triangles, kept 616 in ['HIMBO - Body'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 38
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\RedguardRobeM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   65 constraints, bodies declared
+  ok   44 rig nodes, all declared
+  m Robe: points with physics 90%, of those on 2 chains 84%
+  ok   m _1: no rest contacts
+== m _0: redguardoutfit_0.nif
+  ok   Redguard Fat Outfit: 21684 triangles, kept 21684 in ['Redguard Fat Outfit', 'Robe', 'Sash', 'Robe 2'], duplicated 0
+  ok   HIMBO - Body: 616 triangles, kept 616 in ['HIMBO - Body'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 38
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\RedguardRobeM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   65 constraints, bodies declared
+  ok   44 rig nodes, all declared
+  ok   m _0: no rest contacts
+ALL OK
+
+EXIT 0

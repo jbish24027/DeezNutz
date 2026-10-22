@@ -1,0 +1,1061 @@
+====================================================================================================
+000800:Seasonal Weathers Framework - LOTD.esp WeatherSancreTor | ws SancreTorWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(40/Co)
+     A: SkyrimFog(40/Co)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(0/Sp) PIC_WTHR_SUMMER_A01_Clear(0/Su) PIC_WTHR_MASTER_A01_Clear(0/Au) PIC_WTHR_MASTER_A01_Clear(0/Wi)
+     A: SkyrimClearSN(0/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(0/Sp) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(0/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(0/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(0/Wi)
+     A: SkyrimCloudySN_A(0/Co)
+   ('SN', 'Rain')
+     P: PIC_WTHR_MASTER_D03_Overcast_Rain_Light(0/Co)
+     A: SkyrimOvercastRain(0/Co)
+   ('SN', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(0/Co)
+     A: SkyrimStormRain(0/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(10/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(10/Wi)
+     A: SkyrimOvercastSnow(10/Au) SkyrimOvercastSnow(10/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(50/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(50/Wi)
+     A: SkyrimStormSnow(50/Au) SkyrimStormSnow(50/Wi)
+====================================================================================================
+000F31:Helios.esp Helios_WhiterunDragonsreachWeather | ws WhiterunDragonsreachWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Helios_Astralite_Seasonal.esp
+   ('plain', 'Pleasant')
+     P: Helios_SkyrimCloudyTU(50/Co) Helios_SkyrimClearTU(40/Co)
+     A: Helios_SkyrimCloudyTU(50/Co) Helios_SkyrimClearTU(40/Co)
+   ('plain', 'PleasantA')
+     P: Helios_SkyrimClearTU_A(5/Co) Helios_SkyrimCloudyTU_A(5/Co)
+     A: Helios_SkyrimClearTU_A(5/Co) Helios_SkyrimCloudyTU_A(5/Co)
+====================================================================================================
+0029E5:Dawnguard.esm PIC_REGN_[SKYFVA_1.10]_Forgotten_Vale_Boss | ws DLC01FalmerValley | PIC Picta - Weathers of Skyrim.esp | PBR Dawnguard.esm
+   (None, None)
+     P: PIC_WTHR_MASTER_A01_Clear(10) PIC_WTHR_MASTER_A02_Clear_Aurora(5) PIC_WTHR_MASTER_A03_Clear_Mist(5) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5) PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5) PIC_WTHR_MASTER_C01_Cloudy(10) PIC_WTHR_MASTER_C02_Cloudy_Storm(5) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5) PIC_WTHR_MASTER_D01_Overcast(10) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5)
+     A: SkyrimClearTU(43) SkyrimCloudyTU(43) SkyrimClearTU_A(7) SkyrimCloudyTU_A(7)
+====================================================================================================
+005099:Dawnguard.esm PIC_REGN_[SKYFVA_1.10]_Forgotten_Vale_Grove | ws DLC01FalmerValley | PIC Picta - Weathers of Skyrim.esp | PBR Astralite ENB.esp
+   (None, None)
+     P: PIC_WTHR_MASTER_A01_Clear(10) PIC_WTHR_MASTER_A02_Clear_Aurora(5) PIC_WTHR_MASTER_A03_Clear_Mist(5) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5) PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5) PIC_WTHR_MASTER_C01_Cloudy(10) PIC_WTHR_MASTER_C02_Cloudy_Storm(5) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5) PIC_WTHR_MASTER_D01_Overcast(10) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5)
+     A: SkyrimOvercastSnow(10) SkyrimFog(50) Seasons_Fog(15) Seasons_CloudySnow(10) KarthspireRedoubtFog(10) SkyrimFogMA(5)
+====================================================================================================
+012DAD:Dawnguard.esm DLC01VampCastleStorm | ws Tamriel | PIC Picta - Weathers of Skyrim.esp | PBR Dawnguard.esm
+   (None, None)
+     P: VANILLA_ID_PIC_WTHR_MQ_Intro_Helgen_Scene(1) SkyrimOvercastSnow(99)
+     A: SkyrimOvercastSnow(99) SkyrimCloudy(1)
+====================================================================================================
+0168ED:LegacyoftheDragonborn.esm PassPassBoundary | ws PalePass | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(40/Co)
+     A: SkyrimFog(40/Co)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(0/Sp) PIC_WTHR_MASTER_C01_Cloudy(0/Co) PIC_WTHR_SUMMER_A01_Clear(0/Su) PIC_WTHR_MASTER_A01_Clear(0/Au) PIC_WTHR_MASTER_A01_Clear(0/Wi)
+     A: SkyrimClearSN(0/Co) SkyrimCloudySN(0/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(0/Sp) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(0/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(0/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(0/Wi)
+     A: SkyrimCloudySN_A(0/Co)
+   ('SN', 'Rain')
+     P: PIC_WTHR_MASTER_D03_Overcast_Rain_Light(0/Co)
+     A: SkyrimOvercastRain(0/Co)
+   ('SN', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(0/Co)
+     A: SkyrimStormRain(0/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(10/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(10/Wi)
+     A: SkyrimOvercastSnow(10/Au) SkyrimOvercastSnow(10/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(50/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(50/Wi)
+     A: SkyrimStormSnow(50/Au) SkyrimStormSnow(50/Wi)
+====================================================================================================
+018681:Dragonborn.esm PIC_REGN_[SKYSAT_1.11]_Solstheim_Volcanic_Ash_Tundra | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Astralite ENB.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: 
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: 
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+   (None, None)
+     P: 
+     A: SkyrimFogVT(5) DLC02VolcanicAsh01(25) DLC02VolcanicAsh02(25) DLC02VolcanicAshStorm01(25) DLC02VolcanicAsh01_A(15) DLC02VolcanicAsh02_A(15) DLC02VolcanicAsh03(10) DLC02VolcanicAshStorm02(10) SkyrimOvercastRainVT(5) DLC02VolcanicAsh05(10) DLC02VolcanicAsh04(10)
+====================================================================================================
+0191D2:Dawnguard.esm PIC_REGN_[SKYFVA_1.10]_Forgotten_Vale_Playground | ws DLC01FalmerValley | PIC Picta - Weathers of Skyrim.esp | PBR Dawnguard.esm
+   (None, None)
+     P: PIC_WTHR_MASTER_A01_Clear(10) PIC_WTHR_MASTER_A02_Clear_Aurora(5) PIC_WTHR_MASTER_A03_Clear_Mist(5) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5) PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5) PIC_WTHR_MASTER_C01_Cloudy(10) PIC_WTHR_MASTER_C02_Cloudy_Storm(5) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5) PIC_WTHR_MASTER_D01_Overcast(10) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5)
+     A: DLC1_SkyrimClearFV(30) DLC1_SkyrimCloudyFV(25) DLC1_SkyrimClearFV_A(20) SkyrimOvercastSnow(15) SkyrimStormSnow(10)
+====================================================================================================
+0191D3:Dawnguard.esm PIC_REGN_[SKYFVA_1.10]_Forgotten_Vale_Ice_Lake | ws DLC01FalmerValley | PIC Picta - Weathers of Skyrim.esp | PBR Astralite ENB.esp
+   (None, None)
+     P: PIC_WTHR_MASTER_A01_Clear(10) PIC_WTHR_MASTER_A02_Clear_Aurora(5) PIC_WTHR_MASTER_A03_Clear_Mist(5) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5) PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5) PIC_WTHR_MASTER_C01_Cloudy(10) PIC_WTHR_MASTER_C02_Cloudy_Storm(5) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5) PIC_WTHR_MASTER_D01_Overcast(10) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5)
+     A: SkyrimOvercastSnow(15) SkyrimStormSnow(5) DLC1_SkyrimCloudyFV_A(20) DLC1_SkyrimCloudyFV(15) DLC1_SkyrimClearFV(20) DLC1_SkyrimClearFV_A(25) Seasons_OvercastSnow(5) SkyrimStormSnowBlizzard(5) SkyrimFogCO(5)
+====================================================================================================
+019218:Dawnguard.esm [OTHER-NIRNLY] PICREGN - Soul Cairn - Castle Outskirts | ws DLC01SoulCairn | PIC Picta - Weathers of Skyrim.esp | PBR Astralite ENB.esp
+   (None, None)
+     P: None(100)
+     A: SoulCairnAmb01(5) SoulCairnBlood(15) SoulCairnAmb01_Rain(5) SoulCairnAmb03(5) SoulCairnAmb02(80)
+====================================================================================================
+019219:Dawnguard.esm [OTHER-NIRNLY] PICREGN - Soul Cairn - Wall Outskirts | ws DLC01SoulCairn | PIC Picta - Weathers of Skyrim.esp | PBR Astralite ENB.esp
+   (None, None)
+     P: None(100)
+     A: SoulCairnAmb01_Rain(5) SoulCairnAmb03(80) SoulCairnBlood(15) SoulCairnAmb02(5) SoulCairnAmb01(5)
+====================================================================================================
+01A880:Dawnguard.esm [UNIQUE] PICREGN - Forgotten Vale - Canyon | ws DLC01FalmerValley | PIC Picta - Weathers of Skyrim.esp | PBR Astralite ENB.esp
+   (None, None)
+     P: PIC_WTHR_MASTER_A01_Clear(10) PIC_WTHR_MASTER_A02_Clear_Aurora(5) PIC_WTHR_MASTER_A03_Clear_Mist(5) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5) PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5) PIC_WTHR_MASTER_C01_Cloudy(10) PIC_WTHR_MASTER_C02_Cloudy_Storm(5) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5) PIC_WTHR_MASTER_D01_Overcast(10) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5)
+     A: SkyrimOvercastSnow(25) SkyrimStormSnow(10) KarthspireRedoubtFog(5) SkyrimClearRE(20) SkyrimCloudyRE(20) SkyrimCloudyRE_A(5) SkyrimClearRE_A(10) SkyrimFogRE(5)
+====================================================================================================
+01EF70:Dragonborn.esm PIC_REGN_[SKYSAT_1.11]_Solstheim_Volcanic_Ash_Tundra_No_Precip | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Astralite ENB.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: 
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: 
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+   (None, None)
+     P: 
+     A: SkyrimFogFF(5) DLC02VolcanicAshTundra01_A(25) DLC02VolcanicSnow(15) DLC02VolcanicAshStorm02(5) DLC02VolcanicAsh03(10) DLC02VolcanicAsh04(5) DLC02VolcanicAsh05(15) DLC02VolcanicAsh05_A(15) DLC02VolcanicAshTundra02(30) DLC02VolcanicAshTundra02_A(15)
+====================================================================================================
+029F3B:Dragonborn.esm PIC_REGN_[SKYSST_1.12]_Solstheim_Snow_Tundra | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogMA(5/Wi)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(25/Co) SkyrimCloudySN(25/Co) DLC1_SkyrimClearFV(5/Su)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(10/Co) SkyrimClearSN_A(10/Co) DLC1_SkyrimClearFV_A(4/Su)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(10/Au) SkyrimStormSnow(10/Wi)
+====================================================================================================
+02A201:Dragonborn.esm PIC_REGN_[SKYSMC_1.13]_Solstheim_Mountain_Coast | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearCO(25/Co) SkyrimCloudyCO(25/Co) DLC1_SkyrimCloudyFV(5/Su) DLC1_SkyrimClearFV(5/Su)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyCO_A(10/Co) SkyrimClearCO_A(10/Co) DLC1_SkyrimCloudyFV_A(4/Su) DLC1_SkyrimClearFV_A(4/Su)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(10/Au) SkyrimOvercastSnow(10/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+====================================================================================================
+02A72D:Skyrim.esm PIC_REGN_[SKYFPF_1.01]_Pine_Forest_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFog(10/Co) RiftenOvercastFog(2/Sp)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi)
+     A: SkyrimClear(40/Co) SkyrimCloudy(20/Co) SkyrimClearFF(5/Co) SkyrimCloudyFF(4/Su)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi)
+     A: SkyrimCloudy_A(10/Co) SkyrimClear_A(20/Co) SkyrimCloudyFF_A(3/Su) SkyrimClearFF_A(4/Su)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au)
+     A: SkyrimOvercastRain(5/Co) SkyrimOvercastRainFF(2/Sp)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co)
+     A: SkyrimStormRain(5/Su) SkyrimStormRainFF(2/Sp)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+02ADC6:Dragonborn.esm PIC_REGN_[SKYSST_1.12]_Solstheim_Snow_Tundra_Heavy_Precip | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(5/Co)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(10/Co) SkyrimCloudySN(15/Co) SkyrimClearSN_A(5/Su) DLC1_SkyrimCloudyFV(5/Su)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(10/Co) DLC1_SkyrimCloudyFV_A(4/Su)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(55/Au) SkyrimOvercastSnow(55/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(15/Au) SkyrimStormSnow(15/Wi)
+====================================================================================================
+0374BC:Dragonborn.esm PIC_REGN_[SKYSAT_1.11]_Solstheim_Raven_Rock_No_Precip | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Astralite ENB.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: 
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: 
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+   (None, None)
+     P: 
+     A: DLC02VolcanicAsh01(20) DLC02VolcanicAsh02(20) DLC02VolcanicAsh01_A(30) DLC02VolcanicAsh02_A(30) DLC02VolcanicAsh03(10) DLC02VolcanicAsh05(10) DLC02VolcanicAsh05_A(10)
+====================================================================================================
+037562:Dragonborn.esm PIC_REGN_[SKYSST_1.12]_Solstheim_Skaal_Village | ws DLC2SolstheimWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(5/Wi)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimCloudySN(25/Co) SkyrimClearCO(4/Wi) SkyrimCloudyCO(5/Wi) SkyrimClearSN(5/Au)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(15/Co) SkyrimCloudyCO_A(3/Wi) SkyrimClearCO_A(4/Wi) SkyrimClearSN_A(4/Au)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(25/Au) SkyrimOvercastSnow(25/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(35/Au) SkyrimStormSnow(35/Wi)
+====================================================================================================
+048C2E:Skyrim.esm [UNIQUE] PICREGN - Blackreach [NO WIND] | ws Blackreach | PIC Picta - Weathers of Skyrim.esp | PBR Skyrim.esm
+   (None, None)
+     P: PIC_WTHR_MQ_Throat_Of_The_World(100)
+     A: BlackreachWeather(100)
+====================================================================================================
+04C563:Wyrmstooth.esp WyrmstoothRegion | ws WyrmstoothWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: Seasons_OvercastSnow(3/Au) SkyrimOvercastSnow(5/Au) Seasons_CloudySnow(3/Au) Seasons_OvercastSnow(3/Wi) SkyrimOvercastSnow(5/Wi) Seasons_CloudySnow(3/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+   (None, None)
+     P: WyrmstoothFog(60) WyrmstoothClear(20) WyrmstoothStormFog(20)
+     A: WyrmstoothStormFog(20) WyrmstoothClear(35) WyrmstoothFog(20) SkyrimFogCO(5) SkyrimFogMA(5) SkyrimFogRE(5) SkyrimFogFF(5) Seasons_Fog(5) SkyrimFog(5) KarthspireRedoubtFog(5)
+====================================================================================================
+04D7FD:Skyrim.esm PIC_REGN_[SKYSMT_1.09]_Snow_Mountains_Altitude_High | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(30/Co) SkyrimCloudySN(20/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(15/Co) SkyrimClearSN_A(20/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(40/Au) SkyrimOvercastSnow(40/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(10/Au) SkyrimStormSnow(10/Wi)
+====================================================================================================
+05FF97:BSHeartland.esm CYRWeatherBlackwood | ws None | PIC Beyond Skyrim Bruma - Universal Weather Compatibility.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: SunnyPF(10) VANILLA_ID_PIC_WTHR_MQ_Intro_Helgen_Scene(20) VANILLA_ID_PIC_WTHR_MQ_Intro_Cart_Scene(20) SkyrimOvercastRain(30) StormPF(25)
+     A: SkyrimClear(10) SkyrimCloudy(20) SkyrimFog(20) SkyrimOvercastRain(30) SkyrimStormRain(25)
+====================================================================================================
+060D00:BSHeartland.esm CYRWeatherGoldCoastInland | ws None | PIC Beyond Skyrim Bruma - Universal Weather Compatibility.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: SunnyPF_A(50) SunnyPF(50)
+     A: SkyrimClear_A(50) SkyrimClear(50)
+====================================================================================================
+060F3C:BSHeartland.esm CYRWeatherGoldCoast | ws None | PIC Authoria - Patch - Picta Seasonal.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   ('plain', 'Rain_Storm')
+     P: StormPF(10/Co)
+     A: 
+   (None, None)
+     P: SunnyPF_A(45) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(15) SkyrimCloudy_A(35)
+     A: SkyrimClear_A(45) SkyrimFog(15) SkyrimCloudy_A(35) SkyrimStormRain(10)
+====================================================================================================
+06255D:BSHeartland.esm CYRWeatherBravil | ws None | PIC Beyond Skyrim Bruma - Universal Weather Compatibility.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: SunnyFF_A(50) SunnyFF(50)
+     A: SkyrimClearFF_A(50) SkyrimClearFF(50)
+====================================================================================================
+062B55:BSHeartland.esm CYRWeatherGreatForestRedwood | ws BSHeartland | PIC Authoria - Patch - Picta Seasonal.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: SunnyPF(25) SunnyPF_A(25) PIC_WTHR_MASTER_C01_Cloudy(25) SkyrimCloudy_A(25)
+     A: SkyrimClear(25) SkyrimClear_A(25) SkyrimCloudy(25) SkyrimCloudy_A(25)
+====================================================================================================
+063102:BSHeartland.esm CYRWeatherBruma | ws BSHeartland | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(15/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(15/Wi)
+     A: SkyrimOvercastSnow(15/Au) SkyrimOvercastSnow(15/Wi)
+   (None, None)
+     P: PIC_WTHR_MASTER_C01_Cloudy(45) PIC_WTHR_MASTER_A01_Clear(35)
+     A: SkyrimCloudySN(45) SkyrimClearSN(35)
+====================================================================================================
+06311F:BSHeartland.esm CYRWeatherMountainsSnow | ws BSHeartland | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(15/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(15/Wi)
+     A: SkyrimOvercastSnow(15/Au) SkyrimOvercastSnow(15/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+   (None, None)
+     P: PIC_WTHR_MASTER_C01_Cloudy(45) PIC_WTHR_MASTER_A01_Clear(35)
+     A: SkyrimCloudySN(45) SkyrimClearSN(35)
+====================================================================================================
+069E2B:Skyrim.esm PIC_REGN_[SKYCOA_1.08]_Japhets_Folly_Altitude_Low | ws JaphetsFollyWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(50/Co)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: 
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: 
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi)
+     A: SkyrimOvercastSnow(35/Au) SkyrimOvercastSnow(35/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(15/Au) SkyrimStormSnow(15/Wi)
+====================================================================================================
+0703C2:Skyrim.esm PIC_REGN_[SKYSTU_1.07]_Windhelm_Altitude_Low | ws WindhelmWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(40/Co) SkyrimCloudySN(20/Co) SkyrimClearVT(4/Sp) SkyrimCloudyVT(5/Sp) DLC1_SkyrimCloudyFV(4/Su) DLC1_SkyrimClearFV(5/Su)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(10/Co) SkyrimClearSN_A(20/Co) SkyrimCloudyVT_A(3/Sp) SkyrimClearVT_A(4/Sp) DLC1_SkyrimCloudyFV_A(3/Su) DLC1_SkyrimClearFV_A(4/Su)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(25/Au) SkyrimOvercastSnow(25/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(10/Au) SkyrimStormSnow(10/Wi)
+====================================================================================================
+070408:Skyrim.esm PIC_REGN_[SKYWTU_1.04]_Whiterun_Altitude_Low | ws WhiterunWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearTU(40/Co) SkyrimCloudyTU(25/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyTU_A(10/Co) SkyrimClearTU_A(20/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainTU(5/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRainTU(5/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+07042A:Skyrim.esm PIC_REGN_[SKYRMT_1.05]_Soltiude_Altitude_High | ws SolitudeWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(5/Co) SkyrimFogMA(3/Wi)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClear(30/Co) SkyrimCloudy(15/Co) SkyrimClearMA(5/Wi) SkyrimCloudyMA(4/Wi) SkyrimClearCO(5/Sp) SkyrimCloudyCO(4/Sp)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudy_A(10/Co) SkyrimClear_A(20/Co) SkyrimCloudyMA_A(3/Wi) SkyrimClearMA_A(4/Wi) SkyrimCloudyCO_A(3/Sp) SkyrimClearCO_A(4/Sp)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRain(5/Co) SkyrimOvercastRainMA(3/Wi)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRain(5/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+07042E:Skyrim.esm PIC_REGN_[SKYRFF_1.02]_Riften_Altitude_Medium | ws RiftenWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: RiftenOvercastFog(15/Co) SkyrimFogFF(5/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearFF(40/Co) SkyrimCloudyFF(20/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyFF_A(10/Co) SkyrimClearFF_A(20/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainFF(5/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRainFF(5/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+07042F:Skyrim.esm PIC_REGN_[SKYRMT_1.05]_Markarth_Altitude_High | ws MarkarthWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogRE(10/Co) KarthspireRedoubtFog(5/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearRE(40/Co) SkyrimCloudyRE(20/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyRE_A(10/Co) SkyrimClearRE_A(20/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainRE(5/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+071E66:Skyrim.esm [DAEDRIC] PICREGN - Apocrypha [NO WIND] | ws DLC2ApocryphaWorld | PIC Picta - Weathers of Skyrim.esp | PBR Dragonborn.esm
+   (None, None)
+     P: DLC2ApocryphaWeatherNew(100)
+     A: DLC2ApocryphaWeatherNew(100)
+====================================================================================================
+07EA8D:BSHeartland.esm CYRWeatherNibenayValley | ws None | PIC Beyond Skyrim Bruma - Universal Weather Compatibility.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: SunnyPF_A(50) SunnyPF(50)
+     A: SkyrimClear_A(50) SkyrimClear(50)
+====================================================================================================
+07EA8E:BSHeartland.esm CYRWeatherMountains | ws None | PIC Authoria - Patch - Picta Seasonal.esp | PBR BSHeartland.esm
+   ('plain', 'Rain')
+     P: SkyrimOvercastRain(10/Sp) SkyrimOvercastRain(10/Su) SkyrimOvercastRain(10/Au)
+     A: 
+   (None, None)
+     P: PIC_WTHR_MASTER_C01_Cloudy(45) SunnyPF(35) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(10)
+     A: SkyrimCloudy(45) SkyrimClear(35) SkyrimFog(10) SkyrimOvercastRain(10)
+====================================================================================================
+07EE90:BSHeartland.esm CYRWeatherGreatForestNorth | ws BSHeartland | PIC Authoria - Patch - Picta Seasonal.esp | PBR BSHeartland.esm
+   ('plain', 'Rain')
+     P: RainFF(10/Sp) RainFF(10/Su) RainFF(10/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: StormFF(5/Co)
+     A: 
+   (None, None)
+     P: SkyrimCloudyFF(40) SunnyFF(30) FogFF(15)
+     A: SkyrimCloudyFF(40) SkyrimClearFF(30) SkyrimFogFF(15) SkyrimOvercastRainFF(10) SkyrimStormRainFF(5)
+====================================================================================================
+0886E5:BSHeartland.esm CYRWeatherGreatForestOaks | ws BSHeartland | PIC Beyond Skyrim Bruma - Universal Weather Compatibility.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: SunnyPF_A(50) SunnyPF(50)
+     A: SkyrimClear_A(50) SkyrimClear(50)
+====================================================================================================
+0C5852:Skyrim.esm PIC_REGN_[SKYNCO_1.08]_North_Coast_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(10/Co)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearCO(20/Co) SkyrimCloudyCO(35/Co) DLC1_SkyrimCloudyFV(5/Sp) DLC1_SkyrimClearFV(4/Sp)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyCO_A(20/Co) SkyrimClearCO_A(15/Co) DLC1_SkyrimCloudyFV_A(3/Sp) DLC1_SkyrimClearFV_A(4/Sp)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(10/Au) SkyrimOvercastSnow(10/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+====================================================================================================
+0C5853:Skyrim.esm PIC_REGN_[SKYSTU_1.07]_Snow_Tundra_Altitude_Medium | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(30/Co) SkyrimCloudySN(40/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(20/Co) SkyrimClearSN_A(15/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(35/Au) SkyrimOvercastSnow(35/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(10/Au) SkyrimStormSnow(10/Wi)
+====================================================================================================
+0C5854:Skyrim.esm PIC_REGN_[SKYEVT_1.06]_Volcanic Tundra_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogVT(10/Co) SkyrimFogMA(2/Wi) SkyrimFogFF(4/Su)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearVT(40/Co) SkyrimCloudyVT(30/Co) SkyrimClearMA(5/Wi) SkyrimCloudyMA(4/Wi)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyVT_A(10/Co) SkyrimClearVT_A(20/Co) SkyrimCloudyMA_A(3/Wi) SkyrimClearMA_A(4/Wi)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainVT(5/Co) SkyrimOvercastRainMA(3/Wi)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+0C5855:Skyrim.esm PIC_REGN_[SKYHMA_1.03]_Marsh_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogMA(20/Co) SkyrimFogCO(2/Wi)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearMA(40/Co) SkyrimCloudyMA(20/Co) SkyrimClearCO(5/Wi) SkyrimCloudyCO(4/Wi)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyMA_A(10/Co) SkyrimClearMA_A(20/Co) SkyrimCloudyCO_A(3/Wi) SkyrimClearCO_A(4/Wi)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainMA(10/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+0C5856:Skyrim.esm PIC_REGN_[SKYRMT_1.05]_Reach_Mountains_Altitude_High | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogRE(20/Co) SkyrimFog(5/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearRE(40/Co) SkyrimCloudyRE(20/Co) SkyrimClear(5/Co) SkyrimCloudy(4/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyRE_A(10/Co) SkyrimClearRE_A(20/Co) SkyrimCloudy_A(3/Co) SkyrimClear_A(4/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainRE(10/Co) SkyrimOvercastRain(5/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRain(2/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+0C5857:Skyrim.esm PIC_REGN_[SKYRFF_1.02]_Fall_Forest_Altitude_Medium | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogFF(5/Co) SkyrimFogRE(5/Wi)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearFF(40/Co) SkyrimCloudyFF(20/Co) SkyrimClearVT(5/Su) SkyrimCloudyVT(4/Su)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyFF_A(10/Co) SkyrimClearFF_A(20/Co) SkyrimCloudyVT_A(3/Su) SkyrimClearVT_A(4/Su)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainFF(5/Co) SkyrimOvercastRainTU(2/Wi)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRainFF(5/Co) SkyrimStormRainTU(2/Wi)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+0C5858:Skyrim.esm PIC_REGN_[SKYWTU_1.04]_Tundra_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogRE(2/Au)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearTU(40/Co) SkyrimCloudyTU(20/Co) SkyrimClearRE(5/Au) SkyrimCloudyRE(4/Au)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyTU_A(10/Co) SkyrimClearTU_A(20/Co) SkyrimCloudyRE_A(3/Au) SkyrimClearRE_A(4/Au)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainTU(5/Co) SkyrimOvercastRainRE(2/Au)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRainTU(5/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi)
+     A: SkyrimOvercastSnow(2/Au) SkyrimOvercastSnow(2/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(2/Au) SkyrimStormSnow(2/Wi)
+====================================================================================================
+0C8259:BSHeartland.esm CYRWeatherHighlands | ws None | PIC Authoria - Patch - Picta Seasonal.esp | PBR BSHeartland.esm
+   ('plain', 'Rain')
+     P: SkyrimOvercastRain(10/Sp) SkyrimOvercastRain(10/Su) SkyrimOvercastRain(10/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: StormPF(5/Co)
+     A: 
+   (None, None)
+     P: SkyrimCloudyVT(50) SunnyVT(20) FogVT(15)
+     A: SkyrimCloudyVT(50) SkyrimClearVT(20) SkyrimFogVT(15) SkyrimOvercastRain(10) SkyrimStormRain(5)
+====================================================================================================
+0CC25C:BSHeartland.esm CYRdunFrostfireGladeWeatherNormal | ws CYRFrostfireGlade | PIC Authoria - Patch - Picta Seasonal.esp | PBR Beyond Skyrim Bruma - Universal Weather Compatibility.esp
+   (None, None)
+     P: PIC_WTHR_MASTER_C01_Cloudy(25) SkyrimCloudy_A(25) SunnyPF(25) SunnyPF_A(25)
+     A: SkyrimCloudy(25) SkyrimCloudy_A(25) SkyrimClear(25) SkyrimClear_A(25)
+====================================================================================================
+0CC25D:BSHeartland.esm CYRdunFrostfireGladeWeatherSnow | ws CYRFrostfireGlade | PIC BSHeartland.esm | PBR BSHeartland.esm
+   (None, None)
+     P: VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar(100)
+     A: SkyrimStormSnow(100)
+====================================================================================================
+0CC4CA:BSHeartland.esm CYRdunFrostfireGladeWeatherNormalDUPLICATE001 | ws CYRFrostfireGlade | PIC BSHeartland.esm | PBR BSHeartland.esm
+   (None, None)
+     P: SkyrimCloudyFF(50) FogFF(30) RainFF(20)
+     A: SkyrimCloudyFF(50) SkyrimFogFF(30) SkyrimOvercastRainFF(20)
+====================================================================================================
+0CC4CB:BSHeartland.esm CYRdunFrostfireGladeWeatherSnowDUPLICATE001 | ws CYRFrostfireGlade | PIC BSHeartland.esm | PBR BSHeartland.esm
+   (None, None)
+     P: VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar(100)
+     A: SkyrimStormSnow(100)
+====================================================================================================
+0D2A40:Skyrim.esm Region206DUPLICATE000 | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(30/Sp) PIC_WTHR_SUMMER_A01_Clear(30/Su) PIC_WTHR_MASTER_A01_Clear(30/Au) PIC_WTHR_MASTER_A01_Clear(30/Wi)
+     A: SkyrimClear(30/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(70/Co)
+     A: SkyrimStormRain(70/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(0/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(0/Wi)
+     A: SkyrimOvercastSnow(0/Au) SkyrimOvercastSnow(0/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(0/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(0/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+1046C7:Skyrim.esm PIC_REGN_[SKYEVT_1.06]_Volcanic Tundra_No_Precip_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogVT(20/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearVT(35/Co) SkyrimCloudyVT(35/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyVT_A(5/Co) SkyrimClearVT_A(5/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+1046C8:Skyrim.esm PIC_REGN_[SKYHMA_1.03]_Marsh_No_Precip_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogMA(28/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearMA(18/Co) SkyrimCloudyMA(44/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyMA_A(5/Co) SkyrimClearMA_A(5/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+1046C9:Skyrim.esm PIC_REGN_[SKYWTU_1.04]_Tundra_No_Precip_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearTU(35/Co) SkyrimCloudyTU(45/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyTU_A(10/Co) SkyrimClearTU_A(10/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+1046CA:Skyrim.esm PIC_REGN_[SKYSTU_1.07]_Snow_Tundra_No_Precip_Altitude_Medium | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(40/Co) SkyrimCloudySN(50/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(5/Co) SkyrimClearSN_A(5/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: 
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+1046CB:Skyrim.esm PIC_REGN_[SKYSMT_1.09]_Snow_Mountains_No_Precip_Altitude_High | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(40/Co) SkyrimCloudySN(50/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(5/Co) SkyrimClearSN_A(5/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: 
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+1046CC:Skyrim.esm PIC_REGN_[SKYRFF_1.02]_Fall_Forest_No_Precip_Altitude_Medium | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogFF(10/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearFF(40/Co) SkyrimCloudyFF(40/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyFF_A(5/Co) SkyrimClearFF_A(5/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+10474D:Skyrim.esm PIC_REGN_[SKYFPF_1.01]_Falkreath_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFog(15/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClear(40/Co) SkyrimCloudy(20/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudy_A(10/Co) SkyrimClear_A(20/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRain(15/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRain(5/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(2/Au) SkyrimOvercastSnow(2/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+10474E:Skyrim.esm [UNIQUE] PICREGN - Darklight Tower [NO WIND] | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(25/Co)
+     A: SkyrimFogFF(25/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_D03_Overcast_Rain_Light(30/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(30/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(30/Au)
+     A: SkyrimOvercastRainFF(30/Co)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(25/Co)
+     A: SkyrimStormRainFF(25/Co)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(20/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(20/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+104AB3:Skyrim.esm WeatherSkuldafn | ws SkuldafnWorld | PIC Picta - Weathers of Skyrim.esp | PBR Skyrim.esm
+   (None, None)
+     P: SkuldafnCloudy(100)
+     A: SkuldafnCloudy(100)
+====================================================================================================
+105F3F:Skyrim.esm WeatherDA02 | ws Tamriel | PIC Picta - Weathers of Skyrim.esp | PBR Skyrim.esm
+   (None, None)
+     P: SkyrimDA02Weather(100)
+     A: SkyrimDA02Weather(100)
+====================================================================================================
+106631:Skyrim.esm WeatherKarthspireRedoubt | ws KarthspireRedoubtWorld | PIC Picta - Weathers of Skyrim.esp | PBR Astralite ENB.esp
+   (None, None)
+     P: KarthspireRedoubtFog(100)
+     A: KarthspireRedoubtFog(82) SkyrimStormRainTU(2) SkyrimOvercastRain(2) SkyrimOvercastRainMA(2) SkyrimStormRain(2) SkyrimOvercastRainRE(2) SkyrimOvercastRainTU(2) SkyrimStormRainFF(2) SkyrimOvercastRainFF(2) SkyrimStormRainRE(2) JawzSkyrimStormRain(2)
+====================================================================================================
+106632:Skyrim.esm WeatherFallowstone | ws FallowstoneCaveWorldEnd | PIC Lux.esp | PBR Lux.esp
+   (None, None)
+     P: FallowstoneClearSN(100)
+     A: FallowstoneClearSN(100)
+====================================================================================================
+106634:Skyrim.esm PIC_REGN_[SKYSTU_1.07]_Deepwood_Redoubt_Altitude_Low | ws DeepwoodRedoubtWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimCloudySN(30/Co) SkyrimClearSN(20/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(5/Co) SkyrimClearSN_A(5/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(35/Au) SkyrimOvercastSnow(35/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+====================================================================================================
+106667:Skyrim.esm PIC_REGN_[SKYSMT_1.09]_Labyrinthian_Altitude_High | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(15/Co)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: 
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyCO_A(5/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi)
+     A: SkyrimOvercastSnow(70/Au) SkyrimOvercastSnow(70/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(10/Au) SkyrimStormSnow(10/Wi)
+====================================================================================================
+106668:Skyrim.esm WeatherLabyrinthianMaze | ws LabyrinthianMazeWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(15/Co)
+     A: SkyrimFogCO(15/Co)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyCO_A(5/Co)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_D05_Overcast_Snow_Light(70/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(70/Wi)
+     A: SkyrimOvercastSnow(70/Au) SkyrimOvercastSnow(70/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(10/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(10/Wi)
+     A: SkyrimStormSnow(10/Au) SkyrimStormSnow(10/Wi)
+====================================================================================================
+10AFC5:Skyrim.esm PIC_REGN_[SKYWTU_1.04]_Dragonsreach_Altitude_Medium | ws WhiterunDragonsreachWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimCloudyTU(50/Co) SkyrimClearTU(40/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimClearTU_A(5/Co) SkyrimCloudyTU_A(5/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: 
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi)
+     A: 
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+10FDC5:Skyrim.esm PIC_REGN_[SKYRFF_1.02]_Rifen_Outskirts_Altitude_Medium | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('plain', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: RiftenOvercastFog(10/Co) SkyrimFogFF(10/Co)
+   ('plain', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearFF(40/Co) SkyrimCloudyFF(20/Co) SkyrimClearVT(5/Su) SkyrimCloudyVT(4/Su) SkyrimCloudyFF_A(10/Co)
+   ('plain', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudyVT_A(3/Su) SkyrimClearVT_A(4/Su) SkyrimClearFF_A(20/Co)
+   ('plain', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Sp) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Su) PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Au) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Sp) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Su) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Au) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Sp) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Su) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Au)
+     A: SkyrimOvercastRainTU(2/Wi)
+   ('plain', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: SkyrimStormRainFF(5/Co) SkyrimOvercastRainFF(5/Co) SkyrimStormRainTU(2/Wi)
+   ('plain', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(20/Au) SkyrimOvercastSnow(20/Wi)
+   ('plain', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(0/Au) SkyrimStormSnow(0/Wi)
+====================================================================================================
+10FDC6:Skyrim.esm PIC_REGN_[SKYSTU_1.07]_Winterhold_College_Altitude_High | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: 
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: SkyrimClearSN(20/Co) SkyrimCloudySN(30/Co) DLC1_SkyrimCloudyFV_A(3/Su) DLC1_SkyrimClearFV(4/Su) DLC1_SkyrimClearFV_A(4/Su)
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: SkyrimCloudySN_A(20/Co) SkyrimClearSN_A(10/Co) DLC1_SkyrimCloudyFV(5/Su)
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi)
+     A: SkyrimOvercastSnow(35/Au) SkyrimOvercastSnow(35/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(30/Au) SkyrimStormSnow(30/Wi)
+====================================================================================================
+10FE79:Skyrim.esm PIC_REGN_[SKYNCO_1.08]_Solitude_Lighthouse_Altitude_Low | ws Tamriel | PIC Authoria - Patch - Picta Seasonal.esp | PBR Seasonal Weathers Framework - Astralite Weathers.esp
+   ('SN', 'Overcast')
+     P: PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog(5/Co) PIC_WTHR_MASTER_C03_Cloudy_Light_Fog(5/Co) PIC_WTHR_MASTER_D01_Overcast(10/Co) PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog(5/Co)
+     A: SkyrimFogCO(100/Co) SkyrimFog(10/Co) KarthspireRedoubtFog(10/Au) SkyrimFogMA(10/Wi) SkyrimFogRE(10/Sp) RiftenOvercastFog(10/Su)
+   ('SN', 'Pleasant')
+     P: PIC_WTHR_MASTER_A01_Clear(10/Sp) PIC_WTHR_MASTER_A03_Clear_Mist(5/Sp) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Sp) PIC_WTHR_MASTER_C01_Cloudy(10/Co) PIC_WTHR_MASTER_C02_Cloudy_Storm(5/Co) PIC_WTHR_SUMMER_A01_Clear(10/Su) PIC_WTHR_MASTER_A01_Clear(10/Au) PIC_WTHR_MASTER_A01_Clear(10/Wi) PIC_WTHR_SUMMER_A03_Clear_Mist(5/Su) PIC_WTHR_MASTER_A03_Clear_Mist(5/Au) PIC_WTHR_MASTER_A03_Clear_Mist(5/Wi) PIC_WTHR_SUMMER_B01_Lightly_Cloudy(5/Su) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Au) PIC_WTHR_MASTER_B01_Lightly_Cloudy(5/Wi)
+     A: 
+   ('SN', 'PleasantA')
+     P: PIC_WTHR_MASTER_A02_Clear_Aurora(5/Sp) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Sp) PIC_WTHR_SUMMER_A02_Clear_Aurora(5/Su) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Au) PIC_WTHR_MASTER_A02_Clear_Aurora(5/Wi) PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora(5/Su) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Au) PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora(5/Wi)
+     A: 
+   ('SN', 'Rain')
+     P: PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light(5/Co) PIC_WTHR_MASTER_D03_Overcast_Rain_Light(5/Co) PIC_WTHR_MASTER_D04_Overcast_Rain_Medium(5/Co)
+     A: 
+   ('SN', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E01_Storm_Thunder(5/Co) PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(5/Co) PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder(5/Co)
+     A: 
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: 
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E02_Storm_Cold_Thunder(5/Wi) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: 
+====================================================================================================
+10FF20:Skyrim.esm SovngardeIntWeather | ws Sovngarde | PIC Picta - Weathers of Skyrim.esp | PBR Skyrim.esm
+   (None, None)
+     P: SovngardeDark(100)
+     A: SovngardeDark(100)
+====================================================================================================
+57654E:Wyrmstooth.esp WyrmstoothMarsh | ws WyrmstoothWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Rain')
+     P: PIC_WTHR_MASTER_D03_Overcast_Rain_Light(10/Co)
+     A: 
+   ('SN', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(10/Co)
+     A: 
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(5/Au) Seasons_OvercastSnow(3/Au) Seasons_CloudySnow(3/Au) SkyrimOvercastSnow(5/Wi) Seasons_OvercastSnow(3/Wi) Seasons_CloudySnow(3/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+   (None, None)
+     P: WyrmstoothStormFog(60) WyrmstoothFog(20)
+     A: SkyrimFog(5) SkyrimOvercastRainMA(5) SkyrimFogMA(5) SkyrimStormRainTU(5) Seasons_Fog(5) WyrmstoothStormFog(25) WyrmstoothClear(30) WyrmstoothFog(25) Seasons_CloudyRain(3) JawzSkyrimStormRain(2)
+====================================================================================================
+57654F:Wyrmstooth.esp WyrmstoothSteampools | ws WyrmstoothWorld | PIC Wyrmstooth.esp | PBR Wyrmstooth-Astralite-Weather-Patch.esp
+   (None, None)
+     P: WyrmstoothClear(100)
+     A: SkyrimStormRainFF(5) SkyrimOvercastRainFF(5) SkyrimFogFF(5) SkyrimOvercastRainVT(5) SkyrimFogVT(5) WyrmstoothClear(50) DLC02VolcanicAshTundra01(5) DLC02VolcanicAsh02(5) DLC02VolcanicAsh02_A(5) DLC02VolcanicAsh01_A(5) DLC02VolcanicSnow(5) JawzSkyrimStormRain(2)
+====================================================================================================
+58CB3B:Wyrmstooth.esp WyrmstoothForest | ws WyrmstoothWorld | PIC Authoria - Patch - Picta Seasonal.esp | PBR Authoria - Patch - Snowy Holds Seasonal Snowfall.esp
+   ('SN', 'Rain')
+     P: PIC_WTHR_MASTER_D03_Overcast_Rain_Light(10/Co)
+     A: 
+   ('SN', 'Rain_Storm')
+     P: PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder(10/Co)
+     A: 
+   ('SN', 'Snow')
+     P: PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Au) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Au) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Au) PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light(5/Wi) PIC_WTHR_MASTER_D05_Overcast_Snow_Light(5/Wi) PIC_WTHR_MASTER_D06_Overcast_Snow_Medium(5/Wi)
+     A: SkyrimOvercastSnow(5/Au) Seasons_OvercastSnow(3/Au) Seasons_CloudySnow(3/Au) SkyrimOvercastSnow(5/Wi) Seasons_OvercastSnow(3/Wi) Seasons_CloudySnow(3/Wi)
+   ('SN', 'Snow_Storm')
+     P: PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Au) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Au) PIC_WTHR_MASTER_E05_Storm_Snow_Heavy(5/Wi) PIC_WTHR_MASTER_E06_Storm_Snow_Extreme(5/Wi)
+     A: SkyrimStormSnow(5/Au) SkyrimStormSnow(5/Wi)
+   (None, None)
+     P: WyrmstoothFog(50) WyrmstoothStormFog(20) WyrmstoothClear(10)
+     A: SkyrimOvercastRain(5) SkyrimStormRain(4) WyrmstoothStormFog(20) WyrmstoothClear(35) WyrmstoothFog(20) SkyrimOvercastRainRE(5) SkyrimFog(5) SkyrimFogRE(5) KarthspireRedoubtFog(5) SkyrimStormRainRE(4) Seasons_CloudyRain(3) JawzSkyrimStormRain(2)

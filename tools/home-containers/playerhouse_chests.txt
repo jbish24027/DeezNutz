@@ -1,0 +1,163 @@
+;Player-house safe-storage chests (every reference of a *PlayerHouse* chest base), profile DEEZ CS NUTZ - PBR, 2026-09-06
+;[temporary] = the mod cannot reach it while that cell is unloaded until it is flagged persistent. [SPACES] = plugin name has spaces, cannot be linked.
+;-- 0kaidan.esp | aaAutumnwatchLodge | Autumnwatch Lodge
+0x24983F~0Kaidan.esp  ;PlayerHouseChest in Autumnwatch Lodge  [temporary]
+0x24E876~0Kaidan.esp  ;PlayerHouseChest in Autumnwatch Lodge  [temporary]
+0x24E877~0Kaidan.esp  ;PlayerHouseChest in Autumnwatch Lodge  [temporary]
+;-- bsheartland.esm | CYRBrumaBasementPlayerHouse | White Pine Lodge Basement
+0x06FF3A~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge Basement  [temporary]
+0x06FF46~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge Basement  [temporary]
+0x0D5565~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge Basement  [temporary]
+;-- bsheartland.esm | CYRBrumaJerallViewInnBasement | Jerall View Inn Basement
+0x079EF3~BSHeartland.esm  ;PlayerHouseChest in Jerall View Inn Basement  [temporary; owner bsheartland.esm:0039FE]
+;-- bsheartland.esm | CYRBrumaSynodBasement | Bruma Synod Basement
+0x06EBF5~BSHeartland.esm  ;PlayerHouseChest in Bruma Synod Basement  [temporary; owner bsheartland.esm:065097]
+;-- bsheartland.esm | CYRBrumaWhitePineLodge | White Pine Lodge
+0x068187~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge  [temporary]
+0x068269~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge  [temporary]
+0x0682B3~BSHeartland.esm  ;CYR_PlayerHouseSatchel in White Pine Lodge  [temporary]
+0x0682B4~BSHeartland.esm  ;CYR_PlayerHouseSatchel in White Pine Lodge  [temporary]
+0x06830E~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge  [temporary]
+0x0D5558~BSHeartland.esm  ;PlayerHouseChest in White Pine Lodge  [temporary]
+;-- dawnguard.esm | DLC1DawnguardHQ01 | Fort Dawnguard
+0x000BD6~ClefJ's Fort Dawnguard.esp  ;PlayerHouseChest in Fort Dawnguard  [temporary; SPACES]
+0x000BD9~ClefJ's Fort Dawnguard.esp  ;PlayerHouseChest in Fort Dawnguard  [temporary; SPACES]
+0x000BDA~ClefJ's Fort Dawnguard.esp  ;PlayerHouseChest in Fort Dawnguard  [temporary; SPACES]
+0x000C06~ClefJ's Fort Dawnguard.esp  ;PlayerHouseChest in Fort Dawnguard  [temporary; SPACES]
+0x000C69~ClefJ's Fort Dawnguard.esp  ;PlayerHouseChest in Fort Dawnguard  [temporary; initially disabled, enable parent; SPACES]
+0x000F99~JK's Fort Dawnguard.esp  ;PlayerHouseChest in Fort Dawnguard  [temporary; SPACES]
+;-- dawnguard.esm | DLC1VampireCastleGuildhall | Volkihar Keep
+0x02C2E8~unofficial skyrim special edition patch.esp  ;PlayerHouseChest in Volkihar Keep  [SPACES]
+;-- dragonborn.esm | DLC2TelMithryn | Tel Mithryn
+0x002EB0~unofficial skyrim special edition patch.esp  ;UDBPOldFriendsPlayerHouseChest in Tel Mithryn  [temporary; initially disabled, enable parent; SPACES]
+;-- gray fox cowl.esm | mannyGFIntBenEraiPlayerHome | Moonlight Home
+0x03C3CA~Gray Fox Cowl.esm  ;PlayerHouseChest in Moonlight Home  [temporary; SPACES]
+0x0435E5~Gray Fox Cowl.esm  ;PlayerHouseChest in Moonlight Home  [temporary; SPACES]
+;-- gray fox cowl.esm | mannyGFIntSevianaHouse | Seviana's House
+0x01E5EB~Gray Fox Cowl.esm  ;PlayerHouseChest in Seviana's House  [temporary; SPACES]
+0x01E5EC~Gray Fox Cowl.esm  ;PlayerHouseChest in Seviana's House  [temporary; SPACES]
+0x01E5ED~Gray Fox Cowl.esm  ;PlayerHouseChest in Seviana's House  [temporary; SPACES]
+;-- gray fox cowl.esm | mannyGFIntShantaFilibb01 | Shanta Filibb Home
+0x050CC9~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Home  [temporary; SPACES]
+0x050CD3~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Home  [temporary; SPACES]
+0x050CE5~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Home  [temporary; SPACES]
+0x050CE6~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Home  [temporary; SPACES]
+;-- gray fox cowl.esm | mannyGFIntShantaFilibb02 | Shanta Filibb Cellar
+0x050D6F~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050D71~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050D78~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050D7F~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050D80~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050DCF~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050DD6~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x050DD7~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+0x05B912~Gray Fox Cowl.esm  ;PlayerHouseChest in Shanta Filibb Cellar  [temporary; SPACES]
+;-- gray fox cowl.esm | mannyGFShantaFilibb01 | 
+0x050C7F~Gray Fox Cowl.esm  ;PlayerHouseChest in mannyGFShantaFilibb01  [temporary; SPACES]
+;-- hearthfires.esm | BYOHHouse1Falkreath | Lakeview Manor
+0x00309E~HearthFires.esm  ;PlayerHouseChest in Lakeview Manor
+;-- hearthfires.esm | BYOHHouse2Hjaalmarch | Windstad Manor
+0x01205B~HearthFires.esm  ;PlayerHouseChest in Windstad Manor
+;-- hearthfires.esm | BYOHHouse3Pale | Heljarchen Hall
+0x016E04~HearthFires.esm  ;PlayerHouseChest in Heljarchen Hall
+;-- hearthfires.esm | BYOHHouseUtilityCell | 
+0x0030AD~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x0030AE~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x0030AF~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003102~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003103~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B16~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B17~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B18~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B19~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B1A~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B1B~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B1C~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B1D~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B1E~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x003B1F~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE29~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE2A~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE2B~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE2C~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE2D~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE2E~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE2F~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE30~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE31~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE32~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE34~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x00BE35~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC1~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC2~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC3~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC4~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC5~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC6~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC7~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC8~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FC9~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FCA~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FCB~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+0x010FCC~HearthFires.esm  ;PlayerHouseChest in BYOHHouseUtilityCell
+;-- kaidan - immersive features.esp | KaiTentCell | Kaidan's Tent
+0x6363F7~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xB3E0D4~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [temporary; SPACES]
+0xC9CD7D~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904D9~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904DA~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904DB~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904DC~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904DD~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904DE~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904DF~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904E0~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xD904E1~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xF2447B~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+0xF9F286~Kaidan - Immersive Features.esp  ;PlayerHouseChest in Kaidan's Tent  [SPACES]
+;-- legacyofthedragonborn.esm | DBMAirshipCabin | Dev Aveza Cabin
+0x01C4A7~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary; owner legacyofthedragonborn.esm:34D536]
+0x01C4A8~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary; owner legacyofthedragonborn.esm:3DCEB3]
+0x0A956D~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary; owner legacyofthedragonborn.esm:3AF18E]
+0x0A956E~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary; owner legacyofthedragonborn.esm:12537E]
+0x0A956F~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary]
+0x0A9570~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary; owner legacyofthedragonborn.esm:35CC27]
+0x0A9571~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary]
+0x0A9572~LegacyoftheDragonborn.esm  ;PlayerHouseChest in Dev Aveza Cabin  [temporary; owner legacyofthedragonborn.esm:34D50C]
+;-- outfitwheeler.esp | OutfitWheeler_HoldingCell | 
+0x000800~OutfitWheeler.esp  ;PlayerHouseChest in OutfitWheeler_HoldingCell
+;-- skyrim.esm |  | 
+0x000E26~ccvsvsse004-beafarmer.esl  ;PlayerHouseChest in 
+;-- skyrim.esm | AAADeleteWhenDoneTestJeremy | TestTony
+0x36B36A~Kaidan - Immersive Features.esp  ;PlayerHouseChest in TestTony  [SPACES]
+0x36B374~Kaidan - Immersive Features.esp  ;PlayerHouseChest in TestTony  [SPACES]
+;-- skyrim.esm | MarkarthVlindrelHall | Vlindrel Hall
+0x077CAB~Skyrim.esm  ;PlayerHouseChest in Vlindrel Hall  [temporary]
+;-- skyrim.esm | QASmoke | Editor Smoke Test Cell
+0x000A7C~TheGiftofSaturalia.esp  ;PlayerHouseChest in Editor Smoke Test Cell
+;-- skyrim.esm | RiftenHoneyside | Honeyside
+0x0D721E~Skyrim.esm  ;PlayerHouseChest in Honeyside  [temporary]
+;-- skyrim.esm | SolitudeBardsCollege | Bards College
+0x0A8604~BardsRebornStudentofSong.esp  ;PlayerHouseChest in Bards College  [temporary]
+;-- skyrim.esm | SolitudeProudspireManor | Proudspire Manor
+0x09DA07~Skyrim.esm  ;PlayerHouseChest in Proudspire Manor  [temporary]
+;-- skyrim.esm | WhiterunBreezehome | Breezehome
+0x004265~HearthFires.esm  ;PlayerHouseChest in Breezehome
+0x0F3922~Skyrim.esm  ;PlayerHouseChest in Breezehome  [temporary]
+0x10EB84~Skyrim.esm  ;PlayerHouseChest in Breezehome
+;-- skyrim.esm | WindhelmHjerim | Hjerim
+0x0DF5AC~Skyrim.esm  ;PlayerHouseChest in Hjerim  [temporary]
+;-- src - all in one.esp | RiversideShackCellar01 | Cellar
+0x00155F~SRC - All In One.esp  ;PlayerHouseChest in Cellar  [temporary; SPACES]
+0x001560~SRC - All In One.esp  ;PlayerHouseChest in Cellar  [temporary; SPACES]
+;-- talos' tease.esp | TalosTease | Talos' Tease
+0x7AE2DF~Talos' Tease.esp  ;PlayerHouseChest in Talos' Tease  [temporary; SPACES]
+0x8505A5~Talos' Tease.esp  ;PlayerHouseChest in Talos' Tease  [temporary; SPACES]
+;-- the great village of kynesgrove.esp | KynesgroveKynesbyTGCoKG | Kynesby
+0x0FEAD8~The Great Village of Kynesgrove.esp  ;PlayerHouseChest in Kynesby  [temporary; SPACES]
+0x0FEADD~The Great Village of Kynesgrove.esp  ;PlayerHouseChest in Kynesby  [temporary; SPACES]
+;-- unslaad.esm | CrbLizzTower00 | 
+0x1AFD4E~Unslaad.esm  ;PlayerHouseChest in CrbLizzTower00  [temporary]
+;-- update.esm | ccVSVSSE004FarmhouseInterior | Goldenhills Plantation
+0x000955~ccvsvsse004-beafarmer.esl  ;PlayerHouseChest in Goldenhills Plantation  [temporary; owner cc farming - tweaks and enhancements.esp:000A12]
+0x0009F8~ccvsvsse004-beafarmer.esl  ;PlayerHouseChest in Goldenhills Plantation  [temporary; owner cc farming - tweaks and enhancements.esp:000A12]

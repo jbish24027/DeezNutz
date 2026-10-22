@@ -1,0 +1,10 @@
+== DarkElf m: outfit_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R 103/11/ 25   sprint L  77/ 0/ 24   walk R  69/ 6/ 38   walk L  73/ 0/ 36
+   curled in (limit)      sprint R  90/ 1/ 75   sprint L 110/ 1/ 99   walk R 120/ 2/ 77   walk L 110/ 1/ 94
+   swung back .3/.15      sprint R 140/ 7/ 44   sprint L 128/12/ 55   walk R 127/ 7/ 73   walk L 106/10/ 52
+   swung forward .3/.15   sprint R  77/ 5/ 31   sprint L 114/ 0/ 85   walk R  66/ 0/ 18   walk L  70/ 0/ 17
+   swung sideways .3/.15  sprint R  44/ 0/ 36   sprint L  57/ 0/ 38   walk R  49/ 0/ 26   walk L  55/ 0/ 24
+   total caught/hooked/sunk 1785/63/967; lining pts Front 134, Back 260, Side 296
+
+EXIT 0

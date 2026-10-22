@@ -1,0 +1,35 @@
+== men _1: torso_1.nif
+  ok   TorsoRig: welded remainder area 9732.6 vs the source minus its pieces 9732.6 (68 of 68 split triangles tiled exactly by their children; 68 weld points)
+  ok   TorsoRig: split into 4 per triangle, area 13012.1 vs 13012.1
+  ok   HIMBO - Body: 1362 triangles, kept 1362 in ['HIMBO - Body'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 71
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\BlacksmithM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / TorsoRig: 136 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 48%, of those on 2 chains 82%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: torso_0.nif
+  ok   TorsoRig: welded remainder area 9338.4 vs the source minus its pieces 9338.4 (68 of 68 split triangles tiled exactly by their children; 68 weld points)
+  ok   TorsoRig: split into 4 per triangle, area 12613.9 vs 12613.9
+  ok   HIMBO - Body: 1362 triangles, kept 1362 in ['HIMBO - Body'], duplicated 0
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 71
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\BlacksmithM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / TorsoRig: 136 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

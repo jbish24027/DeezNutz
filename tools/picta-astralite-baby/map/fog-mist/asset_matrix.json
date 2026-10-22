@@ -1,0 +1,3300 @@
+[
+ {
+  "path": "meshes/dlc02/effects/apocryphasky.nif",
+  "cls": "",
+  "picta_win": "BSA:Skyrim - Meshes0.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "5cb849fa"
+  }
+ },
+ {
+  "path": "meshes/dlc02/effects/apocryphaskynew.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "3703dfe5"
+  }
+ },
+ {
+  "path": "meshes/effects/ambient/fxmistlow01long.nif",
+  "cls": "",
+  "picta_win": "LUX",
+  "pbr_win": "LUX",
+  "picta_loose": [
+   "LUX",
+   "P4K",
+   "P111",
+   "MoT"
+  ],
+  "pbr_loose": [
+   "LUX",
+   "SC",
+   "MoT"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "MoT": "d277fb3a",
+   "SC": "d277fb3a",
+   "P4K": "345dd360",
+   "LUX": "055feafa",
+   "P111": "345dd360"
+  }
+ },
+ {
+  "path": "meshes/effects/ambient/fxsmokewispslgvol01.nif",
+  "cls": "",
+  "picta_win": "LUX",
+  "pbr_win": "LUX",
+  "picta_loose": [
+   "LUX",
+   "MoT"
+  ],
+  "pbr_loose": [
+   "LUX",
+   "SC",
+   "MoT"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Particle Patch.bsa [Particle Patch] (lo#1122)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Particle Patch.bsa [Particle Patch] (lo#1120)"
+  ],
+  "md5": {
+   "MoT": "2905d1de",
+   "SC": "2905d1de",
+   "LUX": "0cf7af35"
+  }
+ },
+ {
+  "path": "meshes/effects/distant_mounts_heavy.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "7e0ab1e0"
+  }
+ },
+ {
+  "path": "meshes/effects/distant_mounts_heavy_up.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "48f642cb"
+  }
+ },
+ {
+  "path": "meshes/effects/distant_mounts_lite.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "1ab647ca"
+  }
+ },
+ {
+  "path": "meshes/effects/distant_mounts_lite_2.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "5614bc26"
+  }
+ },
+ {
+  "path": "meshes/effects/distant_mounts_rain.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "1127be65"
+  }
+ },
+ {
+  "path": "meshes/effects/distant_rain.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "3bb9ffd2"
+  }
+ },
+ {
+  "path": "meshes/effects/fxcameraattachblowingfog.nif",
+  "cls": "",
+  "picta_win": "NMBF",
+  "pbr_win": "NMBF",
+  "picta_loose": [
+   "NMBF",
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "NMBF",
+   "AW"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Particle Patch.bsa [Particle Patch] (lo#1122)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Particle Patch.bsa [Particle Patch] (lo#1120)"
+  ],
+  "md5": {
+   "NMBF": "51338bc0",
+   "P4K": "d3293f54",
+   "AW": "527a1e4c",
+   "P111": "d3293f54"
+  }
+ },
+ {
+  "path": "meshes/effects/fxcameraattachfog.nif",
+  "cls": "",
+  "picta_win": "NMBF",
+  "pbr_win": "NMBF",
+  "picta_loose": [
+   "NMBF",
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "NMBF",
+   "SC"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Particle Patch.bsa [Particle Patch] (lo#1122)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Particle Patch.bsa [Particle Patch] (lo#1120)"
+  ],
+  "md5": {
+   "SC": "7b2b4720",
+   "NMBF": "7b2b4720",
+   "P4K": "c1ab1c96",
+   "P111": "c1ab1c96"
+  }
+ },
+ {
+  "path": "meshes/effects/fxcameraattachgroundfog.nif",
+  "cls": "",
+  "picta_win": "NMBF",
+  "pbr_win": "NMBF",
+  "picta_loose": [
+   "NMBF",
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "NMBF",
+   "SC"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "a19cf4ed",
+   "NMBF": "a19cf4ed",
+   "P4K": "9343fb96",
+   "P111": "9343fb96"
+  }
+ },
+ {
+  "path": "meshes/effects/fxcameraattachturbulentfog.nif",
+  "cls": "",
+  "picta_win": "NMBF",
+  "pbr_win": "NMBF",
+  "picta_loose": [
+   "NMBF",
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "NMBF",
+   "SC"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "4cce5ea7",
+   "NMBF": "4cce5ea7",
+   "P4K": "e9290f87",
+   "P111": "e9290f87"
+  }
+ },
+ {
+  "path": "meshes/effects/fxcameraattachwispyfog.nif",
+  "cls": "",
+  "picta_win": "NMBF",
+  "pbr_win": "NMBF",
+  "picta_loose": [
+   "NMBF",
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "NMBF",
+   "SC"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Meshes0.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "2c08593c",
+   "NMBF": "2c08593c",
+   "P4K": "86f093a3",
+   "P111": "86f093a3"
+  }
+ },
+ {
+  "path": "meshes/effects/nlasandstorm.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "65e75218"
+  }
+ },
+ {
+  "path": "meshes/effects/vividashes-low.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "dfaa7ac4"
+  }
+ },
+ {
+  "path": "meshes/effects/vividashes.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "937b2232"
+  }
+ },
+ {
+  "path": "meshes/effects/vividsnow-blizzard-med.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "e63d5147"
+  }
+ },
+ {
+  "path": "meshes/effects/vividsnow-blizzard-strong.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "e39b43ee"
+  }
+ },
+ {
+  "path": "meshes/effects/vividsnow-blizzard.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "7bd2ad46"
+  }
+ },
+ {
+  "path": "meshes/effects/vividsnow-med.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "0c9ba08a"
+  }
+ },
+ {
+  "path": "meshes/effects/vividsnow-strong.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "b766e7a4"
+  }
+ },
+ {
+  "path": "meshes/effects/vividsnow.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "6b40060a"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_lw_mistdistant.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "06f71345"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_lw_o_mistdistant.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "cf81db41"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_lw_o_mistdistantextralarge.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "80fb680f"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_mistdistant.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "cef372fd"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_mistdistant_lesswind.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "86241834"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_mistdistantextraextralarge.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "df26ce95"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_mistdistantextralarge.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "2107272c"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_mistdistantextralong.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "be543cba"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_mistdistantextralong2.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "eda7a7b7"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_o_mistdistant.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "b623705a"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_o_mistdistantextraextralarge.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "3440c8f3"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_o_mistdistantextralarge.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "7feedeee"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_o_mistdistantextralong.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "a277404b"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/k747_o_mistdistantextralong2.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "b79fafb2"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/mistsanimated le.7z",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "69bcfac2"
+  }
+ },
+ {
+  "path": "meshes/mistsanimated/mistsanimated sse editor marker visible in game.7z",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "80b75aa4"
+  }
+ },
+ {
+  "path": "meshes/mistsvolumetric/skyrimvolmistbalanced.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "SC",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "SC",
+   "AW",
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "a783d0bc",
+   "SC": "69051d94",
+   "AW": "69051d94"
+  }
+ },
+ {
+  "path": "meshes/mistsvolumetric/skyrimvolmistdense.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "SC",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "SC",
+   "AW",
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "ec3ad9c3",
+   "SC": "7c5b693f",
+   "AW": "7c5b693f"
+  }
+ },
+ {
+  "path": "meshes/mistsvolumetric/skyrimvolmistsubtle.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "SC",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "SC",
+   "AW",
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "e907f338",
+   "SC": "805419ef",
+   "AW": "805419ef"
+  }
+ },
+ {
+  "path": "meshes/mistsvolumetric/solstheimvolmista.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "SC",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "SC",
+   "AW",
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "40501d3e",
+   "SC": "1ccb0277",
+   "AW": "1ccb0277"
+  }
+ },
+ {
+  "path": "meshes/mistsvolumetric/solstheimvolmistb.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "SC",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "SC",
+   "AW",
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "f68cd52b",
+   "SC": "056d5dac",
+   "AW": "056d5dac"
+  }
+ },
+ {
+  "path": "meshes/misttest_1.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "e717e91d"
+  }
+ },
+ {
+  "path": "meshes/sky/atmosphere.nif",
+  "cls": "",
+  "picta_win": "PISM",
+  "pbr_win": "PISM",
+  "picta_loose": [
+   "PISM"
+  ],
+  "pbr_loose": [
+   "PISM",
+   "AW"
+  ],
+  "picta_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PISM": "3264637a",
+   "AW": "dae22c54"
+  }
+ },
+ {
+  "path": "meshes/sky/cloudshape01_o_50_k747.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "ca202a4c"
+  }
+ },
+ {
+  "path": "meshes/sky/cloudshape03_50_k747.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "0337e155"
+  }
+ },
+ {
+  "path": "meshes/sky/dlc01soulcairnsky01.nif",
+  "cls": "",
+  "picta_win": "PISM",
+  "pbr_win": "PISM",
+  "picta_loose": [
+   "PISM"
+  ],
+  "pbr_loose": [
+   "PISM",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PISM": "fd8ca54d",
+   "AW": "8f16d019"
+  }
+ },
+ {
+  "path": "meshes/sky/heavystormsky.nif",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "c2c4eab2"
+  }
+ },
+ {
+  "path": "meshes/sky/inv_cloudshape01_50_k747.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "89bd48b9"
+  }
+ },
+ {
+  "path": "meshes/sky/inv_cloudshape02_50_k747.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "f0fdd86c"
+  }
+ },
+ {
+  "path": "meshes/sky/inv_cloudshape03_50_k747.nif",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "c23fe0c5"
+  }
+ },
+ {
+  "path": "meshes/sky/skyrimaurora.nif",
+  "cls": "",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "68124d01",
+   "PRAEDYS": "fd1055cc"
+  }
+ },
+ {
+  "path": "meshes/sky/skyrimaurorabv.nif",
+  "cls": "",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "98cbf9fe",
+   "PRAEDYS": "091dd1b3"
+  }
+ },
+ {
+  "path": "meshes/sky/skyrimauroragb.nif",
+  "cls": "",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "b6818bf2",
+   "PRAEDYS": "d165237c"
+  }
+ },
+ {
+  "path": "meshes/sky/skyrimaurorary.nif",
+  "cls": "",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Meshes1.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "b278108f",
+   "PRAEDYS": "d3bd97a4"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairncloudsheet01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "106730ff"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairncloudshorizon01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "cd5e0870"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairncloudslower01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "66eb021f"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairncloudslower04.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "242163fd"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairncloudsupper01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "950497d0"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairneye01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "f23b60c8"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairnlightning01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "b50f8e30"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairnnebula01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "16016bc7"
+  }
+ },
+ {
+  "path": "textures/dlc01/sky/soulcairnsun01.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures4.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "ce11d18e"
+  }
+ },
+ {
+  "path": "textures/dlc02/plume01.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "2e8fd25b"
+  }
+ },
+ {
+  "path": "textures/effects/cat_fxraindrops.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "4af4b357"
+  }
+ },
+ {
+  "path": "textures/effects/cloudtile.dds",
+  "cls": "",
+  "picta_win": "Arctic - Frost Effects Redux",
+  "pbr_win": "Arctic - Frost Effects Redux",
+  "picta_loose": [
+   "Arctic - Frost Effects Redux"
+  ],
+  "pbr_loose": [
+   "Arctic - Frost Effects Redux",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "a6dabc0a",
+   "Arctic - Frost Effects Redux": "af36d69f"
+  }
+ },
+ {
+  "path": "textures/effects/distant_fogs_heavy.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "81f1d03b"
+  }
+ },
+ {
+  "path": "textures/effects/distant_fogs_lite.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "5b9caa49"
+  }
+ },
+ {
+  "path": "textures/effects/distant_fogs_rain.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "7b27261f"
+  }
+ },
+ {
+  "path": "textures/effects/distant_rain.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "32d8489d"
+  }
+ },
+ {
+  "path": "textures/effects/fxcloudroundtile.dds",
+  "cls": "",
+  "picta_win": "P4K",
+  "pbr_win": "Less Distracting Blowing Snow Effects - ENB Particle Patch",
+  "picta_loose": [
+   "P4K",
+   "P111",
+   "Less Distracting Blowing Snow Effects - ENB Particle Patch"
+  ],
+  "pbr_loose": [
+   "Less Distracting Blowing Snow Effects - ENB Particle Patch",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "Less Distracting Blowing Snow Effects - ENB Particle Patch": "62536240",
+   "SC": "200b29c4",
+   "P4K": "62536240",
+   "P111": "62536240"
+  }
+ },
+ {
+  "path": "textures/effects/fxcloudroundtilenew.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "200b29c4"
+  }
+ },
+ {
+  "path": "textures/effects/fxcloudroundtilestrip.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "0b2cd77d"
+  }
+ },
+ {
+  "path": "textures/effects/fxfogheavy.dds",
+  "cls": "",
+  "picta_win": "Water for ENB - rerun",
+  "pbr_win": "Water for ENB - rerun",
+  "picta_loose": [
+   "Water for ENB - rerun"
+  ],
+  "pbr_loose": [
+   "Water for ENB - rerun",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "Water for ENB - rerun": "4b508fe1",
+   "SC": "f9d5f8d1"
+  }
+ },
+ {
+  "path": "textures/effects/fxraindrops-vanilla-low.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "22668d38"
+  }
+ },
+ {
+  "path": "textures/effects/fxraindrops-vanilla.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "3e3b1199"
+  }
+ },
+ {
+  "path": "textures/effects/fxraindrops.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "ff98e46c"
+  }
+ },
+ {
+  "path": "textures/effects/fxsnowflakesblur01.dds",
+  "cls": "",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "da97ed55",
+   "AW": "da97ed55",
+   "P111": "da97ed55"
+  }
+ },
+ {
+  "path": "textures/effects/fxsnowsoftsub.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "e7595609"
+  }
+ },
+ {
+  "path": "textures/effects/fxsnowsub.dds",
+  "cls": "",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#172)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone.bsa [Project Clarity AIO Half Res BSA] (lo#171)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "a8985c79"
+  }
+ },
+ {
+  "path": "textures/effects/fxspores.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "258d9512"
+  }
+ },
+ {
+  "path": "textures/effects/fxsteamthickanim.dds",
+  "cls": "",
+  "picta_win": "Particle Patch",
+  "pbr_win": "Particle Patch",
+  "picta_loose": [
+   "Particle Patch"
+  ],
+  "pbr_loose": [
+   "Particle Patch",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "52cab827",
+   "Particle Patch": "5d9b4490"
+  }
+ },
+ {
+  "path": "textures/effects/fxsteamthinanim.dds",
+  "cls": "",
+  "picta_win": "Natural Waterfalls",
+  "pbr_win": "Natural Waterfalls",
+  "picta_loose": [
+   "Natural Waterfalls"
+  ],
+  "pbr_loose": [
+   "Natural Waterfalls",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "9f26f32e",
+   "Natural Waterfalls": "3da62cbf"
+  }
+ },
+ {
+  "path": "textures/effects/invisiblevividsnow.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "fa524aed"
+  }
+ },
+ {
+  "path": "textures/effects/smokeparticles01.dds",
+  "cls": "",
+  "picta_win": "Particle Patch",
+  "pbr_win": "Particle Patch",
+  "picta_loose": [
+   "Particle Patch"
+  ],
+  "pbr_loose": [
+   "Particle Patch",
+   "SC"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "b62ea950",
+   "Particle Patch": "87fd63f0"
+  }
+ },
+ {
+  "path": "textures/effects/vividrain.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "7d346765"
+  }
+ },
+ {
+  "path": "textures/effects/vividraindrops.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "2d808b8a"
+  }
+ },
+ {
+  "path": "textures/effects/vividsnow-blizfog.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "ef8ae06e"
+  }
+ },
+ {
+  "path": "textures/effects/vividsnow-med.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "82bec6e6"
+  }
+ },
+ {
+  "path": "textures/effects/vividsnow-small.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "a422d306"
+  }
+ },
+ {
+  "path": "textures/effects/vividsnow-str.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "1cb45df1"
+  }
+ },
+ {
+  "path": "textures/effects/vividsnow.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "37ff0e90"
+  }
+ },
+ {
+  "path": "textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistquad01.dds",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "b3a34c15"
+  }
+ },
+ {
+  "path": "textures/morrowind/effects/weatherstatics/generic/fx2d_eloth_mistwide01.dds",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "e7c4feda"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimauroralut.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "ad975c45"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimaurorastreak01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "32a984ee"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimaurorastreak02.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "312f43e5"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimaurorastreak03.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "a132f234"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimaurorastreak04.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "2ade9f13"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimaurorastreak05.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "dc41a8b9"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimaurorastreak06.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "96f44160"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimauroraswirl01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "da4e4fc0"
+  }
+ },
+ {
+  "path": "textures/sky/aur/skyrimcloudsheet01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "8893c597"
+  }
+ },
+ {
+  "path": "textures/sky/aur/sun.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "7e72eea0"
+  }
+ },
+ {
+  "path": "textures/sky/masser_full.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "554c54e8",
+   "AW": "a1027894"
+  }
+ },
+ {
+  "path": "textures/sky/masser_half_wan.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "7b16f55a",
+   "AW": "14cb8d49"
+  }
+ },
+ {
+  "path": "textures/sky/masser_half_wax.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "3a1de26e",
+   "AW": "dffdf4b0"
+  }
+ },
+ {
+  "path": "textures/sky/masser_one_wan.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "7d483d50",
+   "AW": "60c27cde"
+  }
+ },
+ {
+  "path": "textures/sky/masser_one_wax.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "0863c18c",
+   "AW": "e890e3e8"
+  }
+ },
+ {
+  "path": "textures/sky/masser_three_wan.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "67e33fea",
+   "AW": "973ce3eb"
+  }
+ },
+ {
+  "path": "textures/sky/masser_three_wax.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "1b17b36c",
+   "AW": "91c4811d"
+  }
+ },
+ {
+  "path": "textures/sky/moonshadow.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "e8d1dbb4",
+   "AW": "01df3ea3"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_full.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "aed7b585",
+   "AW": "29cecb59"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_half_wan.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "35e17ac7",
+   "AW": "f0bcc5a1"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_half_wax.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "3406b6dd",
+   "AW": "70f7bae2"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_one_wan.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "29b824a7",
+   "AW": "8d2a14c9"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_one_wax.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "ef9c0830",
+   "AW": "fd625526"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_three_wan.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "95d4f8b5",
+   "AW": "b11d099b"
+  }
+ },
+ {
+  "path": "textures/sky/secunda_three_wax.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "11494dad",
+   "AW": "cb0930c6"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimauroralut.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "ad725eb9"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimaurorastreak01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "512d2b6c"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimaurorastreak02.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "9e372146"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimauroraswirl01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "1ad52b80"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudlut.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "SC": "f69dca9d"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimclouds01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "01ee10a4",
+   "AW": "8103d40e"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudsheet01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "c68d2d58",
+   "AW": "75ccb22c"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudshorizon01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "abed02e4",
+   "AW": "5dad107f"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudslower01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "b9004807",
+   "AW": "a60d66f6"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudslower02.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "de4caaa7",
+   "AW": "a9ffc988"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudslower03.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "fedaea05",
+   "AW": "9e5e574c"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudslower04.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "bef39567",
+   "AW": "ca27c370"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudsmap01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "30dcca3b",
+   "AW": "d810402c"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudsupper01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "b619ffee",
+   "AW": "c1b78cc9"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudsupper02.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "1d27fb64",
+   "AW": "95ae5c6f"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudsupper03.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "0cc155e3",
+   "AW": "cb476593"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimcloudsupper04.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW4K",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW4K",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW4K": "29d47c05",
+   "AW": "0085cff8"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimconstellations01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Skyrim - Textures5.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "50655bb2"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimconstellations02.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Skyrim - Textures5.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "50c698d6"
+  }
+ },
+ {
+  "path": "textures/sky/skyrimgalaxy.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "cf067ce2",
+   "AW": "0a097bd6"
+  }
+ },
+ {
+  "path": "textures/sky/skystars.dds",
+  "cls": "SKYTEX",
+  "picta_win": "PRAEDYS",
+  "pbr_win": "PRAEDYS",
+  "picta_loose": [
+   "PRAEDYS"
+  ],
+  "pbr_loose": [
+   "PRAEDYS",
+   "AW"
+  ],
+  "picta_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "PRAEDYS": "22599eee",
+   "AW": "3fbeb758"
+  }
+ },
+ {
+  "path": "textures/sky/sovngardeeye.dds",
+  "cls": "SKYTEX",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "ad1d4948",
+   "AW": "1fe964f2",
+   "P111": "ad1d4948"
+  }
+ },
+ {
+  "path": "textures/sky/sovngardenebula01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "7b8f2858",
+   "AW": "1ef60691",
+   "P111": "7b8f2858"
+  }
+ },
+ {
+  "path": "textures/sky/sovngardenebula02.dds",
+  "cls": "SKYTEX",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "92dd3b83",
+   "AW": "6a250ca0",
+   "P111": "92dd3b83"
+  }
+ },
+ {
+  "path": "textures/sky/sovngardenebula03.dds",
+  "cls": "SKYTEX",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "7e5949a5",
+   "AW": "09e0c194",
+   "P111": "7e5949a5"
+  }
+ },
+ {
+  "path": "textures/sky/sovngardeswirl01.dds",
+  "cls": "SKYTEX",
+  "picta_win": "BSA:Project Clarity AIO - Skyrim Textures Redone0.bsa",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#163)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "Project Clarity AIO - Skyrim Textures Redone0.bsa [Project Clarity AIO Half Res BSA] (lo#162)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "AW": "3a883fa5"
+  }
+ },
+ {
+  "path": "textures/sky/sun.dds",
+  "cls": "SKYTEX",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "33a5c38e",
+   "AW": "eac1278c",
+   "P111": "33a5c38e"
+  }
+ },
+ {
+  "path": "textures/sky/sunglare.dds",
+  "cls": "SKYTEX",
+  "picta_win": "P4K",
+  "pbr_win": "AW",
+  "picta_loose": [
+   "P4K",
+   "P111"
+  ],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [
+   "NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1123)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "pbr_bsa": [
+   "NAT-ENB - Textures.bsa [NAT.ENB - ESP WEATHER PLUGIN v3.1.1C - Fixed] (lo#1121)",
+   "Skyrim - Textures5.bsa [Data] (lo#0)"
+  ],
+  "md5": {
+   "P4K": "220f05e4",
+   "AW": "022de096",
+   "P111": "220f05e4"
+  }
+ },
+ {
+  "path": "textures/sky/sunset10.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "4c8a02e1"
+  }
+ },
+ {
+  "path": "textures/sky/sunset100.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "e5ee9db9"
+  }
+ },
+ {
+  "path": "textures/sky/sunset101.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "ed44339c"
+  }
+ },
+ {
+  "path": "textures/sky/sunset101r.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "3edb60b9"
+  }
+ },
+ {
+  "path": "textures/sky/sunset102.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "f8aab798"
+  }
+ },
+ {
+  "path": "textures/sky/sunset10e.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "ca0b58fb"
+  }
+ },
+ {
+  "path": "textures/sky/sunset10w.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "b903e5e8"
+  }
+ },
+ {
+  "path": "textures/sky/sunset2.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "cbda514e"
+  }
+ },
+ {
+  "path": "textures/sky/sunset3c.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "dba6611e"
+  }
+ },
+ {
+  "path": "textures/sky/sunset3r.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "f1f9e9e9"
+  }
+ },
+ {
+  "path": "textures/sky/sunset6.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "9d5dd160"
+  }
+ },
+ {
+  "path": "textures/sky/sunset6r.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "7f33057b"
+  }
+ },
+ {
+  "path": "textures/sky/sunset7.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "11170de7"
+  }
+ },
+ {
+  "path": "textures/sky/sunset8.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "346e68cc"
+  }
+ },
+ {
+  "path": "textures/sky/sunset8elethra.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "e75691c2"
+  }
+ },
+ {
+  "path": "textures/sky/sunset8r.dds",
+  "cls": "SKYTEX",
+  "picta_win": "ABSENT",
+  "pbr_win": "AW",
+  "picta_loose": [],
+  "pbr_loose": [
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "AW": "f79eacdc"
+  }
+ },
+ {
+  "path": "textures/volmist/mist1.dds",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "SC",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "SC",
+   "AW",
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "281b5af4",
+   "SC": "fa14c738",
+   "AW": "fa14c738"
+  }
+ },
+ {
+  "path": "textures/volmist/mist_grey.dds",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "281b5af4"
+  }
+ },
+ {
+  "path": "textures/volmist/mist_light.dds",
+  "cls": "",
+  "picta_win": "ABSENT",
+  "pbr_win": "SC",
+  "picta_loose": [],
+  "pbr_loose": [
+   "SC",
+   "AW"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "SC": "5d1535b3",
+   "AW": "5d1535b3"
+  }
+ },
+ {
+  "path": "textures/volmist/mistlut.dds",
+  "cls": "",
+  "picta_win": "MoT",
+  "pbr_win": "MoT",
+  "picta_loose": [
+   "MoT"
+  ],
+  "pbr_loose": [
+   "MoT"
+  ],
+  "picta_bsa": [],
+  "pbr_bsa": [],
+  "md5": {
+   "MoT": "eb7a9234"
+  }
+ }
+]

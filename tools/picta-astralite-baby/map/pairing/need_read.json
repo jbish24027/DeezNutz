@@ -1,0 +1,30 @@
+{
+ "Dawnguard.esm": [
+  "0029E5:Dawnguard.esm",
+  "012DAD:Dawnguard.esm",
+  "0191D2:Dawnguard.esm"
+ ],
+ "Skyrim.esm": [
+  "048C2E:Skyrim.esm",
+  "0A9783:Skyrim.esm",
+  "104AB3:Skyrim.esm",
+  "10593E:Skyrim.esm",
+  "10593F:Skyrim.esm",
+  "105940:Skyrim.esm",
+  "105F3F:Skyrim.esm",
+  "10FF20:Skyrim.esm"
+ ],
+ "Beyond Skyrim Bruma - Universal Weather Compatibility.esp": [
+  "060F3C:BSHeartland.esm",
+  "062B55:BSHeartland.esm",
+  "0CC25C:BSHeartland.esm"
+ ],
+ "Dragonborn.esm": [
+  "071E66:Skyrim.esm"
+ ],
+ "BSHeartland.esm": [
+  "07EA8E:BSHeartland.esm",
+  "07EE90:BSHeartland.esm",
+  "0C8259:BSHeartland.esm"
+ ]
+}

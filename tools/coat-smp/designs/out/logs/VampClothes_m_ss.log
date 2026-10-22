@@ -1,0 +1,9 @@
+== VampClothes m: vampclothesm_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 183/ 0/ 45   sprint L 363/17/108   walk R 163/ 5/ 76   walk L 128/ 0/ 75
+   curled in (limit)      sprint R 213/ 0/ 97   sprint L 279/26/ 83   walk R 261/ 0/122   walk L 221/ 0/131
+   swung back .3/.15      sprint R 142/ 0/114   sprint L 182/40/247   walk R 212/ 0/101   walk L 215/ 2/203
+   swung forward .3/.15   sprint R 144/ 0/ 85   sprint L 174/ 1/121   walk R  89/ 0/ 32   walk L 103/ 0/ 41
+   swung sideways .3/.15  sprint R 123/ 0/ 27   sprint L 270/66/194   walk R 106/ 1/ 79   walk L 210/ 0/ 91
+   total caught/hooked/sunk 3781/158/2072; lining pts Front 659, Back 426, Side 686
+
+EXIT 0

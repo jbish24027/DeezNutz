@@ -1,0 +1,9 @@
+== Wench m: wenchoutfitm_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 202/12/ 66   sprint L 198/ 6/ 47   walk R  98/ 1/ 44   walk L 110/ 1/ 58
+   curled in (limit)      sprint R 110/27/157   sprint L 163/14/172   walk R 177/ 0/ 96   walk L 196/ 1/ 95
+   swung back .3/.15      sprint R  42/ 1/ 15   sprint L  39/ 4/ 46   walk R  65/ 5/ 31   walk L  56/13/ 53
+   swung forward .3/.15   sprint R 106/ 0/131   sprint L 143/ 2/148   walk R  93/ 0/ 48   walk L 111/ 1/ 32
+   swung sideways .3/.15  sprint R 132/ 3/ 71   sprint L  99/ 8/ 95   walk R  74/ 1/ 32   walk L 127/ 1/ 35
+   total caught/hooked/sunk 2341/101/1472; lining pts Front 103, Back 290, Side 295
+
+EXIT 0

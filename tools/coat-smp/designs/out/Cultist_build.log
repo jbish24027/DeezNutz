@@ -1,0 +1,16 @@
+===== Cultist
+piece Robe <- TorsoNew ('islands', 0, {9880: 2691, 3107: 99}, (1,), 74.0): 4988 pts / 9372 tris (skirt:outer)
+skirt axis (-0.12, 3.26); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:71.0/67.5/64.1/60.6/57.2/53.7/50.3/46.8; 30:71.0/61.3/51.7/42.0/32.4/22.7/13.0/3.4; 60:71.0/61.6/52.2/42.8/33.4/24.0/14.6/5.1; 90:71.0/62.2/53.5/44.7/36.0/27.2/18.4/9.7; 120:71.0/62.2/53.3/44.5/35.7/26.8/18.0/9.2; 150:71.0/62.1/53.1/44.2/35.2/26.3/17.4/8.4; -180:71.0/63.2/55.4/47.6/39.8/31.9/24.1/16.3; -150:71.0/62.1/53.1/44.2/35.2/26.3/17.4/8.4; -120:71.0/62.2/53.3/44.5/35.7/26.8/18.0/9.2; -90:71.0/62.2/53.5/44.7/36.0/27.2/18.4/9.7; -60:71.0/61.6/52.2/42.8/33.4/24.0/14.6/5.1; -30:71.0/61.3/51.7/42.0/32.4/22.7/13.0/3.4
+tip rows ; flap hinges 
+legs from TorsoNew (1180 tris above z 6.0), winding outward 96%
+m: lining to the trousers at rest: p10 1.57 median 4.97; free share p10 0.48 median 0.80
+m: Robe is cut out of TorsoNew: 106 seam points (z 67.7..73.6) keep its weights, physics fading in over 4.0
+m: skirt Robe 4988 pts (3527 move); tip 0 pts
+m: legs collider pulled in at 79 of 674 pts (max 0.86); lining points Robe 1074/1074
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris; 
+m: skirt split into 2 panel shapes by chain sector (80-bone cap), extra panels appended: Robe 2 2526 pts
+m_1: wrote meshes/dlc02/clothes/cultist/m/cultisttorso_1.nif; shapes (pts, tris) {'TorsoNew': (6451, 11271), 'Robe': (2514, 4668), 'Robe 2': (2526, 4704), 'ACU Legs Front': (355, 502), 'ACU Legs Back': (268, 430), 'ACU Legs Side': (449, 616), 'ACU Skirt Front': (226, 329), 'ACU Skirt Side': (537, 846), 'ACU Skirt Back': (311, 502), 'VirtualGround': (4, 2)}; bones per shape {'TorsoNew': 27, 'Robe': 55, 'Robe 2': 54, 'ACU Legs Front': 8, 'ACU Legs Back': 9, 'ACU Legs Side': 9, 'ACU Skirt Front': 40, 'ACU Skirt Side': 73, 'ACU Skirt Back': 40, 'VirtualGround': 1}
+m_0: wrote meshes/dlc02/clothes/cultist/m/cultisttorso_0.nif; shapes (pts, tris) {'TorsoNew': (6451, 11271), 'Robe': (2514, 4668), 'Robe 2': (2526, 4704), 'ACU Legs Front': (355, 502), 'ACU Legs Back': (268, 430), 'ACU Legs Side': (449, 616), 'ACU Skirt Front': (226, 329), 'ACU Skirt Side': (537, 846), 'ACU Skirt Back': (311, 502), 'VirtualGround': (4, 2)}; bones per shape {'TorsoNew': 27, 'Robe': 55, 'Robe 2': 54, 'ACU Legs Front': 8, 'ACU Legs Back': 9, 'ACU Legs Side': 9, 'ACU Skirt Front': 40, 'ACU Skirt Side': 73, 'ACU Skirt Back': 40, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\CultistM.xml (494 lines); no slits: neighbouring chains linked all round

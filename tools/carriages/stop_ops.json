@@ -1,0 +1,87 @@
+[
+{
+"formid": "00008F:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "17138.0000, -46971.0000, -106.0000"
+},
+{
+"formid": "000099:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "79674.0000, -69263.0000, 10867.0000"
+},
+{
+"formid": "00009A:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "79546.0000, -69230.0000, 10906.0000"
+},
+{
+"formid": "00009B:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "79541.0000, -69242.0000, 10855.0000"
+},
+{
+"formid": "00009C:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "79557.0000, -69231.0000, 11003.0000"
+},
+{
+"formid": "0000B1:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "172395.0000, -88747.0000, 10501.0000"
+},
+{
+"formid": "0000B9:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-166426.5625, 3695.8191, -4435.8976"
+},
+{
+"formid": "0000BA:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-166233.0000, 3700.0000, -4504.7090"
+},
+{
+"formid": "0000BB:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-166426.7969, 3696.2756, -4336.2281"
+},
+{
+"formid": "0000BC:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-166426.4062, 3689.2249, -4442.8903"
+},
+{
+"formid": "0000D2:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-77219.6562, 99176.4219, -10320.1725"
+},
+{
+"formid": "0000D6:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-34514.5391, 57078.9219, -12466.2729"
+},
+{
+"formid": "0000D7:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-34516.0234, 57086.2617, -12478.8588"
+},
+{
+"formid": "0000D8:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-34517.4922, 57091.7422, -12341.4262"
+},
+{
+"formid": "00010D:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-34515.0508, 57076.7852, -12445.7426"
+},
+{
+"formid": "000114:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "-166428.2812, 3695.8018, -4413.8497"
+},
+{
+"formid": "00011B:simpleCarriageExpansion.esp",
+"field_path": "Placement.Position",
+"value": "79545.0000, -69228.0000, 10923.0000"
+}
+]

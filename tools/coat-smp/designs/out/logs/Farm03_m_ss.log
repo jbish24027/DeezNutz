@@ -1,0 +1,9 @@
+== Farm03 m: farmerrobe_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R  47/ 0/ 88   sprint L 111/ 0/ 43   walk R 115/ 0/ 37   walk L  69/ 0/ 24
+   curled in (limit)      sprint R  32/ 0/ 71   sprint L  61/ 0/ 55   walk R  79/ 0/101   walk L  62/ 0/ 86
+   swung back .3/.15      sprint R  26/ 0/  9   sprint L  46/ 0/ 44   walk R  45/ 0/ 41   walk L  72/ 1/ 70
+   swung forward .3/.15   sprint R  42/ 0/ 55   sprint L  86/ 0/ 76   walk R  15/ 0/ 41   walk L   8/ 0/ 41
+   swung sideways .3/.15  sprint R  35/ 0/ 30   sprint L  48/ 0/169   walk R  48/ 0/ 21   walk L  81/ 0/ 56
+   total caught/hooked/sunk 1128/1/1158; lining pts Front 202, Back 111, Side 164
+
+EXIT 0

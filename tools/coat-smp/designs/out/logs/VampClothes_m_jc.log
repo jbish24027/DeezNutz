@@ -1,0 +1,8 @@
+== VampClothes m: vampclothesm_1.nif
+   at rest        jump R lead 195/ 9/ 48   jump L lead 196/36/ 19   tuck 379/19/101
+   curled in      jump R lead 100/ 1/  8   jump L lead  72/25/  3   tuck 316/32/ 15
+   swung back     jump R lead 169/ 0/220   jump L lead 189/43/274   tuck 170/41/322
+   swung forward  jump R lead  67/ 1/  0   jump L lead 203/ 0/ 17   tuck 157/ 3/127
+   total caught/hooked/sunk 2213/210/1154
+
+EXIT 0

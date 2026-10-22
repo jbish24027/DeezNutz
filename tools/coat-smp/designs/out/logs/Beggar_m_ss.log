@@ -1,0 +1,9 @@
+== Beggar m: torsom_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 345/ 5/428   sprint L 364/13/355   walk R 387/ 1/261   walk L 386/ 4/218
+   curled in (limit)      sprint R 418/ 7/403   sprint L 413/ 0/346   walk R 471/ 0/279   walk L 436/ 0/247
+   swung back .3/.15      sprint R 427/ 9/387   sprint L 524/16/378   walk R 451/ 9/478   walk L 514/11/454
+   swung forward .3/.15   sprint R 358/ 2/277   sprint L 374/ 3/365   walk R 182/ 0/ 84   walk L 264/ 5/149
+   swung sideways .3/.15  sprint R 230/ 1/348   sprint L 310/22/282   walk R 283/ 0/194   walk L 402/ 6/113
+   total caught/hooked/sunk 7539/114/6046; lining pts Front 382, Back 490, Side 1485
+
+EXIT 0

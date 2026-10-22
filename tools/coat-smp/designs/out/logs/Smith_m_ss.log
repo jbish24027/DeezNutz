@@ -1,0 +1,9 @@
+== Smith m: torso_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 222/ 0/134   sprint L 134/ 0/155   walk R 140/ 0/ 89   walk L 139/ 0/ 80
+   curled in (limit)      sprint R 171/ 0/207   sprint L 140/ 0/146   walk R 199/ 0/125   walk L 234/ 0/108
+   swung back .3/.15      sprint R  75/ 0/168   sprint L  55/ 0/ 79   walk R 129/ 0/112   walk L 141/ 0/103
+   swung forward .3/.15   sprint R 202/ 0/163   sprint L 211/ 1/146   walk R 136/ 0/  0   walk L 117/ 0/  0
+   swung sideways .3/.15  sprint R 146/ 0/ 91   sprint L 126/ 0/164   walk R  72/ 0/102   walk L 199/ 0/ 21
+   total caught/hooked/sunk 2988/1/2193; lining pts Front 402, Back 224, Side 354
+
+EXIT 0

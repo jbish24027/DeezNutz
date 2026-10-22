@@ -1,0 +1,15 @@
+== Smith m _1: torso_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 402, Skirt Side 354, Skirt Back 224
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      4122    1160     879        0    2083   worst frame unseen 162
+      Skirt Front          entered  2583 hooked  879 unseen 1098  unseen z p10 43.3 p50 53.0 p90 57.1
+      Skirt Side           entered  1539 hooked    0 unseen  985  unseen z p10 47.7 p50 54.6 p90 57.2
+   run          10      1496     325     126        0    1045   worst frame unseen 178
+      Skirt Front          entered  1053 hooked  126 unseen  771  unseen z p10 50.4 p50 54.6 p90 57.7
+      Skirt Side           entered   443 hooked    0 unseen  274  unseen z p10 53.0 p50 55.6 p90 57.7
+   sprint       10      1434     387     158        0     889   worst frame unseen 191
+      Skirt Front          entered   968 hooked  152 unseen  576  unseen z p10 51.7 p50 55.5 p90 58.3
+      Skirt Side           entered   447 hooked    6 unseen  294  unseen z p10 50.0 p50 55.6 p90 57.7
+      Skirt Back           entered    19 hooked    0 unseen   19  unseen z p10 54.6 p50 55.5 p90 57.1
+SUMMARY clips worst unseen/frame: 191
+
+EXIT 0

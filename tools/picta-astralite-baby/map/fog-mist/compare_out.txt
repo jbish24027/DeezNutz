@@ -1,0 +1,150 @@
+missing (rotating ids not defined/overridden by any Astralite-lane plugin dumped): []
+===== clear
+  AST {"n": 10, "FogDistanceDayNear": [15000.0, 15000.0, 15000.0], "FogDistanceDayFar": [350000.0, 300000.0, 468014.03], "FogDistanceDayPower": [0.6, 0.6, 0.65], "FogDistanceDayMax": [0.7, 0.5, 1.0], "FogDistanceNightNear": [3000.0, 3000.0, 3000.0], "FogDistanceNightFar": [300000.0, 300000.0, 300000.0], "FogDistanceNightPower": [0.5, 0.5, 0.6], "FogDistanceNightMax": [1.0, 1.0, 1.0], "MoT_skystatics": 2, "visfx": [["000834:Astralite ENB.esp", 5], ["(null link, subrecord present)", 3], ["00081C:Astralite ENB.esp", 2]]}
+  PIC {"n": 2, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [150000.0, 150000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.9, 0.9, 0.9], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [125000.0, 125000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.9, 0.9, 0.9], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 2]]}
+===== clear_aurora
+  AST {"n": 9, "FogDistanceDayNear": [15000.0, 15000.0, 15000.0], "FogDistanceDayFar": [350000.0, 350000.0, 508194.44], "FogDistanceDayPower": [0.6, 0.6, 0.603], "FogDistanceDayMax": [0.7, 0.5, 0.7], "FogDistanceNightNear": [3000.0, 3000.0, 3000.0], "FogDistanceNightFar": [300000.0, 300000.0, 300000.0], "FogDistanceNightPower": [0.5, 0.5, 0.6], "FogDistanceNightMax": [1.0, 1.0, 1.0], "MoT_skystatics": 8, "visfx": [["(null link, subrecord present)", 8], ["000834:Astralite ENB.esp", 1]]}
+  PIC {"n": 2, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [150000.0, 150000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.9, 0.9, 0.9], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [125000.0, 125000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.9, 0.9, 0.9], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 2]]}
+===== cloudy
+  AST {"n": 9, "FogDistanceDayNear": [15000.0, 3000.0, 15000.0], "FogDistanceDayFar": [350000.0, 300000.0, 350000.0], "FogDistanceDayPower": [0.6, 0.6, 0.6], "FogDistanceDayMax": [0.7, 0.5, 0.7], "FogDistanceNightNear": [3000.0, 3000.0, 3000.0], "FogDistanceNightFar": [300000.0, 300000.0, 300000.0], "FogDistanceNightPower": [0.5, 0.5, 0.5], "FogDistanceNightMax": [1.0, 1.0, 1.0], "MoT_skystatics": 7, "visfx": [["000834:Astralite ENB.esp", 5], ["00081C:Astralite ENB.esp", 3], ["000812:Astralite ENB.esp", 1]]}
+  PIC {"n": 4, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [150000.0, 150000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.9, 0.9, 0.9], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [125000.0, 125000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.9, 0.9, 0.9], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 3], ["0B94FC:Skyrim.esm", 1]]}
+===== cloudy_aurora
+  AST {"n": 9, "FogDistanceDayNear": [15000.0, 3000.0, 15000.0], "FogDistanceDayFar": [350000.0, 350000.0, 350000.0], "FogDistanceDayPower": [0.6, 0.6, 0.6], "FogDistanceDayMax": [0.7, 0.7, 0.7], "FogDistanceNightNear": [3000.0, 3000.0, 3000.0], "FogDistanceNightFar": [300000.0, 300000.0, 300000.0], "FogDistanceNightPower": [0.5, 0.5, 0.5], "FogDistanceNightMax": [1.0, 1.0, 1.0], "MoT_skystatics": 8, "visfx": [["000834:Astralite ENB.esp", 8], ["00081C:Astralite ENB.esp", 1]]}
+  PIC {"n": 2, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [150000.0, 150000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.9, 0.9, 0.9], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [125000.0, 125000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.9, 0.9, 0.9], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 2]]}
+===== fog
+  AST {"n": 11, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [15000.0, 10000.0, 25000.0], "FogDistanceDayPower": [0.6, 0.5, 0.7], "FogDistanceDayMax": [0.9, 0.85, 1.0], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [15000.0, 5000.0, 300000.0], "FogDistanceNightPower": [0.6, 0.5, 0.6], "FogDistanceNightMax": [0.85, 0.75, 1.0], "MoT_skystatics": 4, "visfx": [["000812:Astralite ENB.esp", 3], ["000833:Astralite ENB.esp", 3], ["00081C:Astralite ENB.esp", 2], ["000817:Astralite ENB.esp", 1]]}
+  PIC {"n": 5, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [150000.0, 50000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.9, 0.9, 0.95], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [125000.0, 25000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.9, 0.9, 0.95], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 5]]}
+===== other
+  AST {"n": 15, "FogDistanceDayNear": [3000.0, 0.0, 15000.0], "FogDistanceDayFar": [250000.0, 50000.0, 350000.0], "FogDistanceDayPower": [0.4, 0.3, 0.7], "FogDistanceDayMax": [1.0, 0.7, 1.0], "FogDistanceNightNear": [3000.0, 0.0, 5000.0], "FogDistanceNightFar": [250000.0, 50000.0, 350000.0], "FogDistanceNightPower": [0.4, 0.35, 0.7], "FogDistanceNightMax": [1.0, 0.8, 1.0], "MoT_skystatics": 1, "visfx": [["000818:Astralite ENB.esp", 3], ["000819:Astralite ENB.esp", 2], ["00081C:Astralite ENB.esp", 2], ["00080F:Astralite ENB.esp", 2]]}
+  PIC null
+===== overcast
+  AST null
+  PIC {"n": 1, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [150000.0, 150000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.9, 0.9, 0.9], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [125000.0, 125000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.9, 0.9, 0.9], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 1]]}
+===== overcast_rain
+  AST {"n": 8, "FogDistanceDayNear": [0.0, 0.0, 15000.0], "FogDistanceDayFar": [75000.0, 50000.0, 300000.0], "FogDistanceDayPower": [0.5, 0.4, 0.65], "FogDistanceDayMax": [0.85, 0.8, 1.0], "FogDistanceNightNear": [0.0, 0.0, 5000.0], "FogDistanceNightFar": [100000.0, 15000.0, 300000.0], "FogDistanceNightPower": [0.5, 0.4, 0.6], "FogDistanceNightMax": [0.85, 0.8, 1.0], "MoT_skystatics": 1, "visfx": [["00081C:Astralite ENB.esp", 6], ["00080F:Astralite ENB.esp", 1], ["000819:Astralite ENB.esp", 1]]}
+  PIC {"n": 3, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [105000.0, 90000.0, 120000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.922, 0.915, 0.93], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [80000.0, 65000.0, 95000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.922, 0.915, 0.93], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 3]]}
+===== snow
+  AST {"n": 4, "FogDistanceDayNear": [5000.0, 5000.0, 15000.0], "FogDistanceDayFar": [320000.0, 320000.0, 320000.0], "FogDistanceDayPower": [0.5, 0.5, 0.75], "FogDistanceDayMax": [1.0, 1.0, 1.0], "FogDistanceNightNear": [5000.0, 3000.0, 5000.0], "FogDistanceNightFar": [320000.0, 300000.0, 320000.0], "FogDistanceNightPower": [0.5, 0.5, 0.5], "FogDistanceNightMax": [1.0, 1.0, 1.0], "MoT_skystatics": 0, "visfx": [["00081C:Astralite ENB.esp", 2], ["00081B:Astralite ENB.esp", 1], ["000816:Astralite ENB.esp", 1]]}
+  PIC {"n": 3, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [105000.0, 90000.0, 120000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.922, 0.915, 0.93], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [80000.0, 65000.0, 95000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.922, 0.915, 0.93], "MoT_skystatics": 0, "visfx": [["(null link, subrecord present)", 3]]}
+===== storm_rain
+  AST {"n": 7, "FogDistanceDayNear": [0.0, 0.0, 5000.0], "FogDistanceDayFar": [15000.0, 5000.0, 320000.0], "FogDistanceDayPower": [0.4, 0.4, 0.6], "FogDistanceDayMax": [0.8, 0.8, 1.0], "FogDistanceNightNear": [0.0, 0.0, 5000.0], "FogDistanceNightFar": [15000.0, 5000.0, 320000.0], "FogDistanceNightPower": [0.4, 0.4, 0.6], "FogDistanceNightMax": [0.9, 0.9, 1.0], "MoT_skystatics": 0, "visfx": [["00081D:Astralite ENB.esp", 4], ["00081C:Astralite ENB.esp", 1], ["00080E:Astralite ENB.esp", 1], ["000818:Astralite ENB.esp", 1]]}
+  PIC {"n": 3, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [75000.0, 60000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.938, 0.9, 0.945], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [50000.0, 35000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.938, 0.9, 0.945], "MoT_skystatics": 0, "visfx": [["0B94FC:Skyrim.esm", 3]]}
+===== storm_snow
+  AST {"n": 2, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [5000.0, 5000.0, 5000.0], "FogDistanceDayPower": [0.6, 0.6, 0.6], "FogDistanceDayMax": [1.0, 1.0, 1.0], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [5000.0, 5000.0, 5000.0], "FogDistanceNightPower": [0.6, 0.6, 0.6], "FogDistanceNightMax": [1.0, 1.0, 1.0], "MoT_skystatics": 0, "visfx": [["000816:Astralite ENB.esp", 1], ["000835:Astralite ENB.esp", 1]]}
+  PIC {"n": 3, "FogDistanceDayNear": [0.0, 0.0, 0.0], "FogDistanceDayFar": [75000.0, 60000.0, 150000.0], "FogDistanceDayPower": [1.0, 1.0, 1.0], "FogDistanceDayMax": [0.938, 0.9, 0.945], "FogDistanceNightNear": [0.0, 0.0, 0.0], "FogDistanceNightFar": [50000.0, 35000.0, 125000.0], "FogDistanceNightPower": [1.0, 1.0, 1.0], "FogDistanceNightMax": [0.938, 0.9, 0.945], "MoT_skystatics": 0, "visfx": [["0B94FC:Skyrim.esm", 3]]}
+
+Picta rotating detail:
+  PIC_WTHR_MASTER_A01_Clear Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 144
+  PIC_WTHR_MASTER_A02_Clear_Aurora Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 144
+  PIC_WTHR_MASTER_A03_Clear_Mist Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 146
+  PIC_WTHR_MASTER_B01_Lightly_Cloudy Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 146
+  PIC_WTHR_MASTER_C01_Cloudy Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_C02_Cloudy_Storm Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX 0B94FC:Skyrim.esm prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_C03_Cloudy_Light_Fog Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 146
+  PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 120000.0, 1.0, 0.915, 0.0, 95000.0, 1.0, 0.915] VFX (null link, subrecord present) prec 24A001:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 120000.0, 1.0, 0.915, 0.0, 95000.0, 1.0, 0.915] VFX (null link, subrecord present) prec 24A021:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_D01_Overcast Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 50000.0, 1.0, 0.95, 0.0, 25000.0, 1.0, 0.95] VFX (null link, subrecord present) prec (null link, subrecord present) sky 146
+  PIC_WTHR_MASTER_D03_Overcast_Rain_Light Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 105000.0, 1.0, 0.9225, 0.0, 80000.0, 1.0, 0.9225] VFX (null link, subrecord present) prec 24A002:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_D04_Overcast_Rain_Medium Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 90000.0, 1.0, 0.93, 0.0, 65000.0, 1.0, 0.93] VFX (null link, subrecord present) prec 24A003:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_D05_Overcast_Snow_Light Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 105000.0, 1.0, 0.9225, 0.0, 80000.0, 1.0, 0.9225] VFX (null link, subrecord present) prec 24A022:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_D06_Overcast_Snow_Medium Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 90000.0, 1.0, 0.93, 0.0, 65000.0, 1.0, 0.93] VFX (null link, subrecord present) prec 24A023:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_E01_Storm_Thunder Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX 0B94FC:Skyrim.esm prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_E02_Storm_Cold_Thunder Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX 0B94FC:Skyrim.esm prec (null link, subrecord present) sky 147
+  PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 75000.0, 1.0, 0.9375, 0.0, 50000.0, 1.0, 0.9375] VFX 0B94FC:Skyrim.esm prec 24A004:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 60000.0, 1.0, 0.945, 0.0, 35000.0, 1.0, 0.945] VFX 0B94FC:Skyrim.esm prec 24A005:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_E05_Storm_Snow_Heavy Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 75000.0, 1.0, 0.9375, 0.0, 50000.0, 1.0, 0.9375] VFX 0B94FC:Skyrim.esm prec 24A024:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_MASTER_E06_Storm_Snow_Extreme Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp [0.0, 60000.0, 1.0, 0.945, 0.0, 35000.0, 1.0, 0.945] VFX 0B94FC:Skyrim.esm prec 24A025:Picta - Weathers of Aurbis.esm sky 147
+  PIC_WTHR_SUMMER_A01_Clear Authoria - Patch - Picta Seasonal.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 144
+  PIC_WTHR_SUMMER_A02_Clear_Aurora Authoria - Patch - Picta Seasonal.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 144
+  PIC_WTHR_SUMMER_A03_Clear_Mist Authoria - Patch - Picta Seasonal.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 146
+  PIC_WTHR_SUMMER_B01_Lightly_Cloudy Authoria - Patch - Picta Seasonal.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 147
+  PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora Authoria - Patch - Picta Seasonal.esp [0.0, 150000.0, 1.0, 0.9, 0.0, 125000.0, 1.0, 0.9] VFX (null link, subrecord present) prec (null link, subrecord present) sky 147
+
+Astralite rotating detail:
+  SkyrimOvercastSnow dawnwarmth 71 [5000.0, 320000.0, 0.5, 1.0, 5000.0, 320000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec 000804:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimStormSnow dawnwarmth 69 [0.0, 5000.0, 0.6, 1.0, 0.0, 5000.0, 0.6, 1.0] VFX 000816:Astralite ENB.esp prec 00080A:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimClearSN dawnwarmth 15 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudySN dawnwarmth 14 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000812:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudySN_A dawnwarmth 13 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  SkyrimClearSN_A dawnwarmth 11 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimFogCO dawnwarmth 11 [0.0, 15000.0, 0.5, 0.9, 0.0, 5000.0, 0.6, 0.9] VFX 000817:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimFog dawnwarmth 10 [0.0, 15000.0, 0.6, 0.9, 0.0, 100000.0, 0.6, 0.75] VFX 000812:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimStormRain dawnwarmth 9 [0.0, 15000.0, 0.4, 0.8, 0.0, 15000.0, 0.4, 0.9] VFX 00081D:Astralite ENB.esp prec 000807:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimFogMA dawnwarmth 9 [0.0, 10000.0, 0.6, 0.9, 0.0, 15000.0, 0.5, 0.85] VFX 00080F:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimOvercastRain dawnwarmth 8 [0.0, 100000.0, 0.5, 0.85, 0.0, 100000.0, 0.5, 0.85] VFX 00081C:Astralite ENB.esp prec 000808:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimFogFF dawnwarmth 8 [0.0, 15000.0, 0.5, 0.85, 0.0, 15000.0, 0.6, 0.75] VFX 000812:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimFogRE dawnwarmth 8 [0.0, 25000.0, 0.5, 0.9, 0.0, 25000.0, 0.5, 0.9] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyCO_A dawnwarmth 7 [3000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  KarthspireRedoubtFog dawnwarmth 7 [0.0, 15000.0, 0.6, 1.0, 0.0, 300000.0, 0.6, 0.75] VFX 000833:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  Seasons_CloudySnow dawnwarmth 7 [15000.0, 320000.0, 0.75, 1.0, 3000.0, 300000.0, 0.5, 1.0] VFX 00081B:Astralite ENB.esp prec 000806:Astralite Weathers.esp sky 96 MoT 0
+  Seasons_OvercastSnow dawnwarmth 7 [5000.0, 320000.0, 0.5, 1.0, 5000.0, 320000.0, 0.5, 1.0] VFX 000816:Astralite ENB.esp prec 000806:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimStormRainFF dawnwarmth 6 [0.0, 15000.0, 0.4, 0.8, 0.0, 15000.0, 0.4, 0.9] VFX 00081D:Astralite ENB.esp prec 000807:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimOvercastRainFF dawnwarmth 6 [0.0, 80000.0, 0.5, 0.8, 0.0, 100000.0, 0.5, 0.8] VFX 00081C:Astralite ENB.esp prec 000808:Astralite Weathers.esp sky 144 MoT 0
+  DLC1_SkyrimCloudyFV_A dawnwarmth 6 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 96 MoT 0
+  DLC1_SkyrimCloudyFV dawnwarmth 6 [15000.0, 300000.0, 0.6, 0.5, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC1_SkyrimClearFV dawnwarmth 6 [15000.0, 468014.03, 0.60345, 0.5, 3000.0, 300000.0, 0.6, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 144 MoT 0
+  DLC1_SkyrimClearFV_A dawnwarmth 6 [15000.0, 508194.44, 0.60302, 0.5, 3000.0, 300000.0, 0.6, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimStormRainTU dawnwarmth 6 [0.0, 15000.0, 0.4, 0.8, 0.0, 15000.0, 0.4, 0.9] VFX 00081C:Astralite ENB.esp prec 000807:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimClear dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimClearFF dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyFF dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimCloudyFF_A dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimClearFF_A dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimClearVT dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyVT dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimCloudyVT_A dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  SkyrimClearVT_A dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimOvercastRainTU dawnwarmth 5 [0.0, 50000.0, 0.5, 0.85, 5000.0, 200000.0, 0.5, 0.85] VFX 00081C:Astralite ENB.esp prec 000808:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimOvercastRainMA dawnwarmth 5 [0.0, 70000.0, 0.6, 0.8, 0.0, 80000.0, 0.6, 0.85] VFX 00081C:Astralite ENB.esp prec 000808:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimClearCO dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyCO dawnwarmth 5 [3000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimClearCO_A dawnwarmth 5 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimOvercastRainRE dawnwarmth 5 [0.0, 100000.0, 0.5, 0.8, 3000.0, 100000.0, 0.5, 0.8] VFX 00081C:Astralite ENB.esp prec 000808:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimCloudy dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimCloudy_A dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  SkyrimClear_A dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 48 MoT 0
+  RiftenOvercastFog dawnwarmth 4 [0.0, 15000.0, 0.6, 1.0, 0.0, 300000.0, 0.6, 1.0] VFX 000833:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimClearTU dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyTU dawnwarmth 4 [3000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 156 MoT 12
+  SkyrimCloudyTU_A dawnwarmth 4 [3000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  SkyrimClearTU_A dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimClearMA dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyMA dawnwarmth 4 [3000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec 000822:Astralite ENB.esp sky 156 MoT 12
+  SkyrimCloudyMA_A dawnwarmth 4 [3000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  SkyrimClearMA_A dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimClearRE dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimCloudyRE dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec 000822:Astralite ENB.esp sky 156 MoT 12
+  SkyrimCloudyRE_A dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX 000834:Astralite ENB.esp prec (null link, subrecord present) sky 108 MoT 12
+  SkyrimClearRE_A dawnwarmth 4 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.5, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  SkyrimFogVT dawnwarmth 3 [0.0, 15000.0, 0.7, 0.85, 0.0, 15000.0, 0.6, 0.75] VFX 00081F:Astralite ENB.esp prec 000822:Astralite ENB.esp sky 156 MoT 12
+  JawzSkyrimStormRain dawnwarmth 3 [0.0, 15000.0, 0.4, 0.8, 0.0, 15000.0, 0.4, 0.9] VFX 00081D:Astralite ENB.esp prec 000808:Astralite Weathers.esp sky 144 MoT 0
+  Seasons_Fog dawnwarmth 3 [0.0, 15000.0, 0.6, 1.0, 0.0, 300000.0, 0.6, 1.0] VFX 000833:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAsh03 dawnwarmth 3 [3000.0, 300000.0, 0.5, 1.0, 3000.0, 300000.0, 0.5, 1.0] VFX 101CFA:Skyrim.esm prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAsh05 dawnwarmth 3 [3000.0, 250000.0, 0.35, 0.9, 3000.0, 250000.0, 0.35, 0.9] VFX 000819:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  WyrmstoothStormFog dawnwarmth 3 [0.0, 15000.0, 0.5, 0.9, 0.0, 5000.0, 0.6, 0.9] VFX 000812:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  WyrmstoothClear dawnwarmth 3 [15000.0, 300000.0, 0.65, 1.0, 3000.0, 300000.0, 0.6, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 60 MoT 12
+  WyrmstoothFog dawnwarmth 3 [0.0, 10000.0, 0.6, 0.9, 0.0, 15000.0, 0.5, 0.85] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  SkyrimOvercastRainVT dawnwarmth 2 [0.0, 50000.0, 0.6, 1.0, 0.0, 15000.0, 0.6, 1.0] VFX 00080F:Astralite ENB.esp prec 000807:Astralite Weathers.esp sky 144 MoT 0
+  SkyrimStormRainRE dawnwarmth 2 [5000.0, 320000.0, 0.5, 1.0, 5000.0, 320000.0, 0.5, 1.0] VFX 00081D:Astralite ENB.esp prec 000807:Astralite Weathers.esp sky 144 MoT 0
+  SoulCairnAmb01 astralite_enb 2 [0.0, 50000.0, 0.4, 1.0, 0.0, 50000.0, 0.4, 1.0] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 64 MoT 0
+  SoulCairnBlood astralite_enb 2 [5000.0, 325000.0, 0.7, 0.8, 0.0, 325000.0, 0.7, 0.8] VFX 00080F:Astralite ENB.esp prec (null link, subrecord present) sky 64 MoT 0
+  SoulCairnAmb01_Rain astralite_enb 2 [0.0, 50000.0, 0.4, 1.0, 0.0, 50000.0, 0.4, 1.0] VFX 000819:Astralite ENB.esp prec (null link, subrecord present) sky 64 MoT 0
+  SoulCairnAmb03 astralite_enb 2 [0.0, 50000.0, 0.4, 1.0, 0.0, 50000.0, 0.4, 1.0] VFX 000818:Astralite ENB.esp prec (null link, subrecord present) sky 64 MoT 0
+  SoulCairnAmb02 astralite_enb 2 [0.0, 50000.0, 0.4, 1.0, 0.0, 50000.0, 0.4, 1.0] VFX 00081F:Astralite ENB.esp prec (null link, subrecord present) sky 64 MoT 0
+  DLC02VolcanicAsh01 dawnwarmth 2 [3000.0, 250000.0, 0.35, 1.0, 3000.0, 250000.0, 0.35, 1.0] VFX 000818:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAsh02 dawnwarmth 2 [3000.0, 250000.0, 0.35, 1.0, 3000.0, 250000.0, 0.35, 1.0] VFX 00081F:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAsh01_A dawnwarmth 2 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 300000.0, 0.6, 1.0] VFX 00081C:Astralite ENB.esp prec (null link, subrecord present) sky 60 MoT 12
+  DLC02VolcanicAsh02_A dawnwarmth 2 [3000.0, 250000.0, 0.35, 1.0, 3000.0, 250000.0, 0.35, 1.0] VFX 00080F:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAshStorm02 dawnwarmth 2 [5000.0, 320000.0, 0.5, 1.0, 5000.0, 320000.0, 0.5, 1.0] VFX 00080E:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAsh04 dawnwarmth 2 [3000.0, 250000.0, 0.3, 0.9, 3000.0, 250000.0, 0.35, 0.9] VFX 00080E:Astralite ENB.esp prec 000831:Astralite Weathers.esp sky 144 MoT 0
+  DLC02VolcanicAsh05_A dawnwarmth 2 [15000.0, 350000.0, 0.6, 0.7, 3000.0, 350000.0, 0.7, 1.0] VFX (null link, subrecord present) prec (null link, subrecord present) sky 144 MoT 0
+  Seasons_CloudyRain dawnwarmth 2 [15000.0, 300000.0, 0.65, 1.0, 3000.0, 300000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec 000822:Astralite ENB.esp sky 158 MoT 14
+  SkyrimStormSnowBlizzard dawnwarmth 1 [0.0, 5000.0, 0.6, 1.0, 0.0, 5000.0, 0.6, 1.0] VFX 000835:Astralite ENB.esp prec 00080A:Astralite Weathers.esp sky 144 MoT 0
+  DLC02VolcanicAshStorm01 dawnwarmth 1 [0.0, 5000.0, 0.6, 1.0, 0.0, 5000.0, 0.6, 1.0] VFX 000818:Astralite ENB.esp prec 000831:Astralite Weathers.esp sky 144 MoT 0
+  DLC02VolcanicAshTundra01_A dawnwarmth 1 [3000.0, 250000.0, 0.35, 1.0, 3000.0, 250000.0, 0.35, 1.0] VFX 000819:Astralite ENB.esp prec 000831:Astralite Weathers.esp sky 144 MoT 0
+  DLC02VolcanicSnow dawnwarmth 1 [5000.0, 320000.0, 0.5, 1.0, 5000.0, 320000.0, 0.5, 1.0] VFX 00081C:Astralite ENB.esp prec 000804:Astralite Weathers.esp sky 144 MoT 0
+  DLC02VolcanicAshTundra02 dawnwarmth 1 [5000.0, 200000.0, 0.6, 0.85, 5000.0, 320000.0, 0.5, 1.0] VFX 000818:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0
+  DLC02VolcanicAshTundra02_A dawnwarmth 1 [5000.0, 200000.0, 0.6, 0.85, 5000.0, 320000.0, 0.5, 1.0] VFX 00080E:Astralite ENB.esp prec (null link, subrecord present) sky 144 MoT 0

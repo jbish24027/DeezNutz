@@ -1,0 +1,17 @@
+== Fine02 m _1: outfitm_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 775, Skirt Side 541, Skirt Back 346
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18      5174    1147    1497        0    2530   worst frame unseen 279
+      Skirt Front          entered  3047 hooked 1089 unseen 1461  unseen z p10 39.4 p50 57.7 p90 66.2
+      Skirt Side           entered  1982 hooked  405 unseen 1034  unseen z p10 30.0 p50 47.6 p90 60.4
+      Skirt Back           entered   145 hooked    3 unseen   35  unseen z p10 47.4 p50 64.0 p90 64.0
+   run          10      2590     947     548        0    1095   worst frame unseen 184
+      Skirt Front          entered  1576 hooked  379 unseen  582  unseen z p10 44.3 p50 59.8 p90 66.5
+      Skirt Side           entered   818 hooked  134 unseen  446  unseen z p10 35.4 p50 45.1 p90 62.7
+      Skirt Back           entered   196 hooked   35 unseen   67  unseen z p10 29.4 p50 36.6 p90 61.7
+   sprint       10      2687     926     476        0    1285   worst frame unseen 334
+      Skirt Front          entered  1519 hooked  318 unseen  702  unseen z p10 39.1 p50 53.4 p90 65.8
+      Skirt Side           entered   887 hooked  118 unseen  495  unseen z p10 29.7 p50 36.8 p90 61.5
+      Skirt Back           entered   281 hooked   40 unseen   88  unseen z p10 29.3 p50 33.0 p90 61.7
+SUMMARY clips worst unseen/frame: 334
+
+EXIT 0

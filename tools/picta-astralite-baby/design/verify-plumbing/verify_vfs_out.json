@@ -1,0 +1,382 @@
+{
+ "fork_paths": 204,
+ "fork_paths_not_won_by_fork": [],
+ "data_enbseries_winners_baby": [
+  [
+   "Authoria - Picta x Astralite - E11",
+   203
+  ],
+  [
+   "[NoDelete] Silent Horizons 2 - Data",
+   40
+  ],
+  [
+   "[NoDelete] Picta ENB 1.1.2 - Data (shipped)",
+   24
+  ],
+  [
+   "Authoria - Picta - July Depth of Field (AMON ADOF)",
+   2
+  ],
+  [
+   "Authoria - Picta - Bottled raindrop",
+   1
+  ]
+ ],
+ "data_enbseries_ini_not_in_fork_count": 2,
+ "data_enbseries_ini_not_in_fork_nonregional": [
+  "enbseries/_worldspaceweatherlist.ini",
+  "enbseries/enbfxcompiler.ini"
+ ],
+ "root_winners_baby_enb": [
+  [
+   "enbcache/extexternal.sc",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries/enbadaptation.fx",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/enbadaptation.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries/enbbloom.fx",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/enbbloom.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries/enbeffect.fx",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/enbeffect.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries/enbeffectpostpass.fx",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/enbeffectpostpass.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries/enbfxcompiler.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "enbseries/kiloadersatelliteenb.dllplugin",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/antialiasing/creaa.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/antialiasing/fxaa3_11.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/antialiasing/kifxaa.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/antialiasing/kismaa.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/antialiasing/license.txt",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/antialiasing/smaa.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/blendmodes.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/colorspaces.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/common.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/common.fxt",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/debug.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/depth.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/depth.fxt",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/dither.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/enbui/includearchive.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/enbui/includer.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/enbui/join.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/enbui/primer.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/lut.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/platform/enb11.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/platform/enbext11.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/sampling.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/textures/agxtonemaplut.png",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/textures/bluenoiseatlas.png",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/textures/fontatlas.png",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/textures/license.txt",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/tonemap.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/tonemap.fxt",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/kisu/transforms.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/ui/enbadaptationui.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/ui/enbbloomui.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/ui/enbeffectui.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/ui/enbpostpassui.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ],
+  [
+   "enbseries/ui/enbsharedui.fxh",
+   "Silent Horizons 2 - Shader Core"
+  ]
+ ],
+ "picta_twin_paths_owner_in_baby": [
+  [
+   "meta.ini",
+   "Authoria - SMP Hair Grafts"
+  ],
+  [
+   "root/enbcache/extexternal.sc",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "root/enbseries.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "root/enbseries/enbadaptation.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "root/enbseries/enbbloom.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "root/enbseries/enbeffect.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "root/enbseries/enbeffectpostpass.fx.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ],
+  [
+   "root/enbseries/enbfxcompiler.ini",
+   "Authoria - Picta x Astralite - Root twin"
+  ]
+ ],
+ "manifest_json_in_data_root_all_providers_baby": [
+  "Authoria - Picta x Astralite - E11"
+ ],
+ "plugin_ini_owner_baby": [
+  "Authoria - Picta x Astralite - E11",
+  [
+   "[NoDelete] Picta - Weathers of Aurbis 1.1.1 (shipped)",
+   "Authoria - Picta 1.1.2 - Darkened to 1.0.1",
+   "Authoria - Picta x Astralite - E11"
+  ]
+ ],
+ "mist_paths": {
+  "meshes/effects/distant_mounts_lite.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/effects/distant_mounts_heavy.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/effects/distant_mounts_rain.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "textures/effects/distant_fogs_lite.dds": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "textures/effects/distant_fogs_heavy.dds": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "textures/effects/distant_fogs_rain.dds": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/mistsvolumetric/skyrimvolmistbalanced.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "[NoDelete] Mists of Tamriel",
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/mistsvolumetric/skyrimvolmistdense.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "[NoDelete] Mists of Tamriel",
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/mistsvolumetric/skyrimvolmistsubtle.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "[NoDelete] Mists of Tamriel",
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/mistsvolumetric/solstheimvolmista.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "[NoDelete] Mists of Tamriel",
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "meshes/mistsvolumetric/solstheimvolmistb.nif": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "[NoDelete] Mists of Tamriel",
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ],
+  "textures/volmist/mist1.dds": [
+   "Authoria - Picta x Astralite - Mist assets",
+   [
+    "[NoDelete] Mists of Tamriel",
+    "Authoria - Picta x Astralite - Mist assets"
+   ]
+  ]
+ },
+ "mist_paths_picta_lane_providers": {
+  "meshes/effects/distant_mounts_lite.nif": null,
+  "meshes/effects/distant_mounts_heavy.nif": null,
+  "meshes/effects/distant_mounts_rain.nif": null,
+  "textures/effects/distant_fogs_lite.dds": null,
+  "textures/effects/distant_fogs_heavy.dds": null,
+  "textures/effects/distant_fogs_rain.dds": null,
+  "meshes/mistsvolumetric/skyrimvolmistbalanced.nif": [
+   "[NoDelete] Mists of Tamriel"
+  ],
+  "meshes/mistsvolumetric/skyrimvolmistdense.nif": [
+   "[NoDelete] Mists of Tamriel"
+  ],
+  "meshes/mistsvolumetric/skyrimvolmistsubtle.nif": [
+   "[NoDelete] Mists of Tamriel"
+  ],
+  "meshes/mistsvolumetric/solstheimvolmista.nif": [
+   "[NoDelete] Mists of Tamriel"
+  ],
+  "meshes/mistsvolumetric/solstheimvolmistb.nif": [
+   "[NoDelete] Mists of Tamriel"
+  ],
+  "textures/volmist/mist1.dds": [
+   "[NoDelete] Mists of Tamriel"
+  ]
+ },
+ "soulcore_loose_sources": {
+  "meshes/effects/distant_mounts_lite.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\effects\\distant_mounts_lite.nif",
+  "meshes/effects/distant_mounts_heavy.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\effects\\distant_mounts_heavy.nif",
+  "meshes/effects/distant_mounts_rain.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\effects\\distant_mounts_rain.nif",
+  "textures/effects/distant_fogs_lite.dds": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\Textures\\effects\\Distant_Fogs_Lite.dds",
+  "textures/effects/distant_fogs_heavy.dds": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\Textures\\effects\\Distant_Fogs_Heavy.dds",
+  "textures/effects/distant_fogs_rain.dds": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\Textures\\effects\\Distant_Fogs_Rain.dds",
+  "meshes/mistsvolumetric/skyrimvolmistbalanced.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\MistsVolumetric\\SkyrimVolMistBalanced.nif",
+  "meshes/mistsvolumetric/skyrimvolmistdense.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\MistsVolumetric\\SkyrimVolMistDense.nif",
+  "meshes/mistsvolumetric/skyrimvolmistsubtle.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\MistsVolumetric\\SkyrimVolMistSubtle.nif",
+  "meshes/mistsvolumetric/solstheimvolmista.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\MistsVolumetric\\SolstheimVolMistA.nif",
+  "meshes/mistsvolumetric/solstheimvolmistb.nif": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\meshes\\MistsVolumetric\\SolstheimVolMistB.nif",
+  "textures/volmist/mist1.dds": "C:/1. AUTHORIA/mods/[NoDelete] Soul Core Plugin and Assets\\Textures\\volmist\\mist1.dds"
+ }
+}

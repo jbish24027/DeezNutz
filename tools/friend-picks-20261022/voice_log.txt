@@ -1,0 +1,86 @@
+﻿python.exe : D:\OmniVoice\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - 
+defaulting to ffmpeg, but may not work
+At line:1 char:302
++ ... tch {} } }; & "D:\OmniVoice\.venv\Scripts\python.exe" "C:\1. AUTHORIA ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\OmniVoice\.v...ut may not work:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 48683.89it/s]
+
+Loading weights:   0%|          | 0/313 [00:00<?, ?it/s]
+Loading weights:  42%|████▏     | 132/313 [00:00<00:00, 1319.63it/s]
+Loading weights: 100%|██████████| 313/313 [00:00<00:00, 1616.99it/s]
+
+Loading weights:   0%|          | 0/527 [00:00<?, ?it/s]
+Loading weights:  45%|████▌     | 238/527 [00:00<00:00, 2351.66it/s]
+Loading weights:  90%|████████▉ | 474/527 [00:00<00:00, 2187.04it/s]
+Loading weights: 100%|██████████| 527/527 [00:00<00:00, 2181.05it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/587 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 587/587 [00:00<00:00, 13078.03it/s]
+A custom logits processor of type <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> has 
+been passed to `.generate()`, but it was also created in `.generate()`, given its parameterization. The custom <class 
+'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> will take precedence. Please check the 
+docstring of <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> to see related 
+`.generate()` flags.
+A custom logits processor of type <class 
+'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> has been passed to `.generate()`, but 
+it was also created in `.generate()`, given its parameterization. The custom <class 
+'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> will take precedence. Please check the 
+docstring of <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> to see related 
+`.generate()` flags.
+01 best B [] | Ride with me.
+02 best B [] | You can get down now.
+03 best B ['words'] | Ride in front of me.
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+04 best B ['words'] | Ride on my shoulders.
+05 best B [] | Take me somewhere on my horse.
+06 best A ['words'] | Whiterun Hold.
+07 best B [] | Haafingar.
+08 best B ['words'] | Eastmarch.
+09 best B [] | The Rift.
+10 best A [] | The Reach.
+11 best B [] | Falkreath Hold.
+12 best B [] | Hjaalmarch.
+13 best C [] | The Pale.
+14 best B [] | Winterhold.
+15 best C [] | Whiterun.
+16 best B [] | Riverwood.
+17 best B ['words'] | Rorikstead.
+18 best B [] | Solitude.
+19 best B [] | Dragon Bridge.
+20 best B [] | Windhelm.
+21 best C [] | Kynesgrove.
+22 best A [] | Darkwater Crossing.
+23 best B ['words'] | Mixwater Mill.
+24 best B [] | Riften.
+25 best A [] | Ivarstead.
+26 best C ['words'] | Shor's Stone.
+27 best B [] | Heartwood Mill.
+28 best C [] | Markarth.
+29 best B [] | Karthwasten.
+30 best B [] | Old Hroldan.
+31 best B [] | Salvius Farm.
+32 best A ['words'] | Soljund's Sinkhole.
+33 best A ['rises'] | Kolskeggr Mine.
+34 best A [] | Falkreath.
+35 best A [] | Helgen.
+36 best A [] | Half-Moon Mill.
+37 best B [] | Lakeview Manor.
+38 best B [] | Morthal.
+39 best B [] | Stonehills.
+40 best C [] | Windstad Manor.
+41 best B [] | Dawnstar.
+42 best B [] | Nightgate Inn.
+43 best B [] | Heljarchen Hall.
+44 best B [] | Winterhold.
+45 best B [] | The place I marked on my map.
+46 best B [] | Stop here. Let's get off.
+ALL DONE 46

@@ -1,0 +1,25 @@
+===== Emperor
+piece Saia <- Torso ('below', 0, 76.0): 699 pts / 558 tris (skirt:outer)
+skirt axis (-0.86, -0.86); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:74.0/67.1/60.2/53.2/46.3/39.4; 30:74.0/66.3/58.6/50.9/43.1/35.4; 60:74.0/66.3/58.6/50.9/43.1/35.4; 90:74.0/66.4/58.8/51.2/43.6/36.0; 120:74.0/66.3/58.6/51.0/43.3/35.6; 150:74.0/66.3/58.5/50.8/43.1/35.4; -180:74.0/66.3/58.6/50.9/43.2/35.5; -150:74.0/66.3/58.6/50.8/43.1/35.4; -120:74.0/66.3/58.6/50.9/43.2/35.5; -90:74.0/66.3/58.6/50.9/43.2/35.5; -60:74.0/66.3/58.6/50.9/43.1/35.4; -30:74.0/66.3/58.6/50.9/43.1/35.4
+tip rows ; flap hinges 
+legs from Torso (224 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 -0.30 median 2.06; free share p10 0.17 median 0.85
+m: Saia is cut out of Torso: 27 seam points (z 74.9..75.0) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 730 of 793 lining pts (z 35.3..43.4) take the sheet's weights at their spot; 63 project onto no sheet and keep their own
+m: skirt Saia 1802 pts (1535 move); tip 0 pts
+m: legs collider pulled in at 97 of 144 pts (max 2.87); lining points Saia 723/731
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: shaders from C:/1. AUTHORIA/_tools/coat-smp/pbr_donors/emperor/emperoroutfitm_1.nif for Torso (textures\clothes\emperor\m\EmperorOutfit.dds), Sleeves (textures\clothes\emperor\m\EmperorSleeves.dds)
+m: Saia: 2 seam points pinned to the remainder's weights
+m: Torso: 26 seam points of ['Saia'] to weld into the remainder
+m: Torso: 26 of 26 seam points welded into the remainder (26 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/emperor/emperoroutfitm_1.nif; shapes (pts, tris) {'Torso': (1201, 1732), 'Saia': (1802, 2232), 'Sleeves': (468, 740), 'AEM Legs Front': (72, 96), 'AEM Legs Back': (60, 68), 'AEM Legs Side': (126, 124), 'AEM Skirt Front': (209, 122), 'AEM Skirt Side': (238, 117), 'AEM Skirt Back': (276, 159), 'VirtualGround': (4, 2)}; bones per shape {'Torso': 18, 'Saia': 65, 'Sleeves': 16, 'AEM Legs Front': 6, 'AEM Legs Back': 6, 'AEM Legs Side': 6, 'AEM Skirt Front': 14, 'AEM Skirt Side': 24, 'AEM Skirt Back': 15, 'VirtualGround': 1}
+m: Saia: 2 seam points pinned to the remainder's weights
+m: Torso: 26 seam points of ['Saia'] to weld into the remainder
+m: Torso: 26 of 26 seam points welded into the remainder (26 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/emperor/emperoroutfitm_0.nif; shapes (pts, tris) {'Torso': (1201, 1732), 'Saia': (1802, 2232), 'Sleeves': (468, 740), 'AEM Legs Front': (72, 96), 'AEM Legs Back': (60, 68), 'AEM Legs Side': (126, 124), 'AEM Skirt Front': (209, 122), 'AEM Skirt Side': (238, 117), 'AEM Skirt Back': (276, 159), 'VirtualGround': (4, 2)}; bones per shape {'Torso': 18, 'Saia': 65, 'Sleeves': 16, 'AEM Legs Front': 6, 'AEM Legs Back': 6, 'AEM Legs Side': 6, 'AEM Skirt Front': 14, 'AEM Skirt Side': 24, 'AEM Skirt Back': 15, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\EmperorM.xml (434 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]
+
+EXIT 0

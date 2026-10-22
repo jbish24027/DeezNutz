@@ -1,0 +1,1151 @@
+FAITHFUL ASTRALITE v2 - pre-tonemap numeric model of Bottled 4ca678b. dials={"KAPPA_SKY": 1.0, "KAPPA_FOG": 1.0, "KAPPA_LIGHT": 1.0, "KAPPA_AMB": 1.0, "KAPPA_FX": 1.0, "IMGS_NEUTRAL": 1.0, "VL_STRENGTH": 1.0, "FOG_DENSITY": 0.5, "LUMA_WEIGHT": 20.0, "REFIT_RECORDS": 1.0, "DL_DESAT_ZERO": 1.0, "SOLVER": 1.0, "LIGHT_FREE_FILTERS": 1.0, "GREY_REG": 1.0}
+Per time: luma ratio BABY/PICTA (1.000 = brightness locked) | Picta now | BABY | Astralite own lane (phase-mapped clock) | NAIVE = Astralite records under Picta filters
+chroma error d = distance of luma-normalised chromaticities (0 = identical hue+saturation); dA = baby vs Astralite target, dP = Picta vs target
+
+=========== 19FA01 PIC_WTHR_MASTER_A01_Clear  partner SkyrimClear  file Picta - Weathers/00_Master/A01_Clear.ini
+-- top
+   5.50h luma  1.004 | picta h217.5 s0.91 | BABY h217.5 s0.91 | astra h  0.0 s0.00 | naive h217.5 s0.91 x1.00
+   6.00h luma  0.986 | picta h218.7 s0.85 | BABY h217.5 s0.78 | astra h  0.0 s0.00 | naive h218.7 s0.85 x1.00
+   6.50h luma  1.032 | picta h220.2 s0.79 | BABY h228.0 s0.75 | astra h232.5 s0.66 | naive h224.3 s0.83 x0.69
+   7.00h luma  1.003 | picta h221.9 s0.73 | BABY h231.6 s0.68 | astra h232.5 s0.66 | naive h229.2 s0.83 x0.47
+   7.25h luma  0.973 | picta h223.0 s0.69 | BABY h232.7 s0.62 | astra h232.5 s0.66 | naive h231.3 s0.84 x0.39
+   7.50h luma  0.980 | picta h222.2 s0.72 | BABY h232.7 s0.66 | astra h232.5 s0.66 | naive h232.5 s0.88 x0.31
+   8.00h luma  0.989 | picta h220.9 s0.76 | BABY h230.3 s0.71 | astra h228.9 s0.76 | naive h232.1 s0.92 x0.48
+   8.50h luma  0.999 | picta h219.8 s0.81 | BABY h228.5 s0.76 | astra h227.6 s0.79 | naive h231.9 s0.94 x0.66
+   9.00h luma  1.008 | picta h218.8 s0.85 | BABY h226.9 s0.81 | astra h226.9 s0.81 | naive h231.8 s0.96 x0.83
+  10.00h luma  1.000 | picta h217.8 s0.90 | BABY h226.9 s0.81 | astra h226.9 s0.81 | naive h231.7 s0.97 x0.85
+  13.00h luma  1.001 | picta h218.2 s0.88 | BABY h226.9 s0.81 | astra h226.9 s0.80 | naive h231.8 s0.96 x0.85
+  15.00h luma  1.002 | picta h218.4 s0.87 | BABY h226.9 s0.81 | astra h226.9 s0.80 | naive h231.8 s0.96 x0.84
+  17.00h luma  1.005 | picta h219.0 s0.85 | BABY h226.9 s0.81 | astra h226.9 s0.81 | naive h231.9 s0.96 x0.83
+  17.50h luma  0.996 | picta h220.3 s0.81 | BABY h228.5 s0.76 | astra h227.6 s0.79 | naive h232.1 s0.94 x0.66
+  18.00h luma  0.988 | picta h221.8 s0.76 | BABY h230.3 s0.71 | astra h228.9 s0.76 | naive h232.3 s0.92 x0.48
+  18.50h luma  0.979 | picta h223.6 s0.72 | BABY h232.7 s0.66 | astra h232.5 s0.66 | naive h232.9 s0.88 x0.31
+  18.75h luma  0.972 | picta h224.5 s0.69 | BABY h232.7 s0.62 | astra h232.5 s0.66 | naive h232.0 s0.84 x0.39
+  19.00h luma  1.004 | picta h223.2 s0.73 | BABY h231.5 s0.68 | astra h232.5 s0.66 | naive h229.9 s0.83 x0.47
+  19.50h luma  1.033 | picta h220.9 s0.79 | BABY h228.0 s0.76 | astra h232.5 s0.66 | naive h224.8 s0.83 x0.69
+  20.00h luma  0.986 | picta h219.1 s0.85 | BABY h217.5 s0.78 | astra h  0.0 s0.00 | naive h219.1 s0.85 x1.00
+  20.50h luma  1.004 | picta h217.5 s0.91 | BABY h217.5 s0.91 | astra h  0.0 s0.00 | naive h217.5 s0.91 x1.00
+-- hor
+   5.50h luma  1.001 | picta h224.5 s0.89 | BABY h224.5 s0.89 | astra h240.0 s0.67 | naive h224.5 s0.89 x1.00
+   6.00h luma  1.006 | picta h226.9 s0.80 | BABY h224.5 s0.75 | astra h240.0 s0.67 | naive h226.9 s0.80 x1.00
+   6.50h luma  0.976 | picta h230.0 s0.72 | BABY h247.9 s0.37 | astra h351.5 s0.48 | naive h238.0 s0.59 x0.97
+   7.00h luma  0.994 | picta h234.1 s0.63 | BABY h352.8 s0.39 | astra h  4.0 s0.55 | naive h264.2 s0.51 x0.97
+   7.25h luma  1.013 | picta h236.8 s0.58 | BABY h  7.1 s0.55 | astra h  6.1 s0.57 | naive h282.9 s0.48 x0.98
+   7.50h luma  1.008 | picta h234.7 s0.61 | BABY h  7.1 s0.59 | astra h  7.4 s0.59 | naive h283.5 s0.48 x0.97
+   8.00h luma  1.004 | picta h231.3 s0.67 | BABY h344.0 s0.37 | astra h337.9 s0.34 | naive h243.8 s0.64 x1.09
+   8.50h luma  1.000 | picta h228.5 s0.73 | BABY h258.8 s0.30 | astra h249.5 s0.31 | naive h233.9 s0.79 x1.22
+   9.00h luma  0.994 | picta h226.2 s0.79 | BABY h222.6 s0.56 | astra h223.2 s0.55 | naive h230.9 s0.89 x1.37
+  10.00h luma  1.000 | picta h225.0 s0.86 | BABY h222.6 s0.56 | astra h222.9 s0.56 | naive h230.6 s0.93 x1.41
+  13.00h luma  0.999 | picta h225.5 s0.84 | BABY h222.6 s0.56 | astra h222.2 s0.57 | naive h230.8 s0.92 x1.40
+  15.00h luma  0.998 | picta h226.0 s0.82 | BABY h222.6 s0.56 | astra h222.6 s0.56 | naive h230.9 s0.91 x1.39
+  17.00h luma  0.996 | picta h227.0 s0.79 | BABY h222.6 s0.56 | astra h223.2 s0.55 | naive h231.3 s0.89 x1.37
+  17.50h luma  1.001 | picta h229.7 s0.73 | BABY h258.8 s0.30 | astra h249.5 s0.31 | naive h234.6 s0.79 x1.22
+  18.00h luma  1.005 | picta h232.9 s0.67 | BABY h344.0 s0.37 | astra h337.9 s0.34 | naive h245.2 s0.65 x1.09
+  18.50h luma  1.008 | picta h237.0 s0.61 | BABY h  7.1 s0.59 | astra h  7.4 s0.59 | naive h284.5 s0.51 x0.97
+  18.75h luma  1.013 | picta h239.3 s0.58 | BABY h  7.1 s0.55 | astra h  6.1 s0.57 | naive h283.8 s0.51 x0.99
+  19.00h luma  0.994 | picta h236.2 s0.63 | BABY h352.2 s0.39 | astra h  4.0 s0.55 | naive h265.8 s0.54 x0.98
+  19.50h luma  0.975 | picta h231.2 s0.72 | BABY h246.8 s0.37 | astra h351.5 s0.48 | naive h239.4 s0.59 x0.97
+  20.00h luma  1.006 | picta h227.4 s0.80 | BABY h224.5 s0.75 | astra h240.0 s0.67 | naive h227.4 s0.80 x1.00
+  20.50h luma  1.001 | picta h224.5 s0.89 | BABY h224.5 s0.89 | astra h240.0 s0.67 | naive h224.5 s0.89 x1.00
+-- clouds
+   5.50h luma  1.000 | picta h222.9 s0.88 | BABY h222.9 s0.88 | astra h207.7 s0.14 | naive h222.9 s0.88 x1.00
+   6.00h luma  1.001 | picta h225.4 s0.79 | BABY h222.9 s0.74 | astra h207.7 s0.14 | naive h225.4 s0.79 x1.00
+   6.50h luma  0.998 | picta h228.9 s0.69 | BABY h225.2 s0.51 | astra h347.6 s0.07 | naive h230.0 s0.67 x0.91
+   7.00h luma  1.000 | picta h233.8 s0.59 | BABY h253.1 s0.15 | astra h  4.2 s0.13 | naive h238.5 s0.54 x0.84
+   7.25h luma  1.003 | picta h237.1 s0.54 | BABY h  7.5 s0.15 | astra h  6.2 s0.16 | naive h245.2 s0.50 x0.81
+   7.50h luma  1.002 | picta h234.6 s0.57 | BABY h  7.5 s0.17 | astra h  7.3 s0.17 | naive h243.4 s0.50 x0.78
+   8.00h luma  1.001 | picta h230.6 s0.62 | BABY h  7.5 s0.12 | astra h  7.3 s0.11 | naive h233.9 s0.57 x0.86
+   8.50h luma  1.001 | picta h227.5 s0.67 | BABY h  7.5 s0.06 | astra h  7.3 s0.05 | naive h228.5 s0.65 x0.94
+   9.00h luma  1.000 | picta h225.0 s0.71 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h225.0 s0.71 x1.02
+  10.00h luma  1.001 | picta h223.3 s0.82 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.3 s0.82 x1.02
+  13.00h luma  1.001 | picta h224.1 s0.79 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.1 s0.79 x1.02
+  15.00h luma  1.000 | picta h224.7 s0.76 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.7 s0.76 x1.02
+  17.00h luma  1.000 | picta h226.2 s0.71 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h226.2 s0.71 x1.02
+  17.50h luma  1.002 | picta h229.2 s0.66 | BABY h  8.1 s0.14 | astra h  7.7 s0.11 | naive h231.9 s0.62 x0.93
+  18.00h luma  1.004 | picta h233.0 s0.62 | BABY h  8.1 s0.26 | astra h  7.7 s0.24 | naive h243.3 s0.53 x0.83
+  18.50h luma  1.006 | picta h237.7 s0.57 | BABY h  8.1 s0.37 | astra h  7.7 s0.37 | naive h263.5 s0.51 x0.73
+  18.75h luma  1.007 | picta h240.6 s0.54 | BABY h  8.1 s0.33 | astra h  7.2 s0.35 | naive h262.7 s0.52 x0.77
+  19.00h luma  1.000 | picta h236.4 s0.59 | BABY h321.5 s0.18 | astra h  6.5 s0.31 | naive h250.4 s0.54 x0.81
+  19.50h luma  0.993 | picta h230.3 s0.69 | BABY h229.4 s0.46 | astra h  2.0 s0.19 | naive h233.6 s0.64 x0.89
+  20.00h luma  1.001 | picta h226.0 s0.79 | BABY h222.9 s0.75 | astra h207.7 s0.14 | naive h226.0 s0.79 x1.00
+  20.50h luma  1.000 | picta h222.9 s0.88 | BABY h222.9 s0.88 | astra h207.7 s0.14 | naive h222.9 s0.88 x1.00
+-- fogfar
+   5.50h luma  1.000 | picta h222.9 s0.88 | BABY h222.9 s0.88 | astra h240.0 s0.67 | naive h222.9 s0.88 x1.00
+   6.00h luma  1.005 | picta h225.4 s0.79 | BABY h222.9 s0.74 | astra h240.0 s0.67 | naive h225.4 s0.79 x1.00
+   6.50h luma  0.988 | picta h228.9 s0.69 | BABY h243.1 s0.35 | astra h352.9 s0.54 | naive h241.6 s0.54 x1.10
+   7.00h luma  0.998 | picta h233.8 s0.59 | BABY h354.5 s0.40 | astra h  4.0 s0.61 | naive h284.3 s0.47 x1.24
+   7.25h luma  1.013 | picta h237.1 s0.54 | BABY h  7.4 s0.59 | astra h  5.9 s0.64 | naive h314.4 s0.49 x1.32
+   7.50h luma  1.009 | picta h234.6 s0.57 | BABY h  7.4 s0.65 | astra h  7.1 s0.65 | naive h319.7 s0.51 x1.37
+   8.00h luma  1.006 | picta h230.6 s0.62 | BABY h330.5 s0.31 | astra h335.9 s0.33 | naive h247.8 s0.60 x1.33
+   8.50h luma  1.003 | picta h227.5 s0.67 | BABY h236.1 s0.33 | astra h240.3 s0.31 | naive h232.5 s0.77 x1.32
+   9.00h luma  0.999 | picta h225.0 s0.71 | BABY h218.2 s0.59 | astra h218.4 s0.59 | naive h228.3 s0.88 x1.33
+  10.00h luma  1.001 | picta h223.3 s0.82 | BABY h218.2 s0.59 | astra h218.4 s0.59 | naive h228.3 s0.93 x1.37
+  13.00h luma  1.001 | picta h224.1 s0.79 | BABY h218.2 s0.59 | astra h218.4 s0.59 | naive h228.5 s0.91 x1.36
+  15.00h luma  1.001 | picta h224.7 s0.76 | BABY h218.2 s0.59 | astra h218.4 s0.59 | naive h228.6 s0.90 x1.35
+  17.00h luma  1.000 | picta h226.2 s0.71 | BABY h218.2 s0.59 | astra h218.4 s0.59 | naive h228.8 s0.88 x1.33
+  17.50h luma  1.003 | picta h229.2 s0.66 | BABY h235.7 s0.33 | astra h240.3 s0.31 | naive h233.6 s0.76 x1.32
+  18.00h luma  1.006 | picta h233.0 s0.62 | BABY h330.0 s0.31 | astra h335.9 s0.33 | naive h249.7 s0.62 x1.33
+  18.50h luma  1.008 | picta h237.7 s0.57 | BABY h  7.5 s0.65 | astra h  7.2 s0.65 | naive h318.9 s0.54 x1.38
+  18.75h luma  1.012 | picta h240.6 s0.54 | BABY h  7.5 s0.58 | astra h  5.9 s0.63 | naive h313.5 s0.53 x1.33
+  19.00h luma  0.997 | picta h236.4 s0.59 | BABY h353.8 s0.39 | astra h  4.0 s0.61 | naive h285.3 s0.50 x1.25
+  19.50h luma  0.987 | picta h230.3 s0.69 | BABY h241.6 s0.36 | astra h352.9 s0.53 | naive h243.5 s0.55 x1.11
+  20.00h luma  1.005 | picta h226.0 s0.79 | BABY h222.9 s0.74 | astra h240.0 s0.67 | naive h226.0 s0.79 x1.00
+  20.50h luma  1.000 | picta h222.9 s0.88 | BABY h222.9 s0.88 | astra h240.0 s0.67 | naive h222.9 s0.88 x1.00
+-- fognear
+   5.50h luma  1.000 | picta h222.9 s0.88 | BABY h222.9 s0.88 | astra h240.0 s0.75 | naive h222.9 s0.88 x1.00
+   6.00h luma  1.005 | picta h225.4 s0.79 | BABY h222.9 s0.74 | astra h240.0 s0.75 | naive h225.4 s0.79 x1.00
+   6.50h luma  1.009 | picta h228.9 s0.69 | BABY h232.8 s0.67 | astra h246.6 s0.62 | naive h237.5 s0.84 x7.95
+   7.00h luma  0.987 | picta h233.8 s0.59 | BABY h242.5 s0.60 | astra h247.9 s0.60 | naive h240.5 s0.80 x14.74
+   7.25h luma  0.967 | picta h237.1 s0.54 | BABY h248.6 s0.58 | astra h248.3 s0.59 | naive h242.0 s0.79 x18.08
+   7.50h luma  0.955 | picta h234.6 s0.57 | BABY h248.6 s0.64 | astra h248.6 s0.58 | naive h241.1 s0.79 x21.52
+   8.00h luma  0.960 | picta h230.6 s0.62 | BABY h240.0 s0.58 | astra h239.5 s0.54 | naive h236.6 s0.82 x22.69
+   8.50h luma  0.965 | picta h227.5 s0.67 | BABY h230.0 s0.62 | astra h230.9 s0.59 | naive h233.1 s0.86 x23.97
+   9.00h luma  0.970 | picta h225.0 s0.71 | BABY h220.0 s0.67 | astra h223.9 s0.64 | naive h230.3 s0.89 x25.35
+  10.00h luma  0.972 | picta h223.3 s0.82 | BABY h220.0 s0.67 | astra h223.9 s0.64 | naive h230.2 s0.93 x26.11
+  13.00h luma  0.972 | picta h224.1 s0.79 | BABY h220.0 s0.67 | astra h223.9 s0.64 | naive h230.4 s0.92 x25.87
+  15.00h luma  0.972 | picta h224.7 s0.76 | BABY h220.0 s0.67 | astra h223.9 s0.64 | naive h230.5 s0.91 x25.68
+  17.00h luma  0.971 | picta h226.2 s0.71 | BABY h220.0 s0.67 | astra h223.9 s0.64 | naive h230.8 s0.89 x25.36
+  17.50h luma  0.966 | picta h229.2 s0.66 | BABY h230.0 s0.62 | astra h230.9 s0.59 | naive h233.8 s0.86 x24.02
+  18.00h luma  0.961 | picta h233.0 s0.62 | BABY h240.0 s0.58 | astra h239.5 s0.54 | naive h237.4 s0.82 x22.79
+  18.50h luma  0.957 | picta h237.7 s0.57 | BABY h248.6 s0.64 | astra h248.6 s0.58 | naive h242.0 s0.80 x21.68
+  18.75h luma  0.969 | picta h240.6 s0.54 | BABY h248.6 s0.58 | astra h248.4 s0.59 | naive h243.0 s0.80 x18.23
+  19.00h luma  0.988 | picta h236.4 s0.59 | BABY h242.4 s0.60 | astra h248.0 s0.59 | naive h241.3 s0.81 x14.85
+  19.50h luma  1.010 | picta h230.3 s0.69 | BABY h232.7 s0.68 | astra h246.7 s0.61 | naive h238.1 s0.84 x7.99
+  20.00h luma  1.005 | picta h226.0 s0.79 | BABY h222.9 s0.74 | astra h240.0 s0.75 | naive h226.0 s0.79 x1.00
+  20.50h luma  1.000 | picta h222.9 s0.88 | BABY h222.9 s0.88 | astra h240.0 s0.75 | naive h222.9 s0.88 x1.00
+-- sunlight
+   5.50h luma  0.998 | picta h221.2 s0.72 | BABY h221.3 s0.72 | astra h226.3 s0.64 | naive h221.2 s0.72 x1.00
+   6.00h luma  1.017 | picta h224.7 s0.57 | BABY h224.8 s0.52 | astra h226.3 s0.64 | naive h224.7 s0.57 x1.00
+   6.50h luma  1.057 | picta h  3.4 s0.44 | BABY h  6.4 s0.38 | astra h 10.7 s0.47 | naive h  0.4 s0.38 x1.04
+   7.00h luma  1.021 | picta h 12.4 s0.96 | BABY h 16.6 s0.91 | astra h 20.4 s0.73 | naive h 13.4 s0.94 x1.06
+   7.25h luma  0.965 | picta h  8.9 s1.00 | BABY h 14.6 s1.00 | astra h 21.8 s0.78 | naive h 10.8 s1.00 x1.05
+   7.50h luma  0.949 | picta h  7.9 s1.00 | BABY h 13.6 s0.98 | astra h 22.6 s0.82 | naive h 10.1 s1.00 x1.07
+   8.00h luma  1.002 | picta h 15.1 s0.96 | BABY h 17.4 s0.84 | astra h 21.7 s0.63 | naive h 14.4 s0.95 x0.98
+   8.50h luma  1.016 | picta h 20.8 s0.77 | BABY h 19.1 s0.58 | astra h 19.8 s0.42 | naive h 17.7 s0.81 x0.90
+   9.00h luma  1.013 | picta h 30.0 s0.40 | BABY h 14.0 s0.20 | astra h 13.7 s0.20 | naive h 20.5 s0.57 x0.82
+  10.00h luma  0.999 | picta h 30.0 s0.08 | BABY h 14.0 s0.20 | astra h 13.7 s0.20 | naive h 30.0 s0.08 x0.82
+  13.00h luma  1.001 | picta h 26.5 s0.19 | BABY h 14.0 s0.20 | astra h 13.7 s0.20 | naive h 21.6 s0.27 x0.82
+  15.00h luma  1.003 | picta h 25.7 s0.29 | BABY h 14.0 s0.20 | astra h 13.7 s0.20 | naive h 19.9 s0.41 x0.82
+  17.00h luma  1.007 | picta h 25.0 s0.48 | BABY h 14.0 s0.20 | astra h 13.7 s0.20 | naive h 18.2 s0.63 x0.83
+  17.50h luma  1.017 | picta h 16.3 s0.80 | BABY h 16.7 s0.59 | astra h 19.8 s0.42 | naive h 15.4 s0.84 x0.92
+  18.00h luma  1.002 | picta h 10.9 s0.96 | BABY h 14.7 s0.85 | astra h 21.7 s0.63 | naive h 12.3 s0.96 x1.03
+  18.50h luma  0.936 | picta h  4.6 s1.00 | BABY h 10.9 s0.98 | astra h 22.6 s0.82 | naive h  8.4 s1.00 x1.14
+  18.75h luma  0.955 | picta h  5.6 s1.00 | BABY h 11.4 s1.00 | astra h 21.8 s0.78 | naive h  8.6 s1.00 x1.10
+  19.00h luma  1.027 | picta h  8.2 s0.96 | BABY h 12.8 s0.91 | astra h 20.4 s0.73 | naive h 10.7 s0.94 x1.11
+  19.50h luma  1.070 | picta h353.2 s0.49 | BABY h356.7 s0.41 | astra h 10.7 s0.47 | naive h352.9 s0.43 x1.07
+  20.00h luma  1.020 | picta h227.0 s0.57 | BABY h228.4 s0.51 | astra h226.3 s0.64 | naive h227.0 s0.57 x1.00
+  20.50h luma  0.998 | picta h221.2 s0.72 | BABY h221.3 s0.72 | astra h226.3 s0.64 | naive h221.2 s0.72 x1.00
+-- sunraw
+   5.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.011 | picta h255.1 s0.16 | BABY h221.5 s0.38 | astra h  0.0 s0.00 | naive h255.1 s0.16 x1.00
+   6.50h luma  1.013 | picta h 17.7 s0.59 | BABY h347.9 s0.28 | astra h 13.3 s0.85 | naive h 12.5 s0.61 x0.94
+   7.00h luma  1.006 | picta h 17.9 s0.93 | BABY h  9.2 s0.68 | astra h 13.3 s0.85 | naive h 12.8 s0.93 x0.88
+   7.25h luma  0.997 | picta h 16.0 s1.00 | BABY h 10.1 s0.82 | astra h 13.3 s0.85 | naive h 10.7 s1.00 x0.86
+   7.50h luma  0.989 | picta h 15.7 s0.98 | BABY h 10.7 s0.89 | astra h 13.3 s0.85 | naive h  8.6 s0.99 x0.81
+   8.00h luma  1.006 | picta h 20.4 s0.88 | BABY h 12.8 s0.76 | astra h 14.9 s0.72 | naive h 12.3 s0.93 x0.79
+   8.50h luma  1.005 | picta h 24.5 s0.68 | BABY h 15.8 s0.61 | astra h 17.4 s0.58 | naive h 16.2 s0.82 x0.78
+   9.00h luma  0.997 | picta h 30.0 s0.40 | BABY h 21.1 s0.43 | astra h 21.2 s0.44 | naive h 21.2 s0.67 x0.77
+  10.00h luma  0.999 | picta h 30.0 s0.08 | BABY h 21.1 s0.43 | astra h 21.2 s0.43 | naive h 21.2 s0.50 x0.76
+  13.00h luma  0.999 | picta h 26.5 s0.19 | BABY h 21.1 s0.43 | astra h 21.2 s0.42 | naive h 20.3 s0.56 x0.76
+  15.00h luma  0.999 | picta h 25.7 s0.29 | BABY h 21.1 s0.43 | astra h 21.2 s0.43 | naive h 19.7 s0.61 x0.77
+  17.00h luma  0.998 | picta h 25.0 s0.48 | BABY h 21.1 s0.43 | astra h 21.2 s0.44 | naive h 18.8 s0.72 x0.78
+  17.50h luma  1.007 | picta h 20.3 s0.73 | BABY h 15.4 s0.61 | astra h 17.4 s0.58 | naive h 14.2 s0.85 x0.80
+  18.00h luma  1.007 | picta h 16.3 s0.90 | BABY h 12.2 s0.77 | astra h 14.9 s0.72 | naive h 10.5 s0.94 x0.83
+  18.50h luma  0.984 | picta h 11.7 s0.99 | BABY h  9.8 s0.90 | astra h 13.3 s0.85 | naive h  7.1 s0.99 x0.86
+  18.75h luma  0.996 | picta h 11.9 s1.00 | BABY h  9.1 s0.84 | astra h 13.3 s0.85 | naive h  8.6 s1.00 x0.90
+  19.00h luma  1.010 | picta h 13.7 s0.93 | BABY h  8.2 s0.70 | astra h 13.3 s0.85 | naive h 10.1 s0.93 x0.92
+  19.50h luma  1.020 | picta h 12.2 s0.60 | BABY h346.8 s0.30 | astra h 13.3 s0.85 | naive h  8.0 s0.61 x0.96
+  20.00h luma  1.013 | picta h262.5 s0.19 | BABY h222.9 s0.37 | astra h  0.0 s0.00 | naive h262.5 s0.19 x1.00
+  20.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- scat
+   5.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.013 | picta h255.1 s0.16 | BABY h221.5 s0.38 | astra h  0.0 s0.00 | naive h255.1 s0.16 x1.00
+   6.50h luma  1.016 | picta h 17.7 s0.59 | BABY h347.9 s0.28 | astra h  0.0 s0.00 | naive h 12.5 s0.61 x0.94
+   7.00h luma  1.011 | picta h 17.9 s0.93 | BABY h  9.2 s0.68 | astra h  0.0 s0.00 | naive h 12.8 s0.93 x0.88
+   7.25h luma  1.003 | picta h 16.0 s1.00 | BABY h 10.1 s0.82 | astra h 13.3 s0.03 | naive h 10.7 s1.00 x0.86
+   7.50h luma  1.000 | picta h 15.7 s0.98 | BABY h 10.7 s0.89 | astra h 13.3 s0.09 | naive h  8.6 s0.99 x0.81
+   8.00h luma  1.029 | picta h 20.4 s0.88 | BABY h 12.8 s0.76 | astra h 14.9 s0.16 | naive h 12.3 s0.93 x0.79
+   8.50h luma  1.018 | picta h 24.5 s0.68 | BABY h 15.8 s0.61 | astra h 17.4 s0.19 | naive h 16.2 s0.82 x0.78
+   9.00h luma  0.990 | picta h 30.0 s0.40 | BABY h 21.1 s0.43 | astra h 21.2 s0.17 | naive h 21.2 s0.67 x0.77
+  10.00h luma  0.952 | picta h 30.0 s0.08 | BABY h 21.1 s0.43 | astra h 21.2 s0.19 | naive h 21.2 s0.50 x0.76
+  13.00h luma  0.970 | picta h 26.5 s0.19 | BABY h 21.1 s0.43 | astra h 21.2 s0.23 | naive h 20.3 s0.56 x0.76
+  15.00h luma  0.987 | picta h 25.7 s0.29 | BABY h 21.1 s0.43 | astra h 21.2 s0.20 | naive h 19.7 s0.61 x0.77
+  17.00h luma  1.000 | picta h 25.0 s0.48 | BABY h 21.1 s0.43 | astra h 21.2 s0.17 | naive h 18.8 s0.72 x0.78
+  17.50h luma  1.010 | picta h 20.3 s0.73 | BABY h 15.4 s0.61 | astra h 17.4 s0.19 | naive h 14.2 s0.85 x0.80
+  18.00h luma  1.011 | picta h 16.3 s0.90 | BABY h 12.2 s0.77 | astra h 14.9 s0.16 | naive h 10.5 s0.94 x0.83
+  18.50h luma  0.989 | picta h 11.7 s0.99 | BABY h  9.8 s0.90 | astra h 13.3 s0.09 | naive h  7.1 s0.99 x0.86
+  18.75h luma  1.002 | picta h 11.9 s1.00 | BABY h  9.1 s0.84 | astra h 13.3 s0.03 | naive h  8.6 s1.00 x0.90
+  19.00h luma  1.015 | picta h 13.7 s0.93 | BABY h  8.2 s0.70 | astra h  0.0 s0.00 | naive h 10.1 s0.93 x0.92
+  19.50h luma  1.023 | picta h 12.2 s0.60 | BABY h346.8 s0.30 | astra h  0.0 s0.00 | naive h  8.0 s0.61 x0.96
+  20.00h luma  1.015 | picta h262.5 s0.19 | BABY h222.9 s0.37 | astra h  0.0 s0.00 | naive h262.5 s0.19 x1.00
+  20.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- DALC.DirectionalXPlus
+   5.50h luma  1.000 | picta h223.1 s0.72 | BABY h223.1 s0.72 | astra h240.0 s0.11 | naive h223.1 s0.72 x1.00
+   6.00h luma  1.000 | picta h223.1 s0.77 | BABY h223.1 s0.77 | astra h240.0 s0.11 | naive h223.1 s0.77 x1.00
+   6.50h luma  0.995 | picta h226.0 s0.72 | BABY h230.3 s0.59 | astra h326.7 s0.22 | naive h238.9 s0.43 x1.46
+   7.00h luma  1.000 | picta h230.2 s0.64 | BABY h256.6 s0.39 | astra h335.4 s0.30 | naive h282.7 s0.29 x1.88
+   7.25h luma  1.005 | picta h233.1 s0.60 | BABY h292.6 s0.30 | astra h337.2 s0.32 | naive h317.7 s0.30 x2.07
+   7.50h luma  0.999 | picta h236.8 s0.52 | BABY h338.3 s0.35 | astra h338.3 s0.34 | naive h338.3 s0.32 x2.22
+   8.00h luma  0.995 | picta h230.6 s0.59 | BABY h283.4 s0.27 | astra h289.9 s0.26 | naive h289.9 s0.23 x2.21
+   8.50h luma  0.993 | picta h226.4 s0.63 | BABY h245.7 s0.34 | astra h248.3 s0.34 | naive h248.3 s0.28 x2.20
+   9.00h luma  0.994 | picta h223.3 s0.67 | BABY h229.6 s0.45 | astra h229.2 s0.50 | naive h229.2 s0.38 x2.19
+  10.00h luma  1.008 | picta h223.3 s0.75 | BABY h229.6 s0.52 | astra h229.2 s0.50 | naive h229.2 s0.44 x2.24
+  13.00h luma  1.004 | picta h223.3 s0.73 | BABY h229.6 s0.50 | astra h229.2 s0.50 | naive h229.2 s0.42 x2.23
+  15.00h luma  1.001 | picta h223.3 s0.71 | BABY h229.6 s0.49 | astra h229.2 s0.50 | naive h229.2 s0.41 x2.22
+  17.00h luma  0.994 | picta h223.3 s0.67 | BABY h229.6 s0.45 | astra h229.2 s0.50 | naive h229.2 s0.38 x2.19
+  17.50h luma  0.995 | picta h227.2 s0.64 | BABY h240.9 s0.36 | astra h235.4 s0.42 | naive h235.4 s0.35 x1.79
+  18.00h luma  1.000 | picta h232.4 s0.59 | BABY h262.4 s0.33 | astra h251.4 s0.35 | naive h251.4 s0.31 x1.39
+  18.50h luma  1.007 | picta h240.0 s0.53 | BABY h302.3 s0.29 | astra h302.5 s0.28 | naive h302.5 s0.27 x1.01
+  18.75h luma  1.012 | picta h235.5 s0.61 | BABY h264.9 s0.38 | astra h299.0 s0.25 | naive h263.2 s0.37 x1.02
+  19.00h luma  1.005 | picta h232.0 s0.65 | BABY h245.7 s0.44 | astra h294.3 s0.23 | naive h244.2 s0.43 x1.01
+  19.50h luma  0.998 | picta h226.8 s0.72 | BABY h228.8 s0.63 | astra h278.9 s0.18 | naive h228.4 s0.63 x1.00
+  20.00h luma  1.000 | picta h223.1 s0.77 | BABY h223.1 s0.77 | astra h240.0 s0.11 | naive h223.1 s0.77 x1.00
+  20.50h luma  1.000 | picta h223.1 s0.72 | BABY h223.1 s0.72 | astra h240.0 s0.11 | naive h223.1 s0.72 x1.00
+-- DALC.DirectionalXMinus
+   5.50h luma  1.000 | picta h223.1 s0.72 | BABY h223.1 s0.72 | astra h240.0 s0.11 | naive h223.1 s0.72 x1.00
+   6.00h luma  1.000 | picta h223.1 s0.77 | BABY h223.1 s0.77 | astra h240.0 s0.11 | naive h223.1 s0.77 x1.00
+   6.50h luma  0.998 | picta h226.0 s0.72 | BABY h229.3 s0.62 | astra h278.9 s0.18 | naive h228.4 s0.63 x0.98
+   7.00h luma  1.003 | picta h230.2 s0.64 | BABY h247.2 s0.43 | astra h294.3 s0.23 | naive h244.2 s0.43 x0.97
+   7.25h luma  1.008 | picta h233.1 s0.60 | BABY h267.0 s0.38 | astra h299.0 s0.25 | naive h263.2 s0.37 x0.97
+   7.50h luma  1.004 | picta h236.8 s0.52 | BABY h304.3 s0.29 | astra h302.5 s0.28 | naive h302.5 s0.27 x0.96
+   8.00h luma  1.000 | picta h230.6 s0.59 | BABY h264.2 s0.33 | astra h251.4 s0.35 | naive h251.4 s0.31 x1.35
+   8.50h luma  0.996 | picta h226.4 s0.63 | BABY h241.7 s0.36 | astra h235.4 s0.42 | naive h235.4 s0.35 x1.76
+   9.00h luma  0.994 | picta h223.3 s0.67 | BABY h229.6 s0.45 | astra h229.2 s0.50 | naive h229.2 s0.38 x2.19
+  10.00h luma  1.008 | picta h223.3 s0.75 | BABY h229.6 s0.52 | astra h229.2 s0.50 | naive h229.2 s0.44 x2.24
+  13.00h luma  1.004 | picta h223.3 s0.73 | BABY h229.6 s0.50 | astra h229.2 s0.50 | naive h229.2 s0.42 x2.23
+  15.00h luma  1.001 | picta h223.3 s0.71 | BABY h229.6 s0.49 | astra h229.2 s0.50 | naive h229.2 s0.41 x2.22
+  17.00h luma  0.994 | picta h223.3 s0.67 | BABY h229.6 s0.45 | astra h229.2 s0.50 | naive h229.2 s0.38 x2.19
+  17.50h luma  0.992 | picta h227.2 s0.64 | BABY h244.7 s0.34 | astra h248.3 s0.34 | naive h248.3 s0.28 x2.24
+  18.00h luma  0.995 | picta h232.4 s0.59 | BABY h280.5 s0.28 | astra h289.9 s0.26 | naive h289.9 s0.23 x2.29
+  18.50h luma  1.003 | picta h240.0 s0.53 | BABY h337.1 s0.35 | astra h338.3 s0.34 | naive h338.3 s0.32 x2.34
+  18.75h luma  1.010 | picta h235.5 s0.61 | BABY h288.9 s0.31 | astra h337.2 s0.32 | naive h317.7 s0.30 x2.17
+  19.00h luma  1.002 | picta h232.0 s0.65 | BABY h254.6 s0.40 | astra h335.4 s0.30 | naive h282.7 s0.29 x1.95
+  19.50h luma  0.996 | picta h226.8 s0.72 | BABY h229.9 s0.60 | astra h326.7 s0.22 | naive h238.9 s0.43 x1.49
+  20.00h luma  1.000 | picta h223.1 s0.77 | BABY h223.1 s0.77 | astra h240.0 s0.11 | naive h223.1 s0.77 x1.00
+  20.50h luma  1.000 | picta h223.1 s0.72 | BABY h223.1 s0.72 | astra h240.0 s0.11 | naive h223.1 s0.72 x1.00
+-- DALC.DirectionalZMinus
+   5.50h luma  1.000 | picta h222.9 s0.72 | BABY h222.9 s0.72 | astra h240.0 s0.12 | naive h222.9 s0.72 x1.00
+   6.00h luma  1.000 | picta h222.9 s0.77 | BABY h222.9 s0.77 | astra h240.0 s0.12 | naive h222.9 s0.77 x1.00
+   6.50h luma  0.999 | picta h224.7 s0.74 | BABY h229.4 s0.61 | astra h308.3 s0.18 | naive h231.3 s0.55 x1.14
+   7.00h luma  1.005 | picta h227.1 s0.69 | BABY h252.1 s0.40 | astra h323.8 s0.27 | naive h258.5 s0.37 x1.27
+   7.25h luma  1.011 | picta h228.6 s0.66 | BABY h281.5 s0.33 | astra h326.9 s0.30 | naive h289.0 s0.29 x1.34
+   7.50h luma  1.007 | picta h230.4 s0.59 | BABY h330.0 s0.33 | astra h329.0 s0.32 | naive h329.0 s0.31 x1.38
+   8.00h luma  1.002 | picta h227.4 s0.63 | BABY h292.4 s0.22 | astra h283.2 s0.22 | naive h283.2 s0.20 x1.59
+   8.50h luma  0.993 | picta h225.1 s0.65 | BABY h248.0 s0.23 | astra h242.3 s0.24 | naive h242.2 s0.20 x1.79
+   9.00h luma  0.980 | picta h223.3 s0.67 | BABY h223.2 s0.32 | astra h222.9 s0.36 | naive h222.9 s0.27 x1.99
+  10.00h luma  1.010 | picta h223.3 s0.75 | BABY h223.2 s0.38 | astra h222.9 s0.36 | naive h222.9 s0.31 x2.06
+  13.00h luma  1.001 | picta h223.3 s0.73 | BABY h223.2 s0.36 | astra h222.9 s0.36 | naive h222.9 s0.30 x2.04
+  15.00h luma  0.994 | picta h223.3 s0.71 | BABY h223.2 s0.35 | astra h222.9 s0.36 | naive h222.9 s0.29 x2.02
+  17.00h luma  0.980 | picta h223.3 s0.67 | BABY h223.2 s0.32 | astra h222.9 s0.36 | naive h222.9 s0.27 x1.99
+  17.50h luma  0.991 | picta h225.8 s0.65 | BABY h246.9 s0.23 | astra h242.2 s0.24 | naive h242.2 s0.20 x1.81
+  18.00h luma  0.999 | picta h229.1 s0.63 | BABY h289.7 s0.22 | astra h283.2 s0.22 | naive h283.2 s0.20 x1.63
+  18.50h luma  1.005 | picta h233.4 s0.59 | BABY h328.6 s0.33 | astra h329.0 s0.32 | naive h329.0 s0.31 x1.44
+  18.75h luma  1.010 | picta h230.9 s0.66 | BABY h279.1 s0.34 | astra h326.9 s0.30 | naive h289.0 s0.29 x1.39
+  19.00h luma  1.004 | picta h228.7 s0.69 | BABY h250.8 s0.41 | astra h323.8 s0.27 | naive h258.5 s0.37 x1.31
+  19.50h luma  0.997 | picta h225.4 s0.74 | BABY h229.2 s0.61 | astra h308.3 s0.18 | naive h231.3 s0.55 x1.16
+  20.00h luma  1.000 | picta h222.9 s0.77 | BABY h222.9 s0.77 | astra h240.0 s0.12 | naive h222.9 s0.77 x1.00
+  20.50h luma  1.000 | picta h222.9 s0.72 | BABY h222.9 s0.72 | astra h240.0 s0.12 | naive h222.9 s0.72 x1.00
+-- dome pixels (view relative to the sun azimuth)
+   7.00h zenith    luma  1.003 | picta h222.0 s0.72 | BABY h231.6 s0.68 | naive h229.3 s0.83 x0.47
+   7.00h hor_sun   luma  0.999 | picta h261.4 s0.46 | BABY h356.0 s0.45 | naive h311.3 s0.47 x0.93
+   7.00h hor_away  luma  0.996 | picta h237.2 s0.57 | BABY h348.1 s0.39 | naive h270.0 s0.50 x0.94
+   7.50h zenith    luma  0.980 | picta h222.3 s0.72 | BABY h232.7 s0.66 | naive h232.6 s0.88 x0.31
+   7.50h hor_sun   luma  1.005 | picta h259.4 s0.48 | BABY h  6.0 s0.63 | naive h321.9 s0.55 x0.91
+   7.50h hor_away  luma  1.006 | picta h237.7 s0.57 | BABY h  4.2 s0.56 | naive h289.4 s0.48 x0.93
+   8.00h zenith    luma  0.989 | picta h220.9 s0.76 | BABY h230.4 s0.71 | naive h232.1 s0.92 x0.48
+   8.00h hor_sun   luma  1.008 | picta h243.4 s0.50 | BABY h351.8 s0.43 | naive h258.0 s0.60 x1.01
+   8.00h hor_away  luma  1.005 | picta h232.8 s0.64 | BABY h340.8 s0.37 | naive h246.1 s0.63 x1.05
+  10.00h zenith    luma  0.999 | picta h217.8 s0.90 | BABY h227.0 s0.80 | naive h231.8 s0.96 x0.85
+  10.00h hor_sun   luma  0.995 | picta h225.0 s0.84 | BABY h223.9 s0.52 | naive h230.8 s0.91 x1.35
+  10.00h hor_away  luma  0.998 | picta h224.9 s0.85 | BABY h223.2 s0.54 | naive h230.7 s0.92 x1.38
+  13.00h zenith    luma  1.001 | picta h218.2 s0.88 | BABY h227.0 s0.80 | naive h231.8 s0.96 x0.85
+  13.00h hor_sun   luma  0.995 | picta h225.6 s0.81 | BABY h224.1 s0.51 | naive h231.1 s0.90 x1.33
+  13.00h hor_away  luma  0.997 | picta h225.5 s0.83 | BABY h223.5 s0.54 | naive h231.0 s0.91 x1.36
+  17.00h zenith    luma  1.005 | picta h219.0 s0.85 | BABY h226.9 s0.81 | naive h231.9 s0.96 x0.83
+  17.00h hor_sun   luma  0.997 | picta h228.6 s0.69 | BABY h226.6 s0.45 | naive h233.0 s0.84 x1.25
+  17.00h hor_away  luma  0.997 | picta h227.2 s0.76 | BABY h223.8 s0.54 | naive h231.7 s0.88 x1.33
+  18.00h zenith    luma  0.988 | picta h221.9 s0.76 | BABY h230.4 s0.71 | naive h232.4 s0.92 x0.49
+  18.00h hor_sun   luma  1.006 | picta h247.2 s0.53 | BABY h350.8 s0.42 | naive h259.7 s0.62 x1.02
+  18.00h hor_away  luma  1.005 | picta h234.8 s0.63 | BABY h340.4 s0.37 | naive h247.6 s0.65 x1.05
+  18.50h zenith    luma  0.979 | picta h223.6 s0.72 | BABY h232.7 s0.66 | naive h233.0 s0.88 x0.31
+  18.50h hor_sun   luma  1.003 | picta h262.8 s0.52 | BABY h  5.6 s0.63 | naive h321.0 s0.58 x0.93
+  18.50h hor_away  luma  1.006 | picta h240.5 s0.57 | BABY h  4.1 s0.56 | naive h290.1 s0.51 x0.94
+  19.00h zenith    luma  1.004 | picta h223.2 s0.73 | BABY h231.6 s0.68 | naive h230.0 s0.83 x0.47
+  19.00h hor_sun   luma  0.999 | picta h264.8 s0.50 | BABY h355.0 s0.45 | naive h310.5 s0.51 x0.94
+  19.00h hor_away  luma  0.995 | picta h239.7 s0.57 | BABY h347.2 s0.39 | naive h271.5 s0.53 x0.95
+
+=========== 19FC01 PIC_WTHR_MASTER_C01_Cloudy  partner SkyrimCloudy  file Picta - Weathers/00_Master/C01_Cloudy.ini
+-- top
+   5.50h luma  1.004 | picta h216.5 s0.85 | BABY h216.5 s0.85 | astra h  0.0 s0.00 | naive h216.5 s0.85 x1.00
+   6.00h luma  0.989 | picta h217.6 s0.79 | BABY h216.5 s0.72 | astra h  0.0 s0.00 | naive h217.6 s0.79 x1.00
+   6.50h luma  1.033 | picta h219.0 s0.74 | BABY h225.7 s0.73 | astra h226.8 s0.69 | naive h222.4 s0.78 x0.66
+   7.00h luma  1.009 | picta h220.6 s0.67 | BABY h227.3 s0.69 | astra h226.8 s0.69 | naive h227.0 s0.79 x0.43
+   7.25h luma  0.981 | picta h221.6 s0.64 | BABY h226.7 s0.66 | astra h226.8 s0.69 | naive h229.0 s0.82 x0.33
+   7.50h luma  0.988 | picta h220.9 s0.66 | BABY h226.7 s0.69 | astra h226.8 s0.69 | naive h230.3 s0.87 x0.25
+   8.00h luma  0.995 | picta h219.6 s0.71 | BABY h226.9 s0.70 | astra h227.1 s0.70 | naive h230.1 s0.89 x0.35
+   8.50h luma  1.002 | picta h218.4 s0.76 | BABY h227.1 s0.71 | astra h227.2 s0.71 | naive h230.0 s0.91 x0.44
+   9.00h luma  1.009 | picta h217.4 s0.80 | BABY h227.2 s0.72 | astra h227.3 s0.71 | naive h229.8 s0.93 x0.53
+  10.00h luma  1.001 | picta h216.7 s0.81 | BABY h227.2 s0.72 | astra h227.3 s0.71 | naive h229.5 s0.93 x0.53
+  13.00h luma  1.002 | picta h217.0 s0.81 | BABY h227.2 s0.72 | astra h227.3 s0.71 | naive h229.6 s0.93 x0.53
+  15.00h luma  1.003 | picta h217.3 s0.80 | BABY h227.2 s0.72 | astra h227.3 s0.71 | naive h229.7 s0.93 x0.53
+  17.00h luma  1.005 | picta h217.9 s0.80 | BABY h227.2 s0.72 | astra h227.3 s0.71 | naive h229.9 s0.93 x0.53
+  17.50h luma  0.999 | picta h219.2 s0.76 | BABY h227.1 s0.71 | astra h227.2 s0.71 | naive h230.3 s0.91 x0.44
+  18.00h luma  0.994 | picta h220.8 s0.71 | BABY h226.9 s0.70 | astra h227.1 s0.70 | naive h230.6 s0.89 x0.35
+  18.50h luma  0.988 | picta h222.5 s0.66 | BABY h226.7 s0.69 | astra h226.8 s0.69 | naive h230.8 s0.87 x0.26
+  18.75h luma  0.981 | picta h223.5 s0.64 | BABY h226.7 s0.66 | astra h226.8 s0.69 | naive h229.9 s0.82 x0.34
+  19.00h luma  1.009 | picta h222.1 s0.67 | BABY h227.3 s0.70 | astra h226.8 s0.69 | naive h227.9 s0.79 x0.43
+  19.50h luma  1.034 | picta h219.8 s0.74 | BABY h225.7 s0.73 | astra h226.8 s0.69 | naive h223.1 s0.78 x0.66
+  20.00h luma  0.990 | picta h218.0 s0.79 | BABY h216.5 s0.72 | astra h  0.0 s0.00 | naive h218.0 s0.79 x1.00
+  20.50h luma  1.004 | picta h216.5 s0.85 | BABY h216.5 s0.85 | astra h  0.0 s0.00 | naive h216.5 s0.85 x1.00
+-- hor
+   5.50h luma  1.000 | picta h223.2 s0.80 | BABY h223.2 s0.80 | astra h240.0 s0.67 | naive h223.2 s0.80 x1.00
+   6.00h luma  1.007 | picta h225.6 s0.72 | BABY h223.2 s0.67 | astra h240.0 s0.67 | naive h225.6 s0.72 x1.00
+   6.50h luma  0.979 | picta h228.8 s0.65 | BABY h241.0 s0.18 | astra h 16.9 s0.51 | naive h234.6 s0.43 x1.04
+   7.00h luma  0.994 | picta h233.2 s0.56 | BABY h 23.7 s0.46 | astra h 23.9 s0.64 | naive h294.4 s0.22 x1.10
+   7.25h luma  1.011 | picta h236.2 s0.52 | BABY h 25.3 s0.63 | astra h 25.1 s0.67 | naive h339.0 s0.29 x1.13
+   7.50h luma  1.006 | picta h233.9 s0.55 | BABY h 25.3 s0.69 | astra h 25.8 s0.69 | naive h349.1 s0.28 x1.13
+   8.00h luma  1.003 | picta h230.2 s0.61 | BABY h 20.1 s0.38 | astra h 19.7 s0.35 | naive h241.1 s0.43 x1.22
+   8.50h luma  1.000 | picta h227.3 s0.67 | BABY h265.3 s0.10 | astra h250.2 s0.12 | naive h229.8 s0.70 x1.32
+   9.00h luma  0.994 | picta h224.9 s0.73 | BABY h217.6 s0.44 | astra h217.7 s0.44 | naive h227.6 s0.84 x1.44
+  10.00h luma  1.000 | picta h223.9 s0.74 | BABY h217.6 s0.44 | astra h217.7 s0.44 | naive h227.1 s0.85 x1.44
+  13.00h luma  0.999 | picta h224.4 s0.74 | BABY h217.6 s0.44 | astra h217.7 s0.44 | naive h227.4 s0.84 x1.44
+  15.00h luma  0.998 | picta h224.8 s0.73 | BABY h217.6 s0.44 | astra h217.7 s0.44 | naive h227.6 s0.84 x1.44
+  17.00h luma  0.996 | picta h225.7 s0.73 | BABY h217.6 s0.44 | astra h217.7 s0.44 | naive h228.1 s0.84 x1.44
+  17.50h luma  1.001 | picta h228.6 s0.67 | BABY h265.3 s0.10 | astra h250.2 s0.12 | naive h230.9 s0.70 x1.32
+  18.00h luma  1.004 | picta h232.2 s0.61 | BABY h 20.1 s0.38 | astra h 19.7 s0.35 | naive h244.2 s0.45 x1.22
+  18.50h luma  1.006 | picta h236.6 s0.55 | BABY h 25.3 s0.69 | astra h 25.8 s0.69 | naive h344.0 s0.32 x1.13
+  18.75h luma  1.011 | picta h239.2 s0.52 | BABY h 25.3 s0.63 | astra h 25.1 s0.67 | naive h334.7 s0.33 x1.13
+  19.00h luma  0.994 | picta h235.6 s0.56 | BABY h 23.7 s0.46 | astra h 23.9 s0.64 | naive h295.1 s0.25 x1.10
+  19.50h luma  0.978 | picta h230.1 s0.65 | BABY h239.3 s0.18 | astra h 16.9 s0.51 | naive h237.1 s0.43 x1.04
+  20.00h luma  1.007 | picta h226.1 s0.72 | BABY h223.2 s0.67 | astra h240.0 s0.67 | naive h226.1 s0.72 x1.00
+  20.50h luma  1.000 | picta h223.2 s0.80 | BABY h223.2 s0.80 | astra h240.0 s0.67 | naive h223.2 s0.80 x1.00
+-- clouds
+   5.50h luma  1.001 | picta h221.7 s0.80 | BABY h221.7 s0.80 | astra h231.4 s0.39 | naive h221.7 s0.80 x1.00
+   6.00h luma  1.006 | picta h223.3 s0.76 | BABY h221.7 s0.69 | astra h231.4 s0.39 | naive h223.3 s0.76 x1.00
+   6.50h luma  0.982 | picta h225.4 s0.71 | BABY h248.2 s0.23 | astra h 10.5 s0.51 | naive h228.3 s0.60 x0.77
+   7.00h luma  0.993 | picta h228.2 s0.65 | BABY h 14.6 s0.50 | astra h 16.8 s0.70 | naive h257.6 s0.35 x0.58
+   7.25h luma  1.010 | picta h229.9 s0.62 | BABY h 18.0 s0.69 | astra h 17.8 s0.74 | naive h321.5 s0.31 x0.49
+   7.50h luma  1.005 | picta h228.9 s0.62 | BABY h 18.0 s0.75 | astra h 18.5 s0.76 | naive h  3.4 s0.43 x0.41
+   8.00h luma  1.001 | picta h227.1 s0.64 | BABY h 14.3 s0.49 | astra h 10.6 s0.34 | naive h244.2 s0.45 x0.56
+   8.50h luma  0.998 | picta h225.4 s0.65 | BABY h346.4 s0.16 | astra h283.4 s0.10 | naive h229.7 s0.66 x0.70
+   9.00h luma  0.995 | picta h224.0 s0.67 | BABY h217.8 s0.30 | astra h219.0 s0.30 | naive h226.1 s0.77 x0.83
+  10.00h luma  0.999 | picta h222.4 s0.69 | BABY h217.8 s0.30 | astra h219.0 s0.30 | naive h225.1 s0.79 x0.83
+  13.00h luma  0.999 | picta h223.1 s0.69 | BABY h217.8 s0.30 | astra h219.0 s0.32 | naive h225.6 s0.78 x0.83
+  15.00h luma  0.998 | picta h223.8 s0.68 | BABY h217.8 s0.30 | astra h219.0 s0.31 | naive h226.0 s0.78 x0.83
+  17.00h luma  0.997 | picta h225.2 s0.66 | BABY h217.8 s0.30 | astra h219.0 s0.30 | naive h227.0 s0.77 x0.83
+  17.50h luma  1.000 | picta h226.9 s0.65 | BABY h346.4 s0.16 | astra h283.4 s0.10 | naive h231.0 s0.66 x0.70
+  18.00h luma  1.002 | picta h228.8 s0.64 | BABY h 14.2 s0.49 | astra h 10.6 s0.34 | naive h246.9 s0.46 x0.56
+  18.50h luma  1.005 | picta h230.8 s0.62 | BABY h 18.0 s0.75 | astra h 18.5 s0.76 | naive h  0.1 s0.43 x0.42
+  18.75h luma  1.010 | picta h232.0 s0.62 | BABY h 18.0 s0.69 | astra h 17.8 s0.74 | naive h319.6 s0.34 x0.50
+  19.00h luma  0.993 | picta h229.8 s0.65 | BABY h 14.5 s0.50 | astra h 16.8 s0.70 | naive h260.2 s0.38 x0.58
+  19.50h luma  0.982 | picta h226.3 s0.71 | BABY h246.9 s0.24 | astra h 10.5 s0.51 | naive h229.5 s0.60 x0.77
+  20.00h luma  1.006 | picta h223.7 s0.76 | BABY h221.7 s0.69 | astra h231.4 s0.39 | naive h223.7 s0.76 x1.00
+  20.50h luma  1.001 | picta h221.7 s0.80 | BABY h221.7 s0.80 | astra h231.4 s0.39 | naive h221.7 s0.80 x1.00
+-- fogfar
+   5.50h luma  1.000 | picta h221.7 s0.80 | BABY h221.7 s0.80 | astra h240.0 s0.70 | naive h221.7 s0.80 x1.00
+   6.00h luma  1.004 | picta h223.3 s0.76 | BABY h221.7 s0.69 | astra h240.0 s0.70 | naive h223.3 s0.76 x1.00
+   6.50h luma  0.991 | picta h225.4 s0.71 | BABY h225.7 s0.33 | astra h 14.7 s0.47 | naive h226.9 s0.53 x1.22
+   7.00h luma  0.997 | picta h228.2 s0.65 | BABY h 22.1 s0.34 | astra h 23.5 s0.61 | naive h251.7 s0.27 x1.46
+   7.25h luma  1.009 | picta h229.9 s0.62 | BABY h 25.8 s0.58 | astra h 24.9 s0.64 | naive h295.5 s0.18 x1.59
+   7.50h luma  1.005 | picta h228.9 s0.62 | BABY h 25.8 s0.66 | astra h 25.8 s0.66 | naive h328.7 s0.18 x1.70
+   8.00h luma  1.003 | picta h227.1 s0.64 | BABY h 16.8 s0.28 | astra h 17.8 s0.29 | naive h233.9 s0.49 x1.72
+   8.50h luma  1.001 | picta h225.4 s0.65 | BABY h234.2 s0.16 | astra h237.0 s0.15 | naive h228.2 s0.70 x1.74
+   9.00h luma  0.999 | picta h224.0 s0.67 | BABY h217.7 s0.44 | astra h217.7 s0.44 | naive h226.5 s0.81 x1.76
+  10.00h luma  1.000 | picta h222.4 s0.69 | BABY h217.7 s0.44 | astra h217.7 s0.44 | naive h225.7 s0.83 x1.76
+  13.00h luma  1.000 | picta h223.1 s0.69 | BABY h217.7 s0.44 | astra h217.7 s0.44 | naive h226.1 s0.82 x1.76
+  15.00h luma  1.000 | picta h223.8 s0.68 | BABY h217.7 s0.44 | astra h217.7 s0.44 | naive h226.4 s0.82 x1.76
+  17.00h luma  0.999 | picta h225.2 s0.66 | BABY h217.7 s0.44 | astra h217.7 s0.44 | naive h227.2 s0.81 x1.76
+  17.50h luma  1.001 | picta h226.9 s0.65 | BABY h234.2 s0.16 | astra h237.0 s0.15 | naive h229.3 s0.70 x1.74
+  18.00h luma  1.003 | picta h228.8 s0.64 | BABY h 16.8 s0.28 | astra h 17.8 s0.29 | naive h236.5 s0.49 x1.72
+  18.50h luma  1.006 | picta h230.8 s0.62 | BABY h 25.8 s0.66 | astra h 25.8 s0.66 | naive h324.8 s0.22 x1.70
+  18.75h luma  1.009 | picta h232.0 s0.62 | BABY h 25.8 s0.58 | astra h 24.9 s0.64 | naive h296.2 s0.22 x1.59
+  19.00h luma  0.997 | picta h229.8 s0.65 | BABY h 21.9 s0.33 | astra h 23.5 s0.61 | naive h256.1 s0.29 x1.46
+  19.50h luma  0.990 | picta h226.3 s0.71 | BABY h225.5 s0.34 | astra h 14.7 s0.47 | naive h228.4 s0.53 x1.22
+  20.00h luma  1.004 | picta h223.7 s0.76 | BABY h221.7 s0.69 | astra h240.0 s0.70 | naive h223.7 s0.76 x1.00
+  20.50h luma  1.000 | picta h221.7 s0.80 | BABY h221.7 s0.80 | astra h240.0 s0.70 | naive h221.7 s0.80 x1.00
+-- fognear
+   5.50h luma  1.000 | picta h221.7 s0.80 | BABY h221.7 s0.80 | astra h240.0 s0.43 | naive h221.7 s0.80 x1.00
+   6.00h luma  1.004 | picta h223.3 s0.76 | BABY h221.7 s0.69 | astra h240.0 s0.43 | naive h223.3 s0.76 x1.00
+   6.50h luma  1.036 | picta h225.4 s0.71 | BABY h234.1 s0.71 | astra h241.8 s0.63 | naive h236.7 s0.89 x3.34
+   7.00h luma  1.032 | picta h228.2 s0.65 | BABY h241.5 s0.69 | astra h242.2 s0.70 | naive h238.2 s0.89 x5.62
+   7.25h luma  1.016 | picta h229.9 s0.62 | BABY h245.5 s0.69 | astra h242.3 s0.72 | naive h238.8 s0.88 x6.73
+   7.50h luma  1.014 | picta h228.9 s0.62 | BABY h245.5 s0.73 | astra h242.4 s0.73 | naive h238.6 s0.89 x7.87
+   8.00h luma  1.004 | picta h227.1 s0.64 | BABY h240.0 s0.68 | astra h232.1 s0.70 | naive h234.1 s0.89 x12.91
+   8.50h luma  0.995 | picta h225.4 s0.65 | BABY h232.5 s0.69 | astra h225.9 s0.71 | naive h231.3 s0.90 x17.99
+   9.00h luma  0.986 | picta h224.0 s0.67 | BABY h222.9 s0.70 | astra h221.9 s0.71 | naive h229.3 s0.90 x23.10
+  10.00h luma  0.988 | picta h222.4 s0.69 | BABY h222.9 s0.70 | astra h221.9 s0.71 | naive h228.9 s0.91 x23.23
+  13.00h luma  0.988 | picta h223.1 s0.69 | BABY h222.9 s0.70 | astra h221.9 s0.71 | naive h229.1 s0.91 x23.19
+  15.00h luma  0.988 | picta h223.8 s0.68 | BABY h222.9 s0.70 | astra h221.9 s0.71 | naive h229.3 s0.91 x23.16
+  17.00h luma  0.987 | picta h225.2 s0.66 | BABY h222.9 s0.70 | astra h221.9 s0.71 | naive h229.7 s0.90 x23.10
+  17.50h luma  0.996 | picta h226.9 s0.65 | BABY h232.5 s0.69 | astra h225.9 s0.71 | naive h231.8 s0.90 x18.01
+  18.00h luma  1.005 | picta h228.8 s0.64 | BABY h240.0 s0.68 | astra h232.1 s0.70 | naive h234.6 s0.89 x12.95
+  18.50h luma  1.014 | picta h230.8 s0.62 | BABY h245.5 s0.73 | astra h242.4 s0.73 | naive h239.0 s0.89 x7.94
+  18.75h luma  1.016 | picta h232.0 s0.62 | BABY h245.5 s0.69 | astra h242.3 s0.72 | naive h239.2 s0.88 x6.79
+  19.00h luma  1.033 | picta h229.8 s0.65 | BABY h241.4 s0.69 | astra h242.2 s0.70 | naive h238.5 s0.89 x5.66
+  19.50h luma  1.037 | picta h226.3 s0.71 | BABY h234.1 s0.71 | astra h241.8 s0.63 | naive h236.9 s0.89 x3.35
+  20.00h luma  1.004 | picta h223.7 s0.76 | BABY h221.7 s0.69 | astra h240.0 s0.43 | naive h223.7 s0.76 x1.00
+  20.50h luma  1.000 | picta h221.7 s0.80 | BABY h221.7 s0.80 | astra h240.0 s0.43 | naive h221.7 s0.80 x1.00
+-- sunlight
+   5.50h luma  0.999 | picta h221.1 s0.72 | BABY h221.1 s0.72 | astra h225.6 s0.50 | naive h221.1 s0.72 x1.00
+   6.00h luma  1.026 | picta h224.9 s0.56 | BABY h227.7 s0.48 | astra h225.6 s0.50 | naive h224.9 s0.56 x1.00
+   6.50h luma  1.064 | picta h  3.7 s0.44 | BABY h  7.5 s0.35 | astra h 33.5 s0.39 | naive h 10.2 s0.33 x1.14
+   7.00h luma  1.010 | picta h 12.5 s0.96 | BABY h 19.8 s0.89 | astra h 36.4 s0.59 | naive h 20.4 s0.91 x1.24
+   7.25h luma  0.939 | picta h  9.1 s1.00 | BABY h 18.2 s1.00 | astra h 36.8 s0.63 | naive h 17.7 s1.00 x1.24
+   7.50h luma  0.920 | picta h  8.1 s1.00 | BABY h 18.1 s0.96 | astra h 37.1 s0.67 | naive h 17.9 s0.99 x1.31
+   8.00h luma  1.001 | picta h 15.2 s0.96 | BABY h 20.7 s0.80 | astra h 34.9 s0.54 | naive h 21.2 s0.93 x1.07
+   8.50h luma  1.022 | picta h 20.8 s0.76 | BABY h 21.2 s0.54 | astra h 30.2 s0.38 | naive h 22.9 s0.80 x0.84
+   9.00h luma  1.013 | picta h 30.0 s0.40 | BABY h 13.8 s0.18 | astra h 14.6 s0.19 | naive h 21.1 s0.57 x0.65
+  10.00h luma  0.999 | picta h 30.0 s0.08 | BABY h 13.8 s0.18 | astra h 14.6 s0.19 | naive h 30.0 s0.08 x0.65
+  13.00h luma  1.001 | picta h 26.5 s0.19 | BABY h 13.8 s0.18 | astra h 14.6 s0.18 | naive h 22.0 s0.27 x0.65
+  15.00h luma  1.003 | picta h 25.7 s0.29 | BABY h 13.8 s0.18 | astra h 14.6 s0.18 | naive h 20.4 s0.40 x0.65
+  17.00h luma  1.008 | picta h 25.0 s0.48 | BABY h 13.8 s0.18 | astra h 14.6 s0.19 | naive h 18.6 s0.62 x0.66
+  17.50h luma  1.024 | picta h 16.3 s0.79 | BABY h 17.8 s0.56 | astra h 30.2 s0.38 | naive h 19.8 s0.82 x0.86
+  18.00h luma  1.002 | picta h 11.0 s0.96 | BABY h 16.8 s0.82 | astra h 34.9 s0.54 | naive h 18.0 s0.94 x1.11
+  18.50h luma  0.899 | picta h  4.7 s1.00 | BABY h 14.1 s0.97 | astra h 37.1 s0.67 | naive h 14.7 s0.99 x1.36
+  18.75h luma  0.923 | picta h  5.7 s1.00 | BABY h 13.9 s1.00 | astra h 36.8 s0.63 | naive h 14.2 s1.00 x1.26
+  19.00h luma  1.014 | picta h  8.2 s0.96 | BABY h 14.7 s0.90 | astra h 36.4 s0.59 | naive h 16.3 s0.91 x1.28
+  19.50h luma  1.079 | picta h353.4 s0.49 | BABY h356.2 s0.39 | astra h 33.5 s0.39 | naive h358.7 s0.34 x1.18
+  20.00h luma  1.030 | picta h227.2 s0.56 | BABY h232.2 s0.47 | astra h225.6 s0.50 | naive h227.2 s0.56 x1.00
+  20.50h luma  0.999 | picta h221.1 s0.72 | BABY h221.1 s0.72 | astra h225.6 s0.50 | naive h221.1 s0.72 x1.00
+-- sunraw
+   5.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.007 | picta h255.1 s0.16 | BABY h218.5 s0.35 | astra h  0.0 s0.00 | naive h255.1 s0.16 x1.00
+   6.50h luma  1.003 | picta h 17.7 s0.59 | BABY h 13.5 s0.39 | astra h 17.9 s1.00 | naive h 14.0 s0.60 x0.88
+   7.00h luma  0.999 | picta h 17.9 s0.93 | BABY h 16.4 s0.83 | astra h 17.9 s1.00 | naive h 13.7 s0.94 x0.75
+   7.25h luma  0.997 | picta h 16.0 s1.00 | BABY h 14.8 s0.94 | astra h 17.9 s1.00 | naive h 10.7 s1.00 x0.68
+   7.50h luma  0.993 | picta h 15.7 s0.98 | BABY h 14.5 s1.00 | astra h 17.9 s1.00 | naive h  8.2 s1.00 x0.58
+   8.00h luma  1.002 | picta h 20.4 s0.88 | BABY h 17.7 s0.87 | astra h 20.0 s0.76 | naive h 14.1 s0.94 x0.68
+   8.50h luma  1.001 | picta h 24.5 s0.68 | BABY h 21.3 s0.68 | astra h 23.1 s0.57 | naive h 19.2 s0.81 x0.76
+   9.00h luma  0.995 | picta h 30.0 s0.40 | BABY h 27.9 s0.41 | astra h 28.0 s0.40 | naive h 25.2 s0.64 x0.83
+  10.00h luma  0.999 | picta h 30.0 s0.08 | BABY h 27.9 s0.41 | astra h 28.0 s0.40 | naive h 27.2 s0.45 x0.82
+  13.00h luma  0.998 | picta h 26.5 s0.19 | BABY h 27.9 s0.41 | astra h 28.0 s0.40 | naive h 25.3 s0.52 x0.82
+  15.00h luma  0.998 | picta h 25.7 s0.29 | BABY h 27.9 s0.41 | astra h 28.0 s0.40 | naive h 24.0 s0.58 x0.83
+  17.00h luma  0.997 | picta h 25.0 s0.48 | BABY h 27.9 s0.41 | astra h 28.0 s0.40 | naive h 22.2 s0.69 x0.83
+  17.50h luma  1.002 | picta h 20.3 s0.73 | BABY h 21.3 s0.69 | astra h 23.1 s0.57 | naive h 16.7 s0.84 x0.78
+  18.00h luma  1.001 | picta h 16.3 s0.90 | BABY h 17.4 s0.89 | astra h 20.0 s0.76 | naive h 12.0 s0.95 x0.71
+  18.50h luma  0.988 | picta h 11.7 s0.99 | BABY h 13.4 s1.00 | astra h 17.9 s1.00 | naive h  6.8 s1.00 x0.62
+  18.75h luma  0.995 | picta h 11.9 s1.00 | BABY h 14.1 s0.96 | astra h 17.9 s1.00 | naive h  8.6 s1.00 x0.71
+  19.00h luma  1.000 | picta h 13.7 s0.93 | BABY h 16.3 s0.86 | astra h 17.9 s1.00 | naive h 10.9 s0.94 x0.78
+  19.50h luma  1.006 | picta h 12.2 s0.60 | BABY h 15.3 s0.43 | astra h 17.9 s1.00 | naive h  9.3 s0.60 x0.90
+  20.00h luma  1.007 | picta h262.5 s0.19 | BABY h218.8 s0.33 | astra h  0.0 s0.00 | naive h262.5 s0.19 x1.00
+  20.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- scat
+   5.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.009 | picta h255.1 s0.16 | BABY h218.5 s0.35 | astra h  0.0 s0.00 | naive h255.1 s0.16 x1.00
+   6.50h luma  1.008 | picta h 17.7 s0.59 | BABY h 13.5 s0.39 | astra h  0.0 s0.00 | naive h 14.0 s0.60 x0.88
+   7.00h luma  1.006 | picta h 17.9 s0.93 | BABY h 16.4 s0.83 | astra h  0.0 s0.00 | naive h 13.7 s0.94 x0.75
+   7.25h luma  1.005 | picta h 16.0 s1.00 | BABY h 14.8 s0.94 | astra h 17.9 s0.03 | naive h 10.7 s1.00 x0.68
+   7.50h luma  0.988 | picta h 15.7 s0.98 | BABY h 14.5 s1.00 | astra h 17.9 s0.08 | naive h  8.2 s1.00 x0.58
+   8.00h luma  0.996 | picta h 20.4 s0.88 | BABY h 17.7 s0.87 | astra h 20.0 s0.15 | naive h 14.1 s0.94 x0.68
+   8.50h luma  1.006 | picta h 24.5 s0.68 | BABY h 21.3 s0.68 | astra h 23.1 s0.17 | naive h 19.2 s0.81 x0.76
+   9.00h luma  1.016 | picta h 30.0 s0.40 | BABY h 27.9 s0.41 | astra h 28.0 s0.15 | naive h 25.2 s0.64 x0.83
+  10.00h luma  0.953 | picta h 30.0 s0.08 | BABY h 27.9 s0.41 | astra h 28.0 s0.17 | naive h 27.2 s0.45 x0.82
+  13.00h luma  0.981 | picta h 26.5 s0.19 | BABY h 27.9 s0.41 | astra h 28.0 s0.20 | naive h 25.3 s0.52 x0.82
+  15.00h luma  1.008 | picta h 25.7 s0.29 | BABY h 27.9 s0.41 | astra h 28.0 s0.18 | naive h 24.0 s0.58 x0.83
+  17.00h luma  0.981 | picta h 25.0 s0.48 | BABY h 27.9 s0.41 | astra h 28.0 s0.15 | naive h 22.2 s0.69 x0.83
+  17.50h luma  0.991 | picta h 20.3 s0.73 | BABY h 21.3 s0.69 | astra h 23.1 s0.17 | naive h 16.7 s0.84 x0.78
+  18.00h luma  0.996 | picta h 16.3 s0.90 | BABY h 17.4 s0.89 | astra h 20.0 s0.15 | naive h 12.0 s0.95 x0.71
+  18.50h luma  0.989 | picta h 11.7 s0.99 | BABY h 13.4 s1.00 | astra h 17.9 s0.08 | naive h  6.8 s1.00 x0.62
+  18.75h luma  0.998 | picta h 11.9 s1.00 | BABY h 14.1 s0.96 | astra h 17.9 s0.03 | naive h  8.6 s1.00 x0.71
+  19.00h luma  1.003 | picta h 13.7 s0.93 | BABY h 16.3 s0.86 | astra h  0.0 s0.00 | naive h 10.9 s0.94 x0.78
+  19.50h luma  1.008 | picta h 12.2 s0.60 | BABY h 15.3 s0.43 | astra h  0.0 s0.00 | naive h  9.3 s0.60 x0.90
+  20.00h luma  1.008 | picta h262.5 s0.19 | BABY h218.8 s0.33 | astra h  0.0 s0.00 | naive h262.5 s0.19 x1.00
+  20.50h luma  1.003 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- DALC.DirectionalXPlus
+   5.50h luma  1.000 | picta h221.8 s0.65 | BABY h221.8 s0.65 | astra h240.0 s0.08 | naive h221.8 s0.65 x1.00
+   6.00h luma  1.000 | picta h221.8 s0.70 | BABY h221.8 s0.70 | astra h240.0 s0.08 | naive h221.8 s0.70 x1.00
+   6.50h luma  0.996 | picta h223.8 s0.69 | BABY h222.6 s0.59 | astra h321.8 s0.04 | naive h223.6 s0.47 x1.39
+   7.00h luma  1.004 | picta h226.4 s0.67 | BABY h225.4 s0.39 | astra h354.5 s0.06 | naive h230.5 s0.22 x1.82
+   7.25h luma  1.014 | picta h228.1 s0.65 | BABY h232.2 s0.21 | astra h  1.1 s0.07 | naive h252.4 s0.09 x2.05
+   7.50h luma  1.006 | picta h230.1 s0.60 | BABY h  0.0 s0.07 | astra h  5.0 s0.08 | naive h  5.0 s0.07 x2.24
+   8.00h luma  0.995 | picta h226.8 s0.59 | BABY h245.1 s0.13 | astra h261.5 s0.09 | naive h261.5 s0.08 x1.95
+   8.50h luma  0.992 | picta h224.0 s0.57 | BABY h233.2 s0.23 | astra h236.5 s0.19 | naive h236.5 s0.15 x1.70
+   9.00h luma  0.996 | picta h221.6 s0.55 | BABY h230.0 s0.29 | astra h230.2 s0.32 | naive h230.2 s0.24 x1.49
+  10.00h luma  1.008 | picta h221.6 s0.62 | BABY h230.0 s0.34 | astra h230.2 s0.32 | naive h230.2 s0.28 x1.51
+  13.00h luma  1.005 | picta h221.6 s0.60 | BABY h230.0 s0.32 | astra h230.2 s0.32 | naive h230.2 s0.27 x1.50
+  15.00h luma  1.002 | picta h221.6 s0.59 | BABY h230.0 s0.31 | astra h230.2 s0.32 | naive h230.2 s0.26 x1.50
+  17.00h luma  0.996 | picta h221.6 s0.55 | BABY h230.0 s0.29 | astra h230.2 s0.32 | naive h230.2 s0.24 x1.49
+  17.50h luma  0.994 | picta h224.4 s0.57 | BABY h231.1 s0.26 | astra h231.0 s0.28 | naive h231.0 s0.23 x1.33
+  18.00h luma  0.998 | picta h227.7 s0.59 | BABY h233.2 s0.21 | astra h232.8 s0.23 | naive h232.8 s0.20 x1.15
+  18.50h luma  1.009 | picta h231.6 s0.60 | BABY h240.0 s0.13 | astra h240.0 s0.13 | naive h240.0 s0.12 x0.96
+  18.75h luma  1.015 | picta h229.3 s0.65 | BABY h227.0 s0.33 | astra h240.0 s0.12 | naive h226.6 s0.34 x0.98
+  19.00h luma  1.006 | picta h227.3 s0.67 | BABY h224.3 s0.46 | astra h240.0 s0.12 | naive h224.1 s0.47 x0.97
+  19.50h luma  0.997 | picta h224.1 s0.69 | BABY h222.5 s0.62 | astra h240.0 s0.10 | naive h222.4 s0.62 x0.98
+  20.00h luma  1.000 | picta h221.8 s0.70 | BABY h221.8 s0.70 | astra h240.0 s0.08 | naive h221.8 s0.70 x1.00
+  20.50h luma  1.000 | picta h221.8 s0.65 | BABY h221.8 s0.65 | astra h240.0 s0.08 | naive h221.8 s0.65 x1.00
+-- DALC.DirectionalXMinus
+   5.50h luma  1.000 | picta h221.8 s0.65 | BABY h221.8 s0.65 | astra h240.0 s0.08 | naive h221.8 s0.65 x1.00
+   6.00h luma  1.000 | picta h221.8 s0.70 | BABY h221.8 s0.70 | astra h240.0 s0.08 | naive h221.8 s0.70 x1.00
+   6.50h luma  0.996 | picta h223.8 s0.69 | BABY h222.5 s0.62 | astra h240.0 s0.10 | naive h222.4 s0.62 x0.98
+   7.00h luma  1.002 | picta h226.4 s0.67 | BABY h224.5 s0.46 | astra h240.0 s0.12 | naive h224.1 s0.47 x0.96
+   7.25h luma  1.010 | picta h228.1 s0.65 | BABY h227.3 s0.34 | astra h240.0 s0.12 | naive h226.6 s0.34 x0.96
+   7.50h luma  1.004 | picta h230.1 s0.60 | BABY h240.0 s0.14 | astra h240.0 s0.13 | naive h240.0 s0.12 x0.94
+   8.00h luma  0.996 | picta h226.8 s0.59 | BABY h233.4 s0.22 | astra h232.8 s0.23 | naive h232.8 s0.20 x1.14
+   8.50h luma  0.993 | picta h224.0 s0.57 | BABY h231.2 s0.26 | astra h231.0 s0.28 | naive h231.0 s0.23 x1.32
+   9.00h luma  0.996 | picta h221.6 s0.55 | BABY h230.0 s0.29 | astra h230.2 s0.32 | naive h230.2 s0.24 x1.49
+  10.00h luma  1.008 | picta h221.6 s0.62 | BABY h230.0 s0.34 | astra h230.2 s0.32 | naive h230.2 s0.28 x1.51
+  13.00h luma  1.005 | picta h221.6 s0.60 | BABY h230.0 s0.32 | astra h230.2 s0.32 | naive h230.2 s0.27 x1.50
+  15.00h luma  1.002 | picta h221.6 s0.59 | BABY h230.0 s0.31 | astra h230.2 s0.32 | naive h230.2 s0.26 x1.50
+  17.00h luma  0.996 | picta h221.6 s0.55 | BABY h230.0 s0.29 | astra h230.2 s0.32 | naive h230.2 s0.24 x1.49
+  17.50h luma  0.993 | picta h224.4 s0.57 | BABY h233.1 s0.22 | astra h236.5 s0.19 | naive h236.5 s0.15 x1.71
+  18.00h luma  0.997 | picta h227.7 s0.59 | BABY h245.5 s0.12 | astra h261.5 s0.09 | naive h261.5 s0.08 x1.98
+  18.50h luma  1.011 | picta h231.6 s0.60 | BABY h 10.0 s0.08 | astra h  5.0 s0.08 | naive h  5.0 s0.07 x2.29
+  18.75h luma  1.018 | picta h229.3 s0.65 | BABY h231.8 s0.20 | astra h  1.1 s0.07 | naive h252.4 s0.09 x2.09
+  19.00h luma  1.007 | picta h227.3 s0.67 | BABY h225.1 s0.39 | astra h354.5 s0.06 | naive h230.5 s0.22 x1.85
+  19.50h luma  0.997 | picta h224.1 s0.69 | BABY h222.5 s0.60 | astra h321.8 s0.04 | naive h223.6 s0.47 x1.40
+  20.00h luma  1.000 | picta h221.8 s0.70 | BABY h221.8 s0.70 | astra h240.0 s0.08 | naive h221.8 s0.70 x1.00
+  20.50h luma  1.000 | picta h221.8 s0.65 | BABY h221.8 s0.65 | astra h240.0 s0.08 | naive h221.8 s0.65 x1.00
+-- DALC.DirectionalZMinus
+   5.50h luma  1.000 | picta h221.5 s0.65 | BABY h221.5 s0.65 | astra h240.0 s0.09 | naive h221.5 s0.65 x1.00
+   6.00h luma  1.000 | picta h221.5 s0.70 | BABY h221.5 s0.70 | astra h240.0 s0.09 | naive h221.5 s0.70 x1.00
+   6.50h luma  0.995 | picta h232.8 s0.56 | BABY h222.5 s0.58 | astra h264.7 s0.06 | naive h222.5 s0.56 x1.03
+   7.00h luma  1.007 | picta h254.1 s0.51 | BABY h225.9 s0.37 | astra h292.5 s0.05 | naive h225.9 s0.35 x1.08
+   7.25h luma  1.019 | picta h266.8 s0.52 | BABY h232.9 s0.21 | astra h306.9 s0.05 | naive h232.9 s0.19 x1.11
+   7.50h luma  1.010 | picta h280.9 s0.49 | BABY h317.1 s0.06 | astra h317.1 s0.05 | naive h317.1 s0.05 x1.12
+   8.00h luma  0.994 | picta h257.8 s0.46 | BABY h245.3 s0.13 | astra h243.8 s0.14 | naive h243.8 s0.12 x1.21
+   8.50h luma  0.987 | picta h236.2 s0.45 | BABY h234.0 s0.21 | astra h233.7 s0.23 | naive h233.7 s0.19 x1.31
+   9.00h luma  0.990 | picta h222.5 s0.55 | BABY h230.4 s0.28 | astra h230.5 s0.31 | naive h230.5 s0.23 x1.43
+  10.00h luma  1.005 | picta h222.5 s0.63 | BABY h230.4 s0.32 | astra h230.5 s0.31 | naive h230.5 s0.27 x1.45
+  13.00h luma  1.000 | picta h222.5 s0.60 | BABY h230.4 s0.31 | astra h230.5 s0.31 | naive h230.5 s0.26 x1.45
+  15.00h luma  0.997 | picta h222.5 s0.59 | BABY h230.4 s0.30 | astra h230.5 s0.31 | naive h230.5 s0.25 x1.44
+  17.00h luma  0.990 | picta h222.5 s0.55 | BABY h230.4 s0.28 | astra h230.5 s0.31 | naive h230.5 s0.23 x1.43
+  17.50h luma  0.987 | picta h236.8 s0.45 | BABY h234.0 s0.21 | astra h233.7 s0.23 | naive h233.7 s0.19 x1.32
+  18.00h luma  0.994 | picta h258.6 s0.47 | BABY h245.3 s0.13 | astra h243.8 s0.14 | naive h243.8 s0.12 x1.23
+  18.50h luma  1.012 | picta h281.4 s0.51 | BABY h317.1 s0.06 | astra h317.1 s0.05 | naive h317.1 s0.05 x1.15
+  18.75h luma  1.021 | picta h267.6 s0.53 | BABY h232.9 s0.21 | astra h306.9 s0.05 | naive h232.9 s0.19 x1.14
+  19.00h luma  1.008 | picta h255.0 s0.52 | BABY h225.9 s0.38 | astra h292.5 s0.05 | naive h225.9 s0.35 x1.10
+  19.50h luma  0.995 | picta h233.3 s0.56 | BABY h222.5 s0.58 | astra h264.7 s0.06 | naive h222.5 s0.56 x1.04
+  20.00h luma  1.000 | picta h221.5 s0.70 | BABY h221.5 s0.70 | astra h240.0 s0.09 | naive h221.5 s0.70 x1.00
+  20.50h luma  1.000 | picta h221.5 s0.65 | BABY h221.5 s0.65 | astra h240.0 s0.09 | naive h221.5 s0.65 x1.00
+-- dome pixels (view relative to the sun azimuth)
+   7.00h zenith    luma  1.009 | picta h220.7 s0.67 | BABY h227.3 s0.69 | naive h227.1 s0.79 x0.43
+   7.00h hor_sun   luma  0.997 | picta h264.1 s0.40 | BABY h 17.9 s0.54 | naive h342.1 s0.36 x0.99
+   7.00h hor_away  luma  0.995 | picta h236.5 s0.51 | BABY h 19.6 s0.43 | naive h304.7 s0.23 x1.05
+   7.50h zenith    luma  0.988 | picta h220.9 s0.66 | BABY h226.8 s0.69 | naive h230.3 s0.87 x0.25
+   7.50h hor_sun   luma  1.002 | picta h262.2 s0.42 | BABY h 19.7 s0.73 | naive h356.2 s0.42 x1.00
+   7.50h hor_away  luma  1.004 | picta h237.2 s0.50 | BABY h 22.6 s0.65 | naive h347.9 s0.31 x1.07
+   8.00h zenith    luma  0.995 | picta h219.6 s0.71 | BABY h226.9 s0.70 | naive h230.2 s0.89 x0.35
+   8.00h hor_sun   luma  1.002 | picta h243.7 s0.44 | BABY h 16.3 s0.48 | naive h261.0 s0.39 x1.09
+   8.00h hor_away  luma  1.003 | picta h231.8 s0.57 | BABY h 16.1 s0.36 | naive h244.4 s0.43 x1.16
+  10.00h zenith    luma  1.000 | picta h216.7 s0.81 | BABY h227.3 s0.71 | naive h229.5 s0.93 x0.53
+  10.00h hor_sun   luma  0.997 | picta h223.9 s0.72 | BABY h218.3 s0.41 | naive h227.3 s0.83 x1.40
+  10.00h hor_away  luma  0.998 | picta h223.8 s0.73 | BABY h218.0 s0.43 | naive h227.2 s0.84 x1.42
+  13.00h zenith    luma  1.002 | picta h217.0 s0.80 | BABY h227.3 s0.71 | naive h229.7 s0.93 x0.54
+  13.00h hor_sun   luma  0.997 | picta h224.4 s0.71 | BABY h218.6 s0.41 | naive h227.7 s0.83 x1.39
+  13.00h hor_away  luma  0.998 | picta h224.4 s0.72 | BABY h218.3 s0.43 | naive h227.5 s0.84 x1.40
+  17.00h zenith    luma  1.005 | picta h217.9 s0.80 | BABY h227.3 s0.71 | naive h230.0 s0.93 x0.53
+  17.00h hor_sun   luma  0.995 | picta h227.4 s0.63 | BABY h220.3 s0.35 | naive h229.7 s0.78 x1.32
+  17.00h hor_away  luma  0.996 | picta h226.0 s0.70 | BABY h218.7 s0.43 | naive h228.5 s0.82 x1.39
+  18.00h zenith    luma  0.994 | picta h220.8 s0.71 | BABY h226.9 s0.70 | naive h230.6 s0.89 x0.35
+  18.00h hor_sun   luma  1.003 | picta h248.1 s0.47 | BABY h 16.1 s0.47 | naive h264.1 s0.42 x1.11
+  18.00h hor_away  luma  1.004 | picta h234.2 s0.57 | BABY h 16.0 s0.36 | naive h247.5 s0.45 x1.17
+  18.50h zenith    luma  0.988 | picta h222.6 s0.66 | BABY h226.8 s0.69 | naive h230.9 s0.87 x0.26
+  18.50h hor_sun   luma  1.002 | picta h265.9 s0.46 | BABY h 19.5 s0.73 | naive h352.3 s0.45 x1.02
+  18.50h hor_away  luma  1.005 | picta h240.5 s0.50 | BABY h 22.6 s0.65 | naive h343.3 s0.34 x1.08
+  19.00h zenith    luma  1.009 | picta h222.2 s0.67 | BABY h227.3 s0.69 | naive h228.0 s0.79 x0.43
+  19.00h hor_sun   luma  0.996 | picta h267.8 s0.44 | BABY h 17.7 s0.54 | naive h338.2 s0.40 x1.00
+  19.00h hor_away  luma  0.995 | picta h239.5 s0.51 | BABY h 19.4 s0.42 | naive h304.1 s0.27 x1.05
+
+=========== 19FD02 PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog  partner SkyrimFog  file Picta - Weathers/00_Master/D02_Overcast_Heavy_Fog.ini
+-- top
+   5.50h luma  1.000 | picta h213.9 s0.76 | BABY h213.9 s0.76 | astra h  0.0 s0.00 | naive h213.9 s0.76 x1.00
+   6.00h luma  0.997 | picta h214.6 s0.71 | BABY h213.9 s0.62 | astra h  0.0 s0.00 | naive h214.6 s0.71 x1.00
+   6.50h luma  1.005 | picta h215.5 s0.67 | BABY h216.6 s0.52 | astra h217.5 s0.27 | naive h217.4 s0.70 x0.88
+   7.00h luma  1.001 | picta h216.6 s0.62 | BABY h217.6 s0.37 | astra h217.5 s0.29 | naive h219.5 s0.69 x0.79
+   7.25h luma  0.995 | picta h217.2 s0.59 | BABY h217.2 s0.26 | astra h217.5 s0.29 | naive h220.4 s0.69 x0.75
+   7.50h luma  0.997 | picta h216.7 s0.61 | BABY h217.2 s0.29 | astra h217.5 s0.29 | naive h220.5 s0.71 x0.73
+   8.00h luma  0.998 | picta h215.8 s0.65 | BABY h217.3 s0.27 | astra h217.4 s0.26 | naive h219.5 s0.73 x0.87
+   8.50h luma  1.000 | picta h215.0 s0.69 | BABY h217.5 s0.25 | astra h217.4 s0.24 | naive h218.6 s0.76 x1.02
+   9.00h luma  1.001 | picta h214.3 s0.73 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h217.8 s0.78 x1.16
+  10.00h luma  1.000 | picta h213.8 s0.73 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h217.4 s0.79 x1.16
+  13.00h luma  1.000 | picta h214.1 s0.73 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h217.6 s0.79 x1.16
+  15.00h luma  1.000 | picta h214.3 s0.73 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h217.8 s0.78 x1.16
+  17.00h luma  1.001 | picta h214.7 s0.73 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h218.1 s0.78 x1.16
+  17.50h luma  0.999 | picta h215.8 s0.69 | BABY h217.5 s0.25 | astra h217.4 s0.24 | naive h219.2 s0.76 x1.02
+  18.00h luma  0.998 | picta h217.0 s0.65 | BABY h217.3 s0.27 | astra h217.4 s0.26 | naive h220.4 s0.73 x0.87
+  18.50h luma  0.997 | picta h218.4 s0.61 | BABY h217.2 s0.29 | astra h217.5 s0.29 | naive h221.7 s0.71 x0.73
+  18.75h luma  0.995 | picta h219.1 s0.59 | BABY h217.2 s0.26 | astra h217.5 s0.29 | naive h221.8 s0.69 x0.76
+  19.00h luma  1.001 | picta h218.1 s0.62 | BABY h217.6 s0.37 | astra h217.5 s0.29 | naive h220.8 s0.69 x0.79
+  19.50h luma  1.005 | picta h216.5 s0.67 | BABY h216.6 s0.52 | astra h217.5 s0.27 | naive h218.2 s0.70 x0.88
+  20.00h luma  0.997 | picta h215.1 s0.71 | BABY h213.9 s0.62 | astra h  0.0 s0.00 | naive h215.1 s0.71 x1.00
+  20.50h luma  1.000 | picta h213.9 s0.76 | BABY h213.9 s0.76 | astra h  0.0 s0.00 | naive h213.9 s0.76 x1.00
+-- hor
+   5.50h luma  1.000 | picta h219.7 s0.56 | BABY h219.7 s0.56 | astra h240.0 s0.67 | naive h219.7 s0.56 x1.00
+   6.00h luma  0.997 | picta h220.9 s0.50 | BABY h219.7 s0.45 | astra h240.0 s0.67 | naive h220.9 s0.50 x1.00
+   6.50h luma  1.003 | picta h222.7 s0.44 | BABY h220.6 s0.40 | astra h229.4 s0.40 | naive h223.3 s0.50 x0.86
+   7.00h luma  1.001 | picta h225.4 s0.37 | BABY h219.5 s0.32 | astra h222.6 s0.32 | naive h225.1 s0.49 x0.77
+   7.25h luma  0.997 | picta h227.2 s0.33 | BABY h217.5 s0.26 | astra h220.1 s0.30 | naive h225.8 s0.48 x0.73
+   7.50h luma  0.999 | picta h225.3 s0.36 | BABY h217.5 s0.28 | astra h218.0 s0.28 | naive h224.9 s0.52 x0.70
+   8.00h luma  0.999 | picta h222.3 s0.41 | BABY h217.6 s0.26 | astra h217.7 s0.26 | naive h223.3 s0.55 x0.85
+   8.50h luma  1.000 | picta h219.9 s0.45 | BABY h217.6 s0.25 | astra h217.5 s0.24 | naive h221.8 s0.58 x1.00
+   9.00h luma  1.001 | picta h218.0 s0.50 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h220.4 s0.61 x1.15
+  10.00h luma  1.000 | picta h216.7 s0.51 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h219.5 s0.61 x1.15
+  13.00h luma  1.000 | picta h217.3 s0.50 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h219.9 s0.61 x1.15
+  15.00h luma  1.000 | picta h217.8 s0.50 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h220.3 s0.61 x1.15
+  17.00h luma  1.000 | picta h218.8 s0.50 | BABY h217.7 s0.23 | astra h217.3 s0.22 | naive h221.0 s0.60 x1.15
+  17.50h luma  1.000 | picta h221.4 s0.45 | BABY h217.6 s0.25 | astra h217.5 s0.24 | naive h222.8 s0.57 x1.00
+  18.00h luma  0.999 | picta h224.7 s0.40 | BABY h217.6 s0.26 | astra h217.7 s0.26 | naive h224.8 s0.55 x0.85
+  18.50h luma  0.999 | picta h228.7 s0.36 | BABY h217.5 s0.28 | astra h218.0 s0.28 | naive h226.8 s0.52 x0.70
+  18.75h luma  0.997 | picta h231.2 s0.33 | BABY h217.5 s0.26 | astra h220.1 s0.30 | naive h228.2 s0.48 x0.73
+  19.00h luma  1.001 | picta h228.4 s0.37 | BABY h219.5 s0.32 | astra h222.6 s0.32 | naive h227.1 s0.49 x0.77
+  19.50h luma  1.003 | picta h224.4 s0.44 | BABY h220.7 s0.40 | astra h229.4 s0.40 | naive h224.7 s0.50 x0.86
+  20.00h luma  0.997 | picta h221.6 s0.50 | BABY h219.7 s0.45 | astra h240.0 s0.67 | naive h221.6 s0.50 x1.00
+  20.50h luma  1.000 | picta h219.7 s0.56 | BABY h219.7 s0.56 | astra h240.0 s0.67 | naive h219.7 s0.56 x1.00
+-- clouds
+   5.50h luma  1.001 | picta h211.5 s0.49 | BABY h211.5 s0.49 | astra h  0.0 s0.00 | naive h211.5 s0.49 x1.00
+   6.00h luma  1.001 | picta h213.4 s0.46 | BABY h211.5 s0.39 | astra h  0.0 s0.00 | naive h213.4 s0.46 x1.00
+   6.50h luma  1.000 | picta h215.8 s0.43 | BABY h211.5 s0.26 | astra h  0.0 s0.00 | naive h215.8 s0.43 x1.00
+   7.00h luma  1.000 | picta h218.7 s0.39 | BABY h211.5 s0.10 | astra h  0.0 s0.00 | naive h218.7 s0.39 x1.00
+   7.25h luma  1.000 | picta h220.5 s0.37 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h220.5 s0.37 x1.00
+   7.50h luma  1.000 | picta h220.2 s0.38 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h220.2 s0.38 x1.00
+   8.00h luma  1.000 | picta h219.7 s0.39 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h219.7 s0.39 x1.00
+   8.50h luma  1.000 | picta h219.3 s0.41 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h219.3 s0.41 x1.00
+   9.00h luma  1.000 | picta h218.9 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.9 s0.42 x1.00
+  10.00h luma  1.000 | picta h210.0 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.0 s0.42 x1.00
+  13.00h luma  1.000 | picta h213.1 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h213.1 s0.42 x1.00
+  15.00h luma  1.000 | picta h215.8 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h215.8 s0.42 x1.00
+  17.00h luma  1.000 | picta h221.0 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h221.0 s0.42 x1.00
+  17.50h luma  1.000 | picta h221.5 s0.41 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h221.5 s0.41 x1.00
+  18.00h luma  1.000 | picta h222.1 s0.39 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h222.1 s0.39 x1.00
+  18.50h luma  1.000 | picta h222.8 s0.38 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h222.8 s0.38 x1.00
+  18.75h luma  1.000 | picta h223.1 s0.37 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.1 s0.37 x1.00
+  19.00h luma  1.000 | picta h220.8 s0.39 | BABY h211.5 s0.10 | astra h  0.0 s0.00 | naive h220.8 s0.39 x1.00
+  19.50h luma  1.000 | picta h217.0 s0.43 | BABY h211.5 s0.26 | astra h  0.0 s0.00 | naive h217.0 s0.43 x1.00
+  20.00h luma  1.001 | picta h214.0 s0.46 | BABY h211.5 s0.39 | astra h  0.0 s0.00 | naive h214.0 s0.46 x1.00
+  20.50h luma  1.001 | picta h211.5 s0.49 | BABY h211.5 s0.49 | astra h  0.0 s0.00 | naive h211.5 s0.49 x1.00
+-- fogfar
+   5.50h luma  1.000 | picta h211.5 s0.49 | BABY h211.5 s0.49 | astra h240.0 s0.67 | naive h211.5 s0.49 x1.00
+   6.00h luma  1.000 | picta h213.4 s0.46 | BABY h211.5 s0.39 | astra h240.0 s0.67 | naive h213.4 s0.46 x1.00
+   6.50h luma  1.001 | picta h215.8 s0.43 | BABY h213.9 s0.34 | astra h226.8 s0.40 | naive h217.1 s0.50 x1.06
+   7.00h luma  0.999 | picta h218.7 s0.39 | BABY h215.4 s0.29 | astra h219.6 s0.34 | naive h219.7 s0.52 x1.12
+   7.25h luma  0.997 | picta h220.5 s0.37 | BABY h215.6 s0.25 | astra h217.0 s0.31 | naive h220.8 s0.53 x1.15
+   7.50h luma  0.996 | picta h220.2 s0.38 | BABY h215.6 s0.29 | astra h214.9 s0.30 | naive h220.7 s0.56 x1.18
+   8.00h luma  0.998 | picta h219.7 s0.39 | BABY h216.3 s0.28 | astra h216.2 s0.27 | naive h221.0 s0.56 x1.45
+   8.50h luma  0.999 | picta h219.3 s0.41 | BABY h217.2 s0.26 | astra h217.3 s0.26 | naive h221.2 s0.56 x1.72
+   9.00h luma  1.000 | picta h218.9 s0.42 | BABY h218.2 s0.24 | astra h218.2 s0.25 | naive h221.2 s0.57 x1.99
+  10.00h luma  1.000 | picta h210.0 s0.42 | BABY h218.2 s0.24 | astra h218.2 s0.25 | naive h215.6 s0.57 x1.99
+  13.00h luma  1.000 | picta h213.1 s0.42 | BABY h218.2 s0.24 | astra h218.2 s0.25 | naive h217.6 s0.57 x1.99
+  15.00h luma  1.000 | picta h215.8 s0.42 | BABY h218.2 s0.24 | astra h218.2 s0.25 | naive h219.3 s0.57 x1.99
+  17.00h luma  1.000 | picta h221.0 s0.42 | BABY h218.2 s0.24 | astra h218.2 s0.25 | naive h222.6 s0.57 x1.99
+  17.50h luma  0.999 | picta h221.5 s0.41 | BABY h217.2 s0.26 | astra h217.3 s0.26 | naive h222.6 s0.56 x1.72
+  18.00h luma  0.998 | picta h222.1 s0.39 | BABY h216.3 s0.28 | astra h216.2 s0.27 | naive h222.5 s0.56 x1.45
+  18.50h luma  0.996 | picta h222.8 s0.38 | BABY h215.6 s0.29 | astra h214.8 s0.29 | naive h222.2 s0.56 x1.18
+  18.75h luma  0.997 | picta h223.1 s0.37 | BABY h215.6 s0.25 | astra h216.9 s0.30 | naive h222.4 s0.53 x1.15
+  19.00h luma  0.999 | picta h220.8 s0.39 | BABY h215.4 s0.29 | astra h219.5 s0.32 | naive h221.1 s0.52 x1.12
+  19.50h luma  1.001 | picta h217.0 s0.43 | BABY h213.9 s0.34 | astra h226.8 s0.40 | naive h218.1 s0.50 x1.06
+  20.00h luma  1.000 | picta h214.0 s0.46 | BABY h211.5 s0.39 | astra h240.0 s0.67 | naive h214.0 s0.46 x1.00
+  20.50h luma  1.000 | picta h211.5 s0.49 | BABY h211.5 s0.49 | astra h240.0 s0.67 | naive h211.5 s0.49 x1.00
+-- fognear
+   5.50h luma  1.000 | picta h211.5 s0.49 | BABY h211.5 s0.49 | astra h240.0 s0.74 | naive h211.5 s0.49 x1.00
+   6.00h luma  1.000 | picta h213.4 s0.46 | BABY h211.5 s0.39 | astra h240.0 s0.74 | naive h213.4 s0.46 x1.00
+   6.50h luma  1.005 | picta h215.8 s0.43 | BABY h217.3 s0.31 | astra h235.3 s0.45 | naive h221.1 s0.55 x4.44
+   7.00h luma  1.010 | picta h218.7 s0.39 | BABY h228.0 s0.20 | astra h230.7 s0.33 | naive h223.5 s0.53 x7.88
+   7.25h luma  1.011 | picta h220.5 s0.37 | BABY h240.0 s0.14 | astra h228.3 s0.29 | naive h224.6 s0.52 x9.59
+   7.50h luma  1.013 | picta h220.2 s0.38 | BABY h240.0 s0.17 | astra h225.9 s0.25 | naive h224.5 s0.53 x11.31
+   8.00h luma  1.012 | picta h219.7 s0.39 | BABY h240.0 s0.17 | astra h226.9 s0.25 | naive h224.5 s0.54 x12.14
+   8.50h luma  1.011 | picta h219.3 s0.41 | BABY h240.0 s0.17 | astra h227.8 s0.25 | naive h224.5 s0.56 x12.97
+   9.00h luma  1.011 | picta h218.9 s0.42 | BABY h240.0 s0.17 | astra h228.6 s0.25 | naive h224.5 s0.57 x13.81
+  10.00h luma  1.010 | picta h210.0 s0.42 | BABY h240.0 s0.17 | astra h228.6 s0.25 | naive h219.2 s0.57 x13.79
+  13.00h luma  1.010 | picta h213.1 s0.42 | BABY h240.0 s0.17 | astra h228.6 s0.24 | naive h221.0 s0.57 x13.80
+  15.00h luma  1.010 | picta h215.8 s0.42 | BABY h240.0 s0.17 | astra h228.6 s0.25 | naive h222.7 s0.57 x13.80
+  17.00h luma  1.010 | picta h221.0 s0.42 | BABY h240.0 s0.17 | astra h228.6 s0.25 | naive h225.8 s0.57 x13.81
+  17.50h luma  1.011 | picta h221.5 s0.41 | BABY h240.0 s0.17 | astra h227.8 s0.25 | naive h225.9 s0.56 x12.98
+  18.00h luma  1.012 | picta h222.1 s0.39 | BABY h240.0 s0.17 | astra h226.9 s0.25 | naive h225.9 s0.54 x12.14
+  18.50h luma  1.013 | picta h222.8 s0.38 | BABY h240.0 s0.17 | astra h225.9 s0.25 | naive h226.0 s0.53 x11.31
+  18.75h luma  1.011 | picta h223.1 s0.37 | BABY h240.0 s0.14 | astra h228.2 s0.28 | naive h226.2 s0.52 x9.59
+  19.00h luma  1.010 | picta h220.8 s0.39 | BABY h227.9 s0.20 | astra h230.6 s0.32 | naive h224.8 s0.53 x7.88
+  19.50h luma  1.005 | picta h217.0 s0.43 | BABY h217.3 s0.31 | astra h235.3 s0.44 | naive h222.0 s0.55 x4.44
+  20.00h luma  1.000 | picta h214.0 s0.46 | BABY h211.5 s0.39 | astra h240.0 s0.74 | naive h214.0 s0.46 x1.00
+  20.50h luma  1.000 | picta h211.5 s0.49 | BABY h211.5 s0.49 | astra h240.0 s0.74 | naive h211.5 s0.49 x1.00
+-- sunlight
+   5.50h luma  1.000 | picta h218.9 s0.60 | BABY h219.0 s0.60 | astra h240.0 s0.24 | naive h218.9 s0.60 x1.00
+   6.00h luma  1.019 | picta h226.4 s0.45 | BABY h219.9 s0.59 | astra h240.0 s0.24 | naive h226.4 s0.45 x1.00
+   6.50h luma  1.059 | picta h347.1 s0.30 | BABY h220.2 s0.54 | astra h232.3 s0.23 | naive h260.5 s0.22 x0.88
+   7.00h luma  1.018 | picta h 13.6 s0.84 | BABY h220.7 s0.41 | astra h227.5 s0.22 | naive h 15.4 s0.44 x0.68
+   7.25h luma  0.944 | picta h 12.3 s0.97 | BABY h222.0 s0.29 | astra h225.7 s0.22 | naive h 22.6 s0.72 x0.55
+   7.50h luma  0.933 | picta h 13.0 s1.00 | BABY h225.6 s0.22 | astra h224.2 s0.22 | naive h 20.1 s0.63 x0.49
+   8.00h luma  1.000 | picta h 17.4 s0.83 | BABY h224.5 s0.22 | astra h224.0 s0.22 | naive h 15.6 s0.36 x0.43
+   8.50h luma  1.012 | picta h 20.9 s0.53 | BABY h223.9 s0.22 | astra h223.8 s0.22 | naive h350.3 s0.12 x0.37
+   9.00h luma  1.001 | picta h 29.6 s0.10 | BABY h223.4 s0.22 | astra h223.6 s0.22 | naive h230.7 s0.14 x0.33
+  10.00h luma  1.002 | picta h 30.0 s0.06 | BABY h223.4 s0.22 | astra h223.6 s0.22 | naive h 30.0 s0.06 x0.34
+  13.00h luma  1.002 | picta h 21.5 s0.10 | BABY h223.4 s0.22 | astra h223.6 s0.22 | naive h340.7 s0.04 x0.34
+  15.00h luma  1.002 | picta h 18.1 s0.13 | BABY h223.4 s0.22 | astra h223.6 s0.22 | naive h305.7 s0.05 x0.33
+  17.00h luma  1.001 | picta h 14.9 s0.19 | BABY h223.4 s0.22 | astra h223.6 s0.22 | naive h280.3 s0.11 x0.33
+  17.50h luma  1.018 | picta h 14.1 s0.58 | BABY h223.1 s0.22 | astra h223.8 s0.22 | naive h350.6 s0.22 x0.38
+  18.00h luma  1.006 | picta h 11.9 s0.85 | BABY h222.6 s0.22 | astra h224.0 s0.22 | naive h  6.5 s0.42 x0.44
+  18.50h luma  0.918 | picta h  8.6 s1.00 | BABY h221.7 s0.22 | astra h224.2 s0.22 | naive h 11.7 s0.64 x0.50
+  18.75h luma  0.938 | picta h  7.7 s0.97 | BABY h219.7 s0.30 | astra h225.7 s0.22 | naive h 13.4 s0.72 x0.56
+  19.00h luma  1.031 | picta h  7.7 s0.84 | BABY h219.7 s0.42 | astra h227.5 s0.22 | naive h  1.4 s0.44 x0.70
+  19.50h luma  1.076 | picta h336.9 s0.38 | BABY h220.1 s0.55 | astra h232.3 s0.23 | naive h269.9 s0.29 x0.90
+  20.00h luma  1.026 | picta h229.7 s0.45 | BABY h219.9 s0.60 | astra h240.0 s0.24 | naive h229.7 s0.45 x1.00
+  20.50h luma  1.000 | picta h218.9 s0.60 | BABY h219.0 s0.60 | astra h240.0 s0.24 | naive h218.9 s0.60 x1.00
+-- sunraw
+   5.50h luma  0.998 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.012 | picta h234.3 s0.23 | BABY h216.9 s0.43 | astra h  0.0 s0.00 | naive h234.3 s0.23 x1.00
+   6.50h luma  1.023 | picta h 13.6 s0.44 | BABY h217.4 s0.22 | astra h 31.0 s0.42 | naive h  8.8 s0.34 x1.01
+   7.00h luma  1.007 | picta h 17.5 s0.83 | BABY h 28.7 s0.15 | astra h 31.0 s0.42 | naive h 18.3 s0.74 x1.01
+   7.25h luma  0.983 | picta h 16.3 s0.94 | BABY h 30.5 s0.33 | astra h 31.0 s0.42 | naive h 18.6 s0.87 x1.01
+   7.50h luma  0.971 | picta h 17.1 s0.94 | BABY h 30.5 s0.42 | astra h 31.0 s0.42 | naive h 19.0 s0.83 x1.02
+   8.00h luma  1.002 | picta h 20.8 s0.77 | BABY h 30.4 s0.40 | astra h 31.0 s0.42 | naive h 21.4 s0.71 x0.90
+   8.50h luma  1.005 | picta h 23.8 s0.48 | BABY h 30.4 s0.38 | astra h 31.0 s0.40 | naive h 24.6 s0.60 x0.79
+   9.00h luma  0.995 | picta h 29.6 s0.10 | BABY h 30.4 s0.37 | astra h 31.0 s0.38 | naive h 29.5 s0.48 x0.70
+  10.00h luma  0.999 | picta h 30.0 s0.06 | BABY h 30.4 s0.37 | astra h 31.0 s0.37 | naive h 30.1 s0.46 x0.70
+  13.00h luma  0.998 | picta h 21.5 s0.10 | BABY h 30.4 s0.37 | astra h 31.0 s0.33 | naive h 28.2 s0.48 x0.70
+  15.00h luma  0.998 | picta h 18.1 s0.13 | BABY h 30.4 s0.37 | astra h 31.0 s0.36 | naive h 26.7 s0.50 x0.70
+  17.00h luma  0.996 | picta h 14.9 s0.19 | BABY h 30.4 s0.37 | astra h 31.0 s0.38 | naive h 24.2 s0.53 x0.70
+  17.50h luma  1.008 | picta h 17.4 s0.55 | BABY h 30.6 s0.38 | astra h 31.0 s0.40 | naive h 19.7 s0.64 x0.81
+  18.00h luma  1.002 | picta h 15.7 s0.80 | BABY h 30.8 s0.40 | astra h 31.0 s0.42 | naive h 16.5 s0.74 x0.93
+  18.50h luma  0.957 | picta h 12.7 s0.96 | BABY h 31.0 s0.42 | astra h 31.0 s0.42 | naive h 14.0 s0.84 x1.06
+  18.75h luma  0.976 | picta h 11.5 s0.95 | BABY h 31.0 s0.33 | astra h 31.0 s0.42 | naive h 13.2 s0.87 x1.03
+  19.00h luma  1.011 | picta h 12.4 s0.85 | BABY h 29.4 s0.13 | astra h 31.0 s0.42 | naive h 12.2 s0.74 x1.04
+  19.50h luma  1.032 | picta h  5.7 s0.46 | BABY h217.0 s0.23 | astra h 31.0 s0.42 | naive h357.8 s0.35 x1.03
+  20.00h luma  1.016 | picta h241.9 s0.24 | BABY h216.9 s0.44 | astra h  0.0 s0.00 | naive h241.9 s0.24 x1.00
+  20.50h luma  0.998 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- scat
+   5.50h luma  0.998 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.012 | picta h234.3 s0.23 | BABY h216.9 s0.43 | astra h  0.0 s0.00 | naive h234.3 s0.23 x1.00
+   6.50h luma  1.023 | picta h 13.6 s0.44 | BABY h217.4 s0.22 | astra h  0.0 s0.00 | naive h  8.8 s0.34 x1.01
+   7.00h luma  1.006 | picta h 17.5 s0.83 | BABY h 28.7 s0.15 | astra h  0.0 s0.00 | naive h 18.3 s0.74 x1.01
+   7.25h luma  0.982 | picta h 16.3 s0.94 | BABY h 30.5 s0.33 | astra h  0.0 s0.00 | naive h 18.6 s0.87 x1.01
+   7.50h luma  0.970 | picta h 17.1 s0.94 | BABY h 30.5 s0.42 | astra h  0.0 s0.00 | naive h 19.0 s0.83 x1.02
+   8.00h luma  1.002 | picta h 20.8 s0.77 | BABY h 30.4 s0.40 | astra h  0.0 s0.00 | naive h 21.4 s0.71 x0.90
+   8.50h luma  1.005 | picta h 23.8 s0.48 | BABY h 30.4 s0.38 | astra h 31.0 s0.02 | naive h 24.6 s0.60 x0.79
+   9.00h luma  0.995 | picta h 29.6 s0.10 | BABY h 30.4 s0.37 | astra h 31.0 s0.04 | naive h 29.5 s0.48 x0.70
+  10.00h luma  1.001 | picta h 30.0 s0.06 | BABY h 30.4 s0.37 | astra h 31.0 s0.05 | naive h 30.1 s0.46 x0.70
+  13.00h luma  1.000 | picta h 21.5 s0.10 | BABY h 30.4 s0.37 | astra h 31.0 s0.07 | naive h 28.2 s0.48 x0.70
+  15.00h luma  0.999 | picta h 18.1 s0.13 | BABY h 30.4 s0.37 | astra h 31.0 s0.06 | naive h 26.7 s0.50 x0.70
+  17.00h luma  0.997 | picta h 14.9 s0.19 | BABY h 30.4 s0.37 | astra h 31.0 s0.04 | naive h 24.2 s0.53 x0.70
+  17.50h luma  1.008 | picta h 17.4 s0.55 | BABY h 30.6 s0.38 | astra h 31.0 s0.02 | naive h 19.7 s0.64 x0.81
+  18.00h luma  1.002 | picta h 15.7 s0.80 | BABY h 30.8 s0.40 | astra h  0.0 s0.00 | naive h 16.5 s0.74 x0.93
+  18.50h luma  0.956 | picta h 12.7 s0.96 | BABY h 31.0 s0.42 | astra h  0.0 s0.00 | naive h 14.0 s0.84 x1.06
+  18.75h luma  0.974 | picta h 11.5 s0.95 | BABY h 31.0 s0.33 | astra h  0.0 s0.00 | naive h 13.2 s0.87 x1.03
+  19.00h luma  1.009 | picta h 12.4 s0.85 | BABY h 29.4 s0.13 | astra h  0.0 s0.00 | naive h 12.2 s0.74 x1.04
+  19.50h luma  1.031 | picta h  5.7 s0.46 | BABY h217.0 s0.23 | astra h  0.0 s0.00 | naive h357.8 s0.35 x1.03
+  20.00h luma  1.016 | picta h241.9 s0.24 | BABY h216.9 s0.44 | astra h  0.0 s0.00 | naive h241.9 s0.24 x1.00
+  20.50h luma  0.998 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- DALC.DirectionalXPlus
+   5.50h luma  1.000 | picta h212.1 s0.37 | BABY h212.1 s0.37 | astra h240.0 s0.08 | naive h212.1 s0.37 x1.00
+   6.00h luma  1.000 | picta h212.1 s0.41 | BABY h212.1 s0.41 | astra h240.0 s0.08 | naive h212.1 s0.41 x1.00
+   6.50h luma  1.000 | picta h214.1 s0.41 | BABY h212.9 s0.36 | astra h222.9 s0.14 | naive h212.9 s0.36 x1.03
+   7.00h luma  1.001 | picta h216.7 s0.40 | BABY h214.3 s0.30 | astra h219.3 s0.16 | naive h214.3 s0.28 x1.06
+   7.25h luma  1.003 | picta h218.2 s0.39 | BABY h215.6 s0.25 | astra h218.4 s0.17 | naive h215.6 s0.24 x1.08
+   7.50h luma  1.002 | picta h220.0 s0.36 | BABY h217.8 s0.19 | astra h217.8 s0.18 | naive h217.8 s0.17 x1.09
+   8.00h luma  1.000 | picta h216.9 s0.35 | BABY h218.3 s0.17 | astra h218.5 s0.17 | naive h218.5 s0.15 x1.08
+   8.50h luma  1.000 | picta h214.1 s0.33 | BABY h218.8 s0.16 | astra h219.2 s0.16 | naive h219.2 s0.13 x1.08
+   9.00h luma  1.001 | picta h211.7 s0.32 | BABY h219.3 s0.14 | astra h220.0 s0.16 | naive h220.0 s0.11 x1.07
+  10.00h luma  1.003 | picta h211.7 s0.37 | BABY h219.3 s0.17 | astra h220.0 s0.16 | naive h220.0 s0.13 x1.07
+  13.00h luma  1.003 | picta h211.7 s0.36 | BABY h219.3 s0.16 | astra h220.0 s0.16 | naive h220.0 s0.13 x1.07
+  15.00h luma  1.002 | picta h211.7 s0.34 | BABY h219.3 s0.15 | astra h220.0 s0.16 | naive h220.0 s0.12 x1.07
+  17.00h luma  1.001 | picta h211.7 s0.32 | BABY h219.3 s0.14 | astra h220.0 s0.16 | naive h220.0 s0.11 x1.07
+  17.50h luma  0.999 | picta h215.0 s0.33 | BABY h218.0 s0.15 | astra h219.0 s0.16 | naive h219.0 s0.13 x0.90
+  18.00h luma  0.999 | picta h218.7 s0.35 | BABY h216.6 s0.16 | astra h217.5 s0.16 | naive h217.5 s0.14 x0.72
+  18.50h luma  1.001 | picta h223.0 s0.36 | BABY h215.0 s0.17 | astra h215.0 s0.17 | naive h215.0 s0.16 x0.54
+  18.75h luma  1.003 | picta h220.6 s0.39 | BABY h213.8 s0.24 | astra h216.6 s0.15 | naive h213.3 s0.27 x0.62
+  19.00h luma  1.001 | picta h218.4 s0.40 | BABY h213.1 s0.29 | astra h218.6 s0.14 | naive h212.7 s0.33 x0.70
+  19.50h luma  0.999 | picta h214.9 s0.41 | BABY h212.4 s0.36 | astra h225.0 s0.11 | naive h212.3 s0.39 x0.85
+  20.00h luma  1.000 | picta h212.1 s0.41 | BABY h212.1 s0.41 | astra h240.0 s0.08 | naive h212.1 s0.41 x1.00
+  20.50h luma  1.000 | picta h212.1 s0.37 | BABY h212.1 s0.37 | astra h240.0 s0.08 | naive h212.1 s0.37 x1.00
+-- DALC.DirectionalXMinus
+   5.50h luma  1.000 | picta h212.1 s0.37 | BABY h212.1 s0.37 | astra h240.0 s0.08 | naive h212.1 s0.37 x1.00
+   6.00h luma  1.000 | picta h212.1 s0.41 | BABY h212.1 s0.41 | astra h240.0 s0.08 | naive h212.1 s0.41 x1.00
+   6.50h luma  0.999 | picta h214.1 s0.41 | BABY h212.6 s0.36 | astra h225.0 s0.11 | naive h212.3 s0.39 x0.85
+   7.00h luma  1.001 | picta h216.7 s0.40 | BABY h213.5 s0.29 | astra h218.6 s0.14 | naive h212.7 s0.33 x0.69
+   7.25h luma  1.002 | picta h218.2 s0.39 | BABY h214.4 s0.25 | astra h216.6 s0.15 | naive h213.3 s0.27 x0.61
+   7.50h luma  1.001 | picta h220.0 s0.36 | BABY h216.0 s0.18 | astra h215.0 s0.17 | naive h215.0 s0.16 x0.53
+   8.00h luma  0.999 | picta h216.9 s0.35 | BABY h217.2 s0.17 | astra h217.5 s0.16 | naive h217.5 s0.14 x0.72
+   8.50h luma  0.999 | picta h214.1 s0.33 | BABY h218.3 s0.15 | astra h219.0 s0.16 | naive h219.0 s0.13 x0.90
+   9.00h luma  1.001 | picta h211.7 s0.32 | BABY h219.3 s0.14 | astra h220.0 s0.16 | naive h220.0 s0.11 x1.07
+  10.00h luma  1.003 | picta h211.7 s0.37 | BABY h219.3 s0.17 | astra h220.0 s0.16 | naive h220.0 s0.13 x1.07
+  13.00h luma  1.003 | picta h211.7 s0.36 | BABY h219.3 s0.16 | astra h220.0 s0.16 | naive h220.0 s0.13 x1.07
+  15.00h luma  1.002 | picta h211.7 s0.34 | BABY h219.3 s0.15 | astra h220.0 s0.16 | naive h220.0 s0.12 x1.07
+  17.00h luma  1.001 | picta h211.7 s0.32 | BABY h219.3 s0.14 | astra h220.0 s0.16 | naive h220.0 s0.11 x1.07
+  17.50h luma  1.000 | picta h215.0 s0.33 | BABY h218.8 s0.16 | astra h219.2 s0.16 | naive h219.2 s0.13 x1.08
+  18.00h luma  1.000 | picta h218.7 s0.35 | BABY h218.3 s0.17 | astra h218.5 s0.17 | naive h218.5 s0.15 x1.09
+  18.50h luma  1.003 | picta h223.0 s0.36 | BABY h217.8 s0.19 | astra h217.8 s0.18 | naive h217.8 s0.17 x1.10
+  18.75h luma  1.004 | picta h220.6 s0.39 | BABY h215.6 s0.26 | astra h218.4 s0.17 | naive h215.6 s0.24 x1.09
+  19.00h luma  1.002 | picta h218.4 s0.40 | BABY h214.3 s0.30 | astra h219.3 s0.16 | naive h214.3 s0.28 x1.07
+  19.50h luma  1.000 | picta h214.9 s0.41 | BABY h212.9 s0.37 | astra h222.9 s0.14 | naive h212.9 s0.36 x1.03
+  20.00h luma  1.000 | picta h212.1 s0.41 | BABY h212.1 s0.41 | astra h240.0 s0.08 | naive h212.1 s0.41 x1.00
+  20.50h luma  1.000 | picta h212.1 s0.37 | BABY h212.1 s0.37 | astra h240.0 s0.08 | naive h212.1 s0.37 x1.00
+-- DALC.DirectionalZMinus
+   5.50h luma  1.000 | picta h211.2 s0.37 | BABY h211.2 s0.37 | astra h240.0 s0.07 | naive h211.2 s0.37 x1.00
+   6.00h luma  1.000 | picta h211.2 s0.41 | BABY h211.2 s0.41 | astra h240.0 s0.07 | naive h211.2 s0.41 x1.00
+   6.50h luma  0.999 | picta h213.6 s0.41 | BABY h212.1 s0.37 | astra h224.1 s0.12 | naive h211.8 s0.38 x0.89
+   7.00h luma  1.001 | picta h216.6 s0.40 | BABY h213.8 s0.30 | astra h219.6 s0.16 | naive h213.0 s0.32 x0.79
+   7.25h luma  1.003 | picta h218.4 s0.39 | BABY h215.3 s0.25 | astra h218.4 s0.17 | naive h214.3 s0.27 x0.73
+   7.50h luma  1.001 | picta h220.5 s0.36 | BABY h217.9 s0.18 | astra h217.5 s0.18 | naive h217.5 s0.17 x0.68
+   8.00h luma  0.999 | picta h217.4 s0.35 | BABY h218.3 s0.17 | astra h218.3 s0.17 | naive h218.3 s0.15 x0.79
+   8.50h luma  0.999 | picta h214.8 s0.33 | BABY h218.6 s0.15 | astra h218.9 s0.16 | naive h218.9 s0.13 x0.90
+   9.00h luma  0.999 | picta h212.4 s0.32 | BABY h219.0 s0.14 | astra h219.4 s0.16 | naive h219.4 s0.11 x1.00
+  10.00h luma  1.002 | picta h212.4 s0.37 | BABY h219.0 s0.17 | astra h219.4 s0.16 | naive h219.4 s0.14 x1.00
+  13.00h luma  1.001 | picta h212.4 s0.36 | BABY h219.0 s0.16 | astra h219.4 s0.16 | naive h219.4 s0.13 x1.00
+  15.00h luma  1.001 | picta h212.4 s0.34 | BABY h219.0 s0.15 | astra h219.4 s0.16 | naive h219.4 s0.12 x1.00
+  17.00h luma  0.999 | picta h212.4 s0.32 | BABY h219.0 s0.14 | astra h219.4 s0.16 | naive h219.4 s0.11 x1.00
+  17.50h luma  0.998 | picta h215.6 s0.33 | BABY h218.6 s0.15 | astra h218.9 s0.16 | naive h218.9 s0.13 x0.90
+  18.00h luma  0.998 | picta h219.2 s0.35 | BABY h218.3 s0.17 | astra h218.3 s0.17 | naive h218.3 s0.15 x0.79
+  18.50h luma  1.000 | picta h223.3 s0.36 | BABY h217.9 s0.19 | astra h217.5 s0.18 | naive h217.5 s0.17 x0.69
+  18.75h luma  1.002 | picta h220.6 s0.39 | BABY h215.3 s0.25 | astra h218.4 s0.17 | naive h214.3 s0.27 x0.74
+  19.00h luma  1.000 | picta h218.2 s0.40 | BABY h213.8 s0.30 | astra h219.6 s0.16 | naive h213.0 s0.32 x0.79
+  19.50h luma  0.999 | picta h214.3 s0.41 | BABY h212.1 s0.37 | astra h224.1 s0.12 | naive h211.8 s0.38 x0.90
+  20.00h luma  1.000 | picta h211.2 s0.41 | BABY h211.2 s0.41 | astra h240.0 s0.07 | naive h211.2 s0.41 x1.00
+  20.50h luma  1.000 | picta h211.2 s0.37 | BABY h211.2 s0.37 | astra h240.0 s0.07 | naive h211.2 s0.37 x1.00
+-- dome pixels (view relative to the sun azimuth)
+   7.00h zenith    luma  1.001 | picta h216.6 s0.62 | BABY h217.6 s0.37 | naive h219.6 s0.69 x0.79
+   7.00h hor_sun   luma  1.006 | picta h255.6 s0.22 | BABY h220.3 s0.26 | naive h242.7 s0.30 x0.81
+   7.00h hor_away  luma  1.002 | picta h227.8 s0.34 | BABY h219.5 s0.31 | naive h226.8 s0.46 x0.78
+   7.50h zenith    luma  0.997 | picta h216.7 s0.61 | BABY h217.2 s0.29 | naive h220.5 s0.71 x0.73
+   7.50h hor_sun   luma  0.998 | picta h254.4 s0.22 | BABY h219.4 s0.21 | naive h238.5 s0.34 x0.74
+   7.50h hor_away  luma  0.999 | picta h227.9 s0.33 | BABY h217.8 s0.27 | naive h226.4 s0.50 x0.71
+   8.00h zenith    luma  0.998 | picta h215.8 s0.65 | BABY h217.3 s0.27 | naive h219.5 s0.73 x0.87
+   8.00h hor_sun   luma  1.002 | picta h231.5 s0.28 | BABY h219.6 s0.19 | naive h228.1 s0.44 x0.86
+   8.00h hor_away  luma  1.000 | picta h223.3 s0.39 | BABY h217.9 s0.25 | naive h223.9 s0.53 x0.85
+  10.00h zenith    luma  1.000 | picta h213.8 s0.73 | BABY h217.8 s0.22 | naive h217.4 s0.78 x1.16
+  10.00h hor_sun   luma  1.000 | picta h216.7 s0.50 | BABY h218.2 s0.21 | naive h219.6 s0.60 x1.14
+  10.00h hor_away  luma  1.000 | picta h216.6 s0.50 | BABY h217.9 s0.22 | naive h219.5 s0.61 x1.14
+  13.00h zenith    luma  1.000 | picta h214.1 s0.73 | BABY h217.8 s0.22 | naive h217.7 s0.78 x1.16
+  13.00h hor_sun   luma  1.000 | picta h217.3 s0.49 | BABY h218.3 s0.21 | naive h220.0 s0.60 x1.13
+  13.00h hor_away  luma  1.000 | picta h217.3 s0.50 | BABY h218.0 s0.22 | naive h219.9 s0.60 x1.14
+  17.00h zenith    luma  1.001 | picta h214.7 s0.73 | BABY h217.7 s0.22 | naive h218.2 s0.78 x1.16
+  17.00h hor_sun   luma  1.000 | picta h219.6 s0.45 | BABY h219.7 s0.17 | naive h221.8 s0.56 x1.10
+  17.00h hor_away  luma  1.000 | picta h218.9 s0.49 | BABY h218.1 s0.21 | naive h221.1 s0.59 x1.14
+  18.00h zenith    luma  0.998 | picta h217.0 s0.65 | BABY h217.3 s0.27 | naive h220.4 s0.73 x0.87
+  18.00h hor_sun   luma  1.002 | picta h238.1 s0.27 | BABY h219.3 s0.20 | naive h231.2 s0.43 x0.86
+  18.00h hor_away  luma  1.000 | picta h226.3 s0.38 | BABY h217.8 s0.25 | naive h225.7 s0.53 x0.85
+  18.50h zenith    luma  0.997 | picta h218.4 s0.61 | BABY h217.2 s0.29 | naive h221.7 s0.71 x0.73
+  18.50h hor_sun   luma  0.996 | picta h261.5 s0.25 | BABY h219.0 s0.22 | naive h244.0 s0.36 x0.74
+  18.50h hor_away  luma  0.999 | picta h232.1 s0.33 | BABY h217.7 s0.27 | naive h228.7 s0.50 x0.71
+  19.00h zenith    luma  1.001 | picta h218.2 s0.62 | BABY h217.6 s0.37 | naive h220.8 s0.69 x0.79
+  19.00h hor_sun   luma  1.006 | picta h262.4 s0.25 | BABY h220.1 s0.27 | naive h248.6 s0.33 x0.81
+  19.00h hor_away  luma  1.002 | picta h231.7 s0.34 | BABY h219.5 s0.31 | naive h229.4 s0.46 x0.78
+
+=========== 19FD03 PIC_WTHR_MASTER_D03_Overcast_Rain_Light  partner SkyrimOvercastRain  file Picta - Weathers/00_Master/D03_Overcast_Rain_Light.ini
+-- top
+   5.50h luma  1.000 | picta h210.4 s0.66 | BABY h210.4 s0.66 | astra h  0.0 s0.00 | naive h210.4 s0.66 x1.00
+   6.00h luma  1.000 | picta h210.9 s0.62 | BABY h210.4 s0.53 | astra h  0.0 s0.00 | naive h210.9 s0.62 x1.00
+   6.50h luma  1.000 | picta h211.4 s0.57 | BABY h210.4 s0.36 | astra h  0.0 s0.00 | naive h211.4 s0.57 x0.98
+   7.00h luma  1.000 | picta h212.2 s0.52 | BABY h210.4 s0.14 | astra h  0.0 s0.00 | naive h212.2 s0.52 x0.96
+   7.25h luma  1.000 | picta h212.6 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h212.6 s0.50 x0.96
+   7.50h luma  1.000 | picta h212.2 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h212.2 s0.52 x0.95
+   8.00h luma  1.000 | picta h211.5 s0.56 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h211.5 s0.56 x0.95
+   8.50h luma  1.000 | picta h210.9 s0.60 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.9 s0.60 x0.95
+   9.00h luma  1.000 | picta h210.3 s0.64 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.3 s0.64 x0.95
+  10.00h luma  1.000 | picta h210.1 s0.64 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.1 s0.64 x0.95
+  13.00h luma  1.000 | picta h210.3 s0.64 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.3 s0.64 x0.95
+  15.00h luma  1.000 | picta h210.5 s0.64 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.5 s0.64 x0.95
+  17.00h luma  1.000 | picta h210.8 s0.63 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h210.8 s0.63 x0.95
+  17.50h luma  1.000 | picta h211.8 s0.59 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h211.8 s0.59 x0.95
+  18.00h luma  1.000 | picta h212.9 s0.56 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h212.9 s0.56 x0.95
+  18.50h luma  1.000 | picta h214.2 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h214.2 s0.52 x0.95
+  18.75h luma  1.000 | picta h214.9 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h214.9 s0.50 x0.96
+  19.00h luma  1.000 | picta h214.0 s0.52 | BABY h210.4 s0.14 | astra h  0.0 s0.00 | naive h214.0 s0.52 x0.96
+  19.50h luma  1.000 | picta h212.6 s0.57 | BABY h210.4 s0.36 | astra h  0.0 s0.00 | naive h212.6 s0.57 x0.98
+  20.00h luma  1.000 | picta h211.4 s0.62 | BABY h210.4 s0.53 | astra h  0.0 s0.00 | naive h211.4 s0.62 x1.00
+  20.50h luma  1.000 | picta h210.4 s0.66 | BABY h210.4 s0.66 | astra h  0.0 s0.00 | naive h210.4 s0.66 x1.00
+-- hor
+   5.50h luma  1.000 | picta h216.7 s0.56 | BABY h216.7 s0.56 | astra h240.0 s0.32 | naive h216.7 s0.56 x1.00
+   6.00h luma  1.000 | picta h219.1 s0.51 | BABY h216.7 s0.44 | astra h240.0 s0.32 | naive h219.1 s0.51 x1.00
+   6.50h luma  1.000 | picta h222.1 s0.46 | BABY h216.7 s0.30 | astra h240.0 s0.10 | naive h222.1 s0.46 x0.83
+   7.00h luma  1.000 | picta h226.0 s0.40 | BABY h216.7 s0.11 | astra h240.0 s0.03 | naive h226.0 s0.40 x0.70
+   7.25h luma  1.000 | picta h228.4 s0.38 | BABY h  0.0 s0.00 | astra h240.0 s0.01 | naive h228.4 s0.38 x0.66
+   7.50h luma  1.000 | picta h226.3 s0.40 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h226.3 s0.40 x0.62
+   8.00h luma  1.000 | picta h222.7 s0.44 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h222.7 s0.44 x0.62
+   8.50h luma  1.000 | picta h219.6 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h219.6 s0.48 x0.62
+   9.00h luma  1.000 | picta h216.9 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h216.9 s0.52 x0.62
+  10.00h luma  1.000 | picta h216.7 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h216.7 s0.52 x0.62
+  13.00h luma  1.000 | picta h216.9 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h216.9 s0.52 x0.62
+  15.00h luma  1.000 | picta h217.2 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h217.2 s0.52 x0.62
+  17.00h luma  1.000 | picta h217.6 s0.51 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h217.6 s0.51 x0.62
+  17.50h luma  1.000 | picta h220.2 s0.46 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h220.2 s0.46 x0.62
+  18.00h luma  1.000 | picta h223.4 s0.41 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.4 s0.41 x0.62
+  18.50h luma  1.000 | picta h227.6 s0.36 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h227.6 s0.36 x0.62
+  18.75h luma  1.000 | picta h230.2 s0.34 | BABY h  0.0 s0.00 | astra h240.0 s0.01 | naive h230.2 s0.34 x0.66
+  19.00h luma  1.000 | picta h227.0 s0.37 | BABY h216.7 s0.11 | astra h240.0 s0.03 | naive h227.0 s0.37 x0.70
+  19.50h luma  1.000 | picta h222.4 s0.44 | BABY h216.7 s0.30 | astra h240.0 s0.10 | naive h222.4 s0.44 x0.83
+  20.00h luma  1.000 | picta h219.1 s0.50 | BABY h216.7 s0.45 | astra h240.0 s0.32 | naive h219.1 s0.50 x1.00
+  20.50h luma  1.000 | picta h216.7 s0.56 | BABY h216.7 s0.56 | astra h240.0 s0.32 | naive h216.7 s0.56 x1.00
+-- clouds
+   5.50h luma  1.002 | picta h220.9 s0.64 | BABY h220.9 s0.64 | astra h240.0 s0.23 | naive h220.9 s0.64 x1.00
+   6.00h luma  1.002 | picta h221.2 s0.60 | BABY h220.9 s0.52 | astra h240.0 s0.23 | naive h221.2 s0.60 x1.00
+   6.50h luma  1.001 | picta h221.7 s0.55 | BABY h220.9 s0.37 | astra h240.0 s0.07 | naive h221.7 s0.55 x0.80
+   7.00h luma  1.000 | picta h222.2 s0.50 | BABY h220.9 s0.15 | astra h240.0 s0.02 | naive h222.2 s0.50 x0.65
+   7.25h luma  0.999 | picta h222.6 s0.47 | BABY h  0.0 s0.00 | astra h240.0 s0.01 | naive h222.6 s0.47 x0.58
+   7.50h luma  0.999 | picta h221.6 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h221.6 s0.48 x0.52
+   8.00h luma  1.000 | picta h219.9 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h219.9 s0.50 x0.50
+   8.50h luma  1.000 | picta h218.4 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.4 s0.52 x0.48
+   9.00h luma  1.000 | picta h217.2 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h217.2 s0.54 x0.46
+  10.00h luma  1.000 | picta h216.9 s0.55 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h216.9 s0.55 x0.46
+  13.00h luma  1.000 | picta h218.6 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.6 s0.54 x0.46
+  15.00h luma  1.000 | picta h220.2 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h220.2 s0.54 x0.46
+  17.00h luma  1.000 | picta h223.3 s0.53 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.3 s0.53 x0.46
+  17.50h luma  1.000 | picta h223.7 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.7 s0.52 x0.48
+  18.00h luma  1.000 | picta h224.2 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.2 s0.50 x0.50
+  18.50h luma  0.999 | picta h224.7 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.7 s0.48 x0.52
+  18.75h luma  0.999 | picta h225.0 s0.47 | BABY h  0.0 s0.00 | astra h240.0 s0.01 | naive h225.0 s0.47 x0.58
+  19.00h luma  1.000 | picta h224.1 s0.50 | BABY h220.9 s0.15 | astra h240.0 s0.02 | naive h224.1 s0.50 x0.65
+  19.50h luma  1.001 | picta h222.7 s0.55 | BABY h220.9 s0.37 | astra h240.0 s0.07 | naive h222.7 s0.55 x0.80
+  20.00h luma  1.002 | picta h221.7 s0.60 | BABY h220.9 s0.53 | astra h240.0 s0.23 | naive h221.7 s0.60 x1.00
+  20.50h luma  1.002 | picta h220.9 s0.64 | BABY h220.9 s0.64 | astra h240.0 s0.23 | naive h220.9 s0.64 x1.00
+-- fogfar
+   5.50h luma  1.000 | picta h220.8 s0.64 | BABY h220.8 s0.64 | astra h240.0 s0.41 | naive h220.8 s0.64 x1.00
+   6.00h luma  1.000 | picta h221.1 s0.60 | BABY h220.8 s0.52 | astra h240.0 s0.41 | naive h221.1 s0.60 x1.00
+   6.50h luma  1.000 | picta h221.6 s0.55 | BABY h220.8 s0.37 | astra h240.0 s0.13 | naive h221.6 s0.55 x0.98
+   7.00h luma  1.000 | picta h222.2 s0.50 | BABY h220.8 s0.15 | astra h240.0 s0.04 | naive h222.2 s0.50 x0.97
+   7.25h luma  1.000 | picta h222.6 s0.47 | BABY h  0.0 s0.00 | astra h240.0 s0.02 | naive h222.6 s0.47 x0.96
+   7.50h luma  1.000 | picta h221.6 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h221.6 s0.48 x0.95
+   8.00h luma  1.000 | picta h219.9 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h219.9 s0.50 x0.94
+   8.50h luma  1.000 | picta h218.4 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.4 s0.52 x0.94
+   9.00h luma  1.000 | picta h217.2 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h217.2 s0.54 x0.93
+  10.00h luma  1.000 | picta h216.9 s0.55 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h216.9 s0.55 x0.93
+  13.00h luma  1.000 | picta h218.6 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.6 s0.54 x0.93
+  15.00h luma  1.000 | picta h220.2 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h220.2 s0.54 x0.93
+  17.00h luma  1.000 | picta h223.3 s0.53 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.3 s0.53 x0.93
+  17.50h luma  1.000 | picta h223.7 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.7 s0.52 x0.94
+  18.00h luma  1.000 | picta h224.2 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.2 s0.50 x0.94
+  18.50h luma  1.000 | picta h224.7 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.7 s0.48 x0.95
+  18.75h luma  1.000 | picta h225.0 s0.47 | BABY h  0.0 s0.00 | astra h240.0 s0.02 | naive h225.0 s0.47 x0.96
+  19.00h luma  1.000 | picta h224.1 s0.50 | BABY h220.8 s0.15 | astra h240.0 s0.04 | naive h224.1 s0.50 x0.97
+  19.50h luma  1.000 | picta h222.7 s0.55 | BABY h220.8 s0.37 | astra h240.0 s0.13 | naive h222.7 s0.55 x0.98
+  20.00h luma  1.000 | picta h221.6 s0.60 | BABY h220.8 s0.52 | astra h240.0 s0.41 | naive h221.6 s0.60 x1.00
+  20.50h luma  1.000 | picta h220.8 s0.64 | BABY h220.8 s0.64 | astra h240.0 s0.41 | naive h220.8 s0.64 x1.00
+-- fognear
+   5.50h luma  1.000 | picta h220.8 s0.64 | BABY h220.8 s0.64 | astra h240.0 s0.25 | naive h220.8 s0.64 x1.00
+   6.00h luma  1.000 | picta h221.1 s0.60 | BABY h220.8 s0.52 | astra h240.0 s0.25 | naive h221.1 s0.60 x1.00
+   6.50h luma  1.000 | picta h221.6 s0.55 | BABY h220.8 s0.37 | astra h240.0 s0.07 | naive h221.6 s0.55 x12.62
+   7.00h luma  1.000 | picta h222.2 s0.50 | BABY h220.8 s0.15 | astra h240.0 s0.02 | naive h222.2 s0.50 x27.57
+   7.25h luma  1.000 | picta h222.6 s0.47 | BABY h  0.0 s0.00 | astra h240.0 s0.01 | naive h222.6 s0.47 x35.79
+   7.50h luma  1.000 | picta h221.6 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h221.6 s0.48 x44.42
+   8.00h luma  1.000 | picta h219.9 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h219.9 s0.50 x44.42
+   8.50h luma  1.000 | picta h218.4 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.4 s0.52 x44.42
+   9.00h luma  1.000 | picta h217.2 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h217.2 s0.54 x44.42
+  10.00h luma  1.000 | picta h216.9 s0.55 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h216.9 s0.55 x44.42
+  13.00h luma  1.000 | picta h218.6 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h218.6 s0.54 x44.42
+  15.00h luma  1.000 | picta h220.2 s0.54 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h220.2 s0.54 x44.42
+  17.00h luma  1.000 | picta h223.3 s0.53 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.3 s0.53 x44.42
+  17.50h luma  1.000 | picta h223.7 s0.52 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h223.7 s0.52 x44.42
+  18.00h luma  1.000 | picta h224.2 s0.50 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.2 s0.50 x44.42
+  18.50h luma  1.000 | picta h224.7 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h224.7 s0.48 x44.42
+  18.75h luma  1.000 | picta h225.0 s0.47 | BABY h  0.0 s0.00 | astra h240.0 s0.01 | naive h225.0 s0.47 x35.79
+  19.00h luma  1.000 | picta h224.1 s0.50 | BABY h220.8 s0.15 | astra h240.0 s0.02 | naive h224.1 s0.50 x27.57
+  19.50h luma  1.000 | picta h222.7 s0.55 | BABY h220.8 s0.37 | astra h240.0 s0.07 | naive h222.7 s0.55 x12.62
+  20.00h luma  1.000 | picta h221.6 s0.60 | BABY h220.8 s0.52 | astra h240.0 s0.25 | naive h221.6 s0.60 x1.00
+  20.50h luma  1.000 | picta h220.8 s0.64 | BABY h220.8 s0.64 | astra h240.0 s0.25 | naive h220.8 s0.64 x1.00
+-- sunlight
+   5.50h luma  0.997 | picta h220.4 s0.67 | BABY h220.4 s0.67 | astra h240.0 s0.24 | naive h220.4 s0.67 x1.00
+   6.00h luma  1.034 | picta h224.9 s0.55 | BABY h220.6 s0.65 | astra h240.0 s0.24 | naive h224.9 s0.55 x1.00
+   6.50h luma  1.078 | picta h343.2 s0.32 | BABY h219.7 s0.54 | astra h240.0 s0.12 | naive h246.7 s0.25 x0.94
+   7.00h luma  1.022 | picta h 12.8 s0.88 | BABY h218.3 s0.33 | astra h240.0 s0.05 | naive h 17.1 s0.48 x0.80
+   7.25h luma  0.936 | picta h 11.3 s0.99 | BABY h217.1 s0.14 | astra h240.0 s0.02 | naive h 22.4 s0.76 x0.70
+   7.50h luma  0.906 | picta h 10.9 s1.00 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.3 s0.71 x0.67
+   8.00h luma  0.997 | picta h 17.0 s0.89 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.8 s0.50 x0.58
+   8.50h luma  1.014 | picta h 20.7 s0.58 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 23.1 s0.30 x0.49
+   9.00h luma  1.001 | picta h 29.6 s0.10 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 29.6 s0.10 x0.42
+  10.00h luma  0.999 | picta h 30.0 s0.06 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 30.0 s0.06 x0.42
+  13.00h luma  0.999 | picta h 21.5 s0.10 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.5 s0.10 x0.42
+  15.00h luma  0.999 | picta h 18.1 s0.13 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 18.1 s0.13 x0.42
+  17.00h luma  1.000 | picta h 14.9 s0.19 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.9 s0.19 x0.42
+  17.50h luma  1.017 | picta h 14.0 s0.62 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.4 s0.37 x0.50
+  18.00h luma  0.997 | picta h 11.7 s0.89 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.2 s0.54 x0.60
+  18.50h luma  0.878 | picta h  6.7 s1.00 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.2 s0.72 x0.70
+  18.75h luma  0.918 | picta h  7.0 s0.99 | BABY h217.1 s0.15 | astra h240.0 s0.02 | naive h 14.1 s0.76 x0.71
+  19.00h luma  1.028 | picta h  7.3 s0.88 | BABY h218.4 s0.35 | astra h240.0 s0.05 | naive h  4.3 s0.48 x0.83
+  19.50h luma  1.096 | picta h333.9 s0.40 | BABY h219.8 s0.56 | astra h240.0 s0.12 | naive h257.6 s0.32 x0.97
+  20.00h luma  1.041 | picta h227.3 s0.55 | BABY h220.6 s0.65 | astra h240.0 s0.24 | naive h227.3 s0.55 x1.00
+  20.50h luma  0.997 | picta h220.4 s0.67 | BABY h220.4 s0.67 | astra h240.0 s0.24 | naive h220.4 s0.67 x1.00
+-- sunraw
+   5.50h luma  1.001 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.016 | picta h234.3 s0.23 | BABY h216.9 s0.43 | astra h  0.0 s0.00 | naive h234.3 s0.23 x1.00
+   6.50h luma  1.027 | picta h 13.6 s0.44 | BABY h216.9 s0.31 | astra h  0.0 s0.00 | naive h  0.1 s0.24 x0.81
+   7.00h luma  1.006 | picta h 17.5 s0.83 | BABY h216.9 s0.13 | astra h  0.0 s0.00 | naive h 18.8 s0.65 x0.55
+   7.25h luma  0.978 | picta h 16.3 s0.94 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.1 s0.81 x0.39
+   7.50h luma  0.964 | picta h 17.1 s0.94 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.3 s0.71 x0.23
+   8.00h luma  0.999 | picta h 20.8 s0.77 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.8 s0.50 x0.18
+   8.50h luma  1.005 | picta h 23.8 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 23.1 s0.30 x0.13
+   9.00h luma  0.997 | picta h 29.6 s0.10 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 29.6 s0.10 x0.09
+  10.00h luma  0.999 | picta h 30.0 s0.06 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 30.0 s0.06 x0.09
+  13.00h luma  0.999 | picta h 21.5 s0.10 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.5 s0.10 x0.09
+  15.00h luma  0.998 | picta h 18.1 s0.13 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 18.1 s0.13 x0.09
+  17.00h luma  0.998 | picta h 14.9 s0.19 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.9 s0.19 x0.09
+  17.50h luma  1.008 | picta h 17.4 s0.55 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.4 s0.37 x0.13
+  18.00h luma  0.999 | picta h 15.7 s0.80 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.2 s0.54 x0.18
+  18.50h luma  0.949 | picta h 12.7 s0.96 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.2 s0.72 x0.23
+  18.75h luma  0.972 | picta h 11.5 s0.95 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.1 s0.81 x0.40
+  19.00h luma  1.012 | picta h 12.4 s0.85 | BABY h216.9 s0.14 | astra h  0.0 s0.00 | naive h 10.8 s0.65 x0.56
+  19.50h luma  1.037 | picta h  5.7 s0.46 | BABY h216.9 s0.32 | astra h  0.0 s0.00 | naive h347.1 s0.31 x0.82
+  20.00h luma  1.020 | picta h241.9 s0.24 | BABY h216.9 s0.44 | astra h  0.0 s0.00 | naive h241.9 s0.24 x1.00
+  20.50h luma  1.001 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- scat
+   5.50h luma  1.001 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+   6.00h luma  1.016 | picta h234.3 s0.23 | BABY h216.9 s0.43 | astra h  0.0 s0.00 | naive h234.3 s0.23 x1.00
+   6.50h luma  1.027 | picta h 13.6 s0.44 | BABY h216.9 s0.31 | astra h  0.0 s0.00 | naive h  0.1 s0.24 x0.81
+   7.00h luma  1.007 | picta h 17.5 s0.83 | BABY h216.9 s0.13 | astra h  0.0 s0.00 | naive h 18.8 s0.65 x0.55
+   7.25h luma  0.979 | picta h 16.3 s0.94 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.1 s0.81 x0.39
+   7.50h luma  0.964 | picta h 17.1 s0.94 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.3 s0.71 x0.23
+   8.00h luma  0.999 | picta h 20.8 s0.77 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.8 s0.50 x0.18
+   8.50h luma  1.005 | picta h 23.8 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 23.1 s0.30 x0.13
+   9.00h luma  0.996 | picta h 29.6 s0.10 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 29.6 s0.10 x0.09
+  10.00h luma  1.000 | picta h 30.0 s0.06 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 30.0 s0.06 x0.09
+  13.00h luma  1.000 | picta h 21.5 s0.10 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 21.5 s0.10 x0.09
+  15.00h luma  0.999 | picta h 18.1 s0.13 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 18.1 s0.13 x0.09
+  17.00h luma  0.998 | picta h 14.9 s0.19 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.9 s0.19 x0.09
+  17.50h luma  1.007 | picta h 17.4 s0.55 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.4 s0.37 x0.13
+  18.00h luma  0.998 | picta h 15.7 s0.80 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.2 s0.54 x0.18
+  18.50h luma  0.949 | picta h 12.7 s0.96 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.2 s0.72 x0.23
+  18.75h luma  0.972 | picta h 11.5 s0.95 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h 14.1 s0.81 x0.40
+  19.00h luma  1.011 | picta h 12.4 s0.85 | BABY h216.9 s0.14 | astra h  0.0 s0.00 | naive h 10.8 s0.65 x0.56
+  19.50h luma  1.037 | picta h  5.7 s0.46 | BABY h216.9 s0.32 | astra h  0.0 s0.00 | naive h347.1 s0.31 x0.82
+  20.00h luma  1.020 | picta h241.9 s0.24 | BABY h216.9 s0.44 | astra h  0.0 s0.00 | naive h241.9 s0.24 x1.00
+  20.50h luma  1.001 | picta h216.9 s0.52 | BABY h216.9 s0.52 | astra h  0.0 s0.00 | naive h216.9 s0.52 x1.00
+-- DALC.DirectionalXPlus
+   5.50h luma  1.000 | picta h220.2 s0.50 | BABY h220.2 s0.50 | astra h240.0 s0.12 | naive h220.2 s0.50 x1.00
+   6.00h luma  1.000 | picta h220.2 s0.54 | BABY h220.2 s0.54 | astra h240.0 s0.12 | naive h220.2 s0.54 x1.00
+   6.50h luma  0.999 | picta h221.9 s0.55 | BABY h220.2 s0.44 | astra h240.0 s0.03 | naive h220.2 s0.38 x1.23
+   7.00h luma  1.007 | picta h223.8 s0.55 | BABY h220.2 s0.29 | astra h240.0 s0.01 | naive h220.2 s0.21 x1.47
+   7.25h luma  1.014 | picta h224.9 s0.55 | BABY h220.2 s0.16 | astra h240.0 s0.00 | naive h220.2 s0.11 x1.60
+   7.50h luma  1.010 | picta h226.2 s0.51 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.71
+   8.00h luma  1.001 | picta h223.1 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.49
+   8.50h luma  0.994 | picta h220.2 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.30
+   9.00h luma  0.990 | picta h217.3 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.12
+  10.00h luma  1.005 | picta h217.3 s0.49 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.14
+  13.00h luma  1.001 | picta h217.3 s0.47 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.13
+  15.00h luma  0.997 | picta h217.3 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.13
+  17.00h luma  0.990 | picta h217.3 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.12
+  17.50h luma  0.992 | picta h221.2 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.03
+  18.00h luma  0.998 | picta h225.1 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.93
+  18.50h luma  1.008 | picta h229.2 s0.51 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.82
+  18.75h luma  1.013 | picta h227.4 s0.55 | BABY h220.2 s0.17 | astra h240.0 s0.01 | naive h220.2 s0.19 x0.86
+  19.00h luma  1.005 | picta h225.7 s0.55 | BABY h220.2 s0.29 | astra h240.0 s0.02 | naive h220.2 s0.32 x0.88
+  19.50h luma  0.998 | picta h222.7 s0.55 | BABY h220.2 s0.45 | astra h240.0 s0.05 | naive h220.2 s0.47 x0.94
+  20.00h luma  1.000 | picta h220.2 s0.54 | BABY h220.2 s0.54 | astra h240.0 s0.12 | naive h220.2 s0.54 x1.00
+  20.50h luma  1.000 | picta h220.2 s0.50 | BABY h220.2 s0.50 | astra h240.0 s0.12 | naive h220.2 s0.50 x1.00
+-- DALC.DirectionalXMinus
+   5.50h luma  1.000 | picta h220.2 s0.50 | BABY h220.2 s0.50 | astra h240.0 s0.12 | naive h220.2 s0.50 x1.00
+   6.00h luma  1.000 | picta h220.2 s0.54 | BABY h220.2 s0.54 | astra h240.0 s0.12 | naive h220.2 s0.54 x1.00
+   6.50h luma  0.999 | picta h221.9 s0.55 | BABY h220.2 s0.44 | astra h240.0 s0.05 | naive h220.2 s0.47 x0.93
+   7.00h luma  1.007 | picta h223.8 s0.55 | BABY h220.2 s0.29 | astra h240.0 s0.02 | naive h220.2 s0.32 x0.86
+   7.25h luma  1.014 | picta h224.9 s0.55 | BABY h220.2 s0.16 | astra h240.0 s0.01 | naive h220.2 s0.19 x0.84
+   7.50h luma  1.010 | picta h226.2 s0.51 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.80
+   8.00h luma  1.001 | picta h223.1 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.91
+   8.50h luma  0.994 | picta h220.2 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.02
+   9.00h luma  0.990 | picta h217.3 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.12
+  10.00h luma  1.005 | picta h217.3 s0.49 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.14
+  13.00h luma  1.001 | picta h217.3 s0.47 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.13
+  15.00h luma  0.997 | picta h217.3 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.13
+  17.00h luma  0.990 | picta h217.3 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.12
+  17.50h luma  0.992 | picta h221.2 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.31
+  18.00h luma  0.998 | picta h225.1 s0.48 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.52
+  18.50h luma  1.008 | picta h229.2 s0.51 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x1.76
+  18.75h luma  1.013 | picta h227.4 s0.55 | BABY h220.2 s0.17 | astra h240.0 s0.00 | naive h220.2 s0.11 x1.64
+  19.00h luma  1.005 | picta h225.7 s0.55 | BABY h220.2 s0.29 | astra h240.0 s0.01 | naive h220.2 s0.21 x1.50
+  19.50h luma  0.998 | picta h222.7 s0.55 | BABY h220.2 s0.45 | astra h240.0 s0.03 | naive h220.2 s0.38 x1.24
+  20.00h luma  1.000 | picta h220.2 s0.54 | BABY h220.2 s0.54 | astra h240.0 s0.12 | naive h220.2 s0.54 x1.00
+  20.50h luma  1.000 | picta h220.2 s0.50 | BABY h220.2 s0.50 | astra h240.0 s0.12 | naive h220.2 s0.50 x1.00
+-- DALC.DirectionalZMinus
+   5.50h luma  1.000 | picta h220.7 s0.50 | BABY h220.7 s0.50 | astra h240.0 s0.13 | naive h220.7 s0.50 x1.00
+   6.00h luma  1.000 | picta h220.7 s0.54 | BABY h220.7 s0.54 | astra h240.0 s0.13 | naive h220.7 s0.54 x1.00
+   6.50h luma  0.996 | picta h228.2 s0.48 | BABY h220.7 s0.44 | astra h240.0 s0.04 | naive h220.7 s0.45 x0.96
+   7.00h luma  1.003 | picta h240.0 s0.41 | BABY h220.7 s0.28 | astra h240.0 s0.01 | naive h220.7 s0.29 x0.92
+   7.25h luma  1.011 | picta h247.7 s0.42 | BABY h220.7 s0.16 | astra h240.0 s0.01 | naive h220.7 s0.17 x0.91
+   7.50h luma  1.005 | picta h255.7 s0.40 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.89
+   8.00h luma  0.996 | picta h240.2 s0.35 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.90
+   8.50h luma  0.993 | picta h226.6 s0.39 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.91
+   9.00h luma  0.994 | picta h217.1 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.93
+  10.00h luma  1.009 | picta h217.1 s0.49 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.94
+  13.00h luma  1.005 | picta h217.1 s0.47 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.94
+  15.00h luma  1.001 | picta h217.1 s0.45 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.94
+  17.00h luma  0.994 | picta h217.1 s0.42 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.93
+  17.50h luma  0.993 | picta h227.2 s0.39 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.92
+  18.00h luma  0.996 | picta h241.6 s0.36 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.91
+  18.50h luma  1.006 | picta h257.1 s0.41 | BABY h  0.0 s0.00 | astra h  0.0 s0.00 | naive h  0.0 s0.00 x0.90
+  18.75h luma  1.012 | picta h249.1 s0.43 | BABY h220.7 s0.16 | astra h240.0 s0.01 | naive h220.7 s0.17 x0.92
+  19.00h luma  1.004 | picta h241.3 s0.42 | BABY h220.7 s0.28 | astra h240.0 s0.01 | naive h220.7 s0.29 x0.93
+  19.50h luma  0.996 | picta h228.7 s0.48 | BABY h220.7 s0.44 | astra h240.0 s0.04 | naive h220.7 s0.45 x0.96
+  20.00h luma  1.000 | picta h220.7 s0.54 | BABY h220.7 s0.54 | astra h240.0 s0.13 | naive h220.7 s0.54 x1.00
+  20.50h luma  1.000 | picta h220.7 s0.50 | BABY h220.7 s0.50 | astra h240.0 s0.13 | naive h220.7 s0.50 x1.00
+-- dome pixels (view relative to the sun azimuth)
+   7.00h zenith    luma  1.000 | picta h212.2 s0.52 | BABY h210.4 s0.14 | naive h212.2 s0.52 x0.96
+   7.00h hor_sun   luma  1.005 | picta h254.8 s0.24 | BABY h216.5 s0.12 | naive h234.7 s0.29 x0.69
+   7.00h hor_away  luma  1.001 | picta h228.2 s0.37 | BABY h216.4 s0.11 | naive h226.3 s0.39 x0.71
+   7.50h zenith    luma  1.000 | picta h212.2 s0.52 | BABY h  0.0 s0.00 | naive h212.2 s0.52 x0.95
+   7.50h hor_sun   luma  1.000 | picta h253.3 s0.25 | BABY h  0.0 s0.00 | naive h227.9 s0.36 x0.58
+   7.50h hor_away  luma  1.000 | picta h228.6 s0.36 | BABY h  0.0 s0.00 | naive h225.6 s0.40 x0.62
+   8.00h zenith    luma  1.000 | picta h211.5 s0.56 | BABY h  0.0 s0.00 | naive h211.5 s0.56 x0.95
+   8.00h hor_sun   luma  1.004 | picta h231.7 s0.30 | BABY h  0.0 s0.00 | naive h222.8 s0.42 x0.57
+   8.00h hor_away  luma  1.001 | picta h223.6 s0.41 | BABY h  0.0 s0.00 | naive h222.0 s0.44 x0.62
+  10.00h zenith    luma  1.000 | picta h210.1 s0.64 | BABY h  0.0 s0.00 | naive h210.1 s0.64 x0.95
+  10.00h hor_sun   luma  1.000 | picta h216.7 s0.51 | BABY h  0.0 s0.00 | naive h216.6 s0.52 x0.60
+  10.00h hor_away  luma  1.000 | picta h216.7 s0.52 | BABY h  0.0 s0.00 | naive h216.6 s0.52 x0.61
+  13.00h zenith    luma  1.000 | picta h210.3 s0.63 | BABY h  0.0 s0.00 | naive h210.3 s0.64 x0.95
+  13.00h hor_sun   luma  1.000 | picta h216.9 s0.50 | BABY h  0.0 s0.00 | naive h216.8 s0.52 x0.60
+  13.00h hor_away  luma  1.000 | picta h216.9 s0.51 | BABY h  0.0 s0.00 | naive h216.8 s0.52 x0.61
+  17.00h zenith    luma  1.000 | picta h210.8 s0.63 | BABY h  0.0 s0.00 | naive h210.8 s0.63 x0.95
+  17.00h hor_sun   luma  1.001 | picta h218.2 s0.46 | BABY h  0.0 s0.00 | naive h217.3 s0.51 x0.57
+  17.00h hor_away  luma  1.000 | picta h217.6 s0.50 | BABY h  0.0 s0.00 | naive h217.3 s0.51 x0.61
+  18.00h zenith    luma  1.000 | picta h212.9 s0.55 | BABY h  0.0 s0.00 | naive h212.9 s0.56 x0.95
+  18.00h hor_sun   luma  1.004 | picta h237.6 s0.27 | BABY h  0.0 s0.00 | naive h224.2 s0.39 x0.58
+  18.00h hor_away  luma  1.001 | picta h225.0 s0.39 | BABY h  0.0 s0.00 | naive h222.9 s0.42 x0.62
+  18.50h zenith    luma  1.000 | picta h214.2 s0.52 | BABY h  0.0 s0.00 | naive h214.2 s0.52 x0.95
+  18.50h hor_sun   luma  0.998 | picta h264.1 s0.24 | BABY h  0.0 s0.00 | naive h230.8 s0.32 x0.59
+  18.50h hor_away  luma  1.000 | picta h231.1 s0.33 | BABY h  0.0 s0.00 | naive h227.1 s0.36 x0.62
+  19.00h zenith    luma  1.000 | picta h214.1 s0.52 | BABY h210.4 s0.14 | naive h214.0 s0.52 x0.96
+  19.00h hor_sun   luma  1.006 | picta h265.9 s0.24 | BABY h216.5 s0.12 | naive h241.4 s0.26 x0.69
+  19.00h hor_away  luma  1.001 | picta h230.5 s0.34 | BABY h216.4 s0.12 | naive h227.9 s0.36 x0.71
+
+=========== ALL weathers: max |luma(baby)/luma(picta)-1| over 05:00-21:00 (15-min grid)
+19FA01 A01_Clear                      top:0.034 hor:0.025 clouds:0.007 fogfar:0.013 fognear:0.045 sunlight:0.070 sunraw:0.020 scat:0.048 XPlus:0.012 XMinus:0.010 ZMinus:0.020
+19FA02 A02_Clear_Aurora               top:0.045 hor:0.011 clouds:0.004 fogfar:0.005 fognear:0.030 sunlight:0.136 sunraw:0.065 scat:0.060 XPlus:0.024 XMinus:0.019 ZMinus:0.020
+19FA03 A03_Clear_Mist                 top:0.037 hor:0.017 clouds:0.005 fogfar:0.011 fognear:0.046 sunlight:0.057 sunraw:0.018 scat:0.048 XPlus:0.007 XMinus:0.009 ZMinus:0.009
+19FB01 B01_Lightly_Cloudy             top:0.030 hor:0.023 clouds:0.006 fogfar:0.013 fognear:0.047 sunlight:0.081 sunraw:0.025 scat:0.048 XPlus:0.009 XMinus:0.011 ZMinus:0.014
+19FB02 B02_Lightly_Cloudy_Aurora      top:0.042 hor:0.010 clouds:0.004 fogfar:0.006 fognear:0.031 sunlight:0.130 sunraw:0.059 scat:0.058 XPlus:0.023 XMinus:0.022 ZMinus:0.020
+19FB03 B03_Lightly_Cloudy_Misty_Fog   top:0.007 hor:0.005 clouds:0.001 fogfar:0.004 fognear:0.015 sunlight:0.131 sunraw:0.058 scat:0.058 XPlus:0.016 XMinus:0.016 ZMinus:0.011
+19FC01 C01_Cloudy                     top:0.034 hor:0.022 clouds:0.018 fogfar:0.010 fognear:0.040 sunlight:0.101 sunraw:0.011 scat:0.047 XPlus:0.015 XMinus:0.018 ZMinus:0.021
+19FC02 C02_Cloudy_Storm               top:0.034 hor:0.020 clouds:0.018 fogfar:0.009 fognear:0.029 sunlight:0.100 sunraw:0.013 scat:0.047 XPlus:0.013 XMinus:0.010 ZMinus:0.016
+19FC03 C03_Cloudy_Light_Fog           top:0.007 hor:0.004 clouds:0.001 fogfar:0.004 fognear:0.014 sunlight:0.107 sunraw:0.053 scat:0.054 XPlus:0.009 XMinus:0.009 ZMinus:0.009
+19FC04 C04_Cloudy_Rain_Very_Light     top:0.000 hor:0.000 clouds:0.002 fogfar:0.000 fognear:0.000 sunlight:0.144 sunraw:0.061 scat:0.061 XPlus:0.013 XMinus:0.013 ZMinus:0.021
+19FC05 C05_Cloudy_Snow_Very_Light     top:0.007 hor:0.006 clouds:0.006 fogfar:0.006 fognear:0.017 sunlight:0.119 sunraw:0.057 scat:0.057 XPlus:0.006 XMinus:0.006 ZMinus:0.011
+19FD01 D01_Overcast                   top:0.023 hor:0.014 clouds:0.013 fogfar:0.009 fognear:0.030 sunlight:0.094 sunraw:0.013 scat:0.034 XPlus:0.015 XMinus:0.012 ZMinus:0.012
+19FD02 D02_Overcast_Heavy_Fog         top:0.005 hor:0.003 clouds:0.001 fogfar:0.004 fognear:0.013 sunlight:0.082 sunraw:0.043 scat:0.044 XPlus:0.003 XMinus:0.004 ZMinus:0.003
+19FD03 D03_Overcast_Rain_Light        top:0.000 hor:0.000 clouds:0.002 fogfar:0.000 fognear:0.000 sunlight:0.122 sunraw:0.051 scat:0.051 XPlus:0.014 XMinus:0.014 ZMinus:0.012
+19FD04 D04_Overcast_Rain_Medium       top:0.000 hor:0.000 clouds:0.002 fogfar:0.000 fognear:0.000 sunlight:0.109 sunraw:0.051 scat:0.051 XPlus:0.014 XMinus:0.014 ZMinus:0.012
+19FD05 D05_Overcast_Snow_Light        top:0.005 hor:0.004 clouds:0.005 fogfar:0.005 fognear:0.016 sunlight:0.107 sunraw:0.046 scat:0.048 XPlus:0.004 XMinus:0.007 ZMinus:0.004
+19FD06 D06_Overcast_Snow_Medium       top:0.005 hor:0.004 clouds:0.005 fogfar:0.005 fognear:0.016 sunlight:0.096 sunraw:0.046 scat:0.048 XPlus:0.004 XMinus:0.007 ZMinus:0.004
+19FE01 E01_Storm_Thunder              top:0.002 hor:0.002 clouds:0.002 fogfar:0.002 fognear:0.037 sunlight:0.135 sunraw:0.051 scat:0.051 XPlus:0.010 XMinus:0.010 ZMinus:0.006
+19FE02 E02_Storm_Cold_Thunder         top:0.007 hor:0.006 clouds:0.002 fogfar:0.005 fognear:0.031 sunlight:0.116 sunraw:0.051 scat:0.051 XPlus:0.007 XMinus:0.007 ZMinus:0.008
+19FE03 E03_Storm_Rain_Heavy_Thunder   top:0.002 hor:0.001 clouds:0.002 fogfar:0.004 fognear:0.045 sunlight:0.086 sunraw:0.037 scat:0.041 XPlus:0.003 XMinus:0.003 ZMinus:0.004
+19FE04 E04_Storm_Rain_Extreme_Thunder top:0.002 hor:0.001 clouds:0.002 fogfar:0.004 fognear:0.045 sunlight:0.061 sunraw:0.031 scat:0.034 XPlus:0.003 XMinus:0.003 ZMinus:0.004
+19FE05 E05_Storm_Snow_Heavy           top:0.004 hor:0.002 clouds:0.002 fogfar:0.004 fognear:0.011 sunlight:0.081 sunraw:0.037 scat:0.041 XPlus:0.004 XMinus:0.003 ZMinus:0.002
+19FE06 E06_Storm_Snow_Extreme         top:0.004 hor:0.002 clouds:0.002 fogfar:0.004 fognear:0.011 sunlight:0.061 sunraw:0.031 scat:0.034 XPlus:0.004 XMinus:0.003 ZMinus:0.002
+5AFA01 A01_Clear                      top:0.034 hor:0.025 clouds:0.007 fogfar:0.013 fognear:0.045 sunlight:0.078 sunraw:0.022 scat:0.047 XPlus:0.012 XMinus:0.010 ZMinus:0.020
+5AFA02 A02_Clear_Aurora               top:0.045 hor:0.011 clouds:0.004 fogfar:0.005 fognear:0.033 sunlight:0.137 sunraw:0.063 scat:0.058 XPlus:0.024 XMinus:0.019 ZMinus:0.020
+5AFA03 A03_Clear_Mist                 top:0.037 hor:0.017 clouds:0.005 fogfar:0.011 fognear:0.046 sunlight:0.062 sunraw:0.020 scat:0.047 XPlus:0.007 XMinus:0.009 ZMinus:0.009
+5AFB01 B01_Lightly_Cloudy             top:0.030 hor:0.023 clouds:0.006 fogfar:0.013 fognear:0.047 sunlight:0.084 sunraw:0.026 scat:0.047 XPlus:0.009 XMinus:0.011 ZMinus:0.014
+5AFB02 B02_Lightly_Cloudy_Aurora      top:0.042 hor:0.010 clouds:0.004 fogfar:0.005 fognear:0.033 sunlight:0.127 sunraw:0.058 scat:0.057 XPlus:0.023 XMinus:0.022 ZMinus:0.020
+
+chroma error to target at the Sunrise/Day/Sunset slot peaks: baby | picta-now
+19FA01 top:[0.012, 0.002, 0.012]|[0.262, 0.329, 0.219] hor:[0.007, 0.004, 0.007]|[1.687, 1.211, 1.736] clouds:[0.001, 0.0, 0.004]|[1.058, 1.577, 1.276] fogfar:[0.012, 0.006, 0.01]|[1.657, 0.859, 1.688] fognear:[0.236, 0.077, 0.252]|[0.255, 0.643, 0.178] sunlight:[0.895, 0.001, 1.139]|[1.597, 0.119, 2.095] sunraw:[0.278, 0.001, 0.368]|[0.404, 0.346, 0.714] scat:[0.278, 0.001, 0.368]|[0.404, 0.346, 0.714] XPlus:[0.022, 0.063, 0.014]|[0.938, 0.613, 0.809] XMinus:[0.018, 0.063, 0.022]|[0.735, 0.613, 1.012] ZMinus:[0.013, 0.028, 0.014]|[0.981, 0.908, 1.035]
+19FA02 top:[0.006, 0.002, 0.006]|[0.2, 0.329, 0.207] hor:[0.002, 0.004, 0.002]|[1.48, 1.211, 1.545] clouds:[0.002, 0.003, 0.002]|[1.113, 1.507, 1.177] fogfar:[0.004, 0.006, 0.007]|[1.371, 0.859, 1.433] fognear:[0.101, 0.077, 0.1]|[0.633, 0.643, 0.622] sunlight:[0.828, 0.001, 1.064]|[2.011, 0.119, 2.514] sunraw:[0.263, 0.001, 0.357]|[1.144, 0.346, 1.46] scat:[0.263, 0.001, 0.357]|[1.144, 0.346, 1.46] XPlus:[0.011, 0.063, 0.017]|[0.939, 0.613, 0.783] XMinus:[0.013, 0.063, 0.007]|[0.751, 0.613, 0.963] ZMinus:[0.005, 0.028, 0.008]|[0.946, 0.908, 0.951]
+19FA03 top:[0.012, 0.002, 0.008]|[0.262, 0.329, 0.219] hor:[0.014, 0.004, 0.014]|[1.44, 0.717, 1.47] clouds:[0.001, 0.0, 0.004]|[0.743, 1.075, 0.945] fogfar:[0.012, 0.006, 0.01]|[1.391, 0.355, 1.395] fognear:[0.236, 0.077, 0.252]|[0.491, 0.147, 0.42] sunlight:[0.888, 0.001, 1.081]|[1.467, 0.119, 1.945] sunraw:[0.333, 0.001, 0.444]|[0.404, 0.346, 0.714] scat:[0.333, 0.001, 0.444]|[0.404, 0.346, 0.714] XPlus:[0.011, 0.058, 0.023]|[0.678, 0.246, 0.514] XMinus:[0.02, 0.058, 0.016]|[0.479, 0.246, 0.716] ZMinus:[0.018, 0.033, 0.018]|[0.617, 0.513, 0.63]
+19FB01 top:[0.012, 0.002, 0.012]|[0.336, 0.396, 0.284] hor:[0.011, 0.004, 0.007]|[1.57, 0.992, 1.612] clouds:[0.001, 0.0, 0.004]|[0.974, 1.451, 1.186] fogfar:[0.012, 0.006, 0.01]|[1.585, 0.732, 1.607] fognear:[0.236, 0.077, 0.252]|[0.303, 0.517, 0.216] sunlight:[0.792, 0.001, 1.023]|[1.589, 0.119, 2.086] sunraw:[0.251, 0.001, 0.332]|[0.404, 0.346, 0.714] scat:[0.251, 0.001, 0.332]|[0.404, 0.346, 0.714] XPlus:[0.016, 0.062, 0.018]|[0.867, 0.531, 0.716] XMinus:[0.008, 0.062, 0.022]|[0.663, 0.531, 0.92] ZMinus:[0.017, 0.033, 0.012]|[0.706, 0.81, 0.753]
+19FB02 top:[0.006, 0.002, 0.006]|[0.279, 0.396, 0.266] hor:[0.004, 0.004, 0.004]|[1.35, 0.992, 1.409] clouds:[0.002, 0.003, 0.002]|[1.03, 1.38, 1.084] fogfar:[0.014, 0.006, 0.012]|[1.288, 0.732, 1.34] fognear:[0.101, 0.077, 0.1]|[0.688, 0.517, 0.669] sunlight:[0.716, 0.001, 0.956]|[2.003, 0.119, 2.505] sunraw:[0.233, 0.001, 0.316]|[1.144, 0.346, 1.46] scat:[0.233, 0.001, 0.316]|[1.144, 0.346, 1.46] XPlus:[0.008, 0.062, 0.012]|[0.865, 0.531, 0.685] XMinus:[0.006, 0.062, 0.005]|[0.678, 0.531, 0.864] ZMinus:[0.006, 0.033, 0.006]|[0.749, 0.81, 0.759]
+19FB03 top:[0.004, 0.004, 0.004]|[0.747, 1.31, 0.789] hor:[0.004, 0.004, 0.004]|[0.464, 0.99, 0.509] clouds:[0.0, 0.0, 0.0]|[0.522, 0.894, 0.559] fogfar:[0.004, 0.004, 0.007]|[0.29, 0.674, 0.342] fognear:[0.083, 0.077, 0.076]|[0.277, 0.649, 0.326] sunlight:[0.006, 0.001, 0.007]|[2.492, 0.262, 2.918] sunraw:[0.002, 0.003, 0.005]|[1.422, 0.254, 1.753] scat:[0.002, 0.003, 0.005]|[1.422, 0.254, 1.753] XPlus:[0.007, 0.013, 0.009]|[0.33, 0.603, 0.394] XMinus:[0.005, 0.013, 0.013]|[0.349, 0.603, 0.375] ZMinus:[0.006, 0.011, 0.003]|[0.335, 0.608, 0.379]
+19FC01 top:[0.005, 0.005, 0.005]|[0.288, 0.289, 0.24] hor:[0.009, 0.003, 0.009]|[1.553, 0.823, 1.598] clouds:[0.01, 0.008, 0.01]|[1.861, 0.782, 1.894] fogfar:[0.003, 0.002, 0.003]|[1.651, 0.607, 1.69] fognear:[0.116, 0.024, 0.116]|[1.103, 0.026, 1.044] sunlight:[1.019, 0.003, 1.285]|[2.058, 0.102, 2.552] sunraw:[0.257, 0.002, 0.356]|[0.106, 0.294, 0.458] scat:[0.257, 0.002, 0.356]|[0.106, 0.294, 0.458] XPlus:[0.007, 0.027, 0.002]|[0.995, 0.51, 0.861] XMinus:[0.013, 0.027, 0.007]|[0.824, 0.51, 1.03] ZMinus:[0.003, 0.027, 0.004]|[0.708, 0.544, 0.757]
+19FC02 top:[0.005, 0.005, 0.005]|[0.288, 0.289, 0.24] hor:[0.002, 0.003, 0.009]|[1.456, 0.695, 1.494] clouds:[0.007, 0.003, 0.007]|[1.579, 0.515, 1.596] fogfar:[0.002, 0.003, 0.002]|[1.353, 0.338, 1.376] fognear:[0.131, 0.131, 0.131]|[1.403, 0.292, 1.363] sunlight:[0.903, 0.003, 1.152]|[2.027, 0.102, 2.516] sunraw:[0.271, 0.002, 0.376]|[0.106, 0.294, 0.458] scat:[0.271, 0.002, 0.376]|[0.106, 0.294, 0.458] XPlus:[0.007, 0.027, 0.013]|[0.7, 0.327, 0.556] XMinus:[0.008, 0.027, 0.01]|[0.528, 0.327, 0.727] ZMinus:[0.004, 0.027, 0.004]|[0.5, 0.337, 0.53]
+19FC03 top:[0.004, 0.004, 0.004]|[0.726, 1.096, 0.765] hor:[0.004, 0.004, 0.004]|[0.378, 0.695, 0.419] clouds:[0.0, 0.0, 0.0]|[0.534, 0.566, 0.556] fogfar:[0.004, 0.003, 0.007]|[0.282, 0.345, 0.317] fognear:[0.083, 0.077, 0.076]|[0.285, 0.329, 0.315] sunlight:[0.006, 0.004, 0.009]|[2.344, 0.254, 2.765] sunraw:[0.008, 0.003, 0.003]|[1.307, 0.265, 1.723] scat:[0.008, 0.003, 0.003]|[1.307, 0.265, 1.723] XPlus:[0.014, 0.007, 0.01]|[0.39, 0.365, 0.422] XMinus:[0.01, 0.007, 0.005]|[0.408, 0.365, 0.404] ZMinus:[0.01, 0.012, 0.006]|[0.39, 0.372, 0.413]
+19FC04 top:[0.0, 0.0, 0.0]|[0.839, 1.103, 0.869] hor:[0.0, 0.0, 0.0]|[0.754, 1.068, 0.799] clouds:[0.0, 0.0, 0.0]|[0.9, 0.951, 0.939] fogfar:[0.0, 0.0, 0.0]|[0.9, 0.951, 0.939] fognear:[0.0, 0.0, 0.0]|[0.9, 0.951, 0.939] sunlight:[0.0, 0.0, 0.0]|[2.359, 0.052, 2.828] sunraw:[0.0, 0.0, 0.0]|[1.647, 0.048, 2.045] scat:[0.0, 0.0, 0.0]|[1.647, 0.048, 2.045] XPlus:[0.0, 0.0, 0.0]|[0.841, 0.797, 0.902] XMinus:[0.0, 0.0, 0.0]|[0.841, 0.797, 0.902] ZMinus:[0.0, 0.0, 0.0]|[0.656, 0.787, 0.704]
+19FC05 top:[0.003, 0.005, 0.003]|[0.203, 0.435, 0.216] hor:[0.001, 0.003, 0.001]|[0.072, 0.293, 0.113] clouds:[0.004, 0.004, 0.004]|[0.238, 0.316, 0.268] fogfar:[0.003, 0.006, 0.007]|[0.171, 0.268, 0.202] fognear:[0.067, 0.07, 0.073]|[0.133, 0.102, 0.104] sunlight:[0.003, 0.002, 0.011]|[2.944, 0.824, 3.368] sunraw:[0.005, 0.001, 0.008]|[1.472, 0.15, 1.882] scat:[0.005, 0.001, 0.008]|[1.472, 0.15, 1.882] XPlus:[0.005, 0.02, 0.01]|[0.332, 0.348, 0.398] XMinus:[0.008, 0.02, 0.009]|[0.376, 0.348, 0.353] ZMinus:[0.014, 0.024, 0.016]|[0.344, 0.341, 0.375]
+19FD01 top:[0.01, 0.005, 0.01]|[0.53, 0.473, 0.496] hor:[0.002, 0.003, 0.002]|[1.276, 0.407, 1.3] clouds:[0.009, 0.008, 0.009]|[1.631, 0.539, 1.649] fogfar:[0.012, 0.007, 0.012]|[1.404, 0.362, 1.428] fognear:[0.116, 0.024, 0.116]|[1.366, 0.269, 1.325] sunlight:[0.82, 0.003, 1.076]|[1.955, 0.109, 2.465] sunraw:[0.229, 0.006, 0.354]|[0.085, 0.305, 0.442] scat:[0.229, 0.006, 0.354]|[0.085, 0.305, 0.442] XPlus:[0.007, 0.022, 0.013]|[0.758, 0.35, 0.609] XMinus:[0.009, 0.022, 0.008]|[0.586, 0.35, 0.78] ZMinus:[0.008, 0.025, 0.001]|[0.511, 0.358, 0.55]
+19FD02 top:[0.004, 0.004, 0.004]|[0.483, 0.775, 0.507] hor:[0.004, 0.004, 0.004]|[0.138, 0.364, 0.166] clouds:[0.0, 0.0, 0.0]|[0.388, 0.401, 0.403] fogfar:[0.004, 0.003, 0.007]|[0.127, 0.189, 0.155] fognear:[0.083, 0.077, 0.076]|[0.144, 0.198, 0.162] sunlight:[0.009, 0.002, 0.01]|[2.185, 0.246, 2.595] sunraw:[0.007, 0.005, 0.0]|[1.182, 0.27, 1.523] scat:[0.007, 0.005, 0.0]|[1.182, 0.27, 1.523] XPlus:[0.007, 0.012, 0.004]|[0.207, 0.216, 0.239] XMinus:[0.01, 0.012, 0.008]|[0.224, 0.216, 0.221] ZMinus:[0.005, 0.008, 0.006]|[0.21, 0.214, 0.224]
+19FD03 top:[0.0, 0.0, 0.0]|[0.539, 0.722, 0.553] hor:[0.0, 0.0, 0.0]|[0.456, 0.585, 0.41] clouds:[0.0, 0.0, 0.0]|[0.563, 0.631, 0.592] fogfar:[0.0, 0.0, 0.0]|[0.563, 0.631, 0.592] fognear:[0.0, 0.0, 0.0]|[0.563, 0.631, 0.592] sunlight:[0.0, 0.0, 0.0]|[2.219, 0.043, 2.69] sunraw:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] scat:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] XPlus:[0.0, 0.0, 0.0]|[0.669, 0.53, 0.713] XMinus:[0.0, 0.0, 0.0]|[0.669, 0.53, 0.713] ZMinus:[0.0, 0.0, 0.0]|[0.547, 0.532, 0.573]
+19FD04 top:[0.0, 0.0, 0.0]|[0.539, 0.722, 0.553] hor:[0.0, 0.0, 0.0]|[0.456, 0.585, 0.41] clouds:[0.0, 0.0, 0.0]|[0.563, 0.631, 0.592] fogfar:[0.0, 0.0, 0.0]|[0.563, 0.631, 0.592] fognear:[0.0, 0.0, 0.0]|[0.563, 0.631, 0.592] sunlight:[0.0, 0.0, 0.0]|[2.169, 0.043, 2.627] sunraw:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] scat:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] XPlus:[0.0, 0.0, 0.0]|[0.669, 0.53, 0.713] XMinus:[0.0, 0.0, 0.0]|[0.669, 0.53, 0.713] ZMinus:[0.0, 0.0, 0.0]|[0.547, 0.532, 0.573]
+19FD05 top:[0.003, 0.005, 0.003]|[0.065, 0.202, 0.046] hor:[0.001, 0.003, 0.001]|[0.126, 0.03, 0.169] clouds:[0.004, 0.004, 0.004]|[0.057, 0.104, 0.088] fogfar:[0.003, 0.007, 0.007]|[0.031, 0.076, 0.031] fognear:[0.067, 0.07, 0.073]|[0.335, 0.268, 0.31] sunlight:[0.01, 0.006, 0.023]|[2.82, 0.816, 3.242] sunraw:[0.003, 0.001, 0.007]|[1.348, 0.155, 1.683] scat:[0.003, 0.001, 0.007]|[1.348, 0.155, 1.683] XPlus:[0.012, 0.021, 0.011]|[0.123, 0.183, 0.203] XMinus:[0.012, 0.021, 0.005]|[0.168, 0.183, 0.158] ZMinus:[0.013, 0.018, 0.016]|[0.204, 0.159, 0.239]
+19FD06 top:[0.003, 0.005, 0.003]|[0.065, 0.202, 0.046] hor:[0.001, 0.003, 0.001]|[0.126, 0.03, 0.169] clouds:[0.004, 0.004, 0.004]|[0.057, 0.104, 0.088] fogfar:[0.003, 0.007, 0.007]|[0.031, 0.076, 0.031] fognear:[0.067, 0.07, 0.073]|[0.335, 0.268, 0.31] sunlight:[0.002, 0.006, 0.012]|[2.776, 0.816, 3.186] sunraw:[0.003, 0.001, 0.007]|[1.348, 0.155, 1.683] scat:[0.003, 0.001, 0.007]|[1.348, 0.155, 1.683] XPlus:[0.012, 0.021, 0.011]|[0.123, 0.183, 0.203] XMinus:[0.012, 0.021, 0.005]|[0.168, 0.183, 0.158] ZMinus:[0.013, 0.018, 0.016]|[0.204, 0.159, 0.239]
+19FE01 top:[0.003, 0.005, 0.003]|[0.285, 0.388, 0.291] hor:[0.002, 0.004, 0.002]|[0.243, 0.314, 0.252] clouds:[0.001, 0.004, 0.001]|[0.497, 0.535, 0.505] fogfar:[0.012, 0.009, 0.012]|[0.427, 0.461, 0.436] fognear:[0.122, 0.122, 0.122]|[0.344, 0.379, 0.354] sunlight:[0.0, 0.0, 0.0]|[2.299, 0.043, 2.789] sunraw:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] scat:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] XPlus:[0.001, 0.01, 0.01]|[0.518, 0.498, 0.544] XMinus:[0.005, 0.01, 0.0]|[0.516, 0.498, 0.545] ZMinus:[0.005, 0.002, 0.004]|[0.519, 0.503, 0.532]
+19FE02 top:[0.001, 0.001, 0.001]|[0.123, 0.224, 0.139] hor:[0.001, 0.001, 0.001]|[0.145, 0.2, 0.161] clouds:[0.0, 0.0, 0.0]|[0.712, 0.738, 0.722] fogfar:[0.004, 0.006, 0.004]|[0.295, 0.336, 0.31] fognear:[0.076, 0.076, 0.076]|[0.351, 0.383, 0.364] sunlight:[0.002, 0.005, 0.005]|[2.811, 0.629, 3.271] sunraw:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] scat:[0.0, 0.0, 0.0]|[1.525, 0.043, 1.85] XPlus:[0.01, 0.023, 0.012]|[0.407, 0.337, 0.44] XMinus:[0.009, 0.023, 0.013]|[0.439, 0.337, 0.409] ZMinus:[0.015, 0.02, 0.007]|[0.398, 0.321, 0.416]
+19FE03 top:[0.003, 0.005, 0.003]|[0.179, 0.245, 0.169] hor:[0.002, 0.004, 0.002]|[0.059, 0.101, 0.048] clouds:[0.001, 0.004, 0.001]|[0.269, 0.303, 0.27] fogfar:[0.021, 0.018, 0.021]|[0.19, 0.218, 0.192] fognear:[0.2, 0.2, 0.2]|[0.105, 0.139, 0.107] sunlight:[0.0, 0.0, 0.0]|[2.012, 0.03, 2.466] sunraw:[0.0, 0.0, 0.0]|[1.391, 0.03, 1.718] scat:[0.0, 0.0, 0.0]|[1.391, 0.03, 1.718] XPlus:[0.006, 0.003, 0.0]|[0.298, 0.305, 0.294] XMinus:[0.0, 0.003, 0.006]|[0.294, 0.305, 0.298] ZMinus:[0.001, 0.0, 0.002]|[0.293, 0.314, 0.295]
+19FE04 top:[0.003, 0.005, 0.003]|[0.179, 0.245, 0.169] hor:[0.002, 0.004, 0.002]|[0.059, 0.101, 0.048] clouds:[0.001, 0.004, 0.001]|[0.269, 0.303, 0.27] fogfar:[0.021, 0.018, 0.021]|[0.19, 0.218, 0.192] fognear:[0.2, 0.2, 0.2]|[0.105, 0.139, 0.107] sunlight:[0.0, 0.0, 0.0]|[1.842, 0.017, 2.281] sunraw:[0.0, 0.0, 0.0]|[1.248, 0.017, 1.573] scat:[0.0, 0.0, 0.0]|[1.248, 0.017, 1.573] XPlus:[0.006, 0.003, 0.0]|[0.298, 0.305, 0.294] XMinus:[0.0, 0.003, 0.006]|[0.294, 0.305, 0.298] ZMinus:[0.001, 0.0, 0.002]|[0.293, 0.314, 0.295]
+19FE05 top:[0.001, 0.001, 0.001]|[0.214, 0.153, 0.205] hor:[0.001, 0.001, 0.001]|[0.323, 0.268, 0.321] clouds:[0.0, 0.0, 0.0]|[0.267, 0.299, 0.271] fogfar:[0.008, 0.005, 0.009]|[0.162, 0.107, 0.158] fognear:[0.1, 0.105, 0.102]|[0.095, 0.068, 0.087] sunlight:[0.012, 0.002, 0.009]|[2.546, 0.616, 2.967] sunraw:[0.0, 0.0, 0.0]|[1.391, 0.03, 1.718] scat:[0.0, 0.0, 0.0]|[1.391, 0.03, 1.718] XPlus:[0.008, 0.023, 0.016]|[0.04, 0.025, 0.046] XMinus:[0.018, 0.023, 0.015]|[0.024, 0.025, 0.046] ZMinus:[0.011, 0.027, 0.012]|[0.036, 0.048, 0.042]
+19FE06 top:[0.001, 0.001, 0.001]|[0.214, 0.153, 0.205] hor:[0.001, 0.001, 0.001]|[0.323, 0.268, 0.321] clouds:[0.0, 0.0, 0.0]|[0.267, 0.299, 0.271] fogfar:[0.008, 0.005, 0.009]|[0.162, 0.107, 0.158] fognear:[0.1, 0.105, 0.102]|[0.095, 0.068, 0.087] sunlight:[0.008, 0.005, 0.008]|[2.389, 0.604, 2.795] sunraw:[0.0, 0.0, 0.0]|[1.248, 0.017, 1.573] scat:[0.0, 0.0, 0.0]|[1.248, 0.017, 1.573] XPlus:[0.008, 0.023, 0.016]|[0.04, 0.025, 0.046] XMinus:[0.018, 0.023, 0.015]|[0.024, 0.025, 0.046] ZMinus:[0.011, 0.027, 0.012]|[0.036, 0.048, 0.042]
+5AFA01 top:[0.012, 0.002, 0.012]|[0.262, 0.329, 0.219] hor:[0.007, 0.004, 0.007]|[1.687, 1.211, 1.736] clouds:[0.001, 0.0, 0.004]|[1.058, 1.577, 1.276] fogfar:[0.012, 0.005, 0.01]|[1.657, 0.787, 1.688] fognear:[0.236, 0.077, 0.252]|[0.255, 0.643, 0.178] sunlight:[0.824, 0.005, 1.027]|[1.597, 0.091, 2.095] sunraw:[0.249, 0.005, 0.333]|[0.404, 0.299, 0.714] scat:[0.249, 0.005, 0.333]|[0.404, 0.299, 0.714] XPlus:[0.022, 0.063, 0.014]|[0.938, 0.613, 0.809] XMinus:[0.018, 0.063, 0.022]|[0.735, 0.613, 1.012] ZMinus:[0.013, 0.028, 0.014]|[0.981, 0.908, 1.035]
+5AFA02 top:[0.006, 0.002, 0.006]|[0.2, 0.329, 0.207] hor:[0.002, 0.004, 0.002]|[1.48, 1.211, 1.545] clouds:[0.002, 0.003, 0.002]|[1.113, 1.507, 1.177] fogfar:[0.004, 0.005, 0.007]|[1.371, 0.787, 1.433] fognear:[0.101, 0.077, 0.1]|[0.633, 0.643, 0.622] sunlight:[0.756, 0.005, 0.949]|[2.011, 0.091, 2.514] sunraw:[0.228, 0.005, 0.314]|[1.144, 0.299, 1.46] scat:[0.228, 0.005, 0.314]|[1.144, 0.299, 1.46] XPlus:[0.011, 0.063, 0.017]|[0.939, 0.613, 0.783] XMinus:[0.013, 0.063, 0.007]|[0.751, 0.613, 0.963] ZMinus:[0.005, 0.028, 0.008]|[0.946, 0.908, 0.951]
+5AFA03 top:[0.012, 0.002, 0.008]|[0.262, 0.329, 0.219] hor:[0.014, 0.004, 0.014]|[1.44, 0.717, 1.47] clouds:[0.001, 0.0, 0.004]|[0.743, 1.075, 0.945] fogfar:[0.012, 0.005, 0.01]|[1.391, 0.292, 1.395] fognear:[0.236, 0.077, 0.252]|[0.491, 0.147, 0.42] sunlight:[0.866, 0.001, 1.079]|[1.467, 0.091, 1.945] sunraw:[0.307, 0.005, 0.413]|[0.404, 0.299, 0.714] scat:[0.307, 0.005, 0.413]|[0.404, 0.299, 0.714] XPlus:[0.011, 0.058, 0.023]|[0.678, 0.246, 0.514] XMinus:[0.02, 0.058, 0.016]|[0.479, 0.246, 0.716] ZMinus:[0.018, 0.033, 0.018]|[0.617, 0.513, 0.63]
+5AFB01 top:[0.012, 0.002, 0.012]|[0.336, 0.396, 0.284] hor:[0.011, 0.004, 0.007]|[1.57, 0.992, 1.612] clouds:[0.001, 0.0, 0.004]|[0.974, 1.451, 1.186] fogfar:[0.012, 0.005, 0.01]|[1.585, 0.662, 1.607] fognear:[0.236, 0.077, 0.252]|[0.303, 0.517, 0.216] sunlight:[0.752, 0.005, 0.972]|[1.589, 0.091, 2.086] sunraw:[0.229, 0.005, 0.306]|[0.404, 0.299, 0.714] scat:[0.229, 0.005, 0.306]|[0.404, 0.299, 0.714] XPlus:[0.016, 0.062, 0.018]|[0.867, 0.531, 0.716] XMinus:[0.008, 0.062, 0.022]|[0.663, 0.531, 0.92] ZMinus:[0.017, 0.033, 0.012]|[0.706, 0.81, 0.753]
+5AFB02 top:[0.006, 0.002, 0.006]|[0.279, 0.396, 0.266] hor:[0.004, 0.004, 0.004]|[1.35, 0.992, 1.409] clouds:[0.002, 0.003, 0.002]|[1.03, 1.38, 1.084] fogfar:[0.014, 0.005, 0.012]|[1.288, 0.662, 1.34] fognear:[0.101, 0.077, 0.1]|[0.688, 0.517, 0.669] sunlight:[0.683, 0.005, 0.878]|[2.003, 0.091, 2.505] sunraw:[0.209, 0.005, 0.287]|[1.144, 0.299, 1.46] scat:[0.209, 0.005, 0.287]|[1.144, 0.299, 1.46] XPlus:[0.008, 0.062, 0.012]|[0.865, 0.531, 0.685] XMinus:[0.006, 0.062, 0.005]|[0.678, 0.531, 0.864] ZMinus:[0.006, 0.033, 0.006]|[0.749, 0.81, 0.759]

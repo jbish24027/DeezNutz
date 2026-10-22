@@ -1,0 +1,1293 @@
+STAT 03A1C2 _mag_BedGuestCanopy -> aproco\magpie\lor\bed.nif
+STAT 03AD1E _mag_FireplaceHearth -> aproco\magpie\_duncan\FireplaceHearth.nif
+STAT 03AD26 _mag_AlchCopperOven -> aproco\magpie\stroti\ovens\Kitchen Stove\Stove01.nif
+STAT 03AD2E _mag_PlatePorcelain01 -> aproco\magpie\oaristys\the witcher\Dishes\Plate_Porcelain01.nif
+STAT 03AD30 _mag_PlatePorcelain02 -> aproco\magpie\oaristys\the witcher\Dishes\Plate_Porcelain02.nif
+STAT 005915 _mag_RugRedBlue -> aproco\magpie\Oaristys\the witcher\furniture\Carpet.nif
+STAT 3C1547 _mag_ThatchedFence01 -> aproco\magpie\ThatchedHouse\ThatchedFence.nif
+STAT 03AD32 _mag_PlatePorcelain03 -> aproco\magpie\oaristys\the witcher\Dishes\Plate_Porcelain03.nif
+STAT 03AD34 _mag_PlateSilver01 -> aproco\magpie\oaristys\the witcher\dishes\Plate_Silver01.nif
+STAT 005917 _mag_Abacus01 -> aproco\magpie\OrientSet\clutter\orientset\abacus.nif
+STAT 005922 _mag_WardrobeBase -> aproco\magpie\00_Laboratorium\00_Moosmupfel\richwardrobe.nif
+STAT 005925 _mag_WallpaperBlueGold -> aproco\magpie\architecture\WallPaperBlueGold.nif
+STAT 00AA30 _mag_WallPlasterPeeling -> aproco\magpie\architecture\WallStuccoPeeling.nif
+STAT 00AA3A _mag_FloorTileKitchen -> aproco\magpie\architecture\magwhintwoodfloormid01_stone.nif
+STAT 00AA3B _mag_WallPlaster -> aproco\magpie\architecture\magwhintwoodfloormid01_stone.nif
+STAT 00AA3E _mag_FloorTileBW -> aproco\magpie\architecture\FloorTileBW.nif
+STAT 00AA53 _mag_DoorJambArched01 -> aproco\Magpie\architecture\doorjambarchplaster01.nif
+STAT 00FB6D _mag_WindowWallDoubleArched -> aproco\magpie\architecture\WallWindowsDoubleInt.nif
+STAT 014C7A _mag_StairsFree -> aproco\Magpie\architecture\freesstandingstairs.nif
+STAT 014DE5 _mag_KitchenTableLightWood -> aproco\magpie\lor\converted\furniture\table10.nif
+STAT 014EE2 _mag_FloorWoodParquet -> aproco\magpie\architecture\magwhintwoodfloormid01.nif
+STAT 014F6A _mag_WindowWallDoubleArchedExt -> aproco\magpie\architecture\WallWindowsDoubleExt.nif
+STAT 01A65B _mag_KitchenCupboard02 -> aproco\magpie\00_Laboratorium\00_Moosmupfel\cupboard2.nif
+STAT 01A7EC _mag_KitchenCupboard01 -> aproco\magpie\00_Laboratorium\00_Moosmupfel\cupboard1.nif
+STAT 029DB1 _mag_FireplaceGriffonsCustom -> aproco\Magpie\architecture\fireplacegriffon.nif
+STAT 029DB3 _mag_FireplaceManorCustom -> aproco\Magpie\architecture\FireplaceBedroom.nif
+STAT 029DB6 _mag_Chimney -> aproco\magpie\0manor house\fireplace\0chimneyfull.nif
+STAT 029DBF _mag_ChimneyCap -> aproco\magpie\0manor house\fireplace\0chimneycapashort.nif
+STAT 02EEC2 _mag_RoofTruss -> aproco\magpie\Griffon Fortress\interior\rooftruss02.nif
+STAT 033FEF _mag_BookshelfConsoleStatic -> aproco\magpie\azs\furniture\azsbookshel02Low.nif
+STAT 033FF1 _mag_BookStackBCS01 -> aproco\magpie\bcs booksets\bcs_bookset04.nif
+STAT 039106 _mag_ShelvesIngredientsBase -> aproco\magpie\00_Laboratorium\lor\bookstand5.nif
+STAT 039107 _mag_ShelfDarkWood -> aproco\magpie\00_Laboratorium\architecture\whiterun\wrinteriors\spinademul_expansion\wrdunintshelfarchdivider.nif
+STAT 039692 _mag_WallPlasterTrianglePeeling -> aproco\magpie\architecture\WallStuccoTriangleExt.nif
+STAT 0396B2 _mag_WallPlasterTrianglePainted -> aproco\magpie\architecture\WallPlasterTriangleInt.nif
+STAT 0396E4 _mag_LibraryChair -> aproco\magpie\azs\furniture\azsChair01.nif
+STAT 039C50 _mag_SecretDoorWall -> aproco\Magpie\architecture\whintpartitionsecretdoor01.nif
+STAT 03A1BF _mag_FireplaceWoodCarved -> aproco\magpie\Oaristys\the witcher\furniture\Fireplace01.nif
+STAT 5868ED _mag_DisplayCaseSmAngleStat -> Clutter\DisplayCases\DisplayCaseSmAngled01.nif
+STAT 586944 _mag_AetherialShieldStatic -> DLC01\Armor\Dwarven\1stPersonDwarvenShieldCrystal.nif
+STAT 58BA75 _mag_FloralPillowCushionNordic -> aproco\magpie\manny_gf\pillows\manny_gf_pillow03.nif
+STAT 60F5DF _mag_SATSnowman -> Insanity\Christmas02\Architecture\Snowman.nif
+STAT 3C14D3 _mag_BalconyRailingLg -> aproco\magpie\_00breton_keep\interior\ramprail.nif
+STAT 03AD38 _mag_PlateSilver03 -> aproco\magpie\oaristys\the witcher\dishes\Plate_Silver03.nif
+STAT 03AD3C _mag_PlatePorcelain05 -> aproco\magpie\clutter\dining set\babushkaplate02.nif
+STAT 03AD36 _mag_PlateSilver02 -> aproco\magpie\oaristys\the witcher\dishes\Plate_Silver02.nif
+STAT 03AD3A _mag_PlatePorcelain04 -> aproco\magpie\clutter\dining set\babushkaplate01.nif
+STAT 03BAFC _mag_WallPaperFloral -> aproco\magpie\architecture\WallPaperFloral.nif
+STAT 03BAFD _mag_WallPaperPaneled -> aproco\magpie\architecture\WallPaperPaneled.nif
+STAT 03BB2F _mag_RugGold01 -> aproco\magpie\lor\converted\clutter\rug2.nif
+STAT 03BB34 _mag_RugRedGreen01 -> aproco\magpie\Oaristys\the witcher\decoration\cloth\carpet_rich04.nif
+STAT 0508BC _mag_WallRusticHalfStone -> aproco\magpie\architecture\StoneBaseWallIntDB.nif
+STAT 051197 _mag_TowerRoomTop -> aproco\magpie\stroti\Dragonstone\Manor\Stairwell01.nif
+STAT 051199 _mag_TowerRoomBottom -> aproco\magpie\stroti\Dragonstone\Manor\Stairwell02.nif
+STAT 0511BA _mag_DeskDarkCubbies -> aproco\magpie\lor\bookstand4.nif
+STAT 0511C0 _mag_AlchDistillery01 -> aproco\magpie\oaristys\the witcher\Alchemy\AlchDistillery01.nif
+STAT 0511C2 _mag_DeskDark -> aproco\magpie\lor\table5.nif
+STAT 0511CA _mag_FloorWoodParquetOld -> aproco\magpie\architecture\FloorWoodParquetOld.nif
+STAT 0511CE _mag_KitchenFireplace -> aproco\magpie\Griffon Fortress\kitchen\kitchenOven01.nif
+STAT 05173F _mag_FloorTileTerraCotta -> aproco\magpie\architecture\magwhintwoodfloormid01_stone.nif
+STAT 051749 _mag_KungsaraBench -> aproco\magpie\furniture\KungsaraBench.nif
+STAT 05174B _mag_WoodColumnSpiral -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\int\carvedpillar01.nif
+STAT 051753 _mag_DeskGreen -> aproco\magpie\furniture\decorativedesk.nif
+STAT 05226F _mag_ModularTableBase -> aproco\magpie\TF\CraftingTable\CraftingTableBase01.nif
+STAT 052276 _mag_ModularTableEndL -> aproco\magpie\TF\CraftingTable\CraftingTableEndL.nif
+STAT 052278 _mag_ModularTableEndR -> aproco\magpie\TF\CraftingTable\CraftingTableEndR.nif
+STAT 052282 _mag_BowlBerries -> aproco\magpie\queenacademe\food and dining\qa_bowlberries.nif
+STAT 052284 _mag_BreadCovered -> aproco\magpie\queenacademe\food and dining\qa_breadcovered.nif
+STAT 05228E _mag_CoffeeMug -> aproco\magpie\queenacademe\food and dining\qa_coffeecup.nif
+STAT 052290 _mag_UtensilsPot -> aproco\magpie\queenacademe\food and dining\qa_utensilpotdwemermetal.nif
+STAT 052293 _mag_WoodenJug01 -> aproco\magpie\queenacademe\food and dining\qa_jug.nif
+STAT 052295 _mag_StatueArtemis -> aproco\magpie\queenacademe\alchemy\qa_artemis.nif
+STAT 052298 _mag_JarTerraCotta -> aproco\magpie\queenacademe\alchemy\qa_jarterracotta.nif
+STAT 05229D _mag_JarGlazed02 -> aproco\magpie\queenacademe\alchemy\qa_glazedjaralt.nif
+STAT 05229F _mag_JarBlue -> aproco\magpie\queenacademe\alchemy\qa_jarterracottablue.nif
+STAT 0522A1 _mag_PillowKnitGreen -> aproco\magpie\queenacademe\bedroom\qa_pillowrose.nif
+STAT 0522A4 _mag_PillowSetFloral -> aproco\magpie\queenacademe\bedroom\qa_pillowsetredbrown.nif
+STAT 0522A7 _mag_EnchTools -> aproco\magpie\queenacademe\containers\qa_enchbag.nif
+STAT 0522B4 _mag_BasketVaseShape -> aproco\magpie\garnet\wicker\wickerbasket01.nif
+STAT 052819 _mag_PaintingAgostina -> aproco\magpie\decor\Paintings\PaintingAgostina.nif
+STAT 05281B _mag_PaintingThistle -> aproco\magpie\decor\Paintings\PaintingThistle.nif
+STAT 05281E _mag_PaintingLeRepos -> aproco\magpie\decor\Paintings\PaintingLeRepos.nif
+STAT 052821 _mag_PaintingPeasantScene -> aproco\magpie\decor\Paintings\PaintingPeasantScene.nif
+STAT 052D9D _mag_CurioSkullCarved -> aproco\magpie\lor\converted\clutter\specialhumanskull.nif
+STAT 052D9F _mag_CurioGeode01 -> aproco\magpie\Fossils\small_items\geode.nif
+STAT 052DA1 _mag_CurioSharkTooth -> aproco\magpie\Fossils\small_items\shark Tooth.nif
+STAT 052DA3 _mag_CurioTrilobite -> aproco\magpie\Fossils\small_items\trilobite.nif
+STAT 052DA5 _mag_CurioAmmonite -> aproco\magpie\Fossils\small_items\ammonite_shell.nif
+STAT 052DA7 _mag_CurioFossilAnurognathus -> aproco\magpie\Fossils\small_items\small_fossil_anurognathus.nif
+STAT 052DA9 _mag_CurioFossilBrittleStar -> aproco\magpie\Fossils\small_items\small_fossil_brittlestar.nif
+STAT 052DAB _mag_CurioPetrifiedWood -> aproco\magpie\Fossils\petrified_wood.nif
+STAT 052DAD _mag_ChairOrange -> aproco\magpie\DisgruntledWombats\Conversions\Chair Collection\chair (uVu)\chair (uVu).nif
+STAT 052DB1 _mag_CompassDwemer -> aproco\magpie\duathfel\misc items\dfldwecompass.nif
+STAT 052DB4 _mag_LedgerDwemer -> aproco\magpie\duathfel\misc items\dflledger.nif
+STAT 052DB6 _mag_RulerDwemer -> aproco\magpie\duathfel\misc items\dflrule.nif
+STAT 052DB8 _mag_MapMorrowind -> aproco\magpie\Leodoidao\Charts\Lchart01.nif
+STAT 052DBA _mag_MapTamrielPolitical -> aproco\magpie\Leodoidao\Charts\Lchart02.nif
+STAT 052DBC _mag_IllustrationDwemer01 -> aproco\magpie\Leodoidao\Charts\Lchart04.nif
+STAT 052DBE _mag_IllustrationDwemer02 -> aproco\magpie\Leodoidao\Charts\Lchart06.nif
+STAT 052DC0 _mag_NoteTheElements -> aproco\magpie\Leodoidao\Lnote04.nif
+STAT 052DC2 _mag_NoteEldritchHorror -> aproco\magpie\Leodoidao\Lnote10.nif
+STAT 052DC4 _mag_OpenBookShells -> aproco\magpie\Leodoidao\LOB03.nif
+STAT 052DC6 _mag_OpenBookIlluminated -> aproco\magpie\Leodoidao\LOB08.nif
+STAT 052DC8 _mag_OpenBookText -> aproco\magpie\Leodoidao\LOB09.nif
+STAT 052DCA _mag_OpenBookAlchIllustration -> aproco\magpie\Leodoidao\LOB12.nif
+STAT 052DCC _mag_OpenBookDragons -> aproco\magpie\Leodoidao\LOB13.nif
+STAT 052DD2 _mag_OpenBookAlchIllustrationBW -> aproco\magpie\mathys_resources\books\mathys_repo_book_open_01.nif
+STAT 052DD4 _mag_TapestryBard -> aproco\magpie\robobirdie\tapestries\bardtapestry.nif
+STAT 057EE7 _mag_BottleCorkedRound -> aproco\magpie\oaristys\the witcher\Dishes\Bottle_Round.nif
+STAT 057EE9 _mag_BottleFancyGold -> aproco\magpie\oaristys\the witcher\Dishes\Bottle01_Gold.nif
+STAT 057EEC _mag_BottleFancyBronze -> aproco\magpie\oaristys\the witcher\Dishes\Bottle03_Bronze.nif
+STAT 057EF5 _mag_BowlCopper -> aproco\magpie\oaristys\the witcher\Dishes\Bowl_Copper.nif
+STAT 057EF7 _mag_BowlCeramicDecorated -> aproco\magpie\oaristys\the witcher\Dishes\Bowl_Ceramic.nif
+STAT 057EFA _mag_BowlCeramicSmall -> aproco\magpie\oaristys\the witcher\Dishes\Bowl_Porcelain02.nif
+STAT 057EFD _mag_PitcherCeramicDecorated -> aproco\magpie\oaristys\the witcher\Dishes\Pitcher_Ceramic.nif
+STAT 057F00 _mag_MathyPitcher01 -> aproco\magpie\mathys_resources\pottery\mathys_repo_pottery_02.nif
+STAT 057F03 _mag_MathyPitcherClay -> aproco\magpie\mathys_resources\pottery\mathys_repo_pottery_06.nif
+STAT 057F05 _mag_MathyMortar -> aproco\magpie\mathys_resources\pottery\mathys_repo_pottery_08.nif
+STAT 057F07 _mag_MathyPitcher02 -> aproco\magpie\mathys_resources\pottery\mathys_repo_pottery_14.nif
+STAT 057F0A _mag_MathyBasketRootVeg -> aproco\magpie\mathys_resources\baskets\0mathys_repo_basket_02_NoPeps.nif
+STAT 057F0D _mag_MathyBasketFigs -> aproco\magpie\mathys_resources\baskets\mathys_repo_basket_01_a.nif
+STAT 057F0F _mag_MilkandSacksStatic -> aproco\magpie\loliceptresource\food\foodsuplieshf01.nif
+STAT 057F11 _mag_WFPaintingSpooky01 -> aproco\magpie\Mihail Dungeons and Settlements\Toxin Doctor Laboratory\lor\002.nif
+STAT 057F1B _mag_PaintingIlluminatedPage -> aproco\magpie\mihail dungeons and settlements\toxin doctor laboratory\lor\123.nif
+STAT 057F26 _mag_WineRack -> aproco\magpie\_00breton_keep\interior\winerack.nif
+STAT 057F2E _mag_BottleLarge -> aproco\magpie\lor\converted\kitchen\bigbottle.nif
+STAT 057F30 _mag_BottleJugGreen -> aproco\magpie\lor\converted\kitchen\juggreen.nif
+STAT 057F32 _mag_BottleRoundLily -> aproco\magpie\lor\converted\kitchen\juglily.nif
+STAT 057F34 _mag_JugWicker01 -> aproco\magpie\lor\converted\kitchen\jugwicker1.nif
+STAT 057F36 _mag_JugWicker02 -> aproco\magpie\lor\converted\kitchen\jugwicker2.nif
+STAT 057F38 _mag_BeerMugFancy -> aproco\magpie\lor\converted\kitchen\beermug.nif
+STAT 057F3A _mag_PillowPatterned01 -> aproco\magpie\lor\converted\clutter\pillow1.nif
+STAT 057F3D _mag_BCSBookset01 -> aproco\magpie\eek\BCS Booksets\BCS_Bookset01.nif
+STAT 057F3F _mag_BCSBookset02 -> aproco\magpie\eek\BCS Booksets\BCS_Bookset02.nif
+STAT 057F4B _mag_BCSBookset03 -> aproco\magpie\eek\BCS Booksets\BCS_Bookset05.nif
+STAT 057F4D _mag_BCSBookset04 -> aproco\magpie\eek\BCS Booksets\BCS_Bookset06.nif
+STAT 057F51 _mag_BCSBookset05 -> aproco\magpie\eek\BCS Booksets\BCS_Bookset08.nif
+STAT 05D053 _mag_BCSBookset06 -> aproco\magpie\eek\BCS Booksets\BCS_Bookset09.nif
+STAT 0672B3 _mag_Balcony -> aproco\magpie\black thorn keep\interior\architecture\balcony.nif
+STAT 06C3BB _mag_WoodModelShip -> aproco\magpie\elianora\clutter and containers\woodenmodelship.nif
+STAT 06C3C8 _mag_WhiskeyBottle -> aproco\magpie\Jets\WhiskeyBottle01.nif
+STAT 06C3CB _mag_SchnapsBottle -> aproco\magpie\Jets\Schnaps02.nif
+STAT 07242C _mag_PlantRowan -> aproco\magpie\oaristys\the witcher\Plants\Sorbus.nif
+STAT 07242E _mag_AmphorawithStand -> aproco\magpie\oaristys\the witcher\decoration\Amphora.nif
+STAT 072431 _mag_PlantChamomile -> aproco\magpie\oaristys\the witcher\Plants\Chamomilla.nif
+STAT 072436 _mag_StatueClassical01 -> aproco\magpie\Mihail Dungeons and Settlements\Toxin Doctor Laboratory\STATUES\amazon_damaged.nif
+STAT 072438 _mag_PlantBouquetRoses -> aproco\magpie\palemarsh\Emma's Red Rose Manor rose.nif
+STAT 07243B _mag_BreadBasket -> aproco\magpie\palemarsh\BreadBasket.nif
+STAT 072440 _mag_VasePorcelain01 -> aproco\magpie\oaristys\the witcher\decoration\Vase01.nif
+STAT 072442 _mag_VasePorcelain02 -> aproco\magpie\oaristys\the witcher\decoration\Vase03.nif
+STAT 072444 _mag_VasePorcelain03 -> aproco\magpie\oaristys\the witcher\decoration\Vase04.nif
+STAT 072446 _mag_VaseBlue -> aproco\magpie\oaristys\the witcher\decoration\vase05.nif
+STAT 07244D _mag_BasketTallHandled -> aproco\magpie\oaristys\the witcher\decoration\BasketWoven_Tall.nif
+STAT 072450 _mag_GlobeAstronomy -> aproco\magpie\oaristys\the witcher\decoration\Globe02.nif
+STAT 072453 _mag_Microscope -> aproco\magpie\Oaristys\The Witcher\Decoration\Microscope.nif
+STAT 072456 _mag_CurioConchShell -> aproco\magpie\Oaristys\The Witcher\Decoration\Shell.nif
+STAT 072459 _mag_Megascope -> aproco\magpie\oaristys\the witcher\decoration\Megascope.nif
+STAT 072463 _mag_SealedLetter -> aproco\magpie\oaristys\the witcher\paper\envelope.nif
+STAT 072465 _mag_PaperContract -> aproco\magpie\oaristys\the witcher\paper\contract.nif
+STAT 072467 _mag_ScrollsPileLarge -> aproco\magpie\oaristys\Paper\Scrolls08.nif
+STAT 072469 _mag_WateringCanCopper -> aproco\magpie\oaristys\the witcher\Tools\Watercan.nif
+STAT 07246C _mag_OrientCoffeeSet -> aproco\magpie\OrientSet\clutter\orientset\orientcoffeeset.nif
+STAT 07246E _mag_SmokedHam -> aproco\magpie\TF\Clutter\SmokedHam.nif
+STAT 072471 _mag_JamRaspberry -> aproco\magpie\wvs_meshes\clutter\food\wvs_jamcustomraspberry.nif
+STAT 072474 _mag_JamBlackberry -> aproco\magpie\wvs_meshes\clutter\food\wvs_jamcustomblackberry.nif
+STAT 072476 _mag_JamBlueberry -> aproco\magpie\wvs_meshes\clutter\food\wvs_jamcustomblueberry.nif
+STAT 072478 _mag_OnionHalf -> aproco\magpie\wvs_meshes\clutter\food\wvs_onionhalf.nif
+STAT 07247E _mag_SkullBongo -> aproco\magpie\robobirdie\bones\skull_bongo.nif
+STAT 072480 _mag_SkullGazelle -> aproco\magpie\robobirdie\bones\skull_gazelle.nif
+STAT 072484 _mag_WallAntlersSmall -> aproco\magpie\runs\2\antler_01.nif
+STAT 072FF9 _mag_StatueApollo -> aproco\magpie\lor\Apollo.nif
+STAT 072FFF _mag_StatueIgenia -> aproco\magpie\lor\Ifigenia.nif
+STAT 073001 _mag_StatueVenus -> aproco\magpie\lor\Venus.nif
+STAT 075358 _mag_StuffedOwl -> aproco\magpie\lor\converted\animals\owl.nif
+STAT 08239E _mag_Stable -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\stable02.nif
+STAT 083D84 _mag_GlobeTamriel -> aproco\magpie\stroti\Resource Pack\Globes\GlobeTamriel.nif
+STAT 083D86 _mag_GlobeCyrodiil -> aproco\magpie\stroti\Resource Pack\Globes\GlobeCyrodiil.nif
+STAT 083D88 _mag_Sundial -> aproco\magpie\queenacademe\strotiretextures\sundial01.nif
+STAT 083D8B _mag_Lyre -> aproco\magpie\stroti\Resource Pack\Music Instruments\lyre.nif
+STAT 083D8D _mag_TapestryGoldStags -> aproco\magpie\robobirdie\tapestries\goldstags.nif
+STAT 083D8F _mag_TapestryAppleTree -> aproco\magpie\robobirdie\tapestries\Appletapestry.nif
+STAT 083D92 _mag_TapestryKnight -> aproco\magpie\robobirdie\tapestries\knighttapestry.nif
+STAT 083D94 _mag_TapestryUnicorn01 -> aproco\magpie\HiddenHearth\kidsroom\clutter\Unicorn_tapestry.nif
+STAT 083D96 _mag_TapestrySmallTree -> aproco\magpie\robobirdie\tapestries\smalltreetapestry.nif
+STAT 083D9C _mag_SATPineWreathThick -> aproco\magpie\winter_holiday_resource_pack\Wreaths\Pine-Wreath_Thick.nif
+STAT 083D9E _mag_SATSnowberryWreath -> aproco\magpie\winter_holiday_resource_pack\Wreaths\Snowberry_Wreath.nif
+STAT 083DA3 _mag_SATTreeTopper -> aproco\magpie\winter_holiday_resource_pack\Treetop Decoration\Treeptop_Dwemer_Ring_Globe.nif
+STAT 083DA5 _mag_SATTreeStand -> aproco\magpie\winter_holiday_resource_pack\Tree_Stand\Foot_Cone.nif
+STAT 083DA7 _mag_SATOrnamentOrb01 -> aproco\magpie\winter_holiday_resource_pack\hanging_tree_decorations\bulbs\Round\Solitude_Throne.nif
+STAT 083DAD _mag_SATOrnamentOrb03 -> aproco\magpie\winter_holiday_resource_pack\hanging_tree_decorations\bulbs\Round\Bulb_Winebottle02_DLC1_Orange.nif
+STAT 086CA6 _mag_WFPumpkin01 -> aproco\magpie\mathys_resources\food\mathys_repo_veg_pumpkin_01.nif
+STAT 086CA8 _mag_WFPumpkin02 -> aproco\magpie\mathys_resources\food\mathys_repo_veg_pumpkin_02.nif
+STAT 087506 _mag_TapSpout01 -> aproco\magpie\lakeview\clutter\lvtapspout01.nif
+STAT 08C611 _mag_AlchMortarDwemer -> aproco\magpie\tcz\tcz_blary_mortar01_uvremap_dwemer.nif
+STAT 08C614 _mag_CrateScrolls -> aproco\magpie\berticus0001\cratesofstuff\_001_scrolls.nif
+STAT 08C620 _mag_OrientStool -> aproco\magpie\OrientSet\clutter\orientset\orientchair01.nif
+STAT 08C650 _mag_BlacksmithToolStump -> aproco\magpie\00_Laboratorium\00_Moosmupfel\Blacksmithtool.nif
+STAT 090EEC _mag_TapestryUnicorn02 -> aproco\Magpie\Tlaffoon\tapestries\unicornwithpoletapestry.nif
+STAT 090F03 _mag_WFBatCage -> aproco\magpie\BGwitchfest\BGbatcage001.nif
+STAT 090F07 _mag_WFSpiritBoard -> aproco\magpie\BGwitchfest\BGwitchboard1a.nif
+STAT 090F09 _mag_WFPlanchett -> aproco\magpie\BGwitchfest\BGplanchett5b.nif
+STAT 090F0B _mag_WFPumpkinFestivalLine -> aproco\magpie\BGwitchfest\BGpumpkinfestivalline02OR.nif
+STAT 090F0D _mag_WFSkullFestivalLine -> aproco\magpie\BGwitchfest\BGskullfestivalline05.nif
+STAT 090F11 _mag_WFSkullXBonesWall -> aproco\magpie\BGwitchfest\BGskullXbones01wall.nif
+STAT 09601C _mag_BookstandTable -> aproco\magpie\mtflot\cdpr\bookstand.nif
+STAT 09601E _mag_PitcherBrown -> aproco\magpie\mtflot\cdpr\pitcher.nif
+STAT 096024 _mag_SmelterBottom -> aproco\magpie\mtflot\cdpr\smelterbottom.nif
+STAT 096026 _mag_SmelterTop -> aproco\magpie\mtflot\cdpr\smeltertop.nif
+STAT 096035 _mag_SATHatStatic -> aproco\magpie\_festive\hat_go.nif
+STAT 096043 _mag_SATTreeTopperElderCouncil -> aproco\magpie\winter_holiday_resource_pack\Treetop Decoration\Treetop_Elder_Council_Necklace.nif
+STAT 09B14E _mag_BisonSkull -> aproco\magpie\_halloween\bones\bisonskull.nif
+STAT 09B150 _mag_WFWitchHat -> aproco\magpie\_halloween\apparel_weaps\witchhat_go.nif
+STAT 09B154 _mag_WFJack02Glow -> aproco\magpie\_halloween\pumpkin\halloweenpumpkin04glow.nif
+STAT 09B156 _mag_WFJack01Glow -> aproco\magpie\_halloween\pumpkin\halloweenpumpkinnoglow.nif
+STAT 09B158 _mag_WFVoodooDoll -> aproco\magpie\_halloween\misc\zmiscvoodootam.nif
+STAT 09B160 _mag_SATCandyCanes -> aproco\magpie\_festive\candycanes.nif
+STAT 09B162 _mag_SATStockings -> aproco\magpie\_festive\christmasstocking.nif
+STAT 09B164 _mag_SATGift01 -> aproco\magpie\_festive\gift01.nif
+STAT 09B166 _mag_SATGift01Arrangement01 -> aproco\magpie\_festive\gift01arrangement2.nif
+STAT 09B168 _mag_SATGift01Arrangement02 -> aproco\magpie\_festive\gift01arrangement6.nif
+STAT 09B16A _mag_SATJarSnowberries -> aproco\magpie\_festive\jarsnowberries.nif
+STAT 09B16C _mag_SATWreathSnowberryBow -> aproco\magpie\_festive\wreath01.nif
+STAT 09B16E _mag_SATYuleLog -> aproco\magpie\_festive\yulelog.nif
+STAT 09B174 _mag_SATGiftPileVert -> aproco\magpie\_festive\gift01pilevertical.nif
+STAT 09B176 _mag_SATCandyCanesArkay -> aproco\magpie\_festive\candycanes.nif
+STAT 09B177 _mag_SATCandyCanesYellow -> aproco\magpie\_festive\candycanes.nif
+STAT 09B17B _mag_SATCandyCanesNordic -> aproco\magpie\_festive\candycanes.nif
+STAT 09B17D _mag_SATCandyCanesSov -> aproco\magpie\_festive\candycanes.nif
+STAT 09B19A _mag_MilkJugStatic -> _BYOH\Clutter\Food\MilkJug01.nif
+STAT 0A029F _mag_SATCandles01 -> aproco\magpie\tczfestive\tczfestivecandleslg1red.nif
+STAT 0A02AD _mag_WFJackScarecrow -> aproco\magpie\bobmods\scarecrow_static\pumpkin_hat.nif
+STAT 0A0BBA _mag_HandmirrorBone -> aproco\Magpie\aacastle\clutter\baroque\handmirror.nif
+STAT 0A0BBC _mag_BrushBone -> aproco\Magpie\aacastle\clutter\baroque\brush.nif
+STAT 0A0BBE _mag_CombBone -> aproco\Magpie\aacastle\clutter\baroque\comb.nif
+STAT 0A0BC0 _mag_FireplaceLogs -> aproco\Magpie\aacastle\clutter\baroque\firewood.nif
+STAT 0A53E4 _mag_ScrollsBasket -> aproco\magpie\queenacademe\containers\scrollsbaskettall.nif
+STAT 0A53E7 _mag_BoxOrnateRound -> aproco\magpie\queenacademe\containers\qa_jewelryboxround.nif
+STAT 0A53EA _mag_JugCorroded -> aproco\magpie\queenacademe\containers\qa_jugwide.nif
+STAT 0A53ED _mag_BasketMushrooms -> aproco\magpie\queenacademe\food and dining\qa_basketmushrooms2.nif
+STAT 0A53F3 _mag_BookLeatherGreenStraps -> aproco\magpie\queenacademe\library\bookgreenleatherstraps.nif
+STAT 0A53F7 _mag_HourglassWoodColors -> aproco\magpie\queenacademe\library\hourglass.nif
+STAT 0A53FA _mag_AstolabeSmall -> aproco\magpie\queenacademe\library\qa_astrolabe.nif
+STAT 0A53FC _mag_BookBrownLeatherWorn -> aproco\magpie\queenacademe\library\qa_bookbrownleatherworn.nif
+STAT 0A53FF _mag_BookBrownOld -> aproco\magpie\queenacademe\library\qa_bookbrownold.nif
+STAT 0A5401 _mag_BookLeatherTied -> aproco\magpie\queenacademe\library\qa_bookcrimsonledger.nif
+STAT 0A5403 _mag_BookstackRunes -> aproco\magpie\queenacademe\library\qa_bookstackrune.nif
+STAT 0A5405 _mag_BookStainedBlue -> aproco\magpie\queenacademe\library\qa_bookstainedblue.nif
+STAT 0A5407 _mag_PinnedNotesAstro -> aproco\magpie\queenacademe\library\qa_notesboardwipastronoboard.nif
+STAT 0A5409 _mag_OldCompass -> aproco\magpie\queenacademe\library\qa_compass.nif
+STAT 0A540B _mag_GrimoirePentacle -> aproco\magpie\queenacademe\library\qa_grimoirepentacle.nif
+STAT 0A540D _mag_ScrollDaedric -> aproco\magpie\queenacademe\library\qa_scrolldaedric1.nif
+STAT 0A5413 _mag_GyroscopeOpen -> aproco\magpie\queenacademe\library\qa_gyroscopeopen.nif
+STAT 0A5416 _mag_Weystone -> aproco\magpie\queenacademe\library\qa_weystone.nif
+STAT 0A5419 _mag_ScrollPartUnfurled -> aproco\magpie\queenacademe\library\qa_scrollunfurledench2.nif
+STAT 0A541B _mag_ScrollClaySeal -> aproco\magpie\queenacademe\library\qa_scrollseal.nif
+STAT 0A541D _mag_GlobeConstellations -> aproco\magpie\queenacademe\library\qa_globeconstellationwithstand.nif
+STAT 0A5F29 _mag_ModularTableStaffCraft -> aproco\magpie\TF\CraftingTable\CraftingTableAddonStaffmaking.nif
+STAT 0AA526 _mag_CopperBlock -> aproco\magpie\hypn0s\aaarchitecture\aacopperblock256x256x8.nif
+STAT 0AA529 _mag_BookFancy -> aproco\magpie\hypn0s\aaarchitecture\aahypn0sbook.nif
+STAT 0AA52F _mag_CeilingGoldOrnate -> aproco\magpie\hypn0s\aaarchitecture\hypn0sceiling12.nif
+STAT 0ABE14 _mag_Foundation01 -> aproco\magpie\architecture\mb\housesets\sockel01.nif
+STAT 0ABE17 _mag_Foundation02 -> aproco\magpie\architecture\mb\housesets\sockel01_large.nif
+STAT 0ABE28 _mag_FoundationSteps -> aproco\magpie\architecture\mb\housesets\housestair.nif
+STAT 0AF636 _mag_StatueClassical02 -> aproco\magpie\hypn0s\aaclutter\aastatue.nif
+STAT 0AF643 _mag_BookRoses -> aproco\magpie\00_Laboratorium\00_Moosmupfel\Book.nif
+STAT 0AF645 _mag_BookDonQuixote -> aproco\magpie\00_Laboratorium\00_Moosmupfel\book2.nif
+STAT 0AF647 _mag_Compass02 -> aproco\magpie\00_Laboratorium\00_Moosmupfel\compass.nif
+STAT 0AF64B _mag_JournalsSet -> aproco\magpie\00_Laboratorium\00_Moosmupfel\journals.nif
+STAT 0AF64D _mag_ScrollsPile5 -> aproco\magpie\oaristys\Paper\Scrolls02.nif
+STAT 0AF64F _mag_ScrollsPile10 -> aproco\magpie\oaristys\Paper\Scrolls04.nif
+STAT 0AF651 _mag_ScrollsPile9 -> aproco\magpie\oaristys\Paper\Scrolls05.nif
+STAT 0AF658 _mag_PaintingStillLifeWIP -> aproco\magpie\oaristys\the witcher\decoration\Arts\0PaintingCanvas02.nif
+STAT 0AF659 _mag_BouquetWhiteRoses -> aproco\magpie\oaristys\the witcher\Plants\RoseWhiteBouquet.nif
+STAT 0AF65B _mag_PainterEasel -> aproco\magpie\lor\converted\clutter\paintersupport.nif
+STAT 0AF65C _mag_StillLifeTableRug -> aproco\magpie\lor\tablecarpet.nif
+STAT 0AF663 _mag_BrokenMirror -> aproco\magpie\oaristys\the witcher\decoration\MirrorBroken.nif
+STAT 0AF664 _mag_BlankCanvas -> aproco\magpie\oaristys\the witcher\decoration\Arts\Canvas.nif
+STAT 0AF666 _mag_GreenGrapes -> aproco\magpie\oaristys\the witcher\food\Grapes.nif
+STAT 0AF676 _mag_StoveGreenTile -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\int\tiledStove01.nif
+STAT 0AF67B _mag_TwigsBundle -> aproco\magpie\oaristys\Clutter\TwigsBundle.nif
+STAT 0AF6AB _mag_TrophyBronzeFist -> aproco\magpie\oaristys\the witcher\decoration\TrophyFist.nif
+STAT 0AF6AE _mag_TrophyHandCards -> aproco\magpie\oaristys\the witcher\decoration\TrophyHand.nif
+STAT 0AF6C3 _mag_RugRound01 -> aproco\magpie\Oaristys\the witcher\decoration\cloth\Carpet_Rich07.nif
+STAT 0AF6D6 _mag_PitcherPorcelainBlue -> aproco\magpie\HiddenHearth\Oaristys\Bowl_Porcelain_jug.nif
+STAT 0B0B7C _mag_CookingPot04 -> aproco\magpie\Stroti\KitchenToolsStatic\CookingPot05_ST.nif
+STAT 0B0B7E _mag_CookingPot05 -> aproco\magpie\Stroti\KitchenToolsStatic\CookingPot04_ST.nif
+STAT 0B0B80 _mag_CookingPot06 -> aproco\magpie\Stroti\KitchenToolsStatic\CookingPot06_ST.nif
+STAT 0B0B85 _mag_HangingGrillSurface -> aproco\magpie\aaa-interior\startercave\basegrill.nif
+STAT 0B0B88 _mag_FryingPan02 -> aproco\magpie\Stroti\KitchenToolsStatic\FryingPan01_ST.nif
+STAT 0B0B8A _mag_FryingPan03 -> aproco\magpie\Stroti\KitchenToolsStatic\FryingPan02_ST.nif
+STAT 0B0B8C _mag_MeasuringPot -> aproco\magpie\stroti\kitchentoolsstatic\milkpot_st.nif
+STAT 0B0B8E _mag_RollingPin -> aproco\magpie\stroti\kitchentoolsstatic\rollingpin_st.nif
+STAT 0B0B9B _mag_PotionHealthExtreme -> aproco\magpie\Clutter\Potions\PotionHealthExtreme.nif
+STAT 0B0BA4 _mag_SpindlePapers -> aproco\magpie\clutter\obs_clutter\obs_spindle_01.nif
+STAT 0B0BA9 _mag_CrystalBall -> aproco\magpie\clutter\obs_clutter\obs_orb_01.nif
+STAT 0B0BAC _mag_HourglassWoodDark -> aproco\magpie\clutter\obs_clutter\obs_hourglass_01.nif
+STAT 0B0BB0 _mag_HourglassWoodLight -> aproco\magpie\oaristys\the witcher\decoration\Hourglass.nif
+STAT 0B0BB2 _mag_TeapotSilver01 -> aproco\magpie\oaristys\the witcher\Dishes\Teapot_Silver01.nif
+STAT 0B0BB4 _mag_TeapotSilver02 -> aproco\magpie\oaristys\the witcher\Dishes\Teapot_Silver02.nif
+STAT 0B0BB8 _mag_CarafeGolden -> aproco\magpie\oaristys\the witcher\Dishes\Carafe02.nif
+STAT 0B0BBB _mag_CupIvory -> aproco\magpie\oaristys\the witcher\Dishes\Cup.nif
+STAT 0B0C1A _mag_CypressTopiary -> aproco\Magpie\aacastle\plants\cypresstree.nif
+STAT 0B0C24 _mag_ClimbingIvy01 -> aproco\Magpie\aacastle\villa\valek\ivy01.nif
+STAT 0B0C2C _mag_Waterlilies01 -> aproco\magpie\ztree's\plants\water lily3.nif
+STAT 0B0C2F _mag_Waterlilies02 -> aproco\magpie\ztree's\plants\water lily2.nif
+STAT 0B0C33 _mag_Waterlilies03 -> aproco\magpie\ztree's\plants\water lily5.nif
+STAT 0B47DD _mag_RugsPile -> aproco\magpie\oaristys\Clutter\Rugs.nif
+STAT 0B47E0 _mag_Pear01 -> aproco\magpie\mathys_resources\food\mathys_repo_fruits_pear_01.nif
+STAT 0B47E2 _mag_CoalBarrel -> aproco\magpie\lakeview\clutter\lvcoalbarrel01.nif
+STAT 0B47E4 _mag_BlacksmithToolsBeam -> aproco\magpie\lakeview\clutter\lvblacksmithtools.nif
+STAT 0B47E6 _mag_PaintingWorkspace -> aproco\magpie\lakeview\clutter\lvpainterstable01.nif
+STAT 0B47E8 _mag_PaintingClutter -> aproco\magpie\lakeview\clutter\lvpainterclutter.nif
+STAT 0B47ED _mag_Soap -> aproco\magpie\stroti\resource pack ii\Washing\soap.nif
+STAT 0B47EF _mag_ScrubBrush01 -> aproco\magpie\stroti\resource pack ii\Washing\scrubber.nif
+STAT 0B47F9 _mag_BookBrownThick -> aproco\magpie\oaristys\Paper\FolioBig.nif
+STAT 0B47FC _mag_BCSBookTower01 -> aproco\magpie\bcs booksets\bcs_booktower.nif
+STAT 0B5DA1 _mag_StatueLightingWay -> aproco\magpie\oaristys\the witcher\Statues\Statue_Elven.nif
+STAT 0B5DA3 _mag_StatuePorcelainFish -> aproco\magpie\oaristys\the witcher\Statues\Fish_porcelain.nif
+STAT 0B5DBE _mag_StatueClassicalHarvest01 -> aproco\magpie\Tamira\Statue\TamStatue.nif
+STAT 0B9908 _mag_NoteRolled01 -> aproco\magpie\clutter\books\prefabs\noterolled01.nif
+STAT 0B990A _mag_NoteRolled02 -> aproco\magpie\clutter\books\prefabs\noterolled02.nif
+STAT 0B990C _mag_NoteRolled03 -> aproco\magpie\clutter\books\prefabs\noterolled03.nif
+STAT 0B990E _mag_NoteRolled04 -> aproco\magpie\clutter\books\prefabs\noterolled04.nif
+STAT 0B9911 _mag_BookSpilledInk -> aproco\magpie\clutter\books\prefabs\bookwithinkwell01.nif
+STAT 0B9913 _mag_RuinedBookStatic -> Clutter\Books\BookRuined01.nif
+STAT 0B9919 _mag_PlantGoldenrod -> aproco\magpie\robobirdie\plants\goldenrod_01.nif
+STAT 0B991D _mag_HawkSkull -> aproco\magpie\robobirdie\bones\hawkskull.nif
+STAT 0B991F _mag_PlantGoldenrodSingle02 -> aproco\magpie\robobirdie\plants\goldenrodsingle_02.nif
+STAT 0B9921 _mag_PlantGoldenrodSingle01 -> aproco\magpie\robobirdie\plants\goldenrodsingle_01.nif
+STAT 0BEA41 _mag_Bust01 -> aproco\magpie\lor\bust.nif
+STAT 0BEA45 _mag_DwemerClock01 -> aproco\magpie\Mihail Dungeons and Settlements\Toxin Doctor Laboratory\STATUES\clock.nif
+STAT 0BEA48 _mag_MothCase -> aproco\magpie\AARS\AlchemyClutter\MothCase2.nif
+STAT 0C3D15 _mag_PlaqueLetterA -> aproco\magpie\00_Laboratorium\clockwork\LetteA.nif
+STAT 0C3D17 _mag_PlaqueLetterB -> aproco\magpie\00_Laboratorium\clockwork\LetteB.nif
+STAT 0C3D19 _mag_PlaqueLetterC -> aproco\magpie\00_Laboratorium\clockwork\LetteC.nif
+STAT 0C3D1B _mag_PlaqueLetterD -> aproco\magpie\00_Laboratorium\clockwork\LetteD.nif
+STAT 0C3D1D _mag_PlaqueLetterE -> aproco\magpie\00_Laboratorium\clockwork\LetteE.nif
+STAT 0C3D1F _mag_PlaqueLetterF -> aproco\magpie\00_Laboratorium\clockwork\LetteF.nif
+STAT 0C3D21 _mag_PlaqueLetterG -> aproco\magpie\00_Laboratorium\clockwork\LetteG.nif
+STAT 0C3D23 _mag_PlaqueLetterH -> aproco\magpie\00_Laboratorium\clockwork\LetteH..nif
+STAT 0C3D25 _mag_PlaqueLetterI -> aproco\magpie\00_Laboratorium\clockwork\LetterI..nif
+STAT 0C3D28 _mag_PlaqueLetterJ -> aproco\magpie\00_Laboratorium\clockwork\LetterJ..nif
+STAT 0C3D2B _mag_PlaqueLetterL -> aproco\magpie\00_Laboratorium\clockwork\LetterL.nif
+STAT 0C3D2D _mag_PlaqueLetterK -> aproco\magpie\00_Laboratorium\clockwork\LetterK.nif
+STAT 0C3D2F _mag_PlaqueLetterM -> aproco\magpie\00_Laboratorium\clockwork\LetterM.nif
+STAT 0C3D31 _mag_PlaqueLetterN -> aproco\magpie\00_Laboratorium\clockwork\LetterN.nif
+STAT 0C3D33 _mag_PlaqueLetterO -> aproco\magpie\00_Laboratorium\clockwork\LetterO.nif
+STAT 0C3D35 _mag_PlaqueLetterP -> aproco\magpie\00_Laboratorium\clockwork\LetterP.nif
+STAT 0C3D37 _mag_PlaqueLetterQ -> aproco\magpie\00_Laboratorium\clockwork\LetterQ.nif
+STAT 0C3D3A _mag_PlaqueLetterR -> aproco\magpie\00_Laboratorium\clockwork\LetterR.nif
+STAT 0C3D3C _mag_PlaqueLetterS -> aproco\magpie\00_Laboratorium\clockwork\LetterS.nif
+STAT 0C3D3E _mag_PlaqueLetterT -> aproco\magpie\00_Laboratorium\clockwork\LetterT.nif
+STAT 0C3D40 _mag_PlaqueLetterV -> aproco\magpie\00_Laboratorium\clockwork\LetterV.nif
+STAT 0C3D43 _mag_PlaqueLetterU -> aproco\magpie\00_Laboratorium\clockwork\LetterU.nif
+STAT 0C3D45 _mag_PlaqueLetterW -> aproco\magpie\00_Laboratorium\clockwork\LetterWnif.nif
+STAT 0C3D48 _mag_PlaqueLetterX -> aproco\magpie\00_Laboratorium\clockwork\LetterX.nif
+STAT 0C3D49 _mag_PlaqueLetterY -> aproco\magpie\00_Laboratorium\clockwork\LetterY.nif
+STAT 0C3D4B _mag_PlaqueLetterZ -> aproco\magpie\00_Laboratorium\clockwork\LetterZnif.nif
+STAT 0C3D4F _mag_BustTiberSeptim -> aproco\magpie\minerman\tiber.nif
+STAT 0C3DC2 _mag_AlchBottleTube -> aproco\magpie\Oaristys\The Witcher\Alchemy\AlchBottle01.nif
+STAT 0C3DC4 _mag_AlchRetortLight -> aproco\magpie\oaristys\the witcher\Alchemy\AlchBottle02.nif
+STAT 0C3DC6 _mag_AlchRetortDark -> aproco\magpie\oaristys\the witcher\Alchemy\AlchBottle03.nif
+STAT 0C3DC8 _mag_AlchRetortStand -> aproco\magpie\oaristys\the witcher\Alchemy\AlchContainer.nif
+STAT 0C3DCA _mag_GlassCopperDisplayJar -> aproco\magpie\Oaristys\The Witcher\Alchemy\AlchGlass01.nif
+STAT 0C3DCC _mag_GlassCopperAlchJar -> aproco\magpie\oaristys\the witcher\Alchemy\AlchGlass02.nif
+STAT 0C3DCE _mag_MortarGlazedSalts01 -> aproco\magpie\oaristys\alchemy\Mortars\MortarCopper_Full_Glazed01.nif
+STAT 0C3DD3 _mag_MortarPestleGlazed -> aproco\magpie\oaristys\alchemy\Mortars\MortarPestleCopper_Glazed02.nif
+STAT 0C3DD6 _mag_AlchBeaker -> aproco\magpie\EstroyaResources\Alchemy\Beaker.nif
+STAT 0C3DDA _mag_AlchFlask01 -> aproco\magpie\EstroyaResources\Alchemy\Flask01.nif
+STAT 0C3DDC _mag_AlchFlask02 -> aproco\magpie\EstroyaResources\Alchemy\Flask02.nif
+STAT 0C3DDE _mag_AlchFlask03 -> aproco\magpie\EstroyaResources\Alchemy\Flask10.nif
+STAT 0C3E08 _mag_PotionFortCarryGreat -> Clutter\Potions\PotionFortifyCarryGreat.nif
+STAT 0C3E0A _mag_PotionInvisExtra -> Clutter\Potions\PotionInvisibiltyExtra.nif
+STAT 0C3E0C _mag_PotionFortMagLesser -> Clutter\Potions\PotionFortifyMagickaLesser.nif
+STAT 0C3E10 _mag_PotionFortSkill -> Clutter\Potions\PotionFortifySkill01.nif
+STAT 0C3E11 _mag_PotionHealthLesser -> Clutter\Potions\PotionHealthLesser.nif
+STAT 0C3E12 _mag_PotionResistFrost100 -> Clutter\Potions\PotionResistFrost100.nif
+STAT 0C3E19 _mag_PoisonDmgHealth5 -> Clutter\Potions\PoisonDamageHealth05.nif
+STAT 0C3E1A _mag_PoisonDmgMag1 -> Clutter\Potions\PoisonDamageMagicka01.nif
+STAT 0C3E1B _mag_PoisonDmgSkill -> Clutter\Potions\PoisonDamageSkill.nif
+STAT 0C3E1C _mag_PoisonFear3 -> Clutter\Potions\PoisonFear03.nif
+STAT 0C3E1D _mag_PoisonFrenzy2 -> Clutter\Potions\PoisonFrenzy02.nif
+STAT 0C3E1E _mag_PoisonMagRecover4 -> Clutter\Potions\PoisonDamageMagickaRecovery04.nif
+STAT 0C8F04 _mag_EggBasket -> aproco\magpie\queenacademe\strotiretextures\basketwithcloth02.nif
+STAT 0C8F0A _mag_KitchenWallShelf -> aproco\magpie\queenacademe\strotiretextures\thwallshelf.nif
+STAT 0C8F23 _mag_GrillSurface -> aproco\magpie\00_Laboratorium\00_Moosmupfel\Gitter.nif
+STAT 0C8F24 _mag_MeatSalami -> aproco\magpie\00_Laboratorium\tamira\static dishes\food\strotisalami.nif
+STAT 0C8F25 _mag_MeatRibs -> aproco\magpie\00_Laboratorium\oaristys\the witcher\food\sets\foodset_meat01.nif
+STAT 0C8F26 _mag_MeatHanging -> aproco\magpie\00_Laboratorium\oaristys\the witcher\food\hangingmeat.nif
+STAT 0C8F28 _mag_FishHangingLarge -> aproco\magpie\00_Laboratorium\oaristys\the witcher\food\hangingfishbig.nif
+STAT 0C8F29 _mag_IronSmokerBase -> aproco\magpie\00_Laboratorium\loliceptresource\iron\ironcrate01.nif
+STAT 0C8F2A _mag_SmokerAlcove -> aproco\magpie\00_Laboratorium\architecture\whiterun\wrinteriors\spinademul_expansion\wrdunintwallfreearch02shelf.nif
+STAT 0C8F2B _mag_MeatAssortedHanging -> aproco\magpie\00_Laboratorium\loliceptresource\food\hangingmeats01.nif
+STAT 0C8F2C _mag_MeatSausagesHanging -> aproco\magpie\00_Laboratorium\oaristys\the witcher\food\sausages01.nif
+STAT 0C8F2F _mag_MeatHookSingle -> aproco\magpie\00_Laboratorium\oaristys\the witcher\food\hangingmeat.nif
+STAT 0C8F33 _mag_MeatHam -> aproco\magpie\00_Laboratorium\oaristys\the witcher\food\Meat_Ham02.nif
+STAT 0C8F3D _mag_WoodColumn03 -> aproco\magpie\Griffon Fortress\interior\carvedpillar01.nif
+STAT 0C8F5F _mag_BasketPears -> aproco\magpie\00_Laboratorium\stroti\tree house\clutter static\basketpears.nif
+STAT 0C8F61 _mag_CrateParsnips -> aproco\magpie\mathys_resources\crates\mathys_repo_crate_04_a.nif
+STAT 0C8F63 _mag_CrateZuchini -> aproco\magpie\mathys_resources\crates\mathys_repo_crate_04_b.nif
+STAT 0C8F6C _mag_PottedIvy -> aproco\magpie\00_Laboratorium\lakeview\clutter\lvpotplant07.nif
+STAT 0C8F70 _mag_CornerPlanterBuckets -> aproco\magpie\EstroyaResources\Furniture\Planter.nif
+STAT 0C8F7A _mag_DragonflyCase -> aproco\magpie\AARS\AlchemyClutter\DragonflyCase.nif
+STAT 0C8F7D _mag_GlassJarCopper -> aproco\magpie\00_Laboratorium\oaristys\pottery\jarglass_copper.nif
+STAT 0C8F7E _mag_Brain -> aproco\Magpie\00_laboratorium\ghogiel\brainob.nif
+STAT 0C8F81 _mag_HeartStatic -> Clutter\Ingredients\HumanHeart.nif
+STAT 0C8F86 _mag_HangingHook -> aproco\magpie\BASIC SHAPES\Hook-adjustable-lenght.nif
+STAT 0C8FB4 _mag_PillowNordicPattern -> aproco\magpie\lor\converted\clutter\pillow4.nif
+STAT 0C8FBD _mag_FoldedBlanketRed -> aproco\Magpie\insanity\furniture\common\blankets\foldedblanket01c.nif
+STAT 0C8FBF _mag_FoldedBlanketRedCheck -> aproco\magpie\insanity\furniture\common\blankets\foldedblanket03.nif
+STAT 0C8FC8 _mag_SoulgemFragmentBowl -> aproco\magpie\lakeview\clutter\lvsoulgembowlstatic01.nif
+STAT 0C925B _mag_GreenhouseDoorframe -> aproco\magpie\architecture\greenhouse\greenhousedoorframe01.nif
+STAT 0C925E _mag_GreenhouseWallSide -> aproco\magpie\architecture\greenhouse\greenhousewallside01.nif
+STAT 0C9260 _mag_GreenhouseWallCorner -> aproco\magpie\architecture\greenhouse\greenhousewallcorner01.nif
+STAT 0C9268 _mag_GreenhouseRoofSide -> aproco\magpie\architecture\greenhouse\greenhouseroofside01.nif
+STAT 0C92A1 _mag_GardeningSuppliesCrate -> aproco\magpie\queenacademe\garden\qa_gardeningsuppliescrate2.nif
+STAT 0C92A5 _mag_PlanterBucket -> aproco\magpie\queenacademe\garden\qa_planterbucket.nif
+STAT 0C92AB _mag_PlanterPotMathy -> aproco\magpie\queenacademe\garden\qa_planterpotmathy04.nif
+STAT 0C92AF _mag_GardeningClutter -> aproco\magpie\queenacademe\garden\qa_gardenset.nif
+STAT 0C92B3 _mag_PlanterDragontileHanging -> aproco\magpie\queenacademe\garden\qa_planterdragontilehanging.nif
+STAT 0C92B6 _mag_FlowerPotKelretu -> aproco\Magpie\kelretu\clutter\flowerpot02.nif
+STAT 0C92BC _mag_FlowerPotRuns -> aproco\Magpie\runs\garden\flower_pot.nif
+STAT 0C92C2 _mag_GardenSpade -> aproco\magpie\runs\garden\garden_spool.nif
+STAT 0C92C6 _mag_FlowerPotRoses -> aproco\magpie\runs\garden\roses_pot.nif
+STAT 0C92CA _mag_ChairWire -> aproco\Magpie\runs\furn\wire_chair.nif
+STAT 0C92CC _mag_TableWire -> aproco\Magpie\runs\furn\wire_table.nif
+STAT 0CE3FF _mag_TowerRoomMid -> aproco\Magpie\stroti\dragonstone\manor\stairwell03.nif
+STAT 0D3530 _mag_InkQuillBlue -> aproco\magpie\stroti\tree house\clutter static\inkwell.nif
+STAT 0D3532 _mag_InkwellStatic -> aproco\magpie\00_Laboratorium\fuzzyphysics\inkwell01.nif
+STAT 0D3534 _mag_InkwellStaticVanillaPath -> Clutter\Common\InkWell01.nif
+STAT 0D353B _mag_RolledPaper01 -> aproco\magpie\oaristys\the witcher\Paper\Parchment02.nif
+STAT 0D3540 _mag_InkwellStaticCopper -> aproco\magpie\00_Laboratorium\fuzzyphysics\inkwell01.nif
+STAT 0D354F _mag_DeskDrawersWood -> aproco\magpie\furniture\decorativedesk.nif
+STAT 0D3553 _mag_CoffeeGrinder -> aproco\magpie\stroti\tree house\clutter static\grinder.nif
+STAT 0D3555 _mag_FryingPan -> aproco\magpie\stroti\tree house\clutter static\fryingpan.nif
+STAT 0D3557 _mag_WaterskinHanging -> aproco\magpie\stroti\tree house\clutter static\waterbag.nif
+STAT 0D355B _mag_BottleRedClear -> aproco\magpie\stroti\tree house\clutter static\winebottle.nif
+STAT 0D355D _mag_SackofScrolls -> aproco\magpie\00_Laboratorium\stroti\sack_scrolls.nif
+STAT 0D3562 _mag_BottleFullBrown -> aproco\magpie\runs\clutter\bottles\bottle_full_brown.nif
+STAT 0D3572 _mag_HornKnife -> aproco\magpie\queenacademe\alchemy\qa_knifealch.nif
+STAT 0D3574 _mag_IngredientsCrate -> aproco\magpie\queenacademe\containers\qa_chestflowers.nif
+STAT 0D3576 _mag_DragonflyBlueStatic -> Clutter\Ingredients\DragonFlyBlue.nif
+STAT 0D3578 _mag_ScalesBrass -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\scales01.nif
+STAT 0D357D _mag_BookendNoble -> aproco\Magpie\clutter\obs_clutter\obs_bookend_01.nif
+STAT 0D3582 _mag_Abacus02 -> aproco\magpie\clutter\obs_clutter\obs_abacus_02.nif
+STAT 0D3584 _mag_LabeledJar01 -> aproco\magpie\clutter\obs_clutter\obs_jar_01.nif
+STAT 0D3586 _mag_LabeledJar02 -> aproco\magpie\clutter\obs_clutter\obs_jar_03.nif
+STAT 0D3588 _mag_Magnifier -> aproco\magpie\clutter\obs_clutter\obs_magnifyer_01.nif
+STAT 0D358E _mag_PaperStackBound -> aproco\magpie\clutter\obs_clutter\obs_paperstack_bound_01.nif
+STAT 0D3590 _mag_ScrollBundle01 -> aproco\magpie\clutter\obs_clutter\obs_scrollbundle_01.nif
+STAT 0D3592 _mag_WaxSealingKit -> aproco\magpie\clutter\obs_clutter\obs_waxsealingkit_01.nif
+STAT 0D3594 _mag_SmallBurner -> aproco\magpie\clutter\obs_clutter\obs_waxsealingkit_02.nif
+STAT 0D3596 _mag_Weight01 -> aproco\magpie\clutter\obs_clutter\obs_weight_01.nif
+STAT 0D3598 _mag_Weight02 -> aproco\magpie\clutter\obs_clutter\obs_weight_02.nif
+STAT 0D359A _mag_WaxStick -> aproco\magpie\clutter\obs_clutter\obs_waxstick_01.nif
+STAT 0D35A0 _mag_TestTubes01 -> aproco\magpie\clutter\alchemy\testtubes02.nif
+STAT 0D35AC _mag_MandrakeRoot -> aproco\magpie\Oaristys\The Witcher\Plants\Mandragora.nif
+STAT 0D35B3 _mag_PaperTorn -> aproco\magpie\00_Laboratorium\Mitsarugi\WantedPoster\WantedPosterripped.nif
+STAT 0D35B9 _mag_MortarEmpty -> aproco\magpie\oaristys\alchemy\Mortars\MortarCopper_Empty_Glass.nif
+STAT 0D35CE _mag_JarEmptyThin -> aproco\magpie\fuzzyphysics\jaremptythin.nif
+STAT 0D4655 _mag_ArmillarySphere -> aproco\magpie\EstroyaResources\Astronomy\Armillarsphere.nif
+STAT 0D4657 _mag_BordaCircle -> aproco\magpie\EstroyaResources\Astronomy\Bordacircle.nif
+STAT 0D465C _mag_OpenBookMagic -> aproco\magpie\AARS\OpenBook\openbook02.nif
+STAT 0D465E _mag_NoteMagic -> aproco\magpie\AARS\OpenBook\note01.nif
+STAT 0D4660 _mag_NoteMagic02 -> aproco\magpie\AARS\OpenBook\note02.nif
+STAT 0D4662 _mag_NoteWriting -> aproco\magpie\AARS\OpenBook\note03.nif
+STAT 0D4664 _mag_NotePhoenix -> aproco\magpie\Leodoidao\Lnote05.nif
+STAT 0D4666 _mag_NoteCreaturesIllustrations -> aproco\magpie\Leodoidao\Lnote06.nif
+STAT 0D4668 _mag_NoteCreaturesIllustrations02 -> aproco\magpie\Leodoidao\Lnote08.nif
+STAT 0D466C _mag_OpenBookIllustratedElixir -> aproco\magpie\Leodoidao\LOB14.nif
+STAT 0D4670 _mag_ChartHeiroglyphs -> aproco\Magpie\leodoidao\Lchart08.nif
+STAT 0D4672 _mag_OpenBookLedger -> aproco\magpie\hypn0s\aaclutter\aaastroledger.nif
+STAT 0D4676 _mag_CoffeeCupwithSaucer -> aproco\magpie\hypn0s\aaclutter\aacoffeefood.nif
+STAT 0D4678 _mag_CatStatue -> aproco\magpie\hypn0s\aaclutter\aacatstatue.nif
+STAT 0D467A _mag_CoffeePotEarthy -> aproco\magpie\hypn0s\aaclutter\aacoffeepot.nif
+STAT 0D4686 _mag_NoteAstroMachines -> aproco\magpie\hypn0s\aaclutter\astronotes.nif
+STAT 0D4689 _mag_BottleSouiraLager -> aproco\magpie\hypn0s\aaclutter\BeerBottle.nif
+STAT 0D468B _mag_EnchanterUnique -> aproco\magpie\hypn0s\aaclutter\enchnew.nif
+STAT 0D86D9 _mag_PosterAlchemistGuide -> aproco\magpie\queenacademe\notes, posters, and books\battlemapalchemistguide.nif
+STAT 0DE93C _mag_RugDwemerHex -> aproco\magpie\duathfel\clutter\dwemer\DFLDweRugHex.nif
+STAT 0DE93F _mag_DwemerPedestal -> aproco\magpie\duathfel\dungeon\DFLDweBollard.nif
+STAT 0DE949 _mag_DwemerScrapMetalPile -> aproco\Magpie\duathfel\misc items\DFLScrapMetal.nif
+STAT 0DE94D _mag_DwemerAstroGlobe -> aproco\magpie\Elianora\clutter and containers\dwemer globe.nif
+STAT 0DE957 _mag_BarrelOld01 -> aproco\magpie\DisgruntledWombats\Conversions\Barrel Collection\barrel (Taylor)\barrel (taylor) 2.nif
+STAT 0DE969 _mag_CrateHeartstones -> aproco\magpie\queenacademe\enchanting\heartstonescrate.nif
+STAT 0DE96D _mag_MagnifyingGlass -> aproco\magpie\queenacademe\library\magnifyingglass.nif
+STAT 0DE972 _mag_OpenBookAstroMath -> aproco\magpie\queenacademe\library\openbookastromath.nif
+STAT 0DE974 _mag_OpenBookZodiac -> aproco\magpie\queenacademe\library\openbookzodiac.nif
+STAT 0DE976 _mag_NoteTechnicalDrawingYellowed -> aproco\magpie\queenacademe\library\qa_loosepageenchwhite.nif
+STAT 0DE978 _mag_GlobeMasser -> aproco\magpie\queenacademe\library\qa_globemasser.nif
+STAT 0DE97A _mag_OpenBookAstroNirn -> aproco\magpie\queenacademe\library\qa_openbookastronirn.nif
+STAT 0DE97C _mag_OpenBookStaff -> aproco\magpie\queenacademe\library\qa_openbookstaffmorrow.nif
+STAT 0DE97E _mag_ScrollSetPatterned01 -> aproco\magpie\queenacademe\library\qa_scrollsetenchlarge.nif
+STAT 0DE981 _mag_ScrollCeramicSeal -> aproco\magpie\queenacademe\library\qa_scrollseal.nif
+STAT 0DE986 _mag_SmallOrrerySolarSystem -> aproco\magpie\queenacademe\library\orreryplanets.nif
+STAT 0DE988 _mag_RackScrolls -> aproco\magpie\queenacademe\library\qa_rackscrollsquibtall.nif
+STAT 0ECAFF _mag_ToyWoodenHorse -> aproco\magpie\lakeview\clutter\lvtoywoodenhorse01.nif
+STAT 0ECB01 _mag_CurioMummefiedBird -> aproco\magpie\Elements of Skyrim\mummified animals\mummifiedanimal1.nif
+STAT 0ECB04 _mag_CurioMummefiedBat -> aproco\magpie\Elements of Skyrim\mummified animals\mummifiedanimal2.nif
+STAT 0ECB06 _mag_CurioCatSkull -> aproco\magpie\Elements of Skyrim\Animal Bones\NEW\1.nif
+STAT 0ECB08 _mag_RamSkull -> aproco\magpie\Elements of Skyrim\Animal Bones\NEW\3.nif
+STAT 0ECB0A _mag_CurioMegalodonTooth -> aproco\magpie\Elements of Skyrim\Animal Bones\NEW\2.nif
+STAT 0ECB0C _mag_CurioGeode02 -> aproco\magpie\runs\2\geode.nif
+STAT 0ECB16 _mag_FlaskOrange -> aproco\magpie\runs\2\flask_orange.nif
+STAT 0ECB18 _mag_StuddedBox -> aproco\magpie\runs\2\trunk_01.nif
+STAT 0ECB21 _mag_BookBlueSymbols -> aproco\magpie\elianora\wynter\misc\eli_smithingbook.nif
+STAT 0ECB24 _mag_HangingMageSatchelV -> aproco\magpie\Hanging Mage Satchel Resource 1.1var\vloop.nif
+STAT 0F1C2A _mag_HangingBarkeepDress -> aproco\magpie\eek\Hanging Clothes and Armors\EEK_HangingBarKeepDressThin.nif
+STAT 0F1C2C _mag_HangingMonkRobes -> aproco\magpie\eek\Hanging Clothes and Armors\EEK_HangingBlueMonkRobesF.nif
+STAT 0F1C2E _mag_HangingMerchantDress -> aproco\magpie\eek\Hanging Clothes and Armors\EEK_HangingMerchantDressThin01.nif
+STAT 0F1C30 _mag_HangingFineClothesGreen -> aproco\magpie\eek\Hanging Clothes and Armors\EEK_HangingFemaleFineClothes01Thin.nif
+STAT 0F1C40 _mag_BasketClothes -> aproco\magpie\loliceptresource\basket\clothesnewbasket01.nif
+STAT 0F1C43 _mag_ClothesPile -> aproco\magpie\00_Laboratorium\00_Moosmupfel\clothes.nif
+STAT 0F1C4A _mag_BootsStatic -> aproco\magpie\loliceptresource\boots\bootsshelf01.nif
+STAT 0F1C4E _mag_ShoesLacedStatic -> Clothes\BarKeeper\M\ShoeGND.nif
+STAT 0F1C4F _mag_ShoesSmithStatic -> Clothes\BlackSmith\M\ShoesGND.nif
+STAT 0F1C50 _mag_RobesPile -> aproco\magpie\liamsclutterresourcese\clutter\Containers\LCR_RobesChest.nif
+STAT 0F1C52 _mag_AlchArtMandrake -> aproco\magpie\HiddenHearth\bLARY\sin_Wall02.nif
+STAT 0F1C54 _mag_AlchArtGoldenrod -> aproco\magpie\HiddenHearth\bLARY\sin_Wall03.nif
+STAT 0F1C57 _mag_AlchArtBlue -> aproco\magpie\HiddenHearth\bLARY\sin_Wall04.nif
+STAT 0F1C82 _mag_AlchToolsArt -> aproco\magpie\HiddenHearth\clutter\alchwall02.nif
+STAT 0F1C84 _mag_BoxCutlery -> aproco\magpie\HiddenHearth\clutter\BasicCutlery.nif
+STAT 0F1C8A _mag_BirdcageSmall -> aproco\magpie\HiddenHearth\clutter\birdcage_small.nif
+STAT 0F1C8E _mag_MetalBowlGrapes -> aproco\magpie\HiddenHearth\clutter\Bowl_metalstand.nif
+STAT 0F1C90 _mag_PlayingCards -> aproco\magpie\HiddenHearth\clutter\Cards.nif
+STAT 0F1C93 _mag_BottleThinEmpty -> aproco\magpie\HiddenHearth\clutter\WhiskeyBottle01Empty.nif
+STAT 0F1C95 _mag_WallCarvingKnot -> aproco\magpie\HiddenHearth\clutter\wallbasketlarge01.nif
+STAT 0F1C97 _mag_JarCoffeeBeans -> aproco\magpie\HiddenHearth\clutter\CoffeeBeans.nif
+STAT 0F1C99 _mag_CoffeeCupStone -> aproco\magpie\HiddenHearth\clutter\TamCoffeeCup.nif
+STAT 0F1C9B _mag_CuttingBoard01 -> aproco\magpie\HiddenHearth\clutter\Tablet01_ST.nif
+STAT 0F1C9D _mag_TeapotDwemer -> aproco\magpie\queenacademe\strotiretextures\teapot01_stdwemer.nif
+STAT 0F1C9F _mag_NapkinBlueFloral -> aproco\magpie\queenacademe\rugs\napkinblueweave.nif
+STAT 0F1CA1 _mag_KnapsackTraveling -> aproco\magpie\queenacademe\misc\qa_knapsack.nif
+STAT 0F1CA3 _mag_StackofSacks -> aproco\magpie\mtflot\lilith\haecceitystackofsacks04.nif
+STAT 0F1CA7 _mag_EggBasket02 -> aproco\magpie\mtflot\refurb\eggbasket.nif
+STAT 0F1CB4 _mag_TapestryCeilingAnimals -> aproco\magpie\decor\Tapestries\TapestryRoofAnimals.nif
+STAT 0F1CD0 _mag_CauldronDecorated -> aproco\magpie\oaristys\the witcher\food\Cauldron01.nif
+STAT 0F6DE5 _mag_ApronRack -> aproco\magpie\oaristys\the witcher\Tools\ToolsHanging02.nif
+STAT 0F6DF1 _mag_BenchBacked -> aproco\magpie\lor\converted\furniture\bench1.nif
+STAT 0F6E22 _mag_DresserPaintedOrange -> aproco\magpie\lor\converted\containers\tallboylow.nif
+STAT 0F72A6 _mag_BagSeeds -> aproco\magpie\oaristys\alchemy\AlchBag_Grain01°.nif
+STAT 0F72B0 _mag_FlowersBushPink -> aproco\magpie\tamira\new flowers\TamFlowerLilac.nif
+STAT 0F72B5 _mag_FlowersPurpleCreep -> aproco\magpie\tamira\new flowers\TamVinca01.nif
+STAT 0F72B8 _mag_FlowerMarigold -> aproco\magpie\tamira\new flowers\tampotentilla.nif
+STAT 0F72BC _mag_HangingToolsGarden -> aproco\magpie\oaristys\the witcher\Tools\ToolsHanging01.nif
+STAT 0F72BE _mag_TooboxWhite -> aproco\magpie\oaristys\the witcher\Tools\Toolbox.nif
+STAT 0F72C1 _mag_GardenShears -> aproco\magpie\oaristys\the witcher\Tools\Scissors02.nif
+STAT 0F72CA _mag_BookBirdsFlowers -> aproco\magpie\nickorasu\pantheons\AedricSeries\Kynareth\Artifacts\HymeToKyne\hymntokynebook.nif
+STAT 0F72CD _mag_BookBlueMagic -> aproco\magpie\Nickorasu\Pantheons\DaedricSeries\Azura\Artifacts\TheFivePointsOfTheStar\TheFivePointsOfTheStarBook.nif
+STAT 0F72EE _mag_FloorTileGreenhouse -> aproco\magpie\lor\converted\floor\elvenfloor.nif
+STAT 0F7303 _mag_ArchedTrellis -> aproco\magpie\lor\converted\various\trellis.nif
+STAT 0F7320 _mag_PlanterTallGlazed -> aproco\magpie\00_Laboratorium\oaristys\planters\planterglazedsapling.nif
+STAT 0F733C _mag_WFSkullCandleOff -> aproco\magpie\oaristys\candles\candleskull_off.nif
+STAT 0F7342 _mag_WoodPanelingLong -> aproco\magpie\Griffon Fortress\interior\woodpanellinglow01custom.nif
+STAT 0F7349 _mag_WoodPanelingShort -> aproco\magpie\Griffon Fortress\interior\woodpanellinglow02custom.nif
+STAT 0F735B _mag_ToyRockingHorse01 -> aproco\magpie\runs\toys\horse_toy.nif
+STAT 0F735D _mag_ToyDragon -> aproco\magpie\runs\toys\dragon_toy.nif
+STAT 0F7362 _mag_ToyTop01 -> aproco\magpie\runs\toys\top_toy_01.nif
+STAT 0F7367 _mag_BasketPaperRolls -> aproco\magpie\lakeview\clutter\lvpaperbasket01.nif
+STAT 0F736B _mag_DrawingTree01 -> aproco\magpie\decor\Paintings\SketchTree01.nif
+STAT 0F736D _mag_WatercolorTree01 -> aproco\magpie\decor\Paintings\WatercolorTree01.nif
+STAT 0F736F _mag_DrawingBranch -> aproco\magpie\decor\Paintings\SketchBranch.nif
+STAT 0F7371 _mag_NailSingle -> aproco\magpie\lakeview\clutter\lvnail01.nif
+STAT 0F7378 _mag_PaintingPortraitLady -> aproco\magpie\ax\paintings\paintinguc0301.nif
+STAT 0F7379 _mag_PaintingArcher -> aproco\magpie\ax\paintings\paintingmc0205.nif
+STAT 0FBFF7 _mag_PlanterPinkFlowers -> aproco\magpie\00_Laboratorium\RoboBirdie\type_1\planter_cedars_a.nif
+STAT 0FBFF9 _mag_PlanterOrangeFlowers -> aproco\Magpie\00_laboratorium\robobirdie\type 2\planter_grasses_a.nif
+STAT 0FC034 _mag_PlantChickweed -> aproco\magpie\ztree's\plants\Chickweed.nif
+STAT 0FC044 _mag_CoffeePotSteel -> aproco\magpie\HiddenHearth\clutter\coffeePot.nif
+STAT 0FC048 _mag_SugarBowl01 -> aproco\magpie\HiddenHearth\clutter\SugarBowl02.nif
+STAT 0FC04A _mag_PlanterCopperPotJazbay -> aproco\magpie\HiddenHearth\clutter\copperpotwithsoil_jazberry.nif
+STAT 0FC04C _mag_BookstandCubbiesFilled -> aproco\Magpie\hiddenhearth\furniture\bookstand4.nif
+STAT 0FC060 _mag_HallwayTree -> aproco\magpie\HiddenHearth\furniture\halltree.nif
+STAT 0FC064 _mag_HangingHerbs01 -> aproco\magpie\HiddenHearth\herbs\hangingherbs01.nif
+STAT 0FC066 _mag_HangingHerbs02 -> aproco\magpie\HiddenHearth\herbs\hangingherbs02.nif
+STAT 0FC06A _mag_HangingHerbs03 -> aproco\magpie\HiddenHearth\herbs\hangingherbs06.nif
+STAT 0FC072 _mag_HangingHerbs04 -> aproco\magpie\HiddenHearth\herbs\hangingherbs19.nif
+STAT 0FC076 _mag_PaintingApron -> aproco\magpie\HiddenHearth\kidsroom\clutter\painters_apron.nif
+STAT 0FC07A _mag_WhiteApron -> aproco\magpie\HiddenHearth\misc\apron01.nif
+STAT 0FC07C _mag_TrellisStraight01 -> aproco\magpie\HiddenHearth\misc\latticewall.nif
+STAT 0FC089 _mag_GlovesFolded -> aproco\magpie\lakeview\clutter\lvglovesbasket01.nif
+STAT 0FC09B _mag_Astrolabe01 -> aproco\magpie\Oaristys\The Witcher\Decoration\Globe01.nif
+STAT 0FC09D _mag_Sextant -> aproco\magpie\Oaristys\The Witcher\Decoration\Sextant.nif
+STAT 0FC09F _mag_Telescope -> aproco\magpie\oaristys\the witcher\decoration\Telescope.nif
+STAT 0FC0A1 _mag_ClothPile01 -> aproco\magpie\oaristys\the witcher\decoration\Cloth\ClothPile01.nif
+STAT 0FC0A3 _mag_ClothPile02 -> aproco\magpie\oaristys\the witcher\decoration\Cloth\ClothPile02.nif
+STAT 0FC0A5 _mag_ClothPile03 -> aproco\magpie\oaristys\the witcher\decoration\Cloth\ClothPile03.nif
+STAT 0FC0A9 _mag_ToyPig -> aproco\magpie\oaristys\the witcher\decoration\Games\Doll_Pig.nif
+STAT 0FC0AB _mag_ToyDoll01 -> aproco\magpie\oaristys\the witcher\decoration\Games\Doll01.nif
+STAT 0FC0AD _mag_ToyDoll02 -> aproco\magpie\oaristys\the witcher\decoration\Games\Doll02.nif
+STAT 0FC0AF _mag_ToyKnight -> aproco\magpie\oaristys\the witcher\decoration\Games\ToyKnight.nif
+STAT 0FC0B1 _mag_ToyHobbyHorse01 -> aproco\magpie\oaristys\the witcher\decoration\Games\ToyHorsestick.nif
+STAT 0FC0B3 _mag_ToyPuppet -> aproco\magpie\oaristys\the witcher\decoration\Games\ToyPuppet.nif
+STAT 0FC0B5 _mag_MothsDead -> aproco\magpie\oaristys\the witcher\decoration\Gore\MothsDead.nif
+STAT 0FC0B7 _mag_OilLamp -> aproco\magpie\HiddenHearth\Lights\OilLamp02.nif
+STAT 0FC0C9 _mag_FireplaceGrate -> aproco\magpie\decor\gratesinglefancy.nif
+STAT 0FC0CF _mag_CeilingCarvedMedallion -> aproco\magpie\architecture\WoodMedallion01.nif
+STAT 0FC0F3 _mag_HangingPotsUtensils -> aproco\magpie\lakeview\clutter\lvhangingkitchenutensils01.nif
+STAT 0FC0F6 _mag_CookingPot01 -> aproco\magpie\Stroti\KitchenToolsStatic\CookingPot01_ST.nif
+STAT 0FC0F8 _mag_CookingPot02 -> aproco\magpie\Stroti\KitchenToolsStatic\CookingPot02_ST.nif
+STAT 0FC0FA _mag_CookingPot03 -> aproco\magpie\Stroti\KitchenToolsStatic\CookingPot03_ST.nif
+STAT 0FC103 _mag_BasketHandled -> aproco\magpie\lor\converted\clutter\basket.nif
+STAT 0FC105 _mag_CuttingBoard02 -> aproco\magpie\stroti\kitchentoolsstatic\tablet01_st.nif
+STAT 0FC538 _mag_MeadBlackBriarStatic -> Clutter\Potions\MeadBlackBriar.nif
+STAT 0FC53A _mag_MeadStatic -> Clutter\Ingredients\Mead01.nif
+STAT 0FC53D _mag_MeadBlackBriarReserveStatic -> Clutter\Potions\BlackBriarPrivateReserve.nif
+STAT 0FC53F _mag_FlagonStatic -> Clutter\Common\Flagon01.nif
+STAT 0FC542 _mag_PotionBottleBrownLabel -> aproco\magpie\jets\PotionBottles\Bottle01SolidBrown.nif
+STAT 0FC545 _mag_PotionBottlePurpleLabel -> aproco\magpie\jets\PotionBottles\Bottle01.nif
+STAT 0FC54A _mag_JarTallFalmerEar -> aproco\magpie\jets\PotionBottles\JarFalmerEar.nif
+STAT 0FC54D _mag_ToyBall -> aproco\magpie\jets\Ball01.nif
+STAT 0FC551 _mag_BeerFatDonkey -> aproco\magpie\jets\BeerBottle01.nif
+STAT 0FC553 _mag_BeerYummy -> aproco\magpie\jets\BeerBottle02.nif
+STAT 0FC555 _mag_BottleSchnaps -> aproco\magpie\jets\Schnaps01.nif
+STAT 0FC559 _mag_BottleWhiskeyDreams -> aproco\magpie\jets\ScotchBottle01.nif
+STAT 0FC574 _mag_CandlestickWood01On -> aproco\magpie\00_Laboratorium\00_Moosmupfel\candleholder2ONnew.nif
+STAT 0FC575 _mag_CandlestickWood02On -> aproco\magpie\00_Laboratorium\00_Moosmupfel\candlestick2ONnew.nif
+STAT 0FC57D _mag_CandelabraFloor02 -> aproco\magpie\lor\converted\light sources\candelabra2.nif
+STAT 0FC582 _mag_DressForm -> aproco\magpie\HiddenHearth\clutter\dressform.nif
+STAT 0FC59E _mag_BottleGrouping -> aproco\magpie\HiddenHearth\clutter\bottle grouping.nif
+STAT 0FC5A0 _mag_ToyLamb -> aproco\magpie\hiddenhearth\kidsroom\clutter\lamb1.nif
+STAT 0FC5A2 _mag_ToyTeddyRagged -> aproco\Magpie\hiddenhearth\kidsroom\clutter\toys\TeddyRagged.nif
+STAT 0FC5A7 _mag_CurioJawCamel -> aproco\magpie\robobirdie\bones\jaw_camel.nif
+STAT 0FC5A9 _mag_CurioHorseSkull -> aproco\magpie\robobirdie\bones\skull_horse_full.nif
+STAT 0FC5AB _mag_CurioAgate -> aproco\magpie\Fossils\small_items\agate.nif
+STAT 0FC5AD _mag_CurioFossilCoraciiforme -> aproco\magpie\Fossils\small_items\small_fossil_coraciiforme.nif
+STAT 0FC5AF _mag_CurioColorfulRock -> aproco\magpie\Fossils\small_items\special_rock.nif
+STAT 0FD25C _mag_ShelfCornerSet -> aproco\Magpie\robobirdie\decorations\funiture\shelf_corner.nif
+STAT 1011BD _mag_SpoonSilver -> aproco\magpie\oaristys\the witcher\Dishes\Spoon_Rich.nif
+STAT 1011BF _mag_ForkSilver -> aproco\magpie\oaristys\the witcher\Dishes\Fork_Rich.nif
+STAT 1011C1 _mag_KnifeSilver -> aproco\magpie\oaristys\the witcher\Dishes\Knife_Rich.nif
+STAT 1011C3 _mag_BowlSilverTall -> aproco\magpie\lor\converted\kitchen\richbowl.nif
+STAT 1011C6 _mag_PlateCanapes -> aproco\magpie\oaristys\the witcher\food\Canape02.nif
+STAT 1011C8 _mag_BowlGrapes -> aproco\magpie\oaristys\the witcher\food\GrapesBowl.nif
+STAT 1011CB _mag_WFPumpkin03 -> aproco\magpie\FruitsandVeggies\60_pumpkin.nif
+STAT 1011CF _mag_FoodCharcuterie01 -> aproco\magpie\oaristys\the witcher\food\Sets\FoodSet_SausageVegs.nif
+STAT 1011D6 _mag_BreadSeedHalf -> aproco\magpie\queenacademe\food and dining\qa_breadseededhalf.nif
+STAT 1011DC _mag_BakingPlate -> aproco\magpie\queenacademe\strotiretextures\qa_bakingplate.nif
+STAT 1011E0 _mag_CookedBacon -> aproco\magpie\mealtimeyum\bacon.nif
+STAT 1011E7 _mag_RoastChickenPlatter -> aproco\magpie\mealtimeyum\chickn.nif
+STAT 1011F5 _mag_BerriesBlue -> aproco\magpie\mealtimeyum\fruitblue.nif
+STAT 1011F7 _mag_BucketWineSet -> aproco\magpie\HiddenHearth\Sins\bucket_ice_wineset.nif
+STAT 1011F9 _mag_BasketSacks -> aproco\magpie\HiddenHearth\Sins\Basket_Sacks_01.nif
+STAT 1011FB _mag_BreadServiceJelly -> aproco\magpie\HiddenHearth\Sins\breadservice_jelly.nif
+STAT 1011FE _mag_BottleofFlowers -> aproco\magpie\HiddenHearth\Sins\flowervial.nif
+STAT 101205 _mag_MetalGrateFancy -> aproco\magpie\HiddenHearth\Sins\metal_bronze_grate_Divider.nif
+STAT 10120C _mag_NapkinUpperSingle -> aproco\magpie\fpi research\Clutter\Kitchen\Napkin01_Upper.nif
+STAT 10120E _mag_RagCrumpled -> aproco\magpie\HiddenHearth\Sins\rumpleddishrag.nif
+STAT 101211 _mag_StackKitchenTowels -> aproco\magpie\HiddenHearth\Sins\stackofkitchentowels.nif
+STAT 101217 _mag_WoodBowlsStack -> aproco\Magpie\2020statics\dining set\WoodenBowlsPile.nif
+STAT 10121B _mag_MixingBowlwithSpoon -> aproco\magpie\HiddenHearth\clutter\mixingbowl.nif
+STAT 101226 _mag_PilowBWPattern -> aproco\magpie\HiddenHearth\clutter\pillow_square_white_pattern.nif
+STAT 101233 _mag_PlateDinnerSetSalmon -> aproco\magpie\HiddenHearth\plate_dinner_set.nif
+STAT 101236 _mag_HandleBasketRound -> aproco\magpie\HiddenHearth\clutter\rattanbasketopen.nif
+STAT 10123A _mag_SewingSupplies -> aproco\magpie\HiddenHearth\clutter\sewingset.nif
+STAT 10123C _mag_SugarBowlFruitMotif -> aproco\magpie\HiddenHearth\clutter\sugar_bowl_01.nif
+STAT 10123E _mag_WoodRoundTableSimple -> aproco\magpie\HiddenHearth\furniture\sheo\tableexround.nif
+STAT 101240 _mag_TableclothRound -> aproco\Magpie\hiddenhearth\furniture\Sins_TableCloth03.nif
+STAT 101244 _mag_ScatteredFlowersRetex -> aproco\magpie\HiddenHearth\Oaristys\FeteFlowers.nif
+STAT 101246 _mag_CoffeeCupSet -> aproco\magpie\HiddenHearth\Tamira\CoffeeCupSet.nif
+STAT 101248 _mag_PitcherMetal -> aproco\magpie\HiddenHearth\Tamira\Pitcher 01.nif
+STAT 10124A _mag_KitchenTowelsHanging -> aproco\magpie\HiddenHearth\kitchentowelset02.nif
+STAT 10635F _mag_CanapeSingle -> aproco\magpie\oaristys\the witcher\food\Canape01.nif
+STAT 106365 _mag_Cheeseboard -> aproco\magpie\oaristys\food\cheeseboard.nif
+STAT 10636E _mag_BakedPotatoes -> Clutter\Food\GrilledPotatoes01.nif
+STAT 106371 _mag_GrilledLeeks -> Clutter\Food\GrilledLeeks01.nif
+STAT 106373 _mag_SalmonSteak -> Clutter\Food\CookedSalmonSteak01.nif
+STAT 106377 _mag_Bread01AStatic -> Clutter\Food\Bread01A.nif
+STAT 106379 _mag_Bread01BStatic -> Clutter\Food\Bread01B.nif
+STAT 1063AF _mag_Butter -> aproco\magpie\Tamira\Static Dishes\Food\TamButterBlock.nif
+STAT 1068AA _mag_WFPumpkin04 -> aproco\magpie\FruitsandVeggies\14_gourd.nif
+STAT 1068AC _mag_WFPumpkin05 -> aproco\magpie\FruitsandVeggies\59_hokaido_pumpkin.nif
+STAT 1068AF _mag_LemonSlice -> aproco\magpie\Extra Food\Lemonslice.nif
+STAT 1068B7 _mag_HangingOnions -> aproco\magpie\Extra Food\hangingonion.nif
+STAT 1068BF _mag_FishPot01 -> aproco\magpie\fishmarket\fishpot01astatic.nif
+STAT 1068C1 _mag_FishPot02 -> aproco\magpie\fishmarket\fishpot02static.nif
+STAT 1068C3 _mag_FishJug01 -> aproco\magpie\fishmarket\oiljugstatic.nif
+STAT 1068E0 _mag_SaltedFishBowl -> aproco\magpie\fishmarket\saltedfishingredient.nif
+STAT 1068E3 _mag_CratePoms -> aproco\magpie\mathys_resources\crates\mathys_repo_crate_02_a.nif
+STAT 1068ED _mag_JournalsSet02 -> aproco\magpie\balcer58\clutter\journalsstatic.nif
+STAT 10690A _mag_DressAnna -> aproco\magpie\lor\converted\armours & clothes\annadress.nif
+STAT 111A81 _mag_TieredDecoBox -> aproco\magpie\queenacademe\containers\qa_jewelryboxtiered.nif
+STAT 111A84 _mag_ScrollsBasketShort -> aproco\magpie\queenacademe\containers\qa_scrollsbasketshort.nif
+STAT 11BF12 _mag_GreenhouseRoofTopFlat -> aproco\Magpie\architecture\greenhouse\greenhouseroofmid01_window.nif
+STAT 11F8C1 _mag_BloodwineStatic -> _BYOH\Clutter\Wine\WineBottle03.nif
+STAT 11F8C6 _mag_SpicedWineStatic -> Clutter\Wine\WineSanSpicedwine.nif
+STAT 11F8C8 _mag_MeadHonningbrewStatic -> Clutter\Potions\MeadHonningBrew01.nif
+STAT 11F8E4 _mag_StackFlourSacks -> aproco\magpie\lakeview\clutter\lvfloursackstack01.nif
+STAT 11F8E5 _mag_BreadBoardOnly -> aproco\magpie\queenacademe\food and dining\qa_breadcovered.nif
+STAT 11F8F7 _mag_BasicWoodenPlateStatic -> Clutter\Dining Set\BasicWoodenPlate01.nif
+STAT 11F905 _mag_EarthyCoffeeMug -> aproco\magpie\00_Laboratorium\RoboBirdie\mug.nif
+STAT 11F908 _mag_FancyBeerMugSilver -> aproco\magpie\00_Laboratorium\runs\2\pichel_decorated.nif
+STAT 11F917 _mag_CupWooden01 -> aproco\magpie\lor\converted\kitchen\cupwooden1.nif
+STAT 11F91F _mag_CookedBaconPile -> aproco\magpie\mealtimeyum\baconpile.nif
+STAT 11F921 _mag_BerriesNoBowl -> aproco\magpie\queenacademe\food and dining\qa_bowlberries.nif
+STAT 11F934 _mag_MugGray -> aproco\magpie\00_Laboratorium\lor\converted\kitchen\canette.nif
+STAT 11F949 _mag_ScatteredFlowers -> aproco\magpie\oaristys\the witcher\decoration\FeteFlowers.nif
+STAT 11F94B _mag_PinkPetals -> aproco\Magpie\hiddenhearth\tamira\PINK_ground_petals.nif
+STAT 11F954 _mag_GlazedGobletStatic -> Clutter\GlazedGoblet01.nif
+STAT 11FE74 _mag_ClothSack01 -> aproco\magpie\lor\converted\containers\sack1.nif
+STAT 11FE76 _mag_ClothSack02 -> aproco\magpie\lor\converted\containers\sack2.nif
+STAT 124F79 _mag_MillSack01 -> aproco\magpie\stroti\Old Mill\Misc\millSack01.nif
+STAT 124F7B _mag_MillSack02 -> aproco\magpie\stroti\Old Mill\Misc\millSack02.nif
+STAT 1261BD _mag_StairsFine -> aproco\magpie\_00breton_keep\interior\stairs_fine.nif
+STAT 1261BF _mag_StairsFineBalconyRail -> aproco\magpie\_00breton_keep\interior\balcony rail.nif
+STAT 1261D6 _mag_ColorfulDayBed -> aproco\magpie\enderal\forgottenstories\quest\fs_nq02\caravanbed.nif
+STAT 1261DB _mag_DwemerDoorframe -> aproco\magpie\enderal\dungeons\soultrain\wagondoorframe.nif
+STAT 12621A _mag_FireplaceWoodCarved02 -> aproco\magpie\oaristys\the witcher\Furniture\Fireplace02.nif
+STAT 12B39E _mag_WallPaperMorris01 -> aproco\magpie\architecture\WallPaperMorris01.nif
+STAT 12B3BA _mag_CoffeeTable -> aproco\magpie\lor\table2.nif
+STAT 12B3BE _mag_ChairUpholsteredFancy -> aproco\magpie\Mihail Dungeons and Settlements\Toxin Doctor Laboratory\FURNITURE\chair1.nif
+STAT 12B3C0 _mag_ChairOverstuffedArmchair -> aproco\magpie\Mihail Dungeons and Settlements\Toxin Doctor Laboratory\FURNITURE\chair.nif
+STAT 12B3C4 _mag_ChairSatinFancy -> aproco\magpie\oaristys\the witcher\Furniture\SatinChair.nif
+STAT 12B3C7 _mag_DeskFancy -> aproco\magpie\lor\desk.nif
+STAT 12B3CF _mag_OilLampFantasy -> aproco\magpie\gizmodian\gothres\OilLamp01.nif
+STAT 12B3D3 _mag_OilLampGold -> aproco\magpie\gizmodian\gothres\OilLamp02.nif
+STAT 12B3D7 _mag_DiceGameSet -> aproco\magpie\stroti\resource pack ii\dice\dicegame_static.nif
+STAT 12B3D9 _mag_CardsGameSet01 -> aproco\magpie\oaristys\the witcher\decoration\Games\Cards01.nif
+STAT 12B3F5 _mag_SATElkGoldenMetal -> aproco\magpie\tczfestive\tczfestiveelkmetal2.nif
+STAT 12B3F8 _mag_SATGingerbreadHouse01 -> aproco\magpie\tczfestive\tczfestivemeltgingerhousegoldwr.nif
+STAT 12B3FA _mag_SATPaperChainRedWhite -> aproco\magpie\xmas\paperchain_red.nif
+STAT 12B3FD _mag_SATStarGold -> aproco\magpie\xmas\simplestar.nif
+STAT 12B3FF _mag_SATTinselGoldTwist -> aproco\magpie\xmas\tinsel_gold_twist.nif
+STAT 12B402 _mag_SATStarRed -> aproco\magpie\xmas\simplestar5.nif
+STAT 12EC5C _mag_CrateLinens -> aproco\magpie\HiddenHearth\clutter\decocratesmallopen01.nif
+STAT 12EC61 _mag_CloakMaroon -> aproco\magpie\HiddenHearth\clutter\st_redcloak.nif
+STAT 12EC62 _mag_CloakFur -> aproco\magpie\HiddenHearth\clutter\drapedcloak_0.nif
+STAT 12ECBB _mag_MetalBowlNoGrapes -> aproco\magpie\HiddenHearth\clutter\Bowl_metalstand.nif
+STAT 12ECBD _mag_BasketSmallHanging -> aproco\magpie\oaristys\the witcher\decoration\BasketWoven_Hanging.nif
+STAT 12ECDB _mag_BasketRectangle -> aproco\magpie\oaristys\the witcher\decoration\BasketWoven03.nif
+STAT 12ECF7 _mag_NapkinSetCommon -> aproco\magpie\fpi research\Clutter\Kitchen\Napkin01_Common_Set.nif
+STAT 12ECF9 _mag_NapkinSetUpper -> aproco\magpie\fpi research\Clutter\Kitchen\Napkin01_Upper_Set.nif
+STAT 12ECFB _mag_NapkinSingleCommon -> aproco\magpie\fpi research\Clutter\Kitchen\Napkin01_Common.nif
+STAT 13055C _mag_TableWhitePainted -> aproco\magpie\lor\converted\furniture\decorativetable.nif
+STAT 130562 _mag_TableWhitePaintedLarge -> aproco\magpie\lor\converted\furniture\table1.nif
+STAT 130597 _mag_WFOpenBookDB -> aproco\magpie\_halloween\misc\openbooknew01.nif
+STAT 13059E _mag_PaperAlchIllustrations -> aproco\magpie\_00breton_keep\interior\paper001.nif
+STAT 1356AD _mag_FireplaceToolsStanding -> aproco\magpie\black thorn keep\interior\cluttter\fireplace_tools.nif
+STAT 1356AF _mag_CoveredPainting -> aproco\magpie\black thorn keep\interior\cluttter\cover_picture.nif
+STAT 1356B1 _mag_BottleCologne -> aproco\magpie\black thorn keep\interior\cluttter\cologne.nif
+STAT 1356B3 _mag_AlchFlaskGreen01 -> aproco\magpie\black thorn keep\interior\cluttter\flask_1.nif
+STAT 1356B5 _mag_AlchFlaskGreen02 -> aproco\magpie\black thorn keep\interior\cluttter\flask_2.nif
+STAT 1356B7 _mag_DrawingMechanics01 -> aproco\magpie\black thorn keep\interior\cluttter\drawing.nif
+STAT 1356B9 _mag_DrawingMechanics02 -> aproco\magpie\black thorn keep\interior\cluttter\drawing2.nif
+STAT 1356BD _mag_AlchMixer -> aproco\magpie\black thorn keep\interior\cluttter\mixer.nif
+STAT 1356C4 _mag_PotionBottleGreen -> aproco\magpie\black thorn keep\interior\cluttter\potion.nif
+STAT 1356C6 _mag_ClockMetal -> aproco\magpie\black thorn keep\interior\furniture\clock.nif
+STAT 1356CC _mag_DarkMachine01 -> aproco\magpie\black thorn keep\interior\furniture\machine.nif
+STAT 1356CE _mag_TabletopMirror -> aproco\magpie\black thorn keep\interior\furniture\mirror.nif
+STAT 1356D1 _mag_BookstandSlim -> aproco\magpie\black thorn keep\interior\furniture\podium.nif
+STAT 138EFE _mag_FloralPillowCushion -> aproco\magpie\manny_gf\pillows\manny_gf_pillow03.nif
+STAT 138F00 _mag_PillowManny01 -> aproco\magpie\manny_gf\pillows\manny_gf_pillow01.nif
+STAT 138F02 _mag_PillowManny02 -> aproco\magpie\manny_gf\pillows\manny_gf_pillow04.nif
+STAT 13AA17 _mag_WallFieldstone -> aproco\Magpie\architecture\wallfieldstone.nif
+STAT 13AA2A _mag_DoorJambStone -> aproco\magpie\_00breton_keep\citadel\door_trim.nif
+STAT 13AB1F _mag_CurtainsYellow -> aproco\magpie\architecture\mb\extras\gardine01.nif
+STAT 13AB2D _mag_TapestryLeopard -> aproco\magpie\architecture\mb\extras\wandteppich02.nif
+STAT 13E014 _mag_PitcherBWCeramic -> aproco\magpie\robobirdie\decorations\clutter\jug.nif
+STAT 13E016 _mag_Mug02 -> aproco\magpie\robobirdie\decorations\clutter\mug02.nif
+STAT 13E02A _mag_WideStoneBowl -> aproco\magpie\robobirdie\decorations\clutter\stone_bowl.nif
+STAT 13E02E _mag_Mug03 -> aproco\magpie\robobirdie\decorations\clutter\stone_mug.nif
+STAT 13E030 _mag_WoodBowlDeco -> aproco\magpie\robobirdie\decorations\clutter\wooden_bowl.nif
+STAT 13E036 _mag_ShelfMedium -> aproco\Magpie\robobirdie\decorations\funiture\shelf_medium.nif
+STAT 13E060 _mag_SingingToad -> aproco\magpie\robobirdie\decorations\clutter\singingtoad.nif
+STAT 13E063 _mag_DrumMorrow -> aproco\magpie\robobirdie\decorations\clutter\drum.nif
+STAT 13E065 _mag_DividerMorrow01 -> aproco\magpie\robobirdie\decorations\dividers\divider_morrowind_01.nif
+STAT 13E068 _mag_DividerMorrow02 -> aproco\magpie\robobirdie\decorations\dividers\divider_morrowind_02.nif
+STAT 13E072 _mag_TreeKangaroo -> aproco\magpie\robobirdie\creatures\treekangaroo_posed.nif
+STAT 13E075 _mag_StuffedKakapo -> aproco\magpie\robobirdie\creatures\kakapo_pose.nif
+STAT 13E078 _mag_StuffedPheasant -> aproco\magpie\robobirdie\creatures\pheasent_posed.nif
+STAT 13E07C _mag_OwlStand -> aproco\magpie\lor\converted\clutter\owlstand.nif
+STAT 14318D _mag_SackGrain -> aproco\magpie\robobirdie\decorations\containers\sack_o_grain.nif
+STAT 143190 _mag_FriedEgg -> aproco\magpie\Tamira\Static Dishes\Food\StrotiFriedEgg.nif
+STAT 143192 _mag_SlicedBread -> aproco\magpie\Tamira\Static Dishes\Food\StrotiSlicedBread.nif
+STAT 143196 _mag_Juice -> aproco\magpie\Tamira\Static Dishes\Sets\CupJuice.nif
+STAT 14319E _mag_ScrambledEgg -> aproco\magpie\oaristys\the witcher\food\ScrambledEggs.nif
+STAT 1431A3 _mag_SicedHam -> aproco\magpie\Tamira\Static Dishes\Food\StrotiSlicedHam.nif
+STAT 1431A5 _mag_HamNEgg -> aproco\magpie\Tamira\Static Dishes\Sets\PlateHamEgg.nif
+STAT 1431A6 _mag_CookedBacon2 -> aproco\magpie\mealtimeyum\bacon.nif
+STAT 1431A8 _mag_Coffee -> aproco\magpie\Tamira\Static Dishes\Sets\CoffeeCupFull.nif
+STAT 1431AC _mag_FamilyTree -> aproco\magpie\lor\converted\paintings\paintingfamilytree.nif
+STAT 144DFC _mag_WashBasicTowel -> aproco\magpie\lakeview\clutter\lvnoblewashbasintowel02.nif
+STAT 144DFD _mag_Washbasin -> aproco\magpie\lakeview\clutter\lvnoblewashbasin01.nif
+STAT 144E12 _mag_PlanterGlazedWhite -> aproco\magpie\k13ran64\Planters\Glazed_Planter_BYOH_White.nif
+STAT 1482CC _mag_BuildingCornerIvy -> aproco\magpie\lakeview\exterior\lvcryptentranceivy.nif
+STAT 1482CF _mag_DrinkingHorns -> aproco\magpie\00_Laboratorium\oaristys\the witcher\decoration\horns.nif
+STAT 1482D8 _mag_WallPaperBlueStars -> aproco\magpie\architecture\WallPaperBlueStars.nif
+STAT 1482D9 _mag_WallPaperGreenStars -> aproco\magpie\architecture\WallPaperGreenStars.nif
+STAT 1482E6 _mag_FloorTileBath02 -> aproco\magpie\hypn0s\aaarchitecture\hypn0sfloormosaic.nif
+STAT 1482EC _mag_WoodenTray -> aproco\magpie\robobirdie\decorations\clutter\tray.nif
+STAT 1482F1 _mag_BowlFlowers -> aproco\magpie\runs\2\sugar_bowl_02.nif
+STAT 1482FA _mag_SideboardDarkGold -> aproco\magpie\runs\2\sideboard_01.nif
+STAT 1482FD _mag_CandleLeaf -> aproco\magpie\runs\2\candle_leaf.nif
+STAT 1482FF _mag_StuddedBoxDark -> aproco\magpie\runs\2\trunk_02.nif
+STAT 148302 _mag_WashBoardBarrel -> aproco\magpie\stroti\resource pack ii\Washing\WashBoardBarrel.nif
+STAT 148306 _mag_DecoCube -> aproco\magpie\queenacademe\misc\qa_cube.nif
+STAT 148309 _mag_Clothesline -> aproco\magpie\stroti\resource pack ii\Washing\clothesline01.nif
+STAT 148320 _mag_KitchenSink -> aproco\magpie\lakeview\furniture\lvnoblebench01base01static.nif
+STAT 148328 _mag_BasketCandlesDUPLICATE001 -> aproco\magpie\lakeview\clutter\lvbasketcandles01.nif
+STAT 14832C _mag_Basket03Static -> Clutter\Basket03.NIF
+STAT 148332 _mag_CrateRolledFabrics -> aproco\magpie\00_Laboratorium\jokerinesresources\crate_linen.nif
+STAT 148336 _mag_FabricStack01 -> aproco\magpie\oaristys\the witcher\decoration\Cloth\ClothPile01.nif
+STAT 148338 _mag_FabricStack02 -> aproco\magpie\oaristys\the witcher\decoration\Cloth\ClothPile02.nif
+STAT 14834C _mag_LargeGlassJug -> aproco\magpie\00_Laboratorium\runs\food\drinks\jug_water1.nif
+STAT 14F0A3 _mag_DecoyLoon -> aproco\Magpie\robobirdie\decorations\clutter\decoy_loon.nif
+STAT 14F0A5 _mag_HangingPlanterRuinsPot01 -> aproco\Magpie\robobirdie\decorations\clutter\hangingplanter_ruinspot01.nif
+STAT 14F0A7 _mag_HangingPlanterRuinsPot02 -> aproco\Magpie\robobirdie\decorations\clutter\hangingplanter_ruinspot02.nif
+STAT 1526C6 _mag_Railing01 -> aproco\magpie\00_Laboratorium\bshighrock\architecture\seaview\laboratorium\balconywood01DOUBLE.nif
+STAT 1526C7 _mag_RailingPost -> aproco\magpie\00_Laboratorium\architecture\jets\riften\porchrailingendpost.nif
+STAT 1577FC _mag_WallPaperYellowPeeling -> aproco\magpie\architecture\WallPaperYellowPeeling.nif
+STAT 157806 _mag_BenchDarkWood -> aproco\magpie\00_Laboratorium\lor\bench3.nif
+STAT 15C90B _mag_WHIntWoodLogVerticalThin01 -> aproco\magpie\architecture\windhelm\interiorkits\wood\whintwoodlogverticalthin01DB.nif
+STAT 15C90C _mag_WHIntWoodLogHorizontalThin01 -> aproco\magpie\architecture\windhelm\interiorkits\wood\whintwoodloghorizontalthin01DB.nif
+STAT 15C90D _mag_BYOHBYOHWRlonghsRRoof01 -> aproco\magpie\architecture\byohbyohwrlonghslroof01_custom.nif
+STAT 15E43F _mag_TreasuryRoom -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\int\treasury01.nif
+STAT 15E443 _mag_CellarRoomPodest -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\int\treasury01Podest02.nif
+STAT 15E453 _mag_FloorTileMarbleSquares -> aproco\magpie\architecture\magwhintwoodfloormid01_stone.nif
+STAT 1635CD _mag_FloorWoodRed -> aproco\magpie\architecture\magwhintwoodfloormid01.nif
+STAT 1635CE _mag_FloorTileMarbleInlay -> aproco\Magpie\architecture\floortilemarbleinlay.nif
+STAT 1635D0 _mag_StatueLionLeft -> aproco\Magpie\robobirdie\statues\lionstatue_left.nif
+STAT 1635D2 _mag_StatueLionRight -> aproco\Magpie\robobirdie\statues\lionstatue_right.nif
+STAT 166B61 _mag_WHIntWoodLogVerticalThinShort01 -> aproco\magpie\architecture\windhelm\interiorkits\wood\whintwoodlogverticalthinshort01DB.nif
+STAT 16DA44 _mag_PaintingFlowersLight -> aproco\Magpie\decor\paintings\PaintingFlowersLight.nif
+STAT 16DA45 _mag_PaintingPeaches -> aproco\Magpie\decor\paintings\PaintingPeaches.nif
+STAT 16DA47 _mag_PaintingPortraitGreenDress01 -> aproco\Magpie\decor\paintings\PaintingPortraitWomanGreenDress.nif
+STAT 16DA49 _mag_PaintingPortraitGreenDress02 -> aproco\Magpie\decor\paintings\PortraitWomanGreenDress02.nif
+STAT 16DA4B _mag_PaintingDragon -> aproco\Magpie\decor\paintings\PaintingDragon.nif
+STAT 16DA50 _mag_PaintingBurningPort -> aproco\Magpie\decor\paintings\PaintingBurningPort.nif
+STAT 16DA52 _mag_PaintingRuinsGhostly -> aproco\Magpie\decor\paintings\PaintingRuinsGhostly.nif
+STAT 16DA58 _mag_PaintingNudeBack -> aproco\Magpie\decor\paintings\PaintingNudeBackWide.nif
+STAT 16DA5A _mag_PaintingPortraitBoy -> aproco\Magpie\decor\paintings\PaintingPortraitBoy.nif
+STAT 16DA5C _mag_PaintingPortraitWomanGlueGold -> aproco\Magpie\decor\paintings\PaintingPortraitWomanBlueGold.nif
+STAT 16DA5E _mag_PaintingPortraitWomanBowl -> aproco\Magpie\decor\paintings\PaintingPortraitWomanBowl.nif
+STAT 171242 _mag_RackofTools -> aproco\magpie\architecture\newworld\extras\rack.nif
+STAT 172DCA _mag_PaintingSingerSargent -> aproco\Magpie\decor\paintings\PortraitWomanBored.nif
+STAT 177F11 _mag_WallCopperPlates -> aproco\Magpie\architecture\wallpanelcopperplates02.nif
+STAT 17B7C3 _mag_WallTile01 -> aproco\magpie\lor\converted\floor\wyzimafloor2.nif
+STAT 17B7CB _mag_StatueCryingMary -> aproco\magpie\Lor\cvstatuemary01.nif
+STAT 180915 _mag_PillowPatternedGold -> aproco\magpie\Lor\various clutter\common\cushion1.nif
+STAT 180918 _mag_PillowPatternedGold02 -> aproco\magpie\Lor\various clutter\common\cushion2.nif
+STAT 18091A _mag_PillowPatternedRed -> aproco\magpie\Lor\various clutter\common\cushion3.nif
+STAT 18091C _mag_PillowPatternedBlue -> aproco\magpie\Lor\various clutter\common\cushion4.nif
+STAT 18092A _mag_HangingQuiltTree -> aproco\magpie\Lor\canopy.nif
+STAT 19153B _mag_GrainPile01 -> aproco\magpie\decorations\containers\sack_o_grain.nif
+STAT 191542 _mag_WindowboxPlanter02 -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\woodwindowsill02.nif
+STAT 196679 _mag_ArchArcades -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\castle\arcades01.nif
+STAT 1966E5 _mag_GreenhouseRoofCorner -> aproco\magpie\architecture\greenhouse\greenhouseroofcorner01.nif
+STAT 19678A _mag_HouseFront01 -> aproco\magpie\architecture\mb\extras\marburgeingang.nif
+STAT 196790 _mag_HouseFrontPatio01 -> aproco\magpie\architecture\newworld\ice\icetreppenmauer.nif
+STAT 19B8B3 _mag_SATOrnamentRound01 -> aproco\magpie\winter_holiday_resource_pack\hanging_tree_decorations\bulbs\fancy\Bulb_Shiny_Green_Gold_Pearls.nif
+STAT 1A5AF1 _mag_RomanPot01 -> aproco\magpie\lor\Romanpot1STATIC.nif
+STAT 1A5AF5 _mag_BooksTable -> aproco\Magpie\lor\various clutter\common\furniture_eurobooktable02.nif
+STAT 1AFD39 _mag_StonePlanter -> aproco\magpie\architecture\mb\asyl\flowerpot.nif
+STAT 1AFD43 _mag_StatueBirdStone -> aproco\magpie\oaristys\the witcher\Statues\Bird_stone.nif
+STAT 1AFD4E _mag_BalconyRailingSm -> aproco\Magpie\_00breton_keep\interior\ramprail_sm.nif
+STAT 1AFDB0 _mag_Sunflower01 -> aproco\Magpie\reiner\sunflower02.nif
+STAT 1AFDB2 _mag_Sunflower02 -> aproco\Magpie\reiner\sunflowerlow.nif
+STAT 1AFDB7 _mag_WateringCanLarge -> aproco\Magpie\insanity\clutter\wateringcan_static.nif
+STAT 1AFDCF _mag_ClimbingIvy02 -> aproco\Magpie\aacastle\villa\valek\ivy04.nif
+STAT 1B4EED _mag_DresserDark -> aproco\magpie\black thorn keep\interior\furniture\dresser01.nif
+STAT 1B4EF4 _mag_CabinetDark -> aproco\magpie\black thorn keep\interior\furniture\cabnet.nif
+STAT 1B4EFB _mag_ChestDarkWood01 -> aproco\magpie\black thorn keep\interior\furniture\chest01.nif
+STAT 1B4EFD _mag_ChestDarkMetal -> aproco\magpie\black thorn keep\interior\furniture\chest02.nif
+STAT 1B4F0A _mag_Lattice02 -> aproco\magpie\black thorn keep\misc ext\lattice.nif
+STAT 1B4F15 _mag_ClimbingIvy03 -> aproco\Magpie\aacastle\villa\valek\ivy06.nif
+STAT 1BA04A _mag_StatueLovers -> aproco\magpie\oaristys\the witcher\Statues\StatueLovers.nif
+STAT 1CE4CC _mag_ArmorStand01 -> aproco\magpie\lor\converted\clutter\armourstand.nif
+STAT 1CE4CE _mag_ArmorStand02 -> aproco\magpie\balcer58\clutter\noblearmorstand01.nif
+STAT 1CE4D0 _mag_BlacksmithChimney01 -> aproco\Magpie\architecture\blacksmithchimney01_custom.nif
+STAT 1CE52F _mag_MetalPoleDwemer -> aproco\magpie\BASIC SHAPES\pole-dwemer.nif
+STAT 1CE531 _mag_SShapePoleDwemer -> aproco\magpie\BASIC SHAPES\Pole-S-Shape-End.nif
+STAT 1CE539 _mag_WFSkeletonWithHat -> aproco\magpie\bobmods\sc_skel\sc_skel_hat.nif
+STAT 1CE554 _mag_CeramicBowlCrucible -> aproco\magpie\mathys_resources\pottery\mathys_repo_pottery_05.nif
+STAT 1CE572 _mag_ShovelStatic01 -> Clutter\Common\Shovel02.nif
+STAT 1CE57D _mag_DwemerCogPile01 -> aproco\magpie\oaristys\Clutter\DweCogPile01.nif
+STAT 1D36F7 _mag_CandelabraGoldOff -> aproco\magpie\00_laboratorium\00_moosmupfel\candelabranew.nif
+STAT 1D8800 _mag_Sundial02 -> aproco\magpie\Boric123\InsanitySorrow\Clocks\Sundial01.nif
+STAT 1D880B _mag__BushRoses -> aproco\magpie\Boric123\Oaristys\The Witcher\Plants\Rose.nif
+STAT 1D881B _mag_HayBaleRound -> aproco\magpie\Boric123\InsanitySorrow\Farming\HayBale03.nif
+STAT 1D8824 _mag_BenchMarbleVilla02 -> aproco\magpie\lor\converted\furniture\marblebench.nif
+STAT 1D8827 _mag_TableMarbleRound -> aproco\magpie\lor\converted\furniture\marbletable.nif
+STAT 1D8842 _mag_BustDeco01 -> aproco\magpie\lor\converted\various\headdeco1.nif
+STAT 1D8845 _mag_BustDeco02 -> aproco\magpie\lor\converted\various\headdeco2.nif
+STAT 1D8860 _mag_StableFloor -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\stable01Floor.nif
+STAT 1DDA14 _mag_RolledCanvas -> aproco\magpie\Boric123\Oaristys\The Witcher\Decoration\Canvas_Rolled.nif
+STAT 1DDA26 _mag_CandleFreeFlame -> aproco\magpie\Clutter\Imperial\ImpCandle01.nif
+STAT 1E7C46 _mag_SunflowersGroup -> aproco\magpie\Boric123\CDProjekt RED\Sunflower.nif
+STAT 1E7C48 _mag_WHIntWoodLogHorizontalThinShort01 -> Architecture\Windhelm\InteriorKits\Wood\WHIntWoodLogHorizontalThinShort01.nif
+STAT 1E7C49 _mag_GardenDividerFence -> aproco\magpie\Lakeview\Exterior\lvgardendivider.nif
+STAT 1E7C4A _mag_OutdoorBath -> aproco\magpie\lakeview\interior\bathroom\lvbathroombath01.nif
+STAT 1E7C4C _mag_BlacksmithHammerStatic01 -> Clutter\Blacksmith\BlacksmithNoviceHammer01.nif
+STAT 1E7C50 _mag_ElderScrollCabinetBase01 -> aproco\magpie\lakeview\furniture\lvelderscrollcabinetbase01static.nif
+STAT 1F76C0 _mag_StatueAzura -> aproco\Magpie\man_daedra\shrineofazura01.nif
+STAT 1F76C2 _mag_StatueMephala -> aproco\Magpie\man_daedra\mephala_small.nif
+STAT 1F76CC _mag_Stalactite01 -> aproco\magpie\dungeons\caves\clutter\stalactite01.nif
+STAT 1F76CE _mag_Stalactite02 -> aproco\magpie\dungeons\caves\clutter\stalactite02.nif
+STAT 1F76D0 _mag_Stalactite03 -> aproco\magpie\dungeons\caves\clutter\stalactite03.nif
+STAT 1F76D2 _mag_Stalactite04 -> aproco\magpie\dungeons\caves\clutter\Stalactite04.nif
+STAT 1F76D4 _mag_Stalactite05 -> aproco\magpie\dungeons\caves\clutter\stalactite05.nif
+STAT 1F76D6 _mag_Stalactite06 -> aproco\magpie\dungeons\caves\clutter\stalactite06.nif
+STAT 1F7798 _mag_AltarAzura -> aproco\magpie\nickorasu\pantheons\DaedricSeries\Azura\Altars\AzuraAltarGeneric.nif
+STAT 1F7799 _mag_AltarBoethiah -> aproco\magpie\nickorasu\pantheons\DaedricSeries\Boethiah\Altars\BoethiahAltarGeneric.nif
+STAT 1F779C _mag_AltarMephala -> aproco\magpie\nickorasu\pantheons\DaedricSeries\Mephala\Altars\MephalaAltarGeneric.nif
+STAT 1F77A5 _mag_AltarBoethiahSpikes -> aproco\magpie\nickorasu\pantheons\DaedricSeries\Boethiah\Altars\Ap_BoethiahAltar01.nif
+STAT 1FC8F0 _mag_SATTreePottedDwemer -> aproco\magpie\_festive\tree04dwemer.nif
+STAT 1FC8FC _mag_WallWoodPaneling01NoPlaster -> aproco\magpie\_00breton_keep\interior\wall001_custom.nif
+STAT 1FC909 _mag_CrownMoulding -> aproco\magpie\_00breton_keep\interior\mergeboard.nif
+STAT 201A4A _mag_StatueBoethiah -> aproco\magpie\loadscreenart\loadscreendsboethiah01_statueonly.nif
+STAT 21AF7D _mag_LibraryChairThrow -> aproco\Magpie\furniture\pwAzschair02Throw.nif
+STAT 2200D3 _mag_RTMausoleum01 -> aproco\Magpie\architecture\rtmausoleum01_custom.nif
+STAT 2251EE _mag_LanternElven -> aproco\magpie\oaristys\the witcher\Lamps\Lamp_Elven.nif
+STAT 225214 _mag_TreeBenchPodest -> aproco\magpie\stroti\Treebench\BenchPodest.nif
+STAT 225216 _mag_TreeBench -> aproco\magpie\queenacademe\strotiretextures\treebench.nif
+STAT 22522C _mag_RusticBirdFeeder -> aproco\magpie\stroti\Rustic Furniture\BirdFeeder.nif
+STAT 22524E _mag_IvyPostTop -> aproco\Magpie\kelretu\clutter\ivy04.nif
+STAT 225250 _mag_IvyLongThin -> aproco\Magpie\kelretu\clutter\ivy05.nif
+STAT 22527E _mag_StainedGlassJulianos -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Julianos\StainedGlass\ESOJulianosStainedGlassRound02Transparent.nif
+STAT 225283 _mag_StainedGlassAkatosh01 -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Akatosh\StainedGlass\ESOAkatoshStainedGlassRoundTransparent.nif
+STAT 225285 _mag_StainedGlassAkatosh02 -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Akatosh\StainedGlass\ESOAkatoshStainedGlassRound02transparent.nif
+STAT 225289 _mag_StainedGlassKynareth -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Kynareth\StainedGlass\ESOKynarethStainedGlassRound02Transparent.nif
+STAT 22528B _mag_WindowWallDoubleArchedNoLead -> aproco\magpie\architecture\WallWindowsDoubleInt.nif
+STAT 225295 _mag_AlchDistillerBrass -> aproco\Magpie\clutter\alchemy\distiller.nif
+STAT 22A3A3 _mag_StainedGlassKynareth02 -> aproco\magpie\nickorasu\pantheons\AedricSeries\Kynareth\StainedGlass\SkyrimKynarethStainedGlassRoundTransparent.nif
+STAT 22F4AE _mag_SFarmShed01 -> aproco\Magpie\architecture\sfarmshed01_custom.nif
+STAT 22F4B7 _mag_PuzzleCubeStatic -> Clutter\Dwemer\DwePuzzleCube.nif
+STAT 22F4B8 _mag_BarRagStatic -> Clutter\Common\Rag01.nif
+STAT 22F520 _mag_PotionGreenGR02 -> Clutter\Potions\PotionFortifyStamRateGreat.nif
+STAT 22F521 _mag_PotionDarkRed02 -> Clutter\Potions\PotionResistFire100.nif
+STAT 22F523 _mag_PotionGreenGR01 -> Clutter\Potions\PotionFortifyStamRateLesser.nif
+STAT 22F525 _mag_PotionWhite01 -> Clutter\Potions\PotionInvisibiltyLesser.nif
+STAT 22F52A _mag_PotionGreen01 -> Clutter\Potions\PotionStaminaLesser.nif
+STAT 22F52B _mag_PotionDarkYellow02 -> Clutter\Potions\PotionResistShock100.nif
+STAT 22F52C _mag_PotionRed02 -> Clutter\Potions\PotionHealthGreat.nif
+STAT 22F531 _mag_PotionWhite02 -> Clutter\Potions\PotionInvisibiltyGreat.nif
+STAT 22F534 _mag_PotionBlueGR03 -> Clutter\Potions\PotionFortifyMagickaExtra.nif
+STAT 22F536 _mag_PotionDarkCyan01 -> Clutter\Potions\PotionResistFrost50.nif
+STAT 22F53E _mag_PotionYellow01 -> Clutter\Potions\PotionFortifyCarryLesser.nif
+STAT 22F542 _mag_PotionRedGR03 -> Clutter\Potions\PotionFortifyHealthExtra.nif
+STAT 22F548 _mag_PotionRedGR01 -> Clutter\Potions\PotionFortifyHealRateLesser.nif
+STAT 22F54F _mag_PotionYellow03 -> Clutter\Potions\PotionFortifyCarryExtra.nif
+STAT 22F551 _mag_PoisonBlack05 -> Clutter\Potions\PoisonFear05.nif
+STAT 22F552 _mag_PoisonDarkYellow -> Clutter\Potions\PoisonWeaknessShock.nif
+STAT 22F556 _mag_PoisonRed01 -> Clutter\Potions\PoisonDamageHealth01.nif
+STAT 22F55A _mag_PoisonGreen02 -> Clutter\Potions\PoisonDamageStamina02.nif
+STAT 22F55E _mag_PoisonDarkRed -> Clutter\Potions\PoisonWeaknessFire.nif
+STAT 22F560 _mag_PoisonDarkCyan -> Clutter\Potions\PoisonWeaknessFrost.nif
+STAT 22F566 _mag_PoisonBlack02 -> Clutter\Potions\PoisonFear02.nif
+STAT 22F569 _mag_PoisonDarkBlue -> Clutter\Potions\PoisonWeaknessMagicka.nif
+STAT 22F56D _mag_PoisonRedGR01 -> Clutter\Potions\PoisonDamageHealthLinger01.nif
+STAT 22F5DC _mag_SPatioWallEntrance -> aproco\Magpie\architecture\spatiowallentrance_custom.nif
+STAT 23475E _mag_StainedGlassArkay -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Arkay\StainedGlass\ESOArkayStainedGlassRound02Transparent.nif
+STAT 234764 _mag_StainedGlassMara -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Mara\StainedGlass\ESOMaraStainedGlassRound02Transparent.nif
+STAT 234767 _mag_StainedGlassStendarr -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Stendarr\StainedGlass\ESOStendarrStainedGlassRound02Transparent.nif
+STAT 23476A _mag_StainedGlassTalos -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Talos\StainedGlass\TalosStainedGlassRoundTransparent.nif
+STAT 23476D _mag_StainedGlassZenithar -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Zenithar\StainedGlass\ESOZenitharStainedGlassRound02Transparent.nif
+STAT 239894 _mag_BrazierOblivion -> aproco\magpie\robobirdie\decorations\clutter\brazier_oblivioncemetary.nif
+STAT 23E9CD _mag_BoxWeatheredMetal -> aproco\Magpie\runs\2\box_02.nif
+STAT 23E9CF _mag_BoxSilverMetal -> aproco\Magpie\runs\2\box_01.nif
+STAT 243B58 _mag_StatueFrogFountain -> aproco\magpie\enderal\architecture\ark\wasserspeier\frog01.nif
+STAT 243B5B _mag_RoundTowerExt01 -> aproco\Magpie\bshighrock\architecture\seaview\mr_siika\castle2\roundtower01_custom.nif
+STAT 243B5D _mag_RoundTowerExt01Base -> aproco\magpie\bshighrock\architecture\Seaview\mr_siika\Castle2\roundTower01base.nif
+STAT 243B5F _mag_RoundTowerInt01 -> aproco\Magpie\bshighrock\architecture\seaview\mr_siika\castle2\int\roundtowerint_custom.nif
+STAT 243B6B _mag_LadderShelf -> aproco\magpie\Staedtler Original\pwShelfLadder.nif
+STAT 243B92 _mag_CasewithRose -> aproco\magpie\black thorn keep\interior\furniture\rose_case.nif
+STAT 27661A _mag_HoneyPotStatic -> Clutter\HoneyPot01.nif
+STAT 294C50 _mag_SpecimenCabinetStatic -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\specimencabinet01.nif
+STAT 299D7E _mag_GlovesHanging -> aproco\magpie\TissDevAveza\06-farmerglovesmgo.nif
+STAT 299DA2 _mag_PaintingRoundLovers -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\PaintingRoundLovers.nif
+STAT 29EECD _mag_PaintingOwl -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\paintingwood1024x728.nif
+STAT 29EED4 _mag_ClockFrame01Static -> aproco\Magpie\clockwork\architecture\victorianinterior\furniture\clockframe01.nif
+STAT 2BD59B _mag_SATCookieThumbprint -> aproco\magpie\kv\sweets\statics\cookie_thumbprint1.nif
+STAT 2BD59E _mag_SATCookieChocoChip -> aproco\magpie\kv\sweets\statics\cookie_chip1.nif
+STAT 2BD5A0 _mag_SATCookieStar -> aproco\magpie\kv\sweets\statics\cookie_star1.nif
+STAT 2C26A5 _mag_SATStockingRed -> aproco\magpie\insanity\christmas02\clutter\stockings\Stocking11.nif
+STAT 2C26B6 _mag_SATTreeDeco -> aproco\magpie\kreistemas\xmastree.nif
+STAT 2C26B8 _mag_SATTreeEmpty -> aproco\magpie\_festive\tree01plain.nif
+STAT 2C26BD _mag_SATSnowglobe -> aproco\magpie\insanity\clutter\snowglobes\SnowGlobe_Blank.nif
+STAT 2C26C3 _mag_SATGiftRedYellow -> aproco\magpie\kreistemas\giftbox_red.nif
+STAT 2C26CD _mag_SATCandyCaneSingle -> aproco\magpie\kv\sweets\statics\candy_cane1.nif
+STAT 2C26F6 _mag_RugAntiqueBlueRedBold -> aproco\magpie\RugsofAntiquity\TlafRUG (14).nif
+STAT 2C26F8 _mag_RugAntiqueBlueRedSmallPattern -> aproco\magpie\RugsofAntiquity\TlafRUG (15).nif
+STAT 2C26FA _mag_RugAntiqueBlueRedSmallPattern02 -> aproco\magpie\RugsofAntiquity\TlafRUG (16).nif
+STAT 2C26FC _mag_RugAntiqueRichGold -> aproco\magpie\RugsofAntiquity\TlafRUG (17).nif
+STAT 2C2700 _mag_RugAntiqueRedCream -> aproco\magpie\RugsofAntiquity\TlafRUG (19).nif
+STAT 2C2706 _mag_RugAntiqueRedLightBlue -> aproco\magpie\RugsofAntiquity\TlafRUG (23).nif
+STAT 2C270A _mag_RugAntiqueQuiltedShapes -> aproco\magpie\RugsofAntiquity\TlafRUG (25).nif
+STAT 2C270C _mag_RugAntiqueRedAnimals -> aproco\magpie\RugsofAntiquity\TlafRUG (31).nif
+STAT 2C2710 _mag_RugAntiqueCloseRed -> aproco\magpie\RugsofAntiquity\TlafRUG (34).nif
+STAT 2C2712 _mag_RugAntiquePalePainterly -> aproco\magpie\RugsofAntiquity\TlafRUG (39).nif
+STAT 2C2716 _mag_RugAntiquePaleOrangeCream -> aproco\magpie\RugsofAntiquity\TlafRUG (42).nif
+STAT 2C273D _mag_FloorTileAntique01 -> aproco\magpie\FloorsofAntiquity\DF_Flooring_Portugal02.nif
+STAT 2C2745 _mag_FloorTileAntique04 -> aproco\magpie\FloorsofAntiquity\DF_Flooring_Portugal12.nif
+STAT 2C2747 _mag_FloorTileAntique05 -> aproco\magpie\FloorsofAntiquity\DF_Flooring_Portugal28.nif
+STAT 2C2748 _mag_FloorTileAntiqueMosaic -> aproco\magpie\FloorsofAntiquity\DF_Flooring_Portugal21.nif
+STAT 2C274E _mag_FloorTileAntique07 -> aproco\magpie\FloorsofAntiquity\DF_Flooring_Portugal37.nif
+STAT 2C2760 _mag_BathClawFoot -> aproco\magpie\insanity\furniture\common\Tubs\ClawTub01b.nif
+STAT 2C27BF _mag_PitcherBrass01Custom -> aproco\magpie\oaristys\the witcher\dishes\carafe01custom.nif
+STAT 2C78D0 _mag_BathtubStopper -> aproco\magpie\TissDevAveza\05-BouchonBaignoire.nif
+STAT 2C78EE _mag_ScrubBrush02 -> aproco\magpie\insanity\clutter\common\ScrubbyBrushUC.nif
+STAT 2C7903 _mag_RosePetalsRed01 -> aproco\Magpie\aacastle\clutter\roses\rose_floor_full.nif
+STAT 2C7905 _mag_RosePetalsRed02 -> aproco\Magpie\aacastle\clutter\roses\rose_floor_scattered.nif
+STAT 2C7907 _mag_RosePetalsRed03 -> aproco\Magpie\aacastle\clutter\roses\roses_floor.nif
+STAT 2C7909 _mag_RosePetalsRed04 -> aproco\Magpie\aacastle\clutter\roses\rose_floor_small.nif
+STAT 2C790C _mag_RosePetalsRed05 -> aproco\Magpie\aacastle\clutter\roses\rose_floor_verysmall.nif
+STAT 2C7930 _mag_PlantPotBamboo -> aproco\Magpie\aacastle\hammerfell\clutter\potplant03.nif
+STAT 2C7933 _mag_PlantPotIvyClimbing -> aproco\Magpie\aacastle\hammerfell\clutter\potplant01.nif
+STAT 2C7936 _mag_PlantPotIvySmall -> aproco\Magpie\aacastle\hammerfell\clutter\potplant04.nif
+STAT 2C7938 _mag_PlanterCeramicSoil -> aproco\magpie\aacastle\hammerfell\clutter\pottery04.nif
+STAT 2C793D _mag_PlanterWhiteStone -> aproco\magpie\aacastle\hammerfell\clutter\brazier.nif
+STAT 2C795F _mag_PlanterBucketSoilOnly -> aproco\magpie\queenacademe\garden\qa_planterbucket.nif
+STAT 2C7986 _mag_StatueManwithBird -> aproco\magpie\oaristys\the witcher\statues\StatueWithBird.nif
+STAT 2CCAA5 _mag_RoundedWallHook -> aproco\magpie\aaa-interior\HermitMountainHouse\staffholder.nif
+STAT 2D1C10 _mag_NoteBoardFrame -> aproco\magpie\aaa-interior\HermitMountainHouse\treasurewall-notesVertion.nif
+STAT 2D1C11 _mag_NoteBoardFabric -> aproco\Magpie\aaa-interior\hermitmountainhouse\treasurewallbrownfabric.nif
+STAT 2D1C16 _mag_SurfaceMountVictorian -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\chandelier02.nif
+STAT 2D1C45 _mag_LanternDwmerHangingOn -> aproco\magpie\aaa-interior\hermitmountainhouse\oillamp-hanging.nif
+STAT 2D1C51 _mag_LanternRustyStandingOn -> aproco\magpie\aaa-interior\HermitMountainHouse\oillamp-sittingCustom-ON.nif
+STAT 2D6D62 _mag_BasketAkaviri01 -> aproco\magpie\MAYneslea\clutter\MAYnesleaWovenBasket1.nif
+STAT 2D6D64 _mag_BasketAkaviri02 -> aproco\magpie\MAYneslea\clutter\MAYnesleaWovenBasket2.nif
+STAT 2D6D66 _mag_BasketAkaviri03 -> aproco\magpie\MAYneslea\clutter\MAYnesleaWovenBasket3.nif
+STAT 2D6D6E _mag_CoffeePotSet -> aproco\magpie\aaa-interior\HermitMountainHouse\coffee-set.nif
+STAT 2D6D70 _mag_KnifeBlock -> aproco\magpie\aaa-interior\HermitMountainHouse\ChoppingBlock.nif
+STAT 2D6D72 _mag_CrystalBallBronze -> aproco\magpie\aaa-interior\HermitMountainHouse\CrystalBallcustom.nif
+STAT 2D6D74 _mag_BarrelFabrics -> aproco\magpie\aaa-interior\HermitMountainHouse\MakeoverBucketMaster.nif
+STAT 2D6D76 _mag_JarSpiceRound -> aproco\magpie\aaa-interior\HermitMountainHouse\pot-spices-rough2.nif
+STAT 2D6D78 _mag_SoulGemBasket -> aproco\magpie\aaa-interior\HermitMountainHouse\soulgembasket1.nif
+STAT 2D6D7A _mag_TowelRackRustic -> aproco\magpie\aaa-interior\HermitMountainHouse\towelrack02c-both-custom.nif
+STAT 2D6D7C _mag_BronzeCupLidded -> aproco\magpie\aaa-interior\HermitMountainHouse\VaseJarCombo.nif
+STAT 2D6D7E _mag_ChestCarvedSmall -> aproco\magpie\aaa-interior\HermitMountainHouse\wardrobe-tinybox.nif
+STAT 2D6D82 _mag_WateringCanLargeRusty -> aproco\magpie\aaa-interior\hermitmountainhouse\wateringcaninsanity.nif
+STAT 2D6D84 _mag_WallSconce01 -> aproco\magpie\robobirdie\decorations\lighting\sconce_02_on_bronze.nif
+STAT 2DBF06 _mag_CabinetDwemerOld -> aproco\magpie\DwarvenEastern\Containers\cabinet.nif
+STAT 2E1041 _mag_ShelfOpenMetal -> aproco\magpie\DwarvenEastern\Dungeons\Interior\bookshelf.nif
+STAT 2E1045 _mag_MetalStool01 -> aproco\magpie\DwarvenEastern\Furniture\stool1.nif
+STAT 2E1047 _mag_MetalStool02 -> aproco\magpie\DwarvenEastern\Furniture\stool2.nif
+STAT 2E1049 _mag_ChairMetal01 -> aproco\magpie\DwarvenEastern\Furniture\chair.nif
+STAT 2E104B _mag_DeskMetal -> aproco\magpie\DwarvenEastern\Containers\desk.nif
+STAT 2E105A _mag_CabinetMetalWardrobe -> aproco\magpie\DwarvenEastern\Containers\closet.nif
+STAT 2E106A _mag_TapestryCeilingBlueFlowers -> aproco\magpie\robobirdie\tapestries\roof_cloth.nif
+STAT 2E106C _mag_WoodenBoxShallow02 -> aproco\magpie\queenacademe\garden\qa_planterlong.nif
+STAT 2E107B _mag_PlanterNobleEmpty -> aproco\magpie\tsrd\planters\planternobleempty01.nif
+STAT 2E1090 _mag_BasketHandleStatic -> Clutter\Basket06.nif
+STAT 2E10B4 _mag_ScarecrowGarden -> aproco\magpie\stroti\Resource Pack\Scarecrow\scarecrow02.nif
+STAT 2E110B _mag_SackDirt01 -> aproco\magpie\robobirdie\decorations\containers\sack_o_grain.nif
+STAT 2E1114 _mag_WRTempleTreeSaplingStatic -> Clutter\WRTempleTreeSaplingSample01.nif
+STAT 2E111C _mag_ShopBrush -> aproco\magpie\oaristys\the witcher\Tools\Brush.nif
+STAT 2E111F _mag_ToolMeasure -> aproco\magpie\oaristys\the witcher\Tools\Measure.nif
+STAT 2E1122 _mag_Pliers01 -> aproco\magpie\oaristys\the witcher\Tools\Plier01.nif
+STAT 2E1128 _mag_PaintbrushSingle -> aproco\magpie\aaa-interior\HermitMountainHouse\PaintBrush-Solo.nif
+STAT 2E112A _mag_PaintJarandBrush -> aproco\magpie\aaa-interior\HermitMountainHouse\Paintbrush-and-Paint-Can.nif
+STAT 2E112F _mag_SawLong -> aproco\magpie\oaristys\the witcher\Tools\Saw02.nif
+STAT 2E1131 _mag_Sickle -> aproco\magpie\oaristys\the witcher\Tools\Sickle.nif
+STAT 2E1134 _mag_LinenWrapStatic -> Clutter\Ruins\RuinsLinenWrap01.nif
+STAT 2E1148 _mag_StatueGriffon -> aproco\magpie\Griffon Fortress\Statues\wingedGriffonStatue.nif
+STAT 2E114A _mag_StatuePlatform01 -> aproco\magpie\Griffon Fortress\Statues\statuePlatform03.nif
+STAT 2E6305 _mag_ArmorRackShieldDummy -> Clutter\DummyItems\DummyShield01.nif
+STAT 2E6306 _mag_ArmorRackGauntletsDummy -> Clutter\DummyItems\DummyGauntlets01.nif
+STAT 2E6307 _mag_ArmorRackBootsDummy -> Clutter\DummyItems\DummyBoots01.nif
+STAT 2E6308 _mag_ArmorRackCuirassDummy -> Clutter\DummyItems\DummyCuirass01.nif
+STAT 2E6309 _mag_ArmorRackHelmetDummy -> Clutter\DummyItems\DummyHelmet01.nif
+STAT 2E6314 _mag_RugPlainBrownStained -> aproco\magpie\robobirdie\Rugs\RugPlainBrownStained.nif
+STAT 2E632C _mag_BushFlowersPink -> aproco\magpie\Tamira\New Flowers\TamFlowerPink.nif
+STAT 2F0579 _mag_TableRecDarkWood -> aproco\magpie\lor\table6.nif
+STAT 2F0587 _mag_ChairwithFabric -> aproco\magpie\lor\various clutter\furniture_eurochair01.nif
+STAT 2F0589 _mag_BookcaseLowLong -> aproco\magpie\lor\various clutter\furniture_eurobookcase_hunge_01.nif
+STAT 2F05E7 _mag_PaintingKnightKids -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\paintingfine1024x748.nif
+STAT 2FF96D _mag_TapestryHorsemanOrange -> Clutter\Common\Rug02.nif
+STAT 2FF975 _mag_PaintingFaithful -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\paintingfine1024x748.nif
+STAT 2FF976 _mag_PaintingWomanwithStainedGlass -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\paintingfine1024x748.nif
+STAT 2FF97B _mag_PaintingKnightLady -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\paintingfine1024x748.nif
+STAT 2FF9E3 _mag_PlantMonstera -> aproco\magpie\Tamira\Plants\TropicalPlant01.nif
+STAT 2FF9E5 _mag_PlantTropical01 -> aproco\magpie\Tamira\Plants\TropicalPlant02.nif
+STAT 2FF9E7 _mag_PlantBromeliad01 -> aproco\magpie\Tamira\Plants\TropicalShrub01.nif
+STAT 2FF9E9 _mag_PlantBromeliad02 -> aproco\magpie\Tamira\Plants\TropicalShrub02.nif
+STAT 2FF9EB _mag_PlantTropical02 -> aproco\magpie\Tamira\Plants\TropicalShrub03.nif
+STAT 2FF9ED _mag_PlantPrayer -> aproco\magpie\Tamira\Plants\TropicalShrub04.nif
+STAT 2FFA04 _mag_PipeSleeve -> aproco\magpie\aaa-interior\HermitMountainHouse\PipeSleevehermit.nif
+STAT 304B26 _mag_ShowerHead -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\showerhead01.nif
+STAT 309C8C _mag_PipeBrass64 -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\pipe64.nif
+STAT 309C8D _mag_PipeBrass32 -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\pipe32.nif
+STAT 309C8E _mag_PipeBrass16 -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\pipe16.nif
+STAT 309C90 _mag_PipeBrassJoint -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\pipejoin01.nif
+STAT 309C91 _mag_PipeBrassCorner -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\pipecorner01.nif
+STAT 309CCD _mag_RustyMetalTub -> aproco\magpie\runs\clutter\misc\rusty_tub.nif
+STAT 309CCF _mag_GlassSilvery -> aproco\Magpie\runs\kitchen\silver_vase.nif
+STAT 309CD2 _mag_HarpInstrument -> aproco\magpie\runs\deco\music\harp_01.nif
+STAT 309CD4 _mag_TelescopeTabletop -> aproco\magpie\runs\deco\study\telescope.nif
+STAT 309CD9 _mag_GlassJugWater -> aproco\magpie\runs\food\drinks\jug_water.nif
+STAT 309CDD _mag_BucketCocoaBeans -> aproco\magpie\runs\food\ingred\cocoa_bucket.nif
+STAT 309CE1 _mag_BoxFloralFabric -> aproco\magpie\runs\furn\chests\toy_box.nif
+STAT 309CE3 _mag_WaterPump -> aproco\magpie\runs\furn\kitchen\water_pump.nif
+STAT 309CEB _mag_YellowRoseBrassVase -> aproco\magpie\runs\garden\yellow_rose.nif
+STAT 309CEE _mag_WindowBayInt01 -> aproco\magpie\runs\imp\in_roof_corner_bay_r_custom.nif
+STAT 309CFF _mag_WindowBayExterior -> aproco\magpie\runs\imp\ex_common_window_01.nif
+STAT 319047 _mag_ArmchairRedLeather -> aproco\magpie\hypn0s\aafurniture\aaleatherchair.nif
+STAT 31907E _mag_WallAntlersLarge -> aproco\magpie\runs\deco\wall\antler_02.nif
+STAT 31908F _mag_BoxFursStatic -> aproco\magpie\aaa-interior\HermitMountainHouse\pelts-in-crate.nif
+STAT 31E1A7 _mag_ToolsBucket -> aproco\magpie\jokerine\SmithingBucket.nif
+STAT 31E1A9 _mag_LeatherStackStatic -> aproco\magpie\jokerine\LeatherStack.nif
+STAT 31E1AB _mag_LeatherStripsStatic -> aproco\magpie\jokerine\LeatherStripsStack.nif
+STAT 32330E _mag_HangingMushroomPlanter -> aproco\magpie\HiddenHearth\furniture\mushroomcaphangingplanter.nif
+STAT 323310 _mag_PlantOrchid01 -> aproco\magpie\HiddenHearth\Sins\floradragonstongue_orchid01.nif
+STAT 323318 _mag_BucketJet01 -> aproco\magpie\Jets\Bucket01.nif
+STAT 3377A4 _mag_CupUtensils -> aproco\magpie\aaa-interior\startercave\cup-with-utensils.nif
+STAT 3377AA _mag_WashTubRusty -> aproco\magpie\aaa-interior\thewell\washingstuff.nif
+STAT 3377AB _mag_IngredientDrawersSmall -> aproco\magpie\aaa-interior\thewell\newalchemydrawer.nif
+STAT 3377DF _mag_PlantSunflowersSmall -> aproco\magpie\ThatchedHouse\Sunflower.nif
+STAT 337848 _mag_FlowerMobile -> aproco\magpie\thatchedhouse\HangingFlowers.nif
+STAT 337849 _mag_WallShelves3 -> aproco\magpie\thatchedhouse\WallShelves.nif
+STAT 33C96F _mag_ModularTableBaseHole -> aproco\magpie\tf\craftingtable\CraftingTableBase02.nif
+STAT 341ACE _mag_WallWoodGlass -> aproco\magpie\kanrashop\ks-windowdoorframeb2Frost.nif
+STAT 341ADD _mag_WorkbenchFlowers -> aproco\magpie\clutter\garden\merchant_static_outside_akko_01.nif
+STAT 341ADF _mag_ClothesPile01 -> aproco\magpie\thatchedhouse\PileofClothes.nif
+STAT 341AE4 _mag_MoonStarsHanging -> aproco\magpie\kanrashop\starlamp.nif
+STAT 341AE6 _mag_BookOpenStaff01 -> aproco\magpie\aaa-interior\microcave\smallenchantingbook.nif
+STAT 341AF7 _mag_DwemerGyroStatic01 -> Clutter\Dwemer\DwarvenGyro.nif
+STAT 341AFF _mag_AlchDistillery02 -> aproco\magpie\oaristys\the witcher\alchemy\AlchDistillery02.nif
+STAT 341B01 _mag_AlchDistillery03 -> aproco\magpie\oaristys\the witcher\alchemy\AlchDistillery03.nif
+STAT 341B05 _mag_AlchPotonBurner -> aproco\magpie\aaa-interior\microcave\burnercustom.nif
+STAT 346C1C _mag_GlassDomeInt -> aproco\Magpie\dbm resources\dbmgalleryglassdome01.nif
+STAT 346C41 _mag_GardenCrateSeedlings -> aproco\magpie\aaa-interior\startercave\gardensmallcratePLANTSANDSEEDS.nif
+STAT 346C48 _mag_LongCratewithSoil -> aproco\magpie\aaa-interior\StarterCave\gardenlongcrate.nif
+STAT 346C4D _mag_CrateSmallwithSoil -> aproco\magpie\aaa-interior\StarterCave\gardensmallcrate.nif
+STAT 346C5B _mag_WateringCanRusty02 -> aproco\magpie\runs\garden\rusty_watering_can.nif
+STAT 35B1BF _mag_ClotheslineFreestanding -> aproco\magpie\ThatchedHouse\ClothesLineNoClothes.nif
+STAT 35B1C6 _mag_BoxGreenHerbs -> aproco\magpie\thatchedhouse\HerbBox.nif
+STAT 35B1CA _mag_FlowersPinkLupins -> aproco\magpie\ThatchedHouse\vurt_LupinusBush.nif
+STAT 35B1CB _mag_FlowerBlueLupins -> aproco\magpie\ThatchedHouse\vurt_Lupinus2.nif
+STAT 35B1CC _mag_FlowerPurpleLupins -> aproco\magpie\ThatchedHouse\vurt_Lupinus angustifolius.nif
+STAT 35B1CF _mag_HangingCarpet -> aproco\magpie\ThatchedHouse\HangingCarpet.nif
+STAT 35B1D7 _mag_OpenPage01 -> aproco\magpie\oaristys\paper\Sheet02b.nif
+STAT 35B1D9 _mag_OpenPage03 -> aproco\magpie\oaristys\paper\Sheet03b.nif
+STAT 35B1DA _mag_OpenPage04 -> aproco\magpie\oaristys\paper\Sheet03c.nif
+STAT 37A466 _mag_PaintingWoodIllustrationButterlfies -> aproco\magpie\clockwork\architecture\victorianinterior\paintings\paintingwood1024x728.nif
+STAT 37A468 _mag_PipeTInt01 -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\pipetint01.nif
+STAT 3897D3 _mag_CheeseStack01 -> aproco\magpie\queenacademe\food and dining\cheesestack.nif
+STAT 3897D6 _mag_BroomStatic -> Clutter\Common\Broom.nif
+STAT 3897D8 _mag_DwemerStrangeThing -> aproco\magpie\insanity\clutter\artifact02.nif
+STAT 3897DA _mag_DwemerBowl01 -> aproco\magpie\insanity\clutter\dwembowl01.nif
+STAT 3897DC _mag_DwemerGoblet01 -> aproco\magpie\insanity\clutter\dwemgoblet02.nif
+STAT 3897E2 _mag_GemGreaterGreen -> aproco\magpie\insanity\clutter\gemgreatergreen.nif
+STAT 3897E4 _mag_HourGlassTinyMudcrab -> aproco\magpie\insanity\clutter\hourglass04.nif
+STAT 3897E6 _mag_MortarPestleStoneTall -> aproco\magpie\insanity\clutter\mortar01.nif
+STAT 38E955 _mag_MathyPitcherAmphora -> aproco\magpie\mathys_resources\pottery\mathys_repo_pottery_11.nif
+STAT 38E969 _mag_TableRectangleSmall -> aproco\magpie\lor\converted\furniture\table5.nif
+STAT 393A72 _mag_TaesciPot01 -> aproco\magpie\MAYneslea\clutter\MAYnesleaTsaesciPot1.nif
+STAT 393A78 _mag_TaesciPot02 -> aproco\magpie\mayneslea\clutter\maynesleatsaescipot3.nif
+STAT 393A7E _mag_FloorTileRustic -> aproco\magpie\lor\converted\floor\elvenfloor.nif
+STAT 39DC97 _mag__BushRosesWhite -> aproco\magpie\oaristys\the witcher\Plants\rosebush_white.nif
+STAT 39DCA3 _mag_CrateMead -> aproco\magpie\oaristys\food\cratemead01.nif
+STAT 39DCA5 _mag_BucketClams -> aproco\magpie\fishmarket\bucketclams.nif
+STAT 39DCA7 _mag_PlateFishSteaks -> aproco\magpie\fishmarket\platefishsteak.nif
+STAT 39DCAC _mag_FishHanging02 -> aproco\magpie\mathys_resources\fishing set\mathys_repo_fish_hung_02.nif
+STAT 39DCB3 _mag_IceBlock -> aproco\magpie\aaa-interior\thewell\outsideiceblockwithpick.nif
+STAT 39DCBA _mag_BlockIce01 -> Dungeons\Imperial\ClutterKits\ImpStoneBlock01.nif
+STAT 3A7ED3 _mag_CheeseCrate -> aproco\magpie\aaa-interior\thewell\cheesestorage.nif
+STAT 3A7F01 _mag_BottleLiquidBrown -> aproco\magpie\aaa-interior\startercave\bottleslimbrown.nif
+STAT 3A7F03 _mag_BottleLiquidGreen -> aproco\magpie\aaa-interior\startercave\bottleslimmossgreen.nif
+STAT 3A7F05 _mag_AlchBottleYellow -> aproco\magpie\aaa-interior\startercave\alchemybottleyellow.nif
+STAT 3A7F09 _mag_PillowsSetOrange -> aproco\magpie\aaa-interior\thewell\bedpillows-autumn.nif
+STAT 3A7F0D _mag_ArmorLeather -> aproco\magpie\aaa-interior\thewell\brownarmornew.nif
+STAT 3A7F0F _mag_BottleDecoRustic -> aproco\magpie\aaa-interior\thewell\ceramicbottlebooze.nif
+STAT 3A7F11 _mag_WoodBowlGemsTongs -> aproco\magpie\aaa-interior\thewell\bowlwithgemsandpinchers.nif
+STAT 3A7F13 _mag_ChestLarge -> aproco\magpie\aaa-interior\thewell\chest-alt.nif
+STAT 3A7F15 _mag_DistillerCustom01 -> aproco\magpie\aaa-interior\thewell\distillery-custom-simple.nif
+STAT 3A7F17 _mag_CrateAlchEquipment -> aproco\magpie\aaa-interior\thewell\distilleryequipment.nif
+STAT 3A7F19 _mag_DreamcatcherRustic -> aproco\magpie\aaa-interior\thewell\dreamcatcherthewell.nif
+STAT 3A7F1B _mag_IllustrationDwemerEnchant -> aproco\magpie\aaa-interior\thewell\enchantingpagejewelsandartifacts.nif
+STAT 3A7F1D _mag_OpenBookEnchantStaves -> aproco\magpie\aaa-interior\thewell\enchantmentbook.nif
+STAT 3A7F2A _mag_TowelFlat -> aproco\magpie\aaa-interior\thewell\kitchentowel.nif
+STAT 3A7F2C _mag_BarRagRustic -> aproco\magpie\aaa-interior\thewell\napkin.nif
+STAT 3A7F2E _mag_JarLiquidFizzy -> aproco\magpie\aaa-interior\thewell\fizzyjar.nif
+STAT 3A7F30 _mag_JarBlueGlass -> aproco\magpie\aaa-interior\thewell\flaskglass.nif
+STAT 3A7F32 _mag_AmphoraClayPlain -> aproco\magpie\aaa-interior\startercave\amphora.nif
+STAT 3C14C6 _mag_BalconyFancy -> aproco\magpie\00_laboratorium\bshighrock\architecture\seaview\laboratorium\woodenbalcony01umgedreht.nif
+STAT 234761 _mag_StainedGlassDibella -> aproco\magpie\Nickorasu\Pantheons\AedricSeries\Dibella\StainedGlass\ESODibellaStainedGlassRound02Transparent.nif
+STAT 3C14EB _mag_CurtainRedDraped -> aproco\magpie\lor\cloth03.nif
+STAT 3C14F0 _mag_CurtainRedStraight -> aproco\magpie\lor\cloth04.nif
+STAT 3C14F6 _mag_WardrobeClosed -> aproco\magpie\lor\richwardrobe.nif
+STAT 3C1501 _mag_BenchLux -> aproco\magpie\lor\temple\1mjy_castlechair8.nif
+STAT 23987D _mag_ThrowFur -> aproco\magpie\Staedtler Original\pwThrowFur.nif
+STAT 3C156B _mag_OpenBarrelGrain -> aproco\magpie\ThatchedHouse\OpenBarrel.nif
+STAT 3CB803 _mag_PlanterHangingBasket -> aproco\magpie\kelretu\clutter\hangingbasket01.nif
+STAT 3DFCA2 _mag_FrescoDragon -> aproco\Magpie\architecture\floortilemarbleinlay.nif
+STAT 3E4DAD _mag_FrescoTransformation -> aproco\Magpie\architecture\floortilemarbleinlay.nif
+STAT 3E4DB4 _mag_FrescoTower -> aproco\Magpie\architecture\floortilemarbleinlay.nif
+STAT 3F92F6 _mag_BasaltSlab01Cave -> DLC02\Landscape\VolcanicCliffs\DLC2BasaltSlab01.nif
+STAT 3F92F7 _mag_DLC2CliffBasaltStraightCave -> DLC02\Landscape\VolcanicCliffs\DLC2CliffBasaltStraight.nif
+STAT 3FE44A _mag_PlaqueArmor -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\brassplaques\PlaqueSquareHeavyArmour.nif
+STAT 3FE44C _mag_PlaqueWeapons -> aproco\magpie\clockwork\architecture\victorianinterior\furniture\brassplaques\PlaqueSquareOneHanded.nif
+STAT 3FE458 _mag_RunicStoneCracked -> aproco\magpie\oaristys\the witcher\statues\RunicStone.nif
+STAT 3FE45A _mag_RunicStoneHod -> aproco\magpie\architecture\hoddminir\runestone48.nif
+STAT 3FE45B _mag_PlantCelandine -> aproco\magpie\ztree's\plants\Celandine.nif
+STAT 3FE45D _mag_PlantCranesBill -> aproco\magpie\ztree's\plants\CranesBillBlue.nif
+STAT 3FE460 _mag_PlantWoodAnemone -> aproco\magpie\ztree's\plants\WoodAnemone01Whitedub.nif
+STAT 3FE464 _mag_PlantNettle -> aproco\magpie\ztree's\plants\Netles.nif
+STAT 3FE46B _mag_PlantLadyMantle -> aproco\magpie\ztree's\plants\LadyMantle.nif
+STAT 3FE488 _mag_WRIntCastleRoofSupportBeam02 -> Architecture\WhiteRun\WRInteriors\WRCastle\WRIntCastleRoofSupportBeam02.nif
+STAT 4128C5 _mag_HangingFishRoasted -> aproco\magpie\aaa-interior\startercave\hangingfishessmallroasted.nif
+STAT 4128C7 _mag_SlaughterfishRoasted -> aproco\magpie\aaa-interior\startercave\smokedslaughterfish.nif
+STAT 4128C8 _mag_JugRusticRaku -> aproco\magpie\aaa-interior\microcave\treasurewinepitcher.nif
+STAT 4128D5 _mag_LaundryHangingBasket -> aproco\magpie\aaa-interior\microcave\washbasket.nif
+STAT 41CAE4 _mag_WFCornucopia -> aproco\magpie\_000coldstone_keep\interior\bountybasket.nif
+STAT 44A469 _mag_CrateArcadias -> aproco\magpie\eek\EEK_OpenCrateArcadias.nif
+STAT 44A470 _mag_HangingLavenderStatic -> Plants\Lavender01.nif
+STAT 472CBB _mag_Bucket01Static -> Clutter\Bucket01.NIF
+STAT 472CC1 _mag_ChickenCoop -> aproco\Magpie\herbalisthut\chickencoop.nif
+STAT 4964AA _mag_GlassDomeExt -> aproco\Magpie\dbm resources\dbmgalleryglassdome01ext.nif
+STAT 49B5BF _mag_WoodPanelingLongMetal -> aproco\magpie\Griffon Fortress\interior\woodpanellinglow01custom.nif
+STAT 4A57CD _mag_CandlestickWood01Off -> aproco\magpie\lor\converted\light sources\candleholder2.nif
+STAT 4A57DB _mag_CandlestickWood02Off -> aproco\magpie\lor\converted\light sources\candlestick2.nif
+STAT 4A57E3 _mag_LanternRustyStandingOff -> aproco\magpie\aaa-interior\hermitmountainhouse\oillamp-sittingcustom-off.nif
+STAT 4A57EC _mag_LanternDwmerHangingOff -> aproco\magpie\aaa-interior\hermitmountainhouse\oillamp-hangingoff.nif
+STAT 4C418F _mag_GobletBloody01 -> DLC01\Clutter\VampireClutter\SilverGobletBlood02.nif
+STAT 4C4192 _mag_JugBloody01 -> DLC01\Clutter\VampireClutter\SilverJugBlood01.nif
+STAT 4C4194 _mag_BloodPotionStatic -> DLC01\Clutter\DLC01BloodPotion.nif
+STAT 4C4197 _mag_BloodChalice -> DLC01\Clutter\DLC01ChaliceBlood.nif
+STAT 4C4199 _mag_VampireLordStatue01 -> DLC01\Clutter\DLC01VampireLordStatueMoon.nif
+STAT 4C419B _mag_BloodyRagsStatic -> Clutter\BloodyRags\BloodyRags.nif
+STAT 4C41A1 _mag_PaintingTheFuries -> aproco\Magpie\decor\paintings\paintingfuries.nif
+STAT 4C92A7 _mag_StainedGlassAuriel -> aproco\magpie\nickorasu\misc\stainedglass\theelderscrollsstainedglasstransparent.nif
+STAT 4E27CA _mag_Seedling01 -> aproco\magpie\eek\EEK_Seedling_04.nif
+STAT 4E7BFE _mag_Seedling02 -> aproco\magpie\eek\EEK_Seedling_02.nif
+STAT 4E7BFF _mag_Seedling03 -> aproco\magpie\eek\EEK_Seedling_03.nif
+STAT 4E7C12 _mag_TapestryPouring -> aproco\magpie\tlaffoon\tapestries\EEK_PouringTapestry.nif
+STAT 4E7C13 _mag_TapestryPomona -> aproco\magpie\tlaffoon\tapestries\EEK_PomonaTapestry01.nif
+STAT 4E7C14 _mag_TapestryFloweringTree -> aproco\magpie\tlaffoon\tapestries\EEK_FloweringTreeTapestry.nif
+STAT 4E7C26 _mag_WaterpipeShort -> aproco\magpie\eek\the_funktasm\waterpipe2.nif
+STAT 4E7C2A _mag_EnchWallArt -> aproco\magpie\eek\ApepiofDuat\WallEnchantArt01.nif
+STAT 4E7C3D _mag_UrnBrown -> aproco\magpie\oaristys\the witcher\decoration\Urn02.nif
+STAT 4E7C53 _mag_WaterpipeTall -> aproco\magpie\oaristys\the witcher\decoration\Waterpipe.nif
+STAT 4E7C63 _mag_VineYellowFlowers -> aproco\magpie\eek\EEK_TomatoVine.nif
+STAT 4E7C6A _mag_Ivy02Berries -> aproco\magpie\eek\EEK_Ivy02Flowers.nif
+STAT 4E7C6B _mag_Ivy07Berries -> aproco\magpie\eek\EEK_Ivy07Flowers.nif
+STAT 4F7921 _mag_TapestryOrchard -> aproco\magpie\tlaffoon\tapestries\EEK_TheOrchardTapestry01.nif
+STAT 5021AA _mag_StatueRavenEbony -> aproco\magpie\oaristys\StatueRavenEbony.nif
+STAT 51B6B1 _mag_WFPumpkin06 -> aproco\magpie\FruitsandVeggies\65_pumpkin.nif
+STAT 51B6B3 _mag_WFPumpkin07 -> aproco\magpie\FruitsandVeggies\66_pumpkin.nif
+STAT 51B6B5 _mag_WFPumpkin08 -> aproco\magpie\FruitsandVeggies\68_hokaido_pumpkin.nif
+STAT 52A9FB _mag_GlassDomeInt02 -> aproco\magpie\duathfel\dungeon\DFLdwestardome.nif
+STAT 534C39 _mag_RoofAwning -> aproco\magpie\000ShiverFrost\Architecture\ShiverFrostCottageLittleRoof.nif
+STAT 53EE44 _mag_SpiralStairs -> aproco\magpie\000ShiverFrost\Architecture\ShiverFrostCottageINTSpiralStairs.nif
+STAT 53EE46 _mag_SpiralStairwell -> aproco\magpie\000ShiverFrost\Architecture\ShiverFrostCottageINTStairwell.nif
+STAT 549048 _mag_FloorWoodBase -> aproco\magpie\architecture\magwhintwoodfloormid01.nif
+STAT 567FBC _mag_DIntTowerBase01 -> aproco\magpie\architecture\DIntTowerBase01_mod.nif
+STAT 567FF7 _mag_TreasuryRoomDoorwall -> aproco\magpie\Damastine\Dawnguard_Unit_Door.nif
+STAT 5722F3 _mag_SpiralStairwell02 -> aproco\magpie\000ShiverFrost\Architecture\ShiverFrostCottageINTStairwell.nif
+STAT 5816A9 _mag_JarDragonfly -> Critters\Dragonfly\DragonFlyInJar.nif
+STAT 5816AA _mag_JarMoth -> Critters\Moths\MothLunarInJar.nif
+STAT 5816AB _mag_JarBee -> Critters\Bee\BeeInJar.nif
+STAT 5816AC _mag_JarButterfly -> Critters\Moths\MothMonarchInJar.nif
+STAT 5816AD _mag_JarTorchbug -> Critters\Firefly\FireflyInJar.nif
+STAT 5816E3 _mag_ClawAmethystLeft -> DLC02\Clutter\DLC2LeftClawAmethyst.nif
+STAT 5816E4 _mag_ClawCoral -> Clutter\Ruins\RuinsDragonClawCoral01.nif
+STAT 5816E5 _mag_ClawIron -> Clutter\Ruins\RuinsDragonClawIron.nif
+STAT 5816E6 _mag_ClawDiamond -> Clutter\Ruins\RuinsDragonClawDiamond.nif
+STAT 5816E7 _mag_ClawGold -> Clutter\Ruins\RuinsDragonClaw02.nif
+STAT 5816E8 _mag_ClawGlass -> Clutter\Ruins\RuinsDragonClawGlass.nif
+STAT 5816E9 _mag_ClawEbony -> Clutter\Ruins\RuinsDragonClawEbony.nif
+STAT 5816EA _mag_ClawEmerald -> Clutter\Ruins\RuinsDragonClawEmerald.nif
+STAT 5816EB _mag_ClawRuby -> Clutter\Ruins\RuinsDragonClawRuby.nif
+STAT 5816EC _mag_ClawSapphire -> Clutter\Ruins\RuinsDragonClawSapphire.nif
+STAT 5816ED _mag_ClawIvory -> Clutter\Ruins\RuinsDragonClawIvory.nif
+STAT 5816EE _mag_ClawAmethystRight -> DLC02\Clutter\DLC2RightClawAmethyst.nif
+STAT 58171E _mag_MaskCorondrum -> Armor\DragonPriestHelms\Dragonhelm_Corondrum_GO.nif
+STAT 58171F _mag_MaskSteel -> Armor\DragonPriestHelms\Dragonhelm_Steel_GO.nif
+STAT 581720 _mag_MaskWood -> Armor\DragonPriestHelms\Dragonhelm_Wood_GO.nif
+STAT 581721 _mag_MaskIron -> Armor\DragonPriestHelms\Dragonhelm_Iron_GO.nif
+STAT 581722 _mag_MaskBronze -> Armor\DragonPriestHelms\Dragonhelm_Bronze_GO.nif
+STAT 581723 _mag_MaskMarble -> Armor\DragonPriestHelms\Dragonhelm_Marble_GO.nif
+STAT 581724 _mag_MaskMoonstone -> Armor\DragonPriestHelms\Dragonhelm_Moonstone_GO.nif
+STAT 581725 _mag_MaskUltra -> Armor\DragonPriestHelms\Dragonhelm_Ultra_GO.nif
+STAT 581726 _mag_MaskOrichalum -> Armor\DragonPriestHelms\Dragonhelm_Greenstone_GO.nif
+STAT 581727 _mag_MaskEbony -> Armor\DragonPriestHelms\Dragonhelm_Ebony_GO.nif
+STAT 581728 _mag_MaskAhzidal -> DLC02\Armor\AcolyteMasks\AcolyteMask_GND.nif
+STAT 581729 _mag_MaskMiraak -> DLC02\Clothes\MiraakRobes\MiraakHelm_GND.nif
+STAT 58172A _mag_MaskDukaan -> DLC02\Armor\AcolyteMasks\AcolyteMask_GND.nif
+STAT 58172B _mag_MaskZahkriisos -> DLC02\Armor\AcolyteMasks\AcolyteMask_GND.nif
+STAT 586843 _mag_PortalGemPurple -> DLC01\Clutter\Animated\PortalGem01\PortalGemPurple01.nif
+STAT 586847 _mag_PortalGemWhite -> DLC01\Clutter\Animated\PortalGem01\PortalGemWhite01.nif
+STAT 586848 _mag_PortalGemOrange -> DLC01\Clutter\Animated\PortalGem01\PortalGemOrange01.nif
+STAT 586849 _mag_PortalGemGreen -> DLC01\Clutter\Animated\PortalGem01\PortalGemGreen01.nif
+STAT 58684A _mag_PortalGemBlue -> DLC01\Clutter\Animated\PortalGem01\PortalGemBlue01.nif
+STAT 586854 _mag_AurielsShieldStatic -> DLC01\Armor\Auriel\aurielsshield.nif
+STAT 586895 _mag_PillowManny02Nordic -> aproco\magpie\manny_gf\pillows\manny_gf_pillow04.nif
+STAT 5868A1 _mag_SaviorsHide -> Armor\Savior'sHide\GO.nif
+STAT 5868AB _mag_StarDark -> Clutter\Daedric\AzuraStar.nif
+STAT 5868AC _mag_StarLite -> Clutter\Daedric\AzuraStarLite.nif
+STAT 5868AD _mag_RingofHircine -> Armor\AmuletsandRings\ringofhircineGO.nif
+STAT 5868AE _mag_RingofNamira -> Armor\AmuletsandRings\ringofnamiraGO.nif
+STAT 5868B1 _mag_EbonyMail -> Armor\EbonyMail\CuirassGND.nif
+STAT 5868E9 _mag_DisplayCaseLgAngleStat -> Clutter\DisplayCases\DisplayCaseLgAngled01.nif
+STAT 5868EB _mag_DisplayCaseStat -> aproco\magpie\azs\furniture\azsTrophyCase.nif

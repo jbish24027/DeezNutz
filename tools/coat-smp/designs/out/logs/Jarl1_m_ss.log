@@ -1,0 +1,9 @@
+== Jarl1 m: torso_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R  15/ 0/351   sprint L 150/ 0/211   walk R 173/ 2/ 86   walk L 138/ 0/154
+   curled in (limit)      sprint R  40/ 0/259   sprint L  52/ 0/334   walk R  54/ 0/312   walk L  86/ 0/273
+   swung back .3/.15      sprint R  54/ 2/ 11   sprint L  47/ 0/ 27   walk R  80/ 2/ 19   walk L  35/ 0/ 63
+   swung forward .3/.15   sprint R  38/ 0/175   sprint L 100/ 0/340   walk R   9/ 0/147   walk L   0/ 0/151
+   swung sideways .3/.15  sprint R  77/ 0/177   sprint L  55/ 5/181   walk R  93/ 0/ 53   walk L  79/ 0/ 91
+   total caught/hooked/sunk 1375/11/3415; lining pts Front 209, Back 276, Side 238
+
+EXIT 0

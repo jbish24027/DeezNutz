@@ -1,0 +1,152 @@
+# PBR-ASTRALITE: base = C:/1. AUTHORIA/mods\Authoria - Effects 11 Core - NAT (plain)\enbseries.ini
+[EFFECT] UseEffect = None
+[EFFECT] UseOriginalPostProcessing = false
+[EFFECT] EnableAdaptation = true
+[EFFECT] EnableBloom = true
+[EFFECT] EnableLens = false
+[EFFECT] EnablePostPassShader = false
+[EFFECT] EnableCloudShadows = true
+[EFFECT] EnableCloudsScattering = true
+[EFFECT] EnableImageBasedLighting = true
+[EFFECT] EnableVolumetricRays = false
+[EFFECT] EnableSunRays = true
+[EFFECT] EnableMoonRays = true
+[EFFECT] EnableWater = true
+[GLOBAL] UseEffect = true
+[WEATHER] EnableMultipleWeathers = true
+[WEATHER] EnableLocationWeather = false
+[SKY] DisableWrongSkyMath = true
+[SKY] FixBlackCrush = false
+[SKY] UseProceduralGradientWeights = false
+[SKYSCATTERING] EnableCloudsLightingFromMoon = true
+[SKYSCATTERING] CalculateCloudsEdgeFromScattering = true
+[VOLUMETRICFOG] EnableLighting = false
+[RAYS] UseLinearMath = false
+[TIMEOFDAY] {'dawnduration': '3.5', 'sunrisetime': '8.0', 'daytime': '13.0', 'sunsettime': '18.0', 'duskduration': '3.5', 'nighttime': '1.0'}
+[ENVIRONMENT] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[SKY] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[SKYSCATTERING] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=true
+[VOLUMETRICFOG] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[GAMEVOLUMETRICRAYS] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[IMAGEBASEDLIGHTING] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[FIRE] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[PARTICLE] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[LIGHTSPRITE] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[BLOOM] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[LENS] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[SUNGLARE] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[WATER] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[CLOUDSHADOWS] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[VOLUMETRICRAYS] IgnoreWeatherSystem=true IgnoreWeatherSystemInterior=false
+[RAYS] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+[NIGHTEYE] IgnoreWeatherSystem=None IgnoreWeatherSystemInterior=None
+[RAIN] IgnoreWeatherSystem=false IgnoreWeatherSystemInterior=false
+
+## base enbseries.ini time-of-day levers (period: value)
+[SKY] GradientIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientDesaturation: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[SKY] GradientTopIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientTopCurve: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientTopColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[SKY] GradientMiddleIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientMiddleCurve: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientMiddleColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[SKY] GradientHorizonIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientHorizonCurve: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] GradientHorizonColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[SKY] ProceduralGradientWeightCurve: Dawn=4.0; Sunrise=4.0; Day=4.0; Sunset=4.0; Dusk=4.0; Night=4.0; InteriorDay=4.0; InteriorNight=4.0
+[SKY] CloudsIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=0.8; InteriorNight=0.8
+[SKY] CloudsCurve: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.2; InteriorNight=1.2
+[SKY] CloudsDesaturation: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[SKY] CloudsOpacity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] CloudsColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[SKY] SunIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[SKY] SunColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[SKYSCATTERING] Amount: Dawn=0.75; Sunrise=0.75; Day=0.75; Sunset=0.75; Dusk=0.75; Night=0.75; InteriorDay=0.75; InteriorNight=0.75
+[SKYSCATTERING] Intensity: Dawn=0.5; Sunrise=0.5; Day=0.5; Sunset=0.5; Dusk=0.5; Night=0.5; InteriorDay=0.5; InteriorNight=0.5
+[SKYSCATTERING] ColorFromSun: Dawn=0.0; Sunrise=0.25; Day=0.5; Sunset=0.25; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[SKYSCATTERING] ScatteringColor: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[SKYSCATTERING] AirGlowIntensity: Dawn=0.3; Sunrise=0.35; Day=0.45; Sunset=0.35; Dusk=0.3; Night=0.25; InteriorDay=0.35; InteriorNight=0.25
+[SKYSCATTERING] SunGlowIntensity: Dawn=0.0; Sunrise=0.0; Day=0.25; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[SKYSCATTERING] ShadowAmount: Dawn=0.3; Sunrise=0.3; Day=0.3; Sunset=0.3; Dusk=0.3; Night=0.3; InteriorDay=0.3; InteriorNight=0.3
+[ENVIRONMENT] DirectLightingIntensity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=0.5; InteriorNight=0.5
+[ENVIRONMENT] DirectLightingCurve: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[ENVIRONMENT] DirectLightingDesaturation: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[ENVIRONMENT] DirectLightingColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[ENVIRONMENT] DirectLightingColorFilterAmount: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[ENVIRONMENT] AmbientLightingIntensity: Dawn=0.5; Sunrise=0.5; Day=0.5; Sunset=0.5; Dusk=0.5; Night=0.5; InteriorDay=0.5; InteriorNight=0.5
+[ENVIRONMENT] AmbientLightingDesaturation: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[ENVIRONMENT] FogColorMultiplier: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[ENVIRONMENT] FogColorCurve: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[ENVIRONMENT] FogAmountMultiplier: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=0.15; InteriorNight=0.15
+[ENVIRONMENT] FogCurveMultiplier: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=3.0; InteriorNight=3.0
+[ENVIRONMENT] FogColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[ENVIRONMENT] FogColorFilterAmount: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[ENVIRONMENT] ColorPow: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[VOLUMETRICFOG] Intensity: Dawn=0.85; Sunrise=0.85; Day=0.85; Sunset=0.85; Dusk=0.85; Night=0.85; InteriorDay=1.0; InteriorNight=1.0
+[VOLUMETRICFOG] Curve: Dawn=1.5; Sunrise=1.5; Day=1.5; Sunset=1.5; Dusk=1.5; Night=1.5; InteriorDay=1.0; InteriorNight=1.0
+[VOLUMETRICFOG] Opacity: Dawn=1.0; Sunrise=1.0; Day=1.0; Sunset=1.0; Dusk=1.0; Night=1.0; InteriorDay=1.0; InteriorNight=1.0
+[VOLUMETRICFOG] ColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[GAMEVOLUMETRICRAYS] Intensity: Dawn=0.25; Sunrise=1.0; Day=0.5; Sunset=1.0; Dusk=0.25; Night=0.75; InteriorDay=0.0; InteriorNight=0.0
+[GAMEVOLUMETRICRAYS] ColorFilter: Dawn=1, 1, 1; Sunrise=1, 1, 1; Day=1, 1, 1; Sunset=1, 1, 1; Dusk=1, 1, 1; Night=1, 1, 1; InteriorDay=1, 1, 1; InteriorNight=1, 1, 1
+[GAMEVOLUMETRICRAYS] Desaturation: Dawn=0.0; Sunrise=0.0; Day=0.0; Sunset=0.0; Dusk=0.0; Night=0.0; InteriorDay=0.0; InteriorNight=0.0
+[IMAGEBASEDLIGHTING] MultiplicativeAmount: Dawn=0.4; Sunrise=0.2; Day=0.1; Sunset=0.2; Dusk=0.4; Night=0.8; InteriorDay=0.3; InteriorNight=0.3
+
+## keys in base that this build does not register (sample): 
+
+## _weatherlist.ini = C:/1. AUTHORIA/mods\[NoDelete] Soul Core ENB - Data\enbseries\_weatherlist.ini: 499 WEATHER sections, 23 distinct files
+  MISSING weather file ArnimaExterior.ini
+  MISSING weather file ArnimaInterior.ini
+  MISSING weather file SSECClear.ini
+  MISSING weather file SSECFog.ini
+weather files parsed: 19
+
+## per-weather files: how many define each lever, and the most common values per period
+[SKY] GradientIntensity: defined in 19 files | Dawn: 1.0 x13, 1.35 x1, 1.06 x1 (7 distinct) | Sunrise: 1.0 x12, 0.85 x3, 1.05 x2 (5 distinct) | Day: 1.0 x12, 1.05 x2, 1.35 x1 (7 distinct) | Sunset: 1.0 x12, 0.85 x3, 1.05 x2 (5 distinct) | Dusk: 1.0 x13, 1.35 x1, 1.05 x1 (7 distinct) | Night: 1.0 x11, 1.05 x2, 1.35 x1 (8 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientDesaturation: defined in 19 files | Dawn: 0.0 x19 (1 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x17, 0.05 x2 (2 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x19 (1 distinct) | Night: 0.0 x19 (1 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[SKY] GradientTopIntensity: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x16, 1.05 x3 (2 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientTopCurve: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientTopColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x19 (1 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[SKY] GradientMiddleIntensity: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x16, 1.05 x3 (2 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientMiddleCurve: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientMiddleColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x16, 0.902, 0.98, 1 x2, 0.941, 1, 1 x1 (3 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[SKY] GradientHorizonIntensity: defined in 19 files | Dawn: 1.0 x16, 0.95 x2, 0.9 x1 (3 distinct) | Sunrise: 1.0 x18, 0.95 x1 (2 distinct) | Day: 1.0 x18, 0.9 x1 (2 distinct) | Sunset: 1.0 x18, 0.95 x1 (2 distinct) | Dusk: 1.0 x15, 0.95 x3, 0.85 x1 (3 distinct) | Night: 1.0 x15, 0.9 x3, 0.7 x1 (3 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientHorizonCurve: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 1.0 x16, 1.01 x3 (2 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] GradientHorizonColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x16, 0.902, 0.98, 1 x2, 0.961, 1, 1 x1 (3 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[SKY] ProceduralGradientWeightCurve: defined in 19 files | Dawn: 4.0 x19 (1 distinct) | Sunrise: 4.0 x19 (1 distinct) | Day: 4.0 x19 (1 distinct) | Sunset: 4.0 x19 (1 distinct) | Dusk: 4.0 x19 (1 distinct) | Night: 4.0 x19 (1 distinct) | InteriorDay: 4.0 x19 (1 distinct) | InteriorNight: 4.0 x19 (1 distinct)
+[SKY] CloudsIntensity: defined in 19 files | Dawn: 1.0 x17, 1.05 x1, 1.25 x1 (3 distinct) | Sunrise: 1.0 x9, 0.95 x6, 0.99 x2 (5 distinct) | Day: 1.0 x5, 0.95 x5, 1.05 x3 (7 distinct) | Sunset: 1.0 x9, 0.95 x6, 0.99 x2 (5 distinct) | Dusk: 1.0 x17, 1.05 x1, 1.15 x1 (3 distinct) | Night: 1.0 x7, 1.05 x6, 1.15 x4 (5 distinct) | InteriorDay: 0.8 x19 (1 distinct) | InteriorNight: 0.8 x19 (1 distinct)
+[SKY] CloudsCurve: defined in 19 files | Dawn: 1.0 x18, 1.01 x1 (2 distinct) | Sunrise: 1.0 x12, 1.01 x7 (2 distinct) | Day: 1.0 x12, 1.01 x6, 1.02 x1 (3 distinct) | Sunset: 1.0 x12, 1.01 x7 (2 distinct) | Dusk: 1.0 x18, 1.01 x1 (2 distinct) | Night: 1.0 x15, 0.99 x3, 1.01 x1 (3 distinct) | InteriorDay: 1.2 x19 (1 distinct) | InteriorNight: 1.2 x19 (1 distinct)
+[SKY] CloudsDesaturation: defined in 19 files | Dawn: 0.0 x19 (1 distinct) | Sunrise: 0.0 x17, 0.15 x2 (2 distinct) | Day: 0.0 x19 (1 distinct) | Sunset: 0.0 x17, 0.15 x2 (2 distinct) | Dusk: 0.0 x19 (1 distinct) | Night: 0.0 x19 (1 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[SKY] CloudsOpacity: defined in 19 files | Dawn: 1.0 x15, 1.01 x2, 1.02 x1 (4 distinct) | Sunrise: 1.0 x16, 1.01 x2, 1.02 x1 (3 distinct) | Day: 1.0 x17, 1.02 x1, 1.05 x1 (3 distinct) | Sunset: 1.0 x16, 1.01 x2, 1.02 x1 (3 distinct) | Dusk: 1.0 x15, 1.01 x2, 1.02 x1 (4 distinct) | Night: 1.0 x13, 1.02 x3, 1.1 x2 (4 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] CloudsColorFilter: defined in 19 files | Dawn: 1, 1, 1 x18, 0.686, 1, 1 x1 (2 distinct) | Sunrise: 1, 1, 1 x18, 0.686, 1, 1 x1 (2 distinct) | Day: 1, 1, 1 x18, 0.686, 1, 1 x1 (2 distinct) | Sunset: 1, 1, 1 x18, 1, 0.588, 0.588 x1 (2 distinct) | Dusk: 1, 1, 1 x18, 1, 0.784, 0.784 x1 (2 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[SKY] SunIntensity: defined in 19 files | Dawn: 1.0 x17, 0.3 x1, 0.85 x1 (3 distinct) | Sunrise: 1.1 x4, 1.15 x3, 1.0 x3 (10 distinct) | Day: 1.0 x4, 1.25 x3, 1.3 x2 (12 distinct) | Sunset: 1.1 x4, 1.15 x3, 1.0 x3 (10 distinct) | Dusk: 1.0 x17, 0.3 x1, 0.85 x1 (3 distinct) | Night: 1.0 x18, 0.3 x1 (2 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[SKY] SunColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x18, 1, 0.259, 0 x1 (2 distinct) | Day: 1, 1, 1 x18, 1, 0.498, 0 x1 (2 distinct) | Sunset: 1, 1, 1 x18, 1, 0.259, 0 x1 (2 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[SKYSCATTERING] Amount: defined in 19 files | Dawn: 0.75 x9, 0.0 x8, 0.5 x1 (4 distinct) | Sunrise: 0.75 x9, 0.0 x8, 0.5 x1 (4 distinct) | Day: 0.75 x9, 0.0 x8, 0.5 x1 (4 distinct) | Sunset: 0.75 x9, 0.0 x8, 0.5 x1 (4 distinct) | Dusk: 0.75 x9, 0.0 x8, 0.5 x1 (4 distinct) | Night: 0.75 x9, 0.0 x8, 0.5 x1 (4 distinct) | InteriorDay: 0.75 x18, 0.0 x1 (2 distinct) | InteriorNight: 0.75 x19 (1 distinct)
+[SKYSCATTERING] Intensity: defined in 19 files | Dawn: 0.0 x8, 0.5 x8, 0.25 x2 (4 distinct) | Sunrise: 0.0 x8, 0.5 x7, 0.25 x3 (4 distinct) | Day: 0.0 x8, 0.5 x8, 0.25 x2 (4 distinct) | Sunset: 0.0 x8, 0.5 x7, 0.25 x3 (4 distinct) | Dusk: 0.0 x8, 0.5 x8, 0.25 x2 (4 distinct) | Night: 0.5 x9, 0.0 x8, 0.25 x1 (4 distinct) | InteriorDay: 0.5 x19 (1 distinct) | InteriorNight: 0.5 x19 (1 distinct)
+[SKYSCATTERING] ColorFromSun: defined in 19 files | Dawn: 0.0 x18, 0.3 x1 (2 distinct) | Sunrise: 0.0 x12, 0.25 x4, 0.5 x2 (4 distinct) | Day: 0.0 x8, 0.25 x4, 0.55 x2 (6 distinct) | Sunset: 0.0 x12, 0.25 x4, 0.5 x2 (4 distinct) | Dusk: 0.0 x18, 0.3 x1 (2 distinct) | Night: 0.0 x18, 0.3 x1 (2 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[SKYSCATTERING] ScatteringColor: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x19 (1 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[SKYSCATTERING] AirGlowIntensity: defined in 19 files | Dawn: 0.3 x17, 0.0 x2 (2 distinct) | Sunrise: 0.35 x17, 0.0 x2 (2 distinct) | Day: 0.45 x9, 0.5 x5, 0.4 x3 (4 distinct) | Sunset: 0.35 x17, 0.0 x2 (2 distinct) | Dusk: 0.3 x16, 0.0 x2, 0.25 x1 (3 distinct) | Night: 0.25 x15, 0.0 x2, 0.3 x2 (3 distinct) | InteriorDay: 0.35 x17, 0.3 x1, 0.0 x1 (3 distinct) | InteriorNight: 0.25 x18, 0.0 x1 (2 distinct)
+[SKYSCATTERING] SunGlowIntensity: defined in 19 files | Dawn: 0.0 x19 (1 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x9, 0.5 x3, 0.25 x3 (5 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x19 (1 distinct) | Night: 0.0 x19 (1 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[SKYSCATTERING] ShadowAmount: defined in 19 files | Dawn: 0.3 x16, 0.45 x3 (2 distinct) | Sunrise: 0.3 x16, 0.45 x3 (2 distinct) | Day: 0.3 x16, 0.45 x3 (2 distinct) | Sunset: 0.3 x16, 0.45 x3 (2 distinct) | Dusk: 0.3 x16, 0.45 x3 (2 distinct) | Night: 0.3 x16, 0.45 x3 (2 distinct) | InteriorDay: 0.3 x19 (1 distinct) | InteriorNight: 0.3 x19 (1 distinct)
+[ENVIRONMENT] DirectLightingIntensity: defined in 19 files | Dawn: 1.0 x9, 1.05 x6, 1.1 x4 (3 distinct) | Sunrise: 1.0 x6, 0.75 x6, 1.1 x2 (7 distinct) | Day: 0.5 x5, 1.0 x3, 1.1 x2 (9 distinct) | Sunset: 1.0 x6, 0.75 x6, 1.1 x2 (7 distinct) | Dusk: 1.0 x9, 1.05 x6, 1.1 x4 (3 distinct) | Night: 1.05 x5, 1.0 x4, 1.3 x3 (8 distinct) | InteriorDay: 0.5 x19 (1 distinct) | InteriorNight: 0.5 x19 (1 distinct)
+[ENVIRONMENT] DirectLightingCurve: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[ENVIRONMENT] DirectLightingDesaturation: defined in 19 files | Dawn: 0.0 x17, 0.15 x2 (2 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x17, 0.1 x2 (2 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x17, 0.15 x2 (2 distinct) | Night: 0.0 x17, 0.3 x2 (2 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[ENVIRONMENT] DirectLightingColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x19 (1 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[ENVIRONMENT] DirectLightingColorFilterAmount: defined in 19 files | Dawn: 0.0 x19 (1 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x19 (1 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x19 (1 distinct) | Night: 0.0 x19 (1 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[ENVIRONMENT] AmbientLightingIntensity: defined in 19 files | Dawn: 0.5 x19 (1 distinct) | Sunrise: 0.5 x19 (1 distinct) | Day: 0.5 x19 (1 distinct) | Sunset: 0.5 x19 (1 distinct) | Dusk: 0.5 x19 (1 distinct) | Night: 0.5 x19 (1 distinct) | InteriorDay: 0.5 x19 (1 distinct) | InteriorNight: 0.5 x19 (1 distinct)
+[ENVIRONMENT] AmbientLightingDesaturation: defined in 19 files | Dawn: 0.0 x17, 0.1 x1, 0.15 x1 (3 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x19 (1 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x17, 0.15 x1, 0.1 x1 (3 distinct) | Night: 0.0 x17, 0.25 x2 (2 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[ENVIRONMENT] FogColorMultiplier: defined in 19 files | Dawn: 0.85 x7, 0.9 x6, 0.95 x3 (5 distinct) | Sunrise: 0.95 x6, 1.0 x6, 0.85 x2 (8 distinct) | Day: 1.0 x8, 0.95 x3, 0.9 x3 (6 distinct) | Sunset: 0.95 x5, 1.0 x5, 0.9 x2 (10 distinct) | Dusk: 0.95 x4, 1.0 x4, 0.9 x4 (7 distinct) | Night: 0.95 x5, 1.0 x4, 0.9 x3 (8 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[ENVIRONMENT] FogColorCurve: defined in 19 files | Dawn: 1.0 x8, 1.05 x3, 1.06 x2 (8 distinct) | Sunrise: 1.0 x14, 1.05 x3, 1.01 x1 (4 distinct) | Day: 1.0 x14, 0.99 x2, 1.05 x1 (5 distinct) | Sunset: 1.0 x15, 1.05 x1, 1.01 x1 (5 distinct) | Dusk: 1.0 x10, 1.04 x4, 1.01 x2 (6 distinct) | Night: 1.0 x8, 0.99 x3, 1.02 x2 (8 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[ENVIRONMENT] FogAmountMultiplier: defined in 19 files | Dawn: 1.0 x9, 1.15 x2, 1.5 x2 (9 distinct) | Sunrise: 1.0 x9, 1.25 x2, 1.1 x1 (10 distinct) | Day: 1.0 x6, 0.7 x3, 0.8 x3 (9 distinct) | Sunset: 1.0 x9, 1.25 x2, 1.1 x1 (10 distinct) | Dusk: 1.0 x9, 1.15 x2, 1.5 x2 (9 distinct) | Night: 1.0 x10, 1.15 x2, 2.0 x2 (8 distinct) | InteriorDay: 0.15 x19 (1 distinct) | InteriorNight: 0.15 x19 (1 distinct)
+[ENVIRONMENT] FogCurveMultiplier: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 3.0 x19 (1 distinct) | InteriorNight: 3.0 x19 (1 distinct)
+[ENVIRONMENT] FogColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x17, 0.863, 0.98, 1 x1, 0.843, 1, 1 x1 (3 distinct) | Day: 1, 1, 1 x18, 0.765, 0.941, 1 x1 (2 distinct) | Sunset: 1, 1, 1 x18, 0.863, 0.98, 1 x1 (2 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[ENVIRONMENT] FogColorFilterAmount: defined in 19 files | Dawn: 0.0 x19 (1 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x19 (1 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x19 (1 distinct) | Night: 0.0 x19 (1 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[ENVIRONMENT] ColorPow: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[VOLUMETRICFOG] Intensity: defined in 19 files | Dawn: 0.85 x5, 0.95 x4, 1.0 x3 (7 distinct) | Sunrise: 0.85 x8, 0.9 x5, 1.0 x3 (5 distinct) | Day: 0.85 x8, 0.9 x5, 1.0 x3 (5 distinct) | Sunset: 0.85 x7, 0.9 x5, 1.0 x3 (5 distinct) | Dusk: 0.85 x7, 0.95 x4, 1.0 x3 (7 distinct) | Night: 0.85 x5, 1.0 x5, 0.9 x3 (7 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[VOLUMETRICFOG] Curve: defined in 19 files | Dawn: 1.5 x19 (1 distinct) | Sunrise: 1.5 x19 (1 distinct) | Day: 1.5 x19 (1 distinct) | Sunset: 1.5 x19 (1 distinct) | Dusk: 1.5 x19 (1 distinct) | Night: 1.5 x19 (1 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[VOLUMETRICFOG] Opacity: defined in 19 files | Dawn: 1.0 x19 (1 distinct) | Sunrise: 1.0 x19 (1 distinct) | Day: 1.0 x19 (1 distinct) | Sunset: 1.0 x19 (1 distinct) | Dusk: 1.0 x19 (1 distinct) | Night: 1.0 x19 (1 distinct) | InteriorDay: 1.0 x19 (1 distinct) | InteriorNight: 1.0 x19 (1 distinct)
+[VOLUMETRICFOG] ColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x19 (1 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[GAMEVOLUMETRICRAYS] Intensity: defined in 19 files | Dawn: 0.0 x3, 0.4 x3, 0.5 x3 (10 distinct) | Sunrise: 0.95 x3, 1.1 x3, 1.15 x2 (12 distinct) | Day: 1.1 x5, 0.5 x2, 0.25 x2 (13 distinct) | Sunset: 1.1 x4, 0.9 x2, 1.25 x2 (13 distinct) | Dusk: 0.0 x3, 0.4 x3, 0.5 x3 (10 distinct) | Night: 0.75 x2, 0.55 x2, 0.7 x2 (14 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[GAMEVOLUMETRICRAYS] ColorFilter: defined in 19 files | Dawn: 1, 1, 1 x19 (1 distinct) | Sunrise: 1, 1, 1 x19 (1 distinct) | Day: 1, 1, 1 x19 (1 distinct) | Sunset: 1, 1, 1 x19 (1 distinct) | Dusk: 1, 1, 1 x19 (1 distinct) | Night: 1, 1, 1 x19 (1 distinct) | InteriorDay: 1, 1, 1 x19 (1 distinct) | InteriorNight: 1, 1, 1 x19 (1 distinct)
+[GAMEVOLUMETRICRAYS] Desaturation: defined in 19 files | Dawn: 0.0 x19 (1 distinct) | Sunrise: 0.0 x19 (1 distinct) | Day: 0.0 x19 (1 distinct) | Sunset: 0.0 x19 (1 distinct) | Dusk: 0.0 x19 (1 distinct) | Night: 0.0 x19 (1 distinct) | InteriorDay: 0.0 x19 (1 distinct) | InteriorNight: 0.0 x19 (1 distinct)
+[IMAGEBASEDLIGHTING] MultiplicativeAmount: defined in 19 files | Dawn: 0.8 x16, 0.6 x1, 0.5 x1 (4 distinct) | Sunrise: 0.4 x16, 0.6 x1, 0.2 x1 (4 distinct) | Day: 0.4 x16, 0.6 x1, 0.1 x1 (4 distinct) | Sunset: 0.4 x16, 0.6 x1, 0.2 x1 (4 distinct) | Dusk: 0.8 x16, 0.6 x1, 0.5 x1 (4 distinct) | Night: 1.2 x15, 0.6 x1, 0.9 x1 (5 distinct) | InteriorDay: 0.3 x19 (1 distinct) | InteriorNight: 0.3 x19 (1 distinct)

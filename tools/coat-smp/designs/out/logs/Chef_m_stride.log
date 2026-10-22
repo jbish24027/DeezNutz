@@ -1,0 +1,10 @@
+== Chef m: chef_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R  10/ 0/ 37   sprint L  16/ 0/ 36   walk R  17/ 0/ 22   walk L  18/ 0/ 21
+   curled in (limit)      sprint R   6/ 0/ 14   sprint L  36/ 0/ 12   walk R   7/ 0/  9   walk L  27/ 0/ 14
+   swung back .3/.15      sprint R   5/ 0/ 32   sprint L  24/ 0/ 20   walk R  14/ 0/ 26   walk L  32/ 0/ 18
+   swung forward .3/.15   sprint R  25/ 0/ 25   sprint L  33/ 0/ 28   walk R  14/ 0/  8   walk L  17/ 0/  4
+   swung sideways .3/.15  sprint R   7/ 0/ 14   sprint L  12/ 0/ 46   walk R   2/ 0/ 13   walk L  39/ 0/ 25
+   total caught/hooked/sunk 361/0/424; lining pts Front 69, Side 56
+
+EXIT 0

@@ -1,0 +1,9 @@
+== Jarl3v1 m: outfitm_var1_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 274/11/177   sprint L 230/21/112   walk R 294/ 0/158   walk L 274/ 0/155
+   curled in (limit)      sprint R 263/ 8/252   sprint L 221/ 9/212   walk R 327/ 2/329   walk L 285/ 0/372
+   swung back .3/.15      sprint R  65/ 7/ 52   sprint L 117/18/ 31   walk R 156/ 4/ 68   walk L 142/ 3/ 86
+   swung forward .3/.15   sprint R 299/ 0/393   sprint L 303/ 4/331   walk R 245/ 0/128   walk L 191/ 0/165
+   swung sideways .3/.15  sprint R 312/ 3/263   sprint L 105/ 3/ 88   walk R 300/ 0/171   walk L 122/ 0/ 36
+   total caught/hooked/sunk 4525/93/3579; lining pts Front 25, Back 836, Side 1531
+
+EXIT 0

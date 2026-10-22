@@ -1,0 +1,49 @@
+{
+ "_what": "Build pipeline of the live Picta E11 lane (read 2026-10-17 from C:/1. AUTHORIA/_tools/picta-bridge). READ-ONLY map for adding an 'astralite colour blend' stage.",
+ "e11_layer": {
+  "builder": "_tools/picta-bridge/picta_darken_v3_full.py [--write] [--compare] [--dry-dir=<path>]",
+  "inputs": {
+   "OLDM": "mods/[NoDelete] Picta ENB 1.0.1 - Data (shipped)  (donor of every NON-colour number: weather medians by category, root fx values, base ini)",
+   "NEWM": "mods/[NoDelete] Picta ENB 1.1.2 - Data (shipped)  (template: every file, all colour keys kept verbatim)",
+   "user_edits": "_tools/picta-bridge/user_edits_*.json (glob, sorted, newest wins per key; {edits:{file:{SECTION:{key:value}}}}; asserts each key exists)",
+   "overlay": "_tools/picta-bridge/picta_authoria_overlay.py + overlay/tune_values.json + overlay/interior_locations.json"
+  },
+  "stages_in_order": [
+   "1 weather inis: for every NEWM enbseries/**/*.ini in a subfolder (not '_*', not 'Picta - Interiors'): copyable keys (single number, section != ENBEFFECTPOSTPASS.FX, key !~ /saturat|hue|tint|vibran|colou?r ?balance|filter/i) := median over category-matched 1.0.1 donors (same basename else category() = clear/light/cloudy/overcast/storm + rain/snow + fog from filename)",
+   "2 root fx inis (enbbloom/enbeffect/enbadaptation/enblens/enbsunsprite/enbunderwater/enbeffectprepass .fx.ini): non-colour numbers := 1.0.1 root value",
+   "3 base enbseries.ini: sections the weather files carry + [TIMEOFDAY]: non-colour numbers := 1.0.1 base; booleans stay 1.1.2",
+   "4 _weatherlist.ini := 1.1.2 list + [WEATHER901] (4 vanilla tundra ids -> B01)",
+   "5 TRIM_EV = +0.2 on every 'Adaptation.|- * - Exposure Compensation (in EVs)' in weather inis + root enbadaptation.fx.ini",
+   "6 [TIMEOFDAY] 'Key=value' normalisation; FORCE EnableDepthOfField=true, DOF FocusingTime 0.5 / ApertureTime 5.0",
+   "7 Picta - Interiors/*.ini copied verbatim from NEWM (dead: not routed)",
+   "8 AMBIENT_GAIN = 1.15 x every AmbientLightingIntensity<period> + log2(1.15)=+0.2016 EV on every Exposure Compensation (weather inis, base ini, root enbadaptation; NOT _weatherlist / other root fx)",
+   "9 user_edits_*.json re-applied (base ini [EFFECT]/[BLOOM]/[ENVIRONMENT]/[LIGHTSPRITE]/[FIRE]/[WATER]; B01 IBL Day 0; A02 water waves)",
+   "10 overlay.apply(): global nudge (contrast +0.02, bloom-mix saturation +0.1 on Sunrise/Day/Sunset of A01/A02/B01/B02 masters) -> interior minimal files Authoria - Interiors/{House,Inn,Dungeon}.ini -> summer copies Authoria - Summer/{A01_Clear,A02_Clear_Mist,B01_Lightly_Cloudy}_Summer.ini DERIVED FROM THE (nudged) MASTER DATA IN THE PLAN + Day deltas -> _locationweather.ini [0] (961 bare lines) + readme -> _weatherlist sections WEATHER951/954/957/961/963/964 -> base [WEATHER] EnableLocationWeather=true"
+  ],
+  "output": "DSTM = mods/Authoria - Picta 1.1.2 - Darkened to 1.0.1 (enbseries.ini + enbseries/**). --write does shutil.rmtree(DSTM/enbseries) then writes the plan; aborts if ModOrganizer/SkyrimSE in tasklist. 'Picta - Weathers of Aurbis.ini' (plugin ini, 1.0.1 copy, fVolumetricLightingIntensity=0.0) and README/meta live in DSTM root and are NOT written by the builder.",
+  "post": [
+   "sync_root_twin.py --write: copies 5 files (enbseries.ini + enbeffect/enbbloom/enbadaptation/enbeffectpostpass .fx.ini) from overwrite > OVERRIDE_MOD (if '+Authoria - Picta 1.1.2 - Darkened to 1.0.1' in PICTA modlist) > DATA_MOD into mods/Authoria - Picta ENB - Root twin/Root (Root Builder -> game root enbseries for the ENB Extender compile). Verified in sync 2026-10-17.",
+   "verify_lighting_tune.py (python -I): routing/locations/templates/summer/nudge/twin checks against _backups/2026-10-15 - Picta lighting tune (pre)"
+  ]
+ },
+ "record_layer": {
+  "darkened_patch": "picta_darken_records_patch.py --write -> mods/Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1/Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp (ESL, masters = 1.1.1 esm masters + esm). Byte-level writer: CLMT 000812 timing 09/17, 21 VOLI = 1.0.1 bodies, 23 MASTER WTHR: FogFar per class (A/B 125, C 100, D 75, E 50 day; 75/50 others), night sky/horizon 75, cloud layers 27/28, DALC x per-weather k, mist weathers fog distances + VOLI relinks back to clear/lightly-cloudy/cloudy sets.",
+  "seasonal_esl": "houseCARL - Authoria - Patch - Picta Seasonal/Authoria - Patch - Picta Seasonal.esp (ESL, form 44, 13 masters): REGN wiring + 5 injected WTHR 5AFA01-03/5AFB01-02 in the Picta esm FormID space (copies of the Darkened winners + summer record deltas: sunlight day 255,241,220, sun day 255,250,236, fog far day 127,124,120) + WyrmstoothStormFog + Fair climate + Frostfall FLST. Built with houseCARL (scratch generators, not in _tools).",
+  "picta_over_nat": "houseCARL - Authoria - Picta over NAT/Authoria - Picta over NAT.esp: forwards the Picta esm's vanilla-valued copies of 24 vanilla/DLC weathers over NAT-ENB.esp (identical to the Picta esm version).",
+  "load_order_tail": "Mists of Tamriel.esp -> Picta - Weathers of Skyrim.esp -> Authoria - Picta over NAT.esp -> Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp (plugins.txt lines 1256-1259); Seasonal ESL after 'Authoria - Patch - Reverb Interior Sounds - Astralite.esp'"
+ },
+ "hard_coded_names_to_parameterise": {
+  "picta_darken_v3_full.py": ["MODS", "OLDM", "NEWM", "DSTM='Authoria - Picta 1.1.2 - Darkened to 1.0.1' (rmtree target!)", "TUNDRA section text", "TRIM_EV 0.2", "AMBIENT_GAIN 1.15", "FORCE DOF", "user_edits glob = script folder (shared by any build)", "imports picta_authoria_overlay from script folder"],
+  "picta_authoria_overlay.py": ["VALUES/LOCATIONS paths in overlay/", "INTERIOR_FILES fake ids AA001/AA004/AA007", "SUMMER list (master file -> summer file, WEATHER961/963/964, ids 5AFA01..)", "selftest DSTM literal path; --dump writes into _tools/picta-bridge/overlay/selftest-out"],
+  "sync_root_twin.py": ["DATA_MOD (1.1.2 shipped)", "OVERRIDE_MOD (Darkened)", "PICTA_MODLIST = profiles/DEEZ CS NUTZ - PICTA/modlist.txt (enable test)", "TWIN = mods/Authoria - Picta ENB - Root twin/Root", "FILES list (5)"],
+  "verify_lighting_tune.py": ["OV (Darkened)", "TWIN", "BK = _backups/2026-10-15 - Picta lighting tune (pre)"],
+  "picta_darken_records_patch.py": ["ESM111/ESP111/ESM101 paths", "OUTDIR/OUTNAME", "per-weather tables G/DALC_K/MIST_FOG/VOLI_RELINK keyed by 24-bit Picta ids"],
+  "picta_ab_switch.py / reshade_ab_switch.py / install_july_dof.py": ["PROFILES = ['DEEZ CS NUTZ - PICTA', 'Authoria - Preset Studio - HPH'] (a new profile is not maintained by these)"]
+ },
+ "shared_state_traps": [
+  "The Darkened override mod is enabled in BOTH 'DEEZ CS NUTZ - PICTA' and 'Authoria - Preset Studio - HPH' - rebuilding it changes both lanes.",
+  "The Effects 11 editor Save writes through the VFS into whichever mod owns each file (base ini/root fx/current weather ini -> Darkened override; enbeffectpostpass.fx.ini -> shipped 1.1.2 Data mod; enbdepthoffield.fx.ini -> July DOF mod). A baby profile that only shadows SOME files would leak editor saves into the Picta lane's mods.",
+  "Root twin is one mod folder deployed to the game root by Root Builder; it must mirror the active profile's base ini + 4 fx inis. A baby profile whose base/fx inis differ needs its own twin mod (and the Picta twin disabled there).",
+  "Summer E11 files are generated from master data INSIDE the v3 plan; a downstream blend that edits only 00_Master files leaves summer weathers (5AFA01..) on pure Picta colours."
+ ]
+}

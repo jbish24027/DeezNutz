@@ -1,0 +1,65 @@
+E11 COLOUR MODEL - Bottled Shaders as INSTALLED (lens notes, 2026-10-17)
+
+BUILD IDENTITY
+- Installed: [NoDelete] Bottled Shaders 1.0.11, CommunityShaders.dll 23,005,696 B, mtime 2026-10-10 21:30 local.
+- Matches InTheBottle/Bottled-Shaders@4ca678b70a (2026-10-11T01:07Z "revert"): 76/76 shipped shader files byte-equal
+  (CRLF-normalised), Translations/en.json md5 29552241... equal to 4ca678b (not to 30bd893, which changed it).
+- Branch head d3c38b2 (2026-10-16) differs: OverrideWeather night-weighting, effect-lighting scale, GAMEVOLUMETRICRAYS
+  ungrade, HDRWeighting keys, EnableCloudsEdge, VOLUMETRICFOG EnableShadows, DisableGameDithering, VOLUMETRICRAYS Quality,
+  RAYS MoonType. NONE of these exist in the DLL string table (dllstrings_out.txt). Cite src_4ca678b/, not src/.
+
+PIPELINE ORDER (exterior, per frame)
+ engine Sky::UpdateColors (records x CLMT timing x weather pct) -> Effects11::OnSkyUpdateColors -> OverrideWeather grades
+ sky->skyColor[] + fog distances IN PLACE (Hooks.cpp 351-362; Effects11.cpp 879-885, 557-737) -> SkySync dims sunlight
+ -> VolumetricLighting god-ray settings. DALC: separate hook Sky_SetDirectionalAmbientColors (Hooks.cpp 365-385) ->
+ OverrideAmbientLighting (Effects11.cpp 770-780). Shaders then read the graded colours; post chain (enbeffect.fx etc.)
+ grades the whole frame afterwards with its own per-weather fx values (ExtendedEffect.cpp 356-402).
+
+HELPERS (Effects11.cpp 513-545)
+ Curve(c,p)=max(c,0)^p per channel; Desat(c,d)=max(lerp(c,mean3(c),d),0) (mean, not luma; d<0 = saturation boost);
+ ColorFilter(c,F,a)=lerp(c,1,a)*F  -> a=0: multiply; a=1: record hue REPLACED by F.
+
+SKY DOME  (Effects11.cpp 682-719, Prepass 492-511, Sky.hlsl 373-396, SkyScattering.hlsli 84-104)
+ band_X = Desat( Curve(rec_X, GradientXCurve) * GradientXColorFilter * GradientXIntensity * GradientIntensity , GradientDesaturation )
+   X: Top=kSkyUpper, Middle=kSkyLower, Horizon=kHorizon
+ UseProceduralGradientWeights=true: sky(z) = lerp(band_Top, band_Horizon, (1-sat(z))^ProceduralGradientWeightCurve)  -> Middle/kSkyLower unused
+   false: sky = VParams*(BlendColor0*v.x+BlendColor1*v.y+BlendColor2*v.z) (vanilla dome vertex weights, all three bands)
+ EnableCloudsScattering: sky' = lerp( sky*(1+AirGlow/(1+away*AirGlowRange^-2)), S, sat(Amount^2/(1+away*spread)) ) * (1+SunGlow*..)
+   then lerp(sky, lerp(top*0.5, that, earthShadow(ShadowAmount)), aboveHorizon)
+   S = (1+(sunN-1)*ColorFromSun) * ScatteringColor * sqrt(sat(1+2*sunZ)) * Intensity * dust terms
+   sunN = Desat(rec_kSun,SunDesaturation)*SunColorFilter / max(peak,1)   (Effects11.cpp 634-647, 164-189)
+ out = sky' + skyScale; DisableWrongSkyMath=true zeroes the vanilla additive skyScale (IMGS sky scale); false -> *GradientIntensity.
+ => record sky colours are MULTIPLIED (never replaced by a filter); then partially REPLACED by S (procedural, driven by the
+    record SUN colour x SunColorFilter when ColorFromSun>0) near the horizon; then x AirGlow.
+
+CLOUDS (Sky.hlsl 423-436, SkyScattering.hlsli 199-258, Effects11.cpp 721-726)
+ c = Curve(rec_cloudlayer*tex, CloudsCurve); c = lerp(c,mean,CloudsDesaturation)*CloudsIntensity*CloudsColorFilter;
+ + scattering sun light (S-colour x CloudsIntensity*CloudsLightingSunMultiplier+MinIntensity) + edge (S or sun disc colour)
+ alpha *= CloudsOpacity (C++) and *(1+alpha*CloudsVertexAlphaBoost).  Record cloud colour multiplied.
+
+FOG (Effects11.cpp 592-630; Lighting.hlsl 324-327)
+ fogNear/FarColor' = Curve(rec,FogColorCurve) -> ColorFilter(FogColorFilter, FogColorFilterAmount) -> *FogColorMultiplier
+ near' = near/FogAmountMultiplier, far' = far/FogAmountMultiplier, power' = power*FogCurveMultiplier, max untouched.
+ vertex fog: t = min(max, sat(dist*y - x)^power'); colour = lerp(near',far',t).  One filter for near AND far.
+ Registered fog keys = ENVIRONMENT FogColorMultiplier/FogColorCurve/FogAmountMultiplier/FogCurveMultiplier/FogColorFilter/
+ FogColorFilterAmount only. No [FOG] section, no FogHeight*/FogDensity* anywhere in the DLL.
+ Exponential Height Fog feature would read the graded fog (ExponentialHeightFog.cpp 186-207) but is enabled=0 in SettingsUser.json.
+
+VOLUMETRIC FOG [VOLUMETRICFOG] = effect-shader mist meshes only (Effect.hlsl 16, 699, 822-840)
+ EnableLighting=true: rgb = Curve(normTint(meshBaseColor)*tex, Curve) * (DirLight*shadow + Ambient) * Intensity*ColorFilter*0.5
+ false: rgb = Curve(meshColour)*lerp(1-ShadowAmount,1,shadow)*Intensity*ColorFilter;  alpha*=Opacity.
+
+DIRECT LIGHT (Effects11.cpp 567-590): sun = (Curve(rec*s,DLCurve)->Desat(DLDesat)->ColorFilter(DLF,DLFAmt)->*DLInt)/s, s=IMGS sunlightScale.
+ kSunlight only. Interior directional light never passes through here (confirmed: interiors keep lighting-template sun).
+AMBIENT (Effects11.cpp 770-780): DALC' = Desat(DALC,AmbientLightingDesaturation)*AmbientLightingIntensity. No curve, no filter
+ (AmbientLightingCurve/ColorFilter absent from DLL). Hue of ambient = records only (+ IBL sky add-on).
+IBL (IBL.cpp 220-241; IBL.hlsli 89-128): [EFFECT]EnableImageBasedLighting -> exterior ambient = DALC' + skyIBL*MultiplicativeAmount*sat(-dir.z*.65+.35).
+VOLI (Effects11.cpp 729-736; ISCompositeLensFlareVolumetricLighting.hlsl 35-41): engine VOLI data, intensity*=GVR Intensity,
+ rangeFactor*=GVR RangeFactor; colour = lerp(colour,mean,GVR Desaturation)*GVR ColorFilter. VOLI records READ, not replaced.
+ E11 [VOLUMETRICRAYS] is an additional screen-space pass coloured by sun disc colour + graded horizon (ApplyVolumetricRaysPS 59-71).
+
+BLENDING (SettingManager.cpp 296-332, 874-916; EffectManager.cpp 840-1029; ExtendedEffect.cpp 141-186, 356-402)
+ ini value = sum_p w_p * lerp(last_weather[p], current_weather[p], sky->currentWeatherPct); undefined periods -> base ini.
+ w_p from [TIMEOFDAY] (6 exterior periods), not from CLMT. Day weight bent by ^0.6, partner = 1-Day^0.6 -> sums EXACTLY 1
+ (colour_model_out.txt, both TIMEOFDAY sets, 15-min steps). The ">1 at dawn/dusk" claim is NOT reproduced in this build.
+ Records blend on CLMT timing (engine) with the same weather pct -> product of two independent interpolations.

@@ -1,0 +1,203 @@
+files  mod
+1752   Amorous Adventures - Player Dialogue Rewritten
+1709   Flint the Minotaur
+1028   Glenmoril - English Translation SE
+685    M'rissi's Tails of Troubles SE
+603    Beyond Skyrim - Bruma SE - Main
+553    Serana Dialogue Add-On
+473    Immersive World Encounters SE
+446    Amorous Adventures for OStim Standalone - Patch and Fixes
+356    Improved Follower Dialogue - Lydia
+301    Eleonora Female Nord Dbvo Pack With Patches
+300    The Forgotten City
+293    Ostim Resolutions (Solutions 2.0) Standalone
+265    Heart of Ice - Astrid. Custom Voiced Follower
+226    Bards Reborn Student of Song
+224    Unslaad Voiced - English Addon SE
+195    <Stock Game>
+173    Thogra gra-Mugur - Orc Follower and Quest
+166    Authoria - xEdit Output - NSFW
+153    Unofficial Skyrim Special Edition Patch
+147    FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire
+133    Creation Club - Cleaned Masters
+122    Immersive Dialogue Expansion - Thalmor
+121    Cleaned Base Game Masters
+105    Olenveld
+90     Immersive Kaidan AIO - rerun
+88     Skyrim Realistic Conquering - All In One
+84     The Rot Below
+83     The Frozen Heart - Quest Mod
+78     Gore
+78     Immersive Dialogue Expansion - Dawnguard and Vigilants
+73     CFTO - Fixes and Winterhold
+63     Moonpath to Elsweyr - Unofficial Patch
+62     A Friend in Mead - Quest Mod
+57     The Tools of Kagrenac
+56     Olenveld - Tweaks and Fixes
+51     Moonpath to Elsweyr SSE
+50     Ashe - Crystal Heart
+46     Seeking The Cure - A Rising At Dawn Quest Overhaul
+45     Thieves Guild Alternative Endings
+44     Simple Hunting Overhaul
+42     Fists of Fury
+42     CC Farming - Tweaks and Enhancements
+41     VIGILANT - English Translation SE (Voiced)
+40     The Heart of Dibella - Quest Expansion
+37     College of Winterhold - Quest Expansion
+37     An Evening With Angi
+37     Horses Are Your Friends
+36     Fair Rebalancing Of Transit Tariffs - Active Graph Evaluation
+34     Val Serano - Pirate Follower and Quest Adventure
+34     Follower Dialogue Expansion - Brelyna Maryon
+33     Hearthfire Multiple Adoptions Expanded
+32     Everdamned
+32     Interesting NPCs 3DNPC - 4.54 Update
+32     Follower Dialogue Expansion - Aranea Ienith
+29     Yoana - Custom Voiced Follower
+28     SIRENROOT - Deluge of Deceit 1.3
+28     Redcap
+28     Favor Quests Separated
+27     Above all Else - Lovecraft Inspired Quest
+26     The Taste of Death - Quest Addon
+26     Xelzaz - Custom Fully Voiced Argonian Telvanni Follower
+25     Remiel-Custom Voiced Dwemer Specialist and Companion
+25     Skyrim Extended Cut - Saints and Seducers
+25     Immersive Dialogue Expansion - Jorrvaskr (Companions)
+25     Simple Fishing Overhaul - Improved Quest Dialogue
+25     Wyrmstooth
+25     Hearthfire Multiple Adoptions
+21     Follower Dialogue Expansion - Aela the Huntress
+21     Wait Carriage in Inns - Fast Travel Improvement
+21     DAC0DA - English Translation SE
+19     Song of the Green (Auri Follower) - Vigilant
+19     The Gift of Saturalia - A Quest for the Holidays
+18     It Came from Akavir - Quest Mod
+18     Caught Red Handed - Quest Expansion
+16     Immersive Dialogue Expansion - Stormcloaks
+16     Before the End - Quest Mod
+16     DiegeticTravel
+15     Legacy of the Dragonborn V6
+15     Thieves Guild Requirements SE
+15     The Gray Cowl of Nocturnal - 10th anniversary
+14     Paarthurnax - Quest Expansion
+14     Morskom Estate
+14     Banters with Flint
+13     Follower Dialogue Expansion - Jenassa
+13     Follower Dialogue Expansion - Mjoll the Lioness
+12     The Cursed Tribe - Quest Expansion (TCTQE)
+12     Ill Met by Moonlight - Dialogue Expansion
+11     Immersive Rejections
+10     Gravewind
+10     Face Sculptor Expanded
+9      Headhunter - Bounties Redone
+9      Snazzy Misc Locations
+9      Become a Bard
+8      A Friend in Mead - Whispers of the Depths
+8      Why I Came to Skyrim - Origin Stories
+7      House of Horrors - Quest Expansion
+7      Talos' Tease
+7      Carriages and Stables Dialogue Bundle - Voiced Addon
+7      A Lovely Letter Alternate Routes
+7      Penitus Oculatus
+7      The Forsworn Conspiracy - Quest Expansion
+6      The City of Crossed Daggers - Riften Expansion
+6      Save the Icerunner - Lights Out Alternate Routes
+6      Carriages and Stables Dialogue Bundle
+6      Blood on the Ice Redux SE
+6      Imperial Mail - Post and Banking Service
+6      The Only Cure - Quest Expansion
+6      Devotion
+6      Infiltration - Quest Expansion
+6      Requiem - Minor Arcana
+5      Schlongs of Skyrim - NG
+5      CC Tundra Homestead - Tweaks and Enhancements (THTE)
+5      Innocence Lost - Quest Expansion
+5      Amorous Adventures - MCM
+5      Authoria - xEdit Output
+5      OStim Community Resource
+5      Lucien - Immersive Fully Voiced Male Follower
+5      Sanguine's Trade - An Economy Mod
+5      Creation Club - Alternative Armors - Ebony Plate
+5      Authoria - Basic Wenches OStim
+5      Creation Club - Alternative Armors - Orcish Scaled
+5      Simply Knock SE
+5      Auri - 3DNPC Patch
+4      A new Debt Alternate Routes
+4      Quest - Baba Yaga and the Labyrinth
+4      Skyrim's Got Talent - Improve As a Bard
+4      Inigo - cleaned esp File
+4      Kaidan 2
+4      Follower Dialogue Expansion - Sapphire (FDE)
+4      Follower Dialogue Expansion - Illia
+4      Jimothy Follower SE
+3      Extended Hireling Dialogue - Belrand
+3      Follower Dialogue Expansion - Marcurio
+3      Miscellaneous Quests are Favors
+3      Nilheim - Misc Quest Expansion
+3      Amorous Adventures OStim Standalone - Player Dialogue Rewritten Patch
+3      At Your Own Pace - Thane Overhaul
+3      Homes Under the Warhammer - Shadowfoot Sanctum
+3      The Hunt for the Spectre - Elden Ring Inspired Quest
+3      The Whispering Door - Quest Expansion
+3      Legacy of the Dragonborn Creation Club Patches - rerun
+3      NPCs React To Necromancy
+3      Follower Dialogue Expansion - Saadia
+3      Civil War Champions - Reduced Cut
+3      Drengin's Blue Palace Terrace
+3      Missives - Worldspace Additions
+2      Auri - VIGILANT commentary patch tweaks
+2      Love Is In The Air - Dynamic NPC Marriages
+2      Radiance
+2      Unmasking Sybille
+2      Calling the Watchmaker - Lovecraftian Inspired Quest
+2      Legacy of the Dragonborn Patches (Official) - rerun
+2      Skybound Underhang Camp
+2      Buyable Golden Claw
+2      Spooky Philter of the Phantom
+2      Authoria - Requiem Patches
+2      Carriage Ferry Travel Overhaul (CFTO) Bittercup Fix
+2      Quest Fixes
+2      Lucien - Creation Club
+2      Follower Dialogue Expansion - Erik the Slayer
+1      Silence is Golden
+1      Alternate Perspective - Voiced Addon
+1      At Your Own Pace - Inigo Patch
+1      NPCs React To Invisibility
+1      Harvest Your Blood for Septimus
+1      Unofficial Skyrim Modder's Patch
+1      Triumvirate - Mage Archetypes
+1      Race Compatibility Dialogue - Gore
+1      OISeeYouMasturbating
+1      Honed Metal - Isobel Patch
+1      Follower Dialogue Expansion - Borgakh the Steel Heart
+1      Authoria - Papyrus - Quest Fragment Patches
+1      Rob's Bug Fixes - TGC Kynesgrove
+1      Trade and Barter
+1      Talos' Tease - Ostim
+1      Whispers of the Depths - Quest Mod
+1      The Forgotten City - Good Ending Tweaks
+1      Missives - Voice and Quest Expansion
+1      houseCARL - Authoria - Patch - IWE No Dragon Events
+1      At Your Own Pace - College of Winterhold
+1      Interesting Follower Requirements for 3DNPCs
+1      Bittercup - Tweaks and Enhancements
+1      Beyond Skyrim - Bruma SE - LOTD
+1      Adventurer's Start - An Alternate Perspective Addon - Bruma
+1      Caught Red Handed - Quest Expansion - OStim Patch
+1      Riverwood Trader Is A Mess
+1      Skyforge Immersion Addon
+1      Authoria - Papyrus - A New Debt Alternate Routes Fix
+1      C.O.I.N. - Merchant Echange
+1      Xelzaz Reacts To Your Music
+1      Redcap CC Goblins Commentary and Gogh Interactions
+1      Song of the Green (Auri Follower)
+1      Ashe - Crystal Heart - SDA
+1      Follower Dialogue Expansion - Faralda
+1      Adventurer's Start - An Alternate Perspective Addon
+1      Amorous Adventures OStim Standalone - OStim Sequences
+1      Follower Dialogue Expansion - Uthgerd the Unbroken
+1      Kidmer - Adoptable Elf Children
+1      Heart of Ice - Astrid - OStim Integration
+1      Simply Order Summons
+
+unattributed: 31

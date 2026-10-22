@@ -1,0 +1,10 @@
+== Cultist m: cultisttorso_1.nif  limits first joint {'out': 1.05, 'inn': 0.2, 'side': 0.18}, lower {'out': 0.62, 'inn': 0.2, 'side': 0.12}
+   pose                    per stride: caught/hooked/sunk
+   at rest                sprint R  89/ 4/116   sprint L  88/ 0/101   walk R 100/ 4/ 46   walk L  90/ 0/ 46
+   curled in (limit)      sprint R  81/ 3/122   sprint L 131/ 0/143   walk R 121/ 3/ 96   walk L 132/ 0/109
+   swung back .3/.15      sprint R  37/ 4/ 49   sprint L  37/ 0/ 43   walk R  45/ 7/ 53   walk L  60/ 0/ 60
+   swung forward .3/.15   sprint R  94/ 1/133   sprint L  81/ 0/178   walk R  39/ 0/ 65   walk L  39/ 0/ 68
+   swung sideways .3/.15  sprint R  65/10/ 80   sprint L  74/ 7/ 88   walk R  48/ 4/ 54   walk L  81/ 9/ 36
+   total caught/hooked/sunk 1532/56/1686; lining pts Front 226, Back 311, Side 537
+
+EXIT 0

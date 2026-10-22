@@ -1,0 +1,9 @@
+== Farm03x m: farmer03mextras_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R  32/ 0/ 90   sprint L 108/ 0/ 45   walk R 115/ 0/ 40   walk L  67/ 0/ 28
+   curled in (limit)      sprint R  33/ 0/ 64   sprint L  70/ 0/ 44   walk R  77/ 0/ 91   walk L  42/ 0/ 85
+   swung back .3/.15      sprint R  37/ 0/  9   sprint L  41/ 0/ 51   walk R  42/ 0/ 44   walk L  66/ 1/ 76
+   swung forward .3/.15   sprint R  40/ 0/ 55   sprint L  91/ 0/ 78   walk R  11/ 0/ 41   walk L   8/ 0/ 41
+   swung sideways .3/.15  sprint R  39/ 0/ 30   sprint L  70/ 0/125   walk R  41/ 0/ 23   walk L  70/ 0/ 55
+   total caught/hooked/sunk 1100/1/1115; lining pts Front 202, Back 106, Side 171
+
+EXIT 0

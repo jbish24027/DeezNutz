@@ -1,0 +1,489 @@
+{"housecarl_artifact":1,"tool":"housecarl_records","query":{"form":"summary","types":"WTHR"},"identity":"formid","row_schema":["formid","runtime_formid","type","editorid","editorid_note?","name?","winner","override_depth","matches?"],"sort":"load-order scan order (deterministic within one epoch)","row_count":488,"total":488,"type_counts":{"Weather":488},"epoch":"e2-2e8a422a1a87271e","created":"2026-10-17T09:23:41Z"}
+{"formid":"10DA13:Skyrim.esm","runtime_formid":"0010DA13","type":"Weather","editorid":"FXWthrInvertWindowsWinterhold","winner":"Skyrim.esm","override_depth":1}
+{"formid":"101910:Skyrim.esm","runtime_formid":"00101910","type":"Weather","editorid":"FXWthrInvertLightMarkarth","winner":"Skyrim.esm","override_depth":1}
+{"formid":"0777CF:Skyrim.esm","runtime_formid":"000777CF","type":"Weather","editorid":"FXWthrInvertDayNighWarm","winner":"Skyrim.esm","override_depth":1}
+{"formid":"075DE5:Skyrim.esm","runtime_formid":"00075DE5","type":"Weather","editorid":"FXWthrCaveBluePaleLight","winner":"Skyrim.esm","override_depth":1}
+{"formid":"06ED5B:Skyrim.esm","runtime_formid":"0006ED5B","type":"Weather","editorid":"FXWthrCaveBlueSkylight","winner":"Skyrim.esm","override_depth":1}
+{"formid":"06ED5A:Skyrim.esm","runtime_formid":"0006ED5A","type":"Weather","editorid":"FXWthrInvertDayNight","winner":"Skyrim.esm","override_depth":1}
+{"formid":"10E3D4:Skyrim.esm","runtime_formid":"0010E3D4","type":"Weather","editorid":"EditorCloudPreview","winner":"Update.esm","override_depth":2}
+{"formid":"02E7AB:Skyrim.esm","runtime_formid":"0002E7AB","type":"Weather","editorid":"TESTCloudyRain","winner":"Update.esm","override_depth":2}
+{"formid":"03416F:ccbgssse067-daedinv.esm","runtime_formid":"0A03416F","type":"Weather","editorid":"ccBGSSSE067_DeadlandsAmbWeather01","winner":"ccbgssse067-daedinv.esm","override_depth":1}
+{"formid":"105831:ccbgssse067-daedinv.esm","runtime_formid":"0A105831","type":"Weather","editorid":"ccBGSSSE067_DeadlandsAmbWeatherCaveDark01","winner":"ccbgssse067-daedinv.esm","override_depth":1}
+{"formid":"0012C4:unofficial skyrim special edition patch.esp","runtime_formid":"0C0012C4","type":"Weather","editorid":"USKP_SkyhavenTempleEntranceOvercastRainRE","winner":"unofficial skyrim special edition patch.esp","override_depth":1}
+{"formid":"0D38A6:BSHeartland.esm","runtime_formid":"120D38A6","type":"Weather","editorid":"CYRDunFrostfireGladeEndStormWeather","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF0:BSHeartland.esm","runtime_formid":"1207EAF0","type":"Weather","editorid":"CYRCyrodiilOvercastRainWW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"05FF96:BSHeartland.esm","runtime_formid":"1205FF96","type":"Weather","editorid":"CYRCyrodiilClearBW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"060C29:BSHeartland.esm","runtime_formid":"12060C29","type":"Weather","editorid":"CYRCyrodiilClearGC","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"061208:BSHeartland.esm","runtime_formid":"12061208","type":"Weather","editorid":"CYRCyrodiilFogGC_a","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"061209:BSHeartland.esm","runtime_formid":"12061209","type":"Weather","editorid":null,"winner":"BSHeartland.esm","override_depth":1}
+{"formid":"06120B:BSHeartland.esm","runtime_formid":"1206120B","type":"Weather","editorid":"CYRCyrodiilFogGC","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"06120C:BSHeartland.esm","runtime_formid":"1206120C","type":"Weather","editorid":"CYRCyrodiilCloudyGC","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"06120D:BSHeartland.esm","runtime_formid":"1206120D","type":"Weather","editorid":"CYRCyrodiilStormRainGC","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"062590:BSHeartland.esm","runtime_formid":"12062590","type":"Weather","editorid":"CYRCyrodiilClearNV","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"062BF7:BSHeartland.esm","runtime_formid":"12062BF7","type":"Weather","editorid":"CYRCyrodiilClearGF","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"068ABE:BSHeartland.esm","runtime_formid":"12068ABE","type":"Weather","editorid":"CYRCyrodiilOvercastRainHL","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"068AD0:BSHeartland.esm","runtime_formid":"12068AD0","type":"Weather","editorid":"CYRCyrodiilClearHL","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"06C8EC:BSHeartland.esm","runtime_formid":"1206C8EC","type":"Weather","editorid":"CYRCyrodiilFogGF","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07E9BE:BSHeartland.esm","runtime_formid":"1207E9BE","type":"Weather","editorid":"CYRCyrodiilCloudyBW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07E9BF:BSHeartland.esm","runtime_formid":"1207E9BF","type":"Weather","editorid":"CYRCyrodiilFogBW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07E9C0:BSHeartland.esm","runtime_formid":"1207E9C0","type":"Weather","editorid":"CYRCyrodiilOvercastRainBW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07E9C1:BSHeartland.esm","runtime_formid":"1207E9C1","type":"Weather","editorid":"CYRCyrodiilStormRainBW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07E9C4:BSHeartland.esm","runtime_formid":"1207E9C4","type":"Weather","editorid":"CYRCyrodiilOvercastRainGC","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAE4:BSHeartland.esm","runtime_formid":"1207EAE4","type":"Weather","editorid":"CYRCyrodiilCloudyHL","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAE5:BSHeartland.esm","runtime_formid":"1207EAE5","type":"Weather","editorid":"CYRCyrodiilCloudyNB","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAE6:BSHeartland.esm","runtime_formid":"1207EAE6","type":"Weather","editorid":"CYRCyrodiilCloudyNV","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAE7:BSHeartland.esm","runtime_formid":"1207EAE7","type":"Weather","editorid":"CYRCyrodiilCloudyGF","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAE8:BSHeartland.esm","runtime_formid":"1207EAE8","type":"Weather","editorid":"CYRCyrodiilCloudyWW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAE9:BSHeartland.esm","runtime_formid":"1207EAE9","type":"Weather","editorid":"CYRCyrodiilCloudyCH","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAEA:BSHeartland.esm","runtime_formid":"1207EAEA","type":"Weather","editorid":"CYRCyrodiilClearWW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAEB:BSHeartland.esm","runtime_formid":"1207EAEB","type":"Weather","editorid":"CYRCyrodiilClearCH","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAEC:BSHeartland.esm","runtime_formid":"1207EAEC","type":"Weather","editorid":"CYRCyrodiilClearNB","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAED:BSHeartland.esm","runtime_formid":"1207EAED","type":"Weather","editorid":"CYRCyrodiilStormRain","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAEE:BSHeartland.esm","runtime_formid":"1207EAEE","type":"Weather","editorid":"CYRCyrodiilOvercastRainCH","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAEF:BSHeartland.esm","runtime_formid":"1207EAEF","type":"Weather","editorid":"CYRCyrodiilOvercastRainGF","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF1:BSHeartland.esm","runtime_formid":"1207EAF1","type":"Weather","editorid":"CYRCyrodiilOvercastRainNB","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF2:BSHeartland.esm","runtime_formid":"1207EAF2","type":"Weather","editorid":"CYRCyrodiilOvercastRainNV","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF3:BSHeartland.esm","runtime_formid":"1207EAF3","type":"Weather","editorid":"CYRCyrodiilFogCH","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF4:BSHeartland.esm","runtime_formid":"1207EAF4","type":"Weather","editorid":"CYRCyrodiilFogNB","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF5:BSHeartland.esm","runtime_formid":"1207EAF5","type":"Weather","editorid":"CYRCyrodiilFogNV","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF6:BSHeartland.esm","runtime_formid":"1207EAF6","type":"Weather","editorid":"CYRCyrodiilFogHL","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07EAF7:BSHeartland.esm","runtime_formid":"1207EAF7","type":"Weather","editorid":"CYRCyrodiilFogWW","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"07F2E8:BSHeartland.esm","runtime_formid":"1207F2E8","type":"Weather","editorid":"CYRCrowsWoodAmb01","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"0D38A5:BSHeartland.esm","runtime_formid":"120D38A5","type":"Weather","editorid":"CYRDunFrostfireGladeEndClearWeather","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"0D38A7:BSHeartland.esm","runtime_formid":"120D38A7","type":"Weather","editorid":"CYRDunFrostfireGladeDefaultColdWeather","winner":"BSHeartland.esm","override_depth":1}
+{"formid":"00B769:DAc0da.esm","runtime_formid":"1600B769","type":"Weather","editorid":"zDcdBlindGodFog","winner":"DAc0da.esm","override_depth":1}
+{"formid":"0042F8:DAc0da.esm","runtime_formid":"160042F8","type":"Weather","editorid":"zDcdStormRainHeavy","winner":"DAc0da.esm","override_depth":1}
+{"formid":"0098F4:DAc0da.esm","runtime_formid":"160098F4","type":"Weather","editorid":"zDcdDwemerethFog","winner":"DAc0da.esm","override_depth":1}
+{"formid":"056A0D:Vigilant.esm","runtime_formid":"17056A0D","type":"Weather","editorid":"zzzCHMonoClearWeather","winner":"Vigilant.esm","override_depth":1}
+{"formid":"2C603B:Vigilant.esm","runtime_formid":"172C603B","type":"Weather","editorid":"zzzCHOldForestStormRain","winner":"Vigilant.esm","override_depth":1}
+{"formid":"2DA92C:Vigilant.esm","runtime_formid":"172DA92C","type":"Weather","editorid":"zzzCHWhaleGraveyardStormSnow","winner":"Vigilant.esm","override_depth":1}
+{"formid":"062484:Vigilant.esm","runtime_formid":"17062484","type":"Weather","editorid":"zzzCOCursedWeather","winner":"Vigilant.esm","override_depth":1}
+{"formid":"056A0C:Vigilant.esm","runtime_formid":"17056A0C","type":"Weather","editorid":"zzzCHMonoFogWeather","winner":"Vigilant.esm","override_depth":1}
+{"formid":"001770:Glenmoril.esm","runtime_formid":"18001770","type":"Weather","editorid":"zzzRevWeatherRainInInt","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"001200:Glenmoril.esm","runtime_formid":"18001200","type":"Weather","editorid":"zzzRevWeatherRainMiddle","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"491B1C:Glenmoril.esm","runtime_formid":"18491B1C","type":"Weather","editorid":"zzzRevWeatherDreamsleeves","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"30EEB1:Glenmoril.esm","runtime_formid":"1830EEB1","type":"Weather","editorid":"zzzRevWeatherFishVillage","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"0031FD:Glenmoril.esm","runtime_formid":"180031FD","type":"Weather","editorid":"zzzRevWeatherDustSnow","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"000F92:Glenmoril.esm","runtime_formid":"18000F92","type":"Weather","editorid":"zzzRevWeatherRain","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"2401C8:Glenmoril.esm","runtime_formid":"182401C8","type":"Weather","editorid":"zzzRevWeatherAsh","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"001771:Glenmoril.esm","runtime_formid":"18001771","type":"Weather","editorid":"zzzRevWeatherRainHeavyInt","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"21BCF1:Glenmoril.esm","runtime_formid":"1821BCF1","type":"Weather","editorid":"zzzRevWeatherSnow","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"30EEB4:Glenmoril.esm","runtime_formid":"1830EEB4","type":"Weather","editorid":"zzzRevWeatherHircineSeal","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"009CB7:Glenmoril.esm","runtime_formid":"18009CB7","type":"Weather","editorid":"zzzGHWeatherMoonTop","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"2A0166:Glenmoril.esm","runtime_formid":"182A0166","type":"Weather","editorid":"zzzRevWeatherAbyss","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"00133B:Glenmoril.esm","runtime_formid":"1800133B","type":"Weather","editorid":"zzzRevWeatherClear","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"0011FE:Glenmoril.esm","runtime_formid":"180011FE","type":"Weather","editorid":"zzzRevWeatherRainHeavy","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"00C818:Glenmoril.esm","runtime_formid":"1800C818","type":"Weather","editorid":"zzzGHWeatherHeavyCloud","winner":"Glenmoril.esm","override_depth":1}
+{"formid":"31E431:Olenveld.esp","runtime_formid":"1A31E431","type":"Weather","editorid":"OlenUWWeather","winner":"Olenveld.esp","override_depth":1}
+{"formid":"2D11A2:Olenveld.esp","runtime_formid":"1A2D11A2","type":"Weather","editorid":"OlenAncientIndexer_A","winner":"Olenveld.esp","override_depth":1}
+{"formid":"82A018:Wyrmstooth.esp","runtime_formid":"1C82A018","type":"Weather","editorid":"WyrmstoothFog","winner":"Wyrmstooth.esp","override_depth":1}
+{"formid":"9E13AB:Wyrmstooth.esp","runtime_formid":"1C9E13AB","type":"Weather","editorid":"WyrmstoothThickFog","winner":"Wyrmstooth.esp","override_depth":1}
+{"formid":"627E73:Wyrmstooth.esp","runtime_formid":"1C627E73","type":"Weather","editorid":"WyrmstoothClear","winner":"Wyrmstooth.esp","override_depth":1}
+{"formid":"0898A1:FalkreathShades.esp","runtime_formid":"1E0898A1","type":"Weather","editorid":"GRVECemeteryWeather","winner":"FalkreathShades.esp","override_depth":1}
+{"formid":"000833:Supernova.esl","runtime_formid":"FE048833","type":"Weather","editorid":"_SS_SupernovaCInematicFXWeatherInferno","winner":"Supernova.esl","override_depth":1}
+{"formid":"000831:Supernova.esl","runtime_formid":"FE048831","type":"Weather","editorid":"_SS_SupernovaCInematicFXWeather","winner":"Supernova.esl","override_depth":1}
+{"formid":"000832:Supernova.esl","runtime_formid":"FE048832","type":"Weather","editorid":"_SS_SupernovaCInematicFXWeatherEnd","winner":"Supernova.esl","override_depth":1}
+{"formid":"000D73:Gray Fox Cowl.esm","runtime_formid":"22000D73","type":"Weather","editorid":"manny_GF_Weather_DesertClean","winner":"Gray Fox Cowl.esm","override_depth":1}
+{"formid":"00DAAC:Gray Fox Cowl.esm","runtime_formid":"2200DAAC","type":"Weather","editorid":"manny_GF_Weather_Akavir","winner":"Gray Fox Cowl.esm","override_depth":1}
+{"formid":"000DCB:Gray Fox Cowl.esm","runtime_formid":"22000DCB","type":"Weather","editorid":"manny_GF_Weather_Coldharbour","winner":"Gray Fox Cowl.esm","override_depth":1}
+{"formid":"042A13:Gray Fox Cowl.esm","runtime_formid":"22042A13","type":"Weather","editorid":"manny_GF_Weather_DesertCursedSandStorm","winner":"Gray Fox Cowl.esm","override_depth":1}
+{"formid":"001F4B:Gray Fox Cowl.esm","runtime_formid":"22001F4B","type":"Weather","editorid":"manny_GF_Weather_ChampionHall","winner":"Gray Fox Cowl.esm","override_depth":1}
+{"formid":"02A2E3:Gray Fox Cowl.esm","runtime_formid":"2202A2E3","type":"Weather","editorid":"manny_GF_Weather_DesertSandStorm","winner":"Gray Fox Cowl.esm","override_depth":1}
+{"formid":"01049E:GORE.esp","runtime_formid":"2501049E","type":"Weather","editorid":"0JoleeHoleWeather","winner":"GORE.esp","override_depth":1}
+{"formid":"53ABD3:Grand Solitude - The Walls of High King Erling.esp","runtime_formid":"2D53ABD3","type":"Weather","editorid":"WBPTFXDayNightComboLight","winner":"Grand Solitude - The Walls of High King Erling.esp","override_depth":1}
+{"formid":"53ABD3:BluePalaceTerrace.esp","runtime_formid":"2E53ABD3","type":"Weather","editorid":"WBPTFXDayNightComboLight","winner":"BluePalaceTerrace.esp","override_depth":1}
+{"formid":"105942:Skyrim.esm","runtime_formid":"00105942","type":"Weather","editorid":"SolitudeBluePalaceFogARENA","winner":"Picta - Weathers of Aurbis.esm","override_depth":3}
+{"formid":"105943:Skyrim.esm","runtime_formid":"00105943","type":"Weather","editorid":"SolitudeBluePalaceFogFEAR","winner":"Picta - Weathers of Aurbis.esm","override_depth":3}
+{"formid":"105944:Skyrim.esm","runtime_formid":"00105944","type":"Weather","editorid":"SolitudeBluePalaceFogNMARE","winner":"Picta - Weathers of Aurbis.esm","override_depth":3}
+{"formid":"105945:Skyrim.esm","runtime_formid":"00105945","type":"Weather","editorid":"SolitudeBluePalaceFog","winner":"Picta - Weathers of Aurbis.esm","override_depth":3}
+{"formid":"19FA00:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FA00","type":"Weather","editorid":"[PICTA - WEATHER OF AURBIS - MASTER WEATHERS]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FA99:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FA99","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FB99:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FB99","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FC99:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FC99","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FD99:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD99","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FE99:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE99","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FFF1:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FFF1","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FFF2:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FFF2","type":"Weather","editorid":"Wind Speeds [LOW 30 - 70] | [MEDIUM 80 - 120] | [HIGH 130 - 180] | [EXTREME 190 - 250]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FFF3:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FFF3","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FFF4:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FFF4","type":"Weather","editorid":"[REGIONAL WEATHERS]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"19FFF5:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FFF5","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0000:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0000","type":"Weather","editorid":"[SKYRIM - FALKREATH PINE FOREST - 1.01] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE None - Medium]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0029:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0029","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0030:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0030","type":"Weather","editorid":"[SKYRIM - RIFT FALL FOREST - 1.02] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE None - Medium]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0059:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0059","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0060:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0060","type":"Weather","editorid":"[SKYRIM - HJAALMARCH MARSH - 1.03] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE None - Medium]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0089:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0089","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0090:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0090","type":"Weather","editorid":"[SKYRIM - WHITERUN TUNDRA - 1.04] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Low - High]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0119:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0119","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0120:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0120","type":"Weather","editorid":"[SKYRIM - REACH MOUNTAINS - 1.05] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Low - High]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0149:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0149","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0150:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0150","type":"Weather","editorid":"[SKYRIM - EASTMARCH VOLCANIC TUNDRA - 1.06] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Low - High]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0179:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0179","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0180:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0180","type":"Weather","editorid":"[SKYRIM - SNOW TUNDRA - 1.07] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Medium - Extreme]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0209:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0209","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0210:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0210","type":"Weather","editorid":"[SKYRIM - NORTH COAST - 1.08] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Medium - Extreme]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0239:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0239","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0240:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0240","type":"Weather","editorid":"[SKYRIM - SNOW MOUNTAINS - 1.09] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Medium - Extreme]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0269:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0269","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0270:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0270","type":"Weather","editorid":"[SKYRIM - FORGOTTEN VALE - 1.10] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Low - High]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0299:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0299","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0300:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0300","type":"Weather","editorid":"[SKYRIM - SOLSTHEIM - ASH TUNDRA - 1.11] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Low - High]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0301:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0301","type":"Weather","editorid":"Cloudy_Aurora","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0302:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0302","type":"Weather","editorid":"Cloudy","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0303:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0303","type":"Weather","editorid":"Cloudy_Rain?","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0304:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0304","type":"Weather","editorid":"Overcast","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0305:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0305","type":"Weather","editorid":"Overcast_Rain","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0306:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0306","type":"Weather","editorid":"Overcast_Ash","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0307:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0307","type":"Weather","editorid":"Overcast_Fog","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0308:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0308","type":"Weather","editorid":"Storm_Sulfur_Rain","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0309:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0309","type":"Weather","editorid":"Storm_Ash","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0310:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0310","type":"Weather","editorid":"Storm_Eruption","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0329:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0329","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0330:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0330","type":"Weather","editorid":"[SKYRIM - SOLSTHEIM - SNOW TUNDRA - 1.12] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Medium - Extreme]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0359:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0359","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A0360:Picta - Weathers of Aurbis.esm","runtime_formid":"351A0360","type":"Weather","editorid":"[SKYRIM - SOLSTHEIM - MOUNTAIN COAST - 1.13] [WIND: DIR 225 / CL_DIR Y -100% / CL_DIR X -100% / SPE Medium - Extreme]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A9997:Picta - Weathers of Aurbis.esm","runtime_formid":"351A9997","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A9998:Picta - Weathers of Aurbis.esm","runtime_formid":"351A9998","type":"Weather","editorid":"[UNIQUE WEATHERS]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1A9999:Picta - Weathers of Aurbis.esm","runtime_formid":"351A9999","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0000:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0000","type":"Weather","editorid":"[SKYRIM - UNIQUE]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0001:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0001","type":"Weather","editorid":"PIC_WTHR_MQ_Intro_Cart_Scene","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0002:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0002","type":"Weather","editorid":"PIC_WTHR_MQ_Intro_Helgen_Scene","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0003:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0003","type":"Weather","editorid":"PIC_WTHR_MQ_Intro_Dragon_Attack","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0004:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0004","type":"Weather","editorid":"PIC_WTHR_MQ_Dragon_Altar","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0005:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0005","type":"Weather","editorid":"PIC_WTHR_MQ_Karthspire_Redoubt","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0006:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0006","type":"Weather","editorid":"PIC_WTHR_MQ_Throat_Of_The_World","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0007:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0007","type":"Weather","editorid":"PIC_WTHR_MQ_Blackreach","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0008:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0008","type":"Weather","editorid":"PIC_WTHR_MQ_Dragon_War_Time_Travel_Scene","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0009:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0009","type":"Weather","editorid":"PIC_WTHR_MQ_Alduin_Fight","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0010:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0010","type":"Weather","editorid":"PIC_WTHR_MQ_Skuldafn","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0011:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0011","type":"Weather","editorid":"PIC_WTHR_MQ_Sovngarde_Prelude","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0012:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0012","type":"Weather","editorid":"PIC_WTHR_MQ_Sovngarde_Victory","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"1B0013:Picta - Weathers of Aurbis.esm","runtime_formid":"351B0013","type":"Weather","editorid":"PIC_WTHR_MQ_Epilogue_Scene","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9991:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9991","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9992:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9992","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9993:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9993","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9994:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9994","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9995:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9995","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9996:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9996","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9997:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9997","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9998:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9998","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"9F9999:Picta - Weathers of Aurbis.esm","runtime_formid":"359F9999","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"A10000:Picta - Weathers of Aurbis.esm","runtime_formid":"35A10000","type":"Weather","editorid":null,"winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"A10001:Picta - Weathers of Aurbis.esm","runtime_formid":"35A10001","type":"Weather","editorid":"Helios_PIC_WTHR_SKYFPF_01_Clear","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99000:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99000","type":"Weather","editorid":"[TECHNICAL WEATHERS]","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99001:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99001","type":"Weather","editorid":"PIC-TECH-WTHR_Sunny_Windy_None","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99002:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99002","type":"Weather","editorid":"PIC-TECH-WTHR_Sunny_Windy_Low","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99003:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99003","type":"Weather","editorid":"PIC-TECH-WTHR_Sunny_Windy_Medium","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99004:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99004","type":"Weather","editorid":"PIC-TECH-WTHR_Sunny_Windy_High","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99005:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99005","type":"Weather","editorid":"PIC-TECH-WTHR_Sunny_Windy_Extreme","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99006:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99006","type":"Weather","editorid":"PIC-TECH-WTHR_Lightly_Cloudy_Windy_None","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99007:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99007","type":"Weather","editorid":"PIC-TECH-WTHR_Lightly_Cloudy_Windy_Low","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99008:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99008","type":"Weather","editorid":"PIC-TECH-WTHR_Lightly_Cloudy_Windy_Medium","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99009:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99009","type":"Weather","editorid":"PIC-TECH-WTHR_Lightly_Cloudy_Windy_High","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99010:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99010","type":"Weather","editorid":"PIC-TECH-WTHR_Lightly_Cloudy_Windy_Extreme","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99011:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99011","type":"Weather","editorid":"PIC-TECH-WTHR_Cloudy_Windy_None","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99012:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99012","type":"Weather","editorid":"PIC-TECH-WTHR_Cloudy_Windy_Low","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99013:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99013","type":"Weather","editorid":"PIC-TECH-WTHR_Cloudy_Windy_Medium","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99014:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99014","type":"Weather","editorid":"PIC-TECH-WTHR_Cloudy_Windy_High","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99015:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99015","type":"Weather","editorid":"PIC-TECH-WTHR_Cloudy_Windy_Extreme","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99016:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99016","type":"Weather","editorid":"PIC-TECH-WTHR_Overcast_Windy_None","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99017:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99017","type":"Weather","editorid":"PIC-TECH-WTHR_Overcast_Windy_Low","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99018:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99018","type":"Weather","editorid":"PIC-TECH-WTHR_Overcast_Windy_Medium","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99019:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99019","type":"Weather","editorid":"PIC-TECH-WTHR_Overcast_Windy_High","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99020:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99020","type":"Weather","editorid":"PIC-TECH-WTHR_Overcast_Windy_Extreme","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99021:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99021","type":"Weather","editorid":"PIC-TECH-WTHR_Storm_Windy_None","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99022:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99022","type":"Weather","editorid":"PIC-TECH-WTHR_Storm_Windy_Low","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99023:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99023","type":"Weather","editorid":"PIC-TECH-WTHR_Storm_Windy_Medium","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99024:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99024","type":"Weather","editorid":"PIC-TECH-WTHR_Storm_Windy_High","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99025:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99025","type":"Weather","editorid":"PIC-TECH-WTHR_Storm_Windy_Extreme","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"F99033:Picta - Weathers of Aurbis.esm","runtime_formid":"35F99033","type":"Weather","editorid":"PIC-TECH-WTHR Sound Disabler","winner":"Picta - Weathers of Aurbis.esm","override_depth":1}
+{"formid":"000954:Helios.esp","runtime_formid":"FE096954","type":"Weather","editorid":"Helios_SkyrimOvercastWar","winner":"Helios.esp","override_depth":1}
+{"formid":"00095E:Helios.esp","runtime_formid":"FE09695E","type":"Weather","editorid":"Helios_SovngardeDark","winner":"Helios.esp","override_depth":1}
+{"formid":"00096A:Helios.esp","runtime_formid":"FE09696A","type":"Weather","editorid":"Helios_DLC1Eclipse","winner":"Helios.esp","override_depth":1}
+{"formid":"000A70:Helios.esp","runtime_formid":"FE096A70","type":"Weather","editorid":"Helios_SkyrimClear","winner":"Helios.esp","override_depth":1}
+{"formid":"000A71:Helios.esp","runtime_formid":"FE096A71","type":"Weather","editorid":"Helios_SkyrimCloudy","winner":"Helios.esp","override_depth":1}
+{"formid":"000A72:Helios.esp","runtime_formid":"FE096A72","type":"Weather","editorid":"Helios_SkyrimOvercastSnow","winner":"Helios.esp","override_depth":1}
+{"formid":"000A73:Helios.esp","runtime_formid":"FE096A73","type":"Weather","editorid":"Helios_SkyrimFog","winner":"Helios.esp","override_depth":1}
+{"formid":"000A74:Helios.esp","runtime_formid":"FE096A74","type":"Weather","editorid":"Helios_SkyrimOvercastRain","winner":"Helios.esp","override_depth":1}
+{"formid":"000A75:Helios.esp","runtime_formid":"FE096A75","type":"Weather","editorid":"Helios_SkyrimStormRain","winner":"Helios.esp","override_depth":1}
+{"formid":"000A76:Helios.esp","runtime_formid":"FE096A76","type":"Weather","editorid":"Helios_SkyrimStormSnow","winner":"Helios.esp","override_depth":1}
+{"formid":"000A77:Helios.esp","runtime_formid":"FE096A77","type":"Weather","editorid":"Helios_SkyrimClearMA","winner":"Helios.esp","override_depth":1}
+{"formid":"000A78:Helios.esp","runtime_formid":"FE096A78","type":"Weather","editorid":"Helios_SkyrimOvercastRainMA","winner":"Helios.esp","override_depth":1}
+{"formid":"000A79:Helios.esp","runtime_formid":"FE096A79","type":"Weather","editorid":"Helios_SkyrimFogMA","winner":"Helios.esp","override_depth":1}
+{"formid":"000A7A:Helios.esp","runtime_formid":"FE096A7A","type":"Weather","editorid":"Helios_SkyrimCloudyMA","winner":"Helios.esp","override_depth":1}
+{"formid":"000A7B:Helios.esp","runtime_formid":"FE096A7B","type":"Weather","editorid":"Helios_SkyrimClearCO","winner":"Helios.esp","override_depth":1}
+{"formid":"000A7C:Helios.esp","runtime_formid":"FE096A7C","type":"Weather","editorid":"Helios_SkyrimFogCO","winner":"Helios.esp","override_depth":1}
+{"formid":"000A7D:Helios.esp","runtime_formid":"FE096A7D","type":"Weather","editorid":"Helios_SkyrimCloudyCO","winner":"Helios.esp","override_depth":1}
+{"formid":"000A7E:Helios.esp","runtime_formid":"FE096A7E","type":"Weather","editorid":"Helios_SkyrimClearRE","winner":"Helios.esp","override_depth":1}
+{"formid":"000A7F:Helios.esp","runtime_formid":"FE096A7F","type":"Weather","editorid":"Helios_SkyrimOvercastRainRE","winner":"Helios.esp","override_depth":1}
+{"formid":"000A80:Helios.esp","runtime_formid":"FE096A80","type":"Weather","editorid":"Helios_SkyrimFogRE","winner":"Helios.esp","override_depth":1}
+{"formid":"000A81:Helios.esp","runtime_formid":"FE096A81","type":"Weather","editorid":"Helios_SkyrimCloudyRE","winner":"Helios.esp","override_depth":1}
+{"formid":"000A82:Helios.esp","runtime_formid":"FE096A82","type":"Weather","editorid":"Helios_SkyrimClearFF","winner":"Helios.esp","override_depth":1}
+{"formid":"000A83:Helios.esp","runtime_formid":"FE096A83","type":"Weather","editorid":"Helios_SkyrimStormRainFF","winner":"Helios.esp","override_depth":1}
+{"formid":"000A84:Helios.esp","runtime_formid":"FE096A84","type":"Weather","editorid":"Helios_SkyrimOvercastRainFF","winner":"Helios.esp","override_depth":1}
+{"formid":"000A85:Helios.esp","runtime_formid":"FE096A85","type":"Weather","editorid":"Helios_SkyrimFogFF","winner":"Helios.esp","override_depth":1}
+{"formid":"000A86:Helios.esp","runtime_formid":"FE096A86","type":"Weather","editorid":"Helios_SkyrimCloudyFF","winner":"Helios.esp","override_depth":1}
+{"formid":"000A87:Helios.esp","runtime_formid":"FE096A87","type":"Weather","editorid":"Helios_SkyrimClearTU","winner":"Helios.esp","override_depth":1}
+{"formid":"000A88:Helios.esp","runtime_formid":"FE096A88","type":"Weather","editorid":"Helios_SkyrimStormRainTU","winner":"Helios.esp","override_depth":1}
+{"formid":"000A89:Helios.esp","runtime_formid":"FE096A89","type":"Weather","editorid":"Helios_SkyrimOvercastRainTU","winner":"Helios.esp","override_depth":1}
+{"formid":"000A8A:Helios.esp","runtime_formid":"FE096A8A","type":"Weather","editorid":"Helios_SkyrimCloudyTU","winner":"Helios.esp","override_depth":1}
+{"formid":"000A8B:Helios.esp","runtime_formid":"FE096A8B","type":"Weather","editorid":"Helios_SkyrimClearSN","winner":"Helios.esp","override_depth":1}
+{"formid":"000A8C:Helios.esp","runtime_formid":"FE096A8C","type":"Weather","editorid":"Helios_SkyrimCloudySN","winner":"Helios.esp","override_depth":1}
+{"formid":"000A8D:Helios.esp","runtime_formid":"FE096A8D","type":"Weather","editorid":"Helios_SkyrimClearVT","winner":"Helios.esp","override_depth":1}
+{"formid":"000A8E:Helios.esp","runtime_formid":"FE096A8E","type":"Weather","editorid":"Helios_SkyrimOvercastRainVT","winner":"Helios.esp","override_depth":1}
+{"formid":"000A8F:Helios.esp","runtime_formid":"FE096A8F","type":"Weather","editorid":"Helios_SkyrimFogVT","winner":"Helios.esp","override_depth":1}
+{"formid":"000A90:Helios.esp","runtime_formid":"FE096A90","type":"Weather","editorid":"Helios_SkyrimCloudyVT","winner":"Helios.esp","override_depth":1}
+{"formid":"000A91:Helios.esp","runtime_formid":"FE096A91","type":"Weather","editorid":"Helios_SkyrimCloudyVT_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A92:Helios.esp","runtime_formid":"FE096A92","type":"Weather","editorid":"Helios_SkyrimClearVT_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A93:Helios.esp","runtime_formid":"FE096A93","type":"Weather","editorid":"Helios_SkyrimCloudyMA_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A94:Helios.esp","runtime_formid":"FE096A94","type":"Weather","editorid":"Helios_SkyrimClearMA_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A95:Helios.esp","runtime_formid":"FE096A95","type":"Weather","editorid":"Helios_SkyrimCloudyCO_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A96:Helios.esp","runtime_formid":"FE096A96","type":"Weather","editorid":"Helios_SkyrimClearCO_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A97:Helios.esp","runtime_formid":"FE096A97","type":"Weather","editorid":"Helios_SkyrimCloudyRE_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A98:Helios.esp","runtime_formid":"FE096A98","type":"Weather","editorid":"Helios_SkyrimClearRE_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A99:Helios.esp","runtime_formid":"FE096A99","type":"Weather","editorid":"Helios_SkyrimCloudyFF_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A9A:Helios.esp","runtime_formid":"FE096A9A","type":"Weather","editorid":"Helios_SkyrimClearFF_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A9B:Helios.esp","runtime_formid":"FE096A9B","type":"Weather","editorid":"Helios_SkyrimCloudyTU_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A9C:Helios.esp","runtime_formid":"FE096A9C","type":"Weather","editorid":"Helios_SkyrimClearTU_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A9D:Helios.esp","runtime_formid":"FE096A9D","type":"Weather","editorid":"Helios_SkyrimCloudySN_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A9E:Helios.esp","runtime_formid":"FE096A9E","type":"Weather","editorid":"Helios_SkyrimClearSN_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000A9F:Helios.esp","runtime_formid":"FE096A9F","type":"Weather","editorid":"Helios_SkyrimCloudy_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA0:Helios.esp","runtime_formid":"FE096AA0","type":"Weather","editorid":"Helios_SkyrimClear_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA1:Helios.esp","runtime_formid":"FE096AA1","type":"Weather","editorid":"Helios_RiftenOvercastFog","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA2:Helios.esp","runtime_formid":"FE096AA2","type":"Weather","editorid":"Helios_DLC02VolcanicAsh01","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA3:Helios.esp","runtime_formid":"FE096AA3","type":"Weather","editorid":"Helios_DLC02VolcanicAshTundra01","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA4:Helios.esp","runtime_formid":"FE096AA4","type":"Weather","editorid":"Helios_DLC02VolcanicAsh02","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA5:Helios.esp","runtime_formid":"FE096AA5","type":"Weather","editorid":"Helios_DLC02VolcanicAshStorm01","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA6:Helios.esp","runtime_formid":"FE096AA6","type":"Weather","editorid":"Helios_DLC02VolcanicAsh01_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA7:Helios.esp","runtime_formid":"FE096AA7","type":"Weather","editorid":"Helios_DLC02VolcanicAsh02_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000AA8:Helios.esp","runtime_formid":"FE096AA8","type":"Weather","editorid":"Helios_DLC02VolcanicAshTundra01_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000EE6:Helios.esp","runtime_formid":"FE096EE6","type":"Weather","editorid":"Helios_DefaultWeather","winner":"Helios.esp","override_depth":1}
+{"formid":"000EE9:Helios.esp","runtime_formid":"FE096EE9","type":"Weather","editorid":"Helios_Template","winner":"Helios.esp","override_depth":1}
+{"formid":"000EEB:Helios.esp","runtime_formid":"FE096EEB","type":"Weather","editorid":"Helios_DLC1AurielsBowClearWeather","winner":"Helios.esp","override_depth":1}
+{"formid":"000EEC:Helios.esp","runtime_formid":"FE096EEC","type":"Weather","editorid":"Helios_DLC1FalmerValley_bf","winner":"Helios.esp","override_depth":1}
+{"formid":"000EED:Helios.esp","runtime_formid":"FE096EED","type":"Weather","editorid":"Helios_DLC1FalmerValley_bfDark","winner":"Helios.esp","override_depth":1}
+{"formid":"000EEE:Helios.esp","runtime_formid":"FE096EEE","type":"Weather","editorid":"Helios_DLC1MagicAurielBowCloudyWeather","winner":"Helios.esp","override_depth":1}
+{"formid":"000EEF:Helios.esp","runtime_formid":"FE096EEF","type":"Weather","editorid":"Helios_DLC1_SkyrimClearFV","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF0:Helios.esp","runtime_formid":"FE096EF0","type":"Weather","editorid":"Helios_DLC1_SkyrimClearFV_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF1:Helios.esp","runtime_formid":"FE096EF1","type":"Weather","editorid":"Helios_DLC1_SkyrimCloudyFV","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF2:Helios.esp","runtime_formid":"FE096EF2","type":"Weather","editorid":"Helios_DLC1_SkyrimCloudyFV_A","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF3:Helios.esp","runtime_formid":"FE096EF3","type":"Weather","editorid":"Helios_SoulCairnAmb01","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF4:Helios.esp","runtime_formid":"FE096EF4","type":"Weather","editorid":"Helios_SoulCairnAmb01_Rain","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF5:Helios.esp","runtime_formid":"FE096EF5","type":"Weather","editorid":"Helios_SoulCairnAmb02","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF6:Helios.esp","runtime_formid":"FE096EF6","type":"Weather","editorid":"Helios_SoulCairnAmb03","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF7:Helios.esp","runtime_formid":"FE096EF7","type":"Weather","editorid":"Helios_SoulCairnAmb04","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF8:Helios.esp","runtime_formid":"FE096EF8","type":"Weather","editorid":"Helios_SoulCairnAurora","winner":"Helios.esp","override_depth":1}
+{"formid":"000EF9:Helios.esp","runtime_formid":"FE096EF9","type":"Weather","editorid":"Helios_DLC2ApocryphaWeather","winner":"Helios.esp","override_depth":1}
+{"formid":"000EFA:Helios.esp","runtime_formid":"FE096EFA","type":"Weather","editorid":"Helios_DLC2ApocryphaWeatherNew","winner":"Helios.esp","override_depth":1}
+{"formid":"000EFB:Helios.esp","runtime_formid":"FE096EFB","type":"Weather","editorid":"Helios_BlackreachWeather","winner":"Helios.esp","override_depth":1}
+{"formid":"000EFC:Helios.esp","runtime_formid":"FE096EFC","type":"Weather","editorid":"Helios_BloatedMansGrottoFog","winner":"Helios.esp","override_depth":1}
+{"formid":"000EFD:Helios.esp","runtime_formid":"FE096EFD","type":"Weather","editorid":"Helios_HelgenAttackWeather","winner":"Helios.esp","override_depth":1}
+{"formid":"000EFE:Helios.esp","runtime_formid":"FE096EFE","type":"Weather","editorid":"Helios_KarthspireRedoubtFog","winner":"Helios.esp","override_depth":1}
+{"formid":"000F18:Helios.esp","runtime_formid":"FE096F18","type":"Weather","editorid":"Helios_SkyrimDA02Weather","winner":"Helios.esp","override_depth":1}
+{"formid":"000F2A:Helios.esp","runtime_formid":"FE096F2A","type":"Weather","editorid":"Helios_SkuldafnCloudy","winner":"Helios.esp","override_depth":1}
+{"formid":"000F32:Helios.esp","runtime_formid":"FE096F32","type":"Weather","editorid":"Helios_FXMagicStormRain","winner":"Helios.esp","override_depth":1}
+{"formid":"00AA6C:Audio Overhaul Skyrim.esp","runtime_formid":"4200AA6C","type":"Weather","editorid":"USKP_SkyhavenTempleEntranceOvercastRainRE_COPY","winner":"Audio Overhaul Skyrim.esp","override_depth":1}
+{"formid":"05B29C:WetandCold.esp","runtime_formid":"4405B29C","type":"Weather","editorid":"_WetAshFallLight","winner":"WetandCold.esp","override_depth":1}
+{"formid":"05B29D:WetandCold.esp","runtime_formid":"4405B29D","type":"Weather","editorid":"_WetAshFallMed","winner":"WetandCold.esp","override_depth":1}
+{"formid":"05B2A0:WetandCold.esp","runtime_formid":"4405B2A0","type":"Weather","editorid":"_WetAshFallHeavy","winner":"WetandCold.esp","override_depth":1}
+{"formid":"0121F5:Holidays.esp","runtime_formid":"450121F5","type":"Weather","editorid":"_WetHolidayOvercastSnow","winner":"Holidays.esp","override_depth":1}
+{"formid":"0022E7:Moonpath Music - Sky and Lighting fix - merged.esp","runtime_formid":"6F0022E7","type":"Weather","editorid":"_MSWFJungleClear","winner":"Moonpath Music - Sky and Lighting fix - merged.esp","override_depth":1}
+{"formid":"0048C6:Moonpath Music - Sky and Lighting fix - merged.esp","runtime_formid":"6F0048C6","type":"Weather","editorid":"_MSWFAirspace","winner":"Moonpath Music - Sky and Lighting fix - merged.esp","override_depth":1}
+{"formid":"004E4E:Moonpath Music - Sky and Lighting fix - merged.esp","runtime_formid":"6F004E4E","type":"Weather","editorid":"_MSWFDesertClear","winner":"Moonpath Music - Sky and Lighting fix - merged.esp","override_depth":1}
+{"formid":"00591E:Moonpath Music - Sky and Lighting fix - merged.esp","runtime_formid":"6F00591E","type":"Weather","editorid":"_MSWFJungleCathedral","winner":"Moonpath Music - Sky and Lighting fix - merged.esp","override_depth":1}
+{"formid":"011171:Moonpath Music - Sky and Lighting fix - merged.esp","runtime_formid":"6F011171","type":"Weather","editorid":"_MSWFTopalClear","winner":"Moonpath Music - Sky and Lighting fix - merged.esp","override_depth":1}
+{"formid":"01A3B1:Skyrim Extended Cut - Saints and Seducers.esp","runtime_formid":"7101A3B1","type":"Weather","editorid":"EC_SS_SIManiaClear","winner":"Skyrim Extended Cut - Saints and Seducers.esp","override_depth":1}
+{"formid":"02E7C8:Skyrim Extended Cut - Saints and Seducers.esp","runtime_formid":"7102E7C8","type":"Weather","editorid":"EC_SS_SIDementiaFog","winner":"Skyrim Extended Cut - Saints and Seducers.esp","override_depth":1}
+{"formid":"033A7B:Skyrim Extended Cut - Saints and Seducers.esp","runtime_formid":"71033A7B","type":"Weather","editorid":"EC_SS_SIClearMAP","winner":"Skyrim Extended Cut - Saints and Seducers.esp","override_depth":1}
+{"formid":"15BB6D:Skyrim Extended Cut - Saints and Seducers.esp","runtime_formid":"7115BB6D","type":"Weather","editorid":"EC_SS_SIManiaRain","winner":"Skyrim Extended Cut - Saints and Seducers.esp","override_depth":1}
+{"formid":"15BB6E:Skyrim Extended Cut - Saints and Seducers.esp","runtime_formid":"7115BB6E","type":"Weather","editorid":"EC_SS_SIDementiaRain","winner":"Skyrim Extended Cut - Saints and Seducers.esp","override_depth":1}
+{"formid":"0DF55E:ForgottenCity.esp","runtime_formid":"730DF55E","type":"Weather","editorid":"000FCBlacksky","winner":"ForgottenCity.esp","override_depth":1}
+{"formid":"04EB24:ForgottenCity.esp","runtime_formid":"7304EB24","type":"Weather","editorid":"000FCBlackskyPresent","winner":"ForgottenCity.esp","override_depth":1}
+{"formid":"075438:ForgottenCity.esp","runtime_formid":"73075438","type":"Weather","editorid":"000FCSunAndFog","winner":"ForgottenCity.esp","override_depth":1}
+{"formid":"00096A:ksws03_quest.esp","runtime_formid":"FE32396A","type":"Weather","editorid":"ksws03_maze_weather","winner":"ksws03_quest.esp","override_depth":1}
+{"formid":"4EB744:Morskom.esp","runtime_formid":"7F4EB744","type":"Weather","editorid":"SkyrimOvercastRainMACol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB749:Morskom.esp","runtime_formid":"7F4EB749","type":"Weather","editorid":"SkyrimStormSnowCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB742:Morskom.esp","runtime_formid":"7F4EB742","type":"Weather","editorid":"SkyrimOvercastRainCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB747:Morskom.esp","runtime_formid":"7F4EB747","type":"Weather","editorid":"SkyrimOvercastRainVTCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB746:Morskom.esp","runtime_formid":"7F4EB746","type":"Weather","editorid":"SkyrimOvercastRainTUCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB74A:Morskom.esp","runtime_formid":"7F4EB74A","type":"Weather","editorid":"SkyrimStormRainCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB743:Morskom.esp","runtime_formid":"7F4EB743","type":"Weather","editorid":"SkyrimOvercastRainFFCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB745:Morskom.esp","runtime_formid":"7F4EB745","type":"Weather","editorid":"SkyrimOvercastRainRECol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB74C:Morskom.esp","runtime_formid":"7F4EB74C","type":"Weather","editorid":"SkyrimStormRainTUCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB74B:Morskom.esp","runtime_formid":"7F4EB74B","type":"Weather","editorid":"SkyrimStormRainFFCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"4EB748:Morskom.esp","runtime_formid":"7F4EB748","type":"Weather","editorid":"SkyrimOvercastSnowCol","winner":"Morskom.esp","override_depth":1}
+{"formid":"0A917D:KR2_Deadlands.esp","runtime_formid":"880A917D","type":"Weather","editorid":"KR2DeadlandsWeather","winner":"KR2_Deadlands.esp","override_depth":1}
+{"formid":"26D7D4:Lucien.esp","runtime_formid":"8D26D7D4","type":"Weather","editorid":"aaaLucSoulCairnAmb","winner":"Lucien.esp","override_depth":1}
+{"formid":"26D7C2:Lucien.esp","runtime_formid":"8D26D7C2","type":"Weather","editorid":"aaalucDLC1Eclipse","winner":"Lucien.esp","override_depth":1}
+{"formid":"2EE73A:Lucien.esp","runtime_formid":"8D2EE73A","type":"Weather","editorid":"aaaLucSoulCairnAmbRed","winner":"Lucien.esp","override_depth":1}
+{"formid":"00081A:Skyrim.esm","runtime_formid":"0000081A","type":"Weather","editorid":"SunnyPF","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"0923FD:Skyrim.esm","runtime_formid":"000923FD","type":"Weather","editorid":"SovngardeFog","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"0C8220:Skyrim.esm","runtime_formid":"000C8220","type":"Weather","editorid":"StormPF","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A230:Skyrim.esm","runtime_formid":"0010A230","type":"Weather","editorid":"SunnyMA","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A231:Skyrim.esm","runtime_formid":"0010A231","type":"Weather","editorid":"RainMA","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A234:Skyrim.esm","runtime_formid":"0010A234","type":"Weather","editorid":"SunnyCO","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A235:Skyrim.esm","runtime_formid":"0010A235","type":"Weather","editorid":"FogCO","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A237:Skyrim.esm","runtime_formid":"0010A237","type":"Weather","editorid":"SunnyRE","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A238:Skyrim.esm","runtime_formid":"0010A238","type":"Weather","editorid":"RainRE","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A239:Skyrim.esm","runtime_formid":"0010A239","type":"Weather","editorid":"FogRE","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A23B:Skyrim.esm","runtime_formid":"0010A23B","type":"Weather","editorid":"SunnyFF","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A23C:Skyrim.esm","runtime_formid":"0010A23C","type":"Weather","editorid":"StormFF","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A23D:Skyrim.esm","runtime_formid":"0010A23D","type":"Weather","editorid":"RainFF","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A23E:Skyrim.esm","runtime_formid":"0010A23E","type":"Weather","editorid":"FogFF","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A240:Skyrim.esm","runtime_formid":"0010A240","type":"Weather","editorid":"SunnyTU","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A241:Skyrim.esm","runtime_formid":"0010A241","type":"Weather","editorid":"StormTU","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A242:Skyrim.esm","runtime_formid":"0010A242","type":"Weather","editorid":"RainTU","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A244:Skyrim.esm","runtime_formid":"0010A244","type":"Weather","editorid":"SunnySN","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A245:Skyrim.esm","runtime_formid":"0010A245","type":"Weather","editorid":"CloudySN","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A7A5:Skyrim.esm","runtime_formid":"0010A7A5","type":"Weather","editorid":"SunnyVT","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A7A6:Skyrim.esm","runtime_formid":"0010A7A6","type":"Weather","editorid":"RainVT","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10A7A7:Skyrim.esm","runtime_formid":"0010A7A7","type":"Weather","editorid":"FogVT","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1E4:Skyrim.esm","runtime_formid":"0010E1E4","type":"Weather","editorid":"SunnyVT_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1E6:Skyrim.esm","runtime_formid":"0010E1E6","type":"Weather","editorid":"SunnyMA_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1E8:Skyrim.esm","runtime_formid":"0010E1E8","type":"Weather","editorid":"SunnyCO_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1EA:Skyrim.esm","runtime_formid":"0010E1EA","type":"Weather","editorid":"SunnyRE_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1EC:Skyrim.esm","runtime_formid":"0010E1EC","type":"Weather","editorid":"SunnyFF_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1EE:Skyrim.esm","runtime_formid":"0010E1EE","type":"Weather","editorid":"SunnyTU_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1F0:Skyrim.esm","runtime_formid":"0010E1F0","type":"Weather","editorid":"SunnySN_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"10E1F2:Skyrim.esm","runtime_formid":"0010E1F2","type":"Weather","editorid":"SunnyPF_A","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"00959F:Dawnguard.esm","runtime_formid":"0200959F","type":"Weather","editorid":"SoulCairnAurora","winner":"NAT-ENB.esp","override_depth":3}
+{"formid":"010E0B:Dawnguard.esm","runtime_formid":"02010E0B","type":"Weather","editorid":"CloudyFV_A","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"010E0E:Dawnguard.esm","runtime_formid":"02010E0E","type":"Weather","editorid":"CloudyFV","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"010E0F:Dawnguard.esm","runtime_formid":"02010E0F","type":"Weather","editorid":"SunnyFV","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"010E10:Dawnguard.esm","runtime_formid":"02010E10","type":"Weather","editorid":"SunnyFV_A","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"018471:Dragonborn.esm","runtime_formid":"04018471","type":"Weather","editorid":"SunnyDLC2","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"01D760:Dragonborn.esm","runtime_formid":"0401D760","type":"Weather","editorid":"RainCloudy_DLC2","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"031AC0:Dragonborn.esm","runtime_formid":"04031AC0","type":"Weather","editorid":"CloudyDLC2","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"032336:Dragonborn.esm","runtime_formid":"04032336","type":"Weather","editorid":"StormDLC2","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"0374B8:Dragonborn.esm","runtime_formid":"040374B8","type":"Weather","editorid":"CloudyDLC2_A","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"0374B9:Dragonborn.esm","runtime_formid":"040374B9","type":"Weather","editorid":"CloudyDLC2_A","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"0374BA:Dragonborn.esm","runtime_formid":"040374BA","type":"Weather","editorid":"CloudyDLC2_TU_A","winner":"NAT-ENB.esp","override_depth":2}
+{"formid":"003DF4:NAT-ENB.esp","runtime_formid":"9B003DF4","type":"Weather","editorid":"SClearSkyTU","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053B6:NAT-ENB.esp","runtime_formid":"9B0053B6","type":"Weather","editorid":"OvercastPF","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053BD:NAT-ENB.esp","runtime_formid":"9B0053BD","type":"Weather","editorid":"OvercastTU","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053BE:NAT-ENB.esp","runtime_formid":"9B0053BE","type":"Weather","editorid":"OvercastRE","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053C2:NAT-ENB.esp","runtime_formid":"9B0053C2","type":"Weather","editorid":"SClearSkySN","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053C4:NAT-ENB.esp","runtime_formid":"9B0053C4","type":"Weather","editorid":"OvercastMA","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053C7:NAT-ENB.esp","runtime_formid":"9B0053C7","type":"Weather","editorid":"FogRain","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053D1:NAT-ENB.esp","runtime_formid":"9B0053D1","type":"Weather","editorid":"OvercastFF","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0053D2:NAT-ENB.esp","runtime_formid":"9B0053D2","type":"Weather","editorid":"OvercastCO","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"005943:NAT-ENB.esp","runtime_formid":"9B005943","type":"Weather","editorid":"OvercastVT","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"007F00:NAT-ENB.esp","runtime_formid":"9B007F00","type":"Weather","editorid":"SClearSkyPF","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"008476:NAT-ENB.esp","runtime_formid":"9B008476","type":"Weather","editorid":"SnowClear","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"023667:NAT-ENB.esp","runtime_formid":"9B023667","type":"Weather","editorid":"SClearSkyCOMA","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"06B387:NAT-ENB.esp","runtime_formid":"9B06B387","type":"Weather","editorid":"SnowOvercast","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64B0:NAT-ENB.esp","runtime_formid":"9B0D64B0","type":"Weather","editorid":"SunnyDLC2_ALT","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64B1:NAT-ENB.esp","runtime_formid":"9B0D64B1","type":"Weather","editorid":"RainCloudy_DLC2_ALT","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64B2:NAT-ENB.esp","runtime_formid":"9B0D64B2","type":"Weather","editorid":"CloudyDLC2_ALT","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64B3:NAT-ENB.esp","runtime_formid":"9B0D64B3","type":"Weather","editorid":"CloudyDLC2_TU_A_ALT","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64B4:NAT-ENB.esp","runtime_formid":"9B0D64B4","type":"Weather","editorid":"StormDLC2_ALT","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64D3:NAT-ENB.esp","runtime_formid":"9B0D64D3","type":"Weather","editorid":"Snow_Alt","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64D4:NAT-ENB.esp","runtime_formid":"9B0D64D4","type":"Weather","editorid":"SnowClear_Alt","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64D5:NAT-ENB.esp","runtime_formid":"9B0D64D5","type":"Weather","editorid":"SnowOvercast_Alt","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"0D64D6:NAT-ENB.esp","runtime_formid":"9B0D64D6","type":"Weather","editorid":"Snowstorm_Alt","winner":"NAT-ENB.esp","override_depth":1}
+{"formid":"10A23F:Skyrim.esm","runtime_formid":"0010A23F","type":"Weather","editorid":"SkyrimCloudyFF","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10A233:Skyrim.esm","runtime_formid":"0010A233","type":"Weather","editorid":"SkyrimCloudyMA","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10A232:Skyrim.esm","runtime_formid":"0010A232","type":"Weather","editorid":"SkyrimFogMA","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10FE7E:Skyrim.esm","runtime_formid":"0010FE7E","type":"Weather","editorid":"RiftenOvercastFog","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1F1:Skyrim.esm","runtime_formid":"0010E1F1","type":"Weather","editorid":"SkyrimCloudy_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"00015E:Skyrim.esm","runtime_formid":"0000015E","type":"Weather","editorid":"DefaultWeather","winner":"Mists of Tamriel.esp","override_depth":2}
+{"formid":"10A236:Skyrim.esm","runtime_formid":"0010A236","type":"Weather","editorid":"SkyrimCloudyCO","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10A23A:Skyrim.esm","runtime_formid":"0010A23A","type":"Weather","editorid":"SkyrimCloudyRE","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1EF:Skyrim.esm","runtime_formid":"0010E1EF","type":"Weather","editorid":"SkyrimCloudySN_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10A243:Skyrim.esm","runtime_formid":"0010A243","type":"Weather","editorid":"SkyrimCloudyTU","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10A7A8:Skyrim.esm","runtime_formid":"0010A7A8","type":"Weather","editorid":"SkyrimCloudyVT","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1E3:Skyrim.esm","runtime_formid":"0010E1E3","type":"Weather","editorid":"SkyrimCloudyVT_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1E5:Skyrim.esm","runtime_formid":"0010E1E5","type":"Weather","editorid":"SkyrimCloudyMA_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1E7:Skyrim.esm","runtime_formid":"0010E1E7","type":"Weather","editorid":"SkyrimCloudyCO_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1E9:Skyrim.esm","runtime_formid":"0010E1E9","type":"Weather","editorid":"SkyrimCloudyRE_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1EB:Skyrim.esm","runtime_formid":"0010E1EB","type":"Weather","editorid":"SkyrimCloudyFF_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"10E1ED:Skyrim.esm","runtime_formid":"0010E1ED","type":"Weather","editorid":"SkyrimCloudyTU_A","winner":"Mists of Tamriel.esp","override_depth":4}
+{"formid":"012F89:Skyrim.esm","runtime_formid":"00012F89","type":"Weather","editorid":"VANILLA_ID_PIC_WTHR_MQ_Intro_Helgen_Scene","winner":"Picta - Weathers of Skyrim.esp","override_depth":6}
+{"formid":"0C821E:Skyrim.esm","runtime_formid":"000C821E","type":"Weather","editorid":"VANILLA_ID_PIC_WTHR_MQ_Intro_Cart_Scene","winner":"Picta - Weathers of Skyrim.esp","override_depth":6}
+{"formid":"0C8221:Skyrim.esm","runtime_formid":"000C8221","type":"Weather","editorid":"VANILLA_ID_PIC_WTHR_MQ_Dragon_Altar","winner":"Picta - Weathers of Skyrim.esp","override_depth":5}
+{"formid":"0D9329:Skyrim.esm","runtime_formid":"000D9329","type":"Weather","editorid":"VANILLA_ID_PIC_WTHR_MQ_Intro_Dragon_Attack","winner":"Picta - Weathers of Skyrim.esp","override_depth":5}
+{"formid":"04D7FB:Skyrim.esm","runtime_formid":"0004D7FB","type":"Weather","editorid":"SkyrimOvercastSnow","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"0C821F:Skyrim.esm","runtime_formid":"000C821F","type":"Weather","editorid":"SkyrimOvercastRain","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"0D299E:Skyrim.esm","runtime_formid":"000D299E","type":"Weather","editorid":"SkyrimOvercastWar","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"0D4886:Skyrim.esm","runtime_formid":"000D4886","type":"Weather","editorid":"FXMagicStormRain","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"10199F:Skyrim.esm","runtime_formid":"0010199F","type":"Weather","editorid":"SkyrimMQ206weather","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"104AB4:Skyrim.esm","runtime_formid":"00104AB4","type":"Weather","editorid":"SkuldafnCloudy","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"105941:Skyrim.esm","runtime_formid":"00105941","type":"Weather","editorid":"BloatedMansGrottoFog","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"105F40:Skyrim.esm","runtime_formid":"00105F40","type":"Weather","editorid":"SkyrimDA02Weather","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"106635:Skyrim.esm","runtime_formid":"00106635","type":"Weather","editorid":"KarthspireRedoubtFog","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"10C32F:Skyrim.esm","runtime_formid":"0010C32F","type":"Weather","editorid":"FXSkyrimStormBlowingGrass","winner":"Authoria - Picta over NAT.esp","override_depth":4}
+{"formid":"10D9EC:Skyrim.esm","runtime_formid":"0010D9EC","type":"Weather","editorid":"SovngardeClear","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"10FEF8:Skyrim.esm","runtime_formid":"0010FEF8","type":"Weather","editorid":"SovngardeDark","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"001407:Dawnguard.esm","runtime_formid":"02001407","type":"Weather","editorid":"SoulCairnAmb01","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"006AEC:Dawnguard.esm","runtime_formid":"02006AEC","type":"Weather","editorid":"DLC1Eclipse","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"00F89C:Dawnguard.esm","runtime_formid":"0200F89C","type":"Weather","editorid":"DLC1AurielsBowClearWeather","winner":"Authoria - Picta over NAT.esp","override_depth":4}
+{"formid":"00F89D:Dawnguard.esm","runtime_formid":"0200F89D","type":"Weather","editorid":"DLC1MagicAurielBowCloudyWeather","winner":"Authoria - Picta over NAT.esp","override_depth":4}
+{"formid":"014551:Dawnguard.esm","runtime_formid":"02014551","type":"Weather","editorid":"SoulCairnAmb01_Rain","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"018DBB:Dawnguard.esm","runtime_formid":"02018DBB","type":"Weather","editorid":"SoulCairnAmb02","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"018DBC:Dawnguard.esm","runtime_formid":"02018DBC","type":"Weather","editorid":"SoulCairnAmb03","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"018DBD:Dawnguard.esm","runtime_formid":"02018DBD","type":"Weather","editorid":"SoulCairnAmb04","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"019599:Dawnguard.esm","runtime_formid":"02019599","type":"Weather","editorid":"DLC1FalmerValley_bf","winner":"Authoria - Picta over NAT.esp","override_depth":4}
+{"formid":"0195A0:Dawnguard.esm","runtime_formid":"020195A0","type":"Weather","editorid":"DLC1FalmerValley_bfDark","winner":"Authoria - Picta over NAT.esp","override_depth":4}
+{"formid":"01DFF5:Dragonborn.esm","runtime_formid":"0401DFF5","type":"Weather","editorid":"DLC2ApocryphaWeather","winner":"Authoria - Picta over NAT.esp","override_depth":4}
+{"formid":"034CFB:Dragonborn.esm","runtime_formid":"04034CFB","type":"Weather","editorid":"DLC2ApocryphaWeatherNew","winner":"Authoria - Picta over NAT.esp","override_depth":5}
+{"formid":"19FA01:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FA01","type":"Weather","editorid":"PIC_WTHR_MASTER_A01_Clear","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FA02:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FA02","type":"Weather","editorid":"PIC_WTHR_MASTER_A02_Clear_Aurora","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FA03:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FA03","type":"Weather","editorid":"PIC_WTHR_MASTER_A03_Clear_Mist","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FB01:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FB01","type":"Weather","editorid":"PIC_WTHR_MASTER_B01_Lightly_Cloudy","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FB02:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FB02","type":"Weather","editorid":"PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FB03:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FB03","type":"Weather","editorid":"PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FC01:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FC01","type":"Weather","editorid":"PIC_WTHR_MASTER_C01_Cloudy","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FC02:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FC02","type":"Weather","editorid":"PIC_WTHR_MASTER_C02_Cloudy_Storm","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FC03:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FC03","type":"Weather","editorid":"PIC_WTHR_MASTER_C03_Cloudy_Light_Fog","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FC04:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FC04","type":"Weather","editorid":"PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FC05:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FC05","type":"Weather","editorid":"PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FD01:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD01","type":"Weather","editorid":"PIC_WTHR_MASTER_D01_Overcast","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FD02:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD02","type":"Weather","editorid":"PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FD03:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD03","type":"Weather","editorid":"PIC_WTHR_MASTER_D03_Overcast_Rain_Light","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FD04:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD04","type":"Weather","editorid":"PIC_WTHR_MASTER_D04_Overcast_Rain_Medium","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FD05:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD05","type":"Weather","editorid":"PIC_WTHR_MASTER_D05_Overcast_Snow_Light","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FD06:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FD06","type":"Weather","editorid":"PIC_WTHR_MASTER_D06_Overcast_Snow_Medium","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FE01:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE01","type":"Weather","editorid":"PIC_WTHR_MASTER_E01_Storm_Thunder","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FE02:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE02","type":"Weather","editorid":"PIC_WTHR_MASTER_E02_Storm_Cold_Thunder","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FE03:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE03","type":"Weather","editorid":"PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FE04:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE04","type":"Weather","editorid":"PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FE05:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE05","type":"Weather","editorid":"PIC_WTHR_MASTER_E05_Storm_Snow_Heavy","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"19FE06:Picta - Weathers of Aurbis.esm","runtime_formid":"3519FE06","type":"Weather","editorid":"PIC_WTHR_MASTER_E06_Storm_Snow_Extreme","winner":"Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp","override_depth":2}
+{"formid":"05ED7A:Skyrim.esm","runtime_formid":"0005ED7A","type":"Weather","editorid":"FXWthrInvertLightsSolitude","winner":"Lux Orbis.esp","override_depth":2}
+{"formid":"0AEE84:Skyrim.esm","runtime_formid":"000AEE84","type":"Weather","editorid":"FXWthrInvertWindowsWindhelm","winner":"Lux Orbis - Darker windows plugin.esp","override_depth":3}
+{"formid":"048C14:Skyrim.esm","runtime_formid":"00048C14","type":"Weather","editorid":"BlackreachWeather","winner":"Lux.esp","override_depth":5}
+{"formid":"07548F:Skyrim.esm","runtime_formid":"0007548F","type":"Weather","editorid":"FXWthrSunlight","winner":"Lux.esp","override_depth":3}
+{"formid":"075491:Skyrim.esm","runtime_formid":"00075491","type":"Weather","editorid":"FXWthrSunlightWhite","winner":"Lux.esp","override_depth":8}
+{"formid":"08277A:Skyrim.esm","runtime_formid":"0008277A","type":"Weather","editorid":"FXWthrInvertWindowsWhiterun","winner":"Lux.esp","override_depth":7}
+{"formid":"08282A:Skyrim.esm","runtime_formid":"0008282A","type":"Weather","editorid":"FXWthrInvertLightsWhiterun","winner":"Lux.esp","override_depth":7}
+{"formid":"0ECC96:Skyrim.esm","runtime_formid":"000ECC96","type":"Weather","editorid":"FXWthrInvertWindowsWindhelm2","winner":"Lux.esp","override_depth":7}
+{"formid":"001DCB:Lux.esp","runtime_formid":"E3001DCB","type":"Weather","editorid":"FXWthrSunlightWhiteNorth","winner":"Lux.esp","override_depth":1}
+{"formid":"001DCC:Lux.esp","runtime_formid":"E3001DCC","type":"Weather","editorid":"FXWthrSunlightNorth","winner":"Lux.esp","override_depth":1}
+{"formid":"049476:Lux.esp","runtime_formid":"E3049476","type":"Weather","editorid":"Lux_SkyrimOvercastSnow","winner":"Lux.esp","override_depth":1}
+{"formid":"408447:Lux.esp","runtime_formid":"E3408447","type":"Weather","editorid":"Lux_FXWthrInvertLightsDim","winner":"Lux.esp","override_depth":1}
+{"formid":"677F87:Lux.esp","runtime_formid":"E3677F87","type":"Weather","editorid":"Lux_FXWthrInvertLightsMedium","winner":"Lux.esp","override_depth":1}
+{"formid":"99D714:Lux.esp","runtime_formid":"E399D714","type":"Weather","editorid":"FallowstoneClearSN","winner":"Lux.esp","override_depth":1}
+{"formid":"D7971B:Lux.esp","runtime_formid":"E3D7971B","type":"Weather","editorid":"Lux_BloatedMansGrotto_CloudyWeather","winner":"Lux.esp","override_depth":1}
+{"formid":"D9CE69:Lux.esp","runtime_formid":"E3D9CE69","type":"Weather","editorid":"DLC2ApocryphaWeatherLuxVersion","winner":"Lux.esp","override_depth":1}
+{"formid":"FABBDB:Lux.esp","runtime_formid":"E3FABBDB","type":"Weather","editorid":"Lux_WeatherCloudySN","winner":"Lux.esp","override_depth":1}
+{"formid":"0701D2:Vigilant.esm","runtime_formid":"170701D2","type":"Weather","editorid":"zzzCHMolagWeather","winner":"Lux - Vigilant patch.esp","override_depth":2}
+{"formid":"067BB2:Vigilant.esm","runtime_formid":"17067BB2","type":"Weather","editorid":"zzzCHMolagWeatherOld","winner":"Lux - Vigilant patch.esp","override_depth":2}
+{"formid":"4BF5AA:Vigilant.esm","runtime_formid":"174BF5AA","type":"Weather","editorid":"zzzCHMolagDarkWeather","winner":"Lux - Vigilant patch.esp","override_depth":2}
+{"formid":"4C07A0:Vigilant.esm","runtime_formid":"174C07A0","type":"Weather","editorid":"zzzCHMolagFogWeather","winner":"Lux - Vigilant patch.esp","override_depth":2}
+{"formid":"000805:Lux - Forgotten City.esp","runtime_formid":"FEB72805","type":"Weather","editorid":"FXWthrSunlightWhiteFC","winner":"Lux - Forgotten City.esp","override_depth":1}
+{"formid":"000801:AP Sev Cut - Music \u002B Sovn.esp","runtime_formid":"FEC14801","type":"Weather","editorid":"SevSovngardeDark","winner":"AP Sev Cut - Music \u002B Sovn.esp","override_depth":1}
+{"formid":"54F2A0:Wyrmstooth.esp","runtime_formid":"1C54F2A0","type":"Weather","editorid":"WyrmstoothStormFog","winner":"Authoria - Patch - Picta Seasonal.esp","override_depth":2}
+{"formid":"5AFA01:Picta - Weathers of Aurbis.esm","runtime_formid":"355AFA01","type":"Weather","editorid":"PIC_WTHR_SUMMER_A01_Clear","winner":"Authoria - Patch - Picta Seasonal.esp","override_depth":1}
+{"formid":"5AFA02:Picta - Weathers of Aurbis.esm","runtime_formid":"355AFA02","type":"Weather","editorid":"PIC_WTHR_SUMMER_A02_Clear_Aurora","winner":"Authoria - Patch - Picta Seasonal.esp","override_depth":1}
+{"formid":"5AFA03:Picta - Weathers of Aurbis.esm","runtime_formid":"355AFA03","type":"Weather","editorid":"PIC_WTHR_SUMMER_A03_Clear_Mist","winner":"Authoria - Patch - Picta Seasonal.esp","override_depth":1}
+{"formid":"5AFB01:Picta - Weathers of Aurbis.esm","runtime_formid":"355AFB01","type":"Weather","editorid":"PIC_WTHR_SUMMER_B01_Lightly_Cloudy","winner":"Authoria - Patch - Picta Seasonal.esp","override_depth":1}
+{"formid":"5AFB02:Picta - Weathers of Aurbis.esm","runtime_formid":"355AFB02","type":"Weather","editorid":"PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora","winner":"Authoria - Patch - Picta Seasonal.esp","override_depth":1}
+{"formid":"000805:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB6805","type":"Weather","editorid":"Authoria_DragonWeather_Frost","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"000806:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB6806","type":"Weather","editorid":"Authoria_DragonWeather_Fire","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"000807:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB6807","type":"Weather","editorid":"Authoria_DragonWeather_Coldfire","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"000808:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB6808","type":"Weather","editorid":"Authoria_DragonWeather_PoisonForest","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"000809:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB6809","type":"Weather","editorid":"Authoria_DragonWeather_Undead","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"00080A:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB680A","type":"Weather","editorid":"Authoria_DragonWeather_Shock","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"00080B:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB680B","type":"Weather","editorid":"Authoria_DragonWeather_Silver","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"00080C:Authoria - Master Patch - Dragon Tweaks.esp","runtime_formid":"FEEB680C","type":"Weather","editorid":"Authoria_DragonWeather_Vampire","winner":"Authoria - Master Patch - Dragon Tweaks.esp","override_depth":1}
+{"formid":"0A6858:Skyrim.esm","runtime_formid":"000A6858","type":"Weather","editorid":"WorldMapWeather","winner":"FWMF for Fantasy Paper Maps.esp","override_depth":3}

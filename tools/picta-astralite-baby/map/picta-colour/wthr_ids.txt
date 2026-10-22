@@ -1,0 +1,85 @@
+19FA01:Picta - Weathers of Aurbis.esm
+19FA02:Picta - Weathers of Aurbis.esm
+19FA03:Picta - Weathers of Aurbis.esm
+19FB01:Picta - Weathers of Aurbis.esm
+19FB02:Picta - Weathers of Aurbis.esm
+19FB03:Picta - Weathers of Aurbis.esm
+19FC01:Picta - Weathers of Aurbis.esm
+19FC02:Picta - Weathers of Aurbis.esm
+19FC03:Picta - Weathers of Aurbis.esm
+19FC04:Picta - Weathers of Aurbis.esm
+19FC05:Picta - Weathers of Aurbis.esm
+19FD01:Picta - Weathers of Aurbis.esm
+19FD02:Picta - Weathers of Aurbis.esm
+19FD03:Picta - Weathers of Aurbis.esm
+19FD04:Picta - Weathers of Aurbis.esm
+19FD05:Picta - Weathers of Aurbis.esm
+19FD06:Picta - Weathers of Aurbis.esm
+19FE01:Picta - Weathers of Aurbis.esm
+19FE02:Picta - Weathers of Aurbis.esm
+19FE03:Picta - Weathers of Aurbis.esm
+19FE04:Picta - Weathers of Aurbis.esm
+19FE05:Picta - Weathers of Aurbis.esm
+19FE06:Picta - Weathers of Aurbis.esm
+5AFA01:Picta - Weathers of Aurbis.esm
+5AFA02:Picta - Weathers of Aurbis.esm
+5AFA03:Picta - Weathers of Aurbis.esm
+5AFB01:Picta - Weathers of Aurbis.esm
+5AFB02:Picta - Weathers of Aurbis.esm
+1B0001:Picta - Weathers of Aurbis.esm
+1B0002:Picta - Weathers of Aurbis.esm
+1B0003:Picta - Weathers of Aurbis.esm
+1B0004:Picta - Weathers of Aurbis.esm
+1B0005:Picta - Weathers of Aurbis.esm
+1B0006:Picta - Weathers of Aurbis.esm
+1B0007:Picta - Weathers of Aurbis.esm
+1B0008:Picta - Weathers of Aurbis.esm
+1B0009:Picta - Weathers of Aurbis.esm
+1B0010:Picta - Weathers of Aurbis.esm
+1B0011:Picta - Weathers of Aurbis.esm
+1B0012:Picta - Weathers of Aurbis.esm
+1B0013:Picta - Weathers of Aurbis.esm
+1A0301:Picta - Weathers of Aurbis.esm
+1A0302:Picta - Weathers of Aurbis.esm
+1A0303:Picta - Weathers of Aurbis.esm
+1A0304:Picta - Weathers of Aurbis.esm
+1A0305:Picta - Weathers of Aurbis.esm
+1A0306:Picta - Weathers of Aurbis.esm
+1A0307:Picta - Weathers of Aurbis.esm
+1A0308:Picta - Weathers of Aurbis.esm
+1A0309:Picta - Weathers of Aurbis.esm
+1A0310:Picta - Weathers of Aurbis.esm
+A10001:Picta - Weathers of Aurbis.esm
+012F89:Skyrim.esm
+0C821E:Skyrim.esm
+0C8221:Skyrim.esm
+0D9329:Skyrim.esm
+04D7FB:Skyrim.esm
+0C821F:Skyrim.esm
+0D299E:Skyrim.esm
+0D4886:Skyrim.esm
+10199F:Skyrim.esm
+104AB4:Skyrim.esm
+105941:Skyrim.esm
+105F40:Skyrim.esm
+106635:Skyrim.esm
+10C32F:Skyrim.esm
+10D9EC:Skyrim.esm
+10FEF8:Skyrim.esm
+001407:Dawnguard.esm
+006AEC:Dawnguard.esm
+00F89C:Dawnguard.esm
+00F89D:Dawnguard.esm
+014551:Dawnguard.esm
+018DBB:Dawnguard.esm
+018DBC:Dawnguard.esm
+018DBD:Dawnguard.esm
+019599:Dawnguard.esm
+0195A0:Dawnguard.esm
+01DFF5:Dragonborn.esm
+034CFB:Dragonborn.esm
+10A240:Skyrim.esm
+10E1EE:Skyrim.esm
+10A243:Skyrim.esm
+10E1ED:Skyrim.esm
+00081A:Skyrim.esm

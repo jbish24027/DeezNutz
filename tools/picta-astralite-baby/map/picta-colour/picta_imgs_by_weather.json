@@ -1,0 +1,1038 @@
+{
+ "19FA01": {
+  "editorid": "PIC_WTHR_MASTER_A01_Clear",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A001",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A002",
+    "editorid": "PIC_IMGS_Polar_Clear_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A003",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A004",
+    "editorid": "PIC_IMGS_Polar_Clear_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FA02": {
+  "editorid": "PIC_WTHR_MASTER_A02_Clear_Aurora",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A001",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A002",
+    "editorid": "PIC_IMGS_Polar_Clear_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A003",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A006",
+    "editorid": "PIC_IMGS_Polar_Aurora_Green_Night",
+    "sat": "1.3",
+    "tint": "30,230,180,0",
+    "tint_amt": "0.3",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FA03": {
+  "editorid": "PIC_WTHR_MASTER_A03_Clear_Mist",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A041",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunrise",
+    "sat": "1.15",
+    "tint": "80,90,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A042",
+    "editorid": "PIC_IMGS_Polar_Fog_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A043",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A044",
+    "editorid": "PIC_IMGS_Polar_Fog_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FB01": {
+  "editorid": "PIC_WTHR_MASTER_B01_Lightly_Cloudy",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A009",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunrise",
+    "sat": "1.15",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A010",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Day",
+    "sat": "1.1",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A011",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunset",
+    "sat": "1.05",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A012",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Night",
+    "sat": "1.2",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FB02": {
+  "editorid": "PIC_WTHR_MASTER_B02_Lightly_Cloudy_Aurora",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A009",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunrise",
+    "sat": "1.15",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A010",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Day",
+    "sat": "1.1",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A011",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunset",
+    "sat": "1.05",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A005",
+    "editorid": "PIC_IMGS_Polar_Aurora_Cyan_Night",
+    "sat": "1.3",
+    "tint": "30,190,210,0",
+    "tint_amt": "0.3",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FB03": {
+  "editorid": "PIC_WTHR_MASTER_B03_Lightly_Cloudy_Misty_Fog",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A041",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunrise",
+    "sat": "1.15",
+    "tint": "80,90,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A042",
+    "editorid": "PIC_IMGS_Polar_Fog_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A043",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A044",
+    "editorid": "PIC_IMGS_Polar_Fog_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FC01": {
+  "editorid": "PIC_WTHR_MASTER_C01_Cloudy",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A013",
+    "editorid": "PIC_IMGS_Polar_Cloudy_Sunrise",
+    "sat": "1.15",
+    "tint": "130,180,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A014",
+    "editorid": "PIC_IMGS_Polar_Cloudy_Day",
+    "sat": "1.1",
+    "tint": "130,180,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A015",
+    "editorid": "PIC_IMGS_Polar_Cloudy_Sunset",
+    "sat": "1.05",
+    "tint": "130,180,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A016",
+    "editorid": "PIC_IMGS_Polar_Cloudy_Night",
+    "sat": "1.2",
+    "tint": "130,180,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FC02": {
+  "editorid": "PIC_WTHR_MASTER_C02_Cloudy_Storm",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A021",
+    "editorid": "PIC_IMGS_Polar_Storm_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A022",
+    "editorid": "PIC_IMGS_Polar_Storm_Day",
+    "sat": "1.1",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A023",
+    "editorid": "PIC_IMGS_Polar_Storm_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A024",
+    "editorid": "PIC_IMGS_Polar_Storm_Night",
+    "sat": "1.2",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FC03": {
+  "editorid": "PIC_WTHR_MASTER_C03_Cloudy_Light_Fog",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A041",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunrise",
+    "sat": "1.15",
+    "tint": "80,90,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A042",
+    "editorid": "PIC_IMGS_Polar_Fog_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A043",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A044",
+    "editorid": "PIC_IMGS_Polar_Fog_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FC04": {
+  "editorid": "PIC_WTHR_MASTER_C04_Cloudy_Rain_Very_Light",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A029",
+    "editorid": "PIC_IMGS_Polar_Rain_Sunrise",
+    "sat": "1.15",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A030",
+    "editorid": "PIC_IMGS_Polar_Rain_Day",
+    "sat": "1.1",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A031",
+    "editorid": "PIC_IMGS_Polar_Rain_Sunset",
+    "sat": "1.05",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A032",
+    "editorid": "PIC_IMGS_Polar_Rain_Night",
+    "sat": "1.2",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FC05": {
+  "editorid": "PIC_WTHR_MASTER_C05_Cloudy_Snow_Very_Light",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A037",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunrise",
+    "sat": "1.15",
+    "tint": "210,230,250,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A038",
+    "editorid": "PIC_IMGS_Polar_Snow_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A039",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A040",
+    "editorid": "PIC_IMGS_Polar_Snow_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FD01": {
+  "editorid": "PIC_WTHR_MASTER_D01_Overcast",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A017",
+    "editorid": "PIC_IMGS_Polar_Overcast_Sunrise",
+    "sat": "1.15",
+    "tint": "160,180,200,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A018",
+    "editorid": "PIC_IMGS_Polar_Overcast_Day",
+    "sat": "1.1",
+    "tint": "160,180,200,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A019",
+    "editorid": "PIC_IMGS_Polar_Overcast_Sunset",
+    "sat": "1.05",
+    "tint": "160,180,200,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A020",
+    "editorid": "PIC_IMGS_Polar_Overcast_Night",
+    "sat": "1.2",
+    "tint": "160,180,200,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FD02": {
+  "editorid": "PIC_WTHR_MASTER_D02_Overcast_Heavy_Fog",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A041",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunrise",
+    "sat": "1.15",
+    "tint": "80,90,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A042",
+    "editorid": "PIC_IMGS_Polar_Fog_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A043",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A044",
+    "editorid": "PIC_IMGS_Polar_Fog_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FD03": {
+  "editorid": "PIC_WTHR_MASTER_D03_Overcast_Rain_Light",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A029",
+    "editorid": "PIC_IMGS_Polar_Rain_Sunrise",
+    "sat": "1.15",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A030",
+    "editorid": "PIC_IMGS_Polar_Rain_Day",
+    "sat": "1.1",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A031",
+    "editorid": "PIC_IMGS_Polar_Rain_Sunset",
+    "sat": "1.05",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A032",
+    "editorid": "PIC_IMGS_Polar_Rain_Night",
+    "sat": "1.2",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FD04": {
+  "editorid": "PIC_WTHR_MASTER_D04_Overcast_Rain_Medium",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A029",
+    "editorid": "PIC_IMGS_Polar_Rain_Sunrise",
+    "sat": "1.15",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A030",
+    "editorid": "PIC_IMGS_Polar_Rain_Day",
+    "sat": "1.1",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A031",
+    "editorid": "PIC_IMGS_Polar_Rain_Sunset",
+    "sat": "1.05",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A032",
+    "editorid": "PIC_IMGS_Polar_Rain_Night",
+    "sat": "1.2",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FD05": {
+  "editorid": "PIC_WTHR_MASTER_D05_Overcast_Snow_Light",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A037",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunrise",
+    "sat": "1.15",
+    "tint": "210,230,250,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A038",
+    "editorid": "PIC_IMGS_Polar_Snow_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A039",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A040",
+    "editorid": "PIC_IMGS_Polar_Snow_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FD06": {
+  "editorid": "PIC_WTHR_MASTER_D06_Overcast_Snow_Medium",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A037",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunrise",
+    "sat": "1.15",
+    "tint": "210,230,250,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A038",
+    "editorid": "PIC_IMGS_Polar_Snow_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A039",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A040",
+    "editorid": "PIC_IMGS_Polar_Snow_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FE01": {
+  "editorid": "PIC_WTHR_MASTER_E01_Storm_Thunder",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A021",
+    "editorid": "PIC_IMGS_Polar_Storm_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A022",
+    "editorid": "PIC_IMGS_Polar_Storm_Day",
+    "sat": "1.1",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A023",
+    "editorid": "PIC_IMGS_Polar_Storm_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A024",
+    "editorid": "PIC_IMGS_Polar_Storm_Night",
+    "sat": "1.2",
+    "tint": "40,90,120,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FE02": {
+  "editorid": "PIC_WTHR_MASTER_E02_Storm_Cold_Thunder",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A025",
+    "editorid": "PIC_IMGS_Polar_Storm_Thunder_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,140,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A026",
+    "editorid": "PIC_IMGS_Polar_Storm_Thunder_Day",
+    "sat": "1.1",
+    "tint": "40,90,140,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A027",
+    "editorid": "PIC_IMGS_Polar_Storm_Thunder_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,140,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A028",
+    "editorid": "PIC_IMGS_Polar_Storm_Thunder_Night",
+    "sat": "1.2",
+    "tint": "40,90,140,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FE03": {
+  "editorid": "PIC_WTHR_MASTER_E03_Storm_Rain_Heavy_Thunder",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A033",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Sunrise",
+    "sat": "1.15",
+    "tint": "40,70,120,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A034",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Day",
+    "sat": "1.1",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A035",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Sunset",
+    "sat": "1.05",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A036",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Night",
+    "sat": "1.2",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FE04": {
+  "editorid": "PIC_WTHR_MASTER_E04_Storm_Rain_Extreme_Thunder",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A033",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Sunrise",
+    "sat": "1.15",
+    "tint": "40,70,120,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A034",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Day",
+    "sat": "1.1",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A035",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Sunset",
+    "sat": "1.05",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A036",
+    "editorid": "PIC_IMGS_Polar_Rain_Thunder_Night",
+    "sat": "1.2",
+    "tint": "40,70,100,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FE05": {
+  "editorid": "PIC_WTHR_MASTER_E05_Storm_Snow_Heavy",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A037",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunrise",
+    "sat": "1.15",
+    "tint": "210,230,250,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A038",
+    "editorid": "PIC_IMGS_Polar_Snow_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A039",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A040",
+    "editorid": "PIC_IMGS_Polar_Snow_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "19FE06": {
+  "editorid": "PIC_WTHR_MASTER_E06_Storm_Snow_Extreme",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A037",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunrise",
+    "sat": "1.15",
+    "tint": "210,230,250,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A038",
+    "editorid": "PIC_IMGS_Polar_Snow_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A039",
+    "editorid": "PIC_IMGS_Polar_Snow_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A040",
+    "editorid": "PIC_IMGS_Polar_Snow_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "5AFA01": {
+  "editorid": "PIC_WTHR_SUMMER_A01_Clear",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A001",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A002",
+    "editorid": "PIC_IMGS_Polar_Clear_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A003",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A004",
+    "editorid": "PIC_IMGS_Polar_Clear_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "5AFA02": {
+  "editorid": "PIC_WTHR_SUMMER_A02_Clear_Aurora",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A001",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunrise",
+    "sat": "1.15",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A002",
+    "editorid": "PIC_IMGS_Polar_Clear_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A003",
+    "editorid": "PIC_IMGS_Polar_Clear_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A006",
+    "editorid": "PIC_IMGS_Polar_Aurora_Green_Night",
+    "sat": "1.3",
+    "tint": "30,230,180,0",
+    "tint_amt": "0.3",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "5AFA03": {
+  "editorid": "PIC_WTHR_SUMMER_A03_Clear_Mist",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A041",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunrise",
+    "sat": "1.15",
+    "tint": "80,90,100,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A042",
+    "editorid": "PIC_IMGS_Polar_Fog_Day",
+    "sat": "1.1",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A043",
+    "editorid": "PIC_IMGS_Polar_Fog_Sunset",
+    "sat": "1.05",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A044",
+    "editorid": "PIC_IMGS_Polar_Fog_Night",
+    "sat": "1.2",
+    "tint": "40,90,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "5AFB01": {
+  "editorid": "PIC_WTHR_SUMMER_B01_Lightly_Cloudy",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A009",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunrise",
+    "sat": "1.15",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A010",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Day",
+    "sat": "1.1",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A011",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunset",
+    "sat": "1.05",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A012",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Night",
+    "sat": "1.2",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.2",
+    "sunlight_scale": "1"
+   }
+  }
+ },
+ "5AFB02": {
+  "editorid": "PIC_WTHR_SUMMER_B02_Lightly_Cloudy_Aurora",
+  "imgs": {
+   "Sunrise": {
+    "imgs": "11A009",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunrise",
+    "sat": "1.15",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.15",
+    "sunlight_scale": "1"
+   },
+   "Day": {
+    "imgs": "11A010",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Day",
+    "sat": "1.1",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.1",
+    "sunlight_scale": "2"
+   },
+   "Sunset": {
+    "imgs": "11A011",
+    "editorid": "PIC_IMGS_Polar_Lightly_Cloudy_Sunset",
+    "sat": "1.05",
+    "tint": "70,120,220,0",
+    "tint_amt": "0.05",
+    "sunlight_scale": "1"
+   },
+   "Night": {
+    "imgs": "11A005",
+    "editorid": "PIC_IMGS_Polar_Aurora_Cyan_Night",
+    "sat": "1.3",
+    "tint": "30,190,210,0",
+    "tint_amt": "0.3",
+    "sunlight_scale": "1"
+   }
+  }
+ }
+}

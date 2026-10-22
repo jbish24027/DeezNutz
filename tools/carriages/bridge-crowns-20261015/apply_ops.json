@@ -1,0 +1,14 @@
+[
+  {"formid": "00080D:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "24300.3086, -39440.7188, 80.0"},
+  {"formid": "000ED2:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "-145514.53, 17737.746, -7437.0"},
+  {"formid": "000ED3:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "-145273.83, 18480.705, -7206.0"},
+  {"formid": "000ED4:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "-145106.22, 19105.668, -7217.0"},
+  {"formid": "000ED5:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "-144844.64, 19780.629, -7446.0"},
+  {"formid": "0009D1:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "-112678.08, -14116.131, -5791.0"},
+  {"formid": "000966:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "115967.82, 32142.943, -12742.0"},
+  {"formid": "000967:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "116162.27, 31265.771, -12604.0"},
+  {"formid": "000968:Animated Carriage Additional Route.esp", "field_path": "Placement.Position", "value": "116359.57, 30588.088, -12652.0"},
+  {"formid": "000ED2:Animated Carriage Additional Route.esp", "field_path": "LinkedReferences[0].Reference", "value": "000800:Authoria - Patch - Animated Carriage Routes - Terrain Fit.esp"},
+  {"formid": "000ED4:Animated Carriage Additional Route.esp", "field_path": "LinkedReferences[0].Reference", "value": "000801:Authoria - Patch - Animated Carriage Routes - Terrain Fit.esp"},
+  {"formid": "0009D1:Animated Carriage Additional Route.esp", "field_path": "LinkedReferences[0].Reference", "value": "000802:Authoria - Patch - Animated Carriage Routes - Terrain Fit.esp"}
+]

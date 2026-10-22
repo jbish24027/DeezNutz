@@ -1,0 +1,73 @@
+  overlay-band lift: raised 1244 band vert(s) back on top of their under-layer
+  seam weld: closed 4 cross-plate seam vert(s)
+  overlay-band lift: raised 1240 band vert(s) back on top of their under-layer
+  seam weld: closed 4 cross-plate seam vert(s)
+  chainless-softbody gate: magic pariah skirt HDT_1.nif kept rigid (no source physics + no chain bones -> no generated soft-body)
+  chainless-softbody gate: magic pariah skirt HDT_0.nif kept rigid (no source physics + no chain bones -> no generated soft-body)
+  overlay-band lift: raised 3195 band vert(s) above their under-layer
+  layer ride: re-placed 5934 vert(s) on the layer beneath them (coherent stack)
+  layer order: restored 127 vert(s) to their source side of a neighbouring layer
+  seam weld: closed 22 cross-plate seam vert(s)
+  overlay-band lift: raised 3190 band vert(s) above their under-layer
+  layer ride: re-placed 5928 vert(s) on the layer beneath them (coherent stack)
+  layer order: restored 186 vert(s) to their source side of a neighbouring layer
+  seam weld: closed 18 cross-plate seam vert(s)
+  layer ride: re-placed 4526 vert(s) on the layer beneath them (coherent stack)
+  layer order: restored 199 vert(s) to their source side of a neighbouring layer
+  degenerate-tri repair (warp): un-pinched 2 collapsed tri(s) across 1 shape(s)
+  seam weld: closed 27 cross-plate seam vert(s)
+  layer ride: re-placed 4526 vert(s) on the layer beneath them (coherent stack)
+  layer order: restored 144 vert(s) to their source side of a neighbouring layer
+  degenerate-tri repair (warp): un-pinched 1 collapsed tri(s) across 1 shape(s)
+  seam weld: closed 27 cross-plate seam vert(s)
+  chainless-softbody gate: Magic Pariah Boots_1.nif kept rigid (no source physics + no chain bones -> no generated soft-body)
+  chainless-softbody gate: Magic Pariah Boots_0.nif kept rigid (no source physics + no chain bones -> no generated soft-body)
+  tight-softbody gate: Corset kept skinned+morphable (body-conforming; no generated soft-body)
+  tight-softbody gate: Corset kept skinned+morphable (body-conforming; no generated soft-body)
+(log: C:\1. AUTHORIA\tools\CBBE to UBE\logs\Authoria-DaysTool-20260903-124721.log)
+scanning C:\1. AUTHORIA ...
+  ...loaded 500/4037 t=0.2s
+  ...loaded 1000/4037 t=0.3s
+  ...loaded 1500/4037 t=0.4s
+  ...loaded 2000/4037 t=0.5s
+  ...loaded 2500/4037 t=0.7s
+  ...loaded 3000/4037 t=0.7s
+  ...loaded 3500/4037 t=0.8s
+  ...loaded 4000/4037 t=0.9s
+loaded 4031 mods in 0.9s (0 unresolved, 0 failed, 6 own-output skipped)
+WARNING: 2 plugin(s) in loadorder.txt are UNCHECKED in plugins.txt -- excluded from the scan:
+  (inactive) Ashe - SMP_Hair.esp
+  (inactive) Authoria - Master Patch - Sacrilege.esp
+single-mod mode: Magic Pariah.esp
+WARNING: 21 armature(s) skipped -- BOD2 unreadable (form version < 43); resave in CK/xEdit: [yy]SYNNfeathersuit.esp
+classification: {'winning_armos': 17716, 'winning_armas': 15717, 'categories': {'needs_coverage': 7065, 'tnam_inherited': 4148, 'skip_not_nord': 291, 'skip_nonplayable': 3922, 'skip_character_asset': 151, 'already_ube': 2018, 'skip_no_armature': 100, 'skip_unreadable_bod2': 21}, 'distinct_source_armas_to_cover': 5918, 'coverage_lines_by_tier': {'feet': 470, 'body': 1037, 'keep': 2562, 'hands': 423, 'worn': 1426}, 'unresolved_plugins': 0, 'failed_plugins': 0, 'unreadable_bod2_armas': ['000829:[yy]SYNNfeathersuit.esp', '00082B:[yy]SYNNfeathersuit.esp', '00082D:[yy]SYNNfeathersuit.esp', '000830:[yy]SYNNfeathersuit.esp', '000833:[yy]SYNNfeathersuit.esp', '000835:[yy]SYNNfeathersuit.esp', '000837:[yy]SYNNfeathersuit.esp', '000839:[yy]SYNNfeathersuit.esp', '000846:[yy]SYNNfeathersuit.esp', '000847:[yy]SYNNfeathersuit.esp', '000853:[yy]SYNNfeathersuit.esp', '000854:[yy]SYNNfeathersuit.esp', '000855:[yy]SYNNfeathersuit.esp', '000856:[yy]SYNNfeathersuit.esp', '000857:[yy]SYNNfeathersuit.esp', '000858:[yy]SYNNfeathersuit.esp', '000859:[yy]SYNNfeathersuit.esp', '00085A:[yy]SYNNfeathersuit.esp', '00085C:[yy]SYNNfeathersuit.esp', '00085D:[yy]SYNNfeathersuit.esp', '000864:[yy]SYNNfeathersuit.esp'], 'unreadable_bod2_plugins': ['[yy]SYNNfeathersuit.esp']}
+membership sweep: 4455 templated/enchanted ARMOs added (4552 unit-target pairs)
+UBE template: Breton 005734:UBE_AllRace.esp + 15 additional races
+minting tiers ('keep', 'body', 'hands', 'feet', 'worn') -> C:\1. AUTHORIA\mods\Authoria - UBE Converter Output - Magic Pariah
+races-only list: 15 entries loaded from C:\1. AUTHORIA\tools\CBBE to UBE\races_only.json
+reuse: 1769 hand-made `_UBE` ARMAs available in the active order
+scanned 2 active SkyPatcher armor INIs -> 0 source AAs already given a UBE ArmorAddon (skip to avoid double-adds)
+single-mod scope: 4 units from Magic Pariah.esp
+hand-made !UBE meshes available for reuse: 1483
+UBE body reference (Day discovery): C:\1. AUTHORIA\mods\Authoria - Bodyslide Output - UBE\meshes\!UBE\Body\femalebody_tangent_1.nif
+mesh stage (Day engine): 6 NIF(s) across 6 worker(s)
+  pre-warming 6 workers...
+    warm-up done in 1.3s (per-worker init avg 0.8s, max 0.8s, 6 distinct worker PID(s))
+
+slot-hygiene MagicPariahTopAA: +[53]
+repath MagicPariahTopAA: MOD3 'clothes\\magic pariah\\Magic Pariah Top_1.nif' -> '!UBE\\clothes\\magic pariah\\Magic Pariah Top_1.nif' (male := female)
+
+repath MagicPariahSkirtAA: MOD3 'clothes\\magic pariah\\magic pariah skirt HDT_1.nif' -> '!UBE\\clothes\\magic pariah\\magic pariah skirt HDT_1.nif' (male := female)
+
+repath MagicPariahBootsAA: MOD3 'clothes\\magic pariah\\Magic Pariah Boots_1.nif' -> '!UBE\\clothes\\magic pariah\\Magic Pariah Boots_1.nif' (male := female)
+wrote Magic Pariah UBE patch.esp (1989 bytes, 4 records, ESL-flagged)
+wrote SKSE\Plugins\SkyPatcher\armor\Magic Pariah UBE patch.esp.ini (4 lines)
+
+=== summary ===
+tiers: ['body', 'feet', 'hands', 'keep', 'worn']  |  units in scope: 4
+minted: 4  |  hand-made ARMAs reused: 0  |  dedup-shared: 0
+skipped (already patched by an active SkyPatcher INI): 0  (from 2 INIs)
+races-only fallbacks: 0
+mesh stats: {'converted': 3, 'skipped': 0, 'blocked': 0, 'error': 0, 'cache_hits': 0, 'reused_handmade': 0, 'reused_incremental': 0}
+  Magic Pariah UBE patch.esp: 4 records, ESL-flagged
+done in 25.7s -> C:\1. AUTHORIA\mods\Authoria - UBE Converter Output - Magic Pariah

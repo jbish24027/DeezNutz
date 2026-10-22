@@ -1,0 +1,1074 @@
+{
+ "Fine02": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     84,
+     2951
+    ],
+    "jc": [
+     17,
+     1955
+    ],
+    "idle": 55,
+    "lining": [
+     92,
+     1.32
+    ],
+    "clips": 334
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "AFC Skirt"
+   ]
+  }
+ },
+ "Fine01": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     94,
+     2804
+    ],
+    "jc": [
+     134,
+     2578
+    ],
+    "idle": 80,
+    "lining": [
+     84,
+     1.67
+    ],
+    "clips": 318
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "AFC Skirt"
+   ]
+  }
+ },
+ "Tunic": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     26,
+     2554
+    ],
+    "jc": [
+     51,
+     1871
+    ],
+    "idle": 0,
+    "lining": [
+     0,
+     0.1
+    ],
+    "clips": 273
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "AFT Skirt"
+   ]
+  }
+ },
+ "Merchant": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     121,
+     1459
+    ],
+    "jc": [
+     164,
+     852
+    ],
+    "idle": 0,
+    "lining": [
+     2,
+     0.45
+    ],
+    "clips": 72
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "Skirt"
+   ]
+  }
+ },
+ "Farm02": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     42,
+     532
+    ],
+    "jc": [
+     79,
+     378
+    ],
+    "idle": 0,
+    "lining": [
+     49,
+     0.62
+    ],
+    "clips": 86
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "AFM Skirt"
+   ]
+  }
+ },
+ "Farm04": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     5,
+     1076
+    ],
+    "jc": [
+     26,
+     606
+    ],
+    "idle": 0,
+    "lining": [
+     12,
+     1.8
+    ],
+    "clips": 211
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "AFM Skirt"
+   ]
+  }
+ },
+ "Farm03": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     1,
+     1158
+    ],
+    "jc": [
+     8,
+     737
+    ],
+    "idle": 3,
+    "lining": [
+     63,
+     2.82
+    ],
+    "clips": 44
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 2,
+  "regress": {
+   "m": [
+    "AFM Skirt"
+   ]
+  }
+ },
+ "MonkRobes": {
+  "last_run": "2026-10-18 12:37",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 70
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1500,
+    44,
+    1101
+   ]
+  },
+  "changed": null,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "RedguardRobe": {
+  "last_run": "2026-10-18 12:47",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 38
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    172,
+    0,
+    189
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Wedding": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     94,
+     2804
+    ],
+    "jc": [
+     134,
+     2578
+    ],
+    "idle": 80,
+    "lining": [
+     84,
+     1.67
+    ],
+    "clips": 318
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Wench": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     101,
+     1472
+    ],
+    "jc": [
+     155,
+     874
+    ],
+    "idle": 1,
+    "lining": [
+     2,
+     2.48
+    ],
+    "clips": 71
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Farm03x": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     1,
+     1115
+    ],
+    "jc": [
+     9,
+     743
+    ],
+    "idle": 2,
+    "lining": [
+     52,
+     2.82
+    ],
+    "clips": 45
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Beggar": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     114,
+     6046
+    ],
+    "jc": [
+     102,
+     7233
+    ],
+    "idle": 70,
+    "lining": [
+     0,
+     0.0
+    ],
+    "clips": 499
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Smith": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     1,
+     2193
+    ],
+    "jc": [
+     0,
+     2675
+    ],
+    "idle": 0,
+    "lining": [
+     4,
+     1.2
+    ],
+    "clips": 191
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jester": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     107,
+     1424
+    ],
+    "jc": [
+     132,
+     1202
+    ],
+    "idle": 2,
+    "lining": [
+     0,
+     0.0
+    ],
+    "clips": 244
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "VampClothes": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     158,
+     2072
+    ],
+    "jc": [
+     210,
+     1154
+    ],
+    "idle": 3,
+    "lining": [
+     188,
+     1.26
+    ],
+    "clips": 149
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Emperor": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     11,
+     3415
+    ],
+    "jc": [
+     9,
+     2109
+    ],
+    "idle": 17,
+    "lining": [
+     8,
+     1.19
+    ],
+    "clips": 217
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jarl1": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     11,
+     3415
+    ],
+    "jc": [
+     9,
+     2109
+    ],
+    "idle": 17,
+    "lining": [
+     8,
+     1.19
+    ],
+    "clips": 217
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jarl1v1": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     11,
+     3415
+    ],
+    "jc": [
+     9,
+     2109
+    ],
+    "idle": 17,
+    "lining": [
+     8,
+     1.19
+    ],
+    "clips": 217
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jarl1v2": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     11,
+     3415
+    ],
+    "jc": [
+     9,
+     2109
+    ],
+    "idle": 17,
+    "lining": [
+     8,
+     1.19
+    ],
+    "clips": 217
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jarl3": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     78,
+     3670
+    ],
+    "jc": [
+     227,
+     1795
+    ],
+    "idle": 39,
+    "lining": [
+     896,
+     2.52
+    ],
+    "clips": 285
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jarl3v1": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     93,
+     3579
+    ],
+    "jc": [
+     228,
+     1766
+    ],
+    "idle": 41,
+    "lining": [
+     913,
+     2.54
+    ],
+    "clips": 285
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Jarl2": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     91,
+     6546
+    ],
+    "jc": [
+     193,
+     6875
+    ],
+    "idle": 7,
+    "lining": [
+     534,
+     2.31
+    ],
+    "clips": 1155
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Ulfric": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     83,
+     9189
+    ],
+    "jc": [
+     152,
+     10923
+    ],
+    "idle": 20,
+    "lining": [
+     524,
+     1.83
+    ],
+    "clips": 1091
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "DarkBro": {
+  "last_run": "2026-10-18 12:55",
+  "build": "ok",
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "checks": {
+   "m": {
+    "ss": [
+     145,
+     3715
+    ],
+    "jc": [
+     177,
+     3753
+    ],
+    "idle": 0,
+    "lining": [
+     268,
+     1.77
+    ],
+    "clips": 825
+   }
+  },
+  "installed": null,
+  "installed_checks": null,
+  "changed": 3,
+  "regress": {
+   "m": []
+  }
+ },
+ "Barkeeper": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 35
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    362,
+    0,
+    424
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Chef": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 35
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    361,
+    0,
+    424
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Cultist": {
+  "last_run": "2026-10-18 12:56",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 73
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1532,
+    56,
+    1686
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Executioner": {
+  "last_run": "2026-10-18 12:56",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 55
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    914,
+    25,
+    639
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "BlindMoth": {
+  "last_run": "2026-10-18 12:56",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 70
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1479,
+    44,
+    1128
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "DarkElf": {
+  "last_run": "2026-10-18 12:56",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 59
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1785,
+    63,
+    967
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "MonkRobes2": {
+  "last_run": "2026-10-18 12:56",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 70
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1502,
+    45,
+    1100
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Greybeard": {
+  "last_run": "2026-10-18 12:56",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 59
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1142,
+    54,
+    986
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Thalmor": {
+  "last_run": "2026-10-18 12:58",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 49
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    792,
+    59,
+    791
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "MythicDawn": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 67
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    890,
+    18,
+    760
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Psijic": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 57
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1377,
+    60,
+    1166
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Telvanni": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 77
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    2446,
+    49,
+    1277
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Temple": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 62
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    2307,
+    43,
+    1844
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ },
+ "Vaermina": {
+  "last_run": "2026-10-18 12:57",
+  "targets": [
+   "m"
+  ],
+  "build": "ok",
+  "bones": {
+   "m": 70
+  },
+  "verify": "ALL OK",
+  "verify_fails": [],
+  "stride": {
+   "m": [
+    1503,
+    43,
+    1116
+   ]
+  },
+  "changed": 3,
+  "mod": "C:/1. AUTHORIA/mods/Authoria - SMP Vanilla Coats/",
+  "installed": null,
+  "installed_stride": null
+ }
+}

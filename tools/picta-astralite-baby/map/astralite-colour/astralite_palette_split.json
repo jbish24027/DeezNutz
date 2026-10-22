@@ -1,0 +1,4126 @@
+{
+ "mainland_and_cities_nonash": {
+  "pleasant": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      24,
+      30,
+      73
+     ],
+     "hex": "#181e49",
+     "H": 233,
+     "S": 0.67,
+     "V": 0.29,
+     "tone": "blue",
+     "n": 29
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      109,
+      74,
+      124
+     ],
+     "hex": "#6d4a7c",
+     "H": 282,
+     "S": 0.4,
+     "V": 0.49,
+     "tone": "violet",
+     "n": 29
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      219,
+      121,
+      97
+     ],
+     "hex": "#db7961",
+     "H": 12,
+     "S": 0.56,
+     "V": 0.86,
+     "tone": "red",
+     "n": 29
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      90,
+      76,
+      141
+     ],
+     "hex": "#5a4c8d",
+     "H": 253,
+     "S": 0.46,
+     "V": 0.55,
+     "tone": "blue",
+     "n": 29
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      181,
+      100,
+      82
+     ],
+     "hex": "#b56452",
+     "H": 11,
+     "S": 0.55,
+     "V": 0.71,
+     "tone": "red",
+     "n": 29
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      199,
+      129,
+      120
+     ],
+     "hex": "#c78178",
+     "H": 7,
+     "S": 0.4,
+     "V": 0.78,
+     "tone": "red",
+     "n": 29
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      199,
+      140,
+      154
+     ],
+     "hex": "#c78c9a",
+     "H": 346,
+     "S": 0.3,
+     "V": 0.78,
+     "tone": "red",
+     "n": 29
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      80,
+      62,
+      76
+     ],
+     "hex": "#503e4c",
+     "H": 313,
+     "S": 0.23,
+     "V": 0.31,
+     "tone": "purple/magenta",
+     "n": 29
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      88,
+      69,
+      86
+     ],
+     "hex": "#584556",
+     "H": 306,
+     "S": 0.22,
+     "V": 0.35,
+     "tone": "purple/magenta",
+     "n": 29
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      168,
+      121,
+      138
+     ],
+     "hex": "#a8798a",
+     "H": 338,
+     "S": 0.28,
+     "V": 0.66,
+     "tone": "rose/pink",
+     "n": 29
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      255,
+      128,
+      66
+     ],
+     "hex": "#ff8042",
+     "H": 20,
+     "S": 0.74,
+     "V": 1.0,
+     "tone": "orange",
+     "n": 29
+    },
+    "SunColor": {
+     "mean_rgb": [
+      253,
+      94,
+      52
+     ],
+     "hex": "#fd5e34",
+     "H": 13,
+     "S": 0.79,
+     "V": 0.99,
+     "tone": "red",
+     "n": 29
+    },
+    "Clouds": {
+     "mean_rgb": [
+      209,
+      123,
+      109
+     ],
+     "hex": "#d17b6d",
+     "H": 8,
+     "S": 0.48,
+     "V": 0.82,
+     "tone": "red",
+     "n": 29
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      36,
+      67,
+      174
+     ],
+     "hex": "#2443ae",
+     "H": 227,
+     "S": 0.79,
+     "V": 0.68,
+     "tone": "blue",
+     "n": 29
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      54,
+      93,
+      206
+     ],
+     "hex": "#365dce",
+     "H": 225,
+     "S": 0.74,
+     "V": 0.81,
+     "tone": "azure",
+     "n": 29
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      124,
+      157,
+      245
+     ],
+     "hex": "#7c9df5",
+     "H": 224,
+     "S": 0.49,
+     "V": 0.96,
+     "tone": "azure",
+     "n": 29
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      80,
+      106,
+      196
+     ],
+     "hex": "#506ac4",
+     "H": 227,
+     "S": 0.59,
+     "V": 0.77,
+     "tone": "blue",
+     "n": 29
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      117,
+      161,
+      243
+     ],
+     "hex": "#75a1f3",
+     "H": 219,
+     "S": 0.52,
+     "V": 0.95,
+     "tone": "azure",
+     "n": 29
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      158,
+      164,
+      212
+     ],
+     "hex": "#9ea4d4",
+     "H": 233,
+     "S": 0.25,
+     "V": 0.83,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      110,
+      127,
+      197
+     ],
+     "hex": "#6e7fc5",
+     "H": 228,
+     "S": 0.44,
+     "V": 0.77,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      110,
+      127,
+      197
+     ],
+     "hex": "#6e7fc5",
+     "H": 228,
+     "S": 0.44,
+     "V": 0.77,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      62,
+      73,
+      115
+     ],
+     "hex": "#3e4973",
+     "H": 228,
+     "S": 0.46,
+     "V": 0.45,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      151,
+      172,
+      234
+     ],
+     "hex": "#97acea",
+     "H": 225,
+     "S": 0.35,
+     "V": 0.92,
+     "tone": "azure",
+     "n": 29
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      202,
+      184,
+      181
+     ],
+     "hex": "#cab8b5",
+     "H": 9,
+     "S": 0.1,
+     "V": 0.79,
+     "tone": "red",
+     "n": 29
+    },
+    "SunColor": {
+     "mean_rgb": [
+      255,
+      181,
+      140
+     ],
+     "hex": "#ffb58c",
+     "H": 21,
+     "S": 0.45,
+     "V": 1.0,
+     "tone": "orange",
+     "n": 29
+    },
+    "Clouds": {
+     "mean_rgb": [
+      215,
+      228,
+      250
+     ],
+     "hex": "#d7e4fa",
+     "H": 218,
+     "S": 0.14,
+     "V": 0.98,
+     "tone": "azure",
+     "n": 29
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 29
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      4,
+      4,
+      16
+     ],
+     "hex": "#040410",
+     "H": 240,
+     "S": 0.75,
+     "V": 0.06,
+     "tone": "blue",
+     "n": 29
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      11,
+      10,
+      25
+     ],
+     "hex": "#0b0a19",
+     "H": 244,
+     "S": 0.6,
+     "V": 0.1,
+     "tone": "blue",
+     "n": 29
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      10,
+      9,
+      22
+     ],
+     "hex": "#0a0916",
+     "H": 245,
+     "S": 0.59,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 29
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      9,
+      10,
+      22
+     ],
+     "hex": "#090a16",
+     "H": 235,
+     "S": 0.59,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 29
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      114,
+      121,
+      135
+     ],
+     "hex": "#727987",
+     "H": 220,
+     "S": 0.16,
+     "V": 0.53,
+     "tone": "azure",
+     "n": 29
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      52,
+      52,
+      57
+     ],
+     "hex": "#343439",
+     "H": 240,
+     "S": 0.09,
+     "V": 0.22,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      52,
+      52,
+      57
+     ],
+     "hex": "#343439",
+     "H": 240,
+     "S": 0.09,
+     "V": 0.22,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      46,
+      46,
+      51
+     ],
+     "hex": "#2e2e33",
+     "H": 240,
+     "S": 0.1,
+     "V": 0.2,
+     "tone": "blue",
+     "n": 29
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      59,
+      66,
+      72
+     ],
+     "hex": "#3b4248",
+     "H": 208,
+     "S": 0.18,
+     "V": 0.28,
+     "tone": "azure",
+     "n": 29
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      29,
+      33,
+      42
+     ],
+     "hex": "#1d212a",
+     "H": 222,
+     "S": 0.31,
+     "V": 0.16,
+     "tone": "azure",
+     "n": 29
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 29
+    },
+    "Clouds": {
+     "mean_rgb": [
+      38,
+      42,
+      49
+     ],
+     "hex": "#262a31",
+     "H": 218,
+     "S": 0.22,
+     "V": 0.19,
+     "tone": "azure",
+     "n": 29
+    }
+   }
+  },
+  "cloudy": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      108,
+      110,
+      108
+     ],
+     "hex": "#6c6e6c",
+     "H": 120,
+     "S": 0.02,
+     "V": 0.43,
+     "tone": "grey",
+     "n": 6
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      111,
+      114,
+      112
+     ],
+     "hex": "#6f7270",
+     "H": 140,
+     "S": 0.03,
+     "V": 0.45,
+     "tone": "grey",
+     "n": 6
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      112,
+      112,
+      108
+     ],
+     "hex": "#70706c",
+     "H": 60,
+     "S": 0.04,
+     "V": 0.44,
+     "tone": "grey",
+     "n": 6
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      79,
+      77,
+      72
+     ],
+     "hex": "#4f4d48",
+     "H": 43,
+     "S": 0.09,
+     "V": 0.31,
+     "tone": "yellow",
+     "n": 6
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      113,
+      114,
+      111
+     ],
+     "hex": "#71726f",
+     "H": 80,
+     "S": 0.03,
+     "V": 0.45,
+     "tone": "grey",
+     "n": 6
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      117,
+      119,
+      122
+     ],
+     "hex": "#75777a",
+     "H": 216,
+     "S": 0.04,
+     "V": 0.48,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      162,
+      163,
+      160
+     ],
+     "hex": "#a2a3a0",
+     "H": 80,
+     "S": 0.02,
+     "V": 0.64,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      77,
+      78,
+      77
+     ],
+     "hex": "#4d4e4d",
+     "H": 120,
+     "S": 0.01,
+     "V": 0.31,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      85,
+      86,
+      85
+     ],
+     "hex": "#555655",
+     "H": 120,
+     "S": 0.01,
+     "V": 0.34,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      139,
+      140,
+      139
+     ],
+     "hex": "#8b8c8b",
+     "H": 120,
+     "S": 0.01,
+     "V": 0.55,
+     "tone": "grey",
+     "n": 6
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      104,
+      104,
+      100
+     ],
+     "hex": "#686864",
+     "H": 60,
+     "S": 0.04,
+     "V": 0.41,
+     "tone": "grey",
+     "n": 6
+    },
+    "SunColor": {
+     "mean_rgb": [
+      185,
+      148,
+      104
+     ],
+     "hex": "#b99468",
+     "H": 33,
+     "S": 0.44,
+     "V": 0.73,
+     "tone": "orange",
+     "n": 6
+    },
+    "Clouds": {
+     "mean_rgb": [
+      168,
+      161,
+      144
+     ],
+     "hex": "#a8a190",
+     "H": 42,
+     "S": 0.14,
+     "V": 0.66,
+     "tone": "yellow",
+     "n": 5
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      124,
+      135,
+      142
+     ],
+     "hex": "#7c878e",
+     "H": 203,
+     "S": 0.13,
+     "V": 0.56,
+     "tone": "azure",
+     "n": 6
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      131,
+      142,
+      151
+     ],
+     "hex": "#838e97",
+     "H": 207,
+     "S": 0.13,
+     "V": 0.59,
+     "tone": "azure",
+     "n": 6
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      126,
+      136,
+      144
+     ],
+     "hex": "#7e8890",
+     "H": 207,
+     "S": 0.12,
+     "V": 0.56,
+     "tone": "azure",
+     "n": 6
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      76,
+      80,
+      85
+     ],
+     "hex": "#4c5055",
+     "H": 213,
+     "S": 0.11,
+     "V": 0.33,
+     "tone": "azure",
+     "n": 6
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      128,
+      140,
+      149
+     ],
+     "hex": "#808c95",
+     "H": 206,
+     "S": 0.14,
+     "V": 0.58,
+     "tone": "azure",
+     "n": 6
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      126,
+      132,
+      138
+     ],
+     "hex": "#7e848a",
+     "H": 210,
+     "S": 0.09,
+     "V": 0.54,
+     "tone": "azure",
+     "n": 6
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      138,
+      145,
+      149
+     ],
+     "hex": "#8a9195",
+     "H": 202,
+     "S": 0.07,
+     "V": 0.58,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      138,
+      145,
+      149
+     ],
+     "hex": "#8a9195",
+     "H": 202,
+     "S": 0.07,
+     "V": 0.58,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      81,
+      85,
+      87
+     ],
+     "hex": "#515557",
+     "H": 200,
+     "S": 0.07,
+     "V": 0.34,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      180,
+      189,
+      194
+     ],
+     "hex": "#b4bdc2",
+     "H": 201,
+     "S": 0.07,
+     "V": 0.76,
+     "tone": "grey",
+     "n": 6
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      116,
+      118,
+      116
+     ],
+     "hex": "#747674",
+     "H": 120,
+     "S": 0.02,
+     "V": 0.46,
+     "tone": "grey",
+     "n": 6
+    },
+    "SunColor": {
+     "mean_rgb": [
+      208,
+      164,
+      112
+     ],
+     "hex": "#d0a470",
+     "H": 33,
+     "S": 0.46,
+     "V": 0.82,
+     "tone": "orange",
+     "n": 6
+    },
+    "Clouds": {
+     "mean_rgb": [
+      186,
+      196,
+      195
+     ],
+     "hex": "#bac4c3",
+     "H": 174,
+     "S": 0.05,
+     "V": 0.77,
+     "tone": "grey",
+     "n": 5
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      8,
+      8,
+      10
+     ],
+     "hex": "#08080a",
+     "H": 240,
+     "S": 0.2,
+     "V": 0.04,
+     "tone": "blue",
+     "n": 6
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      9,
+      9,
+      16
+     ],
+     "hex": "#090910",
+     "H": 240,
+     "S": 0.44,
+     "V": 0.06,
+     "tone": "blue",
+     "n": 6
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      12,
+      12,
+      22
+     ],
+     "hex": "#0c0c16",
+     "H": 240,
+     "S": 0.45,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 6
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      12,
+      12,
+      22
+     ],
+     "hex": "#0c0c16",
+     "H": 240,
+     "S": 0.45,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 6
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      10,
+      10,
+      20
+     ],
+     "hex": "#0a0a14",
+     "H": 240,
+     "S": 0.5,
+     "V": 0.08,
+     "tone": "blue",
+     "n": 6
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      82,
+      92,
+      102
+     ],
+     "hex": "#525c66",
+     "H": 210,
+     "S": 0.2,
+     "V": 0.4,
+     "tone": "azure",
+     "n": 6
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      47,
+      47,
+      50
+     ],
+     "hex": "#2f2f32",
+     "H": 240,
+     "S": 0.06,
+     "V": 0.2,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      47,
+      47,
+      50
+     ],
+     "hex": "#2f2f32",
+     "H": 240,
+     "S": 0.06,
+     "V": 0.2,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      42,
+      42,
+      44
+     ],
+     "hex": "#2a2a2c",
+     "H": 240,
+     "S": 0.05,
+     "V": 0.17,
+     "tone": "grey",
+     "n": 6
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      57,
+      64,
+      68
+     ],
+     "hex": "#394044",
+     "H": 202,
+     "S": 0.16,
+     "V": 0.27,
+     "tone": "azure",
+     "n": 6
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      35,
+      37,
+      45
+     ],
+     "hex": "#23252d",
+     "H": 228,
+     "S": 0.22,
+     "V": 0.18,
+     "tone": "blue",
+     "n": 6
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 6
+    },
+    "Clouds": {
+     "mean_rgb": [
+      23,
+      23,
+      32
+     ],
+     "hex": "#171720",
+     "H": 240,
+     "S": 0.28,
+     "V": 0.13,
+     "tone": "blue",
+     "n": 5
+    }
+   }
+  },
+  "rainy": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      64,
+      67,
+      79
+     ],
+     "hex": "#40434f",
+     "H": 228,
+     "S": 0.19,
+     "V": 0.31,
+     "tone": "blue",
+     "n": 11
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      91,
+      84,
+      93
+     ],
+     "hex": "#5b545d",
+     "H": 287,
+     "S": 0.1,
+     "V": 0.36,
+     "tone": "purple/magenta",
+     "n": 11
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      91,
+      80,
+      82
+     ],
+     "hex": "#5b5052",
+     "H": 349,
+     "S": 0.12,
+     "V": 0.36,
+     "tone": "red",
+     "n": 11
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      74,
+      72,
+      84
+     ],
+     "hex": "#4a4854",
+     "H": 250,
+     "S": 0.14,
+     "V": 0.33,
+     "tone": "blue",
+     "n": 11
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      87,
+      77,
+      78
+     ],
+     "hex": "#574d4e",
+     "H": 354,
+     "S": 0.11,
+     "V": 0.34,
+     "tone": "red",
+     "n": 11
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      108,
+      95,
+      97
+     ],
+     "hex": "#6c5f61",
+     "H": 351,
+     "S": 0.12,
+     "V": 0.42,
+     "tone": "red",
+     "n": 11
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      135,
+      127,
+      132
+     ],
+     "hex": "#877f84",
+     "H": 322,
+     "S": 0.06,
+     "V": 0.53,
+     "tone": "grey",
+     "n": 11
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      60,
+      58,
+      61
+     ],
+     "hex": "#3c3a3d",
+     "H": 280,
+     "S": 0.05,
+     "V": 0.24,
+     "tone": "grey",
+     "n": 11
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      62,
+      59,
+      62
+     ],
+     "hex": "#3e3b3e",
+     "H": 300,
+     "S": 0.05,
+     "V": 0.24,
+     "tone": "grey",
+     "n": 11
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      109,
+      103,
+      107
+     ],
+     "hex": "#6d676b",
+     "H": 320,
+     "S": 0.06,
+     "V": 0.43,
+     "tone": "grey",
+     "n": 11
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      122,
+      99,
+      95
+     ],
+     "hex": "#7a635f",
+     "H": 9,
+     "S": 0.22,
+     "V": 0.48,
+     "tone": "red",
+     "n": 11
+    },
+    "SunColor": {
+     "mean_rgb": [
+      90,
+      60,
+      48
+     ],
+     "hex": "#5a3c30",
+     "H": 17,
+     "S": 0.47,
+     "V": 0.35,
+     "tone": "orange",
+     "n": 11
+    },
+    "Clouds": {
+     "mean_rgb": [
+      125,
+      111,
+      115
+     ],
+     "hex": "#7d6f73",
+     "H": 343,
+     "S": 0.11,
+     "V": 0.49,
+     "tone": "rose/pink",
+     "n": 11
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      73,
+      82,
+      102
+     ],
+     "hex": "#495266",
+     "H": 221,
+     "S": 0.28,
+     "V": 0.4,
+     "tone": "azure",
+     "n": 11
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      79,
+      90,
+      110
+     ],
+     "hex": "#4f5a6e",
+     "H": 219,
+     "S": 0.28,
+     "V": 0.43,
+     "tone": "azure",
+     "n": 11
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      84,
+      90,
+      107
+     ],
+     "hex": "#545a6b",
+     "H": 224,
+     "S": 0.21,
+     "V": 0.42,
+     "tone": "azure",
+     "n": 11
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      72,
+      78,
+      105
+     ],
+     "hex": "#484e69",
+     "H": 229,
+     "S": 0.31,
+     "V": 0.41,
+     "tone": "blue",
+     "n": 11
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      81,
+      88,
+      104
+     ],
+     "hex": "#515868",
+     "H": 222,
+     "S": 0.22,
+     "V": 0.41,
+     "tone": "azure",
+     "n": 11
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      101,
+      103,
+      111
+     ],
+     "hex": "#65676f",
+     "H": 228,
+     "S": 0.09,
+     "V": 0.44,
+     "tone": "blue",
+     "n": 11
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      94,
+      98,
+      108
+     ],
+     "hex": "#5e626c",
+     "H": 223,
+     "S": 0.13,
+     "V": 0.42,
+     "tone": "azure",
+     "n": 11
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      94,
+      98,
+      108
+     ],
+     "hex": "#5e626c",
+     "H": 223,
+     "S": 0.13,
+     "V": 0.42,
+     "tone": "azure",
+     "n": 11
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      52,
+      54,
+      60
+     ],
+     "hex": "#34363c",
+     "H": 225,
+     "S": 0.13,
+     "V": 0.24,
+     "tone": "blue",
+     "n": 11
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      116,
+      121,
+      132
+     ],
+     "hex": "#747984",
+     "H": 221,
+     "S": 0.12,
+     "V": 0.52,
+     "tone": "azure",
+     "n": 11
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      112,
+      110,
+      110
+     ],
+     "hex": "#706e6e",
+     "H": 0,
+     "S": 0.02,
+     "V": 0.44,
+     "tone": "grey",
+     "n": 11
+    },
+    "SunColor": {
+     "mean_rgb": [
+      76,
+      60,
+      50
+     ],
+     "hex": "#4c3c32",
+     "H": 23,
+     "S": 0.34,
+     "V": 0.3,
+     "tone": "orange",
+     "n": 11
+    },
+    "Clouds": {
+     "mean_rgb": [
+      118,
+      127,
+      154
+     ],
+     "hex": "#767f9a",
+     "H": 225,
+     "S": 0.23,
+     "V": 0.6,
+     "tone": "blue",
+     "n": 11
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      6,
+      7,
+      9
+     ],
+     "hex": "#060709",
+     "H": 220,
+     "S": 0.33,
+     "V": 0.04,
+     "tone": "azure",
+     "n": 11
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      13,
+      13,
+      19
+     ],
+     "hex": "#0d0d13",
+     "H": 240,
+     "S": 0.32,
+     "V": 0.07,
+     "tone": "blue",
+     "n": 11
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      13,
+      13,
+      20
+     ],
+     "hex": "#0d0d14",
+     "H": 240,
+     "S": 0.35,
+     "V": 0.08,
+     "tone": "blue",
+     "n": 11
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      17,
+      17,
+      24
+     ],
+     "hex": "#111118",
+     "H": 240,
+     "S": 0.29,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 11
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      11,
+      12,
+      17
+     ],
+     "hex": "#0b0c11",
+     "H": 230,
+     "S": 0.35,
+     "V": 0.07,
+     "tone": "blue",
+     "n": 11
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      92,
+      93,
+      106
+     ],
+     "hex": "#5c5d6a",
+     "H": 236,
+     "S": 0.13,
+     "V": 0.42,
+     "tone": "blue",
+     "n": 11
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      30,
+      30,
+      33
+     ],
+     "hex": "#1e1e21",
+     "H": 240,
+     "S": 0.09,
+     "V": 0.13,
+     "tone": "blue",
+     "n": 11
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      30,
+      30,
+      33
+     ],
+     "hex": "#1e1e21",
+     "H": 240,
+     "S": 0.09,
+     "V": 0.13,
+     "tone": "blue",
+     "n": 11
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      23,
+      23,
+      25
+     ],
+     "hex": "#171719",
+     "H": 240,
+     "S": 0.08,
+     "V": 0.1,
+     "tone": "blue",
+     "n": 11
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      36,
+      37,
+      40
+     ],
+     "hex": "#242528",
+     "H": 225,
+     "S": 0.1,
+     "V": 0.16,
+     "tone": "azure",
+     "n": 11
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      39,
+      40,
+      52
+     ],
+     "hex": "#272834",
+     "H": 235,
+     "S": 0.25,
+     "V": 0.2,
+     "tone": "blue",
+     "n": 11
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 11
+    },
+    "Clouds": {
+     "mean_rgb": [
+      20,
+      21,
+      29
+     ],
+     "hex": "#14151d",
+     "H": 233,
+     "S": 0.31,
+     "V": 0.11,
+     "tone": "blue",
+     "n": 11
+    }
+   }
+  },
+  "snow": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      79,
+      96,
+      123
+     ],
+     "hex": "#4f607b",
+     "H": 217,
+     "S": 0.36,
+     "V": 0.48,
+     "tone": "azure",
+     "n": 3
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      83,
+      100,
+      127
+     ],
+     "hex": "#53647f",
+     "H": 217,
+     "S": 0.35,
+     "V": 0.5,
+     "tone": "azure",
+     "n": 3
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      72,
+      88,
+      115
+     ],
+     "hex": "#485873",
+     "H": 218,
+     "S": 0.37,
+     "V": 0.45,
+     "tone": "azure",
+     "n": 3
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      66,
+      77,
+      101
+     ],
+     "hex": "#424d65",
+     "H": 221,
+     "S": 0.35,
+     "V": 0.4,
+     "tone": "azure",
+     "n": 3
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      66,
+      82,
+      108
+     ],
+     "hex": "#42526c",
+     "H": 217,
+     "S": 0.39,
+     "V": 0.42,
+     "tone": "azure",
+     "n": 3
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      128,
+      140,
+      159
+     ],
+     "hex": "#808c9f",
+     "H": 217,
+     "S": 0.19,
+     "V": 0.62,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      101,
+      115,
+      147
+     ],
+     "hex": "#657393",
+     "H": 222,
+     "S": 0.31,
+     "V": 0.58,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      54,
+      63,
+      80
+     ],
+     "hex": "#363f50",
+     "H": 219,
+     "S": 0.33,
+     "V": 0.31,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      59,
+      67,
+      86
+     ],
+     "hex": "#3b4356",
+     "H": 222,
+     "S": 0.31,
+     "V": 0.34,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      89,
+      104,
+      139
+     ],
+     "hex": "#59688b",
+     "H": 222,
+     "S": 0.36,
+     "V": 0.55,
+     "tone": "azure",
+     "n": 3
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      64,
+      75,
+      99
+     ],
+     "hex": "#404b63",
+     "H": 221,
+     "S": 0.35,
+     "V": 0.39,
+     "tone": "azure",
+     "n": 3
+    },
+    "SunColor": {
+     "mean_rgb": [
+      25,
+      23,
+      21
+     ],
+     "hex": "#191715",
+     "H": 30,
+     "S": 0.16,
+     "V": 0.1,
+     "tone": "orange",
+     "n": 3
+    },
+    "Clouds": {
+     "mean_rgb": [
+      106,
+      126,
+      160
+     ],
+     "hex": "#6a7ea0",
+     "H": 218,
+     "S": 0.34,
+     "V": 0.63,
+     "tone": "azure",
+     "n": 2
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      84,
+      102,
+      131
+     ],
+     "hex": "#546683",
+     "H": 217,
+     "S": 0.36,
+     "V": 0.51,
+     "tone": "azure",
+     "n": 3
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      88,
+      106,
+      135
+     ],
+     "hex": "#586a87",
+     "H": 217,
+     "S": 0.35,
+     "V": 0.53,
+     "tone": "azure",
+     "n": 3
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      77,
+      94,
+      122
+     ],
+     "hex": "#4d5e7a",
+     "H": 217,
+     "S": 0.37,
+     "V": 0.48,
+     "tone": "azure",
+     "n": 3
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      71,
+      83,
+      109
+     ],
+     "hex": "#47536d",
+     "H": 221,
+     "S": 0.35,
+     "V": 0.43,
+     "tone": "azure",
+     "n": 3
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      71,
+      88,
+      115
+     ],
+     "hex": "#475873",
+     "H": 217,
+     "S": 0.38,
+     "V": 0.45,
+     "tone": "azure",
+     "n": 3
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      125,
+      136,
+      156
+     ],
+     "hex": "#7d889c",
+     "H": 219,
+     "S": 0.2,
+     "V": 0.61,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      92,
+      109,
+      140
+     ],
+     "hex": "#5c6d8c",
+     "H": 219,
+     "S": 0.34,
+     "V": 0.55,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      87,
+      103,
+      130
+     ],
+     "hex": "#576782",
+     "H": 218,
+     "S": 0.33,
+     "V": 0.51,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      64,
+      77,
+      100
+     ],
+     "hex": "#404d64",
+     "H": 218,
+     "S": 0.36,
+     "V": 0.39,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      114,
+      136,
+      173
+     ],
+     "hex": "#7288ad",
+     "H": 218,
+     "S": 0.34,
+     "V": 0.68,
+     "tone": "azure",
+     "n": 3
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      69,
+      81,
+      108
+     ],
+     "hex": "#45516c",
+     "H": 222,
+     "S": 0.36,
+     "V": 0.42,
+     "tone": "azure",
+     "n": 3
+    },
+    "SunColor": {
+     "mean_rgb": [
+      25,
+      23,
+      21
+     ],
+     "hex": "#191715",
+     "H": 30,
+     "S": 0.16,
+     "V": 0.1,
+     "tone": "orange",
+     "n": 3
+    },
+    "Clouds": {
+     "mean_rgb": [
+      106,
+      126,
+      160
+     ],
+     "hex": "#6a7ea0",
+     "H": 218,
+     "S": 0.34,
+     "V": 0.63,
+     "tone": "azure",
+     "n": 2
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      20,
+      21,
+      29
+     ],
+     "hex": "#14151d",
+     "H": 233,
+     "S": 0.31,
+     "V": 0.11,
+     "tone": "blue",
+     "n": 3
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      20,
+      20,
+      30
+     ],
+     "hex": "#14141e",
+     "H": 240,
+     "S": 0.33,
+     "V": 0.12,
+     "tone": "blue",
+     "n": 3
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      23,
+      24,
+      34
+     ],
+     "hex": "#171822",
+     "H": 235,
+     "S": 0.32,
+     "V": 0.13,
+     "tone": "blue",
+     "n": 3
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      22,
+      23,
+      33
+     ],
+     "hex": "#161721",
+     "H": 235,
+     "S": 0.33,
+     "V": 0.13,
+     "tone": "blue",
+     "n": 3
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      16,
+      17,
+      23
+     ],
+     "hex": "#101117",
+     "H": 231,
+     "S": 0.3,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 3
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      66,
+      68,
+      80
+     ],
+     "hex": "#424450",
+     "H": 231,
+     "S": 0.17,
+     "V": 0.31,
+     "tone": "blue",
+     "n": 3
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      32,
+      36,
+      45
+     ],
+     "hex": "#20242d",
+     "H": 222,
+     "S": 0.29,
+     "V": 0.18,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      29,
+      32,
+      41
+     ],
+     "hex": "#1d2029",
+     "H": 225,
+     "S": 0.29,
+     "V": 0.16,
+     "tone": "blue",
+     "n": 3
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      26,
+      30,
+      39
+     ],
+     "hex": "#1a1e27",
+     "H": 222,
+     "S": 0.33,
+     "V": 0.15,
+     "tone": "azure",
+     "n": 3
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      37,
+      42,
+      53
+     ],
+     "hex": "#252a35",
+     "H": 221,
+     "S": 0.3,
+     "V": 0.21,
+     "tone": "azure",
+     "n": 3
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      29,
+      29,
+      39
+     ],
+     "hex": "#1d1d27",
+     "H": 240,
+     "S": 0.26,
+     "V": 0.15,
+     "tone": "blue",
+     "n": 3
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 3
+    },
+    "Clouds": {
+     "mean_rgb": [
+      18,
+      18,
+      31
+     ],
+     "hex": "#12121f",
+     "H": 240,
+     "S": 0.42,
+     "V": 0.12,
+     "tone": "blue",
+     "n": 2
+    }
+   }
+  },
+  "unclassified(precip stripped)": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      31,
+      36,
+      67
+     ],
+     "hex": "#1f2443",
+     "H": 232,
+     "S": 0.54,
+     "V": 0.26,
+     "tone": "blue",
+     "n": 7
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      105,
+      87,
+      115
+     ],
+     "hex": "#695773",
+     "H": 279,
+     "S": 0.24,
+     "V": 0.45,
+     "tone": "violet",
+     "n": 7
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      173,
+      117,
+      110
+     ],
+     "hex": "#ad756e",
+     "H": 7,
+     "S": 0.36,
+     "V": 0.68,
+     "tone": "red",
+     "n": 7
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      94,
+      78,
+      108
+     ],
+     "hex": "#5e4e6c",
+     "H": 272,
+     "S": 0.28,
+     "V": 0.42,
+     "tone": "violet",
+     "n": 7
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      164,
+      113,
+      108
+     ],
+     "hex": "#a4716c",
+     "H": 5,
+     "S": 0.34,
+     "V": 0.64,
+     "tone": "red",
+     "n": 7
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      156,
+      113,
+      110
+     ],
+     "hex": "#9c716e",
+     "H": 4,
+     "S": 0.29,
+     "V": 0.61,
+     "tone": "red",
+     "n": 7
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      162,
+      128,
+      134
+     ],
+     "hex": "#a28086",
+     "H": 349,
+     "S": 0.21,
+     "V": 0.64,
+     "tone": "red",
+     "n": 7
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      68,
+      58,
+      65
+     ],
+     "hex": "#443a41",
+     "H": 318,
+     "S": 0.15,
+     "V": 0.27,
+     "tone": "purple/magenta",
+     "n": 7
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      75,
+      66,
+      74
+     ],
+     "hex": "#4b424a",
+     "H": 307,
+     "S": 0.12,
+     "V": 0.29,
+     "tone": "purple/magenta",
+     "n": 7
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      138,
+      112,
+      120
+     ],
+     "hex": "#8a7078",
+     "H": 342,
+     "S": 0.19,
+     "V": 0.54,
+     "tone": "rose/pink",
+     "n": 7
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      207,
+      113,
+      75
+     ],
+     "hex": "#cf714b",
+     "H": 17,
+     "S": 0.64,
+     "V": 0.81,
+     "tone": "orange",
+     "n": 7
+    },
+    "SunColor": {
+     "mean_rgb": [
+      225,
+      103,
+      75
+     ],
+     "hex": "#e1674b",
+     "H": 11,
+     "S": 0.67,
+     "V": 0.88,
+     "tone": "red",
+     "n": 7
+    },
+    "Clouds": {
+     "mean_rgb": [
+      191,
+      131,
+      123
+     ],
+     "hex": "#bf837b",
+     "H": 7,
+     "S": 0.36,
+     "V": 0.75,
+     "tone": "red",
+     "n": 6
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      47,
+      58,
+      108
+     ],
+     "hex": "#2f3a6c",
+     "H": 229,
+     "S": 0.56,
+     "V": 0.42,
+     "tone": "blue",
+     "n": 7
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      69,
+      88,
+      148
+     ],
+     "hex": "#455894",
+     "H": 226,
+     "S": 0.53,
+     "V": 0.58,
+     "tone": "blue",
+     "n": 7
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      134,
+      154,
+      199
+     ],
+     "hex": "#869ac7",
+     "H": 222,
+     "S": 0.33,
+     "V": 0.78,
+     "tone": "azure",
+     "n": 7
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      120,
+      130,
+      180
+     ],
+     "hex": "#7882b4",
+     "H": 230,
+     "S": 0.33,
+     "V": 0.71,
+     "tone": "blue",
+     "n": 7
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      131,
+      150,
+      194
+     ],
+     "hex": "#8396c2",
+     "H": 222,
+     "S": 0.32,
+     "V": 0.76,
+     "tone": "azure",
+     "n": 7
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      146,
+      143,
+      167
+     ],
+     "hex": "#928fa7",
+     "H": 248,
+     "S": 0.14,
+     "V": 0.65,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      110,
+      114,
+      143
+     ],
+     "hex": "#6e728f",
+     "H": 233,
+     "S": 0.23,
+     "V": 0.56,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      110,
+      114,
+      143
+     ],
+     "hex": "#6e728f",
+     "H": 233,
+     "S": 0.23,
+     "V": 0.56,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      63,
+      66,
+      83
+     ],
+     "hex": "#3f4253",
+     "H": 231,
+     "S": 0.24,
+     "V": 0.33,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      150,
+      154,
+      192
+     ],
+     "hex": "#969ac0",
+     "H": 234,
+     "S": 0.22,
+     "V": 0.75,
+     "tone": "blue",
+     "n": 7
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      151,
+      151,
+      165
+     ],
+     "hex": "#9797a5",
+     "H": 240,
+     "S": 0.08,
+     "V": 0.65,
+     "tone": "blue",
+     "n": 7
+    },
+    "SunColor": {
+     "mean_rgb": [
+      225,
+      165,
+      141
+     ],
+     "hex": "#e1a58d",
+     "H": 17,
+     "S": 0.37,
+     "V": 0.88,
+     "tone": "orange",
+     "n": 7
+    },
+    "Clouds": {
+     "mean_rgb": [
+      165,
+      188,
+      238
+     ],
+     "hex": "#a5bcee",
+     "H": 221,
+     "S": 0.31,
+     "V": 0.93,
+     "tone": "azure",
+     "n": 6
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      3,
+      4,
+      11
+     ],
+     "hex": "#03040b",
+     "H": 232,
+     "S": 0.73,
+     "V": 0.04,
+     "tone": "blue",
+     "n": 7
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      8,
+      8,
+      18
+     ],
+     "hex": "#080812",
+     "H": 240,
+     "S": 0.56,
+     "V": 0.07,
+     "tone": "blue",
+     "n": 7
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      15,
+      14,
+      28
+     ],
+     "hex": "#0f0e1c",
+     "H": 244,
+     "S": 0.5,
+     "V": 0.11,
+     "tone": "blue",
+     "n": 7
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      14,
+      15,
+      26
+     ],
+     "hex": "#0e0f1a",
+     "H": 235,
+     "S": 0.46,
+     "V": 0.1,
+     "tone": "blue",
+     "n": 7
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      12,
+      13,
+      23
+     ],
+     "hex": "#0c0d17",
+     "H": 235,
+     "S": 0.48,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 7
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      90,
+      106,
+      119
+     ],
+     "hex": "#5a6a77",
+     "H": 207,
+     "S": 0.24,
+     "V": 0.47,
+     "tone": "azure",
+     "n": 7
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      49,
+      50,
+      55
+     ],
+     "hex": "#313237",
+     "H": 230,
+     "S": 0.11,
+     "V": 0.22,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      49,
+      50,
+      55
+     ],
+     "hex": "#313237",
+     "H": 230,
+     "S": 0.11,
+     "V": 0.22,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      44,
+      45,
+      49
+     ],
+     "hex": "#2c2d31",
+     "H": 228,
+     "S": 0.1,
+     "V": 0.19,
+     "tone": "blue",
+     "n": 7
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      54,
+      73,
+      78
+     ],
+     "hex": "#36494e",
+     "H": 193,
+     "S": 0.31,
+     "V": 0.31,
+     "tone": "cyan",
+     "n": 7
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      34,
+      42,
+      54
+     ],
+     "hex": "#222a36",
+     "H": 216,
+     "S": 0.37,
+     "V": 0.21,
+     "tone": "azure",
+     "n": 7
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 7
+    },
+    "Clouds": {
+     "mean_rgb": [
+      23,
+      29,
+      40
+     ],
+     "hex": "#171d28",
+     "H": 219,
+     "S": 0.42,
+     "V": 0.16,
+     "tone": "azure",
+     "n": 6
+    }
+   }
+  }
+ },
+ "solstheim_ash_family": {
+  "pleasant": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      12,
+      17,
+      53
+     ],
+     "hex": "#0c1135",
+     "H": 233,
+     "S": 0.77,
+     "V": 0.21,
+     "tone": "blue",
+     "n": 2
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      36,
+      42,
+      94
+     ],
+     "hex": "#242a5e",
+     "H": 234,
+     "S": 0.62,
+     "V": 0.37,
+     "tone": "blue",
+     "n": 2
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      204,
+      116,
+      68
+     ],
+     "hex": "#cc7444",
+     "H": 21,
+     "S": 0.67,
+     "V": 0.8,
+     "tone": "orange",
+     "n": 2
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      49,
+      48,
+      130
+     ],
+     "hex": "#313082",
+     "H": 241,
+     "S": 0.63,
+     "V": 0.51,
+     "tone": "blue",
+     "n": 2
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      204,
+      120,
+      82
+     ],
+     "hex": "#cc7852",
+     "H": 19,
+     "S": 0.6,
+     "V": 0.8,
+     "tone": "orange",
+     "n": 2
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      165,
+      132,
+      106
+     ],
+     "hex": "#a5846a",
+     "H": 26,
+     "S": 0.36,
+     "V": 0.65,
+     "tone": "orange",
+     "n": 2
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      157,
+      136,
+      136
+     ],
+     "hex": "#9d8888",
+     "H": 0,
+     "S": 0.13,
+     "V": 0.62,
+     "tone": "red",
+     "n": 2
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      60,
+      56,
+      68
+     ],
+     "hex": "#3c3844",
+     "H": 260,
+     "S": 0.18,
+     "V": 0.27,
+     "tone": "violet",
+     "n": 2
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      66,
+      62,
+      77
+     ],
+     "hex": "#423e4d",
+     "H": 256,
+     "S": 0.19,
+     "V": 0.3,
+     "tone": "violet",
+     "n": 2
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      130,
+      115,
+      122
+     ],
+     "hex": "#82737a",
+     "H": 332,
+     "S": 0.12,
+     "V": 0.51,
+     "tone": "rose/pink",
+     "n": 2
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      212,
+      147,
+      46
+     ],
+     "hex": "#d4932e",
+     "H": 37,
+     "S": 0.78,
+     "V": 0.83,
+     "tone": "orange",
+     "n": 2
+    },
+    "SunColor": {
+     "mean_rgb": [
+      255,
+      63,
+      0
+     ],
+     "hex": "#ff3f00",
+     "H": 15,
+     "S": 1.0,
+     "V": 1.0,
+     "tone": "red",
+     "n": 2
+    },
+    "Clouds": {
+     "mean_rgb": [
+      212,
+      110,
+      76
+     ],
+     "hex": "#d46e4c",
+     "H": 15,
+     "S": 0.64,
+     "V": 0.83,
+     "tone": "orange",
+     "n": 2
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      16,
+      42,
+      108
+     ],
+     "hex": "#102a6c",
+     "H": 223,
+     "S": 0.85,
+     "V": 0.42,
+     "tone": "azure",
+     "n": 2
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      38,
+      76,
+      169
+     ],
+     "hex": "#264ca9",
+     "H": 223,
+     "S": 0.78,
+     "V": 0.66,
+     "tone": "azure",
+     "n": 2
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      117,
+      153,
+      255
+     ],
+     "hex": "#7599ff",
+     "H": 224,
+     "S": 0.54,
+     "V": 1.0,
+     "tone": "azure",
+     "n": 2
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      77,
+      95,
+      169
+     ],
+     "hex": "#4d5fa9",
+     "H": 228,
+     "S": 0.54,
+     "V": 0.66,
+     "tone": "blue",
+     "n": 2
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      112,
+      149,
+      253
+     ],
+     "hex": "#7095fd",
+     "H": 224,
+     "S": 0.56,
+     "V": 0.99,
+     "tone": "azure",
+     "n": 2
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      166,
+      166,
+      210
+     ],
+     "hex": "#a6a6d2",
+     "H": 240,
+     "S": 0.21,
+     "V": 0.82,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      106,
+      120,
+      174
+     ],
+     "hex": "#6a78ae",
+     "H": 228,
+     "S": 0.39,
+     "V": 0.68,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      106,
+      120,
+      174
+     ],
+     "hex": "#6a78ae",
+     "H": 228,
+     "S": 0.39,
+     "V": 0.68,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      58,
+      68,
+      100
+     ],
+     "hex": "#3a4464",
+     "H": 226,
+     "S": 0.42,
+     "V": 0.39,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      146,
+      164,
+      233
+     ],
+     "hex": "#92a4e9",
+     "H": 228,
+     "S": 0.37,
+     "V": 0.91,
+     "tone": "blue",
+     "n": 2
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      238,
+      201,
+      190
+     ],
+     "hex": "#eec9be",
+     "H": 14,
+     "S": 0.2,
+     "V": 0.93,
+     "tone": "red",
+     "n": 2
+    },
+    "SunColor": {
+     "mean_rgb": [
+      255,
+      180,
+      124
+     ],
+     "hex": "#ffb47c",
+     "H": 26,
+     "S": 0.51,
+     "V": 1.0,
+     "tone": "orange",
+     "n": 2
+    },
+    "Clouds": {
+     "mean_rgb": [
+      228,
+      232,
+      237
+     ],
+     "hex": "#e4e8ed",
+     "H": 213,
+     "S": 0.04,
+     "V": 0.93,
+     "tone": "grey",
+     "n": 2
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 2
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      4,
+      4,
+      16
+     ],
+     "hex": "#040410",
+     "H": 240,
+     "S": 0.75,
+     "V": 0.06,
+     "tone": "blue",
+     "n": 2
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      8,
+      8,
+      24
+     ],
+     "hex": "#080818",
+     "H": 240,
+     "S": 0.67,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 2
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      6,
+      6,
+      23
+     ],
+     "hex": "#060617",
+     "H": 240,
+     "S": 0.74,
+     "V": 0.09,
+     "tone": "blue",
+     "n": 2
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      7,
+      7,
+      21
+     ],
+     "hex": "#070715",
+     "H": 240,
+     "S": 0.67,
+     "V": 0.08,
+     "tone": "blue",
+     "n": 2
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      90,
+      80,
+      132
+     ],
+     "hex": "#5a5084",
+     "H": 252,
+     "S": 0.39,
+     "V": 0.52,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      55,
+      56,
+      61
+     ],
+     "hex": "#37383d",
+     "H": 230,
+     "S": 0.1,
+     "V": 0.24,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      55,
+      56,
+      61
+     ],
+     "hex": "#37383d",
+     "H": 230,
+     "S": 0.1,
+     "V": 0.24,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      49,
+      49,
+      54
+     ],
+     "hex": "#313136",
+     "H": 240,
+     "S": 0.09,
+     "V": 0.21,
+     "tone": "blue",
+     "n": 2
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      42,
+      22,
+      87
+     ],
+     "hex": "#2a1657",
+     "H": 258,
+     "S": 0.75,
+     "V": 0.34,
+     "tone": "violet",
+     "n": 2
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      38,
+      51,
+      55
+     ],
+     "hex": "#263337",
+     "H": 194,
+     "S": 0.31,
+     "V": 0.22,
+     "tone": "cyan",
+     "n": 2
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 2
+    },
+    "Clouds": {
+     "mean_rgb": [
+      43,
+      48,
+      53
+     ],
+     "hex": "#2b3035",
+     "H": 210,
+     "S": 0.19,
+     "V": 0.21,
+     "tone": "azure",
+     "n": 2
+    }
+   }
+  },
+  "cloudy": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      128,
+      79,
+      57
+     ],
+     "hex": "#804f39",
+     "H": 19,
+     "S": 0.55,
+     "V": 0.5,
+     "tone": "orange",
+     "n": 10
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      139,
+      80,
+      54
+     ],
+     "hex": "#8b5036",
+     "H": 18,
+     "S": 0.61,
+     "V": 0.55,
+     "tone": "orange",
+     "n": 10
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      172,
+      96,
+      60
+     ],
+     "hex": "#ac603c",
+     "H": 19,
+     "S": 0.65,
+     "V": 0.67,
+     "tone": "orange",
+     "n": 10
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      33,
+      28,
+      25
+     ],
+     "hex": "#211c19",
+     "H": 22,
+     "S": 0.24,
+     "V": 0.13,
+     "tone": "orange",
+     "n": 10
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      53,
+      41,
+      34
+     ],
+     "hex": "#352922",
+     "H": 22,
+     "S": 0.36,
+     "V": 0.21,
+     "tone": "orange",
+     "n": 10
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      125,
+      84,
+      68
+     ],
+     "hex": "#7d5444",
+     "H": 17,
+     "S": 0.46,
+     "V": 0.49,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      118,
+      88,
+      76
+     ],
+     "hex": "#76584c",
+     "H": 17,
+     "S": 0.36,
+     "V": 0.46,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      78,
+      61,
+      54
+     ],
+     "hex": "#4e3d36",
+     "H": 18,
+     "S": 0.31,
+     "V": 0.31,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      80,
+      63,
+      56
+     ],
+     "hex": "#503f38",
+     "H": 18,
+     "S": 0.3,
+     "V": 0.31,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      123,
+      89,
+      76
+     ],
+     "hex": "#7b594c",
+     "H": 17,
+     "S": 0.38,
+     "V": 0.48,
+     "tone": "orange",
+     "n": 10
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      154,
+      87,
+      55
+     ],
+     "hex": "#9a5737",
+     "H": 19,
+     "S": 0.64,
+     "V": 0.6,
+     "tone": "orange",
+     "n": 10
+    },
+    "SunColor": {
+     "mean_rgb": [
+      176,
+      51,
+      13
+     ],
+     "hex": "#b0330d",
+     "H": 14,
+     "S": 0.93,
+     "V": 0.69,
+     "tone": "red",
+     "n": 10
+    },
+    "Clouds": {
+     "mean_rgb": [
+      104,
+      72,
+      62
+     ],
+     "hex": "#68483e",
+     "H": 14,
+     "S": 0.4,
+     "V": 0.41,
+     "tone": "red",
+     "n": 10
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      108,
+      78,
+      64
+     ],
+     "hex": "#6c4e40",
+     "H": 19,
+     "S": 0.41,
+     "V": 0.42,
+     "tone": "orange",
+     "n": 10
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      127,
+      91,
+      70
+     ],
+     "hex": "#7f5b46",
+     "H": 22,
+     "S": 0.45,
+     "V": 0.5,
+     "tone": "orange",
+     "n": 10
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      84,
+      66,
+      53
+     ],
+     "hex": "#544235",
+     "H": 25,
+     "S": 0.37,
+     "V": 0.33,
+     "tone": "orange",
+     "n": 10
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      38,
+      34,
+      33
+     ],
+     "hex": "#262221",
+     "H": 12,
+     "S": 0.13,
+     "V": 0.15,
+     "tone": "red",
+     "n": 10
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      62,
+      51,
+      43
+     ],
+     "hex": "#3e332b",
+     "H": 25,
+     "S": 0.31,
+     "V": 0.24,
+     "tone": "orange",
+     "n": 10
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      122,
+      97,
+      88
+     ],
+     "hex": "#7a6158",
+     "H": 16,
+     "S": 0.28,
+     "V": 0.48,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      106,
+      90,
+      83
+     ],
+     "hex": "#6a5a53",
+     "H": 18,
+     "S": 0.22,
+     "V": 0.42,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      105,
+      89,
+      81
+     ],
+     "hex": "#695951",
+     "H": 20,
+     "S": 0.23,
+     "V": 0.41,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      80,
+      68,
+      63
+     ],
+     "hex": "#50443f",
+     "H": 18,
+     "S": 0.21,
+     "V": 0.31,
+     "tone": "orange",
+     "n": 10
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      138,
+      114,
+      103
+     ],
+     "hex": "#8a7267",
+     "H": 19,
+     "S": 0.25,
+     "V": 0.54,
+     "tone": "orange",
+     "n": 10
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      161,
+      120,
+      101
+     ],
+     "hex": "#a17865",
+     "H": 19,
+     "S": 0.37,
+     "V": 0.63,
+     "tone": "orange",
+     "n": 10
+    },
+    "SunColor": {
+     "mean_rgb": [
+      214,
+      156,
+      131
+     ],
+     "hex": "#d69c83",
+     "H": 18,
+     "S": 0.39,
+     "V": 0.84,
+     "tone": "orange",
+     "n": 10
+    },
+    "Clouds": {
+     "mean_rgb": [
+      103,
+      86,
+      80
+     ],
+     "hex": "#675650",
+     "H": 16,
+     "S": 0.22,
+     "V": 0.4,
+     "tone": "orange",
+     "n": 10
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      18,
+      17,
+      18
+     ],
+     "hex": "#121112",
+     "H": 300,
+     "S": 0.06,
+     "V": 0.07,
+     "tone": "grey",
+     "n": 10
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      22,
+      16,
+      21
+     ],
+     "hex": "#161015",
+     "H": 310,
+     "S": 0.27,
+     "V": 0.09,
+     "tone": "purple/magenta",
+     "n": 10
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      28,
+      20,
+      26
+     ],
+     "hex": "#1c141a",
+     "H": 315,
+     "S": 0.29,
+     "V": 0.11,
+     "tone": "purple/magenta",
+     "n": 10
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      12,
+      8,
+      13
+     ],
+     "hex": "#0c080d",
+     "H": 288,
+     "S": 0.38,
+     "V": 0.05,
+     "tone": "purple/magenta",
+     "n": 10
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      16,
+      14,
+      19
+     ],
+     "hex": "#100e13",
+     "H": 264,
+     "S": 0.26,
+     "V": 0.07,
+     "tone": "violet",
+     "n": 10
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      60,
+      58,
+      59
+     ],
+     "hex": "#3c3a3b",
+     "H": 330,
+     "S": 0.03,
+     "V": 0.24,
+     "tone": "grey",
+     "n": 10
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      58,
+      40,
+      43
+     ],
+     "hex": "#3a282b",
+     "H": 350,
+     "S": 0.31,
+     "V": 0.23,
+     "tone": "red",
+     "n": 10
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      50,
+      36,
+      39
+     ],
+     "hex": "#322427",
+     "H": 347,
+     "S": 0.28,
+     "V": 0.2,
+     "tone": "red",
+     "n": 10
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      55,
+      38,
+      41
+     ],
+     "hex": "#372629",
+     "H": 349,
+     "S": 0.31,
+     "V": 0.22,
+     "tone": "red",
+     "n": 10
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      69,
+      53,
+      56
+     ],
+     "hex": "#453538",
+     "H": 349,
+     "S": 0.23,
+     "V": 0.27,
+     "tone": "red",
+     "n": 10
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      51,
+      45,
+      52
+     ],
+     "hex": "#332d34",
+     "H": 291,
+     "S": 0.13,
+     "V": 0.2,
+     "tone": "purple/magenta",
+     "n": 10
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 10
+    },
+    "Clouds": {
+     "mean_rgb": [
+      30,
+      30,
+      36
+     ],
+     "hex": "#1e1e24",
+     "H": 240,
+     "S": 0.17,
+     "V": 0.14,
+     "tone": "blue",
+     "n": 10
+    }
+   }
+  },
+  "snow": {
+   "Sunrise": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      91,
+      86,
+      92
+     ],
+     "hex": "#5b565c",
+     "H": 290,
+     "S": 0.07,
+     "V": 0.36,
+     "tone": "grey",
+     "n": 2
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      96,
+      92,
+      98
+     ],
+     "hex": "#605c62",
+     "H": 280,
+     "S": 0.06,
+     "V": 0.38,
+     "tone": "grey",
+     "n": 2
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      98,
+      95,
+      106
+     ],
+     "hex": "#625f6a",
+     "H": 256,
+     "S": 0.1,
+     "V": 0.42,
+     "tone": "violet",
+     "n": 2
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      80,
+      76,
+      82
+     ],
+     "hex": "#504c52",
+     "H": 280,
+     "S": 0.07,
+     "V": 0.32,
+     "tone": "grey",
+     "n": 2
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      88,
+      86,
+      95
+     ],
+     "hex": "#58565f",
+     "H": 253,
+     "S": 0.09,
+     "V": 0.37,
+     "tone": "blue",
+     "n": 2
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      64,
+      55,
+      64
+     ],
+     "hex": "#403740",
+     "H": 300,
+     "S": 0.14,
+     "V": 0.25,
+     "tone": "purple/magenta",
+     "n": 2
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      53,
+      62,
+      85
+     ],
+     "hex": "#353e55",
+     "H": 223,
+     "S": 0.38,
+     "V": 0.33,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      40,
+      48,
+      66
+     ],
+     "hex": "#283042",
+     "H": 222,
+     "S": 0.39,
+     "V": 0.26,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      53,
+      62,
+      85
+     ],
+     "hex": "#353e55",
+     "H": 223,
+     "S": 0.38,
+     "V": 0.33,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      79,
+      94,
+      133
+     ],
+     "hex": "#4f5e85",
+     "H": 223,
+     "S": 0.41,
+     "V": 0.52,
+     "tone": "azure",
+     "n": 2
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      97,
+      90,
+      88
+     ],
+     "hex": "#615a58",
+     "H": 13,
+     "S": 0.09,
+     "V": 0.38,
+     "tone": "red",
+     "n": 2
+    },
+    "SunColor": {
+     "mean_rgb": [
+      68,
+      28,
+      18
+     ],
+     "hex": "#441c12",
+     "H": 12,
+     "S": 0.74,
+     "V": 0.27,
+     "tone": "red",
+     "n": 2
+    },
+    "Clouds": {
+     "mean_rgb": [
+      129,
+      150,
+      182
+     ],
+     "hex": "#8196b6",
+     "H": 216,
+     "S": 0.29,
+     "V": 0.71,
+     "tone": "azure",
+     "n": 1
+    }
+   },
+   "Day": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      91,
+      86,
+      92
+     ],
+     "hex": "#5b565c",
+     "H": 290,
+     "S": 0.07,
+     "V": 0.36,
+     "tone": "grey",
+     "n": 2
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      96,
+      92,
+      98
+     ],
+     "hex": "#605c62",
+     "H": 280,
+     "S": 0.06,
+     "V": 0.38,
+     "tone": "grey",
+     "n": 2
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      98,
+      95,
+      106
+     ],
+     "hex": "#625f6a",
+     "H": 256,
+     "S": 0.1,
+     "V": 0.42,
+     "tone": "violet",
+     "n": 2
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      80,
+      76,
+      82
+     ],
+     "hex": "#504c52",
+     "H": 280,
+     "S": 0.07,
+     "V": 0.32,
+     "tone": "grey",
+     "n": 2
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      88,
+      86,
+      95
+     ],
+     "hex": "#58565f",
+     "H": 253,
+     "S": 0.09,
+     "V": 0.37,
+     "tone": "blue",
+     "n": 2
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      58,
+      50,
+      58
+     ],
+     "hex": "#3a323a",
+     "H": 300,
+     "S": 0.14,
+     "V": 0.23,
+     "tone": "purple/magenta",
+     "n": 2
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      68,
+      84,
+      114
+     ],
+     "hex": "#445472",
+     "H": 219,
+     "S": 0.4,
+     "V": 0.45,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      54,
+      66,
+      90
+     ],
+     "hex": "#36425a",
+     "H": 220,
+     "S": 0.4,
+     "V": 0.35,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      68,
+      84,
+      114
+     ],
+     "hex": "#445472",
+     "H": 219,
+     "S": 0.4,
+     "V": 0.45,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      102,
+      124,
+      163
+     ],
+     "hex": "#667ca3",
+     "H": 218,
+     "S": 0.37,
+     "V": 0.64,
+     "tone": "azure",
+     "n": 2
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      97,
+      90,
+      88
+     ],
+     "hex": "#615a58",
+     "H": 13,
+     "S": 0.09,
+     "V": 0.38,
+     "tone": "red",
+     "n": 2
+    },
+    "SunColor": {
+     "mean_rgb": [
+      114,
+      114,
+      114
+     ],
+     "hex": "#727272",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.45,
+     "tone": "grey",
+     "n": 2
+    },
+    "Clouds": {
+     "mean_rgb": [
+      129,
+      150,
+      182
+     ],
+     "hex": "#8196b6",
+     "H": 216,
+     "S": 0.29,
+     "V": 0.71,
+     "tone": "azure",
+     "n": 1
+    }
+   },
+   "Night": {
+    "SkyUpperColor": {
+     "mean_rgb": [
+      30,
+      23,
+      28
+     ],
+     "hex": "#1e171c",
+     "H": 317,
+     "S": 0.23,
+     "V": 0.12,
+     "tone": "purple/magenta",
+     "n": 2
+    },
+    "SkyLowerColor": {
+     "mean_rgb": [
+      29,
+      22,
+      28
+     ],
+     "hex": "#1d161c",
+     "H": 309,
+     "S": 0.24,
+     "V": 0.11,
+     "tone": "purple/magenta",
+     "n": 2
+    },
+    "HorizonColor": {
+     "mean_rgb": [
+      32,
+      25,
+      31
+     ],
+     "hex": "#20191f",
+     "H": 309,
+     "S": 0.22,
+     "V": 0.13,
+     "tone": "purple/magenta",
+     "n": 2
+    },
+    "FogNearColor": {
+     "mean_rgb": [
+      30,
+      24,
+      28
+     ],
+     "hex": "#1e181c",
+     "H": 320,
+     "S": 0.2,
+     "V": 0.12,
+     "tone": "rose/pink",
+     "n": 2
+    },
+    "FogFarColor": {
+     "mean_rgb": [
+      26,
+      20,
+      23
+     ],
+     "hex": "#1a1417",
+     "H": 330,
+     "S": 0.23,
+     "V": 0.1,
+     "tone": "rose/pink",
+     "n": 2
+    },
+    "AmbientColor": {
+     "mean_rgb": [
+      24,
+      20,
+      24
+     ],
+     "hex": "#181418",
+     "H": 300,
+     "S": 0.17,
+     "V": 0.09,
+     "tone": "purple/magenta",
+     "n": 2
+    },
+    "DALC_DirectionalXPlus": {
+     "mean_rgb": [
+      28,
+      39,
+      57
+     ],
+     "hex": "#1c2739",
+     "H": 217,
+     "S": 0.51,
+     "V": 0.22,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalXMinus": {
+     "mean_rgb": [
+      22,
+      32,
+      47
+     ],
+     "hex": "#16202f",
+     "H": 216,
+     "S": 0.53,
+     "V": 0.18,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalZPlus": {
+     "mean_rgb": [
+      28,
+      39,
+      57
+     ],
+     "hex": "#1c2739",
+     "H": 217,
+     "S": 0.51,
+     "V": 0.22,
+     "tone": "azure",
+     "n": 2
+    },
+    "DALC_DirectionalZMinus": {
+     "mean_rgb": [
+      34,
+      46,
+      67
+     ],
+     "hex": "#222e43",
+     "H": 218,
+     "S": 0.49,
+     "V": 0.26,
+     "tone": "azure",
+     "n": 2
+    },
+    "SunlightColor": {
+     "mean_rgb": [
+      38,
+      34,
+      40
+     ],
+     "hex": "#262228",
+     "H": 280,
+     "S": 0.15,
+     "V": 0.16,
+     "tone": "violet",
+     "n": 2
+    },
+    "SunColor": {
+     "mean_rgb": [
+      0,
+      0,
+      0
+     ],
+     "hex": "#000000",
+     "H": 0,
+     "S": 0.0,
+     "V": 0.0,
+     "tone": "grey",
+     "n": 2
+    },
+    "Clouds": {
+     "mean_rgb": [
+      18,
+      18,
+      31
+     ],
+     "hex": "#12121f",
+     "H": 240,
+     "S": 0.42,
+     "V": 0.12,
+     "tone": "blue",
+     "n": 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,43 @@
+active mod BSAs located: 460 (skipped vanilla/CC; not found in enabled mods: 0)
+BSA nif paths: 45027, BSA xml paths: 1827 (7s)
+paths with both loose winner and BSA copy: 13675
+checked 13675 BSA copies against loose winners (28s)
+BSA-only paths carried by 2+ BSAs: 537
+checked 537 BSA-vs-BSA winners (29s)
+
+=== BSA SMP copies buried by a LOOSE static winner: 20
+
+[Authoria - Bodyslide Output - HIMBO] buries 10:
+   meshes\pulcharmsolis\indoril wayfarer\helmet_0.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\indoril wayfarer\helmet_1.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\indoril wayfarer\helmetwithscarfm_0.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\indoril wayfarer\helmetwithscarfm_1.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\narsis watchman\1stpersonarmorm_0.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\narsis watchman\1stpersonarmorm_1.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\hlaalu remnant\1stpersonarmorm_0.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\hlaalu remnant\1stpersonarmorm_1.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\ashlander seer\bootsm_0.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\ashlander seer\bootsm_1.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+
+[Authoria - Bodyslide Output - 3BA] buries 6:
+   meshes\pulcharmsolis\ashlander seer\bootsf_0.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\ashlander seer\bootsf_1.nif   <- SMP in Armors of the Velothi.bsa (Armors of the Velothi Pt. I)
+   meshes\pulcharmsolis\camonnatong\steelglovesf_0.nif   <- SMP in Armors of the Velothi Pt2.bsa (Armors of the Velothi Pt. II)
+   meshes\pulcharmsolis\camonnatong\steelglovesf_1.nif   <- SMP in Armors of the Velothi Pt2.bsa (Armors of the Velothi Pt. II)
+   meshes\pulcharmsolis\ashlanderwarrior\steelbodyf_0.nif   <- SMP in Armors of the Velothi Pt2.bsa (Armors of the Velothi Pt. II)
+   meshes\pulcharmsolis\ashlanderwarrior\steelbodyf_1.nif   <- SMP in Armors of the Velothi Pt2.bsa (Armors of the Velothi Pt. II)
+
+[Pig Iron Set - HIMBO Refit] buries 2:
+   meshes\pulcharmsolis\pigiron\m\fp_0.nif   <- SMP in PigIronSet.bsa (Pig Iron Set)
+   meshes\pulcharmsolis\pigiron\m\fp_1.nif   <- SMP in PigIronSet.bsa (Pig Iron Set)
+
+[Armors of the Velothi Pt. II - HIMBO] buries 2:
+   meshes\pulcharmsolis\ashlanderwarrior\fpm_0.nif   <- SMP in Armors of the Velothi Pt2.bsa (Armors of the Velothi Pt. II)
+   meshes\pulcharmsolis\ashlanderwarrior\fpm_1.nif   <- SMP in Armors of the Velothi Pt2.bsa (Armors of the Velothi Pt. II)
+
+=== BSA-vs-BSA: static later BSA over SMP earlier BSA: 0
+
+=== BSA SMP winners with no xml anywhere: 0
+
+SMP meshes found in BSAs (winner-side): 781
+done in 29s

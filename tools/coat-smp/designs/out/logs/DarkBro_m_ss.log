@@ -1,0 +1,9 @@
+== DarkBro m: dbtorso_1.nif  limits first joint {'out': 1.1, 'inn': 0.08, 'side': 0.3}, lower {'out': 0.7, 'inn': 0.08, 'side': 0.3}
+   at rest                sprint R 598/15/204   sprint L 351/ 6/109   walk R 228/ 2/ 79   walk L 186/ 3/ 73
+   curled in (limit)      sprint R 678/10/302   sprint L 439/ 0/199   walk R 464/ 0/112   walk L 369/ 0/114
+   swung back .3/.15      sprint R 273/12/414   sprint L 281/ 4/236   walk R 427/28/322   walk L 368/41/214
+   swung forward .3/.15   sprint R 278/ 0/197   sprint L 315/ 6/221   walk R 157/ 0/121   walk L 175/ 0/114
+   swung sideways .3/.15  sprint R 230/ 0/136   sprint L 268/13/396   walk R 129/ 0/ 36   walk L 357/ 5/116
+   total caught/hooked/sunk 6571/145/3715; lining pts Front 1307, Back 1270, Side 1087
+
+EXIT 0

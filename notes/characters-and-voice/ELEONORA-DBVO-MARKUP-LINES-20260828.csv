@@ -1,0 +1,396 @@
+﻿mod,plugins,kind,recorded,filename,candidate_formids,text
+Everdamned,Everdamned.esp,token,yes,(...a_meal_with_home_delivery..._how_quaint...)__charm_.fuz,0x9C73FE 0x9C73FF 0x9C7402 0x9C7403 0x9F4D48,(...A meal with home delivery... How quaint...) <Charm>
+Everdamned,Everdamned.esp,token,yes,(...everyone_gets_friendly_near_a_warm_hearth_...)__charm_.fuz,0xA236A 0x61979C 0x632CA2 0x632CA4 0x9F4D45,(...Everyone gets friendly near a warm hearth ...) <Charm>
+Everdamned,Everdamned.esp,token,yes,(...hand_the_extractor...)__bottle_blood_.fuz,0x85D82 0x85D83 0x85D84,(...Hand the extractor...) <Bottle Blood>
+Everdamned,Everdamned.esp,token,yes,(...i_know_i_can_rely_on_my_lovely_husband_to_share_his_warmth...)__charm_.fuz,0x9C7400 0x9C7401 0x9F4D47,(...I know I can rely on my lovely husband to share his warmth...) <Charm>
+Everdamned,Everdamned.esp,token,yes,(...i_know_i_can_rely_on_my_lovely_wife_to_share_her_warmth...)__charm_.fuz,0x9A8DE8 0x9C22FD 0x9F4D46,(...I know I can rely on my lovely wife to share her warmth...) <Charm>
+Everdamned,Everdamned.esp,token,yes,"(...if_anyone_is_watching,_we_are_just_talking...)__charm_.fuz",0x60A495 0x6197A0 0x632CA7 0x632CAC 0x9F4D4C,"(...If anyone is watching, we are just talking...) <Charm>"
+Everdamned,Everdamned.esp,token,yes,(...lull_deeper_into_a_trance...)__mesmerize_.fuz,0x6EE21C,(...Lull deeper into a trance...) <Mesmerize>
+Everdamned,Everdamned.esp,token,yes,"(...not_the_most_social_crowd_here,_for_better_or_worse...)__charm_.fuz",0x60A494 0x61979F 0x632CA6 0x632CAB 0x9F4D4B,"(...Not the most social crowd here, for better or worse...) <Charm>"
+Everdamned,Everdamned.esp,token,yes,(...swoop_in...)__feed_.fuz,0x131CBC,(...Swoop in...) <Feed>
+Everdamned,Everdamned.esp,token,yes,(...walls_of_this_house_will_keep_onlookers_away...)__charm_.fuz,0x60A492 0x60A493 0x61979D 0x61979E 0x632CA3 0x632CA5 0x632CA9 0x632CAA 0x9F4D49 0x9F4D4A,(...Walls of this house will keep onlookers away...) <Charm>
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,"[archmage]_that_was_unexpected,_to_say_the_least._what's_the_diagnosis_.fuz",0x3876EC,"[Archmage] That was unexpected, to say the least. What's the diagnosis?"
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[archmage]_this_is_about_your_promotion..fuz,0x2DB152,[Archmage] This is about your promotion.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,"[archmage]_yes,_i_am_aware_of_all_that..fuz",0x22DA2F,"[Archmage] Yes, I am aware of all that."
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[bend_over].fuz,0x1DF6,[Bend Over]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[blocking_branch].fuz,0x2C81F,[blocking branch]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[break_her_shackles]_hold_on_a_second!.fuz,0x2A3447,[Break her shackles] Hold on a second!
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[bribe]_let's_trade_the_information_you_obviously_possess._my_intentions_aren't_bad..fuz,0x43DFCA,[Bribe] Let's trade the information you obviously possess. My intentions aren't bad.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[bribe]_what's_your_contract_fee__i'll_double_it_if_you'll_leave..fuz,0x43DFC5,[Bribe] What's your contract fee? I'll double it if you'll leave.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,no,[bring_to_consciousness_and_release_her].fuz,0x2A854F,[Bring to consciousness and release her]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[climb_on].fuz,0xD9D,[Climb on]
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,bracket,no,"[cross_some_wires_at_random,_see_what_happens.].fuz",0x47167,"[Cross some wires at random, see what happens.]"
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[dismantle].fuz,0xF07C8,[Dismantle]
+Immersive World Encounters SE,Immersive Encounters.esp,bracket,yes,"[dragon_hunt]_here,_let_me_take_the_lead..fuz",0x3C8913,"[Dragon Hunt] Here, let me take the lead."
+Immersive World Encounters SE,Immersive Encounters.esp,bracket,yes,[dragon_hunt]_lead_me_to_the_dragon's_lair..fuz,0x3C8916,[Dragon Hunt] Lead me to the Dragon's Lair.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[draw_weapon]_enough_of_this._you_die_now..fuz,0x8F9B6,[Draw Weapon] Enough of this. You die now.
+Thogra gra-Mugur - Orc Follower and Quest,DK_Thogra.esp,bracket,yes,"[end_relationship]_i'm_sorry,_but_i_think_we_are_better_as_friends..fuz",0x367B6C,"[End relationship] I'm sorry, but I think we are better as friends."
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,bracket,no,[examine_the_honesty_of_ashe's_statements].fuz,0xD562CE,[Examine the honesty of Ashe's statements]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[explain_about_the_explorers_guild].fuz,0x34D543,[Explain about the Explorers Guild]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[explain_how_to_craft_the_candle].fuz,0x26967,[Explain how to craft the candle]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[fill_black_soul_gem]_even_your_worthless_life_can_be_useful..fuz,0x3782A2,[Fill Black Soul Gem] Even your worthless life can be useful.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[fill_black_soul_gem]_i_don't_want_your_apologies._you've_shown_me_there_is_only_one_way_to_get_use_from_you..fuz,0x38C888,[Fill Black Soul Gem] I don't want your apologies. You've shown me there is only one way to get use from you.
+Immersive World Encounters SE,Immersive Encounters.esp,bracket,yes,[finish_the_quest]_i_wish_you_farewell..fuz,0x65B038,[Finish the Quest] I wish you farewell.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,"[flirt]_i_may_not_have_gold,_but_there_are_other_benefits_for_joining_me..fuz",0x34426,"[Flirt] I may not have gold, but there are other benefits for joining me. (Sex)"
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[force-greet].fuz,0xBD2E1,[Force-greet]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[get_on_your_knees_and_take_his_equipment_out].fuz,0x1DF8,[Get on your knees and take his equipment out]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[give_1000_gold]_take_the_money._this_must_be_done_properly..fuz,0x4481F0,[Give 1000 gold] Take the money. This must be done properly.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[invisible_continue].fuz,0x25182 0x26C89 0x7B5A3 0x7B5A4 0x8F9AF 0xD16FC,[invisible continue]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[khajiit]_absolutely_not!_if_you_want_a_kitten_it_will_be_one_of_your_own..fuz,0x2DB0EC,[Khajiit] Absolutely not! If you want a kitten it will be one of your own.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,"[khajiit]_how_odd._you_look_like_a_strange_ohmes-raht,_smell_like_suthay,_mer_and_hmm..._are_you_well_.fuz",0x3782F1,"[Khajiit] How odd. You look like a strange Ohmes-raht, smell like Suthay, Mer and hmm... Are you well?"
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,"[khajiit]_i_am_the_head_of_this_pride,_and_you_will_do_as_i_say!.fuz",0x2DB0EE,"[Khajiit] I am the head of this pride, and you will do as I say!"
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[lie]__mercy_..fuz,0x24C1B3,"[Lie] ""Mercy""."
+Thogra gra-Mugur - Orc Follower and Quest,DK_Thogra.esp,bracket,yes,[lie]_my_spouse_and_i_have_an_open_marriage..fuz,0x18162F,[Lie] My spouse and I have an open marriage.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[lie_down_on_your_back].fuz,0xD98,[Lie down on your back]
+Swiftly Order Squad - Simply Order Summons,Quick Follower Commands.esp,bracket,no,[manage_with_swiftly_order_squad].fuz,0x862,[Manage with Swiftly Order Squad]
+Thogra gra-Mugur - Orc Follower and Quest,DK_Thogra.esp,bracket,yes,[no_romance_with_thogra]_i_just_like_the_enchantment..fuz,0x181628,[No romance with Thogra] I just like the enchantment.
+Thogra gra-Mugur - Orc Follower and Quest,DK_Thogra.esp,bracket,yes,[no_romance_with_thogra]_thanks..fuz,0x181635,[No romance with Thogra] Thanks.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,no,[pay_1000_gold].fuz,0x1CD531,[Pay 1000 gold]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,no,[pay_100_gold].fuz,0x3782AD,[Pay 100 gold]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[pay_100_gold]_deal_.fuz,0x45C609,[Pay 100 gold] Deal?
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[present_gift]_i_hope_you_find_my_gift_acceptable..fuz,0x3B5192,[Present gift] I hope you find my gift acceptable.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[present_the_amulet]_i_think_i've_fallen_in_love_with_you._i_want_you_to_be_my_soulmate._will_you_.fuz,0x44D2FA,[Present the amulet] I think I've fallen in love with you. I want you to be my soulmate. Will you?
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[press_against_bars]_it's_lonely_here....fuz,0x43FDE,[Press against bars] It's lonely here... (Sex)
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[pull_out_his_cock].fuz,0x348D,[Pull out his cock]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[pull_out_his_cock_and_start_sucking].fuz,0x3494 0x76B3,[Pull out his cock and start sucking]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[pull_out_your_cock].fuz,0x3484,[Pull out your cock]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[pull_out_your_cock]_let's_get_to_it..fuz,0x3492,[Pull out your cock] Let's get to it.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[remain_silent].fuz,0x95C2A,[Remain silent]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[remove_from_visitor_list].fuz,0xEB824,[remove from visitor list]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,no,[remove_the_collar].fuz,0x2A3442,[Remove the collar]
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,bracket,yes,[repair_the_dwemer_spider_centurion].fuz,0x47172,[Repair the Dwemer Spider Centurion] (Smithing)
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[rugged]_yeah..fuz,0x23128,[Rugged] Yeah.
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,bracket,yes,[sabotage_the_personality_matrix].fuz,0x4772B,[Sabotage the Personality Matrix] (Smithing)
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,no,"[she's_not_responding,_examine].fuz",0x2A854D,"[She's not responding, examine]"
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[show_note_and_shard].fuz,0x12158F,[Show note and shard]
+The Gray Cowl of Nocturnal - 10th anniversary,Gray Fox Cowl.esm,bracket,no,[show_the_arrow_to_syloria].fuz,0x132E0,[Show the arrow to Syloria]
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[start_undressing]_i_am_yours_to_use_as_you_see_fit..fuz,0x713C,[Start Undressing] I am yours to use as you see fit.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[start_undressing]_i_like_the_way_you_think..fuz,0x60AC,[Start undressing] I like the way you think.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[start_undressing]_now_show_me_how_much_you_want_me_to_open_that_mine_for_you..fuz,0xA22B,[Start undressing] Now show me how much you want me to open that mine for you.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,yes,[start_undressing]_please_show_me_my_place..fuz,0x7140,[Start Undressing] Please show me my place.
+Authoria - xEdit Output - NSFW,Authoria - Patch - Ostim Solutions Tweaks.esp,bracket,yes,[start_undressing]_surely_what's_in_the_safe_can't_be_that_important_.fuz,0x3BAC7,[Start undressing] Surely what's in the safe can't be that important? (Sex)
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[take_out_his_cock_and_start_sucking].fuz,0x76AA,[Take out his cock and start sucking]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[tell_about_explorers_guild].fuz,0x3AF199,[Tell about Explorers Guild]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[tell_about_the_explorers_guild].fuz,0x35CC35 0x3DCEC2,[Tell about the Explorers Guild]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[tell_about_the_explorers_society].fuz,0xF07B6,[Tell about the Explorers Society]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[tell_about_the_ghost_and_ruins].fuz,0x2702EC,[Tell about the ghost and ruins]
+Legacy of the Dragonborn V6,LegacyoftheDragonborn.esm,bracket,no,[tell_auryen_about_deepholme].fuz,0x9211DE,[Tell Auryen about Deepholme]
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[thane]_is_it_khajiit-hunting_season_already__i'll_need_to_see_your_permits..fuz,0x373196,[Thane] Is it Khajiit-hunting season already? I'll need to see your permits.
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,bracket,no,[tinker_with_the_circuitry_until_something_happens.].fuz,0x4716B,[Tinker with the circuitry until something happens.]
+Thogra gra-Mugur - Orc Follower and Quest,DK_Thogra.esp,bracket,yes,[truth]_my_spouse_and_i_have_an_open_marriage..fuz,0x18162E,[Truth] My spouse and I have an open marriage.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[vampire]_so_you_intend_to_trap_me_.fuz,0x3825C4,[Vampire] So you intend to trap me?
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,[werewolf]_ahem._you_do_realize_this__dog__just_saved_you_from_the_thalmor_.fuz,0x3782F4 0x378301,"[Werewolf] Ahem. You do realize this ""dog"" just saved you from the Thalmor?"
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,action,yes,"[werewolf]_well,_if_it's_a_dog_you_want_then_it's_a_dog_you'll_get!__growl_.fuz",0x3782DC,"[Werewolf] Well, if it's a dog you want then it's a dog you'll get! *growl*"
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,bracket,yes,"[werewolf]_when_i'm_free,_i'll_tear_you_limb_from_limb!.fuz",0x3825BC,"[Werewolf] When I'm free, I'll tear you limb from limb!"
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,bracket,no,[you_feel_a_dizzying_and_arousing_urge_that_compels_you_to_undress].fuz,0x3453,[You feel a dizzying and arousing urge that compels you to undress]
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,__alias=player__and_the_amazing_argonians__has_a_nice_ring_to_it..fuz,0x24D48C,"""<Alias=Player> and the Amazing Argonians"" has a nice ring to it."
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,_alias.cap=sonsminorholdcapital__seems_like_a_fair_trade..fuz,0x4B990,<Alias.Cap=SonsMinorHoldCapital> seems like a fair trade.
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,_alias.shortname=child10_....fuz,0xE85 0xE87,<Alias.ShortName=Child10>...
+Cleaned Base Game Masters,HearthFires.esm,token,yes,_alias.shortname=child1_....fuz,0x3E10 0x3E12 0x13EEA 0x13EEC 0x13EEE,<Alias.ShortName=Child1>...
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,_alias.shortname=child1_....fuz,0x3E10 0x3E12 0x13EEA 0x13EEC 0x13EEE,<Alias.ShortName=Child1>...
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,_alias.shortname=child2_....fuz,0x4E1A 0x4E1E 0x4E2E 0x4E32 0x4E36,<Alias.ShortName=Child2>...
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,_alias.shortname=child3_....fuz,0x3E11 0x3E13 0x13EEB 0x13EED 0x13EEF,<Alias.ShortName=Child3>...
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,_alias.shortname=child4_....fuz,0x4E1D 0x4E21 0x4E31 0x4E35 0x4E39,<Alias.ShortName=Child4>...
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,_alias.shortname=child5_....fuz,0x4E1C 0x4E20 0x4E30 0x4E34 0x4E38,<Alias.ShortName=Child5>...
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,_alias.shortname=child6_....fuz,0x4E1B 0x4E1F 0x4E2F 0x4E33 0x4E37,<Alias.ShortName=Child6>...
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,_alias.shortname=child7_....fuz,0xDF2 0xDF3,<Alias.ShortName=Child7>...
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,_alias.shortname=child8_....fuz,0xDF4 0xDF5,<Alias.ShortName=Child8>...
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,_alias.shortname=child9_....fuz,0xE84 0xE86,<Alias.ShortName=Child9>...
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,_alias.shortname=eventchild1__is_upset_to_be_ignored_by_you..fuz,0xA9B,<Alias.ShortName=EventChild1> is upset to be ignored by you.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,_alias.shortname=eventchild1__says_you've_been_asking_some_private_questions..fuz,0xA9A,<Alias.ShortName=EventChild1> says you've been asking some private questions.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,_alias.shortname=target__will_be_paying_you_all_more..fuz,0x8C4,<Alias.ShortName=Target> will be paying you all more.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,_alias.shortname=target__won't_be_bothering_you_anymore..fuz,0x8B5,<Alias.ShortName=Target> won't be bothering you anymore.
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,_alias=authorityfigure__has_granted_me_permission_to_aid_in_the_investigation..fuz,0x21668,<Alias=AuthorityFigure> has granted me permission to aid in the investigation.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,_alias=client__is_sick._can_you_brew_a_potion_for_her_.fuz,0x70414C,<Alias=Client> is sick. Can you brew a potion for her?
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,_alias=client__is_sick._can_you_brew_a_potion_for_him_.fuz,0x70414A,<Alias=Client> is sick. Can you brew a potion for him?
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,yes,"_alias=dungeon__has_been_cleared,_i'm_here_for_the_bounty..fuz",0x19D 0x801 0x818 0x836 0x89A,"<Alias=Dungeon> has been cleared, I'm here for the bounty."
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,"_alias=dungeon__has_been_cleared,_i'm_here_for_the_bounty..fuz",0x19D 0x801 0x818 0x836 0x89A,"<Alias=Dungeon> has been cleared, I'm here for the bounty."
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,_alias=dungeon__is_free_of_bandits..fuz,0xB2B 0xB35 0xB3F 0xB48,<Alias=Dungeon> is free of bandits.
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,token,yes,_alias=guardcaptain__mentioned_you're_wanted_for_thievery_.fuz,0x65020,<Alias=GuardCaptain> mentioned you're wanted for thievery?
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,_alias=imperialminorholdcapital__seems_like_a_fair_trade..fuz,0x86C8E,<Alias=ImperialMinorHoldCapital> seems like a fair trade.
+Cleaned Base Game Masters,HearthFires.esm,token,yes,_alias=player_..fuz,0x3D89,<Alias=Player>.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - DaCoda.esp,token,yes,_alias=player_._first_meeting..fuz,0x4B94,<Alias=Player>. First meeting.
+VIGILANT - English Translation SE (Voiced),Vigilant.esm,token,yes,"_alias=player_._remember_this_name,_for_it's_the_one_who_will_defeat_you_in_the_end..fuz",0x87601,"<Alias=Player>. Remember this name, for it's the one who will defeat you in the end."
+VIGILANT - English Translation SE (Voiced),Vigilant.esm,token,yes,_alias=player_._that's_the_name_she_gave_me..fuz,0x82202,<Alias=Player>. That's the name she gave me.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - DaCoda.esp,token,yes,_alias=player_._your_lover..fuz,0x4B97,<Alias=Player>. Your lover.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - Unslaad SE.esp,token,yes,_alias=player__also_called_dovahkiin..fuz,0x17ADB3,<Alias=Player> also called Dovahkiin.
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,_alias=riverwoodfriend__sent_me._riverwood_is_in_danger..fuz,0xD398C,<Alias=RiverwoodFriend> sent me. Riverwood is in danger.
+The Cursed Tribe - Quest Expansion (TCTQE),The Cursed Tribe - Quest Expansion.esp,token,no,_deleted_.fuz,0x800,<DELETED>
+Everdamned,Everdamned.esp,token,yes,_dominate__flee..fuz,0x460FA6,<Dominate> Flee.
+Everdamned,Everdamned.esp,token,yes,_dominate__follow_me..fuz,0x460FA9,<Dominate> Follow me.
+Everdamned,Everdamned.esp,token,yes,_dominate__look_into_my_eyes....fuz,0x7C7DD4,<Dominate> Look into my eyes...
+Everdamned,Everdamned.esp,token,yes,_dominate__stay..fuz,0x460FAC,<Dominate> Stay.
+Buyable Golden Claw,BuyableGoldenClaw.esp,token,no,"_global=goldenclawprice__gold__no,_that's_too_much_for_me..fuz",0x1833,"<Global=GoldenClawPrice> gold? No, that's too much for me."
+Thieves Guild Requirements SE,thieves guild requirements.esp,token,yes,_global=tgcrowngemscosttobuy__gold!__but_i_sold_it_to_you_for__global=tgcrowngemscosttosell__gold..fuz,0x2DD4,<Global=TGCrownGemsCostToBuy> gold!  But I sold it to you for <Global=TGCrownGemsCostToSell> gold.
+Thieves Guild Requirements SE,thieves guild requirements.esp,token,yes,_global=tgcrowngemscosttobuytg__gold!__but_i_sold_it_to_you_for__global=tgcrowngemscosttosell__gold..fuz,0x2DD7, <Global=TGCrownGemsCostToBuyTG> gold!  But I sold it to you for <Global=TGCrownGemsCostToSell> gold.
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,action,yes,_keep_silent_.fuz,0xC14E37,*Keep silent*
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,action,yes,_kiss_astrid_.fuz,0x5043F3,*kiss Astrid*
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,action,yes,_kiss_her_..fuz,0xA5E1F3,*Kiss Her*.
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,action,yes,"_low_voice__don't_worry,_just_follow_my_lead.__louder__the_ring_and_m'rissi_are_staying_with_me!.fuz",0x2C1AD4,"*low voice* Don't worry, just follow my lead. *louder* The ring and M'rissi are staying with me!"
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,action,yes,"_low_whisper__pretend_to_take_her,_but_speak_of_elsweyr_negatively._skyrim_is_better,_hm__no_offence._please,_do_it_for_the_kitten..fuz",0x2C1AD0,"*low whisper* Pretend to take her, but speak of Elsweyr negatively. Skyrim is better, hm? No offence. Please, do it for the kitten."
+M'rissi's Tails of Troubles SE,MrissiTailOfTroubles.esp,action,yes,_low_whisper__you_can't_just_tell_her_that._you'll_crush_her_heart..fuz,0x2C1ACE,*low whisper* You can't just tell her that. You'll crush her heart.
+Everdamned,Everdamned.esp,token,yes,_mesmerize__follow_me..fuz,0x70772D,<MESMERIZE> Follow me.
+Everdamned,Everdamned.esp,token,yes,"_mesmerize__stay_here,_dear..fuz",0x70772E,"<MESMERIZE> Stay here, dear."
+The Tools of Kagrenac,Tools of Kagrenac.esp,token,yes,_show_keening_.fuz,0x22435B,<Show Keening>
+The Tools of Kagrenac,Tools of Kagrenac.esp,token,yes,_show_the_tools_.fuz,0x3219D9,<Show the tools>
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,action,yes,_sip_your_drink_..fuz,0xA53FC6,*Sip your drink*.
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,action,yes,"_sip_your_drink__so,_has_anything_been_on_your_mind_lately_.fuz",0xA53FC3,"*Sip your drink* So, has anything been on your mind lately?"
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,action,yes,_smile_.fuz,0xA2BCE,*Smile*
+Val Serano - Pirate Follower and Quest Adventure,AX ValSerano.esp,action,yes,_stares_in_argonian_.fuz,0x21B801 0x21B80C,*stares in Argonian*
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - DaCoda.esp,action,yes,_whine_.fuz,0x5292,*Whine* (Sad puppy noises)
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,action,yes,_yawn_.fuz,0x5BA0D,*yawn*
+<Stock Game>,Skyrim.esm,token,yes,a_dragon_destroyed_helgen.__alias=riverwoodfriend__is_afraid_riverwood_is_next..fuz,0xD50A2,A dragon destroyed Helgen. <Alias=RiverwoodFriend> is afraid Riverwood is next.
+Flint the Minotaur,Flint9.esp,bracket,yes,"actually,_i'd_rather_save_it_for_a_different_time._[postpone_romance].fuz",0xDDEAC0,"Actually, I'd rather save it for a different time. [Postpone Romance]"
+Flint the Minotaur,Flint9.esp,bracket,yes,"actually,_i_think_i'm_going_to_save_it_for_later._[postpone_romance].fuz",0xB244A0,"Actually, I think I'm going to save it for later. [Postpone Romance]"
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,"actually,_my_name_is__alias=player_..fuz",0xD54BC,"Actually, my name is <Alias=Player>."
+Skyrim Extended Cut - Saints and Seducers,Skyrim Extended Cut - Saints and Seducers.esp,token,yes,"alright._i'm__alias=player_._who_are_you,_and_why_are_you_here_.fuz",0xBD58E,"Alright. I'm <Alias=Player>. Who are you, and why are you here?"
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,bracket,no,amq06a_(shattered_orphans)_-_reset_quest.____[completely_resets_quest].fuz,0x1C222B,AMQ06a (Shattered Orphans) - Reset Quest. // [Completely Resets Quest]
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,bracket,no,amq06b_(binding_blade)_-_reset_quest.____[completely_resets_quest].fuz,0x1C222C,AMQ06b (Binding Blade) - Reset Quest. // [Completely Resets Quest]
+Flint the Minotaur,Flint9.esp,token,yes,"and_i,__alias=player_,_pledge_my_loyalty_to_you_for_eternity._may_we_share_in_love,_until_we_walk_the_planes_of_aetherius_and_beyond..fuz",0x87D7ED,"And I, <Alias=Player>, pledge my loyalty to you for eternity. May we share in love, until we walk the planes of Aetherius and beyond."
+Quest - Baba Yaga and the Labyrinth,ksws03_quest.esp,token,yes,are_you__alias=waifu__.fuz,0xAB8,Are you <alias=waifu>?
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,but_it's_making__alias.shortname=eventchild1__uncomfortable._respect_boundaries..fuz,0xAAB 0xAAC 0xAAD 0xAAE,But it's making <Alias.ShortName=EventChild1> uncomfortable. Respect boundaries.
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,calm_down!_my_name_is__alias=player_._i'm_looking_for_a_woman_-_an_outlander_-_with_a_fancy_pattern_on_her_face_and_it_seems_like_i've_found_her._what_is_your_name_.fuz,0x98930,Calm down! My name is <Alias=Player>. I'm looking for a woman - an outlander - with a fancy pattern on her face and it seems like I've found her. What is your name?
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,"come_now,_let's_take_you_back_to__alias.shortname=questgiver_..fuz",0x1BC,"Come now, let's take you back to <Alias.ShortName=QuestGiver>."
+Everdamned,Everdamned.esp,token,yes,"come_to_me,_my_plaything...__blood_doll_.fuz",0x1771D8,"Come to me, my plaything... <Blood Doll>"
+Everdamned,Everdamned.esp,token,yes,"come_to_me,_my_puppet...__blood_doll_.fuz",0x1771D9,"Come to me, my puppet... <Blood Doll>"
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,"dear_dragon,_i'm_coming_back_for_you.___alias=player_,_dictated_but_not_signed..fuz",0xE1579,"Dear dragon, I'm coming back for you.  <Alias=Player>, dictated but not signed."
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,did_you_break__alias.shortname=eventchild1_'s_toy_.fuz,0xA6F 0xA70,Did you break <Alias.ShortName=EventChild1>'s toy?
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,did_you_hit__alias.shortname=eventchild1__.fuz,0xA6D 0xA6E,Did you hit <Alias.ShortName=EventChild1>?
+Everdamned,Everdamned.esp,token,yes,did_you_miss_me_...__lure_in_deeper_.fuz,0x1771D7,Did you miss me?... <Lure in deeper>
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,did_you_take__alias.shortname=eventchild1_'s_toy_.fuz,0xA81,Did you take <Alias.ShortName=EventChild1>'s toy?
+Cleaned Base Game Masters,HearthFires.esm,token,yes,"enough.__alias.shortname=child1_,_go_to_your_room..fuz",0x192BA 0x192BC,"Enough. <Alias.ShortName=Child1>, go to your room."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"enough.__alias.shortname=child2_,_go_to_your_room..fuz",0x4E42 0x4E46,"Enough. <Alias.ShortName=Child2>, go to your room."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"enough.__alias.shortname=child3_,_go_to_your_room..fuz",0x192BB 0x192BD,"Enough. <Alias.ShortName=Child3>, go to your room."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"enough.__alias.shortname=child4_,_go_to_your_room..fuz",0x4E45 0x4E49,"Enough. <Alias.ShortName=Child4>, go to your room."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"enough.__alias.shortname=child5_,_go_to_your_room..fuz",0x4E44 0x4E48,"Enough. <Alias.ShortName=Child5>, go to your room."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"enough.__alias.shortname=child6_,_go_to_your_room..fuz",0x4E43 0x4E47,"Enough. <Alias.ShortName=Child6>, go to your room."
+VIGILANT - English Translation SE (Voiced),Vigilant.esm,token,yes,"fine._i,__alias=player_,_swear_this_by_the_multiples_of_three._i_shall_henceforth_renounce_this_name..fuz",0x4EC7F1,"Fine. I, <Alias=Player>, swear this by the multiples of three. I shall henceforth renounce this name."
+Flint the Minotaur,Flint9.esp,bracket,yes,"flint,_i_want_to_ask_you_something_important._[testers_ignore].fuz",0x6A4880,"Flint, I want to ask you something important. [TESTERS IGNORE]"
+Flint the Minotaur,Flint9.esp,bracket,yes,"flint,_you're_not_thinking_straight._[debug].fuz",0xF11B02,"Flint, you're not thinking straight. [DEBUG]"
+Flint the Minotaur,Flint9.esp,bracket,yes,friendship_is_a_journey._and_i_want_to_guide_you_along_that_journey._[platonic].fuz,0xC61288,Friendship is a journey. And I want to guide you along that journey. [Platonic]
+Alternate Perspective - Voiced Addon,Alternate Perspective - Gate to Sovngarde Edition.esp,token,no,give_me_your_best_room._(_global=roomcost__gold).fuz,0x75138,Give me your best room. (<Global=RoomCost> gold) (Start Intro)
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_do_your_chores,__alias.shortname=child10_..fuz",0xE7F 0xE81 0xE83,"Go do your chores, <Alias.ShortName=Child10>."
+Cleaned Base Game Masters,HearthFires.esm,token,yes,"go_do_your_chores,__alias.shortname=child1_..fuz",0x3E76 0x3E78 0x3E7A,"Go do your chores, <Alias.ShortName=Child1>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"go_do_your_chores,__alias.shortname=child2_..fuz",0x4E9E 0x4EA2 0x4EA6,"Go do your chores, <Alias.ShortName=Child2>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"go_do_your_chores,__alias.shortname=child3_..fuz",0x3E77 0x3E79 0x3E7B,"Go do your chores, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"go_do_your_chores,__alias.shortname=child4_..fuz",0x4EA1 0x4EA5 0x4EA9,"Go do your chores, <Alias.ShortName=Child4>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"go_do_your_chores,__alias.shortname=child5_..fuz",0x4EA0 0x4EA4 0x4EA8,"Go do your chores, <Alias.ShortName=Child5>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"go_do_your_chores,__alias.shortname=child6_..fuz",0x4E9F 0x4EA3 0x4EA7,"Go do your chores, <Alias.ShortName=Child6>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_do_your_chores,__alias.shortname=child7_..fuz",0xDEC 0xDEE 0xDEF,"Go do your chores, <Alias.ShortName=Child7>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_do_your_chores,__alias.shortname=child8_..fuz",0xDED 0xDF0 0xDF1,"Go do your chores, <Alias.ShortName=Child8>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_do_your_chores,__alias.shortname=child9_..fuz",0xE7E 0xE80 0xE82,"Go do your chores, <Alias.ShortName=Child9>."
+Cleaned Base Game Masters,HearthFires.esm,token,yes,"go_play_outside,__alias.shortname=child1_..fuz",0x3DEC 0x3DEE 0x3DF0,"Go play outside, <Alias.ShortName=Child1>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child2_..fuz",0x4E22 0x4E26 0x4E2A,"Go play outside, <Alias.ShortName=Child2>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child3_..fuz",0x3DED 0x3DEF 0x3DF1,"Go play outside, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child4_..fuz",0x4E25 0x4E29 0x4E2D,"Go play outside, <Alias.ShortName=Child4>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child5_..fuz",0x4E24 0x4E28 0x4E2C,"Go play outside, <Alias.ShortName=Child5>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child6_..fuz",0x4E23 0x4E27 0x4E2B,"Go play outside, <Alias.ShortName=Child6>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child7_..fuz",0xDD4 0xDD6 0xDD8,"Go play outside, <Alias.ShortName=Child7>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"go_play_outside,__alias.shortname=child8_..fuz",0xDD5 0xDD7 0xDD9,"Go play outside, <Alias.ShortName=Child8>."
+VIGILANT - English Translation SE (Voiced),Vigilant.esm,token,yes,"greetings._i'm__alias=player_,_the_keeper_of_the_vigil..fuz",0x38AC0,"Greetings. I'm <Alias=Player>, the Keeper of the Vigil."
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - Gore.esp,token,yes,greetings._i'm__alias=player_..fuz,0xDB7162,Greetings. I'm <Alias=Player>.
+College of Winterhold - Quest Expansion,College Of Winterhold - Quest Expansion.esp,token,yes,"greetings._my_name's__alias=player_,_i've_recently_joined_the_college..fuz",0x8FC 0x9AA,"Greetings. My name's <Alias=Player>, I've recently joined the College."
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,have_you_been_touching__alias.shortname=eventchild1_'s_toys_.fuz,0xA99,Have you been touching <Alias.ShortName=EventChild1>'s toys?
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,token,yes,"hello,_i'm__alias=player_._my_friend_here_wanted_to_see_how_you_were_faring..fuz",0x93F,"Hello, I'm <Alias=Player>. My friend here wanted to see how you were faring."
+Everdamned,Everdamned.esp,token,yes,"hello,_my_love...__blood_doll_.fuz",0x9A8DE9 0x9C7405,"Hello, my love... <Blood Doll>"
+Val Serano - Pirate Follower and Quest Adventure,AX ValSerano.esp,token,yes,"hello,_ravani._i'm__alias=player_..fuz",0xB06B71,"Hello, Ravani. I'm <alias=player>."
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,here's_your__alias=questitem_..fuz,0xA05 0xA0D 0xA15,Here's your <Alias=QuestItem>.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - Missives.esp,token,no,here..._i_have_what_you_were_looking_for._(hand_over__alias=item_.fuz,0x149C7,Here... I have what you were looking for. (Hand over <Alias=Item>
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,here._this_should_compensate_you...(_bribecost__gold).fuz,0x9CB1AC,Here. This should compensate you...(<BribeCost> gold)
+Everdamned,Everdamned.esp,token,yes,"hey,_handsome...__seduce_.fuz",0x1771D6,"Hey, handsome... <Seduce>"
+Everdamned,Everdamned.esp,token,yes,"hey,_sweetheart...__seduce_.fuz",0x1771D5,"Hey, sweetheart... <Seduce>"
+Hearthfire Multiple Adoptions Expanded Patch Hub,HMA_Expanded_IDE_Hearthfire_Patch.esp,token,yes,how's__alias.shortname=child1__doing_.fuz,0x81C 0x8AF3 0x8AF4 0x8AF5 0x8AF6 0x8AF7 0x8AF8 0x8AF9 0x8AFA 0x8AFB 0x8AFC 0x8AFD 0x8AFE 0x8AFF 0x8B00 0x8B01 0x8B02 0x8B03 0x8B04 0x8B05 0x8B06 0x8B07 0x8B08 0x8B09 0x8B0A 0x332E8 0x332E9 0x332EA 0x332EB 0x332EC 0x332ED 0x426CC 0x426CD 0x426CE 0x426CF 0x426D0 0x426D1,How's <Alias.ShortName=Child1> doing?
+Cleaned Base Game Masters,HearthFires.esm,token,yes,how's__alias.shortname=child1__doing_.fuz,0x81C 0x8AF3 0x8AF4 0x8AF5 0x8AF6 0x8AF7 0x8AF8 0x8AF9 0x8AFA 0x8AFB 0x8AFC 0x8AFD 0x8AFE 0x8AFF 0x8B00 0x8B01 0x8B02 0x8B03 0x8B04 0x8B05 0x8B06 0x8B07 0x8B08 0x8B09 0x8B0A 0x332E8 0x332E9 0x332EA 0x332EB 0x332EC 0x332ED 0x426CC 0x426CD 0x426CE 0x426CF 0x426D0 0x426D1,How's <Alias.ShortName=Child1> doing?
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,how's__alias.shortname=child1__doing_.fuz,0x81C 0x8AF3 0x8AF4 0x8AF5 0x8AF6 0x8AF7 0x8AF8 0x8AF9 0x8AFA 0x8AFB 0x8AFC 0x8AFD 0x8AFE 0x8AFF 0x8B00 0x8B01 0x8B02 0x8B03 0x8B04 0x8B05 0x8B06 0x8B07 0x8B08 0x8B09 0x8B0A 0x332E8 0x332E9 0x332EA 0x332EB 0x332EC 0x332ED 0x426CC 0x426CD 0x426CE 0x426CF 0x426D0 0x426D1,How's <Alias.ShortName=Child1> doing?
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,how's__alias.shortname=child1__doing_.fuz,0x81C 0x8AF3 0x8AF4 0x8AF5 0x8AF6 0x8AF7 0x8AF8 0x8AF9 0x8AFA 0x8AFB 0x8AFC 0x8AFD 0x8AFE 0x8AFF 0x8B00 0x8B01 0x8B02 0x8B03 0x8B04 0x8B05 0x8B06 0x8B07 0x8B08 0x8B09 0x8B0A 0x332E8 0x332E9 0x332EA 0x332EB 0x332EC 0x332ED 0x426CC 0x426CD 0x426CE 0x426CF 0x426D0 0x426D1,How's <Alias.ShortName=Child1> doing?
+Improved Follower Dialogue - Lydia,ImprovedCompanionsBoogaloo.esp,token,yes,how's__alias.shortname=child1__doing_.fuz,0x81C 0x8AF3 0x8AF4 0x8AF5 0x8AF6 0x8AF7 0x8AF8 0x8AF9 0x8AFA 0x8AFB 0x8AFC 0x8AFD 0x8AFE 0x8AFF 0x8B00 0x8B01 0x8B02 0x8B03 0x8B04 0x8B05 0x8B06 0x8B07 0x8B08 0x8B09 0x8B0A 0x332E8 0x332E9 0x332EA 0x332EB 0x332EC 0x332ED 0x426CC 0x426CD 0x426CE 0x426CF 0x426D0 0x426D1,How's <Alias.ShortName=Child1> doing?
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,how's__alias.shortname=child2__doing_.fuz,0x8DB,How's <Alias.ShortName=Child2> doing?
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,how_about___alias=player__and_slaves__.fuz,0x24D48D,"How about ""<Alias=Player> and Slaves?"""
+<Stock Game>,Skyrim.esm,token,yes,how_about__alias=imperialmajorhold__.fuz,0x86C8F,How about <Alias=ImperialMajorHold>?
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,how_about__alias=sonsmajorholdcapital__.fuz,0x4B233,How about <Alias=SonsMajorHoldCapital>?
+Authoria - Reqtificator and Requiem Tweak,Requiem.esp,token,no,i'll_take__global=byohhpamountlogs__logs_(_global=byohhpcostlogs__gold)..fuz,0x2FF5,I'll take <Global=BYOHHPAmountLogs> logs (<Global=BYOHHPCostLogs> gold).
+Lucien - Immersive Fully Voiced Male Follower,Lucien.esp,token,no,"i'm__alias=player_,_by_the_way..fuz",0x591C,"I'm <Alias=Player>, by the way."
+Flint the Minotaur,Flint9.esp,token,yes,"i'm__alias=player_,_by_the_way._nice_to_have_met_you..fuz",0xCDF979,"I'm <Alias=Player>, by the way. Nice to have met you."
+Whispers of the Depths - Quest Mod,Slays-Many-Beasts Quest Mod.esp,token,yes,"i'm__alias=player_,_who_are_you_.fuz",0x6 0x80F,"I'm <Alias=Player>, who are you?"
+The Hunt for the Spectre - Elden Ring Inspired Quest,Hunt for the Spectre.esp,token,yes,"i'm__alias=player_,_who_are_you_.fuz",0x6 0x80F,"I'm <Alias=Player>, who are you?"
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,token,yes,i'm__alias=player_..fuz,0x70793 0x7CA2F 0x7E328 0xA85D2 0xD5D805,I'm <Alias=Player>.
+The Forgotten City,ForgottenCity.esp,token,yes,i'm__alias=player_..fuz,0x70793 0x7CA2F 0x7E328 0xA85D2 0xD5D805,I'm <Alias=Player>.
+Immersive Kaidan AIO - rerun,Kaidan - Immersive Features.esp,token,yes,i'm__alias=player_..fuz,0x70793 0x7CA2F 0x7E328 0xA85D2 0xD5D805,I'm <Alias=Player>.
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,token,yes,"i'm__alias=player_._and_no,_i'm_not_with_the_thalmor..fuz",0x8BED3,"I'm <Alias=Player>. And no, I'm not with the Thalmor."
+Follower Dialogue Expansion - Aela the Huntress,FDE Aela.esp,token,yes,i'm__alias=player_._i'm_honored_to_stand_among_the_companions..fuz,0xDD2,I'm <Alias=Player>. I'm honored to stand among the Companions.
+The Forgotten City - Good Ending Tweaks,ForgottenCity - Good Ending Tweaks.esp,token,yes,i'm__alias=player_._i'm_looking_for_a_treasure_chest..fuz,0xBD00D,I'm <Alias=Player>. I'm looking for a treasure chest.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - Skyrim Vanilla Game.esp,token,yes,i'm__alias=player_._i_got_your_letter..fuz,0x1612D 0x37862,I'm <Alias=Player>. I got your letter.
+The Forgotten City,ForgottenCity.esp,token,yes,i'm__alias=player_._i_got_your_letter..fuz,0x1612D 0x37862,I'm <Alias=Player>. I got your letter.
+Follower Dialogue Expansion - Aela the Huntress,FDE Aela.esp,token,yes,i'm__alias=player_._just_figured_i'd_get_this_formality_nonsense_over_with..fuz,0xDD4,I'm <Alias=Player>. Just figured I'd get this formality nonsense over with.
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,token,yes,i'm__alias=player_._nice_to_meet_you..fuz,0x2297E 0xD24F6,I'm <Alias=Player>. Nice to meet you.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - Unslaad SE.esp,token,yes,i'm__alias=player_._nice_to_meet_you..fuz,0x2297E 0xD24F6,I'm <Alias=Player>. Nice to meet you.
+Cleaned Base Game Masters,Dawnguard.esm,token,yes,i'm__alias=player_._who_are_you_.fuz,0x3B9F 0x388AD,I'm <Alias=Player>. Who are you?
+The Forgotten City,ForgottenCity.esp,token,yes,i'm__alias=player_._who_are_you_.fuz,0x3B9F 0x388AD,I'm <Alias=Player>. Who are you?
+Creation Club - Cleaned Masters,ccasvsse001-almsivi.esm,token,yes,i'm_not_who_you_think_i_am._my_name_is__alias=player_._prepare_to_die..fuz,0xDFD,I'm not who you think I am. My name is <Alias=Player>. Prepare to die.
+Creation Club - Cleaned Masters,ccbgssse001-fish.esm,token,yes,i've_cleaned_up_the_water_around__alias=town_..fuz,0xC8F,I've cleaned up the water around <Alias=Town>.
+Penitus Oculatus,Penitus_Oculatus.esp,token,yes,i've_cleared_out_the_dark_brotherhood_remnant_at_the__alias=location_..fuz,0xDA81,I've cleared out the Dark Brotherhood remnant at The <Alias=Location>.
+Penitus Oculatus,Penitus_Oculatus.esp,token,no,i've_eliminated__alias=darkbrotherhoodremnant_..fuz,0x4E1B 0x896C 0x1A7EB,I've eliminated <Alias=DarkBrotherhoodRemnant>.
+Penitus Oculatus,Penitus_Oculatus.esp,token,no,i've_eliminated__alias=target_..fuz,0xDFEE,I've eliminated <Alias=Target>.
+Cleaned Base Game Masters,HearthFires.esm,token,yes,"i've_got_something_for_you,__alias.shortname=child1_..fuz",0x7B4C 0x7B4E 0x7B50 0x7B52 0x7B54 0x7B56 0x7B58,"I've got something for you, <Alias.ShortName=Child1>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"i've_got_something_for_you,__alias.shortname=child2_..fuz",0x4E4A 0x4E4E 0x4E52 0x4E56 0x4E5A 0x4E5E 0x4E62,"I've got something for you, <Alias.ShortName=Child2>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"i've_got_something_for_you,__alias.shortname=child3_..fuz",0x7B4D 0x7B4F 0x7B51 0x7B53 0x7B55 0x7B57 0x7B59,"I've got something for you, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"i've_got_something_for_you,__alias.shortname=child4_..fuz",0x4E4D 0x4E51 0x4E55 0x4E59 0x4E5D 0x4E61 0x4E65,"I've got something for you, <Alias.ShortName=Child4>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"i've_got_something_for_you,__alias.shortname=child5_..fuz",0x4E4C 0x4E50 0x4E54 0x4E58 0x4E5C 0x4E60 0x4E64,"I've got something for you, <Alias.ShortName=Child5>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"i've_got_something_for_you,__alias.shortname=child6_..fuz",0x4E4B 0x4E4F 0x4E53 0x4E57 0x4E5B 0x4E5F 0x4E63,"I've got something for you, <Alias.ShortName=Child6>."
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,i've_got_the__alias=book__you_asked_for..fuz,0xA8,I've got the <Alias=Book> you asked for.
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,i've_got_the__alias=book__you_wanted..fuz,0x36,I've got the <Alias=Book> you wanted.
+Simple Hunting Overhaul,Simple Hunting Overhaul.esp,token,no,i've_hunted_this_fox._excellent_meat!_(_global=sho_m_)_gold).fuz,0x84B,I've hunted this fox. Excellent meat! (<global=Sho_M>) Gold)
+<Stock Game>,Skyrim.esm,token,yes,i_agree._the_empire_should_turn_over__alias=imperialminorhold2_..fuz,0x4BA18,I agree. The Empire should turn over <Alias=ImperialMinorHold2>.
+<Stock Game>,Skyrim.esm,token,yes,i_agree._ulfric_should_turn_over__alias=sonsminorhold2_..fuz,0x875B8,I agree. Ulfric should turn over <Alias=SonsMinorHold2>.
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,"i_am__alias=player_,_a_great_warrior_of_skyrim..fuz",0x9892C,"I am <Alias=Player>, a great warrior of Skyrim."
+Glenmoril - English Translation SE,Glenmoril.esm,token,yes,i_am__alias=player_..fuz,0x7802 0x430BED 0x692B8A,I am <Alias=player>.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_am__alias=player_..fuz,0x7802 0x430BED 0x692B8A,I am <Alias=player>.
+Xelzaz - Custom Fully Voiced Argonian Telvanni Follower,BPUFXelzazFollower.esp,token,yes,i_am__alias=player_..fuz,0x7802 0x430BED 0x692B8A,I am <Alias=player>.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_am__alias=player_._a_traveler..fuz,0xA8CE99,I am <Alias=Player>. A traveler.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_am__alias=player_._dragonborn..fuz,0xA8CE9B 0xB9EA59,I am <Alias=Player>. Dragonborn.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_am__alias=player_._i'm_a_bard_from_bards_college..fuz,0xA8CE9D,I am <Alias=Player>. I'm a bard from Bards College.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_am__alias=player_._i_like_killing_things..fuz,0xA8CE9F,I am <Alias=Player>. I like killing things.
+Olenveld - Tweaks and Fixes,Olenveld Fixes.esp,token,no,i_am__alias=player_._i_recently_arrived_at_the_island_by_boat..fuz,0x51C8F0,I am <Alias=Player>. I recently arrived at the island by boat.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - DaCoda.esp,token,yes,i_am__alias=player_._my_apologies..fuz,0x4488,I am <Alias=Player>. My apologies.
+Glenmoril - English Translation SE,Glenmoril.esm,token,yes,i_am__alias=player_._nice_to_meet_you..fuz,0x61455B,I am <Alias=Player>. Nice to meet you.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_believe_this__alias=amulet__is_yours_.fuz,0x111FCB,I believe this <Alias=Amulet> is yours?
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_can_no_longer_take_you_to__alias=destinationlocation_._we_must_go_separate_ways..fuz,0xCBA4E3,I can no longer take you to <Alias=DestinationLocation>. We must go separate ways.
+CC Farming - Tweaks and Enhancements,CC Farming - Tweaks and Enhancements.esp,token,no,"i_can_pay_you__global=vsvglo_fh__gold,_give_you_a_safe_place_to_stay_and_free_food_and_drink..fuz",0xEAD 0xEAE,"I can pay you <Global=VSVGLO_FH> gold, give you a safe place to stay and free food and drink."
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,i_convinced__alias.shortname=target__to_ease_up_a_bit..fuz,0x8EC,I convinced <Alias.ShortName=Target> to ease up a bit.
+Sanguine's Trade - An Economy Mod,Sanguine's Trade - An Economy Mod.esp,bracket,no,i_do_not_need_to_be_led_by_the_hand._[skips_tutorial].fuz,0x353C61,I do not need to be led by the hand. [Skips Tutorial]
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,i_don't_love__alias.pronounobj=playerspouse__anymore..fuz,0xBC8EEB,I don't love <Alias.PronounObj=PlayerSpouse> anymore.
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,i_found_the__alias=book__you_wanted..fuz,0x18E,I found the <Alias=Book> you wanted.
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,i_got_your_letter._i'm__alias=player_..fuz,0x1612E,I got your letter. I'm <Alias=Player>.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,i_have_a_delivery_from__alias.shortname=questgiver_..fuz,0x800 0x808 0x810 0x817 0x81E 0x825,I have a delivery from <Alias.ShortName=QuestGiver>.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_a_letter_for_you_from__alias=questgiver__of__alias=city_..fuz,0x802 0x804 0x806 0x80B 0x813 0x815 0x820 0x822 0x824 0x876 0x879 0x87C,I have a letter for you from <Alias=QuestGiver> of <Alias=City>.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_a_potion_for_you_from__alias=questgiver__of__alias=city_..fuz,0x843 0x848 0x84A 0x87F 0x882 0x885 0x8B2 0x8B5 0x8B8 0x8DA 0x8DF 0x8E1,I have a potion for you from <Alias=QuestGiver> of <Alias=City>.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_a_weapon_for_you_from__alias=questgiver__of__alias=city_..fuz,0x808 0x80A 0x80C 0x80D 0x817 0x819 0x826 0x828 0x82A 0x888 0x88B 0x88E,I have a weapon for you from <Alias=QuestGiver> of <Alias=City>.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,i_have_cleared_out__alias=dungeon_._i'm_here_for_the_reward..fuz,0x77FAC8,I have cleared out <Alias=Dungeon>. I'm here for the reward.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_the__alias=item__that_you_needed..fuz,0x806 0x810 0x82E 0x892,I have the <Alias=Item> that you needed.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_the__alias=item__that_you_were_looking_for..fuz,0x802 0x804 0x805 0x809 0x80D 0x80E 0x80F 0x810 0x811 0x812 0x813 0x815 0x81D 0x81E 0x82B 0x82C 0x82D 0x82F 0x830 0x831 0x833 0x83A 0x88F 0x890 0x891 0x893 0x894 0x895 0x897 0x89F,I have the <Alias=Item> that you were looking for.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_the__alias=item_s_that_you_were_looking_for..fuz,0x807 0x808 0x811 0x814 0x816 0x817 0x832 0x834 0x835 0x896 0x898 0x899,I have the <Alias=Item>s that you were looking for.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp Missives - Solstheim.esp Missives - Wyrmstooth.esp,token,no,i_have_your__alias.basename=item_..fuz,0x803 0x81C 0x81D 0x81E 0x839 0x83B 0x89E 0x8A0,I have your <Alias.BaseName=Item>.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,i_hear_you've_been_annoying__alias.shortname=eventchild1__with_questions..fuz,0xA98,I hear you've been annoying <Alias.ShortName=EventChild1> with questions.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,i_hear_you've_been_pranking__alias.shortname=eventchild1_..fuz,0xA59,I hear you've been pranking <Alias.ShortName=EventChild1>.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,i_hear_you've_been_pushing__alias.shortname=eventchild1__around..fuz,0xA7B,I hear you've been pushing <Alias.ShortName=EventChild1> around.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,i_heard_you've_been_ordering__alias.shortname=eventchild1__around..fuz,0xA87 0xA88,I heard you've been ordering <Alias.ShortName=EventChild1> around.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,i_heard_you_were_laughing_at__alias.shortname=eventchild1_'s_clothes..fuz,0xA9F 0xAA0,I heard you were laughing at <Alias.ShortName=EventChild1>'s clothes.
+Adventurer's Start - An Alternate Perspective Addon - Bruma,AP - Missile Additional Bruma Starts.esp,token,yes,i_killed_the_ringleader_of_the_bandits_at__alias=bountylocation_..fuz,0x8,I killed the ringleader of the bandits at <Alias=BountyLocation>.
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,i_recovered_your__alias.basename=item_..fuz,0x83 0x8F 0x24F 0x25A 0x25B 0x26B 0x2A0,I recovered your <Alias.BaseName=Item>.
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,i_saw_your_missive._i_caught_a__alias=book__for_you..fuz,0xB9,I saw your missive. I caught a <Alias=Book> for you.
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,i_saw_your_missive._is_this_the__alias=book__you_wanted_.fuz,0xEC 0x109,I saw your missive. Is this the <Alias=Book> you wanted?
+Authoria - xEdit Output - NSFW,Authoria - Patch - Ostim Solutions Tweaks.esp,action,yes,i_think_you_need_some__tough__love..fuz,0x3446,I think you need some *tough* love. (Sex)
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,i_want_to_talk_to_you_about__alias.shortname=questgiver_..fuz,0x860 0x86F 0x87E 0x88D 0x89C 0x8AA,I want to talk to you about <Alias.ShortName=QuestGiver>.
+Gore,GORE.esp,token,yes,it's_no_trouble._i'm__alias=player_._what_kind_of_name_is__gore__.fuz,0x9405E,"It's no trouble. I'm <Alias=Player>. What kind of name is ""Gore?"""
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child10_..fuz",0xE79 0xE7B 0xE7D 0xE89 0xE8B 0xE8E,"It's time for bed, <Alias.ShortName=Child10>."
+Cleaned Base Game Masters,HearthFires.esm,token,yes,"it's_time_for_bed,__alias.shortname=child1_..fuz",0x3E8B 0x3E8D 0x3E8F 0x3E91 0x7B36 0x7B38 0x7B64,"It's time for bed, <Alias.ShortName=Child1>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"it's_time_for_bed,__alias.shortname=child2_..fuz",0x3E92 0x4E82 0x4E86 0x4E8A 0x4E8E 0x4E92 0x4E96,"It's time for bed, <Alias.ShortName=Child2>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"it's_time_for_bed,__alias.shortname=child3_..fuz",0x3E8C 0x3E8E 0x3E90 0x4E9D 0x7B37 0x7B39 0x7B65,"It's time for bed, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child3_..fuz",0x3E8C 0x3E8E 0x3E90 0x4E9D 0x7B37 0x7B39 0x7B65,"It's time for bed, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"it's_time_for_bed,__alias.shortname=child4_..fuz",0x4E85 0x4E89 0x4E8D 0x4E91 0x4E95 0x4E99 0x4E9C,"It's time for bed, <Alias.ShortName=Child4>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child4_..fuz",0x4E85 0x4E89 0x4E8D 0x4E91 0x4E95 0x4E99 0x4E9C,"It's time for bed, <Alias.ShortName=Child4>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"it's_time_for_bed,__alias.shortname=child5_..fuz",0x4E84 0x4E88 0x4E8C 0x4E90 0x4E94 0x4E98 0x4E9B,"It's time for bed, <Alias.ShortName=Child5>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child5_..fuz",0x4E84 0x4E88 0x4E8C 0x4E90 0x4E94 0x4E98 0x4E9B,"It's time for bed, <Alias.ShortName=Child5>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"it's_time_for_bed,__alias.shortname=child6_..fuz",0x4E83 0x4E87 0x4E8B 0x4E8F 0x4E93 0x4E97 0x4E9A,"It's time for bed, <Alias.ShortName=Child6>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child6_..fuz",0x4E83 0x4E87 0x4E8B 0x4E8F 0x4E93 0x4E97 0x4E9A,"It's time for bed, <Alias.ShortName=Child6>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child7_..fuz",0xDE4 0xDE6 0xDE8 0xDEA 0xDF6 0xDF7 0xDF8,"It's time for bed, <Alias.ShortName=Child7>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child8_..fuz",0xDE5 0xDE7 0xDE9 0xDEB 0xDF9 0xDFA 0xDFB,"It's time for bed, <Alias.ShortName=Child8>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"it's_time_for_bed,__alias.shortname=child9_..fuz",0xE78 0xE7A 0xE7C 0xE88 0xE8A 0xE8D,"It's time for bed, <Alias.ShortName=Child9>."
+Flint the Minotaur,Flint9.esp,bracket,yes,lately..._i_think_i've_developed_certain_feelings_for_you._[romance].fuz,0xC6128D,Lately... I think I've developed certain feelings for you. [Romance]
+Authoria - xEdit Output - NSFW,Authoria - Patch - Ostim Solutions Tweaks.esp,action,yes,let's_just_say...__very__well_worth_it..fuz,0x23129,Let's just say... *very* well worth it. (Sex)
+Kaidan pre Thalmor,Kaidan pre Thalmor.esp,action,yes,maybe_you__should__consider_the_skald_life...fuz,0x33,Maybe you *should* consider the skald life..
+The Forgotten City,ForgottenCity.esp,token,yes,"my_apologies,_i'm__alias=player_._i'm_new_here..fuz",0xC1241,"My apologies, I'm <Alias=Player>. I'm new here."
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,my_name's__alias=player_._and_i_need_some_answers..fuz,0x19960C,My name's <Alias=Player>. And I need some answers.
+Val Serano - Pirate Follower and Quest Adventure,AX ValSerano.esp,token,yes,my_name's__alias=player_._no_one_sent_me..fuz,0x321529,My name's <Alias=player>. No one sent me.
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,token,yes,my_name_is__alias=player_..fuz,0xA2 0x1F08 0x20F0 0xCE018 0x37225A 0x717DAB,My name is <Alias=Player>.
+Eleonora Female Nord Dbvo Pack With Patches,DBVO Fix - Glenmoril SE.esp,token,yes,my_name_is__alias=player_..fuz,0xA2 0x1F08 0x20F0 0xCE018 0x37225A 0x717DAB,My name is <Alias=Player>.
+The Frozen Heart - Quest Mod,ksws07_quest.esm,token,yes,my_name_is__alias=player_..fuz,0xA2 0x1F08 0x20F0 0xCE018 0x37225A 0x717DAB,My name is <Alias=Player>.
+Val Serano - Pirate Follower and Quest Adventure,AX ValSerano.esp,token,yes,my_name_is__alias=player_..fuz,0xA2 0x1F08 0x20F0 0xCE018 0x37225A 0x717DAB,My name is <Alias=Player>.
+Immersive Dialogue Expansion - Dawnguard and Vigilants,IDE Dawnguard Vigilants.esp,token,yes,my_name_is__alias=player_..fuz,0xA2 0x1F08 0x20F0 0xCE018 0x37225A 0x717DAB,My name is <Alias=Player>.
+Skyrim Realistic Conquering - All In One,SRC - All In One.esp,token,yes,my_name_is__alias=player_..fuz,0xA2 0x1F08 0x20F0 0xCE018 0x37225A 0x717DAB,My name is <Alias=Player>.
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,my_name_is__alias=player_.__i_wanted_to_meet_you..fuz,0x108E1D,My name is <Alias=Player>.  I wanted to meet you.
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,my_name_is__alias=player_._i'm_looking_for_a_woman_-_an_outlander_-_with_a_fancy_pattern_on_her_face_and_it_seems_like_i've_found_her._what_is_your_name_.fuz,0x9DA34,My name is <Alias=Player>. I'm looking for a woman - an outlander - with a fancy pattern on her face and it seems like I've found her. What is your name?
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,my_name_is__alias=player_._i've_just_stumbled_upon_this_cave._and_who_are_you_.fuz,0x555523,My name is <Alias=Player>. I've just stumbled upon this cave. And who are you?
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,my_name_is__alias=player_._i_just_stumbled_upon_this_cave._and_who_are_you_.fuz,0x555525,My name is <Alias=Player>. I just stumbled upon this cave. And who are you?
+Heart of Ice - Astrid. Custom Voiced Follower,SM_Astrid.esp,token,yes,"my_name_is__alias=player_._i_want_to_have_my_possessions_back,_left_here_for_safekeeping_by_astrid_of_haraldson._here_is_the_letter..fuz",0x476629,"My name is <Alias=Player>. I want to have my possessions back, left here for safekeeping by Astrid of Haraldson. Here is the letter."
+<Stock Game>,Skyrim.esm,token,yes,my_name_is__alias=player_._pleased_to_meet_you..fuz,0x4C4B0,My name is <Alias=Player>. Pleased to meet you.
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,my_name_is__alias=player_._tell_the_child_to_wear_it_proud..fuz,0x2C35B8,My name is <Alias=Player>. Tell the child to wear it proud.
+Skyrim Realistic Conquering - All In One,SRC - All In One.esp,token,yes,my_name_is__alias=player_.fuz,0xEED90,My name is <Alias=Player>
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,my_name_is__alias=player__and_i'm_here_to_rescue_you..fuz,0x1F6F38,My name is <Alias=Player> and I'm here to rescue you.
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,name_the_character_after_me.__alias=player_..fuz,0x13FDA4,Name the character after me. <Alias=Player>.
+Flint the Minotaur,Flint9.esp,bracket,yes,"nevermind,_i_think_i'd_prefer_not_to._[dismiss_romance].fuz",0x6B3652,"Nevermind, I think I'd prefer not to. [Dismiss Romance]"
+VIGILANT - English Translation SE (Voiced),Vigilant.esm,token,yes,"nice_to_meet_you._i'm__alias=player_,_the_new_vigilant..fuz",0x27A41,"Nice to meet you. I'm <Alias=Player>, the new Vigilant."
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,pay__global=webountycollectorcrimegold__gold..fuz,0xF8A79,Pay <Global=WEBountyCollectorCrimeGold> gold.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,"return__alias.shortname=eventchild1_'s_toy,_now..fuz",0xA7D 0xA7E 0xA7F 0xA80,"Return <Alias.ShortName=EventChild1>'s toy, now."
+The Gift of Saturalia - A Quest for the Holidays,TheGiftofSaturalia.esp,token,no,santus_and__alias=player__on_an_epic_journey_to_whiterun!.fuz,0x9AA,Santus and <Alias=Player> on an epic journey to Whiterun!
+Thieves Guild Requirements SE,thieves guild requirements.esp,token,yes,sell_unusual_gem_for__global=tgcrowngemscosttosell__gold..fuz,0x1837,Sell unusual gem for <Global=TGCrownGemsCostToSell> gold.
+Thogra gra-Mugur - Orc Follower and Quest,DK_Thogra.esp,bracket,yes,"spar_with_me,_child_of_malacath._[vanilla_brawl_function,_may_be_buggy].fuz",0x2B1523,"Spar with me, child of Malacath. [Vanilla brawl function, may be buggy]"
+Fair Rebalancing Of Transit Tariffs - Active Graph Evaluation,FairRebalancingOfTransitTariffs.esp,token,yes,take_me_straight_to_markarth.(_global=frottmarkarthmorthal__gold).fuz,0x9EB,Take me straight to Markarth.(<Global=FROTTMarkarthMorthal> gold)
+Flint the Minotaur,Flint9.esp,bracket,yes,"thank_you,_for_being_a_great_friend_to_me._[dismiss_romance].fuz",0xDDEAC1,"Thank you, for being a great friend to me. [Dismiss Romance]"
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_bandit_leader_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0x45 0x5E 0x61 0x64 0x67 0x6A 0x6D 0xE1A 0xE20 0xE26 0xE2C 0xE32 0xE38 0xE3E 0xE44 0xE4A,The bandit leader at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Adventurer's Start - An Alternate Perspective Addon,AP - Missile Additional Starts.esp,token,yes,the_bandit_leader_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0x45 0x5E 0x61 0x64 0x67 0x6A 0x6D 0xE1A 0xE20 0xE26 0xE2C 0xE32 0xE38 0xE3E 0xE44 0xE4A,The bandit leader at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Headhunter - Bounties Redone,BountiesRedone_Missives_Solstheim.esp BountiesRedone_Missives_Wyrmstooth.esp,token,yes,the_bandit_leader_at__alias=dungeon__awaits_judgment_in_your_dungeon..fuz,0x800,The bandit leader at <Alias=Dungeon> awaits judgment in your dungeon.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_beast_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xE6E 0xE78 0xE91 0xEB6,The beast at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_dragon_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xEFE 0xF03 0xF08 0xF0D 0xF12 0xF17 0xF1C 0xF21 0xF26,The dragon at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Headhunter - Bounties Redone,BountiesRedone_Missives_Wyrmstooth.esp,token,no,"the_dragon_at__alias=dungeon__is_dead,_i'm_here_for_the_bounty..fuz",0x802 0x81C 0x838 0x89C,"The dragon at <Alias=Dungeon> is dead, I'm here for the bounty."
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp,token,no,"the_dragon_at__alias=dungeon__is_dead,_i'm_here_for_the_bounty..fuz",0x802 0x81C 0x838 0x89C,"The dragon at <Alias=Dungeon> is dead, I'm here for the bounty."
+Headhunter - Bounties Redone,BountiesRedone_Missives_Solstheim.esp,token,yes,the_dragon_at__alias=dungeon__is_dead._i'm_here_for_the_bounty..fuz,0x802 0x81A,The dragon at <Alias=Dungeon> is dead. I'm here for the bounty.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_draugr_lord_of__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xE73 0xE7D 0xE87 0xED4,The Draugr lord of <Alias=BountyLocation> is dead. I'm here for the bounty.
+<Stock Game>,Skyrim.esm,token,yes,the_empire_should_compensate_you_for__alias=sonstownraided_..fuz,0x4B9AA,The Empire should compensate you for <Alias=SonsTownRaided>.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_falmer_leader_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xECA,The falmer leader at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_forsworn_leader_of__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xE96,The forsworn leader of <Alias=BountyLocation> is dead. I'm here for the bounty.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_giant_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xEBB 0xEC0 0xECF,The giant at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp,token,yes,"the_giant_at__alias=dungeon__is_dead,_i'm_here_for_the_bounty..fuz",0x89D,"The giant at <Alias=Dungeon> is dead, I'm here for the bounty."
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_hagraven_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xED9,The hagraven at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Headhunter - Bounties Redone,BountiesRedone_Missives_Solstheim.esp BountiesRedone_Missives_Wyrmstooth.esp,token,no,"the_leader_of__alias=dungeon__is_dead,_i'm_here_for_the_bounty..fuz",0x801 0x819 0x81A 0x837 0x89B,"The leader of <Alias=Dungeon> is dead, I'm here for the bounty."
+Missives - Worldspace Additions,Missives - Gray Cowl Patch.esp Missives - Heartland.esp,token,no,"the_leader_of__alias=dungeon__is_dead,_i'm_here_for_the_bounty..fuz",0x801 0x819 0x81A 0x837 0x89B,"The leader of <Alias=Dungeon> is dead, I'm here for the bounty."
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,token,yes,the_name's__alias=player_._i'll_take_that_offer..fuz,0xA794C,The name's <Alias=Player>. I'll take that offer. (Pay)
+Ashe - Crystal Heart,Ashe - Fire and Blood.esp,token,yes,"the_name's__alias=player__and_i'd_like_to_take_your_offer,_but_i_don't_have_enough_gold..fuz",0xA794E,"The name's <Alias=Player> and I'd like to take your offer, but I don't have enough gold."
+Missives - Worldspace Additions,Missives - Heartland.esp,token,yes,"the_ogre_at__alias=dungeon__is_dead,_i'm_here_for_the_bounty..fuz",0x81B,"The ogre at <Alias=Dungeon> is dead, I'm here for the bounty."
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,"the_pests_in__alias=den__have_been_exterminated,_i'm_here_for_the_reward..fuz",0x1A4,"The pests in <Alias=Den> have been exterminated, I'm here for the reward."
+Missives - Worldspace Additions,Missives - Solstheim.esp,token,yes,"the_rieklings_at__alias=dungeon__are_dead,_i'm_here_for_the_bounty..fuz",0x81B,"The rieklings at <Alias=Dungeon> are dead, I'm here for the bounty."
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_spriggan_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xEC5,The spriggan at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_vampire_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xEDE,The vampire at <Alias=BountyLocation> is dead. I'm here for the bounty.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,the_warlock_leader_at__alias=bountylocation__is_dead._i'm_here_for_the_bounty..fuz,0xE82 0xE8C,The warlock leader at <Alias=BountyLocation> is dead. I'm here for the bounty.
+<Stock Game>,Skyrim.esm,token,yes,there_are_advantages_to_gaining__alias=imperialminorholdcapital_..fuz,0x86C8C,There are advantages to gaining <Alias=ImperialMinorHoldCapital>. (Persuade)
+Unofficial Skyrim Special Edition Patch,unofficial skyrim special edition patch.esp,token,yes,there_are_advantages_to_gaining__alias=sonsminorholdcapital_..fuz,0x4B98D,There are advantages to gaining <Alias=SonsMinorHoldCapital>. (Persuade)
+Missives - Voice and Quest Expansion,MissivesExpansion.esp,token,yes,"there_you_are!__alias=questgiver__is_worried_sick._come_now,_let's_go..fuz",0x1CC,"There you are! <Alias=QuestGiver> is worried sick. Come now, let's go."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child10_..fuz",0xE70 0xE71 0xE73 0xE75 0xE77,"Time to go home, <Alias.ShortName=Child10>."
+Cleaned Base Game Masters,HearthFires.esm,token,yes,"time_to_go_home,__alias.shortname=child1_..fuz",0x3E93 0x3E95 0x3E97 0x3E99 0x3E9B,"Time to go home, <Alias.ShortName=Child1>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child2_..fuz",0x4E66 0x4E6A 0x4E6E 0x4E72 0x4E76,"Time to go home, <Alias.ShortName=Child2>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child3_..fuz",0x3E94 0x3E96 0x3E98 0x3E9A 0x3E9C,"Time to go home, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions,HearthfireMultiKid.esp,token,yes,"time_to_go_home,__alias.shortname=child3_..fuz",0x3E94 0x3E96 0x3E98 0x3E9A 0x3E9C,"Time to go home, <Alias.ShortName=Child3>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child4_..fuz",0x4E69 0x4E6D 0x4E71 0x4E75 0x4E79,"Time to go home, <Alias.ShortName=Child4>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child5_..fuz",0x4E68 0x4E6C 0x4E70 0x4E74 0x4E78,"Time to go home, <Alias.ShortName=Child5>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child6_..fuz",0x4E67 0x4E6B 0x4E6F 0x4E73 0x4E77,"Time to go home, <Alias.ShortName=Child6>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child7_..fuz",0xDDA 0xDDC 0xDDE 0xDE0 0xDE2,"Time to go home, <Alias.ShortName=Child7>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child8_..fuz",0xDDB 0xDDD 0xDDF 0xDE1 0xDE3,"Time to go home, <Alias.ShortName=Child8>."
+Hearthfire Multiple Adoptions Expanded,HearthfireMultiKid_Expanded.esp,token,yes,"time_to_go_home,__alias.shortname=child9_..fuz",0xE6E 0xE6F 0xE72 0xE74 0xE76,"Time to go home, <Alias.ShortName=Child9>."
+Calling the Watchmaker - Lovecraftian Inspired Quest,Sithis Mod - Lovecraftian Inspired Quest.esp,token,yes,uh..._my_name_is__alias=player__.fuz,0x897,Uh... My name is <Alias=Player>?
+<Stock Game>,Skyrim.esm,token,yes,ulfric_should_compensate_you_for__alias=imperialtownraided_..fuz,0x875BA,Ulfric should compensate you for <Alias=ImperialTownRaided>.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,"want_to_go_look_for_your_master,__alias=dog__.fuz",0x85FB5B,"Want to go look for your master, <Alias=Dog>?"
+Authoria - Basic Wenches OStim,Authoria - Basic Wenches OStim.esp,token,yes,want_to_have_some_fun___global=_ws_cost__gold.fuz,0xD83 0xD84 0xD85 0xD86 0xD87 0xD88 0xD89 0xD8A 0xD8B,Want to have some fun? <Global=_WS_Cost> gold
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,we_also_need_to_change_the_protagonist's_name_to__alias=player_..fuz,0x140326 0x14033B,We also need to change the protagonist's name to <Alias=Player>.
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,we_did_it._the__alias=dragon__is_dead..fuz,0xAD88D 0xF788E1,We did it. The <Alias=Dragon> is dead.
+Flint the Minotaur,Flint9.esp,bracket,yes,"well,_i_admit_i've_developed_certain..._feelings._[start_romance].fuz",0xDDEABF,"Well, I admit I've developed certain... feelings. [Start Romance]"
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,action,yes,"well_if_you_need_a__strong__man_to_assist_your_tribe,_i'll_gladly_do_so..fuz",0x118524,"Well if you need a *strong* man to assist your tribe, I'll gladly do so."
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,well_met._i_am__alias=player_._i_come_in_peace_and_wish_to_speak..fuz,0x27A335,Well met. I am <Alias=Player>. I come in peace and wish to speak.
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,action,yes,what's_so_special_about_camilla__why_don't__we__get_together_.fuz,0x261B5,What's so special about Camilla? Why don't *we* get together? (Sex)
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,what_if_i_talk_to__alias.shortname=target__.fuz,0x862 0x871 0x880 0x88F 0x89E 0x8AC,What if I talk to <Alias.ShortName=Target>?
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,"where_are_you_headed,__alias=blade01__.fuz",0x3BE705,"Where are you headed, <Alias=Blade01>?"
+<Stock Game>,Skyrim.esm,token,yes,who's_to_say_what_happened_at__alias=imperialtownraided__.fuz,0x875B9,Who's to say what happened at <Alias=ImperialTownRaided>?
+<Stock Game>,Skyrim.esm,token,yes,who's_to_say_what_happened_at__alias=sonstownraided__.fuz,0x4B9A1,Who's to say what happened at <Alias=SonsTownRaided>?
+Immersive World Encounters SE,Immersive Encounters.esp,token,yes,will_you_buy_this__alias=amulet__i_found_.fuz,0x111FCE,Will you buy this <Alias=Amulet> I found?
+Ostim Resolutions (Solutions 2.0) Standalone,SexLab_Solutions.esp,action,yes,will_you_pass_on_the_lifetime_chance_to_sleep_with__the__gourmet_.fuz,0x34038C,Will you pass on the lifetime chance to sleep with *the* Gourmet?
+Improved Follower Dialogue - Lydia,ImprovedCompanionsBoogaloo.esp,action,yes,"yeah,_we're__married_._i'd_expect_your_tone_to_have_changed_by_now..fuz",0x43EE85,"Yeah, we're *married*. I'd expect your tone to have changed by now."
+<Stock Game>,Skyrim.esm,token,yes,you're_right.__alias=imperialmajorholdcapital__is_a_fair_trade_for_riften..fuz,0x86C8D,You're right. <Alias=ImperialMajorHoldCapital> is a fair trade for Riften.
+<Stock Game>,Skyrim.esm,token,yes,you're_right.__alias=sonsmajorholdcapital__is_a_fair_trade_for_markarth..fuz,0x4B98C,You're right. <Alias=SonsMajorHoldCapital> is a fair trade for Markarth.
+Beyond Skyrim - Bruma SE - Main,BSHeartland.esm,token,yes,you_called_me_a_thing._have_you_never_seen_a__alias.race=player__before_.fuz,0xCC096,You called me a thing. Have you never seen a <Alias.Race=Player> before?
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,you_have_no_idea._i_am__alias=player_._i_am_the_dragonborn._i...am_a_legend..fuz,0xDD394,You have no idea. I am <Alias=Player>. I am the Dragonborn. I...am a legend.
+Interesting NPCs 3DNPC - 4.54 Update,3DNPC.esp,token,yes,"you_have_no_idea._i_am__alias=player_._in_time,_my_name_will_be_legend..fuz",0xDD395,"You have no idea. I am <Alias=Player>. In time, my name will be legend."
+The Tools of Kagrenac,Tools of Kagrenac.esp,token,yes,you_mean_this_dagger___show_keening_.fuz,0x22433E,You mean this dagger? <Show Keening>
+Skyrim Extended Cut - Saints and Seducers,Skyrim Extended Cut - Saints and Seducers.esp,token,no,you_must_be_dylora._i'm__alias=player_..fuz,0xE0CEB,You must be Dylora. I'm <Alias=Player>.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,you_need_to_apologize_to__alias.shortname=eventchild1_..fuz,0xA68,You need to apologize to <Alias.ShortName=EventChild1>.
+Favor Quests Separated,Favor Quests Seperated.esp,token,yes,you_need_to_leave__alias=questgiver__alone..fuz,0x8BB 0x8BC 0x8BD,You need to leave <Alias=QuestGiver> alone.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,you_should_include__alias.shortname=eventchild1__when_you_make_friends..fuz,0xA8B 0xA8C,You should include <Alias.ShortName=EventChild1> when you make friends.
+FAMILY LIFE - Immersive Dialogue Expansion - Hearthfire,IDE Hearthfire.esp,token,yes,"you_took_a_friend_from__alias.shortname=eventchild1_,_did_you_.fuz",0xAA1,"You took a friend from <Alias.ShortName=EventChild1>, did you?"

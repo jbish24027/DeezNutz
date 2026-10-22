@@ -1,0 +1,33 @@
+== men _1: weddingoutfitm_1.nif
+  ok   Clothes: welded remainder area 10872.7 vs the source minus its pieces 10872.7 (90 of 90 split triangles tiled exactly by their children; 92 weld points)
+  ok   Clothes: split into 4 per triangle, area 15559.2 vs 15559.2
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 62
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\WeddingClothesM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / Clothes: 187 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  men Saia: points with physics 71%, of those on 2 chains 87%
+  ok   men _1: no rest contacts
+  ok   men _1: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+== men _0: weddingoutfitm_0.nif
+  ok   Clothes: welded remainder area 10551.2 vs the source minus its pieces 10551.2 (90 of 90 split triangles tiled exactly by their children; 92 weld points)
+  ok   Clothes: split into 4 per triangle, area 15227.8 vs 15227.8
+  ok   influences max 4, weight sums off by <= 3.7e-04, bones per shape max 62
+  ok   HDT -> ['SKSE\\Plugins\\hdtSkinnedMeshConfigs\\AuthoriaVanillaCoats\\WeddingClothesM.xml']
+  ok   XML shapes in the mesh: all
+  ok   XML bones are nodes / skeleton: all
+  ok   collision-shape bones declared: all
+  ok   120 constraints, bodies declared
+  ok   72 rig nodes, all declared
+  ok   seam Saia / Clothes: 187 piece boundary pts on the remainder edge, T-junctions 0, weight mismatches 0
+  ok   men _0: no rest contacts
+  ok   men _0: no rest contacts by triangle plane (in front within the margins / behind within the catch)
+  ok   men: _0 and _1 have the same shapes, points and triangles
+  ok   men weights: every hanging piece rests clear of its copy (margins + 0.4) with no in-facing copy triangle at weights 0.0..1.0 step 0.1 (0 pairs)
+  ok   men: no copy triangle dropped
+ALL OK
+
+EXIT 0

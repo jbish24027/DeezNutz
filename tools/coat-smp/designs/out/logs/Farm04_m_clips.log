@@ -1,0 +1,17 @@
+== Farm04 m _1: robem_1.nif; leg pieces Front pen 3.0 margin 0.4, Back pen 3.0 margin 0.4, Side pen 1.5 margin 0.4; points Skirt Front 120, Skirt Side 341, Skirt Back 289
+   clip      frames   entered  caught  HOOKED  PINCHED  unseen   (summed over every 2nd frame; worst frame = most unseen in one frame)
+   walk         18       732     316      29        0     387   worst frame unseen 44
+      Skirt Front          entered   431 hooked   14 unseen  189  unseen z p10 42.2 p50 47.0 p90 51.1
+      Skirt Side           entered   236 hooked   15 unseen  138  unseen z p10 44.3 p50 49.4 p90 53.6
+      Skirt Back           entered    65 hooked    0 unseen   60  unseen z p10 52.9 p50 56.8 p90 58.7
+   run          10       603     105      16        0     482   worst frame unseen 211
+      Skirt Side           entered   204 hooked    8 unseen  191  unseen z p10 44.2 p50 45.2 p90 51.6
+      Skirt Front          entered   183 hooked    8 unseen   84  unseen z p10 42.2 p50 46.9 p90 50.9
+      Skirt Back           entered   216 hooked    0 unseen  207  unseen z p10 44.3 p50 45.2 p90 55.0
+   sprint       10       711     156      35        0     520   worst frame unseen 175
+      Skirt Side           entered   257 hooked   11 unseen  195  unseen z p10 42.6 p50 45.6 p90 50.0
+      Skirt Front          entered   199 hooked   24 unseen   76  unseen z p10 42.2 p50 42.4 p90 48.4
+      Skirt Back           entered   255 hooked    0 unseen  249  unseen z p10 44.3 p50 45.2 p90 52.9
+SUMMARY clips worst unseen/frame: 211
+
+EXIT 0

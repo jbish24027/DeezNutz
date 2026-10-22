@@ -1,0 +1,24 @@
+===== Farm04
+piece Saia <- upperbody ('islands', 0, {4585: 1549, 4517: 776, 2087: 75, 3324: 61}, (), 76.0): 1139 pts / 2042 tris (skirt:outer)
+skirt axis (-2.08, 2.71); slits (centre, half-width, top): none (all round); per-layer tops {'outer': []}; 12 chains at 0 30 60 90 120 150 -180 -150 -120 -90 -60 -30
+no belt; no flaps; no bag
+skirt rows (anchor..hem): 0:73.5/67.2/61.0/54.7/48.5/42.2; 30:73.5/67.3/61.0/54.8/48.5/42.3; 60:73.5/67.3/61.1/54.8/48.6/42.4; 90:73.5/67.5/61.6/55.6/49.6/43.6; 120:73.5/67.9/62.2/56.6/51.0/45.3; 150:73.5/67.7/62.0/56.2/50.4/44.7; -180:73.5/67.6/61.8/55.9/50.1/44.2; -150:73.5/67.7/62.0/56.2/50.5/44.7; -120:73.5/67.8/62.1/56.4/50.7/45.0; -90:73.5/67.6/61.6/55.7/49.7/43.8; -60:73.5/67.3/61.2/55.0/48.8/42.7; -30:73.5/67.2/61.0/54.7/48.5/42.2
+tip rows ; flap hinges 
+legs from upperbody (1280 tris above z 15.0), winding outward 100%
+m: lining to the trousers at rest: p10 0.20 median 2.40; free share p10 0.41 median 0.85
+m: Saia is cut out of upperbody: 68 seam points (z 74.0..75.9) keep its weights, physics fading in over 4.0
+m: Saia lining rides the sheet: 647 of 697 lining pts (z 42.2..58.7) take the sheet's weights at their spot; 50 project onto no sheet and keep their own
+m: skirt Saia 4316 pts (3235 move); tip 0 pts
+m: legs collider pulled in at 236 of 714 pts (max 3.00); lining points Saia 750/758
+m: skirt-outer collider 0 tris (pulled in max 0.00), flap-outer 0 tris, skirt-under-tip 0 tris (pulled in max 0.00); 
+m: Saia: 4 seam points pinned to the remainder's weights
+m: upperbody: 66 seam points of ['Saia'] to weld into the remainder
+m: upperbody: 66 of 66 seam points welded into the remainder (66 triangles split)
+m_1: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/farmclothes04/robem_1.nif; shapes (pts, tris) {'HIMBO - Body': (650, 1098), 'upperbody': (4911, 8590), 'Saia': (4316, 8168), 'AFM4 Legs Front': (300, 461), 'AFM4 Legs Back': (366, 566), 'AFM4 Legs Side': (548, 776), 'AFM4 Skirt Front': (120, 178), 'AFM4 Skirt Side': (341, 469), 'AFM4 Skirt Back': (289, 473), 'VirtualGround': (4, 2)}; bones per shape {'HIMBO - Body': 13, 'upperbody': 27, 'Saia': 73, 'AFM4 Legs Front': 5, 'AFM4 Legs Back': 5, 'AFM4 Legs Side': 5, 'AFM4 Skirt Front': 17, 'AFM4 Skirt Side': 31, 'AFM4 Skirt Back': 18, 'VirtualGround': 1}
+m: Saia: 4 seam points pinned to the remainder's weights
+m: upperbody: 66 seam points of ['Saia'] to weld into the remainder
+m: upperbody: 66 of 66 seam points welded into the remainder (66 triangles split)
+m_0: wrote C:/1. AUTHORIA/_tools/coat-smp/designs/stage/m/meshes/clothes/farmclothes04/robem_0.nif; shapes (pts, tris) {'HIMBO - Body': (650, 1098), 'upperbody': (4911, 8590), 'Saia': (4316, 8168), 'AFM4 Legs Front': (300, 461), 'AFM4 Legs Back': (366, 566), 'AFM4 Legs Side': (548, 776), 'AFM4 Skirt Front': (120, 178), 'AFM4 Skirt Side': (341, 469), 'AFM4 Skirt Back': (289, 473), 'VirtualGround': (4, 2)}; bones per shape {'HIMBO - Body': 13, 'upperbody': 27, 'Saia': 73, 'AFM4 Legs Front': 5, 'AFM4 Legs Back': 5, 'AFM4 Legs Side': 5, 'AFM4 Skirt Front': 17, 'AFM4 Skirt Side': 31, 'AFM4 Skirt Back': 18, 'VirtualGround': 1}
+m: wrote SKSE\Plugins\hdtSkinnedMeshConfigs\AuthoriaVanillaCoats\FarmClothes04M.xml (433 lines); cross-slit links [(0, 1, None), (1, 2, None), (2, 3, None), (3, 4, None)]
+
+EXIT 0

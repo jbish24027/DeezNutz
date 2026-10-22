@@ -1,0 +1,186 @@
+{
+ "lens": "picta-colour",
+ "summary": "PICTA COLOUR ANATOMY (live profile DEEZ CS NUTZ - PICTA, read 2026-10-17, epoch e2-2e8a422a1a87271e; Bottled 1.0.11 installed, source read = Bottle-Compendium HEAD d3c38b2136 2026-10-16).\nRECORDS: 23 MASTER weathers (A01-A03, B01-B03, C01-C05, D01-D06, E01-E06 = 19FA01..19FE06; not 22) all won by 'Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp'; 5 summer copies 5AFA01-03/5AFB01-02 defined by 'Authoria - Patch - Picta Seasonal.esp'. Every region in Tamriel, Solstheim (000800 DB), Forgotten Vale and LotD worldspaces rotates only these 28; Solstheim's own 1A0301-1A0310 and MQ 1B0008-1B0013 are empty all-zero stubs, unreferenced. MQ uniques 1B0001-1B0007 win from the esm, their vanilla-ID twins (12F89, C821E, C8221, D9329) from Picta - Weathers of Skyrim.esp, 24 vanilla/DLC weathers (Sovngarde, Soul Cairn, Apocrypha, FX) from 'Authoria - Picta over NAT.esp' (a verbatim forward of the esm's vanilla-valued copies over NAT-ENB.esp).\nRecord colour is NEUTRAL except light: sky upper/lower/horizon = 125 grey (Sunrise/Day/Sunset) and 75 at night on all 28 (shipped 1.1.1 night = 125; Darkened patch set 75). FogNear 5 grey; FogFar grey by class (A/B 125, C 100, D 75, E 50 day; 75/50 other TODs). Coloured record fields: SunlightColor 250,100,0 / 255,255,255 / 250,80,0 / 120,170,250 (summer day 255,241,220); SunColor 250,150,50 / white / 250,135,35; DALC strongly blue (clear day sides 28,63,154, Z+ 20,45,110, Z- 40,90,220; overcast/storm/snow 50-100,75-130,104-160; specular 0, fresnel(Scale) 1); WaterMultiplier bluish 70,80,90 day; cloud layers white 250 (night 175) + Cloud_Fog layers 27/28 grey by class; IMGS tints blue 40,90,220 (clear) / 70,120,220 / 130,180,220 / 160,180,200 / 40,70,100 at 0.05-0.2 (aurora nights teal 0.3) with saturation 1.05-1.3. VOLI: every rotating VOLI is white (1,1,1, custom 0, density 0); only mist VOLIs 15A021-23 carry density and the Darkened patch unlinked them; the Picta plugin ini in the override sets fVolumetricLightingIntensity=0.0.\nE11: winner of _weatherlist.ini, enbseries.ini, root enbeffect/enbbloom/enbadaptation .fx.ini and all 40 routed files = 'Authoria - Picta 1.1.2 - Darkened to 1.0.1' (enbeffectpostpass.fx.ini from the shipped 1.1.2 Data mod; SH2 .fx from '[NoDelete] Silent Horizons 2 - Data'; DOF from the July DOF mod). Routing = 13 MQ files + 21 master files (23 ids + 4 vanilla tundra ids on B01) + 3 Authoria interior templates (fake ids AA001/4/7 via _locationweather) + 3 summer files (5 ids). Everything else (Apocrypha, Soul Cairn, Sovngarde, Helios interiors, vanilla weathers in Bruma/Olenveld/Wyrmstooth) is UNROUTED -> base ini (GradientIntensity 50, AmbientLightingIntensity 23, FogColorMultiplier 12.5, DirectLighting 1.0 from the 10-14 editor save). Live log 03:48 today: preset loaded from Data\\enbseries, location weather loaded, 46 weathers in ExtendedEffect.\nWHERE THE HUE LIVES (verified in Bottled Effects11.cpp OverrideWeather + SkyScattering.hlsli + Sky.hlsl): CONFIRMED - sky = grey record x GradientTop/HorizonColorFilter (day 0.031,0.169,0.404 / 0.071,0.208,0.62; Middle filter is white) x band intensity (Top 0.075 day, 0.5 dawn; Horizon 0.5) x GradientIntensity 0.3, then x(1+AirGlow 1000/(1+away*range)) (brightness only) and a lerp toward ScatteringColor(1,1,1) x graded sun colour (ColorFromSun 1.0) x Intensity 4/6/10 which makes the warm sunward band at sunrise/sunset; DustDarkening 0.8-0.9 suppresses horizon whitening. Clouds = record x CloudsColorFilter (== FogColorFilter, blue) x CloudsIntensity + scattering sunlight. Fog = grey FogFar x FogColorFilter x FogColorMultiplier (2.5 day clear, 0.075 night). Sun/direct light = record sunlight -> DirectLightingDesaturation (-0.5 dawn..sunset oversaturates orange; 1.0 at Day = fully neutral; 0.25-0.75 night) -> DirectLightingColorFilter (== SunColorFilter == MoonColorFilter == GAMEVOLUMETRICRAYS filter) x Intensity (0.75/2/4/2/0.75/8). Ambient has NO E11 colour filter: hue = record DALC, E11 only desaturates (0-0.3) and scales. SH2 'CG.AGIS.|- Enable=true' + Bottled passes IMGS cinematic sat/tint as Params01 -> record IMGS blue tint is in the stack. Weather grades: CG.HDR tint neutral 0.98 grey @0.1, KiSuite tints neutral; teal 0.725,0.98,0.922 only in root enbeffect (unrouted) and interior templates. ColorPow 1.5 everywhere (albedo deepening).\nPALETTE (weighted over Tamriel region lists, pre-tonemap linear model): Day - zenith blue h215 s0.75, horizon h223 s0.66, sun near-white warm h30 s0.07 (summer h32 s0.13), ambient blue h221 s0.59, fog blue h221 s0.65, clouds blue-tinted h221 + white sunlit. Sunrise/Sunset (9-10 / 17-18.75) - sun saturated orange-red h17/h11 s1.0 at 2.0x, sky blue h216 zenith / h224-226 horizon, ambient lavender-blue h231-233 s0.37, fog h222. Dawn/Dusk (5.5-9 / 18.75-20.5) - sun red h5-9 at 0.75x, horizon violet-purple h259-270 s0.34-0.37, zenith blue h219-221, fog/ambient dark blue. Night (20.5-5.5) - moonlight blue h221 s0.68 at 8.0x, sky deep navy h215 s0.77, ambient blue h221, fog near-black blue, IMGS +0.2 blue tint (aurora: teal). Storm/snow weathers are the desaturated ones (sky h198-204 s0.3-0.4, CG saturation up to 1.3-1.35).\nPIPELINE: picta_darken_v3_full.py builds the override from 1.1.2 (all colour keys kept: regex saturat|hue|tint|vibran|colour balance|filter, so every *Desaturation and *ColorFilter is shipped 1.1.2) + 1.0.1 numbers + TRIM_EV + AMBIENT_GAIN + user_edits_*.json + overlay (nudge, interiors, summer copies derived from nudged masters, location list, EnableLocationWeather); --write rmtree's DSTM/enbseries. sync_root_twin.py mirrors 5 files into the shared Root twin (hard-coded PICTA modlist). Override + twin are enabled in PICTA AND Preset Studio HPH.",
+ "facts": [
+  {
+   "claim": "There are 23 PIC_WTHR_MASTER weathers (A01,A02 Aurora,A03 Mist,B01,B02 Aurora,B03 Misty Fog,C01-C05,D01-D06,E01-E06), all won by the Darkened records patch; the 5 summer copies 5AFA01-03/5AFB01-02 are won by the Picta Seasonal ESL.",
+   "evidence": "housecarl_records types=WTHR plugins=Picta esm/Darkened/Seasonal (winner column); scratch picta_wthr_colours.json",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Sky upper, sky lower and horizon record colours are flat grey 125,125,125 at Sunrise/Day/Sunset and 75,75,75 at Night on all 28 rotating weathers; FogNear is 5,5,5 on all; FogFar day is 125 (A/B), 100 (C), 75 (D), 50 (E), summer 127,124,120.",
+   "evidence": "picta_wthr_colours.json, distinct-value tabulation over 19F*/5AF* records",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Darkened records patch changed colours versus shipped 1.1.1: night sky/horizon 125->75, FogFar day 150->125 (class-wise), DALC scaled down ~5-28% per weather, cloud layers 27/28 colours, and reverted the mist weathers (A03/B03/C03) fog distances 50000->150000 plus VOLI links to the non-mist sets; CLMT PIC_CLMT_Skyrim sunrise end 08->09, sunset begin 18->17.",
+   "evidence": "darkened_patch_delta.jsonl (housecarl delta source=Darkened versus previous_provider); _tools/picta-bridge/picta_darken_records_patch.py header and tables",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Every region in Tamriel (965 list entries), Solstheim (000800:Dragonborn.esm), Forgotten Vale (000BB5:Dawnguard.esm) and the LotD worldspaces uses only the 23 masters + 5 summer weathers; Solstheim-specific 1A0301-1A0310 and MQ 1B0008-1B0013 are empty all-zero stubs with no references.",
+   "evidence": "regn_weather_census.json (REGN Weather.Weathers winners); housecarl references= on the stubs returned only 1B0006 (Blackreach REGN) and 1B0007 (Blackreach CLMT, WeatherExceptionList)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "E11 routing winner is the Darkened override: 40 routed files (13 MQ, 21 masters, 3 Authoria interiors, 3 Authoria summer); the shipped _worldspaceweatherlist.ini and Picta - Interiors files are not read/routed; Bottled reads only enbseries/_weatherlist.ini (+_locationweather.ini).",
+   "evidence": "vfs_enb_picta.json (VFS winners over enabled mods + overwrite); bottled_src/src_Features_Effects11_WeatherManager.cpp lines 25-80, 144",
+   "confidence": "proven"
+  },
+  {
+   "claim": "E11 file names are offset from esm EditorIDs: A01_Clear.ini serves 19FA01+19FA02 (Clear + Clear_Aurora), A02_Clear_Mist.ini serves 19FA03 (A03_Clear_Mist), B01 file serves 19FB01+19FB02, B02_Lightly_Cloudy_Misty_Fog.ini serves 19FB03.",
+   "evidence": "_weatherlist.ini sections WEATHER401/402/411/412 in mods/Authoria - Picta 1.1.2 - Darkened to 1.0.1/enbseries",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Bottled grades record sky colours as Curve -> ColorFilter(amount 0) -> x GradientXIntensity x GradientIntensity -> Desaturation; ColorFilter(c,f,a)=lerp(c,1,a)*f, so a filter with Amount 0 still fully multiplies the record colour (Amount only replaces the record colour with white).",
+   "evidence": "bottled_src/src_Features_Effects11.cpp lines 436-468 (helpers) and 660-697 (OverrideWeather sky bands)",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Fog colour = record FogFar/FogNear -> FogColorCurve -> FogColorFilter (amount) -> x FogColorMultiplier; fog distances are divided by FogAmountMultiplier and fogPower multiplied by FogCurveMultiplier; direct light = sunlight x sunlightScale -> Curve -> Desaturation -> DirectLightingColorFilter -> Intensity -> / sunlightScale; ambient (DALC) gets only Desaturation + Intensity (no colour filter).",
+   "evidence": "bottled_src/src_Features_Effects11.cpp lines 506-604 and 748-758",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Sky dome scattering: result = sky*(1+AirGlow/(1+away*AirGlowRange')), lerped toward ScatteringColor*Intensity (ScatteringColor pre-multiplied by graded sun colour via ColorFromSun and sunFade) by Amount^2/(1+away*spread), times SunGlow; clouds = record*texture -> CloudsCurve -> CloudsDesaturation -> x CloudsIntensity x CloudsColorFilter, plus scattering sunlight.",
+   "evidence": "bottled_src/features_Effects11_Shaders_Effects11_SkyScattering.hlsli lines 74-104, 199-258; package_Shaders_Sky.hlsl lines 373-434; src_Features_Effects11.cpp lines 161-236",
+   "confidence": "likely"
+  },
+  {
+   "claim": "In every Picta master/summer file CloudsColorFilter == FogColorFilter and SunColorFilter == DirectLightingColorFilter == MoonColorFilter == GAMEVOLUMETRICRAYS ColorFilter (140/144 and 136/144 period cells equal, differences are rounding); all *ColorFilterAmount = 0; ScatteringColor 1,1,1 and ColorFromSun 1.0 everywhere; AirGlowIntensity 1000 everywhere.",
+   "evidence": "picta_e11_colour_table.json / picta_e11_variance.json (variance_e11.py)",
+   "confidence": "proven"
+  },
+  {
+   "claim": "A01 Clear Day E11 colour keys: GradientTopColorFilter 0.0314,0.169,0.404; GradientHorizonColorFilter 0.0706,0.208,0.62; GradientMiddleColorFilter 1,1,1; CloudsColorFilter/FogColorFilter 0.157,0.353,0.863; VOLUMETRICFOG ColorFilter 0.275,0.471,0.922 Opacity 0.01; Sun/DirectLightingColorFilter 0.98,0.941,0.902; DirectLightingDesaturation 1.0 (Dawn..Sunset -0.5, Night 0.25); AmbientLightingDesaturation 0.15; ColorPow 1.5.",
+   "evidence": "mods/Authoria - Picta 1.1.2 - Darkened to 1.0.1/enbseries/Picta - Weathers/00_Master/A01_Clear.ini via show_e11.py",
+   "confidence": "proven"
+  },
+  {
+   "claim": "SH2's Apply Game ImageSpace module is enabled (CG.AGIS.|- Enable=true, Always use deltas=true) and Bottled passes the game imagespace cinematic saturation/contrast/brightness and tint colour+amount as Params01[3]/[4], so Picta's IMGS blue tints (e.g. 40,90,220 @0.1 day, @0.2 night, sat 1.1/1.2) enter the grade.",
+   "evidence": "enbseries/enbeffect.fx.ini line 477 (override); bottled_src/all ENBEffect.cpp lines 54-86; picta_imgs_by_weather.json",
+   "confidence": "likely"
+  },
+  {
+   "claim": "E11 [TIMEOFDAY] (base ini only) = DawnDuration 3.5, SunriseTime 9, DayTime 10, SunsetTime 17, DuskDuration 3.5, NightTime 20.5 -> Night 20.5-5.5, Night->Dawn 5.5-7.25, Dawn->Sunrise 7.25-9, Sunrise->Day 9-10, Day->Sunset blends continuously 10-17 (day weight^0.6), Sunset->Dusk 17-18.75, Dusk->Night 18.75-20.5; record climate PIC_CLMT_Skyrim sunrise 06-09, sunset 17-20.",
+   "evidence": "override enbseries.ini [TIMEOFDAY]; bottled_src/src_Features_Effects11_EffectManager.cpp lines 902-1004; housecarl CLMT fields_source=winner",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Unrouted weathers (Apocrypha 034CFB, Soul Cairn, Sovngarde, Helios interior weathers, vanilla weathers still in Bruma/Olenveld/Wyrmstooth lists) render with the base ini regime: GradientIntensityDay 50, AmbientLightingIntensityDay 23, FogColorMultiplierDay 12.5, DirectLightingIntensity 1.0 (10-14 editor save), root CG.HDR teal tint 0.725,0.98,0.922 @0.1.",
+   "evidence": "show_e11.py BASE; root_fx in picta_e11_colour.json; user_edits_20261014.json",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Rotating VOLI records carry no colour (ColorR/G/B 1, CustomColorContribution 0) and no density; game volumetric lighting is muted lane-wide by the plugin ini 'Picta - Weathers of Aurbis.ini' in the override (fVolumetricLightingIntensity=0.0).",
+   "evidence": "picta_voli.json (fields_source=winner); diff of override vs shipped 'Picta - Weathers of Aurbis.ini'",
+   "confidence": "proven"
+  },
+  {
+   "claim": "E11 [VOLUMETRICFOG] drives effect-shader fog meshes (GrayscaleToAlpha, not lit/particle): alpha *= Opacity, colour *= Intensity x ColorFilter; Picta masters set Opacity 0.01 (A), 0.025 (B), 0.05 (C), 0.1 (D01) up to 0.6-1.0 for storms/heavy fog.",
+   "evidence": "bottled_src/all Effect.hlsl lines 698-841 (isEnbVolumetricFog); picta_e11_variance.json",
+   "confidence": "likely"
+  },
+  {
+   "claim": "MQ uniques reference VOLI that do not exist in the 1.1.1 esm (1B0001/0C821E -> 15A041-44; 1B0002/012F89 -> 15A030-32; 1B0004/0C8221 -> 15A033-36; only 15A000-15A029 exist) and Soul Cairn regions reference missing 1B0045.",
+   "evidence": "picta_wthr_colours.json voli fields; housecarl VOLI list (30 records 15A000-15A029); regn_weather_census.json WS 001408",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The Darkened override mod and the Root twin are enabled in both 'DEEZ CS NUTZ - PICTA' and 'Authoria - Preset Studio - HPH'; the twin's 5 files are md5-identical to the override (enbeffectpostpass from the shipped Data mod).",
+   "evidence": "grep of profiles/*/modlist.txt; md5sum of the five files 2026-10-17",
+   "confidence": "proven"
+  },
+  {
+   "claim": "picta_darken_v3_full.py keeps every key matching /saturat|hue|tint|vibran|colou?r ?balance|filter/ (so all *Desaturation and *ColorFilter) at shipped 1.1.2 values, copies other numbers from 1.0.1, and on --write does shutil.rmtree(DSTM\\enbseries) for DSTM='Authoria - Picta 1.1.2 - Darkened to 1.0.1'; the overlay builds summer files from the already-nudged master data in the plan.",
+   "evidence": "_tools/picta-bridge/picta_darken_v3_full.py lines 23-29, 274-280; picta_authoria_overlay.py lines 273-280",
+   "confidence": "proven"
+  },
+  {
+   "claim": "The weighted Picta palette is blue-dominant at every period: day zenith h215 s0.75, horizon h223 s0.66, sunlight h30 s0.07, ambient h221 s0.59, fog h221 s0.65; sunrise/sunset sun h17/h11 s1.0; dawn/dusk horizon violet h259-270; night moonlight h221 s0.68 at DirectLightingIntensity 8.",
+   "evidence": "picta_palette_summary.json (palette.py model over picta_palette_model.json, weights = Tamriel region-list counts); pre-tonemap linear, SH2 tonemap/adaptation not modelled",
+   "confidence": "likely"
+  },
+  {
+   "claim": "Effects 11 was live on the Picta lane today: 'Preset loaded from ...Stock Game\\Data\\enbseries', 'Loaded location weather for 1 worldspaces', four encrypted FX compiled through the ENB Extender, ExtendedEffect weather data for 46 weathers.",
+   "evidence": "C:/Users/User/Documents/My Games/Skyrim Special Edition/SKSE/CommunityShaders.log 03:48:30-03:48:33",
+   "confidence": "proven"
+  },
+  {
+   "claim": "Mists of Tamriel (enabled in both lanes) places ~1033 mist statics/refs and overrides 17 vanilla weathers + DefaultWeather; it touches no Picta weather.",
+   "evidence": "housecarl_records plugins=Mists of Tamriel.esp aggregate by type and WTHR list",
+   "confidence": "proven"
+  }
+ ],
+ "implications_for_blend": [
+  "Transplant Astralite SKY hue into Picta as E11 filter edits (GradientTopColorFilter / GradientHorizonColorFilter per period in each routed weather ini) and keep Picta's grey 125/75 sky records. Putting Astralite's coloured record sky values into Picta records while the blue E11 filters stay would tint twice.",
+  "Blend hue and saturation only, and keep each Picta filter's luminance (Picta's brightness was tuned by Darkened v3 + TRIM_EV + AMBIENT_GAIN). Example: new filter = Picta luminance x lerp(Picta chroma, Astralite chroma, t). Never port Astralite/Soul Core intensities (GradientIntensity, AirGlow, scattering Intensity). The two regimes are coupled pairs about 1000x apart.",
+  "Edit Picta's tied groups together. CloudsColorFilter goes with FogColorFilter (VOLUMETRICFOG ColorFilter is the lighter sibling). SunColorFilter goes with DirectLightingColorFilter, MoonColorFilter and GAMEVOLUMETRICRAYS ColorFilter. Otherwise clouds and fog, or sun disc, light and god rays, drift apart.",
+  "Light colour has three levers: record SunlightColor/SunColor (new ESL after the Darkened patch and the Seasonal ESL, with the Seasonal ESL as master for the 5 summer ids), E11 DirectLightingColorFilter, and E11 DirectLightingDesaturation. Picta's DirectLightingDesaturationDay of 1.0 erases any record hue at Day, so an Astralite warm day sun only shows if that value drops (the summer variant uses 0.6).",
+  "Ambient hue can come only from record DALC: E11 has no ambient colour filter, only AmbientLightingDesaturation and Intensity. So Astralite ambient tones need DALC overrides in a new ESL. Use AmbientLightingDesaturation as the strength dial.",
+  "Fog colour = Picta grey FogFar x FogColorFilter x FogColorMultiplier. To inherit Astralite fog colour, change the filter chroma, not the record grey. Fog density lives in record fog distances divided by E11 FogAmountMultiplier (1 for clear, 6-10 for storm and heavy fog), with FogCurveMultiplier as power. The Darkened patch reverted Picta 1.1.1's mist fog distances, so today's Picta mist weathers have clear-weather fog.",
+  "Record VOLI fog/mist has no effect in this lane while the override's plugin ini keeps fVolumetricLightingIntensity=0.0. E11 VOLUMETRICFOG Opacity of 0.01-0.1 on clear and cloudy masters probably hides effect-shader mist meshes. The fog lens must fix both before Astralite mists can show.",
+  "Map Astralite onto Picta by period, not by clock. Picta E11 has 6 exterior periods on its own [TIMEOFDAY] (base ini only: 5.5/7.25/9/10/17/18.75/20.5, with Day->Sunset blending from 10:00 to 17:00). Records have 4 TODs on climate 06-09 / 17-20. Astralite's Sunrise record maps to Picta Dawn+Sunrise, and Sunset to Sunset+Dusk.",
+  "Picta has only 23+5 generic weathers shared by every region. Map Astralite weather classes onto them with v3's category() function (clear/light/cloudy/overcast/storm + rain/snow + fog), not per region.",
+  "Build the baby lane as a NEW full-fork override mod (a parameterised copy of v3 with DSTM pointing to the new folder), with the Darkened override disabled in the new profile. Insert the blend stage after user edits and before overlay.apply(), so the summer copies inherit the blend. Give it its own Root twin and its own verify target. A sparse overlay mod would let Effects 11 editor saves land in the shared Picta/HPH mods.",
+  "Records side: one new ESL in the new profile, loading after 'Authoria - Patch - Picta 1.1.1 - Darkened to 1.0.1.esp' and the Seasonal ESL. It overrides only colour fields (DALC, Sunlight/Sun colour, cloud layer colours, IMGS tint if wanted) of the 28 rotating weathers. Weathers that are unrouted in E11 (Apocrypha, Sovngarde, Helios interiors) render with the base ini and need separate handling.",
+  "If any Astralite WTHR records become active in the new profile, they are unrouted (white-sky base regime) unless added to _weatherlist.ini. Their IDs are masked to 24 bits, so check for collisions with Picta's 19FAxx/5AFAxx/1B00xx. One WeatherIDs line holds at most 1024 characters (GetPrivateProfileString buffer).",
+  "The IMGS tint is applied through SH2 AGIS. Picta's blue IMGS tints (0.05-0.2, aurora 0.3) are part of the look. Swapping imagespaces to Astralite's would also bring Astralite's grade intent. Prefer blending only the tint colour."
+ ],
+ "traps": [
+  "A ColorFilterAmount of 0 does NOT switch a filter off in Bottled. ColorFilter(c,f,a)=lerp(c,1,a)*f, so every Picta filter multiplies its record colour. Amount 1 makes the output the pure filter colour.",
+  "v3's COLOUR regex also matches 'saturat', so all *Desaturation keys (DirectLightingDesaturation -0.5/1.0 etc.) are shipped 1.1.2 values. Any blend touching them changes Picta's tone, not just its brightness.",
+  "E11 file names do not equal esm EditorIDs. A02_Clear_Mist.ini is record 19FA03 A03_Clear_Mist; A01_Clear.ini also serves 19FA02 Clear_Aurora; B02_..._Misty_Fog.ini is 19FB03.",
+  "houseCARL plugins-scoped scans show the scoped plugin's values unless fields_source='winner'. A first VOLI dump showed esm values instead of the Darkened winners.",
+  "The live lane is NOT shipped Picta 1.1.1. Night sky 75 (shipped 125), FogFar 125/100/75/50 (shipped 150/...), DALC scaled 0.72-0.99, and mist weathers de-misted, all come from the Darkened patch. Compare Astralite against the live winners, not the esm.",
+  "The Darkened override and Root twin are shared with 'Authoria - Preset Studio - HPH'. A v3 --write rmtree's the override's enbseries folder for both lanes.",
+  "Summer E11 files are generated from master data inside the v3 plan. A blend that edits only 00_Master files after the build leaves the 5AFA01.. summer weathers on pure Picta colours, and the next v3 rebuild wipes any hand edits.",
+  "The Effects 11 editor Save writes into whichever mod owns each file via the VFS. A baby profile that does not fully fork the override leaks saves into the Picta lane's override, the shipped 1.1.2 Data mod (postpass) and the July DOF mod.",
+  "The MQ stubs 1B0008-1B0013 and the Solstheim 1A0301-1A0310 records are all-zero and unreferenced, so they are not blend targets. MQ 1B0001/1B0002/1B0004 point at nonexistent VOLI 15A030-15A044, and Soul Cairn regions point at missing 1B0045 (author defects).",
+  "The linear palette model shows dawn zeniths brighter than day: GradientTopIntensityDawn is 0.5 vs Day 0.075, and AirGlow has no sun-height term. The SH2 tonemap and adaptation are encrypted and not modelled. Use the model for hue and saturation, not absolute brightness.",
+  "The Bottled source read is branch HEAD 2026-10-16. The installed DLL is 1.0.11 (Oct 10), so the formulas are assumed stable (they match the 1.0.4-era memory notes).",
+  "_locationweather.ini [0] must stay bare lines under the 32 KB profile-API buffer. Any new interior routing for the baby lane follows the same rule."
+ ],
+ "files_written": [
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_wthr_colours.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/wthr_winners_everything.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/other_weathers.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/darkened_patch_delta.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_voli.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/voli_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_imgs.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_imgs_by_weather.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/imgs_winners.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/regn_weather_picta.jsonl",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/regn_weather_census.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/vfs_enb_picta.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_e11_colour.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_e11_colour_table.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_e11_variance.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_palette_model.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_palette_summary.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/picta_pipeline_map.json",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/vfs_enb.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/regn_census.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/parse_wthr.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/show_dalc.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/extract_e11.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/show_e11.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/variance_e11.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/table_e11.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/palette.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/palette_summary.py",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/wthr_ids.txt",
+  "C:/Users/User/AppData/Local/Temp/claude/C--Users-User--claude-spares-spare-39aXjK/91294a0d-ce03-47eb-8c5f-7425e9bd2ed4/scratchpad/baby/map/picta-colour/bottled_src"
+ ],
+ "open_questions": [
+  "SH2 is encrypted, so the exact way CG.AGIS applies the game imagespace tint and saturation ('Always use deltas=true', clamps 0.5-1.5) cannot be read. It is enabled, but its weight on the final picture is unmeasured.",
+  "Do the Mists of Tamriel mist meshes take Bottled's ENB volumetric-fog path (effect shader, GrayscaleToAlpha, no lighting, not a particle), so that Picta's VOLUMETRICFOG Opacity 0.01-0.1 hides them in clear weather? Needs a NIF shader-flag check by the fog lens.",
+  "Does the new profile keep the override's plugin ini 'Picta - Weathers of Aurbis.ini' (fVolumetricLightingIntensity=0.0)? It decides whether Astralite VOLI fog can show at all.",
+  "How should Astralite's 4-TOD record colours and Soul Core's E11 period values map onto Picta's 6 periods and its [TIMEOFDAY] 5.5/7.25/9/10/17/18.75/20.5? This needs the Astralite lens's TIMEOFDAY and Soul Core base-ini values.",
+  "Does the user want Astralite's warmer DAY sunlight? Showing it requires lowering Picta's DirectLightingDesaturationDay (1.0) on the master weathers, which changes tone, not just strength.",
+  "The ExtendedEffect log reports 46 weathers while the list routes 52 IDs in 40 files. The counting rule is unverified; it does not block a blend.",
+  "Should the baby lane also re-tint the unrouted weathers (Apocrypha, Sovngarde, Helios interior weathers) that run on the base ini? Today those use the base regime and the root teal grade."
+ ]
+}

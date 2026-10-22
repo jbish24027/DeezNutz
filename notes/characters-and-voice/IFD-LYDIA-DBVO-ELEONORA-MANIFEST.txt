@@ -1,0 +1,412 @@
+# IFD Lydia 4.2.2 — Eleonora DBVO lines to generate
+# Generated 2026-08-21 from the plugin text. One line per prompt: <target filename>  TAB  <text to speak>.
+# Filename rule verified against Kaidan IF (2802/2876 match): spaces and \ / : * ? " < > | become '_'; everything else (quotes, commas, periods, parentheses, curly apostrophes) is kept.
+# Drop into: Sound\DBVO\elnordvoice\  (same folder as the existing pack).
+# Parenthetical tags such as '(Persuade)' or '(Character Level)' stay in the FILENAME but should not be spoken.
+# Lines whose whole text is a stage direction like '(Remain silent)' were left out of the pack for Kaidan IF too — do the same here.
+
+## ImprovedCompanionsBoogaloo.esp — 358 lines to generate (49 already in the pack)
+
+In_hindsight,_I_never_really_loved_you_that_much..fuz	In hindsight, I never really loved you that much.
+I'm_sorry,_I_made_a_horrible_mistake._Can_you_give_me_another_chance,_Lydia_.fuz	I'm sorry, I made a horrible mistake. Can you give me another chance, Lydia?
+That_tradition_exists_because_people_die_quickly_here._Out_of_everyone_in_Skyrim,_we_arguably_live_the_most_dangerous_lives..fuz	That tradition exists because people die quickly here. Out of everyone in Skyrim, we arguably live the most dangerous lives.
+You're_right,_it'd_be_too_sudden..fuz	You're right, it'd be too sudden.
+You_don't_sound_very_enthusiastic_about_this..fuz	You don't sound very enthusiastic about this.
+(Character_Level)_You_really_don't_think_someone_like_me_could_slay_a_dragon__Better_than_the_guards,_at_least_.fuz	(Character Level) You really don't think someone like me could slay a dragon? Better than the guards, at least?
+(Character_Level)_You're_a_fool_to_doubt_me._I_slew_that_dragon_with_ease..fuz	(Character Level) You're a fool to doubt me. I slew that dragon with ease.
+Is_this_going_to_be_a_problem_.fuz	Is this going to be a problem?
+Yeah,_I'd_like_to_see_what_the_Greybeards_have_to_say..fuz	Yeah, I'd like to see what the Greybeards have to say.
+Of_course_not._I_have_a_couple_things_to_do_first..fuz	Of course not. I have a couple things to do first.
+You_finally_believe_that_I_killed_that_dragon_.fuz	You finally believe that I killed that dragon?
+_Do_you_get_to_the_cloud_district_very_often__Oh,_what_am_I_saying._Of_course_you_don't._.fuz	"Do you get to the cloud district very often? Oh, what am I saying. Of course you don't."
+I_agree_-_those_guards_were_heroes,_but_I_slew_that_dragon..fuz	I agree - those guards were heroes, but I slew that dragon.
+You_need_to_learn_your_place..fuz	You need to learn your place.
+Fair_enough._Some_people_are_skeptics..fuz	Fair enough. Some people are skeptics.
+Do_you_support_either_side_.fuz	Do you support either side?
+It's_sad_to_see_so_many_good_men_and_women_die_like_this,_only_to_be_forgotten..fuz	It's sad to see so many good men and women die like this, only to be forgotten.
+Forget_them._Farmers_with_swords_aren't_significant_people_for_a_reason..fuz	Forget them. Farmers with swords aren't significant people for a reason.
+_Nord_Nonsense___You're_a_Nord,_for_Mara's_sake..fuz	"Nord Nonsense"? You're a Nord, for Mara's sake.
+To_be_honest_with_you,_I'm_kind_of_surprised_by_it_all_myself..fuz	To be honest with you, I'm kind of surprised by it all myself.
+I'm_fine,_Lydia._Remember_who_you're_talking_to..fuz	I'm fine, Lydia. Remember who you're talking to.
+And_just_like_that,_the__You_don't_deserve_to_be_a_Thane__narrative_disappears..fuz	And just like that, the "You don't deserve to be a Thane" narrative disappears.
+Is_this_a_good_or_bad_thing_.fuz	Is this a good or bad thing?
+I_couldn't_do_this_alone._I'm_glad_to_have_you_here,_Lydia..fuz	I couldn't do this alone. I'm glad to have you here, Lydia.
+A_while_ago,_you_said_that_I_wasn't_worthy_of_your_service._I_haven't_forgotten..fuz	A while ago, you said that I wasn't worthy of your service. I haven't forgotten.
+(Flirt)_So_what_you're_saying_is_that_we_belong_together_.fuz	(Flirt) So what you're saying is that we belong together?
+(Flirt)_I've_never_met_anyone_like_you_either,_Lydia._.fuz	(Flirt) I've never met anyone like you either, Lydia. 
+That's_all_well_and_good,_but_we_need_to_find_an_Elder_Scroll._Come_on..fuz	That's all well and good, but we need to find an Elder Scroll. Come on.
+Fine._Let's_be_on_our_way_then..fuz	Fine. Let's be on our way then.
+You__Don't_think_of_me_that_way___That_just_means_you_can_still_take_it_into_consideration..fuz	You "Don't think of me that way?" That just means you can still take it into consideration.
+Actually,_it_wasn't_made_by_anyone._It_just_kind_of__is_..fuz	Actually, it wasn't made by anyone. It just kind of "is".
+It_certainly_isn't_something_you_come_across_every_day..fuz	It certainly isn't something you come across every day.
+You_sound_worried..fuz	You sound worried.
+(Flirt)_You_do_a_horrible_job_of_making_me_think_you_only_regard_me_as_a_Thane..fuz	(Flirt) You do a horrible job of making me think you only regard me as a Thane.
+Gods,_can_we_do_anything_without_you_talking_about_honor__.fuz	Gods, can we do anything without you talking about honor? 
+I'm_just_as_honored_by_this_as_you_are,_Lydia,_but_we_have_a_fight_to_finish..fuz	I'm just as honored by this as you are, Lydia, but we have a fight to finish.
+You_say_that_like_it's_bad_thing..fuz	You say that like it's bad thing.
+_Enticed_._Mara's_mercy,_Lydia,_is_that_the_best_you_can_do_.fuz	"Enticed". Mara's mercy, Lydia, is that the best you can do?
+When_did_I_say_anything_about_love__That's_not_what_I'm_after..fuz	When did I say anything about love? That's not what I'm after.
+Too_late._I've_already_fallen_in_love..fuz	Too late. I've already fallen in love.
+You_think_I_wouldn't_have_died_keeping_you_safe_right_after_we_met__That's_what_warriors_do..fuz	You think I wouldn't have died keeping you safe right after we met? That's what warriors do.
+Fair_enough._I_won't_mention_it_again..fuz	Fair enough. I won't mention it again.
+I_finished_the_fight._Alduin_is,_as_far_as_I_can_tell,_dead..fuz	I finished the fight. Alduin is, as far as I can tell, dead.
+It's_really_exhilarating,_you_know_that_.fuz	It's really exhilarating, you know that?
+They_should_fear_me,_not_idolize_me._.fuz	They should fear me, not idolize me. 
+You_gave_me_too_much_to_lose_back_in_Blackreach._I_had_to_win_that_fight..fuz	You gave me too much to lose back in Blackreach. I had to win that fight.
+It's_not_over._There's_still_plenty_of_problems_in_Skyrim_that_we_can_fix..fuz	It's not over. There's still plenty of problems in Skyrim that we can fix.
+Well,_you're_clearly_concerned..fuz	Well, you're clearly concerned.
+I'll_be_fine._I've_dealt_with_the_Daedra_before..fuz	I'll be fine. I've dealt with the Daedra before.
+I'm_worried_about_this,_too,_but_it_might_be_the_only_way_to_stop_Miraak..fuz	I'm worried about this, too, but it might be the only way to stop Miraak.
+He's_made_me_his_champion..fuz	He's made me his champion.
+My_life_isn't_over_yet,_Lydia._I'll_find_a_way_out_of_this..fuz	My life isn't over yet, Lydia. I'll find a way out of this.
+Mora_has_a_skewed_reputation._All_he_seeks_is_knowledge._I_see_no_problem_in_helping_with_that..fuz	Mora has a skewed reputation. All he seeks is knowledge. I see no problem in helping with that.
+Haven't_you_heard_of_Martin_Septim__He_was_only_around_200_years_ago..fuz	Haven't you heard of Martin Septim? He was only around 200 years ago.
+Would_you_like_to_be_the_Steward_for_my_homestead_.fuz	Would you like to be the Steward for my homestead?
+Can_you_help_adjust_my_armor_plates_.fuz	Can you help adjust my armor plates?
+I'd_like_to_turn_you_into_a_vampire..fuz	I'd like to turn you into a vampire.
+I'm_fine,_Lydia._Relax,_it's_hardly_the_first_time_someone's_tried_to_kill_me..fuz	I'm fine, Lydia. Relax, it's hardly the first time someone's tried to kill me.
+...What_if_I_don't_want_to_bother_with_a_wild_goose_chase_.fuz	...What if I don't want to bother with a wild goose chase?
+His_note_mentioned_someone_named_Kolgar,_in_Rorikstead..fuz	His note mentioned someone named Kolgar, in Rorikstead.
+I_appreciate_your_concern,_but_there_are_things_we_need_to_do_first..fuz	I appreciate your concern, but there are things we need to do first.
+Anything_for_you..fuz	Anything for you.
+Since_when_do_housecarls_give_orders_to_thanes_.fuz	Since when do housecarls give orders to thanes?
+You're_right._I'm_probably_in_serious_danger_right_now..fuz	You're right. I'm probably in serious danger right now.
+Can_you_explain_this__(Show_note).fuz	Can you explain this? (Show note)
+Why_so_hostile..._.fuz	Why so hostile...?
+If_my_life_is_at_risk,_I'm_not_just_going_to_leave_you_be..fuz	If my life is at risk, I'm not just going to leave you be.
+(Combat_Skills)_You're_putting_yourself_in_danger_by_not_helping_me,_as_well..fuz	(Combat Skills) You're putting yourself in danger by not helping me, as well.
+(Illusion)_You_will_tell_me_who_sent_that_assassin_after_me..fuz	(Illusion) You will tell me who sent that assassin after me.
+(Persuade)_Don't_worry_about_the_reprocussions._I'll_take_care_of_them..fuz	(Persuade) Don't worry about the reprocussions. I'll take care of them.
+(200_Gold)_Perhaps_this_will_get_you_to_talk_.fuz	(200 Gold) Perhaps this will get you to talk?
+Look,_I_just_want_to_know_who_sent_you_to_meet_with_that_assassin..fuz	Look, I just want to know who sent you to meet with that assassin.
+Your_cooperation_is_appreciated..fuz	Your cooperation is appreciated.
+Was_that_so_hard_.fuz	Was that so hard?
+Coincidence__How_so_.fuz	Coincidence? How so?
+Remind_me_what_happened_to_your_parents..fuz	Remind me what happened to your parents.
+What_happened_to_the_farm_.fuz	What happened to the farm?
+What_did_you_think_happened_to_the_Red-Tundra_bandits_.fuz	What did you think happened to the Red-Tundra bandits?
+I_suppose_we_should_head_over_there,_then..fuz	I suppose we should head over there, then.
+Of_course,_Lydia._Take_all_the_time_you_need..fuz	Of course, Lydia. Take all the time you need.
+I_think_it_would_be_best_if_we_got_underway..fuz	I think it would be best if we got underway.
+A_mistake_.fuz	A mistake?
+How_many_times_have_you_saved_my_life_now__I_owe_you_this_much,_as_a_friend..fuz	How many times have you saved my life now? I owe you this much, as a friend.
+I_don't_think_I'd_be_a_very_good_lover_if_I_didn't_know_these_things_about_you,_Lydia..fuz	I don't think I'd be a very good lover if I didn't know these things about you, Lydia.
+Maybe_that_isn't_what_I_want_from_you,_Lydia._Maybe_I_just_want_normal_love..fuz	Maybe that isn't what I want from you, Lydia. Maybe I just want normal love.
+I_understand._I'm_sorry_I_forgot_how_important_to_you_this_is,_Lydia..fuz	I understand. I'm sorry I forgot how important to you this is, Lydia.
+You're_still_human,_Lydia._I_can't_let_you_keep_things_like_this_under_the_rug..fuz	You're still human, Lydia. I can't let you keep things like this under the rug.
+I'm_sorry._I_should've_been_more_considerate_of_the_way_you_feel..fuz	I'm sorry. I should've been more considerate of the way you feel.
+It_wasn't_a_mistake._It_was_important_I_learned_all_this_about_you.__.fuz	It wasn't a mistake. It was important I learned all this about you.  
+I_think_we_should_leave..fuz	I think we should leave.
+Should_we_get_underway_.fuz	Should we get underway?
+There's_clearly_a_problem_here_that_you_haven't_resolved._I_intend_to_help_you_with_it..fuz	There's clearly a problem here that you haven't resolved. I intend to help you with it.
+It's_certainly_one_of_the_bigger_bandit_holdouts_I've_seen..fuz	It's certainly one of the bigger bandit holdouts I've seen.
+It_probably_just_winds_off_into_the_mountains._I'd_rather_not_get_lost_out_here..fuz	It probably just winds off into the mountains. I'd rather not get lost out here.
+Good_call._Let's_head_up_there_and_figure_out_what_we're_up_against..fuz	Good call. Let's head up there and figure out what we're up against.
+Looks_like_there_are_about_as_many_as_you_thought._A_mix_of_bandits_and_deserters..fuz	Looks like there are about as many as you thought. A mix of bandits and deserters.
+You're_the_last_person_I'd_ever_expect_to_want_to_help_people_who_fled_their_army....fuz	You're the last person I'd ever expect to want to help people who fled their army...
+What_future_conflict_would_we_use_these_people_in_.fuz	What future conflict would we use these people in?
+Those_cowards_aren't_worth_it..fuz	Those cowards aren't worth it.
+You're_right._Let's_see_if_we_can_work_something_out_with_the_deserters..fuz	You're right. Let's see if we can work something out with the deserters.
+A_bunch_of_weak-necked_cowards_who_ran_from_battle_don't_scare_me..fuz	A bunch of weak-necked cowards who ran from battle don't scare me.
+Our_quarrel_isn't_with_you,_just_Vonjar..fuz	Our quarrel isn't with you, just Vonjar.
+(Restoration)_Will_fighting_for_a_bandit_bring_you_back_under_Stendarr's_fold_.fuz	(Restoration) Will fighting for a bandit bring you back under Stendarr's fold?
+The_civil_war_was_not_Stendarr's_will._Fighting_steadfast_among_your_comrades_was,_and_you_failed..fuz	The civil war was not Stendarr's will. Fighting steadfast among your comrades was, and you failed.
+(Heavy_Armor)_I_had_no_trouble_fighting_outside._The_confined_space_will_make_it_easier..fuz	(Heavy Armor) I had no trouble fighting outside. The confined space will make it easier.
+(Persuade)_Vonjar_isn't_worth_fighting_for._He's_a_bandit_-_you're_not..fuz	(Persuade) Vonjar isn't worth fighting for. He's a bandit - you're not.
+I_guess_that_means_this_ends_with_one_of_us_dead..fuz	I guess that means this ends with one of us dead.
+Looks_like_you'll_die_without_honor,_then..fuz	Looks like you'll die without honor, then.
+I'm_here_for_Vonjar,_not_you..fuz	I'm here for Vonjar, not you.
+(Destruction)_I_could_easily_bring_this_keep_down_around_you_all_and_escape_in_time..fuz	(Destruction) I could easily bring this keep down around you all and escape in time.
+(Two-Handed)_In_an_open_space_like_this,_I'll_have_no_problem_cutting_through_you..fuz	(Two-Handed) In an open space like this, I'll have no problem cutting through you.
+(Persuade)_What_makes_Vonjar_a_more_worthy_leader_than_Ulfric_.fuz	(Persuade) What makes Vonjar a more worthy leader than Ulfric?
+Then_I_suppose_your_mother_is_avenged..fuz	Then I suppose your mother is avenged.
+That's..._crass._Even_if_he_killed_your_mother..fuz	That's... crass. Even if he killed your mother.
+I'm_glad_this_worked_out_for_you..fuz	I'm glad this worked out for you.
+Does_this_really_make_things_better__.fuz	Does this really make things better? 
+I_think_we're_about_done_here._Let's_head_home..fuz	I think we're about done here. Let's head home.
+Are_you_familiar_with_a_bandit_named_Vonjar_Red-Tundra_.fuz	Are you familiar with a bandit named Vonjar Red-Tundra?
+It_seemed_like_he_was_trying_to_build_an_army_of_deserters_from_the_war..fuz	It seemed like he was trying to build an army of deserters from the war.
+He's_dead._Lydia_here_told_me_all_about_what_the_Red-Tundras_used_to_do..fuz	He's dead. Lydia here told me all about what the Red-Tundras used to do.
+Real_stroke_of_genius_you_had,_wanting_to_tell_the_Jarl_about_this_whole_affair..fuz	Real stroke of genius you had, wanting to tell the Jarl about this whole affair.
+It's_fine,_Lydia._It_wasn't_that_long_of_a_wait..fuz	It's fine, Lydia. It wasn't that long of a wait.
+Everything_you've_done_means_the_world_to_me,_Lydia._I_want_you_to_know_that_I_care_about_you,_a_lot..fuz	Everything you've done means the world to me, Lydia. I want you to know that I care about you, a lot.
+I'd_say_this_is_a_fairly_scenic_view_we_have_here._It's_a_shame_you've_got_ice_in_your_veins,_though..fuz	I'd say this is a fairly scenic view we have here. It's a shame you've got ice in your veins, though.
+I'm_insulted_by_how_little_faith_you_have_in_me._I_don't_plan_on_getting_killed_any_time_soon..fuz	I'm insulted by how little faith you have in me. I don't plan on getting killed any time soon.
+Exactly._I'm_not_easy_to_kill._So_stop_worrying_about_losing_me..fuz	Exactly. I'm not easy to kill. So stop worrying about losing me.
+Well,_Irelith_and_I_assembled_some_of_the_guards....fuz	Well, Irelith and I assembled some of the guards...
+I'm_sorry._I_should_have_given_your_request_more_heed..fuz	I'm sorry. I should have given your request more heed.
+We_could_just..._hope_that_you_never_need_saving_THAT_badly..fuz	We could just... hope that you never need saving THAT badly.
+Lydia,_you're_going_to_need_to_learn_to_take_risks_if_you_want_to_be_happy..fuz	Lydia, you're going to need to learn to take risks if you want to be happy.
+I_understand_your_concerns._I_won't_bring_this_up_again..fuz	I understand your concerns. I won't bring this up again.
+You've_been_this_way_since_we_met_-_you_served_me,_even_when_you_didn't_want_to..fuz	You've been this way since we met - you served me, even when you didn't want to.
+I'm_really_lucky_to_have_someone_like_you,_you_know_that_.fuz	I'm really lucky to have someone like you, you know that?
+Really_nice_view_we_have_out_here....fuz	Really nice view we have out here...
+I'm_glad_you_had_a_moral_ephiphany_-_but_I_wish_you_got_back_here_faster..fuz	I'm glad you had a moral ephiphany - but I wish you got back here faster.
+Gods,_I_wish_you_were_still_a_guard_so_you_could_have_been_my_jailer..fuz	Gods, I wish you were still a guard so you could have been my jailer.
+Are_you_ready_to_keep_making_stories_.fuz	Are you ready to keep making stories?
+It's_not_that_big_of_a_deal_-_we_know_how_to_get_the_horn..fuz	It's not that big of a deal - we know how to get the horn.
+We_might_have_to_make_someone_regret_taking_that_horn....fuz	We might have to make someone regret taking that horn...
+I'll_be_fine,_Lydia._You_worry_too_much..fuz	I'll be fine, Lydia. You worry too much.
+And_here_I_wanted_to_take_on_their_whole_guard_force_alone_and_kidnap_the_ambassador..fuz	And here I wanted to take on their whole guard force alone and kidnap the ambassador.
+Esbern_seems_like_he_knows_what_he's_talking_about..fuz	Esbern seems like he knows what he's talking about.
+I_don't_know._It_seemed_pretty_obvious_that_I'd_use_a_shout_to_defeat_Alduin..fuz	I don't know. It seemed pretty obvious that I'd use a shout to defeat Alduin.
+That_was..._underwhelming..fuz	That was... underwhelming.
+I_don't_intend_to_stop_while_I_have_momentum_against_him..fuz	I don't intend to stop while I have momentum against him.
+I_promise_I'll_be_careful..fuz	I promise I'll be careful.
+I_think_we_both_know_that_I_might_not_make_it_back..fuz	I think we both know that I might not make it back.
+I'm_really_glad_you_feel_that_way,_Lydia._In_fact,_it's_hard_to_take_in..fuz	I'm really glad you feel that way, Lydia. In fact, it's hard to take in.
+I'm_just_glad_you're_hear_to_share_the_moment,_Lydia..fuz	I'm just glad you're hear to share the moment, Lydia.
+Where_do_you_want_to_go_next__Atmora,_or_the_Heart_of_Black_Marsh_.fuz	Where do you want to go next? Atmora, or the Heart of Black Marsh?
+...You_were_just_going_on_about_how_beautiful_this_infernal_scroll_is..fuz	...You were just going on about how beautiful this infernal scroll is.
+Looks_like_that_warm_bed_will_have_to_wait..fuz	Looks like that warm bed will have to wait.
+You're_still_concerned_about_that__Have_some_faith_in_me..fuz	You're still concerned about that? Have some faith in me.
+You_seem_excited....fuz	You seem excited...
+We've_barely_gotten_started._Who_knows_what_we're_in_for..fuz	We've barely gotten started. Who knows what we're in for.
+I_figured_the_fact_that_she's_a_vampire_would_bother_you..fuz	I figured the fact that she's a vampire would bother you.
+She's_right_over_there_and_can_easily_hear_our_conversation....fuz	She's right over there and can easily hear our conversation...
+I'm_sure_everything_will_be_fine._She_seems_friendly_enough..fuz	I'm sure everything will be fine. She seems friendly enough.
+Good_thing_my_loving,_overzealous_wife_would_never_let_another_woman_lay_a_finger_on_me..fuz	Good thing my loving, overzealous wife would never let another woman lay a finger on me.
+Good_point._I'll_be_careful..fuz	Good point. I'll be careful.
+You're_not_jealous,_are_you_.fuz	You're not jealous, are you?
+What's_your_verdict__Does_she_deserve_to_be_Thane_of_Whiterun__Or_is_the_title_continually_abused_.fuz	What's your verdict? Does she deserve to be Thane of Whiterun? Or is the title continually abused?
+Are_you_still_concerned_about_her_.fuz	Are you still concerned about her?
+Seems_like_that's_becoming_a_theme_in_our_relationship..fuz	Seems like that's becoming a theme in our relationship.
+I_was_expecting_you_to_go_off_on_a_tirade_about_how_concerned_you_are_about_my_safety....fuz	I was expecting you to go off on a tirade about how concerned you are about my safety...
+Glad_to_see_you've_come_around_about_her..fuz	Glad to see you've come around about her.
+Do_you_at_least_trust_that_she'll_stand_by_us_.fuz	Do you at least trust that she'll stand by us?
+I'm_glad_you've_come_around,_but_we_have_a_keep_to_storm..fuz	I'm glad you've come around, but we have a keep to storm.
+Why_did_you_leave_the_Imperial_Legion_.fuz	Why did you leave the Imperial Legion?
+Why_did_you_leave_the_Stormcloak_Rebellion_.fuz	Why did you leave the Stormcloak Rebellion?
+How_did_you_meet_Eselda_.fuz	How did you meet Eselda?
+How_did_you_meet_Fenrar_.fuz	How did you meet Fenrar?
+Vonjar_is_dead._As_far_as_I'm_concerned,_the_canyon_is_yours..fuz	Vonjar is dead. As far as I'm concerned, the canyon is yours.
+Defeating_Alduin_really_was_something,_wasn't_it_.fuz	Defeating Alduin really was something, wasn't it?
+How_many_more_times_do_I_have_to_save_the_world_to_earn_your_respect_.fuz	How many more times do I have to save the world to earn your respect?
+I'd_been_fighting_Alduin_since_I_escaped_Helgen,_really..fuz	I'd been fighting Alduin since I escaped Helgen, really.
+I_wish_I_had_your_help_at_Skuldafn,_and_in_Sovngarde..fuz	I wish I had your help at Skuldafn, and in Sovngarde.
+What_was_your_favorite_part_.fuz	What was your favorite part?
+Wait,_you,_there’s_specific_training_on_how_to_address_a_Thane_.fuz	Wait, you, there’s specific training on how to address a Thane?
+That’s_rather_demanding_of_you..fuz	That’s rather demanding of you.
+What_happens_if_I_save_the_world_four_times_over_.fuz	What happens if I save the world four times over?
+I_think_stopping_Ancano_and_Harkon_counts….fuz	I think stopping Ancano and Harkon counts…
+Lydia,_you_never_stopped_being_rude_to_me..fuz	Lydia, you never stopped being rude to me.
+I'm_just_happy_you're_here_now..fuz	I'm just happy you're here now.
+There_were_a_lot_of_warriors_in_Shor's_Hall._I_don't_know_if_I_saw_her_or_not..fuz	There were a lot of warriors in Shor's Hall. I don't know if I saw her or not.
+Why_did_the_other_guards_discourage_you_from_becoming_a_housecarl_.fuz	Why did the other guards discourage you from becoming a housecarl?
+I_appreciate_you_saying_that..fuz	I appreciate you saying that.
+Why_do_you_think_you_had_so_little_faith_in_Skyrim_in_the_first_place_.fuz	Why do you think you had so little faith in Skyrim in the first place?
+You_certainly_have_never_been_what_anyone_would_expect_a_housecarl_to_be..fuz	You certainly have never been what anyone would expect a housecarl to be.
+_Do_you_get_out_of_the_cloud_district_very_often__Oh,_what_am_I_saying,_of_course_you_don't._.fuz	"Do you get out of the cloud district very often? Oh, what am I saying, of course you don't."
+Let's_be_on_our_way..fuz	Let's be on our way.
+So_you've_come_around_about_Serana_.fuz	So you've come around about Serana?
+However_hard_it_might_have_been,_I_convinced_her_to_be_cured..fuz	However hard it might have been, I convinced her to be cured.
+I_certainly_disagree_with_the_comparison_of_you_and_her..fuz	I certainly disagree with the comparison of you and her.
+I_have_to_respect_your_willingness_to_apologize_to_people....fuz	I have to respect your willingness to apologize to people...
+It's_never_seemed_like_she_was_holding_back_from_biting_either_of_us..fuz	It's never seemed like she was holding back from biting either of us.
+Shut_your_bloody_mouth..fuz	Shut your bloody mouth.
+I'm_too_busy_thinking_about_you..fuz	I'm too busy thinking about you.
+I_care_about_Serana..._a_lot..fuz	I care about Serana... a lot.
+I_have,_and_she_doesn't_share_them..fuz	I have, and she doesn't share them.
+I_already_have._It_went..._exceedingly_well..fuz	I already have. It went... exceedingly well.
+That_was_all_I_wanted_to_discuss..fuz	That was all I wanted to discuss.
+No_one_would_get_close_to_me_either_way._You_just_rush_in_out_of_bravado..fuz	No one would get close to me either way. You just rush in out of bravado.
+I_think_it’s_good_for_what_we_do,_since_we_tend_to_fight_a_lot_of_opponents..fuz	I think it’s good for what we do, since we tend to fight a lot of opponents.
+I_think_I've_barely_stratched_the_surface_of_the_Arcane..fuz	I think I've barely stratched the surface of the Arcane.
+Bold_of_you_to_even_consider_weapons_and_armor_a_worthy_comparison_to_magic..fuz	Bold of you to even consider weapons and armor a worthy comparison to magic.
+I_followed_your_example..fuz	I followed your example.
+That’s_why_I_use_maces_and_axes..fuz	That’s why I use maces and axes.
+Is_fighting_as_a_team_that_strange_of_a_concept_.fuz	Is fighting as a team that strange of a concept?
+Better_than_rushing_in_head-on..fuz	Better than rushing in head-on.
+A_shield._When_you_already_have_a_whole_sword_blade_and_heavy_armor_to_defend_with..fuz	A shield. When you already have a whole sword blade and heavy armor to defend with.
+Your_assistance_is_always_appreciated..fuz	Your assistance is always appreciated.
+It_seemed_like_a_useful_supplement_for_normal_weapons..fuz	It seemed like a useful supplement for normal weapons.
+Because_I_would_have_to_shoot_more_arrows_if_you_weren’t_helping_me_fight_.fuz	Because I would have to shoot more arrows if you weren’t helping me fight?
+As_if_I_get_enough_“help”..fuz	As if I get enough “help”.
+Well,_you_insist_on_“helping”_me_a_lot_more_than_I_need_it….fuz	Well, you insist on “helping” me a lot more than I need it…
+Lydia,_you_mentioned_knowing_some_of_the_guards_who_died_at_the_Western_Watchtower....fuz	Lydia, you mentioned knowing some of the guards who died at the Western Watchtower...
+If_you_really_don't_want_to....fuz	If you really don't want to...
+How_is_this_an__interrogation__.fuz	How is this an "interrogation"?
+They_sound_like_good_people._I'm_sorry_I_couldn't_save_them..fuz	They sound like good people. I'm sorry I couldn't save them.
+I_thought_you_didn't_want_to_talk_about_this....fuz	I thought you didn't want to talk about this...
+Lydia,_remember_when_we_talked_about_the_guards_who_fell_at_the_Western_Watchtower_.fuz	Lydia, remember when we talked about the guards who fell at the Western Watchtower?
+Skyrim..fuz	Skyrim.
+Black_Marsh..fuz	Black Marsh.
+Alinor..fuz	Alinor.
+Orsinium..fuz	Orsinium.
+It_sounds_like_you're_trying_to_dodge_the_question..fuz	It sounds like you're trying to dodge the question.
+It_sounds_like_you're_angry_at_me_for_this....fuz	It sounds like you're angry at me for this...
+Is_that_why_you_didn't_trust_me_at_first_.fuz	Is that why you didn't trust me at first?
+What_about_me__We've_worked_together_for_a_little_while_now..fuz	What about me? We've worked together for a little while now.
+So_I'm_guessing_you're_over_your_fear_of_attachments_.fuz	So I'm guessing you're over your fear of attachments?
+You've_fought_at_least_one_dragon_at_this_point,_Lydia._It_can't_be_that_bad..fuz	You've fought at least one dragon at this point, Lydia. It can't be that bad.
+In_that_case,_I_admire_your_bravery..fuz	In that case, I admire your bravery.
+I_promise_not_to_die..fuz	I promise not to die.
+Is_that_why_you_mock_me_at_every_opportunity_.fuz	Is that why you mock me at every opportunity?
+That's_great,_but_quite_frankly,_I'm_afraid_of_losing_you_as_well..fuz	That's great, but quite frankly, I'm afraid of losing you as well.
+I'm_proud_of_you..fuz	I'm proud of you.
+Honestly,_I_kind_of_like_that_about_you._It's_more_fun_that_way..fuz	Honestly, I kind of like that about you. It's more fun that way.
+Still_afraid_of_getting_too_close,_aren't_you_.fuz	Still afraid of getting too close, aren't you?
+I_understand._Don't_worry_about_it..fuz	I understand. Don't worry about it.
+How_have_you_been_doing_since_we_dealt_with_Vonjar_.fuz	How have you been doing since we dealt with Vonjar?
+I_really_don't_want_to_think_about_that,_Lydia..fuz	I really don't want to think about that, Lydia.
+No_regrets_over_seeking_vengence_instead_of_burying_the_hatchet_.fuz	No regrets over seeking vengence instead of burying the hatchet?
+Do_you_think_this_eased_the_loss_of_your_parents_.fuz	Do you think this eased the loss of your parents?
+I_thought_you_were_still_afraid....fuz	I thought you were still afraid...
+I'll_take_the_credit_if_you_insist..fuz	I'll take the credit if you insist.
+I_hadn't_noticed..fuz	I hadn't noticed.
+Yeah,_Last_time_we_shared_a_bedroll_up_here,_you_clung_to_me_as_tightly_as_you_possibly_could..fuz	Yeah, Last time we shared a bedroll up here, you clung to me as tightly as you possibly could.
+It's_a_bit_strange_how_you_talk_to_me_like_you_don't_even_like_being_married,_but_can't_keep_your_hands_off_me..fuz	It's a bit strange how you talk to me like you don't even like being married, but can't keep your hands off me.
+I_get_claustrophobic_like_that..fuz	I get claustrophobic like that.
+Because_you're_afraid_of_losing_me..fuz	Because you're afraid of losing me.
+I_never_said_I_didn't_like_it..fuz	I never said I didn't like it.
+What_does_that_have_to_do_with_the_way_you_talk_to_me_.fuz	What does that have to do with the way you talk to me?
+You_do_really_make_me_feel_safe,_Lydia._.fuz	You do really make me feel safe, Lydia. 
+And_now_you're_caught_between_wanting_to_be_as_close_as_you_can_and_not_wanting_to_be_close_at_all..fuz	And now you're caught between wanting to be as close as you can and not wanting to be close at all.
+I_also_lost_my_parents,_you_know....fuz	I also lost my parents, you know...
+Is_it_that_hard_for_you_to_explain_this_.fuz	Is it that hard for you to explain this?
+Even_beyond_just_being_a_housecarl,_you're_here_for_me_constantly,_and_it_means_everything_to_me..fuz	Even beyond just being a housecarl, you're here for me constantly, and it means everything to me.
+Being_irrational_is_the_least_of_your_problems..fuz	Being irrational is the least of your problems.
+You're_human,_Lydia._Not_everything_you_do_will_be_rational._I_love_you_all_the_same..fuz	You're human, Lydia. Not everything you do will be rational. I love you all the same.
+Everyone_reacts_to_things_differently._Don't_get_hung_up_over_it..fuz	Everyone reacts to things differently. Don't get hung up over it.
+If_you_know_it_doesn't_make_sense,_why_do_you_act_that_way_.fuz	If you know it doesn't make sense, why do you act that way?
+...I'll_get_us_a_room..fuz	...I'll get us a room.
+Please_calm_down..fuz	Please calm down.
+Why_are_you_giving_me_that_look..._.fuz	Why are you giving me that look...?
+The_most_significant_thing_in_my_life_was_marrying_you..fuz	The most significant thing in my life was marrying you.
+Yeah,_we're__married_._I'd_expect_your_tone_to_have_changed_by_now..fuz	Yeah, we're *married*. I'd expect your tone to have changed by now.
+Gods,_I'm_sorry_for_pushing_you_so_much,_Lydia._I_wasn't_thinking..fuz	Gods, I'm sorry for pushing you so much, Lydia. I wasn't thinking.
+Fine._That's_the_end_of_it..fuz	Fine. That's the end of it.
+Are_you_seriously_trying_to_weasel_your_way_out_of_this__PLAYER_MUST_BE_A_POTATO.fuz	Are you seriously trying to weasel your way out of this? PLAYER MUST BE A POTATO
+Can_I_at_least_close_the_door_first_.fuz	Can I at least close the door first?
+Wait,_slow_down._I'm_not_sure_I_want_to_do_this_right_now..fuz	Wait, slow down. I'm not sure I want to do this right now.
+Get_over_here..fuz	Get over here.
+You're_seriously_willing_to_end_it_over_this_.fuz	You're seriously willing to end it over this?
+No,_I_intended_to_join_them..fuz	No, I intended to join them.
+You_took_an_oath_to_me,_Lydia..fuz	You took an oath to me, Lydia.
+Fine,_take_your_moral_grandstanding_somewhere_else..fuz	Fine, take your moral grandstanding somewhere else.
+(Romanced)_I_was_talking_about_a_different_oath..fuz	(Romanced) I was talking about a different oath.
+(Persuade)_How_about_you_just_go_home_for_now_and_not_worry_about_what_I'm_doing_.fuz	(Persuade) How about you just go home for now and not worry about what I'm doing?
+Are_you_going_to_do_something_about_it_.fuz	Are you going to do something about it?
+I'm_a_member_of_the_Brotherhood,_whether_you_like_it_or_not..fuz	I'm a member of the Brotherhood, whether you like it or not.
+(Persuade)_Don't_do_this,_Lydia._Just..._go_home_for_now..fuz	(Persuade) Don't do this, Lydia. Just... go home for now.
+You're_sworn_to_protect_me,_are_you_not_.fuz	You're sworn to protect me, are you not?
+I_could_make_you_a_vampire_too,_if_you_want._Become_one_of_us..fuz	I could make you a vampire too, if you want. Become one of us.
+I've_been_a_vampire_before,_and_you_didn't_care_then..fuz	I've been a vampire before, and you didn't care then.
+You're_not_convincing_me_to_give_up_this_newfound_power..fuz	You're not convincing me to give up this newfound power.
+(Romanced)_I_was_talking_about_the_other_oath..fuz	(Romanced) I was talking about the other oath.
+(Enthrall)_Lydia,_you_know_you're_mine._There's_no_walking_away_from_this..fuz	(Enthrall) Lydia, you know you're mine. There's no walking away from this.
+Are_you_about_to_break_the_oath_you_took_to_me_.fuz	Are you about to break the oath you took to me?
+I'm_not_going_to_pass_up_what_the_most_powerful_Daedra_could_offer_me..fuz	I'm not going to pass up what the most powerful Daedra could offer me.
+(Romanced)_Is_this_all_it_takes_to_break_our_marriage_.fuz	(Romanced) Is this all it takes to break our marriage?
+(Persuade)_You_don't_need_to_be_a_part_of_this,_but_you_don't_have_to_leave..fuz	(Persuade) You don't need to be a part of this, but you don't have to leave.
+Don't_worry,_I'm_not_going_through_with_this..fuz	Don't worry, I'm not going through with this.
+You'd_be_willing_to_end_our_marriage_over_this_.fuz	You'd be willing to end our marriage over this?
+I_want_to_see_what_Mephala_has_to_offer..fuz	I want to see what Mephala has to offer.
+What,_you_going_to_stay_here_and_keep_having_to_deal_with_Nelkir_.fuz	What, you going to stay here and keep having to deal with Nelkir?
+It_sounds_like_you're_ready_to_get_violent_over_this..fuz	It sounds like you're ready to get violent over this.
+I'm_not_going_to_do_Molag_Bal's_bidding,_don't_worry..fuz	I'm not going to do Molag Bal's bidding, don't worry.
+I'd_like_to_see_you_try_to_stop_me..fuz	I'd like to see you try to stop me.
+If_I_do,_we_can_get_her_entire_coven_into_one_place..fuz	If I do, we can get her entire coven into one place.
+Let's_go_to_Reachcliff_Cave_and_play_along_for_now..fuz	Let's go to Reachcliff Cave and play along for now.
+I'm_going_to_join_them._.fuz	I'm going to join them. 
+Vaermina's_offer_was_too_good_to_pass_up..fuz	Vaermina's offer was too good to pass up.
+What,_you're_going_to_try_to_kill_me_.fuz	What, you're going to try to kill me?
+(Persuade)_Lydia,_we've_been_friends_a_long_time._You_don't_have_to_do_this..fuz	(Persuade) Lydia, we've been friends a long time. You don't have to do this.
+Don't_worry,_I_won't_keep_going_down_this_path..fuz	Don't worry, I won't keep going down this path.
+I_think_you_should_travel_with_me_again..fuz	I think you should travel with me again.
+We_also_just_killed_all_of_Boethiah's_followers....fuz	We also just killed all of Boethiah's followers...
+If_you're_going_to_leave,_leave..fuz	If you're going to leave, leave.
+(Persuade)_And_now_we_know_where_even_more_of_Boethiah's_followers_are._Let's_go_kill_them..fuz	(Persuade) And now we know where even more of Boethiah's followers are. Let's go kill them.
+You_know_what__Never_mind._.fuz	You know what? Never mind. 
+(Persuade)_There_has_to_be_some_way_I_can_convince_you_to_forgive_me..fuz	(Persuade) There has to be some way I can convince you to forgive me.
+It'll_be_just_like_old_times..fuz	It'll be just like old times.
+So_you_forgive_me_.fuz	So you forgive me?
+Want_to_get_going_.fuz	Want to get going?
+What_about,_you_know..._us_.fuz	What about, you know... us?
+I_am_the_person_you_fell_in_love_with,_I_promise._There_has_to_be_some_way_I_can_prove_that_to_you..fuz	I am the person you fell in love with, I promise. There has to be some way I can prove that to you.
+I_thought_about_you_a_lot_when_you_left,_yeah..fuz	I thought about you a lot when you left, yeah.
+I've_moved_on..fuz	I've moved on.
+_Rude_._Sounds_more_like_you_think_we're_already_back_together..fuz	"Rude". Sounds more like you think we're already back together.
+So_are_you_willing_to_start_this_up_again_.fuz	So are you willing to start this up again?
+I'm_sorry,_but_that_just_isn't_worth_it_for_me..fuz	I'm sorry, but that just isn't worth it for me.
+Alright._I'll_find_a_way_to_get_cured,_if_there_is_one..fuz	Alright. I'll find a way to get cured, if there is one.
+We'll_head_up_north_and_I'll_get_rid_of_the_artifact,_then..fuz	We'll head up north and I'll get rid of the artifact, then.
+You_want_me_to_just..._kill_all_of_those_people_.fuz	You want me to just... kill all of those people?
+I_guess_this_is_the_end_of_the_Thieves'_Guild..fuz	I guess this is the end of the Thieves' Guild.
+The_Dark_Brotherhood_ends_today..fuz	The Dark Brotherhood ends today.
+I_won't_kill_my_friends_for_you..fuz	I won't kill my friends for you.
+So..._you're_ready_to_take_me_back_.fuz	So... you're ready to take me back?
+You_were_right._The_Thieves'_Guild_was_reprehensible,_I_shouldn't_have....fuz	You were right. The Thieves' Guild was reprehensible, I shouldn't have...
+I'm_not_sure_if_killing_people_who_trusted_me_was_right._Especially_for_your_trust..fuz	I'm not sure if killing people who trusted me was right. Especially for your trust.
+I_don't_know_if_I'll_ever_be_absolved_for_what_I_did_with_the_Dark_Brotherhood..fuz	I don't know if I'll ever be absolved for what I did with the Dark Brotherhood.
+Those_people_considered_me_family,_and_I_betrayed_their_trust....fuz	Those people considered me family, and I betrayed their trust...
+I_hope_you_don't_take_this_lightly..fuz	I hope you don't take this lightly.
+I_just_wanted_to_have_some_kind_of_sensual_vampire_love_affair_with_you..fuz	I just wanted to have some kind of sensual vampire love affair with you.
+So..._are_we_back_together_.fuz	So... are we back together?
+Being_undead_is_overrated..fuz	Being undead is overrated.
+Why_would_I_want_to_live_forever_if_I_didn't_have_you_there_with_me_.fuz	Why would I want to live forever if I didn't have you there with me?
+Why_do_you_still_refer_to_me_as__Thane__after_all_this_time_.fuz	Why do you still refer to me as "Thane" after all this time?
+Really__You've_always_seemed_kind_of..._casual_about_being_a_housecarl..fuz	Really? You've always seemed kind of... casual about being a housecarl.
+Lydia,_we're_married._You_can_use_my_name..fuz	Lydia, we're married. You can use my name.
+Why_just__Thane___Other_housecarls_say__My_Thane_..fuz	Why just "Thane"? Other housecarls say "My Thane".
+You_can_just_use_my_name..fuz	You can just use my name.
+You_were_hesitant_because_you_were_afraid_to_get_close_and_then_lose_me..fuz	You were hesitant because you were afraid to get close and then lose me.
+You've_referred_to_me_as__Thane__while_we_were_in_bed_multiple_times..fuz	You've referred to me as "Thane" while we were in bed multiple times.
+I_guess_you_can_just_call_me_whatever_you_want_if_it's_like_that..fuz	I guess you can just call me whatever you want if it's like that.
+So_what_was_it_.fuz	So what was it?
+…But_I_did_most_of_the_work..fuz	…But I did most of the work.
+What,_you_didn't_like_seeing_the_wonders_the_Dwarves_left_behind_.fuz	What, you didn't like seeing the wonders the Dwarves left behind?
+I'd_say_fighting_two_dragons_at_the_summit_of_Skuldafn_was_tougher,_but….fuz	I'd say fighting two dragons at the summit of Skuldafn was tougher, but…
+Alftand_and_Blackreach_really_made_me_see_you_in_a_different_light,_Lydia..fuz	Alftand and Blackreach really made me see you in a different light, Lydia.
+Fine,_you_protected_me_and_motivated_me_and_I'd_be_nothing_without_you..fuz	Fine, you protected me and motivated me and I'd be nothing without you.
+I’d_actually_appreciate_the_“pleasantries”..fuz	I’d actually appreciate the “pleasantries”.
+I’d_imagine_it’d_get_tiresome..fuz	I’d imagine it’d get tiresome.
+That,__or_I_just_love_to_watch_you_blush..fuz	That,  or I just love to watch you blush.
+If_you_get_this_dialogue_option,_tell_Todd_Howard_I_hate_him..fuz	If you get this dialogue option, tell Todd Howard I hate him.
+If_you_get_this_dialogue_option,_tell_Emil_Pagliarulo_I_hate_him..fuz	If you get this dialogue option, tell Emil Pagliarulo I hate him.
+You_shouldn't_be_able_to_see_this..fuz	You shouldn't be able to see this.
+
+## LydiaPatchForBSCyrodiil.esp — 25 lines to generate (0 already in the pack)
+
+Good_thing_my_loving,_overzealous_wife_would_never_let_another_woman_lay_a_finger_on_me..fuz	Good thing my loving, overzealous wife would never let another woman lay a finger on me.
+You've_told_me_this_many,_many_times..fuz	You've told me this many, many times.
+...That_sounds_like_Skyrim..fuz	...That sounds like Skyrim.
+Ah,_your_two_favorite_things._Cyrodiil,_and_duty..fuz	Ah, your two favorite things. Cyrodiil, and duty.
+I_figured_I'd_take_you_someplace_warm..fuz	I figured I'd take you someplace warm.
+It_might_not_live_up_to_your_expectations,_but_I'm_sure_you'll_like_it_here..fuz	It might not live up to your expectations, but I'm sure you'll like it here.
+We're_barely_even_in_Cyrodiil._Let's_head_down_the_mountains..fuz	We're barely even in Cyrodiil. Let's head down the mountains.
+You_really_think_so_.fuz	You really think so?
+I_vaguely_remember_you_saying_that_you're_not_brave_enough_for_politics....fuz	I vaguely remember you saying that you're not brave enough for politics...
+We_need_a_warrior_on_the_Ruby_Throne._There_are_no_two_ways_about_it..fuz	We need a warrior on the Ruby Throne. There are no two ways about it.
+The_next_Emperor_is_going_to_have_to_be_able_to_fight_unconventionally..fuz	The next Emperor is going to have to be able to fight unconventionally.
+The_Empire_needs_to_return_to_its_old_traditions_if_it_wants_its_old_glory..fuz	The Empire needs to return to its old traditions if it wants its old glory.
+Cyrodiil_needs_to_focus_on_its_own_problems,_not_the_other_human_provinces..fuz	Cyrodiil needs to focus on its own problems, not the other human provinces.
+What_if_we_could_return_to_the_days_of_having_a_Dragonborn_Emperor_.fuz	What if we could return to the days of having a Dragonborn Emperor?
+Being_the_Empress_of_Tamriel,_of_course..fuz	Being the Empress of Tamriel, of course.
+Where_would_you_want_to_be_.fuz	Where would you want to be?
+The_monarch's_most_resolute_protector..fuz	The monarch's most resolute protector.
+Lydia,_you're_the_most_important_person_in_my_life._I_need_to_do_this_for_the_Empire,_and_I_need_you_to_do_it_with_me..fuz	Lydia, you're the most important person in my life. I need to do this for the Empire, and I need you to do it with me.
+I'm_sorry,_Lydia._I_know_I_don't_exactly_make_your_life_easy..fuz	I'm sorry, Lydia. I know I don't exactly make your life easy.
+Maybe_when_the_Dominion_is_defeated..fuz	Maybe when the Dominion is defeated.
+You_know_what__That_first_thing_sounds_better_than_ruling_a_whole_continent..fuz	You know what? That first thing sounds better than ruling a whole continent.
+...I've_always_found_our_adventures_to_be_quite_romantic....fuz	...I've always found our adventures to be quite romantic...
+No,_I'd_impregnate_you_sixteen_times._I_want_to_start_a_dynasty..fuz	No, I'd impregnate you sixteen times. I want to start a dynasty.
+Alright,_fine._Does_being_the_Empress_of_Tamriel_sound_better_.fuz	Alright, fine. Does being the Empress of Tamriel sound better?
+Thanks_for_everything,_Lydia._I_guess_will_cross_that_bridge_when_we_get_there..fuz	Thanks for everything, Lydia. I guess will cross that bridge when we get there.
+
+## LydiaPatchForWyrmstooth.esp — 11 lines to generate (0 already in the pack)
+
+You_think_he..._frequents_the_Cloud_District_.fuz	You think he... frequents the Cloud District?
+That's_no_reason_to_be_suspicious._Most_of_our_employers_are_people_like_him..fuz	That's no reason to be suspicious. Most of our employers are people like him.
+I'll_be_careful_about_our_dealings_with_him..fuz	I'll be careful about our dealings with him.
+This_isn't_the_time_for_jokes._We_need_to_get_back_to_Lurius..fuz	This isn't the time for jokes. We need to get back to Lurius.
+Either_they're_a_lot_braver_or_a_lot_dumber_than_we_think..fuz	Either they're a lot braver or a lot dumber than we think.
+Have_you_heard_of_this_island_.fuz	Have you heard of this island?
+I_suppose_that_means_we_can_start_exploring_the_rest_of_the_island..fuz	I suppose that means we can start exploring the rest of the island.
+You_sound_exhausted..fuz	You sound exhausted.
+So_long_as_I_can_join_you..fuz	So long as I can join you.
+...Where__The_inn_is_destroyed,_and_there_isn't_much_else_on_the_island..fuz	...Where? The inn is destroyed, and there isn't much else on the island.
+I_think_we_should_go_back_to_Solitude....fuz	I think we should go back to Solitude...
+
+## LydiaPatchForLOTD.esp — 0 lines to generate (0 already in the pack)
+

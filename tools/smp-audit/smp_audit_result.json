@@ -1,0 +1,459 @@
+{
+ "enabled_mods": 3846,
+ "nif_paths": 79485,
+ "contended": 12552,
+ "buried": [
+  {
+   "path": "meshes\\weapons\\vergi armoury\\einarbow\\dd - einar backpack_0.nif",
+   "winner": "Authoria - Bodyslide Output - NSFW",
+   "smp_providers": [
+    "Authoria - Bodyslide Output - UBE",
+    "DD - Vergi Armoury by Vergi"
+   ],
+   "all": [
+    [
+     "Authoria - Bodyslide Output - NSFW",
+     false
+    ],
+    [
+     "Authoria - Bodyslide Output - UBE",
+     true
+    ],
+    [
+     "DD - Vergi Armoury by Vergi",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\weapons\\vergi armoury\\einarbow\\dd - einar backpack_1.nif",
+   "winner": "Authoria - Bodyslide Output - NSFW",
+   "smp_providers": [
+    "Authoria - Bodyslide Output - UBE",
+    "DD - Vergi Armoury by Vergi"
+   ],
+   "all": [
+    [
+     "Authoria - Bodyslide Output - NSFW",
+     false
+    ],
+    [
+     "Authoria - Bodyslide Output - UBE",
+     true
+    ],
+    [
+     "DD - Vergi Armoury by Vergi",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\000135e7.nif",
+   "winner": "Authoria - NPC Merge",
+   "smp_providers": [
+    "True Sons of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Authoria - NPC Merge",
+     false
+    ],
+    [
+     "True Sons of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\000135f2.nif",
+   "winner": "Authoria - NPC Merge",
+   "smp_providers": [
+    "True Sons of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Authoria - NPC Merge",
+     false
+    ],
+    [
+     "True Sons of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\0001c193.nif",
+   "winner": "Knowledge is Power - Urag gro-Shub NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Knowledge is Power - Urag gro-Shub NPC Overhaul",
+     false
+    ],
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\dawnguard.esm\\00010ded.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\dragonborn.esm\\0001959a.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\000133a9.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\00013b7f.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\0001995b.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\000199b7.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\00019e1e.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\00019e20.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\0001aa63.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\0001b075.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\000c78be.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\actors\\character\\facegendata\\facegeom\\skyrim.esm\\000c78cc.nif",
+   "winner": "Children of the Pariah - An Orc NPC Overhaul",
+   "smp_providers": [
+    "Men of Skyrim Refined"
+   ],
+   "all": [
+    [
+     "Children of the Pariah - An Orc NPC Overhaul",
+     false
+    ],
+    [
+     "Men of Skyrim Refined",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\pigiron\\m\\fp_0.nif",
+   "winner": "Pig Iron Set - HIMBO Refit",
+   "smp_providers": [
+    "Pig Iron Set - Complex Material"
+   ],
+   "all": [
+    [
+     "Pig Iron Set - HIMBO Refit",
+     false
+    ],
+    [
+     "Pig Iron Set - Complex Material",
+     true
+    ]
+   ]
+  },
+  {
+   "path": "meshes\\pulcharmsolis\\pigiron\\m\\fp_1.nif",
+   "winner": "Pig Iron Set - HIMBO Refit",
+   "smp_providers": [
+    "Pig Iron Set - Complex Material"
+   ],
+   "all": [
+    [
+     "Pig Iron Set - HIMBO Refit",
+     false
+    ],
+    [
+     "Pig Iron Set - Complex Material",
+     true
+    ]
+   ]
+  }
+ ],
+ "smp_winners_contended": 859,
+ "missing_xml_among_contended_smp_winners": [
+  {
+   "path": "meshes\\!ube\\armor\\mu3b_male\\3bbbcollisionarmorp_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "SKSE\\Plugins\\hdtSkinnedMeshConfigs\\3BBB-Amazing_Male.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armor\\mu3b_male\\3bbbcollisionarmorp_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "SKSE\\Plugins\\hdtSkinnedMeshConfigs\\3BBB-Amazing_Male.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood d_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood d_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun hood_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun scarf_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\!ube\\armory\\einar's wardrobe\\dd - einar wardrobe idun scarf_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood d_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood d_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe hood_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe scarf_0.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\armory\\einar's wardrobe\\dd - einar wardrobe scarf_1.nif",
+   "winner": "Authoria - Bodyslide Output - UBE",
+   "xml": "meshes\\armory\\Einar's wardrobe\\einar.xml"
+  },
+  {
+   "path": "meshes\\1wr\\wrcuirassf_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\1WR\\XML\\WRArmor.xml"
+  },
+  {
+   "path": "meshes\\1wr\\wrcuirassf_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\1WR\\XML\\WRArmor.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmfeet_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmfeet_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmhands_0.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\midnight mistress\\mmhands_1.nif",
+   "winner": "Authoria - Bodyslide Output - 3BA",
+   "xml": "meshes\\Midnight Huntress\\_MH_Dress.xml"
+  },
+  {
+   "path": "meshes\\armor\\amuletsandrings\\goldamuletf_0.nif",
+   "winner": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+   "xml": "meshes\\armor\\amuletsandrings\\DD - MedailonRepleceri\\amulet.xml"
+  },
+  {
+   "path": "meshes\\armor\\amuletsandrings\\goldamuletf_1.nif",
+   "winner": "Golden Dwemer Piepworks Redone - DD - Jewelry Replecer by Vergi",
+   "xml": "meshes\\armor\\amuletsandrings\\DD - MedailonRepleceri\\amulet.xml"
+  }
+ ],
+ "errors": [],
+ "n_errors": 0
+}

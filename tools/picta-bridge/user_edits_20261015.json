@@ -1,0 +1,18 @@
+{
+ "note": "User edits saved in game 2026-10-15 07:18 and kept; the lighting part of that save was undone the same day (start room too dark).",
+ "edits": {
+  "enbseries.ini": {
+   "WATER": {
+    "FresnelMultiplier": "0.37",
+    "FresnelMax": "0.11",
+    "Muddiness": "0.51"
+   }
+  },
+  "enbseries/Picta - Weathers/00_Master/A02_Clear_Mist.ini": {
+   "WATER": {
+    "WavesAmplitudeDay": "2.93",
+    "WavesAmplitudeSunset": "1.97"
+   }
+  }
+ }
+}
