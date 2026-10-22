@@ -1,0 +1,1 @@
+disables more clutter and a couple NPCs in grand solitude.

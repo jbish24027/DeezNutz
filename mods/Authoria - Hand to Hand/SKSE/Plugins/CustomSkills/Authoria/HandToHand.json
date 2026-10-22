@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CustomSkills/main/docs/schema/skill.json",
+  "id": "AuthoriaHandToHand",
+  "name": "Hand to Hand",
+  "description": "The art of fighting with fist and claw. Those who are skilled in Hand to Hand can face armed opponents without a weapon.",
+  "level": "Authoria - Hand to Hand.esp|0x800",
+  "ratio": "Authoria - Hand to Hand.esp|0x801",
+  "legendary": "Authoria - Hand to Hand.esp|0x824",
+  "experienceFormula": {
+    "useMult": 1.0,
+    "useOffset": 0.0,
+    "improveMult": 1.0,
+    "improveOffset": 0.0,
+    "enableXPPerRank": false
+  },
+  "nodes": [
+    { "id": "pugilist",   "perk": "Authoria - Hand to Hand.esp|0x811", "x": 0.0,  "y": 0.0, "links": ["heavyblows", "brawlers", "lightfeet"] },
+    { "id": "heavyblows", "perk": "Authoria - Hand to Hand.esp|0x81A", "x": 2.4,  "y": 2.4, "links": ["brace"] },
+    { "id": "brawlers",   "perk": "Authoria - Hand to Hand.esp|0x819", "x": 0.0,  "y": 2.4, "links": ["overwhelm", "momentum"] },
+    { "id": "lightfeet",  "perk": "Authoria - Hand to Hand.esp|0x817", "x": -2.4, "y": 2.4, "links": ["momentum"] },
+    { "id": "momentum",   "perk": "Authoria - Hand to Hand.esp|0x818", "x": -1.2, "y": 4.8, "links": ["brace"] },
+    { "id": "brace",      "perk": "Authoria - Hand to Hand.esp|0x81B", "x": 0.6,  "y": 4.8, "links": ["knockout"] },
+    { "id": "overwhelm",  "perk": "Authoria - Hand to Hand.esp|0x81D", "x": 2.4,  "y": 4.8, "links": ["finisher"] },
+    { "id": "finisher",   "perk": "Authoria - Hand to Hand.esp|0x81C", "x": 1.8,  "y": 7.2, "links": ["knockout"] },
+    { "id": "knockout",   "perk": "Authoria - Hand to Hand.esp|0x823", "x": -0.6, "y": 7.2, "links": [] }
+  ]
+}

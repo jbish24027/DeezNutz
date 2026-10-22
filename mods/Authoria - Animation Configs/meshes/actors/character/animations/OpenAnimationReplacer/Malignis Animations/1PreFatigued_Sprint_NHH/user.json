@@ -1,0 +1,48 @@
+{
+    "priority": 75110,
+    "disabled": true,
+    "hasCustomBlendTimeOnLoop": true,
+    "blendTimeOnLoop": 0.0,
+    "conditions": [
+        {
+            "condition": "PRESET",
+            "requiredVersion": "2.2.0.0",
+            "Preset": "Malignis_Base"
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Percentage"
+            },
+            "Comparison": "<",
+            "Value B": {
+                "value": 0.36000001430511475
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasSpell",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Spell": {
+                        "pluginName": "HighHeelsCondition.esp",
+                        "formID": "802"
+                    }
+                },
+                {
+                    "condition": "IsWorn",
+                    "requiredVersion": "1.0.0.0",
+                    "Form": {
+                        "pluginName": "[Dint999] OutfitOfConfessor.esp",
+                        "formID": "D6F"
+                    }
+                }
+            ]
+        }
+    ]
+}

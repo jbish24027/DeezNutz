@@ -1,0 +1,35 @@
+{
+    "priority": 9901617,
+    "conditions": [
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Requiem - Weapons and Armor Redone.esp",
+                "formID": "BB5"
+            }
+        },
+        {
+            "condition": "IsWornHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "Keyword": {
+                "form": {
+                    "pluginName": "BowRapidCombo.esp",
+                    "formID": "86E"
+                }
+            }
+        },
+        {
+            "condition": "IsSprinting",
+            "requiredVersion": "1.0.0.0"
+        }
+    ]
+}

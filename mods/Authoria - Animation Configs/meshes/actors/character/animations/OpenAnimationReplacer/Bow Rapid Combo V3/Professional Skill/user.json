@@ -1,0 +1,51 @@
+{
+    "priority": 9901640,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "AttackState",
+                    "requiredVersion": "1.3.0.0",
+                    "Comparison": "==",
+                    "Attack state": {
+                        "value": 9.0
+                    }
+                },
+                {
+                    "condition": "AttackState",
+                    "requiredVersion": "1.3.0.0",
+                    "Comparison": "==",
+                    "Attack state": {
+                        "value": 10.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Skyrim.esm",
+                "formID": "58F62"
+            }
+        }
+    ]
+}

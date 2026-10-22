@@ -1,0 +1,46 @@
+{
+    "priority": 9901012,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "Keytrace.esp",
+                "formID": "804"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 50.0
+            }
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Requiem - Weapons and Armor Redone.esp",
+                "formID": "BB5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "choose": "$Always Disabled",
+    "Mod": "Survival Control Panel",
+    "option": "$Sleep to level up",
+    "page": "$Main"
+  },
+  {
+    "choose": "$Always Disabled",
+    "Mod": "Survival Control Panel",
+    "option": "$Arrow weight",
+    "page": "$Main"
+  },
+  {
+    "choose": "$Always Disabled",
+    "Mod": "Survival Control Panel",
+    "option": "$Lockpick weight",
+    "page": "$Main"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Mod": "Conditional Expressions Extended",
+    "option": "$CEE_C4",
+    "page": "$CEE_A3",
+    "choose": "$CEE_B1"
+  },
+  {
+    "Mod": "Conditional Expressions Extended",
+    "option": "$CEE_B9",
+    "page": "$CEE_A3",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Conditional Expressions Extended",
+    "option": "$CEE_D3",
+    "page": "$CEE_A3",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Conditional Expressions Extended",
+    "option": "$CEE_D5",
+    "page": "$CEE_A3",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Conditional Expressions Extended",
+    "option": "$CEE_E4",
+    "page": "$CEE_A4",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Conditional Expressions Extended",
+    "option": "$CEE_E5",
+    "page": "$CEE_A4",
+    "slider": 7
+  }
+]

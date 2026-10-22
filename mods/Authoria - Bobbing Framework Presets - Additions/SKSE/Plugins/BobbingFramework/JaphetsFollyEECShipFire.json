@@ -1,0 +1,29 @@
+{
+    "FormID": "0x074452~Skyrim.esm",
+    "children": [
+        "0x074FEB~Skyrim.esm",
+        "0x0961EF~Skyrim.esm",
+        "0x0961F0~Skyrim.esm",
+        "0x0961F4~Skyrim.esm",
+        "0x0961F5~Skyrim.esm",
+        "0x0961F6~Skyrim.esm",
+        "0x0961F7~Skyrim.esm",
+        "0x0961F8~Skyrim.esm",
+        "0x0961F9~Skyrim.esm",
+        "0x0961FB~Skyrim.esm",
+        "0x0961FC~Skyrim.esm",
+        "0x0961FD~Skyrim.esm",
+        "0x108CD0~Skyrim.esm"
+    ],
+    "phaseOffset": -0.33399999141693115,
+    "speedPos": [
+        0.14293618500232697,
+        0.14344365894794464,
+        0.15395167469978333
+    ],
+    "speedRot": [
+        0.13959325850009918,
+        0.1541125327348709,
+        0.1525503396987915
+    ]
+}

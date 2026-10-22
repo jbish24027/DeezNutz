@@ -1,0 +1,73 @@
+{
+    "priority": 83031021,
+    "disabled": true,
+    "conditions": [
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 1.0
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 11.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "WeapTypeJavelin"
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "ArmorShieldLarge"
+            },
+            "Left hand": true
+        },
+        {
+            "condition": "IED_GearNodePlacementHint",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "requiredVersion": "1.0.0.0",
+            "Gear node ID": {
+                "value": 15.0
+            },
+            "Comparison": "<=",
+            "Weapon placement ID": {
+                "value": 1.0
+            }
+        },
+        {
+            "condition": "SDS_IsShieldOnBackEnabled",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IED_GearNodeEquippedPlacementHint",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "requiredVersion": "1.0.0.0",
+            "Left hand": false,
+            "Comparison": "<=",
+            "Weapon placement ID": {
+                "value": 1.0
+            }
+        }
+    ]
+}

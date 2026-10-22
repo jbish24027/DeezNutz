@@ -1,0 +1,28 @@
+[
+  {
+    "index": 3,
+    "Mod": "PC Head Tracking",
+    "option": "$HH_PCHT_OnOff",
+    "toggle": "On"
+  },
+  {
+    "Mod": "PC Head Tracking",
+    "option": "$HH_PCHT_ChanceMenu",
+    "slider": 15.0
+  },
+  {
+    "Mod": "PC Head Tracking",
+    "option": "$HH_PCHT_ChanceMagic",
+    "slider": 55.0
+  },
+  {
+    "Mod": "PC Head Tracking",
+    "option": "$HH_PCHT_ChanceLocation",
+    "slider": 100.0
+  },
+  {
+    "Mod": "PC Head Tracking",
+    "option": "$HH_PCHT_ChanceCombat",
+    "slider": 50.0
+  }
+]

@@ -1,0 +1,30 @@
+{
+    "FormID": "0x0BA930~Skyrim.esm",
+    "actorInfluence": 10.0,
+    "children": [
+        "0x0BAA11~Skyrim.esm",
+        "0x0BAA12~Skyrim.esm",
+        "0x0BAA13~Skyrim.esm",
+        "0x0BAA14~Skyrim.esm"
+    ],
+    "positionMax": [
+        0.0,
+        0.0,
+        4.185999870300293
+    ],
+    "positionMin": [
+        0.0,
+        0.0,
+        -0.05700000002980232
+    ],
+    "speedPos": [
+        0.5448364615440369,
+        0.48478788137435913,
+        0.5224165320396423
+    ],
+    "speedRot": [
+        0.4597495496273041,
+        0.5561407208442688,
+        0.4783507287502289
+    ]
+}

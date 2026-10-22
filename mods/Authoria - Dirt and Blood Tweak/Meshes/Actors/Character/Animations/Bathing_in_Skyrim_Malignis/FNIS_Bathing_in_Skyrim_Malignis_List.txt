@@ -1,0 +1,7 @@
+' Female animations by JVraven
+' https://www.nexusmods.com/skyrimspecialedition/mods/137401
+
+b -o,AVbHumanoidFootIKDisable,TAnimObjectR/0.500000,TSoundPlay.MLGN_Bath_Short/10.70000 mzinBatheA5_T1 MalignisBathing_short_f.hkx Authoria_AnimObjectSoap
+b -o,AVbHumanoidFootIKDisable,TAnimObjectR/0.500000,TSoundPlay.MLGN_Bath_Mid/25.00000 mzinBatheA5_T2 MalignisBathing_mid_f.hkx Authoria_AnimObjectSoap
+b -o,AVbHumanoidFootIKDisable,TAnimObjectR/0.500000,TSoundPlay.MLGN_Bath_Long/39.40000 mzinBatheA5_T3 MalignisBathing_long_f.hkx Authoria_AnimObjectSoap
+b -o,AVbHumanoidFootIKDisable,TAnimObjectR/0.500000,TSoundPlay.MLGN_Bath_Whole/64.20000 mzinBatheA5_T4 MalignisBathing_whole_f.hkx Authoria_AnimObjectSoap

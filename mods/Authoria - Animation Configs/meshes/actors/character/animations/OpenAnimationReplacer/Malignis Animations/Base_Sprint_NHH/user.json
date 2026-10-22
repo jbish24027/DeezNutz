@@ -1,0 +1,53 @@
+{
+    "priority": 75107,
+    "disabled": true,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\Malignis Animations\\Base_Sprint_NHH\\female\\_variants_mt_sprintforward",
+            "variantMode": 0,
+            "variantStateScope": 1,
+            "blendBetweenVariants": false,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "start.hkx",
+                    "playOnce": true
+                }
+            ]
+        }
+    ],
+    "hasCustomBlendTimeOnLoop": true,
+    "blendTimeOnLoop": 0.0,
+    "conditions": [
+        {
+            "condition": "PRESET",
+            "requiredVersion": "2.2.0.0",
+            "Preset": "Malignis_Base"
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasSpell",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Spell": {
+                        "pluginName": "HighHeelsCondition.esp",
+                        "formID": "802"
+                    }
+                },
+                {
+                    "condition": "IsWorn",
+                    "requiredVersion": "1.0.0.0",
+                    "Form": {
+                        "pluginName": "[Dint999] OutfitOfConfessor.esp",
+                        "formID": "D6F"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "priority": 2110000062,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "graphVariable": "Jump_Obstacle2",
+                "graphVariableType": "Int"
+            },
+            "Comparison": "==",
+            "Value B": {
+                "value": 1.0
+            }
+        },
+        {
+            "condition": "IsWornHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "ArmorHeavy"
+            }
+        },
+        {
+            "condition": "IsFemale",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 12,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 50.0
+            }
+        }
+    ]
+}

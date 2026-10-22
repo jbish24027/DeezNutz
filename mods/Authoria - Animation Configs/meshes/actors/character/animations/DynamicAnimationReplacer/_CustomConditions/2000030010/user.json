@@ -1,0 +1,580 @@
+{
+  "name": "Dont Sheathe Bound Weapons - BoundWeapons (ARR)",
+  "description": "ARR override of DAR _CustomConditions 2000030010 (Dont Sheathe Bound Weapons unequip set). Adds Requiem Magic Redone, Enemy Magic Expansion, and quest-mod bound weapons. Absent legacy-mod entries dropped (kept load-order-present forms only). Priority unchanged - already wins over Stances.",
+  "priority": 2000030010,
+  "conditions": [
+{
+    "condition":  "OR",
+    "requiredVersion":  "1.0.0.0",
+    "Conditions":  [
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "0424F7"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "0424F8"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "0424F9"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "058F5E"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "058F5F"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "058F60"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "0BA30E"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Dragonborn.esm",
+                                        "formID":  "01CE02"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Dragonborn.esm",
+                                        "formID":  "01CE03"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Dragonborn.esm",
+                                        "formID":  "023F6C"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "Skyrim.esm",
+                                                "formID":  "01CE9E"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "Skyrim.esm",
+                                                "formID":  "01CEA0"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "Skyrim.esm",
+                                                "formID":  "0C5BE0"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "Skyrim.esm",
+                                                "formID":  "0C5BE1"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "Skyrim.esm",
+                                                "formID":  "042500"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "HasMagicEffect",
+                           "requiredVersion":  "1.0.0.0",
+                           "Magic effect":  {
+                                                "pluginName":  "Skyrim.esm",
+                                                "formID":  "0424FF"
+                                            },
+                           "Active effects only":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DA3"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DA4"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DFA"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DFB"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DFC"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DFD"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DFE"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E22"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2B"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2C"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2D"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2E"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E32"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E33"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E34"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E35"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E36"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E37"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E39"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3A"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3B"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3C"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3D"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3E"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3F"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E40"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E41"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E42"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000800"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000801"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000802"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000803"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000804"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000805"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000806"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000807"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000808"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "000809"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem Magic Redone - Enemy Magic Expansion.esp",
+                                        "formID":  "00080A"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem-betterForgottenVale.esp",
+                                        "formID":  "0633E5"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "DAc0da.esm",
+                                        "formID":  "0085C3"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "DAc0da.esm",
+                                        "formID":  "0085C4"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "DAc0da.esm",
+                                        "formID":  "00CF3B"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Unslaad.esm",
+                                        "formID":  "178550"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Unslaad.esm",
+                                        "formID":  "407479"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Glenmoril.esm",
+                                        "formID":  "00F5DA"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Glenmoril.esm",
+                                        "formID":  "3CE9A6"
+                                    },
+                           "Left hand":  false
+                       }
+                   ]
+}
+  ]
+}

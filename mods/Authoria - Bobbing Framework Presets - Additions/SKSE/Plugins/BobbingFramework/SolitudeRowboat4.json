@@ -1,0 +1,45 @@
+{
+    "FormID": "0x0F5D88~Skyrim.esm",
+    "actorInfluence": 10.0,
+    "children": [
+        "0x0F5D8D~Skyrim.esm",
+        "0x0F5D8E~Skyrim.esm",
+        "0x0F9333~Skyrim.esm",
+        "0x0F9334~Skyrim.esm",
+        "0x0F9335~Skyrim.esm",
+        "0x0F9336~Skyrim.esm",
+        "0x0F9337~Skyrim.esm",
+        "0x0F9338~Skyrim.esm"
+    ],
+    "phaseOffset": -0.3230000138282776,
+    "positionMax": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "positionMin": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "rotationMax": [
+        0.0,
+        0.02800000086426735,
+        0.0
+    ],
+    "rotationMin": [
+        0.0,
+        -0.029999999329447746,
+        0.0
+    ],
+    "speedPos": [
+        0.4926000237464905,
+        0.5284532904624939,
+        0.517100989818573
+    ],
+    "speedRot": [
+        0.4989355206489563,
+        0.507696270942688,
+        0.490382581949234
+    ]
+}

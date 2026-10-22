@@ -1,0 +1,41 @@
+{
+    "priority": 200017,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\Malignis Animations\\1Fatigued_Mid\\female\\_variants_mt_idle",
+            "variantMode": 0,
+            "variantStateScope": 1,
+            "blendBetweenVariants": false,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "mt_idle.hkx",
+                    "playOnce": true
+                }
+            ]
+        }
+    ],
+    "hasCustomBlendTimeOnLoop": true,
+    "blendTimeOnLoop": 1.0,
+    "conditions": [
+        {
+            "condition": "PRESET",
+            "requiredVersion": "2.2.0.0",
+            "Preset": "Malignis_Base"
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Percentage"
+            },
+            "Comparison": "<",
+            "Value B": {
+                "value": 0.20000000298023224
+            }
+        }
+    ]
+}

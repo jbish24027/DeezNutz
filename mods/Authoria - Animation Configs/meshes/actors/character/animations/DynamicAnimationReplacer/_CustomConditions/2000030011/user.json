@@ -1,0 +1,112 @@
+{
+  "name": "Dont Sheathe Bound Weapons - 2hAxe summon (ARR)",
+  "description": "ARR override of DAR _CustomConditions 2000030011 (two-handed axe bound-weapon summon: battleaxe/warhammer/quarterstaff). Adds Requiem Magic Redone + DAc0da. Absent legacy-mod entries dropped.",
+  "priority": 2000030011,
+  "conditions": [
+{
+    "condition":  "OR",
+    "requiredVersion":  "1.0.0.0",
+    "Conditions":  [
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "058F5E"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Skyrim.esm",
+                                        "formID":  "0424F7"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005DFA"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2D"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2E"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3C"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3D"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E41"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E42"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "DAc0da.esm",
+                                        "formID":  "0085C4"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "DAc0da.esm",
+                                        "formID":  "00CF3B"
+                                    },
+                           "Left hand":  false
+                       }
+                   ]
+}
+  ]
+}

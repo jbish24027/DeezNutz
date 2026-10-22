@@ -1,0 +1,1 @@
+Credits: iWant Widgets for assets (https://www.nexusmods.com/skyrimspecialedition/mods/36457)

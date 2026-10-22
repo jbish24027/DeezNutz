@@ -1,0 +1,12 @@
+Authoria - BodySlide Group - Magic Pariah and Burlesque
+=======================================================
+One BodySlide group, "Authoria - Magic Pariah + Burlesque 3BA", for the 2026-09-03 outfit run:
+  mods: "Magic Pariah - Meadowlark Physics" (4 projects) + "Burlesque Dress" (9 projects).
+
+13 members, one per output mesh. Burlesque ships two skirt projects that write the SAME file
+(meshes\demBURLESQUE\BurlesqueSkirt_0/_1.nif): "Burlesque Skirt CBBE 3BA" (static) and
+"Burlesque Skirt CBBE 3BA SMP" (cloth physics). Only the SMP one is in this group so the two
+cannot overwrite each other; building the mod's own "3BA" group would build both.
+
+Every plugin model path was checked against the project output paths (all match, no leading
+"meshes\" prefix, so the UBE converter will find every built mesh). Both plugins are ESL.

@@ -1,0 +1,7 @@
+[
+  {
+    "Mod": "OStim NPCs",
+    "option": "$onpcs_option_stop_when_found",
+    "toggle": "On"
+  }
+]

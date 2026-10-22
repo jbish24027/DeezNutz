@@ -1,0 +1,53 @@
+{
+    "priority": 2110000060,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "RaySense_Obstacle",
+            "requiredPlugin": "Open Animation Replacer - RaySense",
+            "requiredVersion": "1.0.0.0",
+            "Sensor(0:Fnd, 1:Lnd, 2:Rnd, 3:VaultDist)": {
+                "value": 3.0
+            },
+            "Comparison": ">=",
+            "Value": {
+                "value": 200.0
+            }
+        },
+        {
+            "condition": "IsRunning",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IsWornHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "ArmorHeavy"
+            }
+        },
+        {
+            "condition": "IsFemale",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 12,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 50.0
+            }
+        }
+    ]
+}

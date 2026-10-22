@@ -1,0 +1,157 @@
+{
+    "name": "DWA Combat idle Loop",
+    "priority": 83032308,
+    "interruptible": true,
+    "keepRandomResultsOnLoop": true,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeSpear"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeJavelin"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeSpear"
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeaptypeJavelin"
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeapTypeRapier"
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Keyword": {
+                        "editorID": "WeapTypeRapier"
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 3.0
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 4.0
+                    },
+                    "Left hand": false
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 3.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 4.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "TrueDirectionalMovement.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "IsCombatState",
+                    "requiredVersion": "1.1.0.0",
+                    "Combat state": {
+                        "value": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsInCombat",
+                    "requiredVersion": "1.0.0.0"
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "Smooth Moveset.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                }
+            ]
+        }
+    ]
+}

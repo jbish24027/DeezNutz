@@ -1,0 +1,8 @@
+[
+  {
+    "Mod": "Simply Knock",
+    "option": "$SimplyKnockSettingsSuccessChance",
+    "page": "$SimplyKnockSettingsPage",
+    "slider": 20.0
+  }
+]

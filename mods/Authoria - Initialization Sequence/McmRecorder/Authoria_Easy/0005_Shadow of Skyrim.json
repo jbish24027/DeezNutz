@@ -1,0 +1,202 @@
+[
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Enabled",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Health",
+    "page": "Nemeses",
+    "slider": 25.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Unique Names for Generic NPCs",
+    "page": "Nemeses",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Titles for NPCs",
+    "page": "Nemeses",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Titles for Creatures",
+    "page": "Nemeses",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Nemesis Buffs",
+    "page": "Nemeses",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Player Debuffs",
+    "page": "Nemeses",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Player Reward Buffs",
+    "page": "Nemeses",
+    "toggle": "off"
+  },
+  {
+    "Click": "Bleedout Style",
+    "Mod": "Shadow of Skyrim",
+    "page": "Defeat"
+  },
+  {
+    "Click": "Bleedout Style",
+    "Mod": "Shadow of Skyrim",
+    "page": "Defeat"
+  },
+  {
+    "Click": "Bleedout Style",
+    "Mod": "Shadow of Skyrim",
+    "page": "Defeat"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Bleedout Timer",
+    "page": "Defeat",
+    "slider": 5.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Simulate Item Physics",
+    "page": "Defeat",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Nemeses Take and Use Items",
+    "page": "Defeat",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Drop Items on Accidental Defeat",
+    "page": "Defeat",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Min Inventory Dropped",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Max Inventory Dropped",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Weapons",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Shield ",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Helmet",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Armor",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Gloves",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Boots ",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Amulet",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Ring ",
+    "page": "Defeat",
+    "slider": 0.0
+  },
+  {
+    "choose": "Last Location",
+    "Mod": "Shadow of Skyrim",
+    "option": "Respawn Location ",
+    "page": "Respawn"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Random Location Chance",
+    "page": "Respawn",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Hostile Location Chance",
+    "page": "Respawn",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Max Time Passed",
+    "page": "Respawn",
+    "slider": 3.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Guards Skim",
+    "page": "Respawn",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Citizen's Arrest Bounty",
+    "page": "Respawn",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Enable Developer Mode",
+    "page": "Developer",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Compatibility Mode",
+    "page": "Developer",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Shadow of Skyrim",
+    "option": "Alternate Start Compatibility",
+    "page": "Developer",
+    "toggle": "On"
+  }
+]

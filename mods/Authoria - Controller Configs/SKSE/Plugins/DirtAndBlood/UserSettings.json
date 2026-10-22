@@ -1,0 +1,22 @@
+{
+	"Authoria_BathAnimStyle" : 1,
+	"Authoria_WashFollowersHotkey" : 40,
+	"Authoria_WashTogetherHotkey" : 49,
+	"BanditsDirtToggle" : 1,
+	"DirtSettingIndex" : 0,
+	"Dirty_NPCBathingAnimation" : 1,
+	"Dirty_NPCReactions" : 1,
+	"Dirty_PlayerBathingAnimation" : 1,
+	"Dirty_WaterRequired" : 1,
+	"HairSettingIndex" : 1,
+	"NPCsbatheToggle" : 0,
+	"ProfessionsDirtToggle" : 1,
+	"RainCleansToggle" : 1,
+	"ShowmessagesToggle" : 1,
+	"SoapRequiredToggle" : 1,
+	"bloodforNPCSToggle" : 1,
+	"bloodsettingIndex" : 0,
+	"soundeffectToggle" : 0,
+	"swimcleansToggle" : 0,
+	"washingautomaticToggle" : 1
+}

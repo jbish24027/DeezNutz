@@ -1,0 +1,97 @@
+{
+    "priority": 200015,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\Malignis Animations\\1Fatigued_Mid_Walk\\female\\_variants_mt_walkforward",
+            "variantMode": 1,
+            "variantStateScope": 1,
+            "blendBetweenVariants": false,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "s1.hkx"
+                },
+                {
+                    "filename": "s2.hkx"
+                },
+                {
+                    "filename": "s3.hkx"
+                }
+            ]
+        }
+    ],
+    "interruptible": true,
+    "hasCustomBlendTimeOnInterrupt": true,
+    "blendTimeOnInterrupt": 0.5,
+    "hasCustomBlendTimeOnLoop": true,
+    "blendTimeOnLoop": 0.5,
+    "conditions": [
+        {
+            "condition": "PRESET",
+            "requiredVersion": "2.2.0.0",
+            "Preset": "Malignis_Base"
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "actorValue": 26,
+                        "actorValueType": "Percentage"
+                    },
+                    "Comparison": "<",
+                    "Value B": {
+                        "value": 0.20000000298023224
+                    }
+                },
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "HasMagicEffect",
+                            "requiredVersion": "1.0.0.0",
+                            "Magic effect": {
+                                "pluginName": "iNeed.esp",
+                                "formID": "12D6"
+                            },
+                            "Active effects only": false
+                        },
+                        {
+                            "condition": "HasMagicEffect",
+                            "requiredVersion": "1.0.0.0",
+                            "Magic effect": {
+                                "pluginName": "SunHelmSurvival.esp",
+                                "formID": "21E35"
+                            },
+                            "Active effects only": true
+                        },
+                        {
+                            "condition": "HasMagicEffect",
+                            "requiredVersion": "1.0.0.0",
+                            "Magic effect": {
+                                "pluginName": "ccqdrsse001-survivalmode.esl",
+                                "formID": "959"
+                            },
+                            "Active effects only": true
+                        },
+                        {
+                            "condition": "HasMagicEffect",
+                            "requiredVersion": "1.0.0.0",
+                            "Magic effect": {
+                                "pluginName": "LastSeed.esp",
+                                "formID": "10864"
+                            },
+                            "Active effects only": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

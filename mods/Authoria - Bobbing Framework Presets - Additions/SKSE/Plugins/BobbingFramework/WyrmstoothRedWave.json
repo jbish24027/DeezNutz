@@ -1,0 +1,23 @@
+{
+    "FormID": "0x029DAD~Wyrmstooth.esp",
+    "children": [
+        "0x029DAE~Wyrmstooth.esp",
+        "0x029DAF~Wyrmstooth.esp",
+        "0x260FF4~Wyrmstooth.esp",
+        "0x34A0E2~Wyrmstooth.esp",
+        "0x43D2A3~Wyrmstooth.esp",
+        "0x7B58BC~Wyrmstooth.esp",
+        "0x7E223A~Wyrmstooth.esp",
+        "0x889624~Wyrmstooth.esp"
+    ],
+    "speedPos": [
+        0.25189024209976196,
+        0.21651281416416168,
+        0.21877411007881165
+    ],
+    "speedRot": [
+        0.21865862607955933,
+        0.23573504388332367,
+        0.2301906943321228
+    ]
+}

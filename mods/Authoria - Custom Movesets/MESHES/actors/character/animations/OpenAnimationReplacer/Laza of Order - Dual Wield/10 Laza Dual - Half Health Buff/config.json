@@ -1,0 +1,39 @@
+{
+    "name": "Laza Dual - Half Health Buff",
+    "priority": 91000410,
+    "conditions": [
+        
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Magic effect": {
+                        "pluginName": "Vigilant.esm",
+                        "formID": "F3D08"
+                    },
+                    "Active effects only": false
+                
+            
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 24,
+                "actorValueType": "Percentage"
+            },
+            "Comparison": "<=",
+            "Value B": {
+                "value": 0.5
+            }
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Vigilant.esm",
+                "formID": "123383"
+            }
+        }
+    ]
+}

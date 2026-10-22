@@ -1,0 +1,53 @@
+{
+    "FormID": "0x01AE20~Dragonborn.esm",
+    "children": [
+        "0x01AE29~Dragonborn.esm",
+        "0x01D798~Dragonborn.esm",
+        "0x01D799~Dragonborn.esm",
+        "0x01D79A~Dragonborn.esm",
+        "0x01D79B~Dragonborn.esm",
+        "0x01D79C~Dragonborn.esm",
+        "0x01D79D~Dragonborn.esm",
+        "0x01D79E~Dragonborn.esm",
+        "0x01D79F~Dragonborn.esm",
+        "0x01D7A0~Dragonborn.esm",
+        "0x01D7A2~Dragonborn.esm",
+        "0x01D7A3~Dragonborn.esm",
+        "0x01DEC9~Dragonborn.esm",
+        "0x01DECA~Dragonborn.esm",
+        "0x01DECB~Dragonborn.esm",
+        "0x01E083~Dragonborn.esm",
+        "0x01E084~Dragonborn.esm",
+        "0x01E085~Dragonborn.esm",
+        "0x01E087~Dragonborn.esm",
+        "0x02852A~Dragonborn.esm",
+        "0x02852B~Dragonborn.esm",
+        "0x02852C~Dragonborn.esm",
+        "0x02852D~Dragonborn.esm",
+        "0x02852E~Dragonborn.esm",
+        "0x02852F~Dragonborn.esm",
+        "0x03D527~Dragonborn.esm",
+        "0x03D528~Dragonborn.esm",
+        "0x03D529~Dragonborn.esm"
+    ],
+    "positionMax": [
+        0.0,
+        0.0,
+        4.375
+    ],
+    "positionMin": [
+        0.0,
+        0.0,
+        -4.791999816894531
+    ],
+    "speedPos": [
+        0.2778466045856476,
+        0.27452126145362854,
+        0.26529979705810547
+    ],
+    "speedRot": [
+        0.27498140931129456,
+        0.26134175062179565,
+        0.24116063117980957
+    ]
+}

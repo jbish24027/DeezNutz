@@ -1,0 +1,28 @@
+{
+    "FormID": "0x165E8D~3DNPC.esp",
+    "children": [
+        "0x16640F~3DNPC.esp",
+        "0x166988~3DNPC.esp",
+        "0x166989~3DNPC.esp",
+        "0x16698A~3DNPC.esp",
+        "0x16698B~3DNPC.esp",
+        "0x16716C~3DNPC.esp",
+        "0x16E32C~3DNPC.esp",
+        "0x1C5D15~3DNPC.esp",
+        "0x1C5D16~3DNPC.esp",
+        "0x1C5D17~3DNPC.esp",
+        "0x1C5D18~3DNPC.esp",
+        "0x1C5D19~3DNPC.esp"
+    ],
+    "phaseOffset": 0.9079999923706055,
+    "speedPos": [
+        0.15161284804344177,
+        0.15236130356788635,
+        0.15968017280101776
+    ],
+    "speedRot": [
+        0.1428450345993042,
+        0.15574327111244202,
+        0.1685410737991333
+    ]
+}

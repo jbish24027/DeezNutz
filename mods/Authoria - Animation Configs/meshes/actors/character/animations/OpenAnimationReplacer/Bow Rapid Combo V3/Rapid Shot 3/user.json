@@ -1,0 +1,68 @@
+{
+    "priority": 9901004,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IED_GearNodePlacementHint",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Gear node ID": {
+                "value": 16.0
+            },
+            "Comparison": "==",
+            "Weapon placement ID": {
+                "value": 6.0
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": false
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.33329999446868896
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 25.0
+            }
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Requiem - Weapons and Armor Redone.esp",
+                "formID": "BB5"
+            }
+        }
+    ]
+}

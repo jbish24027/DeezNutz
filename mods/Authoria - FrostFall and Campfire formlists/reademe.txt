@@ -1,0 +1,4 @@
+campfire heat sources:
+adds modded campfires as a heatsource to campfire mod.
+Frostfall exclusions:
+adds exclusions for oblivion worldspaces.

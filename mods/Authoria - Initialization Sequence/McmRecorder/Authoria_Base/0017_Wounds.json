@@ -1,0 +1,12 @@
+[
+  {
+    "Mod": "Wounds",
+    "option": "Base Injury Chance:",
+    "slider": 10.0
+  },
+  {
+    "Mod": "Wounds",
+    "option": "Minimum Speed:",
+    "slider": 40.0
+  }
+]

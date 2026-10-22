@@ -1,0 +1,32 @@
+[
+  {
+    "Mod": "Safe Save System Overhaul",
+    "option": "Bypass Name/ID Check: ",
+    "page": "Main",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Safe Save System Overhaul",
+    "option": "Enable Mod",
+    "page": "Main",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Safe Save System Overhaul",
+    "option": "Save Shortcut",
+    "page": "Main",
+    "shortcut": 63
+  },
+  {
+    "Mod": "Safe Save System Overhaul",
+    "option": "Dungeons Cleared",
+    "page": "Automatic Event Save",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Safe Save System Overhaul",
+    "option": "Entering a Player Home",
+    "page": "Automatic Event Save",
+    "toggle": "On"
+  }
+]

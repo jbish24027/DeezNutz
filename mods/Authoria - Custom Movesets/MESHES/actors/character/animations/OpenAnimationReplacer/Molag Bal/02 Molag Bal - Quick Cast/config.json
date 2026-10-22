@@ -1,0 +1,32 @@
+{
+    "name": "Molag Bal - Quick Cast",
+    "priority": 92001602,
+    "conditions": [
+        {            
+                    "condition": "IsActorBase",
+                    "requiredVersion": "1.0.0.0",
+                    "Actor base": {
+                        "pluginName": "Vigilant.esm",
+                        "formID": "8DE94"
+                    }      
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.15
+            }
+        }
+    ]
+}

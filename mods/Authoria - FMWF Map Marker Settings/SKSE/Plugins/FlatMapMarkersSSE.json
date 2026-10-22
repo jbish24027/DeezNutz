@@ -1,0 +1,178 @@
+{
+	"whiteListedWorldSpaces": [
+		{
+			"name": "Skyrim",
+			"editorID": "Tamriel",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+            "name": "Blackreach",
+            "editorID": "Blackreach",
+            "markerHeight": 180000,
+            "enabled": true
+        },
+        {
+            "name": "Forgotten Vale",
+            "editorID": "DLC01FalmerValley",
+            "markerHeight": 180000,
+            "enabled": true
+        },
+		{
+			"name": "Solstheim",
+			"editorID": "DLC2SolstheimWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Blackreach",
+			"editorID": "Blackreach",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Sovngarde",
+			"editorID": "Sovngarde",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Forgotten Vale",
+			"editorID": "DLC01FalmerValley",
+			"markerHeight": 180000,
+			"enabled": true
+		},		
+		{
+			"name": "Tamriel",
+			"editorID": "BSHeartland",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Wyrmstooth",
+			"editorID": "WyrmstoothWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Alik'r Desert",
+			"editorID": "mannyGFDesert",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Falskaar",
+			"editorID": "Falskaar",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Soul Cairn",
+			"editorID": "DLC01SoulCairn",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Pharos",
+			"editorID": "xjkislandworld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Coldharbour",
+			"editorID": "zCHMolagWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Dayspring Canyon",
+			"editorID": "DLC1HunterHQWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Markarth",
+			"editorID": "MarkarthWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Skuldafn",
+			"editorID": "SkuldafnWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Deepwood Vale",
+			"editorID": "DeepwoodRedoubtWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "MidwoodIsle",
+			"editorID": "MidwoodIsle",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Lastendell",
+			"editorID": "Lastendell",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Shivering Isles",
+			"editorID": "ecssshiveringisles",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Akavir",
+			"editorID": "Akavir",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "The Huonmon Mountains",
+			"editorID": "AkSnarhenMount",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "High Rock",
+			"editorID": "AkHightRock",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Calastai",
+			"editorID": "MasWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Apocrypha",
+			"editorID": "DLC2ApocryphaWorld",
+			"markerHeight": 180000,
+			"enabled": true
+		},	
+		{
+			"name": "Kirmore",
+			"editorID": "Kirkmore",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Beyond Reach",
+			"editorID": "arnimaDUPLICATE003",
+			"markerHeight": 180000,
+			"enabled": true
+		},
+		{
+			"name": "Hjorkvild Isles",
+			"editorID": "BSKHyorkerIsle",
+			"markerHeight": 180000,
+			"enabled": true
+		}	
+	]
+}

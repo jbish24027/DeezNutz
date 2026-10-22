@@ -1,0 +1,73 @@
+{
+    "priority": 83031017,
+    "disabled": true,
+    "interruptible": true,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "WeapTypeJavelin"
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 1.0
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 11.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "ArmorShieldLarge"
+            },
+            "Left hand": true
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "TrueDirectionalMovement.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "IsCombatState",
+                    "requiredVersion": "1.1.0.0",
+                    "Combat state": {
+                        "value": 1.0
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "priority": 9901000,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Value"
+            },
+            "Comparison": "<",
+            "Value B": {
+                "value": 25.0
+            }
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Requiem - Weapons and Armor Redone.esp",
+                "formID": "BB5"
+            }
+        }
+    ]
+}

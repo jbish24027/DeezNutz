@@ -1,0 +1,2161 @@
+{
+  "iconDefinitions": [
+// Atlas Vanilla un-fixes
+    {
+      "index": 15, // Mine
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+// Other fixes
+    {
+      "index": 36, // RiftenCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 38, // WindhelmCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 40, // WhiterunCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 42, // SolitudeCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 44, // MarkarthCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 46, // WinterholdCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 48, // MorthalCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 50, // FalkreathCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "index": 52, // DawnstarCapital
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+// CoMAP Core Overrides
+    {
+      "name": "AkaviriTempleMarker",
+      "source": {
+        "exportNames": ["AkaviriTemple", "AkaviriTemple Undiscovered"]
+      },
+      "scale": 0.666666,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "AnimalDenMarker",
+      "source": {
+        "exportNames": ["AnimalDen", "AnimalDen Undiscovered"]
+      },
+      "scale": 0.800000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DwemerLiftMarker",
+      "source": {
+        "exportNames": ["DwemerLift", "DwemerLift Undiscovered"]
+      },
+      "scale": 0.800000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    }
+  ],
+  "mapMarkers": [
+     {
+      "refID": "Atlas Map Markers.esp|D62", // Sky Haven Courtyard (Original Marker: Grove)
+      "iconName": "AkaviriRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8BE", // East Empire Company Warehouse (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "EastEmpireCompanyMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8CE", // Knifepoint Copper Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8D5", // The Conjurer's Altar (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8D9", // Sunken Fishing Boat (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8DA", // A Peddler's Misfortune (Original Marker: Stable) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8DF", // Burning Caravan (Original Marker: Stable) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8E0", // Shrine of Akatosh (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8E3", // Sacrificial Altar (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8E4", // Bear Cave (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8E5", // Nordic Burial Grove (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8E6", // Pinewatch Outcrop (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8EB", // The Mauled Refugees (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8ED", // The Indigestible Emerald (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8F0", // Orphan's Overhang (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8F1", // Khajiit Caravan Massacre (Original Marker: Stable) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8F2", // The Headless Skeleton (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8F5", // Pinemoon Bear Lair (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8F8", // Pincushion Peter (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8F9", // Nordic Burial Ruins (Original Marker: NordicRuin) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8FA", // Sabre Cat's Lair (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8FD", // The Conjurer's Caravan (Original Marker: Stable) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8FE", // Ghost Barrow (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|8FF", // Collapsed Burial Ground (Original Marker: NordicRuin) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|900", // Summoning Stones (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|904", // Karth River Henge (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|907", // Ambushed Caravan (Original Marker: Stable) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|909", // Sabre Cat Rock (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|90B", // Dead Mammoth (Original Marker: GiantCamp) - NOTE: SecLocPOIList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|90C", // Shrine of Kynareth (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|90F", // Smuggler's Den (Original Marker: Cave) - NOTE: MiscCampList
+      "icon": 5 // Camp
+    },
+    {
+      "refID": "Atlas Map Markers.esp|910", // The Lad of the Lake (Original Marker: Clearing) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|911", // The Skeleton's Strong Box (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|913", // Hunter and Hunted (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|914", // The Expired Alchemist (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|915", // Shrine of Akatosh (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|917", // Shrine of Zenithar (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|919", // Shrine of Stendarr (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|91A", // Shrine of Zenithar (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|91B", // King of the Mudcrabs (Original Marker: Clearing) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|91C", // Swallowed Skeleton (Original Marker: GiantCamp) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|91D", // Necromancer's Bluff (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|91E", // Puzzling Pillar Ruins (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|91F", // Bloodied Box (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|921", // The Seven Thousand Steps (Original Marker: Grove) - NOTE: TownMinorList / SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|923", // Ruined Toll (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|926", // Jerall Mountain Ridge (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|929", // The Three Sentinels (Original Marker: Fort) - NOTE: SecLocStructureList
+      "icon": 22 // ImperialTower
+    },
+    {
+      "refID": "Atlas Map Markers.esp|92A", // Shrine of Zenithar (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|92B", // Trapper's Dilemma (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|92C", // Shor's Outcrop (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|92D", // Northwind Chest (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|92E", // Altar in the Woods (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|931", // Mistwatch Outcrop (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|932", // Treasure Island (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "IslandMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|934", // The Poultry Reanimator (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|936", // Darkwater Overhang (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|93B", // Crystaldrift Outcrop (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|93D", // Uttering Hills Troll Den (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|93E", // Mara's Eye Stones (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|943", // Shrine of Akatosh (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|94A", // Cronvangr Summoning Altar (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|94E", // Dunmeth Pass Animal Den (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|94F", // Cradle Stone Crag (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|950", // Juniper Tree Ruins (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|952", // Shrine of Dibella (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|953", // Reachwind Burial Mound (Original Marker: NordicRuin) - NOTE: SecLocRuinsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|954", // Purewater Run Lost Treasure (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|958", // River Rapids Treasure Chest (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|959", // Reachman's Altar (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|95A", // Shrine of Zenithar (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|95B", // Riverside Brush Strongbox (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|95C", // The Exposed Miner (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|95D", // Karth River Confluence (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|95E", // A Bandit's Book (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|95F", // Harmugstahl Falls (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|961", // Druadach Dwarven Rubble (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|962", // The Incautious Bather (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|963", // Lair of the Wispmother (Original Marker: Dwemer) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|964", // Totem to the Dragon (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|965", // Sabre Cat Ravine (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|967", // The Bloodied Bandit (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|969", // Salvius Farm Trail Dwarven Rubble (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|96C", // Dawnstar Troll Den (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|96D", // Barnacle Boat (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|96E", // Horker Standing Stones (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|96F", // Sunken Treasures (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|973", // Roadside Shrine of Mara (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|974", // A Bloody Trail (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|975", // Ice Shard Animal Den (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|978", // Julianos' Fallen (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|979", // Yorgrim Forest Spider Trap (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|97A", // Wayward Peak Summit (Original Marker: Landmark) - NOTE: SecLocLandmarkList
+      "iconName": "PeakMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|97D", // Ill-Gotten Gains (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|97F", // Hunter's Last Stand (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|981", // Haul of the Horkers (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|982", // Rundi's Mistake (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "MageMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|983", // Trapped for Eternity (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|984", // The Chill (Original Marker: CastleKarstaag) - NOTE: CityImportantPlacesList
+      "iconName": "GlacialCaveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|987", // The Iceberg Explorer (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|988", // Yisra's Beachside Combustion (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "MageMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|98A", // Wet Bones (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|98B", // Altar of Xrib (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|98C", // Mount Anthor Summit (Original Marker: Landmark) - NOTE: SecLocLandmarkList
+      "iconName": "PeakMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|98D", // Avalanche Pass (Original Marker: Stable) - NOTE: SecLocLandmarkList
+      "icon": 24 // Pass
+    },
+    {
+      "refID": "Atlas Map Markers.esp|98E", // Fellhammer Wastes (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|990", // Shrine of Dibella (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|991", // Frozen Mammoth (Original Marker: GiantCamp) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|997", // Wreck of the Silvermoon (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "ActualShipwreckMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|999", // Shine of Arkay (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A0F", // Falkreath Hall of the Dead (Original Marker: Altar) - NOTE: CityHallsOfTheDeadList
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A14", // Ri'saad's Caravan Whiterun (Original Marker: Camp) - NOTE: CityKhajiitCaravansList
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A15", // Ri'saad's Caravan Markarth (Original Marker: Camp) - NOTE: CityKhajiitCaravansList
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A16", // Ahkari's Caravan Dawnstar (Original Marker: Camp) - NOTE: CityKhajiitCaravansList
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A17", // Ahkari's Caravan Riften (Original Marker: Camp) - NOTE: CityKhajiitCaravansList
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A18", // Ma'dran's Caravan Windhelm (Original Marker: Camp) - NOTE: CityKhajiitCaravansList
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A19", // Ma'dran's Caravan Solitude (Original Marker: Camp) - NOTE: CityKhajiitCaravansList
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A1C", // Vilemyr Inn (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A1D", // Dead Man's Drink (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A1E", // Frostfruit Inn (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A1F", // Four Shields Tavern (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A20", // Moorside Inn (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A21", // Sleeping Giant Inn (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A22", // Windpeak Inn (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A23", // The Braidwood Inn (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A2A", // The Frozen Hearth (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A30", // Hall of the Elements (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A38", // Arcwind Point Barrow (Original Marker: NordicRuin) - NOTE: SecLocRuinsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A39", // Arcwind Point Ruins (Original Marker: NordicRuin) - NOTE: SecLocRuinsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A3A", // Arcwind Point Altar (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A3B", // Forgotten Stash (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A3C", // Forgotten Pirate (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A3D", // Pirates Wreckage (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A3F", // Lost to the Current (Original Marker: Shipwreck) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A43", // Offering Altar (Original Marker: Altar) - NOTE: MiscAltarList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A45", // Riverwood Trader (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A46", // Grey Pine Goods (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A47", // Grave Concoctions (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A48", // Thaumaturgist's Hut (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A49", // Morthal Cemetery (Original Marker: Grove) - NOTE: TownMinorList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A4B", // Birna's Oddments (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A4C", // The Mortar and Pestle (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A56", // Lost Load (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A57", // Goldenglow Estate Sewer (Original Marker: Grove) - NOTE: TownMinorList
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A58", // Land Grab (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A5C", // Bleak Falls Sanctum (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A5D", // Mzulft Aedrome (Original Marker: Dwemer) - NOTE: DungeonExitsList
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A5F", // Darkwater Pass Exit (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A60", // Ilinalta's Deluge (Original Marker: Fort) - NOTE: DungeonExitsList
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A61", // Treva's Watch Escape Tunnel (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A63", // Ysgramor's Tomb Exit (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A64", // Stillborn Cave Exit (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A65", // Snow Veil Sanctum Exit (Original Marker: NordicRuin) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A66", // Yngol Barrow Exit (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 31 // NordicTower
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A67", // Ironbind Barrow Overlook (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A68", // Labyrinthian Tribune (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A69", // Raldbthar Deep Market (Original Marker: Dwemer) - NOTE: DungeonExitsList
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A6A", // Bthardamz Arcanex (Original Marker: Dwemer) - NOTE: DungeonExitsList
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A6C", // Three Billy Goats Gruff (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A6D", // Shrine of Arkay (Original Marker: Shrine) - NOTE: MiscAdditionalShrinesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A6E", // Shrine of Mara (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A76", // Emblem I (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A77", // Emblem II (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A78", // Emblem III (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A79", // Emblem IV (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A7A", // Emblem V (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A7B", // Emblem VI (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A7C", // Emblem VII (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A7D", // Emblem VIII (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A7E", // Emblem IX (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A7F", // Emblem X (Original Marker: Shrine) - NOTE: MiscShrines7000StepsList
+      "icon": 26 // Rock
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A80", // Hall of Attainment (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A81", // Hall of Countenance (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A82", // Arch-Mage's Quarters (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "MageTowerMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A83", // Shrine of Dibella (Original Marker: Shrine) - NOTE: MiscAdditionalShrinesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A85", // Helgen Escape Tunnel (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A8C", // Halted Stream Pit (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 4 // Cave
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A8D", // Bandit Thief (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A8E", // White River Watch Overlook (Original Marker: Cave) - NOTE: DungeonExitsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A91", // Dawnstar Sanctuary (Original Marker: Rock) - NOTE: FactionDBList
+      "iconName": "DarkBrotherhoodMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A94", // Haemar's Shame Exit (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A95", // Summit Stash (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A96", // Rannveig's Fast Exit (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A97", // Embershard Mine Exit (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A98", // Fort Snowhawk Prison (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A99", // Mzinchaleft Gatehouse (Original Marker: Dwemer) - NOTE: DungeonExitsList
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A9B", // Fort Sungard Oubliette (Original Marker: Fort) - NOTE: DungeonExitsList
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A9C", // Shrine of Akatosh (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A9D", // River Luck (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A9F", // Fort Neugrad Prison (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AA1", // Misty Goods (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AA3", // Bounty Island (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AA4", // Kilkreath Ruins (Original Marker: Cave) - NOTE: SecLocRuinsList
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AA6", // Fort Fellhammer Iron Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AA7", // Abandoned Prison Escape Hatch (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AAA", // Halted Stream Iron Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|ABB", // Knifepoint Corundum Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|ABC", // Knifepoint Iron Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B0B", // Potema's Secluded Chamber (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B0C", // Penitus Oculatus Outpost (Original Marker: Settlement) - NOTE: TownImportantPlacesList
+      "iconName": "PenitusOculatusMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B12", // Dwarven Convector (Original Marker: Dwemer) - NOTE: SecLocStructureList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B13", // Shriekwind Overlook (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B14", // Solitude Arch (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B16", // Wet Plunder (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B19", // Alvor's Blacksmithing (Original Marker: Mine) - NOTE: TownShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B1C", // Rustleif's Blacksmithing (Original Marker: Mine) - NOTE: TownShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B1E", // Lod's Blacksmithing (Original Marker: Mine) - NOTE: TownShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B1F", // Miner's Loss (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B21", // Cliffside Seclusion (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B22", // Steamed Goods (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B23", // Left Behind (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B24", // Log of Learning (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B25", // Birch Book (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B26", // Surplus Goods (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B27", // Roadside Ruins (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B28", // Cold Meditation (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B29", // Fallen Tree (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B2A", // Stumped (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B2B", // Island Knowledge (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B2C", // Tiny Alcove (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B2D", // Mountain Supplies (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B2F", // Peak Plunder (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B30", // Hollow Find (Original Marker: Grove) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B31", // Runaway Cart (Original Marker: Stable) - NOTE: LostBooksList
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B32", // Lucky Log (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B33", // Stone Goods (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B34", // River Loot (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B35", // Sulphur Stash (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B36", // Pillar Gains (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B37", // Crossroads Cart (Original Marker: Stable) - NOTE: SecLocPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B38", // Corner Stash (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B39", // Capsized (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B3B", // Swept Away (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B3F", // Waterfall Alcove (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B40", // Northwind Iron Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B42", // Northern Henge (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B43", // Wild Animal Den (Original Marker: Cave) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B44", // Standing Stone Ruins (Original Marker: Grove) - NOTE: SecLocRuinsList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B45", // Fort Sungard Bloody Pit (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B46", // Archer's Perch (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B47", // Woodcutter's Loss (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B48", // Sacked Bandit (Original Marker: Grove) - NOTE: SecLocPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BE7", // Ruunvald Temple (Original Marker: Grove) - NOTE: DungeonExitsList
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BE9", // Sunken Shipwreck (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "ActualShipwreckMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C03", // Forgotten Vale (Original Marker: Pass) - NOTE: DGForgottenValeEntranceList_ID
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9C9", // Hjerim (Original Marker: Shack) - NOTE: CityPlayerHomesList
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9D6", // Windhelm Market (Original Marker: Settlement) - NOTE: CityMarketsList
+      "iconName": "WarehouseMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A11", // Windhelm Hall of the Dead (Original Marker: Altar) - NOTE: CityHallsOfTheDeadList
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A12", // Temple of Talos (Original Marker: Shrine) - NOTE: CityTemplesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A26", // Candlehearth Hall (Original Marker: Settlement) - NOTE: CityInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A2E", // New Gnisis Cornerclub (Original Marker: Settlement) - NOTE: CityAdditionalLocationList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A51", // Sadri's Used Wares (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AF4", // Blacksmith Quarters (Original Marker: Mine) - NOTE: CityShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AF7", // The White Phial (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9C5", // Honeyside (Original Marker: Shack) - NOTE: CityPlayerHomesList
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9D4", // Riften Market (Original Marker: Settlement) - NOTE: CityMarketsList
+      "iconName": "WarehouseMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9EC", // Temple of Mara (Original Marker: Shrine) - NOTE: CityTemplesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A25", // The Bee and Barb (Original Marker: Settlement) - NOTE: CityInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A4F", // Elgrim's Elixirs (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B00", // Pawned Prawn (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B07", // Riften Hall of the Dead (Original Marker: Altar) - NOTE: CityHallsOfTheDeadList
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9CC", // Vlindrel Hall (Original Marker: Shack) - NOTE: CityPlayerHomesList
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9F4", // Temple of Dibella (Original Marker: Shrine) - NOTE: CityTemplesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A13", // Markarth Forge (Original Marker: Mine) - NOTE: CityShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A1A", // Markarth Hall of the Dead (Original Marker: Altar) - NOTE: CityHallsOfTheDeadList
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A27", // Silver-Blood Inn (Original Marker: Settlement) - NOTE: CityInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B02", // Arnleif and Sons Trading Company (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B0F", // The Hag's Cure (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9AB", // Breezehome (Original Marker: Shack) - NOTE: CityPlayerHomesList
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9D2", // Whiterun Market (Original Marker: Settlement) - NOTE: CityMarketsList
+      "iconName": "WarehouseMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9E7", // Jorrvaskr (Original Marker: Settlement) - NOTE: FactionCOList
+      "iconName": "CompanionsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9F8", // Temple of Kynareth (Original Marker: Shrine) - NOTE: CityTemplesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A10", // Whiterun Hall of the Dead (Original Marker: Altar) - NOTE: CityHallsOfTheDeadList
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A28", // The Bannered Mare (Original Marker: Settlement) - NOTE: CityInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A29", // Skyforge (Original Marker: Mine) - NOTE: CityImportantPlacesList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A36", // Warmaiden's (Original Marker: Mine) - NOTE: CityShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A37", // Drunken Huntsman (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "FletcherMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AFA", // Belethor's General Goods (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AFB", // Arcadia's Cauldron (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B4B", // War Quarters (Original Marker: Settlement) - NOTE: BRSecondary
+      "iconName": "RedguardSettlementMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B4C", // Blackreach Arena (Original Marker: Grove) - NOTE: BRPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B4D", // Troll Den (Original Marker: Grove) - NOTE: BRPOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B4F", // Derelict Pumphouse Lift (Original Marker: NordicTower) - NOTE: BRSecondary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B50", // Great Lift of Raldbthar (Original Marker: Dwemer) - NOTE: BRPrimary
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B52", // Falmer Mining Camp (Original Marker: Camp) - NOTE: BRPOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B53", // Tower of Mzark (Original Marker: Fort) - NOTE: BRPrimary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B54", // Farm Overseer's House (Original Marker: Settlement) - NOTE: BRPOI
+      "iconName": "RedguardSettlementMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B55", // Great Lift of Mzinchaleft (Original Marker: Dwemer) - NOTE: BRPrimary
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B56", // Silent Ruin (Original Marker: Settlement) - NOTE: BRSecondary
+      "iconName": "RedguardSettlementMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B57", // Reeking Tower Overlook (Original Marker: Fort) - NOTE: BRPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B58", // Reeking Tower (Original Marker: Fort) - NOTE: BRSecondary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B59", // Sinderion's Field Laboratory (Original Marker: Settlement) - NOTE: BRSecondary
+      "iconName": "RedguardSettlementMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B5B", // Great Lift of Alftand (Original Marker: Dwemer) - NOTE: BRPrimary
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B5C", // Silent City Catacombs (Original Marker: Cave) - NOTE: BRSecondary
+      "iconName": "JailMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B5D", // Pumping Station (Original Marker: NordicTower) - NOTE: BRSecondary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B5E", // Debate Hall (Original Marker: Fort) - NOTE: BRSecondary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B5F", // Hall of Rumination (Original Marker: Fort) - NOTE: BRSecondary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B60", // Wispmother's Dark Plunder (Original Marker: Grove) - NOTE: BRPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B61", // Derelict Pumphouse (Original Marker: NordicTower) - NOTE: BRSecondary
+      "icon": 8 // Dwemer
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B65", // Hall of Rumination Balcony (Original Marker: Fort) - NOTE: BRPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A5A", // Skuldafn (Original Marker: NordicDwelling)
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A9A", // Nimble Gains (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AA9", // Troll Loss (Original Marker: Grove) - NOTE: SecLocPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9C8", // Proudspire Manor (Original Marker: Shack) - NOTE: CityPlayerHomesList
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9E9", // Bards College (Original Marker: Settlement) - NOTE: CityImportantPlacesList
+      "iconName": "BardsCollegeMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9EA", // Castle Dour (Original Marker: Fort) - NOTE: CityImportantPlacesList
+      "icon": 1 // City
+    },
+    {
+      "refID": "Atlas Map Markers.esp|9FB", // Temple of the Divines (Original Marker: Shrine) - NOTE: CityTemplesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A0D", // Solitude Market (Original Marker: Settlement) - NOTE: CityMarketsList
+      "iconName": "WarehouseMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A0E", // Solitude Hall of the Dead (Original Marker: Altar) - NOTE: CityHallsOfTheDeadList
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A24", // The Winking Skeever (Original Marker: Settlement) - NOTE: CityInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AE9", // Angeline's Aromatics (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AEA", // Radiant Raiment (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "TailorMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AED", // Bits and Pieces (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "StoreMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AF0", // Solitude Blacksmith (Original Marker: Mine) - NOTE: CityShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|AF3", // Fletcher Fihada (Original Marker: Settlement) - NOTE: CityShopsList
+      "iconName": "FletcherMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A74", // Great Porch (Original Marker: Fort) - NOTE: CityAdditionalLocationList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|A75", // Shalidor's Maze (Original Marker: NordicDwelling) - NOTE: SecLocStructureList
+      "iconName": "MageMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B20", // Lost in the Maze (Original Marker: Grove) - NOTE: LostBooksList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA4", // Vale Sabre Cat Lair (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA6", // Frost Spider's Nest (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA7", // Pilgrim's Path (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA8", // Vale Scar (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA9", // Hidden Vale Troll Den (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BAB", // Wayshrine of Sight (Original Marker: Shrine) - NOTE: DGForgottenValePrimary
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BAC", // The Sprawled Skeleton (Original Marker: Rock) - NOTE: DGForgottenValePOI
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BAD", // Ice Falls Alcove North (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BAE", // Wayshrine of Learning (Original Marker: Shrine) - NOTE: DGForgottenValePrimary
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BAF", // Ice Falls Alcove South (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB0", // Snow Path to Frozen Lake (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB1", // Darkfall Grotto (Original Marker: Clearing) - NOTE: DGForgottenValePOI
+      "icon": 4 // Cave
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB2", // Snowbound Skeletons (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB3", // Emerald Paragon Portal (Original Marker: Altar) - NOTE: DGForgottenValeSecondary
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB4", // Forgotten Vale Overlook (Original Marker: Rock) - NOTE: DGForgottenValePOI
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB5", // Waterfall Chest (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB6", // The Heavy Chest (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB7", // Frozen Lakeshore (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BB9", // Wayshrine of Resolution (Original Marker: Shrine) - NOTE: DGForgottenValePrimary
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BBB", // Pilgrim's Path (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BBC", // Paragon Portal Platform (Original Marker: Altar) - NOTE: DGForgottenValeSecondary
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BBD", // Frost Giant Lair (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "KarstaagMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BBE", // Frost Giant Lair (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "KarstaagMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BC0", // Fissure Ledges (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BC1", // River Falmer Camp (Original Marker: Camp) - NOTE: DGForgottenValeSecondary
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BC2", // Falmer Camp and Graveyard (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BC5", // Mining Remains (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BC6", // Glacial Crevice North (Original Marker: CastleKarstaag) - NOTE: DGForgottenValeSecondary
+      "iconName": "GlacialCaveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BC8", // Frost Giant Lair (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "KarstaagMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BCA", // Falmer Village (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BCB", // Steep Slope (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BCC", // Falmer Village (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BCD", // Falmer Hut (Original Marker: Rock) - NOTE: DGForgottenValePOI
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BCE", // Fledgling Nest (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD0", // Entrance to the Inner Sanctum (Original Marker: WindhelmCastle) - NOTE: DGForgottenValePrimary
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD1", // Bridge to Inner Sanctum (Original Marker: Clearing) - NOTE: DGForgottenValePOI
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD2", // Wayshrine of Radiance (Original Marker: Shrine) - NOTE: DGForgottenValePrimary
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD3", // Wayshrine Falmer Camp (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD6", // Frost Giant Lair (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "KarstaagMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD7", // Glacial Crevice South (Original Marker: CastleKarstaag) - NOTE: DGForgottenValeSecondary
+      "iconName": "GlacialCaveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD8", // Upper Fissure Walls (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BD9", // Overexuberant Ore Extractor (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BDB", // Falmer Fissure Village (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BDC", // Falmer Fissure Village (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BDD", // Falmer Fissure Village (Original Marker: Camp) - NOTE: DGForgottenValePOI
+      "iconName": "BookMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BDE", // Ruby Paragon Portal (Original Marker: Altar) - NOTE: DGForgottenValeSecondary
+      "iconName": "SnowElfRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BDF", // Falmer Warmonger (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "FalmerHiveMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BE0", // Frost Troll Den (Original Marker: Cave) - NOTE: DGForgottenValePOI
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BE1", // Auriel's Chapel and Wayshrine (Original Marker: Shrine) - NOTE: DGForgottenValePrimary
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BE2", // Falmer Temple (Original Marker: City)
+      "iconName": "ForgottenValeMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BF7", // Icy Swim (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BFE", // Bone Pile (Original Marker: Grove) - NOTE: DGForgottenValePOI
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C05", // Skyrim (Original Marker: Pass) - NOTE: DGForgottenValeEntranceList_ID
+      "iconName": "SkyrimMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B6C", // Volkihar Ruins (Original Marker: CastleKarstaag) - NOTE: DGSoulCairnPrimary
+      "iconName": "SoulCairnMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B6D", // Path of Souls (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B6E", // The Black Chapel (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B6F", // Mournful Soul (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B70", // The Black Church (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B71", // The Black Sanctuary (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B72", // The Black Monastery (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B74", // Totem to the Ideal Masters (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B75", // Steps of the Barrier Wall South (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B76", // The Barrier Wall (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "iconName": "BorderCrossingMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B77", // The Crystal Folly (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B78", // The Black Gatehouse (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B7A", // Black Gatehouse I (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B7B", // Black Gatehouse II (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B7C", // Lost Structure (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B7D", // Black Gatehouse III (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B7E", // Durnehviir's Perch (Original Marker: Settlement)
+      "icon": 12 // DragonLair
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B7F", // The Boneyard (Original Marker: RiftenCastle) - NOTE: DGSoulCairnPrimary
+      "iconName": "DaedricRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B80", // The Black Folly (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B81", // Black Gatehouse IV (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B82", // The Black Bethel (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B83", // The Black Minster (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B84", // The Cemetery Altar (Original Marker: Altar) - NOTE: DGSoulCairnPOI
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B85", // The Cemetery Gatehouse I (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B86", // The Cemetery Gatehouse II (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B87", // The Cemetery Gatehouse III (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B88", // The Cemetery Gatehouse IV (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B89", // The Cemetery Gatehouse V (Original Marker: Settlement) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B8A", // Tabernacle of the Ideal Masters (Original Marker: Rock) - NOTE: DGSoulCairnPrimary
+      "iconName": "SoulCairnTowerMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B8B", // Wandering Soul (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B8C", // The Dark Battlements (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B8D", // Skeleton and Soul (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B8E", // The Black Mausoleum (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B8F", // Steps of the Barrier Wall North (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B90", // Soul Husk Merchant (Original Marker: Farm) - NOTE: DGSoulCairnPOI
+      "iconName": "CaravanMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B91", // The Black Rectory (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B93", // The Keeper's Chapel (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B94", // The Keeper's Altar (Original Marker: Altar) - NOTE: DGSoulCairnPOI
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B95", // Reaper's Lair (Original Marker: DragonLair) - NOTE: DGSoulCairnSecondary
+      "icon": 34 // Shrine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B96", // The Unwary Adventurer (Original Marker: Grove) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B97", // Soul Pool Fountain (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B98", // The Black Cloister (Original Marker: NordicTower) - NOTE: DGSoulCairnSecondary
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B9A", // The Obsidian Hall (Original Marker: Rock) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B9D", // The Black Tower (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|B9E", // Foundation Altar (Original Marker: Altar) - NOTE: DGSoulCairnPOI
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA0", // Boneyard Citadel (Original Marker: NordicTower) - NOTE: DGSoulCairnPOI
+      "iconName": "CryptMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA1", // The Black Temple (Original Marker: Rock) - NOTE: DGSoulCairnSecondary
+      "iconName": "SoulCairnRuinsMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA2", // The Floating Citadel (Original Marker: Fort) - NOTE: DGSoulCairnPrimary
+      "iconName": "SoulCairnTowerMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BA3", // The Shriveled Forest (Original Marker: Fort) - NOTE: DGSoulCairnPrimary
+      "iconName": "SoulCairnTowerMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|BE3", // Volkihar Courtyard (Original Marker: Clearing) - NOTE: DGExtraPlaces
+      "iconName": "CastleVolkiharMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C07", // Impact Crater (Original Marker: Grove) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C09", // Bloodied Grove (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C0B", // Shrine of Kynareth (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C0C", // Forgotten Spoils (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C10", // Miner Immolation (Original Marker: Grove) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C11", // Shrine of Zenithar (Original Marker: Shrine) - NOTE: MiscShrineList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C12", // Impact Crater (Original Marker: Grove) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C13", // Horker Iceberg (Original Marker: Grove) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C14", // Lurker Ambush (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C15", // Riekling Outpost (Original Marker: Shack) - NOTE: SecLocStructureList
+      "iconName": "RieklingMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C16", // Giant Nirnroot Island (Original Marker: Grove) - NOTE: SecLocLandmarkList
+      "iconName": "IslandMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C17", // Riekling Chest (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C18", // Riekling Barrel Horde (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C1A", // Spider Nest (Original Marker: Grove) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C1B", // Spider Nest (Original Marker: Grove) - NOTE: MiscAnimalDenList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C1D", // The Fisherman's Haul (Original Marker: Shipwreck) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C1E", // Wild Plunder (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C1F", // Missing Cargo (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C20", // Waterfall Chest (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C21", // Feast of the Hoppers (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "AnimalDenMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C22", // Hrodulf's Last Stand (Original Marker: Shipwreck) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C23", // Slippery Slope (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C24", // Hillside Gains (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C25", // Temple of the Reclamations (Original Marker: Shrine) - NOTE: CityTemplesList
+      "icon": 25 // Altar
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C28", // Severin Manor (Original Marker: Shack) - NOTE: CityPlayerHomesList
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C29", // The Retching Netch (Original Marker: Settlement) - NOTE: TownInnsList
+      "iconName": "TavernMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C2C", // Raven Rock Ebony Mine (Original Marker: Smelter) - NOTE: TownMineList
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C2F", // Tel Mithryn Graveyard (Original Marker: Grove) - NOTE: TownMinorList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C32", // Glover the Blacksmith (Original Marker: Mine) - NOTE: TownShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C41", // Baldor Iron-Shaper (Original Marker: Mine) - NOTE: TownShopsList
+      "iconName": "SmithMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C46", // Explorer Remains (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C47", // Dead Explorer (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "GraveyardMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C48", // Sunken Chest (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C49", // Sunken Boat (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C4A", // Dragon Offerings (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C4B", // Fahlbtharz Grand Hall (Original Marker: Dwemer) - NOTE: DungeonExitsList
+      "iconName": "DwemerLiftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C4C", // Expired Riekling (Original Marker: Grove) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C4E", // Docked Wreckage (Original Marker: Shipwreck) - NOTE: MiscShipwreckList
+      "iconName": "ActualShipwreckMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C50", // Coldcinder Cave Exit (Original Marker: Cave) - NOTE: DungeonExitsList
+      "iconName": "MineshaftMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C51", // Damp Chest (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C52", // Tel Mithryn Apothecary (Original Marker: Settlement) - NOTE: TownShopsList
+      "iconName": "AlchemistMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C53", // Tel Mithryn Kitchen (Original Marker: Settlement) - NOTE: TownMinorList
+      "iconName": "WarehouseMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C65", // Isle of Basalt (Original Marker: Grove) - NOTE: SecLocLandmarkList
+      "iconName": "IslandMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C66", // Driftwood Isle (Original Marker: Grove) - NOTE: SecLocLandmarkList
+      "iconName": "IslandMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C67", // Bloodskal Corpse (Original Marker: Shipwreck) - NOTE: DBPOIList
+      "iconName": "JewelMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C68", // Lurker Ambush (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C69", // Basalt Causeway (Original Marker: Grove) - NOTE: DBPOIList
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C6A", // Lurker Ambush (Original Marker: Grove) - NOTE: DBPOIList
+      "iconName": "BattleMarker"
+    },
+    {
+      "refID": "Atlas Map Markers.esp|C6C", // Spiky Grass Island (Original Marker: Grove) - NOTE: SecLocLandmarkList
+      "iconName": "IslandMarker"
+    },
+    {
+      "refID": "OCW_AMM-SE_FEPatch.esp|800", // Hall of Acumen (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "OCW_AMM-SE_FEPatch.esp|801", // Hall of Diligence (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "UltimateCollege_AtlasMapMarkersSE_Patch.esp|800", // Hall of Acumen (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "UltimateCollege_AtlasMapMarkersSE_Patch.esp|804", // Hall of Diligence (Original Marker: Settlement) - NOTE: FactionMGList
+      "iconName": "CUTMageMarker"
+    },
+    {
+      "refID": "UltimateCollege_AtlasMapMarkersSE_Patch.esp|805", // Lustratorium Southwest (Original Marker: Grove) - NOTE: FactionMGList
+      "iconName": "DeciduousGroveMarker"
+    },
+    {
+      "refID": "Skyrim.esm|15D56", // Ansilvund (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|1622E", // Dead Men's Respite (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|F5B8D", // Dustman's Cairn (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|16241", // Evergreen Grove (Original Marker: Clearing) - NOTE: Revert to vanilla marker
+      "icon": 10 // Grove
+    },
+    {
+      "refID": "Skyrim.esm|4788C", // Falkreath Watchtower (Original Marker: Fort) - NOTE: Revert to vanilla marker
+      "icon": 22 // ImperialTower
+    },
+    {
+      "refID": "Skyrim.esm|16246", // Folgunthur (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|16249", // Fort Amol (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|1624B", // Fort Dunstad (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|1624D", // Fort Greenwall (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|1624A", // Fort Greymoor (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|1624F", // Fort Kastav (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|16250", // Fort Neugrad (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|16251", // Fort Snowhawk (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|16252", // Fort Sungard (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|162C2", // Frostmere Crypt (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|16255", // Geirmund's Hall (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|EE79C", // Hamvir's Rest (Original Marker: NordicRuin) - NOTE: Revert to vanilla marker
+      "icon": 32 // NordicDwelling
+    },
+    {
+      "refID": "Skyrim.esm|162CB", // Hillgrund's Tomb (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|177A1", // Kynesgrove (Original Marker: Town) - NOTE: Revert to vanilla marker
+      "icon": 3 // Settlement
+    },
+    {
+      "refID": "Skyrim.esm|268FF", // Merryfair Farm (Original Marker: WheatMill) - NOTE: Revert to vanilla marker
+      "icon": 13 // Farm
+    },
+    {
+      "refID": "Skyrim.esm|A0E46", // North Shriekwind Bastion (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|16290", // Northwatch Keep (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Skyrim.esm|EF0BA", // Pinefrost Tower (Original Marker: Fort) - NOTE: Revert to vanilla marker
+      "icon": 22 // ImperialTower
+    },
+    {
+      "refID": "Skyrim.esm|EF570", // Refugees' Rest (Original Marker: Fort) - NOTE: Revert to vanilla marker
+      "icon": 22 // ImperialTower
+    },
+    {
+      "refID": "Skyrim.esm|D3930", // Rift Watchtower (Original Marker: Fort) - NOTE: Revert to vanilla marker
+      "icon": 22 // ImperialTower
+    },
+    {
+      "refID": "Skyrim.esm|6CCC8", // Shroud Hearth Barrow (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|162B5", // Silverdrift Lair (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|C2EF6", // Snowpoint Beacon (Original Marker: Fort) - NOTE: Revert to vanilla marker
+      "icon": 22 // ImperialTower
+    },
+    {
+      "refID": "Skyrim.esm|2DDD1", // Snow Veil Sanctum (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|1621F", // Ustengrav (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|8D5D6", // Valthume (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|162CA", // Volskygge (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|16264", // Volunruud (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Skyrim.esm|162D2", // Ysgramor's Tomb (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Dragonborn.esm|143D8", // Ashfallow Citadel (Original Marker: ImperialTower) - NOTE: Revert to vanilla marker
+      "icon": 6 // Fort
+    },
+    {
+      "refID": "Dragonborn.esm|143C6", // Gyldenhul Barrow (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Dragonborn.esm|143CC", // Kolbjorn Barrow (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Dragonborn.esm|296E0", // Stalhrim Source (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 11 // Landmark
+    },
+    {
+      "refID": "Dragonborn.esm|143CD", // White Ridge Barrow (Original Marker: NordicDwelling) - NOTE: Revert to vanilla marker
+      "icon": 7 // NordicRuin
+    },
+    {
+      "refID": "Dragonborn.esm|296DE", // Damphall Mine (Original Marker: Smelter) - NOTE: Abandoned, revert to vanilla marker
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Skyrim.esm|16275", // Bilegulch Mine (Original Marker: Smelter) - NOTE: Abandoned, revert to vanilla marker
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Skyrim.esm|B6CDF", // Embershard Mine (Original Marker: Smelter) - NOTE: Abandoned, revert to vanilla marker
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Skyrim.esm|D3938", // Lost Prospect Mine (Original Marker: Smelter) - NOTE: Abandoned, revert to vanilla marker
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Skyrim.esm|FDBDE", // Northwind Mine (Original Marker: Smelter) - NOTE: Abandoned, revert to vanilla marker
+      "icon": 15 // Mine
+    },
+    {
+      "refID": "Skyrim.esm|4FEF2", // Solitude Docks (Original Marker: Docks) - NOTE: Atlas adds an additional marker for EEC
+      "icon": 33 // Docks
+    },
+    {
+      "refID": "Skyrim.esm|1637C", // Sky Haven Temple (Original Marker: Landmark) - NOTE: Atlas adds Courtyard as the primary marker
+      "iconName": "AkaviriTempleMarker"
+    },
+    {
+      "refID": "Dawnguard.esm|BA4D", // Castle Volkihar (Original Marker: Fort) - NOTE: Atlas adds Courtyard as the primary marker
+      "iconName": "CUTCastleVolkiharMarker"
+    }
+  ]
+}

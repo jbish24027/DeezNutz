@@ -1,0 +1,118 @@
+{
+    "priority": 200020,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\Malignis Animations\\1Fatigued_Walk\\female\\_variants_mt_walkforward",
+            "variantMode": 1,
+            "variantStateScope": 1,
+            "blendBetweenVariants": false,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "wf1.hkx"
+                },
+                {
+                    "filename": "wf2.hkx"
+                },
+                {
+                    "filename": "wf3.hkx"
+                }
+            ]
+        }
+    ],
+    "interruptible": true,
+    "hasCustomBlendTimeOnInterrupt": true,
+    "blendTimeOnInterrupt": 0.5,
+    "hasCustomBlendTimeOnLoop": true,
+    "blendTimeOnLoop": 0.5,
+    "conditions": [
+        {
+            "condition": "PRESET",
+            "requiredVersion": "2.2.0.0",
+            "Preset": "Malignis_Base"
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "Value A": {
+                        "actorValue": 26,
+                        "actorValueType": "Percentage"
+                    },
+                    "Comparison": "<",
+                    "Value B": {
+                        "value": 0.10000000149011612
+                    }
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "iNeed.esp",
+                        "formID": "12D7"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "SunHelmSurvival.esp",
+                        "formID": "21E36"
+                    },
+                    "Active effects only": true
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "SunHelmSurvival.esp",
+                        "formID": "21E37"
+                    },
+                    "Active effects only": true
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "ccqdrsse001-survivalmode.esl",
+                        "formID": "957"
+                    },
+                    "Active effects only": true
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "ccqdrsse001-survivalmode.esl",
+                        "formID": "958"
+                    },
+                    "Active effects only": true
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "LastSeed.esp",
+                        "formID": "10868"
+                    },
+                    "Active effects only": true
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "LastSeed.esp",
+                        "formID": "10866"
+                    },
+                    "Active effects only": true
+                }
+            ]
+        }
+    ]
+}

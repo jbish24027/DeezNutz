@@ -1,0 +1,30 @@
+0.060000 PIE.@SGVF|MCO_AttackSpeed|0.9
+0.430000 PIE.@SGVF|MCO_AttackSpeed|1
+
+0.260000 WeaponSwing
+
+0.060000 PIE.@SGVI|MCO_nextattack|4
+0.060000 PIE.@SGVI|MCO_nextpowerattack|1
+
+0.430000 MCO_WinOpen
+1.000000 MCO_WinClose
+
+0.430000 MCO_PowerWinOpen
+1.000000 MCO_PowerWinClose
+
+0.200000 Collision_AttackStart
+0.386000 Collision_Add.node(WEAPON)|RadiusMult(1)|DamageMult(1)
+0.580000 Collision_Remove.node(WEAPON)|RadiusMult(1)|DamageMult(1)
+2.000000 Collision_AttackEND
+
+
+1.116667 SCAR_ComboStart
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack", "MinDistance":0, "MaxDistance":500, "StartAngle":-90, "EndAngle":90, "Chance":30, "Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack", "MinDistance":0, "MaxDistance":300, "StartAngle":-90, "EndAngle":90, "Chance":100, "Type":"RA"}
+
+0.300000 SoundPlay.WPNBlockShieldHSD
+
+0.330000 PIE.@PLAYPARTICLE|magic/illusionimpact01.nif|9|1.5|0|4U|0|0|0
+0.300000 PIE.@CAST|0x00013E09|Skyrim.esm|1|1|0|0|0|0|0|5|5
+
+2.100000 PIE.@CAST|0x104d43|Skyrim.esm|1|1|0|0|0|0|0|0|0

@@ -1,0 +1,23 @@
+{
+    "FormID": "0x02498E~Skyrim.esm",
+    "children": [
+        "0x02498D~Skyrim.esm",
+        "0x02498F~Skyrim.esm",
+        "0x05227D~Skyrim.esm",
+        "0x05227E~Skyrim.esm",
+        "0x102015~Skyrim.esm",
+        "0x102016~Skyrim.esm",
+        "0x10F861~Skyrim.esm",
+        "0x29BDE3~LegacyoftheDragonborn.esm"
+    ],
+    "speedPos": [
+        0.1616707295179367,
+        0.14652718603610992,
+        0.1495046764612198
+    ],
+    "speedRot": [
+        0.16146628558635712,
+        0.1630529910326004,
+        0.161664217710495
+    ]
+}

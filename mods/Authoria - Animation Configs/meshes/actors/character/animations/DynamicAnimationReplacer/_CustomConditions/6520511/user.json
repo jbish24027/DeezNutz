@@ -1,0 +1,109 @@
+{
+    "name":  "Vampire Claws (player) - priority raised above Stances NG unarmed",
+    "description":  "user.json override: bumps DAR _CustomConditions\\6520511 from 6,520,511 to 90,000,011 so vampire unarmed claws win over the Unarmed - Bear/Hawk/Wolf stance slots (max 7,002,004). Conditions mirror the mod\u0027s _conditions.txt.",
+    "priority":  90000019,
+    "conditions":  [
+                       {
+                           "condition":  "IsActorBase",
+                           "requiredVersion":  "1.0.0.0",
+                           "Actor base":  {
+                                              "pluginName":  "Skyrim.esm",
+                                              "formID":  "7"
+                                          }
+                       },
+                       {
+                           "condition":  "IsEquippedType",
+                           "requiredVersion":  "1.0.0.0",
+                           "Type":  {
+                                        "value":  0
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "OR",
+                           "requiredVersion":  "1.0.0.0",
+                           "Conditions":  [
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "088794"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "08883A"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "08883C"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "08883D"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "088840"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "088844"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "088845"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "088846"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "088884"
+                                                           }
+                                              },
+                                              {
+                                                  "condition":  "IsRace",
+                                                  "requiredVersion":  "1.0.0.0",
+                                                  "Race":  {
+                                                               "pluginName":  "Skyrim.esm",
+                                                               "formID":  "0A82B9"
+                                                           }
+                                              }
+                                          ]
+                       }
+                   ]
+}

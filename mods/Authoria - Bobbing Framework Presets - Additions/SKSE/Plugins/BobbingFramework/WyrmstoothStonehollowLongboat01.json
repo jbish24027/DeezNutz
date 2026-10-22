@@ -1,0 +1,36 @@
+{
+    "FormID": "0x219A59~Wyrmstooth.esp",
+    "children": [
+        "0x219A57~Wyrmstooth.esp",
+        "0x219A64~Wyrmstooth.esp",
+        "0x219A65~Wyrmstooth.esp",
+        "0x219A66~Wyrmstooth.esp",
+        "0x219A67~Wyrmstooth.esp",
+        "0x219A68~Wyrmstooth.esp",
+        "0x219A69~Wyrmstooth.esp",
+        "0x219A71~Wyrmstooth.esp",
+        "0x219A72~Wyrmstooth.esp",
+        "0x219A76~Wyrmstooth.esp",
+        "0x219A77~Wyrmstooth.esp",
+        "0x5FA081~Wyrmstooth.esp",
+        "0x6009C9~Wyrmstooth.esp",
+        "0x6009CA~Wyrmstooth.esp",
+        "0x6009CB~Wyrmstooth.esp",
+        "0x705522~Wyrmstooth.esp",
+        "0x76065B~Wyrmstooth.esp",
+        "0x76065C~Wyrmstooth.esp",
+        "0x9D900E~Wyrmstooth.esp",
+        "0x9D900F~Wyrmstooth.esp",
+        "0xA2C1FC~Wyrmstooth.esp"
+    ],
+    "speedPos": [
+        0.28079432249069214,
+        0.2390163093805313,
+        0.25198930501937866
+    ],
+    "speedRot": [
+        0.24773944914340973,
+        0.24893628060817719,
+        0.2761540412902832
+    ]
+}

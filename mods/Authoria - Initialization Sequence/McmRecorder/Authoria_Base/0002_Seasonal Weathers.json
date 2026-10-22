@@ -1,0 +1,308 @@
+[
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Enable Seasonal Imagespaces",
+    "page": "Seasonal Imagespaces",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Spring Intensity",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.10000000149011612
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Summer Intensity",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.20000000298023224
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Summer Saturation",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.20000000298023224
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Winter Intensity",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Winter Saturation",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Winter Temperature",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Autumn Intensity",
+    "page": "Seasonal Imagespaces",
+    "slider": 0.20000000298023224
+  },
+    {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Chance",
+    "page": "Sun's Dawn",
+    "slider": 50.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Chance",
+    "page": "First Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Storm Chance",
+    "page": "First Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "First Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "First Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Pleasant Chance",
+    "page": "First Seed",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Pleasant Chance",
+    "page": "First Seed",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Chance",
+    "page": "Rain's Hand",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Rain's Hand",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Rain's Hand",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Pleasant Chance",
+    "page": "Rain's Hand",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Pleasant Chance",
+    "page": "Rain's Hand",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Chance",
+    "page": "Second Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Second Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Second Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Pleasant Chance",
+    "page": "Second Seed",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Pleasant Chance",
+    "page": "Second Seed",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Mid Year",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Mid Year",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Chance",
+    "page": "Mid Year",
+    "slider": 10.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Storm Chance",
+    "page": "Mid Year",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Sun's Height",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Sun's Height",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Storm Chance",
+    "page": "Sun's Height",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Chance",
+    "page": "Sun's Height",
+    "slider": 8.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Last Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Last Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Storm Chance",
+    "page": "Last Seed",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Chance",
+    "page": "Last Seed",
+    "slider": 5.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Storm Chance",
+    "page": "Hearthfire",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Hearthfire",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Hearthfire",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Rain Chance",
+    "page": "Hearthfire",
+    "slider": 5.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Pleasant Chance",
+    "page": "Hearthfire",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Pleasant Chance",
+    "page": "Hearthfire",
+    "slider": 75.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Chance",
+    "page": "Frost Fall",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Storm Chance",
+    "page": "Frost Fall",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Frost Fall",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Frost Fall",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Storm Chance",
+    "page": "Sun's Dusk",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Chance",
+    "page": "Sun's Dusk",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Chance",
+    "page": "Sun's Dusk",
+    "slider": 0.0
+  },
+  {
+    "Mod": "Seasonal Weathers",
+    "option": "Snow Regions Snow Storm Chance",
+    "page": "Sun's Dusk",
+    "slider": 0.0
+  }
+]

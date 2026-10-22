@@ -1,0 +1,35 @@
+{
+    "name": "Laza Dual - Order's Dagger",
+    "priority": 91000105,
+    "conditions": [
+        
+                {
+                    "condition": "IsActorBase",
+                    "requiredVersion": "1.0.0.0",
+                    "Actor base": {
+                        "pluginName": "Vigilant.esm",
+                        "formID": "123383"
+                    }
+                
+            
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.35001788139343
+            }
+        }
+    ]
+}

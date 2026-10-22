@@ -1,0 +1,34 @@
+{
+    "priority": 9901405,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "BowRapidCombo.esp",
+                "formID": "805"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Requiem - Weapons and Armor Redone.esp",
+                "formID": "BB5"
+            }
+        }
+    ]
+}

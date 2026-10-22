@@ -1,0 +1,12 @@
+[
+  {
+    "Mod": "$MODNAME",
+    "option": "$P_KEYMAP",
+    "shortcut": 70
+  },
+  {
+    "Mod": "$MODNAME",
+    "option": "$NPC_KEYMAP",
+    "shortcut": 70
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "Click": "$FrostfallOverviewCtrlStatus",
+    "Mod": "Frostfall",
+    "page": "$FrostfallOverviewPage"
+  },
+  {
+    "choose": "normal",
+    "Mod": "Frostfall",
+    "option": "$FrostfallSaveLoadCurrentProfile",
+    "page": "$FrostfallSaveLoadPage"
+  }
+]

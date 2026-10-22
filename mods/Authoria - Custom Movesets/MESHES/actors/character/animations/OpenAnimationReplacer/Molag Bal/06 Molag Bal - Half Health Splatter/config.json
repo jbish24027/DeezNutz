@@ -1,0 +1,54 @@
+{
+    "name": "Molag Bal - Half Health Splatter",
+    "priority": 92001606,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Vigilant.esm",
+                "formID": "8DE94"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 24,
+                "actorValueType": "Percentage"
+            },
+            "Comparison": "<=",
+            "Value B": {
+                "value": 0.5
+            }
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Magic effect": {
+                "pluginName": "Vigilant.esm",
+                "formID": "8F2DD"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.8
+            }
+        }
+    ]
+}

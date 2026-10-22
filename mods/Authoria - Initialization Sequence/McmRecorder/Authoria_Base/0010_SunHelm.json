@@ -1,0 +1,19 @@
+[
+  {
+    "choose": "$Enabled",
+    "Mod": "SunHelm",
+    "option": "$SunHelmSurvival",
+    "page": "$GeneralSettings"
+  },
+  {
+    "choose": "normal",
+    "Mod": "SunHelm",
+    "option": "$Browse",
+    "page": "$Profiles"
+  },
+  {
+    "Click": "$Load",
+    "Mod": "SunHelm",
+    "page": "$Profiles"
+  }
+]

@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Authoria Initialization</title>
+<style>
+:root {
+  color-scheme: dark;
+  font-family: Georgia, "Times New Roman", serif;
+  --hud-left: 50vw;
+  --hud-top: 50vh;
+  --hud-width: 760px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+body.hidden {
+  pointer-events: none;
+}
+
+.hud {
+  position: fixed;
+  left: var(--hud-left);
+  top: var(--hud-top);
+  transform: translate(-50%, -50%);
+  width: min(var(--hud-width), calc(100vw - 80px));
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(10, 9, 7, .98), rgba(4, 4, 3, .98));
+  border: 1px solid #cfccc6;
+  box-shadow: inset 0 0 0 1px rgba(207, 204, 198, .45), 0 14px 40px rgba(0, 0, 0, .45);
+}
+
+.hud.notice {
+  padding: 72px 60px 58px;
+}
+
+.hud.choice,
+.hud.finish {
+  padding: 58px 60px;
+}
+
+.hud-inner {
+  position: absolute;
+  inset: 10px;
+  border: 1px solid rgba(207, 204, 198, .12);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.hud::before,
+.hud::after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(207, 204, 198, .35), transparent);
+}
+
+.hud::before {
+  top: 16px;
+}
+
+.hud::after {
+  bottom: 16px;
+}
+
+.hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 36px;
+}
+
+.buttons {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+button {
+  min-width: 0;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(7, 6, 4, .98);
+  background-image: var(--button-label), linear-gradient(180deg, rgba(16, 13, 9, .96), rgba(7, 6, 4, .98));
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto 70%, cover;
+  border: 1px solid #cfccc6;
+  cursor: pointer;
+  font-size: 0;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  border-color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .22), 0 0 16px rgba(255, 255, 255, .12);
+}
+
+.notice button,
+.finish button {
+  width: 100%;
+}
+
+.choice button {
+  flex: 1;
+  height: 58px;
+}
+
+.button-proceed {
+  --button-label: url("welcome_proceed.png");
+}
+
+.button-easy {
+  --button-label: url("difficulty_easy.png");
+}
+
+.button-normal {
+  --button-label: url("difficulty_normal.png");
+}
+
+.button-hard {
+  --button-label: url("difficulty_hard.png");
+}
+
+.button-letsgo {
+  --button-label: url("finish_letsgo.png");
+}
+
+.fallback-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 680px) {
+  .hud {
+    width: calc(100vw - 32px);
+  }
+
+  .hud.notice,
+  .hud.choice,
+  .hud.finish {
+    padding: 48px 28px 42px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body class="hidden">
+<div id="hud" class="hud notice" hidden>
+  <div class="hud-inner"></div>
+  <img id="hero" class="hero" src="welcome_title.png" alt="Authoria - Requiem Reforged">
+  <div id="fallbackText" class="fallback-text"></div>
+  <div id="buttons" class="buttons"></div>
+</div>
+
+<script>
+(() => {
+  const defaults = {
+    welcome: {
+      kind: "notice",
+      hero: "welcome_title.png",
+      heroAlt: "Authoria - Requiem Reforged",
+      text: "Welcome to Authoria, make sure you read the Gameplay Guide before proceeding.",
+      buttons: [
+        {
+          label: "Proceed",
+          action: "notice|welcome|continue",
+          className: "button-proceed"
+        }
+      ]
+    },
+    difficulty: {
+      kind: "choice",
+      hero: "difficulty_top.png",
+      heroAlt: "Choose your challenge. Difficulty will alter Damage, Survival Elements, and Enemies.",
+      text: "Pick your Difficulty, this will alter Damage, Survival Elements, and Enemies.",
+      buttons: [
+        { label: "Easy", action: "difficulty|easy", className: "button-easy" },
+        { label: "Normal", action: "difficulty|normal", className: "button-normal" },
+        { label: "Hard", action: "difficulty|hard", className: "button-hard" }
+      ]
+    },
+    finish: {
+      kind: "notice",
+      hero: "finish_top.png",
+      heroAlt: "May your road lead you to warm sands. Read the gameplay guide before truly diving in. Be sure to share your stories.",
+      text: "May your road lead you to warm sands.",
+      buttons: [
+        {
+          label: "Let's Go",
+          action: "notice|finish|continue",
+          className: "button-letsgo"
+        }
+      ]
+    }
+  };
+
+  const state = {
+    ready: false,
+    pending: null
+  };
+
+  function closePrompt() {
+    console.info("[AuthoriaInit] close requested");
+    const hud = document.getElementById("hud");
+    if (hud) {
+      hud.hidden = true;
+    }
+    document.body.classList.add("hidden");
+  }
+
+  function send(action) {
+    if (typeof action !== "string" || !action) {
+      return;
+    }
+    closePrompt();
+    console.info("[AuthoriaInit] sending action:", action);
+    if (typeof window.authoriaInitAction === "function") {
+      window.authoriaInitAction(action);
+    } else {
+      console.warn("[AuthoriaInit] Native bridge unavailable for action:", action);
+    }
+  }
+
+  function normalizePrompt(envelope) {
+    const payload = envelope && envelope.payload ? envelope.payload : {};
+    // Papyrus String lives in a global, case-insensitive intern pool, so a literal passed to
+    // ShowNotice/ShowChoice can arrive here in whatever casing was first interned engine-wide
+    // (e.g. "finish" -> "Finish" because some other plugin interned "Finish" first). Look up
+    // the prompt definition case-insensitively so the id's runtime casing can't miss and fall
+    // back to the wrong (welcome) prompt.
+    const promptId = String(payload.promptId || "welcome").toLowerCase();
+    const base = defaults[promptId] || defaults.welcome;
+    const data = payload.data && typeof payload.data === "object" ? payload.data : {};
+    return Object.assign({}, base, data, {
+      promptId,
+      kind: payload.kind || data.kind || base.kind
+    });
+  }
+
+  function renderPrompt(prompt) {
+    console.info("[AuthoriaInit] render prompt:", prompt.promptId, prompt.kind);
+    const hud = document.getElementById("hud");
+    const hero = document.getElementById("hero");
+    const fallbackText = document.getElementById("fallbackText");
+    const buttons = document.getElementById("buttons");
+
+    hud.hidden = false;
+    hud.className = `hud ${prompt.kind || "notice"} ${prompt.promptId || ""}`;
+    document.body.classList.remove("hidden");
+
+    hero.src = prompt.hero || defaults.welcome.hero;
+    hero.alt = prompt.heroAlt || prompt.text || "";
+    fallbackText.textContent = prompt.text || hero.alt || "";
+
+    buttons.innerHTML = "";
+    const promptButtons = Array.isArray(prompt.buttons) && prompt.buttons.length ? prompt.buttons : defaults.welcome.buttons;
+    for (const buttonDef of promptButtons) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = buttonDef.className || "";
+      button.setAttribute("aria-label", buttonDef.label || "Proceed");
+      button.addEventListener("click", () => send(buttonDef.action || ""));
+      buttons.appendChild(button);
+    }
+  }
+
+  function receive(envelope) {
+    console.info("[AuthoriaInit] receive called");
+    let message = envelope;
+    if (typeof envelope === "string") {
+      try {
+        message = JSON.parse(envelope);
+      } catch (error) {
+        console.error("[AuthoriaInit] Malformed native payload:", error);
+        return;
+      }
+    }
+
+    if (!state.ready) {
+      state.pending = message;
+      console.info("[AuthoriaInit] prompt deferred until DOM ready");
+      return;
+    }
+
+    if (!message || message.channel !== "prompt") {
+      console.warn("[AuthoriaInit] Ignoring unknown native message:", message);
+      return;
+    }
+
+    console.info("[AuthoriaInit] prompt accepted:", message.payload && message.payload.promptId);
+    renderPrompt(normalizePrompt(message));
+  }
+
+  window.AuthoriaInit_receive = receive;
+  window.AuthoriaInit_close = closePrompt;
+
+  document.addEventListener("DOMContentLoaded", () => {
+    state.ready = true;
+    console.info("[AuthoriaInit] DOM ready");
+    if (state.pending) {
+      receive(state.pending);
+      state.pending = null;
+    }
+  });
+})();
+</script>
+</body>
+</html>

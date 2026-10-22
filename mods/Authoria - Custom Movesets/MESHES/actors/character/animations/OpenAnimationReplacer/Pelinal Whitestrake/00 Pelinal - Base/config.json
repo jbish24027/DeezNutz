@@ -1,0 +1,32 @@
+{
+    "name": "Pelinal - Base",
+    "priority": 92000300,
+    "conditions": [
+        {            
+                    "condition": "IsActorBase",
+                    "requiredVersion": "1.0.0.0",
+                    "Actor base": {
+                        "pluginName": "Vigilant.esm",
+                        "formID": "B0EB3"
+                    }      
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 0.9999993443489075
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.9999994039535522
+            }
+        }
+    ]
+}

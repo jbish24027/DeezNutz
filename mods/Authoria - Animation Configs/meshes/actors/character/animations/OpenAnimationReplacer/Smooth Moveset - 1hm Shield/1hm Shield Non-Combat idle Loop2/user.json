@@ -1,0 +1,93 @@
+{
+    "priority": 83031013,
+    "disabled": true,
+    "interruptible": true,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "WeapTypeJavelin"
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "IsAttacking",
+            "requiredVersion": "1.0.0.0",
+            "negated": true
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Magic effect": {
+                "pluginName": "Smooth Moveset.esp",
+                "formID": "804"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "Smooth Moveset.esp",
+                "formID": "802"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 1.0
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 11.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Keyword": {
+                "editorID": "ArmorShieldLarge"
+            },
+            "Left hand": true
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.5
+            }
+        }
+    ]
+}

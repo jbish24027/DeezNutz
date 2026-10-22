@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FrostFallWidgetsNG</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Arial, sans-serif;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: transparent;
+      pointer-events: none;
+    }
+
+    #hud {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .widget {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      transition: opacity 120ms linear;
+      will-change: transform, opacity;
+    }
+
+    .widget.hidden {
+      opacity: 0;
+    }
+
+    .icon {
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      -webkit-mask-size: contain;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+  </style>
+  <script>
+    (() => {
+      const widgetOrder = ["exposure", "wetness", "temperature", "heat"];
+      const defaultStateColors = {
+        exposure: [
+          [1, 0.498, 0],
+          [1, 1, 0],
+          [0, 1, 0],
+          [0, 1, 1],
+          [0, 0, 1],
+          [0.498, 0, 1],
+          [1, 1, 1],
+          [0, 0, 0]
+        ],
+        wetness: [
+          [0, 1, 0],
+          [0, 1, 1],
+          [0, 0, 1],
+          [0.498, 0, 1]
+        ],
+        temperature: [
+          [1, 1, 0],
+          [0, 1, 0],
+          [0, 0, 1]
+        ],
+        heat: [
+          [0, 1, 0],
+          [1, 1, 0],
+          [1, 0.498, 0],
+          [1, 0, 0]
+        ]
+      };
+
+      const model = {
+        visible: true,
+        settings: null,
+        state: null,
+        ready: false,
+        pending: []
+      };
+
+      function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, Number(value) || 0));
+      }
+
+      function assetUrl(icon) {
+        const safe = String(icon || "").replace(".dds", ".png");
+        return `assets/${safe}`;
+      }
+
+      function normalizeColor(color, fallback = [1, 1, 1]) {
+        if (!Array.isArray(color) || color.length < 3) {
+          return fallback;
+        }
+        return [
+          clamp(color[0] ?? fallback[0], 0, 1),
+          clamp(color[1] ?? fallback[1], 0, 1),
+          clamp(color[2] ?? fallback[2], 0, 1)
+        ];
+      }
+
+      function rgb(color) {
+        const [r, g, b] = normalizeColor(color);
+        return `rgb(${Math.round(r * 255)}, ${Math.round(g * 255)}, ${Math.round(b * 255)})`;
+      }
+
+      function paletteFor(id, settings) {
+        if (Array.isArray(settings.stateColors) && settings.stateColors.length) {
+          return settings.stateColors;
+        }
+        return defaultStateColors[id] || [[1, 1, 1]];
+      }
+
+      function colorFor(id, state, settings) {
+        if (model.settings?.renderMode === "alpha") {
+          return rgb(settings.baseColor || [1, 1, 1]);
+        }
+
+        const palette = paletteFor(id, settings);
+        const base = palette[clamp(state, 0, palette.length - 1)] || palette[0];
+        return rgb(base);
+      }
+
+      function stateAlphaFor(id, state, settings) {
+        if (model.settings?.renderMode !== "alpha") {
+          return 1;
+        }
+
+        const palette = paletteFor(id, settings);
+        const maxState = Math.max(1, palette.length - 1);
+        return clamp(state, 0, maxState) / maxState;
+      }
+
+      function alphaFor(id, state, settings) {
+        const widgetAlpha = clamp(settings.alpha ?? 1, 0, 1);
+        return widgetAlpha * stateAlphaFor(id, state, settings);
+      }
+
+      function widgetSettings(id) {
+        return model.settings?.widgets?.[id] || {};
+      }
+
+      function viewportSize() {
+        return {
+          width: document.documentElement.clientWidth || window.innerWidth || 1920,
+          height: document.documentElement.clientHeight || window.innerHeight || 1080
+        };
+      }
+
+      function normalizedPosition(source, fallbackX, fallbackY) {
+        const viewport = viewportSize();
+        const x = clamp(source.x ?? fallbackX, 0, 1) * viewport.width;
+        const y = clamp(source.y ?? fallbackY, 0, 1) * viewport.height;
+        return { x, y };
+      }
+
+      function positionFor(id, index) {
+        const settings = model.settings || {};
+        const widget = widgetSettings(id);
+        if (!settings.grouped) {
+          return normalizedPosition(widget, 0, 0);
+        }
+
+        const group = settings.group || {};
+        const spacing = Number(group.spacing ?? 34);
+        let { x, y } = normalizedPosition(group, 0.96, 0.9);
+        switch (group.direction || "left") {
+          case "right":
+            x += index * spacing;
+            break;
+          case "up":
+            y -= index * spacing;
+            break;
+          case "down":
+            y += index * spacing;
+            break;
+          default:
+            x -= index * spacing;
+            break;
+        }
+        return { x, y };
+      }
+
+      function ensureWidget(id) {
+        let widget = document.querySelector(`[data-widget="${id}"]`);
+        if (widget) {
+          return widget;
+        }
+
+        widget = document.createElement("div");
+        widget.className = "widget";
+        widget.dataset.widget = id;
+        const icon = document.createElement("div");
+        icon.className = "icon";
+        widget.appendChild(icon);
+        document.getElementById("hud").appendChild(widget);
+        return widget;
+      }
+
+      function render() {
+        if (!model.ready || !model.settings || !model.state) {
+          return;
+        }
+
+        for (const [index, id] of widgetOrder.entries()) {
+          const widget = ensureWidget(id);
+          const icon = widget.firstElementChild;
+          const settings = widgetSettings(id);
+          const state = model.state[id] || {};
+          const enabled = Boolean(model.visible && model.settings.enabled && settings.enabled);
+          const pos = positionFor(id, index);
+          const scale = clamp(settings.scale ?? 1, 0.25, 4);
+
+          widget.classList.toggle("hidden", !enabled);
+          widget.style.left = `${pos.x}px`;
+          widget.style.top = `${pos.y}px`;
+          widget.style.width = `${25 * scale}px`;
+          widget.style.height = `${25 * scale}px`;
+          widget.style.opacity = String(enabled ? alphaFor(id, state.state ?? 0, settings) : 0);
+          widget.title = state.label || id;
+          icon.style.backgroundColor = colorFor(id, state.state ?? 0, settings);
+          icon.style.webkitMaskImage = `url("${assetUrl(state.icon)}")`;
+          icon.style.maskImage = `url("${assetUrl(state.icon)}")`;
+        }
+      }
+
+      function receive(envelope) {
+        let message = envelope;
+        if (typeof envelope === "string") {
+          try {
+            message = JSON.parse(envelope);
+          } catch (error) {
+            console.warn("Ignoring malformed FrostFallWidgetsNG payload", error);
+            return;
+          }
+        }
+
+        if (!model.ready) {
+          model.pending.push(message);
+          return;
+        }
+
+        switch (message.channel) {
+          case "settings":
+            model.settings = message.payload;
+            break;
+          case "state":
+            model.state = message.payload;
+            break;
+          case "visibility":
+            model.visible = Boolean(message.payload?.visible);
+            break;
+          default:
+            console.warn("Unknown FrostFallWidgetsNG channel", message.channel);
+            break;
+        }
+
+        render();
+      }
+
+      window.FrostFallWidgetsNG_receive = receive;
+
+      window.addEventListener("DOMContentLoaded", () => {
+        model.ready = true;
+        while (model.pending.length) {
+          receive(model.pending.shift());
+        }
+        render();
+      });
+
+      window.addEventListener("resize", render);
+    })();
+  </script>
+</head>
+<body>
+  <div id="hud" aria-hidden="true"></div>
+</body>
+</html>

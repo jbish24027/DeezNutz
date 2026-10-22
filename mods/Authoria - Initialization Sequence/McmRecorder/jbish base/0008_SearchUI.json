@@ -1,0 +1,17 @@
+[
+  {
+    "Mod": "SearchUI",
+    "option": "Max Results",
+    "slider": 5000.0
+  },
+  {
+    "Mod": "SearchUI",
+    "option": "Books",
+    "toggle": "On"
+  },
+  {
+    "Mod": "SearchUI",
+    "option": "Misc Items",
+    "toggle": "On"
+  }
+]

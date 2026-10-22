@@ -1,0 +1,29 @@
+{
+    "FormID": "0xCB2~JK's Solitude Outskirts.esp",
+    "children": [
+        "0xCB6~JK's Solitude Outskirts.esp",
+        "0xCF4~JK's Solitude Outskirts.esp",
+        "0xCF5~JK's Solitude Outskirts.esp"
+    ],
+    "phaseOffset": -0.8169999718666077,
+    "positionMax": [
+        0.0,
+        0.0,
+        4.306000232696533
+    ],
+    "positionMin": [
+        0.0,
+        0.0,
+        -4.166999816894531
+    ],
+    "speedPos": [
+        0.2549870014190674,
+        0.2616932690143585,
+        0.25219467282295227
+    ],
+    "speedRot": [
+        0.2583310902118683,
+        0.26623401045799255,
+        0.22461122274398804
+    ]
+}

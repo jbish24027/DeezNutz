@@ -1,0 +1,37 @@
+[
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionFallForest",
+    "slider": 6.0
+  },
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionPineForest",
+    "slider": 6.0
+  },
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionNorthCoast",
+    "slider": 6.0
+  },
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionArcticSnow",
+    "slider": 2.0
+  },
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionMarshTundra",
+    "slider": 6.0
+  },
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionVolcanicTundra",
+    "slider": 9.0
+  },
+  {
+    "Mod": "$FrostfallSeasons",
+    "option": "$RegionUnknown",
+    "slider": 6.0
+  }
+]

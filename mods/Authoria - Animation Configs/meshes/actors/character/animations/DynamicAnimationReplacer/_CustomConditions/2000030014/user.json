@@ -1,0 +1,40 @@
+{
+  "name": "Dont Sheathe Bound Weapons - Greatsword summon (ARR)",
+  "description": "ARR override of DAR _CustomConditions 2000030014 (two-handed sword / greatsword bound-weapon summon). Adds Requiem Magic Redone greatswords. Absent legacy-mod entries dropped.",
+  "priority": 2000030014,
+  "conditions": [
+{
+    "condition":  "OR",
+    "requiredVersion":  "1.0.0.0",
+    "Conditions":  [
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E2C"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E3B"
+                                    },
+                           "Left hand":  false
+                       },
+                       {
+                           "condition":  "IsEquipped",
+                           "requiredVersion":  "1.0.0.0",
+                           "Form":  {
+                                        "pluginName":  "Requiem - Magic Redone.esp",
+                                        "formID":  "005E40"
+                                    },
+                           "Left hand":  false
+                       }
+                   ]
+}
+  ]
+}

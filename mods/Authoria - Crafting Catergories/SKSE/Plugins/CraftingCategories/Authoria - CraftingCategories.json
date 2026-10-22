@@ -1,0 +1,202 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CraftingCategories/main/docs/CraftingCategories.schema.json",
+  "sections": {
+    "$Armour": {
+      "priority": 10,
+      "keywords": [
+        "ArmorHeavy",
+        "ArmorLight",
+        "ArmorShield"
+      ]
+    },
+    "$Weapons": {
+      "priority": 12,
+      "keywords": [
+        "VendorItemArrow",
+        "VendorItemStaff",
+        "WeapTypeArrow",
+        "WeapTypeBattleaxe",
+        "WeapTypeBow",
+        "WeapTypeClaw",
+        "WeapTypeCleaver",
+        "WeapTypeDagger",
+        "WeapTypeGreatsword",
+        "WeapTypeGun",
+        "WeapTypeHalberd",
+        "WeapTypeJavelin",
+        "WeapTypeKatana",
+        "WeapTypeLance",
+        "WeapTypeMace",
+        "WeapTypeMinigun",
+        "WeapTypePickaxe",
+        "WeapTypePike",
+        "WeapTypePistol",
+        "WeapTypeQtrStaff",
+        "WeapTypeQuarterstaff",
+        "WeapTypeRapier",
+        "WeapTypeRifle",
+        "WeapTypeScythe",
+        "WeapTypeSpear",
+        "WeapTypeStaff",
+        "WeapTypeSword",
+        "WeapTypeTdagger",
+        "WeapTypeUW",
+        "WeapTypeWarAxe",
+        "WeapTypeWarhammer",
+        "WeapTypeWhip",
+        "REQ_ThrowingKnife",
+        "REQ_WeaponType_BowHeavy",
+        "REQ_WeaponType_BowLight",
+        "REQ_WeaponType_CrossbowHeavy",
+        "REQ_WeaponType_CrossbowLight"
+      ]
+    },
+    "$Exotic Armour": {
+      "priority": 14,
+      "keywords": [ "AuthoriaCC_ExoticArmour" ]
+    },
+    "$Exotic Weapons": {
+      "priority": 16,
+      "keywords": [ "AuthoriaCC_ExoticWeapon" ]
+    },
+    "$Clothing": {
+      "priority": 20,
+      "keywords": [ "ArmorClothing", "AuthoriaCC_Padding" ]
+    },
+    "$Jewellry": {
+      "priority": 30,
+      "keywords": [
+        "ArmorJewelry",
+        "ClothingCirclet",
+        "ClothingBracelet",
+        "ClothingRing",
+        "ClothingNecklace"
+      ]
+    },
+    "$Backpacks": {
+      "priority": 35,
+      "keywords": [ "AuthoriaCC_Backpack" ]
+    },
+    "$Factions": {
+      "priority": 18,
+      "keywords": [
+        "REQ_ArmorSet_Guard",
+        "REQ_ArmorSet_StormcloakOfficer",
+        "REQ_ArmorSet_AncientNord",
+        "REQ_ArmorSet_Akaviri",
+        "REQ_ArmorSet_SilverHand",
+        "REQ_ArmorSet_Wolf",
+        "REQ_ArmorSet_Vigilant",
+        "REQ_ArmorSet_Forsworn",
+        "REQ_ArmorSet_Shrouded",
+        "REQ_ArmorSet_AncientShrouded",
+        "REQ_ArmorSet_Linwe",
+        "REQ_ArmorSet_SummersetShadows",
+        "REQ_ArmorSet_Nightingale",
+        "REQ_ArmorSet_Executioner",
+        "REQ_ArmorSet_PenitusOculatus",
+        "REQ_ArmorSet_DawnguardHeavy",
+        "REQ_ArmorSet_DawnguardLight",
+        "REQ_ArmorSet_ImperialLegate",
+        "REQ_ArmorSet_Alikr",
+        "REQ_ArmorSet_ThievesGuild",
+        "REQ_ArmorSet_ThievesGuildMaster",
+        "AuthoriaCC_FactionWeapon"
+      ]
+    },
+    "$Fishing": {
+      "priority": 45,
+      "keywords": [ "ccBGSSSE001_FishingPoleKW" ]
+    },
+    "$Wigs": {
+      "priority": 32,
+      "keywords": [ "AuthoriaCC_Wig" ]
+    },
+    "$Lanterns": {
+      "priority": 40,
+      "keywords": [ "AuthoriaCC_Lantern", "_IED_Lantern" ]
+    }
+  },
+  "categories": {
+
+    "$Iron_VA":      { "section": "$Armour", "keywords": [ "ArmorMaterialIron", "ArmorMaterialIronBanded", "REQ_ArmorSet_Iron" ] },
+    "$Steel_VA":     { "section": "$Armour", "keywords": [ "ArmorMaterialSteel", "ArmorMaterialSteelPlate", "REQ_ArmorSet_Steel", "REQ_ArmorSet_SteelPlate", "REQ_ArmorSet_Chainmail" ] },
+    "$Imperial_VA":  { "section": "$Armour", "keywords": [ "ArmorMaterialImperialHeavy", "ArmorMaterialImperialLight", "ArmorMaterialImperialStudded", "REQ_ArmorSet_ImperialHeavy", "REQ_ArmorSet_ImperialLight" ] },
+    "$Leather_VA":   { "section": "$Armour", "keywords": [ "ArmorMaterialLeather", "REQ_ArmorSet_Leather" ] },
+    "$Hide_VA":      { "section": "$Armour", "keywords": [ "ArmorMaterialHide", "ArmorMaterialStudded", "ArmorMaterialScaled", "REQ_ArmorSet_Hide", "REQ_ArmorSet_Scale", "REQ_ArmorSet_Fur", "REQ_ArmorSet_Skaal" ] },
+    "$Elven_VA":     { "section": "$Armour", "keywords": [ "ArmorMaterialElven", "ArmorMaterialElvenGilded", "REQ_ArmorSet_Elven" ] },
+    "$Dwarven_VA":   { "section": "$Armour", "keywords": [ "ArmorMaterialDwarven", "REQ_ArmorSet_DwarvenHeavy", "REQ_ArmorSet_DwarvenLight" ] },
+    "$Orcish_VA":    { "section": "$Armour", "keywords": [ "ArmorMaterialOrcish", "REQ_ArmorSet_OrcishHeavy", "REQ_ArmorSet_OrcishLight" ] },
+    "$Ebony_VA":     { "section": "$Armour", "keywords": [ "ArmorMaterialEbony", "REQ_ArmorSet_Ebony" ] },
+    "$Glass_VA":     { "section": "$Armour", "keywords": [ "ArmorMaterialGlass", "REQ_ArmorSet_Glass" ] },
+    "$Falmer_VA":    { "section": "$Armour", "keywords": [ "ArmorMaterialFalmer", "DLC1ArmorMaterielFalmerHeavy", "DLC1ArmorMaterielFalmerHeavyOriginal", "REQ_ArmorSet_FalmerHeavy", "REQ_ArmorSet_FalmerLight", "REQ_ArmorSet_AncientFalmer" ] },
+    "$Dragon_VA":    { "section": "$Armour", "keywords": [ "ArmorMaterialDragonplate", "ArmorMaterialDragonscale", "REQ_ArmorSet_Dragonplate", "REQ_ArmorSet_Dragonscale" ] },
+    "$Daedric_VA":   { "section": "$Armour", "keywords": [ "ArmorMaterialDaedric", "REQ_ArmorSet_Daedric" ] },
+    "$Bonemold_VA":  { "section": "$Armour", "keywords": [ "DLC2ArmorMaterialBonemoldHeavy", "DLC2ArmorMaterialBonemoldLight", "REQ_ArmorSet_Bonemold" ] },
+    "$Chitin_VA":    { "section": "$Armour", "keywords": [ "DLC2ArmorMaterialChitinHeavy", "DLC2ArmorMaterialChitinLight", "REQ_ArmorSet_ChitinHeavy", "REQ_ArmorSet_ChitinLight", "REQ_ArmorSet_NetchLeather" ] },
+    "$Nordic_VA":    { "section": "$Armour", "keywords": [ "DLC2ArmorMaterialNordicHeavy", "DLC2ArmorMaterialNordicLight", "REQ_ArmorSet_Quicksilver" ] },
+    "$Stalhrim_VA":  { "section": "$Armour", "keywords": [ "DLC2ArmorMaterialStalhrimHeavy", "DLC2ArmorMaterialStalhrimLight", "REQ_ArmorSet_StalhrimHeavy", "REQ_ArmorSet_StalhrimLight" ] },
+    "$Aetherium_VA": { "section": "$Armour", "keywords": [ "DLC1LD_CraftingMaterialAetherium" ] },
+
+    "$Iron_VW":      { "section": "$Weapons", "keywords": [ "WeapMaterialIron" ] },
+    "$Steel_VW":     { "section": "$Weapons", "keywords": [ "WeapMaterialSteel" ] },
+    "$Imperial_VW":  { "section": "$Weapons", "keywords": [ "WeapMaterialImperial" ] },
+    "$Dwarven_VW":   { "section": "$Weapons", "keywords": [ "WeapMaterialDwarven" ] },
+    "$Elven_VW":     { "section": "$Weapons", "keywords": [ "WeapMaterialElven" ] },
+    "$Orcish_VW":    { "section": "$Weapons", "keywords": [ "WeapMaterialOrcish" ] },
+    "$Ebony_VW":     { "section": "$Weapons", "keywords": [ "WeapMaterialEbony" ] },
+    "$Glass_VW":     { "section": "$Weapons", "keywords": [ "WeapMaterialGlass" ] },
+    "$Falmer_VW":    { "section": "$Weapons", "keywords": [ "WeapMaterialFalmer", "WeapMaterialFalmerHoned" ] },
+    "$Dragon_VW":    { "section": "$Weapons", "keywords": [ "DLC1WeapMaterialDragonbone" ] },
+    "$Daedric_VW":   { "section": "$Weapons", "keywords": [ "WeapMaterialDaedric", "WeapMaterialDraugr", "WeapMaterialDraugrHoned" ] },
+    "$Nordic_VW":    { "section": "$Weapons", "keywords": [ "DLC2WeaponMaterialNordic" ] },
+    "$Stalhrim_VW":  { "section": "$Weapons", "keywords": [ "DLC2WeaponMaterialStalhrim" ] },
+    "$Wood_VW":      { "section": "$Weapons", "keywords": [ "WeapMaterialWood" ] },
+    "$Aetherium_VW": { "section": "$Weapons", "keywords": [ "DLC1LD_CraftingMaterialAetherium" ] },
+    "$Silver_VW":    { "section": "$Weapons", "keywords": [ "WeapMaterialSilver" ] },
+    "$ThrowingKnives_VW": { "section": "$Weapons", "keywords": [ "REQ_ThrowingKnife" ] },
+    "$Bonemold_VW":  { "section": "$Weapons", "keywords": [ "DLC2ArmorMaterialBonemoldLight" ] },
+
+    "$Iron_EA":      { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialIron", "ArmorMaterialIronBanded", "REQ_ArmorSet_Iron" ] },
+    "$Steel_EA":     { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialSteel", "ArmorMaterialSteelPlate", "REQ_ArmorSet_Steel", "REQ_ArmorSet_SteelPlate", "REQ_ArmorSet_Chainmail" ] },
+    "$Imperial_EA":  { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialImperialHeavy", "ArmorMaterialImperialLight", "ArmorMaterialImperialStudded", "REQ_ArmorSet_ImperialHeavy", "REQ_ArmorSet_ImperialLight" ] },
+    "$Leather_EA":   { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialLeather", "REQ_ArmorSet_Leather" ] },
+    "$Hide_EA":      { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialHide", "ArmorMaterialStudded", "ArmorMaterialScaled", "REQ_ArmorSet_Hide", "REQ_ArmorSet_Scale", "REQ_ArmorSet_Fur", "REQ_ArmorSet_Skaal" ] },
+    "$Elven_EA":     { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialElven", "ArmorMaterialElvenGilded", "REQ_ArmorSet_Elven" ] },
+    "$Dwarven_EA":   { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialDwarven", "REQ_ArmorSet_DwarvenHeavy", "REQ_ArmorSet_DwarvenLight" ] },
+    "$Orcish_EA":    { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialOrcish", "REQ_ArmorSet_OrcishHeavy", "REQ_ArmorSet_OrcishLight" ] },
+    "$Ebony_EA":     { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialEbony", "REQ_ArmorSet_Ebony" ] },
+    "$Glass_EA":     { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialGlass", "REQ_ArmorSet_Glass" ] },
+    "$Falmer_EA":    { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialFalmer", "DLC1ArmorMaterielFalmerHeavy", "DLC1ArmorMaterielFalmerHeavyOriginal", "REQ_ArmorSet_FalmerHeavy", "REQ_ArmorSet_FalmerLight", "REQ_ArmorSet_AncientFalmer" ] },
+    "$Dragon_EA":    { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialDragonplate", "ArmorMaterialDragonscale", "REQ_ArmorSet_Dragonplate", "REQ_ArmorSet_Dragonscale" ] },
+    "$Daedric_EA":   { "section": "$Exotic Armour", "keywords": [ "ArmorMaterialDaedric", "REQ_ArmorSet_Daedric", "DaedricArtifact" ] },
+    "$Bonemold_EA":  { "section": "$Exotic Armour", "keywords": [ "DLC2ArmorMaterialBonemoldHeavy", "DLC2ArmorMaterialBonemoldLight", "REQ_ArmorSet_Bonemold" ] },
+    "$Chitin_EA":    { "section": "$Exotic Armour", "keywords": [ "DLC2ArmorMaterialChitinHeavy", "DLC2ArmorMaterialChitinLight", "REQ_ArmorSet_ChitinHeavy", "REQ_ArmorSet_ChitinLight", "REQ_ArmorSet_NetchLeather" ] },
+    "$Nordic_EA":    { "section": "$Exotic Armour", "keywords": [ "DLC2ArmorMaterialNordicHeavy", "DLC2ArmorMaterialNordicLight", "REQ_ArmorSet_Quicksilver" ] },
+    "$Stalhrim_EA":  { "section": "$Exotic Armour", "keywords": [ "DLC2ArmorMaterialStalhrimHeavy", "DLC2ArmorMaterialStalhrimLight", "REQ_ArmorSet_StalhrimHeavy", "REQ_ArmorSet_StalhrimLight" ] },
+    "$Aetherium_EA": { "section": "$Exotic Armour", "keywords": [ "DLC1LD_CraftingMaterialAetherium" ] },
+
+    "$Iron_EW":      { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialIron" ] },
+    "$Steel_EW":     { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialSteel" ] },
+    "$Imperial_EW":  { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialImperial" ] },
+    "$Dwarven_EW":   { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialDwarven" ] },
+    "$Elven_EW":     { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialElven" ] },
+    "$Orcish_EW":    { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialOrcish" ] },
+    "$Ebony_EW":     { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialEbony" ] },
+    "$Glass_EW":     { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialGlass" ] },
+    "$Falmer_EW":    { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialFalmer", "WeapMaterialFalmerHoned" ] },
+    "$Dragon_EW":    { "section": "$Exotic Weapons", "keywords": [ "DLC1WeapMaterialDragonbone" ] },
+    "$Daedric_EW":   { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialDaedric", "WeapMaterialDraugr", "WeapMaterialDraugrHoned" ] },
+    "$Nordic_EW":    { "section": "$Exotic Weapons", "keywords": [ "DLC2WeaponMaterialNordic" ] },
+    "$Stalhrim_EW":  { "section": "$Exotic Weapons", "keywords": [ "DLC2WeaponMaterialStalhrim" ] },
+    "$Wood_EW":      { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialWood" ] },
+    "$Aetherium_EW": { "section": "$Exotic Weapons", "keywords": [ "DLC1LD_CraftingMaterialAetherium" ] },
+    "$Silver_EW":    { "section": "$Exotic Weapons", "keywords": [ "WeapMaterialSilver" ] },
+
+    "$Padding_C":    { "section": "$Clothing", "keywords": [ "AuthoriaCC_Padding" ] },
+    "$Cloaks_C":     { "section": "$Clothing", "keywords": [ "AuthoriaCC_Cloak" ] },
+
+    "$Faction_Armour":  { "section": "$Factions", "keywords": [ "ArmorHeavy", "ArmorLight", "ArmorShield" ] },
+    "$Faction_Weapons": { "section": "$Factions", "keywords": [ "VendorItemWeapon", "VendorItemArrow", "WeapTypeBattleaxe", "WeapTypeBow", "WeapTypeDagger", "WeapTypeGreatsword", "WeapTypeMace", "WeapTypeSword", "WeapTypeWarAxe", "WeapTypeWarhammer", "REQ_ThrowingKnife", "REQ_WeaponType_CrossbowHeavy", "REQ_WeaponType_CrossbowLight" ] }
+  }
+}

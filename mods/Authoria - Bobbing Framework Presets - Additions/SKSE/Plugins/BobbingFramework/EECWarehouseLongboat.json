@@ -1,0 +1,48 @@
+{
+    "FormID": "0x04FC16~Skyrim.esm",
+    "children": [
+        "0x018A5E~Skyrim.esm",
+        "0x060CD9~Skyrim.esm",
+        "0x060CDA~Skyrim.esm",
+        "0x060CDB~Skyrim.esm",
+        "0x060CDC~Skyrim.esm",
+        "0x060CDD~Skyrim.esm",
+        "0x060CDE~Skyrim.esm",
+        "0x060F33~Skyrim.esm",
+        "0x060F41~Skyrim.esm",
+        "0x060F5A~Skyrim.esm",
+        "0x067238~Skyrim.esm",
+        "0x082CD6~Skyrim.esm",
+        "0x08A8B6~Skyrim.esm"
+    ],
+    "positionMax": [
+        0.0,
+        0.0,
+        2.0139999389648438
+    ],
+    "positionMin": [
+        0.0,
+        0.0,
+        -2.052999973297119
+    ],
+    "rotationMax": [
+        0.003000000026077032,
+        0.004000000189989805,
+        0.006000000052154064
+    ],
+    "rotationMin": [
+        -0.004000000189989805,
+        -0.004000000189989805,
+        -0.004000000189989805
+    ],
+    "speedPos": [
+        0.20524059236049652,
+        0.21245485544204712,
+        0.19411833584308624
+    ],
+    "speedRot": [
+        0.18480363488197327,
+        0.19699108600616455,
+        0.20558010041713715
+    ]
+}

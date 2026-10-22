@@ -1,0 +1,124 @@
+{
+    "priority": 8070052,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "Keytrace.esp",
+                "formID": "804"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 0.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CompareValues",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Value A": {
+                        "form": {
+                            "pluginName": "TrueDirectionalMovement.esp",
+                            "formID": "807"
+                        }
+                    },
+                    "Comparison": "==",
+                    "Value B": {
+                        "value": 1.0
+                    }
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "TrueDirectionalMovement.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                }
+            ]
+        },
+        {
+            "condition": "IsInFaction",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Faction": {
+                "pluginName": "Skyrim.esm",
+                "formID": "4CFA6"
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoost01"
+                    }
+                },
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoost02"
+                    }
+                },
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoost03"
+                    }
+                },
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoost04"
+                    }
+                },
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoost05"
+                    }
+                },
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoost06"
+                    }
+                },
+                {
+                    "condition": "IsWornHasKeyword",
+                    "requiredVersion": "1.0.0.0",
+                    "Keyword": {
+                        "editorID": "JELPerkFearsomeFistsBoostDwemer"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,587 @@
+{
+  "currentRecording": {
+    "currentModName": "SunHelm",
+    "currentModStep": [],
+    "recordingName": "jbish base"
+  },
+  "isPlayingRecording": 0,
+  "mcmOptions": {
+    "SunHelm": {
+      "$Needs": {
+        "byId": {
+          "__metaInfo": {
+            "typeName": "JIntMap"
+          },
+          "768": {
+            "fltValue": 0.0,
+            "id": 768,
+            "State": "",
+            "strValue": "None",
+            "text": "$NeedsOptions",
+            "type": "header"
+          },
+          "769": {
+            "fltValue": 0.0,
+            "id": 769,
+            "State": "",
+            "strValue": "None",
+            "text": "$AlcoholSkoomaOptions",
+            "type": "header"
+          },
+          "770": {
+            "fltValue": 1.0,
+            "id": 770,
+            "State": "Death",
+            "strValue": "None",
+            "text": "$DmgHungThirst",
+            "type": "toggle"
+          },
+          "771": {
+            "fltValue": 1.0,
+            "id": 771,
+            "State": "DRUNKFX",
+            "strValue": "None",
+            "text": "$DrunkSkoomaFx",
+            "type": "toggle"
+          },
+          "772": {
+            "fltValue": 1.0,
+            "id": 772,
+            "State": "PAUSEOBLIVION",
+            "strValue": "None",
+            "text": "$PauseOblivion",
+            "type": "toggle"
+          },
+          "773": {
+            "fltValue": 3.0,
+            "id": 773,
+            "State": "Alcohol",
+            "strValue": "{0}",
+            "text": "$AlcoholNumber",
+            "type": "slider"
+          },
+          "774": {
+            "fltValue": 1.0,
+            "id": 774,
+            "State": "PAUSECOMBAT",
+            "strValue": "None",
+            "text": "$PauseCombat",
+            "type": "toggle"
+          },
+          "775": {
+            "fltValue": 0.0,
+            "id": 775,
+            "State": "",
+            "strValue": "None",
+            "text": "$WerewolfOptions",
+            "type": "header"
+          },
+          "776": {
+            "fltValue": 1.0,
+            "id": 776,
+            "State": "PAUSEDIALOGUE",
+            "strValue": "None",
+            "text": "$PauseDialogue",
+            "type": "toggle"
+          },
+          "777": {
+            "fltValue": 0.0,
+            "id": 777,
+            "State": "WEREFEED",
+            "strValue": "$Hunger",
+            "text": "$WereFills",
+            "type": "Menu"
+          },
+          "778": {
+            "fltValue": 0.0,
+            "id": 778,
+            "State": "",
+            "strValue": "None",
+            "text": "$Hunger",
+            "type": "header"
+          },
+          "779": {
+            "fltValue": 1.0,
+            "id": 779,
+            "State": "WEREFATIGUE",
+            "strValue": "None",
+            "text": "$WerewolfFatigue",
+            "type": "toggle"
+          },
+          "780": {
+            "fltValue": 1.0,
+            "id": 780,
+            "State": "TOGGLEHUNGER",
+            "strValue": "None",
+            "text": "$ToggleHunger",
+            "type": "toggle"
+          },
+          "781": {
+            "fltValue": 1.0,
+            "id": 781,
+            "State": "WEREPAUSENEEDS",
+            "strValue": "None",
+            "text": "$WerewolfPause",
+            "type": "toggle"
+          },
+          "782": {
+            "fltValue": 7.0,
+            "id": 782,
+            "State": "HUNGERRATE",
+            "strValue": "{0}",
+            "text": "$HungerRate",
+            "type": "slider"
+          },
+          "783": {
+            "fltValue": 0.0,
+            "id": 783,
+            "State": "",
+            "strValue": "None",
+            "text": "None",
+            "type": "empty"
+          },
+          "784": {
+            "fltValue": 0.0,
+            "id": 784,
+            "State": "",
+            "strValue": "None",
+            "text": "$Thirst",
+            "type": "header"
+          },
+          "785": {
+            "fltValue": 0.0,
+            "id": 785,
+            "State": "",
+            "strValue": "None",
+            "text": "$VampireOptions",
+            "type": "header"
+          },
+          "786": {
+            "fltValue": 1.0,
+            "id": 786,
+            "State": "TOGGLETHIRST",
+            "strValue": "None",
+            "text": "$ToggleThirst",
+            "type": "toggle"
+          },
+          "787": {
+            "fltValue": 0.0,
+            "id": 787,
+            "State": "VAMPIRENEEDS",
+            "strValue": "$Immortal",
+            "text": "$VampireNeeds",
+            "type": "Menu"
+          },
+          "788": {
+            "fltValue": 7.0,
+            "id": 788,
+            "State": "THIRSTRATE",
+            "strValue": "{0}",
+            "text": "$ThirstRate",
+            "type": "slider"
+          },
+          "790": {
+            "fltValue": 0.0,
+            "id": 790,
+            "State": "",
+            "strValue": "None",
+            "text": "$Fatigue",
+            "type": "header"
+          },
+          "792": {
+            "fltValue": 1.0,
+            "id": 792,
+            "State": "TOGGLEFATIGUE",
+            "strValue": "None",
+            "text": "$ToggleFatigue",
+            "type": "toggle"
+          },
+          "794": {
+            "fltValue": 7.0,
+            "id": 794,
+            "State": "FATIGUERATE",
+            "strValue": "{0}",
+            "text": "$FatigueRate",
+            "type": "slider"
+          }
+        },
+        "byType": {
+          "empty": [
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[783]"
+          ],
+          "header": [
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[768]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[778]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[784]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[790]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[769]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[775]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[785]"
+          ],
+          "Menu": [
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[777]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[787]"
+          ],
+          "slider": [
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[782]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[788]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[794]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[773]"
+          ],
+          "toggle": [
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[770]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[772]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[774]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[776]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[780]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[786]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[792]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[771]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[779]",
+            "__reference|.mcmOptions.SunHelm.$Needs.byId[781]"
+          ]
+        }
+      }
+    },
+    "True Directional Movement": {
+      "$TrueDirectionalMovement_TargetLockPage": {
+        "byId": {
+          "__metaInfo": {
+            "typeName": "JIntMap"
+          }
+        },
+        "byType": {}
+      }
+    }
+  },
+  "McmOptionsShouldBeReset": 1,
+  "playingRecording": {
+    "modName": "Stage Flow for OStim",
+    "modsPlayed": {
+      "Amorous Adventures": 1,
+      "OCum Ascended": 1,
+      "OISeeYouMasturbating": 1,
+      "OSSO": 1,
+      "OStim NPCs": 1,
+      "Schlongs Of Skyrim": 1,
+      "Stage Flow for OStim": 1
+    },
+    "name": "AUTHORIA_OSTIM",
+    "pageName": "General",
+    "stepFilename": "0009_Stage Flow for OStim.json",
+    "stepIndex": 7,
+    "steps": {
+      "0001_Amorous Adventures.json": [
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Annekke Release Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Blinded by Visions Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Saadia Amorous Dialogue",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Saadia Amorous Dialogue",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Shadows and Scars Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Key To Her Heart Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Loaded For Bear Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Rikke Don't Lose Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Strange Magic Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable The Mark of Love Start",
+          "toggle": "On"
+        },
+        {
+          "Mod": "Amorous Adventures",
+          "option": "Enable Suitors of Camilla Valerius Start",
+          "toggle": "On"
+        }
+      ],
+      "0003_OCum Ascended.json": [
+        {
+          "Mod": "OCum Ascended",
+          "option": "$ocum_option_enable_npc_scene_support",
+          "toggle": "On"
+        },
+        {
+          "Mod": "OCum Ascended",
+          "option": "$ocum_option_disable_cum_shots",
+          "toggle": "On"
+        },
+        {
+          "Mod": "OCum Ascended",
+          "option": "$ocum_option_creampie_chance",
+          "slider": 50.0
+        },
+        {
+          "Mod": "OCum Ascended",
+          "option": "$ocum_option_analpie_chance",
+          "slider": 50.0
+        },
+        {
+          "Mod": "OCum Ascended",
+          "option": "$ocum_option_squirt_chance",
+          "slider": 50.0
+        }
+      ],
+      "0004_OISeeYouMasturbating.json": [
+        {
+          "Mod": "OISeeYouMasturbating",
+          "option": "Percentage of NPCs That Will Masturbate",
+          "slider": 20.0
+        }
+      ],
+      "0005_OSSO.json": [
+        {
+          "Mod": "OSSO",
+          "option": "$master_vol",
+          "page": "$General_Page",
+          "slider": 74.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$effects_vol",
+          "page": "$General_Page",
+          "slider": 20.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$voice_vol",
+          "page": "$General_Page",
+          "slider": 70.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$boobj_vol",
+          "page": "$effects_page",
+          "slider": 0.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$hj_vol",
+          "page": "$effects_page",
+          "slider": 0.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$rub_vol",
+          "page": "$effects_page",
+          "slider": 0.0
+        },
+        {
+          "choose": "$wet_opt_0",
+          "Mod": "OSSO",
+          "option": "$wet_option",
+          "page": "$effects_page"
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$wet_vol",
+          "page": "$effects_page",
+          "slider": 60.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$squelch_vol",
+          "page": "$effects_page",
+          "slider": 30.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$fingering_vol",
+          "page": "$effects_page",
+          "slider": 40.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$grinding_vol",
+          "page": "$effects_page",
+          "slider": 10.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$bj_Vol",
+          "page": "$effects_page",
+          "slider": 70.0
+        },
+        {
+          "choose": "$bj_Opt_1",
+          "Mod": "OSSO",
+          "option": "$bj_Opt",
+          "page": "$effects_page"
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$kissing_vol",
+          "page": "$effects_page",
+          "slider": 30.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$kissSkin_vol",
+          "page": "$effects_page",
+          "slider": 10.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$licking_vol",
+          "page": "$effects_page",
+          "slider": 20.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$cum_th",
+          "page": "$effects_page",
+          "slider": 30.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$cum_in",
+          "page": "$effects_page",
+          "slider": 30.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$creak_bed",
+          "page": "$effects_page",
+          "slider": 25.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$creak_table",
+          "page": "$effects_page",
+          "slider": 25.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$spank_vol",
+          "page": "$effects_page",
+          "slider": 50.0
+        },
+        {
+          "Mod": "OSSO",
+          "option": "$thrust_vol",
+          "page": "$effects_page",
+          "slider": 15.0
+        }
+      ],
+      "0006_OStim NPCs.json": [
+        {
+          "Mod": "OStim NPCs",
+          "option": "$onpcs_option_allow_active_followers",
+          "toggle": "off"
+        },
+        {
+          "Mod": "OStim NPCs",
+          "option": "$onpcs_option_min_night",
+          "slider": 9.0
+        },
+        {
+          "Mod": "OStim NPCs",
+          "option": "$onpcs_option_max_night",
+          "slider": 5.0
+        },
+        {
+          "Mod": "OStim NPCs",
+          "option": "$onpcs_option_min_relation",
+          "slider": 2.0
+        },
+        {
+          "Mod": "OStim NPCs",
+          "option": "$onpcs_option_stop_when_found",
+          "toggle": "off"
+        }
+      ],
+      "0007_OStim NPCs.json": [
+        {
+          "Mod": "OStim NPCs",
+          "option": "$onpcs_option_remove_spells",
+          "toggle": "On"
+        }
+      ],
+      "0008_Schlongs Of Skyrim.json": [
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$Min schlong size",
+          "page": "$General Settings",
+          "slider": 5.0
+        },
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$Spells erections",
+          "page": "$General Settings",
+          "toggle": "off"
+        },
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$SOS potions",
+          "page": "$General Settings",
+          "toggle": "off"
+        },
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$Bend schlong up",
+          "page": "$General Settings",
+          "shortcut": 70
+        },
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$Bend schlong down",
+          "page": "$General Settings",
+          "shortcut": 70
+        },
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$Bend Player schlong",
+          "page": "$General Settings",
+          "shortcut": 70
+        },
+        {
+          "Mod": "Schlongs Of Skyrim",
+          "option": "$Display SOS notifications",
+          "page": "$General Settings",
+          "toggle": "off"
+        }
+      ],
+      "0009_Stage Flow for OStim.json": [
+        {
+          "Mod": "Stage Flow for OStim",
+          "option": "Enable Stage Flow",
+          "page": "General",
+          "toggle": "off"
+        }
+      ]
+    }
+  }
+}

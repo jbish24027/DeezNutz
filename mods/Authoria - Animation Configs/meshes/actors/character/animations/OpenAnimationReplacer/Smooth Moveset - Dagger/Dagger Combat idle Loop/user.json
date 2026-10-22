@@ -1,0 +1,112 @@
+{
+    "name": "Dagger Combat idle Loop",
+    "priority": 83030208,
+    "interruptible": true,
+    "keepRandomResultsOnLoop": true,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "TrueDirectionalMovement.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                },
+                {
+                    "condition": "IsCombatState",
+                    "requiredVersion": "1.1.0.0",
+                    "Combat state": {
+                        "value": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsInCombat",
+                    "requiredVersion": "1.0.0.0"
+                },
+                {
+                    "condition": "HasMagicEffect",
+                    "requiredVersion": "1.0.0.0",
+                    "Magic effect": {
+                        "pluginName": "Smooth Moveset.esp",
+                        "formID": "804"
+                    },
+                    "Active effects only": false
+                }
+            ]
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "Type": {
+                        "value": 2.0
+                    },
+                    "Left hand": false
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 1.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 2.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 3.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 4.0
+                    },
+                    "Left hand": true
+                },
+                {
+                    "condition": "IsEquippedType",
+                    "requiredVersion": "1.0.0.0",
+                    "negated": true,
+                    "Type": {
+                        "value": 8.0
+                    },
+                    "Left hand": true
+                }
+            ]
+        }
+    ]
+}

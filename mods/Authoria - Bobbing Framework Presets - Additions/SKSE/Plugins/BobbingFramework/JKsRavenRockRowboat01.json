@@ -1,0 +1,56 @@
+{
+    "FormID": "0x764~JK's Raven Rock.esp",
+    "actorInfluence": 10.0,
+    "bBoxMaxOffset": [
+        0.0,
+        0.20000000298023224,
+        66.4000015258789
+    ],
+    "bBoxMinOffset": [
+        8.300000190734863,
+        0.8999999761581421,
+        103.30000305175781
+    ],
+    "children": [
+        "0x762~JK's Raven Rock.esp",
+        "0x763~JK's Raven Rock.esp",
+        "0x7AF~JK's Raven Rock.esp",
+        "0x7B4~JK's Raven Rock.esp",
+        "0x7B5~JK's Raven Rock.esp",
+        "0x7B6~JK's Raven Rock.esp",
+        "0x7B7~JK's Raven Rock.esp",
+        "0x7B8~JK's Raven Rock.esp",
+        "0x7B9~JK's Raven Rock.esp"
+    ],
+    "phaseOffset": 0.16200000047683716,
+    "positionMax": [
+        0.0,
+        0.0,
+        2.8480000495910645
+    ],
+    "positionMin": [
+        0.0,
+        0.0,
+        -2.6389999389648438
+    ],
+    "rotationMax": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.0
+    ],
+    "rotationMin": [
+        -0.009999999776482582,
+        -0.009999999776482582,
+        0.0
+    ],
+    "speedPos": [
+        0.8202345371246338,
+        0.8323527574539185,
+        0.7649074196815491
+    ],
+    "speedRot": [
+        0.7411671876907349,
+        0.8299030065536499,
+        0.7341493368148804
+    ]
+}

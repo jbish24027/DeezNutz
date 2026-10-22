@@ -1,0 +1,46 @@
+{
+    "priority": 200012,
+    "disabled": true,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\Malignis Animations\\Alarm_SprintStop\\female\\_variants_mt_runforward",
+            "variantMode": 1,
+            "variantStateScope": 1,
+            "blendBetweenVariants": false,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "s1.hkx"
+                },
+                {
+                    "filename": "s2.hkx"
+                }
+            ]
+        }
+    ],
+    "hasCustomBlendTimeOnLoop": true,
+    "blendTimeOnLoop": 0.0,
+    "conditions": [
+        {
+            "condition": "PRESET",
+            "requiredVersion": "2.2.0.0",
+            "Preset": "Malignis_Base"
+        },
+        {
+            "condition": "AND",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsInCombat",
+                    "requiredVersion": "1.0.0.0"
+                },
+                {
+                    "condition": "IsSprinting",
+                    "requiredVersion": "1.0.0.0"
+                }
+            ]
+        }
+    ]
+}

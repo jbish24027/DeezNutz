@@ -1,0 +1,46 @@
+{
+    "name": "Juncan & Melus - Variant 3",
+    "priority": 92001403,
+    "conditions": [
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IsActorBase",
+                    "requiredVersion": "1.0.0.0",
+                    "Actor base": {
+                        "pluginName": "Vigilant.esm",
+                        "formID": "E0FEB"
+                    }
+                },
+                {
+                    "condition": "IsActorBase",
+                    "requiredVersion": "1.0.0.0",
+                    "Actor base": {
+                        "pluginName": "Vigilant.esm",
+                        "formID": "10E085"
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.25
+            }
+        }
+    ]
+}

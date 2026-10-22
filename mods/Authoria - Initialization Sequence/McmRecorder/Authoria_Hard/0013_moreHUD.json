@@ -1,0 +1,116 @@
+[
+  {
+    "choose": "$mHUD_AutoAlways",
+    "Mod": "moreHUD",
+    "option": "$mHUD_ActivationMode",
+    "page": "$mHUD_GeneralPage"
+  },
+  {
+    "choose": "$mHUD_HotkeyOnly",
+    "Mod": "moreHUD",
+    "option": "$mHUD_ActivationMode",
+    "page": "$mHUD_GeneralPage"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowBooksRead",
+    "page": "$mHUD_GeneralPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowArmorWeightClass",
+    "page": "$mHUD_GeneralPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowValueToWeightRatio",
+    "page": "$mHUD_GeneralPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowKnownEnchantment",
+    "page": "$mHUD_GeneralPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_Visible",
+    "page": "$mHUD_PlayersDataPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_DisplayTargetWeight",
+    "page": "$mHUD_PlayersDataPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowIngredientEffects",
+    "page": "$mHUD_TargetsDataPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowOtherEffects",
+    "page": "$mHUD_TargetsDataPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_Visible",
+    "page": "$mHUD_TargetsCountPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowEnemyLevel",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowEnemySoulLevel",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_AHZShowEnemyHealthStats",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_AHZShowEnemyMagickaStats",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_AHZShowEnemyStaminaStats",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_AHZShowEnemyMagickaMeter",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_AHZShowEnemyStaminaMeter",
+    "page": "$mHUD_EnemysLevelPage",
+    "toggle": "off"
+  },
+  {
+    "Mod": "moreHUD",
+    "option": "$mHUD_ShowOtherEffects",
+    "page": "$mHUD_TargetsDataPage",
+    "toggle": "off"
+  }
+]

@@ -1,0 +1,76 @@
+{
+    "priority": 9901016,
+    "conditions": [
+        {
+            "condition": "IsWeaponDrawn",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IED_GearNodePlacementHint",
+                    "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                    "requiredVersion": "1.0.0.0",
+                    "Gear node ID": {
+                        "value": 16.0
+                    },
+                    "Comparison": "==",
+                    "Weapon placement ID": {
+                        "value": 6.0
+                    }
+                },
+                {
+                    "condition": "IED_GearNodePlacementHint",
+                    "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                    "requiredVersion": "1.0.0.0",
+                    "Gear node ID": {
+                        "value": 16.0
+                    },
+                    "Comparison": "==",
+                    "Weapon placement ID": {
+                        "value": 5.0
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 7.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "Keytrace.esp",
+                "formID": "802"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 26,
+                "actorValueType": "Value"
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 50.0
+            }
+        },
+        {
+            "condition": "HasPerk",
+            "requiredVersion": "1.0.0.0",
+            "Perk": {
+                "pluginName": "Requiem - Weapons and Armor Redone.esp",
+                "formID": "BB5"
+            }
+        }
+    ]
+}

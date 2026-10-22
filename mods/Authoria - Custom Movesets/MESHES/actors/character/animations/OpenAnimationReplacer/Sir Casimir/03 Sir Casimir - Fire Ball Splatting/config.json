@@ -1,0 +1,54 @@
+{
+    "name": "Sir Casimir - Fire Ball Splatting",
+    "priority": 92000803,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Vigilant.esm",
+                "formID": "CF89E"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "actorValue": 24,
+                "actorValueType": "Percentage"
+            },
+            "Comparison": "<=",
+            "Value B": {
+                "value": 0.5
+            }
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "negated": true,
+            "Magic effect": {
+                "pluginName": "Skyrim.esm",
+                "formID": "3AE9E"
+            },
+            "Active effects only": false
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "2.3.0.0",
+            "State": {
+                "scope": "Local",
+                "shouldResetOnLoopOrEcho": true
+            },
+            "Minimum random value": {
+                "value": 0.0
+            },
+            "Maximum random value": {
+                "value": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.75
+            }
+        }
+    ]
+}

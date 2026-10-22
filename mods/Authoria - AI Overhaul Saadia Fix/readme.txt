@@ -1,0 +1,1 @@
+Fixes saadia's AI Package so she doesn't lock bannered mare when she sleeps
